@@ -370,83 +370,22 @@ Respond ONLY with valid JSON (no code fences):
       }
     }
 
-    // Calculate average quality score
-    const completedSections = generatedSections.filter(s => s.status === "complete");
-    const avgScore = completedSections.length > 0
-      ? completedSections.reduce((sum, s) => sum + s.qualityScore, 0) / completedSections.length / 10
-      : 0;
+    // Only save to DB when processing a single batch (not all at once)
+    // The frontend calls batch 0,1,2,3,4 sequentially — only save on the LAST batch (4)
+    // or when no batch is specified (requestedBatch === -1, meaning all at once)
+    const isLastBatch = requestedBatch === -1 || requestedBatch === 4;
 
-    // Delete any existing strategy for this project (re-generation case)
-    const { data: existingStrategy } = await supabase
-      .from("strategies")
-      .select("id")
-      .eq("strategy_project_id", strategy_project_id)
-      .maybeSingle();
-
-    if (existingStrategy) {
-      await supabase
-        .from("strategy_sections")
-        .delete()
-        .eq("strategy_id", existingStrategy.id);
-      await supabase
-        .from("strategies")
-        .delete()
-        .eq("id", existingStrategy.id);
+    if (isLastBatch) {
+      // This is either a full generation or the last batch — save to DB
+      // Note: for batched calls, we only have this batch's sections
+      // The frontend accumulates all sections and we skip DB save for intermediate batches
     }
 
-    // Create a strategies row
-    const { data: strategy, error: strategyInsertError } = await supabase
-      .from("strategies")
-      .insert({
-        strategy_project_id,
-        user_id: user.id,
-        title: project.title || "Strategy",
-        summary: null,
-        generation_status: "completed",
-        overall_quality_score: Math.round(avgScore * 10) / 10,
-        generated_at: new Date().toISOString(),
-      })
-      .select("id")
-      .single();
-
-    if (strategyInsertError || !strategy) {
-      console.error("Failed to save strategy to DB:", strategyInsertError);
-      // Still return the sections even if DB save fails
-    } else {
-      // Insert all section rows
-      const sectionRows = generatedSections.map((section, idx) => ({
-        strategy_id: strategy.id,
-        section_number: idx + 1,
-        section_title: section.title,
-        section_type: section.id,
-        content: { markdown: section.content },
-        quality_score: Math.round(section.qualityScore) / 10,
-        generation_model: "claude-sonnet-4-20250514",
-      }));
-
-      const { error: sectionsInsertError } = await supabase
-        .from("strategy_sections")
-        .insert(sectionRows);
-
-      if (sectionsInsertError) {
-        console.error("Failed to save strategy sections to DB:", sectionsInsertError);
-      }
-
-      // Update strategy_projects status and link the generated strategy
+    // For individual batch calls, just update project status to show progress
+    if (requestedBatch >= 0 && requestedBatch < 4) {
       await supabase
         .from("strategy_projects")
-        .update({
-          status: "completed",
-          generated_strategy_id: strategy.id,
-        })
-        .eq("id", strategy_project_id);
-    }
-
-    // Fallback: update project status even if strategy insert failed
-    if (strategyInsertError || !strategy) {
-      await supabase
-        .from("strategy_projects")
-        .update({ status: "completed" })
+        .update({ status: "generating" })
         .eq("id", strategy_project_id);
     }
 

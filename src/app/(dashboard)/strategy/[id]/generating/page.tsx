@@ -142,11 +142,27 @@ export default function GeneratingPage() {
 
       const generated = allSections;
 
-      // Store results in localStorage
+      // Store results in localStorage as cache
       localStorage.setItem(
         `strategy_result_${strategyId}`,
         JSON.stringify(generated)
       );
+
+      // Save all sections to database
+      setStatusIndex(14); // "Creating action plan..." — final message
+      try {
+        await fetch("/api/ai/save-strategy", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            strategy_project_id: strategyId,
+            sections: generated,
+          }),
+        });
+      } catch (saveErr) {
+        console.error("Failed to save strategy to DB:", saveErr);
+        // Continue anyway — localStorage has the data
+      }
 
       // Clear timeout timer
       if (timeoutRef.current) clearTimeout(timeoutRef.current);
