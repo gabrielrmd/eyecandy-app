@@ -281,8 +281,8 @@ ${fullContext || "No questionnaire responses provided."}`;
       return JSON.parse(jsonText);
     }
 
-    // Split into 5 batches of 3 sections each (each batch ~20-30s, fits Vercel 60s)
-    const BATCH_SIZE = 3;
+    // Generate 1 section per API call (~10-15s each, fits any timeout)
+    const BATCH_SIZE = 1;
     const allBatches = [];
     for (let i = 0; i < STRATEGY_SECTIONS.length; i += BATCH_SIZE) {
       allBatches.push(STRATEGY_SECTIONS.slice(i, i + BATCH_SIZE));
@@ -311,7 +311,7 @@ ${fullContext || "No questionnaire responses provided."}`;
       try {
         const message = await anthropic.messages.create({
           model: "claude-sonnet-4-20250514",
-          max_tokens: 4000,
+          max_tokens: 2000,
           system: SYSTEM_PROMPT,
           messages: [{
             role: "user",
@@ -320,7 +320,7 @@ ${fullContext || "No questionnaire responses provided."}`;
 Project Context:
 ${projectContext}
 
-Each section: 150-250 words, concise markdown. End each with "## Key Takeaways" (3 bullets). Be direct and specific.
+Each section: 100-200 words, concise markdown. End with "## Key Takeaways" (3 bullets). Be direct.
 
 ${batchPrompt}
 
@@ -373,7 +373,7 @@ Respond ONLY with valid JSON (no code fences):
     // Only save to DB when processing a single batch (not all at once)
     // The frontend calls batch 0,1,2,3,4 sequentially — only save on the LAST batch (4)
     // or when no batch is specified (requestedBatch === -1, meaning all at once)
-    const isLastBatch = requestedBatch === -1 || requestedBatch === 4;
+    const isLastBatch = requestedBatch === -1 || requestedBatch === 14;
 
     if (isLastBatch) {
       // This is either a full generation or the last batch — save to DB
@@ -382,7 +382,7 @@ Respond ONLY with valid JSON (no code fences):
     }
 
     // For individual batch calls, just update project status to show progress
-    if (requestedBatch >= 0 && requestedBatch < 4) {
+    if (requestedBatch >= 0 && requestedBatch < 14) {
       await supabase
         .from("strategy_projects")
         .update({ status: "generating" })

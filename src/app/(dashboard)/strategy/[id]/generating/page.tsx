@@ -111,13 +111,13 @@ export default function GeneratingPage() {
         ? JSON.parse(storedResponses)
         : undefined;
 
-      // Generate in 5 batches of 3 sections each to fit within Vercel 60s timeout
-      const TOTAL_BATCHES = 5;
+      // Generate 1 section per API call (15 calls, ~10-15s each)
+      const TOTAL_BATCHES = 15;
       const allSections: Array<{ id: string; title: string; content: string; status: string; qualityScore: number }> = [];
 
       for (let batch = 0; batch < TOTAL_BATCHES; batch++) {
-        setStatusIndex(batch * 3); // Update status message to match current batch
-        setProgress(Math.min(batch * 18 + 5, 88)); // 5%, 23%, 41%, 59%, 77%
+        setStatusIndex(batch); // Show current section name
+        setProgress(Math.min(Math.round((batch / TOTAL_BATCHES) * 90) + 3, 90));
 
         const response = await fetch("/api/ai/generate-strategy", {
           method: "POST",
