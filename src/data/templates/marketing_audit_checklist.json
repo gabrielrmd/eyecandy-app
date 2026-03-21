@@ -10,127 +10,6 @@
     "audit"
   ],
   "estimatedTime": "60 min",
-  "sections": [
-    {
-      "id": "dashboard",
-      "title": "Dashboard",
-      "description": "Complete the Dashboard section",
-      "fields": [
-        {
-          "id": "score_by_category_0",
-          "label": "Score by Category",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "category_1",
-          "label": "Category",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "brand_positioning_2",
-          "label": "Brand & Positioning",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "website_digital_3",
-          "label": "Website & Digital",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "content_strategy_4",
-          "label": "Content Strategy",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "social_media_5",
-          "label": "Social Media",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "paid_advertising_6",
-          "label": "Paid Advertising",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "seo_7",
-          "label": "SEO",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "email_marketing_8",
-          "label": "Email Marketing",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "analytics_data_9",
-          "label": "Analytics & Data",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "team_processes_10",
-          "label": "Team & Processes",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "customer_experience_11",
-          "label": "Customer Experience",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "total_items_scored_12",
-          "label": "TOTAL ITEMS SCORED",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "quick_priority_summary_13",
-          "label": "Quick Priority Summary",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "high_priority_items_14",
-          "label": "High Priority Items",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "advertising_unplugged_clarity_over_noise_15",
-          "label": "Advertising Unplugged — Clarity Over Noise. Purpose Beyond Profit.",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    }
-  ],
   "dashboard": {
     "metrics": [
       {
@@ -144,5 +23,2343 @@
         "format": "number"
       }
     ]
-  }
+  },
+  "sections": [
+    {
+      "id": "dashboard",
+      "title": "Dashboard",
+      "description": "Auto-calculated summary of your data. Complete the working sections to see results here.",
+      "readOnly": true,
+      "fields": [
+        {
+          "id": "dashboard_overview",
+          "label": "Dashboard Overview",
+          "type": "textarea",
+          "placeholder": "Dashboard metrics will be calculated from your inputs in the working sections",
+          "required": false,
+          "readOnly": true
+        }
+      ]
+    },
+    {
+      "id": "brand_positioning",
+      "title": "Brand & Positioning",
+      "description": "Rate each checkpoint for Brand & Positioning",
+      "fields": [
+        {
+          "id": "brand_guidelines_document_exists_and_is_up_to_date_score",
+          "label": "Brand guidelines document exists and is up to date",
+          "type": "scale",
+          "placeholder": "Rate from 1 (Not Started) to 5 (Excellent)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "brand_guidelines_document_exists_and_is_up_to_date_priority",
+          "label": "Brand guidelines document exists and is up to date - Priority",
+          "type": "select",
+          "placeholder": "Select priority level",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "brand_guidelines_document_exists_and_is_up_to_date_notes",
+          "label": "Brand guidelines document exists and is up to date - Notes",
+          "type": "textarea",
+          "placeholder": "Add observations, action items, or deadlines",
+          "required": false
+        },
+        {
+          "id": "brand_guidelines_document_exists_and_is_up_to_date_status",
+          "label": "Brand guidelines document exists and is up to date - Status",
+          "type": "select",
+          "placeholder": "Select status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "unique_value_proposition_is_clearly_defined_and_communicated_score",
+          "label": "Unique value proposition is clearly defined and communicated",
+          "type": "scale",
+          "placeholder": "Rate from 1 (Not Started) to 5 (Excellent)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "unique_value_proposition_is_clearly_defined_and_communicated_priority",
+          "label": "Unique value proposition is clearly defined and communicated - Priority",
+          "type": "select",
+          "placeholder": "Select priority level",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "unique_value_proposition_is_clearly_defined_and_communicated_notes",
+          "label": "Unique value proposition is clearly defined and communicated - Notes",
+          "type": "textarea",
+          "placeholder": "Add observations, action items, or deadlines",
+          "required": false
+        },
+        {
+          "id": "unique_value_proposition_is_clearly_defined_and_communicated_status",
+          "label": "Unique value proposition is clearly defined and communicated - Status",
+          "type": "select",
+          "placeholder": "Select status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "brand_voice_and_tone_are_consistent_across_all_channels_score",
+          "label": "Brand voice and tone are consistent across all channels",
+          "type": "scale",
+          "placeholder": "Rate from 1 (Not Started) to 5 (Excellent)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "brand_voice_and_tone_are_consistent_across_all_channels_priority",
+          "label": "Brand voice and tone are consistent across all channels - Priority",
+          "type": "select",
+          "placeholder": "Select priority level",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "brand_voice_and_tone_are_consistent_across_all_channels_notes",
+          "label": "Brand voice and tone are consistent across all channels - Notes",
+          "type": "textarea",
+          "placeholder": "Add observations, action items, or deadlines",
+          "required": false
+        },
+        {
+          "id": "brand_voice_and_tone_are_consistent_across_all_channels_status",
+          "label": "Brand voice and tone are consistent across all channels - Status",
+          "type": "select",
+          "placeholder": "Select status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "visual_identity_logo_colors_typography_is_consistently_appli_score",
+          "label": "Visual identity (logo, colors, typography) is consistently applied",
+          "type": "scale",
+          "placeholder": "Rate from 1 (Not Started) to 5 (Excellent)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "visual_identity_logo_colors_typography_is_consistently_appli_priority",
+          "label": "Visual identity (logo, colors, typography) is consistently applied - Priority",
+          "type": "select",
+          "placeholder": "Select priority level",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "visual_identity_logo_colors_typography_is_consistently_appli_notes",
+          "label": "Visual identity (logo, colors, typography) is consistently applied - Notes",
+          "type": "textarea",
+          "placeholder": "Add observations, action items, or deadlines",
+          "required": false
+        },
+        {
+          "id": "visual_identity_logo_colors_typography_is_consistently_appli_status",
+          "label": "Visual identity (logo, colors, typography) is consistently applied - Status",
+          "type": "select",
+          "placeholder": "Select status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "competitive_positioning_is_documented_and_reviewed_regularly_score",
+          "label": "Competitive positioning is documented and reviewed regularly",
+          "type": "scale",
+          "placeholder": "Rate from 1 (Not Started) to 5 (Excellent)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "competitive_positioning_is_documented_and_reviewed_regularly_priority",
+          "label": "Competitive positioning is documented and reviewed regularly - Priority",
+          "type": "select",
+          "placeholder": "Select priority level",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "competitive_positioning_is_documented_and_reviewed_regularly_notes",
+          "label": "Competitive positioning is documented and reviewed regularly - Notes",
+          "type": "textarea",
+          "placeholder": "Add observations, action items, or deadlines",
+          "required": false
+        },
+        {
+          "id": "competitive_positioning_is_documented_and_reviewed_regularly_status",
+          "label": "Competitive positioning is documented and reviewed regularly - Status",
+          "type": "select",
+          "placeholder": "Select status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "website_digital",
+      "title": "Website & Digital",
+      "description": "Rate each checkpoint for Website & Digital",
+      "fields": [
+        {
+          "id": "website_loads_in_under_3_seconds_on_mobile_score",
+          "label": "Website loads in under 3 seconds on mobile",
+          "type": "scale",
+          "placeholder": "Rate from 1 (Not Started) to 5 (Excellent)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "website_loads_in_under_3_seconds_on_mobile_priority",
+          "label": "Website loads in under 3 seconds on mobile - Priority",
+          "type": "select",
+          "placeholder": "Select priority level",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "website_loads_in_under_3_seconds_on_mobile_notes",
+          "label": "Website loads in under 3 seconds on mobile - Notes",
+          "type": "textarea",
+          "placeholder": "Add observations, action items, or deadlines",
+          "required": false
+        },
+        {
+          "id": "website_loads_in_under_3_seconds_on_mobile_status",
+          "label": "Website loads in under 3 seconds on mobile - Status",
+          "type": "select",
+          "placeholder": "Select status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "clear_calltoaction_on_every_key_page_score",
+          "label": "Clear call-to-action on every key page",
+          "type": "scale",
+          "placeholder": "Rate from 1 (Not Started) to 5 (Excellent)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "clear_calltoaction_on_every_key_page_priority",
+          "label": "Clear call-to-action on every key page - Priority",
+          "type": "select",
+          "placeholder": "Select priority level",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "clear_calltoaction_on_every_key_page_notes",
+          "label": "Clear call-to-action on every key page - Notes",
+          "type": "textarea",
+          "placeholder": "Add observations, action items, or deadlines",
+          "required": false
+        },
+        {
+          "id": "clear_calltoaction_on_every_key_page_status",
+          "label": "Clear call-to-action on every key page - Status",
+          "type": "select",
+          "placeholder": "Select status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "mobile_responsiveness_is_fully_functional_score",
+          "label": "Mobile responsiveness is fully functional",
+          "type": "scale",
+          "placeholder": "Rate from 1 (Not Started) to 5 (Excellent)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "mobile_responsiveness_is_fully_functional_priority",
+          "label": "Mobile responsiveness is fully functional - Priority",
+          "type": "select",
+          "placeholder": "Select priority level",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "mobile_responsiveness_is_fully_functional_notes",
+          "label": "Mobile responsiveness is fully functional - Notes",
+          "type": "textarea",
+          "placeholder": "Add observations, action items, or deadlines",
+          "required": false
+        },
+        {
+          "id": "mobile_responsiveness_is_fully_functional_status",
+          "label": "Mobile responsiveness is fully functional - Status",
+          "type": "select",
+          "placeholder": "Select status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "contactlead_capture_forms_are_working_and_optimised_score",
+          "label": "Contact/lead capture forms are working and optimised",
+          "type": "scale",
+          "placeholder": "Rate from 1 (Not Started) to 5 (Excellent)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "contactlead_capture_forms_are_working_and_optimised_priority",
+          "label": "Contact/lead capture forms are working and optimised - Priority",
+          "type": "select",
+          "placeholder": "Select priority level",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "contactlead_capture_forms_are_working_and_optimised_notes",
+          "label": "Contact/lead capture forms are working and optimised - Notes",
+          "type": "textarea",
+          "placeholder": "Add observations, action items, or deadlines",
+          "required": false
+        },
+        {
+          "id": "contactlead_capture_forms_are_working_and_optimised_status",
+          "label": "Contact/lead capture forms are working and optimised - Status",
+          "type": "select",
+          "placeholder": "Select status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "analytics_tracking_ga4_events_conversions_is_properly_config_score",
+          "label": "Analytics tracking (GA4, events, conversions) is properly configured",
+          "type": "scale",
+          "placeholder": "Rate from 1 (Not Started) to 5 (Excellent)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "analytics_tracking_ga4_events_conversions_is_properly_config_priority",
+          "label": "Analytics tracking (GA4, events, conversions) is properly configured - Priority",
+          "type": "select",
+          "placeholder": "Select priority level",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "analytics_tracking_ga4_events_conversions_is_properly_config_notes",
+          "label": "Analytics tracking (GA4, events, conversions) is properly configured - Notes",
+          "type": "textarea",
+          "placeholder": "Add observations, action items, or deadlines",
+          "required": false
+        },
+        {
+          "id": "analytics_tracking_ga4_events_conversions_is_properly_config_status",
+          "label": "Analytics tracking (GA4, events, conversions) is properly configured - Status",
+          "type": "select",
+          "placeholder": "Select status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "content_strategy",
+      "title": "Content Strategy",
+      "description": "Rate each checkpoint for Content Strategy",
+      "fields": [
+        {
+          "id": "content_calendar_exists_and_is_followed_consistently_score",
+          "label": "Content calendar exists and is followed consistently",
+          "type": "scale",
+          "placeholder": "Rate from 1 (Not Started) to 5 (Excellent)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "content_calendar_exists_and_is_followed_consistently_priority",
+          "label": "Content calendar exists and is followed consistently - Priority",
+          "type": "select",
+          "placeholder": "Select priority level",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "content_calendar_exists_and_is_followed_consistently_notes",
+          "label": "Content calendar exists and is followed consistently - Notes",
+          "type": "textarea",
+          "placeholder": "Add observations, action items, or deadlines",
+          "required": false
+        },
+        {
+          "id": "content_calendar_exists_and_is_followed_consistently_status",
+          "label": "Content calendar exists and is followed consistently - Status",
+          "type": "select",
+          "placeholder": "Select status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "content_is_mapped_to_buyer_journey_stages_awareness_consider_score",
+          "label": "Content is mapped to buyer journey stages (awareness, consideration, decision)",
+          "type": "scale",
+          "placeholder": "Rate from 1 (Not Started) to 5 (Excellent)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "content_is_mapped_to_buyer_journey_stages_awareness_consider_priority",
+          "label": "Content is mapped to buyer journey stages (awareness, consideration, decision) - Priority",
+          "type": "select",
+          "placeholder": "Select priority level",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "content_is_mapped_to_buyer_journey_stages_awareness_consider_notes",
+          "label": "Content is mapped to buyer journey stages (awareness, consideration, decision) - Notes",
+          "type": "textarea",
+          "placeholder": "Add observations, action items, or deadlines",
+          "required": false
+        },
+        {
+          "id": "content_is_mapped_to_buyer_journey_stages_awareness_consider_status",
+          "label": "Content is mapped to buyer journey stages (awareness, consideration, decision) - Status",
+          "type": "select",
+          "placeholder": "Select status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "blogresource_hub_is_active_with_regular_publishing_cadence_score",
+          "label": "Blog/resource hub is active with regular publishing cadence",
+          "type": "scale",
+          "placeholder": "Rate from 1 (Not Started) to 5 (Excellent)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "blogresource_hub_is_active_with_regular_publishing_cadence_priority",
+          "label": "Blog/resource hub is active with regular publishing cadence - Priority",
+          "type": "select",
+          "placeholder": "Select priority level",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "blogresource_hub_is_active_with_regular_publishing_cadence_notes",
+          "label": "Blog/resource hub is active with regular publishing cadence - Notes",
+          "type": "textarea",
+          "placeholder": "Add observations, action items, or deadlines",
+          "required": false
+        },
+        {
+          "id": "blogresource_hub_is_active_with_regular_publishing_cadence_status",
+          "label": "Blog/resource hub is active with regular publishing cadence - Status",
+          "type": "select",
+          "placeholder": "Select status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "content_repurposing_strategy_is_in_place_blog_social_email_v_score",
+          "label": "Content repurposing strategy is in place (blog → social → email → video)",
+          "type": "scale",
+          "placeholder": "Rate from 1 (Not Started) to 5 (Excellent)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "content_repurposing_strategy_is_in_place_blog_social_email_v_priority",
+          "label": "Content repurposing strategy is in place (blog → social → email → video) - Priority",
+          "type": "select",
+          "placeholder": "Select priority level",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "content_repurposing_strategy_is_in_place_blog_social_email_v_notes",
+          "label": "Content repurposing strategy is in place (blog → social → email → video) - Notes",
+          "type": "textarea",
+          "placeholder": "Add observations, action items, or deadlines",
+          "required": false
+        },
+        {
+          "id": "content_repurposing_strategy_is_in_place_blog_social_email_v_status",
+          "label": "Content repurposing strategy is in place (blog → social → email → video) - Status",
+          "type": "select",
+          "placeholder": "Select status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "content_performance_is_measured_and_informs_future_topics_score",
+          "label": "Content performance is measured and informs future topics",
+          "type": "scale",
+          "placeholder": "Rate from 1 (Not Started) to 5 (Excellent)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "content_performance_is_measured_and_informs_future_topics_priority",
+          "label": "Content performance is measured and informs future topics - Priority",
+          "type": "select",
+          "placeholder": "Select priority level",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "content_performance_is_measured_and_informs_future_topics_notes",
+          "label": "Content performance is measured and informs future topics - Notes",
+          "type": "textarea",
+          "placeholder": "Add observations, action items, or deadlines",
+          "required": false
+        },
+        {
+          "id": "content_performance_is_measured_and_informs_future_topics_status",
+          "label": "Content performance is measured and informs future topics - Status",
+          "type": "select",
+          "placeholder": "Select status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "social_media",
+      "title": "Social Media",
+      "description": "Rate each checkpoint for Social Media",
+      "fields": [
+        {
+          "id": "social_profiles_are_complete_branded_and_up_to_date_score",
+          "label": "Social profiles are complete, branded, and up to date",
+          "type": "scale",
+          "placeholder": "Rate from 1 (Not Started) to 5 (Excellent)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "social_profiles_are_complete_branded_and_up_to_date_priority",
+          "label": "Social profiles are complete, branded, and up to date - Priority",
+          "type": "select",
+          "placeholder": "Select priority level",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "social_profiles_are_complete_branded_and_up_to_date_notes",
+          "label": "Social profiles are complete, branded, and up to date - Notes",
+          "type": "textarea",
+          "placeholder": "Add observations, action items, or deadlines",
+          "required": false
+        },
+        {
+          "id": "social_profiles_are_complete_branded_and_up_to_date_status",
+          "label": "Social profiles are complete, branded, and up to date - Status",
+          "type": "select",
+          "placeholder": "Select status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "posting_frequency_is_consistent_minimum_3xweek_per_platform_score",
+          "label": "Posting frequency is consistent (minimum 3x/week per platform)",
+          "type": "scale",
+          "placeholder": "Rate from 1 (Not Started) to 5 (Excellent)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "posting_frequency_is_consistent_minimum_3xweek_per_platform_priority",
+          "label": "Posting frequency is consistent (minimum 3x/week per platform) - Priority",
+          "type": "select",
+          "placeholder": "Select priority level",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "posting_frequency_is_consistent_minimum_3xweek_per_platform_notes",
+          "label": "Posting frequency is consistent (minimum 3x/week per platform) - Notes",
+          "type": "textarea",
+          "placeholder": "Add observations, action items, or deadlines",
+          "required": false
+        },
+        {
+          "id": "posting_frequency_is_consistent_minimum_3xweek_per_platform_status",
+          "label": "Posting frequency is consistent (minimum 3x/week per platform) - Status",
+          "type": "select",
+          "placeholder": "Select status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "community_engagement_replies_dms_comments_is_active_score",
+          "label": "Community engagement (replies, DMs, comments) is active",
+          "type": "scale",
+          "placeholder": "Rate from 1 (Not Started) to 5 (Excellent)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "community_engagement_replies_dms_comments_is_active_priority",
+          "label": "Community engagement (replies, DMs, comments) is active - Priority",
+          "type": "select",
+          "placeholder": "Select priority level",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "community_engagement_replies_dms_comments_is_active_notes",
+          "label": "Community engagement (replies, DMs, comments) is active - Notes",
+          "type": "textarea",
+          "placeholder": "Add observations, action items, or deadlines",
+          "required": false
+        },
+        {
+          "id": "community_engagement_replies_dms_comments_is_active_status",
+          "label": "Community engagement (replies, DMs, comments) is active - Status",
+          "type": "select",
+          "placeholder": "Select status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "social_media_kpis_are_tracked_reach_engagement_rate_clicks_score",
+          "label": "Social media KPIs are tracked (reach, engagement rate, clicks)",
+          "type": "scale",
+          "placeholder": "Rate from 1 (Not Started) to 5 (Excellent)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "social_media_kpis_are_tracked_reach_engagement_rate_clicks_priority",
+          "label": "Social media KPIs are tracked (reach, engagement rate, clicks) - Priority",
+          "type": "select",
+          "placeholder": "Select priority level",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "social_media_kpis_are_tracked_reach_engagement_rate_clicks_notes",
+          "label": "Social media KPIs are tracked (reach, engagement rate, clicks) - Notes",
+          "type": "textarea",
+          "placeholder": "Add observations, action items, or deadlines",
+          "required": false
+        },
+        {
+          "id": "social_media_kpis_are_tracked_reach_engagement_rate_clicks_status",
+          "label": "Social media KPIs are tracked (reach, engagement rate, clicks) - Status",
+          "type": "select",
+          "placeholder": "Select status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "platform_strategy_is_tailored_not_same_content_on_all_channe_score",
+          "label": "Platform strategy is tailored (not same content on all channels)",
+          "type": "scale",
+          "placeholder": "Rate from 1 (Not Started) to 5 (Excellent)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "platform_strategy_is_tailored_not_same_content_on_all_channe_priority",
+          "label": "Platform strategy is tailored (not same content on all channels) - Priority",
+          "type": "select",
+          "placeholder": "Select priority level",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "platform_strategy_is_tailored_not_same_content_on_all_channe_notes",
+          "label": "Platform strategy is tailored (not same content on all channels) - Notes",
+          "type": "textarea",
+          "placeholder": "Add observations, action items, or deadlines",
+          "required": false
+        },
+        {
+          "id": "platform_strategy_is_tailored_not_same_content_on_all_channe_status",
+          "label": "Platform strategy is tailored (not same content on all channels) - Status",
+          "type": "select",
+          "placeholder": "Select status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "paid_advertising",
+      "title": "Paid Advertising",
+      "description": "Rate each checkpoint for Paid Advertising",
+      "fields": [
+        {
+          "id": "paid_campaigns_have_clear_objectives_and_kpis_defined_score",
+          "label": "Paid campaigns have clear objectives and KPIs defined",
+          "type": "scale",
+          "placeholder": "Rate from 1 (Not Started) to 5 (Excellent)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "paid_campaigns_have_clear_objectives_and_kpis_defined_priority",
+          "label": "Paid campaigns have clear objectives and KPIs defined - Priority",
+          "type": "select",
+          "placeholder": "Select priority level",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "paid_campaigns_have_clear_objectives_and_kpis_defined_notes",
+          "label": "Paid campaigns have clear objectives and KPIs defined - Notes",
+          "type": "textarea",
+          "placeholder": "Add observations, action items, or deadlines",
+          "required": false
+        },
+        {
+          "id": "paid_campaigns_have_clear_objectives_and_kpis_defined_status",
+          "label": "Paid campaigns have clear objectives and KPIs defined - Status",
+          "type": "select",
+          "placeholder": "Select status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "ad_creative_is_refreshed_regularly_no_creative_fatigue_score",
+          "label": "Ad creative is refreshed regularly (no creative fatigue)",
+          "type": "scale",
+          "placeholder": "Rate from 1 (Not Started) to 5 (Excellent)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "ad_creative_is_refreshed_regularly_no_creative_fatigue_priority",
+          "label": "Ad creative is refreshed regularly (no creative fatigue) - Priority",
+          "type": "select",
+          "placeholder": "Select priority level",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "ad_creative_is_refreshed_regularly_no_creative_fatigue_notes",
+          "label": "Ad creative is refreshed regularly (no creative fatigue) - Notes",
+          "type": "textarea",
+          "placeholder": "Add observations, action items, or deadlines",
+          "required": false
+        },
+        {
+          "id": "ad_creative_is_refreshed_regularly_no_creative_fatigue_status",
+          "label": "Ad creative is refreshed regularly (no creative fatigue) - Status",
+          "type": "select",
+          "placeholder": "Select status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "audience_targeting_and_segmentation_are_optimised_score",
+          "label": "Audience targeting and segmentation are optimised",
+          "type": "scale",
+          "placeholder": "Rate from 1 (Not Started) to 5 (Excellent)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "audience_targeting_and_segmentation_are_optimised_priority",
+          "label": "Audience targeting and segmentation are optimised - Priority",
+          "type": "select",
+          "placeholder": "Select priority level",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "audience_targeting_and_segmentation_are_optimised_notes",
+          "label": "Audience targeting and segmentation are optimised - Notes",
+          "type": "textarea",
+          "placeholder": "Add observations, action items, or deadlines",
+          "required": false
+        },
+        {
+          "id": "audience_targeting_and_segmentation_are_optimised_status",
+          "label": "Audience targeting and segmentation are optimised - Status",
+          "type": "select",
+          "placeholder": "Select status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "budget_allocation_is_based_on_channel_performance_data_score",
+          "label": "Budget allocation is based on channel performance data",
+          "type": "scale",
+          "placeholder": "Rate from 1 (Not Started) to 5 (Excellent)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "budget_allocation_is_based_on_channel_performance_data_priority",
+          "label": "Budget allocation is based on channel performance data - Priority",
+          "type": "select",
+          "placeholder": "Select priority level",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "budget_allocation_is_based_on_channel_performance_data_notes",
+          "label": "Budget allocation is based on channel performance data - Notes",
+          "type": "textarea",
+          "placeholder": "Add observations, action items, or deadlines",
+          "required": false
+        },
+        {
+          "id": "budget_allocation_is_based_on_channel_performance_data_status",
+          "label": "Budget allocation is based on channel performance data - Status",
+          "type": "select",
+          "placeholder": "Select status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "roascpa_is_tracked_and_meets_profitability_targets_score",
+          "label": "ROAS/CPA is tracked and meets profitability targets",
+          "type": "scale",
+          "placeholder": "Rate from 1 (Not Started) to 5 (Excellent)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "roascpa_is_tracked_and_meets_profitability_targets_priority",
+          "label": "ROAS/CPA is tracked and meets profitability targets - Priority",
+          "type": "select",
+          "placeholder": "Select priority level",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "roascpa_is_tracked_and_meets_profitability_targets_notes",
+          "label": "ROAS/CPA is tracked and meets profitability targets - Notes",
+          "type": "textarea",
+          "placeholder": "Add observations, action items, or deadlines",
+          "required": false
+        },
+        {
+          "id": "roascpa_is_tracked_and_meets_profitability_targets_status",
+          "label": "ROAS/CPA is tracked and meets profitability targets - Status",
+          "type": "select",
+          "placeholder": "Select status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "seo",
+      "title": "SEO",
+      "description": "Rate each checkpoint for SEO",
+      "fields": [
+        {
+          "id": "keyword_strategy_is_documented_and_reviewed_quarterly_score",
+          "label": "Keyword strategy is documented and reviewed quarterly",
+          "type": "scale",
+          "placeholder": "Rate from 1 (Not Started) to 5 (Excellent)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "keyword_strategy_is_documented_and_reviewed_quarterly_priority",
+          "label": "Keyword strategy is documented and reviewed quarterly - Priority",
+          "type": "select",
+          "placeholder": "Select priority level",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "keyword_strategy_is_documented_and_reviewed_quarterly_notes",
+          "label": "Keyword strategy is documented and reviewed quarterly - Notes",
+          "type": "textarea",
+          "placeholder": "Add observations, action items, or deadlines",
+          "required": false
+        },
+        {
+          "id": "keyword_strategy_is_documented_and_reviewed_quarterly_status",
+          "label": "Keyword strategy is documented and reviewed quarterly - Status",
+          "type": "select",
+          "placeholder": "Select status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "onpage_seo_titles_meta_headings_alt_tags_is_optimised_score",
+          "label": "On-page SEO (titles, meta, headings, alt tags) is optimised",
+          "type": "scale",
+          "placeholder": "Rate from 1 (Not Started) to 5 (Excellent)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "onpage_seo_titles_meta_headings_alt_tags_is_optimised_priority",
+          "label": "On-page SEO (titles, meta, headings, alt tags) is optimised - Priority",
+          "type": "select",
+          "placeholder": "Select priority level",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "onpage_seo_titles_meta_headings_alt_tags_is_optimised_notes",
+          "label": "On-page SEO (titles, meta, headings, alt tags) is optimised - Notes",
+          "type": "textarea",
+          "placeholder": "Add observations, action items, or deadlines",
+          "required": false
+        },
+        {
+          "id": "onpage_seo_titles_meta_headings_alt_tags_is_optimised_status",
+          "label": "On-page SEO (titles, meta, headings, alt tags) is optimised - Status",
+          "type": "select",
+          "placeholder": "Select status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "technical_seo_sitemap_robotstxt_page_speed_core_web_vitals_i_score",
+          "label": "Technical SEO (sitemap, robots.txt, page speed, core web vitals) is clean",
+          "type": "scale",
+          "placeholder": "Rate from 1 (Not Started) to 5 (Excellent)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "technical_seo_sitemap_robotstxt_page_speed_core_web_vitals_i_priority",
+          "label": "Technical SEO (sitemap, robots.txt, page speed, core web vitals) is clean - Priority",
+          "type": "select",
+          "placeholder": "Select priority level",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "technical_seo_sitemap_robotstxt_page_speed_core_web_vitals_i_notes",
+          "label": "Technical SEO (sitemap, robots.txt, page speed, core web vitals) is clean - Notes",
+          "type": "textarea",
+          "placeholder": "Add observations, action items, or deadlines",
+          "required": false
+        },
+        {
+          "id": "technical_seo_sitemap_robotstxt_page_speed_core_web_vitals_i_status",
+          "label": "Technical SEO (sitemap, robots.txt, page speed, core web vitals) is clean - Status",
+          "type": "select",
+          "placeholder": "Select status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "backlink_profile_is_monitored_and_linkbuilding_is_active_score",
+          "label": "Backlink profile is monitored and link-building is active",
+          "type": "scale",
+          "placeholder": "Rate from 1 (Not Started) to 5 (Excellent)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "backlink_profile_is_monitored_and_linkbuilding_is_active_priority",
+          "label": "Backlink profile is monitored and link-building is active - Priority",
+          "type": "select",
+          "placeholder": "Select priority level",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "backlink_profile_is_monitored_and_linkbuilding_is_active_notes",
+          "label": "Backlink profile is monitored and link-building is active - Notes",
+          "type": "textarea",
+          "placeholder": "Add observations, action items, or deadlines",
+          "required": false
+        },
+        {
+          "id": "backlink_profile_is_monitored_and_linkbuilding_is_active_status",
+          "label": "Backlink profile is monitored and link-building is active - Status",
+          "type": "select",
+          "placeholder": "Select status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "local_seo_google_business_profile_citations_is_managed_if_ap_score",
+          "label": "Local SEO (Google Business Profile, citations) is managed if applicable",
+          "type": "scale",
+          "placeholder": "Rate from 1 (Not Started) to 5 (Excellent)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "local_seo_google_business_profile_citations_is_managed_if_ap_priority",
+          "label": "Local SEO (Google Business Profile, citations) is managed if applicable - Priority",
+          "type": "select",
+          "placeholder": "Select priority level",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "local_seo_google_business_profile_citations_is_managed_if_ap_notes",
+          "label": "Local SEO (Google Business Profile, citations) is managed if applicable - Notes",
+          "type": "textarea",
+          "placeholder": "Add observations, action items, or deadlines",
+          "required": false
+        },
+        {
+          "id": "local_seo_google_business_profile_citations_is_managed_if_ap_status",
+          "label": "Local SEO (Google Business Profile, citations) is managed if applicable - Status",
+          "type": "select",
+          "placeholder": "Select status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "email_marketing",
+      "title": "Email Marketing",
+      "description": "Rate each checkpoint for Email Marketing",
+      "fields": [
+        {
+          "id": "email_list_is_segmented_by_behaviour_stage_or_persona_score",
+          "label": "Email list is segmented by behaviour, stage, or persona",
+          "type": "scale",
+          "placeholder": "Rate from 1 (Not Started) to 5 (Excellent)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "email_list_is_segmented_by_behaviour_stage_or_persona_priority",
+          "label": "Email list is segmented by behaviour, stage, or persona - Priority",
+          "type": "select",
+          "placeholder": "Select priority level",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "email_list_is_segmented_by_behaviour_stage_or_persona_notes",
+          "label": "Email list is segmented by behaviour, stage, or persona - Notes",
+          "type": "textarea",
+          "placeholder": "Add observations, action items, or deadlines",
+          "required": false
+        },
+        {
+          "id": "email_list_is_segmented_by_behaviour_stage_or_persona_status",
+          "label": "Email list is segmented by behaviour, stage, or persona - Status",
+          "type": "select",
+          "placeholder": "Select status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "welcomeonboarding_sequence_is_automated_and_performing_score",
+          "label": "Welcome/onboarding sequence is automated and performing",
+          "type": "scale",
+          "placeholder": "Rate from 1 (Not Started) to 5 (Excellent)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "welcomeonboarding_sequence_is_automated_and_performing_priority",
+          "label": "Welcome/onboarding sequence is automated and performing - Priority",
+          "type": "select",
+          "placeholder": "Select priority level",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "welcomeonboarding_sequence_is_automated_and_performing_notes",
+          "label": "Welcome/onboarding sequence is automated and performing - Notes",
+          "type": "textarea",
+          "placeholder": "Add observations, action items, or deadlines",
+          "required": false
+        },
+        {
+          "id": "welcomeonboarding_sequence_is_automated_and_performing_status",
+          "label": "Welcome/onboarding sequence is automated and performing - Status",
+          "type": "select",
+          "placeholder": "Select status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "regular_newsletter_or_nurture_cadence_is_maintained_score",
+          "label": "Regular newsletter or nurture cadence is maintained",
+          "type": "scale",
+          "placeholder": "Rate from 1 (Not Started) to 5 (Excellent)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "regular_newsletter_or_nurture_cadence_is_maintained_priority",
+          "label": "Regular newsletter or nurture cadence is maintained - Priority",
+          "type": "select",
+          "placeholder": "Select priority level",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "regular_newsletter_or_nurture_cadence_is_maintained_notes",
+          "label": "Regular newsletter or nurture cadence is maintained - Notes",
+          "type": "textarea",
+          "placeholder": "Add observations, action items, or deadlines",
+          "required": false
+        },
+        {
+          "id": "regular_newsletter_or_nurture_cadence_is_maintained_status",
+          "label": "Regular newsletter or nurture cadence is maintained - Status",
+          "type": "select",
+          "placeholder": "Select status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "email_deliverability_is_monitored_bounce_rate_spam_complaint_score",
+          "label": "Email deliverability is monitored (bounce rate, spam complaints)",
+          "type": "scale",
+          "placeholder": "Rate from 1 (Not Started) to 5 (Excellent)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "email_deliverability_is_monitored_bounce_rate_spam_complaint_priority",
+          "label": "Email deliverability is monitored (bounce rate, spam complaints) - Priority",
+          "type": "select",
+          "placeholder": "Select priority level",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "email_deliverability_is_monitored_bounce_rate_spam_complaint_notes",
+          "label": "Email deliverability is monitored (bounce rate, spam complaints) - Notes",
+          "type": "textarea",
+          "placeholder": "Add observations, action items, or deadlines",
+          "required": false
+        },
+        {
+          "id": "email_deliverability_is_monitored_bounce_rate_spam_complaint_status",
+          "label": "Email deliverability is monitored (bounce rate, spam complaints) - Status",
+          "type": "select",
+          "placeholder": "Select status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "ab_testing_is_conducted_on_subject_lines_ctas_and_content_score",
+          "label": "A/B testing is conducted on subject lines, CTAs, and content",
+          "type": "scale",
+          "placeholder": "Rate from 1 (Not Started) to 5 (Excellent)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "ab_testing_is_conducted_on_subject_lines_ctas_and_content_priority",
+          "label": "A/B testing is conducted on subject lines, CTAs, and content - Priority",
+          "type": "select",
+          "placeholder": "Select priority level",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "ab_testing_is_conducted_on_subject_lines_ctas_and_content_notes",
+          "label": "A/B testing is conducted on subject lines, CTAs, and content - Notes",
+          "type": "textarea",
+          "placeholder": "Add observations, action items, or deadlines",
+          "required": false
+        },
+        {
+          "id": "ab_testing_is_conducted_on_subject_lines_ctas_and_content_status",
+          "label": "A/B testing is conducted on subject lines, CTAs, and content - Status",
+          "type": "select",
+          "placeholder": "Select status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "analytics_data",
+      "title": "Analytics & Data",
+      "description": "Rate each checkpoint for Analytics & Data",
+      "fields": [
+        {
+          "id": "marketing_dashboard_exists_with_key_metrics_updated_regularl_score",
+          "label": "Marketing dashboard exists with key metrics updated regularly",
+          "type": "scale",
+          "placeholder": "Rate from 1 (Not Started) to 5 (Excellent)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "marketing_dashboard_exists_with_key_metrics_updated_regularl_priority",
+          "label": "Marketing dashboard exists with key metrics updated regularly - Priority",
+          "type": "select",
+          "placeholder": "Select priority level",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "marketing_dashboard_exists_with_key_metrics_updated_regularl_notes",
+          "label": "Marketing dashboard exists with key metrics updated regularly - Notes",
+          "type": "textarea",
+          "placeholder": "Add observations, action items, or deadlines",
+          "required": false
+        },
+        {
+          "id": "marketing_dashboard_exists_with_key_metrics_updated_regularl_status",
+          "label": "Marketing dashboard exists with key metrics updated regularly - Status",
+          "type": "select",
+          "placeholder": "Select status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "attribution_model_is_defined_first_touch_last_touch_multitou_score",
+          "label": "Attribution model is defined (first touch, last touch, multi-touch)",
+          "type": "scale",
+          "placeholder": "Rate from 1 (Not Started) to 5 (Excellent)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "attribution_model_is_defined_first_touch_last_touch_multitou_priority",
+          "label": "Attribution model is defined (first touch, last touch, multi-touch) - Priority",
+          "type": "select",
+          "placeholder": "Select priority level",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "attribution_model_is_defined_first_touch_last_touch_multitou_notes",
+          "label": "Attribution model is defined (first touch, last touch, multi-touch) - Notes",
+          "type": "textarea",
+          "placeholder": "Add observations, action items, or deadlines",
+          "required": false
+        },
+        {
+          "id": "attribution_model_is_defined_first_touch_last_touch_multitou_status",
+          "label": "Attribution model is defined (first touch, last touch, multi-touch) - Status",
+          "type": "select",
+          "placeholder": "Select status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "monthlyquarterly_reporting_cadence_is_in_place_score",
+          "label": "Monthly/quarterly reporting cadence is in place",
+          "type": "scale",
+          "placeholder": "Rate from 1 (Not Started) to 5 (Excellent)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "monthlyquarterly_reporting_cadence_is_in_place_priority",
+          "label": "Monthly/quarterly reporting cadence is in place - Priority",
+          "type": "select",
+          "placeholder": "Select priority level",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "monthlyquarterly_reporting_cadence_is_in_place_notes",
+          "label": "Monthly/quarterly reporting cadence is in place - Notes",
+          "type": "textarea",
+          "placeholder": "Add observations, action items, or deadlines",
+          "required": false
+        },
+        {
+          "id": "monthlyquarterly_reporting_cadence_is_in_place_status",
+          "label": "Monthly/quarterly reporting cadence is in place - Status",
+          "type": "select",
+          "placeholder": "Select status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "data_is_used_to_inform_decisions_not_just_collected_score",
+          "label": "Data is used to inform decisions (not just collected)",
+          "type": "scale",
+          "placeholder": "Rate from 1 (Not Started) to 5 (Excellent)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "data_is_used_to_inform_decisions_not_just_collected_priority",
+          "label": "Data is used to inform decisions (not just collected) - Priority",
+          "type": "select",
+          "placeholder": "Select priority level",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "data_is_used_to_inform_decisions_not_just_collected_notes",
+          "label": "Data is used to inform decisions (not just collected) - Notes",
+          "type": "textarea",
+          "placeholder": "Add observations, action items, or deadlines",
+          "required": false
+        },
+        {
+          "id": "data_is_used_to_inform_decisions_not_just_collected_status",
+          "label": "Data is used to inform decisions (not just collected) - Status",
+          "type": "select",
+          "placeholder": "Select status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "privacy_compliance_gdpr_cookie_consent_is_implemented_score",
+          "label": "Privacy compliance (GDPR, cookie consent) is implemented",
+          "type": "scale",
+          "placeholder": "Rate from 1 (Not Started) to 5 (Excellent)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "privacy_compliance_gdpr_cookie_consent_is_implemented_priority",
+          "label": "Privacy compliance (GDPR, cookie consent) is implemented - Priority",
+          "type": "select",
+          "placeholder": "Select priority level",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "privacy_compliance_gdpr_cookie_consent_is_implemented_notes",
+          "label": "Privacy compliance (GDPR, cookie consent) is implemented - Notes",
+          "type": "textarea",
+          "placeholder": "Add observations, action items, or deadlines",
+          "required": false
+        },
+        {
+          "id": "privacy_compliance_gdpr_cookie_consent_is_implemented_status",
+          "label": "Privacy compliance (GDPR, cookie consent) is implemented - Status",
+          "type": "select",
+          "placeholder": "Select status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "team_processes",
+      "title": "Team & Processes",
+      "description": "Rate each checkpoint for Team & Processes",
+      "fields": [
+        {
+          "id": "marketing_team_roles_and_responsibilities_are_clearly_define_score",
+          "label": "Marketing team roles and responsibilities are clearly defined",
+          "type": "scale",
+          "placeholder": "Rate from 1 (Not Started) to 5 (Excellent)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "marketing_team_roles_and_responsibilities_are_clearly_define_priority",
+          "label": "Marketing team roles and responsibilities are clearly defined - Priority",
+          "type": "select",
+          "placeholder": "Select priority level",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "marketing_team_roles_and_responsibilities_are_clearly_define_notes",
+          "label": "Marketing team roles and responsibilities are clearly defined - Notes",
+          "type": "textarea",
+          "placeholder": "Add observations, action items, or deadlines",
+          "required": false
+        },
+        {
+          "id": "marketing_team_roles_and_responsibilities_are_clearly_define_status",
+          "label": "Marketing team roles and responsibilities are clearly defined - Status",
+          "type": "select",
+          "placeholder": "Select status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "marketingsales_alignment_workflow_exists_sla_handoff_process_score",
+          "label": "Marketing-sales alignment workflow exists (SLA, handoff process)",
+          "type": "scale",
+          "placeholder": "Rate from 1 (Not Started) to 5 (Excellent)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "marketingsales_alignment_workflow_exists_sla_handoff_process_priority",
+          "label": "Marketing-sales alignment workflow exists (SLA, handoff process) - Priority",
+          "type": "select",
+          "placeholder": "Select priority level",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "marketingsales_alignment_workflow_exists_sla_handoff_process_notes",
+          "label": "Marketing-sales alignment workflow exists (SLA, handoff process) - Notes",
+          "type": "textarea",
+          "placeholder": "Add observations, action items, or deadlines",
+          "required": false
+        },
+        {
+          "id": "marketingsales_alignment_workflow_exists_sla_handoff_process_status",
+          "label": "Marketing-sales alignment workflow exists (SLA, handoff process) - Status",
+          "type": "select",
+          "placeholder": "Select status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "marketing_sops_are_documented_for_recurring_tasks_score",
+          "label": "Marketing SOPs are documented for recurring tasks",
+          "type": "scale",
+          "placeholder": "Rate from 1 (Not Started) to 5 (Excellent)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "marketing_sops_are_documented_for_recurring_tasks_priority",
+          "label": "Marketing SOPs are documented for recurring tasks - Priority",
+          "type": "select",
+          "placeholder": "Select priority level",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "marketing_sops_are_documented_for_recurring_tasks_notes",
+          "label": "Marketing SOPs are documented for recurring tasks - Notes",
+          "type": "textarea",
+          "placeholder": "Add observations, action items, or deadlines",
+          "required": false
+        },
+        {
+          "id": "marketing_sops_are_documented_for_recurring_tasks_status",
+          "label": "Marketing SOPs are documented for recurring tasks - Status",
+          "type": "select",
+          "placeholder": "Select status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "team_skills_gaps_are_identified_with_a_development_plan_score",
+          "label": "Team skills gaps are identified with a development plan",
+          "type": "scale",
+          "placeholder": "Rate from 1 (Not Started) to 5 (Excellent)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "team_skills_gaps_are_identified_with_a_development_plan_priority",
+          "label": "Team skills gaps are identified with a development plan - Priority",
+          "type": "select",
+          "placeholder": "Select priority level",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "team_skills_gaps_are_identified_with_a_development_plan_notes",
+          "label": "Team skills gaps are identified with a development plan - Notes",
+          "type": "textarea",
+          "placeholder": "Add observations, action items, or deadlines",
+          "required": false
+        },
+        {
+          "id": "team_skills_gaps_are_identified_with_a_development_plan_status",
+          "label": "Team skills gaps are identified with a development plan - Status",
+          "type": "select",
+          "placeholder": "Select status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "marketing_technology_stack_is_audited_and_optimised_score",
+          "label": "Marketing technology stack is audited and optimised",
+          "type": "scale",
+          "placeholder": "Rate from 1 (Not Started) to 5 (Excellent)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "marketing_technology_stack_is_audited_and_optimised_priority",
+          "label": "Marketing technology stack is audited and optimised - Priority",
+          "type": "select",
+          "placeholder": "Select priority level",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "marketing_technology_stack_is_audited_and_optimised_notes",
+          "label": "Marketing technology stack is audited and optimised - Notes",
+          "type": "textarea",
+          "placeholder": "Add observations, action items, or deadlines",
+          "required": false
+        },
+        {
+          "id": "marketing_technology_stack_is_audited_and_optimised_status",
+          "label": "Marketing technology stack is audited and optimised - Status",
+          "type": "select",
+          "placeholder": "Select status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "customer_experience",
+      "title": "Customer Experience",
+      "description": "Rate each checkpoint for Customer Experience",
+      "fields": [
+        {
+          "id": "customer_journey_is_mapped_from_first_touch_to_postpurchase_score",
+          "label": "Customer journey is mapped from first touch to post-purchase",
+          "type": "scale",
+          "placeholder": "Rate from 1 (Not Started) to 5 (Excellent)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "customer_journey_is_mapped_from_first_touch_to_postpurchase_priority",
+          "label": "Customer journey is mapped from first touch to post-purchase - Priority",
+          "type": "select",
+          "placeholder": "Select priority level",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "customer_journey_is_mapped_from_first_touch_to_postpurchase_notes",
+          "label": "Customer journey is mapped from first touch to post-purchase - Notes",
+          "type": "textarea",
+          "placeholder": "Add observations, action items, or deadlines",
+          "required": false
+        },
+        {
+          "id": "customer_journey_is_mapped_from_first_touch_to_postpurchase_status",
+          "label": "Customer journey is mapped from first touch to post-purchase - Status",
+          "type": "select",
+          "placeholder": "Select status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "customer_feedback_loop_exists_surveys_nps_reviews_score",
+          "label": "Customer feedback loop exists (surveys, NPS, reviews)",
+          "type": "scale",
+          "placeholder": "Rate from 1 (Not Started) to 5 (Excellent)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "customer_feedback_loop_exists_surveys_nps_reviews_priority",
+          "label": "Customer feedback loop exists (surveys, NPS, reviews) - Priority",
+          "type": "select",
+          "placeholder": "Select priority level",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "customer_feedback_loop_exists_surveys_nps_reviews_notes",
+          "label": "Customer feedback loop exists (surveys, NPS, reviews) - Notes",
+          "type": "textarea",
+          "placeholder": "Add observations, action items, or deadlines",
+          "required": false
+        },
+        {
+          "id": "customer_feedback_loop_exists_surveys_nps_reviews_status",
+          "label": "Customer feedback loop exists (surveys, NPS, reviews) - Status",
+          "type": "select",
+          "placeholder": "Select status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "retention_and_loyalty_strategies_are_in_place_score",
+          "label": "Retention and loyalty strategies are in place",
+          "type": "scale",
+          "placeholder": "Rate from 1 (Not Started) to 5 (Excellent)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "retention_and_loyalty_strategies_are_in_place_priority",
+          "label": "Retention and loyalty strategies are in place - Priority",
+          "type": "select",
+          "placeholder": "Select priority level",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "retention_and_loyalty_strategies_are_in_place_notes",
+          "label": "Retention and loyalty strategies are in place - Notes",
+          "type": "textarea",
+          "placeholder": "Add observations, action items, or deadlines",
+          "required": false
+        },
+        {
+          "id": "retention_and_loyalty_strategies_are_in_place_status",
+          "label": "Retention and loyalty strategies are in place - Status",
+          "type": "select",
+          "placeholder": "Select status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "referral_or_advocacy_programme_is_active_score",
+          "label": "Referral or advocacy programme is active",
+          "type": "scale",
+          "placeholder": "Rate from 1 (Not Started) to 5 (Excellent)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "referral_or_advocacy_programme_is_active_priority",
+          "label": "Referral or advocacy programme is active - Priority",
+          "type": "select",
+          "placeholder": "Select priority level",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "referral_or_advocacy_programme_is_active_notes",
+          "label": "Referral or advocacy programme is active - Notes",
+          "type": "textarea",
+          "placeholder": "Add observations, action items, or deadlines",
+          "required": false
+        },
+        {
+          "id": "referral_or_advocacy_programme_is_active_status",
+          "label": "Referral or advocacy programme is active - Status",
+          "type": "select",
+          "placeholder": "Select status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "customer_support_and_cx_metrics_are_tracked_and_reviewed_score",
+          "label": "Customer support and CX metrics are tracked and reviewed",
+          "type": "scale",
+          "placeholder": "Rate from 1 (Not Started) to 5 (Excellent)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "customer_support_and_cx_metrics_are_tracked_and_reviewed_priority",
+          "label": "Customer support and CX metrics are tracked and reviewed - Priority",
+          "type": "select",
+          "placeholder": "Select priority level",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "customer_support_and_cx_metrics_are_tracked_and_reviewed_notes",
+          "label": "Customer support and CX metrics are tracked and reviewed - Notes",
+          "type": "textarea",
+          "placeholder": "Add observations, action items, or deadlines",
+          "required": false
+        },
+        {
+          "id": "customer_support_and_cx_metrics_are_tracked_and_reviewed_status",
+          "label": "Customer support and CX metrics are tracked and reviewed - Status",
+          "type": "select",
+          "placeholder": "Select status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        }
+      ]
+    }
+  ]
 }

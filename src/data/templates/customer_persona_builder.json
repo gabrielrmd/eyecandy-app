@@ -10,547 +10,6 @@
     "brand"
   ],
   "estimatedTime": "40 min",
-  "sections": [
-    {
-      "id": "dashboard",
-      "title": "Dashboard",
-      "description": "Complete the Dashboard section",
-      "fields": [
-        {
-          "id": "overall_completeness_0",
-          "label": "OVERALL COMPLETENESS",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "start_filling_in_the_persona_builder_tab_1",
-          "label": "Start filling in the Persona Builder tab",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "section_breakdown_2",
-          "label": "SECTION BREAKDOWN",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "section_3",
-          "label": "Section",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "filled_4",
-          "label": "Filled",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "total_fields_5",
-          "label": "Total Fields",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "completion_6",
-          "label": "Completion",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "status_7",
-          "label": "Status",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "demographics_background_8",
-          "label": "Demographics & Background",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "not_started_9",
-          "label": "Not Started",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "psychographics_10",
-          "label": "Psychographics",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "not_started_11",
-          "label": "Not Started",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "goals_challenges_12",
-          "label": "Goals & Challenges",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "not_started_13",
-          "label": "Not Started",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "buying_journey_decision_14",
-          "label": "Buying Journey & Decision",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "not_started_15",
-          "label": "Not Started",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "communication_content_16",
-          "label": "Communication & Content",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "not_started_17",
-          "label": "Not Started",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "brand_relationship_18",
-          "label": "Brand Relationship",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "not_started_19",
-          "label": "Not Started",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "total_20",
-          "label": "TOTAL",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "quick_tips_21",
-          "label": "QUICK TIPS",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "1_give_your_persona_a_real_name_and_phot_22",
-          "label": "1. Give your persona a real name and photo — it makes them feel real to your team",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "2_the_psychographics_and_goals_sections__23",
-          "label": "2. The Psychographics and Goals sections matter more than demographics — prioritize those",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "3_validate_every_assumption_with_at_leas_24",
-          "label": "3. Validate every assumption with at least 3-5 real customer conversations",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "4_update_your_persona_every_quarter_peop_25",
-          "label": "4. Update your persona every quarter — people and markets change",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "5_a_persona_nobody_reads_is_worse_than_n_26",
-          "label": "5. A persona nobody reads is worse than no persona at all — keep it visible",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "advertising_unplugged_clarity_over_noise_27",
-          "label": "Advertising Unplugged — Clarity Over Noise. Purpose Beyond Profit.",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "persona_builder",
-      "title": "Persona Builder",
-      "description": "Complete the Persona Builder section",
-      "fields": [
-        {
-          "id": "e_g_32_40_0",
-          "label": "e.g. 32-40",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "if_relevant_to_your_product_service_1",
-          "label": "If relevant to your product/service",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "city_region_or_urban_suburban_rural_2",
-          "label": "City, region, or urban/suburban/rural",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "highest_degree_or_certification_3",
-          "label": "Highest degree or certification",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "their_actual_title_or_function_4",
-          "label": "Their actual title or function",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "e_g_saas_retail_healthcare_ngo_5",
-          "label": "e.g. SaaS, Retail, Healthcare, NGO",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "startup_smb_enterprise_or_employee_count_6",
-          "label": "Startup, SMB, Enterprise, or employee count",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "if_relevant_household_or_individual_7",
-          "label": "If relevant — household or individual",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "single_married_kids_if_it_affects_decisi_8",
-          "label": "Single, married, kids — if it affects decisions",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "what_principles_guide_their_decisions_9",
-          "label": "What principles guide their decisions?",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "analytical_creative_cautious_impulsive_10",
-          "label": "Analytical, creative, cautious, impulsive...",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "how_do_they_spend_their_time_outside_wor_11",
-          "label": "How do they spend their time outside work?",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "early_adopter_skeptic_pragmatist_12",
-          "label": "Early adopter, skeptic, pragmatist...",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "where_do_they_learn_podcasts_linkedin_bl_13",
-          "label": "Where do they learn? Podcasts, LinkedIn, blogs...",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "lurker_commenter_creator_or_absent_14",
-          "label": "Lurker, commenter, creator, or absent?",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "where_do_they_want_to_be_in_3_5_years_15",
-          "label": "Where do they want to be in 3-5 years?",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "hobbies_passions_communities_16",
-          "label": "Hobbies, passions, communities",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "who_do_they_look_up_to_or_follow_17",
-          "label": "Who do they look up to or follow?",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "conservative_moderate_or_risk_seeking_18",
-          "label": "Conservative, moderate, or risk-seeking?",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "the_1_thing_they_are_trying_to_achieve_19",
-          "label": "The #1 thing they are trying to achieve",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "other_important_objectives_20",
-          "label": "Other important objectives",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "what_is_their_biggest_pain_point_right_n_21",
-          "label": "What is their biggest pain point right now?",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "recurring_problems_they_face_at_work_22",
-          "label": "Recurring problems they face at work",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "their_deepest_professional_worry_23",
-          "label": "Their deepest professional worry",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "their_dream_solution_in_one_sentence_24",
-          "label": "Their dream solution in one sentence",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "what_questions_are_they_secretly_searchi_25",
-          "label": "What questions are they secretly searching?",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "how_do_they_measure_success_in_their_rol_26",
-          "label": "How do they measure success in their role?",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "what_outcome_are_they_most_afraid_of_27",
-          "label": "What outcome are they most afraid of?",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "what_does_nobody_in_the_market_solve_for_28",
-          "label": "What does nobody in the market solve for them?",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "what_event_makes_them_realize_they_need__29",
-          "label": "What event makes them realize they need a solution?",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "persona_summary",
-      "title": "Persona Summary",
-      "description": "Complete the Persona Summary section",
-      "fields": [
-        {
-          "id": "age_0",
-          "label": "Age",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "location_1",
-          "label": "Location",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "what_drives_them_2",
-          "label": "WHAT DRIVES THEM",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "core_values_3",
-          "label": "Core Values",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "biggest_frustration_4",
-          "label": "Biggest Frustration",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "success_metric_5",
-          "label": "Success Metric",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "how_they_buy_6",
-          "label": "HOW THEY BUY",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "decision_criteria_7",
-          "label": "Decision Criteria",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "timeline_8",
-          "label": "Timeline",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "buying_channel_9",
-          "label": "Buying Channel",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "how_to_reach_them_10",
-          "label": "HOW TO REACH THEM",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "content_format_11",
-          "label": "Content Format",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "tone_12",
-          "label": "Tone",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "action_trigger_13",
-          "label": "Action Trigger",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "in_their_own_words_14",
-          "label": "IN THEIR OWN WORDS",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "advertising_unplugged_clarity_over_noise_15",
-          "label": "Advertising Unplugged — Clarity Over Noise. Purpose Beyond Profit.",
-          "type": "textarea",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    }
-  ],
   "dashboard": {
     "metrics": [
       {
@@ -564,5 +23,671 @@
         "format": "number"
       }
     ]
-  }
+  },
+  "sections": [
+    {
+      "id": "dashboard",
+      "title": "Dashboard",
+      "description": "Auto-calculated summary of your data. Complete the working sections to see results here.",
+      "readOnly": true,
+      "fields": [
+        {
+          "id": "dashboard_overview",
+          "label": "Dashboard Overview",
+          "type": "textarea",
+          "placeholder": "Dashboard metrics will be calculated from your inputs in the working sections",
+          "required": false,
+          "readOnly": true
+        }
+      ]
+    },
+    {
+      "id": "customer_persona_builder",
+      "title": "Customer Persona Builder",
+      "description": "Complete the Customer Persona Builder section",
+      "fields": []
+    },
+    {
+      "id": "demographics_background",
+      "title": "Demographics & Background",
+      "description": "[Persona Builder] Complete the Demographics & Background section",
+      "fields": [
+        {
+          "id": "persona_name",
+          "label": "Persona Name",
+          "type": "text",
+          "placeholder": "Give them a real name (e.g. 'Marketing Maria')",
+          "required": false,
+          "helpText": "Give them a real name (e.g. 'Marketing Maria')"
+        },
+        {
+          "id": "age_age_range",
+          "label": "Age / Age Range",
+          "type": "text",
+          "placeholder": "e.g. 32-40",
+          "required": false,
+          "helpText": "e.g. 32-40"
+        },
+        {
+          "id": "gender",
+          "label": "Gender",
+          "type": "text",
+          "placeholder": "If relevant to your product/service",
+          "required": false,
+          "helpText": "If relevant to your product/service"
+        },
+        {
+          "id": "location",
+          "label": "Location",
+          "type": "text",
+          "placeholder": "City, region, or urban/suburban/rural",
+          "required": false,
+          "helpText": "City, region, or urban/suburban/rural"
+        },
+        {
+          "id": "education_level",
+          "label": "Education Level",
+          "type": "text",
+          "placeholder": "Highest degree or certification",
+          "required": false,
+          "helpText": "Highest degree or certification"
+        },
+        {
+          "id": "job_title_role",
+          "label": "Job Title / Role",
+          "type": "text",
+          "placeholder": "Their actual title or function",
+          "required": false,
+          "helpText": "Their actual title or function"
+        },
+        {
+          "id": "industry_sector",
+          "label": "Industry / Sector",
+          "type": "text",
+          "placeholder": "e.g. SaaS, Retail, Healthcare, NGO",
+          "required": false,
+          "helpText": "e.g. SaaS, Retail, Healthcare, NGO"
+        },
+        {
+          "id": "company_size",
+          "label": "Company Size",
+          "type": "number",
+          "placeholder": "Startup, SMB, Enterprise, or employee count",
+          "required": false,
+          "helpText": "Startup, SMB, Enterprise, or employee count"
+        },
+        {
+          "id": "income_range",
+          "label": "Income Range",
+          "type": "text",
+          "placeholder": "If relevant — household or individual",
+          "required": false,
+          "helpText": "If relevant — household or individual"
+        },
+        {
+          "id": "family_status",
+          "label": "Family Status",
+          "type": "text",
+          "placeholder": "Single, married, kids — if it affects decisions",
+          "required": false,
+          "helpText": "Single, married, kids — if it affects decisions"
+        }
+      ]
+    },
+    {
+      "id": "psychographics",
+      "title": "Psychographics",
+      "description": "[Persona Builder] Complete the Psychographics section",
+      "fields": [
+        {
+          "id": "core_values",
+          "label": "Core Values",
+          "type": "text",
+          "placeholder": "What principles guide their decisions?",
+          "required": false,
+          "helpText": "What principles guide their decisions?"
+        },
+        {
+          "id": "personality_traits",
+          "label": "Personality Traits",
+          "type": "text",
+          "placeholder": "Analytical, creative, cautious, impulsive...",
+          "required": false,
+          "helpText": "Analytical, creative, cautious, impulsive..."
+        },
+        {
+          "id": "lifestyle_description",
+          "label": "Lifestyle Description",
+          "type": "textarea",
+          "placeholder": "How do they spend their time outside work?",
+          "required": false,
+          "helpText": "How do they spend their time outside work?"
+        },
+        {
+          "id": "attitudes_toward_technology",
+          "label": "Attitudes Toward Technology",
+          "type": "text",
+          "placeholder": "Early adopter, skeptic, pragmatist...",
+          "required": false,
+          "helpText": "Early adopter, skeptic, pragmatist..."
+        },
+        {
+          "id": "information_sources",
+          "label": "Information Sources",
+          "type": "text",
+          "placeholder": "Where do they learn? Podcasts, LinkedIn, blogs...",
+          "required": false,
+          "helpText": "Where do they learn? Podcasts, LinkedIn, blogs..."
+        },
+        {
+          "id": "social_media_behavior",
+          "label": "Social Media Behavior",
+          "type": "textarea",
+          "placeholder": "Lurker, commenter, creator, or absent?",
+          "required": false,
+          "helpText": "Lurker, commenter, creator, or absent?"
+        },
+        {
+          "id": "professional_aspirations",
+          "label": "Professional Aspirations",
+          "type": "text",
+          "placeholder": "Where do they want to be in 3-5 years?",
+          "required": false,
+          "helpText": "Where do they want to be in 3-5 years?"
+        },
+        {
+          "id": "personal_interests",
+          "label": "Personal Interests",
+          "type": "text",
+          "placeholder": "Hobbies, passions, communities",
+          "required": false,
+          "helpText": "Hobbies, passions, communities"
+        },
+        {
+          "id": "influences_role_models",
+          "label": "Influences & Role Models",
+          "type": "text",
+          "placeholder": "Who do they look up to or follow?",
+          "required": false,
+          "helpText": "Who do they look up to or follow?"
+        },
+        {
+          "id": "risk_tolerance",
+          "label": "Risk Tolerance",
+          "type": "scale",
+          "placeholder": "Conservative, moderate, or risk-seeking?",
+          "required": false,
+          "helpText": "Conservative, moderate, or risk-seeking?"
+        }
+      ]
+    },
+    {
+      "id": "goals_challenges",
+      "title": "Goals & Challenges",
+      "description": "[Persona Builder] Complete the Goals & Challenges section",
+      "fields": [
+        {
+          "id": "primary_goal",
+          "label": "Primary Goal",
+          "type": "text",
+          "placeholder": "The #1 thing they are trying to achieve",
+          "required": false,
+          "helpText": "The #1 thing they are trying to achieve"
+        },
+        {
+          "id": "secondary_goals",
+          "label": "Secondary Goals",
+          "type": "text",
+          "placeholder": "Other important objectives",
+          "required": false,
+          "helpText": "Other important objectives"
+        },
+        {
+          "id": "biggest_frustration",
+          "label": "Biggest Frustration",
+          "type": "text",
+          "placeholder": "What is their biggest pain point right now?",
+          "required": false,
+          "helpText": "What is their biggest pain point right now?"
+        },
+        {
+          "id": "daily_challenges",
+          "label": "Daily Challenges",
+          "type": "text",
+          "placeholder": "Recurring problems they face at work",
+          "required": false,
+          "helpText": "Recurring problems they face at work"
+        },
+        {
+          "id": "what_keeps_them_up_at_night",
+          "label": "What Keeps Them Up at Night",
+          "type": "text",
+          "placeholder": "Their deepest professional worry",
+          "required": false,
+          "helpText": "Their deepest professional worry"
+        },
+        {
+          "id": "what_would_make_their_life_easier",
+          "label": "What Would Make Their Life Easier",
+          "type": "text",
+          "placeholder": "Their dream solution in one sentence",
+          "required": false,
+          "helpText": "Their dream solution in one sentence"
+        },
+        {
+          "id": "what_they_google_at_2_am",
+          "label": "What They Google at 2 AM",
+          "type": "text",
+          "placeholder": "What questions are they secretly searching?",
+          "required": false,
+          "helpText": "What questions are they secretly searching?"
+        },
+        {
+          "id": "success_metric",
+          "label": "Success Metric",
+          "type": "text",
+          "placeholder": "How do they measure success in their role?",
+          "required": false,
+          "helpText": "How do they measure success in their role?"
+        },
+        {
+          "id": "failure_fear",
+          "label": "Failure Fear",
+          "type": "text",
+          "placeholder": "What outcome are they most afraid of?",
+          "required": false,
+          "helpText": "What outcome are they most afraid of?"
+        },
+        {
+          "id": "unmet_need",
+          "label": "Unmet Need",
+          "type": "text",
+          "placeholder": "What does nobody in the market solve for them?",
+          "required": false,
+          "helpText": "What does nobody in the market solve for them?"
+        }
+      ]
+    },
+    {
+      "id": "buying_journey_decision",
+      "title": "Buying Journey & Decision",
+      "description": "[Persona Builder] Complete the Buying Journey & Decision section",
+      "fields": [
+        {
+          "id": "awareness_trigger",
+          "label": "Awareness Trigger",
+          "type": "text",
+          "placeholder": "What event makes them realize they need a solution?",
+          "required": false,
+          "helpText": "What event makes them realize they need a solution?"
+        },
+        {
+          "id": "research_behavior",
+          "label": "Research Behavior",
+          "type": "text",
+          "placeholder": "How do they evaluate options? Compare, demo, ask peers?",
+          "required": false,
+          "helpText": "How do they evaluate options? Compare, demo, ask peers?"
+        },
+        {
+          "id": "decision_criteria",
+          "label": "Decision Criteria",
+          "type": "number",
+          "placeholder": "Price, features, trust, speed, support, brand?",
+          "required": false,
+          "helpText": "Price, features, trust, speed, support, brand?"
+        },
+        {
+          "id": "key_objections",
+          "label": "Key Objections",
+          "type": "text",
+          "placeholder": "What would stop them from buying?",
+          "required": false,
+          "helpText": "What would stop them from buying?"
+        },
+        {
+          "id": "decision_timeline",
+          "label": "Decision Timeline",
+          "type": "text",
+          "placeholder": "Impulse, weeks, months, or committee cycles?",
+          "required": false,
+          "helpText": "Impulse, weeks, months, or committee cycles?"
+        },
+        {
+          "id": "decision_influencers",
+          "label": "Decision Influencers",
+          "type": "text",
+          "placeholder": "Who else is involved — boss, partner, team?",
+          "required": false,
+          "helpText": "Who else is involved — boss, partner, team?"
+        },
+        {
+          "id": "preferred_buying_channel",
+          "label": "Preferred Buying Channel",
+          "type": "text",
+          "placeholder": "Online, in-person, through a partner, referral?",
+          "required": false,
+          "helpText": "Online, in-person, through a partner, referral?"
+        },
+        {
+          "id": "budget_authority",
+          "label": "Budget Authority",
+          "type": "number",
+          "placeholder": "Do they control the budget or need approval?",
+          "required": false,
+          "helpText": "Do they control the budget or need approval?"
+        },
+        {
+          "id": "competitor_alternatives",
+          "label": "Competitor Alternatives",
+          "type": "text",
+          "placeholder": "What else are they considering?",
+          "required": false,
+          "helpText": "What else are they considering?"
+        },
+        {
+          "id": "deal_breakers",
+          "label": "Deal Breakers",
+          "type": "text",
+          "placeholder": "What would make them walk away instantly?",
+          "required": false,
+          "helpText": "What would make them walk away instantly?"
+        }
+      ]
+    },
+    {
+      "id": "communication_content_preferences",
+      "title": "Communication & Content Preferences",
+      "description": "[Persona Builder] Complete the Communication & Content Preferences section",
+      "fields": [
+        {
+          "id": "preferred_content_format",
+          "label": "Preferred Content Format",
+          "type": "text",
+          "placeholder": "Blog, video, podcast, whitepaper, infographic...",
+          "required": false,
+          "helpText": "Blog, video, podcast, whitepaper, infographic..."
+        },
+        {
+          "id": "preferred_channel",
+          "label": "Preferred Channel",
+          "type": "text",
+          "placeholder": "Email, LinkedIn, Instagram, in-person events...",
+          "required": false,
+          "helpText": "Email, LinkedIn, Instagram, in-person events..."
+        },
+        {
+          "id": "tone_that_resonates",
+          "label": "Tone That Resonates",
+          "type": "text",
+          "placeholder": "Professional, casual, inspirational, data-driven?",
+          "required": false,
+          "helpText": "Professional, casual, inspirational, data-driven?"
+        },
+        {
+          "id": "messaging_that_triggers_action",
+          "label": "Messaging That Triggers Action",
+          "type": "text",
+          "placeholder": "What would make them click or call?",
+          "required": false,
+          "helpText": "What would make them click or call?"
+        },
+        {
+          "id": "content_turnoffs",
+          "label": "Content Turn-offs",
+          "type": "text",
+          "placeholder": "What makes them unsubscribe or ignore?",
+          "required": false,
+          "helpText": "What makes them unsubscribe or ignore?"
+        },
+        {
+          "id": "email_frequency_tolerance",
+          "label": "Email Frequency Tolerance",
+          "type": "text",
+          "placeholder": "Daily, weekly, monthly? What feels like spam?",
+          "required": false,
+          "helpText": "Daily, weekly, monthly? What feels like spam?"
+        },
+        {
+          "id": "community_involvement",
+          "label": "Community Involvement",
+          "type": "text",
+          "placeholder": "Forums, Slack groups, industry associations?",
+          "required": false,
+          "helpText": "Forums, Slack groups, industry associations?"
+        },
+        {
+          "id": "event_preferences",
+          "label": "Event Preferences",
+          "type": "text",
+          "placeholder": "Webinars, conferences, workshops, meetups?",
+          "required": false,
+          "helpText": "Webinars, conferences, workshops, meetups?"
+        },
+        {
+          "id": "language_jargon_level",
+          "label": "Language / Jargon Level",
+          "type": "text",
+          "placeholder": "Technical, business, simple, industry-specific?",
+          "required": false,
+          "helpText": "Technical, business, simple, industry-specific?"
+        },
+        {
+          "id": "call_to_action_style",
+          "label": "Call to Action Style",
+          "type": "text",
+          "placeholder": "Soft (learn more) or direct (buy now)?",
+          "required": false,
+          "helpText": "Soft (learn more) or direct (buy now)?"
+        }
+      ]
+    },
+    {
+      "id": "brand_relationship",
+      "title": "Brand Relationship",
+      "description": "[Persona Builder] Complete the Brand Relationship section",
+      "fields": [
+        {
+          "id": "current_awareness_of_your_brand",
+          "label": "Current Awareness of Your Brand",
+          "type": "text",
+          "placeholder": "Never heard of you, vaguely aware, active user?",
+          "required": false,
+          "helpText": "Never heard of you, vaguely aware, active user?"
+        },
+        {
+          "id": "first_impression",
+          "label": "First Impression",
+          "type": "text",
+          "placeholder": "What would they think seeing your brand for the first time?",
+          "required": false,
+          "helpText": "What would they think seeing your brand for the first time?"
+        },
+        {
+          "id": "what_would_make_them_trust_you",
+          "label": "What Would Make Them Trust You",
+          "type": "text",
+          "placeholder": "Proof points: case studies, reviews, certifications?",
+          "required": false,
+          "helpText": "Proof points: case studies, reviews, certifications?"
+        },
+        {
+          "id": "what_would_make_them_recommend_you",
+          "label": "What Would Make Them Recommend You",
+          "type": "text",
+          "placeholder": "When would they tell a colleague about you?",
+          "required": false,
+          "helpText": "When would they tell a colleague about you?"
+        },
+        {
+          "id": "ideal_relationship_with_your_brand",
+          "label": "Ideal Relationship With Your Brand",
+          "type": "text",
+          "placeholder": "Transactional, advisory, community, partnership?",
+          "required": false,
+          "helpText": "Transactional, advisory, community, partnership?"
+        },
+        {
+          "id": "quote_that_captures_this_persona",
+          "label": "Quote That Captures This Persona",
+          "type": "text",
+          "placeholder": "Write one sentence in their voice",
+          "required": false,
+          "helpText": "Write one sentence in their voice"
+        },
+        {
+          "id": "photo_or_avatar_description",
+          "label": "Photo or Avatar Description",
+          "type": "textarea",
+          "placeholder": "Describe what this person looks like for your team",
+          "required": false,
+          "helpText": "Describe what this person looks like for your team"
+        },
+        {
+          "id": "persona_created_by",
+          "label": "Persona Created By",
+          "type": "text",
+          "placeholder": "Your name and date",
+          "required": false,
+          "helpText": "Your name and date"
+        }
+      ]
+    },
+    {
+      "id": "persona_summary_onepage_view",
+      "title": "Persona Summary — One-Page View",
+      "description": "Complete the Persona Summary — One-Page View section",
+      "fields": []
+    },
+    {
+      "id": "identity",
+      "title": "Identity",
+      "description": "[Persona Summary] Complete the Identity section",
+      "fields": [
+        {
+          "id": "name",
+          "label": "Name",
+          "type": "text",
+          "placeholder": "0",
+          "required": false,
+          "helpText": "0"
+        },
+        {
+          "id": "age",
+          "label": "Age",
+          "type": "text",
+          "placeholder": "0",
+          "required": false,
+          "helpText": "0"
+        },
+        {
+          "id": "location",
+          "label": "Location",
+          "type": "text",
+          "placeholder": "0",
+          "required": false,
+          "helpText": "0"
+        }
+      ]
+    },
+    {
+      "id": "what_drives_them",
+      "title": "What Drives Them",
+      "description": "[Persona Summary] Complete the What Drives Them section",
+      "fields": [
+        {
+          "id": "core_values",
+          "label": "Core Values",
+          "type": "text",
+          "placeholder": "0",
+          "required": false,
+          "helpText": "0"
+        },
+        {
+          "id": "biggest_frustration",
+          "label": "Biggest Frustration",
+          "type": "text",
+          "placeholder": "0",
+          "required": false,
+          "helpText": "0"
+        },
+        {
+          "id": "success_metric",
+          "label": "Success Metric",
+          "type": "text",
+          "placeholder": "0",
+          "required": false,
+          "helpText": "0"
+        }
+      ]
+    },
+    {
+      "id": "how_they_buy",
+      "title": "How They Buy",
+      "description": "[Persona Summary] Complete the How They Buy section",
+      "fields": [
+        {
+          "id": "decision_criteria",
+          "label": "Decision Criteria",
+          "type": "text",
+          "placeholder": "0",
+          "required": false,
+          "helpText": "0"
+        },
+        {
+          "id": "timeline",
+          "label": "Timeline",
+          "type": "text",
+          "placeholder": "0",
+          "required": false,
+          "helpText": "0"
+        },
+        {
+          "id": "buying_channel",
+          "label": "Buying Channel",
+          "type": "text",
+          "placeholder": "0",
+          "required": false,
+          "helpText": "0"
+        }
+      ]
+    },
+    {
+      "id": "how_to_reach_them",
+      "title": "How To Reach Them",
+      "description": "[Persona Summary] Complete the How To Reach Them section",
+      "fields": [
+        {
+          "id": "content_format",
+          "label": "Content Format",
+          "type": "text",
+          "placeholder": "0",
+          "required": false,
+          "helpText": "0"
+        },
+        {
+          "id": "tone",
+          "label": "Tone",
+          "type": "text",
+          "placeholder": "0",
+          "required": false,
+          "helpText": "0"
+        },
+        {
+          "id": "action_trigger",
+          "label": "Action Trigger",
+          "type": "text",
+          "placeholder": "0",
+          "required": false,
+          "helpText": "0"
+        }
+      ]
+    },
+    {
+      "id": "in_their_own_words",
+      "title": "In Their Own Words",
+      "description": "[Persona Summary] Complete the In Their Own Words section",
+      "fields": []
+    }
+  ]
 }

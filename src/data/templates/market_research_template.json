@@ -10,260 +10,6 @@
     "research"
   ],
   "estimatedTime": "70 min",
-  "sections": [
-    {
-      "id": "dashboard",
-      "title": "Dashboard",
-      "description": "Complete the Dashboard section",
-      "fields": [
-        {
-          "id": "project_name_0",
-          "label": "Project Name",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "research_objective_1",
-          "label": "Research Objective",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "status_2",
-          "label": "Status",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "total_research_questions_3",
-          "label": "Total Research Questions",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "insights_collected_4",
-          "label": "Insights Collected",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "competitors_analyzed_5",
-          "label": "Competitors Analyzed",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "survey_responses_6",
-          "label": "Survey Responses",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "high_priority_recommendations_7",
-          "label": "High Priority Recommendations",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "target_sample_size_8",
-          "label": "Target Sample Size",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "research_timeline_9",
-          "label": "Research Timeline",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "research_brief",
-      "title": "Research Brief",
-      "description": "Complete the Research Brief section",
-      "fields": [
-        {
-          "id": "project_name_0",
-          "label": "Project Name",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "project_objective_1",
-          "label": "Project Objective",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "research_question_1_2",
-          "label": "Research Question 1",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "research_question_2_3",
-          "label": "Research Question 2",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "research_question_3_4",
-          "label": "Research Question 3",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "research_question_4_5",
-          "label": "Research Question 4",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "methodology_6",
-          "label": "Methodology",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "target_audience_7",
-          "label": "Target Audience",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "sample_size_8",
-          "label": "Sample Size",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "timeline_9",
-          "label": "Timeline",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "budget_10",
-          "label": "Budget",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "key_stakeholders_11",
-          "label": "Key Stakeholders",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "primary_contact_12",
-          "label": "Primary Contact",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "status_13",
-          "label": "Status",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "market_overview",
-      "title": "Market Overview",
-      "description": "Complete the Market Overview section",
-      "fields": [
-        {
-          "id": "sam_m_0",
-          "label": "SAM ($M)",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "som_m_1",
-          "label": "SOM ($M)",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "growth_rate_2",
-          "label": "Growth Rate (%)",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "key_trends_3",
-          "label": "Key Trends",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "key_players_4",
-          "label": "Key Players",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "swot_analysis",
-      "title": "SWOT Analysis",
-      "description": "Complete the SWOT Analysis section",
-      "fields": [
-        {
-          "id": "action_0",
-          "label": "Action",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "action_1",
-          "label": "Action",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "action_2",
-          "label": "Action",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    }
-  ],
   "dashboard": {
     "metrics": [
       {
@@ -292,5 +38,643 @@
         "format": "number"
       }
     ]
-  }
+  },
+  "sections": [
+    {
+      "id": "dashboard",
+      "title": "Dashboard",
+      "description": "Auto-calculated summary of your data. Complete the working sections to see results here.",
+      "readOnly": true,
+      "fields": [
+        {
+          "id": "dashboard_overview",
+          "label": "Dashboard Overview",
+          "type": "textarea",
+          "placeholder": "Dashboard metrics will be calculated from your inputs in the working sections",
+          "required": false,
+          "readOnly": true
+        }
+      ]
+    },
+    {
+      "id": "research_brief",
+      "title": "Research Brief",
+      "description": "Complete the Research Brief section",
+      "fields": []
+    },
+    {
+      "id": "project_name",
+      "title": "Project Name",
+      "description": "[Research Brief] Complete the Project Name section",
+      "fields": []
+    },
+    {
+      "id": "project_objective",
+      "title": "Project Objective",
+      "description": "[Research Brief] Complete the Project Objective section",
+      "fields": []
+    },
+    {
+      "id": "research_question_1",
+      "title": "Research Question 1",
+      "description": "[Research Brief] Complete the Research Question 1 section",
+      "fields": []
+    },
+    {
+      "id": "research_question_2",
+      "title": "Research Question 2",
+      "description": "[Research Brief] Complete the Research Question 2 section",
+      "fields": []
+    },
+    {
+      "id": "research_question_3",
+      "title": "Research Question 3",
+      "description": "[Research Brief] Complete the Research Question 3 section",
+      "fields": []
+    },
+    {
+      "id": "research_question_4",
+      "title": "Research Question 4",
+      "description": "[Research Brief] Complete the Research Question 4 section",
+      "fields": []
+    },
+    {
+      "id": "methodology",
+      "title": "Methodology",
+      "description": "[Research Brief] Complete the Methodology section",
+      "fields": []
+    },
+    {
+      "id": "target_audience",
+      "title": "Target Audience",
+      "description": "[Research Brief] Complete the Target Audience section",
+      "fields": []
+    },
+    {
+      "id": "sample_size",
+      "title": "Sample Size",
+      "description": "[Research Brief] Complete the Sample Size section",
+      "fields": []
+    },
+    {
+      "id": "timeline",
+      "title": "Timeline",
+      "description": "[Research Brief] Complete the Timeline section",
+      "fields": []
+    },
+    {
+      "id": "budget",
+      "title": "Budget",
+      "description": "[Research Brief] Complete the Budget section",
+      "fields": []
+    },
+    {
+      "id": "key_stakeholders",
+      "title": "Key Stakeholders",
+      "description": "[Research Brief] Complete the Key Stakeholders section",
+      "fields": []
+    },
+    {
+      "id": "primary_contact",
+      "title": "Primary Contact",
+      "description": "[Research Brief] Complete the Primary Contact section",
+      "fields": []
+    },
+    {
+      "id": "status",
+      "title": "Status",
+      "description": "[Research Brief] Complete the Status section",
+      "fields": []
+    },
+    {
+      "id": "market_overview",
+      "title": "Market Overview",
+      "description": "Add entries below. Each entry has the following fields.",
+      "fields": [
+        {
+          "id": "entry_market_segment",
+          "label": "Market Segment",
+          "type": "text",
+          "placeholder": "Enter market segment",
+          "required": false
+        },
+        {
+          "id": "entry_tam_m",
+          "label": "TAM ($M)",
+          "type": "text",
+          "placeholder": "Enter tam ($m)",
+          "required": false
+        },
+        {
+          "id": "entry_sam_m",
+          "label": "SAM ($M)",
+          "type": "text",
+          "placeholder": "Enter sam ($m)",
+          "required": false
+        },
+        {
+          "id": "entry_som_m",
+          "label": "SOM ($M)",
+          "type": "text",
+          "placeholder": "Enter som ($m)",
+          "required": false
+        },
+        {
+          "id": "entry_growth_rate",
+          "label": "Growth Rate (%)",
+          "type": "number",
+          "placeholder": "Enter growth rate (%)",
+          "required": false
+        },
+        {
+          "id": "entry_key_trends",
+          "label": "Key Trends",
+          "type": "text",
+          "placeholder": "Enter key trends",
+          "required": false
+        },
+        {
+          "id": "entry_key_players",
+          "label": "Key Players",
+          "type": "text",
+          "placeholder": "Enter key players",
+          "required": false
+        },
+        {
+          "id": "entry_market_share",
+          "label": "Market Share (%)",
+          "type": "number",
+          "placeholder": "Enter market share (%)",
+          "required": false
+        },
+        {
+          "id": "entry_data_source",
+          "label": "Data Source",
+          "type": "text",
+          "placeholder": "Enter data source",
+          "required": false
+        },
+        {
+          "id": "entry_date",
+          "label": "Date",
+          "type": "text",
+          "placeholder": "Enter date",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "customer_insights",
+      "title": "Customer Insights",
+      "description": "Add entries below. Each entry has the following fields.",
+      "fields": [
+        {
+          "id": "entry_insight_id",
+          "label": "Insight ID",
+          "type": "textarea",
+          "placeholder": "Enter insight id",
+          "required": false
+        },
+        {
+          "id": "entry_source",
+          "label": "Source",
+          "type": "text",
+          "placeholder": "Enter source",
+          "required": false
+        },
+        {
+          "id": "entry_insight",
+          "label": "Insight",
+          "type": "textarea",
+          "placeholder": "Enter insight",
+          "required": false
+        },
+        {
+          "id": "entry_theme",
+          "label": "Theme",
+          "type": "text",
+          "placeholder": "Enter theme",
+          "required": false
+        },
+        {
+          "id": "entry_segment",
+          "label": "Segment",
+          "type": "text",
+          "placeholder": "Enter segment",
+          "required": false
+        },
+        {
+          "id": "entry_impact",
+          "label": "Impact",
+          "type": "text",
+          "placeholder": "Enter impact",
+          "required": false
+        },
+        {
+          "id": "entry_confidence",
+          "label": "Confidence (%)",
+          "type": "number",
+          "placeholder": "Enter confidence (%)",
+          "required": false
+        },
+        {
+          "id": "entry_actionable",
+          "label": "Actionable",
+          "type": "textarea",
+          "placeholder": "Enter actionable",
+          "required": false
+        },
+        {
+          "id": "entry_action_required",
+          "label": "Action Required",
+          "type": "textarea",
+          "placeholder": "Enter action required",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "competitor_analysis",
+      "title": "Competitor Analysis",
+      "description": "Add entries below. Each entry has the following fields.",
+      "fields": [
+        {
+          "id": "entry_competitor",
+          "label": "Competitor",
+          "type": "text",
+          "placeholder": "Enter competitor",
+          "required": false
+        },
+        {
+          "id": "entry_market_share",
+          "label": "Market Share (%)",
+          "type": "number",
+          "placeholder": "Enter market share (%)",
+          "required": false
+        },
+        {
+          "id": "entry_positioning",
+          "label": "Positioning",
+          "type": "text",
+          "placeholder": "Enter positioning",
+          "required": false
+        },
+        {
+          "id": "entry_strengths",
+          "label": "Strengths",
+          "type": "text",
+          "placeholder": "Enter strengths",
+          "required": false
+        },
+        {
+          "id": "entry_weaknesses",
+          "label": "Weaknesses",
+          "type": "text",
+          "placeholder": "Enter weaknesses",
+          "required": false
+        },
+        {
+          "id": "entry_pricing",
+          "label": "Pricing",
+          "type": "text",
+          "placeholder": "Enter pricing",
+          "required": false
+        },
+        {
+          "id": "entry_target_audience",
+          "label": "Target Audience",
+          "type": "number",
+          "placeholder": "Enter target audience",
+          "required": false
+        },
+        {
+          "id": "entry_recent_moves",
+          "label": "Recent Moves",
+          "type": "text",
+          "placeholder": "Enter recent moves",
+          "required": false
+        },
+        {
+          "id": "entry_threat_level",
+          "label": "Threat Level",
+          "type": "text",
+          "placeholder": "Enter threat level",
+          "required": false
+        },
+        {
+          "id": "entry_notes",
+          "label": "Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "survey_results",
+      "title": "Survey Results",
+      "description": "Add entries below. Each entry has the following fields.",
+      "fields": [
+        {
+          "id": "entry_question",
+          "label": "Question",
+          "type": "text",
+          "placeholder": "Enter question",
+          "required": false
+        },
+        {
+          "id": "entry_response_type",
+          "label": "Response Type",
+          "type": "text",
+          "placeholder": "Enter response type",
+          "required": false
+        },
+        {
+          "id": "entry_sample_size",
+          "label": "Sample Size",
+          "type": "text",
+          "placeholder": "Enter sample size",
+          "required": false
+        },
+        {
+          "id": "entry_key_finding",
+          "label": "Key Finding",
+          "type": "text",
+          "placeholder": "Enter key finding",
+          "required": false
+        },
+        {
+          "id": "entry_statistical_significance",
+          "label": "Statistical Significance (%)",
+          "type": "number",
+          "placeholder": "Enter statistical significance (%)",
+          "required": false
+        },
+        {
+          "id": "entry_segment_breakdown",
+          "label": "Segment Breakdown",
+          "type": "text",
+          "placeholder": "Enter segment breakdown",
+          "required": false
+        },
+        {
+          "id": "entry_implications",
+          "label": "Implications",
+          "type": "text",
+          "placeholder": "Enter implications",
+          "required": false
+        },
+        {
+          "id": "entry_chart_needed",
+          "label": "Chart Needed",
+          "type": "text",
+          "placeholder": "Enter chart needed",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "swot_analysis",
+      "title": "SWOT Analysis",
+      "description": "Enter data for each item",
+      "fields": [
+        {
+          "id": "weaknesses_description",
+          "label": "WEAKNESSES - Description",
+          "type": "textarea",
+          "placeholder": "Enter description",
+          "required": false
+        },
+        {
+          "id": "weaknesses_priority",
+          "label": "WEAKNESSES - Priority",
+          "type": "select",
+          "placeholder": "Enter priority",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "weaknesses_action",
+          "label": "WEAKNESSES - Action",
+          "type": "textarea",
+          "placeholder": "Enter action",
+          "required": false
+        },
+        {
+          "id": "item_description",
+          "label": "Item - Description",
+          "type": "textarea",
+          "placeholder": "Enter description",
+          "required": false
+        },
+        {
+          "id": "item_priority",
+          "label": "Item - Priority",
+          "type": "select",
+          "placeholder": "Enter priority",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "item_action",
+          "label": "Item - Action",
+          "type": "textarea",
+          "placeholder": "Enter action",
+          "required": false
+        },
+        {
+          "id": "opportunities_description",
+          "label": "OPPORTUNITIES - Description",
+          "type": "textarea",
+          "placeholder": "Enter description",
+          "required": false
+        },
+        {
+          "id": "opportunities_priority",
+          "label": "OPPORTUNITIES - Priority",
+          "type": "select",
+          "placeholder": "Enter priority",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "opportunities_action",
+          "label": "OPPORTUNITIES - Action",
+          "type": "textarea",
+          "placeholder": "Enter action",
+          "required": false
+        },
+        {
+          "id": "item_description_1",
+          "label": "Item - Description",
+          "type": "textarea",
+          "placeholder": "Enter description",
+          "required": false
+        },
+        {
+          "id": "item_priority_1",
+          "label": "Item - Priority",
+          "type": "select",
+          "placeholder": "Enter priority",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "item_action_1",
+          "label": "Item - Action",
+          "type": "textarea",
+          "placeholder": "Enter action",
+          "required": false
+        },
+        {
+          "id": "threats_description",
+          "label": "THREATS - Description",
+          "type": "textarea",
+          "placeholder": "Enter description",
+          "required": false
+        },
+        {
+          "id": "threats_priority",
+          "label": "THREATS - Priority",
+          "type": "select",
+          "placeholder": "Enter priority",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "threats_action",
+          "label": "THREATS - Action",
+          "type": "textarea",
+          "placeholder": "Enter action",
+          "required": false
+        },
+        {
+          "id": "item_description_2",
+          "label": "Item - Description",
+          "type": "textarea",
+          "placeholder": "Enter description",
+          "required": false
+        },
+        {
+          "id": "item_priority_2",
+          "label": "Item - Priority",
+          "type": "select",
+          "placeholder": "Enter priority",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "item_action_2",
+          "label": "Item - Action",
+          "type": "textarea",
+          "placeholder": "Enter action",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "recommendations",
+      "title": "Recommendations",
+      "description": "Add entries below. Each entry has the following fields.",
+      "fields": [
+        {
+          "id": "entry_finding",
+          "label": "Finding",
+          "type": "text",
+          "placeholder": "Enter finding",
+          "required": false
+        },
+        {
+          "id": "entry_recommendation",
+          "label": "Recommendation",
+          "type": "text",
+          "placeholder": "Enter recommendation",
+          "required": false
+        },
+        {
+          "id": "entry_priority",
+          "label": "Priority",
+          "type": "select",
+          "placeholder": "Enter priority",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "entry_impact",
+          "label": "Impact",
+          "type": "text",
+          "placeholder": "Enter impact",
+          "required": false
+        },
+        {
+          "id": "entry_effort",
+          "label": "Effort",
+          "type": "text",
+          "placeholder": "Enter effort",
+          "required": false
+        },
+        {
+          "id": "entry_owner",
+          "label": "Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "entry_timeline",
+          "label": "Timeline",
+          "type": "text",
+          "placeholder": "Enter timeline",
+          "required": false
+        },
+        {
+          "id": "entry_status",
+          "label": "Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "entry_supporting_data",
+          "label": "Supporting Data",
+          "type": "text",
+          "placeholder": "Enter supporting data",
+          "required": false
+        }
+      ]
+    }
+  ]
 }

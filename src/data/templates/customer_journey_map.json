@@ -10,568 +10,6 @@
     "brand"
   ],
   "estimatedTime": "40 min",
-  "sections": [
-    {
-      "id": "personas",
-      "title": "Personas",
-      "description": "Complete the Personas section",
-      "fields": [
-        {
-          "id": "marketing_director_0",
-          "label": "Marketing Director",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "32_45_1",
-          "label": "32-45",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "b2b_saas_2",
-          "label": "B2B SaaS",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "50_200_employees_3",
-          "label": "50-200 employees",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "50k_200k_year_4",
-          "label": "$50K-200K/year",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "increase_qualified_leads_by_30_5",
-          "label": "Increase qualified leads by 30%",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "limited_team_tight_budgets_proving_roi_6",
-          "label": "Limited team, tight budgets, proving ROI",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "data_driven_needs_consensus_7",
-          "label": "Data-driven, needs consensus",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "linkedin_industry_blogs_podcasts_peer_re_8",
-          "label": "LinkedIn, industry blogs, podcasts, peer recommendations",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "email_linkedin_webinars_9",
-          "label": "Email, LinkedIn, webinars",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "high_uses_10_marketing_tools_10",
-          "label": "High — uses 10+ marketing tools",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "clear_roi_potential_peer_success_stories_11",
-          "label": "Clear ROI potential, peer success stories, free trial",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "budget_constraints_integration_complexit_12",
-          "label": "Budget constraints, integration complexity, learning curve",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "lead_volume_conversion_rate_cac_pipeline_13",
-          "label": "Lead volume, conversion rate, CAC, pipeline velocity",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "fear_of_falling_behind_competitors_pride_14",
-          "label": "Fear of falling behind competitors, pride in team achievements",
-          "type": "textarea",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "i_need_tools_that_make_my_small_team_pun_15",
-          "label": "I need tools that make my small team punch above their weight.",
-          "type": "textarea",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "consideration_16",
-          "label": "Consideration",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "journey_map",
-      "title": "Journey Map",
-      "description": "Complete the Journey Map section",
-      "fields": [
-        {
-          "id": "searches_for_solution_to_their_problem_0",
-          "label": "Searches for solution to their problem",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "sees_ad_in_linkedin_feed_pauses_to_read_1",
-          "label": "Sees ad in LinkedIn feed, pauses to read",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "reads_a_how_to_article_found_via_search_2",
-          "label": "Reads a how-to article found via search",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "explores_product_pages_reads_features_3",
-          "label": "Explores product pages, reads features",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "downloads_case_study_from_similar_compan_4",
-          "label": "Downloads case study from similar company",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "fills_out_demo_form_waits_for_follow_up_5",
-          "label": "Fills out demo form, waits for follow-up",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "discusses_needs_with_sales_rep_6",
-          "label": "Discusses needs with sales rep",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "reviews_proposal_with_team_compares_to_a_7",
-          "label": "Reviews proposal with team, compares to alternatives",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "opens_welcome_email_reads_getting_starte_8",
-          "label": "Opens welcome email, reads getting started guide",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "tries_the_product_for_the_first_time_9",
-          "label": "Tries the product for the first time",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "submits_a_support_request_for_an_issue_10",
-          "label": "Submits a support request for an issue",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "reviews_dashboard_checks_performance_met_11",
-          "label": "Reviews dashboard, checks performance metrics",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "receives_request_to_refer_a_colleague_12",
-          "label": "Receives request to refer a colleague",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "asked_to_leave_a_review_on_g2_or_trustpi_13",
-          "label": "Asked to leave a review on G2 or Trustpilot",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "touchpoint_inventory",
-      "title": "Touchpoint Inventory",
-      "description": "Complete the Touchpoint Inventory section",
-      "fields": [
-        {
-          "id": "google_search_results_0",
-          "label": "Google Search Results",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "social_media_ads_1",
-          "label": "Social Media Ads",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "blog_content_2",
-          "label": "Blog Content",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "website_homepage_3",
-          "label": "Website Homepage",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "product_demo_4",
-          "label": "Product Demo",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "case_studies_page_5",
-          "label": "Case Studies Page",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "pricing_page_6",
-          "label": "Pricing Page",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "sales_proposal_7",
-          "label": "Sales Proposal",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "contract_signing_8",
-          "label": "Contract Signing",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "welcome_email_9",
-          "label": "Welcome Email",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "onboarding_call_10",
-          "label": "Onboarding Call",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "monthly_check_in_11",
-          "label": "Monthly Check-in",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "support_chat_12",
-          "label": "Support Chat",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "nps_survey_13",
-          "label": "NPS Survey",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "referral_program_14",
-          "label": "Referral Program",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "moments_of_truth",
-      "title": "Moments of Truth",
-      "description": "Complete the Moments of Truth section",
-      "fields": [
-        {
-          "id": "sets_first_impression_of_brand_quality_a_0",
-          "label": "Sets first impression of brand quality and relevance. Visitors decide in 3 seconds if they stay or bounce.",
-          "type": "textarea",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "the_demo_is_where_prospects_decide_if_th_1",
-          "label": "The demo is where prospects decide if the product can solve their problem. Poor demos lose deals.",
-          "type": "textarea",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "the_first_day_sets_the_tone_for_the_enti_2",
-          "label": "The first day sets the tone for the entire relationship. Early confusion leads to churn.",
-          "type": "textarea",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "how_you_handle_problems_defines_loyalty__3",
-          "label": "How you handle problems defines loyalty more than how you handle success.",
-          "type": "textarea",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "the_renewal_moment_tests_whether_the_val_4",
-          "label": "The renewal moment tests whether the value delivered matches the value promised.",
-          "type": "textarea",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "emotion_curve",
-      "title": "Emotion Curve",
-      "description": "Complete the Emotion Curve section",
-      "fields": [
-        {
-          "id": "maintain_seo_visibility_0",
-          "label": "Maintain SEO visibility",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "optimise_page_speed_rewrite_hero_copy_1",
-          "label": "Optimise page speed, rewrite hero copy",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "continue_producing_high_quality_gated_co_2",
-          "label": "Continue producing high-quality gated content",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "add_instant_self_serve_booking_calendar_3",
-          "label": "Add instant self-serve booking calendar",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "pre_research_accounts_customise_demo_flo_4",
-          "label": "Pre-research accounts, customise demo flow",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "publish_pricing_page_eliminate_surprise__5",
-          "label": "Publish pricing page, eliminate surprise charges",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "maintain_clean_process_6",
-          "label": "Maintain clean process",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "personalise_welcome_sequence_add_day_1_c_7",
-          "label": "Personalise welcome sequence, add Day 1 checklist",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "add_interactive_walkthrough_and_tooltips_8",
-          "label": "Add interactive walkthrough and tooltips",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "maintain_and_expand_check_in_programme_9",
-          "label": "Maintain and expand check-in programme",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "implement_crm_integration_target_2h_resp_10",
-          "label": "Implement CRM integration, target 2h response",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "build_automated_roi_report_per_customer_11",
-          "label": "Build automated ROI report per customer",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "add_value_summary_email_before_renewal_12",
-          "label": "Add value summary email before renewal",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "launch_referral_programme_with_one_click_13",
-          "label": "Launch referral programme with one-click sharing",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "streamline_case_study_process_offer_co_m_14",
-          "label": "Streamline case study process, offer co-marketing",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "action_plan",
-      "title": "Action Plan",
-      "description": "Complete the Action Plan section",
-      "fields": [
-        {
-          "id": "rebuild_homepage_with_clear_value_prop_f_0",
-          "label": "Rebuild homepage with clear value prop, faster load time, mobile-first design",
-          "type": "textarea",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "replace_manual_scheduling_with_calendly__1",
-          "label": "Replace manual scheduling with Calendly integration for instant booking",
-          "type": "textarea",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "create_5_demo_scripts_customised_for_top_2",
-          "label": "Create 5 demo scripts customised for top industry verticals",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "create_pricing_page_with_clear_tiers_no__3",
-          "label": "Create pricing page with clear tiers, no hidden fees, FAQ section",
-          "type": "textarea",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "personalised_welcome_sequence_interactiv_4",
-          "label": "Personalised welcome sequence + interactive product walkthrough",
-          "type": "textarea",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "deploy_live_chat_with_under_5_minute_res_5",
-          "label": "Deploy live chat with under 5-minute response target during business hours",
-          "type": "textarea",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "automated_dashboard_showing_value_delive_6",
-          "label": "Automated dashboard showing value delivered per customer",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "one_click_referral_with_rewards_for_both_7",
-          "label": "One-click referral with rewards for both referrer and referee",
-          "type": "textarea",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    }
-  ],
   "dashboard": {
     "metrics": [
       {
@@ -580,5 +18,3733 @@
         "format": "number"
       }
     ]
-  }
+  },
+  "sections": [
+    {
+      "id": "dashboard",
+      "title": "Dashboard",
+      "description": "Auto-calculated summary of your data. Complete the working sections to see results here.",
+      "readOnly": true,
+      "fields": [
+        {
+          "id": "dashboard_overview",
+          "label": "Dashboard Overview",
+          "type": "textarea",
+          "placeholder": "Dashboard metrics will be calculated from your inputs in the working sections",
+          "required": false,
+          "readOnly": true
+        }
+      ]
+    },
+    {
+      "id": "personas",
+      "title": "Personas",
+      "description": "Enter data for each item",
+      "fields": [
+        {
+          "id": "marketing_mary_persona_2",
+          "label": "Marketing Mary - Persona 2",
+          "type": "text",
+          "placeholder": "Enter persona 2",
+          "required": false
+        },
+        {
+          "id": "marketing_mary_persona_3",
+          "label": "Marketing Mary - Persona 3",
+          "type": "text",
+          "placeholder": "Enter persona 3",
+          "required": false
+        },
+        {
+          "id": "marketing_mary_persona_4",
+          "label": "Marketing Mary - Persona 4",
+          "type": "text",
+          "placeholder": "Enter persona 4",
+          "required": false
+        },
+        {
+          "id": "marketing_mary_persona_5",
+          "label": "Marketing Mary - Persona 5",
+          "type": "text",
+          "placeholder": "Enter persona 5",
+          "required": false
+        },
+        {
+          "id": "marketing_director_persona_2",
+          "label": "Marketing Director - Persona 2",
+          "type": "text",
+          "placeholder": "Enter persona 2",
+          "required": false
+        },
+        {
+          "id": "marketing_director_persona_3",
+          "label": "Marketing Director - Persona 3",
+          "type": "text",
+          "placeholder": "Enter persona 3",
+          "required": false
+        },
+        {
+          "id": "marketing_director_persona_4",
+          "label": "Marketing Director - Persona 4",
+          "type": "text",
+          "placeholder": "Enter persona 4",
+          "required": false
+        },
+        {
+          "id": "marketing_director_persona_5",
+          "label": "Marketing Director - Persona 5",
+          "type": "text",
+          "placeholder": "Enter persona 5",
+          "required": false
+        },
+        {
+          "id": "3245_persona_2",
+          "label": "32-45 - Persona 2",
+          "type": "text",
+          "placeholder": "Enter persona 2",
+          "required": false
+        },
+        {
+          "id": "3245_persona_3",
+          "label": "32-45 - Persona 3",
+          "type": "text",
+          "placeholder": "Enter persona 3",
+          "required": false
+        },
+        {
+          "id": "3245_persona_4",
+          "label": "32-45 - Persona 4",
+          "type": "text",
+          "placeholder": "Enter persona 4",
+          "required": false
+        },
+        {
+          "id": "3245_persona_5",
+          "label": "32-45 - Persona 5",
+          "type": "text",
+          "placeholder": "Enter persona 5",
+          "required": false
+        },
+        {
+          "id": "b2b_saas_persona_2",
+          "label": "B2B SaaS - Persona 2",
+          "type": "text",
+          "placeholder": "Enter persona 2",
+          "required": false
+        },
+        {
+          "id": "b2b_saas_persona_3",
+          "label": "B2B SaaS - Persona 3",
+          "type": "text",
+          "placeholder": "Enter persona 3",
+          "required": false
+        },
+        {
+          "id": "b2b_saas_persona_4",
+          "label": "B2B SaaS - Persona 4",
+          "type": "text",
+          "placeholder": "Enter persona 4",
+          "required": false
+        },
+        {
+          "id": "b2b_saas_persona_5",
+          "label": "B2B SaaS - Persona 5",
+          "type": "text",
+          "placeholder": "Enter persona 5",
+          "required": false
+        },
+        {
+          "id": "50200_employees_persona_2",
+          "label": "50-200 employees - Persona 2",
+          "type": "text",
+          "placeholder": "Enter persona 2",
+          "required": false
+        },
+        {
+          "id": "50200_employees_persona_3",
+          "label": "50-200 employees - Persona 3",
+          "type": "text",
+          "placeholder": "Enter persona 3",
+          "required": false
+        },
+        {
+          "id": "50200_employees_persona_4",
+          "label": "50-200 employees - Persona 4",
+          "type": "text",
+          "placeholder": "Enter persona 4",
+          "required": false
+        },
+        {
+          "id": "50200_employees_persona_5",
+          "label": "50-200 employees - Persona 5",
+          "type": "text",
+          "placeholder": "Enter persona 5",
+          "required": false
+        },
+        {
+          "id": "50k200kyear_persona_2",
+          "label": "$50K-200K/year - Persona 2",
+          "type": "text",
+          "placeholder": "Enter persona 2",
+          "required": false
+        },
+        {
+          "id": "50k200kyear_persona_3",
+          "label": "$50K-200K/year - Persona 3",
+          "type": "text",
+          "placeholder": "Enter persona 3",
+          "required": false
+        },
+        {
+          "id": "50k200kyear_persona_4",
+          "label": "$50K-200K/year - Persona 4",
+          "type": "text",
+          "placeholder": "Enter persona 4",
+          "required": false
+        },
+        {
+          "id": "50k200kyear_persona_5",
+          "label": "$50K-200K/year - Persona 5",
+          "type": "text",
+          "placeholder": "Enter persona 5",
+          "required": false
+        },
+        {
+          "id": "increase_qualified_leads_by_30_persona_2",
+          "label": "Increase qualified leads by 30% - Persona 2",
+          "type": "text",
+          "placeholder": "Enter persona 2",
+          "required": false
+        },
+        {
+          "id": "increase_qualified_leads_by_30_persona_3",
+          "label": "Increase qualified leads by 30% - Persona 3",
+          "type": "text",
+          "placeholder": "Enter persona 3",
+          "required": false
+        },
+        {
+          "id": "increase_qualified_leads_by_30_persona_4",
+          "label": "Increase qualified leads by 30% - Persona 4",
+          "type": "text",
+          "placeholder": "Enter persona 4",
+          "required": false
+        },
+        {
+          "id": "increase_qualified_leads_by_30_persona_5",
+          "label": "Increase qualified leads by 30% - Persona 5",
+          "type": "text",
+          "placeholder": "Enter persona 5",
+          "required": false
+        },
+        {
+          "id": "limited_team_tight_budgets_proving_roi_persona_2",
+          "label": "Limited team, tight budgets, proving ROI - Persona 2",
+          "type": "text",
+          "placeholder": "Enter persona 2",
+          "required": false
+        },
+        {
+          "id": "limited_team_tight_budgets_proving_roi_persona_3",
+          "label": "Limited team, tight budgets, proving ROI - Persona 3",
+          "type": "text",
+          "placeholder": "Enter persona 3",
+          "required": false
+        },
+        {
+          "id": "limited_team_tight_budgets_proving_roi_persona_4",
+          "label": "Limited team, tight budgets, proving ROI - Persona 4",
+          "type": "text",
+          "placeholder": "Enter persona 4",
+          "required": false
+        },
+        {
+          "id": "limited_team_tight_budgets_proving_roi_persona_5",
+          "label": "Limited team, tight budgets, proving ROI - Persona 5",
+          "type": "text",
+          "placeholder": "Enter persona 5",
+          "required": false
+        },
+        {
+          "id": "datadriven_needs_consensus_persona_2",
+          "label": "Data-driven, needs consensus - Persona 2",
+          "type": "text",
+          "placeholder": "Enter persona 2",
+          "required": false
+        },
+        {
+          "id": "datadriven_needs_consensus_persona_3",
+          "label": "Data-driven, needs consensus - Persona 3",
+          "type": "text",
+          "placeholder": "Enter persona 3",
+          "required": false
+        },
+        {
+          "id": "datadriven_needs_consensus_persona_4",
+          "label": "Data-driven, needs consensus - Persona 4",
+          "type": "text",
+          "placeholder": "Enter persona 4",
+          "required": false
+        },
+        {
+          "id": "datadriven_needs_consensus_persona_5",
+          "label": "Data-driven, needs consensus - Persona 5",
+          "type": "text",
+          "placeholder": "Enter persona 5",
+          "required": false
+        },
+        {
+          "id": "linkedin_industry_blogs_podcasts_peer_recommendations_persona_2",
+          "label": "LinkedIn, industry blogs, podcasts, peer recommendations - Persona 2",
+          "type": "text",
+          "placeholder": "Enter persona 2",
+          "required": false
+        },
+        {
+          "id": "linkedin_industry_blogs_podcasts_peer_recommendations_persona_3",
+          "label": "LinkedIn, industry blogs, podcasts, peer recommendations - Persona 3",
+          "type": "text",
+          "placeholder": "Enter persona 3",
+          "required": false
+        },
+        {
+          "id": "linkedin_industry_blogs_podcasts_peer_recommendations_persona_4",
+          "label": "LinkedIn, industry blogs, podcasts, peer recommendations - Persona 4",
+          "type": "text",
+          "placeholder": "Enter persona 4",
+          "required": false
+        },
+        {
+          "id": "linkedin_industry_blogs_podcasts_peer_recommendations_persona_5",
+          "label": "LinkedIn, industry blogs, podcasts, peer recommendations - Persona 5",
+          "type": "text",
+          "placeholder": "Enter persona 5",
+          "required": false
+        },
+        {
+          "id": "email_linkedin_webinars_persona_2",
+          "label": "Email, LinkedIn, webinars - Persona 2",
+          "type": "text",
+          "placeholder": "Enter persona 2",
+          "required": false
+        },
+        {
+          "id": "email_linkedin_webinars_persona_3",
+          "label": "Email, LinkedIn, webinars - Persona 3",
+          "type": "text",
+          "placeholder": "Enter persona 3",
+          "required": false
+        },
+        {
+          "id": "email_linkedin_webinars_persona_4",
+          "label": "Email, LinkedIn, webinars - Persona 4",
+          "type": "text",
+          "placeholder": "Enter persona 4",
+          "required": false
+        },
+        {
+          "id": "email_linkedin_webinars_persona_5",
+          "label": "Email, LinkedIn, webinars - Persona 5",
+          "type": "text",
+          "placeholder": "Enter persona 5",
+          "required": false
+        },
+        {
+          "id": "high_uses_10_marketing_tools_persona_2",
+          "label": "High — uses 10+ marketing tools - Persona 2",
+          "type": "text",
+          "placeholder": "Enter persona 2",
+          "required": false
+        },
+        {
+          "id": "high_uses_10_marketing_tools_persona_3",
+          "label": "High — uses 10+ marketing tools - Persona 3",
+          "type": "text",
+          "placeholder": "Enter persona 3",
+          "required": false
+        },
+        {
+          "id": "high_uses_10_marketing_tools_persona_4",
+          "label": "High — uses 10+ marketing tools - Persona 4",
+          "type": "text",
+          "placeholder": "Enter persona 4",
+          "required": false
+        },
+        {
+          "id": "high_uses_10_marketing_tools_persona_5",
+          "label": "High — uses 10+ marketing tools - Persona 5",
+          "type": "text",
+          "placeholder": "Enter persona 5",
+          "required": false
+        },
+        {
+          "id": "clear_roi_potential_peer_success_stories_free_trial_persona_2",
+          "label": "Clear ROI potential, peer success stories, free trial - Persona 2",
+          "type": "text",
+          "placeholder": "Enter persona 2",
+          "required": false
+        },
+        {
+          "id": "clear_roi_potential_peer_success_stories_free_trial_persona_3",
+          "label": "Clear ROI potential, peer success stories, free trial - Persona 3",
+          "type": "text",
+          "placeholder": "Enter persona 3",
+          "required": false
+        },
+        {
+          "id": "clear_roi_potential_peer_success_stories_free_trial_persona_4",
+          "label": "Clear ROI potential, peer success stories, free trial - Persona 4",
+          "type": "text",
+          "placeholder": "Enter persona 4",
+          "required": false
+        },
+        {
+          "id": "clear_roi_potential_peer_success_stories_free_trial_persona_5",
+          "label": "Clear ROI potential, peer success stories, free trial - Persona 5",
+          "type": "text",
+          "placeholder": "Enter persona 5",
+          "required": false
+        },
+        {
+          "id": "budget_constraints_integration_complexity_learning_curve_persona_2",
+          "label": "Budget constraints, integration complexity, learning curve - Persona 2",
+          "type": "text",
+          "placeholder": "Enter persona 2",
+          "required": false
+        },
+        {
+          "id": "budget_constraints_integration_complexity_learning_curve_persona_3",
+          "label": "Budget constraints, integration complexity, learning curve - Persona 3",
+          "type": "text",
+          "placeholder": "Enter persona 3",
+          "required": false
+        },
+        {
+          "id": "budget_constraints_integration_complexity_learning_curve_persona_4",
+          "label": "Budget constraints, integration complexity, learning curve - Persona 4",
+          "type": "text",
+          "placeholder": "Enter persona 4",
+          "required": false
+        },
+        {
+          "id": "budget_constraints_integration_complexity_learning_curve_persona_5",
+          "label": "Budget constraints, integration complexity, learning curve - Persona 5",
+          "type": "text",
+          "placeholder": "Enter persona 5",
+          "required": false
+        },
+        {
+          "id": "lead_volume_conversion_rate_cac_pipeline_velocity_persona_2",
+          "label": "Lead volume, conversion rate, CAC, pipeline velocity - Persona 2",
+          "type": "text",
+          "placeholder": "Enter persona 2",
+          "required": false
+        },
+        {
+          "id": "lead_volume_conversion_rate_cac_pipeline_velocity_persona_3",
+          "label": "Lead volume, conversion rate, CAC, pipeline velocity - Persona 3",
+          "type": "text",
+          "placeholder": "Enter persona 3",
+          "required": false
+        },
+        {
+          "id": "lead_volume_conversion_rate_cac_pipeline_velocity_persona_4",
+          "label": "Lead volume, conversion rate, CAC, pipeline velocity - Persona 4",
+          "type": "text",
+          "placeholder": "Enter persona 4",
+          "required": false
+        },
+        {
+          "id": "lead_volume_conversion_rate_cac_pipeline_velocity_persona_5",
+          "label": "Lead volume, conversion rate, CAC, pipeline velocity - Persona 5",
+          "type": "text",
+          "placeholder": "Enter persona 5",
+          "required": false
+        },
+        {
+          "id": "fear_of_falling_behind_competitors_pride_in_team_achievement_persona_2",
+          "label": "Fear of falling behind competitors, pride in team achievements - Persona 2",
+          "type": "text",
+          "placeholder": "Enter persona 2",
+          "required": false
+        },
+        {
+          "id": "fear_of_falling_behind_competitors_pride_in_team_achievement_persona_3",
+          "label": "Fear of falling behind competitors, pride in team achievements - Persona 3",
+          "type": "text",
+          "placeholder": "Enter persona 3",
+          "required": false
+        },
+        {
+          "id": "fear_of_falling_behind_competitors_pride_in_team_achievement_persona_4",
+          "label": "Fear of falling behind competitors, pride in team achievements - Persona 4",
+          "type": "text",
+          "placeholder": "Enter persona 4",
+          "required": false
+        },
+        {
+          "id": "fear_of_falling_behind_competitors_pride_in_team_achievement_persona_5",
+          "label": "Fear of falling behind competitors, pride in team achievements - Persona 5",
+          "type": "text",
+          "placeholder": "Enter persona 5",
+          "required": false
+        },
+        {
+          "id": "i_need_tools_that_make_my_small_team_punch_above_their_weigh_persona_2",
+          "label": "I need tools that make my small team punch above their weight. - Persona 2",
+          "type": "text",
+          "placeholder": "Enter persona 2",
+          "required": false
+        },
+        {
+          "id": "i_need_tools_that_make_my_small_team_punch_above_their_weigh_persona_3",
+          "label": "I need tools that make my small team punch above their weight. - Persona 3",
+          "type": "text",
+          "placeholder": "Enter persona 3",
+          "required": false
+        },
+        {
+          "id": "i_need_tools_that_make_my_small_team_punch_above_their_weigh_persona_4",
+          "label": "I need tools that make my small team punch above their weight. - Persona 4",
+          "type": "text",
+          "placeholder": "Enter persona 4",
+          "required": false
+        },
+        {
+          "id": "i_need_tools_that_make_my_small_team_punch_above_their_weigh_persona_5",
+          "label": "I need tools that make my small team punch above their weight. - Persona 5",
+          "type": "text",
+          "placeholder": "Enter persona 5",
+          "required": false
+        },
+        {
+          "id": "consideration_persona_2",
+          "label": "Consideration - Persona 2",
+          "type": "text",
+          "placeholder": "Enter persona 2",
+          "required": false
+        },
+        {
+          "id": "consideration_persona_3",
+          "label": "Consideration - Persona 3",
+          "type": "text",
+          "placeholder": "Enter persona 3",
+          "required": false
+        },
+        {
+          "id": "consideration_persona_4",
+          "label": "Consideration - Persona 4",
+          "type": "text",
+          "placeholder": "Enter persona 4",
+          "required": false
+        },
+        {
+          "id": "consideration_persona_5",
+          "label": "Consideration - Persona 5",
+          "type": "text",
+          "placeholder": "Enter persona 5",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "journey_map",
+      "title": "Journey Map",
+      "description": "Enter data for each item",
+      "fields": [
+        {
+          "id": "awareness_touchpoint",
+          "label": "Awareness - Touchpoint",
+          "type": "text",
+          "placeholder": "Enter touchpoint",
+          "required": false
+        },
+        {
+          "id": "awareness_customer_actions",
+          "label": "Awareness - Customer Actions",
+          "type": "textarea",
+          "placeholder": "Enter customer actions",
+          "required": false
+        },
+        {
+          "id": "awareness_customer_thoughts",
+          "label": "Awareness - Customer Thoughts",
+          "type": "text",
+          "placeholder": "Enter customer thoughts",
+          "required": false
+        },
+        {
+          "id": "awareness_emotion_15",
+          "label": "Awareness - Emotion (1-5)",
+          "type": "scale",
+          "placeholder": "Enter emotion (1-5)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "awareness_pain_points",
+          "label": "Awareness - Pain Points",
+          "type": "text",
+          "placeholder": "Enter pain points",
+          "required": false
+        },
+        {
+          "id": "awareness_opportunities",
+          "label": "Awareness - Opportunities",
+          "type": "text",
+          "placeholder": "Enter opportunities",
+          "required": false
+        },
+        {
+          "id": "awareness_touchpoint_1",
+          "label": "Awareness - Touchpoint",
+          "type": "text",
+          "placeholder": "Enter touchpoint",
+          "required": false
+        },
+        {
+          "id": "awareness_customer_actions_1",
+          "label": "Awareness - Customer Actions",
+          "type": "textarea",
+          "placeholder": "Enter customer actions",
+          "required": false
+        },
+        {
+          "id": "awareness_customer_thoughts_1",
+          "label": "Awareness - Customer Thoughts",
+          "type": "text",
+          "placeholder": "Enter customer thoughts",
+          "required": false
+        },
+        {
+          "id": "awareness_emotion_15_1",
+          "label": "Awareness - Emotion (1-5)",
+          "type": "scale",
+          "placeholder": "Enter emotion (1-5)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "awareness_pain_points_1",
+          "label": "Awareness - Pain Points",
+          "type": "text",
+          "placeholder": "Enter pain points",
+          "required": false
+        },
+        {
+          "id": "awareness_opportunities_1",
+          "label": "Awareness - Opportunities",
+          "type": "text",
+          "placeholder": "Enter opportunities",
+          "required": false
+        },
+        {
+          "id": "awareness_touchpoint_2",
+          "label": "Awareness - Touchpoint",
+          "type": "text",
+          "placeholder": "Enter touchpoint",
+          "required": false
+        },
+        {
+          "id": "awareness_customer_actions_2",
+          "label": "Awareness - Customer Actions",
+          "type": "textarea",
+          "placeholder": "Enter customer actions",
+          "required": false
+        },
+        {
+          "id": "awareness_customer_thoughts_2",
+          "label": "Awareness - Customer Thoughts",
+          "type": "text",
+          "placeholder": "Enter customer thoughts",
+          "required": false
+        },
+        {
+          "id": "awareness_emotion_15_2",
+          "label": "Awareness - Emotion (1-5)",
+          "type": "scale",
+          "placeholder": "Enter emotion (1-5)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "awareness_pain_points_2",
+          "label": "Awareness - Pain Points",
+          "type": "text",
+          "placeholder": "Enter pain points",
+          "required": false
+        },
+        {
+          "id": "awareness_opportunities_2",
+          "label": "Awareness - Opportunities",
+          "type": "text",
+          "placeholder": "Enter opportunities",
+          "required": false
+        },
+        {
+          "id": "consideration_touchpoint",
+          "label": "Consideration - Touchpoint",
+          "type": "text",
+          "placeholder": "Enter touchpoint",
+          "required": false
+        },
+        {
+          "id": "consideration_customer_actions",
+          "label": "Consideration - Customer Actions",
+          "type": "textarea",
+          "placeholder": "Enter customer actions",
+          "required": false
+        },
+        {
+          "id": "consideration_customer_thoughts",
+          "label": "Consideration - Customer Thoughts",
+          "type": "text",
+          "placeholder": "Enter customer thoughts",
+          "required": false
+        },
+        {
+          "id": "consideration_emotion_15",
+          "label": "Consideration - Emotion (1-5)",
+          "type": "scale",
+          "placeholder": "Enter emotion (1-5)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "consideration_pain_points",
+          "label": "Consideration - Pain Points",
+          "type": "text",
+          "placeholder": "Enter pain points",
+          "required": false
+        },
+        {
+          "id": "consideration_opportunities",
+          "label": "Consideration - Opportunities",
+          "type": "text",
+          "placeholder": "Enter opportunities",
+          "required": false
+        },
+        {
+          "id": "consideration_touchpoint_1",
+          "label": "Consideration - Touchpoint",
+          "type": "text",
+          "placeholder": "Enter touchpoint",
+          "required": false
+        },
+        {
+          "id": "consideration_customer_actions_1",
+          "label": "Consideration - Customer Actions",
+          "type": "textarea",
+          "placeholder": "Enter customer actions",
+          "required": false
+        },
+        {
+          "id": "consideration_customer_thoughts_1",
+          "label": "Consideration - Customer Thoughts",
+          "type": "text",
+          "placeholder": "Enter customer thoughts",
+          "required": false
+        },
+        {
+          "id": "consideration_emotion_15_1",
+          "label": "Consideration - Emotion (1-5)",
+          "type": "scale",
+          "placeholder": "Enter emotion (1-5)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "consideration_pain_points_1",
+          "label": "Consideration - Pain Points",
+          "type": "text",
+          "placeholder": "Enter pain points",
+          "required": false
+        },
+        {
+          "id": "consideration_opportunities_1",
+          "label": "Consideration - Opportunities",
+          "type": "text",
+          "placeholder": "Enter opportunities",
+          "required": false
+        },
+        {
+          "id": "consideration_touchpoint_2",
+          "label": "Consideration - Touchpoint",
+          "type": "text",
+          "placeholder": "Enter touchpoint",
+          "required": false
+        },
+        {
+          "id": "consideration_customer_actions_2",
+          "label": "Consideration - Customer Actions",
+          "type": "textarea",
+          "placeholder": "Enter customer actions",
+          "required": false
+        },
+        {
+          "id": "consideration_customer_thoughts_2",
+          "label": "Consideration - Customer Thoughts",
+          "type": "text",
+          "placeholder": "Enter customer thoughts",
+          "required": false
+        },
+        {
+          "id": "consideration_emotion_15_2",
+          "label": "Consideration - Emotion (1-5)",
+          "type": "scale",
+          "placeholder": "Enter emotion (1-5)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "consideration_pain_points_2",
+          "label": "Consideration - Pain Points",
+          "type": "text",
+          "placeholder": "Enter pain points",
+          "required": false
+        },
+        {
+          "id": "consideration_opportunities_2",
+          "label": "Consideration - Opportunities",
+          "type": "text",
+          "placeholder": "Enter opportunities",
+          "required": false
+        },
+        {
+          "id": "decision_touchpoint",
+          "label": "Decision - Touchpoint",
+          "type": "text",
+          "placeholder": "Enter touchpoint",
+          "required": false
+        },
+        {
+          "id": "decision_customer_actions",
+          "label": "Decision - Customer Actions",
+          "type": "textarea",
+          "placeholder": "Enter customer actions",
+          "required": false
+        },
+        {
+          "id": "decision_customer_thoughts",
+          "label": "Decision - Customer Thoughts",
+          "type": "text",
+          "placeholder": "Enter customer thoughts",
+          "required": false
+        },
+        {
+          "id": "decision_emotion_15",
+          "label": "Decision - Emotion (1-5)",
+          "type": "scale",
+          "placeholder": "Enter emotion (1-5)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "decision_pain_points",
+          "label": "Decision - Pain Points",
+          "type": "text",
+          "placeholder": "Enter pain points",
+          "required": false
+        },
+        {
+          "id": "decision_opportunities",
+          "label": "Decision - Opportunities",
+          "type": "text",
+          "placeholder": "Enter opportunities",
+          "required": false
+        },
+        {
+          "id": "decision_touchpoint_1",
+          "label": "Decision - Touchpoint",
+          "type": "text",
+          "placeholder": "Enter touchpoint",
+          "required": false
+        },
+        {
+          "id": "decision_customer_actions_1",
+          "label": "Decision - Customer Actions",
+          "type": "textarea",
+          "placeholder": "Enter customer actions",
+          "required": false
+        },
+        {
+          "id": "decision_customer_thoughts_1",
+          "label": "Decision - Customer Thoughts",
+          "type": "text",
+          "placeholder": "Enter customer thoughts",
+          "required": false
+        },
+        {
+          "id": "decision_emotion_15_1",
+          "label": "Decision - Emotion (1-5)",
+          "type": "scale",
+          "placeholder": "Enter emotion (1-5)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "decision_pain_points_1",
+          "label": "Decision - Pain Points",
+          "type": "text",
+          "placeholder": "Enter pain points",
+          "required": false
+        },
+        {
+          "id": "decision_opportunities_1",
+          "label": "Decision - Opportunities",
+          "type": "text",
+          "placeholder": "Enter opportunities",
+          "required": false
+        },
+        {
+          "id": "onboarding_touchpoint",
+          "label": "Onboarding - Touchpoint",
+          "type": "text",
+          "placeholder": "Enter touchpoint",
+          "required": false
+        },
+        {
+          "id": "onboarding_customer_actions",
+          "label": "Onboarding - Customer Actions",
+          "type": "textarea",
+          "placeholder": "Enter customer actions",
+          "required": false
+        },
+        {
+          "id": "onboarding_customer_thoughts",
+          "label": "Onboarding - Customer Thoughts",
+          "type": "text",
+          "placeholder": "Enter customer thoughts",
+          "required": false
+        },
+        {
+          "id": "onboarding_emotion_15",
+          "label": "Onboarding - Emotion (1-5)",
+          "type": "scale",
+          "placeholder": "Enter emotion (1-5)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "onboarding_pain_points",
+          "label": "Onboarding - Pain Points",
+          "type": "text",
+          "placeholder": "Enter pain points",
+          "required": false
+        },
+        {
+          "id": "onboarding_opportunities",
+          "label": "Onboarding - Opportunities",
+          "type": "text",
+          "placeholder": "Enter opportunities",
+          "required": false
+        },
+        {
+          "id": "onboarding_touchpoint_1",
+          "label": "Onboarding - Touchpoint",
+          "type": "text",
+          "placeholder": "Enter touchpoint",
+          "required": false
+        },
+        {
+          "id": "onboarding_customer_actions_1",
+          "label": "Onboarding - Customer Actions",
+          "type": "textarea",
+          "placeholder": "Enter customer actions",
+          "required": false
+        },
+        {
+          "id": "onboarding_customer_thoughts_1",
+          "label": "Onboarding - Customer Thoughts",
+          "type": "text",
+          "placeholder": "Enter customer thoughts",
+          "required": false
+        },
+        {
+          "id": "onboarding_emotion_15_1",
+          "label": "Onboarding - Emotion (1-5)",
+          "type": "scale",
+          "placeholder": "Enter emotion (1-5)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "onboarding_pain_points_1",
+          "label": "Onboarding - Pain Points",
+          "type": "text",
+          "placeholder": "Enter pain points",
+          "required": false
+        },
+        {
+          "id": "onboarding_opportunities_1",
+          "label": "Onboarding - Opportunities",
+          "type": "text",
+          "placeholder": "Enter opportunities",
+          "required": false
+        },
+        {
+          "id": "retention_touchpoint",
+          "label": "Retention - Touchpoint",
+          "type": "text",
+          "placeholder": "Enter touchpoint",
+          "required": false
+        },
+        {
+          "id": "retention_customer_actions",
+          "label": "Retention - Customer Actions",
+          "type": "textarea",
+          "placeholder": "Enter customer actions",
+          "required": false
+        },
+        {
+          "id": "retention_customer_thoughts",
+          "label": "Retention - Customer Thoughts",
+          "type": "text",
+          "placeholder": "Enter customer thoughts",
+          "required": false
+        },
+        {
+          "id": "retention_emotion_15",
+          "label": "Retention - Emotion (1-5)",
+          "type": "scale",
+          "placeholder": "Enter emotion (1-5)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "retention_pain_points",
+          "label": "Retention - Pain Points",
+          "type": "text",
+          "placeholder": "Enter pain points",
+          "required": false
+        },
+        {
+          "id": "retention_opportunities",
+          "label": "Retention - Opportunities",
+          "type": "text",
+          "placeholder": "Enter opportunities",
+          "required": false
+        },
+        {
+          "id": "retention_touchpoint_1",
+          "label": "Retention - Touchpoint",
+          "type": "text",
+          "placeholder": "Enter touchpoint",
+          "required": false
+        },
+        {
+          "id": "retention_customer_actions_1",
+          "label": "Retention - Customer Actions",
+          "type": "textarea",
+          "placeholder": "Enter customer actions",
+          "required": false
+        },
+        {
+          "id": "retention_customer_thoughts_1",
+          "label": "Retention - Customer Thoughts",
+          "type": "text",
+          "placeholder": "Enter customer thoughts",
+          "required": false
+        },
+        {
+          "id": "retention_emotion_15_1",
+          "label": "Retention - Emotion (1-5)",
+          "type": "scale",
+          "placeholder": "Enter emotion (1-5)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "retention_pain_points_1",
+          "label": "Retention - Pain Points",
+          "type": "text",
+          "placeholder": "Enter pain points",
+          "required": false
+        },
+        {
+          "id": "retention_opportunities_1",
+          "label": "Retention - Opportunities",
+          "type": "text",
+          "placeholder": "Enter opportunities",
+          "required": false
+        },
+        {
+          "id": "advocacy_touchpoint",
+          "label": "Advocacy - Touchpoint",
+          "type": "text",
+          "placeholder": "Enter touchpoint",
+          "required": false
+        },
+        {
+          "id": "advocacy_customer_actions",
+          "label": "Advocacy - Customer Actions",
+          "type": "textarea",
+          "placeholder": "Enter customer actions",
+          "required": false
+        },
+        {
+          "id": "advocacy_customer_thoughts",
+          "label": "Advocacy - Customer Thoughts",
+          "type": "text",
+          "placeholder": "Enter customer thoughts",
+          "required": false
+        },
+        {
+          "id": "advocacy_emotion_15",
+          "label": "Advocacy - Emotion (1-5)",
+          "type": "scale",
+          "placeholder": "Enter emotion (1-5)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "advocacy_pain_points",
+          "label": "Advocacy - Pain Points",
+          "type": "text",
+          "placeholder": "Enter pain points",
+          "required": false
+        },
+        {
+          "id": "advocacy_opportunities",
+          "label": "Advocacy - Opportunities",
+          "type": "text",
+          "placeholder": "Enter opportunities",
+          "required": false
+        },
+        {
+          "id": "advocacy_touchpoint_1",
+          "label": "Advocacy - Touchpoint",
+          "type": "text",
+          "placeholder": "Enter touchpoint",
+          "required": false
+        },
+        {
+          "id": "advocacy_customer_actions_1",
+          "label": "Advocacy - Customer Actions",
+          "type": "textarea",
+          "placeholder": "Enter customer actions",
+          "required": false
+        },
+        {
+          "id": "advocacy_customer_thoughts_1",
+          "label": "Advocacy - Customer Thoughts",
+          "type": "text",
+          "placeholder": "Enter customer thoughts",
+          "required": false
+        },
+        {
+          "id": "advocacy_emotion_15_1",
+          "label": "Advocacy - Emotion (1-5)",
+          "type": "scale",
+          "placeholder": "Enter emotion (1-5)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "advocacy_pain_points_1",
+          "label": "Advocacy - Pain Points",
+          "type": "text",
+          "placeholder": "Enter pain points",
+          "required": false
+        },
+        {
+          "id": "advocacy_opportunities_1",
+          "label": "Advocacy - Opportunities",
+          "type": "text",
+          "placeholder": "Enter opportunities",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "touchpoint_inventory",
+      "title": "Touchpoint Inventory",
+      "description": "Enter data for each item",
+      "fields": [
+        {
+          "id": "google_search_results_stage",
+          "label": "Google Search Results - Stage",
+          "type": "text",
+          "placeholder": "Enter stage",
+          "required": false
+        },
+        {
+          "id": "google_search_results_channel",
+          "label": "Google Search Results - Channel",
+          "type": "select",
+          "placeholder": "Enter channel",
+          "required": false,
+          "options": [
+            "Blog",
+            "Social Media",
+            "Email",
+            "Video",
+            "Paid Search",
+            "Paid Social",
+            "SEO",
+            "Events",
+            "PR"
+          ]
+        },
+        {
+          "id": "google_search_results_importance_110",
+          "label": "Google Search Results - Importance (1-10)",
+          "type": "text",
+          "placeholder": "Enter importance (1-10)",
+          "required": false
+        },
+        {
+          "id": "google_search_results_performance_110",
+          "label": "Google Search Results - Performance (1-10)",
+          "type": "text",
+          "placeholder": "Enter performance (1-10)",
+          "required": false
+        },
+        {
+          "id": "google_search_results_gap",
+          "label": "Google Search Results - Gap",
+          "type": "number",
+          "placeholder": "Enter gap",
+          "required": false
+        },
+        {
+          "id": "google_search_results_owner",
+          "label": "Google Search Results - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "google_search_results_notes",
+          "label": "Google Search Results - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "social_media_ads_stage",
+          "label": "Social Media Ads - Stage",
+          "type": "text",
+          "placeholder": "Enter stage",
+          "required": false
+        },
+        {
+          "id": "social_media_ads_channel",
+          "label": "Social Media Ads - Channel",
+          "type": "select",
+          "placeholder": "Enter channel",
+          "required": false,
+          "options": [
+            "Blog",
+            "Social Media",
+            "Email",
+            "Video",
+            "Paid Search",
+            "Paid Social",
+            "SEO",
+            "Events",
+            "PR"
+          ]
+        },
+        {
+          "id": "social_media_ads_importance_110",
+          "label": "Social Media Ads - Importance (1-10)",
+          "type": "text",
+          "placeholder": "Enter importance (1-10)",
+          "required": false
+        },
+        {
+          "id": "social_media_ads_performance_110",
+          "label": "Social Media Ads - Performance (1-10)",
+          "type": "text",
+          "placeholder": "Enter performance (1-10)",
+          "required": false
+        },
+        {
+          "id": "social_media_ads_gap",
+          "label": "Social Media Ads - Gap",
+          "type": "number",
+          "placeholder": "Enter gap",
+          "required": false
+        },
+        {
+          "id": "social_media_ads_owner",
+          "label": "Social Media Ads - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "social_media_ads_notes",
+          "label": "Social Media Ads - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "blog_content_stage",
+          "label": "Blog Content - Stage",
+          "type": "text",
+          "placeholder": "Enter stage",
+          "required": false
+        },
+        {
+          "id": "blog_content_channel",
+          "label": "Blog Content - Channel",
+          "type": "select",
+          "placeholder": "Enter channel",
+          "required": false,
+          "options": [
+            "Blog",
+            "Social Media",
+            "Email",
+            "Video",
+            "Paid Search",
+            "Paid Social",
+            "SEO",
+            "Events",
+            "PR"
+          ]
+        },
+        {
+          "id": "blog_content_importance_110",
+          "label": "Blog Content - Importance (1-10)",
+          "type": "text",
+          "placeholder": "Enter importance (1-10)",
+          "required": false
+        },
+        {
+          "id": "blog_content_performance_110",
+          "label": "Blog Content - Performance (1-10)",
+          "type": "text",
+          "placeholder": "Enter performance (1-10)",
+          "required": false
+        },
+        {
+          "id": "blog_content_gap",
+          "label": "Blog Content - Gap",
+          "type": "number",
+          "placeholder": "Enter gap",
+          "required": false
+        },
+        {
+          "id": "blog_content_owner",
+          "label": "Blog Content - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "blog_content_notes",
+          "label": "Blog Content - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "website_homepage_stage",
+          "label": "Website Homepage - Stage",
+          "type": "text",
+          "placeholder": "Enter stage",
+          "required": false
+        },
+        {
+          "id": "website_homepage_channel",
+          "label": "Website Homepage - Channel",
+          "type": "select",
+          "placeholder": "Enter channel",
+          "required": false,
+          "options": [
+            "Blog",
+            "Social Media",
+            "Email",
+            "Video",
+            "Paid Search",
+            "Paid Social",
+            "SEO",
+            "Events",
+            "PR"
+          ]
+        },
+        {
+          "id": "website_homepage_importance_110",
+          "label": "Website Homepage - Importance (1-10)",
+          "type": "text",
+          "placeholder": "Enter importance (1-10)",
+          "required": false
+        },
+        {
+          "id": "website_homepage_performance_110",
+          "label": "Website Homepage - Performance (1-10)",
+          "type": "text",
+          "placeholder": "Enter performance (1-10)",
+          "required": false
+        },
+        {
+          "id": "website_homepage_gap",
+          "label": "Website Homepage - Gap",
+          "type": "number",
+          "placeholder": "Enter gap",
+          "required": false
+        },
+        {
+          "id": "website_homepage_owner",
+          "label": "Website Homepage - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "website_homepage_notes",
+          "label": "Website Homepage - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "product_demo_stage",
+          "label": "Product Demo - Stage",
+          "type": "text",
+          "placeholder": "Enter stage",
+          "required": false
+        },
+        {
+          "id": "product_demo_channel",
+          "label": "Product Demo - Channel",
+          "type": "select",
+          "placeholder": "Enter channel",
+          "required": false,
+          "options": [
+            "Blog",
+            "Social Media",
+            "Email",
+            "Video",
+            "Paid Search",
+            "Paid Social",
+            "SEO",
+            "Events",
+            "PR"
+          ]
+        },
+        {
+          "id": "product_demo_importance_110",
+          "label": "Product Demo - Importance (1-10)",
+          "type": "text",
+          "placeholder": "Enter importance (1-10)",
+          "required": false
+        },
+        {
+          "id": "product_demo_performance_110",
+          "label": "Product Demo - Performance (1-10)",
+          "type": "text",
+          "placeholder": "Enter performance (1-10)",
+          "required": false
+        },
+        {
+          "id": "product_demo_gap",
+          "label": "Product Demo - Gap",
+          "type": "number",
+          "placeholder": "Enter gap",
+          "required": false
+        },
+        {
+          "id": "product_demo_owner",
+          "label": "Product Demo - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "product_demo_notes",
+          "label": "Product Demo - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "case_studies_page_stage",
+          "label": "Case Studies Page - Stage",
+          "type": "text",
+          "placeholder": "Enter stage",
+          "required": false
+        },
+        {
+          "id": "case_studies_page_channel",
+          "label": "Case Studies Page - Channel",
+          "type": "select",
+          "placeholder": "Enter channel",
+          "required": false,
+          "options": [
+            "Blog",
+            "Social Media",
+            "Email",
+            "Video",
+            "Paid Search",
+            "Paid Social",
+            "SEO",
+            "Events",
+            "PR"
+          ]
+        },
+        {
+          "id": "case_studies_page_importance_110",
+          "label": "Case Studies Page - Importance (1-10)",
+          "type": "text",
+          "placeholder": "Enter importance (1-10)",
+          "required": false
+        },
+        {
+          "id": "case_studies_page_performance_110",
+          "label": "Case Studies Page - Performance (1-10)",
+          "type": "text",
+          "placeholder": "Enter performance (1-10)",
+          "required": false
+        },
+        {
+          "id": "case_studies_page_gap",
+          "label": "Case Studies Page - Gap",
+          "type": "number",
+          "placeholder": "Enter gap",
+          "required": false
+        },
+        {
+          "id": "case_studies_page_owner",
+          "label": "Case Studies Page - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "case_studies_page_notes",
+          "label": "Case Studies Page - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "pricing_page_stage",
+          "label": "Pricing Page - Stage",
+          "type": "text",
+          "placeholder": "Enter stage",
+          "required": false
+        },
+        {
+          "id": "pricing_page_channel",
+          "label": "Pricing Page - Channel",
+          "type": "select",
+          "placeholder": "Enter channel",
+          "required": false,
+          "options": [
+            "Blog",
+            "Social Media",
+            "Email",
+            "Video",
+            "Paid Search",
+            "Paid Social",
+            "SEO",
+            "Events",
+            "PR"
+          ]
+        },
+        {
+          "id": "pricing_page_importance_110",
+          "label": "Pricing Page - Importance (1-10)",
+          "type": "text",
+          "placeholder": "Enter importance (1-10)",
+          "required": false
+        },
+        {
+          "id": "pricing_page_performance_110",
+          "label": "Pricing Page - Performance (1-10)",
+          "type": "text",
+          "placeholder": "Enter performance (1-10)",
+          "required": false
+        },
+        {
+          "id": "pricing_page_gap",
+          "label": "Pricing Page - Gap",
+          "type": "number",
+          "placeholder": "Enter gap",
+          "required": false
+        },
+        {
+          "id": "pricing_page_owner",
+          "label": "Pricing Page - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "pricing_page_notes",
+          "label": "Pricing Page - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "sales_proposal_stage",
+          "label": "Sales Proposal - Stage",
+          "type": "text",
+          "placeholder": "Enter stage",
+          "required": false
+        },
+        {
+          "id": "sales_proposal_channel",
+          "label": "Sales Proposal - Channel",
+          "type": "select",
+          "placeholder": "Enter channel",
+          "required": false,
+          "options": [
+            "Blog",
+            "Social Media",
+            "Email",
+            "Video",
+            "Paid Search",
+            "Paid Social",
+            "SEO",
+            "Events",
+            "PR"
+          ]
+        },
+        {
+          "id": "sales_proposal_importance_110",
+          "label": "Sales Proposal - Importance (1-10)",
+          "type": "text",
+          "placeholder": "Enter importance (1-10)",
+          "required": false
+        },
+        {
+          "id": "sales_proposal_performance_110",
+          "label": "Sales Proposal - Performance (1-10)",
+          "type": "text",
+          "placeholder": "Enter performance (1-10)",
+          "required": false
+        },
+        {
+          "id": "sales_proposal_gap",
+          "label": "Sales Proposal - Gap",
+          "type": "number",
+          "placeholder": "Enter gap",
+          "required": false
+        },
+        {
+          "id": "sales_proposal_owner",
+          "label": "Sales Proposal - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "sales_proposal_notes",
+          "label": "Sales Proposal - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "contract_signing_stage",
+          "label": "Contract Signing - Stage",
+          "type": "text",
+          "placeholder": "Enter stage",
+          "required": false
+        },
+        {
+          "id": "contract_signing_channel",
+          "label": "Contract Signing - Channel",
+          "type": "select",
+          "placeholder": "Enter channel",
+          "required": false,
+          "options": [
+            "Blog",
+            "Social Media",
+            "Email",
+            "Video",
+            "Paid Search",
+            "Paid Social",
+            "SEO",
+            "Events",
+            "PR"
+          ]
+        },
+        {
+          "id": "contract_signing_importance_110",
+          "label": "Contract Signing - Importance (1-10)",
+          "type": "text",
+          "placeholder": "Enter importance (1-10)",
+          "required": false
+        },
+        {
+          "id": "contract_signing_performance_110",
+          "label": "Contract Signing - Performance (1-10)",
+          "type": "text",
+          "placeholder": "Enter performance (1-10)",
+          "required": false
+        },
+        {
+          "id": "contract_signing_gap",
+          "label": "Contract Signing - Gap",
+          "type": "number",
+          "placeholder": "Enter gap",
+          "required": false
+        },
+        {
+          "id": "contract_signing_owner",
+          "label": "Contract Signing - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "contract_signing_notes",
+          "label": "Contract Signing - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "welcome_email_stage",
+          "label": "Welcome Email - Stage",
+          "type": "text",
+          "placeholder": "Enter stage",
+          "required": false
+        },
+        {
+          "id": "welcome_email_channel",
+          "label": "Welcome Email - Channel",
+          "type": "select",
+          "placeholder": "Enter channel",
+          "required": false,
+          "options": [
+            "Blog",
+            "Social Media",
+            "Email",
+            "Video",
+            "Paid Search",
+            "Paid Social",
+            "SEO",
+            "Events",
+            "PR"
+          ]
+        },
+        {
+          "id": "welcome_email_importance_110",
+          "label": "Welcome Email - Importance (1-10)",
+          "type": "text",
+          "placeholder": "Enter importance (1-10)",
+          "required": false
+        },
+        {
+          "id": "welcome_email_performance_110",
+          "label": "Welcome Email - Performance (1-10)",
+          "type": "text",
+          "placeholder": "Enter performance (1-10)",
+          "required": false
+        },
+        {
+          "id": "welcome_email_gap",
+          "label": "Welcome Email - Gap",
+          "type": "number",
+          "placeholder": "Enter gap",
+          "required": false
+        },
+        {
+          "id": "welcome_email_owner",
+          "label": "Welcome Email - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "welcome_email_notes",
+          "label": "Welcome Email - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "onboarding_call_stage",
+          "label": "Onboarding Call - Stage",
+          "type": "text",
+          "placeholder": "Enter stage",
+          "required": false
+        },
+        {
+          "id": "onboarding_call_channel",
+          "label": "Onboarding Call - Channel",
+          "type": "select",
+          "placeholder": "Enter channel",
+          "required": false,
+          "options": [
+            "Blog",
+            "Social Media",
+            "Email",
+            "Video",
+            "Paid Search",
+            "Paid Social",
+            "SEO",
+            "Events",
+            "PR"
+          ]
+        },
+        {
+          "id": "onboarding_call_importance_110",
+          "label": "Onboarding Call - Importance (1-10)",
+          "type": "text",
+          "placeholder": "Enter importance (1-10)",
+          "required": false
+        },
+        {
+          "id": "onboarding_call_performance_110",
+          "label": "Onboarding Call - Performance (1-10)",
+          "type": "text",
+          "placeholder": "Enter performance (1-10)",
+          "required": false
+        },
+        {
+          "id": "onboarding_call_gap",
+          "label": "Onboarding Call - Gap",
+          "type": "number",
+          "placeholder": "Enter gap",
+          "required": false
+        },
+        {
+          "id": "onboarding_call_owner",
+          "label": "Onboarding Call - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "onboarding_call_notes",
+          "label": "Onboarding Call - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "monthly_checkin_stage",
+          "label": "Monthly Check-in - Stage",
+          "type": "text",
+          "placeholder": "Enter stage",
+          "required": false
+        },
+        {
+          "id": "monthly_checkin_channel",
+          "label": "Monthly Check-in - Channel",
+          "type": "select",
+          "placeholder": "Enter channel",
+          "required": false,
+          "options": [
+            "Blog",
+            "Social Media",
+            "Email",
+            "Video",
+            "Paid Search",
+            "Paid Social",
+            "SEO",
+            "Events",
+            "PR"
+          ]
+        },
+        {
+          "id": "monthly_checkin_importance_110",
+          "label": "Monthly Check-in - Importance (1-10)",
+          "type": "text",
+          "placeholder": "Enter importance (1-10)",
+          "required": false
+        },
+        {
+          "id": "monthly_checkin_performance_110",
+          "label": "Monthly Check-in - Performance (1-10)",
+          "type": "text",
+          "placeholder": "Enter performance (1-10)",
+          "required": false
+        },
+        {
+          "id": "monthly_checkin_gap",
+          "label": "Monthly Check-in - Gap",
+          "type": "number",
+          "placeholder": "Enter gap",
+          "required": false
+        },
+        {
+          "id": "monthly_checkin_owner",
+          "label": "Monthly Check-in - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "monthly_checkin_notes",
+          "label": "Monthly Check-in - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "support_chat_stage",
+          "label": "Support Chat - Stage",
+          "type": "text",
+          "placeholder": "Enter stage",
+          "required": false
+        },
+        {
+          "id": "support_chat_channel",
+          "label": "Support Chat - Channel",
+          "type": "select",
+          "placeholder": "Enter channel",
+          "required": false,
+          "options": [
+            "Blog",
+            "Social Media",
+            "Email",
+            "Video",
+            "Paid Search",
+            "Paid Social",
+            "SEO",
+            "Events",
+            "PR"
+          ]
+        },
+        {
+          "id": "support_chat_importance_110",
+          "label": "Support Chat - Importance (1-10)",
+          "type": "text",
+          "placeholder": "Enter importance (1-10)",
+          "required": false
+        },
+        {
+          "id": "support_chat_performance_110",
+          "label": "Support Chat - Performance (1-10)",
+          "type": "text",
+          "placeholder": "Enter performance (1-10)",
+          "required": false
+        },
+        {
+          "id": "support_chat_gap",
+          "label": "Support Chat - Gap",
+          "type": "number",
+          "placeholder": "Enter gap",
+          "required": false
+        },
+        {
+          "id": "support_chat_owner",
+          "label": "Support Chat - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "support_chat_notes",
+          "label": "Support Chat - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "nps_survey_stage",
+          "label": "NPS Survey - Stage",
+          "type": "text",
+          "placeholder": "Enter stage",
+          "required": false
+        },
+        {
+          "id": "nps_survey_channel",
+          "label": "NPS Survey - Channel",
+          "type": "select",
+          "placeholder": "Enter channel",
+          "required": false,
+          "options": [
+            "Blog",
+            "Social Media",
+            "Email",
+            "Video",
+            "Paid Search",
+            "Paid Social",
+            "SEO",
+            "Events",
+            "PR"
+          ]
+        },
+        {
+          "id": "nps_survey_importance_110",
+          "label": "NPS Survey - Importance (1-10)",
+          "type": "text",
+          "placeholder": "Enter importance (1-10)",
+          "required": false
+        },
+        {
+          "id": "nps_survey_performance_110",
+          "label": "NPS Survey - Performance (1-10)",
+          "type": "text",
+          "placeholder": "Enter performance (1-10)",
+          "required": false
+        },
+        {
+          "id": "nps_survey_gap",
+          "label": "NPS Survey - Gap",
+          "type": "number",
+          "placeholder": "Enter gap",
+          "required": false
+        },
+        {
+          "id": "nps_survey_owner",
+          "label": "NPS Survey - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "nps_survey_notes",
+          "label": "NPS Survey - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "referral_program_stage",
+          "label": "Referral Program - Stage",
+          "type": "text",
+          "placeholder": "Enter stage",
+          "required": false
+        },
+        {
+          "id": "referral_program_channel",
+          "label": "Referral Program - Channel",
+          "type": "select",
+          "placeholder": "Enter channel",
+          "required": false,
+          "options": [
+            "Blog",
+            "Social Media",
+            "Email",
+            "Video",
+            "Paid Search",
+            "Paid Social",
+            "SEO",
+            "Events",
+            "PR"
+          ]
+        },
+        {
+          "id": "referral_program_importance_110",
+          "label": "Referral Program - Importance (1-10)",
+          "type": "text",
+          "placeholder": "Enter importance (1-10)",
+          "required": false
+        },
+        {
+          "id": "referral_program_performance_110",
+          "label": "Referral Program - Performance (1-10)",
+          "type": "text",
+          "placeholder": "Enter performance (1-10)",
+          "required": false
+        },
+        {
+          "id": "referral_program_gap",
+          "label": "Referral Program - Gap",
+          "type": "number",
+          "placeholder": "Enter gap",
+          "required": false
+        },
+        {
+          "id": "referral_program_owner",
+          "label": "Referral Program - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "referral_program_notes",
+          "label": "Referral Program - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "moments_of_truth",
+      "title": "Moments of Truth",
+      "description": "Enter data for each item",
+      "fields": [
+        {
+          "id": "first_website_visit_stage",
+          "label": "First Website Visit - Stage",
+          "type": "text",
+          "placeholder": "Enter stage",
+          "required": false
+        },
+        {
+          "id": "first_website_visit_why_it_matters",
+          "label": "First Website Visit - Why It Matters",
+          "type": "text",
+          "placeholder": "Enter why it matters",
+          "required": false
+        },
+        {
+          "id": "first_website_visit_current_experience",
+          "label": "First Website Visit - Current Experience",
+          "type": "text",
+          "placeholder": "Enter current experience",
+          "required": false
+        },
+        {
+          "id": "first_website_visit_impact_110",
+          "label": "First Website Visit - Impact (1-10)",
+          "type": "text",
+          "placeholder": "Enter impact (1-10)",
+          "required": false
+        },
+        {
+          "id": "first_website_visit_urgency_110",
+          "label": "First Website Visit - Urgency (1-10)",
+          "type": "text",
+          "placeholder": "Enter urgency (1-10)",
+          "required": false
+        },
+        {
+          "id": "first_website_visit_improvement_plan",
+          "label": "First Website Visit - Improvement Plan",
+          "type": "text",
+          "placeholder": "Enter improvement plan",
+          "required": false
+        },
+        {
+          "id": "product_demo_stage",
+          "label": "Product Demo - Stage",
+          "type": "text",
+          "placeholder": "Enter stage",
+          "required": false
+        },
+        {
+          "id": "product_demo_why_it_matters",
+          "label": "Product Demo - Why It Matters",
+          "type": "text",
+          "placeholder": "Enter why it matters",
+          "required": false
+        },
+        {
+          "id": "product_demo_current_experience",
+          "label": "Product Demo - Current Experience",
+          "type": "text",
+          "placeholder": "Enter current experience",
+          "required": false
+        },
+        {
+          "id": "product_demo_impact_110",
+          "label": "Product Demo - Impact (1-10)",
+          "type": "text",
+          "placeholder": "Enter impact (1-10)",
+          "required": false
+        },
+        {
+          "id": "product_demo_urgency_110",
+          "label": "Product Demo - Urgency (1-10)",
+          "type": "text",
+          "placeholder": "Enter urgency (1-10)",
+          "required": false
+        },
+        {
+          "id": "product_demo_improvement_plan",
+          "label": "Product Demo - Improvement Plan",
+          "type": "text",
+          "placeholder": "Enter improvement plan",
+          "required": false
+        },
+        {
+          "id": "first_24_hours_after_purchase_stage",
+          "label": "First 24 Hours After Purchase - Stage",
+          "type": "text",
+          "placeholder": "Enter stage",
+          "required": false
+        },
+        {
+          "id": "first_24_hours_after_purchase_why_it_matters",
+          "label": "First 24 Hours After Purchase - Why It Matters",
+          "type": "text",
+          "placeholder": "Enter why it matters",
+          "required": false
+        },
+        {
+          "id": "first_24_hours_after_purchase_current_experience",
+          "label": "First 24 Hours After Purchase - Current Experience",
+          "type": "text",
+          "placeholder": "Enter current experience",
+          "required": false
+        },
+        {
+          "id": "first_24_hours_after_purchase_impact_110",
+          "label": "First 24 Hours After Purchase - Impact (1-10)",
+          "type": "text",
+          "placeholder": "Enter impact (1-10)",
+          "required": false
+        },
+        {
+          "id": "first_24_hours_after_purchase_urgency_110",
+          "label": "First 24 Hours After Purchase - Urgency (1-10)",
+          "type": "text",
+          "placeholder": "Enter urgency (1-10)",
+          "required": false
+        },
+        {
+          "id": "first_24_hours_after_purchase_improvement_plan",
+          "label": "First 24 Hours After Purchase - Improvement Plan",
+          "type": "text",
+          "placeholder": "Enter improvement plan",
+          "required": false
+        },
+        {
+          "id": "first_support_interaction_stage",
+          "label": "First Support Interaction - Stage",
+          "type": "text",
+          "placeholder": "Enter stage",
+          "required": false
+        },
+        {
+          "id": "first_support_interaction_why_it_matters",
+          "label": "First Support Interaction - Why It Matters",
+          "type": "text",
+          "placeholder": "Enter why it matters",
+          "required": false
+        },
+        {
+          "id": "first_support_interaction_current_experience",
+          "label": "First Support Interaction - Current Experience",
+          "type": "text",
+          "placeholder": "Enter current experience",
+          "required": false
+        },
+        {
+          "id": "first_support_interaction_impact_110",
+          "label": "First Support Interaction - Impact (1-10)",
+          "type": "text",
+          "placeholder": "Enter impact (1-10)",
+          "required": false
+        },
+        {
+          "id": "first_support_interaction_urgency_110",
+          "label": "First Support Interaction - Urgency (1-10)",
+          "type": "text",
+          "placeholder": "Enter urgency (1-10)",
+          "required": false
+        },
+        {
+          "id": "first_support_interaction_improvement_plan",
+          "label": "First Support Interaction - Improvement Plan",
+          "type": "text",
+          "placeholder": "Enter improvement plan",
+          "required": false
+        },
+        {
+          "id": "renewal_decision_stage",
+          "label": "Renewal Decision - Stage",
+          "type": "text",
+          "placeholder": "Enter stage",
+          "required": false
+        },
+        {
+          "id": "renewal_decision_why_it_matters",
+          "label": "Renewal Decision - Why It Matters",
+          "type": "text",
+          "placeholder": "Enter why it matters",
+          "required": false
+        },
+        {
+          "id": "renewal_decision_current_experience",
+          "label": "Renewal Decision - Current Experience",
+          "type": "text",
+          "placeholder": "Enter current experience",
+          "required": false
+        },
+        {
+          "id": "renewal_decision_impact_110",
+          "label": "Renewal Decision - Impact (1-10)",
+          "type": "text",
+          "placeholder": "Enter impact (1-10)",
+          "required": false
+        },
+        {
+          "id": "renewal_decision_urgency_110",
+          "label": "Renewal Decision - Urgency (1-10)",
+          "type": "text",
+          "placeholder": "Enter urgency (1-10)",
+          "required": false
+        },
+        {
+          "id": "renewal_decision_improvement_plan",
+          "label": "Renewal Decision - Improvement Plan",
+          "type": "text",
+          "placeholder": "Enter improvement plan",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "emotion_curve",
+      "title": "Emotion Curve",
+      "description": "Enter data for each item",
+      "fields": [
+        {
+          "id": "google_search_stage",
+          "label": "Google Search - Stage",
+          "type": "text",
+          "placeholder": "Enter stage",
+          "required": false
+        },
+        {
+          "id": "google_search_expected_15",
+          "label": "Google Search - Expected (1-5)",
+          "type": "scale",
+          "placeholder": "Enter expected (1-5)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "google_search_actual_15",
+          "label": "Google Search - Actual (1-5)",
+          "type": "scale",
+          "placeholder": "Enter actual (1-5)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "google_search_gap",
+          "label": "Google Search - Gap",
+          "type": "number",
+          "placeholder": "Enter gap",
+          "required": false
+        },
+        {
+          "id": "google_search_what_causes_the_gap",
+          "label": "Google Search - What Causes the Gap",
+          "type": "number",
+          "placeholder": "Enter what causes the gap",
+          "required": false
+        },
+        {
+          "id": "google_search_how_to_close_the_gap",
+          "label": "Google Search - How to Close the Gap",
+          "type": "number",
+          "placeholder": "Enter how to close the gap",
+          "required": false
+        },
+        {
+          "id": "website_landing_stage",
+          "label": "Website Landing - Stage",
+          "type": "text",
+          "placeholder": "Enter stage",
+          "required": false
+        },
+        {
+          "id": "website_landing_expected_15",
+          "label": "Website Landing - Expected (1-5)",
+          "type": "scale",
+          "placeholder": "Enter expected (1-5)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "website_landing_actual_15",
+          "label": "Website Landing - Actual (1-5)",
+          "type": "scale",
+          "placeholder": "Enter actual (1-5)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "website_landing_gap",
+          "label": "Website Landing - Gap",
+          "type": "number",
+          "placeholder": "Enter gap",
+          "required": false
+        },
+        {
+          "id": "website_landing_what_causes_the_gap",
+          "label": "Website Landing - What Causes the Gap",
+          "type": "number",
+          "placeholder": "Enter what causes the gap",
+          "required": false
+        },
+        {
+          "id": "website_landing_how_to_close_the_gap",
+          "label": "Website Landing - How to Close the Gap",
+          "type": "number",
+          "placeholder": "Enter how to close the gap",
+          "required": false
+        },
+        {
+          "id": "content_download_stage",
+          "label": "Content Download - Stage",
+          "type": "text",
+          "placeholder": "Enter stage",
+          "required": false
+        },
+        {
+          "id": "content_download_expected_15",
+          "label": "Content Download - Expected (1-5)",
+          "type": "scale",
+          "placeholder": "Enter expected (1-5)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "content_download_actual_15",
+          "label": "Content Download - Actual (1-5)",
+          "type": "scale",
+          "placeholder": "Enter actual (1-5)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "content_download_gap",
+          "label": "Content Download - Gap",
+          "type": "number",
+          "placeholder": "Enter gap",
+          "required": false
+        },
+        {
+          "id": "content_download_what_causes_the_gap",
+          "label": "Content Download - What Causes the Gap",
+          "type": "number",
+          "placeholder": "Enter what causes the gap",
+          "required": false
+        },
+        {
+          "id": "content_download_how_to_close_the_gap",
+          "label": "Content Download - How to Close the Gap",
+          "type": "number",
+          "placeholder": "Enter how to close the gap",
+          "required": false
+        },
+        {
+          "id": "demo_scheduling_stage",
+          "label": "Demo Scheduling - Stage",
+          "type": "text",
+          "placeholder": "Enter stage",
+          "required": false
+        },
+        {
+          "id": "demo_scheduling_expected_15",
+          "label": "Demo Scheduling - Expected (1-5)",
+          "type": "scale",
+          "placeholder": "Enter expected (1-5)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "demo_scheduling_actual_15",
+          "label": "Demo Scheduling - Actual (1-5)",
+          "type": "scale",
+          "placeholder": "Enter actual (1-5)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "demo_scheduling_gap",
+          "label": "Demo Scheduling - Gap",
+          "type": "number",
+          "placeholder": "Enter gap",
+          "required": false
+        },
+        {
+          "id": "demo_scheduling_what_causes_the_gap",
+          "label": "Demo Scheduling - What Causes the Gap",
+          "type": "number",
+          "placeholder": "Enter what causes the gap",
+          "required": false
+        },
+        {
+          "id": "demo_scheduling_how_to_close_the_gap",
+          "label": "Demo Scheduling - How to Close the Gap",
+          "type": "number",
+          "placeholder": "Enter how to close the gap",
+          "required": false
+        },
+        {
+          "id": "demo_experience_stage",
+          "label": "Demo Experience - Stage",
+          "type": "text",
+          "placeholder": "Enter stage",
+          "required": false
+        },
+        {
+          "id": "demo_experience_expected_15",
+          "label": "Demo Experience - Expected (1-5)",
+          "type": "scale",
+          "placeholder": "Enter expected (1-5)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "demo_experience_actual_15",
+          "label": "Demo Experience - Actual (1-5)",
+          "type": "scale",
+          "placeholder": "Enter actual (1-5)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "demo_experience_gap",
+          "label": "Demo Experience - Gap",
+          "type": "number",
+          "placeholder": "Enter gap",
+          "required": false
+        },
+        {
+          "id": "demo_experience_what_causes_the_gap",
+          "label": "Demo Experience - What Causes the Gap",
+          "type": "number",
+          "placeholder": "Enter what causes the gap",
+          "required": false
+        },
+        {
+          "id": "demo_experience_how_to_close_the_gap",
+          "label": "Demo Experience - How to Close the Gap",
+          "type": "number",
+          "placeholder": "Enter how to close the gap",
+          "required": false
+        },
+        {
+          "id": "pricing_discussion_stage",
+          "label": "Pricing Discussion - Stage",
+          "type": "text",
+          "placeholder": "Enter stage",
+          "required": false
+        },
+        {
+          "id": "pricing_discussion_expected_15",
+          "label": "Pricing Discussion - Expected (1-5)",
+          "type": "scale",
+          "placeholder": "Enter expected (1-5)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "pricing_discussion_actual_15",
+          "label": "Pricing Discussion - Actual (1-5)",
+          "type": "scale",
+          "placeholder": "Enter actual (1-5)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "pricing_discussion_gap",
+          "label": "Pricing Discussion - Gap",
+          "type": "number",
+          "placeholder": "Enter gap",
+          "required": false
+        },
+        {
+          "id": "pricing_discussion_what_causes_the_gap",
+          "label": "Pricing Discussion - What Causes the Gap",
+          "type": "number",
+          "placeholder": "Enter what causes the gap",
+          "required": false
+        },
+        {
+          "id": "pricing_discussion_how_to_close_the_gap",
+          "label": "Pricing Discussion - How to Close the Gap",
+          "type": "number",
+          "placeholder": "Enter how to close the gap",
+          "required": false
+        },
+        {
+          "id": "contract_process_stage",
+          "label": "Contract Process - Stage",
+          "type": "text",
+          "placeholder": "Enter stage",
+          "required": false
+        },
+        {
+          "id": "contract_process_expected_15",
+          "label": "Contract Process - Expected (1-5)",
+          "type": "scale",
+          "placeholder": "Enter expected (1-5)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "contract_process_actual_15",
+          "label": "Contract Process - Actual (1-5)",
+          "type": "scale",
+          "placeholder": "Enter actual (1-5)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "contract_process_gap",
+          "label": "Contract Process - Gap",
+          "type": "number",
+          "placeholder": "Enter gap",
+          "required": false
+        },
+        {
+          "id": "contract_process_what_causes_the_gap",
+          "label": "Contract Process - What Causes the Gap",
+          "type": "number",
+          "placeholder": "Enter what causes the gap",
+          "required": false
+        },
+        {
+          "id": "contract_process_how_to_close_the_gap",
+          "label": "Contract Process - How to Close the Gap",
+          "type": "number",
+          "placeholder": "Enter how to close the gap",
+          "required": false
+        },
+        {
+          "id": "welcome_email_stage",
+          "label": "Welcome Email - Stage",
+          "type": "text",
+          "placeholder": "Enter stage",
+          "required": false
+        },
+        {
+          "id": "welcome_email_expected_15",
+          "label": "Welcome Email - Expected (1-5)",
+          "type": "scale",
+          "placeholder": "Enter expected (1-5)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "welcome_email_actual_15",
+          "label": "Welcome Email - Actual (1-5)",
+          "type": "scale",
+          "placeholder": "Enter actual (1-5)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "welcome_email_gap",
+          "label": "Welcome Email - Gap",
+          "type": "number",
+          "placeholder": "Enter gap",
+          "required": false
+        },
+        {
+          "id": "welcome_email_what_causes_the_gap",
+          "label": "Welcome Email - What Causes the Gap",
+          "type": "number",
+          "placeholder": "Enter what causes the gap",
+          "required": false
+        },
+        {
+          "id": "welcome_email_how_to_close_the_gap",
+          "label": "Welcome Email - How to Close the Gap",
+          "type": "number",
+          "placeholder": "Enter how to close the gap",
+          "required": false
+        },
+        {
+          "id": "first_product_use_stage",
+          "label": "First Product Use - Stage",
+          "type": "text",
+          "placeholder": "Enter stage",
+          "required": false
+        },
+        {
+          "id": "first_product_use_expected_15",
+          "label": "First Product Use - Expected (1-5)",
+          "type": "scale",
+          "placeholder": "Enter expected (1-5)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "first_product_use_actual_15",
+          "label": "First Product Use - Actual (1-5)",
+          "type": "scale",
+          "placeholder": "Enter actual (1-5)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "first_product_use_gap",
+          "label": "First Product Use - Gap",
+          "type": "number",
+          "placeholder": "Enter gap",
+          "required": false
+        },
+        {
+          "id": "first_product_use_what_causes_the_gap",
+          "label": "First Product Use - What Causes the Gap",
+          "type": "number",
+          "placeholder": "Enter what causes the gap",
+          "required": false
+        },
+        {
+          "id": "first_product_use_how_to_close_the_gap",
+          "label": "First Product Use - How to Close the Gap",
+          "type": "number",
+          "placeholder": "Enter how to close the gap",
+          "required": false
+        },
+        {
+          "id": "30day_checkin_stage",
+          "label": "30-Day Check-in - Stage",
+          "type": "text",
+          "placeholder": "Enter stage",
+          "required": false
+        },
+        {
+          "id": "30day_checkin_expected_15",
+          "label": "30-Day Check-in - Expected (1-5)",
+          "type": "scale",
+          "placeholder": "Enter expected (1-5)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "30day_checkin_actual_15",
+          "label": "30-Day Check-in - Actual (1-5)",
+          "type": "scale",
+          "placeholder": "Enter actual (1-5)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "30day_checkin_gap",
+          "label": "30-Day Check-in - Gap",
+          "type": "number",
+          "placeholder": "Enter gap",
+          "required": false
+        },
+        {
+          "id": "30day_checkin_what_causes_the_gap",
+          "label": "30-Day Check-in - What Causes the Gap",
+          "type": "number",
+          "placeholder": "Enter what causes the gap",
+          "required": false
+        },
+        {
+          "id": "30day_checkin_how_to_close_the_gap",
+          "label": "30-Day Check-in - How to Close the Gap",
+          "type": "number",
+          "placeholder": "Enter how to close the gap",
+          "required": false
+        },
+        {
+          "id": "support_request_stage",
+          "label": "Support Request - Stage",
+          "type": "text",
+          "placeholder": "Enter stage",
+          "required": false
+        },
+        {
+          "id": "support_request_expected_15",
+          "label": "Support Request - Expected (1-5)",
+          "type": "scale",
+          "placeholder": "Enter expected (1-5)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "support_request_actual_15",
+          "label": "Support Request - Actual (1-5)",
+          "type": "scale",
+          "placeholder": "Enter actual (1-5)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "support_request_gap",
+          "label": "Support Request - Gap",
+          "type": "number",
+          "placeholder": "Enter gap",
+          "required": false
+        },
+        {
+          "id": "support_request_what_causes_the_gap",
+          "label": "Support Request - What Causes the Gap",
+          "type": "number",
+          "placeholder": "Enter what causes the gap",
+          "required": false
+        },
+        {
+          "id": "support_request_how_to_close_the_gap",
+          "label": "Support Request - How to Close the Gap",
+          "type": "number",
+          "placeholder": "Enter how to close the gap",
+          "required": false
+        },
+        {
+          "id": "quarterly_review_stage",
+          "label": "Quarterly Review - Stage",
+          "type": "text",
+          "placeholder": "Enter stage",
+          "required": false
+        },
+        {
+          "id": "quarterly_review_expected_15",
+          "label": "Quarterly Review - Expected (1-5)",
+          "type": "scale",
+          "placeholder": "Enter expected (1-5)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "quarterly_review_actual_15",
+          "label": "Quarterly Review - Actual (1-5)",
+          "type": "scale",
+          "placeholder": "Enter actual (1-5)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "quarterly_review_gap",
+          "label": "Quarterly Review - Gap",
+          "type": "number",
+          "placeholder": "Enter gap",
+          "required": false
+        },
+        {
+          "id": "quarterly_review_what_causes_the_gap",
+          "label": "Quarterly Review - What Causes the Gap",
+          "type": "number",
+          "placeholder": "Enter what causes the gap",
+          "required": false
+        },
+        {
+          "id": "quarterly_review_how_to_close_the_gap",
+          "label": "Quarterly Review - How to Close the Gap",
+          "type": "number",
+          "placeholder": "Enter how to close the gap",
+          "required": false
+        },
+        {
+          "id": "renewal_stage",
+          "label": "Renewal - Stage",
+          "type": "text",
+          "placeholder": "Enter stage",
+          "required": false
+        },
+        {
+          "id": "renewal_expected_15",
+          "label": "Renewal - Expected (1-5)",
+          "type": "scale",
+          "placeholder": "Enter expected (1-5)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "renewal_actual_15",
+          "label": "Renewal - Actual (1-5)",
+          "type": "scale",
+          "placeholder": "Enter actual (1-5)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "renewal_gap",
+          "label": "Renewal - Gap",
+          "type": "number",
+          "placeholder": "Enter gap",
+          "required": false
+        },
+        {
+          "id": "renewal_what_causes_the_gap",
+          "label": "Renewal - What Causes the Gap",
+          "type": "number",
+          "placeholder": "Enter what causes the gap",
+          "required": false
+        },
+        {
+          "id": "renewal_how_to_close_the_gap",
+          "label": "Renewal - How to Close the Gap",
+          "type": "number",
+          "placeholder": "Enter how to close the gap",
+          "required": false
+        },
+        {
+          "id": "referral_ask_stage",
+          "label": "Referral Ask - Stage",
+          "type": "text",
+          "placeholder": "Enter stage",
+          "required": false
+        },
+        {
+          "id": "referral_ask_expected_15",
+          "label": "Referral Ask - Expected (1-5)",
+          "type": "scale",
+          "placeholder": "Enter expected (1-5)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "referral_ask_actual_15",
+          "label": "Referral Ask - Actual (1-5)",
+          "type": "scale",
+          "placeholder": "Enter actual (1-5)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "referral_ask_gap",
+          "label": "Referral Ask - Gap",
+          "type": "number",
+          "placeholder": "Enter gap",
+          "required": false
+        },
+        {
+          "id": "referral_ask_what_causes_the_gap",
+          "label": "Referral Ask - What Causes the Gap",
+          "type": "number",
+          "placeholder": "Enter what causes the gap",
+          "required": false
+        },
+        {
+          "id": "referral_ask_how_to_close_the_gap",
+          "label": "Referral Ask - How to Close the Gap",
+          "type": "number",
+          "placeholder": "Enter how to close the gap",
+          "required": false
+        },
+        {
+          "id": "case_study_invite_stage",
+          "label": "Case Study Invite - Stage",
+          "type": "text",
+          "placeholder": "Enter stage",
+          "required": false
+        },
+        {
+          "id": "case_study_invite_expected_15",
+          "label": "Case Study Invite - Expected (1-5)",
+          "type": "scale",
+          "placeholder": "Enter expected (1-5)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "case_study_invite_actual_15",
+          "label": "Case Study Invite - Actual (1-5)",
+          "type": "scale",
+          "placeholder": "Enter actual (1-5)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "case_study_invite_gap",
+          "label": "Case Study Invite - Gap",
+          "type": "number",
+          "placeholder": "Enter gap",
+          "required": false
+        },
+        {
+          "id": "case_study_invite_what_causes_the_gap",
+          "label": "Case Study Invite - What Causes the Gap",
+          "type": "number",
+          "placeholder": "Enter what causes the gap",
+          "required": false
+        },
+        {
+          "id": "case_study_invite_how_to_close_the_gap",
+          "label": "Case Study Invite - How to Close the Gap",
+          "type": "number",
+          "placeholder": "Enter how to close the gap",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "action_plan",
+      "title": "Action Plan",
+      "description": "Enter data for each item",
+      "fields": [
+        {
+          "id": "redesign_homepage_stage",
+          "label": "Redesign Homepage - Stage",
+          "type": "text",
+          "placeholder": "Enter stage",
+          "required": false
+        },
+        {
+          "id": "redesign_homepage_description",
+          "label": "Redesign Homepage - Description",
+          "type": "textarea",
+          "placeholder": "Enter description",
+          "required": false
+        },
+        {
+          "id": "redesign_homepage_priority",
+          "label": "Redesign Homepage - Priority",
+          "type": "select",
+          "placeholder": "Enter priority",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "redesign_homepage_owner",
+          "label": "Redesign Homepage - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "redesign_homepage_status",
+          "label": "Redesign Homepage - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "redesign_homepage_start_date",
+          "label": "Redesign Homepage - Start Date",
+          "type": "text",
+          "placeholder": "Enter start date",
+          "required": false
+        },
+        {
+          "id": "redesign_homepage_due_date",
+          "label": "Redesign Homepage - Due Date",
+          "type": "text",
+          "placeholder": "Enter due date",
+          "required": false
+        },
+        {
+          "id": "redesign_homepage_notes",
+          "label": "Redesign Homepage - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "launch_selfserve_demo_booking_stage",
+          "label": "Launch Self-Serve Demo Booking - Stage",
+          "type": "text",
+          "placeholder": "Enter stage",
+          "required": false
+        },
+        {
+          "id": "launch_selfserve_demo_booking_description",
+          "label": "Launch Self-Serve Demo Booking - Description",
+          "type": "textarea",
+          "placeholder": "Enter description",
+          "required": false
+        },
+        {
+          "id": "launch_selfserve_demo_booking_priority",
+          "label": "Launch Self-Serve Demo Booking - Priority",
+          "type": "select",
+          "placeholder": "Enter priority",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "launch_selfserve_demo_booking_owner",
+          "label": "Launch Self-Serve Demo Booking - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "launch_selfserve_demo_booking_status",
+          "label": "Launch Self-Serve Demo Booking - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "launch_selfserve_demo_booking_start_date",
+          "label": "Launch Self-Serve Demo Booking - Start Date",
+          "type": "text",
+          "placeholder": "Enter start date",
+          "required": false
+        },
+        {
+          "id": "launch_selfserve_demo_booking_due_date",
+          "label": "Launch Self-Serve Demo Booking - Due Date",
+          "type": "text",
+          "placeholder": "Enter due date",
+          "required": false
+        },
+        {
+          "id": "launch_selfserve_demo_booking_notes",
+          "label": "Launch Self-Serve Demo Booking - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "build_industryspecific_demos_stage",
+          "label": "Build Industry-Specific Demos - Stage",
+          "type": "text",
+          "placeholder": "Enter stage",
+          "required": false
+        },
+        {
+          "id": "build_industryspecific_demos_description",
+          "label": "Build Industry-Specific Demos - Description",
+          "type": "textarea",
+          "placeholder": "Enter description",
+          "required": false
+        },
+        {
+          "id": "build_industryspecific_demos_priority",
+          "label": "Build Industry-Specific Demos - Priority",
+          "type": "select",
+          "placeholder": "Enter priority",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "build_industryspecific_demos_owner",
+          "label": "Build Industry-Specific Demos - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "build_industryspecific_demos_status",
+          "label": "Build Industry-Specific Demos - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "build_industryspecific_demos_start_date",
+          "label": "Build Industry-Specific Demos - Start Date",
+          "type": "text",
+          "placeholder": "Enter start date",
+          "required": false
+        },
+        {
+          "id": "build_industryspecific_demos_due_date",
+          "label": "Build Industry-Specific Demos - Due Date",
+          "type": "text",
+          "placeholder": "Enter due date",
+          "required": false
+        },
+        {
+          "id": "build_industryspecific_demos_notes",
+          "label": "Build Industry-Specific Demos - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "publish_transparent_pricing_stage",
+          "label": "Publish Transparent Pricing - Stage",
+          "type": "text",
+          "placeholder": "Enter stage",
+          "required": false
+        },
+        {
+          "id": "publish_transparent_pricing_description",
+          "label": "Publish Transparent Pricing - Description",
+          "type": "textarea",
+          "placeholder": "Enter description",
+          "required": false
+        },
+        {
+          "id": "publish_transparent_pricing_priority",
+          "label": "Publish Transparent Pricing - Priority",
+          "type": "select",
+          "placeholder": "Enter priority",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "publish_transparent_pricing_owner",
+          "label": "Publish Transparent Pricing - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "publish_transparent_pricing_status",
+          "label": "Publish Transparent Pricing - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "publish_transparent_pricing_start_date",
+          "label": "Publish Transparent Pricing - Start Date",
+          "type": "text",
+          "placeholder": "Enter start date",
+          "required": false
+        },
+        {
+          "id": "publish_transparent_pricing_due_date",
+          "label": "Publish Transparent Pricing - Due Date",
+          "type": "text",
+          "placeholder": "Enter due date",
+          "required": false
+        },
+        {
+          "id": "publish_transparent_pricing_notes",
+          "label": "Publish Transparent Pricing - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "launch_day_1_onboarding_flow_stage",
+          "label": "Launch Day 1 Onboarding Flow - Stage",
+          "type": "text",
+          "placeholder": "Enter stage",
+          "required": false
+        },
+        {
+          "id": "launch_day_1_onboarding_flow_description",
+          "label": "Launch Day 1 Onboarding Flow - Description",
+          "type": "textarea",
+          "placeholder": "Enter description",
+          "required": false
+        },
+        {
+          "id": "launch_day_1_onboarding_flow_priority",
+          "label": "Launch Day 1 Onboarding Flow - Priority",
+          "type": "select",
+          "placeholder": "Enter priority",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "launch_day_1_onboarding_flow_owner",
+          "label": "Launch Day 1 Onboarding Flow - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "launch_day_1_onboarding_flow_status",
+          "label": "Launch Day 1 Onboarding Flow - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "launch_day_1_onboarding_flow_start_date",
+          "label": "Launch Day 1 Onboarding Flow - Start Date",
+          "type": "text",
+          "placeholder": "Enter start date",
+          "required": false
+        },
+        {
+          "id": "launch_day_1_onboarding_flow_due_date",
+          "label": "Launch Day 1 Onboarding Flow - Due Date",
+          "type": "text",
+          "placeholder": "Enter due date",
+          "required": false
+        },
+        {
+          "id": "launch_day_1_onboarding_flow_notes",
+          "label": "Launch Day 1 Onboarding Flow - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "implement_live_chat_stage",
+          "label": "Implement Live Chat - Stage",
+          "type": "text",
+          "placeholder": "Enter stage",
+          "required": false
+        },
+        {
+          "id": "implement_live_chat_description",
+          "label": "Implement Live Chat - Description",
+          "type": "textarea",
+          "placeholder": "Enter description",
+          "required": false
+        },
+        {
+          "id": "implement_live_chat_priority",
+          "label": "Implement Live Chat - Priority",
+          "type": "select",
+          "placeholder": "Enter priority",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "implement_live_chat_owner",
+          "label": "Implement Live Chat - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "implement_live_chat_status",
+          "label": "Implement Live Chat - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "implement_live_chat_start_date",
+          "label": "Implement Live Chat - Start Date",
+          "type": "text",
+          "placeholder": "Enter start date",
+          "required": false
+        },
+        {
+          "id": "implement_live_chat_due_date",
+          "label": "Implement Live Chat - Due Date",
+          "type": "text",
+          "placeholder": "Enter due date",
+          "required": false
+        },
+        {
+          "id": "implement_live_chat_notes",
+          "label": "Implement Live Chat - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "build_customer_roi_dashboard_stage",
+          "label": "Build Customer ROI Dashboard - Stage",
+          "type": "text",
+          "placeholder": "Enter stage",
+          "required": false
+        },
+        {
+          "id": "build_customer_roi_dashboard_description",
+          "label": "Build Customer ROI Dashboard - Description",
+          "type": "textarea",
+          "placeholder": "Enter description",
+          "required": false
+        },
+        {
+          "id": "build_customer_roi_dashboard_priority",
+          "label": "Build Customer ROI Dashboard - Priority",
+          "type": "select",
+          "placeholder": "Enter priority",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "build_customer_roi_dashboard_owner",
+          "label": "Build Customer ROI Dashboard - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "build_customer_roi_dashboard_status",
+          "label": "Build Customer ROI Dashboard - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "build_customer_roi_dashboard_start_date",
+          "label": "Build Customer ROI Dashboard - Start Date",
+          "type": "text",
+          "placeholder": "Enter start date",
+          "required": false
+        },
+        {
+          "id": "build_customer_roi_dashboard_due_date",
+          "label": "Build Customer ROI Dashboard - Due Date",
+          "type": "text",
+          "placeholder": "Enter due date",
+          "required": false
+        },
+        {
+          "id": "build_customer_roi_dashboard_notes",
+          "label": "Build Customer ROI Dashboard - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "launch_referral_programme_stage",
+          "label": "Launch Referral Programme - Stage",
+          "type": "text",
+          "placeholder": "Enter stage",
+          "required": false
+        },
+        {
+          "id": "launch_referral_programme_description",
+          "label": "Launch Referral Programme - Description",
+          "type": "textarea",
+          "placeholder": "Enter description",
+          "required": false
+        },
+        {
+          "id": "launch_referral_programme_priority",
+          "label": "Launch Referral Programme - Priority",
+          "type": "select",
+          "placeholder": "Enter priority",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "launch_referral_programme_owner",
+          "label": "Launch Referral Programme - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "launch_referral_programme_status",
+          "label": "Launch Referral Programme - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "launch_referral_programme_start_date",
+          "label": "Launch Referral Programme - Start Date",
+          "type": "text",
+          "placeholder": "Enter start date",
+          "required": false
+        },
+        {
+          "id": "launch_referral_programme_due_date",
+          "label": "Launch Referral Programme - Due Date",
+          "type": "text",
+          "placeholder": "Enter due date",
+          "required": false
+        },
+        {
+          "id": "launch_referral_programme_notes",
+          "label": "Launch Referral Programme - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        }
+      ]
+    }
+  ]
 }

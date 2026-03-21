@@ -11,197 +11,6 @@
     "content"
   ],
   "estimatedTime": "45 min",
-  "sections": [
-    {
-      "id": "dashboard",
-      "title": "Dashboard",
-      "description": "Complete the Dashboard section",
-      "fields": [
-        {
-          "id": "total_content_assets_0",
-          "label": "Total Content Assets",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "iferror_counta_content_inventory_a3_a202_1",
-          "label": "IFERROR(COUNTA('Content Inventory'!A3:A202),0)",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "total_blog_posts_2",
-          "label": "Total Blog Posts",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "iferror_countif_content_inventory_c3_c20_3",
-          "label": "IFERROR(COUNTIF('Content Inventory'!C3:C202,\"Blog\"),0)",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "total_case_studies_4",
-          "label": "Total Case Studies",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "iferror_countif_content_inventory_c3_c20_5",
-          "label": "IFERROR(COUNTIF('Content Inventory'!C3:C202,\"Case Study\"),0)",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "average_quality_score_6",
-          "label": "Average Quality Score",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "iferror_average_content_scoring_b3_b202__7",
-          "label": "IFERROR(AVERAGE('Content Scoring'!B3:B202),0)",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "average_seo_score_8",
-          "label": "Average SEO Score",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "iferror_average_content_scoring_d3_d202__9",
-          "label": "IFERROR(AVERAGE('Content Scoring'!D3:D202),0)",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "total_sessions_10",
-          "label": "Total Sessions",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "iferror_sum_performance_data_b3_b202_0_11",
-          "label": "IFERROR(SUM('Performance Data'!B3:B202),0)",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "average_conversion_rate_12",
-          "label": "Average Conversion Rate",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "iferror_average_performance_data_f3_f202_13",
-          "label": "IFERROR(AVERAGE('Performance Data'!F3:F202),0)",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "total_backlinks_14",
-          "label": "Total Backlinks",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "iferror_sum_performance_data_h3_h202_0_15",
-          "label": "IFERROR(SUM('Performance Data'!H3:H202),0)",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "content_needing_update_16",
-          "label": "Content Needing Update",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "iferror_countif_content_scoring_h3_h202__17",
-          "label": "IFERROR(COUNTIF('Content Scoring'!H3:H202,\"Update\"),0)",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "content_to_archive_18",
-          "label": "Content to Archive",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "iferror_countif_content_scoring_h3_h202__19",
-          "label": "IFERROR(COUNTIF('Content Scoring'!H3:H202,\"Archive\"),0)",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "performance_data",
-      "title": "Performance Data",
-      "description": "Complete the Performance Data section",
-      "fields": [
-        {
-          "id": "bounce_rate_0",
-          "label": "Bounce Rate",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "avg_time_on_page_1",
-          "label": "Avg Time on Page",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "conversions_2",
-          "label": "Conversions",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "conversion_rate_3",
-          "label": "Conversion Rate",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "social_shares_4",
-          "label": "Social Shares",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    }
-  ],
   "dashboard": {
     "metrics": [
       {
@@ -230,5 +39,605 @@
         "format": "number"
       }
     ]
-  }
+  },
+  "sections": [
+    {
+      "id": "dashboard",
+      "title": "Dashboard",
+      "description": "Auto-calculated summary of your data. Complete the working sections to see results here.",
+      "readOnly": true,
+      "fields": [
+        {
+          "id": "dashboard_overview",
+          "label": "Dashboard Overview",
+          "type": "textarea",
+          "placeholder": "Dashboard metrics will be calculated from your inputs in the working sections",
+          "required": false,
+          "readOnly": true
+        }
+      ]
+    },
+    {
+      "id": "content_inventory",
+      "title": "Content Inventory",
+      "description": "Add entries below. Each entry has the following fields.",
+      "fields": [
+        {
+          "id": "entry_url",
+          "label": "URL",
+          "type": "text",
+          "placeholder": "Enter url",
+          "required": false
+        },
+        {
+          "id": "entry_title",
+          "label": "Title",
+          "type": "text",
+          "placeholder": "Enter title",
+          "required": false
+        },
+        {
+          "id": "entry_content_type",
+          "label": "Content Type",
+          "type": "select",
+          "placeholder": "Enter content type",
+          "required": false,
+          "options": [
+            "Blog Post",
+            "Video",
+            "Infographic",
+            "Case Study",
+            "Whitepaper",
+            "Newsletter",
+            "Social Post",
+            "Webinar"
+          ]
+        },
+        {
+          "id": "entry_author",
+          "label": "Author",
+          "type": "text",
+          "placeholder": "Enter author",
+          "required": false
+        },
+        {
+          "id": "entry_publish_date",
+          "label": "Publish Date",
+          "type": "text",
+          "placeholder": "Enter publish date",
+          "required": false
+        },
+        {
+          "id": "entry_last_updated",
+          "label": "Last Updated",
+          "type": "text",
+          "placeholder": "Enter last updated",
+          "required": false
+        },
+        {
+          "id": "entry_word_count",
+          "label": "Word Count",
+          "type": "number",
+          "placeholder": "Enter word count",
+          "required": false
+        },
+        {
+          "id": "entry_status",
+          "label": "Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "entry_topic_cluster",
+          "label": "Topic Cluster",
+          "type": "text",
+          "placeholder": "Enter topic cluster",
+          "required": false
+        },
+        {
+          "id": "entry_target_keyword",
+          "label": "Target Keyword",
+          "type": "number",
+          "placeholder": "Enter target keyword",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "seo_analysis",
+      "title": "SEO Analysis",
+      "description": "Add entries below. Each entry has the following fields.",
+      "fields": [
+        {
+          "id": "entry_url",
+          "label": "URL",
+          "type": "text",
+          "placeholder": "Enter url",
+          "required": false
+        },
+        {
+          "id": "entry_target_keyword",
+          "label": "Target Keyword",
+          "type": "number",
+          "placeholder": "Enter target keyword",
+          "required": false
+        },
+        {
+          "id": "entry_current_ranking",
+          "label": "Current Ranking",
+          "type": "number",
+          "placeholder": "Enter current ranking",
+          "required": false
+        },
+        {
+          "id": "entry_monthly_volume",
+          "label": "Monthly Volume",
+          "type": "number",
+          "placeholder": "Enter monthly volume",
+          "required": false
+        },
+        {
+          "id": "entry_keyword_difficulty",
+          "label": "Keyword Difficulty",
+          "type": "text",
+          "placeholder": "Enter keyword difficulty",
+          "required": false
+        },
+        {
+          "id": "entry_meta_title",
+          "label": "Meta Title",
+          "type": "text",
+          "placeholder": "Enter meta title",
+          "required": false
+        },
+        {
+          "id": "entry_meta_description",
+          "label": "Meta Description",
+          "type": "textarea",
+          "placeholder": "Enter meta description",
+          "required": false
+        },
+        {
+          "id": "entry_internal_links",
+          "label": "Internal Links",
+          "type": "text",
+          "placeholder": "Enter internal links",
+          "required": false
+        },
+        {
+          "id": "entry_external_links",
+          "label": "External Links",
+          "type": "text",
+          "placeholder": "Enter external links",
+          "required": false
+        },
+        {
+          "id": "entry_page_speed_score",
+          "label": "Page Speed Score",
+          "type": "scale",
+          "placeholder": "Enter page speed score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "performance_data",
+      "title": "Performance Data",
+      "description": "Add entries below. Each entry has the following fields.",
+      "fields": [
+        {
+          "id": "entry_url",
+          "label": "URL",
+          "type": "text",
+          "placeholder": "Enter url",
+          "required": false
+        },
+        {
+          "id": "entry_sessions",
+          "label": "Sessions",
+          "type": "number",
+          "placeholder": "Enter sessions",
+          "required": false
+        },
+        {
+          "id": "entry_bounce_rate",
+          "label": "Bounce Rate",
+          "type": "number",
+          "placeholder": "Enter bounce rate",
+          "required": false
+        },
+        {
+          "id": "entry_avg_time_on_page",
+          "label": "Avg Time on Page",
+          "type": "number",
+          "placeholder": "Enter avg time on page",
+          "required": false
+        },
+        {
+          "id": "entry_conversions",
+          "label": "Conversions",
+          "type": "number",
+          "placeholder": "Enter conversions",
+          "required": false
+        },
+        {
+          "id": "entry_conversion_rate",
+          "label": "Conversion Rate",
+          "type": "number",
+          "placeholder": "Enter conversion rate",
+          "required": false
+        },
+        {
+          "id": "entry_social_shares",
+          "label": "Social Shares",
+          "type": "text",
+          "placeholder": "Enter social shares",
+          "required": false
+        },
+        {
+          "id": "entry_backlinks",
+          "label": "Backlinks",
+          "type": "text",
+          "placeholder": "Enter backlinks",
+          "required": false
+        },
+        {
+          "id": "entry_domain_authority",
+          "label": "Domain Authority",
+          "type": "text",
+          "placeholder": "Enter domain authority",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "content_scoring",
+      "title": "Content Scoring",
+      "description": "Add entries below. Each entry has the following fields.",
+      "fields": [
+        {
+          "id": "entry_url",
+          "label": "URL",
+          "type": "text",
+          "placeholder": "Enter url",
+          "required": false
+        },
+        {
+          "id": "entry_quality_score_110",
+          "label": "Quality Score (1-10)",
+          "type": "scale",
+          "placeholder": "Enter quality score (1-10)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "entry_relevance_score_110",
+          "label": "Relevance Score (1-10)",
+          "type": "scale",
+          "placeholder": "Enter relevance score (1-10)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "entry_seo_score_110",
+          "label": "SEO Score (1-10)",
+          "type": "scale",
+          "placeholder": "Enter seo score (1-10)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "entry_performance_score_110",
+          "label": "Performance Score (1-10)",
+          "type": "scale",
+          "placeholder": "Enter performance score (1-10)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "entry_overall_score",
+          "label": "Overall Score",
+          "type": "scale",
+          "placeholder": "Enter overall score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "entry_action",
+          "label": "Action",
+          "type": "textarea",
+          "placeholder": "Enter action",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "gap_analysis",
+      "title": "Gap Analysis",
+      "description": "Add entries below. Each entry has the following fields.",
+      "fields": [
+        {
+          "id": "entry_topic_area",
+          "label": "Topic Area",
+          "type": "text",
+          "placeholder": "Enter topic area",
+          "required": false
+        },
+        {
+          "id": "entry_current_content_count",
+          "label": "Current Content Count",
+          "type": "number",
+          "placeholder": "Enter current content count",
+          "required": false
+        },
+        {
+          "id": "entry_competitor_content_count",
+          "label": "Competitor Content Count",
+          "type": "number",
+          "placeholder": "Enter competitor content count",
+          "required": false
+        },
+        {
+          "id": "entry_gap_size",
+          "label": "Gap Size",
+          "type": "number",
+          "placeholder": "Enter gap size",
+          "required": false
+        },
+        {
+          "id": "entry_priority",
+          "label": "Priority",
+          "type": "select",
+          "placeholder": "Enter priority",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "entry_content_type_needed",
+          "label": "Content Type Needed",
+          "type": "text",
+          "placeholder": "Enter content type needed",
+          "required": false
+        },
+        {
+          "id": "entry_target_keywords",
+          "label": "Target Keywords",
+          "type": "number",
+          "placeholder": "Enter target keywords",
+          "required": false
+        },
+        {
+          "id": "entry_notes",
+          "label": "Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "action_plan",
+      "title": "Action Plan",
+      "description": "Add entries below. Each entry has the following fields.",
+      "fields": [
+        {
+          "id": "entry_content_url",
+          "label": "Content URL",
+          "type": "text",
+          "placeholder": "Enter content url",
+          "required": false
+        },
+        {
+          "id": "entry_current_status",
+          "label": "Current Status",
+          "type": "select",
+          "placeholder": "Enter current status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "entry_action_required",
+          "label": "Action Required",
+          "type": "textarea",
+          "placeholder": "Enter action required",
+          "required": false
+        },
+        {
+          "id": "entry_priority",
+          "label": "Priority",
+          "type": "select",
+          "placeholder": "Enter priority",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "entry_assigned_to",
+          "label": "Assigned To",
+          "type": "text",
+          "placeholder": "Enter assigned to",
+          "required": false
+        },
+        {
+          "id": "entry_due_date",
+          "label": "Due Date",
+          "type": "text",
+          "placeholder": "Enter due date",
+          "required": false
+        },
+        {
+          "id": "entry_new_target_keyword",
+          "label": "New Target Keyword",
+          "type": "number",
+          "placeholder": "Enter new target keyword",
+          "required": false
+        },
+        {
+          "id": "entry_expected_impact",
+          "label": "Expected Impact",
+          "type": "text",
+          "placeholder": "Enter expected impact",
+          "required": false
+        },
+        {
+          "id": "entry_status",
+          "label": "Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "entry_notes",
+          "label": "Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "content_calendar",
+      "title": "Content Calendar",
+      "description": "Add entries below. Each entry has the following fields.",
+      "fields": [
+        {
+          "id": "entry_week",
+          "label": "Week",
+          "type": "text",
+          "placeholder": "Enter week",
+          "required": false
+        },
+        {
+          "id": "entry_content_title",
+          "label": "Content Title",
+          "type": "text",
+          "placeholder": "Enter content title",
+          "required": false
+        },
+        {
+          "id": "entry_type",
+          "label": "Type",
+          "type": "select",
+          "placeholder": "Enter type",
+          "required": false,
+          "options": [
+            "Blog Post",
+            "Video",
+            "Infographic",
+            "Case Study",
+            "Whitepaper",
+            "Newsletter",
+            "Social Post",
+            "Webinar"
+          ]
+        },
+        {
+          "id": "entry_action",
+          "label": "Action",
+          "type": "textarea",
+          "placeholder": "Enter action",
+          "required": false
+        },
+        {
+          "id": "entry_author",
+          "label": "Author",
+          "type": "text",
+          "placeholder": "Enter author",
+          "required": false
+        },
+        {
+          "id": "entry_draft_due",
+          "label": "Draft Due",
+          "type": "text",
+          "placeholder": "Enter draft due",
+          "required": false
+        },
+        {
+          "id": "entry_publish_date",
+          "label": "Publish Date",
+          "type": "text",
+          "placeholder": "Enter publish date",
+          "required": false
+        },
+        {
+          "id": "entry_status",
+          "label": "Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "entry_notes",
+          "label": "Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        }
+      ]
+    }
+  ]
 }

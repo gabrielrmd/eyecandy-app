@@ -10,155 +10,6 @@
     "audit"
   ],
   "estimatedTime": "60 min",
-  "sections": [
-    {
-      "id": "dashboard",
-      "title": "Dashboard",
-      "description": "Complete the Dashboard section",
-      "fields": [
-        {
-          "id": "active_tools_0",
-          "label": "Active Tools",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "total_annual_cost_1",
-          "label": "Total Annual Cost",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "average_tool_utilisation_2",
-          "label": "Average Tool Utilisation",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "tools_under_review_3",
-          "label": "Tools Under Review",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "integration_coverage_4",
-          "label": "Integration Coverage",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "vendor_count_5",
-          "label": "Vendor Count",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "critical_gaps_6",
-          "label": "Critical Gaps",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "cost_analysis",
-      "title": "Cost Analysis",
-      "description": "Complete the Cost Analysis section",
-      "fields": [
-        {
-          "id": "january_0",
-          "label": "January",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "february_1",
-          "label": "February",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "march_2",
-          "label": "March",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "april_3",
-          "label": "April",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "may_4",
-          "label": "May",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "june_5",
-          "label": "June",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "july_6",
-          "label": "July",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "august_7",
-          "label": "August",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "september_8",
-          "label": "September",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "october_9",
-          "label": "October",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "november_10",
-          "label": "November",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "december_11",
-          "label": "December",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    }
-  ],
   "dashboard": {
     "metrics": [
       {
@@ -172,5 +23,1232 @@
         "format": "number"
       }
     ]
-  }
+  },
+  "sections": [
+    {
+      "id": "dashboard",
+      "title": "Dashboard",
+      "description": "Auto-calculated summary of your data. Complete the working sections to see results here.",
+      "readOnly": true,
+      "fields": [
+        {
+          "id": "dashboard_overview",
+          "label": "Dashboard Overview",
+          "type": "textarea",
+          "placeholder": "Dashboard metrics will be calculated from your inputs in the working sections",
+          "required": false,
+          "readOnly": true
+        }
+      ]
+    },
+    {
+      "id": "tool_inventory",
+      "title": "Tool Inventory",
+      "description": "Add entries below. Each entry has the following fields.",
+      "fields": [
+        {
+          "id": "entry_tool_name",
+          "label": "Tool Name",
+          "type": "text",
+          "placeholder": "Enter tool name",
+          "required": false
+        },
+        {
+          "id": "entry_category",
+          "label": "Category",
+          "type": "text",
+          "placeholder": "Enter category",
+          "required": false
+        },
+        {
+          "id": "entry_vendor",
+          "label": "Vendor",
+          "type": "text",
+          "placeholder": "Enter vendor",
+          "required": false
+        },
+        {
+          "id": "entry_annual_cost",
+          "label": "Annual Cost",
+          "type": "number",
+          "placeholder": "Enter annual cost",
+          "required": false
+        },
+        {
+          "id": "entry_contract_end",
+          "label": "Contract End",
+          "type": "text",
+          "placeholder": "Enter contract end",
+          "required": false
+        },
+        {
+          "id": "entry_users",
+          "label": "Users",
+          "type": "text",
+          "placeholder": "Enter users",
+          "required": false
+        },
+        {
+          "id": "entry_utilisation",
+          "label": "Utilisation %",
+          "type": "number",
+          "placeholder": "Enter utilisation %",
+          "required": false
+        },
+        {
+          "id": "entry_owner",
+          "label": "Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "entry_status",
+          "label": "Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "entry_notes",
+          "label": "Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "integration_map",
+      "title": "Integration Map",
+      "description": "Add entries below. Each entry has the following fields.",
+      "fields": [
+        {
+          "id": "entry_from_tool",
+          "label": "From Tool",
+          "type": "text",
+          "placeholder": "Enter from tool",
+          "required": false
+        },
+        {
+          "id": "entry_to_tool",
+          "label": "To Tool",
+          "type": "text",
+          "placeholder": "Enter to tool",
+          "required": false
+        },
+        {
+          "id": "entry_integration_type",
+          "label": "Integration Type",
+          "type": "text",
+          "placeholder": "Enter integration type",
+          "required": false
+        },
+        {
+          "id": "entry_data_flow",
+          "label": "Data Flow",
+          "type": "text",
+          "placeholder": "Enter data flow",
+          "required": false
+        },
+        {
+          "id": "entry_frequency",
+          "label": "Frequency",
+          "type": "text",
+          "placeholder": "Enter frequency",
+          "required": false
+        },
+        {
+          "id": "entry_status",
+          "label": "Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "entry_reliability_score",
+          "label": "Reliability Score",
+          "type": "scale",
+          "placeholder": "Enter reliability score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "entry_owner",
+          "label": "Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "entry_notes",
+          "label": "Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "cost_analysis",
+      "title": "Cost Analysis",
+      "description": "Enter data for each item",
+      "fields": [
+        {
+          "id": "january_total_tools",
+          "label": "January - Total Tools",
+          "type": "text",
+          "placeholder": "Enter total tools",
+          "required": false
+        },
+        {
+          "id": "january_new_tools",
+          "label": "January - New Tools",
+          "type": "number",
+          "placeholder": "Enter new tools",
+          "required": false
+        },
+        {
+          "id": "january_removed_tools",
+          "label": "January - Removed Tools",
+          "type": "text",
+          "placeholder": "Enter removed tools",
+          "required": false
+        },
+        {
+          "id": "january_monthly_cost",
+          "label": "January - Monthly Cost",
+          "type": "number",
+          "placeholder": "Enter monthly cost",
+          "required": false
+        },
+        {
+          "id": "january_annual_run_rate",
+          "label": "January - Annual Run Rate",
+          "type": "number",
+          "placeholder": "Enter annual run rate",
+          "required": false
+        },
+        {
+          "id": "january_cost_per_user",
+          "label": "January - Cost per User",
+          "type": "number",
+          "placeholder": "Enter cost per user",
+          "required": false
+        },
+        {
+          "id": "january_budget",
+          "label": "January - Budget",
+          "type": "number",
+          "placeholder": "Enter budget",
+          "required": false
+        },
+        {
+          "id": "january_notes",
+          "label": "January - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "february_total_tools",
+          "label": "February - Total Tools",
+          "type": "text",
+          "placeholder": "Enter total tools",
+          "required": false
+        },
+        {
+          "id": "february_new_tools",
+          "label": "February - New Tools",
+          "type": "number",
+          "placeholder": "Enter new tools",
+          "required": false
+        },
+        {
+          "id": "february_removed_tools",
+          "label": "February - Removed Tools",
+          "type": "text",
+          "placeholder": "Enter removed tools",
+          "required": false
+        },
+        {
+          "id": "february_monthly_cost",
+          "label": "February - Monthly Cost",
+          "type": "number",
+          "placeholder": "Enter monthly cost",
+          "required": false
+        },
+        {
+          "id": "february_annual_run_rate",
+          "label": "February - Annual Run Rate",
+          "type": "number",
+          "placeholder": "Enter annual run rate",
+          "required": false
+        },
+        {
+          "id": "february_cost_per_user",
+          "label": "February - Cost per User",
+          "type": "number",
+          "placeholder": "Enter cost per user",
+          "required": false
+        },
+        {
+          "id": "february_budget",
+          "label": "February - Budget",
+          "type": "number",
+          "placeholder": "Enter budget",
+          "required": false
+        },
+        {
+          "id": "february_notes",
+          "label": "February - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "march_total_tools",
+          "label": "March - Total Tools",
+          "type": "text",
+          "placeholder": "Enter total tools",
+          "required": false
+        },
+        {
+          "id": "march_new_tools",
+          "label": "March - New Tools",
+          "type": "number",
+          "placeholder": "Enter new tools",
+          "required": false
+        },
+        {
+          "id": "march_removed_tools",
+          "label": "March - Removed Tools",
+          "type": "text",
+          "placeholder": "Enter removed tools",
+          "required": false
+        },
+        {
+          "id": "march_monthly_cost",
+          "label": "March - Monthly Cost",
+          "type": "number",
+          "placeholder": "Enter monthly cost",
+          "required": false
+        },
+        {
+          "id": "march_annual_run_rate",
+          "label": "March - Annual Run Rate",
+          "type": "number",
+          "placeholder": "Enter annual run rate",
+          "required": false
+        },
+        {
+          "id": "march_cost_per_user",
+          "label": "March - Cost per User",
+          "type": "number",
+          "placeholder": "Enter cost per user",
+          "required": false
+        },
+        {
+          "id": "march_budget",
+          "label": "March - Budget",
+          "type": "number",
+          "placeholder": "Enter budget",
+          "required": false
+        },
+        {
+          "id": "march_notes",
+          "label": "March - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "april_total_tools",
+          "label": "April - Total Tools",
+          "type": "text",
+          "placeholder": "Enter total tools",
+          "required": false
+        },
+        {
+          "id": "april_new_tools",
+          "label": "April - New Tools",
+          "type": "number",
+          "placeholder": "Enter new tools",
+          "required": false
+        },
+        {
+          "id": "april_removed_tools",
+          "label": "April - Removed Tools",
+          "type": "text",
+          "placeholder": "Enter removed tools",
+          "required": false
+        },
+        {
+          "id": "april_monthly_cost",
+          "label": "April - Monthly Cost",
+          "type": "number",
+          "placeholder": "Enter monthly cost",
+          "required": false
+        },
+        {
+          "id": "april_annual_run_rate",
+          "label": "April - Annual Run Rate",
+          "type": "number",
+          "placeholder": "Enter annual run rate",
+          "required": false
+        },
+        {
+          "id": "april_cost_per_user",
+          "label": "April - Cost per User",
+          "type": "number",
+          "placeholder": "Enter cost per user",
+          "required": false
+        },
+        {
+          "id": "april_budget",
+          "label": "April - Budget",
+          "type": "number",
+          "placeholder": "Enter budget",
+          "required": false
+        },
+        {
+          "id": "april_notes",
+          "label": "April - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "may_total_tools",
+          "label": "May - Total Tools",
+          "type": "text",
+          "placeholder": "Enter total tools",
+          "required": false
+        },
+        {
+          "id": "may_new_tools",
+          "label": "May - New Tools",
+          "type": "number",
+          "placeholder": "Enter new tools",
+          "required": false
+        },
+        {
+          "id": "may_removed_tools",
+          "label": "May - Removed Tools",
+          "type": "text",
+          "placeholder": "Enter removed tools",
+          "required": false
+        },
+        {
+          "id": "may_monthly_cost",
+          "label": "May - Monthly Cost",
+          "type": "number",
+          "placeholder": "Enter monthly cost",
+          "required": false
+        },
+        {
+          "id": "may_annual_run_rate",
+          "label": "May - Annual Run Rate",
+          "type": "number",
+          "placeholder": "Enter annual run rate",
+          "required": false
+        },
+        {
+          "id": "may_cost_per_user",
+          "label": "May - Cost per User",
+          "type": "number",
+          "placeholder": "Enter cost per user",
+          "required": false
+        },
+        {
+          "id": "may_budget",
+          "label": "May - Budget",
+          "type": "number",
+          "placeholder": "Enter budget",
+          "required": false
+        },
+        {
+          "id": "may_notes",
+          "label": "May - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "june_total_tools",
+          "label": "June - Total Tools",
+          "type": "text",
+          "placeholder": "Enter total tools",
+          "required": false
+        },
+        {
+          "id": "june_new_tools",
+          "label": "June - New Tools",
+          "type": "number",
+          "placeholder": "Enter new tools",
+          "required": false
+        },
+        {
+          "id": "june_removed_tools",
+          "label": "June - Removed Tools",
+          "type": "text",
+          "placeholder": "Enter removed tools",
+          "required": false
+        },
+        {
+          "id": "june_monthly_cost",
+          "label": "June - Monthly Cost",
+          "type": "number",
+          "placeholder": "Enter monthly cost",
+          "required": false
+        },
+        {
+          "id": "june_annual_run_rate",
+          "label": "June - Annual Run Rate",
+          "type": "number",
+          "placeholder": "Enter annual run rate",
+          "required": false
+        },
+        {
+          "id": "june_cost_per_user",
+          "label": "June - Cost per User",
+          "type": "number",
+          "placeholder": "Enter cost per user",
+          "required": false
+        },
+        {
+          "id": "june_budget",
+          "label": "June - Budget",
+          "type": "number",
+          "placeholder": "Enter budget",
+          "required": false
+        },
+        {
+          "id": "june_notes",
+          "label": "June - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "july_total_tools",
+          "label": "July - Total Tools",
+          "type": "text",
+          "placeholder": "Enter total tools",
+          "required": false
+        },
+        {
+          "id": "july_new_tools",
+          "label": "July - New Tools",
+          "type": "number",
+          "placeholder": "Enter new tools",
+          "required": false
+        },
+        {
+          "id": "july_removed_tools",
+          "label": "July - Removed Tools",
+          "type": "text",
+          "placeholder": "Enter removed tools",
+          "required": false
+        },
+        {
+          "id": "july_monthly_cost",
+          "label": "July - Monthly Cost",
+          "type": "number",
+          "placeholder": "Enter monthly cost",
+          "required": false
+        },
+        {
+          "id": "july_annual_run_rate",
+          "label": "July - Annual Run Rate",
+          "type": "number",
+          "placeholder": "Enter annual run rate",
+          "required": false
+        },
+        {
+          "id": "july_cost_per_user",
+          "label": "July - Cost per User",
+          "type": "number",
+          "placeholder": "Enter cost per user",
+          "required": false
+        },
+        {
+          "id": "july_budget",
+          "label": "July - Budget",
+          "type": "number",
+          "placeholder": "Enter budget",
+          "required": false
+        },
+        {
+          "id": "july_notes",
+          "label": "July - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "august_total_tools",
+          "label": "August - Total Tools",
+          "type": "text",
+          "placeholder": "Enter total tools",
+          "required": false
+        },
+        {
+          "id": "august_new_tools",
+          "label": "August - New Tools",
+          "type": "number",
+          "placeholder": "Enter new tools",
+          "required": false
+        },
+        {
+          "id": "august_removed_tools",
+          "label": "August - Removed Tools",
+          "type": "text",
+          "placeholder": "Enter removed tools",
+          "required": false
+        },
+        {
+          "id": "august_monthly_cost",
+          "label": "August - Monthly Cost",
+          "type": "number",
+          "placeholder": "Enter monthly cost",
+          "required": false
+        },
+        {
+          "id": "august_annual_run_rate",
+          "label": "August - Annual Run Rate",
+          "type": "number",
+          "placeholder": "Enter annual run rate",
+          "required": false
+        },
+        {
+          "id": "august_cost_per_user",
+          "label": "August - Cost per User",
+          "type": "number",
+          "placeholder": "Enter cost per user",
+          "required": false
+        },
+        {
+          "id": "august_budget",
+          "label": "August - Budget",
+          "type": "number",
+          "placeholder": "Enter budget",
+          "required": false
+        },
+        {
+          "id": "august_notes",
+          "label": "August - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "september_total_tools",
+          "label": "September - Total Tools",
+          "type": "text",
+          "placeholder": "Enter total tools",
+          "required": false
+        },
+        {
+          "id": "september_new_tools",
+          "label": "September - New Tools",
+          "type": "number",
+          "placeholder": "Enter new tools",
+          "required": false
+        },
+        {
+          "id": "september_removed_tools",
+          "label": "September - Removed Tools",
+          "type": "text",
+          "placeholder": "Enter removed tools",
+          "required": false
+        },
+        {
+          "id": "september_monthly_cost",
+          "label": "September - Monthly Cost",
+          "type": "number",
+          "placeholder": "Enter monthly cost",
+          "required": false
+        },
+        {
+          "id": "september_annual_run_rate",
+          "label": "September - Annual Run Rate",
+          "type": "number",
+          "placeholder": "Enter annual run rate",
+          "required": false
+        },
+        {
+          "id": "september_cost_per_user",
+          "label": "September - Cost per User",
+          "type": "number",
+          "placeholder": "Enter cost per user",
+          "required": false
+        },
+        {
+          "id": "september_budget",
+          "label": "September - Budget",
+          "type": "number",
+          "placeholder": "Enter budget",
+          "required": false
+        },
+        {
+          "id": "september_notes",
+          "label": "September - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "october_total_tools",
+          "label": "October - Total Tools",
+          "type": "text",
+          "placeholder": "Enter total tools",
+          "required": false
+        },
+        {
+          "id": "october_new_tools",
+          "label": "October - New Tools",
+          "type": "number",
+          "placeholder": "Enter new tools",
+          "required": false
+        },
+        {
+          "id": "october_removed_tools",
+          "label": "October - Removed Tools",
+          "type": "text",
+          "placeholder": "Enter removed tools",
+          "required": false
+        },
+        {
+          "id": "october_monthly_cost",
+          "label": "October - Monthly Cost",
+          "type": "number",
+          "placeholder": "Enter monthly cost",
+          "required": false
+        },
+        {
+          "id": "october_annual_run_rate",
+          "label": "October - Annual Run Rate",
+          "type": "number",
+          "placeholder": "Enter annual run rate",
+          "required": false
+        },
+        {
+          "id": "october_cost_per_user",
+          "label": "October - Cost per User",
+          "type": "number",
+          "placeholder": "Enter cost per user",
+          "required": false
+        },
+        {
+          "id": "october_budget",
+          "label": "October - Budget",
+          "type": "number",
+          "placeholder": "Enter budget",
+          "required": false
+        },
+        {
+          "id": "october_notes",
+          "label": "October - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "november_total_tools",
+          "label": "November - Total Tools",
+          "type": "text",
+          "placeholder": "Enter total tools",
+          "required": false
+        },
+        {
+          "id": "november_new_tools",
+          "label": "November - New Tools",
+          "type": "number",
+          "placeholder": "Enter new tools",
+          "required": false
+        },
+        {
+          "id": "november_removed_tools",
+          "label": "November - Removed Tools",
+          "type": "text",
+          "placeholder": "Enter removed tools",
+          "required": false
+        },
+        {
+          "id": "november_monthly_cost",
+          "label": "November - Monthly Cost",
+          "type": "number",
+          "placeholder": "Enter monthly cost",
+          "required": false
+        },
+        {
+          "id": "november_annual_run_rate",
+          "label": "November - Annual Run Rate",
+          "type": "number",
+          "placeholder": "Enter annual run rate",
+          "required": false
+        },
+        {
+          "id": "november_cost_per_user",
+          "label": "November - Cost per User",
+          "type": "number",
+          "placeholder": "Enter cost per user",
+          "required": false
+        },
+        {
+          "id": "november_budget",
+          "label": "November - Budget",
+          "type": "number",
+          "placeholder": "Enter budget",
+          "required": false
+        },
+        {
+          "id": "november_notes",
+          "label": "November - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "december_total_tools",
+          "label": "December - Total Tools",
+          "type": "text",
+          "placeholder": "Enter total tools",
+          "required": false
+        },
+        {
+          "id": "december_new_tools",
+          "label": "December - New Tools",
+          "type": "number",
+          "placeholder": "Enter new tools",
+          "required": false
+        },
+        {
+          "id": "december_removed_tools",
+          "label": "December - Removed Tools",
+          "type": "text",
+          "placeholder": "Enter removed tools",
+          "required": false
+        },
+        {
+          "id": "december_monthly_cost",
+          "label": "December - Monthly Cost",
+          "type": "number",
+          "placeholder": "Enter monthly cost",
+          "required": false
+        },
+        {
+          "id": "december_annual_run_rate",
+          "label": "December - Annual Run Rate",
+          "type": "number",
+          "placeholder": "Enter annual run rate",
+          "required": false
+        },
+        {
+          "id": "december_cost_per_user",
+          "label": "December - Cost per User",
+          "type": "number",
+          "placeholder": "Enter cost per user",
+          "required": false
+        },
+        {
+          "id": "december_budget",
+          "label": "December - Budget",
+          "type": "number",
+          "placeholder": "Enter budget",
+          "required": false
+        },
+        {
+          "id": "december_notes",
+          "label": "December - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "utilisation_assessment",
+      "title": "Utilisation Assessment",
+      "description": "Add entries below. Each entry has the following fields.",
+      "fields": [
+        {
+          "id": "entry_tool",
+          "label": "Tool",
+          "type": "text",
+          "placeholder": "Enter tool",
+          "required": false
+        },
+        {
+          "id": "entry_category",
+          "label": "Category",
+          "type": "text",
+          "placeholder": "Enter category",
+          "required": false
+        },
+        {
+          "id": "entry_licensed_users",
+          "label": "Licensed Users",
+          "type": "text",
+          "placeholder": "Enter licensed users",
+          "required": false
+        },
+        {
+          "id": "entry_active_users",
+          "label": "Active Users",
+          "type": "number",
+          "placeholder": "Enter active users",
+          "required": false
+        },
+        {
+          "id": "entry_utilisation_rate",
+          "label": "Utilisation Rate",
+          "type": "number",
+          "placeholder": "Enter utilisation rate",
+          "required": false
+        },
+        {
+          "id": "entry_features_used",
+          "label": "Features Used %",
+          "type": "number",
+          "placeholder": "Enter features used %",
+          "required": false
+        },
+        {
+          "id": "entry_satisfaction_score",
+          "label": "Satisfaction Score",
+          "type": "scale",
+          "placeholder": "Enter satisfaction score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "entry_recommendation",
+          "label": "Recommendation",
+          "type": "text",
+          "placeholder": "Enter recommendation",
+          "required": false
+        },
+        {
+          "id": "entry_notes",
+          "label": "Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "vendor_evaluation",
+      "title": "Vendor Evaluation",
+      "description": "Add entries below. Each entry has the following fields.",
+      "fields": [
+        {
+          "id": "entry_vendor",
+          "label": "Vendor",
+          "type": "text",
+          "placeholder": "Enter vendor",
+          "required": false
+        },
+        {
+          "id": "entry_tool",
+          "label": "Tool",
+          "type": "text",
+          "placeholder": "Enter tool",
+          "required": false
+        },
+        {
+          "id": "entry_category",
+          "label": "Category",
+          "type": "text",
+          "placeholder": "Enter category",
+          "required": false
+        },
+        {
+          "id": "entry_price_score",
+          "label": "Price Score",
+          "type": "scale",
+          "placeholder": "Enter price score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "entry_feature_score",
+          "label": "Feature Score",
+          "type": "scale",
+          "placeholder": "Enter feature score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "entry_support_score",
+          "label": "Support Score",
+          "type": "scale",
+          "placeholder": "Enter support score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "entry_integration_score",
+          "label": "Integration Score",
+          "type": "scale",
+          "placeholder": "Enter integration score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "entry_overall_score",
+          "label": "Overall Score",
+          "type": "scale",
+          "placeholder": "Enter overall score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "entry_contract_status",
+          "label": "Contract Status",
+          "type": "select",
+          "placeholder": "Enter contract status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "entry_renewal_date",
+          "label": "Renewal Date",
+          "type": "number",
+          "placeholder": "Enter renewal date",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "gap_analysis",
+      "title": "Gap Analysis",
+      "description": "Add entries below. Each entry has the following fields.",
+      "fields": [
+        {
+          "id": "entry_capability_needed",
+          "label": "Capability Needed",
+          "type": "text",
+          "placeholder": "Enter capability needed",
+          "required": false
+        },
+        {
+          "id": "entry_current_solution",
+          "label": "Current Solution",
+          "type": "text",
+          "placeholder": "Enter current solution",
+          "required": false
+        },
+        {
+          "id": "entry_gap_description",
+          "label": "Gap Description",
+          "type": "textarea",
+          "placeholder": "Enter gap description",
+          "required": false
+        },
+        {
+          "id": "entry_priority",
+          "label": "Priority",
+          "type": "select",
+          "placeholder": "Enter priority",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "entry_proposed_solution",
+          "label": "Proposed Solution",
+          "type": "text",
+          "placeholder": "Enter proposed solution",
+          "required": false
+        },
+        {
+          "id": "entry_estimated_cost",
+          "label": "Estimated Cost",
+          "type": "number",
+          "placeholder": "Enter estimated cost",
+          "required": false
+        },
+        {
+          "id": "entry_expected_roi",
+          "label": "Expected ROI",
+          "type": "number",
+          "placeholder": "Enter expected roi",
+          "required": false
+        },
+        {
+          "id": "entry_timeline",
+          "label": "Timeline",
+          "type": "text",
+          "placeholder": "Enter timeline",
+          "required": false
+        },
+        {
+          "id": "entry_owner",
+          "label": "Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "optimisation_plan",
+      "title": "Optimisation Plan",
+      "description": "Add entries below. Each entry has the following fields.",
+      "fields": [
+        {
+          "id": "entry_action",
+          "label": "Action",
+          "type": "textarea",
+          "placeholder": "Enter action",
+          "required": false
+        },
+        {
+          "id": "entry_tool",
+          "label": "Tool",
+          "type": "text",
+          "placeholder": "Enter tool",
+          "required": false
+        },
+        {
+          "id": "entry_category",
+          "label": "Category",
+          "type": "text",
+          "placeholder": "Enter category",
+          "required": false
+        },
+        {
+          "id": "entry_type",
+          "label": "Type",
+          "type": "select",
+          "placeholder": "Enter type",
+          "required": false,
+          "options": [
+            "Blog Post",
+            "Video",
+            "Infographic",
+            "Case Study",
+            "Whitepaper",
+            "Newsletter",
+            "Social Post",
+            "Webinar"
+          ]
+        },
+        {
+          "id": "entry_priority",
+          "label": "Priority",
+          "type": "select",
+          "placeholder": "Enter priority",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "entry_expected_savings",
+          "label": "Expected Savings",
+          "type": "text",
+          "placeholder": "Enter expected savings",
+          "required": false
+        },
+        {
+          "id": "entry_implementation_date",
+          "label": "Implementation Date",
+          "type": "text",
+          "placeholder": "Enter implementation date",
+          "required": false
+        },
+        {
+          "id": "entry_owner",
+          "label": "Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "entry_status",
+          "label": "Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "entry_notes",
+          "label": "Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        }
+      ]
+    }
+  ]
 }

@@ -10,750 +10,6 @@
     "brand"
   ],
   "estimatedTime": "40 min",
-  "sections": [
-    {
-      "id": "dashboard",
-      "title": "Dashboard",
-      "description": "Complete the Dashboard section",
-      "fields": [
-        {
-          "id": "brand_elements_documented_0",
-          "label": "Brand Elements Documented",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "visual_identity_completion_1",
-          "label": "Visual Identity Completion",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "tone_of_voice_guidelines_2",
-          "label": "Tone of Voice Guidelines",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "messaging_pillars_3",
-          "label": "Messaging Pillars",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "brand_audit_score_4",
-          "label": "Brand Audit Score",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "compliance_issues_open_5",
-          "label": "Compliance Issues Open",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "assets_up_to_date_6",
-          "label": "Assets Up to Date",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "application_rules_set_7",
-          "label": "Application Rules Set",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "brand_foundation",
-      "title": "Brand Foundation",
-      "description": "Complete the Brand Foundation section",
-      "fields": [
-        {
-          "id": "if_your_brand_were_a_person_how_would_yo_0",
-          "label": "If your brand were a person, how would you describe them? List 5 personality traits.",
-          "type": "textarea",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "which_archetype_best_represents_your_bra_1",
-          "label": "Which archetype best represents your brand? (e.g., Hero, Explorer, Sage, Creator, Caregiver, Rebel)",
-          "type": "textarea",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "who_is_your_primary_audience_describe_de_2",
-          "label": "Who is your primary audience? Describe demographics, psychographics, and behaviors.",
-          "type": "textarea",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "how_you_want_to_be_perceived_relative_to_3",
-          "label": "How you want to be perceived relative to competitors. Complete: For [audience] who [need], [brand] is the [category] that [differentiator] because [reason to believe].",
-          "type": "textarea",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "what_makes_you_fundamentally_different_f_4",
-          "label": "What makes you fundamentally different from alternatives? List 3 key differentiators.",
-          "type": "textarea",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "your_origin_story_why_you_started_what_d_5",
-          "label": "Your origin story — why you started, what drives you, the problem you saw and set out to solve.",
-          "type": "textarea",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "visual_identity",
-      "title": "Visual Identity",
-      "description": "Complete the Visual Identity section",
-      "fields": [
-        {
-          "id": "main_logo_for_most_applications_0",
-          "label": "Main logo for most applications",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "logo_with_tagline_1",
-          "label": "Logo with tagline",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "simplified_mark_for_small_spaces_2",
-          "label": "Simplified mark for small spaces",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "single_colour_version_3",
-          "label": "Single-colour version",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "white_version_for_dark_backgrounds_4",
-          "label": "White version for dark backgrounds",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "smallest_acceptable_reproduction_5",
-          "label": "Smallest acceptable reproduction",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "minimum_space_around_logo_6",
-          "label": "Minimum space around logo",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "what_not_to_do_with_the_logo_7",
-          "label": "What NOT to do with the logo",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "role_8",
-          "label": "Role",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "primary_brand_colour_9",
-          "label": "Primary brand colour",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "secondary_10",
-          "label": "Secondary",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "body_text_11",
-          "label": "Body text",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "status_accent_12",
-          "label": "Status/accent",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "status_accent_13",
-          "label": "Status/accent",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "status_accent_14",
-          "label": "Status/accent",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "role_15",
-          "label": "Role",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "primary_heading_16",
-          "label": "Primary Heading",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "secondary_heading_17",
-          "label": "Secondary Heading",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "body_text_18",
-          "label": "Body Text",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "caption_19",
-          "label": "Caption",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "cta_button_20",
-          "label": "CTA / Button",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "tone_of_voice",
-      "title": "Tone of Voice",
-      "description": "Complete the Tone of Voice section",
-      "fields": [
-        {
-          "id": "characteristic_0",
-          "label": "Characteristic",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "we_are_1",
-          "label": "We Are",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "we_are_not_2",
-          "label": "We Are Not",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "example_do_3",
-          "label": "Example (Do)",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "example_don_t_4",
-          "label": "Example (Don't)",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "confident_5",
-          "label": "Confident",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "assertive_without_arrogance_6",
-          "label": "Assertive without arrogance",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "boastful_or_condescending_7",
-          "label": "Boastful or condescending",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "we_deliver_results_that_speak_for_themse_8",
-          "label": "We deliver results that speak for themselves.",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "we_are_the_best_and_everyone_knows_it_9",
-          "label": "We are the best and everyone knows it.",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "warm_10",
-          "label": "Warm",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "approachable_and_human_11",
-          "label": "Approachable and human",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "cold_or_robotic_12",
-          "label": "Cold or robotic",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "we_are_here_to_help_you_succeed_13",
-          "label": "We are here to help you succeed.",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "please_refer_to_section_4_2_of_the_docum_14",
-          "label": "Please refer to section 4.2 of the documentation.",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "clear_15",
-          "label": "Clear",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "simple_and_direct_16",
-          "label": "Simple and direct",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "jargon_heavy_or_vague_17",
-          "label": "Jargon-heavy or vague",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "here_is_exactly_what_you_need_to_do_18",
-          "label": "Here is exactly what you need to do.",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "leverage_synergies_to_optimise_your_para_19",
-          "label": "Leverage synergies to optimise your paradigm shift.",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "bold_20",
-          "label": "Bold",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "forward_thinking_and_decisive_21",
-          "label": "Forward-thinking and decisive",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "reckless_or_impulsive_22",
-          "label": "Reckless or impulsive",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "we_are_changing_how_marketing_works_23",
-          "label": "We are changing how marketing works.",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "we_are_disrupting_everything_without_a_p_24",
-          "label": "We are disrupting everything without a plan.",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "empathetic_25",
-          "label": "Empathetic",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "understanding_and_caring_26",
-          "label": "Understanding and caring",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "dismissive_or_preachy_27",
-          "label": "Dismissive or preachy",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "we_know_how_challenging_this_can_be_28",
-          "label": "We know how challenging this can be.",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "you_should_have_done_this_differently_29",
-          "label": "You should have done this differently.",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "messaging_architecture",
-      "title": "Messaging Architecture",
-      "description": "Complete the Messaging Architecture section",
-      "fields": [
-        {
-          "id": "2_3_sentence_brand_positioning_statement_0",
-          "label": "2-3 sentence brand positioning statement for internal alignment",
-          "type": "textarea",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "standard_company_description_for_press_r_1",
-          "label": "Standard company description for press releases and official documents",
-          "type": "textarea",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "key_message_2",
-          "label": "Key Message",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "pain_point_3",
-          "label": "Pain Point",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "application_guidelines",
-      "title": "Application Guidelines",
-      "description": "Complete the Application Guidelines section",
-      "fields": [
-        {
-          "id": "logo_colours_typography_0",
-          "label": "Logo, colours, typography",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "logo_icon_colours_1",
-          "label": "Logo icon, colours",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "full_brand_system_2",
-          "label": "Full brand system",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "logo_banner_bio_3",
-          "label": "Logo, banner, bio",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "full_brand_system_4",
-          "label": "Full brand system",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "logo_colours_typography_5",
-          "label": "Logo, colours, typography",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "logo_colours_6",
-          "label": "Logo, colours",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "logo_animation_colours_7",
-          "label": "Logo animation, colours",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "full_brand_system_8",
-          "label": "Full brand system",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "logo_colours_messaging_9",
-          "label": "Logo, colours, messaging",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "brand_audit",
-      "title": "Brand Audit",
-      "description": "Complete the Brand Audit section",
-      "fields": [
-        {
-          "id": "website_homepage_0",
-          "label": "Website Homepage",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "website_about_page_1",
-          "label": "Website About Page",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "website_blog_2",
-          "label": "Website Blog",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "email_newsletter_3",
-          "label": "Email Newsletter",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "email_signature_4",
-          "label": "Email Signature",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "linkedin_profile_5",
-          "label": "LinkedIn Profile",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "instagram_profile_6",
-          "label": "Instagram Profile",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "facebook_page_7",
-          "label": "Facebook Page",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "twitter_profile_8",
-          "label": "Twitter Profile",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "tiktok_profile_9",
-          "label": "TikTok Profile",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "business_cards_10",
-          "label": "Business Cards",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "letterhead_11",
-          "label": "Letterhead",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "presentation_template_12",
-          "label": "Presentation Template",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "sales_deck_13",
-          "label": "Sales Deck",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "product_packaging_14",
-          "label": "Product Packaging",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "customer_support_portal_15",
-          "label": "Customer Support Portal",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "help_documentation_16",
-          "label": "Help Documentation",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "onboarding_flow_17",
-          "label": "Onboarding Flow",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "advertising_digital_18",
-          "label": "Advertising (Digital)",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "trade_show_booth_19",
-          "label": "Trade Show Booth",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    }
-  ],
   "dashboard": {
     "metrics": [
       {
@@ -782,5 +38,3165 @@
         "format": "number"
       }
     ]
-  }
+  },
+  "sections": [
+    {
+      "id": "dashboard",
+      "title": "Dashboard",
+      "description": "Auto-calculated summary of your data. Complete the working sections to see results here.",
+      "readOnly": true,
+      "fields": [
+        {
+          "id": "dashboard_overview",
+          "label": "Dashboard Overview",
+          "type": "textarea",
+          "placeholder": "Dashboard metrics will be calculated from your inputs in the working sections",
+          "required": false,
+          "readOnly": true
+        }
+      ]
+    },
+    {
+      "id": "general",
+      "title": "General",
+      "description": "[Brand Foundation] Fill in the fields below",
+      "fields": [
+        {
+          "id": "brand_purpose",
+          "label": "Brand Purpose",
+          "type": "text",
+          "placeholder": "Why does your brand exist beyond making money? What change do you want to create in the world?",
+          "required": false,
+          "helpText": "Why does your brand exist beyond making money? What change do you want to create in the world?"
+        },
+        {
+          "id": "mission_statement",
+          "label": "Mission Statement",
+          "type": "text",
+          "placeholder": "What you do, who you do it for, and how you do it differently. Keep it under 25 words.",
+          "required": false,
+          "helpText": "What you do, who you do it for, and how you do it differently. Keep it under 25 words."
+        },
+        {
+          "id": "vision_statement",
+          "label": "Vision Statement",
+          "type": "text",
+          "placeholder": "Where you aspire to be. Paint a picture of the future your brand is helping to create.",
+          "required": false,
+          "helpText": "Where you aspire to be. Paint a picture of the future your brand is helping to create."
+        },
+        {
+          "id": "brand_promise",
+          "label": "Brand Promise",
+          "type": "text",
+          "placeholder": "The single most important commitment you make to your customers.",
+          "required": false,
+          "helpText": "The single most important commitment you make to your customers."
+        },
+        {
+          "id": "brand_values",
+          "label": "Brand Values",
+          "type": "text",
+          "placeholder": "List 3-5 core values that guide everything your brand does. Be specific — not generic.",
+          "required": false,
+          "helpText": "List 3-5 core values that guide everything your brand does. Be specific — not generic."
+        },
+        {
+          "id": "brand_personality",
+          "label": "Brand Personality",
+          "type": "text",
+          "placeholder": "If your brand were a person, how would you describe them? List 5 personality traits.",
+          "required": false,
+          "helpText": "If your brand were a person, how would you describe them? List 5 personality traits."
+        },
+        {
+          "id": "brand_archetype",
+          "label": "Brand Archetype",
+          "type": "text",
+          "placeholder": "Which archetype best represents your brand? (e.g., Hero, Explorer, Sage, Creator, Caregiver, Rebel)",
+          "required": false,
+          "helpText": "Which archetype best represents your brand? (e.g., Hero, Explorer, Sage, Creator, Caregiver, Rebel)"
+        },
+        {
+          "id": "target_audience",
+          "label": "Target Audience",
+          "type": "text",
+          "placeholder": "Who is your primary audience? Describe demographics, psychographics, and behaviors.",
+          "required": false,
+          "helpText": "Who is your primary audience? Describe demographics, psychographics, and behaviors."
+        },
+        {
+          "id": "brand_positioning",
+          "label": "Brand Positioning",
+          "type": "text",
+          "placeholder": "How you want to be perceived relative to competitors. Complete: For [audience] who [need], [brand] is the [category] that [differentiator] because [reason to believe].",
+          "required": false,
+          "helpText": "How you want to be perceived relative to competitors. Complete: For [audience] who [need], [brand] is the [category] that [differentiator] because [reason to believe]."
+        },
+        {
+          "id": "competitive_differentiation",
+          "label": "Competitive Differentiation",
+          "type": "text",
+          "placeholder": "What makes you fundamentally different from alternatives? List 3 key differentiators.",
+          "required": false,
+          "helpText": "What makes you fundamentally different from alternatives? List 3 key differentiators."
+        },
+        {
+          "id": "brand_story",
+          "label": "Brand Story",
+          "type": "textarea",
+          "placeholder": "Your origin story — why you started, what drives you, the problem you saw and set out to solve.",
+          "required": false,
+          "helpText": "Your origin story — why you started, what drives you, the problem you saw and set out to solve."
+        }
+      ]
+    },
+    {
+      "id": "visual_identity",
+      "title": "Visual Identity",
+      "description": "Enter data for each item",
+      "fields": [
+        {
+          "id": "primary_teal_role",
+          "label": "Primary Teal - Role",
+          "type": "text",
+          "placeholder": "Enter role",
+          "required": false
+        },
+        {
+          "id": "primary_teal_hex",
+          "label": "Primary Teal - HEX",
+          "type": "text",
+          "placeholder": "Enter hex",
+          "required": false
+        },
+        {
+          "id": "primary_teal_rgb",
+          "label": "Primary Teal - RGB",
+          "type": "text",
+          "placeholder": "Enter rgb",
+          "required": false
+        },
+        {
+          "id": "primary_teal_cmyk",
+          "label": "Primary Teal - CMYK",
+          "type": "text",
+          "placeholder": "Enter cmyk",
+          "required": false
+        },
+        {
+          "id": "primary_teal_pantone",
+          "label": "Primary Teal - Pantone",
+          "type": "text",
+          "placeholder": "Enter pantone",
+          "required": false
+        },
+        {
+          "id": "primary_teal_usage_notes",
+          "label": "Primary Teal - Usage Notes",
+          "type": "textarea",
+          "placeholder": "Enter usage notes",
+          "required": false
+        },
+        {
+          "id": "primary_teal_status",
+          "label": "Primary Teal - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "dark_teal_role",
+          "label": "Dark Teal - Role",
+          "type": "text",
+          "placeholder": "Enter role",
+          "required": false
+        },
+        {
+          "id": "dark_teal_hex",
+          "label": "Dark Teal - HEX",
+          "type": "text",
+          "placeholder": "Enter hex",
+          "required": false
+        },
+        {
+          "id": "dark_teal_rgb",
+          "label": "Dark Teal - RGB",
+          "type": "text",
+          "placeholder": "Enter rgb",
+          "required": false
+        },
+        {
+          "id": "dark_teal_cmyk",
+          "label": "Dark Teal - CMYK",
+          "type": "text",
+          "placeholder": "Enter cmyk",
+          "required": false
+        },
+        {
+          "id": "dark_teal_pantone",
+          "label": "Dark Teal - Pantone",
+          "type": "text",
+          "placeholder": "Enter pantone",
+          "required": false
+        },
+        {
+          "id": "dark_teal_usage_notes",
+          "label": "Dark Teal - Usage Notes",
+          "type": "textarea",
+          "placeholder": "Enter usage notes",
+          "required": false
+        },
+        {
+          "id": "dark_teal_status",
+          "label": "Dark Teal - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "charcoal_role",
+          "label": "Charcoal - Role",
+          "type": "text",
+          "placeholder": "Enter role",
+          "required": false
+        },
+        {
+          "id": "charcoal_hex",
+          "label": "Charcoal - HEX",
+          "type": "text",
+          "placeholder": "Enter hex",
+          "required": false
+        },
+        {
+          "id": "charcoal_rgb",
+          "label": "Charcoal - RGB",
+          "type": "text",
+          "placeholder": "Enter rgb",
+          "required": false
+        },
+        {
+          "id": "charcoal_cmyk",
+          "label": "Charcoal - CMYK",
+          "type": "text",
+          "placeholder": "Enter cmyk",
+          "required": false
+        },
+        {
+          "id": "charcoal_pantone",
+          "label": "Charcoal - Pantone",
+          "type": "text",
+          "placeholder": "Enter pantone",
+          "required": false
+        },
+        {
+          "id": "charcoal_usage_notes",
+          "label": "Charcoal - Usage Notes",
+          "type": "textarea",
+          "placeholder": "Enter usage notes",
+          "required": false
+        },
+        {
+          "id": "charcoal_status",
+          "label": "Charcoal - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "success_green_role",
+          "label": "Success Green - Role",
+          "type": "text",
+          "placeholder": "Enter role",
+          "required": false
+        },
+        {
+          "id": "success_green_hex",
+          "label": "Success Green - HEX",
+          "type": "text",
+          "placeholder": "Enter hex",
+          "required": false
+        },
+        {
+          "id": "success_green_rgb",
+          "label": "Success Green - RGB",
+          "type": "text",
+          "placeholder": "Enter rgb",
+          "required": false
+        },
+        {
+          "id": "success_green_cmyk",
+          "label": "Success Green - CMYK",
+          "type": "text",
+          "placeholder": "Enter cmyk",
+          "required": false
+        },
+        {
+          "id": "success_green_pantone",
+          "label": "Success Green - Pantone",
+          "type": "text",
+          "placeholder": "Enter pantone",
+          "required": false
+        },
+        {
+          "id": "success_green_usage_notes",
+          "label": "Success Green - Usage Notes",
+          "type": "textarea",
+          "placeholder": "Enter usage notes",
+          "required": false
+        },
+        {
+          "id": "success_green_status",
+          "label": "Success Green - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "alert_orange_role",
+          "label": "Alert Orange - Role",
+          "type": "text",
+          "placeholder": "Enter role",
+          "required": false
+        },
+        {
+          "id": "alert_orange_hex",
+          "label": "Alert Orange - HEX",
+          "type": "text",
+          "placeholder": "Enter hex",
+          "required": false
+        },
+        {
+          "id": "alert_orange_rgb",
+          "label": "Alert Orange - RGB",
+          "type": "text",
+          "placeholder": "Enter rgb",
+          "required": false
+        },
+        {
+          "id": "alert_orange_cmyk",
+          "label": "Alert Orange - CMYK",
+          "type": "text",
+          "placeholder": "Enter cmyk",
+          "required": false
+        },
+        {
+          "id": "alert_orange_pantone",
+          "label": "Alert Orange - Pantone",
+          "type": "text",
+          "placeholder": "Enter pantone",
+          "required": false
+        },
+        {
+          "id": "alert_orange_usage_notes",
+          "label": "Alert Orange - Usage Notes",
+          "type": "textarea",
+          "placeholder": "Enter usage notes",
+          "required": false
+        },
+        {
+          "id": "alert_orange_status",
+          "label": "Alert Orange - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "highlight_yellow_role",
+          "label": "Highlight Yellow - Role",
+          "type": "text",
+          "placeholder": "Enter role",
+          "required": false
+        },
+        {
+          "id": "highlight_yellow_hex",
+          "label": "Highlight Yellow - HEX",
+          "type": "text",
+          "placeholder": "Enter hex",
+          "required": false
+        },
+        {
+          "id": "highlight_yellow_rgb",
+          "label": "Highlight Yellow - RGB",
+          "type": "text",
+          "placeholder": "Enter rgb",
+          "required": false
+        },
+        {
+          "id": "highlight_yellow_cmyk",
+          "label": "Highlight Yellow - CMYK",
+          "type": "text",
+          "placeholder": "Enter cmyk",
+          "required": false
+        },
+        {
+          "id": "highlight_yellow_pantone",
+          "label": "Highlight Yellow - Pantone",
+          "type": "text",
+          "placeholder": "Enter pantone",
+          "required": false
+        },
+        {
+          "id": "highlight_yellow_usage_notes",
+          "label": "Highlight Yellow - Usage Notes",
+          "type": "textarea",
+          "placeholder": "Enter usage notes",
+          "required": false
+        },
+        {
+          "id": "highlight_yellow_status",
+          "label": "Highlight Yellow - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "typography_role",
+          "label": "Typography - Role",
+          "type": "text",
+          "placeholder": "Enter role",
+          "required": false
+        },
+        {
+          "id": "typography_hex",
+          "label": "Typography - HEX",
+          "type": "text",
+          "placeholder": "Enter hex",
+          "required": false
+        },
+        {
+          "id": "typography_rgb",
+          "label": "Typography - RGB",
+          "type": "text",
+          "placeholder": "Enter rgb",
+          "required": false
+        },
+        {
+          "id": "typography_cmyk",
+          "label": "Typography - CMYK",
+          "type": "text",
+          "placeholder": "Enter cmyk",
+          "required": false
+        },
+        {
+          "id": "typography_pantone",
+          "label": "Typography - Pantone",
+          "type": "text",
+          "placeholder": "Enter pantone",
+          "required": false
+        },
+        {
+          "id": "typography_usage_notes",
+          "label": "Typography - Usage Notes",
+          "type": "textarea",
+          "placeholder": "Enter usage notes",
+          "required": false
+        },
+        {
+          "id": "typography_status",
+          "label": "Typography - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "typeface_role",
+          "label": "Typeface - Role",
+          "type": "text",
+          "placeholder": "Enter role",
+          "required": false
+        },
+        {
+          "id": "typeface_hex",
+          "label": "Typeface - HEX",
+          "type": "text",
+          "placeholder": "Enter hex",
+          "required": false
+        },
+        {
+          "id": "typeface_rgb",
+          "label": "Typeface - RGB",
+          "type": "text",
+          "placeholder": "Enter rgb",
+          "required": false
+        },
+        {
+          "id": "typeface_cmyk",
+          "label": "Typeface - CMYK",
+          "type": "text",
+          "placeholder": "Enter cmyk",
+          "required": false
+        },
+        {
+          "id": "typeface_pantone",
+          "label": "Typeface - Pantone",
+          "type": "text",
+          "placeholder": "Enter pantone",
+          "required": false
+        },
+        {
+          "id": "typeface_usage_notes",
+          "label": "Typeface - Usage Notes",
+          "type": "textarea",
+          "placeholder": "Enter usage notes",
+          "required": false
+        },
+        {
+          "id": "typeface_status",
+          "label": "Typeface - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "aptos_role",
+          "label": "Aptos - Role",
+          "type": "text",
+          "placeholder": "Enter role",
+          "required": false
+        },
+        {
+          "id": "aptos_hex",
+          "label": "Aptos - HEX",
+          "type": "text",
+          "placeholder": "Enter hex",
+          "required": false
+        },
+        {
+          "id": "aptos_rgb",
+          "label": "Aptos - RGB",
+          "type": "text",
+          "placeholder": "Enter rgb",
+          "required": false
+        },
+        {
+          "id": "aptos_cmyk",
+          "label": "Aptos - CMYK",
+          "type": "text",
+          "placeholder": "Enter cmyk",
+          "required": false
+        },
+        {
+          "id": "aptos_pantone",
+          "label": "Aptos - Pantone",
+          "type": "text",
+          "placeholder": "Enter pantone",
+          "required": false
+        },
+        {
+          "id": "aptos_usage_notes",
+          "label": "Aptos - Usage Notes",
+          "type": "textarea",
+          "placeholder": "Enter usage notes",
+          "required": false
+        },
+        {
+          "id": "aptos_status",
+          "label": "Aptos - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "aptos_role_1",
+          "label": "Aptos - Role",
+          "type": "text",
+          "placeholder": "Enter role",
+          "required": false
+        },
+        {
+          "id": "aptos_hex_1",
+          "label": "Aptos - HEX",
+          "type": "text",
+          "placeholder": "Enter hex",
+          "required": false
+        },
+        {
+          "id": "aptos_rgb_1",
+          "label": "Aptos - RGB",
+          "type": "text",
+          "placeholder": "Enter rgb",
+          "required": false
+        },
+        {
+          "id": "aptos_cmyk_1",
+          "label": "Aptos - CMYK",
+          "type": "text",
+          "placeholder": "Enter cmyk",
+          "required": false
+        },
+        {
+          "id": "aptos_pantone_1",
+          "label": "Aptos - Pantone",
+          "type": "text",
+          "placeholder": "Enter pantone",
+          "required": false
+        },
+        {
+          "id": "aptos_usage_notes_1",
+          "label": "Aptos - Usage Notes",
+          "type": "textarea",
+          "placeholder": "Enter usage notes",
+          "required": false
+        },
+        {
+          "id": "aptos_status_1",
+          "label": "Aptos - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "aptos_role_2",
+          "label": "Aptos - Role",
+          "type": "text",
+          "placeholder": "Enter role",
+          "required": false
+        },
+        {
+          "id": "aptos_hex_2",
+          "label": "Aptos - HEX",
+          "type": "text",
+          "placeholder": "Enter hex",
+          "required": false
+        },
+        {
+          "id": "aptos_rgb_2",
+          "label": "Aptos - RGB",
+          "type": "text",
+          "placeholder": "Enter rgb",
+          "required": false
+        },
+        {
+          "id": "aptos_cmyk_2",
+          "label": "Aptos - CMYK",
+          "type": "text",
+          "placeholder": "Enter cmyk",
+          "required": false
+        },
+        {
+          "id": "aptos_pantone_2",
+          "label": "Aptos - Pantone",
+          "type": "text",
+          "placeholder": "Enter pantone",
+          "required": false
+        },
+        {
+          "id": "aptos_usage_notes_2",
+          "label": "Aptos - Usage Notes",
+          "type": "textarea",
+          "placeholder": "Enter usage notes",
+          "required": false
+        },
+        {
+          "id": "aptos_status_2",
+          "label": "Aptos - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "aptos_role_3",
+          "label": "Aptos - Role",
+          "type": "text",
+          "placeholder": "Enter role",
+          "required": false
+        },
+        {
+          "id": "aptos_hex_3",
+          "label": "Aptos - HEX",
+          "type": "text",
+          "placeholder": "Enter hex",
+          "required": false
+        },
+        {
+          "id": "aptos_rgb_3",
+          "label": "Aptos - RGB",
+          "type": "text",
+          "placeholder": "Enter rgb",
+          "required": false
+        },
+        {
+          "id": "aptos_cmyk_3",
+          "label": "Aptos - CMYK",
+          "type": "text",
+          "placeholder": "Enter cmyk",
+          "required": false
+        },
+        {
+          "id": "aptos_pantone_3",
+          "label": "Aptos - Pantone",
+          "type": "text",
+          "placeholder": "Enter pantone",
+          "required": false
+        },
+        {
+          "id": "aptos_usage_notes_3",
+          "label": "Aptos - Usage Notes",
+          "type": "textarea",
+          "placeholder": "Enter usage notes",
+          "required": false
+        },
+        {
+          "id": "aptos_status_3",
+          "label": "Aptos - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "aptos_role_4",
+          "label": "Aptos - Role",
+          "type": "text",
+          "placeholder": "Enter role",
+          "required": false
+        },
+        {
+          "id": "aptos_hex_4",
+          "label": "Aptos - HEX",
+          "type": "text",
+          "placeholder": "Enter hex",
+          "required": false
+        },
+        {
+          "id": "aptos_rgb_4",
+          "label": "Aptos - RGB",
+          "type": "text",
+          "placeholder": "Enter rgb",
+          "required": false
+        },
+        {
+          "id": "aptos_cmyk_4",
+          "label": "Aptos - CMYK",
+          "type": "text",
+          "placeholder": "Enter cmyk",
+          "required": false
+        },
+        {
+          "id": "aptos_pantone_4",
+          "label": "Aptos - Pantone",
+          "type": "text",
+          "placeholder": "Enter pantone",
+          "required": false
+        },
+        {
+          "id": "aptos_usage_notes_4",
+          "label": "Aptos - Usage Notes",
+          "type": "textarea",
+          "placeholder": "Enter usage notes",
+          "required": false
+        },
+        {
+          "id": "aptos_status_4",
+          "label": "Aptos - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tone_of_voice",
+      "title": "Tone of Voice",
+      "description": "Enter data for each item",
+      "fields": [
+        {
+          "id": "website_tone",
+          "label": "Website - Tone",
+          "type": "text",
+          "placeholder": "Enter tone",
+          "required": false
+        },
+        {
+          "id": "website_formality",
+          "label": "Website - Formality",
+          "type": "text",
+          "placeholder": "Enter formality",
+          "required": false
+        },
+        {
+          "id": "website_length_guide",
+          "label": "Website - Length Guide",
+          "type": "text",
+          "placeholder": "Enter length guide",
+          "required": false
+        },
+        {
+          "id": "website_key_rules",
+          "label": "Website - Key Rules",
+          "type": "text",
+          "placeholder": "Enter key rules",
+          "required": false
+        },
+        {
+          "id": "website_example",
+          "label": "Website - Example",
+          "type": "text",
+          "placeholder": "Enter example",
+          "required": false
+        },
+        {
+          "id": "email_tone",
+          "label": "Email - Tone",
+          "type": "text",
+          "placeholder": "Enter tone",
+          "required": false
+        },
+        {
+          "id": "email_formality",
+          "label": "Email - Formality",
+          "type": "text",
+          "placeholder": "Enter formality",
+          "required": false
+        },
+        {
+          "id": "email_length_guide",
+          "label": "Email - Length Guide",
+          "type": "text",
+          "placeholder": "Enter length guide",
+          "required": false
+        },
+        {
+          "id": "email_key_rules",
+          "label": "Email - Key Rules",
+          "type": "text",
+          "placeholder": "Enter key rules",
+          "required": false
+        },
+        {
+          "id": "email_example",
+          "label": "Email - Example",
+          "type": "text",
+          "placeholder": "Enter example",
+          "required": false
+        },
+        {
+          "id": "social_media_tone",
+          "label": "Social Media - Tone",
+          "type": "text",
+          "placeholder": "Enter tone",
+          "required": false
+        },
+        {
+          "id": "social_media_formality",
+          "label": "Social Media - Formality",
+          "type": "text",
+          "placeholder": "Enter formality",
+          "required": false
+        },
+        {
+          "id": "social_media_length_guide",
+          "label": "Social Media - Length Guide",
+          "type": "text",
+          "placeholder": "Enter length guide",
+          "required": false
+        },
+        {
+          "id": "social_media_key_rules",
+          "label": "Social Media - Key Rules",
+          "type": "text",
+          "placeholder": "Enter key rules",
+          "required": false
+        },
+        {
+          "id": "social_media_example",
+          "label": "Social Media - Example",
+          "type": "text",
+          "placeholder": "Enter example",
+          "required": false
+        },
+        {
+          "id": "blog_tone",
+          "label": "Blog - Tone",
+          "type": "text",
+          "placeholder": "Enter tone",
+          "required": false
+        },
+        {
+          "id": "blog_formality",
+          "label": "Blog - Formality",
+          "type": "text",
+          "placeholder": "Enter formality",
+          "required": false
+        },
+        {
+          "id": "blog_length_guide",
+          "label": "Blog - Length Guide",
+          "type": "text",
+          "placeholder": "Enter length guide",
+          "required": false
+        },
+        {
+          "id": "blog_key_rules",
+          "label": "Blog - Key Rules",
+          "type": "text",
+          "placeholder": "Enter key rules",
+          "required": false
+        },
+        {
+          "id": "blog_example",
+          "label": "Blog - Example",
+          "type": "text",
+          "placeholder": "Enter example",
+          "required": false
+        },
+        {
+          "id": "presentations_tone",
+          "label": "Presentations - Tone",
+          "type": "text",
+          "placeholder": "Enter tone",
+          "required": false
+        },
+        {
+          "id": "presentations_formality",
+          "label": "Presentations - Formality",
+          "type": "text",
+          "placeholder": "Enter formality",
+          "required": false
+        },
+        {
+          "id": "presentations_length_guide",
+          "label": "Presentations - Length Guide",
+          "type": "text",
+          "placeholder": "Enter length guide",
+          "required": false
+        },
+        {
+          "id": "presentations_key_rules",
+          "label": "Presentations - Key Rules",
+          "type": "text",
+          "placeholder": "Enter key rules",
+          "required": false
+        },
+        {
+          "id": "presentations_example",
+          "label": "Presentations - Example",
+          "type": "text",
+          "placeholder": "Enter example",
+          "required": false
+        },
+        {
+          "id": "customer_support_tone",
+          "label": "Customer Support - Tone",
+          "type": "text",
+          "placeholder": "Enter tone",
+          "required": false
+        },
+        {
+          "id": "customer_support_formality",
+          "label": "Customer Support - Formality",
+          "type": "text",
+          "placeholder": "Enter formality",
+          "required": false
+        },
+        {
+          "id": "customer_support_length_guide",
+          "label": "Customer Support - Length Guide",
+          "type": "text",
+          "placeholder": "Enter length guide",
+          "required": false
+        },
+        {
+          "id": "customer_support_key_rules",
+          "label": "Customer Support - Key Rules",
+          "type": "text",
+          "placeholder": "Enter key rules",
+          "required": false
+        },
+        {
+          "id": "customer_support_example",
+          "label": "Customer Support - Example",
+          "type": "text",
+          "placeholder": "Enter example",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "messaging_architecture",
+      "title": "Messaging Architecture",
+      "description": "Enter data for each item",
+      "fields": [
+        {
+          "id": "audiencespecific_messaging_key_message",
+          "label": "Audience-Specific Messaging - Key Message",
+          "type": "text",
+          "placeholder": "Enter key message",
+          "required": false
+        },
+        {
+          "id": "audiencespecific_messaging_supporting_points",
+          "label": "Audience-Specific Messaging - Supporting Points",
+          "type": "text",
+          "placeholder": "Enter supporting points",
+          "required": false
+        },
+        {
+          "id": "audiencespecific_messaging_proof_points",
+          "label": "Audience-Specific Messaging - Proof Points",
+          "type": "text",
+          "placeholder": "Enter proof points",
+          "required": false
+        },
+        {
+          "id": "audiencespecific_messaging_target_audience",
+          "label": "Audience-Specific Messaging - Target Audience",
+          "type": "number",
+          "placeholder": "Enter target audience",
+          "required": false
+        },
+        {
+          "id": "audiencespecific_messaging_use_case",
+          "label": "Audience-Specific Messaging - Use Case",
+          "type": "text",
+          "placeholder": "Enter use case",
+          "required": false
+        },
+        {
+          "id": "audience_key_message",
+          "label": "Audience - Key Message",
+          "type": "text",
+          "placeholder": "Enter key message",
+          "required": false
+        },
+        {
+          "id": "audience_supporting_points",
+          "label": "Audience - Supporting Points",
+          "type": "text",
+          "placeholder": "Enter supporting points",
+          "required": false
+        },
+        {
+          "id": "audience_proof_points",
+          "label": "Audience - Proof Points",
+          "type": "text",
+          "placeholder": "Enter proof points",
+          "required": false
+        },
+        {
+          "id": "audience_target_audience",
+          "label": "Audience - Target Audience",
+          "type": "number",
+          "placeholder": "Enter target audience",
+          "required": false
+        },
+        {
+          "id": "audience_use_case",
+          "label": "Audience - Use Case",
+          "type": "text",
+          "placeholder": "Enter use case",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "application_guidelines",
+      "title": "Application Guidelines",
+      "description": "Enter data for each item",
+      "fields": [
+        {
+          "id": "business_cards_category",
+          "label": "Business Cards - Category",
+          "type": "text",
+          "placeholder": "Enter category",
+          "required": false
+        },
+        {
+          "id": "business_cards_brand_elements",
+          "label": "Business Cards - Brand Elements",
+          "type": "text",
+          "placeholder": "Enter brand elements",
+          "required": false
+        },
+        {
+          "id": "business_cards_specifications",
+          "label": "Business Cards - Specifications",
+          "type": "text",
+          "placeholder": "Enter specifications",
+          "required": false
+        },
+        {
+          "id": "business_cards_do",
+          "label": "Business Cards - Do",
+          "type": "text",
+          "placeholder": "Enter do",
+          "required": false
+        },
+        {
+          "id": "business_cards_dont",
+          "label": "Business Cards - Don't",
+          "type": "text",
+          "placeholder": "Enter don't",
+          "required": false
+        },
+        {
+          "id": "business_cards_template_available",
+          "label": "Business Cards - Template Available",
+          "type": "text",
+          "placeholder": "Enter template available",
+          "required": false
+        },
+        {
+          "id": "business_cards_status",
+          "label": "Business Cards - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "email_signature_category",
+          "label": "Email Signature - Category",
+          "type": "text",
+          "placeholder": "Enter category",
+          "required": false
+        },
+        {
+          "id": "email_signature_brand_elements",
+          "label": "Email Signature - Brand Elements",
+          "type": "text",
+          "placeholder": "Enter brand elements",
+          "required": false
+        },
+        {
+          "id": "email_signature_specifications",
+          "label": "Email Signature - Specifications",
+          "type": "text",
+          "placeholder": "Enter specifications",
+          "required": false
+        },
+        {
+          "id": "email_signature_do",
+          "label": "Email Signature - Do",
+          "type": "text",
+          "placeholder": "Enter do",
+          "required": false
+        },
+        {
+          "id": "email_signature_dont",
+          "label": "Email Signature - Don't",
+          "type": "text",
+          "placeholder": "Enter don't",
+          "required": false
+        },
+        {
+          "id": "email_signature_template_available",
+          "label": "Email Signature - Template Available",
+          "type": "text",
+          "placeholder": "Enter template available",
+          "required": false
+        },
+        {
+          "id": "email_signature_status",
+          "label": "Email Signature - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "powerpoint_category",
+          "label": "PowerPoint - Category",
+          "type": "text",
+          "placeholder": "Enter category",
+          "required": false
+        },
+        {
+          "id": "powerpoint_brand_elements",
+          "label": "PowerPoint - Brand Elements",
+          "type": "text",
+          "placeholder": "Enter brand elements",
+          "required": false
+        },
+        {
+          "id": "powerpoint_specifications",
+          "label": "PowerPoint - Specifications",
+          "type": "text",
+          "placeholder": "Enter specifications",
+          "required": false
+        },
+        {
+          "id": "powerpoint_do",
+          "label": "PowerPoint - Do",
+          "type": "text",
+          "placeholder": "Enter do",
+          "required": false
+        },
+        {
+          "id": "powerpoint_dont",
+          "label": "PowerPoint - Don't",
+          "type": "text",
+          "placeholder": "Enter don't",
+          "required": false
+        },
+        {
+          "id": "powerpoint_template_available",
+          "label": "PowerPoint - Template Available",
+          "type": "text",
+          "placeholder": "Enter template available",
+          "required": false
+        },
+        {
+          "id": "powerpoint_status",
+          "label": "PowerPoint - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "social_media_profiles_category",
+          "label": "Social Media Profiles - Category",
+          "type": "text",
+          "placeholder": "Enter category",
+          "required": false
+        },
+        {
+          "id": "social_media_profiles_brand_elements",
+          "label": "Social Media Profiles - Brand Elements",
+          "type": "text",
+          "placeholder": "Enter brand elements",
+          "required": false
+        },
+        {
+          "id": "social_media_profiles_specifications",
+          "label": "Social Media Profiles - Specifications",
+          "type": "text",
+          "placeholder": "Enter specifications",
+          "required": false
+        },
+        {
+          "id": "social_media_profiles_do",
+          "label": "Social Media Profiles - Do",
+          "type": "text",
+          "placeholder": "Enter do",
+          "required": false
+        },
+        {
+          "id": "social_media_profiles_dont",
+          "label": "Social Media Profiles - Don't",
+          "type": "text",
+          "placeholder": "Enter don't",
+          "required": false
+        },
+        {
+          "id": "social_media_profiles_template_available",
+          "label": "Social Media Profiles - Template Available",
+          "type": "text",
+          "placeholder": "Enter template available",
+          "required": false
+        },
+        {
+          "id": "social_media_profiles_status",
+          "label": "Social Media Profiles - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "website_category",
+          "label": "Website - Category",
+          "type": "text",
+          "placeholder": "Enter category",
+          "required": false
+        },
+        {
+          "id": "website_brand_elements",
+          "label": "Website - Brand Elements",
+          "type": "text",
+          "placeholder": "Enter brand elements",
+          "required": false
+        },
+        {
+          "id": "website_specifications",
+          "label": "Website - Specifications",
+          "type": "text",
+          "placeholder": "Enter specifications",
+          "required": false
+        },
+        {
+          "id": "website_do",
+          "label": "Website - Do",
+          "type": "text",
+          "placeholder": "Enter do",
+          "required": false
+        },
+        {
+          "id": "website_dont",
+          "label": "Website - Don't",
+          "type": "text",
+          "placeholder": "Enter don't",
+          "required": false
+        },
+        {
+          "id": "website_template_available",
+          "label": "Website - Template Available",
+          "type": "text",
+          "placeholder": "Enter template available",
+          "required": false
+        },
+        {
+          "id": "website_status",
+          "label": "Website - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "letterhead_category",
+          "label": "Letterhead - Category",
+          "type": "text",
+          "placeholder": "Enter category",
+          "required": false
+        },
+        {
+          "id": "letterhead_brand_elements",
+          "label": "Letterhead - Brand Elements",
+          "type": "text",
+          "placeholder": "Enter brand elements",
+          "required": false
+        },
+        {
+          "id": "letterhead_specifications",
+          "label": "Letterhead - Specifications",
+          "type": "text",
+          "placeholder": "Enter specifications",
+          "required": false
+        },
+        {
+          "id": "letterhead_do",
+          "label": "Letterhead - Do",
+          "type": "text",
+          "placeholder": "Enter do",
+          "required": false
+        },
+        {
+          "id": "letterhead_dont",
+          "label": "Letterhead - Don't",
+          "type": "text",
+          "placeholder": "Enter don't",
+          "required": false
+        },
+        {
+          "id": "letterhead_template_available",
+          "label": "Letterhead - Template Available",
+          "type": "text",
+          "placeholder": "Enter template available",
+          "required": false
+        },
+        {
+          "id": "letterhead_status",
+          "label": "Letterhead - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "merchandise_category",
+          "label": "Merchandise - Category",
+          "type": "text",
+          "placeholder": "Enter category",
+          "required": false
+        },
+        {
+          "id": "merchandise_brand_elements",
+          "label": "Merchandise - Brand Elements",
+          "type": "text",
+          "placeholder": "Enter brand elements",
+          "required": false
+        },
+        {
+          "id": "merchandise_specifications",
+          "label": "Merchandise - Specifications",
+          "type": "text",
+          "placeholder": "Enter specifications",
+          "required": false
+        },
+        {
+          "id": "merchandise_do",
+          "label": "Merchandise - Do",
+          "type": "text",
+          "placeholder": "Enter do",
+          "required": false
+        },
+        {
+          "id": "merchandise_dont",
+          "label": "Merchandise - Don't",
+          "type": "text",
+          "placeholder": "Enter don't",
+          "required": false
+        },
+        {
+          "id": "merchandise_template_available",
+          "label": "Merchandise - Template Available",
+          "type": "text",
+          "placeholder": "Enter template available",
+          "required": false
+        },
+        {
+          "id": "merchandise_status",
+          "label": "Merchandise - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "video_intros_category",
+          "label": "Video Intros - Category",
+          "type": "text",
+          "placeholder": "Enter category",
+          "required": false
+        },
+        {
+          "id": "video_intros_brand_elements",
+          "label": "Video Intros - Brand Elements",
+          "type": "text",
+          "placeholder": "Enter brand elements",
+          "required": false
+        },
+        {
+          "id": "video_intros_specifications",
+          "label": "Video Intros - Specifications",
+          "type": "text",
+          "placeholder": "Enter specifications",
+          "required": false
+        },
+        {
+          "id": "video_intros_do",
+          "label": "Video Intros - Do",
+          "type": "text",
+          "placeholder": "Enter do",
+          "required": false
+        },
+        {
+          "id": "video_intros_dont",
+          "label": "Video Intros - Don't",
+          "type": "text",
+          "placeholder": "Enter don't",
+          "required": false
+        },
+        {
+          "id": "video_intros_template_available",
+          "label": "Video Intros - Template Available",
+          "type": "text",
+          "placeholder": "Enter template available",
+          "required": false
+        },
+        {
+          "id": "video_intros_status",
+          "label": "Video Intros - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "trade_show_category",
+          "label": "Trade Show - Category",
+          "type": "text",
+          "placeholder": "Enter category",
+          "required": false
+        },
+        {
+          "id": "trade_show_brand_elements",
+          "label": "Trade Show - Brand Elements",
+          "type": "text",
+          "placeholder": "Enter brand elements",
+          "required": false
+        },
+        {
+          "id": "trade_show_specifications",
+          "label": "Trade Show - Specifications",
+          "type": "text",
+          "placeholder": "Enter specifications",
+          "required": false
+        },
+        {
+          "id": "trade_show_do",
+          "label": "Trade Show - Do",
+          "type": "text",
+          "placeholder": "Enter do",
+          "required": false
+        },
+        {
+          "id": "trade_show_dont",
+          "label": "Trade Show - Don't",
+          "type": "text",
+          "placeholder": "Enter don't",
+          "required": false
+        },
+        {
+          "id": "trade_show_template_available",
+          "label": "Trade Show - Template Available",
+          "type": "text",
+          "placeholder": "Enter template available",
+          "required": false
+        },
+        {
+          "id": "trade_show_status",
+          "label": "Trade Show - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "advertising_category",
+          "label": "Advertising - Category",
+          "type": "text",
+          "placeholder": "Enter category",
+          "required": false
+        },
+        {
+          "id": "advertising_brand_elements",
+          "label": "Advertising - Brand Elements",
+          "type": "text",
+          "placeholder": "Enter brand elements",
+          "required": false
+        },
+        {
+          "id": "advertising_specifications",
+          "label": "Advertising - Specifications",
+          "type": "text",
+          "placeholder": "Enter specifications",
+          "required": false
+        },
+        {
+          "id": "advertising_do",
+          "label": "Advertising - Do",
+          "type": "text",
+          "placeholder": "Enter do",
+          "required": false
+        },
+        {
+          "id": "advertising_dont",
+          "label": "Advertising - Don't",
+          "type": "text",
+          "placeholder": "Enter don't",
+          "required": false
+        },
+        {
+          "id": "advertising_template_available",
+          "label": "Advertising - Template Available",
+          "type": "text",
+          "placeholder": "Enter template available",
+          "required": false
+        },
+        {
+          "id": "advertising_status",
+          "label": "Advertising - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "asset_library",
+      "title": "Asset Library",
+      "description": "Add entries below. Each entry has the following fields.",
+      "fields": [
+        {
+          "id": "entry_asset_id",
+          "label": "Asset ID",
+          "type": "text",
+          "placeholder": "Enter asset id",
+          "required": false
+        },
+        {
+          "id": "entry_asset_name",
+          "label": "Asset Name",
+          "type": "text",
+          "placeholder": "Enter asset name",
+          "required": false
+        },
+        {
+          "id": "entry_category",
+          "label": "Category",
+          "type": "text",
+          "placeholder": "Enter category",
+          "required": false
+        },
+        {
+          "id": "entry_format",
+          "label": "Format",
+          "type": "text",
+          "placeholder": "Enter format",
+          "required": false
+        },
+        {
+          "id": "entry_version",
+          "label": "Version",
+          "type": "text",
+          "placeholder": "Enter version",
+          "required": false
+        },
+        {
+          "id": "entry_last_updated",
+          "label": "Last Updated",
+          "type": "text",
+          "placeholder": "Enter last updated",
+          "required": false
+        },
+        {
+          "id": "entry_status",
+          "label": "Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "entry_owner",
+          "label": "Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "entry_access_link",
+          "label": "Access Link",
+          "type": "text",
+          "placeholder": "Enter access link",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "brand_audit",
+      "title": "Brand Audit",
+      "description": "Enter data for each item",
+      "fields": [
+        {
+          "id": "website_homepage_channel",
+          "label": "Website Homepage - Channel",
+          "type": "select",
+          "placeholder": "Enter channel",
+          "required": false,
+          "options": [
+            "Blog",
+            "Social Media",
+            "Email",
+            "Video",
+            "Paid Search",
+            "Paid Social",
+            "SEO",
+            "Events",
+            "PR"
+          ]
+        },
+        {
+          "id": "website_homepage_logo_correct",
+          "label": "Website Homepage - Logo Correct",
+          "type": "text",
+          "placeholder": "Enter logo correct",
+          "required": false
+        },
+        {
+          "id": "website_homepage_colours_correct",
+          "label": "Website Homepage - Colours Correct",
+          "type": "text",
+          "placeholder": "Enter colours correct",
+          "required": false
+        },
+        {
+          "id": "website_homepage_typography_correct",
+          "label": "Website Homepage - Typography Correct",
+          "type": "text",
+          "placeholder": "Enter typography correct",
+          "required": false
+        },
+        {
+          "id": "website_homepage_tone_correct",
+          "label": "Website Homepage - Tone Correct",
+          "type": "text",
+          "placeholder": "Enter tone correct",
+          "required": false
+        },
+        {
+          "id": "website_homepage_overall_score",
+          "label": "Website Homepage - Overall Score",
+          "type": "scale",
+          "placeholder": "Enter overall score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "website_homepage_notes",
+          "label": "Website Homepage - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "website_about_page_channel",
+          "label": "Website About Page - Channel",
+          "type": "select",
+          "placeholder": "Enter channel",
+          "required": false,
+          "options": [
+            "Blog",
+            "Social Media",
+            "Email",
+            "Video",
+            "Paid Search",
+            "Paid Social",
+            "SEO",
+            "Events",
+            "PR"
+          ]
+        },
+        {
+          "id": "website_about_page_logo_correct",
+          "label": "Website About Page - Logo Correct",
+          "type": "text",
+          "placeholder": "Enter logo correct",
+          "required": false
+        },
+        {
+          "id": "website_about_page_colours_correct",
+          "label": "Website About Page - Colours Correct",
+          "type": "text",
+          "placeholder": "Enter colours correct",
+          "required": false
+        },
+        {
+          "id": "website_about_page_typography_correct",
+          "label": "Website About Page - Typography Correct",
+          "type": "text",
+          "placeholder": "Enter typography correct",
+          "required": false
+        },
+        {
+          "id": "website_about_page_tone_correct",
+          "label": "Website About Page - Tone Correct",
+          "type": "text",
+          "placeholder": "Enter tone correct",
+          "required": false
+        },
+        {
+          "id": "website_about_page_overall_score",
+          "label": "Website About Page - Overall Score",
+          "type": "scale",
+          "placeholder": "Enter overall score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "website_about_page_notes",
+          "label": "Website About Page - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "website_blog_channel",
+          "label": "Website Blog - Channel",
+          "type": "select",
+          "placeholder": "Enter channel",
+          "required": false,
+          "options": [
+            "Blog",
+            "Social Media",
+            "Email",
+            "Video",
+            "Paid Search",
+            "Paid Social",
+            "SEO",
+            "Events",
+            "PR"
+          ]
+        },
+        {
+          "id": "website_blog_logo_correct",
+          "label": "Website Blog - Logo Correct",
+          "type": "text",
+          "placeholder": "Enter logo correct",
+          "required": false
+        },
+        {
+          "id": "website_blog_colours_correct",
+          "label": "Website Blog - Colours Correct",
+          "type": "text",
+          "placeholder": "Enter colours correct",
+          "required": false
+        },
+        {
+          "id": "website_blog_typography_correct",
+          "label": "Website Blog - Typography Correct",
+          "type": "text",
+          "placeholder": "Enter typography correct",
+          "required": false
+        },
+        {
+          "id": "website_blog_tone_correct",
+          "label": "Website Blog - Tone Correct",
+          "type": "text",
+          "placeholder": "Enter tone correct",
+          "required": false
+        },
+        {
+          "id": "website_blog_overall_score",
+          "label": "Website Blog - Overall Score",
+          "type": "scale",
+          "placeholder": "Enter overall score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "website_blog_notes",
+          "label": "Website Blog - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "email_newsletter_channel",
+          "label": "Email Newsletter - Channel",
+          "type": "select",
+          "placeholder": "Enter channel",
+          "required": false,
+          "options": [
+            "Blog",
+            "Social Media",
+            "Email",
+            "Video",
+            "Paid Search",
+            "Paid Social",
+            "SEO",
+            "Events",
+            "PR"
+          ]
+        },
+        {
+          "id": "email_newsletter_logo_correct",
+          "label": "Email Newsletter - Logo Correct",
+          "type": "text",
+          "placeholder": "Enter logo correct",
+          "required": false
+        },
+        {
+          "id": "email_newsletter_colours_correct",
+          "label": "Email Newsletter - Colours Correct",
+          "type": "text",
+          "placeholder": "Enter colours correct",
+          "required": false
+        },
+        {
+          "id": "email_newsletter_typography_correct",
+          "label": "Email Newsletter - Typography Correct",
+          "type": "text",
+          "placeholder": "Enter typography correct",
+          "required": false
+        },
+        {
+          "id": "email_newsletter_tone_correct",
+          "label": "Email Newsletter - Tone Correct",
+          "type": "text",
+          "placeholder": "Enter tone correct",
+          "required": false
+        },
+        {
+          "id": "email_newsletter_overall_score",
+          "label": "Email Newsletter - Overall Score",
+          "type": "scale",
+          "placeholder": "Enter overall score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "email_newsletter_notes",
+          "label": "Email Newsletter - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "email_signature_channel",
+          "label": "Email Signature - Channel",
+          "type": "select",
+          "placeholder": "Enter channel",
+          "required": false,
+          "options": [
+            "Blog",
+            "Social Media",
+            "Email",
+            "Video",
+            "Paid Search",
+            "Paid Social",
+            "SEO",
+            "Events",
+            "PR"
+          ]
+        },
+        {
+          "id": "email_signature_logo_correct",
+          "label": "Email Signature - Logo Correct",
+          "type": "text",
+          "placeholder": "Enter logo correct",
+          "required": false
+        },
+        {
+          "id": "email_signature_colours_correct",
+          "label": "Email Signature - Colours Correct",
+          "type": "text",
+          "placeholder": "Enter colours correct",
+          "required": false
+        },
+        {
+          "id": "email_signature_typography_correct",
+          "label": "Email Signature - Typography Correct",
+          "type": "text",
+          "placeholder": "Enter typography correct",
+          "required": false
+        },
+        {
+          "id": "email_signature_tone_correct",
+          "label": "Email Signature - Tone Correct",
+          "type": "text",
+          "placeholder": "Enter tone correct",
+          "required": false
+        },
+        {
+          "id": "email_signature_overall_score",
+          "label": "Email Signature - Overall Score",
+          "type": "scale",
+          "placeholder": "Enter overall score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "email_signature_notes",
+          "label": "Email Signature - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "linkedin_profile_channel",
+          "label": "LinkedIn Profile - Channel",
+          "type": "select",
+          "placeholder": "Enter channel",
+          "required": false,
+          "options": [
+            "Blog",
+            "Social Media",
+            "Email",
+            "Video",
+            "Paid Search",
+            "Paid Social",
+            "SEO",
+            "Events",
+            "PR"
+          ]
+        },
+        {
+          "id": "linkedin_profile_logo_correct",
+          "label": "LinkedIn Profile - Logo Correct",
+          "type": "text",
+          "placeholder": "Enter logo correct",
+          "required": false
+        },
+        {
+          "id": "linkedin_profile_colours_correct",
+          "label": "LinkedIn Profile - Colours Correct",
+          "type": "text",
+          "placeholder": "Enter colours correct",
+          "required": false
+        },
+        {
+          "id": "linkedin_profile_typography_correct",
+          "label": "LinkedIn Profile - Typography Correct",
+          "type": "text",
+          "placeholder": "Enter typography correct",
+          "required": false
+        },
+        {
+          "id": "linkedin_profile_tone_correct",
+          "label": "LinkedIn Profile - Tone Correct",
+          "type": "text",
+          "placeholder": "Enter tone correct",
+          "required": false
+        },
+        {
+          "id": "linkedin_profile_overall_score",
+          "label": "LinkedIn Profile - Overall Score",
+          "type": "scale",
+          "placeholder": "Enter overall score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "linkedin_profile_notes",
+          "label": "LinkedIn Profile - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "instagram_profile_channel",
+          "label": "Instagram Profile - Channel",
+          "type": "select",
+          "placeholder": "Enter channel",
+          "required": false,
+          "options": [
+            "Blog",
+            "Social Media",
+            "Email",
+            "Video",
+            "Paid Search",
+            "Paid Social",
+            "SEO",
+            "Events",
+            "PR"
+          ]
+        },
+        {
+          "id": "instagram_profile_logo_correct",
+          "label": "Instagram Profile - Logo Correct",
+          "type": "text",
+          "placeholder": "Enter logo correct",
+          "required": false
+        },
+        {
+          "id": "instagram_profile_colours_correct",
+          "label": "Instagram Profile - Colours Correct",
+          "type": "text",
+          "placeholder": "Enter colours correct",
+          "required": false
+        },
+        {
+          "id": "instagram_profile_typography_correct",
+          "label": "Instagram Profile - Typography Correct",
+          "type": "text",
+          "placeholder": "Enter typography correct",
+          "required": false
+        },
+        {
+          "id": "instagram_profile_tone_correct",
+          "label": "Instagram Profile - Tone Correct",
+          "type": "text",
+          "placeholder": "Enter tone correct",
+          "required": false
+        },
+        {
+          "id": "instagram_profile_overall_score",
+          "label": "Instagram Profile - Overall Score",
+          "type": "scale",
+          "placeholder": "Enter overall score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "instagram_profile_notes",
+          "label": "Instagram Profile - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "facebook_page_channel",
+          "label": "Facebook Page - Channel",
+          "type": "select",
+          "placeholder": "Enter channel",
+          "required": false,
+          "options": [
+            "Blog",
+            "Social Media",
+            "Email",
+            "Video",
+            "Paid Search",
+            "Paid Social",
+            "SEO",
+            "Events",
+            "PR"
+          ]
+        },
+        {
+          "id": "facebook_page_logo_correct",
+          "label": "Facebook Page - Logo Correct",
+          "type": "text",
+          "placeholder": "Enter logo correct",
+          "required": false
+        },
+        {
+          "id": "facebook_page_colours_correct",
+          "label": "Facebook Page - Colours Correct",
+          "type": "text",
+          "placeholder": "Enter colours correct",
+          "required": false
+        },
+        {
+          "id": "facebook_page_typography_correct",
+          "label": "Facebook Page - Typography Correct",
+          "type": "text",
+          "placeholder": "Enter typography correct",
+          "required": false
+        },
+        {
+          "id": "facebook_page_tone_correct",
+          "label": "Facebook Page - Tone Correct",
+          "type": "text",
+          "placeholder": "Enter tone correct",
+          "required": false
+        },
+        {
+          "id": "facebook_page_overall_score",
+          "label": "Facebook Page - Overall Score",
+          "type": "scale",
+          "placeholder": "Enter overall score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "facebook_page_notes",
+          "label": "Facebook Page - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "twitter_profile_channel",
+          "label": "Twitter Profile - Channel",
+          "type": "select",
+          "placeholder": "Enter channel",
+          "required": false,
+          "options": [
+            "Blog",
+            "Social Media",
+            "Email",
+            "Video",
+            "Paid Search",
+            "Paid Social",
+            "SEO",
+            "Events",
+            "PR"
+          ]
+        },
+        {
+          "id": "twitter_profile_logo_correct",
+          "label": "Twitter Profile - Logo Correct",
+          "type": "text",
+          "placeholder": "Enter logo correct",
+          "required": false
+        },
+        {
+          "id": "twitter_profile_colours_correct",
+          "label": "Twitter Profile - Colours Correct",
+          "type": "text",
+          "placeholder": "Enter colours correct",
+          "required": false
+        },
+        {
+          "id": "twitter_profile_typography_correct",
+          "label": "Twitter Profile - Typography Correct",
+          "type": "text",
+          "placeholder": "Enter typography correct",
+          "required": false
+        },
+        {
+          "id": "twitter_profile_tone_correct",
+          "label": "Twitter Profile - Tone Correct",
+          "type": "text",
+          "placeholder": "Enter tone correct",
+          "required": false
+        },
+        {
+          "id": "twitter_profile_overall_score",
+          "label": "Twitter Profile - Overall Score",
+          "type": "scale",
+          "placeholder": "Enter overall score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "twitter_profile_notes",
+          "label": "Twitter Profile - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "tiktok_profile_channel",
+          "label": "TikTok Profile - Channel",
+          "type": "select",
+          "placeholder": "Enter channel",
+          "required": false,
+          "options": [
+            "Blog",
+            "Social Media",
+            "Email",
+            "Video",
+            "Paid Search",
+            "Paid Social",
+            "SEO",
+            "Events",
+            "PR"
+          ]
+        },
+        {
+          "id": "tiktok_profile_logo_correct",
+          "label": "TikTok Profile - Logo Correct",
+          "type": "text",
+          "placeholder": "Enter logo correct",
+          "required": false
+        },
+        {
+          "id": "tiktok_profile_colours_correct",
+          "label": "TikTok Profile - Colours Correct",
+          "type": "text",
+          "placeholder": "Enter colours correct",
+          "required": false
+        },
+        {
+          "id": "tiktok_profile_typography_correct",
+          "label": "TikTok Profile - Typography Correct",
+          "type": "text",
+          "placeholder": "Enter typography correct",
+          "required": false
+        },
+        {
+          "id": "tiktok_profile_tone_correct",
+          "label": "TikTok Profile - Tone Correct",
+          "type": "text",
+          "placeholder": "Enter tone correct",
+          "required": false
+        },
+        {
+          "id": "tiktok_profile_overall_score",
+          "label": "TikTok Profile - Overall Score",
+          "type": "scale",
+          "placeholder": "Enter overall score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "tiktok_profile_notes",
+          "label": "TikTok Profile - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "business_cards_channel",
+          "label": "Business Cards - Channel",
+          "type": "select",
+          "placeholder": "Enter channel",
+          "required": false,
+          "options": [
+            "Blog",
+            "Social Media",
+            "Email",
+            "Video",
+            "Paid Search",
+            "Paid Social",
+            "SEO",
+            "Events",
+            "PR"
+          ]
+        },
+        {
+          "id": "business_cards_logo_correct",
+          "label": "Business Cards - Logo Correct",
+          "type": "text",
+          "placeholder": "Enter logo correct",
+          "required": false
+        },
+        {
+          "id": "business_cards_colours_correct",
+          "label": "Business Cards - Colours Correct",
+          "type": "text",
+          "placeholder": "Enter colours correct",
+          "required": false
+        },
+        {
+          "id": "business_cards_typography_correct",
+          "label": "Business Cards - Typography Correct",
+          "type": "text",
+          "placeholder": "Enter typography correct",
+          "required": false
+        },
+        {
+          "id": "business_cards_tone_correct",
+          "label": "Business Cards - Tone Correct",
+          "type": "text",
+          "placeholder": "Enter tone correct",
+          "required": false
+        },
+        {
+          "id": "business_cards_overall_score",
+          "label": "Business Cards - Overall Score",
+          "type": "scale",
+          "placeholder": "Enter overall score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "business_cards_notes",
+          "label": "Business Cards - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "letterhead_channel",
+          "label": "Letterhead - Channel",
+          "type": "select",
+          "placeholder": "Enter channel",
+          "required": false,
+          "options": [
+            "Blog",
+            "Social Media",
+            "Email",
+            "Video",
+            "Paid Search",
+            "Paid Social",
+            "SEO",
+            "Events",
+            "PR"
+          ]
+        },
+        {
+          "id": "letterhead_logo_correct",
+          "label": "Letterhead - Logo Correct",
+          "type": "text",
+          "placeholder": "Enter logo correct",
+          "required": false
+        },
+        {
+          "id": "letterhead_colours_correct",
+          "label": "Letterhead - Colours Correct",
+          "type": "text",
+          "placeholder": "Enter colours correct",
+          "required": false
+        },
+        {
+          "id": "letterhead_typography_correct",
+          "label": "Letterhead - Typography Correct",
+          "type": "text",
+          "placeholder": "Enter typography correct",
+          "required": false
+        },
+        {
+          "id": "letterhead_tone_correct",
+          "label": "Letterhead - Tone Correct",
+          "type": "text",
+          "placeholder": "Enter tone correct",
+          "required": false
+        },
+        {
+          "id": "letterhead_overall_score",
+          "label": "Letterhead - Overall Score",
+          "type": "scale",
+          "placeholder": "Enter overall score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "letterhead_notes",
+          "label": "Letterhead - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "presentation_template_channel",
+          "label": "Presentation Template - Channel",
+          "type": "select",
+          "placeholder": "Enter channel",
+          "required": false,
+          "options": [
+            "Blog",
+            "Social Media",
+            "Email",
+            "Video",
+            "Paid Search",
+            "Paid Social",
+            "SEO",
+            "Events",
+            "PR"
+          ]
+        },
+        {
+          "id": "presentation_template_logo_correct",
+          "label": "Presentation Template - Logo Correct",
+          "type": "text",
+          "placeholder": "Enter logo correct",
+          "required": false
+        },
+        {
+          "id": "presentation_template_colours_correct",
+          "label": "Presentation Template - Colours Correct",
+          "type": "text",
+          "placeholder": "Enter colours correct",
+          "required": false
+        },
+        {
+          "id": "presentation_template_typography_correct",
+          "label": "Presentation Template - Typography Correct",
+          "type": "text",
+          "placeholder": "Enter typography correct",
+          "required": false
+        },
+        {
+          "id": "presentation_template_tone_correct",
+          "label": "Presentation Template - Tone Correct",
+          "type": "text",
+          "placeholder": "Enter tone correct",
+          "required": false
+        },
+        {
+          "id": "presentation_template_overall_score",
+          "label": "Presentation Template - Overall Score",
+          "type": "scale",
+          "placeholder": "Enter overall score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "presentation_template_notes",
+          "label": "Presentation Template - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "sales_deck_channel",
+          "label": "Sales Deck - Channel",
+          "type": "select",
+          "placeholder": "Enter channel",
+          "required": false,
+          "options": [
+            "Blog",
+            "Social Media",
+            "Email",
+            "Video",
+            "Paid Search",
+            "Paid Social",
+            "SEO",
+            "Events",
+            "PR"
+          ]
+        },
+        {
+          "id": "sales_deck_logo_correct",
+          "label": "Sales Deck - Logo Correct",
+          "type": "text",
+          "placeholder": "Enter logo correct",
+          "required": false
+        },
+        {
+          "id": "sales_deck_colours_correct",
+          "label": "Sales Deck - Colours Correct",
+          "type": "text",
+          "placeholder": "Enter colours correct",
+          "required": false
+        },
+        {
+          "id": "sales_deck_typography_correct",
+          "label": "Sales Deck - Typography Correct",
+          "type": "text",
+          "placeholder": "Enter typography correct",
+          "required": false
+        },
+        {
+          "id": "sales_deck_tone_correct",
+          "label": "Sales Deck - Tone Correct",
+          "type": "text",
+          "placeholder": "Enter tone correct",
+          "required": false
+        },
+        {
+          "id": "sales_deck_overall_score",
+          "label": "Sales Deck - Overall Score",
+          "type": "scale",
+          "placeholder": "Enter overall score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "sales_deck_notes",
+          "label": "Sales Deck - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "product_packaging_channel",
+          "label": "Product Packaging - Channel",
+          "type": "select",
+          "placeholder": "Enter channel",
+          "required": false,
+          "options": [
+            "Blog",
+            "Social Media",
+            "Email",
+            "Video",
+            "Paid Search",
+            "Paid Social",
+            "SEO",
+            "Events",
+            "PR"
+          ]
+        },
+        {
+          "id": "product_packaging_logo_correct",
+          "label": "Product Packaging - Logo Correct",
+          "type": "text",
+          "placeholder": "Enter logo correct",
+          "required": false
+        },
+        {
+          "id": "product_packaging_colours_correct",
+          "label": "Product Packaging - Colours Correct",
+          "type": "text",
+          "placeholder": "Enter colours correct",
+          "required": false
+        },
+        {
+          "id": "product_packaging_typography_correct",
+          "label": "Product Packaging - Typography Correct",
+          "type": "text",
+          "placeholder": "Enter typography correct",
+          "required": false
+        },
+        {
+          "id": "product_packaging_tone_correct",
+          "label": "Product Packaging - Tone Correct",
+          "type": "text",
+          "placeholder": "Enter tone correct",
+          "required": false
+        },
+        {
+          "id": "product_packaging_overall_score",
+          "label": "Product Packaging - Overall Score",
+          "type": "scale",
+          "placeholder": "Enter overall score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "product_packaging_notes",
+          "label": "Product Packaging - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "customer_support_portal_channel",
+          "label": "Customer Support Portal - Channel",
+          "type": "select",
+          "placeholder": "Enter channel",
+          "required": false,
+          "options": [
+            "Blog",
+            "Social Media",
+            "Email",
+            "Video",
+            "Paid Search",
+            "Paid Social",
+            "SEO",
+            "Events",
+            "PR"
+          ]
+        },
+        {
+          "id": "customer_support_portal_logo_correct",
+          "label": "Customer Support Portal - Logo Correct",
+          "type": "text",
+          "placeholder": "Enter logo correct",
+          "required": false
+        },
+        {
+          "id": "customer_support_portal_colours_correct",
+          "label": "Customer Support Portal - Colours Correct",
+          "type": "text",
+          "placeholder": "Enter colours correct",
+          "required": false
+        },
+        {
+          "id": "customer_support_portal_typography_correct",
+          "label": "Customer Support Portal - Typography Correct",
+          "type": "text",
+          "placeholder": "Enter typography correct",
+          "required": false
+        },
+        {
+          "id": "customer_support_portal_tone_correct",
+          "label": "Customer Support Portal - Tone Correct",
+          "type": "text",
+          "placeholder": "Enter tone correct",
+          "required": false
+        },
+        {
+          "id": "customer_support_portal_overall_score",
+          "label": "Customer Support Portal - Overall Score",
+          "type": "scale",
+          "placeholder": "Enter overall score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "customer_support_portal_notes",
+          "label": "Customer Support Portal - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "help_documentation_channel",
+          "label": "Help Documentation - Channel",
+          "type": "select",
+          "placeholder": "Enter channel",
+          "required": false,
+          "options": [
+            "Blog",
+            "Social Media",
+            "Email",
+            "Video",
+            "Paid Search",
+            "Paid Social",
+            "SEO",
+            "Events",
+            "PR"
+          ]
+        },
+        {
+          "id": "help_documentation_logo_correct",
+          "label": "Help Documentation - Logo Correct",
+          "type": "text",
+          "placeholder": "Enter logo correct",
+          "required": false
+        },
+        {
+          "id": "help_documentation_colours_correct",
+          "label": "Help Documentation - Colours Correct",
+          "type": "text",
+          "placeholder": "Enter colours correct",
+          "required": false
+        },
+        {
+          "id": "help_documentation_typography_correct",
+          "label": "Help Documentation - Typography Correct",
+          "type": "text",
+          "placeholder": "Enter typography correct",
+          "required": false
+        },
+        {
+          "id": "help_documentation_tone_correct",
+          "label": "Help Documentation - Tone Correct",
+          "type": "text",
+          "placeholder": "Enter tone correct",
+          "required": false
+        },
+        {
+          "id": "help_documentation_overall_score",
+          "label": "Help Documentation - Overall Score",
+          "type": "scale",
+          "placeholder": "Enter overall score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "help_documentation_notes",
+          "label": "Help Documentation - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "onboarding_flow_channel",
+          "label": "Onboarding Flow - Channel",
+          "type": "select",
+          "placeholder": "Enter channel",
+          "required": false,
+          "options": [
+            "Blog",
+            "Social Media",
+            "Email",
+            "Video",
+            "Paid Search",
+            "Paid Social",
+            "SEO",
+            "Events",
+            "PR"
+          ]
+        },
+        {
+          "id": "onboarding_flow_logo_correct",
+          "label": "Onboarding Flow - Logo Correct",
+          "type": "text",
+          "placeholder": "Enter logo correct",
+          "required": false
+        },
+        {
+          "id": "onboarding_flow_colours_correct",
+          "label": "Onboarding Flow - Colours Correct",
+          "type": "text",
+          "placeholder": "Enter colours correct",
+          "required": false
+        },
+        {
+          "id": "onboarding_flow_typography_correct",
+          "label": "Onboarding Flow - Typography Correct",
+          "type": "text",
+          "placeholder": "Enter typography correct",
+          "required": false
+        },
+        {
+          "id": "onboarding_flow_tone_correct",
+          "label": "Onboarding Flow - Tone Correct",
+          "type": "text",
+          "placeholder": "Enter tone correct",
+          "required": false
+        },
+        {
+          "id": "onboarding_flow_overall_score",
+          "label": "Onboarding Flow - Overall Score",
+          "type": "scale",
+          "placeholder": "Enter overall score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "onboarding_flow_notes",
+          "label": "Onboarding Flow - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "advertising_digital_channel",
+          "label": "Advertising (Digital) - Channel",
+          "type": "select",
+          "placeholder": "Enter channel",
+          "required": false,
+          "options": [
+            "Blog",
+            "Social Media",
+            "Email",
+            "Video",
+            "Paid Search",
+            "Paid Social",
+            "SEO",
+            "Events",
+            "PR"
+          ]
+        },
+        {
+          "id": "advertising_digital_logo_correct",
+          "label": "Advertising (Digital) - Logo Correct",
+          "type": "text",
+          "placeholder": "Enter logo correct",
+          "required": false
+        },
+        {
+          "id": "advertising_digital_colours_correct",
+          "label": "Advertising (Digital) - Colours Correct",
+          "type": "text",
+          "placeholder": "Enter colours correct",
+          "required": false
+        },
+        {
+          "id": "advertising_digital_typography_correct",
+          "label": "Advertising (Digital) - Typography Correct",
+          "type": "text",
+          "placeholder": "Enter typography correct",
+          "required": false
+        },
+        {
+          "id": "advertising_digital_tone_correct",
+          "label": "Advertising (Digital) - Tone Correct",
+          "type": "text",
+          "placeholder": "Enter tone correct",
+          "required": false
+        },
+        {
+          "id": "advertising_digital_overall_score",
+          "label": "Advertising (Digital) - Overall Score",
+          "type": "scale",
+          "placeholder": "Enter overall score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "advertising_digital_notes",
+          "label": "Advertising (Digital) - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "trade_show_booth_channel",
+          "label": "Trade Show Booth - Channel",
+          "type": "select",
+          "placeholder": "Enter channel",
+          "required": false,
+          "options": [
+            "Blog",
+            "Social Media",
+            "Email",
+            "Video",
+            "Paid Search",
+            "Paid Social",
+            "SEO",
+            "Events",
+            "PR"
+          ]
+        },
+        {
+          "id": "trade_show_booth_logo_correct",
+          "label": "Trade Show Booth - Logo Correct",
+          "type": "text",
+          "placeholder": "Enter logo correct",
+          "required": false
+        },
+        {
+          "id": "trade_show_booth_colours_correct",
+          "label": "Trade Show Booth - Colours Correct",
+          "type": "text",
+          "placeholder": "Enter colours correct",
+          "required": false
+        },
+        {
+          "id": "trade_show_booth_typography_correct",
+          "label": "Trade Show Booth - Typography Correct",
+          "type": "text",
+          "placeholder": "Enter typography correct",
+          "required": false
+        },
+        {
+          "id": "trade_show_booth_tone_correct",
+          "label": "Trade Show Booth - Tone Correct",
+          "type": "text",
+          "placeholder": "Enter tone correct",
+          "required": false
+        },
+        {
+          "id": "trade_show_booth_overall_score",
+          "label": "Trade Show Booth - Overall Score",
+          "type": "scale",
+          "placeholder": "Enter overall score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "trade_show_booth_notes",
+          "label": "Trade Show Booth - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "compliance_tracker",
+      "title": "Compliance Tracker",
+      "description": "Add entries below. Each entry has the following fields.",
+      "fields": [
+        {
+          "id": "entry_date_reported",
+          "label": "Date Reported",
+          "type": "text",
+          "placeholder": "Enter date reported",
+          "required": false
+        },
+        {
+          "id": "entry_violation",
+          "label": "Violation",
+          "type": "text",
+          "placeholder": "Enter violation",
+          "required": false
+        },
+        {
+          "id": "entry_touchpoint",
+          "label": "Touchpoint",
+          "type": "text",
+          "placeholder": "Enter touchpoint",
+          "required": false
+        },
+        {
+          "id": "entry_category",
+          "label": "Category",
+          "type": "text",
+          "placeholder": "Enter category",
+          "required": false
+        },
+        {
+          "id": "entry_severity",
+          "label": "Severity",
+          "type": "text",
+          "placeholder": "Enter severity",
+          "required": false
+        },
+        {
+          "id": "entry_reporter",
+          "label": "Reporter",
+          "type": "text",
+          "placeholder": "Enter reporter",
+          "required": false
+        },
+        {
+          "id": "entry_status",
+          "label": "Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "entry_resolution",
+          "label": "Resolution",
+          "type": "text",
+          "placeholder": "Enter resolution",
+          "required": false
+        },
+        {
+          "id": "entry_resolved_date",
+          "label": "Resolved Date",
+          "type": "text",
+          "placeholder": "Enter resolved date",
+          "required": false
+        }
+      ]
+    }
+  ]
 }

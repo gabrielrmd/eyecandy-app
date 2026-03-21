@@ -11,743 +11,6 @@
     "channels"
   ],
   "estimatedTime": "50 min",
-  "sections": [
-    {
-      "id": "dashboard",
-      "title": "Dashboard",
-      "description": "Complete the Dashboard section",
-      "fields": [
-        {
-          "id": "200_0",
-          "label": "200",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "outreach_status_1",
-          "label": "OUTREACH STATUS",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "pitched_2",
-          "label": "Pitched",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "follow_up_sent_3",
-          "label": "Follow-up Sent",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "in_discussion_4",
-          "label": "In Discussion",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "declined_5",
-          "label": "Declined",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "published_6",
-          "label": "Published",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "no_response_7",
-          "label": "No Response",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "coverage_by_type_8",
-          "label": "COVERAGE BY TYPE",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "online_article_9",
-          "label": "Online Article",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "print_article_10",
-          "label": "Print Article",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "podcast_11",
-          "label": "Podcast",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "tv_segment_12",
-          "label": "TV Segment",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "radio_13",
-          "label": "Radio",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "social_media_14",
-          "label": "Social Media",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "newsletter_15",
-          "label": "Newsletter",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "blog_post_16",
-          "label": "Blog Post",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "coverage_sentiment_17",
-          "label": "COVERAGE SENTIMENT",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "positive_18",
-          "label": "Positive",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "neutral_19",
-          "label": "Neutral",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "negative_20",
-          "label": "Negative",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "mixed_21",
-          "label": "Mixed",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "press_releases_22",
-          "label": "PRESS RELEASES",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "draft_23",
-          "label": "Draft",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "review_24",
-          "label": "Review",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "approved_25",
-          "label": "Approved",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "distributed_26",
-          "label": "Distributed",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "published_27",
-          "label": "Published",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "media_contacts",
-      "title": "Media Contacts",
-      "description": "Complete the Media Contacts section",
-      "fields": [
-        {
-          "id": "saas_startups_0",
-          "label": "SaaS & Startups",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "marketing_brand_strategy_1",
-          "label": "Marketing & Brand Strategy",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "digital_marketing_2",
-          "label": "Digital Marketing",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "advertising_creative_3",
-          "label": "Advertising & Creative",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "leadership_strategy_4",
-          "label": "Leadership & Strategy",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "digital_advertising_5",
-          "label": "Digital Advertising",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "business_innovation_6",
-          "label": "Business & Innovation",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "martech_7",
-          "label": "MarTech",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "social_media_marketing_8",
-          "label": "Social Media Marketing",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "business_tech_9",
-          "label": "Business & Tech",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "story_angles",
-      "title": "Story Angles",
-      "description": "Complete the Story Angles section",
-      "fields": [
-        {
-          "id": "how_privacy_changes_are_forcing_marketer_0",
-          "label": "How privacy changes are forcing marketers to rethink targeting. Our data shows 60% of SMBs are unprepared for the cookieless future. We offer expert commentary + proprietary survey data.",
-          "type": "textarea",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "original_research_from_500_marketing_lea_1",
-          "label": "Original research from 500+ marketing leaders reveals massive inefficiency. We break down where the waste happens and what top performers do differently.",
-          "type": "textarea",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "company_hit_10m_arr_milestone_founder_in_2",
-          "label": "Company hit $10M ARR milestone. Founder interview angle: lessons from bootstrapping in a competitive market without VC funding.",
-          "type": "textarea",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "our_ceo_cuts_through_the_noise_with_a_pr_3",
-          "label": "Our CEO cuts through the noise with a practical framework for evaluating AI marketing tools. Based on testing 30+ tools with real client campaigns.",
-          "type": "textarea",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "case_study_small_ngo_used_our_framework__4",
-          "label": "Case study: small NGO used our framework to redesign their digital strategy. Result: 3x donations in 6 months with zero additional budget.",
-          "type": "textarea",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "average_marketing_team_uses_12_tools_but_5",
-          "label": "Average marketing team uses 12+ tools but only actively uses 5. We analyse the cost of tool sprawl and propose a consolidation framework.",
-          "type": "textarea",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "practical_guide_to_authentic_sustainabil_6",
-          "label": "Practical guide to authentic sustainability marketing. Based on our work with NGOs and B-Corps. Includes framework for avoiding greenwashing traps.",
-          "type": "textarea",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "bridge_the_gap_between_marketing_metrics_7",
-          "label": "Bridge the gap between marketing metrics and boardroom language. Translating CAC, CLV, and attribution into terms executives understand.",
-          "type": "textarea",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "press_release_planner",
-      "title": "Press Release Planner",
-      "description": "Complete the Press Release Planner section",
-      "fields": [
-        {
-          "id": "company_reaches_10m_arr_milestone_0",
-          "label": "Company Reaches $10M ARR Milestone",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "new_ai_marketing_framework_released_1",
-          "label": "New AI Marketing Framework Released",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "annual_marketing_efficiency_report_2",
-          "label": "Annual Marketing Efficiency Report",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "partnership_with_industry_association_3",
-          "label": "Partnership with Industry Association",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "sustainability_commitment_announcement_4",
-          "label": "Sustainability Commitment Announcement",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "outreach_tracker",
-      "title": "Outreach Tracker",
-      "description": "Complete the Outreach Tracker section",
-      "fields": [
-        {
-          "id": "the_death_of_cookie_based_marketing_0",
-          "label": "The Death of Cookie-Based Marketing",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "the_death_of_cookie_based_marketing_1",
-          "label": "The Death of Cookie-Based Marketing",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "5_marketing_metrics_your_ceo_cares_about_2",
-          "label": "5 Marketing Metrics Your CEO Cares About",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "ai_in_marketing_hype_vs_reality_3",
-          "label": "AI in Marketing: Hype vs Reality",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "why_73_of_marketing_budgets_are_wasted_4",
-          "label": "Why 73% of Marketing Budgets Are Wasted",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "sustainability_marketing_5",
-          "label": "Sustainability Marketing",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "ai_in_marketing_hype_vs_reality_6",
-          "label": "AI in Marketing: Hype vs Reality",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "from_startup_to_scale_our_growth_story_7",
-          "label": "From Startup to Scale: Our Growth Story",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "coverage_log",
-      "title": "Coverage Log",
-      "description": "Complete the Coverage Log section",
-      "fields": [
-        {
-          "id": "ai_marketing_what_actually_works_in_2026_0",
-          "label": "AI Marketing: What Actually Works in 2026",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "cookie_apocalypse_are_smbs_ready_1",
-          "label": "Cookie Apocalypse: Are SMBs Ready?",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "marketing_tool_consolidation_trend_2",
-          "label": "Marketing Tool Consolidation Trend",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "5_metrics_that_matter_to_the_c_suite_3",
-          "label": "5 Metrics That Matter to the C-Suite",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "sustainability_in_marketing_roundup_4",
-          "label": "Sustainability in Marketing Roundup",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "pr_calendar",
-      "title": "PR Calendar",
-      "description": "Complete the PR Calendar section",
-      "fields": [
-        {
-          "id": "cookie_marketing_pitch_wave_0",
-          "label": "Cookie Marketing Pitch Wave",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "partnership_announcement_1",
-          "label": "Partnership Announcement",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "10m_arr_milestone_2",
-          "label": "$10M ARR Milestone",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "earth_day_sustainability_op_ed_3",
-          "label": "Earth Day — Sustainability Op-Ed",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "new_product_launch_4",
-          "label": "New Product Launch",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "web_summit_application_5",
-          "label": "Web Summit Application",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "annual_marketing_report_6",
-          "label": "Annual Marketing Report",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "cannes_lions_7",
-          "label": "Cannes Lions",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "q2_results_roundup_8",
-          "label": "Q2 Results Roundup",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "back_to_school_campaign_9",
-          "label": "Back to School Campaign",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "marketing_effectiveness_awards_10",
-          "label": "Marketing Effectiveness Awards",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "q3_thought_leadership_push_11",
-          "label": "Q3 Thought Leadership Push",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "crisis_communications",
-      "title": "Crisis Communications",
-      "description": "Complete the Crisis Communications section",
-      "fields": [
-        {
-          "id": "we_are_experiencing_a_service_disruption_0",
-          "label": "We are experiencing a service disruption and our team is working urgently to resolve it. We apologise for the inconvenience and will provide regular updates until service is fully restored.",
-          "type": "textarea",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "we_take_all_feedback_seriously_and_are_r_1",
-          "label": "We take all feedback seriously and are reviewing the concerns raised. We are committed to transparency and will address this directly once we have all the facts.",
-          "type": "textarea",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "we_have_been_made_aware_of_allegations_r_2",
-          "label": "We have been made aware of allegations regarding employee conduct. We take these matters extremely seriously and are conducting a thorough investigation in line with our values and policies.",
-          "type": "textarea",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "we_are_making_difficult_but_necessary_ch_3",
-          "label": "We are making difficult but necessary changes to ensure the long-term health of our business. We are supporting affected team members with severance, career support, and outplacement services.",
-          "type": "textarea",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "we_are_cooperating_fully_with_regulatory_4",
-          "label": "We are cooperating fully with [regulatory body] and are committed to meeting all compliance requirements. We have engaged external counsel to guide our response.",
-          "type": "textarea",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "the_safety_of_our_customers_is_our_absol_5",
-          "label": "The safety of our customers is our absolute priority. We are investigating this incident thoroughly and have taken immediate steps to [specific action].",
-          "type": "textarea",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "we_are_aware_of_the_conversation_happeni_6",
-          "label": "We are aware of the conversation happening online and want to address it directly and transparently. We value our community and take these concerns seriously.",
-          "type": "textarea",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "acknowledge_the_issue_internally_within__7",
-          "label": "Acknowledge the issue internally within 1 hour",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "assemble_crisis_response_team_ceo_legal__8",
-          "label": "Assemble crisis response team (CEO, Legal, PR, relevant department head)",
-          "type": "textarea",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "gather_facts_what_happened_who_is_affect_9",
-          "label": "Gather facts — what happened, who is affected, what is the current status",
-          "type": "textarea",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "draft_initial_holding_statement_for_exte_10",
-          "label": "Draft initial holding statement for external communications",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "get_legal_review_of_all_external_communi_11",
-          "label": "Get legal review of all external communications before release",
-          "type": "textarea",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "issue_holding_statement_to_media_within__12",
-          "label": "Issue holding statement to media within 4 hours of discovery",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "notify_affected_customers_directly_email_13",
-          "label": "Notify affected customers directly (email, phone) before public statement",
-          "type": "textarea",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "set_up_monitoring_for_social_media_menti_14",
-          "label": "Set up monitoring for social media mentions and press coverage",
-          "type": "textarea",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "schedule_regular_internal_updates_every__15",
-          "label": "Schedule regular internal updates (every 2-4 hours during active crisis)",
-          "type": "textarea",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "designate_single_spokesperson_all_media__16",
-          "label": "Designate single spokesperson — all media inquiries go through one person",
-          "type": "textarea",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "prepare_faq_document_for_customer_facing_17",
-          "label": "Prepare FAQ document for customer-facing teams",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "document_everything_decisions_timelines__18",
-          "label": "Document everything — decisions, timelines, communications sent",
-          "type": "textarea",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "plan_follow_up_communication_with_update_19",
-          "label": "Plan follow-up communication with updated facts within 24 hours",
-          "type": "textarea",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "schedule_post_crisis_review_meeting_with_20",
-          "label": "Schedule post-crisis review meeting within 1 week of resolution",
-          "type": "textarea",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    }
-  ],
   "dashboard": {
     "metrics": [
       {
@@ -756,5 +19,3186 @@
         "format": "number"
       }
     ]
-  }
+  },
+  "sections": [
+    {
+      "id": "dashboard",
+      "title": "Dashboard",
+      "description": "Auto-calculated summary of your data. Complete the working sections to see results here.",
+      "readOnly": true,
+      "fields": [
+        {
+          "id": "dashboard_overview",
+          "label": "Dashboard Overview",
+          "type": "textarea",
+          "placeholder": "Dashboard metrics will be calculated from your inputs in the working sections",
+          "required": false,
+          "readOnly": true
+        }
+      ]
+    },
+    {
+      "id": "media_contacts",
+      "title": "Media Contacts",
+      "description": "Enter data for each item",
+      "fields": [
+        {
+          "id": "sarah_mitchell_title",
+          "label": "Sarah Mitchell - Title",
+          "type": "text",
+          "placeholder": "Enter title",
+          "required": false
+        },
+        {
+          "id": "sarah_mitchell_outlet",
+          "label": "Sarah Mitchell - Outlet",
+          "type": "text",
+          "placeholder": "Enter outlet",
+          "required": false
+        },
+        {
+          "id": "sarah_mitchell_beat_topic",
+          "label": "Sarah Mitchell - Beat / Topic",
+          "type": "text",
+          "placeholder": "Enter beat / topic",
+          "required": false
+        },
+        {
+          "id": "sarah_mitchell_contact_type",
+          "label": "Sarah Mitchell - Contact Type",
+          "type": "text",
+          "placeholder": "Enter contact type",
+          "required": false
+        },
+        {
+          "id": "sarah_mitchell_email_handle",
+          "label": "Sarah Mitchell - Email / Handle",
+          "type": "text",
+          "placeholder": "Enter email / handle",
+          "required": false
+        },
+        {
+          "id": "sarah_mitchell_relationship",
+          "label": "Sarah Mitchell - Relationship",
+          "type": "text",
+          "placeholder": "Enter relationship",
+          "required": false
+        },
+        {
+          "id": "sarah_mitchell_last_contact",
+          "label": "Sarah Mitchell - Last Contact",
+          "type": "text",
+          "placeholder": "Enter last contact",
+          "required": false
+        },
+        {
+          "id": "sarah_mitchell_notes",
+          "label": "Sarah Mitchell - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "james_obrien_title",
+          "label": "James O'Brien - Title",
+          "type": "text",
+          "placeholder": "Enter title",
+          "required": false
+        },
+        {
+          "id": "james_obrien_outlet",
+          "label": "James O'Brien - Outlet",
+          "type": "text",
+          "placeholder": "Enter outlet",
+          "required": false
+        },
+        {
+          "id": "james_obrien_beat_topic",
+          "label": "James O'Brien - Beat / Topic",
+          "type": "text",
+          "placeholder": "Enter beat / topic",
+          "required": false
+        },
+        {
+          "id": "james_obrien_contact_type",
+          "label": "James O'Brien - Contact Type",
+          "type": "text",
+          "placeholder": "Enter contact type",
+          "required": false
+        },
+        {
+          "id": "james_obrien_email_handle",
+          "label": "James O'Brien - Email / Handle",
+          "type": "text",
+          "placeholder": "Enter email / handle",
+          "required": false
+        },
+        {
+          "id": "james_obrien_relationship",
+          "label": "James O'Brien - Relationship",
+          "type": "text",
+          "placeholder": "Enter relationship",
+          "required": false
+        },
+        {
+          "id": "james_obrien_last_contact",
+          "label": "James O'Brien - Last Contact",
+          "type": "text",
+          "placeholder": "Enter last contact",
+          "required": false
+        },
+        {
+          "id": "james_obrien_notes",
+          "label": "James O'Brien - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "ana_petrova_title",
+          "label": "Ana Petrova - Title",
+          "type": "text",
+          "placeholder": "Enter title",
+          "required": false
+        },
+        {
+          "id": "ana_petrova_outlet",
+          "label": "Ana Petrova - Outlet",
+          "type": "text",
+          "placeholder": "Enter outlet",
+          "required": false
+        },
+        {
+          "id": "ana_petrova_beat_topic",
+          "label": "Ana Petrova - Beat / Topic",
+          "type": "text",
+          "placeholder": "Enter beat / topic",
+          "required": false
+        },
+        {
+          "id": "ana_petrova_contact_type",
+          "label": "Ana Petrova - Contact Type",
+          "type": "text",
+          "placeholder": "Enter contact type",
+          "required": false
+        },
+        {
+          "id": "ana_petrova_email_handle",
+          "label": "Ana Petrova - Email / Handle",
+          "type": "text",
+          "placeholder": "Enter email / handle",
+          "required": false
+        },
+        {
+          "id": "ana_petrova_relationship",
+          "label": "Ana Petrova - Relationship",
+          "type": "text",
+          "placeholder": "Enter relationship",
+          "required": false
+        },
+        {
+          "id": "ana_petrova_last_contact",
+          "label": "Ana Petrova - Last Contact",
+          "type": "text",
+          "placeholder": "Enter last contact",
+          "required": false
+        },
+        {
+          "id": "ana_petrova_notes",
+          "label": "Ana Petrova - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "david_kim_title",
+          "label": "David Kim - Title",
+          "type": "text",
+          "placeholder": "Enter title",
+          "required": false
+        },
+        {
+          "id": "david_kim_outlet",
+          "label": "David Kim - Outlet",
+          "type": "text",
+          "placeholder": "Enter outlet",
+          "required": false
+        },
+        {
+          "id": "david_kim_beat_topic",
+          "label": "David Kim - Beat / Topic",
+          "type": "text",
+          "placeholder": "Enter beat / topic",
+          "required": false
+        },
+        {
+          "id": "david_kim_contact_type",
+          "label": "David Kim - Contact Type",
+          "type": "text",
+          "placeholder": "Enter contact type",
+          "required": false
+        },
+        {
+          "id": "david_kim_email_handle",
+          "label": "David Kim - Email / Handle",
+          "type": "text",
+          "placeholder": "Enter email / handle",
+          "required": false
+        },
+        {
+          "id": "david_kim_relationship",
+          "label": "David Kim - Relationship",
+          "type": "text",
+          "placeholder": "Enter relationship",
+          "required": false
+        },
+        {
+          "id": "david_kim_last_contact",
+          "label": "David Kim - Last Contact",
+          "type": "text",
+          "placeholder": "Enter last contact",
+          "required": false
+        },
+        {
+          "id": "david_kim_notes",
+          "label": "David Kim - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "lisa_chen_title",
+          "label": "Lisa Chen - Title",
+          "type": "text",
+          "placeholder": "Enter title",
+          "required": false
+        },
+        {
+          "id": "lisa_chen_outlet",
+          "label": "Lisa Chen - Outlet",
+          "type": "text",
+          "placeholder": "Enter outlet",
+          "required": false
+        },
+        {
+          "id": "lisa_chen_beat_topic",
+          "label": "Lisa Chen - Beat / Topic",
+          "type": "text",
+          "placeholder": "Enter beat / topic",
+          "required": false
+        },
+        {
+          "id": "lisa_chen_contact_type",
+          "label": "Lisa Chen - Contact Type",
+          "type": "text",
+          "placeholder": "Enter contact type",
+          "required": false
+        },
+        {
+          "id": "lisa_chen_email_handle",
+          "label": "Lisa Chen - Email / Handle",
+          "type": "text",
+          "placeholder": "Enter email / handle",
+          "required": false
+        },
+        {
+          "id": "lisa_chen_relationship",
+          "label": "Lisa Chen - Relationship",
+          "type": "text",
+          "placeholder": "Enter relationship",
+          "required": false
+        },
+        {
+          "id": "lisa_chen_last_contact",
+          "label": "Lisa Chen - Last Contact",
+          "type": "text",
+          "placeholder": "Enter last contact",
+          "required": false
+        },
+        {
+          "id": "lisa_chen_notes",
+          "label": "Lisa Chen - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "mark_thompson_title",
+          "label": "Mark Thompson - Title",
+          "type": "text",
+          "placeholder": "Enter title",
+          "required": false
+        },
+        {
+          "id": "mark_thompson_outlet",
+          "label": "Mark Thompson - Outlet",
+          "type": "text",
+          "placeholder": "Enter outlet",
+          "required": false
+        },
+        {
+          "id": "mark_thompson_beat_topic",
+          "label": "Mark Thompson - Beat / Topic",
+          "type": "text",
+          "placeholder": "Enter beat / topic",
+          "required": false
+        },
+        {
+          "id": "mark_thompson_contact_type",
+          "label": "Mark Thompson - Contact Type",
+          "type": "text",
+          "placeholder": "Enter contact type",
+          "required": false
+        },
+        {
+          "id": "mark_thompson_email_handle",
+          "label": "Mark Thompson - Email / Handle",
+          "type": "text",
+          "placeholder": "Enter email / handle",
+          "required": false
+        },
+        {
+          "id": "mark_thompson_relationship",
+          "label": "Mark Thompson - Relationship",
+          "type": "text",
+          "placeholder": "Enter relationship",
+          "required": false
+        },
+        {
+          "id": "mark_thompson_last_contact",
+          "label": "Mark Thompson - Last Contact",
+          "type": "text",
+          "placeholder": "Enter last contact",
+          "required": false
+        },
+        {
+          "id": "mark_thompson_notes",
+          "label": "Mark Thompson - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "rachel_adams_title",
+          "label": "Rachel Adams - Title",
+          "type": "text",
+          "placeholder": "Enter title",
+          "required": false
+        },
+        {
+          "id": "rachel_adams_outlet",
+          "label": "Rachel Adams - Outlet",
+          "type": "text",
+          "placeholder": "Enter outlet",
+          "required": false
+        },
+        {
+          "id": "rachel_adams_beat_topic",
+          "label": "Rachel Adams - Beat / Topic",
+          "type": "text",
+          "placeholder": "Enter beat / topic",
+          "required": false
+        },
+        {
+          "id": "rachel_adams_contact_type",
+          "label": "Rachel Adams - Contact Type",
+          "type": "text",
+          "placeholder": "Enter contact type",
+          "required": false
+        },
+        {
+          "id": "rachel_adams_email_handle",
+          "label": "Rachel Adams - Email / Handle",
+          "type": "text",
+          "placeholder": "Enter email / handle",
+          "required": false
+        },
+        {
+          "id": "rachel_adams_relationship",
+          "label": "Rachel Adams - Relationship",
+          "type": "text",
+          "placeholder": "Enter relationship",
+          "required": false
+        },
+        {
+          "id": "rachel_adams_last_contact",
+          "label": "Rachel Adams - Last Contact",
+          "type": "text",
+          "placeholder": "Enter last contact",
+          "required": false
+        },
+        {
+          "id": "rachel_adams_notes",
+          "label": "Rachel Adams - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "tom_silva_title",
+          "label": "Tom Silva - Title",
+          "type": "text",
+          "placeholder": "Enter title",
+          "required": false
+        },
+        {
+          "id": "tom_silva_outlet",
+          "label": "Tom Silva - Outlet",
+          "type": "text",
+          "placeholder": "Enter outlet",
+          "required": false
+        },
+        {
+          "id": "tom_silva_beat_topic",
+          "label": "Tom Silva - Beat / Topic",
+          "type": "text",
+          "placeholder": "Enter beat / topic",
+          "required": false
+        },
+        {
+          "id": "tom_silva_contact_type",
+          "label": "Tom Silva - Contact Type",
+          "type": "text",
+          "placeholder": "Enter contact type",
+          "required": false
+        },
+        {
+          "id": "tom_silva_email_handle",
+          "label": "Tom Silva - Email / Handle",
+          "type": "text",
+          "placeholder": "Enter email / handle",
+          "required": false
+        },
+        {
+          "id": "tom_silva_relationship",
+          "label": "Tom Silva - Relationship",
+          "type": "text",
+          "placeholder": "Enter relationship",
+          "required": false
+        },
+        {
+          "id": "tom_silva_last_contact",
+          "label": "Tom Silva - Last Contact",
+          "type": "text",
+          "placeholder": "Enter last contact",
+          "required": false
+        },
+        {
+          "id": "tom_silva_notes",
+          "label": "Tom Silva - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "emily_watson_title",
+          "label": "Emily Watson - Title",
+          "type": "text",
+          "placeholder": "Enter title",
+          "required": false
+        },
+        {
+          "id": "emily_watson_outlet",
+          "label": "Emily Watson - Outlet",
+          "type": "text",
+          "placeholder": "Enter outlet",
+          "required": false
+        },
+        {
+          "id": "emily_watson_beat_topic",
+          "label": "Emily Watson - Beat / Topic",
+          "type": "text",
+          "placeholder": "Enter beat / topic",
+          "required": false
+        },
+        {
+          "id": "emily_watson_contact_type",
+          "label": "Emily Watson - Contact Type",
+          "type": "text",
+          "placeholder": "Enter contact type",
+          "required": false
+        },
+        {
+          "id": "emily_watson_email_handle",
+          "label": "Emily Watson - Email / Handle",
+          "type": "text",
+          "placeholder": "Enter email / handle",
+          "required": false
+        },
+        {
+          "id": "emily_watson_relationship",
+          "label": "Emily Watson - Relationship",
+          "type": "text",
+          "placeholder": "Enter relationship",
+          "required": false
+        },
+        {
+          "id": "emily_watson_last_contact",
+          "label": "Emily Watson - Last Contact",
+          "type": "text",
+          "placeholder": "Enter last contact",
+          "required": false
+        },
+        {
+          "id": "emily_watson_notes",
+          "label": "Emily Watson - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "chris_park_title",
+          "label": "Chris Park - Title",
+          "type": "text",
+          "placeholder": "Enter title",
+          "required": false
+        },
+        {
+          "id": "chris_park_outlet",
+          "label": "Chris Park - Outlet",
+          "type": "text",
+          "placeholder": "Enter outlet",
+          "required": false
+        },
+        {
+          "id": "chris_park_beat_topic",
+          "label": "Chris Park - Beat / Topic",
+          "type": "text",
+          "placeholder": "Enter beat / topic",
+          "required": false
+        },
+        {
+          "id": "chris_park_contact_type",
+          "label": "Chris Park - Contact Type",
+          "type": "text",
+          "placeholder": "Enter contact type",
+          "required": false
+        },
+        {
+          "id": "chris_park_email_handle",
+          "label": "Chris Park - Email / Handle",
+          "type": "text",
+          "placeholder": "Enter email / handle",
+          "required": false
+        },
+        {
+          "id": "chris_park_relationship",
+          "label": "Chris Park - Relationship",
+          "type": "text",
+          "placeholder": "Enter relationship",
+          "required": false
+        },
+        {
+          "id": "chris_park_last_contact",
+          "label": "Chris Park - Last Contact",
+          "type": "text",
+          "placeholder": "Enter last contact",
+          "required": false
+        },
+        {
+          "id": "chris_park_notes",
+          "label": "Chris Park - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "story_angles",
+      "title": "Story Angles",
+      "description": "Enter data for each item",
+      "fields": [
+        {
+          "id": "the_death_of_cookiebased_marketing_category",
+          "label": "The Death of Cookie-Based Marketing - Category",
+          "type": "text",
+          "placeholder": "Enter category",
+          "required": false
+        },
+        {
+          "id": "the_death_of_cookiebased_marketing_pitch_summary",
+          "label": "The Death of Cookie-Based Marketing - Pitch Summary",
+          "type": "textarea",
+          "placeholder": "Enter pitch summary",
+          "required": false
+        },
+        {
+          "id": "the_death_of_cookiebased_marketing_target_outlets",
+          "label": "The Death of Cookie-Based Marketing - Target Outlets",
+          "type": "number",
+          "placeholder": "Enter target outlets",
+          "required": false
+        },
+        {
+          "id": "the_death_of_cookiebased_marketing_status",
+          "label": "The Death of Cookie-Based Marketing - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "the_death_of_cookiebased_marketing_notes",
+          "label": "The Death of Cookie-Based Marketing - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "why_73_of_marketing_budgets_are_wasted_category",
+          "label": "Why 73% of Marketing Budgets Are Wasted - Category",
+          "type": "text",
+          "placeholder": "Enter category",
+          "required": false
+        },
+        {
+          "id": "why_73_of_marketing_budgets_are_wasted_pitch_summary",
+          "label": "Why 73% of Marketing Budgets Are Wasted - Pitch Summary",
+          "type": "textarea",
+          "placeholder": "Enter pitch summary",
+          "required": false
+        },
+        {
+          "id": "why_73_of_marketing_budgets_are_wasted_target_outlets",
+          "label": "Why 73% of Marketing Budgets Are Wasted - Target Outlets",
+          "type": "number",
+          "placeholder": "Enter target outlets",
+          "required": false
+        },
+        {
+          "id": "why_73_of_marketing_budgets_are_wasted_status",
+          "label": "Why 73% of Marketing Budgets Are Wasted - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "why_73_of_marketing_budgets_are_wasted_notes",
+          "label": "Why 73% of Marketing Budgets Are Wasted - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "from_startup_to_scale_our_growth_story_category",
+          "label": "From Startup to Scale: Our Growth Story - Category",
+          "type": "text",
+          "placeholder": "Enter category",
+          "required": false
+        },
+        {
+          "id": "from_startup_to_scale_our_growth_story_pitch_summary",
+          "label": "From Startup to Scale: Our Growth Story - Pitch Summary",
+          "type": "textarea",
+          "placeholder": "Enter pitch summary",
+          "required": false
+        },
+        {
+          "id": "from_startup_to_scale_our_growth_story_target_outlets",
+          "label": "From Startup to Scale: Our Growth Story - Target Outlets",
+          "type": "number",
+          "placeholder": "Enter target outlets",
+          "required": false
+        },
+        {
+          "id": "from_startup_to_scale_our_growth_story_status",
+          "label": "From Startup to Scale: Our Growth Story - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "from_startup_to_scale_our_growth_story_notes",
+          "label": "From Startup to Scale: Our Growth Story - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "ai_in_marketing_hype_vs_reality_category",
+          "label": "AI in Marketing: Hype vs Reality - Category",
+          "type": "text",
+          "placeholder": "Enter category",
+          "required": false
+        },
+        {
+          "id": "ai_in_marketing_hype_vs_reality_pitch_summary",
+          "label": "AI in Marketing: Hype vs Reality - Pitch Summary",
+          "type": "textarea",
+          "placeholder": "Enter pitch summary",
+          "required": false
+        },
+        {
+          "id": "ai_in_marketing_hype_vs_reality_target_outlets",
+          "label": "AI in Marketing: Hype vs Reality - Target Outlets",
+          "type": "number",
+          "placeholder": "Enter target outlets",
+          "required": false
+        },
+        {
+          "id": "ai_in_marketing_hype_vs_reality_status",
+          "label": "AI in Marketing: Hype vs Reality - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "ai_in_marketing_hype_vs_reality_notes",
+          "label": "AI in Marketing: Hype vs Reality - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "how_one_ngo_tripled_donations_with_digital_category",
+          "label": "How One NGO Tripled Donations with Digital - Category",
+          "type": "text",
+          "placeholder": "Enter category",
+          "required": false
+        },
+        {
+          "id": "how_one_ngo_tripled_donations_with_digital_pitch_summary",
+          "label": "How One NGO Tripled Donations with Digital - Pitch Summary",
+          "type": "textarea",
+          "placeholder": "Enter pitch summary",
+          "required": false
+        },
+        {
+          "id": "how_one_ngo_tripled_donations_with_digital_target_outlets",
+          "label": "How One NGO Tripled Donations with Digital - Target Outlets",
+          "type": "number",
+          "placeholder": "Enter target outlets",
+          "required": false
+        },
+        {
+          "id": "how_one_ngo_tripled_donations_with_digital_status",
+          "label": "How One NGO Tripled Donations with Digital - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "how_one_ngo_tripled_donations_with_digital_notes",
+          "label": "How One NGO Tripled Donations with Digital - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "the_hidden_cost_of_marketing_tool_sprawl_category",
+          "label": "The Hidden Cost of Marketing Tool Sprawl - Category",
+          "type": "text",
+          "placeholder": "Enter category",
+          "required": false
+        },
+        {
+          "id": "the_hidden_cost_of_marketing_tool_sprawl_pitch_summary",
+          "label": "The Hidden Cost of Marketing Tool Sprawl - Pitch Summary",
+          "type": "textarea",
+          "placeholder": "Enter pitch summary",
+          "required": false
+        },
+        {
+          "id": "the_hidden_cost_of_marketing_tool_sprawl_target_outlets",
+          "label": "The Hidden Cost of Marketing Tool Sprawl - Target Outlets",
+          "type": "number",
+          "placeholder": "Enter target outlets",
+          "required": false
+        },
+        {
+          "id": "the_hidden_cost_of_marketing_tool_sprawl_status",
+          "label": "The Hidden Cost of Marketing Tool Sprawl - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "the_hidden_cost_of_marketing_tool_sprawl_notes",
+          "label": "The Hidden Cost of Marketing Tool Sprawl - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "sustainability_marketing_beyond_greenwashing_category",
+          "label": "Sustainability Marketing: Beyond Greenwashing - Category",
+          "type": "text",
+          "placeholder": "Enter category",
+          "required": false
+        },
+        {
+          "id": "sustainability_marketing_beyond_greenwashing_pitch_summary",
+          "label": "Sustainability Marketing: Beyond Greenwashing - Pitch Summary",
+          "type": "textarea",
+          "placeholder": "Enter pitch summary",
+          "required": false
+        },
+        {
+          "id": "sustainability_marketing_beyond_greenwashing_target_outlets",
+          "label": "Sustainability Marketing: Beyond Greenwashing - Target Outlets",
+          "type": "number",
+          "placeholder": "Enter target outlets",
+          "required": false
+        },
+        {
+          "id": "sustainability_marketing_beyond_greenwashing_status",
+          "label": "Sustainability Marketing: Beyond Greenwashing - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "sustainability_marketing_beyond_greenwashing_notes",
+          "label": "Sustainability Marketing: Beyond Greenwashing - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "5_marketing_metrics_your_ceo_actually_cares_about_category",
+          "label": "5 Marketing Metrics Your CEO Actually Cares About - Category",
+          "type": "text",
+          "placeholder": "Enter category",
+          "required": false
+        },
+        {
+          "id": "5_marketing_metrics_your_ceo_actually_cares_about_pitch_summary",
+          "label": "5 Marketing Metrics Your CEO Actually Cares About - Pitch Summary",
+          "type": "textarea",
+          "placeholder": "Enter pitch summary",
+          "required": false
+        },
+        {
+          "id": "5_marketing_metrics_your_ceo_actually_cares_about_target_outlets",
+          "label": "5 Marketing Metrics Your CEO Actually Cares About - Target Outlets",
+          "type": "number",
+          "placeholder": "Enter target outlets",
+          "required": false
+        },
+        {
+          "id": "5_marketing_metrics_your_ceo_actually_cares_about_status",
+          "label": "5 Marketing Metrics Your CEO Actually Cares About - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "5_marketing_metrics_your_ceo_actually_cares_about_notes",
+          "label": "5 Marketing Metrics Your CEO Actually Cares About - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "press_release_planner",
+      "title": "Press Release Planner",
+      "description": "Enter data for each item",
+      "fields": [
+        {
+          "id": "company_reaches_10m_arr_milestone_category",
+          "label": "Company Reaches $10M ARR Milestone - Category",
+          "type": "text",
+          "placeholder": "Enter category",
+          "required": false
+        },
+        {
+          "id": "company_reaches_10m_arr_milestone_target_date",
+          "label": "Company Reaches $10M ARR Milestone - Target Date",
+          "type": "number",
+          "placeholder": "Enter target date",
+          "required": false
+        },
+        {
+          "id": "company_reaches_10m_arr_milestone_embargo",
+          "label": "Company Reaches $10M ARR Milestone - Embargo",
+          "type": "text",
+          "placeholder": "Enter embargo",
+          "required": false
+        },
+        {
+          "id": "company_reaches_10m_arr_milestone_status",
+          "label": "Company Reaches $10M ARR Milestone - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "company_reaches_10m_arr_milestone_approver",
+          "label": "Company Reaches $10M ARR Milestone - Approver",
+          "type": "text",
+          "placeholder": "Enter approver",
+          "required": false
+        },
+        {
+          "id": "company_reaches_10m_arr_milestone_distribution",
+          "label": "Company Reaches $10M ARR Milestone - Distribution",
+          "type": "text",
+          "placeholder": "Enter distribution",
+          "required": false
+        },
+        {
+          "id": "company_reaches_10m_arr_milestone_notes",
+          "label": "Company Reaches $10M ARR Milestone - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "new_ai_marketing_framework_released_category",
+          "label": "New AI Marketing Framework Released - Category",
+          "type": "text",
+          "placeholder": "Enter category",
+          "required": false
+        },
+        {
+          "id": "new_ai_marketing_framework_released_target_date",
+          "label": "New AI Marketing Framework Released - Target Date",
+          "type": "number",
+          "placeholder": "Enter target date",
+          "required": false
+        },
+        {
+          "id": "new_ai_marketing_framework_released_embargo",
+          "label": "New AI Marketing Framework Released - Embargo",
+          "type": "text",
+          "placeholder": "Enter embargo",
+          "required": false
+        },
+        {
+          "id": "new_ai_marketing_framework_released_status",
+          "label": "New AI Marketing Framework Released - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "new_ai_marketing_framework_released_approver",
+          "label": "New AI Marketing Framework Released - Approver",
+          "type": "text",
+          "placeholder": "Enter approver",
+          "required": false
+        },
+        {
+          "id": "new_ai_marketing_framework_released_distribution",
+          "label": "New AI Marketing Framework Released - Distribution",
+          "type": "text",
+          "placeholder": "Enter distribution",
+          "required": false
+        },
+        {
+          "id": "new_ai_marketing_framework_released_notes",
+          "label": "New AI Marketing Framework Released - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "annual_marketing_efficiency_report_category",
+          "label": "Annual Marketing Efficiency Report - Category",
+          "type": "text",
+          "placeholder": "Enter category",
+          "required": false
+        },
+        {
+          "id": "annual_marketing_efficiency_report_target_date",
+          "label": "Annual Marketing Efficiency Report - Target Date",
+          "type": "number",
+          "placeholder": "Enter target date",
+          "required": false
+        },
+        {
+          "id": "annual_marketing_efficiency_report_embargo",
+          "label": "Annual Marketing Efficiency Report - Embargo",
+          "type": "text",
+          "placeholder": "Enter embargo",
+          "required": false
+        },
+        {
+          "id": "annual_marketing_efficiency_report_status",
+          "label": "Annual Marketing Efficiency Report - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "annual_marketing_efficiency_report_approver",
+          "label": "Annual Marketing Efficiency Report - Approver",
+          "type": "text",
+          "placeholder": "Enter approver",
+          "required": false
+        },
+        {
+          "id": "annual_marketing_efficiency_report_distribution",
+          "label": "Annual Marketing Efficiency Report - Distribution",
+          "type": "text",
+          "placeholder": "Enter distribution",
+          "required": false
+        },
+        {
+          "id": "annual_marketing_efficiency_report_notes",
+          "label": "Annual Marketing Efficiency Report - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "partnership_with_industry_association_category",
+          "label": "Partnership with Industry Association - Category",
+          "type": "text",
+          "placeholder": "Enter category",
+          "required": false
+        },
+        {
+          "id": "partnership_with_industry_association_target_date",
+          "label": "Partnership with Industry Association - Target Date",
+          "type": "number",
+          "placeholder": "Enter target date",
+          "required": false
+        },
+        {
+          "id": "partnership_with_industry_association_embargo",
+          "label": "Partnership with Industry Association - Embargo",
+          "type": "text",
+          "placeholder": "Enter embargo",
+          "required": false
+        },
+        {
+          "id": "partnership_with_industry_association_status",
+          "label": "Partnership with Industry Association - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "partnership_with_industry_association_approver",
+          "label": "Partnership with Industry Association - Approver",
+          "type": "text",
+          "placeholder": "Enter approver",
+          "required": false
+        },
+        {
+          "id": "partnership_with_industry_association_distribution",
+          "label": "Partnership with Industry Association - Distribution",
+          "type": "text",
+          "placeholder": "Enter distribution",
+          "required": false
+        },
+        {
+          "id": "partnership_with_industry_association_notes",
+          "label": "Partnership with Industry Association - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "sustainability_commitment_announcement_category",
+          "label": "Sustainability Commitment Announcement - Category",
+          "type": "text",
+          "placeholder": "Enter category",
+          "required": false
+        },
+        {
+          "id": "sustainability_commitment_announcement_target_date",
+          "label": "Sustainability Commitment Announcement - Target Date",
+          "type": "number",
+          "placeholder": "Enter target date",
+          "required": false
+        },
+        {
+          "id": "sustainability_commitment_announcement_embargo",
+          "label": "Sustainability Commitment Announcement - Embargo",
+          "type": "text",
+          "placeholder": "Enter embargo",
+          "required": false
+        },
+        {
+          "id": "sustainability_commitment_announcement_status",
+          "label": "Sustainability Commitment Announcement - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "sustainability_commitment_announcement_approver",
+          "label": "Sustainability Commitment Announcement - Approver",
+          "type": "text",
+          "placeholder": "Enter approver",
+          "required": false
+        },
+        {
+          "id": "sustainability_commitment_announcement_distribution",
+          "label": "Sustainability Commitment Announcement - Distribution",
+          "type": "text",
+          "placeholder": "Enter distribution",
+          "required": false
+        },
+        {
+          "id": "sustainability_commitment_announcement_notes",
+          "label": "Sustainability Commitment Announcement - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "outreach_tracker",
+      "title": "Outreach Tracker",
+      "description": "Enter data for each item",
+      "fields": [
+        {
+          "id": "sarah_mitchell_outlet",
+          "label": "Sarah Mitchell - Outlet",
+          "type": "text",
+          "placeholder": "Enter outlet",
+          "required": false
+        },
+        {
+          "id": "sarah_mitchell_story_angle",
+          "label": "Sarah Mitchell - Story Angle",
+          "type": "text",
+          "placeholder": "Enter story angle",
+          "required": false
+        },
+        {
+          "id": "sarah_mitchell_pitch_method",
+          "label": "Sarah Mitchell - Pitch Method",
+          "type": "text",
+          "placeholder": "Enter pitch method",
+          "required": false
+        },
+        {
+          "id": "sarah_mitchell_date_sent",
+          "label": "Sarah Mitchell - Date Sent",
+          "type": "text",
+          "placeholder": "Enter date sent",
+          "required": false
+        },
+        {
+          "id": "sarah_mitchell_status",
+          "label": "Sarah Mitchell - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "sarah_mitchell_followup_date",
+          "label": "Sarah Mitchell - Follow-up Date",
+          "type": "text",
+          "placeholder": "Enter follow-up date",
+          "required": false
+        },
+        {
+          "id": "sarah_mitchell_notes",
+          "label": "Sarah Mitchell - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "david_kim_outlet",
+          "label": "David Kim - Outlet",
+          "type": "text",
+          "placeholder": "Enter outlet",
+          "required": false
+        },
+        {
+          "id": "david_kim_story_angle",
+          "label": "David Kim - Story Angle",
+          "type": "text",
+          "placeholder": "Enter story angle",
+          "required": false
+        },
+        {
+          "id": "david_kim_pitch_method",
+          "label": "David Kim - Pitch Method",
+          "type": "text",
+          "placeholder": "Enter pitch method",
+          "required": false
+        },
+        {
+          "id": "david_kim_date_sent",
+          "label": "David Kim - Date Sent",
+          "type": "text",
+          "placeholder": "Enter date sent",
+          "required": false
+        },
+        {
+          "id": "david_kim_status",
+          "label": "David Kim - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "david_kim_followup_date",
+          "label": "David Kim - Follow-up Date",
+          "type": "text",
+          "placeholder": "Enter follow-up date",
+          "required": false
+        },
+        {
+          "id": "david_kim_notes",
+          "label": "David Kim - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "lisa_chen_outlet",
+          "label": "Lisa Chen - Outlet",
+          "type": "text",
+          "placeholder": "Enter outlet",
+          "required": false
+        },
+        {
+          "id": "lisa_chen_story_angle",
+          "label": "Lisa Chen - Story Angle",
+          "type": "text",
+          "placeholder": "Enter story angle",
+          "required": false
+        },
+        {
+          "id": "lisa_chen_pitch_method",
+          "label": "Lisa Chen - Pitch Method",
+          "type": "text",
+          "placeholder": "Enter pitch method",
+          "required": false
+        },
+        {
+          "id": "lisa_chen_date_sent",
+          "label": "Lisa Chen - Date Sent",
+          "type": "text",
+          "placeholder": "Enter date sent",
+          "required": false
+        },
+        {
+          "id": "lisa_chen_status",
+          "label": "Lisa Chen - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "lisa_chen_followup_date",
+          "label": "Lisa Chen - Follow-up Date",
+          "type": "text",
+          "placeholder": "Enter follow-up date",
+          "required": false
+        },
+        {
+          "id": "lisa_chen_notes",
+          "label": "Lisa Chen - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "ana_petrova_outlet",
+          "label": "Ana Petrova - Outlet",
+          "type": "text",
+          "placeholder": "Enter outlet",
+          "required": false
+        },
+        {
+          "id": "ana_petrova_story_angle",
+          "label": "Ana Petrova - Story Angle",
+          "type": "text",
+          "placeholder": "Enter story angle",
+          "required": false
+        },
+        {
+          "id": "ana_petrova_pitch_method",
+          "label": "Ana Petrova - Pitch Method",
+          "type": "text",
+          "placeholder": "Enter pitch method",
+          "required": false
+        },
+        {
+          "id": "ana_petrova_date_sent",
+          "label": "Ana Petrova - Date Sent",
+          "type": "text",
+          "placeholder": "Enter date sent",
+          "required": false
+        },
+        {
+          "id": "ana_petrova_status",
+          "label": "Ana Petrova - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "ana_petrova_followup_date",
+          "label": "Ana Petrova - Follow-up Date",
+          "type": "text",
+          "placeholder": "Enter follow-up date",
+          "required": false
+        },
+        {
+          "id": "ana_petrova_notes",
+          "label": "Ana Petrova - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "james_obrien_outlet",
+          "label": "James O'Brien - Outlet",
+          "type": "text",
+          "placeholder": "Enter outlet",
+          "required": false
+        },
+        {
+          "id": "james_obrien_story_angle",
+          "label": "James O'Brien - Story Angle",
+          "type": "text",
+          "placeholder": "Enter story angle",
+          "required": false
+        },
+        {
+          "id": "james_obrien_pitch_method",
+          "label": "James O'Brien - Pitch Method",
+          "type": "text",
+          "placeholder": "Enter pitch method",
+          "required": false
+        },
+        {
+          "id": "james_obrien_date_sent",
+          "label": "James O'Brien - Date Sent",
+          "type": "text",
+          "placeholder": "Enter date sent",
+          "required": false
+        },
+        {
+          "id": "james_obrien_status",
+          "label": "James O'Brien - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "james_obrien_followup_date",
+          "label": "James O'Brien - Follow-up Date",
+          "type": "text",
+          "placeholder": "Enter follow-up date",
+          "required": false
+        },
+        {
+          "id": "james_obrien_notes",
+          "label": "James O'Brien - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "emily_watson_outlet",
+          "label": "Emily Watson - Outlet",
+          "type": "text",
+          "placeholder": "Enter outlet",
+          "required": false
+        },
+        {
+          "id": "emily_watson_story_angle",
+          "label": "Emily Watson - Story Angle",
+          "type": "text",
+          "placeholder": "Enter story angle",
+          "required": false
+        },
+        {
+          "id": "emily_watson_pitch_method",
+          "label": "Emily Watson - Pitch Method",
+          "type": "text",
+          "placeholder": "Enter pitch method",
+          "required": false
+        },
+        {
+          "id": "emily_watson_date_sent",
+          "label": "Emily Watson - Date Sent",
+          "type": "text",
+          "placeholder": "Enter date sent",
+          "required": false
+        },
+        {
+          "id": "emily_watson_status",
+          "label": "Emily Watson - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "emily_watson_followup_date",
+          "label": "Emily Watson - Follow-up Date",
+          "type": "text",
+          "placeholder": "Enter follow-up date",
+          "required": false
+        },
+        {
+          "id": "emily_watson_notes",
+          "label": "Emily Watson - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "mark_thompson_outlet",
+          "label": "Mark Thompson - Outlet",
+          "type": "text",
+          "placeholder": "Enter outlet",
+          "required": false
+        },
+        {
+          "id": "mark_thompson_story_angle",
+          "label": "Mark Thompson - Story Angle",
+          "type": "text",
+          "placeholder": "Enter story angle",
+          "required": false
+        },
+        {
+          "id": "mark_thompson_pitch_method",
+          "label": "Mark Thompson - Pitch Method",
+          "type": "text",
+          "placeholder": "Enter pitch method",
+          "required": false
+        },
+        {
+          "id": "mark_thompson_date_sent",
+          "label": "Mark Thompson - Date Sent",
+          "type": "text",
+          "placeholder": "Enter date sent",
+          "required": false
+        },
+        {
+          "id": "mark_thompson_status",
+          "label": "Mark Thompson - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "mark_thompson_followup_date",
+          "label": "Mark Thompson - Follow-up Date",
+          "type": "text",
+          "placeholder": "Enter follow-up date",
+          "required": false
+        },
+        {
+          "id": "mark_thompson_notes",
+          "label": "Mark Thompson - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "chris_park_outlet",
+          "label": "Chris Park - Outlet",
+          "type": "text",
+          "placeholder": "Enter outlet",
+          "required": false
+        },
+        {
+          "id": "chris_park_story_angle",
+          "label": "Chris Park - Story Angle",
+          "type": "text",
+          "placeholder": "Enter story angle",
+          "required": false
+        },
+        {
+          "id": "chris_park_pitch_method",
+          "label": "Chris Park - Pitch Method",
+          "type": "text",
+          "placeholder": "Enter pitch method",
+          "required": false
+        },
+        {
+          "id": "chris_park_date_sent",
+          "label": "Chris Park - Date Sent",
+          "type": "text",
+          "placeholder": "Enter date sent",
+          "required": false
+        },
+        {
+          "id": "chris_park_status",
+          "label": "Chris Park - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "chris_park_followup_date",
+          "label": "Chris Park - Follow-up Date",
+          "type": "text",
+          "placeholder": "Enter follow-up date",
+          "required": false
+        },
+        {
+          "id": "chris_park_notes",
+          "label": "Chris Park - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "coverage_log",
+      "title": "Coverage Log",
+      "description": "Enter data for each item",
+      "fields": [
+        {
+          "id": "ai_marketing_what_actually_works_in_2026_outlet",
+          "label": "AI Marketing: What Actually Works in 2026 - Outlet",
+          "type": "text",
+          "placeholder": "Enter outlet",
+          "required": false
+        },
+        {
+          "id": "ai_marketing_what_actually_works_in_2026_date",
+          "label": "AI Marketing: What Actually Works in 2026 - Date",
+          "type": "text",
+          "placeholder": "Enter date",
+          "required": false
+        },
+        {
+          "id": "ai_marketing_what_actually_works_in_2026_type",
+          "label": "AI Marketing: What Actually Works in 2026 - Type",
+          "type": "select",
+          "placeholder": "Enter type",
+          "required": false,
+          "options": [
+            "Blog Post",
+            "Video",
+            "Infographic",
+            "Case Study",
+            "Whitepaper",
+            "Newsletter",
+            "Social Post",
+            "Webinar"
+          ]
+        },
+        {
+          "id": "ai_marketing_what_actually_works_in_2026_journalist",
+          "label": "AI Marketing: What Actually Works in 2026 - Journalist",
+          "type": "text",
+          "placeholder": "Enter journalist",
+          "required": false
+        },
+        {
+          "id": "ai_marketing_what_actually_works_in_2026_sentiment",
+          "label": "AI Marketing: What Actually Works in 2026 - Sentiment",
+          "type": "text",
+          "placeholder": "Enter sentiment",
+          "required": false
+        },
+        {
+          "id": "ai_marketing_what_actually_works_in_2026_reach",
+          "label": "AI Marketing: What Actually Works in 2026 - Reach",
+          "type": "text",
+          "placeholder": "Enter reach",
+          "required": false
+        },
+        {
+          "id": "ai_marketing_what_actually_works_in_2026_est_media_value",
+          "label": "AI Marketing: What Actually Works in 2026 - Est. Media Value",
+          "type": "text",
+          "placeholder": "Enter est. media value",
+          "required": false
+        },
+        {
+          "id": "ai_marketing_what_actually_works_in_2026_url",
+          "label": "AI Marketing: What Actually Works in 2026 - URL",
+          "type": "text",
+          "placeholder": "Enter url",
+          "required": false
+        },
+        {
+          "id": "ai_marketing_what_actually_works_in_2026_notes",
+          "label": "AI Marketing: What Actually Works in 2026 - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "cookie_apocalypse_are_smbs_ready_outlet",
+          "label": "Cookie Apocalypse: Are SMBs Ready? - Outlet",
+          "type": "text",
+          "placeholder": "Enter outlet",
+          "required": false
+        },
+        {
+          "id": "cookie_apocalypse_are_smbs_ready_date",
+          "label": "Cookie Apocalypse: Are SMBs Ready? - Date",
+          "type": "text",
+          "placeholder": "Enter date",
+          "required": false
+        },
+        {
+          "id": "cookie_apocalypse_are_smbs_ready_type",
+          "label": "Cookie Apocalypse: Are SMBs Ready? - Type",
+          "type": "select",
+          "placeholder": "Enter type",
+          "required": false,
+          "options": [
+            "Blog Post",
+            "Video",
+            "Infographic",
+            "Case Study",
+            "Whitepaper",
+            "Newsletter",
+            "Social Post",
+            "Webinar"
+          ]
+        },
+        {
+          "id": "cookie_apocalypse_are_smbs_ready_journalist",
+          "label": "Cookie Apocalypse: Are SMBs Ready? - Journalist",
+          "type": "text",
+          "placeholder": "Enter journalist",
+          "required": false
+        },
+        {
+          "id": "cookie_apocalypse_are_smbs_ready_sentiment",
+          "label": "Cookie Apocalypse: Are SMBs Ready? - Sentiment",
+          "type": "text",
+          "placeholder": "Enter sentiment",
+          "required": false
+        },
+        {
+          "id": "cookie_apocalypse_are_smbs_ready_reach",
+          "label": "Cookie Apocalypse: Are SMBs Ready? - Reach",
+          "type": "text",
+          "placeholder": "Enter reach",
+          "required": false
+        },
+        {
+          "id": "cookie_apocalypse_are_smbs_ready_est_media_value",
+          "label": "Cookie Apocalypse: Are SMBs Ready? - Est. Media Value",
+          "type": "text",
+          "placeholder": "Enter est. media value",
+          "required": false
+        },
+        {
+          "id": "cookie_apocalypse_are_smbs_ready_url",
+          "label": "Cookie Apocalypse: Are SMBs Ready? - URL",
+          "type": "text",
+          "placeholder": "Enter url",
+          "required": false
+        },
+        {
+          "id": "cookie_apocalypse_are_smbs_ready_notes",
+          "label": "Cookie Apocalypse: Are SMBs Ready? - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "marketing_tool_consolidation_trend_outlet",
+          "label": "Marketing Tool Consolidation Trend - Outlet",
+          "type": "text",
+          "placeholder": "Enter outlet",
+          "required": false
+        },
+        {
+          "id": "marketing_tool_consolidation_trend_date",
+          "label": "Marketing Tool Consolidation Trend - Date",
+          "type": "text",
+          "placeholder": "Enter date",
+          "required": false
+        },
+        {
+          "id": "marketing_tool_consolidation_trend_type",
+          "label": "Marketing Tool Consolidation Trend - Type",
+          "type": "select",
+          "placeholder": "Enter type",
+          "required": false,
+          "options": [
+            "Blog Post",
+            "Video",
+            "Infographic",
+            "Case Study",
+            "Whitepaper",
+            "Newsletter",
+            "Social Post",
+            "Webinar"
+          ]
+        },
+        {
+          "id": "marketing_tool_consolidation_trend_journalist",
+          "label": "Marketing Tool Consolidation Trend - Journalist",
+          "type": "text",
+          "placeholder": "Enter journalist",
+          "required": false
+        },
+        {
+          "id": "marketing_tool_consolidation_trend_sentiment",
+          "label": "Marketing Tool Consolidation Trend - Sentiment",
+          "type": "text",
+          "placeholder": "Enter sentiment",
+          "required": false
+        },
+        {
+          "id": "marketing_tool_consolidation_trend_reach",
+          "label": "Marketing Tool Consolidation Trend - Reach",
+          "type": "text",
+          "placeholder": "Enter reach",
+          "required": false
+        },
+        {
+          "id": "marketing_tool_consolidation_trend_est_media_value",
+          "label": "Marketing Tool Consolidation Trend - Est. Media Value",
+          "type": "text",
+          "placeholder": "Enter est. media value",
+          "required": false
+        },
+        {
+          "id": "marketing_tool_consolidation_trend_url",
+          "label": "Marketing Tool Consolidation Trend - URL",
+          "type": "text",
+          "placeholder": "Enter url",
+          "required": false
+        },
+        {
+          "id": "marketing_tool_consolidation_trend_notes",
+          "label": "Marketing Tool Consolidation Trend - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "5_metrics_that_matter_to_the_csuite_outlet",
+          "label": "5 Metrics That Matter to the C-Suite - Outlet",
+          "type": "text",
+          "placeholder": "Enter outlet",
+          "required": false
+        },
+        {
+          "id": "5_metrics_that_matter_to_the_csuite_date",
+          "label": "5 Metrics That Matter to the C-Suite - Date",
+          "type": "text",
+          "placeholder": "Enter date",
+          "required": false
+        },
+        {
+          "id": "5_metrics_that_matter_to_the_csuite_type",
+          "label": "5 Metrics That Matter to the C-Suite - Type",
+          "type": "select",
+          "placeholder": "Enter type",
+          "required": false,
+          "options": [
+            "Blog Post",
+            "Video",
+            "Infographic",
+            "Case Study",
+            "Whitepaper",
+            "Newsletter",
+            "Social Post",
+            "Webinar"
+          ]
+        },
+        {
+          "id": "5_metrics_that_matter_to_the_csuite_journalist",
+          "label": "5 Metrics That Matter to the C-Suite - Journalist",
+          "type": "text",
+          "placeholder": "Enter journalist",
+          "required": false
+        },
+        {
+          "id": "5_metrics_that_matter_to_the_csuite_sentiment",
+          "label": "5 Metrics That Matter to the C-Suite - Sentiment",
+          "type": "text",
+          "placeholder": "Enter sentiment",
+          "required": false
+        },
+        {
+          "id": "5_metrics_that_matter_to_the_csuite_reach",
+          "label": "5 Metrics That Matter to the C-Suite - Reach",
+          "type": "text",
+          "placeholder": "Enter reach",
+          "required": false
+        },
+        {
+          "id": "5_metrics_that_matter_to_the_csuite_est_media_value",
+          "label": "5 Metrics That Matter to the C-Suite - Est. Media Value",
+          "type": "text",
+          "placeholder": "Enter est. media value",
+          "required": false
+        },
+        {
+          "id": "5_metrics_that_matter_to_the_csuite_url",
+          "label": "5 Metrics That Matter to the C-Suite - URL",
+          "type": "text",
+          "placeholder": "Enter url",
+          "required": false
+        },
+        {
+          "id": "5_metrics_that_matter_to_the_csuite_notes",
+          "label": "5 Metrics That Matter to the C-Suite - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "sustainability_in_marketing_roundup_outlet",
+          "label": "Sustainability in Marketing Roundup - Outlet",
+          "type": "text",
+          "placeholder": "Enter outlet",
+          "required": false
+        },
+        {
+          "id": "sustainability_in_marketing_roundup_date",
+          "label": "Sustainability in Marketing Roundup - Date",
+          "type": "text",
+          "placeholder": "Enter date",
+          "required": false
+        },
+        {
+          "id": "sustainability_in_marketing_roundup_type",
+          "label": "Sustainability in Marketing Roundup - Type",
+          "type": "select",
+          "placeholder": "Enter type",
+          "required": false,
+          "options": [
+            "Blog Post",
+            "Video",
+            "Infographic",
+            "Case Study",
+            "Whitepaper",
+            "Newsletter",
+            "Social Post",
+            "Webinar"
+          ]
+        },
+        {
+          "id": "sustainability_in_marketing_roundup_journalist",
+          "label": "Sustainability in Marketing Roundup - Journalist",
+          "type": "text",
+          "placeholder": "Enter journalist",
+          "required": false
+        },
+        {
+          "id": "sustainability_in_marketing_roundup_sentiment",
+          "label": "Sustainability in Marketing Roundup - Sentiment",
+          "type": "text",
+          "placeholder": "Enter sentiment",
+          "required": false
+        },
+        {
+          "id": "sustainability_in_marketing_roundup_reach",
+          "label": "Sustainability in Marketing Roundup - Reach",
+          "type": "text",
+          "placeholder": "Enter reach",
+          "required": false
+        },
+        {
+          "id": "sustainability_in_marketing_roundup_est_media_value",
+          "label": "Sustainability in Marketing Roundup - Est. Media Value",
+          "type": "text",
+          "placeholder": "Enter est. media value",
+          "required": false
+        },
+        {
+          "id": "sustainability_in_marketing_roundup_url",
+          "label": "Sustainability in Marketing Roundup - URL",
+          "type": "text",
+          "placeholder": "Enter url",
+          "required": false
+        },
+        {
+          "id": "sustainability_in_marketing_roundup_notes",
+          "label": "Sustainability in Marketing Roundup - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "pr_calendar",
+      "title": "PR Calendar",
+      "description": "Enter data for each item",
+      "fields": [
+        {
+          "id": "20260315_activity",
+          "label": "2026-03-15 - Activity",
+          "type": "text",
+          "placeholder": "Enter activity",
+          "required": false
+        },
+        {
+          "id": "20260315_type",
+          "label": "2026-03-15 - Type",
+          "type": "select",
+          "placeholder": "Enter type",
+          "required": false,
+          "options": [
+            "Blog Post",
+            "Video",
+            "Infographic",
+            "Case Study",
+            "Whitepaper",
+            "Newsletter",
+            "Social Post",
+            "Webinar"
+          ]
+        },
+        {
+          "id": "20260315_story_angle",
+          "label": "2026-03-15 - Story Angle",
+          "type": "text",
+          "placeholder": "Enter story angle",
+          "required": false
+        },
+        {
+          "id": "20260315_owner",
+          "label": "2026-03-15 - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "20260315_status",
+          "label": "2026-03-15 - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "20260315_notes",
+          "label": "2026-03-15 - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "20260401_activity",
+          "label": "2026-04-01 - Activity",
+          "type": "text",
+          "placeholder": "Enter activity",
+          "required": false
+        },
+        {
+          "id": "20260401_type",
+          "label": "2026-04-01 - Type",
+          "type": "select",
+          "placeholder": "Enter type",
+          "required": false,
+          "options": [
+            "Blog Post",
+            "Video",
+            "Infographic",
+            "Case Study",
+            "Whitepaper",
+            "Newsletter",
+            "Social Post",
+            "Webinar"
+          ]
+        },
+        {
+          "id": "20260401_story_angle",
+          "label": "2026-04-01 - Story Angle",
+          "type": "text",
+          "placeholder": "Enter story angle",
+          "required": false
+        },
+        {
+          "id": "20260401_owner",
+          "label": "2026-04-01 - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "20260401_status",
+          "label": "2026-04-01 - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "20260401_notes",
+          "label": "2026-04-01 - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "20260415_activity",
+          "label": "2026-04-15 - Activity",
+          "type": "text",
+          "placeholder": "Enter activity",
+          "required": false
+        },
+        {
+          "id": "20260415_type",
+          "label": "2026-04-15 - Type",
+          "type": "select",
+          "placeholder": "Enter type",
+          "required": false,
+          "options": [
+            "Blog Post",
+            "Video",
+            "Infographic",
+            "Case Study",
+            "Whitepaper",
+            "Newsletter",
+            "Social Post",
+            "Webinar"
+          ]
+        },
+        {
+          "id": "20260415_story_angle",
+          "label": "2026-04-15 - Story Angle",
+          "type": "text",
+          "placeholder": "Enter story angle",
+          "required": false
+        },
+        {
+          "id": "20260415_owner",
+          "label": "2026-04-15 - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "20260415_status",
+          "label": "2026-04-15 - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "20260415_notes",
+          "label": "2026-04-15 - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "20260422_activity",
+          "label": "2026-04-22 - Activity",
+          "type": "text",
+          "placeholder": "Enter activity",
+          "required": false
+        },
+        {
+          "id": "20260422_type",
+          "label": "2026-04-22 - Type",
+          "type": "select",
+          "placeholder": "Enter type",
+          "required": false,
+          "options": [
+            "Blog Post",
+            "Video",
+            "Infographic",
+            "Case Study",
+            "Whitepaper",
+            "Newsletter",
+            "Social Post",
+            "Webinar"
+          ]
+        },
+        {
+          "id": "20260422_story_angle",
+          "label": "2026-04-22 - Story Angle",
+          "type": "text",
+          "placeholder": "Enter story angle",
+          "required": false
+        },
+        {
+          "id": "20260422_owner",
+          "label": "2026-04-22 - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "20260422_status",
+          "label": "2026-04-22 - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "20260422_notes",
+          "label": "2026-04-22 - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "20260501_activity",
+          "label": "2026-05-01 - Activity",
+          "type": "text",
+          "placeholder": "Enter activity",
+          "required": false
+        },
+        {
+          "id": "20260501_type",
+          "label": "2026-05-01 - Type",
+          "type": "select",
+          "placeholder": "Enter type",
+          "required": false,
+          "options": [
+            "Blog Post",
+            "Video",
+            "Infographic",
+            "Case Study",
+            "Whitepaper",
+            "Newsletter",
+            "Social Post",
+            "Webinar"
+          ]
+        },
+        {
+          "id": "20260501_story_angle",
+          "label": "2026-05-01 - Story Angle",
+          "type": "text",
+          "placeholder": "Enter story angle",
+          "required": false
+        },
+        {
+          "id": "20260501_owner",
+          "label": "2026-05-01 - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "20260501_status",
+          "label": "2026-05-01 - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "20260501_notes",
+          "label": "2026-05-01 - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "20260515_activity",
+          "label": "2026-05-15 - Activity",
+          "type": "text",
+          "placeholder": "Enter activity",
+          "required": false
+        },
+        {
+          "id": "20260515_type",
+          "label": "2026-05-15 - Type",
+          "type": "select",
+          "placeholder": "Enter type",
+          "required": false,
+          "options": [
+            "Blog Post",
+            "Video",
+            "Infographic",
+            "Case Study",
+            "Whitepaper",
+            "Newsletter",
+            "Social Post",
+            "Webinar"
+          ]
+        },
+        {
+          "id": "20260515_story_angle",
+          "label": "2026-05-15 - Story Angle",
+          "type": "text",
+          "placeholder": "Enter story angle",
+          "required": false
+        },
+        {
+          "id": "20260515_owner",
+          "label": "2026-05-15 - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "20260515_status",
+          "label": "2026-05-15 - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "20260515_notes",
+          "label": "2026-05-15 - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "20260601_activity",
+          "label": "2026-06-01 - Activity",
+          "type": "text",
+          "placeholder": "Enter activity",
+          "required": false
+        },
+        {
+          "id": "20260601_type",
+          "label": "2026-06-01 - Type",
+          "type": "select",
+          "placeholder": "Enter type",
+          "required": false,
+          "options": [
+            "Blog Post",
+            "Video",
+            "Infographic",
+            "Case Study",
+            "Whitepaper",
+            "Newsletter",
+            "Social Post",
+            "Webinar"
+          ]
+        },
+        {
+          "id": "20260601_story_angle",
+          "label": "2026-06-01 - Story Angle",
+          "type": "text",
+          "placeholder": "Enter story angle",
+          "required": false
+        },
+        {
+          "id": "20260601_owner",
+          "label": "2026-06-01 - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "20260601_status",
+          "label": "2026-06-01 - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "20260601_notes",
+          "label": "2026-06-01 - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "20260615_activity",
+          "label": "2026-06-15 - Activity",
+          "type": "text",
+          "placeholder": "Enter activity",
+          "required": false
+        },
+        {
+          "id": "20260615_type",
+          "label": "2026-06-15 - Type",
+          "type": "select",
+          "placeholder": "Enter type",
+          "required": false,
+          "options": [
+            "Blog Post",
+            "Video",
+            "Infographic",
+            "Case Study",
+            "Whitepaper",
+            "Newsletter",
+            "Social Post",
+            "Webinar"
+          ]
+        },
+        {
+          "id": "20260615_story_angle",
+          "label": "2026-06-15 - Story Angle",
+          "type": "text",
+          "placeholder": "Enter story angle",
+          "required": false
+        },
+        {
+          "id": "20260615_owner",
+          "label": "2026-06-15 - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "20260615_status",
+          "label": "2026-06-15 - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "20260615_notes",
+          "label": "2026-06-15 - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "20260701_activity",
+          "label": "2026-07-01 - Activity",
+          "type": "text",
+          "placeholder": "Enter activity",
+          "required": false
+        },
+        {
+          "id": "20260701_type",
+          "label": "2026-07-01 - Type",
+          "type": "select",
+          "placeholder": "Enter type",
+          "required": false,
+          "options": [
+            "Blog Post",
+            "Video",
+            "Infographic",
+            "Case Study",
+            "Whitepaper",
+            "Newsletter",
+            "Social Post",
+            "Webinar"
+          ]
+        },
+        {
+          "id": "20260701_story_angle",
+          "label": "2026-07-01 - Story Angle",
+          "type": "text",
+          "placeholder": "Enter story angle",
+          "required": false
+        },
+        {
+          "id": "20260701_owner",
+          "label": "2026-07-01 - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "20260701_status",
+          "label": "2026-07-01 - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "20260701_notes",
+          "label": "2026-07-01 - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "20260801_activity",
+          "label": "2026-08-01 - Activity",
+          "type": "text",
+          "placeholder": "Enter activity",
+          "required": false
+        },
+        {
+          "id": "20260801_type",
+          "label": "2026-08-01 - Type",
+          "type": "select",
+          "placeholder": "Enter type",
+          "required": false,
+          "options": [
+            "Blog Post",
+            "Video",
+            "Infographic",
+            "Case Study",
+            "Whitepaper",
+            "Newsletter",
+            "Social Post",
+            "Webinar"
+          ]
+        },
+        {
+          "id": "20260801_story_angle",
+          "label": "2026-08-01 - Story Angle",
+          "type": "text",
+          "placeholder": "Enter story angle",
+          "required": false
+        },
+        {
+          "id": "20260801_owner",
+          "label": "2026-08-01 - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "20260801_status",
+          "label": "2026-08-01 - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "20260801_notes",
+          "label": "2026-08-01 - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "20260915_activity",
+          "label": "2026-09-15 - Activity",
+          "type": "text",
+          "placeholder": "Enter activity",
+          "required": false
+        },
+        {
+          "id": "20260915_type",
+          "label": "2026-09-15 - Type",
+          "type": "select",
+          "placeholder": "Enter type",
+          "required": false,
+          "options": [
+            "Blog Post",
+            "Video",
+            "Infographic",
+            "Case Study",
+            "Whitepaper",
+            "Newsletter",
+            "Social Post",
+            "Webinar"
+          ]
+        },
+        {
+          "id": "20260915_story_angle",
+          "label": "2026-09-15 - Story Angle",
+          "type": "text",
+          "placeholder": "Enter story angle",
+          "required": false
+        },
+        {
+          "id": "20260915_owner",
+          "label": "2026-09-15 - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "20260915_status",
+          "label": "2026-09-15 - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "20260915_notes",
+          "label": "2026-09-15 - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "20261001_activity",
+          "label": "2026-10-01 - Activity",
+          "type": "text",
+          "placeholder": "Enter activity",
+          "required": false
+        },
+        {
+          "id": "20261001_type",
+          "label": "2026-10-01 - Type",
+          "type": "select",
+          "placeholder": "Enter type",
+          "required": false,
+          "options": [
+            "Blog Post",
+            "Video",
+            "Infographic",
+            "Case Study",
+            "Whitepaper",
+            "Newsletter",
+            "Social Post",
+            "Webinar"
+          ]
+        },
+        {
+          "id": "20261001_story_angle",
+          "label": "2026-10-01 - Story Angle",
+          "type": "text",
+          "placeholder": "Enter story angle",
+          "required": false
+        },
+        {
+          "id": "20261001_owner",
+          "label": "2026-10-01 - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "20261001_status",
+          "label": "2026-10-01 - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "20261001_notes",
+          "label": "2026-10-01 - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "crisis_communications",
+      "title": "Crisis Communications",
+      "description": "Enter data for each item",
+      "fields": [
+        {
+          "id": "data_breach_security_incident_holding_statement",
+          "label": "Data Breach / Security Incident - Holding Statement",
+          "type": "text",
+          "placeholder": "Enter holding statement",
+          "required": false
+        },
+        {
+          "id": "data_breach_security_incident_spokesperson",
+          "label": "Data Breach / Security Incident - Spokesperson",
+          "type": "text",
+          "placeholder": "Enter spokesperson",
+          "required": false
+        },
+        {
+          "id": "data_breach_security_incident_escalation_path",
+          "label": "Data Breach / Security Incident - Escalation Path",
+          "type": "text",
+          "placeholder": "Enter escalation path",
+          "required": false
+        },
+        {
+          "id": "product_failure_outage_holding_statement",
+          "label": "Product Failure / Outage - Holding Statement",
+          "type": "text",
+          "placeholder": "Enter holding statement",
+          "required": false
+        },
+        {
+          "id": "product_failure_outage_spokesperson",
+          "label": "Product Failure / Outage - Spokesperson",
+          "type": "text",
+          "placeholder": "Enter spokesperson",
+          "required": false
+        },
+        {
+          "id": "product_failure_outage_escalation_path",
+          "label": "Product Failure / Outage - Escalation Path",
+          "type": "text",
+          "placeholder": "Enter escalation path",
+          "required": false
+        },
+        {
+          "id": "negative_press_viral_criticism_holding_statement",
+          "label": "Negative Press / Viral Criticism - Holding Statement",
+          "type": "text",
+          "placeholder": "Enter holding statement",
+          "required": false
+        },
+        {
+          "id": "negative_press_viral_criticism_spokesperson",
+          "label": "Negative Press / Viral Criticism - Spokesperson",
+          "type": "text",
+          "placeholder": "Enter spokesperson",
+          "required": false
+        },
+        {
+          "id": "negative_press_viral_criticism_escalation_path",
+          "label": "Negative Press / Viral Criticism - Escalation Path",
+          "type": "text",
+          "placeholder": "Enter escalation path",
+          "required": false
+        },
+        {
+          "id": "employee_misconduct_holding_statement",
+          "label": "Employee Misconduct - Holding Statement",
+          "type": "text",
+          "placeholder": "Enter holding statement",
+          "required": false
+        },
+        {
+          "id": "employee_misconduct_spokesperson",
+          "label": "Employee Misconduct - Spokesperson",
+          "type": "text",
+          "placeholder": "Enter spokesperson",
+          "required": false
+        },
+        {
+          "id": "employee_misconduct_escalation_path",
+          "label": "Employee Misconduct - Escalation Path",
+          "type": "text",
+          "placeholder": "Enter escalation path",
+          "required": false
+        },
+        {
+          "id": "financial_issues_layoffs_holding_statement",
+          "label": "Financial Issues / Layoffs - Holding Statement",
+          "type": "text",
+          "placeholder": "Enter holding statement",
+          "required": false
+        },
+        {
+          "id": "financial_issues_layoffs_spokesperson",
+          "label": "Financial Issues / Layoffs - Spokesperson",
+          "type": "text",
+          "placeholder": "Enter spokesperson",
+          "required": false
+        },
+        {
+          "id": "financial_issues_layoffs_escalation_path",
+          "label": "Financial Issues / Layoffs - Escalation Path",
+          "type": "text",
+          "placeholder": "Enter escalation path",
+          "required": false
+        },
+        {
+          "id": "regulatory_compliance_issue_holding_statement",
+          "label": "Regulatory / Compliance Issue - Holding Statement",
+          "type": "text",
+          "placeholder": "Enter holding statement",
+          "required": false
+        },
+        {
+          "id": "regulatory_compliance_issue_spokesperson",
+          "label": "Regulatory / Compliance Issue - Spokesperson",
+          "type": "text",
+          "placeholder": "Enter spokesperson",
+          "required": false
+        },
+        {
+          "id": "regulatory_compliance_issue_escalation_path",
+          "label": "Regulatory / Compliance Issue - Escalation Path",
+          "type": "text",
+          "placeholder": "Enter escalation path",
+          "required": false
+        },
+        {
+          "id": "customer_injury_safety_issue_holding_statement",
+          "label": "Customer Injury / Safety Issue - Holding Statement",
+          "type": "text",
+          "placeholder": "Enter holding statement",
+          "required": false
+        },
+        {
+          "id": "customer_injury_safety_issue_spokesperson",
+          "label": "Customer Injury / Safety Issue - Spokesperson",
+          "type": "text",
+          "placeholder": "Enter spokesperson",
+          "required": false
+        },
+        {
+          "id": "customer_injury_safety_issue_escalation_path",
+          "label": "Customer Injury / Safety Issue - Escalation Path",
+          "type": "text",
+          "placeholder": "Enter escalation path",
+          "required": false
+        },
+        {
+          "id": "social_media_crisis_holding_statement",
+          "label": "Social Media Crisis - Holding Statement",
+          "type": "text",
+          "placeholder": "Enter holding statement",
+          "required": false
+        },
+        {
+          "id": "social_media_crisis_spokesperson",
+          "label": "Social Media Crisis - Spokesperson",
+          "type": "text",
+          "placeholder": "Enter spokesperson",
+          "required": false
+        },
+        {
+          "id": "social_media_crisis_escalation_path",
+          "label": "Social Media Crisis - Escalation Path",
+          "type": "text",
+          "placeholder": "Enter escalation path",
+          "required": false
+        },
+        {
+          "id": "crisis_response_checklist_first_24_hours_holding_statement",
+          "label": "CRISIS RESPONSE CHECKLIST (FIRST 24 HOURS) - Holding Statement",
+          "type": "text",
+          "placeholder": "Enter holding statement",
+          "required": false
+        },
+        {
+          "id": "crisis_response_checklist_first_24_hours_spokesperson",
+          "label": "CRISIS RESPONSE CHECKLIST (FIRST 24 HOURS) - Spokesperson",
+          "type": "text",
+          "placeholder": "Enter spokesperson",
+          "required": false
+        },
+        {
+          "id": "crisis_response_checklist_first_24_hours_escalation_path",
+          "label": "CRISIS RESPONSE CHECKLIST (FIRST 24 HOURS) - Escalation Path",
+          "type": "text",
+          "placeholder": "Enter escalation path",
+          "required": false
+        },
+        {
+          "id": "1_holding_statement",
+          "label": "1. - Holding Statement",
+          "type": "text",
+          "placeholder": "Enter holding statement",
+          "required": false
+        },
+        {
+          "id": "1_spokesperson",
+          "label": "1. - Spokesperson",
+          "type": "text",
+          "placeholder": "Enter spokesperson",
+          "required": false
+        },
+        {
+          "id": "1_escalation_path",
+          "label": "1. - Escalation Path",
+          "type": "text",
+          "placeholder": "Enter escalation path",
+          "required": false
+        },
+        {
+          "id": "2_holding_statement",
+          "label": "2. - Holding Statement",
+          "type": "text",
+          "placeholder": "Enter holding statement",
+          "required": false
+        },
+        {
+          "id": "2_spokesperson",
+          "label": "2. - Spokesperson",
+          "type": "text",
+          "placeholder": "Enter spokesperson",
+          "required": false
+        },
+        {
+          "id": "2_escalation_path",
+          "label": "2. - Escalation Path",
+          "type": "text",
+          "placeholder": "Enter escalation path",
+          "required": false
+        },
+        {
+          "id": "3_holding_statement",
+          "label": "3. - Holding Statement",
+          "type": "text",
+          "placeholder": "Enter holding statement",
+          "required": false
+        },
+        {
+          "id": "3_spokesperson",
+          "label": "3. - Spokesperson",
+          "type": "text",
+          "placeholder": "Enter spokesperson",
+          "required": false
+        },
+        {
+          "id": "3_escalation_path",
+          "label": "3. - Escalation Path",
+          "type": "text",
+          "placeholder": "Enter escalation path",
+          "required": false
+        },
+        {
+          "id": "4_holding_statement",
+          "label": "4. - Holding Statement",
+          "type": "text",
+          "placeholder": "Enter holding statement",
+          "required": false
+        },
+        {
+          "id": "4_spokesperson",
+          "label": "4. - Spokesperson",
+          "type": "text",
+          "placeholder": "Enter spokesperson",
+          "required": false
+        },
+        {
+          "id": "4_escalation_path",
+          "label": "4. - Escalation Path",
+          "type": "text",
+          "placeholder": "Enter escalation path",
+          "required": false
+        },
+        {
+          "id": "5_holding_statement",
+          "label": "5. - Holding Statement",
+          "type": "text",
+          "placeholder": "Enter holding statement",
+          "required": false
+        },
+        {
+          "id": "5_spokesperson",
+          "label": "5. - Spokesperson",
+          "type": "text",
+          "placeholder": "Enter spokesperson",
+          "required": false
+        },
+        {
+          "id": "5_escalation_path",
+          "label": "5. - Escalation Path",
+          "type": "text",
+          "placeholder": "Enter escalation path",
+          "required": false
+        },
+        {
+          "id": "6_holding_statement",
+          "label": "6. - Holding Statement",
+          "type": "text",
+          "placeholder": "Enter holding statement",
+          "required": false
+        },
+        {
+          "id": "6_spokesperson",
+          "label": "6. - Spokesperson",
+          "type": "text",
+          "placeholder": "Enter spokesperson",
+          "required": false
+        },
+        {
+          "id": "6_escalation_path",
+          "label": "6. - Escalation Path",
+          "type": "text",
+          "placeholder": "Enter escalation path",
+          "required": false
+        },
+        {
+          "id": "7_holding_statement",
+          "label": "7. - Holding Statement",
+          "type": "text",
+          "placeholder": "Enter holding statement",
+          "required": false
+        },
+        {
+          "id": "7_spokesperson",
+          "label": "7. - Spokesperson",
+          "type": "text",
+          "placeholder": "Enter spokesperson",
+          "required": false
+        },
+        {
+          "id": "7_escalation_path",
+          "label": "7. - Escalation Path",
+          "type": "text",
+          "placeholder": "Enter escalation path",
+          "required": false
+        },
+        {
+          "id": "8_holding_statement",
+          "label": "8. - Holding Statement",
+          "type": "text",
+          "placeholder": "Enter holding statement",
+          "required": false
+        },
+        {
+          "id": "8_spokesperson",
+          "label": "8. - Spokesperson",
+          "type": "text",
+          "placeholder": "Enter spokesperson",
+          "required": false
+        },
+        {
+          "id": "8_escalation_path",
+          "label": "8. - Escalation Path",
+          "type": "text",
+          "placeholder": "Enter escalation path",
+          "required": false
+        },
+        {
+          "id": "9_holding_statement",
+          "label": "9. - Holding Statement",
+          "type": "text",
+          "placeholder": "Enter holding statement",
+          "required": false
+        },
+        {
+          "id": "9_spokesperson",
+          "label": "9. - Spokesperson",
+          "type": "text",
+          "placeholder": "Enter spokesperson",
+          "required": false
+        },
+        {
+          "id": "9_escalation_path",
+          "label": "9. - Escalation Path",
+          "type": "text",
+          "placeholder": "Enter escalation path",
+          "required": false
+        },
+        {
+          "id": "10_holding_statement",
+          "label": "10. - Holding Statement",
+          "type": "text",
+          "placeholder": "Enter holding statement",
+          "required": false
+        },
+        {
+          "id": "10_spokesperson",
+          "label": "10. - Spokesperson",
+          "type": "text",
+          "placeholder": "Enter spokesperson",
+          "required": false
+        },
+        {
+          "id": "10_escalation_path",
+          "label": "10. - Escalation Path",
+          "type": "text",
+          "placeholder": "Enter escalation path",
+          "required": false
+        },
+        {
+          "id": "11_holding_statement",
+          "label": "11. - Holding Statement",
+          "type": "text",
+          "placeholder": "Enter holding statement",
+          "required": false
+        },
+        {
+          "id": "11_spokesperson",
+          "label": "11. - Spokesperson",
+          "type": "text",
+          "placeholder": "Enter spokesperson",
+          "required": false
+        },
+        {
+          "id": "11_escalation_path",
+          "label": "11. - Escalation Path",
+          "type": "text",
+          "placeholder": "Enter escalation path",
+          "required": false
+        },
+        {
+          "id": "12_holding_statement",
+          "label": "12. - Holding Statement",
+          "type": "text",
+          "placeholder": "Enter holding statement",
+          "required": false
+        },
+        {
+          "id": "12_spokesperson",
+          "label": "12. - Spokesperson",
+          "type": "text",
+          "placeholder": "Enter spokesperson",
+          "required": false
+        },
+        {
+          "id": "12_escalation_path",
+          "label": "12. - Escalation Path",
+          "type": "text",
+          "placeholder": "Enter escalation path",
+          "required": false
+        },
+        {
+          "id": "13_holding_statement",
+          "label": "13. - Holding Statement",
+          "type": "text",
+          "placeholder": "Enter holding statement",
+          "required": false
+        },
+        {
+          "id": "13_spokesperson",
+          "label": "13. - Spokesperson",
+          "type": "text",
+          "placeholder": "Enter spokesperson",
+          "required": false
+        },
+        {
+          "id": "13_escalation_path",
+          "label": "13. - Escalation Path",
+          "type": "text",
+          "placeholder": "Enter escalation path",
+          "required": false
+        },
+        {
+          "id": "14_holding_statement",
+          "label": "14. - Holding Statement",
+          "type": "text",
+          "placeholder": "Enter holding statement",
+          "required": false
+        },
+        {
+          "id": "14_spokesperson",
+          "label": "14. - Spokesperson",
+          "type": "text",
+          "placeholder": "Enter spokesperson",
+          "required": false
+        },
+        {
+          "id": "14_escalation_path",
+          "label": "14. - Escalation Path",
+          "type": "text",
+          "placeholder": "Enter escalation path",
+          "required": false
+        }
+      ]
+    }
+  ]
 }

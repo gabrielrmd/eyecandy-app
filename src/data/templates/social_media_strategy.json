@@ -11,512 +11,6 @@
     "channels"
   ],
   "estimatedTime": "50 min",
-  "sections": [
-    {
-      "id": "dashboard",
-      "title": "Dashboard",
-      "description": "Complete the Dashboard section",
-      "fields": [
-        {
-          "id": "overview_0",
-          "label": "OVERVIEW",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "total_posts_1",
-          "label": "Total Posts",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "total_reach_2",
-          "label": "Total Reach",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "total_engagement_3",
-          "label": "Total Engagement",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "avg_eng_rate_4",
-          "label": "Avg Eng. Rate",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "new_followers_5",
-          "label": "New Followers",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "performance_by_platform_6",
-          "label": "PERFORMANCE BY PLATFORM",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "content_type_mix_7",
-          "label": "CONTENT TYPE MIX",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "platform_8",
-          "label": "Platform",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "posts_9",
-          "label": "Posts",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "reach_10",
-          "label": "Reach",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "engagement_11",
-          "label": "Engagement",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "content_type_12",
-          "label": "Content Type",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "count_13",
-          "label": "Count",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "instagram_14",
-          "label": "Instagram",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "image_post_15",
-          "label": "Image Post",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "linkedin_16",
-          "label": "LinkedIn",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "video_reel_17",
-          "label": "Video/Reel",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "facebook_18",
-          "label": "Facebook",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "carousel_19",
-          "label": "Carousel",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "tiktok_20",
-          "label": "TikTok",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "story_21",
-          "label": "Story",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "x_twitter_22",
-          "label": "X (Twitter)",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "text_post_23",
-          "label": "Text Post",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "youtube_24",
-          "label": "YouTube",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "live_25",
-          "label": "Live",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "pinterest_26",
-          "label": "Pinterest",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "article_blog_share_27",
-          "label": "Article/Blog Share",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "other_28",
-          "label": "Other",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "other_29",
-          "label": "Other",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "strategy",
-      "title": "Strategy",
-      "description": "Complete the Strategy section",
-      "fields": [
-        {
-          "id": "quarterly_target_0",
-          "label": "Quarterly Target",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "annual_vision_1",
-          "label": "Annual Vision",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "target_audience_on_social_2",
-          "label": "TARGET AUDIENCE ON SOCIAL",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "primary_audience_3",
-          "label": "Primary Audience",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "where_they_hang_out_4",
-          "label": "Where They Hang Out",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "what_they_engage_with_5",
-          "label": "What They Engage With",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "when_they_are_online_6",
-          "label": "When They Are Online",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "their_social_behavior_7",
-          "label": "Their Social Behavior",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "influencers_they_follow_8",
-          "label": "Influencers They Follow",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "brand_voice_on_social_9",
-          "label": "BRAND VOICE ON SOCIAL",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "social_voice_3_words_10",
-          "label": "Social Voice (3 words)",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "tone_adjustments_by_platform_11",
-          "label": "Tone Adjustments by Platform",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "hashtag_strategy_12",
-          "label": "Hashtag Strategy",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "community_guidelines_13",
-          "label": "Community Guidelines",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "visual_style_14",
-          "label": "Visual Style",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "content_pillars_3_5_recurring_themes_15",
-          "label": "CONTENT PILLARS (3-5 recurring themes)",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "pillar_1_name_16",
-          "label": "Pillar 1 Name",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "pillar_1_description_17",
-          "label": "Pillar 1 Description",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "pillar_2_name_18",
-          "label": "Pillar 2 Name",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "pillar_2_description_19",
-          "label": "Pillar 2 Description",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "pillar_3_name_20",
-          "label": "Pillar 3 Name",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "pillar_3_description_21",
-          "label": "Pillar 3 Description",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "pillar_4_name_22",
-          "label": "Pillar 4 Name",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "pillar_4_description_23",
-          "label": "Pillar 4 Description",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "pillar_5_name_24",
-          "label": "Pillar 5 Name",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "pillar_5_description_25",
-          "label": "Pillar 5 Description",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "platform_audit",
-      "title": "Platform Audit",
-      "description": "Complete the Platform Audit section",
-      "fields": [
-        {
-          "id": "instagram_0",
-          "label": "Instagram",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "linkedin_1",
-          "label": "LinkedIn",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "facebook_2",
-          "label": "Facebook",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "tiktok_3",
-          "label": "TikTok",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "x_twitter_4",
-          "label": "X (Twitter)",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "youtube_5",
-          "label": "YouTube",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "pinterest_6",
-          "label": "Pinterest",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "other_7",
-          "label": "Other",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "content_mix",
-      "title": "Content Mix",
-      "description": "Complete the Content Mix section",
-      "fields": [
-        {
-          "id": "80_value_driven_content_educate_entertai_0",
-          "label": "80% value-driven content (educate, entertain, inspire) / 20% promotional",
-          "type": "textarea",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "4_pieces_of_curated_content_1_original_1_1",
-          "label": "4 pieces of curated content, 1 original, 1 promotional",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "1_3_brand_content_1_3_industry_content_1_2",
-          "label": "1/3 brand content, 1/3 industry content, 1/3 personal/community content",
-          "type": "textarea",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "70_proven_content_types_20_experiments_1_3",
-          "label": "70% proven content types, 20% experiments, 10% bold/risky ideas",
-          "type": "textarea",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    }
-  ],
   "dashboard": {
     "metrics": [
       {
@@ -530,5 +24,1776 @@
         "format": "number"
       }
     ]
-  }
+  },
+  "sections": [
+    {
+      "id": "dashboard",
+      "title": "Dashboard",
+      "description": "Auto-calculated summary of your data. Complete the working sections to see results here.",
+      "readOnly": true,
+      "fields": [
+        {
+          "id": "dashboard_overview",
+          "label": "Dashboard Overview",
+          "type": "textarea",
+          "placeholder": "Dashboard metrics will be calculated from your inputs in the working sections",
+          "required": false,
+          "readOnly": true
+        }
+      ]
+    },
+    {
+      "id": "social_media_strategy",
+      "title": "Social Media Strategy",
+      "description": "Complete the Social Media Strategy section",
+      "fields": []
+    },
+    {
+      "id": "goals_objectives",
+      "title": "Goals & Objectives",
+      "description": "[Strategy] Complete the Goals & Objectives section",
+      "fields": [
+        {
+          "id": "primary_social_media_goal",
+          "label": "Primary Social Media Goal",
+          "type": "text",
+          "placeholder": "Brand awareness, lead generation, community, sales, support?",
+          "required": false,
+          "helpText": "Brand awareness, lead generation, community, sales, support?"
+        },
+        {
+          "id": "secondary_goal",
+          "label": "Secondary Goal",
+          "type": "text",
+          "placeholder": "What else should social contribute to?",
+          "required": false,
+          "helpText": "What else should social contribute to?"
+        },
+        {
+          "id": "key_metric_for_success",
+          "label": "Key Metric for Success",
+          "type": "number",
+          "placeholder": "The ONE number that tells you if social is working",
+          "required": false,
+          "helpText": "The ONE number that tells you if social is working"
+        },
+        {
+          "id": "quarterly_target",
+          "label": "Quarterly Target",
+          "type": "text",
+          "placeholder": "Specific, measurable target for this quarter",
+          "required": false,
+          "helpText": "Specific, measurable target for this quarter"
+        },
+        {
+          "id": "annual_vision",
+          "label": "Annual Vision",
+          "type": "text",
+          "placeholder": "Where should your social presence be in 12 months?",
+          "required": false,
+          "helpText": "Where should your social presence be in 12 months?"
+        }
+      ]
+    },
+    {
+      "id": "target_audience_on_social",
+      "title": "Target Audience On Social",
+      "description": "[Strategy] Complete the Target Audience On Social section",
+      "fields": [
+        {
+          "id": "primary_audience",
+          "label": "Primary Audience",
+          "type": "text",
+          "placeholder": "Who are you trying to reach on social?",
+          "required": false,
+          "helpText": "Who are you trying to reach on social?"
+        },
+        {
+          "id": "where_they_hang_out",
+          "label": "Where They Hang Out",
+          "type": "text",
+          "placeholder": "Which platforms, groups, hashtags?",
+          "required": false,
+          "helpText": "Which platforms, groups, hashtags?"
+        },
+        {
+          "id": "what_they_engage_with",
+          "label": "What They Engage With",
+          "type": "text",
+          "placeholder": "What content format gets them to stop scrolling?",
+          "required": false,
+          "helpText": "What content format gets them to stop scrolling?"
+        },
+        {
+          "id": "when_they_are_online",
+          "label": "When They Are Online",
+          "type": "text",
+          "placeholder": "Peak hours and days for your audience",
+          "required": false,
+          "helpText": "Peak hours and days for your audience"
+        },
+        {
+          "id": "their_social_behavior",
+          "label": "Their Social Behavior",
+          "type": "textarea",
+          "placeholder": "Lurker, commenter, sharer, creator?",
+          "required": false,
+          "helpText": "Lurker, commenter, sharer, creator?"
+        },
+        {
+          "id": "influencers_they_follow",
+          "label": "Influencers They Follow",
+          "type": "number",
+          "placeholder": "Accounts and voices they trust",
+          "required": false,
+          "helpText": "Accounts and voices they trust"
+        }
+      ]
+    },
+    {
+      "id": "brand_voice_on_social",
+      "title": "Brand Voice On Social",
+      "description": "[Strategy] Complete the Brand Voice On Social section",
+      "fields": [
+        {
+          "id": "social_voice_3_words",
+          "label": "Social Voice (3 words)",
+          "type": "text",
+          "placeholder": "How should your brand sound on social? e.g. Bold, Helpful, Real",
+          "required": false,
+          "helpText": "How should your brand sound on social? e.g. Bold, Helpful, Real"
+        },
+        {
+          "id": "tone_adjustments_by_platform",
+          "label": "Tone Adjustments by Platform",
+          "type": "text",
+          "placeholder": "Same voice, different tone — LinkedIn vs. Instagram vs. TikTok",
+          "required": false,
+          "helpText": "Same voice, different tone — LinkedIn vs. Instagram vs. TikTok"
+        },
+        {
+          "id": "hashtag_strategy",
+          "label": "Hashtag Strategy",
+          "type": "textarea",
+          "placeholder": "Branded hashtags, industry hashtags, campaign hashtags",
+          "required": false,
+          "helpText": "Branded hashtags, industry hashtags, campaign hashtags"
+        },
+        {
+          "id": "community_guidelines",
+          "label": "Community Guidelines",
+          "type": "textarea",
+          "placeholder": "How do you respond to comments, DMs, negative feedback?",
+          "required": false,
+          "helpText": "How do you respond to comments, DMs, negative feedback?"
+        },
+        {
+          "id": "visual_style",
+          "label": "Visual Style",
+          "type": "text",
+          "placeholder": "Color palette, photo style, graphic templates, video look",
+          "required": false,
+          "helpText": "Color palette, photo style, graphic templates, video look"
+        }
+      ]
+    },
+    {
+      "id": "content_pillars_35_recurring_themes",
+      "title": "CONTENT PILLARS (3-5 recurring themes)",
+      "description": "[Strategy] Complete the CONTENT PILLARS (3-5 recurring themes) section",
+      "fields": []
+    },
+    {
+      "id": "pillar_1_name",
+      "title": "Pillar 1 Name",
+      "description": "[Strategy] Complete the Pillar 1 Name section",
+      "fields": []
+    },
+    {
+      "id": "pillar_2_name",
+      "title": "Pillar 2 Name",
+      "description": "[Strategy] Complete the Pillar 2 Name section",
+      "fields": []
+    },
+    {
+      "id": "pillar_3_name",
+      "title": "Pillar 3 Name",
+      "description": "[Strategy] Complete the Pillar 3 Name section",
+      "fields": []
+    },
+    {
+      "id": "pillar_4_name",
+      "title": "Pillar 4 Name",
+      "description": "[Strategy] Complete the Pillar 4 Name section",
+      "fields": []
+    },
+    {
+      "id": "pillar_5_name",
+      "title": "Pillar 5 Name",
+      "description": "[Strategy] Complete the Pillar 5 Name section",
+      "fields": []
+    },
+    {
+      "id": "platform_audit",
+      "title": "Platform Audit",
+      "description": "Enter data for each item",
+      "fields": [
+        {
+          "id": "instagram_audience_fit_15",
+          "label": "Instagram - Audience Fit\n(1-5)",
+          "type": "scale",
+          "placeholder": "Enter audience fit\n(1-5)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "instagram_content_fit_15",
+          "label": "Instagram - Content Fit\n(1-5)",
+          "type": "scale",
+          "placeholder": "Enter content fit\n(1-5)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "instagram_resource_req_15",
+          "label": "Instagram - Resource Req.\n(1-5)",
+          "type": "scale",
+          "placeholder": "Enter resource req.\n(1-5)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "instagram_competitor_presence_15",
+          "label": "Instagram - Competitor\nPresence (1-5)",
+          "type": "scale",
+          "placeholder": "Enter competitor\npresence (1-5)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "instagram_growth_potential_15",
+          "label": "Instagram - Growth\nPotential (1-5)",
+          "type": "scale",
+          "placeholder": "Enter growth\npotential (1-5)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "instagram_current_followers",
+          "label": "Instagram - Current\nFollowers",
+          "type": "text",
+          "placeholder": "Enter current\nfollowers",
+          "required": false
+        },
+        {
+          "id": "instagram_total_score",
+          "label": "Instagram - Total Score",
+          "type": "scale",
+          "placeholder": "Enter total score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "instagram_priority",
+          "label": "Instagram - Priority",
+          "type": "select",
+          "placeholder": "Enter priority",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "linkedin_audience_fit_15",
+          "label": "LinkedIn - Audience Fit\n(1-5)",
+          "type": "scale",
+          "placeholder": "Enter audience fit\n(1-5)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "linkedin_content_fit_15",
+          "label": "LinkedIn - Content Fit\n(1-5)",
+          "type": "scale",
+          "placeholder": "Enter content fit\n(1-5)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "linkedin_resource_req_15",
+          "label": "LinkedIn - Resource Req.\n(1-5)",
+          "type": "scale",
+          "placeholder": "Enter resource req.\n(1-5)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "linkedin_competitor_presence_15",
+          "label": "LinkedIn - Competitor\nPresence (1-5)",
+          "type": "scale",
+          "placeholder": "Enter competitor\npresence (1-5)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "linkedin_growth_potential_15",
+          "label": "LinkedIn - Growth\nPotential (1-5)",
+          "type": "scale",
+          "placeholder": "Enter growth\npotential (1-5)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "linkedin_current_followers",
+          "label": "LinkedIn - Current\nFollowers",
+          "type": "text",
+          "placeholder": "Enter current\nfollowers",
+          "required": false
+        },
+        {
+          "id": "linkedin_total_score",
+          "label": "LinkedIn - Total Score",
+          "type": "scale",
+          "placeholder": "Enter total score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "linkedin_priority",
+          "label": "LinkedIn - Priority",
+          "type": "select",
+          "placeholder": "Enter priority",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "facebook_audience_fit_15",
+          "label": "Facebook - Audience Fit\n(1-5)",
+          "type": "scale",
+          "placeholder": "Enter audience fit\n(1-5)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "facebook_content_fit_15",
+          "label": "Facebook - Content Fit\n(1-5)",
+          "type": "scale",
+          "placeholder": "Enter content fit\n(1-5)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "facebook_resource_req_15",
+          "label": "Facebook - Resource Req.\n(1-5)",
+          "type": "scale",
+          "placeholder": "Enter resource req.\n(1-5)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "facebook_competitor_presence_15",
+          "label": "Facebook - Competitor\nPresence (1-5)",
+          "type": "scale",
+          "placeholder": "Enter competitor\npresence (1-5)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "facebook_growth_potential_15",
+          "label": "Facebook - Growth\nPotential (1-5)",
+          "type": "scale",
+          "placeholder": "Enter growth\npotential (1-5)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "facebook_current_followers",
+          "label": "Facebook - Current\nFollowers",
+          "type": "text",
+          "placeholder": "Enter current\nfollowers",
+          "required": false
+        },
+        {
+          "id": "facebook_total_score",
+          "label": "Facebook - Total Score",
+          "type": "scale",
+          "placeholder": "Enter total score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "facebook_priority",
+          "label": "Facebook - Priority",
+          "type": "select",
+          "placeholder": "Enter priority",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "tiktok_audience_fit_15",
+          "label": "TikTok - Audience Fit\n(1-5)",
+          "type": "scale",
+          "placeholder": "Enter audience fit\n(1-5)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "tiktok_content_fit_15",
+          "label": "TikTok - Content Fit\n(1-5)",
+          "type": "scale",
+          "placeholder": "Enter content fit\n(1-5)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "tiktok_resource_req_15",
+          "label": "TikTok - Resource Req.\n(1-5)",
+          "type": "scale",
+          "placeholder": "Enter resource req.\n(1-5)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "tiktok_competitor_presence_15",
+          "label": "TikTok - Competitor\nPresence (1-5)",
+          "type": "scale",
+          "placeholder": "Enter competitor\npresence (1-5)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "tiktok_growth_potential_15",
+          "label": "TikTok - Growth\nPotential (1-5)",
+          "type": "scale",
+          "placeholder": "Enter growth\npotential (1-5)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "tiktok_current_followers",
+          "label": "TikTok - Current\nFollowers",
+          "type": "text",
+          "placeholder": "Enter current\nfollowers",
+          "required": false
+        },
+        {
+          "id": "tiktok_total_score",
+          "label": "TikTok - Total Score",
+          "type": "scale",
+          "placeholder": "Enter total score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "tiktok_priority",
+          "label": "TikTok - Priority",
+          "type": "select",
+          "placeholder": "Enter priority",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "x_twitter_audience_fit_15",
+          "label": "X (Twitter) - Audience Fit\n(1-5)",
+          "type": "scale",
+          "placeholder": "Enter audience fit\n(1-5)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "x_twitter_content_fit_15",
+          "label": "X (Twitter) - Content Fit\n(1-5)",
+          "type": "scale",
+          "placeholder": "Enter content fit\n(1-5)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "x_twitter_resource_req_15",
+          "label": "X (Twitter) - Resource Req.\n(1-5)",
+          "type": "scale",
+          "placeholder": "Enter resource req.\n(1-5)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "x_twitter_competitor_presence_15",
+          "label": "X (Twitter) - Competitor\nPresence (1-5)",
+          "type": "scale",
+          "placeholder": "Enter competitor\npresence (1-5)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "x_twitter_growth_potential_15",
+          "label": "X (Twitter) - Growth\nPotential (1-5)",
+          "type": "scale",
+          "placeholder": "Enter growth\npotential (1-5)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "x_twitter_current_followers",
+          "label": "X (Twitter) - Current\nFollowers",
+          "type": "text",
+          "placeholder": "Enter current\nfollowers",
+          "required": false
+        },
+        {
+          "id": "x_twitter_total_score",
+          "label": "X (Twitter) - Total Score",
+          "type": "scale",
+          "placeholder": "Enter total score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "x_twitter_priority",
+          "label": "X (Twitter) - Priority",
+          "type": "select",
+          "placeholder": "Enter priority",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "youtube_audience_fit_15",
+          "label": "YouTube - Audience Fit\n(1-5)",
+          "type": "scale",
+          "placeholder": "Enter audience fit\n(1-5)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "youtube_content_fit_15",
+          "label": "YouTube - Content Fit\n(1-5)",
+          "type": "scale",
+          "placeholder": "Enter content fit\n(1-5)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "youtube_resource_req_15",
+          "label": "YouTube - Resource Req.\n(1-5)",
+          "type": "scale",
+          "placeholder": "Enter resource req.\n(1-5)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "youtube_competitor_presence_15",
+          "label": "YouTube - Competitor\nPresence (1-5)",
+          "type": "scale",
+          "placeholder": "Enter competitor\npresence (1-5)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "youtube_growth_potential_15",
+          "label": "YouTube - Growth\nPotential (1-5)",
+          "type": "scale",
+          "placeholder": "Enter growth\npotential (1-5)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "youtube_current_followers",
+          "label": "YouTube - Current\nFollowers",
+          "type": "text",
+          "placeholder": "Enter current\nfollowers",
+          "required": false
+        },
+        {
+          "id": "youtube_total_score",
+          "label": "YouTube - Total Score",
+          "type": "scale",
+          "placeholder": "Enter total score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "youtube_priority",
+          "label": "YouTube - Priority",
+          "type": "select",
+          "placeholder": "Enter priority",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "pinterest_audience_fit_15",
+          "label": "Pinterest - Audience Fit\n(1-5)",
+          "type": "scale",
+          "placeholder": "Enter audience fit\n(1-5)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "pinterest_content_fit_15",
+          "label": "Pinterest - Content Fit\n(1-5)",
+          "type": "scale",
+          "placeholder": "Enter content fit\n(1-5)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "pinterest_resource_req_15",
+          "label": "Pinterest - Resource Req.\n(1-5)",
+          "type": "scale",
+          "placeholder": "Enter resource req.\n(1-5)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "pinterest_competitor_presence_15",
+          "label": "Pinterest - Competitor\nPresence (1-5)",
+          "type": "scale",
+          "placeholder": "Enter competitor\npresence (1-5)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "pinterest_growth_potential_15",
+          "label": "Pinterest - Growth\nPotential (1-5)",
+          "type": "scale",
+          "placeholder": "Enter growth\npotential (1-5)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "pinterest_current_followers",
+          "label": "Pinterest - Current\nFollowers",
+          "type": "text",
+          "placeholder": "Enter current\nfollowers",
+          "required": false
+        },
+        {
+          "id": "pinterest_total_score",
+          "label": "Pinterest - Total Score",
+          "type": "scale",
+          "placeholder": "Enter total score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "pinterest_priority",
+          "label": "Pinterest - Priority",
+          "type": "select",
+          "placeholder": "Enter priority",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "other_audience_fit_15",
+          "label": "Other - Audience Fit\n(1-5)",
+          "type": "scale",
+          "placeholder": "Enter audience fit\n(1-5)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "other_content_fit_15",
+          "label": "Other - Content Fit\n(1-5)",
+          "type": "scale",
+          "placeholder": "Enter content fit\n(1-5)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "other_resource_req_15",
+          "label": "Other - Resource Req.\n(1-5)",
+          "type": "scale",
+          "placeholder": "Enter resource req.\n(1-5)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "other_competitor_presence_15",
+          "label": "Other - Competitor\nPresence (1-5)",
+          "type": "scale",
+          "placeholder": "Enter competitor\npresence (1-5)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "other_growth_potential_15",
+          "label": "Other - Growth\nPotential (1-5)",
+          "type": "scale",
+          "placeholder": "Enter growth\npotential (1-5)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "other_current_followers",
+          "label": "Other - Current\nFollowers",
+          "type": "text",
+          "placeholder": "Enter current\nfollowers",
+          "required": false
+        },
+        {
+          "id": "other_total_score",
+          "label": "Other - Total Score",
+          "type": "scale",
+          "placeholder": "Enter total score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "other_priority",
+          "label": "Other - Priority",
+          "type": "select",
+          "placeholder": "Enter priority",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "content_mix",
+      "title": "Content Mix",
+      "description": "Enter data for each item",
+      "fields": [
+        {
+          "id": "instagram_content_types",
+          "label": "Instagram - Content Types",
+          "type": "text",
+          "placeholder": "Enter content types",
+          "required": false
+        },
+        {
+          "id": "instagram_posts_week",
+          "label": "Instagram - Posts / Week",
+          "type": "text",
+          "placeholder": "Enter posts / week",
+          "required": false
+        },
+        {
+          "id": "instagram_best_days",
+          "label": "Instagram - Best Days",
+          "type": "text",
+          "placeholder": "Enter best days",
+          "required": false
+        },
+        {
+          "id": "instagram_best_times",
+          "label": "Instagram - Best Times",
+          "type": "text",
+          "placeholder": "Enter best times",
+          "required": false
+        },
+        {
+          "id": "instagram_primary_pillar",
+          "label": "Instagram - Primary Pillar",
+          "type": "text",
+          "placeholder": "Enter primary pillar",
+          "required": false
+        },
+        {
+          "id": "instagram_content_ratio",
+          "label": "Instagram - Content Ratio",
+          "type": "text",
+          "placeholder": "Enter content ratio",
+          "required": false
+        },
+        {
+          "id": "instagram_notes",
+          "label": "Instagram - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "linkedin_content_types",
+          "label": "LinkedIn - Content Types",
+          "type": "text",
+          "placeholder": "Enter content types",
+          "required": false
+        },
+        {
+          "id": "linkedin_posts_week",
+          "label": "LinkedIn - Posts / Week",
+          "type": "text",
+          "placeholder": "Enter posts / week",
+          "required": false
+        },
+        {
+          "id": "linkedin_best_days",
+          "label": "LinkedIn - Best Days",
+          "type": "text",
+          "placeholder": "Enter best days",
+          "required": false
+        },
+        {
+          "id": "linkedin_best_times",
+          "label": "LinkedIn - Best Times",
+          "type": "text",
+          "placeholder": "Enter best times",
+          "required": false
+        },
+        {
+          "id": "linkedin_primary_pillar",
+          "label": "LinkedIn - Primary Pillar",
+          "type": "text",
+          "placeholder": "Enter primary pillar",
+          "required": false
+        },
+        {
+          "id": "linkedin_content_ratio",
+          "label": "LinkedIn - Content Ratio",
+          "type": "text",
+          "placeholder": "Enter content ratio",
+          "required": false
+        },
+        {
+          "id": "linkedin_notes",
+          "label": "LinkedIn - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "facebook_content_types",
+          "label": "Facebook - Content Types",
+          "type": "text",
+          "placeholder": "Enter content types",
+          "required": false
+        },
+        {
+          "id": "facebook_posts_week",
+          "label": "Facebook - Posts / Week",
+          "type": "text",
+          "placeholder": "Enter posts / week",
+          "required": false
+        },
+        {
+          "id": "facebook_best_days",
+          "label": "Facebook - Best Days",
+          "type": "text",
+          "placeholder": "Enter best days",
+          "required": false
+        },
+        {
+          "id": "facebook_best_times",
+          "label": "Facebook - Best Times",
+          "type": "text",
+          "placeholder": "Enter best times",
+          "required": false
+        },
+        {
+          "id": "facebook_primary_pillar",
+          "label": "Facebook - Primary Pillar",
+          "type": "text",
+          "placeholder": "Enter primary pillar",
+          "required": false
+        },
+        {
+          "id": "facebook_content_ratio",
+          "label": "Facebook - Content Ratio",
+          "type": "text",
+          "placeholder": "Enter content ratio",
+          "required": false
+        },
+        {
+          "id": "facebook_notes",
+          "label": "Facebook - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "tiktok_content_types",
+          "label": "TikTok - Content Types",
+          "type": "text",
+          "placeholder": "Enter content types",
+          "required": false
+        },
+        {
+          "id": "tiktok_posts_week",
+          "label": "TikTok - Posts / Week",
+          "type": "text",
+          "placeholder": "Enter posts / week",
+          "required": false
+        },
+        {
+          "id": "tiktok_best_days",
+          "label": "TikTok - Best Days",
+          "type": "text",
+          "placeholder": "Enter best days",
+          "required": false
+        },
+        {
+          "id": "tiktok_best_times",
+          "label": "TikTok - Best Times",
+          "type": "text",
+          "placeholder": "Enter best times",
+          "required": false
+        },
+        {
+          "id": "tiktok_primary_pillar",
+          "label": "TikTok - Primary Pillar",
+          "type": "text",
+          "placeholder": "Enter primary pillar",
+          "required": false
+        },
+        {
+          "id": "tiktok_content_ratio",
+          "label": "TikTok - Content Ratio",
+          "type": "text",
+          "placeholder": "Enter content ratio",
+          "required": false
+        },
+        {
+          "id": "tiktok_notes",
+          "label": "TikTok - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "x_twitter_content_types",
+          "label": "X (Twitter) - Content Types",
+          "type": "text",
+          "placeholder": "Enter content types",
+          "required": false
+        },
+        {
+          "id": "x_twitter_posts_week",
+          "label": "X (Twitter) - Posts / Week",
+          "type": "text",
+          "placeholder": "Enter posts / week",
+          "required": false
+        },
+        {
+          "id": "x_twitter_best_days",
+          "label": "X (Twitter) - Best Days",
+          "type": "text",
+          "placeholder": "Enter best days",
+          "required": false
+        },
+        {
+          "id": "x_twitter_best_times",
+          "label": "X (Twitter) - Best Times",
+          "type": "text",
+          "placeholder": "Enter best times",
+          "required": false
+        },
+        {
+          "id": "x_twitter_primary_pillar",
+          "label": "X (Twitter) - Primary Pillar",
+          "type": "text",
+          "placeholder": "Enter primary pillar",
+          "required": false
+        },
+        {
+          "id": "x_twitter_content_ratio",
+          "label": "X (Twitter) - Content Ratio",
+          "type": "text",
+          "placeholder": "Enter content ratio",
+          "required": false
+        },
+        {
+          "id": "x_twitter_notes",
+          "label": "X (Twitter) - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "youtube_content_types",
+          "label": "YouTube - Content Types",
+          "type": "text",
+          "placeholder": "Enter content types",
+          "required": false
+        },
+        {
+          "id": "youtube_posts_week",
+          "label": "YouTube - Posts / Week",
+          "type": "text",
+          "placeholder": "Enter posts / week",
+          "required": false
+        },
+        {
+          "id": "youtube_best_days",
+          "label": "YouTube - Best Days",
+          "type": "text",
+          "placeholder": "Enter best days",
+          "required": false
+        },
+        {
+          "id": "youtube_best_times",
+          "label": "YouTube - Best Times",
+          "type": "text",
+          "placeholder": "Enter best times",
+          "required": false
+        },
+        {
+          "id": "youtube_primary_pillar",
+          "label": "YouTube - Primary Pillar",
+          "type": "text",
+          "placeholder": "Enter primary pillar",
+          "required": false
+        },
+        {
+          "id": "youtube_content_ratio",
+          "label": "YouTube - Content Ratio",
+          "type": "text",
+          "placeholder": "Enter content ratio",
+          "required": false
+        },
+        {
+          "id": "youtube_notes",
+          "label": "YouTube - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "pinterest_content_types",
+          "label": "Pinterest - Content Types",
+          "type": "text",
+          "placeholder": "Enter content types",
+          "required": false
+        },
+        {
+          "id": "pinterest_posts_week",
+          "label": "Pinterest - Posts / Week",
+          "type": "text",
+          "placeholder": "Enter posts / week",
+          "required": false
+        },
+        {
+          "id": "pinterest_best_days",
+          "label": "Pinterest - Best Days",
+          "type": "text",
+          "placeholder": "Enter best days",
+          "required": false
+        },
+        {
+          "id": "pinterest_best_times",
+          "label": "Pinterest - Best Times",
+          "type": "text",
+          "placeholder": "Enter best times",
+          "required": false
+        },
+        {
+          "id": "pinterest_primary_pillar",
+          "label": "Pinterest - Primary Pillar",
+          "type": "text",
+          "placeholder": "Enter primary pillar",
+          "required": false
+        },
+        {
+          "id": "pinterest_content_ratio",
+          "label": "Pinterest - Content Ratio",
+          "type": "text",
+          "placeholder": "Enter content ratio",
+          "required": false
+        },
+        {
+          "id": "pinterest_notes",
+          "label": "Pinterest - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "other_content_types",
+          "label": "Other - Content Types",
+          "type": "text",
+          "placeholder": "Enter content types",
+          "required": false
+        },
+        {
+          "id": "other_posts_week",
+          "label": "Other - Posts / Week",
+          "type": "text",
+          "placeholder": "Enter posts / week",
+          "required": false
+        },
+        {
+          "id": "other_best_days",
+          "label": "Other - Best Days",
+          "type": "text",
+          "placeholder": "Enter best days",
+          "required": false
+        },
+        {
+          "id": "other_best_times",
+          "label": "Other - Best Times",
+          "type": "text",
+          "placeholder": "Enter best times",
+          "required": false
+        },
+        {
+          "id": "other_primary_pillar",
+          "label": "Other - Primary Pillar",
+          "type": "text",
+          "placeholder": "Enter primary pillar",
+          "required": false
+        },
+        {
+          "id": "other_content_ratio",
+          "label": "Other - Content Ratio",
+          "type": "text",
+          "placeholder": "Enter content ratio",
+          "required": false
+        },
+        {
+          "id": "other_notes",
+          "label": "Other - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "content_ratio_guide_content_types",
+          "label": "CONTENT RATIO GUIDE - Content Types",
+          "type": "text",
+          "placeholder": "Enter content types",
+          "required": false
+        },
+        {
+          "id": "content_ratio_guide_posts_week",
+          "label": "CONTENT RATIO GUIDE - Posts / Week",
+          "type": "text",
+          "placeholder": "Enter posts / week",
+          "required": false
+        },
+        {
+          "id": "content_ratio_guide_best_days",
+          "label": "CONTENT RATIO GUIDE - Best Days",
+          "type": "text",
+          "placeholder": "Enter best days",
+          "required": false
+        },
+        {
+          "id": "content_ratio_guide_best_times",
+          "label": "CONTENT RATIO GUIDE - Best Times",
+          "type": "text",
+          "placeholder": "Enter best times",
+          "required": false
+        },
+        {
+          "id": "content_ratio_guide_primary_pillar",
+          "label": "CONTENT RATIO GUIDE - Primary Pillar",
+          "type": "text",
+          "placeholder": "Enter primary pillar",
+          "required": false
+        },
+        {
+          "id": "content_ratio_guide_content_ratio",
+          "label": "CONTENT RATIO GUIDE - Content Ratio",
+          "type": "text",
+          "placeholder": "Enter content ratio",
+          "required": false
+        },
+        {
+          "id": "content_ratio_guide_notes",
+          "label": "CONTENT RATIO GUIDE - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "the_8020_rule_content_types",
+          "label": "The 80/20 Rule - Content Types",
+          "type": "text",
+          "placeholder": "Enter content types",
+          "required": false
+        },
+        {
+          "id": "the_8020_rule_posts_week",
+          "label": "The 80/20 Rule - Posts / Week",
+          "type": "text",
+          "placeholder": "Enter posts / week",
+          "required": false
+        },
+        {
+          "id": "the_8020_rule_best_days",
+          "label": "The 80/20 Rule - Best Days",
+          "type": "text",
+          "placeholder": "Enter best days",
+          "required": false
+        },
+        {
+          "id": "the_8020_rule_best_times",
+          "label": "The 80/20 Rule - Best Times",
+          "type": "text",
+          "placeholder": "Enter best times",
+          "required": false
+        },
+        {
+          "id": "the_8020_rule_primary_pillar",
+          "label": "The 80/20 Rule - Primary Pillar",
+          "type": "text",
+          "placeholder": "Enter primary pillar",
+          "required": false
+        },
+        {
+          "id": "the_8020_rule_content_ratio",
+          "label": "The 80/20 Rule - Content Ratio",
+          "type": "text",
+          "placeholder": "Enter content ratio",
+          "required": false
+        },
+        {
+          "id": "the_8020_rule_notes",
+          "label": "The 80/20 Rule - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "the_411_rule_content_types",
+          "label": "The 4-1-1 Rule - Content Types",
+          "type": "text",
+          "placeholder": "Enter content types",
+          "required": false
+        },
+        {
+          "id": "the_411_rule_posts_week",
+          "label": "The 4-1-1 Rule - Posts / Week",
+          "type": "text",
+          "placeholder": "Enter posts / week",
+          "required": false
+        },
+        {
+          "id": "the_411_rule_best_days",
+          "label": "The 4-1-1 Rule - Best Days",
+          "type": "text",
+          "placeholder": "Enter best days",
+          "required": false
+        },
+        {
+          "id": "the_411_rule_best_times",
+          "label": "The 4-1-1 Rule - Best Times",
+          "type": "text",
+          "placeholder": "Enter best times",
+          "required": false
+        },
+        {
+          "id": "the_411_rule_primary_pillar",
+          "label": "The 4-1-1 Rule - Primary Pillar",
+          "type": "text",
+          "placeholder": "Enter primary pillar",
+          "required": false
+        },
+        {
+          "id": "the_411_rule_content_ratio",
+          "label": "The 4-1-1 Rule - Content Ratio",
+          "type": "text",
+          "placeholder": "Enter content ratio",
+          "required": false
+        },
+        {
+          "id": "the_411_rule_notes",
+          "label": "The 4-1-1 Rule - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "the_rule_of_thirds_content_types",
+          "label": "The Rule of Thirds - Content Types",
+          "type": "text",
+          "placeholder": "Enter content types",
+          "required": false
+        },
+        {
+          "id": "the_rule_of_thirds_posts_week",
+          "label": "The Rule of Thirds - Posts / Week",
+          "type": "text",
+          "placeholder": "Enter posts / week",
+          "required": false
+        },
+        {
+          "id": "the_rule_of_thirds_best_days",
+          "label": "The Rule of Thirds - Best Days",
+          "type": "text",
+          "placeholder": "Enter best days",
+          "required": false
+        },
+        {
+          "id": "the_rule_of_thirds_best_times",
+          "label": "The Rule of Thirds - Best Times",
+          "type": "text",
+          "placeholder": "Enter best times",
+          "required": false
+        },
+        {
+          "id": "the_rule_of_thirds_primary_pillar",
+          "label": "The Rule of Thirds - Primary Pillar",
+          "type": "text",
+          "placeholder": "Enter primary pillar",
+          "required": false
+        },
+        {
+          "id": "the_rule_of_thirds_content_ratio",
+          "label": "The Rule of Thirds - Content Ratio",
+          "type": "text",
+          "placeholder": "Enter content ratio",
+          "required": false
+        },
+        {
+          "id": "the_rule_of_thirds_notes",
+          "label": "The Rule of Thirds - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "the_702010_rule_content_types",
+          "label": "The 70/20/10 Rule - Content Types",
+          "type": "text",
+          "placeholder": "Enter content types",
+          "required": false
+        },
+        {
+          "id": "the_702010_rule_posts_week",
+          "label": "The 70/20/10 Rule - Posts / Week",
+          "type": "text",
+          "placeholder": "Enter posts / week",
+          "required": false
+        },
+        {
+          "id": "the_702010_rule_best_days",
+          "label": "The 70/20/10 Rule - Best Days",
+          "type": "text",
+          "placeholder": "Enter best days",
+          "required": false
+        },
+        {
+          "id": "the_702010_rule_best_times",
+          "label": "The 70/20/10 Rule - Best Times",
+          "type": "text",
+          "placeholder": "Enter best times",
+          "required": false
+        },
+        {
+          "id": "the_702010_rule_primary_pillar",
+          "label": "The 70/20/10 Rule - Primary Pillar",
+          "type": "text",
+          "placeholder": "Enter primary pillar",
+          "required": false
+        },
+        {
+          "id": "the_702010_rule_content_ratio",
+          "label": "The 70/20/10 Rule - Content Ratio",
+          "type": "text",
+          "placeholder": "Enter content ratio",
+          "required": false
+        },
+        {
+          "id": "the_702010_rule_notes",
+          "label": "The 70/20/10 Rule - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "performance_tracker",
+      "title": "Performance Tracker",
+      "description": "Add entries below. Each entry has the following fields.",
+      "fields": [
+        {
+          "id": "entry_date",
+          "label": "Date",
+          "type": "text",
+          "placeholder": "Enter date",
+          "required": false
+        },
+        {
+          "id": "entry_platform",
+          "label": "Platform",
+          "type": "text",
+          "placeholder": "Enter platform",
+          "required": false
+        },
+        {
+          "id": "entry_content_type",
+          "label": "Content Type",
+          "type": "select",
+          "placeholder": "Enter content type",
+          "required": false,
+          "options": [
+            "Blog Post",
+            "Video",
+            "Infographic",
+            "Case Study",
+            "Whitepaper",
+            "Newsletter",
+            "Social Post",
+            "Webinar"
+          ]
+        },
+        {
+          "id": "entry_reach",
+          "label": "Reach",
+          "type": "text",
+          "placeholder": "Enter reach",
+          "required": false
+        },
+        {
+          "id": "entry_engagement",
+          "label": "Engagement",
+          "type": "text",
+          "placeholder": "Enter engagement",
+          "required": false
+        },
+        {
+          "id": "entry_eng_rate",
+          "label": "Eng. Rate",
+          "type": "number",
+          "placeholder": "Enter eng. rate",
+          "required": false
+        },
+        {
+          "id": "entry_new_followers",
+          "label": "New Followers",
+          "type": "number",
+          "placeholder": "Enter new followers",
+          "required": false
+        },
+        {
+          "id": "entry_link_clicks",
+          "label": "Link Clicks",
+          "type": "number",
+          "placeholder": "Enter link clicks",
+          "required": false
+        },
+        {
+          "id": "entry_post_topic_description",
+          "label": "Post Topic / Description",
+          "type": "textarea",
+          "placeholder": "Enter post topic / description",
+          "required": false
+        },
+        {
+          "id": "entry_top_performer",
+          "label": "Top Performer?",
+          "type": "text",
+          "placeholder": "Enter top performer?",
+          "required": false
+        }
+      ]
+    }
+  ]
 }

@@ -10,498 +10,6 @@
     "analytics"
   ],
   "estimatedTime": "55 min",
-  "sections": [
-    {
-      "id": "dashboard",
-      "title": "Dashboard",
-      "description": "Complete the Dashboard section",
-      "fields": [
-        {
-          "id": "mqls_0",
-          "label": "MQLs",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "sqls_1",
-          "label": "SQLs",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "opportunities_2",
-          "label": "Opportunities",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "customers_3",
-          "label": "Customers",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "overall_conv_4",
-          "label": "Overall Conv",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "stage_by_stage_conversion_ytd_average_5",
-          "label": "STAGE-BY-STAGE CONVERSION (YTD Average)",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "conversion_6",
-          "label": "Conversion",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "rate_7",
-          "label": "Rate",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "ytd_volume_in_8",
-          "label": "YTD Volume In",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "ytd_volume_out_9",
-          "label": "YTD Volume Out",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "drop_off_10",
-          "label": "Drop-off",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "visitor_lead_11",
-          "label": "Visitor→Lead",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "lead_mql_12",
-          "label": "Lead→MQL",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "mql_sql_13",
-          "label": "MQL→SQL",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "sql_opp_14",
-          "label": "SQL→Opp",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "opp_customer_15",
-          "label": "Opp→Customer",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "actual_vs_target_ytd_16",
-          "label": "ACTUAL vs TARGET (YTD)",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "stage_17",
-          "label": "Stage",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "ytd_actual_18",
-          "label": "YTD Actual",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "ytd_target_19",
-          "label": "YTD Target",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "variance_20",
-          "label": "Variance",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "of_target_21",
-          "label": "% of Target",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "visitors_22",
-          "label": "Visitors",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "leads_23",
-          "label": "Leads",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "mqls_24",
-          "label": "MQLs",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "sqls_25",
-          "label": "SQLs",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "opportunities_26",
-          "label": "Opportunities",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "customers_27",
-          "label": "Customers",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "funnel_health_indicators_28",
-          "label": "FUNNEL HEALTH INDICATORS",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "biggest_drop_off_stage_29",
-          "label": "Biggest Drop-off Stage",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "monthly_funnel",
-      "title": "Monthly Funnel",
-      "description": "Complete the Monthly Funnel section",
-      "fields": [
-        {
-          "id": "visitors_0",
-          "label": "Visitors",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "leads_1",
-          "label": "Leads",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "mqls_2",
-          "label": "MQLs",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "sqls_3",
-          "label": "SQLs",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "opportunities_4",
-          "label": "Opportunities",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "customers_5",
-          "label": "Customers",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "revenue_6",
-          "label": "Revenue",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "conversion_rates_auto_calculated_7",
-          "label": "CONVERSION RATES (auto-calculated)",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "conversion_8",
-          "label": "Conversion",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "visitor_lead_9",
-          "label": "Visitor→Lead",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "lead_mql_10",
-          "label": "Lead→MQL",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "mql_sql_11",
-          "label": "MQL→SQL",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "sql_opp_12",
-          "label": "SQL→Opp",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "opp_customer_13",
-          "label": "Opp→Customer",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "overall_v_c_14",
-          "label": "Overall (V→C)",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "drop_off_volumes_auto_calculated_leads_l_15",
-          "label": "DROP-OFF VOLUMES (auto-calculated — leads lost at each stage)",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "drop_off_stage_16",
-          "label": "Drop-off Stage",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "visitor_lead_lost_17",
-          "label": "Visitor→Lead Lost",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "lead_mql_lost_18",
-          "label": "Lead→MQL Lost",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "mql_sql_lost_19",
-          "label": "MQL→SQL Lost",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "sql_opp_lost_20",
-          "label": "SQL→Opp Lost",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "opp_customer_lost_21",
-          "label": "Opp→Customer Lost",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "funnel_targets",
-      "title": "Funnel Targets",
-      "description": "Complete the Funnel Targets section",
-      "fields": [
-        {
-          "id": "visitors_0",
-          "label": "Visitors",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "leads_1",
-          "label": "Leads",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "mqls_2",
-          "label": "MQLs",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "sqls_3",
-          "label": "SQLs",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "opportunities_4",
-          "label": "Opportunities",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "customers_5",
-          "label": "Customers",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "target_conversion_rates_6",
-          "label": "TARGET CONVERSION RATES",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "conversion_7",
-          "label": "Conversion",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "visitor_lead_8",
-          "label": "Visitor→Lead",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "lead_mql_9",
-          "label": "Lead→MQL",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "mql_sql_10",
-          "label": "MQL→SQL",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "sql_opp_11",
-          "label": "SQL→Opp",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "opp_customer_12",
-          "label": "Opp→Customer",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "channel_funnel",
-      "title": "Channel Funnel",
-      "description": "Complete the Channel Funnel section",
-      "fields": [
-        {
-          "id": "lead_conv_0",
-          "label": "Lead Conv",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    }
-  ],
   "dashboard": {
     "metrics": [
       {
@@ -530,5 +38,2389 @@
         "format": "number"
       }
     ]
-  }
+  },
+  "sections": [
+    {
+      "id": "dashboard",
+      "title": "Dashboard",
+      "description": "Auto-calculated summary of your data. Complete the working sections to see results here.",
+      "readOnly": true,
+      "fields": [
+        {
+          "id": "dashboard_overview",
+          "label": "Dashboard Overview",
+          "type": "textarea",
+          "placeholder": "Dashboard metrics will be calculated from your inputs in the working sections",
+          "required": false,
+          "readOnly": true
+        }
+      ]
+    },
+    {
+      "id": "monthly_funnel",
+      "title": "Monthly Funnel",
+      "description": "Enter values for each category",
+      "fields": [
+        {
+          "id": "visitorlead_jan",
+          "label": "Visitor→Lead - Jan",
+          "type": "number",
+          "placeholder": "Enter jan value",
+          "required": false
+        },
+        {
+          "id": "visitorlead_feb",
+          "label": "Visitor→Lead - Feb",
+          "type": "number",
+          "placeholder": "Enter feb value",
+          "required": false
+        },
+        {
+          "id": "visitorlead_mar",
+          "label": "Visitor→Lead - Mar",
+          "type": "number",
+          "placeholder": "Enter mar value",
+          "required": false
+        },
+        {
+          "id": "visitorlead_apr",
+          "label": "Visitor→Lead - Apr",
+          "type": "number",
+          "placeholder": "Enter apr value",
+          "required": false
+        },
+        {
+          "id": "visitorlead_may",
+          "label": "Visitor→Lead - May",
+          "type": "number",
+          "placeholder": "Enter may value",
+          "required": false
+        },
+        {
+          "id": "visitorlead_jun",
+          "label": "Visitor→Lead - Jun",
+          "type": "number",
+          "placeholder": "Enter jun value",
+          "required": false
+        },
+        {
+          "id": "visitorlead_jul",
+          "label": "Visitor→Lead - Jul",
+          "type": "number",
+          "placeholder": "Enter jul value",
+          "required": false
+        },
+        {
+          "id": "visitorlead_aug",
+          "label": "Visitor→Lead - Aug",
+          "type": "number",
+          "placeholder": "Enter aug value",
+          "required": false
+        },
+        {
+          "id": "visitorlead_sep",
+          "label": "Visitor→Lead - Sep",
+          "type": "number",
+          "placeholder": "Enter sep value",
+          "required": false
+        },
+        {
+          "id": "visitorlead_oct",
+          "label": "Visitor→Lead - Oct",
+          "type": "number",
+          "placeholder": "Enter oct value",
+          "required": false
+        },
+        {
+          "id": "visitorlead_nov",
+          "label": "Visitor→Lead - Nov",
+          "type": "number",
+          "placeholder": "Enter nov value",
+          "required": false
+        },
+        {
+          "id": "visitorlead_dec",
+          "label": "Visitor→Lead - Dec",
+          "type": "number",
+          "placeholder": "Enter dec value",
+          "required": false
+        },
+        {
+          "id": "leadmql_jan",
+          "label": "Lead→MQL - Jan",
+          "type": "number",
+          "placeholder": "Enter jan value",
+          "required": false
+        },
+        {
+          "id": "leadmql_feb",
+          "label": "Lead→MQL - Feb",
+          "type": "number",
+          "placeholder": "Enter feb value",
+          "required": false
+        },
+        {
+          "id": "leadmql_mar",
+          "label": "Lead→MQL - Mar",
+          "type": "number",
+          "placeholder": "Enter mar value",
+          "required": false
+        },
+        {
+          "id": "leadmql_apr",
+          "label": "Lead→MQL - Apr",
+          "type": "number",
+          "placeholder": "Enter apr value",
+          "required": false
+        },
+        {
+          "id": "leadmql_may",
+          "label": "Lead→MQL - May",
+          "type": "number",
+          "placeholder": "Enter may value",
+          "required": false
+        },
+        {
+          "id": "leadmql_jun",
+          "label": "Lead→MQL - Jun",
+          "type": "number",
+          "placeholder": "Enter jun value",
+          "required": false
+        },
+        {
+          "id": "leadmql_jul",
+          "label": "Lead→MQL - Jul",
+          "type": "number",
+          "placeholder": "Enter jul value",
+          "required": false
+        },
+        {
+          "id": "leadmql_aug",
+          "label": "Lead→MQL - Aug",
+          "type": "number",
+          "placeholder": "Enter aug value",
+          "required": false
+        },
+        {
+          "id": "leadmql_sep",
+          "label": "Lead→MQL - Sep",
+          "type": "number",
+          "placeholder": "Enter sep value",
+          "required": false
+        },
+        {
+          "id": "leadmql_oct",
+          "label": "Lead→MQL - Oct",
+          "type": "number",
+          "placeholder": "Enter oct value",
+          "required": false
+        },
+        {
+          "id": "leadmql_nov",
+          "label": "Lead→MQL - Nov",
+          "type": "number",
+          "placeholder": "Enter nov value",
+          "required": false
+        },
+        {
+          "id": "leadmql_dec",
+          "label": "Lead→MQL - Dec",
+          "type": "number",
+          "placeholder": "Enter dec value",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "mqlsql",
+      "title": "Mql→Sql",
+      "description": "[Monthly Funnel] Enter monthly values for Mql→Sql",
+      "fields": [
+        {
+          "id": "sqlopp_jan",
+          "label": "SQL→Opp - Jan",
+          "type": "number",
+          "placeholder": "Enter jan value",
+          "required": false
+        },
+        {
+          "id": "sqlopp_feb",
+          "label": "SQL→Opp - Feb",
+          "type": "number",
+          "placeholder": "Enter feb value",
+          "required": false
+        },
+        {
+          "id": "sqlopp_mar",
+          "label": "SQL→Opp - Mar",
+          "type": "number",
+          "placeholder": "Enter mar value",
+          "required": false
+        },
+        {
+          "id": "sqlopp_apr",
+          "label": "SQL→Opp - Apr",
+          "type": "number",
+          "placeholder": "Enter apr value",
+          "required": false
+        },
+        {
+          "id": "sqlopp_may",
+          "label": "SQL→Opp - May",
+          "type": "number",
+          "placeholder": "Enter may value",
+          "required": false
+        },
+        {
+          "id": "sqlopp_jun",
+          "label": "SQL→Opp - Jun",
+          "type": "number",
+          "placeholder": "Enter jun value",
+          "required": false
+        },
+        {
+          "id": "sqlopp_jul",
+          "label": "SQL→Opp - Jul",
+          "type": "number",
+          "placeholder": "Enter jul value",
+          "required": false
+        },
+        {
+          "id": "sqlopp_aug",
+          "label": "SQL→Opp - Aug",
+          "type": "number",
+          "placeholder": "Enter aug value",
+          "required": false
+        },
+        {
+          "id": "sqlopp_sep",
+          "label": "SQL→Opp - Sep",
+          "type": "number",
+          "placeholder": "Enter sep value",
+          "required": false
+        },
+        {
+          "id": "sqlopp_oct",
+          "label": "SQL→Opp - Oct",
+          "type": "number",
+          "placeholder": "Enter oct value",
+          "required": false
+        },
+        {
+          "id": "sqlopp_nov",
+          "label": "SQL→Opp - Nov",
+          "type": "number",
+          "placeholder": "Enter nov value",
+          "required": false
+        },
+        {
+          "id": "sqlopp_dec",
+          "label": "SQL→Opp - Dec",
+          "type": "number",
+          "placeholder": "Enter dec value",
+          "required": false
+        },
+        {
+          "id": "oppcustomer_jan",
+          "label": "Opp→Customer - Jan",
+          "type": "number",
+          "placeholder": "Enter jan value",
+          "required": false
+        },
+        {
+          "id": "oppcustomer_feb",
+          "label": "Opp→Customer - Feb",
+          "type": "number",
+          "placeholder": "Enter feb value",
+          "required": false
+        },
+        {
+          "id": "oppcustomer_mar",
+          "label": "Opp→Customer - Mar",
+          "type": "number",
+          "placeholder": "Enter mar value",
+          "required": false
+        },
+        {
+          "id": "oppcustomer_apr",
+          "label": "Opp→Customer - Apr",
+          "type": "number",
+          "placeholder": "Enter apr value",
+          "required": false
+        },
+        {
+          "id": "oppcustomer_may",
+          "label": "Opp→Customer - May",
+          "type": "number",
+          "placeholder": "Enter may value",
+          "required": false
+        },
+        {
+          "id": "oppcustomer_jun",
+          "label": "Opp→Customer - Jun",
+          "type": "number",
+          "placeholder": "Enter jun value",
+          "required": false
+        },
+        {
+          "id": "oppcustomer_jul",
+          "label": "Opp→Customer - Jul",
+          "type": "number",
+          "placeholder": "Enter jul value",
+          "required": false
+        },
+        {
+          "id": "oppcustomer_aug",
+          "label": "Opp→Customer - Aug",
+          "type": "number",
+          "placeholder": "Enter aug value",
+          "required": false
+        },
+        {
+          "id": "oppcustomer_sep",
+          "label": "Opp→Customer - Sep",
+          "type": "number",
+          "placeholder": "Enter sep value",
+          "required": false
+        },
+        {
+          "id": "oppcustomer_oct",
+          "label": "Opp→Customer - Oct",
+          "type": "number",
+          "placeholder": "Enter oct value",
+          "required": false
+        },
+        {
+          "id": "oppcustomer_nov",
+          "label": "Opp→Customer - Nov",
+          "type": "number",
+          "placeholder": "Enter nov value",
+          "required": false
+        },
+        {
+          "id": "oppcustomer_dec",
+          "label": "Opp→Customer - Dec",
+          "type": "number",
+          "placeholder": "Enter dec value",
+          "required": false
+        },
+        {
+          "id": "overall_vc_jan",
+          "label": "Overall (V→C) - Jan",
+          "type": "number",
+          "placeholder": "Enter jan value",
+          "required": false
+        },
+        {
+          "id": "overall_vc_feb",
+          "label": "Overall (V→C) - Feb",
+          "type": "number",
+          "placeholder": "Enter feb value",
+          "required": false
+        },
+        {
+          "id": "overall_vc_mar",
+          "label": "Overall (V→C) - Mar",
+          "type": "number",
+          "placeholder": "Enter mar value",
+          "required": false
+        },
+        {
+          "id": "overall_vc_apr",
+          "label": "Overall (V→C) - Apr",
+          "type": "number",
+          "placeholder": "Enter apr value",
+          "required": false
+        },
+        {
+          "id": "overall_vc_may",
+          "label": "Overall (V→C) - May",
+          "type": "number",
+          "placeholder": "Enter may value",
+          "required": false
+        },
+        {
+          "id": "overall_vc_jun",
+          "label": "Overall (V→C) - Jun",
+          "type": "number",
+          "placeholder": "Enter jun value",
+          "required": false
+        },
+        {
+          "id": "overall_vc_jul",
+          "label": "Overall (V→C) - Jul",
+          "type": "number",
+          "placeholder": "Enter jul value",
+          "required": false
+        },
+        {
+          "id": "overall_vc_aug",
+          "label": "Overall (V→C) - Aug",
+          "type": "number",
+          "placeholder": "Enter aug value",
+          "required": false
+        },
+        {
+          "id": "overall_vc_sep",
+          "label": "Overall (V→C) - Sep",
+          "type": "number",
+          "placeholder": "Enter sep value",
+          "required": false
+        },
+        {
+          "id": "overall_vc_oct",
+          "label": "Overall (V→C) - Oct",
+          "type": "number",
+          "placeholder": "Enter oct value",
+          "required": false
+        },
+        {
+          "id": "overall_vc_nov",
+          "label": "Overall (V→C) - Nov",
+          "type": "number",
+          "placeholder": "Enter nov value",
+          "required": false
+        },
+        {
+          "id": "overall_vc_dec",
+          "label": "Overall (V→C) - Dec",
+          "type": "number",
+          "placeholder": "Enter dec value",
+          "required": false
+        },
+        {
+          "id": "visitorlead_lost_jan",
+          "label": "Visitor→Lead Lost - Jan",
+          "type": "number",
+          "placeholder": "Enter jan value",
+          "required": false
+        },
+        {
+          "id": "visitorlead_lost_feb",
+          "label": "Visitor→Lead Lost - Feb",
+          "type": "number",
+          "placeholder": "Enter feb value",
+          "required": false
+        },
+        {
+          "id": "visitorlead_lost_mar",
+          "label": "Visitor→Lead Lost - Mar",
+          "type": "number",
+          "placeholder": "Enter mar value",
+          "required": false
+        },
+        {
+          "id": "visitorlead_lost_apr",
+          "label": "Visitor→Lead Lost - Apr",
+          "type": "number",
+          "placeholder": "Enter apr value",
+          "required": false
+        },
+        {
+          "id": "visitorlead_lost_may",
+          "label": "Visitor→Lead Lost - May",
+          "type": "number",
+          "placeholder": "Enter may value",
+          "required": false
+        },
+        {
+          "id": "visitorlead_lost_jun",
+          "label": "Visitor→Lead Lost - Jun",
+          "type": "number",
+          "placeholder": "Enter jun value",
+          "required": false
+        },
+        {
+          "id": "visitorlead_lost_jul",
+          "label": "Visitor→Lead Lost - Jul",
+          "type": "number",
+          "placeholder": "Enter jul value",
+          "required": false
+        },
+        {
+          "id": "visitorlead_lost_aug",
+          "label": "Visitor→Lead Lost - Aug",
+          "type": "number",
+          "placeholder": "Enter aug value",
+          "required": false
+        },
+        {
+          "id": "visitorlead_lost_sep",
+          "label": "Visitor→Lead Lost - Sep",
+          "type": "number",
+          "placeholder": "Enter sep value",
+          "required": false
+        },
+        {
+          "id": "visitorlead_lost_oct",
+          "label": "Visitor→Lead Lost - Oct",
+          "type": "number",
+          "placeholder": "Enter oct value",
+          "required": false
+        },
+        {
+          "id": "visitorlead_lost_nov",
+          "label": "Visitor→Lead Lost - Nov",
+          "type": "number",
+          "placeholder": "Enter nov value",
+          "required": false
+        },
+        {
+          "id": "visitorlead_lost_dec",
+          "label": "Visitor→Lead Lost - Dec",
+          "type": "number",
+          "placeholder": "Enter dec value",
+          "required": false
+        },
+        {
+          "id": "leadmql_lost_jan",
+          "label": "Lead→MQL Lost - Jan",
+          "type": "number",
+          "placeholder": "Enter jan value",
+          "required": false
+        },
+        {
+          "id": "leadmql_lost_feb",
+          "label": "Lead→MQL Lost - Feb",
+          "type": "number",
+          "placeholder": "Enter feb value",
+          "required": false
+        },
+        {
+          "id": "leadmql_lost_mar",
+          "label": "Lead→MQL Lost - Mar",
+          "type": "number",
+          "placeholder": "Enter mar value",
+          "required": false
+        },
+        {
+          "id": "leadmql_lost_apr",
+          "label": "Lead→MQL Lost - Apr",
+          "type": "number",
+          "placeholder": "Enter apr value",
+          "required": false
+        },
+        {
+          "id": "leadmql_lost_may",
+          "label": "Lead→MQL Lost - May",
+          "type": "number",
+          "placeholder": "Enter may value",
+          "required": false
+        },
+        {
+          "id": "leadmql_lost_jun",
+          "label": "Lead→MQL Lost - Jun",
+          "type": "number",
+          "placeholder": "Enter jun value",
+          "required": false
+        },
+        {
+          "id": "leadmql_lost_jul",
+          "label": "Lead→MQL Lost - Jul",
+          "type": "number",
+          "placeholder": "Enter jul value",
+          "required": false
+        },
+        {
+          "id": "leadmql_lost_aug",
+          "label": "Lead→MQL Lost - Aug",
+          "type": "number",
+          "placeholder": "Enter aug value",
+          "required": false
+        },
+        {
+          "id": "leadmql_lost_sep",
+          "label": "Lead→MQL Lost - Sep",
+          "type": "number",
+          "placeholder": "Enter sep value",
+          "required": false
+        },
+        {
+          "id": "leadmql_lost_oct",
+          "label": "Lead→MQL Lost - Oct",
+          "type": "number",
+          "placeholder": "Enter oct value",
+          "required": false
+        },
+        {
+          "id": "leadmql_lost_nov",
+          "label": "Lead→MQL Lost - Nov",
+          "type": "number",
+          "placeholder": "Enter nov value",
+          "required": false
+        },
+        {
+          "id": "leadmql_lost_dec",
+          "label": "Lead→MQL Lost - Dec",
+          "type": "number",
+          "placeholder": "Enter dec value",
+          "required": false
+        },
+        {
+          "id": "mqlsql_lost_jan",
+          "label": "MQL→SQL Lost - Jan",
+          "type": "number",
+          "placeholder": "Enter jan value",
+          "required": false
+        },
+        {
+          "id": "mqlsql_lost_feb",
+          "label": "MQL→SQL Lost - Feb",
+          "type": "number",
+          "placeholder": "Enter feb value",
+          "required": false
+        },
+        {
+          "id": "mqlsql_lost_mar",
+          "label": "MQL→SQL Lost - Mar",
+          "type": "number",
+          "placeholder": "Enter mar value",
+          "required": false
+        },
+        {
+          "id": "mqlsql_lost_apr",
+          "label": "MQL→SQL Lost - Apr",
+          "type": "number",
+          "placeholder": "Enter apr value",
+          "required": false
+        },
+        {
+          "id": "mqlsql_lost_may",
+          "label": "MQL→SQL Lost - May",
+          "type": "number",
+          "placeholder": "Enter may value",
+          "required": false
+        },
+        {
+          "id": "mqlsql_lost_jun",
+          "label": "MQL→SQL Lost - Jun",
+          "type": "number",
+          "placeholder": "Enter jun value",
+          "required": false
+        },
+        {
+          "id": "mqlsql_lost_jul",
+          "label": "MQL→SQL Lost - Jul",
+          "type": "number",
+          "placeholder": "Enter jul value",
+          "required": false
+        },
+        {
+          "id": "mqlsql_lost_aug",
+          "label": "MQL→SQL Lost - Aug",
+          "type": "number",
+          "placeholder": "Enter aug value",
+          "required": false
+        },
+        {
+          "id": "mqlsql_lost_sep",
+          "label": "MQL→SQL Lost - Sep",
+          "type": "number",
+          "placeholder": "Enter sep value",
+          "required": false
+        },
+        {
+          "id": "mqlsql_lost_oct",
+          "label": "MQL→SQL Lost - Oct",
+          "type": "number",
+          "placeholder": "Enter oct value",
+          "required": false
+        },
+        {
+          "id": "mqlsql_lost_nov",
+          "label": "MQL→SQL Lost - Nov",
+          "type": "number",
+          "placeholder": "Enter nov value",
+          "required": false
+        },
+        {
+          "id": "mqlsql_lost_dec",
+          "label": "MQL→SQL Lost - Dec",
+          "type": "number",
+          "placeholder": "Enter dec value",
+          "required": false
+        },
+        {
+          "id": "sqlopp_lost_jan",
+          "label": "SQL→Opp Lost - Jan",
+          "type": "number",
+          "placeholder": "Enter jan value",
+          "required": false
+        },
+        {
+          "id": "sqlopp_lost_feb",
+          "label": "SQL→Opp Lost - Feb",
+          "type": "number",
+          "placeholder": "Enter feb value",
+          "required": false
+        },
+        {
+          "id": "sqlopp_lost_mar",
+          "label": "SQL→Opp Lost - Mar",
+          "type": "number",
+          "placeholder": "Enter mar value",
+          "required": false
+        },
+        {
+          "id": "sqlopp_lost_apr",
+          "label": "SQL→Opp Lost - Apr",
+          "type": "number",
+          "placeholder": "Enter apr value",
+          "required": false
+        },
+        {
+          "id": "sqlopp_lost_may",
+          "label": "SQL→Opp Lost - May",
+          "type": "number",
+          "placeholder": "Enter may value",
+          "required": false
+        },
+        {
+          "id": "sqlopp_lost_jun",
+          "label": "SQL→Opp Lost - Jun",
+          "type": "number",
+          "placeholder": "Enter jun value",
+          "required": false
+        },
+        {
+          "id": "sqlopp_lost_jul",
+          "label": "SQL→Opp Lost - Jul",
+          "type": "number",
+          "placeholder": "Enter jul value",
+          "required": false
+        },
+        {
+          "id": "sqlopp_lost_aug",
+          "label": "SQL→Opp Lost - Aug",
+          "type": "number",
+          "placeholder": "Enter aug value",
+          "required": false
+        },
+        {
+          "id": "sqlopp_lost_sep",
+          "label": "SQL→Opp Lost - Sep",
+          "type": "number",
+          "placeholder": "Enter sep value",
+          "required": false
+        },
+        {
+          "id": "sqlopp_lost_oct",
+          "label": "SQL→Opp Lost - Oct",
+          "type": "number",
+          "placeholder": "Enter oct value",
+          "required": false
+        },
+        {
+          "id": "sqlopp_lost_nov",
+          "label": "SQL→Opp Lost - Nov",
+          "type": "number",
+          "placeholder": "Enter nov value",
+          "required": false
+        },
+        {
+          "id": "sqlopp_lost_dec",
+          "label": "SQL→Opp Lost - Dec",
+          "type": "number",
+          "placeholder": "Enter dec value",
+          "required": false
+        },
+        {
+          "id": "oppcustomer_lost_jan",
+          "label": "Opp→Customer Lost - Jan",
+          "type": "number",
+          "placeholder": "Enter jan value",
+          "required": false
+        },
+        {
+          "id": "oppcustomer_lost_feb",
+          "label": "Opp→Customer Lost - Feb",
+          "type": "number",
+          "placeholder": "Enter feb value",
+          "required": false
+        },
+        {
+          "id": "oppcustomer_lost_mar",
+          "label": "Opp→Customer Lost - Mar",
+          "type": "number",
+          "placeholder": "Enter mar value",
+          "required": false
+        },
+        {
+          "id": "oppcustomer_lost_apr",
+          "label": "Opp→Customer Lost - Apr",
+          "type": "number",
+          "placeholder": "Enter apr value",
+          "required": false
+        },
+        {
+          "id": "oppcustomer_lost_may",
+          "label": "Opp→Customer Lost - May",
+          "type": "number",
+          "placeholder": "Enter may value",
+          "required": false
+        },
+        {
+          "id": "oppcustomer_lost_jun",
+          "label": "Opp→Customer Lost - Jun",
+          "type": "number",
+          "placeholder": "Enter jun value",
+          "required": false
+        },
+        {
+          "id": "oppcustomer_lost_jul",
+          "label": "Opp→Customer Lost - Jul",
+          "type": "number",
+          "placeholder": "Enter jul value",
+          "required": false
+        },
+        {
+          "id": "oppcustomer_lost_aug",
+          "label": "Opp→Customer Lost - Aug",
+          "type": "number",
+          "placeholder": "Enter aug value",
+          "required": false
+        },
+        {
+          "id": "oppcustomer_lost_sep",
+          "label": "Opp→Customer Lost - Sep",
+          "type": "number",
+          "placeholder": "Enter sep value",
+          "required": false
+        },
+        {
+          "id": "oppcustomer_lost_oct",
+          "label": "Opp→Customer Lost - Oct",
+          "type": "number",
+          "placeholder": "Enter oct value",
+          "required": false
+        },
+        {
+          "id": "oppcustomer_lost_nov",
+          "label": "Opp→Customer Lost - Nov",
+          "type": "number",
+          "placeholder": "Enter nov value",
+          "required": false
+        },
+        {
+          "id": "oppcustomer_lost_dec",
+          "label": "Opp→Customer Lost - Dec",
+          "type": "number",
+          "placeholder": "Enter dec value",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "target_conversion_rates",
+      "title": "Target Conversion Rates",
+      "description": "[Funnel Targets] Enter monthly values for Target Conversion Rates",
+      "fields": [
+        {
+          "id": "visitorlead_jan",
+          "label": "Visitor→Lead - Jan",
+          "type": "number",
+          "placeholder": "Enter jan value",
+          "required": false
+        },
+        {
+          "id": "visitorlead_feb",
+          "label": "Visitor→Lead - Feb",
+          "type": "number",
+          "placeholder": "Enter feb value",
+          "required": false
+        },
+        {
+          "id": "visitorlead_mar",
+          "label": "Visitor→Lead - Mar",
+          "type": "number",
+          "placeholder": "Enter mar value",
+          "required": false
+        },
+        {
+          "id": "visitorlead_apr",
+          "label": "Visitor→Lead - Apr",
+          "type": "number",
+          "placeholder": "Enter apr value",
+          "required": false
+        },
+        {
+          "id": "visitorlead_may",
+          "label": "Visitor→Lead - May",
+          "type": "number",
+          "placeholder": "Enter may value",
+          "required": false
+        },
+        {
+          "id": "visitorlead_jun",
+          "label": "Visitor→Lead - Jun",
+          "type": "number",
+          "placeholder": "Enter jun value",
+          "required": false
+        },
+        {
+          "id": "visitorlead_jul",
+          "label": "Visitor→Lead - Jul",
+          "type": "number",
+          "placeholder": "Enter jul value",
+          "required": false
+        },
+        {
+          "id": "visitorlead_aug",
+          "label": "Visitor→Lead - Aug",
+          "type": "number",
+          "placeholder": "Enter aug value",
+          "required": false
+        },
+        {
+          "id": "visitorlead_sep",
+          "label": "Visitor→Lead - Sep",
+          "type": "number",
+          "placeholder": "Enter sep value",
+          "required": false
+        },
+        {
+          "id": "visitorlead_oct",
+          "label": "Visitor→Lead - Oct",
+          "type": "number",
+          "placeholder": "Enter oct value",
+          "required": false
+        },
+        {
+          "id": "visitorlead_nov",
+          "label": "Visitor→Lead - Nov",
+          "type": "number",
+          "placeholder": "Enter nov value",
+          "required": false
+        },
+        {
+          "id": "visitorlead_dec",
+          "label": "Visitor→Lead - Dec",
+          "type": "number",
+          "placeholder": "Enter dec value",
+          "required": false
+        },
+        {
+          "id": "leadmql_jan",
+          "label": "Lead→MQL - Jan",
+          "type": "number",
+          "placeholder": "Enter jan value",
+          "required": false
+        },
+        {
+          "id": "leadmql_feb",
+          "label": "Lead→MQL - Feb",
+          "type": "number",
+          "placeholder": "Enter feb value",
+          "required": false
+        },
+        {
+          "id": "leadmql_mar",
+          "label": "Lead→MQL - Mar",
+          "type": "number",
+          "placeholder": "Enter mar value",
+          "required": false
+        },
+        {
+          "id": "leadmql_apr",
+          "label": "Lead→MQL - Apr",
+          "type": "number",
+          "placeholder": "Enter apr value",
+          "required": false
+        },
+        {
+          "id": "leadmql_may",
+          "label": "Lead→MQL - May",
+          "type": "number",
+          "placeholder": "Enter may value",
+          "required": false
+        },
+        {
+          "id": "leadmql_jun",
+          "label": "Lead→MQL - Jun",
+          "type": "number",
+          "placeholder": "Enter jun value",
+          "required": false
+        },
+        {
+          "id": "leadmql_jul",
+          "label": "Lead→MQL - Jul",
+          "type": "number",
+          "placeholder": "Enter jul value",
+          "required": false
+        },
+        {
+          "id": "leadmql_aug",
+          "label": "Lead→MQL - Aug",
+          "type": "number",
+          "placeholder": "Enter aug value",
+          "required": false
+        },
+        {
+          "id": "leadmql_sep",
+          "label": "Lead→MQL - Sep",
+          "type": "number",
+          "placeholder": "Enter sep value",
+          "required": false
+        },
+        {
+          "id": "leadmql_oct",
+          "label": "Lead→MQL - Oct",
+          "type": "number",
+          "placeholder": "Enter oct value",
+          "required": false
+        },
+        {
+          "id": "leadmql_nov",
+          "label": "Lead→MQL - Nov",
+          "type": "number",
+          "placeholder": "Enter nov value",
+          "required": false
+        },
+        {
+          "id": "leadmql_dec",
+          "label": "Lead→MQL - Dec",
+          "type": "number",
+          "placeholder": "Enter dec value",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "mqlsql_1",
+      "title": "Mql→Sql",
+      "description": "[Funnel Targets] Enter monthly values for Mql→Sql",
+      "fields": [
+        {
+          "id": "sqlopp_jan",
+          "label": "SQL→Opp - Jan",
+          "type": "number",
+          "placeholder": "Enter jan value",
+          "required": false
+        },
+        {
+          "id": "sqlopp_feb",
+          "label": "SQL→Opp - Feb",
+          "type": "number",
+          "placeholder": "Enter feb value",
+          "required": false
+        },
+        {
+          "id": "sqlopp_mar",
+          "label": "SQL→Opp - Mar",
+          "type": "number",
+          "placeholder": "Enter mar value",
+          "required": false
+        },
+        {
+          "id": "sqlopp_apr",
+          "label": "SQL→Opp - Apr",
+          "type": "number",
+          "placeholder": "Enter apr value",
+          "required": false
+        },
+        {
+          "id": "sqlopp_may",
+          "label": "SQL→Opp - May",
+          "type": "number",
+          "placeholder": "Enter may value",
+          "required": false
+        },
+        {
+          "id": "sqlopp_jun",
+          "label": "SQL→Opp - Jun",
+          "type": "number",
+          "placeholder": "Enter jun value",
+          "required": false
+        },
+        {
+          "id": "sqlopp_jul",
+          "label": "SQL→Opp - Jul",
+          "type": "number",
+          "placeholder": "Enter jul value",
+          "required": false
+        },
+        {
+          "id": "sqlopp_aug",
+          "label": "SQL→Opp - Aug",
+          "type": "number",
+          "placeholder": "Enter aug value",
+          "required": false
+        },
+        {
+          "id": "sqlopp_sep",
+          "label": "SQL→Opp - Sep",
+          "type": "number",
+          "placeholder": "Enter sep value",
+          "required": false
+        },
+        {
+          "id": "sqlopp_oct",
+          "label": "SQL→Opp - Oct",
+          "type": "number",
+          "placeholder": "Enter oct value",
+          "required": false
+        },
+        {
+          "id": "sqlopp_nov",
+          "label": "SQL→Opp - Nov",
+          "type": "number",
+          "placeholder": "Enter nov value",
+          "required": false
+        },
+        {
+          "id": "sqlopp_dec",
+          "label": "SQL→Opp - Dec",
+          "type": "number",
+          "placeholder": "Enter dec value",
+          "required": false
+        },
+        {
+          "id": "oppcustomer_jan",
+          "label": "Opp→Customer - Jan",
+          "type": "number",
+          "placeholder": "Enter jan value",
+          "required": false
+        },
+        {
+          "id": "oppcustomer_feb",
+          "label": "Opp→Customer - Feb",
+          "type": "number",
+          "placeholder": "Enter feb value",
+          "required": false
+        },
+        {
+          "id": "oppcustomer_mar",
+          "label": "Opp→Customer - Mar",
+          "type": "number",
+          "placeholder": "Enter mar value",
+          "required": false
+        },
+        {
+          "id": "oppcustomer_apr",
+          "label": "Opp→Customer - Apr",
+          "type": "number",
+          "placeholder": "Enter apr value",
+          "required": false
+        },
+        {
+          "id": "oppcustomer_may",
+          "label": "Opp→Customer - May",
+          "type": "number",
+          "placeholder": "Enter may value",
+          "required": false
+        },
+        {
+          "id": "oppcustomer_jun",
+          "label": "Opp→Customer - Jun",
+          "type": "number",
+          "placeholder": "Enter jun value",
+          "required": false
+        },
+        {
+          "id": "oppcustomer_jul",
+          "label": "Opp→Customer - Jul",
+          "type": "number",
+          "placeholder": "Enter jul value",
+          "required": false
+        },
+        {
+          "id": "oppcustomer_aug",
+          "label": "Opp→Customer - Aug",
+          "type": "number",
+          "placeholder": "Enter aug value",
+          "required": false
+        },
+        {
+          "id": "oppcustomer_sep",
+          "label": "Opp→Customer - Sep",
+          "type": "number",
+          "placeholder": "Enter sep value",
+          "required": false
+        },
+        {
+          "id": "oppcustomer_oct",
+          "label": "Opp→Customer - Oct",
+          "type": "number",
+          "placeholder": "Enter oct value",
+          "required": false
+        },
+        {
+          "id": "oppcustomer_nov",
+          "label": "Opp→Customer - Nov",
+          "type": "number",
+          "placeholder": "Enter nov value",
+          "required": false
+        },
+        {
+          "id": "oppcustomer_dec",
+          "label": "Opp→Customer - Dec",
+          "type": "number",
+          "placeholder": "Enter dec value",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "channel_funnel",
+      "title": "Channel Funnel",
+      "description": "Enter data for each item",
+      "fields": [
+        {
+          "id": "organic_search_visitors",
+          "label": "Organic Search - Visitors",
+          "type": "text",
+          "placeholder": "Enter visitors",
+          "required": false
+        },
+        {
+          "id": "organic_search_leads",
+          "label": "Organic Search - Leads",
+          "type": "number",
+          "placeholder": "Enter leads",
+          "required": false
+        },
+        {
+          "id": "organic_search_mqls",
+          "label": "Organic Search - MQLs",
+          "type": "text",
+          "placeholder": "Enter mqls",
+          "required": false
+        },
+        {
+          "id": "organic_search_sqls",
+          "label": "Organic Search - SQLs",
+          "type": "text",
+          "placeholder": "Enter sqls",
+          "required": false
+        },
+        {
+          "id": "organic_search_opps",
+          "label": "Organic Search - Opps",
+          "type": "text",
+          "placeholder": "Enter opps",
+          "required": false
+        },
+        {
+          "id": "organic_search_customers",
+          "label": "Organic Search - Customers",
+          "type": "number",
+          "placeholder": "Enter customers",
+          "required": false
+        },
+        {
+          "id": "organic_search_revenue",
+          "label": "Organic Search - Revenue",
+          "type": "number",
+          "placeholder": "Enter revenue",
+          "required": false
+        },
+        {
+          "id": "organic_search_lead_conv",
+          "label": "Organic Search - Lead Conv",
+          "type": "text",
+          "placeholder": "Enter lead conv",
+          "required": false
+        },
+        {
+          "id": "organic_search_mql_conv",
+          "label": "Organic Search - MQL Conv",
+          "type": "text",
+          "placeholder": "Enter mql conv",
+          "required": false
+        },
+        {
+          "id": "organic_search_sql_conv",
+          "label": "Organic Search - SQL Conv",
+          "type": "text",
+          "placeholder": "Enter sql conv",
+          "required": false
+        },
+        {
+          "id": "organic_search_opp_conv",
+          "label": "Organic Search - Opp Conv",
+          "type": "text",
+          "placeholder": "Enter opp conv",
+          "required": false
+        },
+        {
+          "id": "organic_search_close_conv",
+          "label": "Organic Search - Close Conv",
+          "type": "text",
+          "placeholder": "Enter close conv",
+          "required": false
+        },
+        {
+          "id": "organic_search_overall_conv",
+          "label": "Organic Search - Overall Conv",
+          "type": "text",
+          "placeholder": "Enter overall conv",
+          "required": false
+        },
+        {
+          "id": "organic_search_cpl",
+          "label": "Organic Search - CPL",
+          "type": "number",
+          "placeholder": "Enter cpl",
+          "required": false
+        },
+        {
+          "id": "organic_search_cac",
+          "label": "Organic Search - CAC",
+          "type": "text",
+          "placeholder": "Enter cac",
+          "required": false
+        },
+        {
+          "id": "paid_search_visitors",
+          "label": "Paid Search - Visitors",
+          "type": "text",
+          "placeholder": "Enter visitors",
+          "required": false
+        },
+        {
+          "id": "paid_search_leads",
+          "label": "Paid Search - Leads",
+          "type": "number",
+          "placeholder": "Enter leads",
+          "required": false
+        },
+        {
+          "id": "paid_search_mqls",
+          "label": "Paid Search - MQLs",
+          "type": "text",
+          "placeholder": "Enter mqls",
+          "required": false
+        },
+        {
+          "id": "paid_search_sqls",
+          "label": "Paid Search - SQLs",
+          "type": "text",
+          "placeholder": "Enter sqls",
+          "required": false
+        },
+        {
+          "id": "paid_search_opps",
+          "label": "Paid Search - Opps",
+          "type": "text",
+          "placeholder": "Enter opps",
+          "required": false
+        },
+        {
+          "id": "paid_search_customers",
+          "label": "Paid Search - Customers",
+          "type": "number",
+          "placeholder": "Enter customers",
+          "required": false
+        },
+        {
+          "id": "paid_search_revenue",
+          "label": "Paid Search - Revenue",
+          "type": "number",
+          "placeholder": "Enter revenue",
+          "required": false
+        },
+        {
+          "id": "paid_search_lead_conv",
+          "label": "Paid Search - Lead Conv",
+          "type": "text",
+          "placeholder": "Enter lead conv",
+          "required": false
+        },
+        {
+          "id": "paid_search_mql_conv",
+          "label": "Paid Search - MQL Conv",
+          "type": "text",
+          "placeholder": "Enter mql conv",
+          "required": false
+        },
+        {
+          "id": "paid_search_sql_conv",
+          "label": "Paid Search - SQL Conv",
+          "type": "text",
+          "placeholder": "Enter sql conv",
+          "required": false
+        },
+        {
+          "id": "paid_search_opp_conv",
+          "label": "Paid Search - Opp Conv",
+          "type": "text",
+          "placeholder": "Enter opp conv",
+          "required": false
+        },
+        {
+          "id": "paid_search_close_conv",
+          "label": "Paid Search - Close Conv",
+          "type": "text",
+          "placeholder": "Enter close conv",
+          "required": false
+        },
+        {
+          "id": "paid_search_overall_conv",
+          "label": "Paid Search - Overall Conv",
+          "type": "text",
+          "placeholder": "Enter overall conv",
+          "required": false
+        },
+        {
+          "id": "paid_search_cpl",
+          "label": "Paid Search - CPL",
+          "type": "number",
+          "placeholder": "Enter cpl",
+          "required": false
+        },
+        {
+          "id": "paid_search_cac",
+          "label": "Paid Search - CAC",
+          "type": "text",
+          "placeholder": "Enter cac",
+          "required": false
+        },
+        {
+          "id": "paid_social_visitors",
+          "label": "Paid Social - Visitors",
+          "type": "text",
+          "placeholder": "Enter visitors",
+          "required": false
+        },
+        {
+          "id": "paid_social_leads",
+          "label": "Paid Social - Leads",
+          "type": "number",
+          "placeholder": "Enter leads",
+          "required": false
+        },
+        {
+          "id": "paid_social_mqls",
+          "label": "Paid Social - MQLs",
+          "type": "text",
+          "placeholder": "Enter mqls",
+          "required": false
+        },
+        {
+          "id": "paid_social_sqls",
+          "label": "Paid Social - SQLs",
+          "type": "text",
+          "placeholder": "Enter sqls",
+          "required": false
+        },
+        {
+          "id": "paid_social_opps",
+          "label": "Paid Social - Opps",
+          "type": "text",
+          "placeholder": "Enter opps",
+          "required": false
+        },
+        {
+          "id": "paid_social_customers",
+          "label": "Paid Social - Customers",
+          "type": "number",
+          "placeholder": "Enter customers",
+          "required": false
+        },
+        {
+          "id": "paid_social_revenue",
+          "label": "Paid Social - Revenue",
+          "type": "number",
+          "placeholder": "Enter revenue",
+          "required": false
+        },
+        {
+          "id": "paid_social_lead_conv",
+          "label": "Paid Social - Lead Conv",
+          "type": "text",
+          "placeholder": "Enter lead conv",
+          "required": false
+        },
+        {
+          "id": "paid_social_mql_conv",
+          "label": "Paid Social - MQL Conv",
+          "type": "text",
+          "placeholder": "Enter mql conv",
+          "required": false
+        },
+        {
+          "id": "paid_social_sql_conv",
+          "label": "Paid Social - SQL Conv",
+          "type": "text",
+          "placeholder": "Enter sql conv",
+          "required": false
+        },
+        {
+          "id": "paid_social_opp_conv",
+          "label": "Paid Social - Opp Conv",
+          "type": "text",
+          "placeholder": "Enter opp conv",
+          "required": false
+        },
+        {
+          "id": "paid_social_close_conv",
+          "label": "Paid Social - Close Conv",
+          "type": "text",
+          "placeholder": "Enter close conv",
+          "required": false
+        },
+        {
+          "id": "paid_social_overall_conv",
+          "label": "Paid Social - Overall Conv",
+          "type": "text",
+          "placeholder": "Enter overall conv",
+          "required": false
+        },
+        {
+          "id": "paid_social_cpl",
+          "label": "Paid Social - CPL",
+          "type": "number",
+          "placeholder": "Enter cpl",
+          "required": false
+        },
+        {
+          "id": "paid_social_cac",
+          "label": "Paid Social - CAC",
+          "type": "text",
+          "placeholder": "Enter cac",
+          "required": false
+        },
+        {
+          "id": "organic_social_visitors",
+          "label": "Organic Social - Visitors",
+          "type": "text",
+          "placeholder": "Enter visitors",
+          "required": false
+        },
+        {
+          "id": "organic_social_leads",
+          "label": "Organic Social - Leads",
+          "type": "number",
+          "placeholder": "Enter leads",
+          "required": false
+        },
+        {
+          "id": "organic_social_mqls",
+          "label": "Organic Social - MQLs",
+          "type": "text",
+          "placeholder": "Enter mqls",
+          "required": false
+        },
+        {
+          "id": "organic_social_sqls",
+          "label": "Organic Social - SQLs",
+          "type": "text",
+          "placeholder": "Enter sqls",
+          "required": false
+        },
+        {
+          "id": "organic_social_opps",
+          "label": "Organic Social - Opps",
+          "type": "text",
+          "placeholder": "Enter opps",
+          "required": false
+        },
+        {
+          "id": "organic_social_customers",
+          "label": "Organic Social - Customers",
+          "type": "number",
+          "placeholder": "Enter customers",
+          "required": false
+        },
+        {
+          "id": "organic_social_revenue",
+          "label": "Organic Social - Revenue",
+          "type": "number",
+          "placeholder": "Enter revenue",
+          "required": false
+        },
+        {
+          "id": "organic_social_lead_conv",
+          "label": "Organic Social - Lead Conv",
+          "type": "text",
+          "placeholder": "Enter lead conv",
+          "required": false
+        },
+        {
+          "id": "organic_social_mql_conv",
+          "label": "Organic Social - MQL Conv",
+          "type": "text",
+          "placeholder": "Enter mql conv",
+          "required": false
+        },
+        {
+          "id": "organic_social_sql_conv",
+          "label": "Organic Social - SQL Conv",
+          "type": "text",
+          "placeholder": "Enter sql conv",
+          "required": false
+        },
+        {
+          "id": "organic_social_opp_conv",
+          "label": "Organic Social - Opp Conv",
+          "type": "text",
+          "placeholder": "Enter opp conv",
+          "required": false
+        },
+        {
+          "id": "organic_social_close_conv",
+          "label": "Organic Social - Close Conv",
+          "type": "text",
+          "placeholder": "Enter close conv",
+          "required": false
+        },
+        {
+          "id": "organic_social_overall_conv",
+          "label": "Organic Social - Overall Conv",
+          "type": "text",
+          "placeholder": "Enter overall conv",
+          "required": false
+        },
+        {
+          "id": "organic_social_cpl",
+          "label": "Organic Social - CPL",
+          "type": "number",
+          "placeholder": "Enter cpl",
+          "required": false
+        },
+        {
+          "id": "organic_social_cac",
+          "label": "Organic Social - CAC",
+          "type": "text",
+          "placeholder": "Enter cac",
+          "required": false
+        },
+        {
+          "id": "email_visitors",
+          "label": "Email - Visitors",
+          "type": "text",
+          "placeholder": "Enter visitors",
+          "required": false
+        },
+        {
+          "id": "email_leads",
+          "label": "Email - Leads",
+          "type": "number",
+          "placeholder": "Enter leads",
+          "required": false
+        },
+        {
+          "id": "email_mqls",
+          "label": "Email - MQLs",
+          "type": "text",
+          "placeholder": "Enter mqls",
+          "required": false
+        },
+        {
+          "id": "email_sqls",
+          "label": "Email - SQLs",
+          "type": "text",
+          "placeholder": "Enter sqls",
+          "required": false
+        },
+        {
+          "id": "email_opps",
+          "label": "Email - Opps",
+          "type": "text",
+          "placeholder": "Enter opps",
+          "required": false
+        },
+        {
+          "id": "email_customers",
+          "label": "Email - Customers",
+          "type": "number",
+          "placeholder": "Enter customers",
+          "required": false
+        },
+        {
+          "id": "email_revenue",
+          "label": "Email - Revenue",
+          "type": "number",
+          "placeholder": "Enter revenue",
+          "required": false
+        },
+        {
+          "id": "email_lead_conv",
+          "label": "Email - Lead Conv",
+          "type": "text",
+          "placeholder": "Enter lead conv",
+          "required": false
+        },
+        {
+          "id": "email_mql_conv",
+          "label": "Email - MQL Conv",
+          "type": "text",
+          "placeholder": "Enter mql conv",
+          "required": false
+        },
+        {
+          "id": "email_sql_conv",
+          "label": "Email - SQL Conv",
+          "type": "text",
+          "placeholder": "Enter sql conv",
+          "required": false
+        },
+        {
+          "id": "email_opp_conv",
+          "label": "Email - Opp Conv",
+          "type": "text",
+          "placeholder": "Enter opp conv",
+          "required": false
+        },
+        {
+          "id": "email_close_conv",
+          "label": "Email - Close Conv",
+          "type": "text",
+          "placeholder": "Enter close conv",
+          "required": false
+        },
+        {
+          "id": "email_overall_conv",
+          "label": "Email - Overall Conv",
+          "type": "text",
+          "placeholder": "Enter overall conv",
+          "required": false
+        },
+        {
+          "id": "email_cpl",
+          "label": "Email - CPL",
+          "type": "number",
+          "placeholder": "Enter cpl",
+          "required": false
+        },
+        {
+          "id": "email_cac",
+          "label": "Email - CAC",
+          "type": "text",
+          "placeholder": "Enter cac",
+          "required": false
+        },
+        {
+          "id": "content_marketing_visitors",
+          "label": "Content Marketing - Visitors",
+          "type": "text",
+          "placeholder": "Enter visitors",
+          "required": false
+        },
+        {
+          "id": "content_marketing_leads",
+          "label": "Content Marketing - Leads",
+          "type": "number",
+          "placeholder": "Enter leads",
+          "required": false
+        },
+        {
+          "id": "content_marketing_mqls",
+          "label": "Content Marketing - MQLs",
+          "type": "text",
+          "placeholder": "Enter mqls",
+          "required": false
+        },
+        {
+          "id": "content_marketing_sqls",
+          "label": "Content Marketing - SQLs",
+          "type": "text",
+          "placeholder": "Enter sqls",
+          "required": false
+        },
+        {
+          "id": "content_marketing_opps",
+          "label": "Content Marketing - Opps",
+          "type": "text",
+          "placeholder": "Enter opps",
+          "required": false
+        },
+        {
+          "id": "content_marketing_customers",
+          "label": "Content Marketing - Customers",
+          "type": "number",
+          "placeholder": "Enter customers",
+          "required": false
+        },
+        {
+          "id": "content_marketing_revenue",
+          "label": "Content Marketing - Revenue",
+          "type": "number",
+          "placeholder": "Enter revenue",
+          "required": false
+        },
+        {
+          "id": "content_marketing_lead_conv",
+          "label": "Content Marketing - Lead Conv",
+          "type": "text",
+          "placeholder": "Enter lead conv",
+          "required": false
+        },
+        {
+          "id": "content_marketing_mql_conv",
+          "label": "Content Marketing - MQL Conv",
+          "type": "text",
+          "placeholder": "Enter mql conv",
+          "required": false
+        },
+        {
+          "id": "content_marketing_sql_conv",
+          "label": "Content Marketing - SQL Conv",
+          "type": "text",
+          "placeholder": "Enter sql conv",
+          "required": false
+        },
+        {
+          "id": "content_marketing_opp_conv",
+          "label": "Content Marketing - Opp Conv",
+          "type": "text",
+          "placeholder": "Enter opp conv",
+          "required": false
+        },
+        {
+          "id": "content_marketing_close_conv",
+          "label": "Content Marketing - Close Conv",
+          "type": "text",
+          "placeholder": "Enter close conv",
+          "required": false
+        },
+        {
+          "id": "content_marketing_overall_conv",
+          "label": "Content Marketing - Overall Conv",
+          "type": "text",
+          "placeholder": "Enter overall conv",
+          "required": false
+        },
+        {
+          "id": "content_marketing_cpl",
+          "label": "Content Marketing - CPL",
+          "type": "number",
+          "placeholder": "Enter cpl",
+          "required": false
+        },
+        {
+          "id": "content_marketing_cac",
+          "label": "Content Marketing - CAC",
+          "type": "text",
+          "placeholder": "Enter cac",
+          "required": false
+        },
+        {
+          "id": "referral_visitors",
+          "label": "Referral - Visitors",
+          "type": "text",
+          "placeholder": "Enter visitors",
+          "required": false
+        },
+        {
+          "id": "referral_leads",
+          "label": "Referral - Leads",
+          "type": "number",
+          "placeholder": "Enter leads",
+          "required": false
+        },
+        {
+          "id": "referral_mqls",
+          "label": "Referral - MQLs",
+          "type": "text",
+          "placeholder": "Enter mqls",
+          "required": false
+        },
+        {
+          "id": "referral_sqls",
+          "label": "Referral - SQLs",
+          "type": "text",
+          "placeholder": "Enter sqls",
+          "required": false
+        },
+        {
+          "id": "referral_opps",
+          "label": "Referral - Opps",
+          "type": "text",
+          "placeholder": "Enter opps",
+          "required": false
+        },
+        {
+          "id": "referral_customers",
+          "label": "Referral - Customers",
+          "type": "number",
+          "placeholder": "Enter customers",
+          "required": false
+        },
+        {
+          "id": "referral_revenue",
+          "label": "Referral - Revenue",
+          "type": "number",
+          "placeholder": "Enter revenue",
+          "required": false
+        },
+        {
+          "id": "referral_lead_conv",
+          "label": "Referral - Lead Conv",
+          "type": "text",
+          "placeholder": "Enter lead conv",
+          "required": false
+        },
+        {
+          "id": "referral_mql_conv",
+          "label": "Referral - MQL Conv",
+          "type": "text",
+          "placeholder": "Enter mql conv",
+          "required": false
+        },
+        {
+          "id": "referral_sql_conv",
+          "label": "Referral - SQL Conv",
+          "type": "text",
+          "placeholder": "Enter sql conv",
+          "required": false
+        },
+        {
+          "id": "referral_opp_conv",
+          "label": "Referral - Opp Conv",
+          "type": "text",
+          "placeholder": "Enter opp conv",
+          "required": false
+        },
+        {
+          "id": "referral_close_conv",
+          "label": "Referral - Close Conv",
+          "type": "text",
+          "placeholder": "Enter close conv",
+          "required": false
+        },
+        {
+          "id": "referral_overall_conv",
+          "label": "Referral - Overall Conv",
+          "type": "text",
+          "placeholder": "Enter overall conv",
+          "required": false
+        },
+        {
+          "id": "referral_cpl",
+          "label": "Referral - CPL",
+          "type": "number",
+          "placeholder": "Enter cpl",
+          "required": false
+        },
+        {
+          "id": "referral_cac",
+          "label": "Referral - CAC",
+          "type": "text",
+          "placeholder": "Enter cac",
+          "required": false
+        },
+        {
+          "id": "events_visitors",
+          "label": "Events - Visitors",
+          "type": "text",
+          "placeholder": "Enter visitors",
+          "required": false
+        },
+        {
+          "id": "events_leads",
+          "label": "Events - Leads",
+          "type": "number",
+          "placeholder": "Enter leads",
+          "required": false
+        },
+        {
+          "id": "events_mqls",
+          "label": "Events - MQLs",
+          "type": "text",
+          "placeholder": "Enter mqls",
+          "required": false
+        },
+        {
+          "id": "events_sqls",
+          "label": "Events - SQLs",
+          "type": "text",
+          "placeholder": "Enter sqls",
+          "required": false
+        },
+        {
+          "id": "events_opps",
+          "label": "Events - Opps",
+          "type": "text",
+          "placeholder": "Enter opps",
+          "required": false
+        },
+        {
+          "id": "events_customers",
+          "label": "Events - Customers",
+          "type": "number",
+          "placeholder": "Enter customers",
+          "required": false
+        },
+        {
+          "id": "events_revenue",
+          "label": "Events - Revenue",
+          "type": "number",
+          "placeholder": "Enter revenue",
+          "required": false
+        },
+        {
+          "id": "events_lead_conv",
+          "label": "Events - Lead Conv",
+          "type": "text",
+          "placeholder": "Enter lead conv",
+          "required": false
+        },
+        {
+          "id": "events_mql_conv",
+          "label": "Events - MQL Conv",
+          "type": "text",
+          "placeholder": "Enter mql conv",
+          "required": false
+        },
+        {
+          "id": "events_sql_conv",
+          "label": "Events - SQL Conv",
+          "type": "text",
+          "placeholder": "Enter sql conv",
+          "required": false
+        },
+        {
+          "id": "events_opp_conv",
+          "label": "Events - Opp Conv",
+          "type": "text",
+          "placeholder": "Enter opp conv",
+          "required": false
+        },
+        {
+          "id": "events_close_conv",
+          "label": "Events - Close Conv",
+          "type": "text",
+          "placeholder": "Enter close conv",
+          "required": false
+        },
+        {
+          "id": "events_overall_conv",
+          "label": "Events - Overall Conv",
+          "type": "text",
+          "placeholder": "Enter overall conv",
+          "required": false
+        },
+        {
+          "id": "events_cpl",
+          "label": "Events - CPL",
+          "type": "number",
+          "placeholder": "Enter cpl",
+          "required": false
+        },
+        {
+          "id": "events_cac",
+          "label": "Events - CAC",
+          "type": "text",
+          "placeholder": "Enter cac",
+          "required": false
+        },
+        {
+          "id": "direct_visitors",
+          "label": "Direct - Visitors",
+          "type": "text",
+          "placeholder": "Enter visitors",
+          "required": false
+        },
+        {
+          "id": "direct_leads",
+          "label": "Direct - Leads",
+          "type": "number",
+          "placeholder": "Enter leads",
+          "required": false
+        },
+        {
+          "id": "direct_mqls",
+          "label": "Direct - MQLs",
+          "type": "text",
+          "placeholder": "Enter mqls",
+          "required": false
+        },
+        {
+          "id": "direct_sqls",
+          "label": "Direct - SQLs",
+          "type": "text",
+          "placeholder": "Enter sqls",
+          "required": false
+        },
+        {
+          "id": "direct_opps",
+          "label": "Direct - Opps",
+          "type": "text",
+          "placeholder": "Enter opps",
+          "required": false
+        },
+        {
+          "id": "direct_customers",
+          "label": "Direct - Customers",
+          "type": "number",
+          "placeholder": "Enter customers",
+          "required": false
+        },
+        {
+          "id": "direct_revenue",
+          "label": "Direct - Revenue",
+          "type": "number",
+          "placeholder": "Enter revenue",
+          "required": false
+        },
+        {
+          "id": "direct_lead_conv",
+          "label": "Direct - Lead Conv",
+          "type": "text",
+          "placeholder": "Enter lead conv",
+          "required": false
+        },
+        {
+          "id": "direct_mql_conv",
+          "label": "Direct - MQL Conv",
+          "type": "text",
+          "placeholder": "Enter mql conv",
+          "required": false
+        },
+        {
+          "id": "direct_sql_conv",
+          "label": "Direct - SQL Conv",
+          "type": "text",
+          "placeholder": "Enter sql conv",
+          "required": false
+        },
+        {
+          "id": "direct_opp_conv",
+          "label": "Direct - Opp Conv",
+          "type": "text",
+          "placeholder": "Enter opp conv",
+          "required": false
+        },
+        {
+          "id": "direct_close_conv",
+          "label": "Direct - Close Conv",
+          "type": "text",
+          "placeholder": "Enter close conv",
+          "required": false
+        },
+        {
+          "id": "direct_overall_conv",
+          "label": "Direct - Overall Conv",
+          "type": "text",
+          "placeholder": "Enter overall conv",
+          "required": false
+        },
+        {
+          "id": "direct_cpl",
+          "label": "Direct - CPL",
+          "type": "number",
+          "placeholder": "Enter cpl",
+          "required": false
+        },
+        {
+          "id": "direct_cac",
+          "label": "Direct - CAC",
+          "type": "text",
+          "placeholder": "Enter cac",
+          "required": false
+        },
+        {
+          "id": "partnerships_visitors",
+          "label": "Partnerships - Visitors",
+          "type": "text",
+          "placeholder": "Enter visitors",
+          "required": false
+        },
+        {
+          "id": "partnerships_leads",
+          "label": "Partnerships - Leads",
+          "type": "number",
+          "placeholder": "Enter leads",
+          "required": false
+        },
+        {
+          "id": "partnerships_mqls",
+          "label": "Partnerships - MQLs",
+          "type": "text",
+          "placeholder": "Enter mqls",
+          "required": false
+        },
+        {
+          "id": "partnerships_sqls",
+          "label": "Partnerships - SQLs",
+          "type": "text",
+          "placeholder": "Enter sqls",
+          "required": false
+        },
+        {
+          "id": "partnerships_opps",
+          "label": "Partnerships - Opps",
+          "type": "text",
+          "placeholder": "Enter opps",
+          "required": false
+        },
+        {
+          "id": "partnerships_customers",
+          "label": "Partnerships - Customers",
+          "type": "number",
+          "placeholder": "Enter customers",
+          "required": false
+        },
+        {
+          "id": "partnerships_revenue",
+          "label": "Partnerships - Revenue",
+          "type": "number",
+          "placeholder": "Enter revenue",
+          "required": false
+        },
+        {
+          "id": "partnerships_lead_conv",
+          "label": "Partnerships - Lead Conv",
+          "type": "text",
+          "placeholder": "Enter lead conv",
+          "required": false
+        },
+        {
+          "id": "partnerships_mql_conv",
+          "label": "Partnerships - MQL Conv",
+          "type": "text",
+          "placeholder": "Enter mql conv",
+          "required": false
+        },
+        {
+          "id": "partnerships_sql_conv",
+          "label": "Partnerships - SQL Conv",
+          "type": "text",
+          "placeholder": "Enter sql conv",
+          "required": false
+        },
+        {
+          "id": "partnerships_opp_conv",
+          "label": "Partnerships - Opp Conv",
+          "type": "text",
+          "placeholder": "Enter opp conv",
+          "required": false
+        },
+        {
+          "id": "partnerships_close_conv",
+          "label": "Partnerships - Close Conv",
+          "type": "text",
+          "placeholder": "Enter close conv",
+          "required": false
+        },
+        {
+          "id": "partnerships_overall_conv",
+          "label": "Partnerships - Overall Conv",
+          "type": "text",
+          "placeholder": "Enter overall conv",
+          "required": false
+        },
+        {
+          "id": "partnerships_cpl",
+          "label": "Partnerships - CPL",
+          "type": "number",
+          "placeholder": "Enter cpl",
+          "required": false
+        },
+        {
+          "id": "partnerships_cac",
+          "label": "Partnerships - CAC",
+          "type": "text",
+          "placeholder": "Enter cac",
+          "required": false
+        },
+        {
+          "id": "other_visitors",
+          "label": "Other - Visitors",
+          "type": "text",
+          "placeholder": "Enter visitors",
+          "required": false
+        },
+        {
+          "id": "other_leads",
+          "label": "Other - Leads",
+          "type": "number",
+          "placeholder": "Enter leads",
+          "required": false
+        },
+        {
+          "id": "other_mqls",
+          "label": "Other - MQLs",
+          "type": "text",
+          "placeholder": "Enter mqls",
+          "required": false
+        },
+        {
+          "id": "other_sqls",
+          "label": "Other - SQLs",
+          "type": "text",
+          "placeholder": "Enter sqls",
+          "required": false
+        },
+        {
+          "id": "other_opps",
+          "label": "Other - Opps",
+          "type": "text",
+          "placeholder": "Enter opps",
+          "required": false
+        },
+        {
+          "id": "other_customers",
+          "label": "Other - Customers",
+          "type": "number",
+          "placeholder": "Enter customers",
+          "required": false
+        },
+        {
+          "id": "other_revenue",
+          "label": "Other - Revenue",
+          "type": "number",
+          "placeholder": "Enter revenue",
+          "required": false
+        },
+        {
+          "id": "other_lead_conv",
+          "label": "Other - Lead Conv",
+          "type": "text",
+          "placeholder": "Enter lead conv",
+          "required": false
+        },
+        {
+          "id": "other_mql_conv",
+          "label": "Other - MQL Conv",
+          "type": "text",
+          "placeholder": "Enter mql conv",
+          "required": false
+        },
+        {
+          "id": "other_sql_conv",
+          "label": "Other - SQL Conv",
+          "type": "text",
+          "placeholder": "Enter sql conv",
+          "required": false
+        },
+        {
+          "id": "other_opp_conv",
+          "label": "Other - Opp Conv",
+          "type": "text",
+          "placeholder": "Enter opp conv",
+          "required": false
+        },
+        {
+          "id": "other_close_conv",
+          "label": "Other - Close Conv",
+          "type": "text",
+          "placeholder": "Enter close conv",
+          "required": false
+        },
+        {
+          "id": "other_overall_conv",
+          "label": "Other - Overall Conv",
+          "type": "text",
+          "placeholder": "Enter overall conv",
+          "required": false
+        },
+        {
+          "id": "other_cpl",
+          "label": "Other - CPL",
+          "type": "number",
+          "placeholder": "Enter cpl",
+          "required": false
+        },
+        {
+          "id": "other_cac",
+          "label": "Other - CAC",
+          "type": "text",
+          "placeholder": "Enter cac",
+          "required": false
+        }
+      ]
+    }
+  ]
 }

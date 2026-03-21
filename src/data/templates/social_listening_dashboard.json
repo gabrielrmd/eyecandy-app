@@ -11,148 +11,6 @@
     "research"
   ],
   "estimatedTime": "70 min",
-  "sections": [
-    {
-      "id": "dashboard",
-      "title": "Dashboard",
-      "description": "Complete the Dashboard section",
-      "fields": [
-        {
-          "id": "dashboard_0",
-          "label": "Dashboard",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "total_mentions_1",
-          "label": "Total Mentions",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "positive_mentions_2",
-          "label": "Positive Mentions",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "neutral_mentions_3",
-          "label": "Neutral Mentions",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "negative_mentions_4",
-          "label": "Negative Mentions",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "engagement_rate_5",
-          "label": "Engagement Rate",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "share_of_voice_6",
-          "label": "Share of Voice",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "report_template",
-      "title": "Report Template",
-      "description": "Complete the Report Template section",
-      "fields": [
-        {
-          "id": "monthly_report_template_0",
-          "label": "Monthly Report Template",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "report_period_1",
-          "label": "Report Period",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "executive_summary_2",
-          "label": "Executive Summary",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "key_metrics_3",
-          "label": "Key Metrics",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "total_mentions_4",
-          "label": "Total Mentions",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "positive_sentiment_5",
-          "label": "Positive Sentiment %",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "top_platforms_6",
-          "label": "Top Platforms",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "top_topics_7",
-          "label": "Top Topics",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "sentiment_trends_8",
-          "label": "Sentiment Trends",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "competitor_comparison_9",
-          "label": "Competitor Comparison",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "recommendations_10",
-          "label": "Recommendations",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    }
-  ],
   "dashboard": {
     "metrics": [
       {
@@ -181,5 +39,543 @@
         "format": "number"
       }
     ]
-  }
+  },
+  "sections": [
+    {
+      "id": "dashboard",
+      "title": "Dashboard",
+      "description": "Auto-calculated summary of your data. Complete the working sections to see results here.",
+      "readOnly": true,
+      "fields": [
+        {
+          "id": "dashboard_overview",
+          "label": "Dashboard Overview",
+          "type": "textarea",
+          "placeholder": "Dashboard metrics will be calculated from your inputs in the working sections",
+          "required": false,
+          "readOnly": true
+        }
+      ]
+    },
+    {
+      "id": "brand_mentions",
+      "title": "Brand Mentions",
+      "description": "Add entries below. Each entry has the following fields.",
+      "fields": [
+        {
+          "id": "entry_date",
+          "label": "Date",
+          "type": "text",
+          "placeholder": "Enter date",
+          "required": false
+        },
+        {
+          "id": "entry_platform",
+          "label": "Platform",
+          "type": "text",
+          "placeholder": "Enter platform",
+          "required": false
+        },
+        {
+          "id": "entry_mention_text",
+          "label": "Mention Text",
+          "type": "text",
+          "placeholder": "Enter mention text",
+          "required": false
+        },
+        {
+          "id": "entry_sentiment",
+          "label": "Sentiment",
+          "type": "text",
+          "placeholder": "Enter sentiment",
+          "required": false
+        },
+        {
+          "id": "entry_author",
+          "label": "Author",
+          "type": "text",
+          "placeholder": "Enter author",
+          "required": false
+        },
+        {
+          "id": "entry_reach",
+          "label": "Reach",
+          "type": "text",
+          "placeholder": "Enter reach",
+          "required": false
+        },
+        {
+          "id": "entry_engagement",
+          "label": "Engagement",
+          "type": "text",
+          "placeholder": "Enter engagement",
+          "required": false
+        },
+        {
+          "id": "entry_topic",
+          "label": "Topic",
+          "type": "text",
+          "placeholder": "Enter topic",
+          "required": false
+        },
+        {
+          "id": "entry_response_needed",
+          "label": "Response Needed",
+          "type": "text",
+          "placeholder": "Enter response needed",
+          "required": false
+        },
+        {
+          "id": "entry_notes",
+          "label": "Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "competitor_tracking",
+      "title": "Competitor Tracking",
+      "description": "Add entries below. Each entry has the following fields.",
+      "fields": [
+        {
+          "id": "entry_competitor_name",
+          "label": "Competitor Name",
+          "type": "text",
+          "placeholder": "Enter competitor name",
+          "required": false
+        },
+        {
+          "id": "entry_platform",
+          "label": "Platform",
+          "type": "text",
+          "placeholder": "Enter platform",
+          "required": false
+        },
+        {
+          "id": "entry_date",
+          "label": "Date",
+          "type": "text",
+          "placeholder": "Enter date",
+          "required": false
+        },
+        {
+          "id": "entry_mention_type",
+          "label": "Mention Type",
+          "type": "text",
+          "placeholder": "Enter mention type",
+          "required": false
+        },
+        {
+          "id": "entry_sentiment",
+          "label": "Sentiment",
+          "type": "text",
+          "placeholder": "Enter sentiment",
+          "required": false
+        },
+        {
+          "id": "entry_reach",
+          "label": "Reach",
+          "type": "text",
+          "placeholder": "Enter reach",
+          "required": false
+        },
+        {
+          "id": "entry_topic",
+          "label": "Topic",
+          "type": "text",
+          "placeholder": "Enter topic",
+          "required": false
+        },
+        {
+          "id": "entry_key_takeaway",
+          "label": "Key Takeaway",
+          "type": "text",
+          "placeholder": "Enter key takeaway",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "sentiment_analysis",
+      "title": "Sentiment Analysis",
+      "description": "Add entries below. Each entry has the following fields.",
+      "fields": [
+        {
+          "id": "entry_month",
+          "label": "Month",
+          "type": "text",
+          "placeholder": "Enter month",
+          "required": false
+        },
+        {
+          "id": "entry_total_mentions",
+          "label": "Total Mentions",
+          "type": "text",
+          "placeholder": "Enter total mentions",
+          "required": false
+        },
+        {
+          "id": "entry_positive_count",
+          "label": "Positive Count",
+          "type": "number",
+          "placeholder": "Enter positive count",
+          "required": false
+        },
+        {
+          "id": "entry_neutral_count",
+          "label": "Neutral Count",
+          "type": "number",
+          "placeholder": "Enter neutral count",
+          "required": false
+        },
+        {
+          "id": "entry_negative_count",
+          "label": "Negative Count",
+          "type": "number",
+          "placeholder": "Enter negative count",
+          "required": false
+        },
+        {
+          "id": "entry_positive",
+          "label": "Positive %",
+          "type": "number",
+          "placeholder": "Enter positive %",
+          "required": false
+        },
+        {
+          "id": "entry_negative",
+          "label": "Negative %",
+          "type": "number",
+          "placeholder": "Enter negative %",
+          "required": false
+        },
+        {
+          "id": "entry_net_sentiment_score",
+          "label": "Net Sentiment Score",
+          "type": "scale",
+          "placeholder": "Enter net sentiment score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "entry_trend",
+          "label": "Trend",
+          "type": "text",
+          "placeholder": "Enter trend",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "topic_tracker",
+      "title": "Topic Tracker",
+      "description": "Add entries below. Each entry has the following fields.",
+      "fields": [
+        {
+          "id": "entry_topic",
+          "label": "Topic",
+          "type": "text",
+          "placeholder": "Enter topic",
+          "required": false
+        },
+        {
+          "id": "entry_category",
+          "label": "Category",
+          "type": "text",
+          "placeholder": "Enter category",
+          "required": false
+        },
+        {
+          "id": "entry_mention_count",
+          "label": "Mention Count",
+          "type": "number",
+          "placeholder": "Enter mention count",
+          "required": false
+        },
+        {
+          "id": "entry_sentiment",
+          "label": "Sentiment",
+          "type": "text",
+          "placeholder": "Enter sentiment",
+          "required": false
+        },
+        {
+          "id": "entry_trending",
+          "label": "Trending",
+          "type": "text",
+          "placeholder": "Enter trending",
+          "required": false
+        },
+        {
+          "id": "entry_priority",
+          "label": "Priority",
+          "type": "select",
+          "placeholder": "Enter priority",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "entry_related_keywords",
+          "label": "Related Keywords",
+          "type": "text",
+          "placeholder": "Enter related keywords",
+          "required": false
+        },
+        {
+          "id": "entry_action_required",
+          "label": "Action Required",
+          "type": "textarea",
+          "placeholder": "Enter action required",
+          "required": false
+        },
+        {
+          "id": "entry_notes",
+          "label": "Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "influencer_monitor",
+      "title": "Influencer Monitor",
+      "description": "Add entries below. Each entry has the following fields.",
+      "fields": [
+        {
+          "id": "entry_influencer",
+          "label": "Influencer",
+          "type": "text",
+          "placeholder": "Enter influencer",
+          "required": false
+        },
+        {
+          "id": "entry_platform",
+          "label": "Platform",
+          "type": "text",
+          "placeholder": "Enter platform",
+          "required": false
+        },
+        {
+          "id": "entry_followers",
+          "label": "Followers",
+          "type": "text",
+          "placeholder": "Enter followers",
+          "required": false
+        },
+        {
+          "id": "entry_mentions_of_brand",
+          "label": "Mentions of Brand",
+          "type": "text",
+          "placeholder": "Enter mentions of brand",
+          "required": false
+        },
+        {
+          "id": "entry_sentiment",
+          "label": "Sentiment",
+          "type": "text",
+          "placeholder": "Enter sentiment",
+          "required": false
+        },
+        {
+          "id": "entry_engagement_rate",
+          "label": "Engagement Rate",
+          "type": "number",
+          "placeholder": "Enter engagement rate",
+          "required": false
+        },
+        {
+          "id": "entry_potential_value",
+          "label": "Potential Value",
+          "type": "text",
+          "placeholder": "Enter potential value",
+          "required": false
+        },
+        {
+          "id": "entry_relationship_status",
+          "label": "Relationship Status",
+          "type": "select",
+          "placeholder": "Enter relationship status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "entry_notes",
+          "label": "Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "crisis_alerts",
+      "title": "Crisis Alerts",
+      "description": "Add entries below. Each entry has the following fields.",
+      "fields": [
+        {
+          "id": "entry_date",
+          "label": "Date",
+          "type": "text",
+          "placeholder": "Enter date",
+          "required": false
+        },
+        {
+          "id": "entry_alert_level",
+          "label": "Alert Level",
+          "type": "text",
+          "placeholder": "Enter alert level",
+          "required": false
+        },
+        {
+          "id": "entry_issue",
+          "label": "Issue",
+          "type": "text",
+          "placeholder": "Enter issue",
+          "required": false
+        },
+        {
+          "id": "entry_platform",
+          "label": "Platform",
+          "type": "text",
+          "placeholder": "Enter platform",
+          "required": false
+        },
+        {
+          "id": "entry_mentions",
+          "label": "Mentions",
+          "type": "text",
+          "placeholder": "Enter mentions",
+          "required": false
+        },
+        {
+          "id": "entry_sentiment",
+          "label": "Sentiment",
+          "type": "text",
+          "placeholder": "Enter sentiment",
+          "required": false
+        },
+        {
+          "id": "entry_response_plan",
+          "label": "Response Plan",
+          "type": "text",
+          "placeholder": "Enter response plan",
+          "required": false
+        },
+        {
+          "id": "entry_owner",
+          "label": "Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "entry_status",
+          "label": "Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "entry_resolution",
+          "label": "Resolution",
+          "type": "text",
+          "placeholder": "Enter resolution",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "monthly_report_template",
+      "title": "Monthly Report Template",
+      "description": "Complete the Monthly Report Template section",
+      "fields": []
+    },
+    {
+      "id": "report_period",
+      "title": "Report Period",
+      "description": "[Report Template] Complete the Report Period section",
+      "fields": []
+    },
+    {
+      "id": "executive_summary",
+      "title": "Executive Summary",
+      "description": "[Report Template] Complete the Executive Summary section",
+      "fields": []
+    },
+    {
+      "id": "key_metrics",
+      "title": "Key Metrics",
+      "description": "[Report Template] Complete the Key Metrics section",
+      "fields": [
+        {
+          "id": "total_mentions",
+          "label": "Total Mentions",
+          "type": "text",
+          "placeholder": "1",
+          "required": false,
+          "helpText": "1"
+        },
+        {
+          "id": "positive_sentiment",
+          "label": "Positive Sentiment %",
+          "type": "text",
+          "placeholder": "0",
+          "required": false,
+          "helpText": "0"
+        }
+      ]
+    },
+    {
+      "id": "top_platforms",
+      "title": "Top Platforms",
+      "description": "[Report Template] Complete the Top Platforms section",
+      "fields": []
+    },
+    {
+      "id": "top_topics",
+      "title": "Top Topics",
+      "description": "[Report Template] Complete the Top Topics section",
+      "fields": []
+    },
+    {
+      "id": "sentiment_trends",
+      "title": "Sentiment Trends",
+      "description": "[Report Template] Complete the Sentiment Trends section",
+      "fields": []
+    },
+    {
+      "id": "competitor_comparison",
+      "title": "Competitor Comparison",
+      "description": "[Report Template] Complete the Competitor Comparison section",
+      "fields": []
+    },
+    {
+      "id": "recommendations",
+      "title": "Recommendations",
+      "description": "[Report Template] Complete the Recommendations section",
+      "fields": []
+    }
+  ]
 }

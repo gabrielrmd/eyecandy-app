@@ -10,645 +10,6 @@
     "research"
   ],
   "estimatedTime": "70 min",
-  "sections": [
-    {
-      "id": "dashboard",
-      "title": "Dashboard",
-      "description": "Complete the Dashboard section",
-      "fields": [
-        {
-          "id": "response_summary_0",
-          "label": "Response Summary",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "metric_1",
-          "label": "Metric",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "total_responses_2",
-          "label": "Total Responses",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "promoter_count_3",
-          "label": "Promoter Count",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "passive_count_4",
-          "label": "Passive Count",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "detractor_count_5",
-          "label": "Detractor Count",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "response_rate_6",
-          "label": "Response Rate",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "response_log",
-      "title": "Response Log",
-      "description": "Complete the Response Log section",
-      "fields": [
-        {
-          "id": "detractor_0",
-          "label": "Detractor",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "detractor_1",
-          "label": "Detractor",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "detractor_2",
-          "label": "Detractor",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "detractor_3",
-          "label": "Detractor",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "detractor_4",
-          "label": "Detractor",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "detractor_5",
-          "label": "Detractor",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "detractor_6",
-          "label": "Detractor",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "detractor_7",
-          "label": "Detractor",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "detractor_8",
-          "label": "Detractor",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "detractor_9",
-          "label": "Detractor",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "detractor_10",
-          "label": "Detractor",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "detractor_11",
-          "label": "Detractor",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "detractor_12",
-          "label": "Detractor",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "detractor_13",
-          "label": "Detractor",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "detractor_14",
-          "label": "Detractor",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "detractor_15",
-          "label": "Detractor",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "detractor_16",
-          "label": "Detractor",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "detractor_17",
-          "label": "Detractor",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "detractor_18",
-          "label": "Detractor",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "detractor_19",
-          "label": "Detractor",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "detractor_20",
-          "label": "Detractor",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "detractor_21",
-          "label": "Detractor",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "detractor_22",
-          "label": "Detractor",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "detractor_23",
-          "label": "Detractor",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "detractor_24",
-          "label": "Detractor",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "detractor_25",
-          "label": "Detractor",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "detractor_26",
-          "label": "Detractor",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "detractor_27",
-          "label": "Detractor",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "detractor_28",
-          "label": "Detractor",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "detractor_29",
-          "label": "Detractor",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "trend_analysis",
-      "title": "Trend Analysis",
-      "description": "Complete the Trend Analysis section",
-      "fields": [
-        {
-          "id": "jan_0",
-          "label": "Jan",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "feb_1",
-          "label": "Feb",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "mar_2",
-          "label": "Mar",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "apr_3",
-          "label": "Apr",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "may_4",
-          "label": "May",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "jun_5",
-          "label": "Jun",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "jul_6",
-          "label": "Jul",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "aug_7",
-          "label": "Aug",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "sep_8",
-          "label": "Sep",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "oct_9",
-          "label": "Oct",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "nov_10",
-          "label": "Nov",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "dec_11",
-          "label": "Dec",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "segment_analysis",
-      "title": "Segment Analysis",
-      "description": "Complete the Segment Analysis section",
-      "fields": [
-        {
-          "id": "enterprise_0",
-          "label": "Enterprise",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "smb_1",
-          "label": "SMB",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "startup_2",
-          "label": "Startup",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "individual_3",
-          "label": "Individual",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "benchmarking",
-      "title": "Benchmarking",
-      "description": "Complete the Benchmarking section",
-      "fields": [
-        {
-          "id": "industry_benchmarking_0",
-          "label": "Industry Benchmarking",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "industry_1",
-          "label": "Industry",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "average_nps_2",
-          "label": "Average NPS",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "best_in_class_nps_3",
-          "label": "Best-in-Class NPS",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "your_nps_4",
-          "label": "Your NPS",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "gap_to_average_5",
-          "label": "Gap to Average",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "gap_to_best_6",
-          "label": "Gap to Best",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "saas_7",
-          "label": "SaaS",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "e_commerce_8",
-          "label": "E-commerce",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "financial_services_9",
-          "label": "Financial Services",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "healthcare_10",
-          "label": "Healthcare",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "telecom_11",
-          "label": "Telecom",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "retail_12",
-          "label": "Retail",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "travel_hospitality_13",
-          "label": "Travel & Hospitality",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "education_14",
-          "label": "Education",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "manufacturing_15",
-          "label": "Manufacturing",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "professional_services_16",
-          "label": "Professional Services",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "reporting",
-      "title": "Reporting",
-      "description": "Complete the Reporting section",
-      "fields": [
-        {
-          "id": "executive_summary_0",
-          "label": "Executive Summary",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "current_performance_1",
-          "label": "Current Performance",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "current_nps_score_2",
-          "label": "Current NPS Score",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "total_responses_3",
-          "label": "Total Responses",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "promoters_4",
-          "label": "% Promoters",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "passives_5",
-          "label": "% Passives",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "detractors_6",
-          "label": "% Detractors",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "key_drivers_actions_7",
-          "label": "Key Drivers & Actions",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "top_positive_themes_8",
-          "label": "Top Positive Themes:",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "top_negative_themes_9",
-          "label": "Top Negative Themes:",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "recommended_actions_10",
-          "label": "Recommended Actions",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "1_review_detractor_verbatims_and_priorit_11",
-          "label": "1. Review detractor verbatims and prioritise recovery efforts",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "2_identify_and_scale_practices_that_driv_12",
-          "label": "2. Identify and scale practices that drive positive feedback",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "3_convert_passives_through_targeted_enga_13",
-          "label": "3. Convert passives through targeted engagement programs",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "4_track_action_plan_outcomes_and_monitor_14",
-          "label": "4. Track action plan outcomes and monitor improvement",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    }
-  ],
   "dashboard": {
     "metrics": [
       {
@@ -677,5 +38,1643 @@
         "format": "number"
       }
     ]
-  }
+  },
+  "sections": [
+    {
+      "id": "dashboard",
+      "title": "Dashboard",
+      "description": "Auto-calculated summary of your data. Complete the working sections to see results here.",
+      "readOnly": true,
+      "fields": [
+        {
+          "id": "dashboard_overview",
+          "label": "Dashboard Overview",
+          "type": "textarea",
+          "placeholder": "Dashboard metrics will be calculated from your inputs in the working sections",
+          "required": false,
+          "readOnly": true
+        }
+      ]
+    },
+    {
+      "id": "response_log",
+      "title": "Response Log",
+      "description": "Add entries below. Each entry has the following fields.",
+      "fields": [
+        {
+          "id": "entry_response_id",
+          "label": "Response ID",
+          "type": "text",
+          "placeholder": "Enter response id",
+          "required": false
+        },
+        {
+          "id": "entry_date",
+          "label": "Date",
+          "type": "text",
+          "placeholder": "Enter date",
+          "required": false
+        },
+        {
+          "id": "entry_customer_name",
+          "label": "Customer Name",
+          "type": "text",
+          "placeholder": "Enter customer name",
+          "required": false
+        },
+        {
+          "id": "entry_email",
+          "label": "Email",
+          "type": "text",
+          "placeholder": "Enter email",
+          "required": false
+        },
+        {
+          "id": "entry_segment",
+          "label": "Segment",
+          "type": "text",
+          "placeholder": "Enter segment",
+          "required": false
+        },
+        {
+          "id": "entry_productservice",
+          "label": "Product/Service",
+          "type": "text",
+          "placeholder": "Enter product/service",
+          "required": false
+        },
+        {
+          "id": "entry_nps_score",
+          "label": "NPS Score",
+          "type": "scale",
+          "placeholder": "Enter nps score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "entry_category",
+          "label": "Category",
+          "type": "text",
+          "placeholder": "Enter category",
+          "required": false
+        },
+        {
+          "id": "entry_verbatim_feedback",
+          "label": "Verbatim Feedback",
+          "type": "text",
+          "placeholder": "Enter verbatim feedback",
+          "required": false
+        },
+        {
+          "id": "entry_followup_status",
+          "label": "Follow-up Status",
+          "type": "select",
+          "placeholder": "Enter follow-up status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "entry_followup_owner",
+          "label": "Follow-up Owner",
+          "type": "text",
+          "placeholder": "Enter follow-up owner",
+          "required": false
+        },
+        {
+          "id": "entry_followup_date",
+          "label": "Follow-up Date",
+          "type": "text",
+          "placeholder": "Enter follow-up date",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "trend_analysis",
+      "title": "Trend Analysis",
+      "description": "Enter data for each item",
+      "fields": [
+        {
+          "id": "jan_total_responses",
+          "label": "Jan - Total Responses",
+          "type": "text",
+          "placeholder": "Enter total responses",
+          "required": false
+        },
+        {
+          "id": "jan_promoters_count",
+          "label": "Jan - Promoters Count",
+          "type": "number",
+          "placeholder": "Enter promoters count",
+          "required": false
+        },
+        {
+          "id": "jan_passives_count",
+          "label": "Jan - Passives Count",
+          "type": "number",
+          "placeholder": "Enter passives count",
+          "required": false
+        },
+        {
+          "id": "jan_detractors_count",
+          "label": "Jan - Detractors Count",
+          "type": "number",
+          "placeholder": "Enter detractors count",
+          "required": false
+        },
+        {
+          "id": "jan_promoters",
+          "label": "Jan - % Promoters",
+          "type": "number",
+          "placeholder": "Enter % promoters",
+          "required": false
+        },
+        {
+          "id": "jan_passives",
+          "label": "Jan - % Passives",
+          "type": "number",
+          "placeholder": "Enter % passives",
+          "required": false
+        },
+        {
+          "id": "jan_detractors",
+          "label": "Jan - % Detractors",
+          "type": "number",
+          "placeholder": "Enter % detractors",
+          "required": false
+        },
+        {
+          "id": "jan_nps_score",
+          "label": "Jan - NPS Score",
+          "type": "scale",
+          "placeholder": "Enter nps score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "feb_total_responses",
+          "label": "Feb - Total Responses",
+          "type": "text",
+          "placeholder": "Enter total responses",
+          "required": false
+        },
+        {
+          "id": "feb_promoters_count",
+          "label": "Feb - Promoters Count",
+          "type": "number",
+          "placeholder": "Enter promoters count",
+          "required": false
+        },
+        {
+          "id": "feb_passives_count",
+          "label": "Feb - Passives Count",
+          "type": "number",
+          "placeholder": "Enter passives count",
+          "required": false
+        },
+        {
+          "id": "feb_detractors_count",
+          "label": "Feb - Detractors Count",
+          "type": "number",
+          "placeholder": "Enter detractors count",
+          "required": false
+        },
+        {
+          "id": "feb_promoters",
+          "label": "Feb - % Promoters",
+          "type": "number",
+          "placeholder": "Enter % promoters",
+          "required": false
+        },
+        {
+          "id": "feb_passives",
+          "label": "Feb - % Passives",
+          "type": "number",
+          "placeholder": "Enter % passives",
+          "required": false
+        },
+        {
+          "id": "feb_detractors",
+          "label": "Feb - % Detractors",
+          "type": "number",
+          "placeholder": "Enter % detractors",
+          "required": false
+        },
+        {
+          "id": "feb_nps_score",
+          "label": "Feb - NPS Score",
+          "type": "scale",
+          "placeholder": "Enter nps score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "mar_total_responses",
+          "label": "Mar - Total Responses",
+          "type": "text",
+          "placeholder": "Enter total responses",
+          "required": false
+        },
+        {
+          "id": "mar_promoters_count",
+          "label": "Mar - Promoters Count",
+          "type": "number",
+          "placeholder": "Enter promoters count",
+          "required": false
+        },
+        {
+          "id": "mar_passives_count",
+          "label": "Mar - Passives Count",
+          "type": "number",
+          "placeholder": "Enter passives count",
+          "required": false
+        },
+        {
+          "id": "mar_detractors_count",
+          "label": "Mar - Detractors Count",
+          "type": "number",
+          "placeholder": "Enter detractors count",
+          "required": false
+        },
+        {
+          "id": "mar_promoters",
+          "label": "Mar - % Promoters",
+          "type": "number",
+          "placeholder": "Enter % promoters",
+          "required": false
+        },
+        {
+          "id": "mar_passives",
+          "label": "Mar - % Passives",
+          "type": "number",
+          "placeholder": "Enter % passives",
+          "required": false
+        },
+        {
+          "id": "mar_detractors",
+          "label": "Mar - % Detractors",
+          "type": "number",
+          "placeholder": "Enter % detractors",
+          "required": false
+        },
+        {
+          "id": "mar_nps_score",
+          "label": "Mar - NPS Score",
+          "type": "scale",
+          "placeholder": "Enter nps score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "apr_total_responses",
+          "label": "Apr - Total Responses",
+          "type": "text",
+          "placeholder": "Enter total responses",
+          "required": false
+        },
+        {
+          "id": "apr_promoters_count",
+          "label": "Apr - Promoters Count",
+          "type": "number",
+          "placeholder": "Enter promoters count",
+          "required": false
+        },
+        {
+          "id": "apr_passives_count",
+          "label": "Apr - Passives Count",
+          "type": "number",
+          "placeholder": "Enter passives count",
+          "required": false
+        },
+        {
+          "id": "apr_detractors_count",
+          "label": "Apr - Detractors Count",
+          "type": "number",
+          "placeholder": "Enter detractors count",
+          "required": false
+        },
+        {
+          "id": "apr_promoters",
+          "label": "Apr - % Promoters",
+          "type": "number",
+          "placeholder": "Enter % promoters",
+          "required": false
+        },
+        {
+          "id": "apr_passives",
+          "label": "Apr - % Passives",
+          "type": "number",
+          "placeholder": "Enter % passives",
+          "required": false
+        },
+        {
+          "id": "apr_detractors",
+          "label": "Apr - % Detractors",
+          "type": "number",
+          "placeholder": "Enter % detractors",
+          "required": false
+        },
+        {
+          "id": "apr_nps_score",
+          "label": "Apr - NPS Score",
+          "type": "scale",
+          "placeholder": "Enter nps score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "may_total_responses",
+          "label": "May - Total Responses",
+          "type": "text",
+          "placeholder": "Enter total responses",
+          "required": false
+        },
+        {
+          "id": "may_promoters_count",
+          "label": "May - Promoters Count",
+          "type": "number",
+          "placeholder": "Enter promoters count",
+          "required": false
+        },
+        {
+          "id": "may_passives_count",
+          "label": "May - Passives Count",
+          "type": "number",
+          "placeholder": "Enter passives count",
+          "required": false
+        },
+        {
+          "id": "may_detractors_count",
+          "label": "May - Detractors Count",
+          "type": "number",
+          "placeholder": "Enter detractors count",
+          "required": false
+        },
+        {
+          "id": "may_promoters",
+          "label": "May - % Promoters",
+          "type": "number",
+          "placeholder": "Enter % promoters",
+          "required": false
+        },
+        {
+          "id": "may_passives",
+          "label": "May - % Passives",
+          "type": "number",
+          "placeholder": "Enter % passives",
+          "required": false
+        },
+        {
+          "id": "may_detractors",
+          "label": "May - % Detractors",
+          "type": "number",
+          "placeholder": "Enter % detractors",
+          "required": false
+        },
+        {
+          "id": "may_nps_score",
+          "label": "May - NPS Score",
+          "type": "scale",
+          "placeholder": "Enter nps score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "jun_total_responses",
+          "label": "Jun - Total Responses",
+          "type": "text",
+          "placeholder": "Enter total responses",
+          "required": false
+        },
+        {
+          "id": "jun_promoters_count",
+          "label": "Jun - Promoters Count",
+          "type": "number",
+          "placeholder": "Enter promoters count",
+          "required": false
+        },
+        {
+          "id": "jun_passives_count",
+          "label": "Jun - Passives Count",
+          "type": "number",
+          "placeholder": "Enter passives count",
+          "required": false
+        },
+        {
+          "id": "jun_detractors_count",
+          "label": "Jun - Detractors Count",
+          "type": "number",
+          "placeholder": "Enter detractors count",
+          "required": false
+        },
+        {
+          "id": "jun_promoters",
+          "label": "Jun - % Promoters",
+          "type": "number",
+          "placeholder": "Enter % promoters",
+          "required": false
+        },
+        {
+          "id": "jun_passives",
+          "label": "Jun - % Passives",
+          "type": "number",
+          "placeholder": "Enter % passives",
+          "required": false
+        },
+        {
+          "id": "jun_detractors",
+          "label": "Jun - % Detractors",
+          "type": "number",
+          "placeholder": "Enter % detractors",
+          "required": false
+        },
+        {
+          "id": "jun_nps_score",
+          "label": "Jun - NPS Score",
+          "type": "scale",
+          "placeholder": "Enter nps score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "jul_total_responses",
+          "label": "Jul - Total Responses",
+          "type": "text",
+          "placeholder": "Enter total responses",
+          "required": false
+        },
+        {
+          "id": "jul_promoters_count",
+          "label": "Jul - Promoters Count",
+          "type": "number",
+          "placeholder": "Enter promoters count",
+          "required": false
+        },
+        {
+          "id": "jul_passives_count",
+          "label": "Jul - Passives Count",
+          "type": "number",
+          "placeholder": "Enter passives count",
+          "required": false
+        },
+        {
+          "id": "jul_detractors_count",
+          "label": "Jul - Detractors Count",
+          "type": "number",
+          "placeholder": "Enter detractors count",
+          "required": false
+        },
+        {
+          "id": "jul_promoters",
+          "label": "Jul - % Promoters",
+          "type": "number",
+          "placeholder": "Enter % promoters",
+          "required": false
+        },
+        {
+          "id": "jul_passives",
+          "label": "Jul - % Passives",
+          "type": "number",
+          "placeholder": "Enter % passives",
+          "required": false
+        },
+        {
+          "id": "jul_detractors",
+          "label": "Jul - % Detractors",
+          "type": "number",
+          "placeholder": "Enter % detractors",
+          "required": false
+        },
+        {
+          "id": "jul_nps_score",
+          "label": "Jul - NPS Score",
+          "type": "scale",
+          "placeholder": "Enter nps score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "aug_total_responses",
+          "label": "Aug - Total Responses",
+          "type": "text",
+          "placeholder": "Enter total responses",
+          "required": false
+        },
+        {
+          "id": "aug_promoters_count",
+          "label": "Aug - Promoters Count",
+          "type": "number",
+          "placeholder": "Enter promoters count",
+          "required": false
+        },
+        {
+          "id": "aug_passives_count",
+          "label": "Aug - Passives Count",
+          "type": "number",
+          "placeholder": "Enter passives count",
+          "required": false
+        },
+        {
+          "id": "aug_detractors_count",
+          "label": "Aug - Detractors Count",
+          "type": "number",
+          "placeholder": "Enter detractors count",
+          "required": false
+        },
+        {
+          "id": "aug_promoters",
+          "label": "Aug - % Promoters",
+          "type": "number",
+          "placeholder": "Enter % promoters",
+          "required": false
+        },
+        {
+          "id": "aug_passives",
+          "label": "Aug - % Passives",
+          "type": "number",
+          "placeholder": "Enter % passives",
+          "required": false
+        },
+        {
+          "id": "aug_detractors",
+          "label": "Aug - % Detractors",
+          "type": "number",
+          "placeholder": "Enter % detractors",
+          "required": false
+        },
+        {
+          "id": "aug_nps_score",
+          "label": "Aug - NPS Score",
+          "type": "scale",
+          "placeholder": "Enter nps score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "sep_total_responses",
+          "label": "Sep - Total Responses",
+          "type": "text",
+          "placeholder": "Enter total responses",
+          "required": false
+        },
+        {
+          "id": "sep_promoters_count",
+          "label": "Sep - Promoters Count",
+          "type": "number",
+          "placeholder": "Enter promoters count",
+          "required": false
+        },
+        {
+          "id": "sep_passives_count",
+          "label": "Sep - Passives Count",
+          "type": "number",
+          "placeholder": "Enter passives count",
+          "required": false
+        },
+        {
+          "id": "sep_detractors_count",
+          "label": "Sep - Detractors Count",
+          "type": "number",
+          "placeholder": "Enter detractors count",
+          "required": false
+        },
+        {
+          "id": "sep_promoters",
+          "label": "Sep - % Promoters",
+          "type": "number",
+          "placeholder": "Enter % promoters",
+          "required": false
+        },
+        {
+          "id": "sep_passives",
+          "label": "Sep - % Passives",
+          "type": "number",
+          "placeholder": "Enter % passives",
+          "required": false
+        },
+        {
+          "id": "sep_detractors",
+          "label": "Sep - % Detractors",
+          "type": "number",
+          "placeholder": "Enter % detractors",
+          "required": false
+        },
+        {
+          "id": "sep_nps_score",
+          "label": "Sep - NPS Score",
+          "type": "scale",
+          "placeholder": "Enter nps score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "oct_total_responses",
+          "label": "Oct - Total Responses",
+          "type": "text",
+          "placeholder": "Enter total responses",
+          "required": false
+        },
+        {
+          "id": "oct_promoters_count",
+          "label": "Oct - Promoters Count",
+          "type": "number",
+          "placeholder": "Enter promoters count",
+          "required": false
+        },
+        {
+          "id": "oct_passives_count",
+          "label": "Oct - Passives Count",
+          "type": "number",
+          "placeholder": "Enter passives count",
+          "required": false
+        },
+        {
+          "id": "oct_detractors_count",
+          "label": "Oct - Detractors Count",
+          "type": "number",
+          "placeholder": "Enter detractors count",
+          "required": false
+        },
+        {
+          "id": "oct_promoters",
+          "label": "Oct - % Promoters",
+          "type": "number",
+          "placeholder": "Enter % promoters",
+          "required": false
+        },
+        {
+          "id": "oct_passives",
+          "label": "Oct - % Passives",
+          "type": "number",
+          "placeholder": "Enter % passives",
+          "required": false
+        },
+        {
+          "id": "oct_detractors",
+          "label": "Oct - % Detractors",
+          "type": "number",
+          "placeholder": "Enter % detractors",
+          "required": false
+        },
+        {
+          "id": "oct_nps_score",
+          "label": "Oct - NPS Score",
+          "type": "scale",
+          "placeholder": "Enter nps score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "nov_total_responses",
+          "label": "Nov - Total Responses",
+          "type": "text",
+          "placeholder": "Enter total responses",
+          "required": false
+        },
+        {
+          "id": "nov_promoters_count",
+          "label": "Nov - Promoters Count",
+          "type": "number",
+          "placeholder": "Enter promoters count",
+          "required": false
+        },
+        {
+          "id": "nov_passives_count",
+          "label": "Nov - Passives Count",
+          "type": "number",
+          "placeholder": "Enter passives count",
+          "required": false
+        },
+        {
+          "id": "nov_detractors_count",
+          "label": "Nov - Detractors Count",
+          "type": "number",
+          "placeholder": "Enter detractors count",
+          "required": false
+        },
+        {
+          "id": "nov_promoters",
+          "label": "Nov - % Promoters",
+          "type": "number",
+          "placeholder": "Enter % promoters",
+          "required": false
+        },
+        {
+          "id": "nov_passives",
+          "label": "Nov - % Passives",
+          "type": "number",
+          "placeholder": "Enter % passives",
+          "required": false
+        },
+        {
+          "id": "nov_detractors",
+          "label": "Nov - % Detractors",
+          "type": "number",
+          "placeholder": "Enter % detractors",
+          "required": false
+        },
+        {
+          "id": "nov_nps_score",
+          "label": "Nov - NPS Score",
+          "type": "scale",
+          "placeholder": "Enter nps score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "dec_total_responses",
+          "label": "Dec - Total Responses",
+          "type": "text",
+          "placeholder": "Enter total responses",
+          "required": false
+        },
+        {
+          "id": "dec_promoters_count",
+          "label": "Dec - Promoters Count",
+          "type": "number",
+          "placeholder": "Enter promoters count",
+          "required": false
+        },
+        {
+          "id": "dec_passives_count",
+          "label": "Dec - Passives Count",
+          "type": "number",
+          "placeholder": "Enter passives count",
+          "required": false
+        },
+        {
+          "id": "dec_detractors_count",
+          "label": "Dec - Detractors Count",
+          "type": "number",
+          "placeholder": "Enter detractors count",
+          "required": false
+        },
+        {
+          "id": "dec_promoters",
+          "label": "Dec - % Promoters",
+          "type": "number",
+          "placeholder": "Enter % promoters",
+          "required": false
+        },
+        {
+          "id": "dec_passives",
+          "label": "Dec - % Passives",
+          "type": "number",
+          "placeholder": "Enter % passives",
+          "required": false
+        },
+        {
+          "id": "dec_detractors",
+          "label": "Dec - % Detractors",
+          "type": "number",
+          "placeholder": "Enter % detractors",
+          "required": false
+        },
+        {
+          "id": "dec_nps_score",
+          "label": "Dec - NPS Score",
+          "type": "scale",
+          "placeholder": "Enter nps score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "segment_analysis",
+      "title": "Segment Analysis",
+      "description": "Enter data for each item",
+      "fields": [
+        {
+          "id": "enterprise_total_responses",
+          "label": "Enterprise - Total Responses",
+          "type": "text",
+          "placeholder": "Enter total responses",
+          "required": false
+        },
+        {
+          "id": "enterprise_promoters",
+          "label": "Enterprise - Promoters",
+          "type": "text",
+          "placeholder": "Enter promoters",
+          "required": false
+        },
+        {
+          "id": "enterprise_passives",
+          "label": "Enterprise - Passives",
+          "type": "text",
+          "placeholder": "Enter passives",
+          "required": false
+        },
+        {
+          "id": "enterprise_detractors",
+          "label": "Enterprise - Detractors",
+          "type": "text",
+          "placeholder": "Enter detractors",
+          "required": false
+        },
+        {
+          "id": "enterprise_nps_score",
+          "label": "Enterprise - NPS Score",
+          "type": "scale",
+          "placeholder": "Enter nps score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "smb_total_responses",
+          "label": "SMB - Total Responses",
+          "type": "text",
+          "placeholder": "Enter total responses",
+          "required": false
+        },
+        {
+          "id": "smb_promoters",
+          "label": "SMB - Promoters",
+          "type": "text",
+          "placeholder": "Enter promoters",
+          "required": false
+        },
+        {
+          "id": "smb_passives",
+          "label": "SMB - Passives",
+          "type": "text",
+          "placeholder": "Enter passives",
+          "required": false
+        },
+        {
+          "id": "smb_detractors",
+          "label": "SMB - Detractors",
+          "type": "text",
+          "placeholder": "Enter detractors",
+          "required": false
+        },
+        {
+          "id": "smb_nps_score",
+          "label": "SMB - NPS Score",
+          "type": "scale",
+          "placeholder": "Enter nps score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "startup_total_responses",
+          "label": "Startup - Total Responses",
+          "type": "text",
+          "placeholder": "Enter total responses",
+          "required": false
+        },
+        {
+          "id": "startup_promoters",
+          "label": "Startup - Promoters",
+          "type": "text",
+          "placeholder": "Enter promoters",
+          "required": false
+        },
+        {
+          "id": "startup_passives",
+          "label": "Startup - Passives",
+          "type": "text",
+          "placeholder": "Enter passives",
+          "required": false
+        },
+        {
+          "id": "startup_detractors",
+          "label": "Startup - Detractors",
+          "type": "text",
+          "placeholder": "Enter detractors",
+          "required": false
+        },
+        {
+          "id": "startup_nps_score",
+          "label": "Startup - NPS Score",
+          "type": "scale",
+          "placeholder": "Enter nps score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "individual_total_responses",
+          "label": "Individual - Total Responses",
+          "type": "text",
+          "placeholder": "Enter total responses",
+          "required": false
+        },
+        {
+          "id": "individual_promoters",
+          "label": "Individual - Promoters",
+          "type": "text",
+          "placeholder": "Enter promoters",
+          "required": false
+        },
+        {
+          "id": "individual_passives",
+          "label": "Individual - Passives",
+          "type": "text",
+          "placeholder": "Enter passives",
+          "required": false
+        },
+        {
+          "id": "individual_detractors",
+          "label": "Individual - Detractors",
+          "type": "text",
+          "placeholder": "Enter detractors",
+          "required": false
+        },
+        {
+          "id": "individual_nps_score",
+          "label": "Individual - NPS Score",
+          "type": "scale",
+          "placeholder": "Enter nps score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbatim_analysis",
+      "title": "Verbatim Analysis",
+      "description": "Add entries below. Each entry has the following fields.",
+      "fields": [
+        {
+          "id": "entry_response_id",
+          "label": "Response ID",
+          "type": "text",
+          "placeholder": "Enter response id",
+          "required": false
+        },
+        {
+          "id": "entry_nps_score",
+          "label": "NPS Score",
+          "type": "scale",
+          "placeholder": "Enter nps score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "entry_category",
+          "label": "Category",
+          "type": "text",
+          "placeholder": "Enter category",
+          "required": false
+        },
+        {
+          "id": "entry_verbatim",
+          "label": "Verbatim",
+          "type": "text",
+          "placeholder": "Enter verbatim",
+          "required": false
+        },
+        {
+          "id": "entry_theme",
+          "label": "Theme",
+          "type": "text",
+          "placeholder": "Enter theme",
+          "required": false
+        },
+        {
+          "id": "entry_sentiment",
+          "label": "Sentiment",
+          "type": "text",
+          "placeholder": "Enter sentiment",
+          "required": false
+        },
+        {
+          "id": "entry_priority",
+          "label": "Priority",
+          "type": "select",
+          "placeholder": "Enter priority",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "entry_action_required",
+          "label": "Action Required",
+          "type": "textarea",
+          "placeholder": "Enter action required",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "action_plan",
+      "title": "Action Plan",
+      "description": "Add entries below. Each entry has the following fields.",
+      "fields": [
+        {
+          "id": "entry_action_id",
+          "label": "Action ID",
+          "type": "textarea",
+          "placeholder": "Enter action id",
+          "required": false
+        },
+        {
+          "id": "entry_source",
+          "label": "Source",
+          "type": "text",
+          "placeholder": "Enter source",
+          "required": false
+        },
+        {
+          "id": "entry_customersegment",
+          "label": "Customer/Segment",
+          "type": "text",
+          "placeholder": "Enter customer/segment",
+          "required": false
+        },
+        {
+          "id": "entry_issueopportunity",
+          "label": "Issue/Opportunity",
+          "type": "select",
+          "placeholder": "Enter issue/opportunity",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low",
+            "None"
+          ]
+        },
+        {
+          "id": "entry_action",
+          "label": "Action",
+          "type": "textarea",
+          "placeholder": "Enter action",
+          "required": false
+        },
+        {
+          "id": "entry_owner",
+          "label": "Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "entry_due_date",
+          "label": "Due Date",
+          "type": "text",
+          "placeholder": "Enter due date",
+          "required": false
+        },
+        {
+          "id": "entry_status",
+          "label": "Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "entry_outcome",
+          "label": "Outcome",
+          "type": "text",
+          "placeholder": "Enter outcome",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "benchmarking",
+      "title": "Benchmarking",
+      "description": "Enter data for each item",
+      "fields": [
+        {
+          "id": "saas_average_nps",
+          "label": "SaaS - Average NPS",
+          "type": "text",
+          "placeholder": "Enter average nps",
+          "required": false
+        },
+        {
+          "id": "saas_bestinclass_nps",
+          "label": "SaaS - Best-in-Class NPS",
+          "type": "text",
+          "placeholder": "Enter best-in-class nps",
+          "required": false
+        },
+        {
+          "id": "saas_your_nps",
+          "label": "SaaS - Your NPS",
+          "type": "text",
+          "placeholder": "Enter your nps",
+          "required": false
+        },
+        {
+          "id": "saas_gap_to_average",
+          "label": "SaaS - Gap to Average",
+          "type": "number",
+          "placeholder": "Enter gap to average",
+          "required": false
+        },
+        {
+          "id": "saas_gap_to_best",
+          "label": "SaaS - Gap to Best",
+          "type": "number",
+          "placeholder": "Enter gap to best",
+          "required": false
+        },
+        {
+          "id": "ecommerce_average_nps",
+          "label": "E-commerce - Average NPS",
+          "type": "text",
+          "placeholder": "Enter average nps",
+          "required": false
+        },
+        {
+          "id": "ecommerce_bestinclass_nps",
+          "label": "E-commerce - Best-in-Class NPS",
+          "type": "text",
+          "placeholder": "Enter best-in-class nps",
+          "required": false
+        },
+        {
+          "id": "ecommerce_your_nps",
+          "label": "E-commerce - Your NPS",
+          "type": "text",
+          "placeholder": "Enter your nps",
+          "required": false
+        },
+        {
+          "id": "ecommerce_gap_to_average",
+          "label": "E-commerce - Gap to Average",
+          "type": "number",
+          "placeholder": "Enter gap to average",
+          "required": false
+        },
+        {
+          "id": "ecommerce_gap_to_best",
+          "label": "E-commerce - Gap to Best",
+          "type": "number",
+          "placeholder": "Enter gap to best",
+          "required": false
+        },
+        {
+          "id": "financial_services_average_nps",
+          "label": "Financial Services - Average NPS",
+          "type": "text",
+          "placeholder": "Enter average nps",
+          "required": false
+        },
+        {
+          "id": "financial_services_bestinclass_nps",
+          "label": "Financial Services - Best-in-Class NPS",
+          "type": "text",
+          "placeholder": "Enter best-in-class nps",
+          "required": false
+        },
+        {
+          "id": "financial_services_your_nps",
+          "label": "Financial Services - Your NPS",
+          "type": "text",
+          "placeholder": "Enter your nps",
+          "required": false
+        },
+        {
+          "id": "financial_services_gap_to_average",
+          "label": "Financial Services - Gap to Average",
+          "type": "number",
+          "placeholder": "Enter gap to average",
+          "required": false
+        },
+        {
+          "id": "financial_services_gap_to_best",
+          "label": "Financial Services - Gap to Best",
+          "type": "number",
+          "placeholder": "Enter gap to best",
+          "required": false
+        },
+        {
+          "id": "healthcare_average_nps",
+          "label": "Healthcare - Average NPS",
+          "type": "text",
+          "placeholder": "Enter average nps",
+          "required": false
+        },
+        {
+          "id": "healthcare_bestinclass_nps",
+          "label": "Healthcare - Best-in-Class NPS",
+          "type": "text",
+          "placeholder": "Enter best-in-class nps",
+          "required": false
+        },
+        {
+          "id": "healthcare_your_nps",
+          "label": "Healthcare - Your NPS",
+          "type": "text",
+          "placeholder": "Enter your nps",
+          "required": false
+        },
+        {
+          "id": "healthcare_gap_to_average",
+          "label": "Healthcare - Gap to Average",
+          "type": "number",
+          "placeholder": "Enter gap to average",
+          "required": false
+        },
+        {
+          "id": "healthcare_gap_to_best",
+          "label": "Healthcare - Gap to Best",
+          "type": "number",
+          "placeholder": "Enter gap to best",
+          "required": false
+        },
+        {
+          "id": "telecom_average_nps",
+          "label": "Telecom - Average NPS",
+          "type": "text",
+          "placeholder": "Enter average nps",
+          "required": false
+        },
+        {
+          "id": "telecom_bestinclass_nps",
+          "label": "Telecom - Best-in-Class NPS",
+          "type": "text",
+          "placeholder": "Enter best-in-class nps",
+          "required": false
+        },
+        {
+          "id": "telecom_your_nps",
+          "label": "Telecom - Your NPS",
+          "type": "text",
+          "placeholder": "Enter your nps",
+          "required": false
+        },
+        {
+          "id": "telecom_gap_to_average",
+          "label": "Telecom - Gap to Average",
+          "type": "number",
+          "placeholder": "Enter gap to average",
+          "required": false
+        },
+        {
+          "id": "telecom_gap_to_best",
+          "label": "Telecom - Gap to Best",
+          "type": "number",
+          "placeholder": "Enter gap to best",
+          "required": false
+        },
+        {
+          "id": "retail_average_nps",
+          "label": "Retail - Average NPS",
+          "type": "text",
+          "placeholder": "Enter average nps",
+          "required": false
+        },
+        {
+          "id": "retail_bestinclass_nps",
+          "label": "Retail - Best-in-Class NPS",
+          "type": "text",
+          "placeholder": "Enter best-in-class nps",
+          "required": false
+        },
+        {
+          "id": "retail_your_nps",
+          "label": "Retail - Your NPS",
+          "type": "text",
+          "placeholder": "Enter your nps",
+          "required": false
+        },
+        {
+          "id": "retail_gap_to_average",
+          "label": "Retail - Gap to Average",
+          "type": "number",
+          "placeholder": "Enter gap to average",
+          "required": false
+        },
+        {
+          "id": "retail_gap_to_best",
+          "label": "Retail - Gap to Best",
+          "type": "number",
+          "placeholder": "Enter gap to best",
+          "required": false
+        },
+        {
+          "id": "travel_hospitality_average_nps",
+          "label": "Travel & Hospitality - Average NPS",
+          "type": "text",
+          "placeholder": "Enter average nps",
+          "required": false
+        },
+        {
+          "id": "travel_hospitality_bestinclass_nps",
+          "label": "Travel & Hospitality - Best-in-Class NPS",
+          "type": "text",
+          "placeholder": "Enter best-in-class nps",
+          "required": false
+        },
+        {
+          "id": "travel_hospitality_your_nps",
+          "label": "Travel & Hospitality - Your NPS",
+          "type": "text",
+          "placeholder": "Enter your nps",
+          "required": false
+        },
+        {
+          "id": "travel_hospitality_gap_to_average",
+          "label": "Travel & Hospitality - Gap to Average",
+          "type": "number",
+          "placeholder": "Enter gap to average",
+          "required": false
+        },
+        {
+          "id": "travel_hospitality_gap_to_best",
+          "label": "Travel & Hospitality - Gap to Best",
+          "type": "number",
+          "placeholder": "Enter gap to best",
+          "required": false
+        },
+        {
+          "id": "education_average_nps",
+          "label": "Education - Average NPS",
+          "type": "text",
+          "placeholder": "Enter average nps",
+          "required": false
+        },
+        {
+          "id": "education_bestinclass_nps",
+          "label": "Education - Best-in-Class NPS",
+          "type": "text",
+          "placeholder": "Enter best-in-class nps",
+          "required": false
+        },
+        {
+          "id": "education_your_nps",
+          "label": "Education - Your NPS",
+          "type": "text",
+          "placeholder": "Enter your nps",
+          "required": false
+        },
+        {
+          "id": "education_gap_to_average",
+          "label": "Education - Gap to Average",
+          "type": "number",
+          "placeholder": "Enter gap to average",
+          "required": false
+        },
+        {
+          "id": "education_gap_to_best",
+          "label": "Education - Gap to Best",
+          "type": "number",
+          "placeholder": "Enter gap to best",
+          "required": false
+        },
+        {
+          "id": "manufacturing_average_nps",
+          "label": "Manufacturing - Average NPS",
+          "type": "text",
+          "placeholder": "Enter average nps",
+          "required": false
+        },
+        {
+          "id": "manufacturing_bestinclass_nps",
+          "label": "Manufacturing - Best-in-Class NPS",
+          "type": "text",
+          "placeholder": "Enter best-in-class nps",
+          "required": false
+        },
+        {
+          "id": "manufacturing_your_nps",
+          "label": "Manufacturing - Your NPS",
+          "type": "text",
+          "placeholder": "Enter your nps",
+          "required": false
+        },
+        {
+          "id": "manufacturing_gap_to_average",
+          "label": "Manufacturing - Gap to Average",
+          "type": "number",
+          "placeholder": "Enter gap to average",
+          "required": false
+        },
+        {
+          "id": "manufacturing_gap_to_best",
+          "label": "Manufacturing - Gap to Best",
+          "type": "number",
+          "placeholder": "Enter gap to best",
+          "required": false
+        },
+        {
+          "id": "professional_services_average_nps",
+          "label": "Professional Services - Average NPS",
+          "type": "text",
+          "placeholder": "Enter average nps",
+          "required": false
+        },
+        {
+          "id": "professional_services_bestinclass_nps",
+          "label": "Professional Services - Best-in-Class NPS",
+          "type": "text",
+          "placeholder": "Enter best-in-class nps",
+          "required": false
+        },
+        {
+          "id": "professional_services_your_nps",
+          "label": "Professional Services - Your NPS",
+          "type": "text",
+          "placeholder": "Enter your nps",
+          "required": false
+        },
+        {
+          "id": "professional_services_gap_to_average",
+          "label": "Professional Services - Gap to Average",
+          "type": "number",
+          "placeholder": "Enter gap to average",
+          "required": false
+        },
+        {
+          "id": "professional_services_gap_to_best",
+          "label": "Professional Services - Gap to Best",
+          "type": "number",
+          "placeholder": "Enter gap to best",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "executive_summary",
+      "title": "Executive Summary",
+      "description": "[Reporting] Complete the Executive Summary section",
+      "fields": []
+    },
+    {
+      "id": "current_performance",
+      "title": "Current Performance",
+      "description": "[Reporting] Complete the Current Performance section",
+      "fields": []
+    },
+    {
+      "id": "current_nps_score",
+      "title": "Current NPS Score",
+      "description": "[Reporting] Complete the Current NPS Score section",
+      "fields": []
+    },
+    {
+      "id": "total_responses",
+      "title": "Total Responses",
+      "description": "[Reporting] Complete the Total Responses section",
+      "fields": []
+    },
+    {
+      "id": "promoters",
+      "title": "% Promoters",
+      "description": "[Reporting] Complete the % Promoters section",
+      "fields": []
+    },
+    {
+      "id": "passives",
+      "title": "% Passives",
+      "description": "[Reporting] Complete the % Passives section",
+      "fields": []
+    },
+    {
+      "id": "detractors",
+      "title": "% Detractors",
+      "description": "[Reporting] Complete the % Detractors section",
+      "fields": []
+    },
+    {
+      "id": "key_drivers_actions",
+      "title": "Key Drivers & Actions",
+      "description": "[Reporting] Complete the Key Drivers & Actions section",
+      "fields": []
+    },
+    {
+      "id": "top_positive_themes",
+      "title": "Top Positive Themes:",
+      "description": "[Reporting] Complete the Top Positive Themes: section",
+      "fields": []
+    },
+    {
+      "id": "top_negative_themes",
+      "title": "Top Negative Themes:",
+      "description": "[Reporting] Complete the Top Negative Themes: section",
+      "fields": []
+    },
+    {
+      "id": "recommended_actions",
+      "title": "Recommended Actions",
+      "description": "[Reporting] Complete the Recommended Actions section",
+      "fields": []
+    }
+  ]
 }

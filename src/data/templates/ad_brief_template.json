@@ -10,729 +10,6 @@
     "channels"
   ],
   "estimatedTime": "50 min",
-  "sections": [
-    {
-      "id": "dashboard",
-      "title": "Dashboard",
-      "description": "Complete the Dashboard section",
-      "fields": [
-        {
-          "id": "active_briefs_0",
-          "label": "Active Briefs",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "briefs_in_production_1",
-          "label": "Briefs in Production",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "briefs_live_2",
-          "label": "Briefs Live",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "total_campaign_budget_3",
-          "label": "Total Campaign Budget",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "budget_spent_4",
-          "label": "Budget Spent",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "budget_remaining_5",
-          "label": "Budget Remaining",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "avg_performance_score_6",
-          "label": "Avg Performance Score",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "campaign_brief",
-      "title": "Campaign Brief",
-      "description": "Complete the Campaign Brief section",
-      "fields": [
-        {
-          "id": "brief_title_0",
-          "label": "Brief Title",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "campaign_name_1",
-          "label": "Campaign Name",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "brand_product_2",
-          "label": "Brand / Product",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "brief_date_3",
-          "label": "Brief Date",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "due_date_4",
-          "label": "Due Date",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "brief_owner_5",
-          "label": "Brief Owner",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "campaign_type_6",
-          "label": "Campaign Type",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "priority_7",
-          "label": "Priority",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "strategic_context_8",
-          "label": "Strategic Context",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "business_objective_9",
-          "label": "Business Objective",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "what_business_goal_does_this_campaign_su_10",
-          "label": "What business goal does this campaign support?",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "marketing_objective_11",
-          "label": "Marketing Objective",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "specific_marketing_objective_awareness_l_12",
-          "label": "Specific marketing objective (awareness, leads, conversions, etc.)",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "campaign_kpis_13",
-          "label": "Campaign KPIs",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "key_performance_indicators_and_targets_14",
-          "label": "Key performance indicators and targets",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "key_insight_15",
-          "label": "Key Insight",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "the_human_truth_or_market_insight_drivin_16",
-          "label": "The human truth or market insight driving this campaign",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "single_minded_proposition_17",
-          "label": "Single-Minded Proposition",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "the_one_thing_we_want_the_audience_to_ta_18",
-          "label": "The ONE thing we want the audience to take away",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "reason_to_believe_19",
-          "label": "Reason to Believe",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "why_should_the_audience_believe_our_prop_20",
-          "label": "Why should the audience believe our proposition?",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "competitive_context_21",
-          "label": "Competitive Context",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "key_competitors_and_how_we_differentiate_22",
-          "label": "Key competitors and how we differentiate",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "target_audience_23",
-          "label": "Target Audience",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "primary_audience_24",
-          "label": "Primary Audience",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "demographics_25",
-          "label": "Demographics",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "age_gender_income_location_education_26",
-          "label": "Age, gender, income, location, education",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "psychographics_27",
-          "label": "Psychographics",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "interests_values_lifestyle_attitudes_28",
-          "label": "Interests, values, lifestyle, attitudes",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "behavioural_signals_29",
-          "label": "Behavioural Signals",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "creative_brief",
-      "title": "Creative Brief",
-      "description": "Complete the Creative Brief section",
-      "fields": [
-        {
-          "id": "tone_of_voice_0",
-          "label": "Tone of Voice",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "how_should_the_ad_feel_e_g_bold_warm_wit_1",
-          "label": "How should the ad feel? (e.g., Bold, Warm, Witty, Authoritative)",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "visual_direction_2",
-          "label": "Visual Direction",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "describe_the_look_and_feel_colours_image_3",
-          "label": "Describe the look and feel — colours, imagery style, mood",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "headline_direction_4",
-          "label": "Headline Direction",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "3_5_headline_options_or_direction_5",
-          "label": "3-5 headline options or direction",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "body_copy_direction_6",
-          "label": "Body Copy Direction",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "key_messages_and_copy_points_to_include_7",
-          "label": "Key messages and copy points to include",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "call_to_action_8",
-          "label": "Call to Action",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "what_do_we_want_the_audience_to_do_9",
-          "label": "What do we want the audience to do?",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "mandatory_inclusions_10",
-          "label": "Mandatory Inclusions",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "logos_legal_disclaimers_taglines_hashtag_11",
-          "label": "Logos, legal disclaimers, taglines, hashtags",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "mandatory_exclusions_12",
-          "label": "Mandatory Exclusions",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "competitor_mentions_off_brand_imagery_re_13",
-          "label": "Competitor mentions, off-brand imagery, restricted claims",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "reference_examples_14",
-          "label": "Reference Examples",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "links_or_descriptions_of_ads_that_captur_15",
-          "label": "Links or descriptions of ads that capture the desired direction",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "format_requirements_16",
-          "label": "Format Requirements",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "sizes_formats_aspect_ratios_needed_17",
-          "label": "Sizes, formats, aspect ratios needed",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "deliverables_18",
-          "label": "Deliverables",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "list_all_deliverables_needed_from_creati_19",
-          "label": "List all deliverables needed from creative team",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "media_plan",
-      "title": "Media Plan",
-      "description": "Complete the Media Plan section",
-      "fields": [
-        {
-          "id": "25_45_professionals_0",
-          "label": "25-45 professionals",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "25_35_urban_1",
-          "label": "25-35 urban",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "decision_makers_2",
-          "label": "Decision makers",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "high_intent_3",
-          "label": "High intent",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "retargeting_4",
-          "label": "Retargeting",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "broad_awareness_5",
-          "label": "Broad awareness",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "interest_based_6",
-          "label": "Interest-based",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "existing_customers_7",
-          "label": "Existing customers",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "ad_specs_library",
-      "title": "Ad Specs Library",
-      "description": "Complete the Ad Specs Library section",
-      "fields": [
-        {
-          "id": "recommended_minimal_text_on_image_0",
-          "label": "Recommended: minimal text on image",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "full_screen_vertical_1",
-          "label": "Full screen vertical",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "15_60_sec_recommended_2",
-          "label": "15-60 sec recommended",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "square_performs_best_3",
-          "label": "Square performs best",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "15_sec_max_per_story_4",
-          "label": "15 sec max per story",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "15_90_sec_5",
-          "label": "15-90 sec",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "professional_tone_6",
-          "label": "Professional tone",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "3_30_sec_for_ads_7",
-          "label": "3-30 sec for ads",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "3_headlines_2_descriptions_8",
-          "label": "3 headlines, 2 descriptions",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "multiple_sizes_needed_9",
-          "label": "Multiple sizes needed",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "skip_after_5_sec_10",
-          "label": "Skip after 5 sec",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "6_sec_non_skippable_11",
-          "label": "6 sec non-skippable",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "9_15_sec_recommended_12",
-          "label": "9-15 sec recommended",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "hashtags_recommended_13",
-          "label": "Hashtags recommended",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "vertical_format_14",
-          "label": "Vertical format",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "budget_tracker",
-      "title": "Budget Tracker",
-      "description": "Complete the Budget Tracker section",
-      "fields": [
-        {
-          "id": "design_copywriting_video_production_0",
-          "label": "Design, copywriting, video production",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "product_and_lifestyle_photography_1",
-          "label": "Product and lifestyle photography",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "ad_video_creation_and_editing_2",
-          "label": "Ad video creation and editing",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "facebook_ad_spend_3",
-          "label": "Facebook ad spend",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "instagram_ad_spend_4",
-          "label": "Instagram ad spend",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "linkedin_ad_spend_5",
-          "label": "LinkedIn ad spend",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "search_and_display_spend_6",
-          "label": "Search and display spend",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "video_ad_spend_7",
-          "label": "Video ad spend",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "influencer_collaboration_costs_8",
-          "label": "Influencer collaboration costs",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "agency_management_and_strategy_9",
-          "label": "Agency management and strategy",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "approval_workflow",
-      "title": "Approval Workflow",
-      "description": "Complete the Approval Workflow section",
-      "fields": [
-        {
-          "id": "1_strategy_review_0",
-          "label": "1. Strategy Review",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "2_creative_review_1",
-          "label": "2. Creative Review",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "3_legal_compliance_2",
-          "label": "3. Legal Compliance",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "4_brand_review_3",
-          "label": "4. Brand Review",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "5_budget_approval_4",
-          "label": "5. Budget Approval",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "6_final_sign_off_5",
-          "label": "6. Final Sign-off",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    }
-  ],
   "dashboard": {
     "metrics": [
       {
@@ -761,5 +38,2572 @@
         "format": "number"
       }
     ]
-  }
+  },
+  "sections": [
+    {
+      "id": "dashboard",
+      "title": "Dashboard",
+      "description": "Auto-calculated summary of your data. Complete the working sections to see results here.",
+      "readOnly": true,
+      "fields": [
+        {
+          "id": "dashboard_overview",
+          "label": "Dashboard Overview",
+          "type": "textarea",
+          "placeholder": "Dashboard metrics will be calculated from your inputs in the working sections",
+          "required": false,
+          "readOnly": true
+        }
+      ]
+    },
+    {
+      "id": "project_information",
+      "title": "Project Information",
+      "description": "[Campaign Brief] Complete the Project Information section",
+      "fields": []
+    },
+    {
+      "id": "brief_title",
+      "title": "Brief Title",
+      "description": "[Campaign Brief] Complete the Brief Title section",
+      "fields": []
+    },
+    {
+      "id": "campaign_name",
+      "title": "Campaign Name",
+      "description": "[Campaign Brief] Complete the Campaign Name section",
+      "fields": []
+    },
+    {
+      "id": "brand_product",
+      "title": "Brand / Product",
+      "description": "[Campaign Brief] Complete the Brand / Product section",
+      "fields": []
+    },
+    {
+      "id": "brief_date",
+      "title": "Brief Date",
+      "description": "[Campaign Brief] Complete the Brief Date section",
+      "fields": []
+    },
+    {
+      "id": "due_date",
+      "title": "Due Date",
+      "description": "[Campaign Brief] Complete the Due Date section",
+      "fields": []
+    },
+    {
+      "id": "brief_owner",
+      "title": "Brief Owner",
+      "description": "[Campaign Brief] Complete the Brief Owner section",
+      "fields": []
+    },
+    {
+      "id": "campaign_type",
+      "title": "Campaign Type",
+      "description": "[Campaign Brief] Complete the Campaign Type section",
+      "fields": []
+    },
+    {
+      "id": "priority",
+      "title": "Priority",
+      "description": "[Campaign Brief] Complete the Priority section",
+      "fields": []
+    },
+    {
+      "id": "strategic_context",
+      "title": "Strategic Context",
+      "description": "[Campaign Brief] Complete the Strategic Context section",
+      "fields": [
+        {
+          "id": "business_objective",
+          "label": "Business Objective",
+          "type": "text",
+          "placeholder": "What business goal does this campaign support?",
+          "required": false,
+          "helpText": "What business goal does this campaign support?"
+        },
+        {
+          "id": "marketing_objective",
+          "label": "Marketing Objective",
+          "type": "text",
+          "placeholder": "Specific marketing objective (awareness, leads, conversions, etc.)",
+          "required": false,
+          "helpText": "Specific marketing objective (awareness, leads, conversions, etc.)"
+        },
+        {
+          "id": "campaign_kpis",
+          "label": "Campaign KPIs",
+          "type": "text",
+          "placeholder": "Key performance indicators and targets",
+          "required": false,
+          "helpText": "Key performance indicators and targets"
+        },
+        {
+          "id": "key_insight",
+          "label": "Key Insight",
+          "type": "textarea",
+          "placeholder": "The human truth or market insight driving this campaign",
+          "required": false,
+          "helpText": "The human truth or market insight driving this campaign"
+        },
+        {
+          "id": "singleminded_proposition",
+          "label": "Single-Minded Proposition",
+          "type": "text",
+          "placeholder": "The ONE thing we want the audience to take away",
+          "required": false,
+          "helpText": "The ONE thing we want the audience to take away"
+        },
+        {
+          "id": "reason_to_believe",
+          "label": "Reason to Believe",
+          "type": "text",
+          "placeholder": "Why should the audience believe our proposition?",
+          "required": false,
+          "helpText": "Why should the audience believe our proposition?"
+        },
+        {
+          "id": "competitive_context",
+          "label": "Competitive Context",
+          "type": "text",
+          "placeholder": "Key competitors and how we differentiate",
+          "required": false,
+          "helpText": "Key competitors and how we differentiate"
+        }
+      ]
+    },
+    {
+      "id": "target_audience",
+      "title": "Target Audience",
+      "description": "[Campaign Brief] Complete the Target Audience section",
+      "fields": []
+    },
+    {
+      "id": "primary_audience",
+      "title": "Primary Audience",
+      "description": "[Campaign Brief] Complete the Primary Audience section",
+      "fields": [
+        {
+          "id": "demographics",
+          "label": "Demographics",
+          "type": "text",
+          "placeholder": "Age, gender, income, location, education",
+          "required": false,
+          "helpText": "Age, gender, income, location, education"
+        },
+        {
+          "id": "psychographics",
+          "label": "Psychographics",
+          "type": "text",
+          "placeholder": "Interests, values, lifestyle, attitudes",
+          "required": false,
+          "helpText": "Interests, values, lifestyle, attitudes"
+        },
+        {
+          "id": "behavioural_signals",
+          "label": "Behavioural Signals",
+          "type": "text",
+          "placeholder": "Online behaviour, purchase patterns, media consumption",
+          "required": false,
+          "helpText": "Online behaviour, purchase patterns, media consumption"
+        },
+        {
+          "id": "pain_points",
+          "label": "Pain Points",
+          "type": "text",
+          "placeholder": "Problems or frustrations the audience faces",
+          "required": false,
+          "helpText": "Problems or frustrations the audience faces"
+        },
+        {
+          "id": "current_perception",
+          "label": "Current Perception",
+          "type": "text",
+          "placeholder": "What does the audience currently think/feel about us?",
+          "required": false,
+          "helpText": "What does the audience currently think/feel about us?"
+        },
+        {
+          "id": "desired_perception",
+          "label": "Desired Perception",
+          "type": "text",
+          "placeholder": "What do we want them to think/feel after the campaign?",
+          "required": false,
+          "helpText": "What do we want them to think/feel after the campaign?"
+        }
+      ]
+    },
+    {
+      "id": "general",
+      "title": "General",
+      "description": "[Creative Brief] Fill in the fields below",
+      "fields": [
+        {
+          "id": "creative_concept",
+          "label": "Creative Concept",
+          "type": "textarea",
+          "placeholder": "The big idea that brings the strategy to life",
+          "required": false,
+          "helpText": "The big idea that brings the strategy to life"
+        },
+        {
+          "id": "tone_of_voice",
+          "label": "Tone of Voice",
+          "type": "text",
+          "placeholder": "How should the ad feel? (e.g., Bold, Warm, Witty, Authoritative)",
+          "required": false,
+          "helpText": "How should the ad feel? (e.g., Bold, Warm, Witty, Authoritative)"
+        },
+        {
+          "id": "visual_direction",
+          "label": "Visual Direction",
+          "type": "text",
+          "placeholder": "Describe the look and feel — colours, imagery style, mood",
+          "required": false,
+          "helpText": "Describe the look and feel — colours, imagery style, mood"
+        },
+        {
+          "id": "headline_direction",
+          "label": "Headline Direction",
+          "type": "text",
+          "placeholder": "3-5 headline options or direction",
+          "required": false,
+          "helpText": "3-5 headline options or direction"
+        },
+        {
+          "id": "body_copy_direction",
+          "label": "Body Copy Direction",
+          "type": "textarea",
+          "placeholder": "Key messages and copy points to include",
+          "required": false,
+          "helpText": "Key messages and copy points to include"
+        },
+        {
+          "id": "call_to_action",
+          "label": "Call to Action",
+          "type": "text",
+          "placeholder": "What do we want the audience to do?",
+          "required": false,
+          "helpText": "What do we want the audience to do?"
+        },
+        {
+          "id": "mandatory_inclusions",
+          "label": "Mandatory Inclusions",
+          "type": "text",
+          "placeholder": "Logos, legal disclaimers, taglines, hashtags",
+          "required": false,
+          "helpText": "Logos, legal disclaimers, taglines, hashtags"
+        },
+        {
+          "id": "mandatory_exclusions",
+          "label": "Mandatory Exclusions",
+          "type": "text",
+          "placeholder": "Competitor mentions, off-brand imagery, restricted claims",
+          "required": false,
+          "helpText": "Competitor mentions, off-brand imagery, restricted claims"
+        },
+        {
+          "id": "reference_examples",
+          "label": "Reference Examples",
+          "type": "textarea",
+          "placeholder": "Links or descriptions of ads that capture the desired direction",
+          "required": false,
+          "helpText": "Links or descriptions of ads that capture the desired direction"
+        },
+        {
+          "id": "format_requirements",
+          "label": "Format Requirements",
+          "type": "text",
+          "placeholder": "Sizes, formats, aspect ratios needed",
+          "required": false,
+          "helpText": "Sizes, formats, aspect ratios needed"
+        },
+        {
+          "id": "deliverables",
+          "label": "Deliverables",
+          "type": "text",
+          "placeholder": "List all deliverables needed from creative team",
+          "required": false,
+          "helpText": "List all deliverables needed from creative team"
+        }
+      ]
+    },
+    {
+      "id": "media_plan",
+      "title": "Media Plan",
+      "description": "Enter data for each item",
+      "fields": [
+        {
+          "id": "paid_social_platform",
+          "label": "Paid Social - Platform",
+          "type": "text",
+          "placeholder": "Enter platform",
+          "required": false
+        },
+        {
+          "id": "paid_social_format",
+          "label": "Paid Social - Format",
+          "type": "text",
+          "placeholder": "Enter format",
+          "required": false
+        },
+        {
+          "id": "paid_social_placement",
+          "label": "Paid Social - Placement",
+          "type": "text",
+          "placeholder": "Enter placement",
+          "required": false
+        },
+        {
+          "id": "paid_social_audience",
+          "label": "Paid Social - Audience",
+          "type": "text",
+          "placeholder": "Enter audience",
+          "required": false
+        },
+        {
+          "id": "paid_social_budget",
+          "label": "Paid Social - Budget",
+          "type": "number",
+          "placeholder": "Enter budget",
+          "required": false
+        },
+        {
+          "id": "paid_social_start_date",
+          "label": "Paid Social - Start Date",
+          "type": "text",
+          "placeholder": "Enter start date",
+          "required": false
+        },
+        {
+          "id": "paid_social_end_date",
+          "label": "Paid Social - End Date",
+          "type": "text",
+          "placeholder": "Enter end date",
+          "required": false
+        },
+        {
+          "id": "paid_social_impressions_target",
+          "label": "Paid Social - Impressions Target",
+          "type": "number",
+          "placeholder": "Enter impressions target",
+          "required": false
+        },
+        {
+          "id": "paid_social_cpc_target",
+          "label": "Paid Social - CPC Target",
+          "type": "number",
+          "placeholder": "Enter cpc target",
+          "required": false
+        },
+        {
+          "id": "paid_social_notes",
+          "label": "Paid Social - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "paid_social_platform_1",
+          "label": "Paid Social - Platform",
+          "type": "text",
+          "placeholder": "Enter platform",
+          "required": false
+        },
+        {
+          "id": "paid_social_format_1",
+          "label": "Paid Social - Format",
+          "type": "text",
+          "placeholder": "Enter format",
+          "required": false
+        },
+        {
+          "id": "paid_social_placement_1",
+          "label": "Paid Social - Placement",
+          "type": "text",
+          "placeholder": "Enter placement",
+          "required": false
+        },
+        {
+          "id": "paid_social_audience_1",
+          "label": "Paid Social - Audience",
+          "type": "text",
+          "placeholder": "Enter audience",
+          "required": false
+        },
+        {
+          "id": "paid_social_budget_1",
+          "label": "Paid Social - Budget",
+          "type": "number",
+          "placeholder": "Enter budget",
+          "required": false
+        },
+        {
+          "id": "paid_social_start_date_1",
+          "label": "Paid Social - Start Date",
+          "type": "text",
+          "placeholder": "Enter start date",
+          "required": false
+        },
+        {
+          "id": "paid_social_end_date_1",
+          "label": "Paid Social - End Date",
+          "type": "text",
+          "placeholder": "Enter end date",
+          "required": false
+        },
+        {
+          "id": "paid_social_impressions_target_1",
+          "label": "Paid Social - Impressions Target",
+          "type": "number",
+          "placeholder": "Enter impressions target",
+          "required": false
+        },
+        {
+          "id": "paid_social_cpc_target_1",
+          "label": "Paid Social - CPC Target",
+          "type": "number",
+          "placeholder": "Enter cpc target",
+          "required": false
+        },
+        {
+          "id": "paid_social_notes_1",
+          "label": "Paid Social - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "paid_social_platform_2",
+          "label": "Paid Social - Platform",
+          "type": "text",
+          "placeholder": "Enter platform",
+          "required": false
+        },
+        {
+          "id": "paid_social_format_2",
+          "label": "Paid Social - Format",
+          "type": "text",
+          "placeholder": "Enter format",
+          "required": false
+        },
+        {
+          "id": "paid_social_placement_2",
+          "label": "Paid Social - Placement",
+          "type": "text",
+          "placeholder": "Enter placement",
+          "required": false
+        },
+        {
+          "id": "paid_social_audience_2",
+          "label": "Paid Social - Audience",
+          "type": "text",
+          "placeholder": "Enter audience",
+          "required": false
+        },
+        {
+          "id": "paid_social_budget_2",
+          "label": "Paid Social - Budget",
+          "type": "number",
+          "placeholder": "Enter budget",
+          "required": false
+        },
+        {
+          "id": "paid_social_start_date_2",
+          "label": "Paid Social - Start Date",
+          "type": "text",
+          "placeholder": "Enter start date",
+          "required": false
+        },
+        {
+          "id": "paid_social_end_date_2",
+          "label": "Paid Social - End Date",
+          "type": "text",
+          "placeholder": "Enter end date",
+          "required": false
+        },
+        {
+          "id": "paid_social_impressions_target_2",
+          "label": "Paid Social - Impressions Target",
+          "type": "number",
+          "placeholder": "Enter impressions target",
+          "required": false
+        },
+        {
+          "id": "paid_social_cpc_target_2",
+          "label": "Paid Social - CPC Target",
+          "type": "number",
+          "placeholder": "Enter cpc target",
+          "required": false
+        },
+        {
+          "id": "paid_social_notes_2",
+          "label": "Paid Social - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "paid_search_platform",
+          "label": "Paid Search - Platform",
+          "type": "text",
+          "placeholder": "Enter platform",
+          "required": false
+        },
+        {
+          "id": "paid_search_format",
+          "label": "Paid Search - Format",
+          "type": "text",
+          "placeholder": "Enter format",
+          "required": false
+        },
+        {
+          "id": "paid_search_placement",
+          "label": "Paid Search - Placement",
+          "type": "text",
+          "placeholder": "Enter placement",
+          "required": false
+        },
+        {
+          "id": "paid_search_audience",
+          "label": "Paid Search - Audience",
+          "type": "text",
+          "placeholder": "Enter audience",
+          "required": false
+        },
+        {
+          "id": "paid_search_budget",
+          "label": "Paid Search - Budget",
+          "type": "number",
+          "placeholder": "Enter budget",
+          "required": false
+        },
+        {
+          "id": "paid_search_start_date",
+          "label": "Paid Search - Start Date",
+          "type": "text",
+          "placeholder": "Enter start date",
+          "required": false
+        },
+        {
+          "id": "paid_search_end_date",
+          "label": "Paid Search - End Date",
+          "type": "text",
+          "placeholder": "Enter end date",
+          "required": false
+        },
+        {
+          "id": "paid_search_impressions_target",
+          "label": "Paid Search - Impressions Target",
+          "type": "number",
+          "placeholder": "Enter impressions target",
+          "required": false
+        },
+        {
+          "id": "paid_search_cpc_target",
+          "label": "Paid Search - CPC Target",
+          "type": "number",
+          "placeholder": "Enter cpc target",
+          "required": false
+        },
+        {
+          "id": "paid_search_notes",
+          "label": "Paid Search - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "display_platform",
+          "label": "Display - Platform",
+          "type": "text",
+          "placeholder": "Enter platform",
+          "required": false
+        },
+        {
+          "id": "display_format",
+          "label": "Display - Format",
+          "type": "text",
+          "placeholder": "Enter format",
+          "required": false
+        },
+        {
+          "id": "display_placement",
+          "label": "Display - Placement",
+          "type": "text",
+          "placeholder": "Enter placement",
+          "required": false
+        },
+        {
+          "id": "display_audience",
+          "label": "Display - Audience",
+          "type": "text",
+          "placeholder": "Enter audience",
+          "required": false
+        },
+        {
+          "id": "display_budget",
+          "label": "Display - Budget",
+          "type": "number",
+          "placeholder": "Enter budget",
+          "required": false
+        },
+        {
+          "id": "display_start_date",
+          "label": "Display - Start Date",
+          "type": "text",
+          "placeholder": "Enter start date",
+          "required": false
+        },
+        {
+          "id": "display_end_date",
+          "label": "Display - End Date",
+          "type": "text",
+          "placeholder": "Enter end date",
+          "required": false
+        },
+        {
+          "id": "display_impressions_target",
+          "label": "Display - Impressions Target",
+          "type": "number",
+          "placeholder": "Enter impressions target",
+          "required": false
+        },
+        {
+          "id": "display_cpc_target",
+          "label": "Display - CPC Target",
+          "type": "number",
+          "placeholder": "Enter cpc target",
+          "required": false
+        },
+        {
+          "id": "display_notes",
+          "label": "Display - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "video_platform",
+          "label": "Video - Platform",
+          "type": "text",
+          "placeholder": "Enter platform",
+          "required": false
+        },
+        {
+          "id": "video_format",
+          "label": "Video - Format",
+          "type": "text",
+          "placeholder": "Enter format",
+          "required": false
+        },
+        {
+          "id": "video_placement",
+          "label": "Video - Placement",
+          "type": "text",
+          "placeholder": "Enter placement",
+          "required": false
+        },
+        {
+          "id": "video_audience",
+          "label": "Video - Audience",
+          "type": "text",
+          "placeholder": "Enter audience",
+          "required": false
+        },
+        {
+          "id": "video_budget",
+          "label": "Video - Budget",
+          "type": "number",
+          "placeholder": "Enter budget",
+          "required": false
+        },
+        {
+          "id": "video_start_date",
+          "label": "Video - Start Date",
+          "type": "text",
+          "placeholder": "Enter start date",
+          "required": false
+        },
+        {
+          "id": "video_end_date",
+          "label": "Video - End Date",
+          "type": "text",
+          "placeholder": "Enter end date",
+          "required": false
+        },
+        {
+          "id": "video_impressions_target",
+          "label": "Video - Impressions Target",
+          "type": "number",
+          "placeholder": "Enter impressions target",
+          "required": false
+        },
+        {
+          "id": "video_cpc_target",
+          "label": "Video - CPC Target",
+          "type": "number",
+          "placeholder": "Enter cpc target",
+          "required": false
+        },
+        {
+          "id": "video_notes",
+          "label": "Video - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "native_platform",
+          "label": "Native - Platform",
+          "type": "text",
+          "placeholder": "Enter platform",
+          "required": false
+        },
+        {
+          "id": "native_format",
+          "label": "Native - Format",
+          "type": "text",
+          "placeholder": "Enter format",
+          "required": false
+        },
+        {
+          "id": "native_placement",
+          "label": "Native - Placement",
+          "type": "text",
+          "placeholder": "Enter placement",
+          "required": false
+        },
+        {
+          "id": "native_audience",
+          "label": "Native - Audience",
+          "type": "text",
+          "placeholder": "Enter audience",
+          "required": false
+        },
+        {
+          "id": "native_budget",
+          "label": "Native - Budget",
+          "type": "number",
+          "placeholder": "Enter budget",
+          "required": false
+        },
+        {
+          "id": "native_start_date",
+          "label": "Native - Start Date",
+          "type": "text",
+          "placeholder": "Enter start date",
+          "required": false
+        },
+        {
+          "id": "native_end_date",
+          "label": "Native - End Date",
+          "type": "text",
+          "placeholder": "Enter end date",
+          "required": false
+        },
+        {
+          "id": "native_impressions_target",
+          "label": "Native - Impressions Target",
+          "type": "number",
+          "placeholder": "Enter impressions target",
+          "required": false
+        },
+        {
+          "id": "native_cpc_target",
+          "label": "Native - CPC Target",
+          "type": "number",
+          "placeholder": "Enter cpc target",
+          "required": false
+        },
+        {
+          "id": "native_notes",
+          "label": "Native - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "email_platform",
+          "label": "Email - Platform",
+          "type": "text",
+          "placeholder": "Enter platform",
+          "required": false
+        },
+        {
+          "id": "email_format",
+          "label": "Email - Format",
+          "type": "text",
+          "placeholder": "Enter format",
+          "required": false
+        },
+        {
+          "id": "email_placement",
+          "label": "Email - Placement",
+          "type": "text",
+          "placeholder": "Enter placement",
+          "required": false
+        },
+        {
+          "id": "email_audience",
+          "label": "Email - Audience",
+          "type": "text",
+          "placeholder": "Enter audience",
+          "required": false
+        },
+        {
+          "id": "email_budget",
+          "label": "Email - Budget",
+          "type": "number",
+          "placeholder": "Enter budget",
+          "required": false
+        },
+        {
+          "id": "email_start_date",
+          "label": "Email - Start Date",
+          "type": "text",
+          "placeholder": "Enter start date",
+          "required": false
+        },
+        {
+          "id": "email_end_date",
+          "label": "Email - End Date",
+          "type": "text",
+          "placeholder": "Enter end date",
+          "required": false
+        },
+        {
+          "id": "email_impressions_target",
+          "label": "Email - Impressions Target",
+          "type": "number",
+          "placeholder": "Enter impressions target",
+          "required": false
+        },
+        {
+          "id": "email_cpc_target",
+          "label": "Email - CPC Target",
+          "type": "number",
+          "placeholder": "Enter cpc target",
+          "required": false
+        },
+        {
+          "id": "email_notes",
+          "label": "Email - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "ad_specs_library",
+      "title": "Ad Specs Library",
+      "description": "Enter data for each item",
+      "fields": [
+        {
+          "id": "facebook_format",
+          "label": "Facebook - Format",
+          "type": "text",
+          "placeholder": "Enter format",
+          "required": false
+        },
+        {
+          "id": "facebook_dimensions",
+          "label": "Facebook - Dimensions",
+          "type": "text",
+          "placeholder": "Enter dimensions",
+          "required": false
+        },
+        {
+          "id": "facebook_aspect_ratio",
+          "label": "Facebook - Aspect Ratio",
+          "type": "text",
+          "placeholder": "Enter aspect ratio",
+          "required": false
+        },
+        {
+          "id": "facebook_max_file_size",
+          "label": "Facebook - Max File Size",
+          "type": "text",
+          "placeholder": "Enter max file size",
+          "required": false
+        },
+        {
+          "id": "facebook_file_types",
+          "label": "Facebook - File Types",
+          "type": "text",
+          "placeholder": "Enter file types",
+          "required": false
+        },
+        {
+          "id": "facebook_character_limits",
+          "label": "Facebook - Character Limits",
+          "type": "text",
+          "placeholder": "Enter character limits",
+          "required": false
+        },
+        {
+          "id": "facebook_notes",
+          "label": "Facebook - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "facebook_format_1",
+          "label": "Facebook - Format",
+          "type": "text",
+          "placeholder": "Enter format",
+          "required": false
+        },
+        {
+          "id": "facebook_dimensions_1",
+          "label": "Facebook - Dimensions",
+          "type": "text",
+          "placeholder": "Enter dimensions",
+          "required": false
+        },
+        {
+          "id": "facebook_aspect_ratio_1",
+          "label": "Facebook - Aspect Ratio",
+          "type": "text",
+          "placeholder": "Enter aspect ratio",
+          "required": false
+        },
+        {
+          "id": "facebook_max_file_size_1",
+          "label": "Facebook - Max File Size",
+          "type": "text",
+          "placeholder": "Enter max file size",
+          "required": false
+        },
+        {
+          "id": "facebook_file_types_1",
+          "label": "Facebook - File Types",
+          "type": "text",
+          "placeholder": "Enter file types",
+          "required": false
+        },
+        {
+          "id": "facebook_character_limits_1",
+          "label": "Facebook - Character Limits",
+          "type": "text",
+          "placeholder": "Enter character limits",
+          "required": false
+        },
+        {
+          "id": "facebook_notes_1",
+          "label": "Facebook - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "facebook_format_2",
+          "label": "Facebook - Format",
+          "type": "text",
+          "placeholder": "Enter format",
+          "required": false
+        },
+        {
+          "id": "facebook_dimensions_2",
+          "label": "Facebook - Dimensions",
+          "type": "text",
+          "placeholder": "Enter dimensions",
+          "required": false
+        },
+        {
+          "id": "facebook_aspect_ratio_2",
+          "label": "Facebook - Aspect Ratio",
+          "type": "text",
+          "placeholder": "Enter aspect ratio",
+          "required": false
+        },
+        {
+          "id": "facebook_max_file_size_2",
+          "label": "Facebook - Max File Size",
+          "type": "text",
+          "placeholder": "Enter max file size",
+          "required": false
+        },
+        {
+          "id": "facebook_file_types_2",
+          "label": "Facebook - File Types",
+          "type": "text",
+          "placeholder": "Enter file types",
+          "required": false
+        },
+        {
+          "id": "facebook_character_limits_2",
+          "label": "Facebook - Character Limits",
+          "type": "text",
+          "placeholder": "Enter character limits",
+          "required": false
+        },
+        {
+          "id": "facebook_notes_2",
+          "label": "Facebook - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "instagram_format",
+          "label": "Instagram - Format",
+          "type": "text",
+          "placeholder": "Enter format",
+          "required": false
+        },
+        {
+          "id": "instagram_dimensions",
+          "label": "Instagram - Dimensions",
+          "type": "text",
+          "placeholder": "Enter dimensions",
+          "required": false
+        },
+        {
+          "id": "instagram_aspect_ratio",
+          "label": "Instagram - Aspect Ratio",
+          "type": "text",
+          "placeholder": "Enter aspect ratio",
+          "required": false
+        },
+        {
+          "id": "instagram_max_file_size",
+          "label": "Instagram - Max File Size",
+          "type": "text",
+          "placeholder": "Enter max file size",
+          "required": false
+        },
+        {
+          "id": "instagram_file_types",
+          "label": "Instagram - File Types",
+          "type": "text",
+          "placeholder": "Enter file types",
+          "required": false
+        },
+        {
+          "id": "instagram_character_limits",
+          "label": "Instagram - Character Limits",
+          "type": "text",
+          "placeholder": "Enter character limits",
+          "required": false
+        },
+        {
+          "id": "instagram_notes",
+          "label": "Instagram - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "instagram_format_1",
+          "label": "Instagram - Format",
+          "type": "text",
+          "placeholder": "Enter format",
+          "required": false
+        },
+        {
+          "id": "instagram_dimensions_1",
+          "label": "Instagram - Dimensions",
+          "type": "text",
+          "placeholder": "Enter dimensions",
+          "required": false
+        },
+        {
+          "id": "instagram_aspect_ratio_1",
+          "label": "Instagram - Aspect Ratio",
+          "type": "text",
+          "placeholder": "Enter aspect ratio",
+          "required": false
+        },
+        {
+          "id": "instagram_max_file_size_1",
+          "label": "Instagram - Max File Size",
+          "type": "text",
+          "placeholder": "Enter max file size",
+          "required": false
+        },
+        {
+          "id": "instagram_file_types_1",
+          "label": "Instagram - File Types",
+          "type": "text",
+          "placeholder": "Enter file types",
+          "required": false
+        },
+        {
+          "id": "instagram_character_limits_1",
+          "label": "Instagram - Character Limits",
+          "type": "text",
+          "placeholder": "Enter character limits",
+          "required": false
+        },
+        {
+          "id": "instagram_notes_1",
+          "label": "Instagram - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "instagram_format_2",
+          "label": "Instagram - Format",
+          "type": "text",
+          "placeholder": "Enter format",
+          "required": false
+        },
+        {
+          "id": "instagram_dimensions_2",
+          "label": "Instagram - Dimensions",
+          "type": "text",
+          "placeholder": "Enter dimensions",
+          "required": false
+        },
+        {
+          "id": "instagram_aspect_ratio_2",
+          "label": "Instagram - Aspect Ratio",
+          "type": "text",
+          "placeholder": "Enter aspect ratio",
+          "required": false
+        },
+        {
+          "id": "instagram_max_file_size_2",
+          "label": "Instagram - Max File Size",
+          "type": "text",
+          "placeholder": "Enter max file size",
+          "required": false
+        },
+        {
+          "id": "instagram_file_types_2",
+          "label": "Instagram - File Types",
+          "type": "text",
+          "placeholder": "Enter file types",
+          "required": false
+        },
+        {
+          "id": "instagram_character_limits_2",
+          "label": "Instagram - Character Limits",
+          "type": "text",
+          "placeholder": "Enter character limits",
+          "required": false
+        },
+        {
+          "id": "instagram_notes_2",
+          "label": "Instagram - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "linkedin_format",
+          "label": "LinkedIn - Format",
+          "type": "text",
+          "placeholder": "Enter format",
+          "required": false
+        },
+        {
+          "id": "linkedin_dimensions",
+          "label": "LinkedIn - Dimensions",
+          "type": "text",
+          "placeholder": "Enter dimensions",
+          "required": false
+        },
+        {
+          "id": "linkedin_aspect_ratio",
+          "label": "LinkedIn - Aspect Ratio",
+          "type": "text",
+          "placeholder": "Enter aspect ratio",
+          "required": false
+        },
+        {
+          "id": "linkedin_max_file_size",
+          "label": "LinkedIn - Max File Size",
+          "type": "text",
+          "placeholder": "Enter max file size",
+          "required": false
+        },
+        {
+          "id": "linkedin_file_types",
+          "label": "LinkedIn - File Types",
+          "type": "text",
+          "placeholder": "Enter file types",
+          "required": false
+        },
+        {
+          "id": "linkedin_character_limits",
+          "label": "LinkedIn - Character Limits",
+          "type": "text",
+          "placeholder": "Enter character limits",
+          "required": false
+        },
+        {
+          "id": "linkedin_notes",
+          "label": "LinkedIn - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "linkedin_format_1",
+          "label": "LinkedIn - Format",
+          "type": "text",
+          "placeholder": "Enter format",
+          "required": false
+        },
+        {
+          "id": "linkedin_dimensions_1",
+          "label": "LinkedIn - Dimensions",
+          "type": "text",
+          "placeholder": "Enter dimensions",
+          "required": false
+        },
+        {
+          "id": "linkedin_aspect_ratio_1",
+          "label": "LinkedIn - Aspect Ratio",
+          "type": "text",
+          "placeholder": "Enter aspect ratio",
+          "required": false
+        },
+        {
+          "id": "linkedin_max_file_size_1",
+          "label": "LinkedIn - Max File Size",
+          "type": "text",
+          "placeholder": "Enter max file size",
+          "required": false
+        },
+        {
+          "id": "linkedin_file_types_1",
+          "label": "LinkedIn - File Types",
+          "type": "text",
+          "placeholder": "Enter file types",
+          "required": false
+        },
+        {
+          "id": "linkedin_character_limits_1",
+          "label": "LinkedIn - Character Limits",
+          "type": "text",
+          "placeholder": "Enter character limits",
+          "required": false
+        },
+        {
+          "id": "linkedin_notes_1",
+          "label": "LinkedIn - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "google_ads_format",
+          "label": "Google Ads - Format",
+          "type": "text",
+          "placeholder": "Enter format",
+          "required": false
+        },
+        {
+          "id": "google_ads_dimensions",
+          "label": "Google Ads - Dimensions",
+          "type": "text",
+          "placeholder": "Enter dimensions",
+          "required": false
+        },
+        {
+          "id": "google_ads_aspect_ratio",
+          "label": "Google Ads - Aspect Ratio",
+          "type": "text",
+          "placeholder": "Enter aspect ratio",
+          "required": false
+        },
+        {
+          "id": "google_ads_max_file_size",
+          "label": "Google Ads - Max File Size",
+          "type": "text",
+          "placeholder": "Enter max file size",
+          "required": false
+        },
+        {
+          "id": "google_ads_file_types",
+          "label": "Google Ads - File Types",
+          "type": "text",
+          "placeholder": "Enter file types",
+          "required": false
+        },
+        {
+          "id": "google_ads_character_limits",
+          "label": "Google Ads - Character Limits",
+          "type": "text",
+          "placeholder": "Enter character limits",
+          "required": false
+        },
+        {
+          "id": "google_ads_notes",
+          "label": "Google Ads - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "google_ads_format_1",
+          "label": "Google Ads - Format",
+          "type": "text",
+          "placeholder": "Enter format",
+          "required": false
+        },
+        {
+          "id": "google_ads_dimensions_1",
+          "label": "Google Ads - Dimensions",
+          "type": "text",
+          "placeholder": "Enter dimensions",
+          "required": false
+        },
+        {
+          "id": "google_ads_aspect_ratio_1",
+          "label": "Google Ads - Aspect Ratio",
+          "type": "text",
+          "placeholder": "Enter aspect ratio",
+          "required": false
+        },
+        {
+          "id": "google_ads_max_file_size_1",
+          "label": "Google Ads - Max File Size",
+          "type": "text",
+          "placeholder": "Enter max file size",
+          "required": false
+        },
+        {
+          "id": "google_ads_file_types_1",
+          "label": "Google Ads - File Types",
+          "type": "text",
+          "placeholder": "Enter file types",
+          "required": false
+        },
+        {
+          "id": "google_ads_character_limits_1",
+          "label": "Google Ads - Character Limits",
+          "type": "text",
+          "placeholder": "Enter character limits",
+          "required": false
+        },
+        {
+          "id": "google_ads_notes_1",
+          "label": "Google Ads - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "youtube_format",
+          "label": "YouTube - Format",
+          "type": "text",
+          "placeholder": "Enter format",
+          "required": false
+        },
+        {
+          "id": "youtube_dimensions",
+          "label": "YouTube - Dimensions",
+          "type": "text",
+          "placeholder": "Enter dimensions",
+          "required": false
+        },
+        {
+          "id": "youtube_aspect_ratio",
+          "label": "YouTube - Aspect Ratio",
+          "type": "text",
+          "placeholder": "Enter aspect ratio",
+          "required": false
+        },
+        {
+          "id": "youtube_max_file_size",
+          "label": "YouTube - Max File Size",
+          "type": "text",
+          "placeholder": "Enter max file size",
+          "required": false
+        },
+        {
+          "id": "youtube_file_types",
+          "label": "YouTube - File Types",
+          "type": "text",
+          "placeholder": "Enter file types",
+          "required": false
+        },
+        {
+          "id": "youtube_character_limits",
+          "label": "YouTube - Character Limits",
+          "type": "text",
+          "placeholder": "Enter character limits",
+          "required": false
+        },
+        {
+          "id": "youtube_notes",
+          "label": "YouTube - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "youtube_format_1",
+          "label": "YouTube - Format",
+          "type": "text",
+          "placeholder": "Enter format",
+          "required": false
+        },
+        {
+          "id": "youtube_dimensions_1",
+          "label": "YouTube - Dimensions",
+          "type": "text",
+          "placeholder": "Enter dimensions",
+          "required": false
+        },
+        {
+          "id": "youtube_aspect_ratio_1",
+          "label": "YouTube - Aspect Ratio",
+          "type": "text",
+          "placeholder": "Enter aspect ratio",
+          "required": false
+        },
+        {
+          "id": "youtube_max_file_size_1",
+          "label": "YouTube - Max File Size",
+          "type": "text",
+          "placeholder": "Enter max file size",
+          "required": false
+        },
+        {
+          "id": "youtube_file_types_1",
+          "label": "YouTube - File Types",
+          "type": "text",
+          "placeholder": "Enter file types",
+          "required": false
+        },
+        {
+          "id": "youtube_character_limits_1",
+          "label": "YouTube - Character Limits",
+          "type": "text",
+          "placeholder": "Enter character limits",
+          "required": false
+        },
+        {
+          "id": "youtube_notes_1",
+          "label": "YouTube - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "tiktok_format",
+          "label": "TikTok - Format",
+          "type": "text",
+          "placeholder": "Enter format",
+          "required": false
+        },
+        {
+          "id": "tiktok_dimensions",
+          "label": "TikTok - Dimensions",
+          "type": "text",
+          "placeholder": "Enter dimensions",
+          "required": false
+        },
+        {
+          "id": "tiktok_aspect_ratio",
+          "label": "TikTok - Aspect Ratio",
+          "type": "text",
+          "placeholder": "Enter aspect ratio",
+          "required": false
+        },
+        {
+          "id": "tiktok_max_file_size",
+          "label": "TikTok - Max File Size",
+          "type": "text",
+          "placeholder": "Enter max file size",
+          "required": false
+        },
+        {
+          "id": "tiktok_file_types",
+          "label": "TikTok - File Types",
+          "type": "text",
+          "placeholder": "Enter file types",
+          "required": false
+        },
+        {
+          "id": "tiktok_character_limits",
+          "label": "TikTok - Character Limits",
+          "type": "text",
+          "placeholder": "Enter character limits",
+          "required": false
+        },
+        {
+          "id": "tiktok_notes",
+          "label": "TikTok - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "x_twitter_format",
+          "label": "X (Twitter) - Format",
+          "type": "text",
+          "placeholder": "Enter format",
+          "required": false
+        },
+        {
+          "id": "x_twitter_dimensions",
+          "label": "X (Twitter) - Dimensions",
+          "type": "text",
+          "placeholder": "Enter dimensions",
+          "required": false
+        },
+        {
+          "id": "x_twitter_aspect_ratio",
+          "label": "X (Twitter) - Aspect Ratio",
+          "type": "text",
+          "placeholder": "Enter aspect ratio",
+          "required": false
+        },
+        {
+          "id": "x_twitter_max_file_size",
+          "label": "X (Twitter) - Max File Size",
+          "type": "text",
+          "placeholder": "Enter max file size",
+          "required": false
+        },
+        {
+          "id": "x_twitter_file_types",
+          "label": "X (Twitter) - File Types",
+          "type": "text",
+          "placeholder": "Enter file types",
+          "required": false
+        },
+        {
+          "id": "x_twitter_character_limits",
+          "label": "X (Twitter) - Character Limits",
+          "type": "text",
+          "placeholder": "Enter character limits",
+          "required": false
+        },
+        {
+          "id": "x_twitter_notes",
+          "label": "X (Twitter) - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "pinterest_format",
+          "label": "Pinterest - Format",
+          "type": "text",
+          "placeholder": "Enter format",
+          "required": false
+        },
+        {
+          "id": "pinterest_dimensions",
+          "label": "Pinterest - Dimensions",
+          "type": "text",
+          "placeholder": "Enter dimensions",
+          "required": false
+        },
+        {
+          "id": "pinterest_aspect_ratio",
+          "label": "Pinterest - Aspect Ratio",
+          "type": "text",
+          "placeholder": "Enter aspect ratio",
+          "required": false
+        },
+        {
+          "id": "pinterest_max_file_size",
+          "label": "Pinterest - Max File Size",
+          "type": "text",
+          "placeholder": "Enter max file size",
+          "required": false
+        },
+        {
+          "id": "pinterest_file_types",
+          "label": "Pinterest - File Types",
+          "type": "text",
+          "placeholder": "Enter file types",
+          "required": false
+        },
+        {
+          "id": "pinterest_character_limits",
+          "label": "Pinterest - Character Limits",
+          "type": "text",
+          "placeholder": "Enter character limits",
+          "required": false
+        },
+        {
+          "id": "pinterest_notes",
+          "label": "Pinterest - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "budget_tracker",
+      "title": "Budget Tracker",
+      "description": "Enter data for each item",
+      "fields": [
+        {
+          "id": "creative_production_category",
+          "label": "Creative Production - Category",
+          "type": "text",
+          "placeholder": "Enter category",
+          "required": false
+        },
+        {
+          "id": "creative_production_description",
+          "label": "Creative Production - Description",
+          "type": "textarea",
+          "placeholder": "Enter description",
+          "required": false
+        },
+        {
+          "id": "creative_production_budget",
+          "label": "Creative Production - Budget",
+          "type": "number",
+          "placeholder": "Enter budget",
+          "required": false
+        },
+        {
+          "id": "creative_production_actual",
+          "label": "Creative Production - Actual",
+          "type": "text",
+          "placeholder": "Enter actual",
+          "required": false
+        },
+        {
+          "id": "creative_production_spent",
+          "label": "Creative Production - % Spent",
+          "type": "number",
+          "placeholder": "Enter % spent",
+          "required": false
+        },
+        {
+          "id": "creative_production_status",
+          "label": "Creative Production - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "photography_category",
+          "label": "Photography - Category",
+          "type": "text",
+          "placeholder": "Enter category",
+          "required": false
+        },
+        {
+          "id": "photography_description",
+          "label": "Photography - Description",
+          "type": "textarea",
+          "placeholder": "Enter description",
+          "required": false
+        },
+        {
+          "id": "photography_budget",
+          "label": "Photography - Budget",
+          "type": "number",
+          "placeholder": "Enter budget",
+          "required": false
+        },
+        {
+          "id": "photography_actual",
+          "label": "Photography - Actual",
+          "type": "text",
+          "placeholder": "Enter actual",
+          "required": false
+        },
+        {
+          "id": "photography_spent",
+          "label": "Photography - % Spent",
+          "type": "number",
+          "placeholder": "Enter % spent",
+          "required": false
+        },
+        {
+          "id": "photography_status",
+          "label": "Photography - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "video_production_category",
+          "label": "Video Production - Category",
+          "type": "text",
+          "placeholder": "Enter category",
+          "required": false
+        },
+        {
+          "id": "video_production_description",
+          "label": "Video Production - Description",
+          "type": "textarea",
+          "placeholder": "Enter description",
+          "required": false
+        },
+        {
+          "id": "video_production_budget",
+          "label": "Video Production - Budget",
+          "type": "number",
+          "placeholder": "Enter budget",
+          "required": false
+        },
+        {
+          "id": "video_production_actual",
+          "label": "Video Production - Actual",
+          "type": "text",
+          "placeholder": "Enter actual",
+          "required": false
+        },
+        {
+          "id": "video_production_spent",
+          "label": "Video Production - % Spent",
+          "type": "number",
+          "placeholder": "Enter % spent",
+          "required": false
+        },
+        {
+          "id": "video_production_status",
+          "label": "Video Production - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "facebook_ads_category",
+          "label": "Facebook Ads - Category",
+          "type": "text",
+          "placeholder": "Enter category",
+          "required": false
+        },
+        {
+          "id": "facebook_ads_description",
+          "label": "Facebook Ads - Description",
+          "type": "textarea",
+          "placeholder": "Enter description",
+          "required": false
+        },
+        {
+          "id": "facebook_ads_budget",
+          "label": "Facebook Ads - Budget",
+          "type": "number",
+          "placeholder": "Enter budget",
+          "required": false
+        },
+        {
+          "id": "facebook_ads_actual",
+          "label": "Facebook Ads - Actual",
+          "type": "text",
+          "placeholder": "Enter actual",
+          "required": false
+        },
+        {
+          "id": "facebook_ads_spent",
+          "label": "Facebook Ads - % Spent",
+          "type": "number",
+          "placeholder": "Enter % spent",
+          "required": false
+        },
+        {
+          "id": "facebook_ads_status",
+          "label": "Facebook Ads - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "instagram_ads_category",
+          "label": "Instagram Ads - Category",
+          "type": "text",
+          "placeholder": "Enter category",
+          "required": false
+        },
+        {
+          "id": "instagram_ads_description",
+          "label": "Instagram Ads - Description",
+          "type": "textarea",
+          "placeholder": "Enter description",
+          "required": false
+        },
+        {
+          "id": "instagram_ads_budget",
+          "label": "Instagram Ads - Budget",
+          "type": "number",
+          "placeholder": "Enter budget",
+          "required": false
+        },
+        {
+          "id": "instagram_ads_actual",
+          "label": "Instagram Ads - Actual",
+          "type": "text",
+          "placeholder": "Enter actual",
+          "required": false
+        },
+        {
+          "id": "instagram_ads_spent",
+          "label": "Instagram Ads - % Spent",
+          "type": "number",
+          "placeholder": "Enter % spent",
+          "required": false
+        },
+        {
+          "id": "instagram_ads_status",
+          "label": "Instagram Ads - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "linkedin_ads_category",
+          "label": "LinkedIn Ads - Category",
+          "type": "text",
+          "placeholder": "Enter category",
+          "required": false
+        },
+        {
+          "id": "linkedin_ads_description",
+          "label": "LinkedIn Ads - Description",
+          "type": "textarea",
+          "placeholder": "Enter description",
+          "required": false
+        },
+        {
+          "id": "linkedin_ads_budget",
+          "label": "LinkedIn Ads - Budget",
+          "type": "number",
+          "placeholder": "Enter budget",
+          "required": false
+        },
+        {
+          "id": "linkedin_ads_actual",
+          "label": "LinkedIn Ads - Actual",
+          "type": "text",
+          "placeholder": "Enter actual",
+          "required": false
+        },
+        {
+          "id": "linkedin_ads_spent",
+          "label": "LinkedIn Ads - % Spent",
+          "type": "number",
+          "placeholder": "Enter % spent",
+          "required": false
+        },
+        {
+          "id": "linkedin_ads_status",
+          "label": "LinkedIn Ads - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "google_ads_category",
+          "label": "Google Ads - Category",
+          "type": "text",
+          "placeholder": "Enter category",
+          "required": false
+        },
+        {
+          "id": "google_ads_description",
+          "label": "Google Ads - Description",
+          "type": "textarea",
+          "placeholder": "Enter description",
+          "required": false
+        },
+        {
+          "id": "google_ads_budget",
+          "label": "Google Ads - Budget",
+          "type": "number",
+          "placeholder": "Enter budget",
+          "required": false
+        },
+        {
+          "id": "google_ads_actual",
+          "label": "Google Ads - Actual",
+          "type": "text",
+          "placeholder": "Enter actual",
+          "required": false
+        },
+        {
+          "id": "google_ads_spent",
+          "label": "Google Ads - % Spent",
+          "type": "number",
+          "placeholder": "Enter % spent",
+          "required": false
+        },
+        {
+          "id": "google_ads_status",
+          "label": "Google Ads - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "youtube_ads_category",
+          "label": "YouTube Ads - Category",
+          "type": "text",
+          "placeholder": "Enter category",
+          "required": false
+        },
+        {
+          "id": "youtube_ads_description",
+          "label": "YouTube Ads - Description",
+          "type": "textarea",
+          "placeholder": "Enter description",
+          "required": false
+        },
+        {
+          "id": "youtube_ads_budget",
+          "label": "YouTube Ads - Budget",
+          "type": "number",
+          "placeholder": "Enter budget",
+          "required": false
+        },
+        {
+          "id": "youtube_ads_actual",
+          "label": "YouTube Ads - Actual",
+          "type": "text",
+          "placeholder": "Enter actual",
+          "required": false
+        },
+        {
+          "id": "youtube_ads_spent",
+          "label": "YouTube Ads - % Spent",
+          "type": "number",
+          "placeholder": "Enter % spent",
+          "required": false
+        },
+        {
+          "id": "youtube_ads_status",
+          "label": "YouTube Ads - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "influencer_fees_category",
+          "label": "Influencer Fees - Category",
+          "type": "text",
+          "placeholder": "Enter category",
+          "required": false
+        },
+        {
+          "id": "influencer_fees_description",
+          "label": "Influencer Fees - Description",
+          "type": "textarea",
+          "placeholder": "Enter description",
+          "required": false
+        },
+        {
+          "id": "influencer_fees_budget",
+          "label": "Influencer Fees - Budget",
+          "type": "number",
+          "placeholder": "Enter budget",
+          "required": false
+        },
+        {
+          "id": "influencer_fees_actual",
+          "label": "Influencer Fees - Actual",
+          "type": "text",
+          "placeholder": "Enter actual",
+          "required": false
+        },
+        {
+          "id": "influencer_fees_spent",
+          "label": "Influencer Fees - % Spent",
+          "type": "number",
+          "placeholder": "Enter % spent",
+          "required": false
+        },
+        {
+          "id": "influencer_fees_status",
+          "label": "Influencer Fees - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "agency_fees_category",
+          "label": "Agency Fees - Category",
+          "type": "text",
+          "placeholder": "Enter category",
+          "required": false
+        },
+        {
+          "id": "agency_fees_description",
+          "label": "Agency Fees - Description",
+          "type": "textarea",
+          "placeholder": "Enter description",
+          "required": false
+        },
+        {
+          "id": "agency_fees_budget",
+          "label": "Agency Fees - Budget",
+          "type": "number",
+          "placeholder": "Enter budget",
+          "required": false
+        },
+        {
+          "id": "agency_fees_actual",
+          "label": "Agency Fees - Actual",
+          "type": "text",
+          "placeholder": "Enter actual",
+          "required": false
+        },
+        {
+          "id": "agency_fees_spent",
+          "label": "Agency Fees - % Spent",
+          "type": "number",
+          "placeholder": "Enter % spent",
+          "required": false
+        },
+        {
+          "id": "agency_fees_status",
+          "label": "Agency Fees - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "approval_workflow",
+      "title": "Approval Workflow",
+      "description": "Enter data for each item",
+      "fields": [
+        {
+          "id": "1_strategy_review_approver",
+          "label": "1. Strategy Review - Approver",
+          "type": "text",
+          "placeholder": "Enter approver",
+          "required": false
+        },
+        {
+          "id": "1_strategy_review_role",
+          "label": "1. Strategy Review - Role",
+          "type": "text",
+          "placeholder": "Enter role",
+          "required": false
+        },
+        {
+          "id": "1_strategy_review_status",
+          "label": "1. Strategy Review - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "1_strategy_review_date_submitted",
+          "label": "1. Strategy Review - Date Submitted",
+          "type": "text",
+          "placeholder": "Enter date submitted",
+          "required": false
+        },
+        {
+          "id": "1_strategy_review_date_approved",
+          "label": "1. Strategy Review - Date Approved",
+          "type": "text",
+          "placeholder": "Enter date approved",
+          "required": false
+        },
+        {
+          "id": "1_strategy_review_feedback",
+          "label": "1. Strategy Review - Feedback",
+          "type": "text",
+          "placeholder": "Enter feedback",
+          "required": false
+        },
+        {
+          "id": "1_strategy_review_sla_days",
+          "label": "1. Strategy Review - SLA (Days)",
+          "type": "text",
+          "placeholder": "Enter sla (days)",
+          "required": false
+        },
+        {
+          "id": "2_creative_review_approver",
+          "label": "2. Creative Review - Approver",
+          "type": "text",
+          "placeholder": "Enter approver",
+          "required": false
+        },
+        {
+          "id": "2_creative_review_role",
+          "label": "2. Creative Review - Role",
+          "type": "text",
+          "placeholder": "Enter role",
+          "required": false
+        },
+        {
+          "id": "2_creative_review_status",
+          "label": "2. Creative Review - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "2_creative_review_date_submitted",
+          "label": "2. Creative Review - Date Submitted",
+          "type": "text",
+          "placeholder": "Enter date submitted",
+          "required": false
+        },
+        {
+          "id": "2_creative_review_date_approved",
+          "label": "2. Creative Review - Date Approved",
+          "type": "text",
+          "placeholder": "Enter date approved",
+          "required": false
+        },
+        {
+          "id": "2_creative_review_feedback",
+          "label": "2. Creative Review - Feedback",
+          "type": "text",
+          "placeholder": "Enter feedback",
+          "required": false
+        },
+        {
+          "id": "2_creative_review_sla_days",
+          "label": "2. Creative Review - SLA (Days)",
+          "type": "text",
+          "placeholder": "Enter sla (days)",
+          "required": false
+        },
+        {
+          "id": "3_legal_compliance_approver",
+          "label": "3. Legal Compliance - Approver",
+          "type": "text",
+          "placeholder": "Enter approver",
+          "required": false
+        },
+        {
+          "id": "3_legal_compliance_role",
+          "label": "3. Legal Compliance - Role",
+          "type": "text",
+          "placeholder": "Enter role",
+          "required": false
+        },
+        {
+          "id": "3_legal_compliance_status",
+          "label": "3. Legal Compliance - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "3_legal_compliance_date_submitted",
+          "label": "3. Legal Compliance - Date Submitted",
+          "type": "text",
+          "placeholder": "Enter date submitted",
+          "required": false
+        },
+        {
+          "id": "3_legal_compliance_date_approved",
+          "label": "3. Legal Compliance - Date Approved",
+          "type": "text",
+          "placeholder": "Enter date approved",
+          "required": false
+        },
+        {
+          "id": "3_legal_compliance_feedback",
+          "label": "3. Legal Compliance - Feedback",
+          "type": "text",
+          "placeholder": "Enter feedback",
+          "required": false
+        },
+        {
+          "id": "3_legal_compliance_sla_days",
+          "label": "3. Legal Compliance - SLA (Days)",
+          "type": "text",
+          "placeholder": "Enter sla (days)",
+          "required": false
+        },
+        {
+          "id": "4_brand_review_approver",
+          "label": "4. Brand Review - Approver",
+          "type": "text",
+          "placeholder": "Enter approver",
+          "required": false
+        },
+        {
+          "id": "4_brand_review_role",
+          "label": "4. Brand Review - Role",
+          "type": "text",
+          "placeholder": "Enter role",
+          "required": false
+        },
+        {
+          "id": "4_brand_review_status",
+          "label": "4. Brand Review - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "4_brand_review_date_submitted",
+          "label": "4. Brand Review - Date Submitted",
+          "type": "text",
+          "placeholder": "Enter date submitted",
+          "required": false
+        },
+        {
+          "id": "4_brand_review_date_approved",
+          "label": "4. Brand Review - Date Approved",
+          "type": "text",
+          "placeholder": "Enter date approved",
+          "required": false
+        },
+        {
+          "id": "4_brand_review_feedback",
+          "label": "4. Brand Review - Feedback",
+          "type": "text",
+          "placeholder": "Enter feedback",
+          "required": false
+        },
+        {
+          "id": "4_brand_review_sla_days",
+          "label": "4. Brand Review - SLA (Days)",
+          "type": "text",
+          "placeholder": "Enter sla (days)",
+          "required": false
+        },
+        {
+          "id": "5_budget_approval_approver",
+          "label": "5. Budget Approval - Approver",
+          "type": "text",
+          "placeholder": "Enter approver",
+          "required": false
+        },
+        {
+          "id": "5_budget_approval_role",
+          "label": "5. Budget Approval - Role",
+          "type": "text",
+          "placeholder": "Enter role",
+          "required": false
+        },
+        {
+          "id": "5_budget_approval_status",
+          "label": "5. Budget Approval - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "5_budget_approval_date_submitted",
+          "label": "5. Budget Approval - Date Submitted",
+          "type": "text",
+          "placeholder": "Enter date submitted",
+          "required": false
+        },
+        {
+          "id": "5_budget_approval_date_approved",
+          "label": "5. Budget Approval - Date Approved",
+          "type": "text",
+          "placeholder": "Enter date approved",
+          "required": false
+        },
+        {
+          "id": "5_budget_approval_feedback",
+          "label": "5. Budget Approval - Feedback",
+          "type": "text",
+          "placeholder": "Enter feedback",
+          "required": false
+        },
+        {
+          "id": "5_budget_approval_sla_days",
+          "label": "5. Budget Approval - SLA (Days)",
+          "type": "text",
+          "placeholder": "Enter sla (days)",
+          "required": false
+        },
+        {
+          "id": "6_final_signoff_approver",
+          "label": "6. Final Sign-off - Approver",
+          "type": "text",
+          "placeholder": "Enter approver",
+          "required": false
+        },
+        {
+          "id": "6_final_signoff_role",
+          "label": "6. Final Sign-off - Role",
+          "type": "text",
+          "placeholder": "Enter role",
+          "required": false
+        },
+        {
+          "id": "6_final_signoff_status",
+          "label": "6. Final Sign-off - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "6_final_signoff_date_submitted",
+          "label": "6. Final Sign-off - Date Submitted",
+          "type": "text",
+          "placeholder": "Enter date submitted",
+          "required": false
+        },
+        {
+          "id": "6_final_signoff_date_approved",
+          "label": "6. Final Sign-off - Date Approved",
+          "type": "text",
+          "placeholder": "Enter date approved",
+          "required": false
+        },
+        {
+          "id": "6_final_signoff_feedback",
+          "label": "6. Final Sign-off - Feedback",
+          "type": "text",
+          "placeholder": "Enter feedback",
+          "required": false
+        },
+        {
+          "id": "6_final_signoff_sla_days",
+          "label": "6. Final Sign-off - SLA (Days)",
+          "type": "text",
+          "placeholder": "Enter sla (days)",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "performance_tracker",
+      "title": "Performance Tracker",
+      "description": "Add entries below. Each entry has the following fields.",
+      "fields": [
+        {
+          "id": "entry_ad_name",
+          "label": "Ad Name",
+          "type": "text",
+          "placeholder": "Enter ad name",
+          "required": false
+        },
+        {
+          "id": "entry_platform",
+          "label": "Platform",
+          "type": "text",
+          "placeholder": "Enter platform",
+          "required": false
+        },
+        {
+          "id": "entry_format",
+          "label": "Format",
+          "type": "text",
+          "placeholder": "Enter format",
+          "required": false
+        },
+        {
+          "id": "entry_impressions",
+          "label": "Impressions",
+          "type": "number",
+          "placeholder": "Enter impressions",
+          "required": false
+        },
+        {
+          "id": "entry_clicks",
+          "label": "Clicks",
+          "type": "number",
+          "placeholder": "Enter clicks",
+          "required": false
+        },
+        {
+          "id": "entry_ctr",
+          "label": "CTR",
+          "type": "number",
+          "placeholder": "Enter ctr",
+          "required": false
+        },
+        {
+          "id": "entry_conversions",
+          "label": "Conversions",
+          "type": "number",
+          "placeholder": "Enter conversions",
+          "required": false
+        },
+        {
+          "id": "entry_conv_rate",
+          "label": "Conv. Rate",
+          "type": "number",
+          "placeholder": "Enter conv. rate",
+          "required": false
+        },
+        {
+          "id": "entry_performance_score",
+          "label": "Performance Score",
+          "type": "scale",
+          "placeholder": "Enter performance score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "entry_spend",
+          "label": "Spend",
+          "type": "number",
+          "placeholder": "Enter spend",
+          "required": false
+        },
+        {
+          "id": "entry_roas",
+          "label": "ROAS",
+          "type": "text",
+          "placeholder": "Enter roas",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "brief_library",
+      "title": "Brief Library",
+      "description": "Add entries below. Each entry has the following fields.",
+      "fields": [
+        {
+          "id": "entry_brief_id",
+          "label": "Brief ID",
+          "type": "text",
+          "placeholder": "Enter brief id",
+          "required": false
+        },
+        {
+          "id": "entry_brief_title",
+          "label": "Brief Title",
+          "type": "text",
+          "placeholder": "Enter brief title",
+          "required": false
+        },
+        {
+          "id": "entry_campaign",
+          "label": "Campaign",
+          "type": "text",
+          "placeholder": "Enter campaign",
+          "required": false
+        },
+        {
+          "id": "entry_date_created",
+          "label": "Date Created",
+          "type": "text",
+          "placeholder": "Enter date created",
+          "required": false
+        },
+        {
+          "id": "entry_owner",
+          "label": "Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "entry_status",
+          "label": "Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "entry_results_summary",
+          "label": "Results Summary",
+          "type": "textarea",
+          "placeholder": "Enter results summary",
+          "required": false
+        },
+        {
+          "id": "entry_link",
+          "label": "Link",
+          "type": "text",
+          "placeholder": "Enter link",
+          "required": false
+        }
+      ]
+    }
+  ]
 }

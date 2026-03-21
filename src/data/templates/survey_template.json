@@ -10,519 +10,6 @@
     "research"
   ],
   "estimatedTime": "70 min",
-  "sections": [
-    {
-      "id": "dashboard",
-      "title": "Dashboard",
-      "description": "Complete the Dashboard section",
-      "fields": [
-        {
-          "id": "total_surveys_created_0",
-          "label": "Total Surveys Created",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "total_questions_designed_1",
-          "label": "Total Questions Designed",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "total_responses_collected_2",
-          "label": "Total Responses Collected",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "average_response_rate_3",
-          "label": "Average Response Rate (%)",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "overall_completion_rate_4",
-          "label": "Overall Completion Rate (%)",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "average_satisfaction_score_5",
-          "label": "Average Satisfaction Score",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "question_bank",
-      "title": "Question Bank",
-      "description": "Complete the Question Bank section",
-      "fields": [
-        {
-          "id": "rating_1_10_0",
-          "label": "Rating 1-10",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "likert_scale_1",
-          "label": "Likert Scale",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "likert_scale_2",
-          "label": "Likert Scale",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "likert_scale_3",
-          "label": "Likert Scale",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "rating_1_10_4",
-          "label": "Rating 1-10",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "multiple_choice_5",
-          "label": "Multiple Choice",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "likert_scale_6",
-          "label": "Likert Scale",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "open_text_7",
-          "label": "Open Text",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "multiple_choice_8",
-          "label": "Multiple Choice",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "multiple_choice_9",
-          "label": "Multiple Choice",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "multiple_choice_10",
-          "label": "Multiple Choice",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "open_text_11",
-          "label": "Open Text",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "likert_scale_12",
-          "label": "Likert Scale",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "ranking_13",
-          "label": "Ranking",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "likert_scale_14",
-          "label": "Likert Scale",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "yes_no_15",
-          "label": "Yes-No",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "ranking_16",
-          "label": "Ranking",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "rating_1_10_17",
-          "label": "Rating 1-10",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "open_text_18",
-          "label": "Open Text",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "open_text_19",
-          "label": "Open Text",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "likert_scale_20",
-          "label": "Likert Scale",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "likert_scale_21",
-          "label": "Likert Scale",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "multiple_choice_22",
-          "label": "Multiple Choice",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "multiple_choice_23",
-          "label": "Multiple Choice",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "yes_no_24",
-          "label": "Yes-No",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "likert_scale_25",
-          "label": "Likert Scale",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "likert_scale_26",
-          "label": "Likert Scale",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "likert_scale_27",
-          "label": "Likert Scale",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "open_text_28",
-          "label": "Open Text",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "yes_no_29",
-          "label": "Yes-No",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "results_analysis",
-      "title": "Results Analysis",
-      "description": "Complete the Results Analysis section",
-      "fields": [
-        {
-          "id": "summary_statistics_0",
-          "label": "SUMMARY STATISTICS",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "total_responses_1",
-          "label": "Total Responses",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "average_score_2",
-          "label": "Average Score",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "median_score_3",
-          "label": "Median Score",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "max_score_4",
-          "label": "Max Score",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "min_score_5",
-          "label": "Min Score",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "cross_tab_analysis",
-      "title": "Cross-Tab Analysis",
-      "description": "Complete the Cross-Tab Analysis section",
-      "fields": [
-        {
-          "id": "row_variable_0",
-          "label": "Row Variable",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "column_variable_1",
-          "label": "Column Variable",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "count_percentage_2",
-          "label": "Count/Percentage",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "total_3",
-          "label": "Total",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "reporting",
-      "title": "Reporting",
-      "description": "Complete the Reporting section",
-      "fields": [
-        {
-          "id": "start_date_end_date_0",
-          "label": "Start Date - End Date",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "total_number_of_responses_1",
-          "label": "Total number of responses",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "percentage_of_target_achieved_2",
-          "label": "Percentage of target achieved",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "statistical_confidence_typically_90_95_3",
-          "label": "Statistical confidence (typically 90-95%)",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "plus_minus_percentage_4",
-          "label": "Plus/minus percentage",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "main_insight_from_analysis_5",
-          "label": "Main insight from analysis",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "supporting_finding_6",
-          "label": "Supporting finding",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "additional_important_insight_7",
-          "label": "Additional important insight",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "actionable_recommendation_8",
-          "label": "Actionable recommendation",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "follow_up_action_9",
-          "label": "Follow-up action",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "additional_recommendation_10",
-          "label": "Additional recommendation",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "brief_overview_max_200_words_11",
-          "label": "Brief overview (max 200 words)",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "actions_to_take_based_on_findings_12",
-          "label": "Actions to take based on findings",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "survey_calendar",
-      "title": "Survey Calendar",
-      "description": "Complete the Survey Calendar section",
-      "fields": [
-        {
-          "id": "february_0",
-          "label": "February",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "march_1",
-          "label": "March",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "april_2",
-          "label": "April",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "june_3",
-          "label": "June",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "survey_name_1_4",
-          "label": "Survey Name 1",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "survey_name_2_5",
-          "label": "Survey Name 2",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "survey_name_3_6",
-          "label": "Survey Name 3",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "notes_status_7",
-          "label": "Notes/Status",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    }
-  ],
   "dashboard": {
     "metrics": [
       {
@@ -551,5 +38,1549 @@
         "format": "number"
       }
     ]
-  }
+  },
+  "sections": [
+    {
+      "id": "dashboard",
+      "title": "Dashboard",
+      "description": "Auto-calculated summary of your data. Complete the working sections to see results here.",
+      "readOnly": true,
+      "fields": [
+        {
+          "id": "dashboard_overview",
+          "label": "Dashboard Overview",
+          "type": "textarea",
+          "placeholder": "Dashboard metrics will be calculated from your inputs in the working sections",
+          "required": false,
+          "readOnly": true
+        }
+      ]
+    },
+    {
+      "id": "survey_planner",
+      "title": "Survey Planner",
+      "description": "Add entries below. Each entry has the following fields.",
+      "fields": [
+        {
+          "id": "entry_survey_id",
+          "label": "Survey ID",
+          "type": "text",
+          "placeholder": "Enter survey id",
+          "required": false
+        },
+        {
+          "id": "entry_survey_name",
+          "label": "Survey Name",
+          "type": "text",
+          "placeholder": "Enter survey name",
+          "required": false
+        },
+        {
+          "id": "entry_objective",
+          "label": "Objective",
+          "type": "text",
+          "placeholder": "Enter objective",
+          "required": false
+        },
+        {
+          "id": "entry_target_audience",
+          "label": "Target Audience",
+          "type": "number",
+          "placeholder": "Enter target audience",
+          "required": false
+        },
+        {
+          "id": "entry_sample_size_target",
+          "label": "Sample Size Target",
+          "type": "number",
+          "placeholder": "Enter sample size target",
+          "required": false
+        },
+        {
+          "id": "entry_method",
+          "label": "Method",
+          "type": "text",
+          "placeholder": "Enter method",
+          "required": false
+        },
+        {
+          "id": "entry_start_date",
+          "label": "Start Date",
+          "type": "text",
+          "placeholder": "Enter start date",
+          "required": false
+        },
+        {
+          "id": "entry_end_date",
+          "label": "End Date",
+          "type": "text",
+          "placeholder": "Enter end date",
+          "required": false
+        },
+        {
+          "id": "entry_status",
+          "label": "Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "entry_owner",
+          "label": "Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "question_bank",
+      "title": "Question Bank",
+      "description": "Enter data for each item",
+      "fields": [
+        {
+          "id": "1_category",
+          "label": "1 - Category",
+          "type": "text",
+          "placeholder": "Enter category",
+          "required": false
+        },
+        {
+          "id": "1_question_text",
+          "label": "1 - Question Text",
+          "type": "text",
+          "placeholder": "Enter question text",
+          "required": false
+        },
+        {
+          "id": "1_question_type",
+          "label": "1 - Question Type",
+          "type": "text",
+          "placeholder": "Enter question type",
+          "required": false
+        },
+        {
+          "id": "1_required",
+          "label": "1 - Required",
+          "type": "text",
+          "placeholder": "Enter required",
+          "required": false
+        },
+        {
+          "id": "2_category",
+          "label": "2 - Category",
+          "type": "text",
+          "placeholder": "Enter category",
+          "required": false
+        },
+        {
+          "id": "2_question_text",
+          "label": "2 - Question Text",
+          "type": "text",
+          "placeholder": "Enter question text",
+          "required": false
+        },
+        {
+          "id": "2_question_type",
+          "label": "2 - Question Type",
+          "type": "text",
+          "placeholder": "Enter question type",
+          "required": false
+        },
+        {
+          "id": "2_required",
+          "label": "2 - Required",
+          "type": "text",
+          "placeholder": "Enter required",
+          "required": false
+        },
+        {
+          "id": "3_category",
+          "label": "3 - Category",
+          "type": "text",
+          "placeholder": "Enter category",
+          "required": false
+        },
+        {
+          "id": "3_question_text",
+          "label": "3 - Question Text",
+          "type": "text",
+          "placeholder": "Enter question text",
+          "required": false
+        },
+        {
+          "id": "3_question_type",
+          "label": "3 - Question Type",
+          "type": "text",
+          "placeholder": "Enter question type",
+          "required": false
+        },
+        {
+          "id": "3_required",
+          "label": "3 - Required",
+          "type": "text",
+          "placeholder": "Enter required",
+          "required": false
+        },
+        {
+          "id": "4_category",
+          "label": "4 - Category",
+          "type": "text",
+          "placeholder": "Enter category",
+          "required": false
+        },
+        {
+          "id": "4_question_text",
+          "label": "4 - Question Text",
+          "type": "text",
+          "placeholder": "Enter question text",
+          "required": false
+        },
+        {
+          "id": "4_question_type",
+          "label": "4 - Question Type",
+          "type": "text",
+          "placeholder": "Enter question type",
+          "required": false
+        },
+        {
+          "id": "4_required",
+          "label": "4 - Required",
+          "type": "text",
+          "placeholder": "Enter required",
+          "required": false
+        },
+        {
+          "id": "5_category",
+          "label": "5 - Category",
+          "type": "text",
+          "placeholder": "Enter category",
+          "required": false
+        },
+        {
+          "id": "5_question_text",
+          "label": "5 - Question Text",
+          "type": "text",
+          "placeholder": "Enter question text",
+          "required": false
+        },
+        {
+          "id": "5_question_type",
+          "label": "5 - Question Type",
+          "type": "text",
+          "placeholder": "Enter question type",
+          "required": false
+        },
+        {
+          "id": "5_required",
+          "label": "5 - Required",
+          "type": "text",
+          "placeholder": "Enter required",
+          "required": false
+        },
+        {
+          "id": "6_category",
+          "label": "6 - Category",
+          "type": "text",
+          "placeholder": "Enter category",
+          "required": false
+        },
+        {
+          "id": "6_question_text",
+          "label": "6 - Question Text",
+          "type": "text",
+          "placeholder": "Enter question text",
+          "required": false
+        },
+        {
+          "id": "6_question_type",
+          "label": "6 - Question Type",
+          "type": "text",
+          "placeholder": "Enter question type",
+          "required": false
+        },
+        {
+          "id": "6_required",
+          "label": "6 - Required",
+          "type": "text",
+          "placeholder": "Enter required",
+          "required": false
+        },
+        {
+          "id": "7_category",
+          "label": "7 - Category",
+          "type": "text",
+          "placeholder": "Enter category",
+          "required": false
+        },
+        {
+          "id": "7_question_text",
+          "label": "7 - Question Text",
+          "type": "text",
+          "placeholder": "Enter question text",
+          "required": false
+        },
+        {
+          "id": "7_question_type",
+          "label": "7 - Question Type",
+          "type": "text",
+          "placeholder": "Enter question type",
+          "required": false
+        },
+        {
+          "id": "7_required",
+          "label": "7 - Required",
+          "type": "text",
+          "placeholder": "Enter required",
+          "required": false
+        },
+        {
+          "id": "8_category",
+          "label": "8 - Category",
+          "type": "text",
+          "placeholder": "Enter category",
+          "required": false
+        },
+        {
+          "id": "8_question_text",
+          "label": "8 - Question Text",
+          "type": "text",
+          "placeholder": "Enter question text",
+          "required": false
+        },
+        {
+          "id": "8_question_type",
+          "label": "8 - Question Type",
+          "type": "text",
+          "placeholder": "Enter question type",
+          "required": false
+        },
+        {
+          "id": "8_required",
+          "label": "8 - Required",
+          "type": "text",
+          "placeholder": "Enter required",
+          "required": false
+        },
+        {
+          "id": "9_category",
+          "label": "9 - Category",
+          "type": "text",
+          "placeholder": "Enter category",
+          "required": false
+        },
+        {
+          "id": "9_question_text",
+          "label": "9 - Question Text",
+          "type": "text",
+          "placeholder": "Enter question text",
+          "required": false
+        },
+        {
+          "id": "9_question_type",
+          "label": "9 - Question Type",
+          "type": "text",
+          "placeholder": "Enter question type",
+          "required": false
+        },
+        {
+          "id": "9_required",
+          "label": "9 - Required",
+          "type": "text",
+          "placeholder": "Enter required",
+          "required": false
+        },
+        {
+          "id": "10_category",
+          "label": "10 - Category",
+          "type": "text",
+          "placeholder": "Enter category",
+          "required": false
+        },
+        {
+          "id": "10_question_text",
+          "label": "10 - Question Text",
+          "type": "text",
+          "placeholder": "Enter question text",
+          "required": false
+        },
+        {
+          "id": "10_question_type",
+          "label": "10 - Question Type",
+          "type": "text",
+          "placeholder": "Enter question type",
+          "required": false
+        },
+        {
+          "id": "10_required",
+          "label": "10 - Required",
+          "type": "text",
+          "placeholder": "Enter required",
+          "required": false
+        },
+        {
+          "id": "11_category",
+          "label": "11 - Category",
+          "type": "text",
+          "placeholder": "Enter category",
+          "required": false
+        },
+        {
+          "id": "11_question_text",
+          "label": "11 - Question Text",
+          "type": "text",
+          "placeholder": "Enter question text",
+          "required": false
+        },
+        {
+          "id": "11_question_type",
+          "label": "11 - Question Type",
+          "type": "text",
+          "placeholder": "Enter question type",
+          "required": false
+        },
+        {
+          "id": "11_required",
+          "label": "11 - Required",
+          "type": "text",
+          "placeholder": "Enter required",
+          "required": false
+        },
+        {
+          "id": "12_category",
+          "label": "12 - Category",
+          "type": "text",
+          "placeholder": "Enter category",
+          "required": false
+        },
+        {
+          "id": "12_question_text",
+          "label": "12 - Question Text",
+          "type": "text",
+          "placeholder": "Enter question text",
+          "required": false
+        },
+        {
+          "id": "12_question_type",
+          "label": "12 - Question Type",
+          "type": "text",
+          "placeholder": "Enter question type",
+          "required": false
+        },
+        {
+          "id": "12_required",
+          "label": "12 - Required",
+          "type": "text",
+          "placeholder": "Enter required",
+          "required": false
+        },
+        {
+          "id": "13_category",
+          "label": "13 - Category",
+          "type": "text",
+          "placeholder": "Enter category",
+          "required": false
+        },
+        {
+          "id": "13_question_text",
+          "label": "13 - Question Text",
+          "type": "text",
+          "placeholder": "Enter question text",
+          "required": false
+        },
+        {
+          "id": "13_question_type",
+          "label": "13 - Question Type",
+          "type": "text",
+          "placeholder": "Enter question type",
+          "required": false
+        },
+        {
+          "id": "13_required",
+          "label": "13 - Required",
+          "type": "text",
+          "placeholder": "Enter required",
+          "required": false
+        },
+        {
+          "id": "14_category",
+          "label": "14 - Category",
+          "type": "text",
+          "placeholder": "Enter category",
+          "required": false
+        },
+        {
+          "id": "14_question_text",
+          "label": "14 - Question Text",
+          "type": "text",
+          "placeholder": "Enter question text",
+          "required": false
+        },
+        {
+          "id": "14_question_type",
+          "label": "14 - Question Type",
+          "type": "text",
+          "placeholder": "Enter question type",
+          "required": false
+        },
+        {
+          "id": "14_required",
+          "label": "14 - Required",
+          "type": "text",
+          "placeholder": "Enter required",
+          "required": false
+        },
+        {
+          "id": "15_category",
+          "label": "15 - Category",
+          "type": "text",
+          "placeholder": "Enter category",
+          "required": false
+        },
+        {
+          "id": "15_question_text",
+          "label": "15 - Question Text",
+          "type": "text",
+          "placeholder": "Enter question text",
+          "required": false
+        },
+        {
+          "id": "15_question_type",
+          "label": "15 - Question Type",
+          "type": "text",
+          "placeholder": "Enter question type",
+          "required": false
+        },
+        {
+          "id": "15_required",
+          "label": "15 - Required",
+          "type": "text",
+          "placeholder": "Enter required",
+          "required": false
+        },
+        {
+          "id": "16_category",
+          "label": "16 - Category",
+          "type": "text",
+          "placeholder": "Enter category",
+          "required": false
+        },
+        {
+          "id": "16_question_text",
+          "label": "16 - Question Text",
+          "type": "text",
+          "placeholder": "Enter question text",
+          "required": false
+        },
+        {
+          "id": "16_question_type",
+          "label": "16 - Question Type",
+          "type": "text",
+          "placeholder": "Enter question type",
+          "required": false
+        },
+        {
+          "id": "16_required",
+          "label": "16 - Required",
+          "type": "text",
+          "placeholder": "Enter required",
+          "required": false
+        },
+        {
+          "id": "17_category",
+          "label": "17 - Category",
+          "type": "text",
+          "placeholder": "Enter category",
+          "required": false
+        },
+        {
+          "id": "17_question_text",
+          "label": "17 - Question Text",
+          "type": "text",
+          "placeholder": "Enter question text",
+          "required": false
+        },
+        {
+          "id": "17_question_type",
+          "label": "17 - Question Type",
+          "type": "text",
+          "placeholder": "Enter question type",
+          "required": false
+        },
+        {
+          "id": "17_required",
+          "label": "17 - Required",
+          "type": "text",
+          "placeholder": "Enter required",
+          "required": false
+        },
+        {
+          "id": "18_category",
+          "label": "18 - Category",
+          "type": "text",
+          "placeholder": "Enter category",
+          "required": false
+        },
+        {
+          "id": "18_question_text",
+          "label": "18 - Question Text",
+          "type": "text",
+          "placeholder": "Enter question text",
+          "required": false
+        },
+        {
+          "id": "18_question_type",
+          "label": "18 - Question Type",
+          "type": "text",
+          "placeholder": "Enter question type",
+          "required": false
+        },
+        {
+          "id": "18_required",
+          "label": "18 - Required",
+          "type": "text",
+          "placeholder": "Enter required",
+          "required": false
+        },
+        {
+          "id": "19_category",
+          "label": "19 - Category",
+          "type": "text",
+          "placeholder": "Enter category",
+          "required": false
+        },
+        {
+          "id": "19_question_text",
+          "label": "19 - Question Text",
+          "type": "text",
+          "placeholder": "Enter question text",
+          "required": false
+        },
+        {
+          "id": "19_question_type",
+          "label": "19 - Question Type",
+          "type": "text",
+          "placeholder": "Enter question type",
+          "required": false
+        },
+        {
+          "id": "19_required",
+          "label": "19 - Required",
+          "type": "text",
+          "placeholder": "Enter required",
+          "required": false
+        },
+        {
+          "id": "20_category",
+          "label": "20 - Category",
+          "type": "text",
+          "placeholder": "Enter category",
+          "required": false
+        },
+        {
+          "id": "20_question_text",
+          "label": "20 - Question Text",
+          "type": "text",
+          "placeholder": "Enter question text",
+          "required": false
+        },
+        {
+          "id": "20_question_type",
+          "label": "20 - Question Type",
+          "type": "text",
+          "placeholder": "Enter question type",
+          "required": false
+        },
+        {
+          "id": "20_required",
+          "label": "20 - Required",
+          "type": "text",
+          "placeholder": "Enter required",
+          "required": false
+        },
+        {
+          "id": "21_category",
+          "label": "21 - Category",
+          "type": "text",
+          "placeholder": "Enter category",
+          "required": false
+        },
+        {
+          "id": "21_question_text",
+          "label": "21 - Question Text",
+          "type": "text",
+          "placeholder": "Enter question text",
+          "required": false
+        },
+        {
+          "id": "21_question_type",
+          "label": "21 - Question Type",
+          "type": "text",
+          "placeholder": "Enter question type",
+          "required": false
+        },
+        {
+          "id": "21_required",
+          "label": "21 - Required",
+          "type": "text",
+          "placeholder": "Enter required",
+          "required": false
+        },
+        {
+          "id": "22_category",
+          "label": "22 - Category",
+          "type": "text",
+          "placeholder": "Enter category",
+          "required": false
+        },
+        {
+          "id": "22_question_text",
+          "label": "22 - Question Text",
+          "type": "text",
+          "placeholder": "Enter question text",
+          "required": false
+        },
+        {
+          "id": "22_question_type",
+          "label": "22 - Question Type",
+          "type": "text",
+          "placeholder": "Enter question type",
+          "required": false
+        },
+        {
+          "id": "22_required",
+          "label": "22 - Required",
+          "type": "text",
+          "placeholder": "Enter required",
+          "required": false
+        },
+        {
+          "id": "23_category",
+          "label": "23 - Category",
+          "type": "text",
+          "placeholder": "Enter category",
+          "required": false
+        },
+        {
+          "id": "23_question_text",
+          "label": "23 - Question Text",
+          "type": "text",
+          "placeholder": "Enter question text",
+          "required": false
+        },
+        {
+          "id": "23_question_type",
+          "label": "23 - Question Type",
+          "type": "text",
+          "placeholder": "Enter question type",
+          "required": false
+        },
+        {
+          "id": "23_required",
+          "label": "23 - Required",
+          "type": "text",
+          "placeholder": "Enter required",
+          "required": false
+        },
+        {
+          "id": "24_category",
+          "label": "24 - Category",
+          "type": "text",
+          "placeholder": "Enter category",
+          "required": false
+        },
+        {
+          "id": "24_question_text",
+          "label": "24 - Question Text",
+          "type": "text",
+          "placeholder": "Enter question text",
+          "required": false
+        },
+        {
+          "id": "24_question_type",
+          "label": "24 - Question Type",
+          "type": "text",
+          "placeholder": "Enter question type",
+          "required": false
+        },
+        {
+          "id": "24_required",
+          "label": "24 - Required",
+          "type": "text",
+          "placeholder": "Enter required",
+          "required": false
+        },
+        {
+          "id": "25_category",
+          "label": "25 - Category",
+          "type": "text",
+          "placeholder": "Enter category",
+          "required": false
+        },
+        {
+          "id": "25_question_text",
+          "label": "25 - Question Text",
+          "type": "text",
+          "placeholder": "Enter question text",
+          "required": false
+        },
+        {
+          "id": "25_question_type",
+          "label": "25 - Question Type",
+          "type": "text",
+          "placeholder": "Enter question type",
+          "required": false
+        },
+        {
+          "id": "25_required",
+          "label": "25 - Required",
+          "type": "text",
+          "placeholder": "Enter required",
+          "required": false
+        },
+        {
+          "id": "26_category",
+          "label": "26 - Category",
+          "type": "text",
+          "placeholder": "Enter category",
+          "required": false
+        },
+        {
+          "id": "26_question_text",
+          "label": "26 - Question Text",
+          "type": "text",
+          "placeholder": "Enter question text",
+          "required": false
+        },
+        {
+          "id": "26_question_type",
+          "label": "26 - Question Type",
+          "type": "text",
+          "placeholder": "Enter question type",
+          "required": false
+        },
+        {
+          "id": "26_required",
+          "label": "26 - Required",
+          "type": "text",
+          "placeholder": "Enter required",
+          "required": false
+        },
+        {
+          "id": "27_category",
+          "label": "27 - Category",
+          "type": "text",
+          "placeholder": "Enter category",
+          "required": false
+        },
+        {
+          "id": "27_question_text",
+          "label": "27 - Question Text",
+          "type": "text",
+          "placeholder": "Enter question text",
+          "required": false
+        },
+        {
+          "id": "27_question_type",
+          "label": "27 - Question Type",
+          "type": "text",
+          "placeholder": "Enter question type",
+          "required": false
+        },
+        {
+          "id": "27_required",
+          "label": "27 - Required",
+          "type": "text",
+          "placeholder": "Enter required",
+          "required": false
+        },
+        {
+          "id": "28_category",
+          "label": "28 - Category",
+          "type": "text",
+          "placeholder": "Enter category",
+          "required": false
+        },
+        {
+          "id": "28_question_text",
+          "label": "28 - Question Text",
+          "type": "text",
+          "placeholder": "Enter question text",
+          "required": false
+        },
+        {
+          "id": "28_question_type",
+          "label": "28 - Question Type",
+          "type": "text",
+          "placeholder": "Enter question type",
+          "required": false
+        },
+        {
+          "id": "28_required",
+          "label": "28 - Required",
+          "type": "text",
+          "placeholder": "Enter required",
+          "required": false
+        },
+        {
+          "id": "29_category",
+          "label": "29 - Category",
+          "type": "text",
+          "placeholder": "Enter category",
+          "required": false
+        },
+        {
+          "id": "29_question_text",
+          "label": "29 - Question Text",
+          "type": "text",
+          "placeholder": "Enter question text",
+          "required": false
+        },
+        {
+          "id": "29_question_type",
+          "label": "29 - Question Type",
+          "type": "text",
+          "placeholder": "Enter question type",
+          "required": false
+        },
+        {
+          "id": "29_required",
+          "label": "29 - Required",
+          "type": "text",
+          "placeholder": "Enter required",
+          "required": false
+        },
+        {
+          "id": "30_category",
+          "label": "30 - Category",
+          "type": "text",
+          "placeholder": "Enter category",
+          "required": false
+        },
+        {
+          "id": "30_question_text",
+          "label": "30 - Question Text",
+          "type": "text",
+          "placeholder": "Enter question text",
+          "required": false
+        },
+        {
+          "id": "30_question_type",
+          "label": "30 - Question Type",
+          "type": "text",
+          "placeholder": "Enter question type",
+          "required": false
+        },
+        {
+          "id": "30_required",
+          "label": "30 - Required",
+          "type": "text",
+          "placeholder": "Enter required",
+          "required": false
+        },
+        {
+          "id": "31_category",
+          "label": "31 - Category",
+          "type": "text",
+          "placeholder": "Enter category",
+          "required": false
+        },
+        {
+          "id": "31_question_text",
+          "label": "31 - Question Text",
+          "type": "text",
+          "placeholder": "Enter question text",
+          "required": false
+        },
+        {
+          "id": "31_question_type",
+          "label": "31 - Question Type",
+          "type": "text",
+          "placeholder": "Enter question type",
+          "required": false
+        },
+        {
+          "id": "31_required",
+          "label": "31 - Required",
+          "type": "text",
+          "placeholder": "Enter required",
+          "required": false
+        },
+        {
+          "id": "32_category",
+          "label": "32 - Category",
+          "type": "text",
+          "placeholder": "Enter category",
+          "required": false
+        },
+        {
+          "id": "32_question_text",
+          "label": "32 - Question Text",
+          "type": "text",
+          "placeholder": "Enter question text",
+          "required": false
+        },
+        {
+          "id": "32_question_type",
+          "label": "32 - Question Type",
+          "type": "text",
+          "placeholder": "Enter question type",
+          "required": false
+        },
+        {
+          "id": "32_required",
+          "label": "32 - Required",
+          "type": "text",
+          "placeholder": "Enter required",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "survey_builder",
+      "title": "Survey Builder",
+      "description": "Add entries below. Each entry has the following fields.",
+      "fields": [
+        {
+          "id": "entry_survey_id",
+          "label": "Survey ID",
+          "type": "text",
+          "placeholder": "Enter survey id",
+          "required": false
+        },
+        {
+          "id": "entry_question",
+          "label": "Question #",
+          "type": "text",
+          "placeholder": "Enter question #",
+          "required": false
+        },
+        {
+          "id": "entry_question_text",
+          "label": "Question Text",
+          "type": "text",
+          "placeholder": "Enter question text",
+          "required": false
+        },
+        {
+          "id": "entry_question_type",
+          "label": "Question Type",
+          "type": "text",
+          "placeholder": "Enter question type",
+          "required": false
+        },
+        {
+          "id": "entry_answer_options",
+          "label": "Answer Options",
+          "type": "text",
+          "placeholder": "Enter answer options",
+          "required": false
+        },
+        {
+          "id": "entry_skip_logic",
+          "label": "Skip Logic",
+          "type": "text",
+          "placeholder": "Enter skip logic",
+          "required": false
+        },
+        {
+          "id": "entry_required",
+          "label": "Required",
+          "type": "text",
+          "placeholder": "Enter required",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "response_tracker",
+      "title": "Response Tracker",
+      "description": "Add entries below. Each entry has the following fields.",
+      "fields": [
+        {
+          "id": "entry_response_id",
+          "label": "Response ID",
+          "type": "text",
+          "placeholder": "Enter response id",
+          "required": false
+        },
+        {
+          "id": "entry_survey_id",
+          "label": "Survey ID",
+          "type": "text",
+          "placeholder": "Enter survey id",
+          "required": false
+        },
+        {
+          "id": "entry_respondent_id",
+          "label": "Respondent ID",
+          "type": "text",
+          "placeholder": "Enter respondent id",
+          "required": false
+        },
+        {
+          "id": "entry_date",
+          "label": "Date",
+          "type": "text",
+          "placeholder": "Enter date",
+          "required": false
+        },
+        {
+          "id": "entry_channel",
+          "label": "Channel",
+          "type": "select",
+          "placeholder": "Enter channel",
+          "required": false,
+          "options": [
+            "Blog",
+            "Social Media",
+            "Email",
+            "Video",
+            "Paid Search",
+            "Paid Social",
+            "SEO",
+            "Events",
+            "PR"
+          ]
+        },
+        {
+          "id": "entry_status",
+          "label": "Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "entry_duration_mins",
+          "label": "Duration (mins)",
+          "type": "text",
+          "placeholder": "Enter duration (mins)",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "results_analysis",
+      "title": "Results Analysis",
+      "description": "Enter data for each item",
+      "fields": [
+        {
+          "id": "summary_statistics_response_option",
+          "label": "SUMMARY STATISTICS - Response Option",
+          "type": "text",
+          "placeholder": "Enter response option",
+          "required": false
+        },
+        {
+          "id": "summary_statistics_count",
+          "label": "SUMMARY STATISTICS - Count",
+          "type": "number",
+          "placeholder": "Enter count",
+          "required": false
+        },
+        {
+          "id": "summary_statistics_percentage",
+          "label": "SUMMARY STATISTICS - Percentage (%)",
+          "type": "number",
+          "placeholder": "Enter percentage (%)",
+          "required": false
+        },
+        {
+          "id": "summary_statistics_mean_score",
+          "label": "SUMMARY STATISTICS - Mean Score",
+          "type": "scale",
+          "placeholder": "Enter mean score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "summary_statistics_std_deviation",
+          "label": "SUMMARY STATISTICS - Std Deviation",
+          "type": "text",
+          "placeholder": "Enter std deviation",
+          "required": false
+        },
+        {
+          "id": "total_responses_response_option",
+          "label": "Total Responses - Response Option",
+          "type": "text",
+          "placeholder": "Enter response option",
+          "required": false
+        },
+        {
+          "id": "total_responses_count",
+          "label": "Total Responses - Count",
+          "type": "number",
+          "placeholder": "Enter count",
+          "required": false
+        },
+        {
+          "id": "total_responses_percentage",
+          "label": "Total Responses - Percentage (%)",
+          "type": "number",
+          "placeholder": "Enter percentage (%)",
+          "required": false
+        },
+        {
+          "id": "total_responses_mean_score",
+          "label": "Total Responses - Mean Score",
+          "type": "scale",
+          "placeholder": "Enter mean score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "total_responses_std_deviation",
+          "label": "Total Responses - Std Deviation",
+          "type": "text",
+          "placeholder": "Enter std deviation",
+          "required": false
+        },
+        {
+          "id": "average_score_response_option",
+          "label": "Average Score - Response Option",
+          "type": "text",
+          "placeholder": "Enter response option",
+          "required": false
+        },
+        {
+          "id": "average_score_count",
+          "label": "Average Score - Count",
+          "type": "number",
+          "placeholder": "Enter count",
+          "required": false
+        },
+        {
+          "id": "average_score_percentage",
+          "label": "Average Score - Percentage (%)",
+          "type": "number",
+          "placeholder": "Enter percentage (%)",
+          "required": false
+        },
+        {
+          "id": "average_score_mean_score",
+          "label": "Average Score - Mean Score",
+          "type": "scale",
+          "placeholder": "Enter mean score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "average_score_std_deviation",
+          "label": "Average Score - Std Deviation",
+          "type": "text",
+          "placeholder": "Enter std deviation",
+          "required": false
+        },
+        {
+          "id": "median_score_response_option",
+          "label": "Median Score - Response Option",
+          "type": "text",
+          "placeholder": "Enter response option",
+          "required": false
+        },
+        {
+          "id": "median_score_count",
+          "label": "Median Score - Count",
+          "type": "number",
+          "placeholder": "Enter count",
+          "required": false
+        },
+        {
+          "id": "median_score_percentage",
+          "label": "Median Score - Percentage (%)",
+          "type": "number",
+          "placeholder": "Enter percentage (%)",
+          "required": false
+        },
+        {
+          "id": "median_score_mean_score",
+          "label": "Median Score - Mean Score",
+          "type": "scale",
+          "placeholder": "Enter mean score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "median_score_std_deviation",
+          "label": "Median Score - Std Deviation",
+          "type": "text",
+          "placeholder": "Enter std deviation",
+          "required": false
+        },
+        {
+          "id": "max_score_response_option",
+          "label": "Max Score - Response Option",
+          "type": "text",
+          "placeholder": "Enter response option",
+          "required": false
+        },
+        {
+          "id": "max_score_count",
+          "label": "Max Score - Count",
+          "type": "number",
+          "placeholder": "Enter count",
+          "required": false
+        },
+        {
+          "id": "max_score_percentage",
+          "label": "Max Score - Percentage (%)",
+          "type": "number",
+          "placeholder": "Enter percentage (%)",
+          "required": false
+        },
+        {
+          "id": "max_score_mean_score",
+          "label": "Max Score - Mean Score",
+          "type": "scale",
+          "placeholder": "Enter mean score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "max_score_std_deviation",
+          "label": "Max Score - Std Deviation",
+          "type": "text",
+          "placeholder": "Enter std deviation",
+          "required": false
+        },
+        {
+          "id": "min_score_response_option",
+          "label": "Min Score - Response Option",
+          "type": "text",
+          "placeholder": "Enter response option",
+          "required": false
+        },
+        {
+          "id": "min_score_count",
+          "label": "Min Score - Count",
+          "type": "number",
+          "placeholder": "Enter count",
+          "required": false
+        },
+        {
+          "id": "min_score_percentage",
+          "label": "Min Score - Percentage (%)",
+          "type": "number",
+          "placeholder": "Enter percentage (%)",
+          "required": false
+        },
+        {
+          "id": "min_score_mean_score",
+          "label": "Min Score - Mean Score",
+          "type": "scale",
+          "placeholder": "Enter mean score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "min_score_std_deviation",
+          "label": "Min Score - Std Deviation",
+          "type": "text",
+          "placeholder": "Enter std deviation",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "crosstab_analysis",
+      "title": "Cross-Tab Analysis",
+      "description": "Add entries below. Each entry has the following fields.",
+      "fields": [
+        {
+          "id": "entry_row_variable",
+          "label": "Row Variable",
+          "type": "text",
+          "placeholder": "Enter row variable",
+          "required": false
+        },
+        {
+          "id": "entry_column_variable",
+          "label": "Column Variable",
+          "type": "text",
+          "placeholder": "Enter column variable",
+          "required": false
+        },
+        {
+          "id": "entry_countpercentage",
+          "label": "Count/Percentage",
+          "type": "number",
+          "placeholder": "Enter count/percentage",
+          "required": false
+        },
+        {
+          "id": "entry_total",
+          "label": "Total",
+          "type": "text",
+          "placeholder": "Enter total",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "survey_report_builder",
+      "title": "Survey Report Builder",
+      "description": "[Reporting] Complete the Survey Report Builder section",
+      "fields": [
+        {
+          "id": "survey_title",
+          "label": "Survey Title",
+          "type": "text",
+          "placeholder": "Enter survey name",
+          "required": false,
+          "helpText": "Enter survey name"
+        },
+        {
+          "id": "survey_period",
+          "label": "Survey Period",
+          "type": "text",
+          "placeholder": "Start Date - End Date",
+          "required": false,
+          "helpText": "Start Date - End Date"
+        },
+        {
+          "id": "respondents",
+          "label": "Respondents",
+          "type": "number",
+          "placeholder": "Total number of responses",
+          "required": false,
+          "helpText": "Total number of responses"
+        },
+        {
+          "id": "response_rate",
+          "label": "Response Rate (%)",
+          "type": "scale",
+          "placeholder": "Percentage of target achieved",
+          "required": false,
+          "helpText": "Percentage of target achieved"
+        },
+        {
+          "id": "confidence_level",
+          "label": "Confidence Level (%)",
+          "type": "text",
+          "placeholder": "Statistical confidence (typically 90-95%)",
+          "required": false,
+          "helpText": "Statistical confidence (typically 90-95%)"
+        },
+        {
+          "id": "margin_of_error",
+          "label": "Margin of Error",
+          "type": "number",
+          "placeholder": "Plus/minus percentage",
+          "required": false,
+          "helpText": "Plus/minus percentage"
+        },
+        {
+          "id": "key_finding_1",
+          "label": "Key Finding 1",
+          "type": "textarea",
+          "placeholder": "Main insight from analysis",
+          "required": false,
+          "helpText": "Main insight from analysis"
+        },
+        {
+          "id": "key_finding_2",
+          "label": "Key Finding 2",
+          "type": "text",
+          "placeholder": "Supporting finding",
+          "required": false,
+          "helpText": "Supporting finding"
+        },
+        {
+          "id": "key_finding_3",
+          "label": "Key Finding 3",
+          "type": "textarea",
+          "placeholder": "Additional important insight",
+          "required": false,
+          "helpText": "Additional important insight"
+        },
+        {
+          "id": "recommendation_1",
+          "label": "Recommendation 1",
+          "type": "textarea",
+          "placeholder": "Actionable recommendation",
+          "required": false,
+          "helpText": "Actionable recommendation"
+        },
+        {
+          "id": "recommendation_2",
+          "label": "Recommendation 2",
+          "type": "textarea",
+          "placeholder": "Follow-up action",
+          "required": false,
+          "helpText": "Follow-up action"
+        },
+        {
+          "id": "recommendation_3",
+          "label": "Recommendation 3",
+          "type": "textarea",
+          "placeholder": "Additional recommendation",
+          "required": false,
+          "helpText": "Additional recommendation"
+        },
+        {
+          "id": "executive_summary",
+          "label": "Executive Summary",
+          "type": "textarea",
+          "placeholder": "Brief overview (max 200 words)",
+          "required": false,
+          "helpText": "Brief overview (max 200 words)"
+        },
+        {
+          "id": "next_steps",
+          "label": "Next Steps",
+          "type": "text",
+          "placeholder": "Actions to take based on findings",
+          "required": false,
+          "helpText": "Actions to take based on findings"
+        }
+      ]
+    }
+  ]
 }

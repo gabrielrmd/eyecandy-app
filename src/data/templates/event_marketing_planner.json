@@ -11,827 +11,6 @@
     "content"
   ],
   "estimatedTime": "45 min",
-  "sections": [
-    {
-      "id": "dashboard",
-      "title": "Dashboard",
-      "description": "Complete the Dashboard section",
-      "fields": [
-        {
-          "id": "80_0",
-          "label": "-80",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "source_event_portfolio_1",
-          "label": "Source: Event Portfolio",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "events_by_type_2",
-          "label": "Events by Type",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "event_type_3",
-          "label": "Event Type",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "conference_4",
-          "label": "Conference",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "webinar_5",
-          "label": "Webinar",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "workshop_6",
-          "label": "Workshop",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "trade_show_7",
-          "label": "Trade Show",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "networking_8",
-          "label": "Networking",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "product_launch_9",
-          "label": "Product Launch",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "internal_10",
-          "label": "Internal",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "other_11",
-          "label": "Other",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "events_by_status_12",
-          "label": "Events by Status",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "status_13",
-          "label": "Status",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "planning_14",
-          "label": "Planning",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "confirmed_15",
-          "label": "Confirmed",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "in_progress_16",
-          "label": "In Progress",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "completed_17",
-          "label": "Completed",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "cancelled_18",
-          "label": "Cancelled",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "postponed_19",
-          "label": "Postponed",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "budget_summary_20",
-          "label": "Budget Summary",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "metric_21",
-          "label": "Metric",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "total_allocated_22",
-          "label": "Total Allocated",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "total_spent_23",
-          "label": "Total Spent",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "remaining_24",
-          "label": "Remaining",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "spent_25",
-          "label": "% Spent",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "event_portfolio",
-      "title": "Event Portfolio",
-      "description": "Complete the Event Portfolio section",
-      "fields": [
-        {
-          "id": "annual_marketing_summit_0",
-          "label": "Annual Marketing Summit",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "monthly_webinar_series_1",
-          "label": "Monthly Webinar Series",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "product_launch_event_2",
-          "label": "Product Launch Event",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "industry_trade_show_3",
-          "label": "Industry Trade Show",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "customer_appreciation_dinner_4",
-          "label": "Customer Appreciation Dinner",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "workshop_marketing_masterclass_5",
-          "label": "Workshop: Marketing Masterclass",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "partner_co_marketing_webinar_6",
-          "label": "Partner Co-Marketing Webinar",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "internal_marketing_offsite_7",
-          "label": "Internal Marketing Offsite",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "thought_leadership_panel_8",
-          "label": "Thought Leadership Panel",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "holiday_customer_event_9",
-          "label": "Holiday Customer Event",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "event_brief",
-      "title": "Event Brief",
-      "description": "Complete the Event Brief section",
-      "fields": [
-        {
-          "id": "innovation_in_marketing_automation_data__0",
-          "label": "Innovation in marketing automation; Data-driven decision making; Sustainable growth strategies",
-          "type": "textarea",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "solving_the_1_pain_point_3x_faster_than__1",
-          "label": "Solving the #1 pain point; 3x faster than alternatives; Seamless integration",
-          "type": "textarea",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "practical_ai_applications_real_case_stud_2",
-          "label": "Practical AI applications; Real case studies; Actionable frameworks",
-          "type": "textarea",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "budget_tracker",
-      "title": "Budget Tracker",
-      "description": "Complete the Budget Tracker section",
-      "fields": [
-        {
-          "id": "annual_marketing_summit_0",
-          "label": "Annual Marketing Summit",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "annual_marketing_summit_1",
-          "label": "Annual Marketing Summit",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "annual_marketing_summit_2",
-          "label": "Annual Marketing Summit",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "annual_marketing_summit_3",
-          "label": "Annual Marketing Summit",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "annual_marketing_summit_4",
-          "label": "Annual Marketing Summit",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "annual_marketing_summit_5",
-          "label": "Annual Marketing Summit",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "annual_marketing_summit_6",
-          "label": "Annual Marketing Summit",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "annual_marketing_summit_7",
-          "label": "Annual Marketing Summit",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "product_launch_event_8",
-          "label": "Product Launch Event",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "product_launch_event_9",
-          "label": "Product Launch Event",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "product_launch_event_10",
-          "label": "Product Launch Event",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "product_launch_event_11",
-          "label": "Product Launch Event",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "timeline_checklist",
-      "title": "Timeline & Checklist",
-      "description": "Complete the Timeline & Checklist section",
-      "fields": [
-        {
-          "id": "define_event_objectives_and_success_metr_0",
-          "label": "Define event objectives and success metrics",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "secure_venue_and_sign_contract_1",
-          "label": "Secure venue and sign contract",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "set_event_budget_and_get_approval_2",
-          "label": "Set event budget and get approval",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "create_event_brief_and_messaging_framewo_3",
-          "label": "Create event brief and messaging framework",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "identify_and_invite_keynote_speakers_4",
-          "label": "Identify and invite keynote speakers",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "set_up_registration_platform_5",
-          "label": "Set up registration platform",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "finalise_event_agenda_and_schedule_6",
-          "label": "Finalise event agenda and schedule",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "launch_early_bird_registration_7",
-          "label": "Launch early-bird registration",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "begin_email_promotion_sequence_8",
-          "label": "Begin email promotion sequence",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "create_social_media_promotion_plan_9",
-          "label": "Create social media promotion plan",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "design_event_landing_page_10",
-          "label": "Design event landing page",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "confirm_sponsors_and_deliverables_11",
-          "label": "Confirm sponsors and deliverables",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "finalise_speaker_presentations_and_av_ne_12",
-          "label": "Finalise speaker presentations and AV needs",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "order_printed_materials_badges_signage_p_13",
-          "label": "Order printed materials (badges, signage, programmes)",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "confirm_catering_menu_and_headcount_14",
-          "label": "Confirm catering menu and headcount",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "send_attendee_logistics_email_parking_di_15",
-          "label": "Send attendee logistics email (parking, directions, agenda)",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "prepare_media_kit_and_press_invitations_16",
-          "label": "Prepare media kit and press invitations",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "brief_event_staff_and_volunteers_17",
-          "label": "Brief event staff and volunteers",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "final_registration_push_last_chance_prom_18",
-          "label": "Final registration push — last-chance promotion",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "confirm_all_vendor_deliveries_and_timeli_19",
-          "label": "Confirm all vendor deliveries and timelines",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "test_all_technology_streaming_mics_slide_20",
-          "label": "Test all technology (streaming, mics, slides, WiFi)",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "prepare_attendee_welcome_packs_21",
-          "label": "Prepare attendee welcome packs",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "create_social_media_live_coverage_plan_22",
-          "label": "Create social media live coverage plan",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "send_final_reminder_to_all_registrants_23",
-          "label": "Send final reminder to all registrants",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "print_final_attendee_list_and_badges_24",
-          "label": "Print final attendee list and badges",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "do_full_venue_walk_through_25",
-          "label": "Do full venue walk-through",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "prepare_on_site_emergency_contacts_and_p_26",
-          "label": "Prepare on-site emergency contacts and protocols",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "brief_photographers_and_videographers_27",
-          "label": "Brief photographers and videographers",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "arrive_early_for_final_setup_and_sound_c_28",
-          "label": "Arrive early for final setup and sound check",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "staff_registration_desk_and_welcome_area_29",
-          "label": "Staff registration desk and welcome area",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "speaker_management",
-      "title": "Speaker Management",
-      "description": "Complete the Speaker Management section",
-      "fields": [
-        {
-          "id": "the_next_decade_of_marketing_ai_0",
-          "label": "The Next Decade of Marketing AI",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "growth_marketing_without_the_hype_1",
-          "label": "Growth Marketing Without the Hype",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "content_at_scale_from_strategy_to_execut_2",
-          "label": "Content at Scale: From Strategy to Execution",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "purpose_driven_marketing_that_drives_rev_3",
-          "label": "Purpose-Driven Marketing That Drives Revenue",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "marketing_attribution_in_a_cookieless_wo_4",
-          "label": "Marketing Attribution in a Cookieless World",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "promotion_plan",
-      "title": "Promotion Plan",
-      "description": "Complete the Promotion Plan section",
-      "fields": [
-        {
-          "id": "teaser_with_early_bird_cta_0",
-          "label": "Teaser with early-bird CTA",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "exclusive_pricing_expires_in_2_weeks_1",
-          "label": "Exclusive pricing expires in 2 weeks",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "1_email_per_keynote_reveal_2",
-          "label": "1 email per keynote reveal",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "urgency_social_proof_3",
-          "label": "Urgency + social proof",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "parking_agenda_what_to_bring_4",
-          "label": "Parking, agenda, what to bring",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "linkedin_event_sponsored_post_5",
-          "label": "LinkedIn Event + sponsored post",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "speaker_spotlights_agenda_reveals_6",
-          "label": "Speaker spotlights, agenda reveals",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "each_speaker_shares_their_preview_7",
-          "label": "Each speaker shares their preview",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "lookalike_retargeting_audiences_8",
-          "label": "Lookalike + retargeting audiences",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "event_name_industry_terms_9",
-          "label": "Event name + industry terms",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "wire_service_direct_pitches_10",
-          "label": "Wire service + direct pitches",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "personalised_invites_with_press_passes_11",
-          "label": "Personalised invites with press passes",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "shared_email_social_assets_12",
-          "label": "Shared email + social assets",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "handwritten_notes_or_video_messages_13",
-          "label": "Handwritten notes or video messages",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "registration_tracker",
-      "title": "Registration Tracker",
-      "description": "Complete the Registration Tracker section",
-      "fields": [
-        {
-          "id": "annual_marketing_summit_0",
-          "label": "Annual Marketing Summit",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "monthly_webinar_jan_1",
-          "label": "Monthly Webinar: Jan",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "monthly_webinar_feb_2",
-          "label": "Monthly Webinar: Feb",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "product_launch_event_3",
-          "label": "Product Launch Event",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "partner_co_marketing_webinar_4",
-          "label": "Partner Co-Marketing Webinar",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "post_event_analysis",
-      "title": "Post-Event Analysis",
-      "description": "Complete the Post-Event Analysis section",
-      "fields": [
-        {
-          "id": "8_2_0",
-          "label": "8.2",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "8_5_1",
-          "label": "8.5",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "7_8_2",
-          "label": "7.8",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    }
-  ],
   "dashboard": {
     "metrics": [
       {
@@ -860,5 +39,5105 @@
         "format": "number"
       }
     ]
-  }
+  },
+  "sections": [
+    {
+      "id": "dashboard",
+      "title": "Dashboard",
+      "description": "Auto-calculated summary of your data. Complete the working sections to see results here.",
+      "readOnly": true,
+      "fields": [
+        {
+          "id": "dashboard_overview",
+          "label": "Dashboard Overview",
+          "type": "textarea",
+          "placeholder": "Dashboard metrics will be calculated from your inputs in the working sections",
+          "required": false,
+          "readOnly": true
+        }
+      ]
+    },
+    {
+      "id": "event_portfolio",
+      "title": "Event Portfolio",
+      "description": "Enter data for each item",
+      "fields": [
+        {
+          "id": "annual_marketing_summit_quarter",
+          "label": "Annual Marketing Summit - Quarter",
+          "type": "text",
+          "placeholder": "Enter quarter",
+          "required": false
+        },
+        {
+          "id": "annual_marketing_summit_type",
+          "label": "Annual Marketing Summit - Type",
+          "type": "select",
+          "placeholder": "Enter type",
+          "required": false,
+          "options": [
+            "Blog Post",
+            "Video",
+            "Infographic",
+            "Case Study",
+            "Whitepaper",
+            "Newsletter",
+            "Social Post",
+            "Webinar"
+          ]
+        },
+        {
+          "id": "annual_marketing_summit_format",
+          "label": "Annual Marketing Summit - Format",
+          "type": "text",
+          "placeholder": "Enter format",
+          "required": false
+        },
+        {
+          "id": "annual_marketing_summit_start_date",
+          "label": "Annual Marketing Summit - Start Date",
+          "type": "text",
+          "placeholder": "Enter start date",
+          "required": false
+        },
+        {
+          "id": "annual_marketing_summit_end_date",
+          "label": "Annual Marketing Summit - End Date",
+          "type": "text",
+          "placeholder": "Enter end date",
+          "required": false
+        },
+        {
+          "id": "annual_marketing_summit_status",
+          "label": "Annual Marketing Summit - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "annual_marketing_summit_budget",
+          "label": "Annual Marketing Summit - Budget",
+          "type": "number",
+          "placeholder": "Enter budget",
+          "required": false
+        },
+        {
+          "id": "annual_marketing_summit_owner",
+          "label": "Annual Marketing Summit - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "annual_marketing_summit_objective",
+          "label": "Annual Marketing Summit - Objective",
+          "type": "text",
+          "placeholder": "Enter objective",
+          "required": false
+        },
+        {
+          "id": "monthly_webinar_series_quarter",
+          "label": "Monthly Webinar Series - Quarter",
+          "type": "text",
+          "placeholder": "Enter quarter",
+          "required": false
+        },
+        {
+          "id": "monthly_webinar_series_type",
+          "label": "Monthly Webinar Series - Type",
+          "type": "select",
+          "placeholder": "Enter type",
+          "required": false,
+          "options": [
+            "Blog Post",
+            "Video",
+            "Infographic",
+            "Case Study",
+            "Whitepaper",
+            "Newsletter",
+            "Social Post",
+            "Webinar"
+          ]
+        },
+        {
+          "id": "monthly_webinar_series_format",
+          "label": "Monthly Webinar Series - Format",
+          "type": "text",
+          "placeholder": "Enter format",
+          "required": false
+        },
+        {
+          "id": "monthly_webinar_series_start_date",
+          "label": "Monthly Webinar Series - Start Date",
+          "type": "text",
+          "placeholder": "Enter start date",
+          "required": false
+        },
+        {
+          "id": "monthly_webinar_series_end_date",
+          "label": "Monthly Webinar Series - End Date",
+          "type": "text",
+          "placeholder": "Enter end date",
+          "required": false
+        },
+        {
+          "id": "monthly_webinar_series_status",
+          "label": "Monthly Webinar Series - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "monthly_webinar_series_budget",
+          "label": "Monthly Webinar Series - Budget",
+          "type": "number",
+          "placeholder": "Enter budget",
+          "required": false
+        },
+        {
+          "id": "monthly_webinar_series_owner",
+          "label": "Monthly Webinar Series - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "monthly_webinar_series_objective",
+          "label": "Monthly Webinar Series - Objective",
+          "type": "text",
+          "placeholder": "Enter objective",
+          "required": false
+        },
+        {
+          "id": "product_launch_event_quarter",
+          "label": "Product Launch Event - Quarter",
+          "type": "text",
+          "placeholder": "Enter quarter",
+          "required": false
+        },
+        {
+          "id": "product_launch_event_type",
+          "label": "Product Launch Event - Type",
+          "type": "select",
+          "placeholder": "Enter type",
+          "required": false,
+          "options": [
+            "Blog Post",
+            "Video",
+            "Infographic",
+            "Case Study",
+            "Whitepaper",
+            "Newsletter",
+            "Social Post",
+            "Webinar"
+          ]
+        },
+        {
+          "id": "product_launch_event_format",
+          "label": "Product Launch Event - Format",
+          "type": "text",
+          "placeholder": "Enter format",
+          "required": false
+        },
+        {
+          "id": "product_launch_event_start_date",
+          "label": "Product Launch Event - Start Date",
+          "type": "text",
+          "placeholder": "Enter start date",
+          "required": false
+        },
+        {
+          "id": "product_launch_event_end_date",
+          "label": "Product Launch Event - End Date",
+          "type": "text",
+          "placeholder": "Enter end date",
+          "required": false
+        },
+        {
+          "id": "product_launch_event_status",
+          "label": "Product Launch Event - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "product_launch_event_budget",
+          "label": "Product Launch Event - Budget",
+          "type": "number",
+          "placeholder": "Enter budget",
+          "required": false
+        },
+        {
+          "id": "product_launch_event_owner",
+          "label": "Product Launch Event - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "product_launch_event_objective",
+          "label": "Product Launch Event - Objective",
+          "type": "text",
+          "placeholder": "Enter objective",
+          "required": false
+        },
+        {
+          "id": "industry_trade_show_quarter",
+          "label": "Industry Trade Show - Quarter",
+          "type": "text",
+          "placeholder": "Enter quarter",
+          "required": false
+        },
+        {
+          "id": "industry_trade_show_type",
+          "label": "Industry Trade Show - Type",
+          "type": "select",
+          "placeholder": "Enter type",
+          "required": false,
+          "options": [
+            "Blog Post",
+            "Video",
+            "Infographic",
+            "Case Study",
+            "Whitepaper",
+            "Newsletter",
+            "Social Post",
+            "Webinar"
+          ]
+        },
+        {
+          "id": "industry_trade_show_format",
+          "label": "Industry Trade Show - Format",
+          "type": "text",
+          "placeholder": "Enter format",
+          "required": false
+        },
+        {
+          "id": "industry_trade_show_start_date",
+          "label": "Industry Trade Show - Start Date",
+          "type": "text",
+          "placeholder": "Enter start date",
+          "required": false
+        },
+        {
+          "id": "industry_trade_show_end_date",
+          "label": "Industry Trade Show - End Date",
+          "type": "text",
+          "placeholder": "Enter end date",
+          "required": false
+        },
+        {
+          "id": "industry_trade_show_status",
+          "label": "Industry Trade Show - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "industry_trade_show_budget",
+          "label": "Industry Trade Show - Budget",
+          "type": "number",
+          "placeholder": "Enter budget",
+          "required": false
+        },
+        {
+          "id": "industry_trade_show_owner",
+          "label": "Industry Trade Show - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "industry_trade_show_objective",
+          "label": "Industry Trade Show - Objective",
+          "type": "text",
+          "placeholder": "Enter objective",
+          "required": false
+        },
+        {
+          "id": "customer_appreciation_dinner_quarter",
+          "label": "Customer Appreciation Dinner - Quarter",
+          "type": "text",
+          "placeholder": "Enter quarter",
+          "required": false
+        },
+        {
+          "id": "customer_appreciation_dinner_type",
+          "label": "Customer Appreciation Dinner - Type",
+          "type": "select",
+          "placeholder": "Enter type",
+          "required": false,
+          "options": [
+            "Blog Post",
+            "Video",
+            "Infographic",
+            "Case Study",
+            "Whitepaper",
+            "Newsletter",
+            "Social Post",
+            "Webinar"
+          ]
+        },
+        {
+          "id": "customer_appreciation_dinner_format",
+          "label": "Customer Appreciation Dinner - Format",
+          "type": "text",
+          "placeholder": "Enter format",
+          "required": false
+        },
+        {
+          "id": "customer_appreciation_dinner_start_date",
+          "label": "Customer Appreciation Dinner - Start Date",
+          "type": "text",
+          "placeholder": "Enter start date",
+          "required": false
+        },
+        {
+          "id": "customer_appreciation_dinner_end_date",
+          "label": "Customer Appreciation Dinner - End Date",
+          "type": "text",
+          "placeholder": "Enter end date",
+          "required": false
+        },
+        {
+          "id": "customer_appreciation_dinner_status",
+          "label": "Customer Appreciation Dinner - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "customer_appreciation_dinner_budget",
+          "label": "Customer Appreciation Dinner - Budget",
+          "type": "number",
+          "placeholder": "Enter budget",
+          "required": false
+        },
+        {
+          "id": "customer_appreciation_dinner_owner",
+          "label": "Customer Appreciation Dinner - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "customer_appreciation_dinner_objective",
+          "label": "Customer Appreciation Dinner - Objective",
+          "type": "text",
+          "placeholder": "Enter objective",
+          "required": false
+        },
+        {
+          "id": "workshop_marketing_masterclass_quarter",
+          "label": "Workshop: Marketing Masterclass - Quarter",
+          "type": "text",
+          "placeholder": "Enter quarter",
+          "required": false
+        },
+        {
+          "id": "workshop_marketing_masterclass_type",
+          "label": "Workshop: Marketing Masterclass - Type",
+          "type": "select",
+          "placeholder": "Enter type",
+          "required": false,
+          "options": [
+            "Blog Post",
+            "Video",
+            "Infographic",
+            "Case Study",
+            "Whitepaper",
+            "Newsletter",
+            "Social Post",
+            "Webinar"
+          ]
+        },
+        {
+          "id": "workshop_marketing_masterclass_format",
+          "label": "Workshop: Marketing Masterclass - Format",
+          "type": "text",
+          "placeholder": "Enter format",
+          "required": false
+        },
+        {
+          "id": "workshop_marketing_masterclass_start_date",
+          "label": "Workshop: Marketing Masterclass - Start Date",
+          "type": "text",
+          "placeholder": "Enter start date",
+          "required": false
+        },
+        {
+          "id": "workshop_marketing_masterclass_end_date",
+          "label": "Workshop: Marketing Masterclass - End Date",
+          "type": "text",
+          "placeholder": "Enter end date",
+          "required": false
+        },
+        {
+          "id": "workshop_marketing_masterclass_status",
+          "label": "Workshop: Marketing Masterclass - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "workshop_marketing_masterclass_budget",
+          "label": "Workshop: Marketing Masterclass - Budget",
+          "type": "number",
+          "placeholder": "Enter budget",
+          "required": false
+        },
+        {
+          "id": "workshop_marketing_masterclass_owner",
+          "label": "Workshop: Marketing Masterclass - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "workshop_marketing_masterclass_objective",
+          "label": "Workshop: Marketing Masterclass - Objective",
+          "type": "text",
+          "placeholder": "Enter objective",
+          "required": false
+        },
+        {
+          "id": "partner_comarketing_webinar_quarter",
+          "label": "Partner Co-Marketing Webinar - Quarter",
+          "type": "text",
+          "placeholder": "Enter quarter",
+          "required": false
+        },
+        {
+          "id": "partner_comarketing_webinar_type",
+          "label": "Partner Co-Marketing Webinar - Type",
+          "type": "select",
+          "placeholder": "Enter type",
+          "required": false,
+          "options": [
+            "Blog Post",
+            "Video",
+            "Infographic",
+            "Case Study",
+            "Whitepaper",
+            "Newsletter",
+            "Social Post",
+            "Webinar"
+          ]
+        },
+        {
+          "id": "partner_comarketing_webinar_format",
+          "label": "Partner Co-Marketing Webinar - Format",
+          "type": "text",
+          "placeholder": "Enter format",
+          "required": false
+        },
+        {
+          "id": "partner_comarketing_webinar_start_date",
+          "label": "Partner Co-Marketing Webinar - Start Date",
+          "type": "text",
+          "placeholder": "Enter start date",
+          "required": false
+        },
+        {
+          "id": "partner_comarketing_webinar_end_date",
+          "label": "Partner Co-Marketing Webinar - End Date",
+          "type": "text",
+          "placeholder": "Enter end date",
+          "required": false
+        },
+        {
+          "id": "partner_comarketing_webinar_status",
+          "label": "Partner Co-Marketing Webinar - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "partner_comarketing_webinar_budget",
+          "label": "Partner Co-Marketing Webinar - Budget",
+          "type": "number",
+          "placeholder": "Enter budget",
+          "required": false
+        },
+        {
+          "id": "partner_comarketing_webinar_owner",
+          "label": "Partner Co-Marketing Webinar - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "partner_comarketing_webinar_objective",
+          "label": "Partner Co-Marketing Webinar - Objective",
+          "type": "text",
+          "placeholder": "Enter objective",
+          "required": false
+        },
+        {
+          "id": "internal_marketing_offsite_quarter",
+          "label": "Internal Marketing Offsite - Quarter",
+          "type": "text",
+          "placeholder": "Enter quarter",
+          "required": false
+        },
+        {
+          "id": "internal_marketing_offsite_type",
+          "label": "Internal Marketing Offsite - Type",
+          "type": "select",
+          "placeholder": "Enter type",
+          "required": false,
+          "options": [
+            "Blog Post",
+            "Video",
+            "Infographic",
+            "Case Study",
+            "Whitepaper",
+            "Newsletter",
+            "Social Post",
+            "Webinar"
+          ]
+        },
+        {
+          "id": "internal_marketing_offsite_format",
+          "label": "Internal Marketing Offsite - Format",
+          "type": "text",
+          "placeholder": "Enter format",
+          "required": false
+        },
+        {
+          "id": "internal_marketing_offsite_start_date",
+          "label": "Internal Marketing Offsite - Start Date",
+          "type": "text",
+          "placeholder": "Enter start date",
+          "required": false
+        },
+        {
+          "id": "internal_marketing_offsite_end_date",
+          "label": "Internal Marketing Offsite - End Date",
+          "type": "text",
+          "placeholder": "Enter end date",
+          "required": false
+        },
+        {
+          "id": "internal_marketing_offsite_status",
+          "label": "Internal Marketing Offsite - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "internal_marketing_offsite_budget",
+          "label": "Internal Marketing Offsite - Budget",
+          "type": "number",
+          "placeholder": "Enter budget",
+          "required": false
+        },
+        {
+          "id": "internal_marketing_offsite_owner",
+          "label": "Internal Marketing Offsite - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "internal_marketing_offsite_objective",
+          "label": "Internal Marketing Offsite - Objective",
+          "type": "text",
+          "placeholder": "Enter objective",
+          "required": false
+        },
+        {
+          "id": "thought_leadership_panel_quarter",
+          "label": "Thought Leadership Panel - Quarter",
+          "type": "text",
+          "placeholder": "Enter quarter",
+          "required": false
+        },
+        {
+          "id": "thought_leadership_panel_type",
+          "label": "Thought Leadership Panel - Type",
+          "type": "select",
+          "placeholder": "Enter type",
+          "required": false,
+          "options": [
+            "Blog Post",
+            "Video",
+            "Infographic",
+            "Case Study",
+            "Whitepaper",
+            "Newsletter",
+            "Social Post",
+            "Webinar"
+          ]
+        },
+        {
+          "id": "thought_leadership_panel_format",
+          "label": "Thought Leadership Panel - Format",
+          "type": "text",
+          "placeholder": "Enter format",
+          "required": false
+        },
+        {
+          "id": "thought_leadership_panel_start_date",
+          "label": "Thought Leadership Panel - Start Date",
+          "type": "text",
+          "placeholder": "Enter start date",
+          "required": false
+        },
+        {
+          "id": "thought_leadership_panel_end_date",
+          "label": "Thought Leadership Panel - End Date",
+          "type": "text",
+          "placeholder": "Enter end date",
+          "required": false
+        },
+        {
+          "id": "thought_leadership_panel_status",
+          "label": "Thought Leadership Panel - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "thought_leadership_panel_budget",
+          "label": "Thought Leadership Panel - Budget",
+          "type": "number",
+          "placeholder": "Enter budget",
+          "required": false
+        },
+        {
+          "id": "thought_leadership_panel_owner",
+          "label": "Thought Leadership Panel - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "thought_leadership_panel_objective",
+          "label": "Thought Leadership Panel - Objective",
+          "type": "text",
+          "placeholder": "Enter objective",
+          "required": false
+        },
+        {
+          "id": "holiday_customer_event_quarter",
+          "label": "Holiday Customer Event - Quarter",
+          "type": "text",
+          "placeholder": "Enter quarter",
+          "required": false
+        },
+        {
+          "id": "holiday_customer_event_type",
+          "label": "Holiday Customer Event - Type",
+          "type": "select",
+          "placeholder": "Enter type",
+          "required": false,
+          "options": [
+            "Blog Post",
+            "Video",
+            "Infographic",
+            "Case Study",
+            "Whitepaper",
+            "Newsletter",
+            "Social Post",
+            "Webinar"
+          ]
+        },
+        {
+          "id": "holiday_customer_event_format",
+          "label": "Holiday Customer Event - Format",
+          "type": "text",
+          "placeholder": "Enter format",
+          "required": false
+        },
+        {
+          "id": "holiday_customer_event_start_date",
+          "label": "Holiday Customer Event - Start Date",
+          "type": "text",
+          "placeholder": "Enter start date",
+          "required": false
+        },
+        {
+          "id": "holiday_customer_event_end_date",
+          "label": "Holiday Customer Event - End Date",
+          "type": "text",
+          "placeholder": "Enter end date",
+          "required": false
+        },
+        {
+          "id": "holiday_customer_event_status",
+          "label": "Holiday Customer Event - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "holiday_customer_event_budget",
+          "label": "Holiday Customer Event - Budget",
+          "type": "number",
+          "placeholder": "Enter budget",
+          "required": false
+        },
+        {
+          "id": "holiday_customer_event_owner",
+          "label": "Holiday Customer Event - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "holiday_customer_event_objective",
+          "label": "Holiday Customer Event - Objective",
+          "type": "text",
+          "placeholder": "Enter objective",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "event_brief",
+      "title": "Event Brief",
+      "description": "Enter data for each item",
+      "fields": [
+        {
+          "id": "annual_marketing_summit_primary_objective",
+          "label": "Annual Marketing Summit - Primary Objective",
+          "type": "text",
+          "placeholder": "Enter primary objective",
+          "required": false
+        },
+        {
+          "id": "annual_marketing_summit_target_audience",
+          "label": "Annual Marketing Summit - Target Audience",
+          "type": "number",
+          "placeholder": "Enter target audience",
+          "required": false
+        },
+        {
+          "id": "annual_marketing_summit_expected_attendees",
+          "label": "Annual Marketing Summit - Expected Attendees",
+          "type": "text",
+          "placeholder": "Enter expected attendees",
+          "required": false
+        },
+        {
+          "id": "annual_marketing_summit_format",
+          "label": "Annual Marketing Summit - Format",
+          "type": "text",
+          "placeholder": "Enter format",
+          "required": false
+        },
+        {
+          "id": "annual_marketing_summit_date",
+          "label": "Annual Marketing Summit - Date",
+          "type": "text",
+          "placeholder": "Enter date",
+          "required": false
+        },
+        {
+          "id": "annual_marketing_summit_key_messages",
+          "label": "Annual Marketing Summit - Key Messages",
+          "type": "text",
+          "placeholder": "Enter key messages",
+          "required": false
+        },
+        {
+          "id": "product_launch_event_primary_objective",
+          "label": "Product Launch Event - Primary Objective",
+          "type": "text",
+          "placeholder": "Enter primary objective",
+          "required": false
+        },
+        {
+          "id": "product_launch_event_target_audience",
+          "label": "Product Launch Event - Target Audience",
+          "type": "number",
+          "placeholder": "Enter target audience",
+          "required": false
+        },
+        {
+          "id": "product_launch_event_expected_attendees",
+          "label": "Product Launch Event - Expected Attendees",
+          "type": "text",
+          "placeholder": "Enter expected attendees",
+          "required": false
+        },
+        {
+          "id": "product_launch_event_format",
+          "label": "Product Launch Event - Format",
+          "type": "text",
+          "placeholder": "Enter format",
+          "required": false
+        },
+        {
+          "id": "product_launch_event_date",
+          "label": "Product Launch Event - Date",
+          "type": "text",
+          "placeholder": "Enter date",
+          "required": false
+        },
+        {
+          "id": "product_launch_event_key_messages",
+          "label": "Product Launch Event - Key Messages",
+          "type": "text",
+          "placeholder": "Enter key messages",
+          "required": false
+        },
+        {
+          "id": "monthly_webinar_ai_in_marketing_primary_objective",
+          "label": "Monthly Webinar: AI in Marketing - Primary Objective",
+          "type": "text",
+          "placeholder": "Enter primary objective",
+          "required": false
+        },
+        {
+          "id": "monthly_webinar_ai_in_marketing_target_audience",
+          "label": "Monthly Webinar: AI in Marketing - Target Audience",
+          "type": "number",
+          "placeholder": "Enter target audience",
+          "required": false
+        },
+        {
+          "id": "monthly_webinar_ai_in_marketing_expected_attendees",
+          "label": "Monthly Webinar: AI in Marketing - Expected Attendees",
+          "type": "text",
+          "placeholder": "Enter expected attendees",
+          "required": false
+        },
+        {
+          "id": "monthly_webinar_ai_in_marketing_format",
+          "label": "Monthly Webinar: AI in Marketing - Format",
+          "type": "text",
+          "placeholder": "Enter format",
+          "required": false
+        },
+        {
+          "id": "monthly_webinar_ai_in_marketing_date",
+          "label": "Monthly Webinar: AI in Marketing - Date",
+          "type": "text",
+          "placeholder": "Enter date",
+          "required": false
+        },
+        {
+          "id": "monthly_webinar_ai_in_marketing_key_messages",
+          "label": "Monthly Webinar: AI in Marketing - Key Messages",
+          "type": "text",
+          "placeholder": "Enter key messages",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "budget_tracker",
+      "title": "Budget Tracker",
+      "description": "Enter data for each item",
+      "fields": [
+        {
+          "id": "annual_marketing_summit_cost_category",
+          "label": "Annual Marketing Summit - Cost Category",
+          "type": "number",
+          "placeholder": "Enter cost category",
+          "required": false
+        },
+        {
+          "id": "annual_marketing_summit_vendor",
+          "label": "Annual Marketing Summit - Vendor",
+          "type": "text",
+          "placeholder": "Enter vendor",
+          "required": false
+        },
+        {
+          "id": "annual_marketing_summit_allocated",
+          "label": "Annual Marketing Summit - Allocated",
+          "type": "text",
+          "placeholder": "Enter allocated",
+          "required": false
+        },
+        {
+          "id": "annual_marketing_summit_actual_spent",
+          "label": "Annual Marketing Summit - Actual Spent",
+          "type": "text",
+          "placeholder": "Enter actual spent",
+          "required": false
+        },
+        {
+          "id": "annual_marketing_summit_status",
+          "label": "Annual Marketing Summit - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "annual_marketing_summit_notes",
+          "label": "Annual Marketing Summit - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "annual_marketing_summit_cost_category_1",
+          "label": "Annual Marketing Summit - Cost Category",
+          "type": "number",
+          "placeholder": "Enter cost category",
+          "required": false
+        },
+        {
+          "id": "annual_marketing_summit_vendor_1",
+          "label": "Annual Marketing Summit - Vendor",
+          "type": "text",
+          "placeholder": "Enter vendor",
+          "required": false
+        },
+        {
+          "id": "annual_marketing_summit_allocated_1",
+          "label": "Annual Marketing Summit - Allocated",
+          "type": "text",
+          "placeholder": "Enter allocated",
+          "required": false
+        },
+        {
+          "id": "annual_marketing_summit_actual_spent_1",
+          "label": "Annual Marketing Summit - Actual Spent",
+          "type": "text",
+          "placeholder": "Enter actual spent",
+          "required": false
+        },
+        {
+          "id": "annual_marketing_summit_status_1",
+          "label": "Annual Marketing Summit - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "annual_marketing_summit_notes_1",
+          "label": "Annual Marketing Summit - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "annual_marketing_summit_cost_category_2",
+          "label": "Annual Marketing Summit - Cost Category",
+          "type": "number",
+          "placeholder": "Enter cost category",
+          "required": false
+        },
+        {
+          "id": "annual_marketing_summit_vendor_2",
+          "label": "Annual Marketing Summit - Vendor",
+          "type": "text",
+          "placeholder": "Enter vendor",
+          "required": false
+        },
+        {
+          "id": "annual_marketing_summit_allocated_2",
+          "label": "Annual Marketing Summit - Allocated",
+          "type": "text",
+          "placeholder": "Enter allocated",
+          "required": false
+        },
+        {
+          "id": "annual_marketing_summit_actual_spent_2",
+          "label": "Annual Marketing Summit - Actual Spent",
+          "type": "text",
+          "placeholder": "Enter actual spent",
+          "required": false
+        },
+        {
+          "id": "annual_marketing_summit_status_2",
+          "label": "Annual Marketing Summit - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "annual_marketing_summit_notes_2",
+          "label": "Annual Marketing Summit - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "annual_marketing_summit_cost_category_3",
+          "label": "Annual Marketing Summit - Cost Category",
+          "type": "number",
+          "placeholder": "Enter cost category",
+          "required": false
+        },
+        {
+          "id": "annual_marketing_summit_vendor_3",
+          "label": "Annual Marketing Summit - Vendor",
+          "type": "text",
+          "placeholder": "Enter vendor",
+          "required": false
+        },
+        {
+          "id": "annual_marketing_summit_allocated_3",
+          "label": "Annual Marketing Summit - Allocated",
+          "type": "text",
+          "placeholder": "Enter allocated",
+          "required": false
+        },
+        {
+          "id": "annual_marketing_summit_actual_spent_3",
+          "label": "Annual Marketing Summit - Actual Spent",
+          "type": "text",
+          "placeholder": "Enter actual spent",
+          "required": false
+        },
+        {
+          "id": "annual_marketing_summit_status_3",
+          "label": "Annual Marketing Summit - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "annual_marketing_summit_notes_3",
+          "label": "Annual Marketing Summit - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "annual_marketing_summit_cost_category_4",
+          "label": "Annual Marketing Summit - Cost Category",
+          "type": "number",
+          "placeholder": "Enter cost category",
+          "required": false
+        },
+        {
+          "id": "annual_marketing_summit_vendor_4",
+          "label": "Annual Marketing Summit - Vendor",
+          "type": "text",
+          "placeholder": "Enter vendor",
+          "required": false
+        },
+        {
+          "id": "annual_marketing_summit_allocated_4",
+          "label": "Annual Marketing Summit - Allocated",
+          "type": "text",
+          "placeholder": "Enter allocated",
+          "required": false
+        },
+        {
+          "id": "annual_marketing_summit_actual_spent_4",
+          "label": "Annual Marketing Summit - Actual Spent",
+          "type": "text",
+          "placeholder": "Enter actual spent",
+          "required": false
+        },
+        {
+          "id": "annual_marketing_summit_status_4",
+          "label": "Annual Marketing Summit - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "annual_marketing_summit_notes_4",
+          "label": "Annual Marketing Summit - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "annual_marketing_summit_cost_category_5",
+          "label": "Annual Marketing Summit - Cost Category",
+          "type": "number",
+          "placeholder": "Enter cost category",
+          "required": false
+        },
+        {
+          "id": "annual_marketing_summit_vendor_5",
+          "label": "Annual Marketing Summit - Vendor",
+          "type": "text",
+          "placeholder": "Enter vendor",
+          "required": false
+        },
+        {
+          "id": "annual_marketing_summit_allocated_5",
+          "label": "Annual Marketing Summit - Allocated",
+          "type": "text",
+          "placeholder": "Enter allocated",
+          "required": false
+        },
+        {
+          "id": "annual_marketing_summit_actual_spent_5",
+          "label": "Annual Marketing Summit - Actual Spent",
+          "type": "text",
+          "placeholder": "Enter actual spent",
+          "required": false
+        },
+        {
+          "id": "annual_marketing_summit_status_5",
+          "label": "Annual Marketing Summit - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "annual_marketing_summit_notes_5",
+          "label": "Annual Marketing Summit - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "annual_marketing_summit_cost_category_6",
+          "label": "Annual Marketing Summit - Cost Category",
+          "type": "number",
+          "placeholder": "Enter cost category",
+          "required": false
+        },
+        {
+          "id": "annual_marketing_summit_vendor_6",
+          "label": "Annual Marketing Summit - Vendor",
+          "type": "text",
+          "placeholder": "Enter vendor",
+          "required": false
+        },
+        {
+          "id": "annual_marketing_summit_allocated_6",
+          "label": "Annual Marketing Summit - Allocated",
+          "type": "text",
+          "placeholder": "Enter allocated",
+          "required": false
+        },
+        {
+          "id": "annual_marketing_summit_actual_spent_6",
+          "label": "Annual Marketing Summit - Actual Spent",
+          "type": "text",
+          "placeholder": "Enter actual spent",
+          "required": false
+        },
+        {
+          "id": "annual_marketing_summit_status_6",
+          "label": "Annual Marketing Summit - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "annual_marketing_summit_notes_6",
+          "label": "Annual Marketing Summit - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "annual_marketing_summit_cost_category_7",
+          "label": "Annual Marketing Summit - Cost Category",
+          "type": "number",
+          "placeholder": "Enter cost category",
+          "required": false
+        },
+        {
+          "id": "annual_marketing_summit_vendor_7",
+          "label": "Annual Marketing Summit - Vendor",
+          "type": "text",
+          "placeholder": "Enter vendor",
+          "required": false
+        },
+        {
+          "id": "annual_marketing_summit_allocated_7",
+          "label": "Annual Marketing Summit - Allocated",
+          "type": "text",
+          "placeholder": "Enter allocated",
+          "required": false
+        },
+        {
+          "id": "annual_marketing_summit_actual_spent_7",
+          "label": "Annual Marketing Summit - Actual Spent",
+          "type": "text",
+          "placeholder": "Enter actual spent",
+          "required": false
+        },
+        {
+          "id": "annual_marketing_summit_status_7",
+          "label": "Annual Marketing Summit - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "annual_marketing_summit_notes_7",
+          "label": "Annual Marketing Summit - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "product_launch_event_cost_category",
+          "label": "Product Launch Event - Cost Category",
+          "type": "number",
+          "placeholder": "Enter cost category",
+          "required": false
+        },
+        {
+          "id": "product_launch_event_vendor",
+          "label": "Product Launch Event - Vendor",
+          "type": "text",
+          "placeholder": "Enter vendor",
+          "required": false
+        },
+        {
+          "id": "product_launch_event_allocated",
+          "label": "Product Launch Event - Allocated",
+          "type": "text",
+          "placeholder": "Enter allocated",
+          "required": false
+        },
+        {
+          "id": "product_launch_event_actual_spent",
+          "label": "Product Launch Event - Actual Spent",
+          "type": "text",
+          "placeholder": "Enter actual spent",
+          "required": false
+        },
+        {
+          "id": "product_launch_event_status",
+          "label": "Product Launch Event - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "product_launch_event_notes",
+          "label": "Product Launch Event - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "product_launch_event_cost_category_1",
+          "label": "Product Launch Event - Cost Category",
+          "type": "number",
+          "placeholder": "Enter cost category",
+          "required": false
+        },
+        {
+          "id": "product_launch_event_vendor_1",
+          "label": "Product Launch Event - Vendor",
+          "type": "text",
+          "placeholder": "Enter vendor",
+          "required": false
+        },
+        {
+          "id": "product_launch_event_allocated_1",
+          "label": "Product Launch Event - Allocated",
+          "type": "text",
+          "placeholder": "Enter allocated",
+          "required": false
+        },
+        {
+          "id": "product_launch_event_actual_spent_1",
+          "label": "Product Launch Event - Actual Spent",
+          "type": "text",
+          "placeholder": "Enter actual spent",
+          "required": false
+        },
+        {
+          "id": "product_launch_event_status_1",
+          "label": "Product Launch Event - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "product_launch_event_notes_1",
+          "label": "Product Launch Event - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "product_launch_event_cost_category_2",
+          "label": "Product Launch Event - Cost Category",
+          "type": "number",
+          "placeholder": "Enter cost category",
+          "required": false
+        },
+        {
+          "id": "product_launch_event_vendor_2",
+          "label": "Product Launch Event - Vendor",
+          "type": "text",
+          "placeholder": "Enter vendor",
+          "required": false
+        },
+        {
+          "id": "product_launch_event_allocated_2",
+          "label": "Product Launch Event - Allocated",
+          "type": "text",
+          "placeholder": "Enter allocated",
+          "required": false
+        },
+        {
+          "id": "product_launch_event_actual_spent_2",
+          "label": "Product Launch Event - Actual Spent",
+          "type": "text",
+          "placeholder": "Enter actual spent",
+          "required": false
+        },
+        {
+          "id": "product_launch_event_status_2",
+          "label": "Product Launch Event - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "product_launch_event_notes_2",
+          "label": "Product Launch Event - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "product_launch_event_cost_category_3",
+          "label": "Product Launch Event - Cost Category",
+          "type": "number",
+          "placeholder": "Enter cost category",
+          "required": false
+        },
+        {
+          "id": "product_launch_event_vendor_3",
+          "label": "Product Launch Event - Vendor",
+          "type": "text",
+          "placeholder": "Enter vendor",
+          "required": false
+        },
+        {
+          "id": "product_launch_event_allocated_3",
+          "label": "Product Launch Event - Allocated",
+          "type": "text",
+          "placeholder": "Enter allocated",
+          "required": false
+        },
+        {
+          "id": "product_launch_event_actual_spent_3",
+          "label": "Product Launch Event - Actual Spent",
+          "type": "text",
+          "placeholder": "Enter actual spent",
+          "required": false
+        },
+        {
+          "id": "product_launch_event_status_3",
+          "label": "Product Launch Event - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "product_launch_event_notes_3",
+          "label": "Product Launch Event - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "timeline_checklist",
+      "title": "Timeline & Checklist",
+      "description": "Enter data for each item",
+      "fields": [
+        {
+          "id": "12_weeks_out_task",
+          "label": "12 Weeks Out - Task",
+          "type": "text",
+          "placeholder": "Enter task",
+          "required": false
+        },
+        {
+          "id": "12_weeks_out_owner",
+          "label": "12 Weeks Out - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "12_weeks_out_due_date",
+          "label": "12 Weeks Out - Due Date",
+          "type": "text",
+          "placeholder": "Enter due date",
+          "required": false
+        },
+        {
+          "id": "12_weeks_out_status",
+          "label": "12 Weeks Out - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "12_weeks_out_notes",
+          "label": "12 Weeks Out - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "12_weeks_out_task_1",
+          "label": "12 Weeks Out - Task",
+          "type": "text",
+          "placeholder": "Enter task",
+          "required": false
+        },
+        {
+          "id": "12_weeks_out_owner_1",
+          "label": "12 Weeks Out - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "12_weeks_out_due_date_1",
+          "label": "12 Weeks Out - Due Date",
+          "type": "text",
+          "placeholder": "Enter due date",
+          "required": false
+        },
+        {
+          "id": "12_weeks_out_status_1",
+          "label": "12 Weeks Out - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "12_weeks_out_notes_1",
+          "label": "12 Weeks Out - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "12_weeks_out_task_2",
+          "label": "12 Weeks Out - Task",
+          "type": "text",
+          "placeholder": "Enter task",
+          "required": false
+        },
+        {
+          "id": "12_weeks_out_owner_2",
+          "label": "12 Weeks Out - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "12_weeks_out_due_date_2",
+          "label": "12 Weeks Out - Due Date",
+          "type": "text",
+          "placeholder": "Enter due date",
+          "required": false
+        },
+        {
+          "id": "12_weeks_out_status_2",
+          "label": "12 Weeks Out - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "12_weeks_out_notes_2",
+          "label": "12 Weeks Out - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "12_weeks_out_task_3",
+          "label": "12 Weeks Out - Task",
+          "type": "text",
+          "placeholder": "Enter task",
+          "required": false
+        },
+        {
+          "id": "12_weeks_out_owner_3",
+          "label": "12 Weeks Out - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "12_weeks_out_due_date_3",
+          "label": "12 Weeks Out - Due Date",
+          "type": "text",
+          "placeholder": "Enter due date",
+          "required": false
+        },
+        {
+          "id": "12_weeks_out_status_3",
+          "label": "12 Weeks Out - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "12_weeks_out_notes_3",
+          "label": "12 Weeks Out - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "12_weeks_out_task_4",
+          "label": "12 Weeks Out - Task",
+          "type": "text",
+          "placeholder": "Enter task",
+          "required": false
+        },
+        {
+          "id": "12_weeks_out_owner_4",
+          "label": "12 Weeks Out - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "12_weeks_out_due_date_4",
+          "label": "12 Weeks Out - Due Date",
+          "type": "text",
+          "placeholder": "Enter due date",
+          "required": false
+        },
+        {
+          "id": "12_weeks_out_status_4",
+          "label": "12 Weeks Out - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "12_weeks_out_notes_4",
+          "label": "12 Weeks Out - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "12_weeks_out_task_5",
+          "label": "12 Weeks Out - Task",
+          "type": "text",
+          "placeholder": "Enter task",
+          "required": false
+        },
+        {
+          "id": "12_weeks_out_owner_5",
+          "label": "12 Weeks Out - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "12_weeks_out_due_date_5",
+          "label": "12 Weeks Out - Due Date",
+          "type": "text",
+          "placeholder": "Enter due date",
+          "required": false
+        },
+        {
+          "id": "12_weeks_out_status_5",
+          "label": "12 Weeks Out - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "12_weeks_out_notes_5",
+          "label": "12 Weeks Out - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "8_weeks_out_task",
+          "label": "8 Weeks Out - Task",
+          "type": "text",
+          "placeholder": "Enter task",
+          "required": false
+        },
+        {
+          "id": "8_weeks_out_owner",
+          "label": "8 Weeks Out - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "8_weeks_out_due_date",
+          "label": "8 Weeks Out - Due Date",
+          "type": "text",
+          "placeholder": "Enter due date",
+          "required": false
+        },
+        {
+          "id": "8_weeks_out_status",
+          "label": "8 Weeks Out - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "8_weeks_out_notes",
+          "label": "8 Weeks Out - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "8_weeks_out_task_1",
+          "label": "8 Weeks Out - Task",
+          "type": "text",
+          "placeholder": "Enter task",
+          "required": false
+        },
+        {
+          "id": "8_weeks_out_owner_1",
+          "label": "8 Weeks Out - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "8_weeks_out_due_date_1",
+          "label": "8 Weeks Out - Due Date",
+          "type": "text",
+          "placeholder": "Enter due date",
+          "required": false
+        },
+        {
+          "id": "8_weeks_out_status_1",
+          "label": "8 Weeks Out - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "8_weeks_out_notes_1",
+          "label": "8 Weeks Out - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "8_weeks_out_task_2",
+          "label": "8 Weeks Out - Task",
+          "type": "text",
+          "placeholder": "Enter task",
+          "required": false
+        },
+        {
+          "id": "8_weeks_out_owner_2",
+          "label": "8 Weeks Out - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "8_weeks_out_due_date_2",
+          "label": "8 Weeks Out - Due Date",
+          "type": "text",
+          "placeholder": "Enter due date",
+          "required": false
+        },
+        {
+          "id": "8_weeks_out_status_2",
+          "label": "8 Weeks Out - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "8_weeks_out_notes_2",
+          "label": "8 Weeks Out - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "8_weeks_out_task_3",
+          "label": "8 Weeks Out - Task",
+          "type": "text",
+          "placeholder": "Enter task",
+          "required": false
+        },
+        {
+          "id": "8_weeks_out_owner_3",
+          "label": "8 Weeks Out - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "8_weeks_out_due_date_3",
+          "label": "8 Weeks Out - Due Date",
+          "type": "text",
+          "placeholder": "Enter due date",
+          "required": false
+        },
+        {
+          "id": "8_weeks_out_status_3",
+          "label": "8 Weeks Out - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "8_weeks_out_notes_3",
+          "label": "8 Weeks Out - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "8_weeks_out_task_4",
+          "label": "8 Weeks Out - Task",
+          "type": "text",
+          "placeholder": "Enter task",
+          "required": false
+        },
+        {
+          "id": "8_weeks_out_owner_4",
+          "label": "8 Weeks Out - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "8_weeks_out_due_date_4",
+          "label": "8 Weeks Out - Due Date",
+          "type": "text",
+          "placeholder": "Enter due date",
+          "required": false
+        },
+        {
+          "id": "8_weeks_out_status_4",
+          "label": "8 Weeks Out - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "8_weeks_out_notes_4",
+          "label": "8 Weeks Out - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "8_weeks_out_task_5",
+          "label": "8 Weeks Out - Task",
+          "type": "text",
+          "placeholder": "Enter task",
+          "required": false
+        },
+        {
+          "id": "8_weeks_out_owner_5",
+          "label": "8 Weeks Out - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "8_weeks_out_due_date_5",
+          "label": "8 Weeks Out - Due Date",
+          "type": "text",
+          "placeholder": "Enter due date",
+          "required": false
+        },
+        {
+          "id": "8_weeks_out_status_5",
+          "label": "8 Weeks Out - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "8_weeks_out_notes_5",
+          "label": "8 Weeks Out - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "4_weeks_out_task",
+          "label": "4 Weeks Out - Task",
+          "type": "text",
+          "placeholder": "Enter task",
+          "required": false
+        },
+        {
+          "id": "4_weeks_out_owner",
+          "label": "4 Weeks Out - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "4_weeks_out_due_date",
+          "label": "4 Weeks Out - Due Date",
+          "type": "text",
+          "placeholder": "Enter due date",
+          "required": false
+        },
+        {
+          "id": "4_weeks_out_status",
+          "label": "4 Weeks Out - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "4_weeks_out_notes",
+          "label": "4 Weeks Out - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "4_weeks_out_task_1",
+          "label": "4 Weeks Out - Task",
+          "type": "text",
+          "placeholder": "Enter task",
+          "required": false
+        },
+        {
+          "id": "4_weeks_out_owner_1",
+          "label": "4 Weeks Out - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "4_weeks_out_due_date_1",
+          "label": "4 Weeks Out - Due Date",
+          "type": "text",
+          "placeholder": "Enter due date",
+          "required": false
+        },
+        {
+          "id": "4_weeks_out_status_1",
+          "label": "4 Weeks Out - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "4_weeks_out_notes_1",
+          "label": "4 Weeks Out - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "4_weeks_out_task_2",
+          "label": "4 Weeks Out - Task",
+          "type": "text",
+          "placeholder": "Enter task",
+          "required": false
+        },
+        {
+          "id": "4_weeks_out_owner_2",
+          "label": "4 Weeks Out - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "4_weeks_out_due_date_2",
+          "label": "4 Weeks Out - Due Date",
+          "type": "text",
+          "placeholder": "Enter due date",
+          "required": false
+        },
+        {
+          "id": "4_weeks_out_status_2",
+          "label": "4 Weeks Out - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "4_weeks_out_notes_2",
+          "label": "4 Weeks Out - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "4_weeks_out_task_3",
+          "label": "4 Weeks Out - Task",
+          "type": "text",
+          "placeholder": "Enter task",
+          "required": false
+        },
+        {
+          "id": "4_weeks_out_owner_3",
+          "label": "4 Weeks Out - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "4_weeks_out_due_date_3",
+          "label": "4 Weeks Out - Due Date",
+          "type": "text",
+          "placeholder": "Enter due date",
+          "required": false
+        },
+        {
+          "id": "4_weeks_out_status_3",
+          "label": "4 Weeks Out - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "4_weeks_out_notes_3",
+          "label": "4 Weeks Out - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "4_weeks_out_task_4",
+          "label": "4 Weeks Out - Task",
+          "type": "text",
+          "placeholder": "Enter task",
+          "required": false
+        },
+        {
+          "id": "4_weeks_out_owner_4",
+          "label": "4 Weeks Out - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "4_weeks_out_due_date_4",
+          "label": "4 Weeks Out - Due Date",
+          "type": "text",
+          "placeholder": "Enter due date",
+          "required": false
+        },
+        {
+          "id": "4_weeks_out_status_4",
+          "label": "4 Weeks Out - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "4_weeks_out_notes_4",
+          "label": "4 Weeks Out - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "4_weeks_out_task_5",
+          "label": "4 Weeks Out - Task",
+          "type": "text",
+          "placeholder": "Enter task",
+          "required": false
+        },
+        {
+          "id": "4_weeks_out_owner_5",
+          "label": "4 Weeks Out - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "4_weeks_out_due_date_5",
+          "label": "4 Weeks Out - Due Date",
+          "type": "text",
+          "placeholder": "Enter due date",
+          "required": false
+        },
+        {
+          "id": "4_weeks_out_status_5",
+          "label": "4 Weeks Out - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "4_weeks_out_notes_5",
+          "label": "4 Weeks Out - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "2_weeks_out_task",
+          "label": "2 Weeks Out - Task",
+          "type": "text",
+          "placeholder": "Enter task",
+          "required": false
+        },
+        {
+          "id": "2_weeks_out_owner",
+          "label": "2 Weeks Out - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "2_weeks_out_due_date",
+          "label": "2 Weeks Out - Due Date",
+          "type": "text",
+          "placeholder": "Enter due date",
+          "required": false
+        },
+        {
+          "id": "2_weeks_out_status",
+          "label": "2 Weeks Out - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "2_weeks_out_notes",
+          "label": "2 Weeks Out - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "2_weeks_out_task_1",
+          "label": "2 Weeks Out - Task",
+          "type": "text",
+          "placeholder": "Enter task",
+          "required": false
+        },
+        {
+          "id": "2_weeks_out_owner_1",
+          "label": "2 Weeks Out - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "2_weeks_out_due_date_1",
+          "label": "2 Weeks Out - Due Date",
+          "type": "text",
+          "placeholder": "Enter due date",
+          "required": false
+        },
+        {
+          "id": "2_weeks_out_status_1",
+          "label": "2 Weeks Out - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "2_weeks_out_notes_1",
+          "label": "2 Weeks Out - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "2_weeks_out_task_2",
+          "label": "2 Weeks Out - Task",
+          "type": "text",
+          "placeholder": "Enter task",
+          "required": false
+        },
+        {
+          "id": "2_weeks_out_owner_2",
+          "label": "2 Weeks Out - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "2_weeks_out_due_date_2",
+          "label": "2 Weeks Out - Due Date",
+          "type": "text",
+          "placeholder": "Enter due date",
+          "required": false
+        },
+        {
+          "id": "2_weeks_out_status_2",
+          "label": "2 Weeks Out - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "2_weeks_out_notes_2",
+          "label": "2 Weeks Out - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "2_weeks_out_task_3",
+          "label": "2 Weeks Out - Task",
+          "type": "text",
+          "placeholder": "Enter task",
+          "required": false
+        },
+        {
+          "id": "2_weeks_out_owner_3",
+          "label": "2 Weeks Out - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "2_weeks_out_due_date_3",
+          "label": "2 Weeks Out - Due Date",
+          "type": "text",
+          "placeholder": "Enter due date",
+          "required": false
+        },
+        {
+          "id": "2_weeks_out_status_3",
+          "label": "2 Weeks Out - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "2_weeks_out_notes_3",
+          "label": "2 Weeks Out - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "2_weeks_out_task_4",
+          "label": "2 Weeks Out - Task",
+          "type": "text",
+          "placeholder": "Enter task",
+          "required": false
+        },
+        {
+          "id": "2_weeks_out_owner_4",
+          "label": "2 Weeks Out - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "2_weeks_out_due_date_4",
+          "label": "2 Weeks Out - Due Date",
+          "type": "text",
+          "placeholder": "Enter due date",
+          "required": false
+        },
+        {
+          "id": "2_weeks_out_status_4",
+          "label": "2 Weeks Out - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "2_weeks_out_notes_4",
+          "label": "2 Weeks Out - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "1_week_out_task",
+          "label": "1 Week Out - Task",
+          "type": "text",
+          "placeholder": "Enter task",
+          "required": false
+        },
+        {
+          "id": "1_week_out_owner",
+          "label": "1 Week Out - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "1_week_out_due_date",
+          "label": "1 Week Out - Due Date",
+          "type": "text",
+          "placeholder": "Enter due date",
+          "required": false
+        },
+        {
+          "id": "1_week_out_status",
+          "label": "1 Week Out - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "1_week_out_notes",
+          "label": "1 Week Out - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "1_week_out_task_1",
+          "label": "1 Week Out - Task",
+          "type": "text",
+          "placeholder": "Enter task",
+          "required": false
+        },
+        {
+          "id": "1_week_out_owner_1",
+          "label": "1 Week Out - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "1_week_out_due_date_1",
+          "label": "1 Week Out - Due Date",
+          "type": "text",
+          "placeholder": "Enter due date",
+          "required": false
+        },
+        {
+          "id": "1_week_out_status_1",
+          "label": "1 Week Out - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "1_week_out_notes_1",
+          "label": "1 Week Out - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "1_week_out_task_2",
+          "label": "1 Week Out - Task",
+          "type": "text",
+          "placeholder": "Enter task",
+          "required": false
+        },
+        {
+          "id": "1_week_out_owner_2",
+          "label": "1 Week Out - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "1_week_out_due_date_2",
+          "label": "1 Week Out - Due Date",
+          "type": "text",
+          "placeholder": "Enter due date",
+          "required": false
+        },
+        {
+          "id": "1_week_out_status_2",
+          "label": "1 Week Out - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "1_week_out_notes_2",
+          "label": "1 Week Out - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "1_week_out_task_3",
+          "label": "1 Week Out - Task",
+          "type": "text",
+          "placeholder": "Enter task",
+          "required": false
+        },
+        {
+          "id": "1_week_out_owner_3",
+          "label": "1 Week Out - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "1_week_out_due_date_3",
+          "label": "1 Week Out - Due Date",
+          "type": "text",
+          "placeholder": "Enter due date",
+          "required": false
+        },
+        {
+          "id": "1_week_out_status_3",
+          "label": "1 Week Out - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "1_week_out_notes_3",
+          "label": "1 Week Out - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "1_week_out_task_4",
+          "label": "1 Week Out - Task",
+          "type": "text",
+          "placeholder": "Enter task",
+          "required": false
+        },
+        {
+          "id": "1_week_out_owner_4",
+          "label": "1 Week Out - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "1_week_out_due_date_4",
+          "label": "1 Week Out - Due Date",
+          "type": "text",
+          "placeholder": "Enter due date",
+          "required": false
+        },
+        {
+          "id": "1_week_out_status_4",
+          "label": "1 Week Out - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "1_week_out_notes_4",
+          "label": "1 Week Out - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "day_of_task",
+          "label": "Day Of - Task",
+          "type": "text",
+          "placeholder": "Enter task",
+          "required": false
+        },
+        {
+          "id": "day_of_owner",
+          "label": "Day Of - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "day_of_due_date",
+          "label": "Day Of - Due Date",
+          "type": "text",
+          "placeholder": "Enter due date",
+          "required": false
+        },
+        {
+          "id": "day_of_status",
+          "label": "Day Of - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "day_of_notes",
+          "label": "Day Of - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "day_of_task_1",
+          "label": "Day Of - Task",
+          "type": "text",
+          "placeholder": "Enter task",
+          "required": false
+        },
+        {
+          "id": "day_of_owner_1",
+          "label": "Day Of - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "day_of_due_date_1",
+          "label": "Day Of - Due Date",
+          "type": "text",
+          "placeholder": "Enter due date",
+          "required": false
+        },
+        {
+          "id": "day_of_status_1",
+          "label": "Day Of - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "day_of_notes_1",
+          "label": "Day Of - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "day_of_task_2",
+          "label": "Day Of - Task",
+          "type": "text",
+          "placeholder": "Enter task",
+          "required": false
+        },
+        {
+          "id": "day_of_owner_2",
+          "label": "Day Of - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "day_of_due_date_2",
+          "label": "Day Of - Due Date",
+          "type": "text",
+          "placeholder": "Enter due date",
+          "required": false
+        },
+        {
+          "id": "day_of_status_2",
+          "label": "Day Of - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "day_of_notes_2",
+          "label": "Day Of - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "day_of_task_3",
+          "label": "Day Of - Task",
+          "type": "text",
+          "placeholder": "Enter task",
+          "required": false
+        },
+        {
+          "id": "day_of_owner_3",
+          "label": "Day Of - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "day_of_due_date_3",
+          "label": "Day Of - Due Date",
+          "type": "text",
+          "placeholder": "Enter due date",
+          "required": false
+        },
+        {
+          "id": "day_of_status_3",
+          "label": "Day Of - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "day_of_notes_3",
+          "label": "Day Of - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "day_of_task_4",
+          "label": "Day Of - Task",
+          "type": "text",
+          "placeholder": "Enter task",
+          "required": false
+        },
+        {
+          "id": "day_of_owner_4",
+          "label": "Day Of - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "day_of_due_date_4",
+          "label": "Day Of - Due Date",
+          "type": "text",
+          "placeholder": "Enter due date",
+          "required": false
+        },
+        {
+          "id": "day_of_status_4",
+          "label": "Day Of - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "day_of_notes_4",
+          "label": "Day Of - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "day_of_task_5",
+          "label": "Day Of - Task",
+          "type": "text",
+          "placeholder": "Enter task",
+          "required": false
+        },
+        {
+          "id": "day_of_owner_5",
+          "label": "Day Of - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "day_of_due_date_5",
+          "label": "Day Of - Due Date",
+          "type": "text",
+          "placeholder": "Enter due date",
+          "required": false
+        },
+        {
+          "id": "day_of_status_5",
+          "label": "Day Of - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "day_of_notes_5",
+          "label": "Day Of - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "postevent_week_1_task",
+          "label": "Post-Event (Week 1) - Task",
+          "type": "text",
+          "placeholder": "Enter task",
+          "required": false
+        },
+        {
+          "id": "postevent_week_1_owner",
+          "label": "Post-Event (Week 1) - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "postevent_week_1_due_date",
+          "label": "Post-Event (Week 1) - Due Date",
+          "type": "text",
+          "placeholder": "Enter due date",
+          "required": false
+        },
+        {
+          "id": "postevent_week_1_status",
+          "label": "Post-Event (Week 1) - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "postevent_week_1_notes",
+          "label": "Post-Event (Week 1) - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "postevent_week_1_task_1",
+          "label": "Post-Event (Week 1) - Task",
+          "type": "text",
+          "placeholder": "Enter task",
+          "required": false
+        },
+        {
+          "id": "postevent_week_1_owner_1",
+          "label": "Post-Event (Week 1) - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "postevent_week_1_due_date_1",
+          "label": "Post-Event (Week 1) - Due Date",
+          "type": "text",
+          "placeholder": "Enter due date",
+          "required": false
+        },
+        {
+          "id": "postevent_week_1_status_1",
+          "label": "Post-Event (Week 1) - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "postevent_week_1_notes_1",
+          "label": "Post-Event (Week 1) - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "postevent_week_1_task_2",
+          "label": "Post-Event (Week 1) - Task",
+          "type": "text",
+          "placeholder": "Enter task",
+          "required": false
+        },
+        {
+          "id": "postevent_week_1_owner_2",
+          "label": "Post-Event (Week 1) - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "postevent_week_1_due_date_2",
+          "label": "Post-Event (Week 1) - Due Date",
+          "type": "text",
+          "placeholder": "Enter due date",
+          "required": false
+        },
+        {
+          "id": "postevent_week_1_status_2",
+          "label": "Post-Event (Week 1) - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "postevent_week_1_notes_2",
+          "label": "Post-Event (Week 1) - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "postevent_week_1_task_3",
+          "label": "Post-Event (Week 1) - Task",
+          "type": "text",
+          "placeholder": "Enter task",
+          "required": false
+        },
+        {
+          "id": "postevent_week_1_owner_3",
+          "label": "Post-Event (Week 1) - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "postevent_week_1_due_date_3",
+          "label": "Post-Event (Week 1) - Due Date",
+          "type": "text",
+          "placeholder": "Enter due date",
+          "required": false
+        },
+        {
+          "id": "postevent_week_1_status_3",
+          "label": "Post-Event (Week 1) - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "postevent_week_1_notes_3",
+          "label": "Post-Event (Week 1) - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "postevent_week_1_task_4",
+          "label": "Post-Event (Week 1) - Task",
+          "type": "text",
+          "placeholder": "Enter task",
+          "required": false
+        },
+        {
+          "id": "postevent_week_1_owner_4",
+          "label": "Post-Event (Week 1) - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "postevent_week_1_due_date_4",
+          "label": "Post-Event (Week 1) - Due Date",
+          "type": "text",
+          "placeholder": "Enter due date",
+          "required": false
+        },
+        {
+          "id": "postevent_week_1_status_4",
+          "label": "Post-Event (Week 1) - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "postevent_week_1_notes_4",
+          "label": "Post-Event (Week 1) - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "postevent_week_2_task",
+          "label": "Post-Event (Week 2) - Task",
+          "type": "text",
+          "placeholder": "Enter task",
+          "required": false
+        },
+        {
+          "id": "postevent_week_2_owner",
+          "label": "Post-Event (Week 2) - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "postevent_week_2_due_date",
+          "label": "Post-Event (Week 2) - Due Date",
+          "type": "text",
+          "placeholder": "Enter due date",
+          "required": false
+        },
+        {
+          "id": "postevent_week_2_status",
+          "label": "Post-Event (Week 2) - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "postevent_week_2_notes",
+          "label": "Post-Event (Week 2) - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "postevent_week_2_task_1",
+          "label": "Post-Event (Week 2) - Task",
+          "type": "text",
+          "placeholder": "Enter task",
+          "required": false
+        },
+        {
+          "id": "postevent_week_2_owner_1",
+          "label": "Post-Event (Week 2) - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "postevent_week_2_due_date_1",
+          "label": "Post-Event (Week 2) - Due Date",
+          "type": "text",
+          "placeholder": "Enter due date",
+          "required": false
+        },
+        {
+          "id": "postevent_week_2_status_1",
+          "label": "Post-Event (Week 2) - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "postevent_week_2_notes_1",
+          "label": "Post-Event (Week 2) - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "postevent_week_2_task_2",
+          "label": "Post-Event (Week 2) - Task",
+          "type": "text",
+          "placeholder": "Enter task",
+          "required": false
+        },
+        {
+          "id": "postevent_week_2_owner_2",
+          "label": "Post-Event (Week 2) - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "postevent_week_2_due_date_2",
+          "label": "Post-Event (Week 2) - Due Date",
+          "type": "text",
+          "placeholder": "Enter due date",
+          "required": false
+        },
+        {
+          "id": "postevent_week_2_status_2",
+          "label": "Post-Event (Week 2) - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "postevent_week_2_notes_2",
+          "label": "Post-Event (Week 2) - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "postevent_week_2_task_3",
+          "label": "Post-Event (Week 2) - Task",
+          "type": "text",
+          "placeholder": "Enter task",
+          "required": false
+        },
+        {
+          "id": "postevent_week_2_owner_3",
+          "label": "Post-Event (Week 2) - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "postevent_week_2_due_date_3",
+          "label": "Post-Event (Week 2) - Due Date",
+          "type": "text",
+          "placeholder": "Enter due date",
+          "required": false
+        },
+        {
+          "id": "postevent_week_2_status_3",
+          "label": "Post-Event (Week 2) - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "postevent_week_2_notes_3",
+          "label": "Post-Event (Week 2) - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "postevent_week_2_task_4",
+          "label": "Post-Event (Week 2) - Task",
+          "type": "text",
+          "placeholder": "Enter task",
+          "required": false
+        },
+        {
+          "id": "postevent_week_2_owner_4",
+          "label": "Post-Event (Week 2) - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "postevent_week_2_due_date_4",
+          "label": "Post-Event (Week 2) - Due Date",
+          "type": "text",
+          "placeholder": "Enter due date",
+          "required": false
+        },
+        {
+          "id": "postevent_week_2_status_4",
+          "label": "Post-Event (Week 2) - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "postevent_week_2_notes_4",
+          "label": "Post-Event (Week 2) - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "speaker_management",
+      "title": "Speaker Management",
+      "description": "Enter data for each item",
+      "fields": [
+        {
+          "id": "dr_sarah_mitchell_company_title",
+          "label": "Dr. Sarah Mitchell - Company & Title",
+          "type": "text",
+          "placeholder": "Enter company & title",
+          "required": false
+        },
+        {
+          "id": "dr_sarah_mitchell_topic_session_title",
+          "label": "Dr. Sarah Mitchell - Topic / Session Title",
+          "type": "text",
+          "placeholder": "Enter topic / session title",
+          "required": false
+        },
+        {
+          "id": "dr_sarah_mitchell_session_type",
+          "label": "Dr. Sarah Mitchell - Session Type",
+          "type": "text",
+          "placeholder": "Enter session type",
+          "required": false
+        },
+        {
+          "id": "dr_sarah_mitchell_time_slot",
+          "label": "Dr. Sarah Mitchell - Time Slot",
+          "type": "text",
+          "placeholder": "Enter time slot",
+          "required": false
+        },
+        {
+          "id": "dr_sarah_mitchell_duration",
+          "label": "Dr. Sarah Mitchell - Duration",
+          "type": "text",
+          "placeholder": "Enter duration",
+          "required": false
+        },
+        {
+          "id": "dr_sarah_mitchell_status",
+          "label": "Dr. Sarah Mitchell - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "dr_sarah_mitchell_av_needs",
+          "label": "Dr. Sarah Mitchell - AV Needs",
+          "type": "text",
+          "placeholder": "Enter av needs",
+          "required": false
+        },
+        {
+          "id": "dr_sarah_mitchell_notes",
+          "label": "Dr. Sarah Mitchell - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "james_rodriguez_company_title",
+          "label": "James Rodriguez - Company & Title",
+          "type": "text",
+          "placeholder": "Enter company & title",
+          "required": false
+        },
+        {
+          "id": "james_rodriguez_topic_session_title",
+          "label": "James Rodriguez - Topic / Session Title",
+          "type": "text",
+          "placeholder": "Enter topic / session title",
+          "required": false
+        },
+        {
+          "id": "james_rodriguez_session_type",
+          "label": "James Rodriguez - Session Type",
+          "type": "text",
+          "placeholder": "Enter session type",
+          "required": false
+        },
+        {
+          "id": "james_rodriguez_time_slot",
+          "label": "James Rodriguez - Time Slot",
+          "type": "text",
+          "placeholder": "Enter time slot",
+          "required": false
+        },
+        {
+          "id": "james_rodriguez_duration",
+          "label": "James Rodriguez - Duration",
+          "type": "text",
+          "placeholder": "Enter duration",
+          "required": false
+        },
+        {
+          "id": "james_rodriguez_status",
+          "label": "James Rodriguez - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "james_rodriguez_av_needs",
+          "label": "James Rodriguez - AV Needs",
+          "type": "text",
+          "placeholder": "Enter av needs",
+          "required": false
+        },
+        {
+          "id": "james_rodriguez_notes",
+          "label": "James Rodriguez - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "elena_kowalski_company_title",
+          "label": "Elena Kowalski - Company & Title",
+          "type": "text",
+          "placeholder": "Enter company & title",
+          "required": false
+        },
+        {
+          "id": "elena_kowalski_topic_session_title",
+          "label": "Elena Kowalski - Topic / Session Title",
+          "type": "text",
+          "placeholder": "Enter topic / session title",
+          "required": false
+        },
+        {
+          "id": "elena_kowalski_session_type",
+          "label": "Elena Kowalski - Session Type",
+          "type": "text",
+          "placeholder": "Enter session type",
+          "required": false
+        },
+        {
+          "id": "elena_kowalski_time_slot",
+          "label": "Elena Kowalski - Time Slot",
+          "type": "text",
+          "placeholder": "Enter time slot",
+          "required": false
+        },
+        {
+          "id": "elena_kowalski_duration",
+          "label": "Elena Kowalski - Duration",
+          "type": "text",
+          "placeholder": "Enter duration",
+          "required": false
+        },
+        {
+          "id": "elena_kowalski_status",
+          "label": "Elena Kowalski - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "elena_kowalski_av_needs",
+          "label": "Elena Kowalski - AV Needs",
+          "type": "text",
+          "placeholder": "Enter av needs",
+          "required": false
+        },
+        {
+          "id": "elena_kowalski_notes",
+          "label": "Elena Kowalski - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "michael_chang_company_title",
+          "label": "Michael Chang - Company & Title",
+          "type": "text",
+          "placeholder": "Enter company & title",
+          "required": false
+        },
+        {
+          "id": "michael_chang_topic_session_title",
+          "label": "Michael Chang - Topic / Session Title",
+          "type": "text",
+          "placeholder": "Enter topic / session title",
+          "required": false
+        },
+        {
+          "id": "michael_chang_session_type",
+          "label": "Michael Chang - Session Type",
+          "type": "text",
+          "placeholder": "Enter session type",
+          "required": false
+        },
+        {
+          "id": "michael_chang_time_slot",
+          "label": "Michael Chang - Time Slot",
+          "type": "text",
+          "placeholder": "Enter time slot",
+          "required": false
+        },
+        {
+          "id": "michael_chang_duration",
+          "label": "Michael Chang - Duration",
+          "type": "text",
+          "placeholder": "Enter duration",
+          "required": false
+        },
+        {
+          "id": "michael_chang_status",
+          "label": "Michael Chang - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "michael_chang_av_needs",
+          "label": "Michael Chang - AV Needs",
+          "type": "text",
+          "placeholder": "Enter av needs",
+          "required": false
+        },
+        {
+          "id": "michael_chang_notes",
+          "label": "Michael Chang - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "priya_sharma_company_title",
+          "label": "Priya Sharma - Company & Title",
+          "type": "text",
+          "placeholder": "Enter company & title",
+          "required": false
+        },
+        {
+          "id": "priya_sharma_topic_session_title",
+          "label": "Priya Sharma - Topic / Session Title",
+          "type": "text",
+          "placeholder": "Enter topic / session title",
+          "required": false
+        },
+        {
+          "id": "priya_sharma_session_type",
+          "label": "Priya Sharma - Session Type",
+          "type": "text",
+          "placeholder": "Enter session type",
+          "required": false
+        },
+        {
+          "id": "priya_sharma_time_slot",
+          "label": "Priya Sharma - Time Slot",
+          "type": "text",
+          "placeholder": "Enter time slot",
+          "required": false
+        },
+        {
+          "id": "priya_sharma_duration",
+          "label": "Priya Sharma - Duration",
+          "type": "text",
+          "placeholder": "Enter duration",
+          "required": false
+        },
+        {
+          "id": "priya_sharma_status",
+          "label": "Priya Sharma - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "priya_sharma_av_needs",
+          "label": "Priya Sharma - AV Needs",
+          "type": "text",
+          "placeholder": "Enter av needs",
+          "required": false
+        },
+        {
+          "id": "priya_sharma_notes",
+          "label": "Priya Sharma - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "promotion_plan",
+      "title": "Promotion Plan",
+      "description": "Enter data for each item",
+      "fields": [
+        {
+          "id": "email_tactic",
+          "label": "Email - Tactic",
+          "type": "text",
+          "placeholder": "Enter tactic",
+          "required": false
+        },
+        {
+          "id": "email_audience",
+          "label": "Email - Audience",
+          "type": "text",
+          "placeholder": "Enter audience",
+          "required": false
+        },
+        {
+          "id": "email_sendpublish_date",
+          "label": "Email - Send/Publish Date",
+          "type": "text",
+          "placeholder": "Enter send/publish date",
+          "required": false
+        },
+        {
+          "id": "email_status",
+          "label": "Email - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "email_owner",
+          "label": "Email - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "email_budget",
+          "label": "Email - Budget",
+          "type": "number",
+          "placeholder": "Enter budget",
+          "required": false
+        },
+        {
+          "id": "email_notes",
+          "label": "Email - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "email_tactic_1",
+          "label": "Email - Tactic",
+          "type": "text",
+          "placeholder": "Enter tactic",
+          "required": false
+        },
+        {
+          "id": "email_audience_1",
+          "label": "Email - Audience",
+          "type": "text",
+          "placeholder": "Enter audience",
+          "required": false
+        },
+        {
+          "id": "email_sendpublish_date_1",
+          "label": "Email - Send/Publish Date",
+          "type": "text",
+          "placeholder": "Enter send/publish date",
+          "required": false
+        },
+        {
+          "id": "email_status_1",
+          "label": "Email - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "email_owner_1",
+          "label": "Email - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "email_budget_1",
+          "label": "Email - Budget",
+          "type": "number",
+          "placeholder": "Enter budget",
+          "required": false
+        },
+        {
+          "id": "email_notes_1",
+          "label": "Email - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "email_tactic_2",
+          "label": "Email - Tactic",
+          "type": "text",
+          "placeholder": "Enter tactic",
+          "required": false
+        },
+        {
+          "id": "email_audience_2",
+          "label": "Email - Audience",
+          "type": "text",
+          "placeholder": "Enter audience",
+          "required": false
+        },
+        {
+          "id": "email_sendpublish_date_2",
+          "label": "Email - Send/Publish Date",
+          "type": "text",
+          "placeholder": "Enter send/publish date",
+          "required": false
+        },
+        {
+          "id": "email_status_2",
+          "label": "Email - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "email_owner_2",
+          "label": "Email - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "email_budget_2",
+          "label": "Email - Budget",
+          "type": "number",
+          "placeholder": "Enter budget",
+          "required": false
+        },
+        {
+          "id": "email_notes_2",
+          "label": "Email - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "email_tactic_3",
+          "label": "Email - Tactic",
+          "type": "text",
+          "placeholder": "Enter tactic",
+          "required": false
+        },
+        {
+          "id": "email_audience_3",
+          "label": "Email - Audience",
+          "type": "text",
+          "placeholder": "Enter audience",
+          "required": false
+        },
+        {
+          "id": "email_sendpublish_date_3",
+          "label": "Email - Send/Publish Date",
+          "type": "text",
+          "placeholder": "Enter send/publish date",
+          "required": false
+        },
+        {
+          "id": "email_status_3",
+          "label": "Email - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "email_owner_3",
+          "label": "Email - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "email_budget_3",
+          "label": "Email - Budget",
+          "type": "number",
+          "placeholder": "Enter budget",
+          "required": false
+        },
+        {
+          "id": "email_notes_3",
+          "label": "Email - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "email_tactic_4",
+          "label": "Email - Tactic",
+          "type": "text",
+          "placeholder": "Enter tactic",
+          "required": false
+        },
+        {
+          "id": "email_audience_4",
+          "label": "Email - Audience",
+          "type": "text",
+          "placeholder": "Enter audience",
+          "required": false
+        },
+        {
+          "id": "email_sendpublish_date_4",
+          "label": "Email - Send/Publish Date",
+          "type": "text",
+          "placeholder": "Enter send/publish date",
+          "required": false
+        },
+        {
+          "id": "email_status_4",
+          "label": "Email - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "email_owner_4",
+          "label": "Email - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "email_budget_4",
+          "label": "Email - Budget",
+          "type": "number",
+          "placeholder": "Enter budget",
+          "required": false
+        },
+        {
+          "id": "email_notes_4",
+          "label": "Email - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "social_media_tactic",
+          "label": "Social Media - Tactic",
+          "type": "text",
+          "placeholder": "Enter tactic",
+          "required": false
+        },
+        {
+          "id": "social_media_audience",
+          "label": "Social Media - Audience",
+          "type": "text",
+          "placeholder": "Enter audience",
+          "required": false
+        },
+        {
+          "id": "social_media_sendpublish_date",
+          "label": "Social Media - Send/Publish Date",
+          "type": "text",
+          "placeholder": "Enter send/publish date",
+          "required": false
+        },
+        {
+          "id": "social_media_status",
+          "label": "Social Media - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "social_media_owner",
+          "label": "Social Media - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "social_media_budget",
+          "label": "Social Media - Budget",
+          "type": "number",
+          "placeholder": "Enter budget",
+          "required": false
+        },
+        {
+          "id": "social_media_notes",
+          "label": "Social Media - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "social_media_tactic_1",
+          "label": "Social Media - Tactic",
+          "type": "text",
+          "placeholder": "Enter tactic",
+          "required": false
+        },
+        {
+          "id": "social_media_audience_1",
+          "label": "Social Media - Audience",
+          "type": "text",
+          "placeholder": "Enter audience",
+          "required": false
+        },
+        {
+          "id": "social_media_sendpublish_date_1",
+          "label": "Social Media - Send/Publish Date",
+          "type": "text",
+          "placeholder": "Enter send/publish date",
+          "required": false
+        },
+        {
+          "id": "social_media_status_1",
+          "label": "Social Media - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "social_media_owner_1",
+          "label": "Social Media - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "social_media_budget_1",
+          "label": "Social Media - Budget",
+          "type": "number",
+          "placeholder": "Enter budget",
+          "required": false
+        },
+        {
+          "id": "social_media_notes_1",
+          "label": "Social Media - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "social_media_tactic_2",
+          "label": "Social Media - Tactic",
+          "type": "text",
+          "placeholder": "Enter tactic",
+          "required": false
+        },
+        {
+          "id": "social_media_audience_2",
+          "label": "Social Media - Audience",
+          "type": "text",
+          "placeholder": "Enter audience",
+          "required": false
+        },
+        {
+          "id": "social_media_sendpublish_date_2",
+          "label": "Social Media - Send/Publish Date",
+          "type": "text",
+          "placeholder": "Enter send/publish date",
+          "required": false
+        },
+        {
+          "id": "social_media_status_2",
+          "label": "Social Media - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "social_media_owner_2",
+          "label": "Social Media - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "social_media_budget_2",
+          "label": "Social Media - Budget",
+          "type": "number",
+          "placeholder": "Enter budget",
+          "required": false
+        },
+        {
+          "id": "social_media_notes_2",
+          "label": "Social Media - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "paid_ads_tactic",
+          "label": "Paid Ads - Tactic",
+          "type": "text",
+          "placeholder": "Enter tactic",
+          "required": false
+        },
+        {
+          "id": "paid_ads_audience",
+          "label": "Paid Ads - Audience",
+          "type": "text",
+          "placeholder": "Enter audience",
+          "required": false
+        },
+        {
+          "id": "paid_ads_sendpublish_date",
+          "label": "Paid Ads - Send/Publish Date",
+          "type": "text",
+          "placeholder": "Enter send/publish date",
+          "required": false
+        },
+        {
+          "id": "paid_ads_status",
+          "label": "Paid Ads - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "paid_ads_owner",
+          "label": "Paid Ads - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "paid_ads_budget",
+          "label": "Paid Ads - Budget",
+          "type": "number",
+          "placeholder": "Enter budget",
+          "required": false
+        },
+        {
+          "id": "paid_ads_notes",
+          "label": "Paid Ads - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "paid_ads_tactic_1",
+          "label": "Paid Ads - Tactic",
+          "type": "text",
+          "placeholder": "Enter tactic",
+          "required": false
+        },
+        {
+          "id": "paid_ads_audience_1",
+          "label": "Paid Ads - Audience",
+          "type": "text",
+          "placeholder": "Enter audience",
+          "required": false
+        },
+        {
+          "id": "paid_ads_sendpublish_date_1",
+          "label": "Paid Ads - Send/Publish Date",
+          "type": "text",
+          "placeholder": "Enter send/publish date",
+          "required": false
+        },
+        {
+          "id": "paid_ads_status_1",
+          "label": "Paid Ads - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "paid_ads_owner_1",
+          "label": "Paid Ads - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "paid_ads_budget_1",
+          "label": "Paid Ads - Budget",
+          "type": "number",
+          "placeholder": "Enter budget",
+          "required": false
+        },
+        {
+          "id": "paid_ads_notes_1",
+          "label": "Paid Ads - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "pr_tactic",
+          "label": "PR - Tactic",
+          "type": "text",
+          "placeholder": "Enter tactic",
+          "required": false
+        },
+        {
+          "id": "pr_audience",
+          "label": "PR - Audience",
+          "type": "text",
+          "placeholder": "Enter audience",
+          "required": false
+        },
+        {
+          "id": "pr_sendpublish_date",
+          "label": "PR - Send/Publish Date",
+          "type": "text",
+          "placeholder": "Enter send/publish date",
+          "required": false
+        },
+        {
+          "id": "pr_status",
+          "label": "PR - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "pr_owner",
+          "label": "PR - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "pr_budget",
+          "label": "PR - Budget",
+          "type": "number",
+          "placeholder": "Enter budget",
+          "required": false
+        },
+        {
+          "id": "pr_notes",
+          "label": "PR - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "pr_tactic_1",
+          "label": "PR - Tactic",
+          "type": "text",
+          "placeholder": "Enter tactic",
+          "required": false
+        },
+        {
+          "id": "pr_audience_1",
+          "label": "PR - Audience",
+          "type": "text",
+          "placeholder": "Enter audience",
+          "required": false
+        },
+        {
+          "id": "pr_sendpublish_date_1",
+          "label": "PR - Send/Publish Date",
+          "type": "text",
+          "placeholder": "Enter send/publish date",
+          "required": false
+        },
+        {
+          "id": "pr_status_1",
+          "label": "PR - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "pr_owner_1",
+          "label": "PR - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "pr_budget_1",
+          "label": "PR - Budget",
+          "type": "number",
+          "placeholder": "Enter budget",
+          "required": false
+        },
+        {
+          "id": "pr_notes_1",
+          "label": "PR - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "partnerships_tactic",
+          "label": "Partnerships - Tactic",
+          "type": "text",
+          "placeholder": "Enter tactic",
+          "required": false
+        },
+        {
+          "id": "partnerships_audience",
+          "label": "Partnerships - Audience",
+          "type": "text",
+          "placeholder": "Enter audience",
+          "required": false
+        },
+        {
+          "id": "partnerships_sendpublish_date",
+          "label": "Partnerships - Send/Publish Date",
+          "type": "text",
+          "placeholder": "Enter send/publish date",
+          "required": false
+        },
+        {
+          "id": "partnerships_status",
+          "label": "Partnerships - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "partnerships_owner",
+          "label": "Partnerships - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "partnerships_budget",
+          "label": "Partnerships - Budget",
+          "type": "number",
+          "placeholder": "Enter budget",
+          "required": false
+        },
+        {
+          "id": "partnerships_notes",
+          "label": "Partnerships - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "direct_outreach_tactic",
+          "label": "Direct Outreach - Tactic",
+          "type": "text",
+          "placeholder": "Enter tactic",
+          "required": false
+        },
+        {
+          "id": "direct_outreach_audience",
+          "label": "Direct Outreach - Audience",
+          "type": "text",
+          "placeholder": "Enter audience",
+          "required": false
+        },
+        {
+          "id": "direct_outreach_sendpublish_date",
+          "label": "Direct Outreach - Send/Publish Date",
+          "type": "text",
+          "placeholder": "Enter send/publish date",
+          "required": false
+        },
+        {
+          "id": "direct_outreach_status",
+          "label": "Direct Outreach - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "direct_outreach_owner",
+          "label": "Direct Outreach - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "direct_outreach_budget",
+          "label": "Direct Outreach - Budget",
+          "type": "number",
+          "placeholder": "Enter budget",
+          "required": false
+        },
+        {
+          "id": "direct_outreach_notes",
+          "label": "Direct Outreach - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "registration_tracker",
+      "title": "Registration Tracker",
+      "description": "Enter data for each item",
+      "fields": [
+        {
+          "id": "annual_marketing_summit_target_registrations",
+          "label": "Annual Marketing Summit - Target Registrations",
+          "type": "number",
+          "placeholder": "Enter target registrations",
+          "required": false
+        },
+        {
+          "id": "annual_marketing_summit_actual_registrations",
+          "label": "Annual Marketing Summit - Actual Registrations",
+          "type": "text",
+          "placeholder": "Enter actual registrations",
+          "required": false
+        },
+        {
+          "id": "annual_marketing_summit_of_target",
+          "label": "Annual Marketing Summit - % of Target",
+          "type": "number",
+          "placeholder": "Enter % of target",
+          "required": false
+        },
+        {
+          "id": "annual_marketing_summit_attended",
+          "label": "Annual Marketing Summit - Attended",
+          "type": "text",
+          "placeholder": "Enter attended",
+          "required": false
+        },
+        {
+          "id": "annual_marketing_summit_attendance_rate",
+          "label": "Annual Marketing Summit - Attendance Rate",
+          "type": "number",
+          "placeholder": "Enter attendance rate",
+          "required": false
+        },
+        {
+          "id": "annual_marketing_summit_noshows",
+          "label": "Annual Marketing Summit - No-Shows",
+          "type": "text",
+          "placeholder": "Enter no-shows",
+          "required": false
+        },
+        {
+          "id": "annual_marketing_summit_noshow_rate",
+          "label": "Annual Marketing Summit - No-Show Rate",
+          "type": "number",
+          "placeholder": "Enter no-show rate",
+          "required": false
+        },
+        {
+          "id": "annual_marketing_summit_source_channel",
+          "label": "Annual Marketing Summit - Source Channel",
+          "type": "text",
+          "placeholder": "Enter source channel",
+          "required": false
+        },
+        {
+          "id": "monthly_webinar_jan_target_registrations",
+          "label": "Monthly Webinar: Jan - Target Registrations",
+          "type": "number",
+          "placeholder": "Enter target registrations",
+          "required": false
+        },
+        {
+          "id": "monthly_webinar_jan_actual_registrations",
+          "label": "Monthly Webinar: Jan - Actual Registrations",
+          "type": "text",
+          "placeholder": "Enter actual registrations",
+          "required": false
+        },
+        {
+          "id": "monthly_webinar_jan_of_target",
+          "label": "Monthly Webinar: Jan - % of Target",
+          "type": "number",
+          "placeholder": "Enter % of target",
+          "required": false
+        },
+        {
+          "id": "monthly_webinar_jan_attended",
+          "label": "Monthly Webinar: Jan - Attended",
+          "type": "text",
+          "placeholder": "Enter attended",
+          "required": false
+        },
+        {
+          "id": "monthly_webinar_jan_attendance_rate",
+          "label": "Monthly Webinar: Jan - Attendance Rate",
+          "type": "number",
+          "placeholder": "Enter attendance rate",
+          "required": false
+        },
+        {
+          "id": "monthly_webinar_jan_noshows",
+          "label": "Monthly Webinar: Jan - No-Shows",
+          "type": "text",
+          "placeholder": "Enter no-shows",
+          "required": false
+        },
+        {
+          "id": "monthly_webinar_jan_noshow_rate",
+          "label": "Monthly Webinar: Jan - No-Show Rate",
+          "type": "number",
+          "placeholder": "Enter no-show rate",
+          "required": false
+        },
+        {
+          "id": "monthly_webinar_jan_source_channel",
+          "label": "Monthly Webinar: Jan - Source Channel",
+          "type": "text",
+          "placeholder": "Enter source channel",
+          "required": false
+        },
+        {
+          "id": "monthly_webinar_feb_target_registrations",
+          "label": "Monthly Webinar: Feb - Target Registrations",
+          "type": "number",
+          "placeholder": "Enter target registrations",
+          "required": false
+        },
+        {
+          "id": "monthly_webinar_feb_actual_registrations",
+          "label": "Monthly Webinar: Feb - Actual Registrations",
+          "type": "text",
+          "placeholder": "Enter actual registrations",
+          "required": false
+        },
+        {
+          "id": "monthly_webinar_feb_of_target",
+          "label": "Monthly Webinar: Feb - % of Target",
+          "type": "number",
+          "placeholder": "Enter % of target",
+          "required": false
+        },
+        {
+          "id": "monthly_webinar_feb_attended",
+          "label": "Monthly Webinar: Feb - Attended",
+          "type": "text",
+          "placeholder": "Enter attended",
+          "required": false
+        },
+        {
+          "id": "monthly_webinar_feb_attendance_rate",
+          "label": "Monthly Webinar: Feb - Attendance Rate",
+          "type": "number",
+          "placeholder": "Enter attendance rate",
+          "required": false
+        },
+        {
+          "id": "monthly_webinar_feb_noshows",
+          "label": "Monthly Webinar: Feb - No-Shows",
+          "type": "text",
+          "placeholder": "Enter no-shows",
+          "required": false
+        },
+        {
+          "id": "monthly_webinar_feb_noshow_rate",
+          "label": "Monthly Webinar: Feb - No-Show Rate",
+          "type": "number",
+          "placeholder": "Enter no-show rate",
+          "required": false
+        },
+        {
+          "id": "monthly_webinar_feb_source_channel",
+          "label": "Monthly Webinar: Feb - Source Channel",
+          "type": "text",
+          "placeholder": "Enter source channel",
+          "required": false
+        },
+        {
+          "id": "product_launch_event_target_registrations",
+          "label": "Product Launch Event - Target Registrations",
+          "type": "number",
+          "placeholder": "Enter target registrations",
+          "required": false
+        },
+        {
+          "id": "product_launch_event_actual_registrations",
+          "label": "Product Launch Event - Actual Registrations",
+          "type": "text",
+          "placeholder": "Enter actual registrations",
+          "required": false
+        },
+        {
+          "id": "product_launch_event_of_target",
+          "label": "Product Launch Event - % of Target",
+          "type": "number",
+          "placeholder": "Enter % of target",
+          "required": false
+        },
+        {
+          "id": "product_launch_event_attended",
+          "label": "Product Launch Event - Attended",
+          "type": "text",
+          "placeholder": "Enter attended",
+          "required": false
+        },
+        {
+          "id": "product_launch_event_attendance_rate",
+          "label": "Product Launch Event - Attendance Rate",
+          "type": "number",
+          "placeholder": "Enter attendance rate",
+          "required": false
+        },
+        {
+          "id": "product_launch_event_noshows",
+          "label": "Product Launch Event - No-Shows",
+          "type": "text",
+          "placeholder": "Enter no-shows",
+          "required": false
+        },
+        {
+          "id": "product_launch_event_noshow_rate",
+          "label": "Product Launch Event - No-Show Rate",
+          "type": "number",
+          "placeholder": "Enter no-show rate",
+          "required": false
+        },
+        {
+          "id": "product_launch_event_source_channel",
+          "label": "Product Launch Event - Source Channel",
+          "type": "text",
+          "placeholder": "Enter source channel",
+          "required": false
+        },
+        {
+          "id": "partner_comarketing_webinar_target_registrations",
+          "label": "Partner Co-Marketing Webinar - Target Registrations",
+          "type": "number",
+          "placeholder": "Enter target registrations",
+          "required": false
+        },
+        {
+          "id": "partner_comarketing_webinar_actual_registrations",
+          "label": "Partner Co-Marketing Webinar - Actual Registrations",
+          "type": "text",
+          "placeholder": "Enter actual registrations",
+          "required": false
+        },
+        {
+          "id": "partner_comarketing_webinar_of_target",
+          "label": "Partner Co-Marketing Webinar - % of Target",
+          "type": "number",
+          "placeholder": "Enter % of target",
+          "required": false
+        },
+        {
+          "id": "partner_comarketing_webinar_attended",
+          "label": "Partner Co-Marketing Webinar - Attended",
+          "type": "text",
+          "placeholder": "Enter attended",
+          "required": false
+        },
+        {
+          "id": "partner_comarketing_webinar_attendance_rate",
+          "label": "Partner Co-Marketing Webinar - Attendance Rate",
+          "type": "number",
+          "placeholder": "Enter attendance rate",
+          "required": false
+        },
+        {
+          "id": "partner_comarketing_webinar_noshows",
+          "label": "Partner Co-Marketing Webinar - No-Shows",
+          "type": "text",
+          "placeholder": "Enter no-shows",
+          "required": false
+        },
+        {
+          "id": "partner_comarketing_webinar_noshow_rate",
+          "label": "Partner Co-Marketing Webinar - No-Show Rate",
+          "type": "number",
+          "placeholder": "Enter no-show rate",
+          "required": false
+        },
+        {
+          "id": "partner_comarketing_webinar_source_channel",
+          "label": "Partner Co-Marketing Webinar - Source Channel",
+          "type": "text",
+          "placeholder": "Enter source channel",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "sponsorship_manager",
+      "title": "Sponsorship Manager",
+      "description": "Enter data for each item",
+      "fields": [
+        {
+          "id": "techcorp_inc_package_tier",
+          "label": "TechCorp Inc. - Package Tier",
+          "type": "text",
+          "placeholder": "Enter package tier",
+          "required": false
+        },
+        {
+          "id": "techcorp_inc_sponsorship_fee",
+          "label": "TechCorp Inc. - Sponsorship Fee",
+          "type": "text",
+          "placeholder": "Enter sponsorship fee",
+          "required": false
+        },
+        {
+          "id": "techcorp_inc_amount_received",
+          "label": "TechCorp Inc. - Amount Received",
+          "type": "number",
+          "placeholder": "Enter amount received",
+          "required": false
+        },
+        {
+          "id": "techcorp_inc_balance_due",
+          "label": "TechCorp Inc. - Balance Due",
+          "type": "text",
+          "placeholder": "Enter balance due",
+          "required": false
+        },
+        {
+          "id": "techcorp_inc_contract_signed",
+          "label": "TechCorp Inc. - Contract Signed",
+          "type": "text",
+          "placeholder": "Enter contract signed",
+          "required": false
+        },
+        {
+          "id": "techcorp_inc_deliverables_met",
+          "label": "TechCorp Inc. - Deliverables Met",
+          "type": "text",
+          "placeholder": "Enter deliverables met",
+          "required": false
+        },
+        {
+          "id": "techcorp_inc_satisfaction",
+          "label": "TechCorp Inc. - Satisfaction",
+          "type": "textarea",
+          "placeholder": "Enter satisfaction",
+          "required": false
+        },
+        {
+          "id": "techcorp_inc_notes",
+          "label": "TechCorp Inc. - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "datadriven_solutions_package_tier",
+          "label": "DataDriven Solutions - Package Tier",
+          "type": "text",
+          "placeholder": "Enter package tier",
+          "required": false
+        },
+        {
+          "id": "datadriven_solutions_sponsorship_fee",
+          "label": "DataDriven Solutions - Sponsorship Fee",
+          "type": "text",
+          "placeholder": "Enter sponsorship fee",
+          "required": false
+        },
+        {
+          "id": "datadriven_solutions_amount_received",
+          "label": "DataDriven Solutions - Amount Received",
+          "type": "number",
+          "placeholder": "Enter amount received",
+          "required": false
+        },
+        {
+          "id": "datadriven_solutions_balance_due",
+          "label": "DataDriven Solutions - Balance Due",
+          "type": "text",
+          "placeholder": "Enter balance due",
+          "required": false
+        },
+        {
+          "id": "datadriven_solutions_contract_signed",
+          "label": "DataDriven Solutions - Contract Signed",
+          "type": "text",
+          "placeholder": "Enter contract signed",
+          "required": false
+        },
+        {
+          "id": "datadriven_solutions_deliverables_met",
+          "label": "DataDriven Solutions - Deliverables Met",
+          "type": "text",
+          "placeholder": "Enter deliverables met",
+          "required": false
+        },
+        {
+          "id": "datadriven_solutions_satisfaction",
+          "label": "DataDriven Solutions - Satisfaction",
+          "type": "textarea",
+          "placeholder": "Enter satisfaction",
+          "required": false
+        },
+        {
+          "id": "datadriven_solutions_notes",
+          "label": "DataDriven Solutions - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "greenbrand_co_package_tier",
+          "label": "GreenBrand Co. - Package Tier",
+          "type": "text",
+          "placeholder": "Enter package tier",
+          "required": false
+        },
+        {
+          "id": "greenbrand_co_sponsorship_fee",
+          "label": "GreenBrand Co. - Sponsorship Fee",
+          "type": "text",
+          "placeholder": "Enter sponsorship fee",
+          "required": false
+        },
+        {
+          "id": "greenbrand_co_amount_received",
+          "label": "GreenBrand Co. - Amount Received",
+          "type": "number",
+          "placeholder": "Enter amount received",
+          "required": false
+        },
+        {
+          "id": "greenbrand_co_balance_due",
+          "label": "GreenBrand Co. - Balance Due",
+          "type": "text",
+          "placeholder": "Enter balance due",
+          "required": false
+        },
+        {
+          "id": "greenbrand_co_contract_signed",
+          "label": "GreenBrand Co. - Contract Signed",
+          "type": "text",
+          "placeholder": "Enter contract signed",
+          "required": false
+        },
+        {
+          "id": "greenbrand_co_deliverables_met",
+          "label": "GreenBrand Co. - Deliverables Met",
+          "type": "text",
+          "placeholder": "Enter deliverables met",
+          "required": false
+        },
+        {
+          "id": "greenbrand_co_satisfaction",
+          "label": "GreenBrand Co. - Satisfaction",
+          "type": "textarea",
+          "placeholder": "Enter satisfaction",
+          "required": false
+        },
+        {
+          "id": "greenbrand_co_notes",
+          "label": "GreenBrand Co. - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "startuphub_package_tier",
+          "label": "StartupHub - Package Tier",
+          "type": "text",
+          "placeholder": "Enter package tier",
+          "required": false
+        },
+        {
+          "id": "startuphub_sponsorship_fee",
+          "label": "StartupHub - Sponsorship Fee",
+          "type": "text",
+          "placeholder": "Enter sponsorship fee",
+          "required": false
+        },
+        {
+          "id": "startuphub_amount_received",
+          "label": "StartupHub - Amount Received",
+          "type": "number",
+          "placeholder": "Enter amount received",
+          "required": false
+        },
+        {
+          "id": "startuphub_balance_due",
+          "label": "StartupHub - Balance Due",
+          "type": "text",
+          "placeholder": "Enter balance due",
+          "required": false
+        },
+        {
+          "id": "startuphub_contract_signed",
+          "label": "StartupHub - Contract Signed",
+          "type": "text",
+          "placeholder": "Enter contract signed",
+          "required": false
+        },
+        {
+          "id": "startuphub_deliverables_met",
+          "label": "StartupHub - Deliverables Met",
+          "type": "text",
+          "placeholder": "Enter deliverables met",
+          "required": false
+        },
+        {
+          "id": "startuphub_satisfaction",
+          "label": "StartupHub - Satisfaction",
+          "type": "textarea",
+          "placeholder": "Enter satisfaction",
+          "required": false
+        },
+        {
+          "id": "startuphub_notes",
+          "label": "StartupHub - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "mediagroup_package_tier",
+          "label": "MediaGroup - Package Tier",
+          "type": "text",
+          "placeholder": "Enter package tier",
+          "required": false
+        },
+        {
+          "id": "mediagroup_sponsorship_fee",
+          "label": "MediaGroup - Sponsorship Fee",
+          "type": "text",
+          "placeholder": "Enter sponsorship fee",
+          "required": false
+        },
+        {
+          "id": "mediagroup_amount_received",
+          "label": "MediaGroup - Amount Received",
+          "type": "number",
+          "placeholder": "Enter amount received",
+          "required": false
+        },
+        {
+          "id": "mediagroup_balance_due",
+          "label": "MediaGroup - Balance Due",
+          "type": "text",
+          "placeholder": "Enter balance due",
+          "required": false
+        },
+        {
+          "id": "mediagroup_contract_signed",
+          "label": "MediaGroup - Contract Signed",
+          "type": "text",
+          "placeholder": "Enter contract signed",
+          "required": false
+        },
+        {
+          "id": "mediagroup_deliverables_met",
+          "label": "MediaGroup - Deliverables Met",
+          "type": "text",
+          "placeholder": "Enter deliverables met",
+          "required": false
+        },
+        {
+          "id": "mediagroup_satisfaction",
+          "label": "MediaGroup - Satisfaction",
+          "type": "textarea",
+          "placeholder": "Enter satisfaction",
+          "required": false
+        },
+        {
+          "id": "mediagroup_notes",
+          "label": "MediaGroup - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "postevent_analysis",
+      "title": "Post-Event Analysis",
+      "description": "Enter data for each item",
+      "fields": [
+        {
+          "id": "monthly_webinar_jan_total_cost",
+          "label": "Monthly Webinar: Jan - Total Cost",
+          "type": "number",
+          "placeholder": "Enter total cost",
+          "required": false
+        },
+        {
+          "id": "monthly_webinar_jan_revenue_generated",
+          "label": "Monthly Webinar: Jan - Revenue Generated",
+          "type": "number",
+          "placeholder": "Enter revenue generated",
+          "required": false
+        },
+        {
+          "id": "monthly_webinar_jan_roi",
+          "label": "Monthly Webinar: Jan - ROI",
+          "type": "number",
+          "placeholder": "Enter roi",
+          "required": false
+        },
+        {
+          "id": "monthly_webinar_jan_leads_generated",
+          "label": "Monthly Webinar: Jan - Leads Generated",
+          "type": "number",
+          "placeholder": "Enter leads generated",
+          "required": false
+        },
+        {
+          "id": "monthly_webinar_jan_satisfaction_110",
+          "label": "Monthly Webinar: Jan - Satisfaction (1-10)",
+          "type": "textarea",
+          "placeholder": "Enter satisfaction (1-10)",
+          "required": false
+        },
+        {
+          "id": "monthly_webinar_jan_attendees",
+          "label": "Monthly Webinar: Jan - Attendees",
+          "type": "text",
+          "placeholder": "Enter attendees",
+          "required": false
+        },
+        {
+          "id": "monthly_webinar_jan_cost_per_attendee",
+          "label": "Monthly Webinar: Jan - Cost per Attendee",
+          "type": "number",
+          "placeholder": "Enter cost per attendee",
+          "required": false
+        },
+        {
+          "id": "monthly_webinar_jan_key_learnings",
+          "label": "Monthly Webinar: Jan - Key Learnings",
+          "type": "text",
+          "placeholder": "Enter key learnings",
+          "required": false
+        },
+        {
+          "id": "monthly_webinar_feb_total_cost",
+          "label": "Monthly Webinar: Feb - Total Cost",
+          "type": "number",
+          "placeholder": "Enter total cost",
+          "required": false
+        },
+        {
+          "id": "monthly_webinar_feb_revenue_generated",
+          "label": "Monthly Webinar: Feb - Revenue Generated",
+          "type": "number",
+          "placeholder": "Enter revenue generated",
+          "required": false
+        },
+        {
+          "id": "monthly_webinar_feb_roi",
+          "label": "Monthly Webinar: Feb - ROI",
+          "type": "number",
+          "placeholder": "Enter roi",
+          "required": false
+        },
+        {
+          "id": "monthly_webinar_feb_leads_generated",
+          "label": "Monthly Webinar: Feb - Leads Generated",
+          "type": "number",
+          "placeholder": "Enter leads generated",
+          "required": false
+        },
+        {
+          "id": "monthly_webinar_feb_satisfaction_110",
+          "label": "Monthly Webinar: Feb - Satisfaction (1-10)",
+          "type": "textarea",
+          "placeholder": "Enter satisfaction (1-10)",
+          "required": false
+        },
+        {
+          "id": "monthly_webinar_feb_attendees",
+          "label": "Monthly Webinar: Feb - Attendees",
+          "type": "text",
+          "placeholder": "Enter attendees",
+          "required": false
+        },
+        {
+          "id": "monthly_webinar_feb_cost_per_attendee",
+          "label": "Monthly Webinar: Feb - Cost per Attendee",
+          "type": "number",
+          "placeholder": "Enter cost per attendee",
+          "required": false
+        },
+        {
+          "id": "monthly_webinar_feb_key_learnings",
+          "label": "Monthly Webinar: Feb - Key Learnings",
+          "type": "text",
+          "placeholder": "Enter key learnings",
+          "required": false
+        },
+        {
+          "id": "partner_comarketing_webinar_total_cost",
+          "label": "Partner Co-Marketing Webinar - Total Cost",
+          "type": "number",
+          "placeholder": "Enter total cost",
+          "required": false
+        },
+        {
+          "id": "partner_comarketing_webinar_revenue_generated",
+          "label": "Partner Co-Marketing Webinar - Revenue Generated",
+          "type": "number",
+          "placeholder": "Enter revenue generated",
+          "required": false
+        },
+        {
+          "id": "partner_comarketing_webinar_roi",
+          "label": "Partner Co-Marketing Webinar - ROI",
+          "type": "number",
+          "placeholder": "Enter roi",
+          "required": false
+        },
+        {
+          "id": "partner_comarketing_webinar_leads_generated",
+          "label": "Partner Co-Marketing Webinar - Leads Generated",
+          "type": "number",
+          "placeholder": "Enter leads generated",
+          "required": false
+        },
+        {
+          "id": "partner_comarketing_webinar_satisfaction_110",
+          "label": "Partner Co-Marketing Webinar - Satisfaction (1-10)",
+          "type": "textarea",
+          "placeholder": "Enter satisfaction (1-10)",
+          "required": false
+        },
+        {
+          "id": "partner_comarketing_webinar_attendees",
+          "label": "Partner Co-Marketing Webinar - Attendees",
+          "type": "text",
+          "placeholder": "Enter attendees",
+          "required": false
+        },
+        {
+          "id": "partner_comarketing_webinar_cost_per_attendee",
+          "label": "Partner Co-Marketing Webinar - Cost per Attendee",
+          "type": "number",
+          "placeholder": "Enter cost per attendee",
+          "required": false
+        },
+        {
+          "id": "partner_comarketing_webinar_key_learnings",
+          "label": "Partner Co-Marketing Webinar - Key Learnings",
+          "type": "text",
+          "placeholder": "Enter key learnings",
+          "required": false
+        }
+      ]
+    }
+  ]
 }

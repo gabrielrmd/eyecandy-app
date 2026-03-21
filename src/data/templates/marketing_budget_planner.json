@@ -10,428 +10,6 @@
     "strategy"
   ],
   "estimatedTime": "60 min",
-  "sections": [
-    {
-      "id": "dashboard",
-      "title": "Dashboard",
-      "description": "Complete the Dashboard section",
-      "fields": [
-        {
-          "id": "monthly_burn_rate_0",
-          "label": "MONTHLY BURN RATE",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "month_1",
-          "label": "Month",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "jan_2",
-          "label": "Jan",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "feb_3",
-          "label": "Feb",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "mar_4",
-          "label": "Mar",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "apr_5",
-          "label": "Apr",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "may_6",
-          "label": "May",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "jun_7",
-          "label": "Jun",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "jul_8",
-          "label": "Jul",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "aug_9",
-          "label": "Aug",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "sep_10",
-          "label": "Sep",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "oct_11",
-          "label": "Oct",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "nov_12",
-          "label": "Nov",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "dec_13",
-          "label": "Dec",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "budget_planner",
-      "title": "Budget Planner",
-      "description": "Complete the Budget Planner section",
-      "fields": [
-        {
-          "id": "planned_budget_monthly_0",
-          "label": "PLANNED BUDGET (Monthly)",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "category_1",
-          "label": "Category",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "monthly_total_2",
-          "label": "MONTHLY TOTAL",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "paid_digital_advertising_3",
-          "label": "Paid Digital Advertising",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "social_media_organic_4",
-          "label": "Social Media (Organic)",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "content_production_5",
-          "label": "Content Production",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "seo_website_6",
-          "label": "SEO & Website",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "email_marketing_7",
-          "label": "Email Marketing",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "events_sponsorships_8",
-          "label": "Events & Sponsorships",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "pr_communications_9",
-          "label": "PR & Communications",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "marketing_technology_tools_10",
-          "label": "Marketing Technology / Tools",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "creative_design_11",
-          "label": "Creative & Design",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "market_research_12",
-          "label": "Market Research",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "partnerships_affiliates_13",
-          "label": "Partnerships & Affiliates",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "other_contingency_14",
-          "label": "Other / Contingency",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "actual_spend_monthly_15",
-          "label": "ACTUAL SPEND (Monthly)",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "category_16",
-          "label": "Category",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "monthly_total_17",
-          "label": "MONTHLY TOTAL",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "paid_digital_advertising_18",
-          "label": "Paid Digital Advertising",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "social_media_organic_19",
-          "label": "Social Media (Organic)",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "content_production_20",
-          "label": "Content Production",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "seo_website_21",
-          "label": "SEO & Website",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "email_marketing_22",
-          "label": "Email Marketing",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "events_sponsorships_23",
-          "label": "Events & Sponsorships",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "pr_communications_24",
-          "label": "PR & Communications",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "marketing_technology_tools_25",
-          "label": "Marketing Technology / Tools",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "creative_design_26",
-          "label": "Creative & Design",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "market_research_27",
-          "label": "Market Research",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "partnerships_affiliates_28",
-          "label": "Partnerships & Affiliates",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "other_contingency_29",
-          "label": "Other / Contingency",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "roi_tracker",
-      "title": "ROI Tracker",
-      "description": "Complete the ROI Tracker section",
-      "fields": [
-        {
-          "id": "paid_digital_advertising_0",
-          "label": "Paid Digital Advertising",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "social_media_organic_1",
-          "label": "Social Media (Organic)",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "content_production_2",
-          "label": "Content Production",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "seo_website_3",
-          "label": "SEO & Website",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "email_marketing_4",
-          "label": "Email Marketing",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "events_sponsorships_5",
-          "label": "Events & Sponsorships",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "pr_communications_6",
-          "label": "PR & Communications",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "marketing_technology_tools_7",
-          "label": "Marketing Technology / Tools",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "creative_design_8",
-          "label": "Creative & Design",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "market_research_9",
-          "label": "Market Research",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "partnerships_affiliates_10",
-          "label": "Partnerships & Affiliates",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "other_contingency_11",
-          "label": "Other / Contingency",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "total_12",
-          "label": "TOTAL",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    }
-  ],
   "dashboard": {
     "metrics": [
       {
@@ -445,5 +23,3649 @@
         "format": "number"
       }
     ]
-  }
+  },
+  "sections": [
+    {
+      "id": "dashboard",
+      "title": "Dashboard",
+      "description": "Auto-calculated summary of your data. Complete the working sections to see results here.",
+      "readOnly": true,
+      "fields": [
+        {
+          "id": "dashboard_overview",
+          "label": "Dashboard Overview",
+          "type": "textarea",
+          "placeholder": "Dashboard metrics will be calculated from your inputs in the working sections",
+          "required": false,
+          "readOnly": true
+        }
+      ]
+    },
+    {
+      "id": "budget_planner",
+      "title": "Budget Planner",
+      "description": "Enter values for each category",
+      "fields": [
+        {
+          "id": "paid_digital_advertising_jan",
+          "label": "Paid Digital Advertising - Jan",
+          "type": "number",
+          "placeholder": "Enter jan value",
+          "required": false
+        },
+        {
+          "id": "paid_digital_advertising_feb",
+          "label": "Paid Digital Advertising - Feb",
+          "type": "number",
+          "placeholder": "Enter feb value",
+          "required": false
+        },
+        {
+          "id": "paid_digital_advertising_mar",
+          "label": "Paid Digital Advertising - Mar",
+          "type": "number",
+          "placeholder": "Enter mar value",
+          "required": false
+        },
+        {
+          "id": "paid_digital_advertising_apr",
+          "label": "Paid Digital Advertising - Apr",
+          "type": "number",
+          "placeholder": "Enter apr value",
+          "required": false
+        },
+        {
+          "id": "paid_digital_advertising_may",
+          "label": "Paid Digital Advertising - May",
+          "type": "number",
+          "placeholder": "Enter may value",
+          "required": false
+        },
+        {
+          "id": "paid_digital_advertising_jun",
+          "label": "Paid Digital Advertising - Jun",
+          "type": "number",
+          "placeholder": "Enter jun value",
+          "required": false
+        },
+        {
+          "id": "paid_digital_advertising_jul",
+          "label": "Paid Digital Advertising - Jul",
+          "type": "number",
+          "placeholder": "Enter jul value",
+          "required": false
+        },
+        {
+          "id": "paid_digital_advertising_aug",
+          "label": "Paid Digital Advertising - Aug",
+          "type": "number",
+          "placeholder": "Enter aug value",
+          "required": false
+        },
+        {
+          "id": "paid_digital_advertising_sep",
+          "label": "Paid Digital Advertising - Sep",
+          "type": "number",
+          "placeholder": "Enter sep value",
+          "required": false
+        },
+        {
+          "id": "paid_digital_advertising_oct",
+          "label": "Paid Digital Advertising - Oct",
+          "type": "number",
+          "placeholder": "Enter oct value",
+          "required": false
+        },
+        {
+          "id": "paid_digital_advertising_nov",
+          "label": "Paid Digital Advertising - Nov",
+          "type": "number",
+          "placeholder": "Enter nov value",
+          "required": false
+        },
+        {
+          "id": "paid_digital_advertising_dec",
+          "label": "Paid Digital Advertising - Dec",
+          "type": "number",
+          "placeholder": "Enter dec value",
+          "required": false
+        },
+        {
+          "id": "social_media_organic_jan",
+          "label": "Social Media (Organic) - Jan",
+          "type": "number",
+          "placeholder": "Enter jan value",
+          "required": false
+        },
+        {
+          "id": "social_media_organic_feb",
+          "label": "Social Media (Organic) - Feb",
+          "type": "number",
+          "placeholder": "Enter feb value",
+          "required": false
+        },
+        {
+          "id": "social_media_organic_mar",
+          "label": "Social Media (Organic) - Mar",
+          "type": "number",
+          "placeholder": "Enter mar value",
+          "required": false
+        },
+        {
+          "id": "social_media_organic_apr",
+          "label": "Social Media (Organic) - Apr",
+          "type": "number",
+          "placeholder": "Enter apr value",
+          "required": false
+        },
+        {
+          "id": "social_media_organic_may",
+          "label": "Social Media (Organic) - May",
+          "type": "number",
+          "placeholder": "Enter may value",
+          "required": false
+        },
+        {
+          "id": "social_media_organic_jun",
+          "label": "Social Media (Organic) - Jun",
+          "type": "number",
+          "placeholder": "Enter jun value",
+          "required": false
+        },
+        {
+          "id": "social_media_organic_jul",
+          "label": "Social Media (Organic) - Jul",
+          "type": "number",
+          "placeholder": "Enter jul value",
+          "required": false
+        },
+        {
+          "id": "social_media_organic_aug",
+          "label": "Social Media (Organic) - Aug",
+          "type": "number",
+          "placeholder": "Enter aug value",
+          "required": false
+        },
+        {
+          "id": "social_media_organic_sep",
+          "label": "Social Media (Organic) - Sep",
+          "type": "number",
+          "placeholder": "Enter sep value",
+          "required": false
+        },
+        {
+          "id": "social_media_organic_oct",
+          "label": "Social Media (Organic) - Oct",
+          "type": "number",
+          "placeholder": "Enter oct value",
+          "required": false
+        },
+        {
+          "id": "social_media_organic_nov",
+          "label": "Social Media (Organic) - Nov",
+          "type": "number",
+          "placeholder": "Enter nov value",
+          "required": false
+        },
+        {
+          "id": "social_media_organic_dec",
+          "label": "Social Media (Organic) - Dec",
+          "type": "number",
+          "placeholder": "Enter dec value",
+          "required": false
+        },
+        {
+          "id": "content_production_jan",
+          "label": "Content Production - Jan",
+          "type": "number",
+          "placeholder": "Enter jan value",
+          "required": false
+        },
+        {
+          "id": "content_production_feb",
+          "label": "Content Production - Feb",
+          "type": "number",
+          "placeholder": "Enter feb value",
+          "required": false
+        },
+        {
+          "id": "content_production_mar",
+          "label": "Content Production - Mar",
+          "type": "number",
+          "placeholder": "Enter mar value",
+          "required": false
+        },
+        {
+          "id": "content_production_apr",
+          "label": "Content Production - Apr",
+          "type": "number",
+          "placeholder": "Enter apr value",
+          "required": false
+        },
+        {
+          "id": "content_production_may",
+          "label": "Content Production - May",
+          "type": "number",
+          "placeholder": "Enter may value",
+          "required": false
+        },
+        {
+          "id": "content_production_jun",
+          "label": "Content Production - Jun",
+          "type": "number",
+          "placeholder": "Enter jun value",
+          "required": false
+        },
+        {
+          "id": "content_production_jul",
+          "label": "Content Production - Jul",
+          "type": "number",
+          "placeholder": "Enter jul value",
+          "required": false
+        },
+        {
+          "id": "content_production_aug",
+          "label": "Content Production - Aug",
+          "type": "number",
+          "placeholder": "Enter aug value",
+          "required": false
+        },
+        {
+          "id": "content_production_sep",
+          "label": "Content Production - Sep",
+          "type": "number",
+          "placeholder": "Enter sep value",
+          "required": false
+        },
+        {
+          "id": "content_production_oct",
+          "label": "Content Production - Oct",
+          "type": "number",
+          "placeholder": "Enter oct value",
+          "required": false
+        },
+        {
+          "id": "content_production_nov",
+          "label": "Content Production - Nov",
+          "type": "number",
+          "placeholder": "Enter nov value",
+          "required": false
+        },
+        {
+          "id": "content_production_dec",
+          "label": "Content Production - Dec",
+          "type": "number",
+          "placeholder": "Enter dec value",
+          "required": false
+        },
+        {
+          "id": "seo_website_jan",
+          "label": "SEO & Website - Jan",
+          "type": "number",
+          "placeholder": "Enter jan value",
+          "required": false
+        },
+        {
+          "id": "seo_website_feb",
+          "label": "SEO & Website - Feb",
+          "type": "number",
+          "placeholder": "Enter feb value",
+          "required": false
+        },
+        {
+          "id": "seo_website_mar",
+          "label": "SEO & Website - Mar",
+          "type": "number",
+          "placeholder": "Enter mar value",
+          "required": false
+        },
+        {
+          "id": "seo_website_apr",
+          "label": "SEO & Website - Apr",
+          "type": "number",
+          "placeholder": "Enter apr value",
+          "required": false
+        },
+        {
+          "id": "seo_website_may",
+          "label": "SEO & Website - May",
+          "type": "number",
+          "placeholder": "Enter may value",
+          "required": false
+        },
+        {
+          "id": "seo_website_jun",
+          "label": "SEO & Website - Jun",
+          "type": "number",
+          "placeholder": "Enter jun value",
+          "required": false
+        },
+        {
+          "id": "seo_website_jul",
+          "label": "SEO & Website - Jul",
+          "type": "number",
+          "placeholder": "Enter jul value",
+          "required": false
+        },
+        {
+          "id": "seo_website_aug",
+          "label": "SEO & Website - Aug",
+          "type": "number",
+          "placeholder": "Enter aug value",
+          "required": false
+        },
+        {
+          "id": "seo_website_sep",
+          "label": "SEO & Website - Sep",
+          "type": "number",
+          "placeholder": "Enter sep value",
+          "required": false
+        },
+        {
+          "id": "seo_website_oct",
+          "label": "SEO & Website - Oct",
+          "type": "number",
+          "placeholder": "Enter oct value",
+          "required": false
+        },
+        {
+          "id": "seo_website_nov",
+          "label": "SEO & Website - Nov",
+          "type": "number",
+          "placeholder": "Enter nov value",
+          "required": false
+        },
+        {
+          "id": "seo_website_dec",
+          "label": "SEO & Website - Dec",
+          "type": "number",
+          "placeholder": "Enter dec value",
+          "required": false
+        },
+        {
+          "id": "email_marketing_jan",
+          "label": "Email Marketing - Jan",
+          "type": "number",
+          "placeholder": "Enter jan value",
+          "required": false
+        },
+        {
+          "id": "email_marketing_feb",
+          "label": "Email Marketing - Feb",
+          "type": "number",
+          "placeholder": "Enter feb value",
+          "required": false
+        },
+        {
+          "id": "email_marketing_mar",
+          "label": "Email Marketing - Mar",
+          "type": "number",
+          "placeholder": "Enter mar value",
+          "required": false
+        },
+        {
+          "id": "email_marketing_apr",
+          "label": "Email Marketing - Apr",
+          "type": "number",
+          "placeholder": "Enter apr value",
+          "required": false
+        },
+        {
+          "id": "email_marketing_may",
+          "label": "Email Marketing - May",
+          "type": "number",
+          "placeholder": "Enter may value",
+          "required": false
+        },
+        {
+          "id": "email_marketing_jun",
+          "label": "Email Marketing - Jun",
+          "type": "number",
+          "placeholder": "Enter jun value",
+          "required": false
+        },
+        {
+          "id": "email_marketing_jul",
+          "label": "Email Marketing - Jul",
+          "type": "number",
+          "placeholder": "Enter jul value",
+          "required": false
+        },
+        {
+          "id": "email_marketing_aug",
+          "label": "Email Marketing - Aug",
+          "type": "number",
+          "placeholder": "Enter aug value",
+          "required": false
+        },
+        {
+          "id": "email_marketing_sep",
+          "label": "Email Marketing - Sep",
+          "type": "number",
+          "placeholder": "Enter sep value",
+          "required": false
+        },
+        {
+          "id": "email_marketing_oct",
+          "label": "Email Marketing - Oct",
+          "type": "number",
+          "placeholder": "Enter oct value",
+          "required": false
+        },
+        {
+          "id": "email_marketing_nov",
+          "label": "Email Marketing - Nov",
+          "type": "number",
+          "placeholder": "Enter nov value",
+          "required": false
+        },
+        {
+          "id": "email_marketing_dec",
+          "label": "Email Marketing - Dec",
+          "type": "number",
+          "placeholder": "Enter dec value",
+          "required": false
+        },
+        {
+          "id": "events_sponsorships_jan",
+          "label": "Events & Sponsorships - Jan",
+          "type": "number",
+          "placeholder": "Enter jan value",
+          "required": false
+        },
+        {
+          "id": "events_sponsorships_feb",
+          "label": "Events & Sponsorships - Feb",
+          "type": "number",
+          "placeholder": "Enter feb value",
+          "required": false
+        },
+        {
+          "id": "events_sponsorships_mar",
+          "label": "Events & Sponsorships - Mar",
+          "type": "number",
+          "placeholder": "Enter mar value",
+          "required": false
+        },
+        {
+          "id": "events_sponsorships_apr",
+          "label": "Events & Sponsorships - Apr",
+          "type": "number",
+          "placeholder": "Enter apr value",
+          "required": false
+        },
+        {
+          "id": "events_sponsorships_may",
+          "label": "Events & Sponsorships - May",
+          "type": "number",
+          "placeholder": "Enter may value",
+          "required": false
+        },
+        {
+          "id": "events_sponsorships_jun",
+          "label": "Events & Sponsorships - Jun",
+          "type": "number",
+          "placeholder": "Enter jun value",
+          "required": false
+        },
+        {
+          "id": "events_sponsorships_jul",
+          "label": "Events & Sponsorships - Jul",
+          "type": "number",
+          "placeholder": "Enter jul value",
+          "required": false
+        },
+        {
+          "id": "events_sponsorships_aug",
+          "label": "Events & Sponsorships - Aug",
+          "type": "number",
+          "placeholder": "Enter aug value",
+          "required": false
+        },
+        {
+          "id": "events_sponsorships_sep",
+          "label": "Events & Sponsorships - Sep",
+          "type": "number",
+          "placeholder": "Enter sep value",
+          "required": false
+        },
+        {
+          "id": "events_sponsorships_oct",
+          "label": "Events & Sponsorships - Oct",
+          "type": "number",
+          "placeholder": "Enter oct value",
+          "required": false
+        },
+        {
+          "id": "events_sponsorships_nov",
+          "label": "Events & Sponsorships - Nov",
+          "type": "number",
+          "placeholder": "Enter nov value",
+          "required": false
+        },
+        {
+          "id": "events_sponsorships_dec",
+          "label": "Events & Sponsorships - Dec",
+          "type": "number",
+          "placeholder": "Enter dec value",
+          "required": false
+        },
+        {
+          "id": "pr_communications_jan",
+          "label": "PR & Communications - Jan",
+          "type": "number",
+          "placeholder": "Enter jan value",
+          "required": false
+        },
+        {
+          "id": "pr_communications_feb",
+          "label": "PR & Communications - Feb",
+          "type": "number",
+          "placeholder": "Enter feb value",
+          "required": false
+        },
+        {
+          "id": "pr_communications_mar",
+          "label": "PR & Communications - Mar",
+          "type": "number",
+          "placeholder": "Enter mar value",
+          "required": false
+        },
+        {
+          "id": "pr_communications_apr",
+          "label": "PR & Communications - Apr",
+          "type": "number",
+          "placeholder": "Enter apr value",
+          "required": false
+        },
+        {
+          "id": "pr_communications_may",
+          "label": "PR & Communications - May",
+          "type": "number",
+          "placeholder": "Enter may value",
+          "required": false
+        },
+        {
+          "id": "pr_communications_jun",
+          "label": "PR & Communications - Jun",
+          "type": "number",
+          "placeholder": "Enter jun value",
+          "required": false
+        },
+        {
+          "id": "pr_communications_jul",
+          "label": "PR & Communications - Jul",
+          "type": "number",
+          "placeholder": "Enter jul value",
+          "required": false
+        },
+        {
+          "id": "pr_communications_aug",
+          "label": "PR & Communications - Aug",
+          "type": "number",
+          "placeholder": "Enter aug value",
+          "required": false
+        },
+        {
+          "id": "pr_communications_sep",
+          "label": "PR & Communications - Sep",
+          "type": "number",
+          "placeholder": "Enter sep value",
+          "required": false
+        },
+        {
+          "id": "pr_communications_oct",
+          "label": "PR & Communications - Oct",
+          "type": "number",
+          "placeholder": "Enter oct value",
+          "required": false
+        },
+        {
+          "id": "pr_communications_nov",
+          "label": "PR & Communications - Nov",
+          "type": "number",
+          "placeholder": "Enter nov value",
+          "required": false
+        },
+        {
+          "id": "pr_communications_dec",
+          "label": "PR & Communications - Dec",
+          "type": "number",
+          "placeholder": "Enter dec value",
+          "required": false
+        },
+        {
+          "id": "marketing_technology_tools_jan",
+          "label": "Marketing Technology / Tools - Jan",
+          "type": "number",
+          "placeholder": "Enter jan value",
+          "required": false
+        },
+        {
+          "id": "marketing_technology_tools_feb",
+          "label": "Marketing Technology / Tools - Feb",
+          "type": "number",
+          "placeholder": "Enter feb value",
+          "required": false
+        },
+        {
+          "id": "marketing_technology_tools_mar",
+          "label": "Marketing Technology / Tools - Mar",
+          "type": "number",
+          "placeholder": "Enter mar value",
+          "required": false
+        },
+        {
+          "id": "marketing_technology_tools_apr",
+          "label": "Marketing Technology / Tools - Apr",
+          "type": "number",
+          "placeholder": "Enter apr value",
+          "required": false
+        },
+        {
+          "id": "marketing_technology_tools_may",
+          "label": "Marketing Technology / Tools - May",
+          "type": "number",
+          "placeholder": "Enter may value",
+          "required": false
+        },
+        {
+          "id": "marketing_technology_tools_jun",
+          "label": "Marketing Technology / Tools - Jun",
+          "type": "number",
+          "placeholder": "Enter jun value",
+          "required": false
+        },
+        {
+          "id": "marketing_technology_tools_jul",
+          "label": "Marketing Technology / Tools - Jul",
+          "type": "number",
+          "placeholder": "Enter jul value",
+          "required": false
+        },
+        {
+          "id": "marketing_technology_tools_aug",
+          "label": "Marketing Technology / Tools - Aug",
+          "type": "number",
+          "placeholder": "Enter aug value",
+          "required": false
+        },
+        {
+          "id": "marketing_technology_tools_sep",
+          "label": "Marketing Technology / Tools - Sep",
+          "type": "number",
+          "placeholder": "Enter sep value",
+          "required": false
+        },
+        {
+          "id": "marketing_technology_tools_oct",
+          "label": "Marketing Technology / Tools - Oct",
+          "type": "number",
+          "placeholder": "Enter oct value",
+          "required": false
+        },
+        {
+          "id": "marketing_technology_tools_nov",
+          "label": "Marketing Technology / Tools - Nov",
+          "type": "number",
+          "placeholder": "Enter nov value",
+          "required": false
+        },
+        {
+          "id": "marketing_technology_tools_dec",
+          "label": "Marketing Technology / Tools - Dec",
+          "type": "number",
+          "placeholder": "Enter dec value",
+          "required": false
+        },
+        {
+          "id": "creative_design_jan",
+          "label": "Creative & Design - Jan",
+          "type": "number",
+          "placeholder": "Enter jan value",
+          "required": false
+        },
+        {
+          "id": "creative_design_feb",
+          "label": "Creative & Design - Feb",
+          "type": "number",
+          "placeholder": "Enter feb value",
+          "required": false
+        },
+        {
+          "id": "creative_design_mar",
+          "label": "Creative & Design - Mar",
+          "type": "number",
+          "placeholder": "Enter mar value",
+          "required": false
+        },
+        {
+          "id": "creative_design_apr",
+          "label": "Creative & Design - Apr",
+          "type": "number",
+          "placeholder": "Enter apr value",
+          "required": false
+        },
+        {
+          "id": "creative_design_may",
+          "label": "Creative & Design - May",
+          "type": "number",
+          "placeholder": "Enter may value",
+          "required": false
+        },
+        {
+          "id": "creative_design_jun",
+          "label": "Creative & Design - Jun",
+          "type": "number",
+          "placeholder": "Enter jun value",
+          "required": false
+        },
+        {
+          "id": "creative_design_jul",
+          "label": "Creative & Design - Jul",
+          "type": "number",
+          "placeholder": "Enter jul value",
+          "required": false
+        },
+        {
+          "id": "creative_design_aug",
+          "label": "Creative & Design - Aug",
+          "type": "number",
+          "placeholder": "Enter aug value",
+          "required": false
+        },
+        {
+          "id": "creative_design_sep",
+          "label": "Creative & Design - Sep",
+          "type": "number",
+          "placeholder": "Enter sep value",
+          "required": false
+        },
+        {
+          "id": "creative_design_oct",
+          "label": "Creative & Design - Oct",
+          "type": "number",
+          "placeholder": "Enter oct value",
+          "required": false
+        },
+        {
+          "id": "creative_design_nov",
+          "label": "Creative & Design - Nov",
+          "type": "number",
+          "placeholder": "Enter nov value",
+          "required": false
+        },
+        {
+          "id": "creative_design_dec",
+          "label": "Creative & Design - Dec",
+          "type": "number",
+          "placeholder": "Enter dec value",
+          "required": false
+        },
+        {
+          "id": "market_research_jan",
+          "label": "Market Research - Jan",
+          "type": "number",
+          "placeholder": "Enter jan value",
+          "required": false
+        },
+        {
+          "id": "market_research_feb",
+          "label": "Market Research - Feb",
+          "type": "number",
+          "placeholder": "Enter feb value",
+          "required": false
+        },
+        {
+          "id": "market_research_mar",
+          "label": "Market Research - Mar",
+          "type": "number",
+          "placeholder": "Enter mar value",
+          "required": false
+        },
+        {
+          "id": "market_research_apr",
+          "label": "Market Research - Apr",
+          "type": "number",
+          "placeholder": "Enter apr value",
+          "required": false
+        },
+        {
+          "id": "market_research_may",
+          "label": "Market Research - May",
+          "type": "number",
+          "placeholder": "Enter may value",
+          "required": false
+        },
+        {
+          "id": "market_research_jun",
+          "label": "Market Research - Jun",
+          "type": "number",
+          "placeholder": "Enter jun value",
+          "required": false
+        },
+        {
+          "id": "market_research_jul",
+          "label": "Market Research - Jul",
+          "type": "number",
+          "placeholder": "Enter jul value",
+          "required": false
+        },
+        {
+          "id": "market_research_aug",
+          "label": "Market Research - Aug",
+          "type": "number",
+          "placeholder": "Enter aug value",
+          "required": false
+        },
+        {
+          "id": "market_research_sep",
+          "label": "Market Research - Sep",
+          "type": "number",
+          "placeholder": "Enter sep value",
+          "required": false
+        },
+        {
+          "id": "market_research_oct",
+          "label": "Market Research - Oct",
+          "type": "number",
+          "placeholder": "Enter oct value",
+          "required": false
+        },
+        {
+          "id": "market_research_nov",
+          "label": "Market Research - Nov",
+          "type": "number",
+          "placeholder": "Enter nov value",
+          "required": false
+        },
+        {
+          "id": "market_research_dec",
+          "label": "Market Research - Dec",
+          "type": "number",
+          "placeholder": "Enter dec value",
+          "required": false
+        },
+        {
+          "id": "partnerships_affiliates_jan",
+          "label": "Partnerships & Affiliates - Jan",
+          "type": "number",
+          "placeholder": "Enter jan value",
+          "required": false
+        },
+        {
+          "id": "partnerships_affiliates_feb",
+          "label": "Partnerships & Affiliates - Feb",
+          "type": "number",
+          "placeholder": "Enter feb value",
+          "required": false
+        },
+        {
+          "id": "partnerships_affiliates_mar",
+          "label": "Partnerships & Affiliates - Mar",
+          "type": "number",
+          "placeholder": "Enter mar value",
+          "required": false
+        },
+        {
+          "id": "partnerships_affiliates_apr",
+          "label": "Partnerships & Affiliates - Apr",
+          "type": "number",
+          "placeholder": "Enter apr value",
+          "required": false
+        },
+        {
+          "id": "partnerships_affiliates_may",
+          "label": "Partnerships & Affiliates - May",
+          "type": "number",
+          "placeholder": "Enter may value",
+          "required": false
+        },
+        {
+          "id": "partnerships_affiliates_jun",
+          "label": "Partnerships & Affiliates - Jun",
+          "type": "number",
+          "placeholder": "Enter jun value",
+          "required": false
+        },
+        {
+          "id": "partnerships_affiliates_jul",
+          "label": "Partnerships & Affiliates - Jul",
+          "type": "number",
+          "placeholder": "Enter jul value",
+          "required": false
+        },
+        {
+          "id": "partnerships_affiliates_aug",
+          "label": "Partnerships & Affiliates - Aug",
+          "type": "number",
+          "placeholder": "Enter aug value",
+          "required": false
+        },
+        {
+          "id": "partnerships_affiliates_sep",
+          "label": "Partnerships & Affiliates - Sep",
+          "type": "number",
+          "placeholder": "Enter sep value",
+          "required": false
+        },
+        {
+          "id": "partnerships_affiliates_oct",
+          "label": "Partnerships & Affiliates - Oct",
+          "type": "number",
+          "placeholder": "Enter oct value",
+          "required": false
+        },
+        {
+          "id": "partnerships_affiliates_nov",
+          "label": "Partnerships & Affiliates - Nov",
+          "type": "number",
+          "placeholder": "Enter nov value",
+          "required": false
+        },
+        {
+          "id": "partnerships_affiliates_dec",
+          "label": "Partnerships & Affiliates - Dec",
+          "type": "number",
+          "placeholder": "Enter dec value",
+          "required": false
+        },
+        {
+          "id": "other_contingency_jan",
+          "label": "Other / Contingency - Jan",
+          "type": "number",
+          "placeholder": "Enter jan value",
+          "required": false
+        },
+        {
+          "id": "other_contingency_feb",
+          "label": "Other / Contingency - Feb",
+          "type": "number",
+          "placeholder": "Enter feb value",
+          "required": false
+        },
+        {
+          "id": "other_contingency_mar",
+          "label": "Other / Contingency - Mar",
+          "type": "number",
+          "placeholder": "Enter mar value",
+          "required": false
+        },
+        {
+          "id": "other_contingency_apr",
+          "label": "Other / Contingency - Apr",
+          "type": "number",
+          "placeholder": "Enter apr value",
+          "required": false
+        },
+        {
+          "id": "other_contingency_may",
+          "label": "Other / Contingency - May",
+          "type": "number",
+          "placeholder": "Enter may value",
+          "required": false
+        },
+        {
+          "id": "other_contingency_jun",
+          "label": "Other / Contingency - Jun",
+          "type": "number",
+          "placeholder": "Enter jun value",
+          "required": false
+        },
+        {
+          "id": "other_contingency_jul",
+          "label": "Other / Contingency - Jul",
+          "type": "number",
+          "placeholder": "Enter jul value",
+          "required": false
+        },
+        {
+          "id": "other_contingency_aug",
+          "label": "Other / Contingency - Aug",
+          "type": "number",
+          "placeholder": "Enter aug value",
+          "required": false
+        },
+        {
+          "id": "other_contingency_sep",
+          "label": "Other / Contingency - Sep",
+          "type": "number",
+          "placeholder": "Enter sep value",
+          "required": false
+        },
+        {
+          "id": "other_contingency_oct",
+          "label": "Other / Contingency - Oct",
+          "type": "number",
+          "placeholder": "Enter oct value",
+          "required": false
+        },
+        {
+          "id": "other_contingency_nov",
+          "label": "Other / Contingency - Nov",
+          "type": "number",
+          "placeholder": "Enter nov value",
+          "required": false
+        },
+        {
+          "id": "other_contingency_dec",
+          "label": "Other / Contingency - Dec",
+          "type": "number",
+          "placeholder": "Enter dec value",
+          "required": false
+        },
+        {
+          "id": "paid_digital_advertising_jan_1",
+          "label": "Paid Digital Advertising - Jan",
+          "type": "number",
+          "placeholder": "Enter jan value",
+          "required": false
+        },
+        {
+          "id": "paid_digital_advertising_feb_1",
+          "label": "Paid Digital Advertising - Feb",
+          "type": "number",
+          "placeholder": "Enter feb value",
+          "required": false
+        },
+        {
+          "id": "paid_digital_advertising_mar_1",
+          "label": "Paid Digital Advertising - Mar",
+          "type": "number",
+          "placeholder": "Enter mar value",
+          "required": false
+        },
+        {
+          "id": "paid_digital_advertising_apr_1",
+          "label": "Paid Digital Advertising - Apr",
+          "type": "number",
+          "placeholder": "Enter apr value",
+          "required": false
+        },
+        {
+          "id": "paid_digital_advertising_may_1",
+          "label": "Paid Digital Advertising - May",
+          "type": "number",
+          "placeholder": "Enter may value",
+          "required": false
+        },
+        {
+          "id": "paid_digital_advertising_jun_1",
+          "label": "Paid Digital Advertising - Jun",
+          "type": "number",
+          "placeholder": "Enter jun value",
+          "required": false
+        },
+        {
+          "id": "paid_digital_advertising_jul_1",
+          "label": "Paid Digital Advertising - Jul",
+          "type": "number",
+          "placeholder": "Enter jul value",
+          "required": false
+        },
+        {
+          "id": "paid_digital_advertising_aug_1",
+          "label": "Paid Digital Advertising - Aug",
+          "type": "number",
+          "placeholder": "Enter aug value",
+          "required": false
+        },
+        {
+          "id": "paid_digital_advertising_sep_1",
+          "label": "Paid Digital Advertising - Sep",
+          "type": "number",
+          "placeholder": "Enter sep value",
+          "required": false
+        },
+        {
+          "id": "paid_digital_advertising_oct_1",
+          "label": "Paid Digital Advertising - Oct",
+          "type": "number",
+          "placeholder": "Enter oct value",
+          "required": false
+        },
+        {
+          "id": "paid_digital_advertising_nov_1",
+          "label": "Paid Digital Advertising - Nov",
+          "type": "number",
+          "placeholder": "Enter nov value",
+          "required": false
+        },
+        {
+          "id": "paid_digital_advertising_dec_1",
+          "label": "Paid Digital Advertising - Dec",
+          "type": "number",
+          "placeholder": "Enter dec value",
+          "required": false
+        },
+        {
+          "id": "social_media_organic_jan_1",
+          "label": "Social Media (Organic) - Jan",
+          "type": "number",
+          "placeholder": "Enter jan value",
+          "required": false
+        },
+        {
+          "id": "social_media_organic_feb_1",
+          "label": "Social Media (Organic) - Feb",
+          "type": "number",
+          "placeholder": "Enter feb value",
+          "required": false
+        },
+        {
+          "id": "social_media_organic_mar_1",
+          "label": "Social Media (Organic) - Mar",
+          "type": "number",
+          "placeholder": "Enter mar value",
+          "required": false
+        },
+        {
+          "id": "social_media_organic_apr_1",
+          "label": "Social Media (Organic) - Apr",
+          "type": "number",
+          "placeholder": "Enter apr value",
+          "required": false
+        },
+        {
+          "id": "social_media_organic_may_1",
+          "label": "Social Media (Organic) - May",
+          "type": "number",
+          "placeholder": "Enter may value",
+          "required": false
+        },
+        {
+          "id": "social_media_organic_jun_1",
+          "label": "Social Media (Organic) - Jun",
+          "type": "number",
+          "placeholder": "Enter jun value",
+          "required": false
+        },
+        {
+          "id": "social_media_organic_jul_1",
+          "label": "Social Media (Organic) - Jul",
+          "type": "number",
+          "placeholder": "Enter jul value",
+          "required": false
+        },
+        {
+          "id": "social_media_organic_aug_1",
+          "label": "Social Media (Organic) - Aug",
+          "type": "number",
+          "placeholder": "Enter aug value",
+          "required": false
+        },
+        {
+          "id": "social_media_organic_sep_1",
+          "label": "Social Media (Organic) - Sep",
+          "type": "number",
+          "placeholder": "Enter sep value",
+          "required": false
+        },
+        {
+          "id": "social_media_organic_oct_1",
+          "label": "Social Media (Organic) - Oct",
+          "type": "number",
+          "placeholder": "Enter oct value",
+          "required": false
+        },
+        {
+          "id": "social_media_organic_nov_1",
+          "label": "Social Media (Organic) - Nov",
+          "type": "number",
+          "placeholder": "Enter nov value",
+          "required": false
+        },
+        {
+          "id": "social_media_organic_dec_1",
+          "label": "Social Media (Organic) - Dec",
+          "type": "number",
+          "placeholder": "Enter dec value",
+          "required": false
+        },
+        {
+          "id": "content_production_jan_1",
+          "label": "Content Production - Jan",
+          "type": "number",
+          "placeholder": "Enter jan value",
+          "required": false
+        },
+        {
+          "id": "content_production_feb_1",
+          "label": "Content Production - Feb",
+          "type": "number",
+          "placeholder": "Enter feb value",
+          "required": false
+        },
+        {
+          "id": "content_production_mar_1",
+          "label": "Content Production - Mar",
+          "type": "number",
+          "placeholder": "Enter mar value",
+          "required": false
+        },
+        {
+          "id": "content_production_apr_1",
+          "label": "Content Production - Apr",
+          "type": "number",
+          "placeholder": "Enter apr value",
+          "required": false
+        },
+        {
+          "id": "content_production_may_1",
+          "label": "Content Production - May",
+          "type": "number",
+          "placeholder": "Enter may value",
+          "required": false
+        },
+        {
+          "id": "content_production_jun_1",
+          "label": "Content Production - Jun",
+          "type": "number",
+          "placeholder": "Enter jun value",
+          "required": false
+        },
+        {
+          "id": "content_production_jul_1",
+          "label": "Content Production - Jul",
+          "type": "number",
+          "placeholder": "Enter jul value",
+          "required": false
+        },
+        {
+          "id": "content_production_aug_1",
+          "label": "Content Production - Aug",
+          "type": "number",
+          "placeholder": "Enter aug value",
+          "required": false
+        },
+        {
+          "id": "content_production_sep_1",
+          "label": "Content Production - Sep",
+          "type": "number",
+          "placeholder": "Enter sep value",
+          "required": false
+        },
+        {
+          "id": "content_production_oct_1",
+          "label": "Content Production - Oct",
+          "type": "number",
+          "placeholder": "Enter oct value",
+          "required": false
+        },
+        {
+          "id": "content_production_nov_1",
+          "label": "Content Production - Nov",
+          "type": "number",
+          "placeholder": "Enter nov value",
+          "required": false
+        },
+        {
+          "id": "content_production_dec_1",
+          "label": "Content Production - Dec",
+          "type": "number",
+          "placeholder": "Enter dec value",
+          "required": false
+        },
+        {
+          "id": "seo_website_jan_1",
+          "label": "SEO & Website - Jan",
+          "type": "number",
+          "placeholder": "Enter jan value",
+          "required": false
+        },
+        {
+          "id": "seo_website_feb_1",
+          "label": "SEO & Website - Feb",
+          "type": "number",
+          "placeholder": "Enter feb value",
+          "required": false
+        },
+        {
+          "id": "seo_website_mar_1",
+          "label": "SEO & Website - Mar",
+          "type": "number",
+          "placeholder": "Enter mar value",
+          "required": false
+        },
+        {
+          "id": "seo_website_apr_1",
+          "label": "SEO & Website - Apr",
+          "type": "number",
+          "placeholder": "Enter apr value",
+          "required": false
+        },
+        {
+          "id": "seo_website_may_1",
+          "label": "SEO & Website - May",
+          "type": "number",
+          "placeholder": "Enter may value",
+          "required": false
+        },
+        {
+          "id": "seo_website_jun_1",
+          "label": "SEO & Website - Jun",
+          "type": "number",
+          "placeholder": "Enter jun value",
+          "required": false
+        },
+        {
+          "id": "seo_website_jul_1",
+          "label": "SEO & Website - Jul",
+          "type": "number",
+          "placeholder": "Enter jul value",
+          "required": false
+        },
+        {
+          "id": "seo_website_aug_1",
+          "label": "SEO & Website - Aug",
+          "type": "number",
+          "placeholder": "Enter aug value",
+          "required": false
+        },
+        {
+          "id": "seo_website_sep_1",
+          "label": "SEO & Website - Sep",
+          "type": "number",
+          "placeholder": "Enter sep value",
+          "required": false
+        },
+        {
+          "id": "seo_website_oct_1",
+          "label": "SEO & Website - Oct",
+          "type": "number",
+          "placeholder": "Enter oct value",
+          "required": false
+        },
+        {
+          "id": "seo_website_nov_1",
+          "label": "SEO & Website - Nov",
+          "type": "number",
+          "placeholder": "Enter nov value",
+          "required": false
+        },
+        {
+          "id": "seo_website_dec_1",
+          "label": "SEO & Website - Dec",
+          "type": "number",
+          "placeholder": "Enter dec value",
+          "required": false
+        },
+        {
+          "id": "email_marketing_jan_1",
+          "label": "Email Marketing - Jan",
+          "type": "number",
+          "placeholder": "Enter jan value",
+          "required": false
+        },
+        {
+          "id": "email_marketing_feb_1",
+          "label": "Email Marketing - Feb",
+          "type": "number",
+          "placeholder": "Enter feb value",
+          "required": false
+        },
+        {
+          "id": "email_marketing_mar_1",
+          "label": "Email Marketing - Mar",
+          "type": "number",
+          "placeholder": "Enter mar value",
+          "required": false
+        },
+        {
+          "id": "email_marketing_apr_1",
+          "label": "Email Marketing - Apr",
+          "type": "number",
+          "placeholder": "Enter apr value",
+          "required": false
+        },
+        {
+          "id": "email_marketing_may_1",
+          "label": "Email Marketing - May",
+          "type": "number",
+          "placeholder": "Enter may value",
+          "required": false
+        },
+        {
+          "id": "email_marketing_jun_1",
+          "label": "Email Marketing - Jun",
+          "type": "number",
+          "placeholder": "Enter jun value",
+          "required": false
+        },
+        {
+          "id": "email_marketing_jul_1",
+          "label": "Email Marketing - Jul",
+          "type": "number",
+          "placeholder": "Enter jul value",
+          "required": false
+        },
+        {
+          "id": "email_marketing_aug_1",
+          "label": "Email Marketing - Aug",
+          "type": "number",
+          "placeholder": "Enter aug value",
+          "required": false
+        },
+        {
+          "id": "email_marketing_sep_1",
+          "label": "Email Marketing - Sep",
+          "type": "number",
+          "placeholder": "Enter sep value",
+          "required": false
+        },
+        {
+          "id": "email_marketing_oct_1",
+          "label": "Email Marketing - Oct",
+          "type": "number",
+          "placeholder": "Enter oct value",
+          "required": false
+        },
+        {
+          "id": "email_marketing_nov_1",
+          "label": "Email Marketing - Nov",
+          "type": "number",
+          "placeholder": "Enter nov value",
+          "required": false
+        },
+        {
+          "id": "email_marketing_dec_1",
+          "label": "Email Marketing - Dec",
+          "type": "number",
+          "placeholder": "Enter dec value",
+          "required": false
+        },
+        {
+          "id": "events_sponsorships_jan_1",
+          "label": "Events & Sponsorships - Jan",
+          "type": "number",
+          "placeholder": "Enter jan value",
+          "required": false
+        },
+        {
+          "id": "events_sponsorships_feb_1",
+          "label": "Events & Sponsorships - Feb",
+          "type": "number",
+          "placeholder": "Enter feb value",
+          "required": false
+        },
+        {
+          "id": "events_sponsorships_mar_1",
+          "label": "Events & Sponsorships - Mar",
+          "type": "number",
+          "placeholder": "Enter mar value",
+          "required": false
+        },
+        {
+          "id": "events_sponsorships_apr_1",
+          "label": "Events & Sponsorships - Apr",
+          "type": "number",
+          "placeholder": "Enter apr value",
+          "required": false
+        },
+        {
+          "id": "events_sponsorships_may_1",
+          "label": "Events & Sponsorships - May",
+          "type": "number",
+          "placeholder": "Enter may value",
+          "required": false
+        },
+        {
+          "id": "events_sponsorships_jun_1",
+          "label": "Events & Sponsorships - Jun",
+          "type": "number",
+          "placeholder": "Enter jun value",
+          "required": false
+        },
+        {
+          "id": "events_sponsorships_jul_1",
+          "label": "Events & Sponsorships - Jul",
+          "type": "number",
+          "placeholder": "Enter jul value",
+          "required": false
+        },
+        {
+          "id": "events_sponsorships_aug_1",
+          "label": "Events & Sponsorships - Aug",
+          "type": "number",
+          "placeholder": "Enter aug value",
+          "required": false
+        },
+        {
+          "id": "events_sponsorships_sep_1",
+          "label": "Events & Sponsorships - Sep",
+          "type": "number",
+          "placeholder": "Enter sep value",
+          "required": false
+        },
+        {
+          "id": "events_sponsorships_oct_1",
+          "label": "Events & Sponsorships - Oct",
+          "type": "number",
+          "placeholder": "Enter oct value",
+          "required": false
+        },
+        {
+          "id": "events_sponsorships_nov_1",
+          "label": "Events & Sponsorships - Nov",
+          "type": "number",
+          "placeholder": "Enter nov value",
+          "required": false
+        },
+        {
+          "id": "events_sponsorships_dec_1",
+          "label": "Events & Sponsorships - Dec",
+          "type": "number",
+          "placeholder": "Enter dec value",
+          "required": false
+        },
+        {
+          "id": "pr_communications_jan_1",
+          "label": "PR & Communications - Jan",
+          "type": "number",
+          "placeholder": "Enter jan value",
+          "required": false
+        },
+        {
+          "id": "pr_communications_feb_1",
+          "label": "PR & Communications - Feb",
+          "type": "number",
+          "placeholder": "Enter feb value",
+          "required": false
+        },
+        {
+          "id": "pr_communications_mar_1",
+          "label": "PR & Communications - Mar",
+          "type": "number",
+          "placeholder": "Enter mar value",
+          "required": false
+        },
+        {
+          "id": "pr_communications_apr_1",
+          "label": "PR & Communications - Apr",
+          "type": "number",
+          "placeholder": "Enter apr value",
+          "required": false
+        },
+        {
+          "id": "pr_communications_may_1",
+          "label": "PR & Communications - May",
+          "type": "number",
+          "placeholder": "Enter may value",
+          "required": false
+        },
+        {
+          "id": "pr_communications_jun_1",
+          "label": "PR & Communications - Jun",
+          "type": "number",
+          "placeholder": "Enter jun value",
+          "required": false
+        },
+        {
+          "id": "pr_communications_jul_1",
+          "label": "PR & Communications - Jul",
+          "type": "number",
+          "placeholder": "Enter jul value",
+          "required": false
+        },
+        {
+          "id": "pr_communications_aug_1",
+          "label": "PR & Communications - Aug",
+          "type": "number",
+          "placeholder": "Enter aug value",
+          "required": false
+        },
+        {
+          "id": "pr_communications_sep_1",
+          "label": "PR & Communications - Sep",
+          "type": "number",
+          "placeholder": "Enter sep value",
+          "required": false
+        },
+        {
+          "id": "pr_communications_oct_1",
+          "label": "PR & Communications - Oct",
+          "type": "number",
+          "placeholder": "Enter oct value",
+          "required": false
+        },
+        {
+          "id": "pr_communications_nov_1",
+          "label": "PR & Communications - Nov",
+          "type": "number",
+          "placeholder": "Enter nov value",
+          "required": false
+        },
+        {
+          "id": "pr_communications_dec_1",
+          "label": "PR & Communications - Dec",
+          "type": "number",
+          "placeholder": "Enter dec value",
+          "required": false
+        },
+        {
+          "id": "marketing_technology_tools_jan_1",
+          "label": "Marketing Technology / Tools - Jan",
+          "type": "number",
+          "placeholder": "Enter jan value",
+          "required": false
+        },
+        {
+          "id": "marketing_technology_tools_feb_1",
+          "label": "Marketing Technology / Tools - Feb",
+          "type": "number",
+          "placeholder": "Enter feb value",
+          "required": false
+        },
+        {
+          "id": "marketing_technology_tools_mar_1",
+          "label": "Marketing Technology / Tools - Mar",
+          "type": "number",
+          "placeholder": "Enter mar value",
+          "required": false
+        },
+        {
+          "id": "marketing_technology_tools_apr_1",
+          "label": "Marketing Technology / Tools - Apr",
+          "type": "number",
+          "placeholder": "Enter apr value",
+          "required": false
+        },
+        {
+          "id": "marketing_technology_tools_may_1",
+          "label": "Marketing Technology / Tools - May",
+          "type": "number",
+          "placeholder": "Enter may value",
+          "required": false
+        },
+        {
+          "id": "marketing_technology_tools_jun_1",
+          "label": "Marketing Technology / Tools - Jun",
+          "type": "number",
+          "placeholder": "Enter jun value",
+          "required": false
+        },
+        {
+          "id": "marketing_technology_tools_jul_1",
+          "label": "Marketing Technology / Tools - Jul",
+          "type": "number",
+          "placeholder": "Enter jul value",
+          "required": false
+        },
+        {
+          "id": "marketing_technology_tools_aug_1",
+          "label": "Marketing Technology / Tools - Aug",
+          "type": "number",
+          "placeholder": "Enter aug value",
+          "required": false
+        },
+        {
+          "id": "marketing_technology_tools_sep_1",
+          "label": "Marketing Technology / Tools - Sep",
+          "type": "number",
+          "placeholder": "Enter sep value",
+          "required": false
+        },
+        {
+          "id": "marketing_technology_tools_oct_1",
+          "label": "Marketing Technology / Tools - Oct",
+          "type": "number",
+          "placeholder": "Enter oct value",
+          "required": false
+        },
+        {
+          "id": "marketing_technology_tools_nov_1",
+          "label": "Marketing Technology / Tools - Nov",
+          "type": "number",
+          "placeholder": "Enter nov value",
+          "required": false
+        },
+        {
+          "id": "marketing_technology_tools_dec_1",
+          "label": "Marketing Technology / Tools - Dec",
+          "type": "number",
+          "placeholder": "Enter dec value",
+          "required": false
+        },
+        {
+          "id": "creative_design_jan_1",
+          "label": "Creative & Design - Jan",
+          "type": "number",
+          "placeholder": "Enter jan value",
+          "required": false
+        },
+        {
+          "id": "creative_design_feb_1",
+          "label": "Creative & Design - Feb",
+          "type": "number",
+          "placeholder": "Enter feb value",
+          "required": false
+        },
+        {
+          "id": "creative_design_mar_1",
+          "label": "Creative & Design - Mar",
+          "type": "number",
+          "placeholder": "Enter mar value",
+          "required": false
+        },
+        {
+          "id": "creative_design_apr_1",
+          "label": "Creative & Design - Apr",
+          "type": "number",
+          "placeholder": "Enter apr value",
+          "required": false
+        },
+        {
+          "id": "creative_design_may_1",
+          "label": "Creative & Design - May",
+          "type": "number",
+          "placeholder": "Enter may value",
+          "required": false
+        },
+        {
+          "id": "creative_design_jun_1",
+          "label": "Creative & Design - Jun",
+          "type": "number",
+          "placeholder": "Enter jun value",
+          "required": false
+        },
+        {
+          "id": "creative_design_jul_1",
+          "label": "Creative & Design - Jul",
+          "type": "number",
+          "placeholder": "Enter jul value",
+          "required": false
+        },
+        {
+          "id": "creative_design_aug_1",
+          "label": "Creative & Design - Aug",
+          "type": "number",
+          "placeholder": "Enter aug value",
+          "required": false
+        },
+        {
+          "id": "creative_design_sep_1",
+          "label": "Creative & Design - Sep",
+          "type": "number",
+          "placeholder": "Enter sep value",
+          "required": false
+        },
+        {
+          "id": "creative_design_oct_1",
+          "label": "Creative & Design - Oct",
+          "type": "number",
+          "placeholder": "Enter oct value",
+          "required": false
+        },
+        {
+          "id": "creative_design_nov_1",
+          "label": "Creative & Design - Nov",
+          "type": "number",
+          "placeholder": "Enter nov value",
+          "required": false
+        },
+        {
+          "id": "creative_design_dec_1",
+          "label": "Creative & Design - Dec",
+          "type": "number",
+          "placeholder": "Enter dec value",
+          "required": false
+        },
+        {
+          "id": "market_research_jan_1",
+          "label": "Market Research - Jan",
+          "type": "number",
+          "placeholder": "Enter jan value",
+          "required": false
+        },
+        {
+          "id": "market_research_feb_1",
+          "label": "Market Research - Feb",
+          "type": "number",
+          "placeholder": "Enter feb value",
+          "required": false
+        },
+        {
+          "id": "market_research_mar_1",
+          "label": "Market Research - Mar",
+          "type": "number",
+          "placeholder": "Enter mar value",
+          "required": false
+        },
+        {
+          "id": "market_research_apr_1",
+          "label": "Market Research - Apr",
+          "type": "number",
+          "placeholder": "Enter apr value",
+          "required": false
+        },
+        {
+          "id": "market_research_may_1",
+          "label": "Market Research - May",
+          "type": "number",
+          "placeholder": "Enter may value",
+          "required": false
+        },
+        {
+          "id": "market_research_jun_1",
+          "label": "Market Research - Jun",
+          "type": "number",
+          "placeholder": "Enter jun value",
+          "required": false
+        },
+        {
+          "id": "market_research_jul_1",
+          "label": "Market Research - Jul",
+          "type": "number",
+          "placeholder": "Enter jul value",
+          "required": false
+        },
+        {
+          "id": "market_research_aug_1",
+          "label": "Market Research - Aug",
+          "type": "number",
+          "placeholder": "Enter aug value",
+          "required": false
+        },
+        {
+          "id": "market_research_sep_1",
+          "label": "Market Research - Sep",
+          "type": "number",
+          "placeholder": "Enter sep value",
+          "required": false
+        },
+        {
+          "id": "market_research_oct_1",
+          "label": "Market Research - Oct",
+          "type": "number",
+          "placeholder": "Enter oct value",
+          "required": false
+        },
+        {
+          "id": "market_research_nov_1",
+          "label": "Market Research - Nov",
+          "type": "number",
+          "placeholder": "Enter nov value",
+          "required": false
+        },
+        {
+          "id": "market_research_dec_1",
+          "label": "Market Research - Dec",
+          "type": "number",
+          "placeholder": "Enter dec value",
+          "required": false
+        },
+        {
+          "id": "partnerships_affiliates_jan_1",
+          "label": "Partnerships & Affiliates - Jan",
+          "type": "number",
+          "placeholder": "Enter jan value",
+          "required": false
+        },
+        {
+          "id": "partnerships_affiliates_feb_1",
+          "label": "Partnerships & Affiliates - Feb",
+          "type": "number",
+          "placeholder": "Enter feb value",
+          "required": false
+        },
+        {
+          "id": "partnerships_affiliates_mar_1",
+          "label": "Partnerships & Affiliates - Mar",
+          "type": "number",
+          "placeholder": "Enter mar value",
+          "required": false
+        },
+        {
+          "id": "partnerships_affiliates_apr_1",
+          "label": "Partnerships & Affiliates - Apr",
+          "type": "number",
+          "placeholder": "Enter apr value",
+          "required": false
+        },
+        {
+          "id": "partnerships_affiliates_may_1",
+          "label": "Partnerships & Affiliates - May",
+          "type": "number",
+          "placeholder": "Enter may value",
+          "required": false
+        },
+        {
+          "id": "partnerships_affiliates_jun_1",
+          "label": "Partnerships & Affiliates - Jun",
+          "type": "number",
+          "placeholder": "Enter jun value",
+          "required": false
+        },
+        {
+          "id": "partnerships_affiliates_jul_1",
+          "label": "Partnerships & Affiliates - Jul",
+          "type": "number",
+          "placeholder": "Enter jul value",
+          "required": false
+        },
+        {
+          "id": "partnerships_affiliates_aug_1",
+          "label": "Partnerships & Affiliates - Aug",
+          "type": "number",
+          "placeholder": "Enter aug value",
+          "required": false
+        },
+        {
+          "id": "partnerships_affiliates_sep_1",
+          "label": "Partnerships & Affiliates - Sep",
+          "type": "number",
+          "placeholder": "Enter sep value",
+          "required": false
+        },
+        {
+          "id": "partnerships_affiliates_oct_1",
+          "label": "Partnerships & Affiliates - Oct",
+          "type": "number",
+          "placeholder": "Enter oct value",
+          "required": false
+        },
+        {
+          "id": "partnerships_affiliates_nov_1",
+          "label": "Partnerships & Affiliates - Nov",
+          "type": "number",
+          "placeholder": "Enter nov value",
+          "required": false
+        },
+        {
+          "id": "partnerships_affiliates_dec_1",
+          "label": "Partnerships & Affiliates - Dec",
+          "type": "number",
+          "placeholder": "Enter dec value",
+          "required": false
+        },
+        {
+          "id": "other_contingency_jan_1",
+          "label": "Other / Contingency - Jan",
+          "type": "number",
+          "placeholder": "Enter jan value",
+          "required": false
+        },
+        {
+          "id": "other_contingency_feb_1",
+          "label": "Other / Contingency - Feb",
+          "type": "number",
+          "placeholder": "Enter feb value",
+          "required": false
+        },
+        {
+          "id": "other_contingency_mar_1",
+          "label": "Other / Contingency - Mar",
+          "type": "number",
+          "placeholder": "Enter mar value",
+          "required": false
+        },
+        {
+          "id": "other_contingency_apr_1",
+          "label": "Other / Contingency - Apr",
+          "type": "number",
+          "placeholder": "Enter apr value",
+          "required": false
+        },
+        {
+          "id": "other_contingency_may_1",
+          "label": "Other / Contingency - May",
+          "type": "number",
+          "placeholder": "Enter may value",
+          "required": false
+        },
+        {
+          "id": "other_contingency_jun_1",
+          "label": "Other / Contingency - Jun",
+          "type": "number",
+          "placeholder": "Enter jun value",
+          "required": false
+        },
+        {
+          "id": "other_contingency_jul_1",
+          "label": "Other / Contingency - Jul",
+          "type": "number",
+          "placeholder": "Enter jul value",
+          "required": false
+        },
+        {
+          "id": "other_contingency_aug_1",
+          "label": "Other / Contingency - Aug",
+          "type": "number",
+          "placeholder": "Enter aug value",
+          "required": false
+        },
+        {
+          "id": "other_contingency_sep_1",
+          "label": "Other / Contingency - Sep",
+          "type": "number",
+          "placeholder": "Enter sep value",
+          "required": false
+        },
+        {
+          "id": "other_contingency_oct_1",
+          "label": "Other / Contingency - Oct",
+          "type": "number",
+          "placeholder": "Enter oct value",
+          "required": false
+        },
+        {
+          "id": "other_contingency_nov_1",
+          "label": "Other / Contingency - Nov",
+          "type": "number",
+          "placeholder": "Enter nov value",
+          "required": false
+        },
+        {
+          "id": "other_contingency_dec_1",
+          "label": "Other / Contingency - Dec",
+          "type": "number",
+          "placeholder": "Enter dec value",
+          "required": false
+        },
+        {
+          "id": "paid_digital_advertising_jan_2",
+          "label": "Paid Digital Advertising - Jan",
+          "type": "number",
+          "placeholder": "Enter jan value",
+          "required": false
+        },
+        {
+          "id": "paid_digital_advertising_feb_2",
+          "label": "Paid Digital Advertising - Feb",
+          "type": "number",
+          "placeholder": "Enter feb value",
+          "required": false
+        },
+        {
+          "id": "paid_digital_advertising_mar_2",
+          "label": "Paid Digital Advertising - Mar",
+          "type": "number",
+          "placeholder": "Enter mar value",
+          "required": false
+        },
+        {
+          "id": "paid_digital_advertising_apr_2",
+          "label": "Paid Digital Advertising - Apr",
+          "type": "number",
+          "placeholder": "Enter apr value",
+          "required": false
+        },
+        {
+          "id": "paid_digital_advertising_may_2",
+          "label": "Paid Digital Advertising - May",
+          "type": "number",
+          "placeholder": "Enter may value",
+          "required": false
+        },
+        {
+          "id": "paid_digital_advertising_jun_2",
+          "label": "Paid Digital Advertising - Jun",
+          "type": "number",
+          "placeholder": "Enter jun value",
+          "required": false
+        },
+        {
+          "id": "paid_digital_advertising_jul_2",
+          "label": "Paid Digital Advertising - Jul",
+          "type": "number",
+          "placeholder": "Enter jul value",
+          "required": false
+        },
+        {
+          "id": "paid_digital_advertising_aug_2",
+          "label": "Paid Digital Advertising - Aug",
+          "type": "number",
+          "placeholder": "Enter aug value",
+          "required": false
+        },
+        {
+          "id": "paid_digital_advertising_sep_2",
+          "label": "Paid Digital Advertising - Sep",
+          "type": "number",
+          "placeholder": "Enter sep value",
+          "required": false
+        },
+        {
+          "id": "paid_digital_advertising_oct_2",
+          "label": "Paid Digital Advertising - Oct",
+          "type": "number",
+          "placeholder": "Enter oct value",
+          "required": false
+        },
+        {
+          "id": "paid_digital_advertising_nov_2",
+          "label": "Paid Digital Advertising - Nov",
+          "type": "number",
+          "placeholder": "Enter nov value",
+          "required": false
+        },
+        {
+          "id": "paid_digital_advertising_dec_2",
+          "label": "Paid Digital Advertising - Dec",
+          "type": "number",
+          "placeholder": "Enter dec value",
+          "required": false
+        },
+        {
+          "id": "social_media_organic_jan_2",
+          "label": "Social Media (Organic) - Jan",
+          "type": "number",
+          "placeholder": "Enter jan value",
+          "required": false
+        },
+        {
+          "id": "social_media_organic_feb_2",
+          "label": "Social Media (Organic) - Feb",
+          "type": "number",
+          "placeholder": "Enter feb value",
+          "required": false
+        },
+        {
+          "id": "social_media_organic_mar_2",
+          "label": "Social Media (Organic) - Mar",
+          "type": "number",
+          "placeholder": "Enter mar value",
+          "required": false
+        },
+        {
+          "id": "social_media_organic_apr_2",
+          "label": "Social Media (Organic) - Apr",
+          "type": "number",
+          "placeholder": "Enter apr value",
+          "required": false
+        },
+        {
+          "id": "social_media_organic_may_2",
+          "label": "Social Media (Organic) - May",
+          "type": "number",
+          "placeholder": "Enter may value",
+          "required": false
+        },
+        {
+          "id": "social_media_organic_jun_2",
+          "label": "Social Media (Organic) - Jun",
+          "type": "number",
+          "placeholder": "Enter jun value",
+          "required": false
+        },
+        {
+          "id": "social_media_organic_jul_2",
+          "label": "Social Media (Organic) - Jul",
+          "type": "number",
+          "placeholder": "Enter jul value",
+          "required": false
+        },
+        {
+          "id": "social_media_organic_aug_2",
+          "label": "Social Media (Organic) - Aug",
+          "type": "number",
+          "placeholder": "Enter aug value",
+          "required": false
+        },
+        {
+          "id": "social_media_organic_sep_2",
+          "label": "Social Media (Organic) - Sep",
+          "type": "number",
+          "placeholder": "Enter sep value",
+          "required": false
+        },
+        {
+          "id": "social_media_organic_oct_2",
+          "label": "Social Media (Organic) - Oct",
+          "type": "number",
+          "placeholder": "Enter oct value",
+          "required": false
+        },
+        {
+          "id": "social_media_organic_nov_2",
+          "label": "Social Media (Organic) - Nov",
+          "type": "number",
+          "placeholder": "Enter nov value",
+          "required": false
+        },
+        {
+          "id": "social_media_organic_dec_2",
+          "label": "Social Media (Organic) - Dec",
+          "type": "number",
+          "placeholder": "Enter dec value",
+          "required": false
+        },
+        {
+          "id": "content_production_jan_2",
+          "label": "Content Production - Jan",
+          "type": "number",
+          "placeholder": "Enter jan value",
+          "required": false
+        },
+        {
+          "id": "content_production_feb_2",
+          "label": "Content Production - Feb",
+          "type": "number",
+          "placeholder": "Enter feb value",
+          "required": false
+        },
+        {
+          "id": "content_production_mar_2",
+          "label": "Content Production - Mar",
+          "type": "number",
+          "placeholder": "Enter mar value",
+          "required": false
+        },
+        {
+          "id": "content_production_apr_2",
+          "label": "Content Production - Apr",
+          "type": "number",
+          "placeholder": "Enter apr value",
+          "required": false
+        },
+        {
+          "id": "content_production_may_2",
+          "label": "Content Production - May",
+          "type": "number",
+          "placeholder": "Enter may value",
+          "required": false
+        },
+        {
+          "id": "content_production_jun_2",
+          "label": "Content Production - Jun",
+          "type": "number",
+          "placeholder": "Enter jun value",
+          "required": false
+        },
+        {
+          "id": "content_production_jul_2",
+          "label": "Content Production - Jul",
+          "type": "number",
+          "placeholder": "Enter jul value",
+          "required": false
+        },
+        {
+          "id": "content_production_aug_2",
+          "label": "Content Production - Aug",
+          "type": "number",
+          "placeholder": "Enter aug value",
+          "required": false
+        },
+        {
+          "id": "content_production_sep_2",
+          "label": "Content Production - Sep",
+          "type": "number",
+          "placeholder": "Enter sep value",
+          "required": false
+        },
+        {
+          "id": "content_production_oct_2",
+          "label": "Content Production - Oct",
+          "type": "number",
+          "placeholder": "Enter oct value",
+          "required": false
+        },
+        {
+          "id": "content_production_nov_2",
+          "label": "Content Production - Nov",
+          "type": "number",
+          "placeholder": "Enter nov value",
+          "required": false
+        },
+        {
+          "id": "content_production_dec_2",
+          "label": "Content Production - Dec",
+          "type": "number",
+          "placeholder": "Enter dec value",
+          "required": false
+        },
+        {
+          "id": "seo_website_jan_2",
+          "label": "SEO & Website - Jan",
+          "type": "number",
+          "placeholder": "Enter jan value",
+          "required": false
+        },
+        {
+          "id": "seo_website_feb_2",
+          "label": "SEO & Website - Feb",
+          "type": "number",
+          "placeholder": "Enter feb value",
+          "required": false
+        },
+        {
+          "id": "seo_website_mar_2",
+          "label": "SEO & Website - Mar",
+          "type": "number",
+          "placeholder": "Enter mar value",
+          "required": false
+        },
+        {
+          "id": "seo_website_apr_2",
+          "label": "SEO & Website - Apr",
+          "type": "number",
+          "placeholder": "Enter apr value",
+          "required": false
+        },
+        {
+          "id": "seo_website_may_2",
+          "label": "SEO & Website - May",
+          "type": "number",
+          "placeholder": "Enter may value",
+          "required": false
+        },
+        {
+          "id": "seo_website_jun_2",
+          "label": "SEO & Website - Jun",
+          "type": "number",
+          "placeholder": "Enter jun value",
+          "required": false
+        },
+        {
+          "id": "seo_website_jul_2",
+          "label": "SEO & Website - Jul",
+          "type": "number",
+          "placeholder": "Enter jul value",
+          "required": false
+        },
+        {
+          "id": "seo_website_aug_2",
+          "label": "SEO & Website - Aug",
+          "type": "number",
+          "placeholder": "Enter aug value",
+          "required": false
+        },
+        {
+          "id": "seo_website_sep_2",
+          "label": "SEO & Website - Sep",
+          "type": "number",
+          "placeholder": "Enter sep value",
+          "required": false
+        },
+        {
+          "id": "seo_website_oct_2",
+          "label": "SEO & Website - Oct",
+          "type": "number",
+          "placeholder": "Enter oct value",
+          "required": false
+        },
+        {
+          "id": "seo_website_nov_2",
+          "label": "SEO & Website - Nov",
+          "type": "number",
+          "placeholder": "Enter nov value",
+          "required": false
+        },
+        {
+          "id": "seo_website_dec_2",
+          "label": "SEO & Website - Dec",
+          "type": "number",
+          "placeholder": "Enter dec value",
+          "required": false
+        },
+        {
+          "id": "email_marketing_jan_2",
+          "label": "Email Marketing - Jan",
+          "type": "number",
+          "placeholder": "Enter jan value",
+          "required": false
+        },
+        {
+          "id": "email_marketing_feb_2",
+          "label": "Email Marketing - Feb",
+          "type": "number",
+          "placeholder": "Enter feb value",
+          "required": false
+        },
+        {
+          "id": "email_marketing_mar_2",
+          "label": "Email Marketing - Mar",
+          "type": "number",
+          "placeholder": "Enter mar value",
+          "required": false
+        },
+        {
+          "id": "email_marketing_apr_2",
+          "label": "Email Marketing - Apr",
+          "type": "number",
+          "placeholder": "Enter apr value",
+          "required": false
+        },
+        {
+          "id": "email_marketing_may_2",
+          "label": "Email Marketing - May",
+          "type": "number",
+          "placeholder": "Enter may value",
+          "required": false
+        },
+        {
+          "id": "email_marketing_jun_2",
+          "label": "Email Marketing - Jun",
+          "type": "number",
+          "placeholder": "Enter jun value",
+          "required": false
+        },
+        {
+          "id": "email_marketing_jul_2",
+          "label": "Email Marketing - Jul",
+          "type": "number",
+          "placeholder": "Enter jul value",
+          "required": false
+        },
+        {
+          "id": "email_marketing_aug_2",
+          "label": "Email Marketing - Aug",
+          "type": "number",
+          "placeholder": "Enter aug value",
+          "required": false
+        },
+        {
+          "id": "email_marketing_sep_2",
+          "label": "Email Marketing - Sep",
+          "type": "number",
+          "placeholder": "Enter sep value",
+          "required": false
+        },
+        {
+          "id": "email_marketing_oct_2",
+          "label": "Email Marketing - Oct",
+          "type": "number",
+          "placeholder": "Enter oct value",
+          "required": false
+        },
+        {
+          "id": "email_marketing_nov_2",
+          "label": "Email Marketing - Nov",
+          "type": "number",
+          "placeholder": "Enter nov value",
+          "required": false
+        },
+        {
+          "id": "email_marketing_dec_2",
+          "label": "Email Marketing - Dec",
+          "type": "number",
+          "placeholder": "Enter dec value",
+          "required": false
+        },
+        {
+          "id": "events_sponsorships_jan_2",
+          "label": "Events & Sponsorships - Jan",
+          "type": "number",
+          "placeholder": "Enter jan value",
+          "required": false
+        },
+        {
+          "id": "events_sponsorships_feb_2",
+          "label": "Events & Sponsorships - Feb",
+          "type": "number",
+          "placeholder": "Enter feb value",
+          "required": false
+        },
+        {
+          "id": "events_sponsorships_mar_2",
+          "label": "Events & Sponsorships - Mar",
+          "type": "number",
+          "placeholder": "Enter mar value",
+          "required": false
+        },
+        {
+          "id": "events_sponsorships_apr_2",
+          "label": "Events & Sponsorships - Apr",
+          "type": "number",
+          "placeholder": "Enter apr value",
+          "required": false
+        },
+        {
+          "id": "events_sponsorships_may_2",
+          "label": "Events & Sponsorships - May",
+          "type": "number",
+          "placeholder": "Enter may value",
+          "required": false
+        },
+        {
+          "id": "events_sponsorships_jun_2",
+          "label": "Events & Sponsorships - Jun",
+          "type": "number",
+          "placeholder": "Enter jun value",
+          "required": false
+        },
+        {
+          "id": "events_sponsorships_jul_2",
+          "label": "Events & Sponsorships - Jul",
+          "type": "number",
+          "placeholder": "Enter jul value",
+          "required": false
+        },
+        {
+          "id": "events_sponsorships_aug_2",
+          "label": "Events & Sponsorships - Aug",
+          "type": "number",
+          "placeholder": "Enter aug value",
+          "required": false
+        },
+        {
+          "id": "events_sponsorships_sep_2",
+          "label": "Events & Sponsorships - Sep",
+          "type": "number",
+          "placeholder": "Enter sep value",
+          "required": false
+        },
+        {
+          "id": "events_sponsorships_oct_2",
+          "label": "Events & Sponsorships - Oct",
+          "type": "number",
+          "placeholder": "Enter oct value",
+          "required": false
+        },
+        {
+          "id": "events_sponsorships_nov_2",
+          "label": "Events & Sponsorships - Nov",
+          "type": "number",
+          "placeholder": "Enter nov value",
+          "required": false
+        },
+        {
+          "id": "events_sponsorships_dec_2",
+          "label": "Events & Sponsorships - Dec",
+          "type": "number",
+          "placeholder": "Enter dec value",
+          "required": false
+        },
+        {
+          "id": "pr_communications_jan_2",
+          "label": "PR & Communications - Jan",
+          "type": "number",
+          "placeholder": "Enter jan value",
+          "required": false
+        },
+        {
+          "id": "pr_communications_feb_2",
+          "label": "PR & Communications - Feb",
+          "type": "number",
+          "placeholder": "Enter feb value",
+          "required": false
+        },
+        {
+          "id": "pr_communications_mar_2",
+          "label": "PR & Communications - Mar",
+          "type": "number",
+          "placeholder": "Enter mar value",
+          "required": false
+        },
+        {
+          "id": "pr_communications_apr_2",
+          "label": "PR & Communications - Apr",
+          "type": "number",
+          "placeholder": "Enter apr value",
+          "required": false
+        },
+        {
+          "id": "pr_communications_may_2",
+          "label": "PR & Communications - May",
+          "type": "number",
+          "placeholder": "Enter may value",
+          "required": false
+        },
+        {
+          "id": "pr_communications_jun_2",
+          "label": "PR & Communications - Jun",
+          "type": "number",
+          "placeholder": "Enter jun value",
+          "required": false
+        },
+        {
+          "id": "pr_communications_jul_2",
+          "label": "PR & Communications - Jul",
+          "type": "number",
+          "placeholder": "Enter jul value",
+          "required": false
+        },
+        {
+          "id": "pr_communications_aug_2",
+          "label": "PR & Communications - Aug",
+          "type": "number",
+          "placeholder": "Enter aug value",
+          "required": false
+        },
+        {
+          "id": "pr_communications_sep_2",
+          "label": "PR & Communications - Sep",
+          "type": "number",
+          "placeholder": "Enter sep value",
+          "required": false
+        },
+        {
+          "id": "pr_communications_oct_2",
+          "label": "PR & Communications - Oct",
+          "type": "number",
+          "placeholder": "Enter oct value",
+          "required": false
+        },
+        {
+          "id": "pr_communications_nov_2",
+          "label": "PR & Communications - Nov",
+          "type": "number",
+          "placeholder": "Enter nov value",
+          "required": false
+        },
+        {
+          "id": "pr_communications_dec_2",
+          "label": "PR & Communications - Dec",
+          "type": "number",
+          "placeholder": "Enter dec value",
+          "required": false
+        },
+        {
+          "id": "marketing_technology_tools_jan_2",
+          "label": "Marketing Technology / Tools - Jan",
+          "type": "number",
+          "placeholder": "Enter jan value",
+          "required": false
+        },
+        {
+          "id": "marketing_technology_tools_feb_2",
+          "label": "Marketing Technology / Tools - Feb",
+          "type": "number",
+          "placeholder": "Enter feb value",
+          "required": false
+        },
+        {
+          "id": "marketing_technology_tools_mar_2",
+          "label": "Marketing Technology / Tools - Mar",
+          "type": "number",
+          "placeholder": "Enter mar value",
+          "required": false
+        },
+        {
+          "id": "marketing_technology_tools_apr_2",
+          "label": "Marketing Technology / Tools - Apr",
+          "type": "number",
+          "placeholder": "Enter apr value",
+          "required": false
+        },
+        {
+          "id": "marketing_technology_tools_may_2",
+          "label": "Marketing Technology / Tools - May",
+          "type": "number",
+          "placeholder": "Enter may value",
+          "required": false
+        },
+        {
+          "id": "marketing_technology_tools_jun_2",
+          "label": "Marketing Technology / Tools - Jun",
+          "type": "number",
+          "placeholder": "Enter jun value",
+          "required": false
+        },
+        {
+          "id": "marketing_technology_tools_jul_2",
+          "label": "Marketing Technology / Tools - Jul",
+          "type": "number",
+          "placeholder": "Enter jul value",
+          "required": false
+        },
+        {
+          "id": "marketing_technology_tools_aug_2",
+          "label": "Marketing Technology / Tools - Aug",
+          "type": "number",
+          "placeholder": "Enter aug value",
+          "required": false
+        },
+        {
+          "id": "marketing_technology_tools_sep_2",
+          "label": "Marketing Technology / Tools - Sep",
+          "type": "number",
+          "placeholder": "Enter sep value",
+          "required": false
+        },
+        {
+          "id": "marketing_technology_tools_oct_2",
+          "label": "Marketing Technology / Tools - Oct",
+          "type": "number",
+          "placeholder": "Enter oct value",
+          "required": false
+        },
+        {
+          "id": "marketing_technology_tools_nov_2",
+          "label": "Marketing Technology / Tools - Nov",
+          "type": "number",
+          "placeholder": "Enter nov value",
+          "required": false
+        },
+        {
+          "id": "marketing_technology_tools_dec_2",
+          "label": "Marketing Technology / Tools - Dec",
+          "type": "number",
+          "placeholder": "Enter dec value",
+          "required": false
+        },
+        {
+          "id": "creative_design_jan_2",
+          "label": "Creative & Design - Jan",
+          "type": "number",
+          "placeholder": "Enter jan value",
+          "required": false
+        },
+        {
+          "id": "creative_design_feb_2",
+          "label": "Creative & Design - Feb",
+          "type": "number",
+          "placeholder": "Enter feb value",
+          "required": false
+        },
+        {
+          "id": "creative_design_mar_2",
+          "label": "Creative & Design - Mar",
+          "type": "number",
+          "placeholder": "Enter mar value",
+          "required": false
+        },
+        {
+          "id": "creative_design_apr_2",
+          "label": "Creative & Design - Apr",
+          "type": "number",
+          "placeholder": "Enter apr value",
+          "required": false
+        },
+        {
+          "id": "creative_design_may_2",
+          "label": "Creative & Design - May",
+          "type": "number",
+          "placeholder": "Enter may value",
+          "required": false
+        },
+        {
+          "id": "creative_design_jun_2",
+          "label": "Creative & Design - Jun",
+          "type": "number",
+          "placeholder": "Enter jun value",
+          "required": false
+        },
+        {
+          "id": "creative_design_jul_2",
+          "label": "Creative & Design - Jul",
+          "type": "number",
+          "placeholder": "Enter jul value",
+          "required": false
+        },
+        {
+          "id": "creative_design_aug_2",
+          "label": "Creative & Design - Aug",
+          "type": "number",
+          "placeholder": "Enter aug value",
+          "required": false
+        },
+        {
+          "id": "creative_design_sep_2",
+          "label": "Creative & Design - Sep",
+          "type": "number",
+          "placeholder": "Enter sep value",
+          "required": false
+        },
+        {
+          "id": "creative_design_oct_2",
+          "label": "Creative & Design - Oct",
+          "type": "number",
+          "placeholder": "Enter oct value",
+          "required": false
+        },
+        {
+          "id": "creative_design_nov_2",
+          "label": "Creative & Design - Nov",
+          "type": "number",
+          "placeholder": "Enter nov value",
+          "required": false
+        },
+        {
+          "id": "creative_design_dec_2",
+          "label": "Creative & Design - Dec",
+          "type": "number",
+          "placeholder": "Enter dec value",
+          "required": false
+        },
+        {
+          "id": "market_research_jan_2",
+          "label": "Market Research - Jan",
+          "type": "number",
+          "placeholder": "Enter jan value",
+          "required": false
+        },
+        {
+          "id": "market_research_feb_2",
+          "label": "Market Research - Feb",
+          "type": "number",
+          "placeholder": "Enter feb value",
+          "required": false
+        },
+        {
+          "id": "market_research_mar_2",
+          "label": "Market Research - Mar",
+          "type": "number",
+          "placeholder": "Enter mar value",
+          "required": false
+        },
+        {
+          "id": "market_research_apr_2",
+          "label": "Market Research - Apr",
+          "type": "number",
+          "placeholder": "Enter apr value",
+          "required": false
+        },
+        {
+          "id": "market_research_may_2",
+          "label": "Market Research - May",
+          "type": "number",
+          "placeholder": "Enter may value",
+          "required": false
+        },
+        {
+          "id": "market_research_jun_2",
+          "label": "Market Research - Jun",
+          "type": "number",
+          "placeholder": "Enter jun value",
+          "required": false
+        },
+        {
+          "id": "market_research_jul_2",
+          "label": "Market Research - Jul",
+          "type": "number",
+          "placeholder": "Enter jul value",
+          "required": false
+        },
+        {
+          "id": "market_research_aug_2",
+          "label": "Market Research - Aug",
+          "type": "number",
+          "placeholder": "Enter aug value",
+          "required": false
+        },
+        {
+          "id": "market_research_sep_2",
+          "label": "Market Research - Sep",
+          "type": "number",
+          "placeholder": "Enter sep value",
+          "required": false
+        },
+        {
+          "id": "market_research_oct_2",
+          "label": "Market Research - Oct",
+          "type": "number",
+          "placeholder": "Enter oct value",
+          "required": false
+        },
+        {
+          "id": "market_research_nov_2",
+          "label": "Market Research - Nov",
+          "type": "number",
+          "placeholder": "Enter nov value",
+          "required": false
+        },
+        {
+          "id": "market_research_dec_2",
+          "label": "Market Research - Dec",
+          "type": "number",
+          "placeholder": "Enter dec value",
+          "required": false
+        },
+        {
+          "id": "partnerships_affiliates_jan_2",
+          "label": "Partnerships & Affiliates - Jan",
+          "type": "number",
+          "placeholder": "Enter jan value",
+          "required": false
+        },
+        {
+          "id": "partnerships_affiliates_feb_2",
+          "label": "Partnerships & Affiliates - Feb",
+          "type": "number",
+          "placeholder": "Enter feb value",
+          "required": false
+        },
+        {
+          "id": "partnerships_affiliates_mar_2",
+          "label": "Partnerships & Affiliates - Mar",
+          "type": "number",
+          "placeholder": "Enter mar value",
+          "required": false
+        },
+        {
+          "id": "partnerships_affiliates_apr_2",
+          "label": "Partnerships & Affiliates - Apr",
+          "type": "number",
+          "placeholder": "Enter apr value",
+          "required": false
+        },
+        {
+          "id": "partnerships_affiliates_may_2",
+          "label": "Partnerships & Affiliates - May",
+          "type": "number",
+          "placeholder": "Enter may value",
+          "required": false
+        },
+        {
+          "id": "partnerships_affiliates_jun_2",
+          "label": "Partnerships & Affiliates - Jun",
+          "type": "number",
+          "placeholder": "Enter jun value",
+          "required": false
+        },
+        {
+          "id": "partnerships_affiliates_jul_2",
+          "label": "Partnerships & Affiliates - Jul",
+          "type": "number",
+          "placeholder": "Enter jul value",
+          "required": false
+        },
+        {
+          "id": "partnerships_affiliates_aug_2",
+          "label": "Partnerships & Affiliates - Aug",
+          "type": "number",
+          "placeholder": "Enter aug value",
+          "required": false
+        },
+        {
+          "id": "partnerships_affiliates_sep_2",
+          "label": "Partnerships & Affiliates - Sep",
+          "type": "number",
+          "placeholder": "Enter sep value",
+          "required": false
+        },
+        {
+          "id": "partnerships_affiliates_oct_2",
+          "label": "Partnerships & Affiliates - Oct",
+          "type": "number",
+          "placeholder": "Enter oct value",
+          "required": false
+        },
+        {
+          "id": "partnerships_affiliates_nov_2",
+          "label": "Partnerships & Affiliates - Nov",
+          "type": "number",
+          "placeholder": "Enter nov value",
+          "required": false
+        },
+        {
+          "id": "partnerships_affiliates_dec_2",
+          "label": "Partnerships & Affiliates - Dec",
+          "type": "number",
+          "placeholder": "Enter dec value",
+          "required": false
+        },
+        {
+          "id": "other_contingency_jan_2",
+          "label": "Other / Contingency - Jan",
+          "type": "number",
+          "placeholder": "Enter jan value",
+          "required": false
+        },
+        {
+          "id": "other_contingency_feb_2",
+          "label": "Other / Contingency - Feb",
+          "type": "number",
+          "placeholder": "Enter feb value",
+          "required": false
+        },
+        {
+          "id": "other_contingency_mar_2",
+          "label": "Other / Contingency - Mar",
+          "type": "number",
+          "placeholder": "Enter mar value",
+          "required": false
+        },
+        {
+          "id": "other_contingency_apr_2",
+          "label": "Other / Contingency - Apr",
+          "type": "number",
+          "placeholder": "Enter apr value",
+          "required": false
+        },
+        {
+          "id": "other_contingency_may_2",
+          "label": "Other / Contingency - May",
+          "type": "number",
+          "placeholder": "Enter may value",
+          "required": false
+        },
+        {
+          "id": "other_contingency_jun_2",
+          "label": "Other / Contingency - Jun",
+          "type": "number",
+          "placeholder": "Enter jun value",
+          "required": false
+        },
+        {
+          "id": "other_contingency_jul_2",
+          "label": "Other / Contingency - Jul",
+          "type": "number",
+          "placeholder": "Enter jul value",
+          "required": false
+        },
+        {
+          "id": "other_contingency_aug_2",
+          "label": "Other / Contingency - Aug",
+          "type": "number",
+          "placeholder": "Enter aug value",
+          "required": false
+        },
+        {
+          "id": "other_contingency_sep_2",
+          "label": "Other / Contingency - Sep",
+          "type": "number",
+          "placeholder": "Enter sep value",
+          "required": false
+        },
+        {
+          "id": "other_contingency_oct_2",
+          "label": "Other / Contingency - Oct",
+          "type": "number",
+          "placeholder": "Enter oct value",
+          "required": false
+        },
+        {
+          "id": "other_contingency_nov_2",
+          "label": "Other / Contingency - Nov",
+          "type": "number",
+          "placeholder": "Enter nov value",
+          "required": false
+        },
+        {
+          "id": "other_contingency_dec_2",
+          "label": "Other / Contingency - Dec",
+          "type": "number",
+          "placeholder": "Enter dec value",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "roi_tracker",
+      "title": "ROI Tracker",
+      "description": "Enter data for each item",
+      "fields": [
+        {
+          "id": "paid_digital_advertising_total_spend",
+          "label": "Paid Digital Advertising - Total Spend",
+          "type": "number",
+          "placeholder": "Enter total spend",
+          "required": false
+        },
+        {
+          "id": "paid_digital_advertising_revenue_generated",
+          "label": "Paid Digital Advertising - Revenue Generated",
+          "type": "number",
+          "placeholder": "Enter revenue generated",
+          "required": false
+        },
+        {
+          "id": "paid_digital_advertising_leads_generated",
+          "label": "Paid Digital Advertising - Leads Generated",
+          "type": "number",
+          "placeholder": "Enter leads generated",
+          "required": false
+        },
+        {
+          "id": "paid_digital_advertising_roi",
+          "label": "Paid Digital Advertising - ROI %",
+          "type": "number",
+          "placeholder": "Enter roi %",
+          "required": false
+        },
+        {
+          "id": "paid_digital_advertising_cost_per_lead",
+          "label": "Paid Digital Advertising - Cost per Lead",
+          "type": "number",
+          "placeholder": "Enter cost per lead",
+          "required": false
+        },
+        {
+          "id": "paid_digital_advertising_verdict",
+          "label": "Paid Digital Advertising - Verdict",
+          "type": "select",
+          "placeholder": "Enter verdict",
+          "required": false,
+          "options": [
+            "Strong",
+            "Good",
+            "Needs Work",
+            "Critical",
+            "No Data"
+          ]
+        },
+        {
+          "id": "social_media_organic_total_spend",
+          "label": "Social Media (Organic) - Total Spend",
+          "type": "number",
+          "placeholder": "Enter total spend",
+          "required": false
+        },
+        {
+          "id": "social_media_organic_revenue_generated",
+          "label": "Social Media (Organic) - Revenue Generated",
+          "type": "number",
+          "placeholder": "Enter revenue generated",
+          "required": false
+        },
+        {
+          "id": "social_media_organic_leads_generated",
+          "label": "Social Media (Organic) - Leads Generated",
+          "type": "number",
+          "placeholder": "Enter leads generated",
+          "required": false
+        },
+        {
+          "id": "social_media_organic_roi",
+          "label": "Social Media (Organic) - ROI %",
+          "type": "number",
+          "placeholder": "Enter roi %",
+          "required": false
+        },
+        {
+          "id": "social_media_organic_cost_per_lead",
+          "label": "Social Media (Organic) - Cost per Lead",
+          "type": "number",
+          "placeholder": "Enter cost per lead",
+          "required": false
+        },
+        {
+          "id": "social_media_organic_verdict",
+          "label": "Social Media (Organic) - Verdict",
+          "type": "select",
+          "placeholder": "Enter verdict",
+          "required": false,
+          "options": [
+            "Strong",
+            "Good",
+            "Needs Work",
+            "Critical",
+            "No Data"
+          ]
+        },
+        {
+          "id": "content_production_total_spend",
+          "label": "Content Production - Total Spend",
+          "type": "number",
+          "placeholder": "Enter total spend",
+          "required": false
+        },
+        {
+          "id": "content_production_revenue_generated",
+          "label": "Content Production - Revenue Generated",
+          "type": "number",
+          "placeholder": "Enter revenue generated",
+          "required": false
+        },
+        {
+          "id": "content_production_leads_generated",
+          "label": "Content Production - Leads Generated",
+          "type": "number",
+          "placeholder": "Enter leads generated",
+          "required": false
+        },
+        {
+          "id": "content_production_roi",
+          "label": "Content Production - ROI %",
+          "type": "number",
+          "placeholder": "Enter roi %",
+          "required": false
+        },
+        {
+          "id": "content_production_cost_per_lead",
+          "label": "Content Production - Cost per Lead",
+          "type": "number",
+          "placeholder": "Enter cost per lead",
+          "required": false
+        },
+        {
+          "id": "content_production_verdict",
+          "label": "Content Production - Verdict",
+          "type": "select",
+          "placeholder": "Enter verdict",
+          "required": false,
+          "options": [
+            "Strong",
+            "Good",
+            "Needs Work",
+            "Critical",
+            "No Data"
+          ]
+        },
+        {
+          "id": "seo_website_total_spend",
+          "label": "SEO & Website - Total Spend",
+          "type": "number",
+          "placeholder": "Enter total spend",
+          "required": false
+        },
+        {
+          "id": "seo_website_revenue_generated",
+          "label": "SEO & Website - Revenue Generated",
+          "type": "number",
+          "placeholder": "Enter revenue generated",
+          "required": false
+        },
+        {
+          "id": "seo_website_leads_generated",
+          "label": "SEO & Website - Leads Generated",
+          "type": "number",
+          "placeholder": "Enter leads generated",
+          "required": false
+        },
+        {
+          "id": "seo_website_roi",
+          "label": "SEO & Website - ROI %",
+          "type": "number",
+          "placeholder": "Enter roi %",
+          "required": false
+        },
+        {
+          "id": "seo_website_cost_per_lead",
+          "label": "SEO & Website - Cost per Lead",
+          "type": "number",
+          "placeholder": "Enter cost per lead",
+          "required": false
+        },
+        {
+          "id": "seo_website_verdict",
+          "label": "SEO & Website - Verdict",
+          "type": "select",
+          "placeholder": "Enter verdict",
+          "required": false,
+          "options": [
+            "Strong",
+            "Good",
+            "Needs Work",
+            "Critical",
+            "No Data"
+          ]
+        },
+        {
+          "id": "email_marketing_total_spend",
+          "label": "Email Marketing - Total Spend",
+          "type": "number",
+          "placeholder": "Enter total spend",
+          "required": false
+        },
+        {
+          "id": "email_marketing_revenue_generated",
+          "label": "Email Marketing - Revenue Generated",
+          "type": "number",
+          "placeholder": "Enter revenue generated",
+          "required": false
+        },
+        {
+          "id": "email_marketing_leads_generated",
+          "label": "Email Marketing - Leads Generated",
+          "type": "number",
+          "placeholder": "Enter leads generated",
+          "required": false
+        },
+        {
+          "id": "email_marketing_roi",
+          "label": "Email Marketing - ROI %",
+          "type": "number",
+          "placeholder": "Enter roi %",
+          "required": false
+        },
+        {
+          "id": "email_marketing_cost_per_lead",
+          "label": "Email Marketing - Cost per Lead",
+          "type": "number",
+          "placeholder": "Enter cost per lead",
+          "required": false
+        },
+        {
+          "id": "email_marketing_verdict",
+          "label": "Email Marketing - Verdict",
+          "type": "select",
+          "placeholder": "Enter verdict",
+          "required": false,
+          "options": [
+            "Strong",
+            "Good",
+            "Needs Work",
+            "Critical",
+            "No Data"
+          ]
+        },
+        {
+          "id": "events_sponsorships_total_spend",
+          "label": "Events & Sponsorships - Total Spend",
+          "type": "number",
+          "placeholder": "Enter total spend",
+          "required": false
+        },
+        {
+          "id": "events_sponsorships_revenue_generated",
+          "label": "Events & Sponsorships - Revenue Generated",
+          "type": "number",
+          "placeholder": "Enter revenue generated",
+          "required": false
+        },
+        {
+          "id": "events_sponsorships_leads_generated",
+          "label": "Events & Sponsorships - Leads Generated",
+          "type": "number",
+          "placeholder": "Enter leads generated",
+          "required": false
+        },
+        {
+          "id": "events_sponsorships_roi",
+          "label": "Events & Sponsorships - ROI %",
+          "type": "number",
+          "placeholder": "Enter roi %",
+          "required": false
+        },
+        {
+          "id": "events_sponsorships_cost_per_lead",
+          "label": "Events & Sponsorships - Cost per Lead",
+          "type": "number",
+          "placeholder": "Enter cost per lead",
+          "required": false
+        },
+        {
+          "id": "events_sponsorships_verdict",
+          "label": "Events & Sponsorships - Verdict",
+          "type": "select",
+          "placeholder": "Enter verdict",
+          "required": false,
+          "options": [
+            "Strong",
+            "Good",
+            "Needs Work",
+            "Critical",
+            "No Data"
+          ]
+        },
+        {
+          "id": "pr_communications_total_spend",
+          "label": "PR & Communications - Total Spend",
+          "type": "number",
+          "placeholder": "Enter total spend",
+          "required": false
+        },
+        {
+          "id": "pr_communications_revenue_generated",
+          "label": "PR & Communications - Revenue Generated",
+          "type": "number",
+          "placeholder": "Enter revenue generated",
+          "required": false
+        },
+        {
+          "id": "pr_communications_leads_generated",
+          "label": "PR & Communications - Leads Generated",
+          "type": "number",
+          "placeholder": "Enter leads generated",
+          "required": false
+        },
+        {
+          "id": "pr_communications_roi",
+          "label": "PR & Communications - ROI %",
+          "type": "number",
+          "placeholder": "Enter roi %",
+          "required": false
+        },
+        {
+          "id": "pr_communications_cost_per_lead",
+          "label": "PR & Communications - Cost per Lead",
+          "type": "number",
+          "placeholder": "Enter cost per lead",
+          "required": false
+        },
+        {
+          "id": "pr_communications_verdict",
+          "label": "PR & Communications - Verdict",
+          "type": "select",
+          "placeholder": "Enter verdict",
+          "required": false,
+          "options": [
+            "Strong",
+            "Good",
+            "Needs Work",
+            "Critical",
+            "No Data"
+          ]
+        },
+        {
+          "id": "marketing_technology_tools_total_spend",
+          "label": "Marketing Technology / Tools - Total Spend",
+          "type": "number",
+          "placeholder": "Enter total spend",
+          "required": false
+        },
+        {
+          "id": "marketing_technology_tools_revenue_generated",
+          "label": "Marketing Technology / Tools - Revenue Generated",
+          "type": "number",
+          "placeholder": "Enter revenue generated",
+          "required": false
+        },
+        {
+          "id": "marketing_technology_tools_leads_generated",
+          "label": "Marketing Technology / Tools - Leads Generated",
+          "type": "number",
+          "placeholder": "Enter leads generated",
+          "required": false
+        },
+        {
+          "id": "marketing_technology_tools_roi",
+          "label": "Marketing Technology / Tools - ROI %",
+          "type": "number",
+          "placeholder": "Enter roi %",
+          "required": false
+        },
+        {
+          "id": "marketing_technology_tools_cost_per_lead",
+          "label": "Marketing Technology / Tools - Cost per Lead",
+          "type": "number",
+          "placeholder": "Enter cost per lead",
+          "required": false
+        },
+        {
+          "id": "marketing_technology_tools_verdict",
+          "label": "Marketing Technology / Tools - Verdict",
+          "type": "select",
+          "placeholder": "Enter verdict",
+          "required": false,
+          "options": [
+            "Strong",
+            "Good",
+            "Needs Work",
+            "Critical",
+            "No Data"
+          ]
+        },
+        {
+          "id": "creative_design_total_spend",
+          "label": "Creative & Design - Total Spend",
+          "type": "number",
+          "placeholder": "Enter total spend",
+          "required": false
+        },
+        {
+          "id": "creative_design_revenue_generated",
+          "label": "Creative & Design - Revenue Generated",
+          "type": "number",
+          "placeholder": "Enter revenue generated",
+          "required": false
+        },
+        {
+          "id": "creative_design_leads_generated",
+          "label": "Creative & Design - Leads Generated",
+          "type": "number",
+          "placeholder": "Enter leads generated",
+          "required": false
+        },
+        {
+          "id": "creative_design_roi",
+          "label": "Creative & Design - ROI %",
+          "type": "number",
+          "placeholder": "Enter roi %",
+          "required": false
+        },
+        {
+          "id": "creative_design_cost_per_lead",
+          "label": "Creative & Design - Cost per Lead",
+          "type": "number",
+          "placeholder": "Enter cost per lead",
+          "required": false
+        },
+        {
+          "id": "creative_design_verdict",
+          "label": "Creative & Design - Verdict",
+          "type": "select",
+          "placeholder": "Enter verdict",
+          "required": false,
+          "options": [
+            "Strong",
+            "Good",
+            "Needs Work",
+            "Critical",
+            "No Data"
+          ]
+        },
+        {
+          "id": "market_research_total_spend",
+          "label": "Market Research - Total Spend",
+          "type": "number",
+          "placeholder": "Enter total spend",
+          "required": false
+        },
+        {
+          "id": "market_research_revenue_generated",
+          "label": "Market Research - Revenue Generated",
+          "type": "number",
+          "placeholder": "Enter revenue generated",
+          "required": false
+        },
+        {
+          "id": "market_research_leads_generated",
+          "label": "Market Research - Leads Generated",
+          "type": "number",
+          "placeholder": "Enter leads generated",
+          "required": false
+        },
+        {
+          "id": "market_research_roi",
+          "label": "Market Research - ROI %",
+          "type": "number",
+          "placeholder": "Enter roi %",
+          "required": false
+        },
+        {
+          "id": "market_research_cost_per_lead",
+          "label": "Market Research - Cost per Lead",
+          "type": "number",
+          "placeholder": "Enter cost per lead",
+          "required": false
+        },
+        {
+          "id": "market_research_verdict",
+          "label": "Market Research - Verdict",
+          "type": "select",
+          "placeholder": "Enter verdict",
+          "required": false,
+          "options": [
+            "Strong",
+            "Good",
+            "Needs Work",
+            "Critical",
+            "No Data"
+          ]
+        },
+        {
+          "id": "partnerships_affiliates_total_spend",
+          "label": "Partnerships & Affiliates - Total Spend",
+          "type": "number",
+          "placeholder": "Enter total spend",
+          "required": false
+        },
+        {
+          "id": "partnerships_affiliates_revenue_generated",
+          "label": "Partnerships & Affiliates - Revenue Generated",
+          "type": "number",
+          "placeholder": "Enter revenue generated",
+          "required": false
+        },
+        {
+          "id": "partnerships_affiliates_leads_generated",
+          "label": "Partnerships & Affiliates - Leads Generated",
+          "type": "number",
+          "placeholder": "Enter leads generated",
+          "required": false
+        },
+        {
+          "id": "partnerships_affiliates_roi",
+          "label": "Partnerships & Affiliates - ROI %",
+          "type": "number",
+          "placeholder": "Enter roi %",
+          "required": false
+        },
+        {
+          "id": "partnerships_affiliates_cost_per_lead",
+          "label": "Partnerships & Affiliates - Cost per Lead",
+          "type": "number",
+          "placeholder": "Enter cost per lead",
+          "required": false
+        },
+        {
+          "id": "partnerships_affiliates_verdict",
+          "label": "Partnerships & Affiliates - Verdict",
+          "type": "select",
+          "placeholder": "Enter verdict",
+          "required": false,
+          "options": [
+            "Strong",
+            "Good",
+            "Needs Work",
+            "Critical",
+            "No Data"
+          ]
+        },
+        {
+          "id": "other_contingency_total_spend",
+          "label": "Other / Contingency - Total Spend",
+          "type": "number",
+          "placeholder": "Enter total spend",
+          "required": false
+        },
+        {
+          "id": "other_contingency_revenue_generated",
+          "label": "Other / Contingency - Revenue Generated",
+          "type": "number",
+          "placeholder": "Enter revenue generated",
+          "required": false
+        },
+        {
+          "id": "other_contingency_leads_generated",
+          "label": "Other / Contingency - Leads Generated",
+          "type": "number",
+          "placeholder": "Enter leads generated",
+          "required": false
+        },
+        {
+          "id": "other_contingency_roi",
+          "label": "Other / Contingency - ROI %",
+          "type": "number",
+          "placeholder": "Enter roi %",
+          "required": false
+        },
+        {
+          "id": "other_contingency_cost_per_lead",
+          "label": "Other / Contingency - Cost per Lead",
+          "type": "number",
+          "placeholder": "Enter cost per lead",
+          "required": false
+        },
+        {
+          "id": "other_contingency_verdict",
+          "label": "Other / Contingency - Verdict",
+          "type": "select",
+          "placeholder": "Enter verdict",
+          "required": false,
+          "options": [
+            "Strong",
+            "Good",
+            "Needs Work",
+            "Critical",
+            "No Data"
+          ]
+        }
+      ]
+    }
+  ]
 }

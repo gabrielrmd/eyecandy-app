@@ -10,764 +10,6 @@
     "strategy"
   ],
   "estimatedTime": "60 min",
-  "sections": [
-    {
-      "id": "dashboard",
-      "title": "Dashboard",
-      "description": "Complete the Dashboard section",
-      "fields": [
-        {
-          "id": "total_key_results_0",
-          "label": "Total Key Results",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "active_initiatives_1",
-          "label": "Active Initiatives",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "source_annual_okr_planner_2",
-          "label": "Source: Annual OKR Planner",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "source_annual_okr_planner_3",
-          "label": "Source: Annual OKR Planner",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "source_initiative_tracker_4",
-          "label": "Source: Initiative Tracker",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "objective_health_summary_5",
-          "label": "Objective Health Summary",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "objective_6",
-          "label": "Objective",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "key_results_7",
-          "label": "# Key Results",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "avg_score_8",
-          "label": "Avg Score",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "confidence_9",
-          "label": "Confidence",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "status_10",
-          "label": "Status",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "increase_brand_awareness_11",
-          "label": "Increase Brand Awareness",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "green_12",
-          "label": "Green",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "at_risk_13",
-          "label": "At Risk",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "green_14",
-          "label": "Green",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "at_risk_15",
-          "label": "At Risk",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "quarterly_progress_overview_16",
-          "label": "Quarterly Progress Overview",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "quarter_17",
-          "label": "Quarter",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "objectives_18",
-          "label": "Objectives",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "key_results_19",
-          "label": "Key Results",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "avg_score_20",
-          "label": "Avg Score",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "completed_21",
-          "label": "% Completed",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "health_22",
-          "label": "Health",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "at_risk_23",
-          "label": "At Risk",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "initiative_alignment_24",
-          "label": "Initiative Alignment",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "status_25",
-          "label": "Status",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "count_26",
-          "label": "Count",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "of_total_27",
-          "label": "% of Total",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "not_started_28",
-          "label": "Not Started",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "in_progress_29",
-          "label": "In Progress",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "annual_okr_planner",
-      "title": "Annual OKR Planner",
-      "description": "Complete the Annual OKR Planner section",
-      "fields": [
-        {
-          "id": "grow_organic_social_media_reach_by_40_0",
-          "label": "Grow organic social media reach by 40%",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "achieve_50_media_mentions_in_tier_1_publ_1",
-          "label": "Achieve 50 media mentions in tier-1 publications",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "increase_branded_search_volume_by_25_2",
-          "label": "Increase branded search volume by 25%",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "generate_5_000_marketing_qualified_leads_3",
-          "label": "Generate 5,000 marketing qualified leads",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "achieve_2m_in_marketing_sourced_pipeline_4",
-          "label": "Achieve $2M in marketing-sourced pipeline",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "reduce_cost_per_lead_by_20_5",
-          "label": "Reduce cost per lead by 20%",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "increase_email_conversion_rate_to_3_5_6",
-          "label": "Increase email conversion rate to 3.5%",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "increase_nps_score_from_42_to_55_7",
-          "label": "Increase NPS score from 42 to 55",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "launch_customer_community_with_1_000_act_8",
-          "label": "Launch customer community with 1,000 active members",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "achieve_40_customer_content_engagement_r_9",
-          "label": "Achieve 40% customer content engagement rate",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "q1_tracker",
-      "title": "Q1 Tracker",
-      "description": "Complete the Q1 Tracker section",
-      "fields": [
-        {
-          "id": "launch_brand_awareness_campaign_reaching_0",
-          "label": "Launch brand awareness campaign reaching 500K impressions",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "publish_12_thought_leadership_articles_1",
-          "label": "Publish 12 thought leadership articles",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "secure_5_podcast_guest_appearances_2",
-          "label": "Secure 5 podcast guest appearances",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "generate_800_mqls_from_content_marketing_3",
-          "label": "Generate 800 MQLs from content marketing",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "launch_3_lead_magnet_campaigns_4",
-          "label": "Launch 3 lead magnet campaigns",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "team_alignment",
-      "title": "Team Alignment",
-      "description": "Complete the Team Alignment section",
-      "fields": [
-        {
-          "id": "publish_24_blog_posts_with_avg_500_share_0",
-          "label": "Publish 24 blog posts with avg 500+ shares each",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "generate_1_200_mqls_from_paid_campaigns__1",
-          "label": "Generate 1,200 MQLs from paid campaigns at <$45 CPL",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "increase_social_engagement_rate_from_2_1_2",
-          "label": "Increase social engagement rate from 2.1% to 4.5%",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "achieve_35_email_to_mql_conversion_rate_3",
-          "label": "Achieve 35% email-to-MQL conversion rate",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "recruit_50_customer_advocates_who_create_4",
-          "label": "Recruit 50 customer advocates who create 2+ pieces of content",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "kr_scoring",
-      "title": "KR Scoring",
-      "description": "Complete the KR Scoring section",
-      "fields": [
-        {
-          "id": "grow_organic_social_reach_by_40_0",
-          "label": "Grow organic social reach by 40%",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "generate_5_000_mqls_1",
-          "label": "Generate 5,000 MQLs",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "achieve_2m_pipeline_2",
-          "label": "Achieve $2M pipeline",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "reduce_cpl_by_20_3",
-          "label": "Reduce CPL by 20%",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "increase_nps_to_55_4",
-          "label": "Increase NPS to 55",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "launch_community_with_1k_members_5",
-          "label": "Launch community with 1K members",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "publish_12_thought_leadership_articles_6",
-          "label": "Publish 12 thought leadership articles",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "secure_5_podcast_appearances_7",
-          "label": "Secure 5 podcast appearances",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "okr_review",
-      "title": "OKR Review",
-      "description": "Complete the OKR Review section",
-      "fields": [
-        {
-          "id": "objective_0",
-          "label": "Objective",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "increase_brand_awareness_1",
-          "label": "Increase Brand Awareness",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "increase_brand_awareness_2",
-          "label": "Increase Brand Awareness",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "drive_demand_generation_3",
-          "label": "Drive Demand Generation",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "initiative_tracker",
-      "title": "Initiative Tracker",
-      "description": "Complete the Initiative Tracker section",
-      "fields": [
-        {
-          "id": "launch_influencer_partnership_programme_0",
-          "label": "Launch influencer partnership programme",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "create_seo_content_cluster_10_articles_1",
-          "label": "Create SEO content cluster (10 articles)",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "build_automated_email_nurture_sequence_2",
-          "label": "Build automated email nurture sequence",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "redesign_landing_pages_for_conversion_3",
-          "label": "Redesign landing pages for conversion",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "launch_customer_nps_survey_programme_4",
-          "label": "Launch customer NPS survey programme",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "develop_podcast_pitch_deck_5",
-          "label": "Develop podcast pitch deck",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "build_community_platform_on_circle_6",
-          "label": "Build community platform on Circle",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "create_paid_social_campaign_refresh_7",
-          "label": "Create paid social campaign refresh",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "okr_examples_library",
-      "title": "OKR Examples Library",
-      "description": "Complete the OKR Examples Library section",
-      "fields": [
-        {
-          "id": "brand_tracking_survey_scores_0",
-          "label": "Brand tracking survey scores",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "citation_count_share_of_voice_1",
-          "label": "Citation count, share of voice",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "segment_specific_brand_survey_2",
-          "label": "Segment-specific brand survey",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "award_wins_shortlists_3",
-          "label": "Award wins, shortlists",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "sov_tracking_tools_4",
-          "label": "SOV tracking tools",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "ga4_organic_sessions_5",
-          "label": "GA4 organic sessions",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "subscriber_count_open_rate_6",
-          "label": "Subscriber count, open rate",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "crm_attribution_7",
-          "label": "CRM attribution",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "assets_per_pillar_channel_coverage_8",
-          "label": "Assets per pillar, channel coverage",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "avg_engagement_rate_9",
-          "label": "Avg engagement rate",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "mql_count_cpl_10",
-          "label": "MQL count, CPL",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "crm_pipeline_data_11",
-          "label": "CRM pipeline data",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "roas_by_channel_12",
-          "label": "ROAS by channel",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "abm_platform_data_13",
-          "label": "ABM platform data",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "funnel_conversion_rates_14",
-          "label": "Funnel conversion rates",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "signup_activation_metrics_15",
-          "label": "Signup + activation metrics",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "sales_enablement_adoption_16",
-          "label": "Sales enablement adoption",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "onboarding_analytics_17",
-          "label": "Onboarding analytics",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "revenue_per_user_18",
-          "label": "Revenue per user",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "product_analytics_19",
-          "label": "Product analytics",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "advocate_count_content_output_20",
-          "label": "Advocate count, content output",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "nrr_21",
-          "label": "NRR",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "referral_count_conversion_22",
-          "label": "Referral count, conversion",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "certification_completions_23",
-          "label": "Certification completions",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "clv_tracking_24",
-          "label": "CLV tracking",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "keyword_rankings_attributed_pipeline_25",
-          "label": "Keyword rankings, attributed pipeline",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "cpa_lead_volume_26",
-          "label": "CPA, lead volume",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "cdp_dmp_metrics_27",
-          "label": "CDP/DMP metrics",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "scoring_accuracy_response_time_28",
-          "label": "Scoring accuracy, response time",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "a_b_test_results_conversion_rate_29",
-          "label": "A/B test results, conversion rate",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    }
-  ],
   "dashboard": {
     "metrics": [
       {
@@ -796,5 +38,3401 @@
         "format": "number"
       }
     ]
-  }
+  },
+  "sections": [
+    {
+      "id": "dashboard",
+      "title": "Dashboard",
+      "description": "Auto-calculated summary of your data. Complete the working sections to see results here.",
+      "readOnly": true,
+      "fields": [
+        {
+          "id": "dashboard_overview",
+          "label": "Dashboard Overview",
+          "type": "textarea",
+          "placeholder": "Dashboard metrics will be calculated from your inputs in the working sections",
+          "required": false,
+          "readOnly": true
+        }
+      ]
+    },
+    {
+      "id": "annual_okr_planner",
+      "title": "Annual OKR Planner",
+      "description": "Enter data for each item",
+      "fields": [
+        {
+          "id": "increase_brand_awareness_key_result",
+          "label": "Increase Brand Awareness - Key Result",
+          "type": "text",
+          "placeholder": "Enter key result",
+          "required": false
+        },
+        {
+          "id": "increase_brand_awareness_kr_owner",
+          "label": "Increase Brand Awareness - KR Owner",
+          "type": "text",
+          "placeholder": "Enter kr owner",
+          "required": false
+        },
+        {
+          "id": "increase_brand_awareness_start",
+          "label": "Increase Brand Awareness - Start",
+          "type": "text",
+          "placeholder": "Enter start",
+          "required": false
+        },
+        {
+          "id": "increase_brand_awareness_deadline",
+          "label": "Increase Brand Awareness - Deadline",
+          "type": "text",
+          "placeholder": "Enter deadline",
+          "required": false
+        },
+        {
+          "id": "increase_brand_awareness_score_01",
+          "label": "Increase Brand Awareness - Score (0-1)",
+          "type": "scale",
+          "placeholder": "Enter score (0-1)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "increase_brand_awareness_confidence",
+          "label": "Increase Brand Awareness - Confidence",
+          "type": "text",
+          "placeholder": "Enter confidence",
+          "required": false
+        },
+        {
+          "id": "increase_brand_awareness_notes",
+          "label": "Increase Brand Awareness - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "drive_demand_generation_key_result",
+          "label": "Drive Demand Generation - Key Result",
+          "type": "text",
+          "placeholder": "Enter key result",
+          "required": false
+        },
+        {
+          "id": "drive_demand_generation_kr_owner",
+          "label": "Drive Demand Generation - KR Owner",
+          "type": "text",
+          "placeholder": "Enter kr owner",
+          "required": false
+        },
+        {
+          "id": "drive_demand_generation_start",
+          "label": "Drive Demand Generation - Start",
+          "type": "text",
+          "placeholder": "Enter start",
+          "required": false
+        },
+        {
+          "id": "drive_demand_generation_deadline",
+          "label": "Drive Demand Generation - Deadline",
+          "type": "text",
+          "placeholder": "Enter deadline",
+          "required": false
+        },
+        {
+          "id": "drive_demand_generation_score_01",
+          "label": "Drive Demand Generation - Score (0-1)",
+          "type": "scale",
+          "placeholder": "Enter score (0-1)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "drive_demand_generation_confidence",
+          "label": "Drive Demand Generation - Confidence",
+          "type": "text",
+          "placeholder": "Enter confidence",
+          "required": false
+        },
+        {
+          "id": "drive_demand_generation_notes",
+          "label": "Drive Demand Generation - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "improve_customer_engagement_key_result",
+          "label": "Improve Customer Engagement - Key Result",
+          "type": "text",
+          "placeholder": "Enter key result",
+          "required": false
+        },
+        {
+          "id": "improve_customer_engagement_kr_owner",
+          "label": "Improve Customer Engagement - KR Owner",
+          "type": "text",
+          "placeholder": "Enter kr owner",
+          "required": false
+        },
+        {
+          "id": "improve_customer_engagement_start",
+          "label": "Improve Customer Engagement - Start",
+          "type": "text",
+          "placeholder": "Enter start",
+          "required": false
+        },
+        {
+          "id": "improve_customer_engagement_deadline",
+          "label": "Improve Customer Engagement - Deadline",
+          "type": "text",
+          "placeholder": "Enter deadline",
+          "required": false
+        },
+        {
+          "id": "improve_customer_engagement_score_01",
+          "label": "Improve Customer Engagement - Score (0-1)",
+          "type": "scale",
+          "placeholder": "Enter score (0-1)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "improve_customer_engagement_confidence",
+          "label": "Improve Customer Engagement - Confidence",
+          "type": "text",
+          "placeholder": "Enter confidence",
+          "required": false
+        },
+        {
+          "id": "improve_customer_engagement_notes",
+          "label": "Improve Customer Engagement - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "q1_tracker",
+      "title": "Q1 Tracker",
+      "description": "Enter data for each item",
+      "fields": [
+        {
+          "id": "build_brand_foundation_key_result",
+          "label": "Build Brand Foundation - Key Result",
+          "type": "text",
+          "placeholder": "Enter key result",
+          "required": false
+        },
+        {
+          "id": "build_brand_foundation_owner",
+          "label": "Build Brand Foundation - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "build_brand_foundation_target",
+          "label": "Build Brand Foundation - Target",
+          "type": "number",
+          "placeholder": "Enter target",
+          "required": false
+        },
+        {
+          "id": "build_brand_foundation_actual",
+          "label": "Build Brand Foundation - Actual",
+          "type": "text",
+          "placeholder": "Enter actual",
+          "required": false
+        },
+        {
+          "id": "build_brand_foundation_week_4",
+          "label": "Build Brand Foundation - Week 4",
+          "type": "text",
+          "placeholder": "Enter week 4",
+          "required": false
+        },
+        {
+          "id": "build_brand_foundation_week_8",
+          "label": "Build Brand Foundation - Week 8",
+          "type": "text",
+          "placeholder": "Enter week 8",
+          "required": false
+        },
+        {
+          "id": "build_brand_foundation_score_01",
+          "label": "Build Brand Foundation - Score (0-1)",
+          "type": "scale",
+          "placeholder": "Enter score (0-1)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "build_brand_foundation_status",
+          "label": "Build Brand Foundation - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "build_brand_foundation_notes",
+          "label": "Build Brand Foundation - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "establish_lead_engine_key_result",
+          "label": "Establish Lead Engine - Key Result",
+          "type": "text",
+          "placeholder": "Enter key result",
+          "required": false
+        },
+        {
+          "id": "establish_lead_engine_owner",
+          "label": "Establish Lead Engine - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "establish_lead_engine_target",
+          "label": "Establish Lead Engine - Target",
+          "type": "number",
+          "placeholder": "Enter target",
+          "required": false
+        },
+        {
+          "id": "establish_lead_engine_actual",
+          "label": "Establish Lead Engine - Actual",
+          "type": "text",
+          "placeholder": "Enter actual",
+          "required": false
+        },
+        {
+          "id": "establish_lead_engine_week_4",
+          "label": "Establish Lead Engine - Week 4",
+          "type": "text",
+          "placeholder": "Enter week 4",
+          "required": false
+        },
+        {
+          "id": "establish_lead_engine_week_8",
+          "label": "Establish Lead Engine - Week 8",
+          "type": "text",
+          "placeholder": "Enter week 8",
+          "required": false
+        },
+        {
+          "id": "establish_lead_engine_score_01",
+          "label": "Establish Lead Engine - Score (0-1)",
+          "type": "scale",
+          "placeholder": "Enter score (0-1)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "establish_lead_engine_status",
+          "label": "Establish Lead Engine - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "establish_lead_engine_notes",
+          "label": "Establish Lead Engine - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "q2_tracker",
+      "title": "Q2 Tracker",
+      "description": "Add entries below. Each entry has the following fields.",
+      "fields": [
+        {
+          "id": "entry_objective",
+          "label": "Objective",
+          "type": "text",
+          "placeholder": "Enter objective",
+          "required": false
+        },
+        {
+          "id": "entry_key_result",
+          "label": "Key Result",
+          "type": "text",
+          "placeholder": "Enter key result",
+          "required": false
+        },
+        {
+          "id": "entry_owner",
+          "label": "Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "entry_target",
+          "label": "Target",
+          "type": "number",
+          "placeholder": "Enter target",
+          "required": false
+        },
+        {
+          "id": "entry_actual",
+          "label": "Actual",
+          "type": "text",
+          "placeholder": "Enter actual",
+          "required": false
+        },
+        {
+          "id": "entry_week_4",
+          "label": "Week 4",
+          "type": "text",
+          "placeholder": "Enter week 4",
+          "required": false
+        },
+        {
+          "id": "entry_week_8",
+          "label": "Week 8",
+          "type": "text",
+          "placeholder": "Enter week 8",
+          "required": false
+        },
+        {
+          "id": "entry_score_01",
+          "label": "Score (0-1)",
+          "type": "scale",
+          "placeholder": "Enter score (0-1)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "entry_status",
+          "label": "Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "entry_notes",
+          "label": "Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "q3_tracker",
+      "title": "Q3 Tracker",
+      "description": "Add entries below. Each entry has the following fields.",
+      "fields": [
+        {
+          "id": "entry_objective",
+          "label": "Objective",
+          "type": "text",
+          "placeholder": "Enter objective",
+          "required": false
+        },
+        {
+          "id": "entry_key_result",
+          "label": "Key Result",
+          "type": "text",
+          "placeholder": "Enter key result",
+          "required": false
+        },
+        {
+          "id": "entry_owner",
+          "label": "Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "entry_target",
+          "label": "Target",
+          "type": "number",
+          "placeholder": "Enter target",
+          "required": false
+        },
+        {
+          "id": "entry_actual",
+          "label": "Actual",
+          "type": "text",
+          "placeholder": "Enter actual",
+          "required": false
+        },
+        {
+          "id": "entry_week_4",
+          "label": "Week 4",
+          "type": "text",
+          "placeholder": "Enter week 4",
+          "required": false
+        },
+        {
+          "id": "entry_week_8",
+          "label": "Week 8",
+          "type": "text",
+          "placeholder": "Enter week 8",
+          "required": false
+        },
+        {
+          "id": "entry_score_01",
+          "label": "Score (0-1)",
+          "type": "scale",
+          "placeholder": "Enter score (0-1)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "entry_status",
+          "label": "Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "entry_notes",
+          "label": "Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "q4_tracker",
+      "title": "Q4 Tracker",
+      "description": "Add entries below. Each entry has the following fields.",
+      "fields": [
+        {
+          "id": "entry_objective",
+          "label": "Objective",
+          "type": "text",
+          "placeholder": "Enter objective",
+          "required": false
+        },
+        {
+          "id": "entry_key_result",
+          "label": "Key Result",
+          "type": "text",
+          "placeholder": "Enter key result",
+          "required": false
+        },
+        {
+          "id": "entry_owner",
+          "label": "Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "entry_target",
+          "label": "Target",
+          "type": "number",
+          "placeholder": "Enter target",
+          "required": false
+        },
+        {
+          "id": "entry_actual",
+          "label": "Actual",
+          "type": "text",
+          "placeholder": "Enter actual",
+          "required": false
+        },
+        {
+          "id": "entry_week_4",
+          "label": "Week 4",
+          "type": "text",
+          "placeholder": "Enter week 4",
+          "required": false
+        },
+        {
+          "id": "entry_week_8",
+          "label": "Week 8",
+          "type": "text",
+          "placeholder": "Enter week 8",
+          "required": false
+        },
+        {
+          "id": "entry_score_01",
+          "label": "Score (0-1)",
+          "type": "scale",
+          "placeholder": "Enter score (0-1)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "entry_status",
+          "label": "Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "entry_notes",
+          "label": "Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "team_alignment",
+      "title": "Team Alignment",
+      "description": "Enter data for each item",
+      "fields": [
+        {
+          "id": "sarah_chen_role",
+          "label": "Sarah Chen - Role",
+          "type": "text",
+          "placeholder": "Enter role",
+          "required": false
+        },
+        {
+          "id": "sarah_chen_company_objective",
+          "label": "Sarah Chen - Company Objective",
+          "type": "text",
+          "placeholder": "Enter company objective",
+          "required": false
+        },
+        {
+          "id": "sarah_chen_team_objective",
+          "label": "Sarah Chen - Team Objective",
+          "type": "text",
+          "placeholder": "Enter team objective",
+          "required": false
+        },
+        {
+          "id": "sarah_chen_individual_kr",
+          "label": "Sarah Chen - Individual KR",
+          "type": "text",
+          "placeholder": "Enter individual kr",
+          "required": false
+        },
+        {
+          "id": "sarah_chen_score",
+          "label": "Sarah Chen - Score",
+          "type": "scale",
+          "placeholder": "Enter score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "sarah_chen_confidence",
+          "label": "Sarah Chen - Confidence",
+          "type": "text",
+          "placeholder": "Enter confidence",
+          "required": false
+        },
+        {
+          "id": "sarah_chen_status",
+          "label": "Sarah Chen - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "sarah_chen_notes",
+          "label": "Sarah Chen - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "marcus_johnson_role",
+          "label": "Marcus Johnson - Role",
+          "type": "text",
+          "placeholder": "Enter role",
+          "required": false
+        },
+        {
+          "id": "marcus_johnson_company_objective",
+          "label": "Marcus Johnson - Company Objective",
+          "type": "text",
+          "placeholder": "Enter company objective",
+          "required": false
+        },
+        {
+          "id": "marcus_johnson_team_objective",
+          "label": "Marcus Johnson - Team Objective",
+          "type": "text",
+          "placeholder": "Enter team objective",
+          "required": false
+        },
+        {
+          "id": "marcus_johnson_individual_kr",
+          "label": "Marcus Johnson - Individual KR",
+          "type": "text",
+          "placeholder": "Enter individual kr",
+          "required": false
+        },
+        {
+          "id": "marcus_johnson_score",
+          "label": "Marcus Johnson - Score",
+          "type": "scale",
+          "placeholder": "Enter score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "marcus_johnson_confidence",
+          "label": "Marcus Johnson - Confidence",
+          "type": "text",
+          "placeholder": "Enter confidence",
+          "required": false
+        },
+        {
+          "id": "marcus_johnson_status",
+          "label": "Marcus Johnson - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "marcus_johnson_notes",
+          "label": "Marcus Johnson - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "emma_rodriguez_role",
+          "label": "Emma Rodriguez - Role",
+          "type": "text",
+          "placeholder": "Enter role",
+          "required": false
+        },
+        {
+          "id": "emma_rodriguez_company_objective",
+          "label": "Emma Rodriguez - Company Objective",
+          "type": "text",
+          "placeholder": "Enter company objective",
+          "required": false
+        },
+        {
+          "id": "emma_rodriguez_team_objective",
+          "label": "Emma Rodriguez - Team Objective",
+          "type": "text",
+          "placeholder": "Enter team objective",
+          "required": false
+        },
+        {
+          "id": "emma_rodriguez_individual_kr",
+          "label": "Emma Rodriguez - Individual KR",
+          "type": "text",
+          "placeholder": "Enter individual kr",
+          "required": false
+        },
+        {
+          "id": "emma_rodriguez_score",
+          "label": "Emma Rodriguez - Score",
+          "type": "scale",
+          "placeholder": "Enter score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "emma_rodriguez_confidence",
+          "label": "Emma Rodriguez - Confidence",
+          "type": "text",
+          "placeholder": "Enter confidence",
+          "required": false
+        },
+        {
+          "id": "emma_rodriguez_status",
+          "label": "Emma Rodriguez - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "emma_rodriguez_notes",
+          "label": "Emma Rodriguez - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "david_kim_role",
+          "label": "David Kim - Role",
+          "type": "text",
+          "placeholder": "Enter role",
+          "required": false
+        },
+        {
+          "id": "david_kim_company_objective",
+          "label": "David Kim - Company Objective",
+          "type": "text",
+          "placeholder": "Enter company objective",
+          "required": false
+        },
+        {
+          "id": "david_kim_team_objective",
+          "label": "David Kim - Team Objective",
+          "type": "text",
+          "placeholder": "Enter team objective",
+          "required": false
+        },
+        {
+          "id": "david_kim_individual_kr",
+          "label": "David Kim - Individual KR",
+          "type": "text",
+          "placeholder": "Enter individual kr",
+          "required": false
+        },
+        {
+          "id": "david_kim_score",
+          "label": "David Kim - Score",
+          "type": "scale",
+          "placeholder": "Enter score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "david_kim_confidence",
+          "label": "David Kim - Confidence",
+          "type": "text",
+          "placeholder": "Enter confidence",
+          "required": false
+        },
+        {
+          "id": "david_kim_status",
+          "label": "David Kim - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "david_kim_notes",
+          "label": "David Kim - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "lisa_park_role",
+          "label": "Lisa Park - Role",
+          "type": "text",
+          "placeholder": "Enter role",
+          "required": false
+        },
+        {
+          "id": "lisa_park_company_objective",
+          "label": "Lisa Park - Company Objective",
+          "type": "text",
+          "placeholder": "Enter company objective",
+          "required": false
+        },
+        {
+          "id": "lisa_park_team_objective",
+          "label": "Lisa Park - Team Objective",
+          "type": "text",
+          "placeholder": "Enter team objective",
+          "required": false
+        },
+        {
+          "id": "lisa_park_individual_kr",
+          "label": "Lisa Park - Individual KR",
+          "type": "text",
+          "placeholder": "Enter individual kr",
+          "required": false
+        },
+        {
+          "id": "lisa_park_score",
+          "label": "Lisa Park - Score",
+          "type": "scale",
+          "placeholder": "Enter score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "lisa_park_confidence",
+          "label": "Lisa Park - Confidence",
+          "type": "text",
+          "placeholder": "Enter confidence",
+          "required": false
+        },
+        {
+          "id": "lisa_park_status",
+          "label": "Lisa Park - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "lisa_park_notes",
+          "label": "Lisa Park - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "kr_scoring",
+      "title": "KR Scoring",
+      "description": "Enter data for each item",
+      "fields": [
+        {
+          "id": "grow_organic_social_reach_by_40_owner",
+          "label": "Grow organic social reach by 40% - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "grow_organic_social_reach_by_40_baseline",
+          "label": "Grow organic social reach by 40% - Baseline",
+          "type": "number",
+          "placeholder": "Enter baseline",
+          "required": false
+        },
+        {
+          "id": "grow_organic_social_reach_by_40_target",
+          "label": "Grow organic social reach by 40% - Target",
+          "type": "number",
+          "placeholder": "Enter target",
+          "required": false
+        },
+        {
+          "id": "grow_organic_social_reach_by_40_current",
+          "label": "Grow organic social reach by 40% - Current",
+          "type": "text",
+          "placeholder": "Enter current",
+          "required": false
+        },
+        {
+          "id": "grow_organic_social_reach_by_40_progress",
+          "label": "Grow organic social reach by 40% - % Progress",
+          "type": "number",
+          "placeholder": "Enter % progress",
+          "required": false
+        },
+        {
+          "id": "grow_organic_social_reach_by_40_score_01",
+          "label": "Grow organic social reach by 40% - Score (0-1)",
+          "type": "scale",
+          "placeholder": "Enter score (0-1)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "grow_organic_social_reach_by_40_confidence",
+          "label": "Grow organic social reach by 40% - Confidence",
+          "type": "text",
+          "placeholder": "Enter confidence",
+          "required": false
+        },
+        {
+          "id": "grow_organic_social_reach_by_40_commentary",
+          "label": "Grow organic social reach by 40% - Commentary",
+          "type": "textarea",
+          "placeholder": "Enter commentary",
+          "required": false
+        },
+        {
+          "id": "generate_5000_mqls_owner",
+          "label": "Generate 5,000 MQLs - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "generate_5000_mqls_baseline",
+          "label": "Generate 5,000 MQLs - Baseline",
+          "type": "number",
+          "placeholder": "Enter baseline",
+          "required": false
+        },
+        {
+          "id": "generate_5000_mqls_target",
+          "label": "Generate 5,000 MQLs - Target",
+          "type": "number",
+          "placeholder": "Enter target",
+          "required": false
+        },
+        {
+          "id": "generate_5000_mqls_current",
+          "label": "Generate 5,000 MQLs - Current",
+          "type": "text",
+          "placeholder": "Enter current",
+          "required": false
+        },
+        {
+          "id": "generate_5000_mqls_progress",
+          "label": "Generate 5,000 MQLs - % Progress",
+          "type": "number",
+          "placeholder": "Enter % progress",
+          "required": false
+        },
+        {
+          "id": "generate_5000_mqls_score_01",
+          "label": "Generate 5,000 MQLs - Score (0-1)",
+          "type": "scale",
+          "placeholder": "Enter score (0-1)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "generate_5000_mqls_confidence",
+          "label": "Generate 5,000 MQLs - Confidence",
+          "type": "text",
+          "placeholder": "Enter confidence",
+          "required": false
+        },
+        {
+          "id": "generate_5000_mqls_commentary",
+          "label": "Generate 5,000 MQLs - Commentary",
+          "type": "textarea",
+          "placeholder": "Enter commentary",
+          "required": false
+        },
+        {
+          "id": "achieve_2m_pipeline_owner",
+          "label": "Achieve $2M pipeline - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "achieve_2m_pipeline_baseline",
+          "label": "Achieve $2M pipeline - Baseline",
+          "type": "number",
+          "placeholder": "Enter baseline",
+          "required": false
+        },
+        {
+          "id": "achieve_2m_pipeline_target",
+          "label": "Achieve $2M pipeline - Target",
+          "type": "number",
+          "placeholder": "Enter target",
+          "required": false
+        },
+        {
+          "id": "achieve_2m_pipeline_current",
+          "label": "Achieve $2M pipeline - Current",
+          "type": "text",
+          "placeholder": "Enter current",
+          "required": false
+        },
+        {
+          "id": "achieve_2m_pipeline_progress",
+          "label": "Achieve $2M pipeline - % Progress",
+          "type": "number",
+          "placeholder": "Enter % progress",
+          "required": false
+        },
+        {
+          "id": "achieve_2m_pipeline_score_01",
+          "label": "Achieve $2M pipeline - Score (0-1)",
+          "type": "scale",
+          "placeholder": "Enter score (0-1)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "achieve_2m_pipeline_confidence",
+          "label": "Achieve $2M pipeline - Confidence",
+          "type": "text",
+          "placeholder": "Enter confidence",
+          "required": false
+        },
+        {
+          "id": "achieve_2m_pipeline_commentary",
+          "label": "Achieve $2M pipeline - Commentary",
+          "type": "textarea",
+          "placeholder": "Enter commentary",
+          "required": false
+        },
+        {
+          "id": "reduce_cpl_by_20_owner",
+          "label": "Reduce CPL by 20% - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "reduce_cpl_by_20_baseline",
+          "label": "Reduce CPL by 20% - Baseline",
+          "type": "number",
+          "placeholder": "Enter baseline",
+          "required": false
+        },
+        {
+          "id": "reduce_cpl_by_20_target",
+          "label": "Reduce CPL by 20% - Target",
+          "type": "number",
+          "placeholder": "Enter target",
+          "required": false
+        },
+        {
+          "id": "reduce_cpl_by_20_current",
+          "label": "Reduce CPL by 20% - Current",
+          "type": "text",
+          "placeholder": "Enter current",
+          "required": false
+        },
+        {
+          "id": "reduce_cpl_by_20_progress",
+          "label": "Reduce CPL by 20% - % Progress",
+          "type": "number",
+          "placeholder": "Enter % progress",
+          "required": false
+        },
+        {
+          "id": "reduce_cpl_by_20_score_01",
+          "label": "Reduce CPL by 20% - Score (0-1)",
+          "type": "scale",
+          "placeholder": "Enter score (0-1)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "reduce_cpl_by_20_confidence",
+          "label": "Reduce CPL by 20% - Confidence",
+          "type": "text",
+          "placeholder": "Enter confidence",
+          "required": false
+        },
+        {
+          "id": "reduce_cpl_by_20_commentary",
+          "label": "Reduce CPL by 20% - Commentary",
+          "type": "textarea",
+          "placeholder": "Enter commentary",
+          "required": false
+        },
+        {
+          "id": "increase_nps_to_55_owner",
+          "label": "Increase NPS to 55 - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "increase_nps_to_55_baseline",
+          "label": "Increase NPS to 55 - Baseline",
+          "type": "number",
+          "placeholder": "Enter baseline",
+          "required": false
+        },
+        {
+          "id": "increase_nps_to_55_target",
+          "label": "Increase NPS to 55 - Target",
+          "type": "number",
+          "placeholder": "Enter target",
+          "required": false
+        },
+        {
+          "id": "increase_nps_to_55_current",
+          "label": "Increase NPS to 55 - Current",
+          "type": "text",
+          "placeholder": "Enter current",
+          "required": false
+        },
+        {
+          "id": "increase_nps_to_55_progress",
+          "label": "Increase NPS to 55 - % Progress",
+          "type": "number",
+          "placeholder": "Enter % progress",
+          "required": false
+        },
+        {
+          "id": "increase_nps_to_55_score_01",
+          "label": "Increase NPS to 55 - Score (0-1)",
+          "type": "scale",
+          "placeholder": "Enter score (0-1)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "increase_nps_to_55_confidence",
+          "label": "Increase NPS to 55 - Confidence",
+          "type": "text",
+          "placeholder": "Enter confidence",
+          "required": false
+        },
+        {
+          "id": "increase_nps_to_55_commentary",
+          "label": "Increase NPS to 55 - Commentary",
+          "type": "textarea",
+          "placeholder": "Enter commentary",
+          "required": false
+        },
+        {
+          "id": "launch_community_with_1k_members_owner",
+          "label": "Launch community with 1K members - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "launch_community_with_1k_members_baseline",
+          "label": "Launch community with 1K members - Baseline",
+          "type": "number",
+          "placeholder": "Enter baseline",
+          "required": false
+        },
+        {
+          "id": "launch_community_with_1k_members_target",
+          "label": "Launch community with 1K members - Target",
+          "type": "number",
+          "placeholder": "Enter target",
+          "required": false
+        },
+        {
+          "id": "launch_community_with_1k_members_current",
+          "label": "Launch community with 1K members - Current",
+          "type": "text",
+          "placeholder": "Enter current",
+          "required": false
+        },
+        {
+          "id": "launch_community_with_1k_members_progress",
+          "label": "Launch community with 1K members - % Progress",
+          "type": "number",
+          "placeholder": "Enter % progress",
+          "required": false
+        },
+        {
+          "id": "launch_community_with_1k_members_score_01",
+          "label": "Launch community with 1K members - Score (0-1)",
+          "type": "scale",
+          "placeholder": "Enter score (0-1)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "launch_community_with_1k_members_confidence",
+          "label": "Launch community with 1K members - Confidence",
+          "type": "text",
+          "placeholder": "Enter confidence",
+          "required": false
+        },
+        {
+          "id": "launch_community_with_1k_members_commentary",
+          "label": "Launch community with 1K members - Commentary",
+          "type": "textarea",
+          "placeholder": "Enter commentary",
+          "required": false
+        },
+        {
+          "id": "publish_12_thought_leadership_articles_owner",
+          "label": "Publish 12 thought leadership articles - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "publish_12_thought_leadership_articles_baseline",
+          "label": "Publish 12 thought leadership articles - Baseline",
+          "type": "number",
+          "placeholder": "Enter baseline",
+          "required": false
+        },
+        {
+          "id": "publish_12_thought_leadership_articles_target",
+          "label": "Publish 12 thought leadership articles - Target",
+          "type": "number",
+          "placeholder": "Enter target",
+          "required": false
+        },
+        {
+          "id": "publish_12_thought_leadership_articles_current",
+          "label": "Publish 12 thought leadership articles - Current",
+          "type": "text",
+          "placeholder": "Enter current",
+          "required": false
+        },
+        {
+          "id": "publish_12_thought_leadership_articles_progress",
+          "label": "Publish 12 thought leadership articles - % Progress",
+          "type": "number",
+          "placeholder": "Enter % progress",
+          "required": false
+        },
+        {
+          "id": "publish_12_thought_leadership_articles_score_01",
+          "label": "Publish 12 thought leadership articles - Score (0-1)",
+          "type": "scale",
+          "placeholder": "Enter score (0-1)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "publish_12_thought_leadership_articles_confidence",
+          "label": "Publish 12 thought leadership articles - Confidence",
+          "type": "text",
+          "placeholder": "Enter confidence",
+          "required": false
+        },
+        {
+          "id": "publish_12_thought_leadership_articles_commentary",
+          "label": "Publish 12 thought leadership articles - Commentary",
+          "type": "textarea",
+          "placeholder": "Enter commentary",
+          "required": false
+        },
+        {
+          "id": "secure_5_podcast_appearances_owner",
+          "label": "Secure 5 podcast appearances - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "secure_5_podcast_appearances_baseline",
+          "label": "Secure 5 podcast appearances - Baseline",
+          "type": "number",
+          "placeholder": "Enter baseline",
+          "required": false
+        },
+        {
+          "id": "secure_5_podcast_appearances_target",
+          "label": "Secure 5 podcast appearances - Target",
+          "type": "number",
+          "placeholder": "Enter target",
+          "required": false
+        },
+        {
+          "id": "secure_5_podcast_appearances_current",
+          "label": "Secure 5 podcast appearances - Current",
+          "type": "text",
+          "placeholder": "Enter current",
+          "required": false
+        },
+        {
+          "id": "secure_5_podcast_appearances_progress",
+          "label": "Secure 5 podcast appearances - % Progress",
+          "type": "number",
+          "placeholder": "Enter % progress",
+          "required": false
+        },
+        {
+          "id": "secure_5_podcast_appearances_score_01",
+          "label": "Secure 5 podcast appearances - Score (0-1)",
+          "type": "scale",
+          "placeholder": "Enter score (0-1)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "secure_5_podcast_appearances_confidence",
+          "label": "Secure 5 podcast appearances - Confidence",
+          "type": "text",
+          "placeholder": "Enter confidence",
+          "required": false
+        },
+        {
+          "id": "secure_5_podcast_appearances_commentary",
+          "label": "Secure 5 podcast appearances - Commentary",
+          "type": "textarea",
+          "placeholder": "Enter commentary",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "okr_review",
+      "title": "OKR Review",
+      "description": "Enter data for each item",
+      "fields": [
+        {
+          "id": "increase_brand_awareness_key_result",
+          "label": "Increase Brand Awareness - Key Result",
+          "type": "text",
+          "placeholder": "Enter key result",
+          "required": false
+        },
+        {
+          "id": "increase_brand_awareness_final_score",
+          "label": "Increase Brand Awareness - Final Score",
+          "type": "scale",
+          "placeholder": "Enter final score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "increase_brand_awareness_what_worked",
+          "label": "Increase Brand Awareness - What Worked",
+          "type": "text",
+          "placeholder": "Enter what worked",
+          "required": false
+        },
+        {
+          "id": "increase_brand_awareness_what_didnt",
+          "label": "Increase Brand Awareness - What Didn't",
+          "type": "text",
+          "placeholder": "Enter what didn't",
+          "required": false
+        },
+        {
+          "id": "increase_brand_awareness_key_learning",
+          "label": "Increase Brand Awareness - Key Learning",
+          "type": "text",
+          "placeholder": "Enter key learning",
+          "required": false
+        },
+        {
+          "id": "increase_brand_awareness_next_quarter_action",
+          "label": "Increase Brand Awareness - Next Quarter Action",
+          "type": "textarea",
+          "placeholder": "Enter next quarter action",
+          "required": false
+        },
+        {
+          "id": "increase_brand_awareness_key_result_1",
+          "label": "Increase Brand Awareness - Key Result",
+          "type": "text",
+          "placeholder": "Enter key result",
+          "required": false
+        },
+        {
+          "id": "increase_brand_awareness_final_score_1",
+          "label": "Increase Brand Awareness - Final Score",
+          "type": "scale",
+          "placeholder": "Enter final score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "increase_brand_awareness_what_worked_1",
+          "label": "Increase Brand Awareness - What Worked",
+          "type": "text",
+          "placeholder": "Enter what worked",
+          "required": false
+        },
+        {
+          "id": "increase_brand_awareness_what_didnt_1",
+          "label": "Increase Brand Awareness - What Didn't",
+          "type": "text",
+          "placeholder": "Enter what didn't",
+          "required": false
+        },
+        {
+          "id": "increase_brand_awareness_key_learning_1",
+          "label": "Increase Brand Awareness - Key Learning",
+          "type": "text",
+          "placeholder": "Enter key learning",
+          "required": false
+        },
+        {
+          "id": "increase_brand_awareness_next_quarter_action_1",
+          "label": "Increase Brand Awareness - Next Quarter Action",
+          "type": "textarea",
+          "placeholder": "Enter next quarter action",
+          "required": false
+        },
+        {
+          "id": "drive_demand_generation_key_result",
+          "label": "Drive Demand Generation - Key Result",
+          "type": "text",
+          "placeholder": "Enter key result",
+          "required": false
+        },
+        {
+          "id": "drive_demand_generation_final_score",
+          "label": "Drive Demand Generation - Final Score",
+          "type": "scale",
+          "placeholder": "Enter final score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "drive_demand_generation_what_worked",
+          "label": "Drive Demand Generation - What Worked",
+          "type": "text",
+          "placeholder": "Enter what worked",
+          "required": false
+        },
+        {
+          "id": "drive_demand_generation_what_didnt",
+          "label": "Drive Demand Generation - What Didn't",
+          "type": "text",
+          "placeholder": "Enter what didn't",
+          "required": false
+        },
+        {
+          "id": "drive_demand_generation_key_learning",
+          "label": "Drive Demand Generation - Key Learning",
+          "type": "text",
+          "placeholder": "Enter key learning",
+          "required": false
+        },
+        {
+          "id": "drive_demand_generation_next_quarter_action",
+          "label": "Drive Demand Generation - Next Quarter Action",
+          "type": "textarea",
+          "placeholder": "Enter next quarter action",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "initiative_tracker",
+      "title": "Initiative Tracker",
+      "description": "Enter data for each item",
+      "fields": [
+        {
+          "id": "launch_influencer_partnership_programme_linked_key_result",
+          "label": "Launch influencer partnership programme - Linked Key Result",
+          "type": "text",
+          "placeholder": "Enter linked key result",
+          "required": false
+        },
+        {
+          "id": "launch_influencer_partnership_programme_owner",
+          "label": "Launch influencer partnership programme - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "launch_influencer_partnership_programme_start_date",
+          "label": "Launch influencer partnership programme - Start Date",
+          "type": "text",
+          "placeholder": "Enter start date",
+          "required": false
+        },
+        {
+          "id": "launch_influencer_partnership_programme_end_date",
+          "label": "Launch influencer partnership programme - End Date",
+          "type": "text",
+          "placeholder": "Enter end date",
+          "required": false
+        },
+        {
+          "id": "launch_influencer_partnership_programme_status",
+          "label": "Launch influencer partnership programme - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "launch_influencer_partnership_programme_priority",
+          "label": "Launch influencer partnership programme - Priority",
+          "type": "select",
+          "placeholder": "Enter priority",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "launch_influencer_partnership_programme_effort_days",
+          "label": "Launch influencer partnership programme - Effort (days)",
+          "type": "text",
+          "placeholder": "Enter effort (days)",
+          "required": false
+        },
+        {
+          "id": "launch_influencer_partnership_programme_impact_15",
+          "label": "Launch influencer partnership programme - Impact (1-5)",
+          "type": "scale",
+          "placeholder": "Enter impact (1-5)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "launch_influencer_partnership_programme_notes",
+          "label": "Launch influencer partnership programme - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "create_seo_content_cluster_10_articles_linked_key_result",
+          "label": "Create SEO content cluster (10 articles) - Linked Key Result",
+          "type": "text",
+          "placeholder": "Enter linked key result",
+          "required": false
+        },
+        {
+          "id": "create_seo_content_cluster_10_articles_owner",
+          "label": "Create SEO content cluster (10 articles) - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "create_seo_content_cluster_10_articles_start_date",
+          "label": "Create SEO content cluster (10 articles) - Start Date",
+          "type": "text",
+          "placeholder": "Enter start date",
+          "required": false
+        },
+        {
+          "id": "create_seo_content_cluster_10_articles_end_date",
+          "label": "Create SEO content cluster (10 articles) - End Date",
+          "type": "text",
+          "placeholder": "Enter end date",
+          "required": false
+        },
+        {
+          "id": "create_seo_content_cluster_10_articles_status",
+          "label": "Create SEO content cluster (10 articles) - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "create_seo_content_cluster_10_articles_priority",
+          "label": "Create SEO content cluster (10 articles) - Priority",
+          "type": "select",
+          "placeholder": "Enter priority",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "create_seo_content_cluster_10_articles_effort_days",
+          "label": "Create SEO content cluster (10 articles) - Effort (days)",
+          "type": "text",
+          "placeholder": "Enter effort (days)",
+          "required": false
+        },
+        {
+          "id": "create_seo_content_cluster_10_articles_impact_15",
+          "label": "Create SEO content cluster (10 articles) - Impact (1-5)",
+          "type": "scale",
+          "placeholder": "Enter impact (1-5)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "create_seo_content_cluster_10_articles_notes",
+          "label": "Create SEO content cluster (10 articles) - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "build_automated_email_nurture_sequence_linked_key_result",
+          "label": "Build automated email nurture sequence - Linked Key Result",
+          "type": "text",
+          "placeholder": "Enter linked key result",
+          "required": false
+        },
+        {
+          "id": "build_automated_email_nurture_sequence_owner",
+          "label": "Build automated email nurture sequence - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "build_automated_email_nurture_sequence_start_date",
+          "label": "Build automated email nurture sequence - Start Date",
+          "type": "text",
+          "placeholder": "Enter start date",
+          "required": false
+        },
+        {
+          "id": "build_automated_email_nurture_sequence_end_date",
+          "label": "Build automated email nurture sequence - End Date",
+          "type": "text",
+          "placeholder": "Enter end date",
+          "required": false
+        },
+        {
+          "id": "build_automated_email_nurture_sequence_status",
+          "label": "Build automated email nurture sequence - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "build_automated_email_nurture_sequence_priority",
+          "label": "Build automated email nurture sequence - Priority",
+          "type": "select",
+          "placeholder": "Enter priority",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "build_automated_email_nurture_sequence_effort_days",
+          "label": "Build automated email nurture sequence - Effort (days)",
+          "type": "text",
+          "placeholder": "Enter effort (days)",
+          "required": false
+        },
+        {
+          "id": "build_automated_email_nurture_sequence_impact_15",
+          "label": "Build automated email nurture sequence - Impact (1-5)",
+          "type": "scale",
+          "placeholder": "Enter impact (1-5)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "build_automated_email_nurture_sequence_notes",
+          "label": "Build automated email nurture sequence - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "redesign_landing_pages_for_conversion_linked_key_result",
+          "label": "Redesign landing pages for conversion - Linked Key Result",
+          "type": "text",
+          "placeholder": "Enter linked key result",
+          "required": false
+        },
+        {
+          "id": "redesign_landing_pages_for_conversion_owner",
+          "label": "Redesign landing pages for conversion - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "redesign_landing_pages_for_conversion_start_date",
+          "label": "Redesign landing pages for conversion - Start Date",
+          "type": "text",
+          "placeholder": "Enter start date",
+          "required": false
+        },
+        {
+          "id": "redesign_landing_pages_for_conversion_end_date",
+          "label": "Redesign landing pages for conversion - End Date",
+          "type": "text",
+          "placeholder": "Enter end date",
+          "required": false
+        },
+        {
+          "id": "redesign_landing_pages_for_conversion_status",
+          "label": "Redesign landing pages for conversion - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "redesign_landing_pages_for_conversion_priority",
+          "label": "Redesign landing pages for conversion - Priority",
+          "type": "select",
+          "placeholder": "Enter priority",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "redesign_landing_pages_for_conversion_effort_days",
+          "label": "Redesign landing pages for conversion - Effort (days)",
+          "type": "text",
+          "placeholder": "Enter effort (days)",
+          "required": false
+        },
+        {
+          "id": "redesign_landing_pages_for_conversion_impact_15",
+          "label": "Redesign landing pages for conversion - Impact (1-5)",
+          "type": "scale",
+          "placeholder": "Enter impact (1-5)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "redesign_landing_pages_for_conversion_notes",
+          "label": "Redesign landing pages for conversion - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "launch_customer_nps_survey_programme_linked_key_result",
+          "label": "Launch customer NPS survey programme - Linked Key Result",
+          "type": "text",
+          "placeholder": "Enter linked key result",
+          "required": false
+        },
+        {
+          "id": "launch_customer_nps_survey_programme_owner",
+          "label": "Launch customer NPS survey programme - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "launch_customer_nps_survey_programme_start_date",
+          "label": "Launch customer NPS survey programme - Start Date",
+          "type": "text",
+          "placeholder": "Enter start date",
+          "required": false
+        },
+        {
+          "id": "launch_customer_nps_survey_programme_end_date",
+          "label": "Launch customer NPS survey programme - End Date",
+          "type": "text",
+          "placeholder": "Enter end date",
+          "required": false
+        },
+        {
+          "id": "launch_customer_nps_survey_programme_status",
+          "label": "Launch customer NPS survey programme - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "launch_customer_nps_survey_programme_priority",
+          "label": "Launch customer NPS survey programme - Priority",
+          "type": "select",
+          "placeholder": "Enter priority",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "launch_customer_nps_survey_programme_effort_days",
+          "label": "Launch customer NPS survey programme - Effort (days)",
+          "type": "text",
+          "placeholder": "Enter effort (days)",
+          "required": false
+        },
+        {
+          "id": "launch_customer_nps_survey_programme_impact_15",
+          "label": "Launch customer NPS survey programme - Impact (1-5)",
+          "type": "scale",
+          "placeholder": "Enter impact (1-5)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "launch_customer_nps_survey_programme_notes",
+          "label": "Launch customer NPS survey programme - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "develop_podcast_pitch_deck_linked_key_result",
+          "label": "Develop podcast pitch deck - Linked Key Result",
+          "type": "text",
+          "placeholder": "Enter linked key result",
+          "required": false
+        },
+        {
+          "id": "develop_podcast_pitch_deck_owner",
+          "label": "Develop podcast pitch deck - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "develop_podcast_pitch_deck_start_date",
+          "label": "Develop podcast pitch deck - Start Date",
+          "type": "text",
+          "placeholder": "Enter start date",
+          "required": false
+        },
+        {
+          "id": "develop_podcast_pitch_deck_end_date",
+          "label": "Develop podcast pitch deck - End Date",
+          "type": "text",
+          "placeholder": "Enter end date",
+          "required": false
+        },
+        {
+          "id": "develop_podcast_pitch_deck_status",
+          "label": "Develop podcast pitch deck - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "develop_podcast_pitch_deck_priority",
+          "label": "Develop podcast pitch deck - Priority",
+          "type": "select",
+          "placeholder": "Enter priority",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "develop_podcast_pitch_deck_effort_days",
+          "label": "Develop podcast pitch deck - Effort (days)",
+          "type": "text",
+          "placeholder": "Enter effort (days)",
+          "required": false
+        },
+        {
+          "id": "develop_podcast_pitch_deck_impact_15",
+          "label": "Develop podcast pitch deck - Impact (1-5)",
+          "type": "scale",
+          "placeholder": "Enter impact (1-5)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "develop_podcast_pitch_deck_notes",
+          "label": "Develop podcast pitch deck - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "build_community_platform_on_circle_linked_key_result",
+          "label": "Build community platform on Circle - Linked Key Result",
+          "type": "text",
+          "placeholder": "Enter linked key result",
+          "required": false
+        },
+        {
+          "id": "build_community_platform_on_circle_owner",
+          "label": "Build community platform on Circle - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "build_community_platform_on_circle_start_date",
+          "label": "Build community platform on Circle - Start Date",
+          "type": "text",
+          "placeholder": "Enter start date",
+          "required": false
+        },
+        {
+          "id": "build_community_platform_on_circle_end_date",
+          "label": "Build community platform on Circle - End Date",
+          "type": "text",
+          "placeholder": "Enter end date",
+          "required": false
+        },
+        {
+          "id": "build_community_platform_on_circle_status",
+          "label": "Build community platform on Circle - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "build_community_platform_on_circle_priority",
+          "label": "Build community platform on Circle - Priority",
+          "type": "select",
+          "placeholder": "Enter priority",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "build_community_platform_on_circle_effort_days",
+          "label": "Build community platform on Circle - Effort (days)",
+          "type": "text",
+          "placeholder": "Enter effort (days)",
+          "required": false
+        },
+        {
+          "id": "build_community_platform_on_circle_impact_15",
+          "label": "Build community platform on Circle - Impact (1-5)",
+          "type": "scale",
+          "placeholder": "Enter impact (1-5)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "build_community_platform_on_circle_notes",
+          "label": "Build community platform on Circle - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "create_paid_social_campaign_refresh_linked_key_result",
+          "label": "Create paid social campaign refresh - Linked Key Result",
+          "type": "text",
+          "placeholder": "Enter linked key result",
+          "required": false
+        },
+        {
+          "id": "create_paid_social_campaign_refresh_owner",
+          "label": "Create paid social campaign refresh - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "create_paid_social_campaign_refresh_start_date",
+          "label": "Create paid social campaign refresh - Start Date",
+          "type": "text",
+          "placeholder": "Enter start date",
+          "required": false
+        },
+        {
+          "id": "create_paid_social_campaign_refresh_end_date",
+          "label": "Create paid social campaign refresh - End Date",
+          "type": "text",
+          "placeholder": "Enter end date",
+          "required": false
+        },
+        {
+          "id": "create_paid_social_campaign_refresh_status",
+          "label": "Create paid social campaign refresh - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "create_paid_social_campaign_refresh_priority",
+          "label": "Create paid social campaign refresh - Priority",
+          "type": "select",
+          "placeholder": "Enter priority",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "create_paid_social_campaign_refresh_effort_days",
+          "label": "Create paid social campaign refresh - Effort (days)",
+          "type": "text",
+          "placeholder": "Enter effort (days)",
+          "required": false
+        },
+        {
+          "id": "create_paid_social_campaign_refresh_impact_15",
+          "label": "Create paid social campaign refresh - Impact (1-5)",
+          "type": "scale",
+          "placeholder": "Enter impact (1-5)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "create_paid_social_campaign_refresh_notes",
+          "label": "Create paid social campaign refresh - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "okr_examples_library",
+      "title": "OKR Examples Library",
+      "description": "Enter data for each item",
+      "fields": [
+        {
+          "id": "brand_awareness_objective",
+          "label": "Brand & Awareness - Objective",
+          "type": "text",
+          "placeholder": "Enter objective",
+          "required": false
+        },
+        {
+          "id": "brand_awareness_example_key_results",
+          "label": "Brand & Awareness - Example Key Results",
+          "type": "text",
+          "placeholder": "Enter example key results",
+          "required": false
+        },
+        {
+          "id": "brand_awareness_success_metrics",
+          "label": "Brand & Awareness - Success Metrics",
+          "type": "text",
+          "placeholder": "Enter success metrics",
+          "required": false
+        },
+        {
+          "id": "brand_awareness_objective_1",
+          "label": "Brand & Awareness - Objective",
+          "type": "text",
+          "placeholder": "Enter objective",
+          "required": false
+        },
+        {
+          "id": "brand_awareness_example_key_results_1",
+          "label": "Brand & Awareness - Example Key Results",
+          "type": "text",
+          "placeholder": "Enter example key results",
+          "required": false
+        },
+        {
+          "id": "brand_awareness_success_metrics_1",
+          "label": "Brand & Awareness - Success Metrics",
+          "type": "text",
+          "placeholder": "Enter success metrics",
+          "required": false
+        },
+        {
+          "id": "brand_awareness_objective_2",
+          "label": "Brand & Awareness - Objective",
+          "type": "text",
+          "placeholder": "Enter objective",
+          "required": false
+        },
+        {
+          "id": "brand_awareness_example_key_results_2",
+          "label": "Brand & Awareness - Example Key Results",
+          "type": "text",
+          "placeholder": "Enter example key results",
+          "required": false
+        },
+        {
+          "id": "brand_awareness_success_metrics_2",
+          "label": "Brand & Awareness - Success Metrics",
+          "type": "text",
+          "placeholder": "Enter success metrics",
+          "required": false
+        },
+        {
+          "id": "brand_awareness_objective_3",
+          "label": "Brand & Awareness - Objective",
+          "type": "text",
+          "placeholder": "Enter objective",
+          "required": false
+        },
+        {
+          "id": "brand_awareness_example_key_results_3",
+          "label": "Brand & Awareness - Example Key Results",
+          "type": "text",
+          "placeholder": "Enter example key results",
+          "required": false
+        },
+        {
+          "id": "brand_awareness_success_metrics_3",
+          "label": "Brand & Awareness - Success Metrics",
+          "type": "text",
+          "placeholder": "Enter success metrics",
+          "required": false
+        },
+        {
+          "id": "brand_awareness_objective_4",
+          "label": "Brand & Awareness - Objective",
+          "type": "text",
+          "placeholder": "Enter objective",
+          "required": false
+        },
+        {
+          "id": "brand_awareness_example_key_results_4",
+          "label": "Brand & Awareness - Example Key Results",
+          "type": "text",
+          "placeholder": "Enter example key results",
+          "required": false
+        },
+        {
+          "id": "brand_awareness_success_metrics_4",
+          "label": "Brand & Awareness - Success Metrics",
+          "type": "text",
+          "placeholder": "Enter success metrics",
+          "required": false
+        },
+        {
+          "id": "content_marketing_objective",
+          "label": "Content Marketing - Objective",
+          "type": "text",
+          "placeholder": "Enter objective",
+          "required": false
+        },
+        {
+          "id": "content_marketing_example_key_results",
+          "label": "Content Marketing - Example Key Results",
+          "type": "text",
+          "placeholder": "Enter example key results",
+          "required": false
+        },
+        {
+          "id": "content_marketing_success_metrics",
+          "label": "Content Marketing - Success Metrics",
+          "type": "text",
+          "placeholder": "Enter success metrics",
+          "required": false
+        },
+        {
+          "id": "content_marketing_objective_1",
+          "label": "Content Marketing - Objective",
+          "type": "text",
+          "placeholder": "Enter objective",
+          "required": false
+        },
+        {
+          "id": "content_marketing_example_key_results_1",
+          "label": "Content Marketing - Example Key Results",
+          "type": "text",
+          "placeholder": "Enter example key results",
+          "required": false
+        },
+        {
+          "id": "content_marketing_success_metrics_1",
+          "label": "Content Marketing - Success Metrics",
+          "type": "text",
+          "placeholder": "Enter success metrics",
+          "required": false
+        },
+        {
+          "id": "content_marketing_objective_2",
+          "label": "Content Marketing - Objective",
+          "type": "text",
+          "placeholder": "Enter objective",
+          "required": false
+        },
+        {
+          "id": "content_marketing_example_key_results_2",
+          "label": "Content Marketing - Example Key Results",
+          "type": "text",
+          "placeholder": "Enter example key results",
+          "required": false
+        },
+        {
+          "id": "content_marketing_success_metrics_2",
+          "label": "Content Marketing - Success Metrics",
+          "type": "text",
+          "placeholder": "Enter success metrics",
+          "required": false
+        },
+        {
+          "id": "content_marketing_objective_3",
+          "label": "Content Marketing - Objective",
+          "type": "text",
+          "placeholder": "Enter objective",
+          "required": false
+        },
+        {
+          "id": "content_marketing_example_key_results_3",
+          "label": "Content Marketing - Example Key Results",
+          "type": "text",
+          "placeholder": "Enter example key results",
+          "required": false
+        },
+        {
+          "id": "content_marketing_success_metrics_3",
+          "label": "Content Marketing - Success Metrics",
+          "type": "text",
+          "placeholder": "Enter success metrics",
+          "required": false
+        },
+        {
+          "id": "content_marketing_objective_4",
+          "label": "Content Marketing - Objective",
+          "type": "text",
+          "placeholder": "Enter objective",
+          "required": false
+        },
+        {
+          "id": "content_marketing_example_key_results_4",
+          "label": "Content Marketing - Example Key Results",
+          "type": "text",
+          "placeholder": "Enter example key results",
+          "required": false
+        },
+        {
+          "id": "content_marketing_success_metrics_4",
+          "label": "Content Marketing - Success Metrics",
+          "type": "text",
+          "placeholder": "Enter success metrics",
+          "required": false
+        },
+        {
+          "id": "demand_generation_objective",
+          "label": "Demand Generation - Objective",
+          "type": "text",
+          "placeholder": "Enter objective",
+          "required": false
+        },
+        {
+          "id": "demand_generation_example_key_results",
+          "label": "Demand Generation - Example Key Results",
+          "type": "text",
+          "placeholder": "Enter example key results",
+          "required": false
+        },
+        {
+          "id": "demand_generation_success_metrics",
+          "label": "Demand Generation - Success Metrics",
+          "type": "text",
+          "placeholder": "Enter success metrics",
+          "required": false
+        },
+        {
+          "id": "demand_generation_objective_1",
+          "label": "Demand Generation - Objective",
+          "type": "text",
+          "placeholder": "Enter objective",
+          "required": false
+        },
+        {
+          "id": "demand_generation_example_key_results_1",
+          "label": "Demand Generation - Example Key Results",
+          "type": "text",
+          "placeholder": "Enter example key results",
+          "required": false
+        },
+        {
+          "id": "demand_generation_success_metrics_1",
+          "label": "Demand Generation - Success Metrics",
+          "type": "text",
+          "placeholder": "Enter success metrics",
+          "required": false
+        },
+        {
+          "id": "demand_generation_objective_2",
+          "label": "Demand Generation - Objective",
+          "type": "text",
+          "placeholder": "Enter objective",
+          "required": false
+        },
+        {
+          "id": "demand_generation_example_key_results_2",
+          "label": "Demand Generation - Example Key Results",
+          "type": "text",
+          "placeholder": "Enter example key results",
+          "required": false
+        },
+        {
+          "id": "demand_generation_success_metrics_2",
+          "label": "Demand Generation - Success Metrics",
+          "type": "text",
+          "placeholder": "Enter success metrics",
+          "required": false
+        },
+        {
+          "id": "demand_generation_objective_3",
+          "label": "Demand Generation - Objective",
+          "type": "text",
+          "placeholder": "Enter objective",
+          "required": false
+        },
+        {
+          "id": "demand_generation_example_key_results_3",
+          "label": "Demand Generation - Example Key Results",
+          "type": "text",
+          "placeholder": "Enter example key results",
+          "required": false
+        },
+        {
+          "id": "demand_generation_success_metrics_3",
+          "label": "Demand Generation - Success Metrics",
+          "type": "text",
+          "placeholder": "Enter success metrics",
+          "required": false
+        },
+        {
+          "id": "demand_generation_objective_4",
+          "label": "Demand Generation - Objective",
+          "type": "text",
+          "placeholder": "Enter objective",
+          "required": false
+        },
+        {
+          "id": "demand_generation_example_key_results_4",
+          "label": "Demand Generation - Example Key Results",
+          "type": "text",
+          "placeholder": "Enter example key results",
+          "required": false
+        },
+        {
+          "id": "demand_generation_success_metrics_4",
+          "label": "Demand Generation - Success Metrics",
+          "type": "text",
+          "placeholder": "Enter success metrics",
+          "required": false
+        },
+        {
+          "id": "product_marketing_objective",
+          "label": "Product Marketing - Objective",
+          "type": "text",
+          "placeholder": "Enter objective",
+          "required": false
+        },
+        {
+          "id": "product_marketing_example_key_results",
+          "label": "Product Marketing - Example Key Results",
+          "type": "text",
+          "placeholder": "Enter example key results",
+          "required": false
+        },
+        {
+          "id": "product_marketing_success_metrics",
+          "label": "Product Marketing - Success Metrics",
+          "type": "text",
+          "placeholder": "Enter success metrics",
+          "required": false
+        },
+        {
+          "id": "product_marketing_objective_1",
+          "label": "Product Marketing - Objective",
+          "type": "text",
+          "placeholder": "Enter objective",
+          "required": false
+        },
+        {
+          "id": "product_marketing_example_key_results_1",
+          "label": "Product Marketing - Example Key Results",
+          "type": "text",
+          "placeholder": "Enter example key results",
+          "required": false
+        },
+        {
+          "id": "product_marketing_success_metrics_1",
+          "label": "Product Marketing - Success Metrics",
+          "type": "text",
+          "placeholder": "Enter success metrics",
+          "required": false
+        },
+        {
+          "id": "product_marketing_objective_2",
+          "label": "Product Marketing - Objective",
+          "type": "text",
+          "placeholder": "Enter objective",
+          "required": false
+        },
+        {
+          "id": "product_marketing_example_key_results_2",
+          "label": "Product Marketing - Example Key Results",
+          "type": "text",
+          "placeholder": "Enter example key results",
+          "required": false
+        },
+        {
+          "id": "product_marketing_success_metrics_2",
+          "label": "Product Marketing - Success Metrics",
+          "type": "text",
+          "placeholder": "Enter success metrics",
+          "required": false
+        },
+        {
+          "id": "product_marketing_objective_3",
+          "label": "Product Marketing - Objective",
+          "type": "text",
+          "placeholder": "Enter objective",
+          "required": false
+        },
+        {
+          "id": "product_marketing_example_key_results_3",
+          "label": "Product Marketing - Example Key Results",
+          "type": "text",
+          "placeholder": "Enter example key results",
+          "required": false
+        },
+        {
+          "id": "product_marketing_success_metrics_3",
+          "label": "Product Marketing - Success Metrics",
+          "type": "text",
+          "placeholder": "Enter success metrics",
+          "required": false
+        },
+        {
+          "id": "product_marketing_objective_4",
+          "label": "Product Marketing - Objective",
+          "type": "text",
+          "placeholder": "Enter objective",
+          "required": false
+        },
+        {
+          "id": "product_marketing_example_key_results_4",
+          "label": "Product Marketing - Example Key Results",
+          "type": "text",
+          "placeholder": "Enter example key results",
+          "required": false
+        },
+        {
+          "id": "product_marketing_success_metrics_4",
+          "label": "Product Marketing - Success Metrics",
+          "type": "text",
+          "placeholder": "Enter success metrics",
+          "required": false
+        },
+        {
+          "id": "customer_marketing_objective",
+          "label": "Customer Marketing - Objective",
+          "type": "text",
+          "placeholder": "Enter objective",
+          "required": false
+        },
+        {
+          "id": "customer_marketing_example_key_results",
+          "label": "Customer Marketing - Example Key Results",
+          "type": "text",
+          "placeholder": "Enter example key results",
+          "required": false
+        },
+        {
+          "id": "customer_marketing_success_metrics",
+          "label": "Customer Marketing - Success Metrics",
+          "type": "text",
+          "placeholder": "Enter success metrics",
+          "required": false
+        },
+        {
+          "id": "customer_marketing_objective_1",
+          "label": "Customer Marketing - Objective",
+          "type": "text",
+          "placeholder": "Enter objective",
+          "required": false
+        },
+        {
+          "id": "customer_marketing_example_key_results_1",
+          "label": "Customer Marketing - Example Key Results",
+          "type": "text",
+          "placeholder": "Enter example key results",
+          "required": false
+        },
+        {
+          "id": "customer_marketing_success_metrics_1",
+          "label": "Customer Marketing - Success Metrics",
+          "type": "text",
+          "placeholder": "Enter success metrics",
+          "required": false
+        },
+        {
+          "id": "customer_marketing_objective_2",
+          "label": "Customer Marketing - Objective",
+          "type": "text",
+          "placeholder": "Enter objective",
+          "required": false
+        },
+        {
+          "id": "customer_marketing_example_key_results_2",
+          "label": "Customer Marketing - Example Key Results",
+          "type": "text",
+          "placeholder": "Enter example key results",
+          "required": false
+        },
+        {
+          "id": "customer_marketing_success_metrics_2",
+          "label": "Customer Marketing - Success Metrics",
+          "type": "text",
+          "placeholder": "Enter success metrics",
+          "required": false
+        },
+        {
+          "id": "customer_marketing_objective_3",
+          "label": "Customer Marketing - Objective",
+          "type": "text",
+          "placeholder": "Enter objective",
+          "required": false
+        },
+        {
+          "id": "customer_marketing_example_key_results_3",
+          "label": "Customer Marketing - Example Key Results",
+          "type": "text",
+          "placeholder": "Enter example key results",
+          "required": false
+        },
+        {
+          "id": "customer_marketing_success_metrics_3",
+          "label": "Customer Marketing - Success Metrics",
+          "type": "text",
+          "placeholder": "Enter success metrics",
+          "required": false
+        },
+        {
+          "id": "customer_marketing_objective_4",
+          "label": "Customer Marketing - Objective",
+          "type": "text",
+          "placeholder": "Enter objective",
+          "required": false
+        },
+        {
+          "id": "customer_marketing_example_key_results_4",
+          "label": "Customer Marketing - Example Key Results",
+          "type": "text",
+          "placeholder": "Enter example key results",
+          "required": false
+        },
+        {
+          "id": "customer_marketing_success_metrics_4",
+          "label": "Customer Marketing - Success Metrics",
+          "type": "text",
+          "placeholder": "Enter success metrics",
+          "required": false
+        },
+        {
+          "id": "digital_performance_objective",
+          "label": "Digital & Performance - Objective",
+          "type": "text",
+          "placeholder": "Enter objective",
+          "required": false
+        },
+        {
+          "id": "digital_performance_example_key_results",
+          "label": "Digital & Performance - Example Key Results",
+          "type": "text",
+          "placeholder": "Enter example key results",
+          "required": false
+        },
+        {
+          "id": "digital_performance_success_metrics",
+          "label": "Digital & Performance - Success Metrics",
+          "type": "text",
+          "placeholder": "Enter success metrics",
+          "required": false
+        },
+        {
+          "id": "digital_performance_objective_1",
+          "label": "Digital & Performance - Objective",
+          "type": "text",
+          "placeholder": "Enter objective",
+          "required": false
+        },
+        {
+          "id": "digital_performance_example_key_results_1",
+          "label": "Digital & Performance - Example Key Results",
+          "type": "text",
+          "placeholder": "Enter example key results",
+          "required": false
+        },
+        {
+          "id": "digital_performance_success_metrics_1",
+          "label": "Digital & Performance - Success Metrics",
+          "type": "text",
+          "placeholder": "Enter success metrics",
+          "required": false
+        },
+        {
+          "id": "digital_performance_objective_2",
+          "label": "Digital & Performance - Objective",
+          "type": "text",
+          "placeholder": "Enter objective",
+          "required": false
+        },
+        {
+          "id": "digital_performance_example_key_results_2",
+          "label": "Digital & Performance - Example Key Results",
+          "type": "text",
+          "placeholder": "Enter example key results",
+          "required": false
+        },
+        {
+          "id": "digital_performance_success_metrics_2",
+          "label": "Digital & Performance - Success Metrics",
+          "type": "text",
+          "placeholder": "Enter success metrics",
+          "required": false
+        },
+        {
+          "id": "digital_performance_objective_3",
+          "label": "Digital & Performance - Objective",
+          "type": "text",
+          "placeholder": "Enter objective",
+          "required": false
+        },
+        {
+          "id": "digital_performance_example_key_results_3",
+          "label": "Digital & Performance - Example Key Results",
+          "type": "text",
+          "placeholder": "Enter example key results",
+          "required": false
+        },
+        {
+          "id": "digital_performance_success_metrics_3",
+          "label": "Digital & Performance - Success Metrics",
+          "type": "text",
+          "placeholder": "Enter success metrics",
+          "required": false
+        },
+        {
+          "id": "digital_performance_objective_4",
+          "label": "Digital & Performance - Objective",
+          "type": "text",
+          "placeholder": "Enter objective",
+          "required": false
+        },
+        {
+          "id": "digital_performance_example_key_results_4",
+          "label": "Digital & Performance - Example Key Results",
+          "type": "text",
+          "placeholder": "Enter example key results",
+          "required": false
+        },
+        {
+          "id": "digital_performance_success_metrics_4",
+          "label": "Digital & Performance - Success Metrics",
+          "type": "text",
+          "placeholder": "Enter success metrics",
+          "required": false
+        },
+        {
+          "id": "social_media_objective",
+          "label": "Social Media - Objective",
+          "type": "text",
+          "placeholder": "Enter objective",
+          "required": false
+        },
+        {
+          "id": "social_media_example_key_results",
+          "label": "Social Media - Example Key Results",
+          "type": "text",
+          "placeholder": "Enter example key results",
+          "required": false
+        },
+        {
+          "id": "social_media_success_metrics",
+          "label": "Social Media - Success Metrics",
+          "type": "text",
+          "placeholder": "Enter success metrics",
+          "required": false
+        },
+        {
+          "id": "social_media_objective_1",
+          "label": "Social Media - Objective",
+          "type": "text",
+          "placeholder": "Enter objective",
+          "required": false
+        },
+        {
+          "id": "social_media_example_key_results_1",
+          "label": "Social Media - Example Key Results",
+          "type": "text",
+          "placeholder": "Enter example key results",
+          "required": false
+        },
+        {
+          "id": "social_media_success_metrics_1",
+          "label": "Social Media - Success Metrics",
+          "type": "text",
+          "placeholder": "Enter success metrics",
+          "required": false
+        },
+        {
+          "id": "social_media_objective_2",
+          "label": "Social Media - Objective",
+          "type": "text",
+          "placeholder": "Enter objective",
+          "required": false
+        },
+        {
+          "id": "social_media_example_key_results_2",
+          "label": "Social Media - Example Key Results",
+          "type": "text",
+          "placeholder": "Enter example key results",
+          "required": false
+        },
+        {
+          "id": "social_media_success_metrics_2",
+          "label": "Social Media - Success Metrics",
+          "type": "text",
+          "placeholder": "Enter success metrics",
+          "required": false
+        },
+        {
+          "id": "social_media_objective_3",
+          "label": "Social Media - Objective",
+          "type": "text",
+          "placeholder": "Enter objective",
+          "required": false
+        },
+        {
+          "id": "social_media_example_key_results_3",
+          "label": "Social Media - Example Key Results",
+          "type": "text",
+          "placeholder": "Enter example key results",
+          "required": false
+        },
+        {
+          "id": "social_media_success_metrics_3",
+          "label": "Social Media - Success Metrics",
+          "type": "text",
+          "placeholder": "Enter success metrics",
+          "required": false
+        },
+        {
+          "id": "social_media_objective_4",
+          "label": "Social Media - Objective",
+          "type": "text",
+          "placeholder": "Enter objective",
+          "required": false
+        },
+        {
+          "id": "social_media_example_key_results_4",
+          "label": "Social Media - Example Key Results",
+          "type": "text",
+          "placeholder": "Enter example key results",
+          "required": false
+        },
+        {
+          "id": "social_media_success_metrics_4",
+          "label": "Social Media - Success Metrics",
+          "type": "text",
+          "placeholder": "Enter success metrics",
+          "required": false
+        },
+        {
+          "id": "email_marketing_objective",
+          "label": "Email Marketing - Objective",
+          "type": "text",
+          "placeholder": "Enter objective",
+          "required": false
+        },
+        {
+          "id": "email_marketing_example_key_results",
+          "label": "Email Marketing - Example Key Results",
+          "type": "text",
+          "placeholder": "Enter example key results",
+          "required": false
+        },
+        {
+          "id": "email_marketing_success_metrics",
+          "label": "Email Marketing - Success Metrics",
+          "type": "text",
+          "placeholder": "Enter success metrics",
+          "required": false
+        },
+        {
+          "id": "email_marketing_objective_1",
+          "label": "Email Marketing - Objective",
+          "type": "text",
+          "placeholder": "Enter objective",
+          "required": false
+        },
+        {
+          "id": "email_marketing_example_key_results_1",
+          "label": "Email Marketing - Example Key Results",
+          "type": "text",
+          "placeholder": "Enter example key results",
+          "required": false
+        },
+        {
+          "id": "email_marketing_success_metrics_1",
+          "label": "Email Marketing - Success Metrics",
+          "type": "text",
+          "placeholder": "Enter success metrics",
+          "required": false
+        },
+        {
+          "id": "email_marketing_objective_2",
+          "label": "Email Marketing - Objective",
+          "type": "text",
+          "placeholder": "Enter objective",
+          "required": false
+        },
+        {
+          "id": "email_marketing_example_key_results_2",
+          "label": "Email Marketing - Example Key Results",
+          "type": "text",
+          "placeholder": "Enter example key results",
+          "required": false
+        },
+        {
+          "id": "email_marketing_success_metrics_2",
+          "label": "Email Marketing - Success Metrics",
+          "type": "text",
+          "placeholder": "Enter success metrics",
+          "required": false
+        },
+        {
+          "id": "email_marketing_objective_3",
+          "label": "Email Marketing - Objective",
+          "type": "text",
+          "placeholder": "Enter objective",
+          "required": false
+        },
+        {
+          "id": "email_marketing_example_key_results_3",
+          "label": "Email Marketing - Example Key Results",
+          "type": "text",
+          "placeholder": "Enter example key results",
+          "required": false
+        },
+        {
+          "id": "email_marketing_success_metrics_3",
+          "label": "Email Marketing - Success Metrics",
+          "type": "text",
+          "placeholder": "Enter success metrics",
+          "required": false
+        },
+        {
+          "id": "email_marketing_objective_4",
+          "label": "Email Marketing - Objective",
+          "type": "text",
+          "placeholder": "Enter objective",
+          "required": false
+        },
+        {
+          "id": "email_marketing_example_key_results_4",
+          "label": "Email Marketing - Example Key Results",
+          "type": "text",
+          "placeholder": "Enter example key results",
+          "required": false
+        },
+        {
+          "id": "email_marketing_success_metrics_4",
+          "label": "Email Marketing - Success Metrics",
+          "type": "text",
+          "placeholder": "Enter success metrics",
+          "required": false
+        },
+        {
+          "id": "events_experiences_objective",
+          "label": "Events & Experiences - Objective",
+          "type": "text",
+          "placeholder": "Enter objective",
+          "required": false
+        },
+        {
+          "id": "events_experiences_example_key_results",
+          "label": "Events & Experiences - Example Key Results",
+          "type": "text",
+          "placeholder": "Enter example key results",
+          "required": false
+        },
+        {
+          "id": "events_experiences_success_metrics",
+          "label": "Events & Experiences - Success Metrics",
+          "type": "text",
+          "placeholder": "Enter success metrics",
+          "required": false
+        },
+        {
+          "id": "events_experiences_objective_1",
+          "label": "Events & Experiences - Objective",
+          "type": "text",
+          "placeholder": "Enter objective",
+          "required": false
+        },
+        {
+          "id": "events_experiences_example_key_results_1",
+          "label": "Events & Experiences - Example Key Results",
+          "type": "text",
+          "placeholder": "Enter example key results",
+          "required": false
+        },
+        {
+          "id": "events_experiences_success_metrics_1",
+          "label": "Events & Experiences - Success Metrics",
+          "type": "text",
+          "placeholder": "Enter success metrics",
+          "required": false
+        },
+        {
+          "id": "events_experiences_objective_2",
+          "label": "Events & Experiences - Objective",
+          "type": "text",
+          "placeholder": "Enter objective",
+          "required": false
+        },
+        {
+          "id": "events_experiences_example_key_results_2",
+          "label": "Events & Experiences - Example Key Results",
+          "type": "text",
+          "placeholder": "Enter example key results",
+          "required": false
+        },
+        {
+          "id": "events_experiences_success_metrics_2",
+          "label": "Events & Experiences - Success Metrics",
+          "type": "text",
+          "placeholder": "Enter success metrics",
+          "required": false
+        },
+        {
+          "id": "events_experiences_objective_3",
+          "label": "Events & Experiences - Objective",
+          "type": "text",
+          "placeholder": "Enter objective",
+          "required": false
+        },
+        {
+          "id": "events_experiences_example_key_results_3",
+          "label": "Events & Experiences - Example Key Results",
+          "type": "text",
+          "placeholder": "Enter example key results",
+          "required": false
+        },
+        {
+          "id": "events_experiences_success_metrics_3",
+          "label": "Events & Experiences - Success Metrics",
+          "type": "text",
+          "placeholder": "Enter success metrics",
+          "required": false
+        },
+        {
+          "id": "events_experiences_objective_4",
+          "label": "Events & Experiences - Objective",
+          "type": "text",
+          "placeholder": "Enter objective",
+          "required": false
+        },
+        {
+          "id": "events_experiences_example_key_results_4",
+          "label": "Events & Experiences - Example Key Results",
+          "type": "text",
+          "placeholder": "Enter example key results",
+          "required": false
+        },
+        {
+          "id": "events_experiences_success_metrics_4",
+          "label": "Events & Experiences - Success Metrics",
+          "type": "text",
+          "placeholder": "Enter success metrics",
+          "required": false
+        },
+        {
+          "id": "analytics_operations_objective",
+          "label": "Analytics & Operations - Objective",
+          "type": "text",
+          "placeholder": "Enter objective",
+          "required": false
+        },
+        {
+          "id": "analytics_operations_example_key_results",
+          "label": "Analytics & Operations - Example Key Results",
+          "type": "text",
+          "placeholder": "Enter example key results",
+          "required": false
+        },
+        {
+          "id": "analytics_operations_success_metrics",
+          "label": "Analytics & Operations - Success Metrics",
+          "type": "text",
+          "placeholder": "Enter success metrics",
+          "required": false
+        },
+        {
+          "id": "analytics_operations_objective_1",
+          "label": "Analytics & Operations - Objective",
+          "type": "text",
+          "placeholder": "Enter objective",
+          "required": false
+        },
+        {
+          "id": "analytics_operations_example_key_results_1",
+          "label": "Analytics & Operations - Example Key Results",
+          "type": "text",
+          "placeholder": "Enter example key results",
+          "required": false
+        },
+        {
+          "id": "analytics_operations_success_metrics_1",
+          "label": "Analytics & Operations - Success Metrics",
+          "type": "text",
+          "placeholder": "Enter success metrics",
+          "required": false
+        },
+        {
+          "id": "analytics_operations_objective_2",
+          "label": "Analytics & Operations - Objective",
+          "type": "text",
+          "placeholder": "Enter objective",
+          "required": false
+        },
+        {
+          "id": "analytics_operations_example_key_results_2",
+          "label": "Analytics & Operations - Example Key Results",
+          "type": "text",
+          "placeholder": "Enter example key results",
+          "required": false
+        },
+        {
+          "id": "analytics_operations_success_metrics_2",
+          "label": "Analytics & Operations - Success Metrics",
+          "type": "text",
+          "placeholder": "Enter success metrics",
+          "required": false
+        },
+        {
+          "id": "analytics_operations_objective_3",
+          "label": "Analytics & Operations - Objective",
+          "type": "text",
+          "placeholder": "Enter objective",
+          "required": false
+        },
+        {
+          "id": "analytics_operations_example_key_results_3",
+          "label": "Analytics & Operations - Example Key Results",
+          "type": "text",
+          "placeholder": "Enter example key results",
+          "required": false
+        },
+        {
+          "id": "analytics_operations_success_metrics_3",
+          "label": "Analytics & Operations - Success Metrics",
+          "type": "text",
+          "placeholder": "Enter success metrics",
+          "required": false
+        },
+        {
+          "id": "analytics_operations_objective_4",
+          "label": "Analytics & Operations - Objective",
+          "type": "text",
+          "placeholder": "Enter objective",
+          "required": false
+        },
+        {
+          "id": "analytics_operations_example_key_results_4",
+          "label": "Analytics & Operations - Example Key Results",
+          "type": "text",
+          "placeholder": "Enter example key results",
+          "required": false
+        },
+        {
+          "id": "analytics_operations_success_metrics_4",
+          "label": "Analytics & Operations - Success Metrics",
+          "type": "text",
+          "placeholder": "Enter success metrics",
+          "required": false
+        },
+        {
+          "id": "sustainability_purpose_objective",
+          "label": "Sustainability & Purpose - Objective",
+          "type": "text",
+          "placeholder": "Enter objective",
+          "required": false
+        },
+        {
+          "id": "sustainability_purpose_example_key_results",
+          "label": "Sustainability & Purpose - Example Key Results",
+          "type": "text",
+          "placeholder": "Enter example key results",
+          "required": false
+        },
+        {
+          "id": "sustainability_purpose_success_metrics",
+          "label": "Sustainability & Purpose - Success Metrics",
+          "type": "text",
+          "placeholder": "Enter success metrics",
+          "required": false
+        },
+        {
+          "id": "sustainability_purpose_objective_1",
+          "label": "Sustainability & Purpose - Objective",
+          "type": "text",
+          "placeholder": "Enter objective",
+          "required": false
+        },
+        {
+          "id": "sustainability_purpose_example_key_results_1",
+          "label": "Sustainability & Purpose - Example Key Results",
+          "type": "text",
+          "placeholder": "Enter example key results",
+          "required": false
+        },
+        {
+          "id": "sustainability_purpose_success_metrics_1",
+          "label": "Sustainability & Purpose - Success Metrics",
+          "type": "text",
+          "placeholder": "Enter success metrics",
+          "required": false
+        },
+        {
+          "id": "sustainability_purpose_objective_2",
+          "label": "Sustainability & Purpose - Objective",
+          "type": "text",
+          "placeholder": "Enter objective",
+          "required": false
+        },
+        {
+          "id": "sustainability_purpose_example_key_results_2",
+          "label": "Sustainability & Purpose - Example Key Results",
+          "type": "text",
+          "placeholder": "Enter example key results",
+          "required": false
+        },
+        {
+          "id": "sustainability_purpose_success_metrics_2",
+          "label": "Sustainability & Purpose - Success Metrics",
+          "type": "text",
+          "placeholder": "Enter success metrics",
+          "required": false
+        }
+      ]
+    }
+  ]
 }

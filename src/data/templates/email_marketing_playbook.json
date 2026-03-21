@@ -10,442 +10,6 @@
     "channels"
   ],
   "estimatedTime": "50 min",
-  "sections": [
-    {
-      "id": "dashboard",
-      "title": "Dashboard",
-      "description": "Complete the Dashboard section",
-      "fields": [
-        {
-          "id": "overview_0",
-          "label": "OVERVIEW",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "emails_sent_1",
-          "label": "Emails Sent",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "total_sent_to_2",
-          "label": "Total Sent To",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "avg_open_rate_3",
-          "label": "Avg Open Rate",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "avg_click_rate_4",
-          "label": "Avg Click Rate",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "total_unsubs_5",
-          "label": "Total Unsubs",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "performance_by_email_type_6",
-          "label": "PERFORMANCE BY EMAIL TYPE",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "email_health_benchmarks_7",
-          "label": "EMAIL HEALTH BENCHMARKS",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "email_type_8",
-          "label": "Email Type",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "count_9",
-          "label": "Count",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "avg_open_rate_10",
-          "label": "Avg Open Rate",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "avg_click_rate_11",
-          "label": "Avg Click Rate",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "metric_12",
-          "label": "Metric",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "your_average_13",
-          "label": "Your Average",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "newsletter_14",
-          "label": "Newsletter",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "open_rate_15",
-          "label": "Open Rate",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "welcome_series_16",
-          "label": "Welcome Series",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "click_rate_17",
-          "label": "Click Rate",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "nurture_sequence_18",
-          "label": "Nurture Sequence",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "unsubscribe_rate_19",
-          "label": "Unsubscribe Rate",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "promotional_20",
-          "label": "Promotional",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "list_growth_rate_21",
-          "label": "List Growth Rate",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "track_monthly_22",
-          "label": "Track monthly",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "re_engagement_23",
-          "label": "Re-engagement",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "revenue_per_email_24",
-          "label": "Revenue per Email",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "transactional_25",
-          "label": "Transactional",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "announcement_26",
-          "label": "Announcement",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "survey_feedback_27",
-          "label": "Survey/Feedback",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "other_28",
-          "label": "Other",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "strategic_insights_29",
-          "label": "STRATEGIC INSIGHTS",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "strategy",
-      "title": "Strategy",
-      "description": "Complete the Strategy section",
-      "fields": [
-        {
-          "id": "monthly_target_0",
-          "label": "Monthly Target",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "current_list_size_1",
-          "label": "Current List Size",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "list_growth_strategy_2",
-          "label": "List Growth Strategy",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "audience_segments_3",
-          "label": "AUDIENCE SEGMENTS",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "segment_1_name_4",
-          "label": "Segment 1: Name",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "segment_1_definition_5",
-          "label": "Segment 1: Definition",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "segment_1_email_cadence_6",
-          "label": "Segment 1: Email Cadence",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "segment_2_name_7",
-          "label": "Segment 2: Name",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "segment_2_definition_8",
-          "label": "Segment 2: Definition",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "segment_2_email_cadence_9",
-          "label": "Segment 2: Email Cadence",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "segment_3_name_10",
-          "label": "Segment 3: Name",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "segment_3_definition_11",
-          "label": "Segment 3: Definition",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "segment_3_email_cadence_12",
-          "label": "Segment 3: Email Cadence",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "email_types_frequency_13",
-          "label": "EMAIL TYPES & FREQUENCY",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "newsletter_frequency_14",
-          "label": "Newsletter Frequency",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "automated_sequences_active_15",
-          "label": "Automated Sequences Active",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "promotional_emails_month_16",
-          "label": "Promotional Emails / Month",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "transactional_emails_17",
-          "label": "Transactional Emails",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "sender_name_address_18",
-          "label": "Sender Name & Address",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "tone_content_guidelines_19",
-          "label": "TONE & CONTENT GUIDELINES",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "email_voice_20",
-          "label": "Email Voice",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "subject_line_style_21",
-          "label": "Subject Line Style",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "cta_style_22",
-          "label": "CTA Style",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "content_length_preference_23",
-          "label": "Content Length Preference",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "personalization_level_24",
-          "label": "Personalization Level",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "sequence_builder",
-      "title": "Sequence Builder",
-      "description": "Complete the Sequence Builder section",
-      "fields": [
-        {
-          "id": "introduce_brand_set_expectations_deliver_0",
-          "label": "Introduce brand, set expectations, deliver lead magnet",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "share_insight_position_as_expert_1",
-          "label": "Share insight, position as expert",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "social_proof_via_case_study_or_testimoni_2",
-          "label": "Social proof via case study or testimonial",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "soft_pitch_introduce_your_solution_3",
-          "label": "Soft pitch — introduce your solution",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    }
-  ],
   "dashboard": {
     "metrics": [
       {
@@ -459,5 +23,695 @@
         "format": "number"
       }
     ]
-  }
+  },
+  "sections": [
+    {
+      "id": "dashboard",
+      "title": "Dashboard",
+      "description": "Auto-calculated summary of your data. Complete the working sections to see results here.",
+      "readOnly": true,
+      "fields": [
+        {
+          "id": "dashboard_overview",
+          "label": "Dashboard Overview",
+          "type": "textarea",
+          "placeholder": "Dashboard metrics will be calculated from your inputs in the working sections",
+          "required": false,
+          "readOnly": true
+        }
+      ]
+    },
+    {
+      "id": "email_marketing_strategy",
+      "title": "Email Marketing Strategy",
+      "description": "Complete the Email Marketing Strategy section",
+      "fields": []
+    },
+    {
+      "id": "goals_kpis",
+      "title": "GOALS & KPIs",
+      "description": "[Strategy] Complete the GOALS & KPIs section",
+      "fields": [
+        {
+          "id": "primary_email_goal",
+          "label": "Primary Email Goal",
+          "type": "text",
+          "placeholder": "List growth, lead nurture, sales, retention, engagement?",
+          "required": false,
+          "helpText": "List growth, lead nurture, sales, retention, engagement?"
+        },
+        {
+          "id": "key_metric",
+          "label": "Key Metric",
+          "type": "number",
+          "placeholder": "The one number that defines email success",
+          "required": false,
+          "helpText": "The one number that defines email success"
+        },
+        {
+          "id": "monthly_target",
+          "label": "Monthly Target",
+          "type": "text",
+          "placeholder": "Specific, measurable target",
+          "required": false,
+          "helpText": "Specific, measurable target"
+        },
+        {
+          "id": "current_list_size",
+          "label": "Current List Size",
+          "type": "text",
+          "placeholder": "How many subscribers do you have today?",
+          "required": false,
+          "helpText": "How many subscribers do you have today?"
+        },
+        {
+          "id": "list_growth_strategy",
+          "label": "List Growth Strategy",
+          "type": "textarea",
+          "placeholder": "How will you grow your list? Lead magnets, partnerships, content?",
+          "required": false,
+          "helpText": "How will you grow your list? Lead magnets, partnerships, content?"
+        }
+      ]
+    },
+    {
+      "id": "audience_segments",
+      "title": "Audience Segments",
+      "description": "[Strategy] Complete the Audience Segments section",
+      "fields": [
+        {
+          "id": "segment_1_name",
+          "label": "Segment 1: Name",
+          "type": "text",
+          "placeholder": "e.g. New Subscribers, Trial Users, Enterprise Leads",
+          "required": false,
+          "helpText": "e.g. New Subscribers, Trial Users, Enterprise Leads"
+        },
+        {
+          "id": "segment_1_definition",
+          "label": "Segment 1: Definition",
+          "type": "text",
+          "placeholder": "What criteria define this segment?",
+          "required": false,
+          "helpText": "What criteria define this segment?"
+        },
+        {
+          "id": "segment_1_email_cadence",
+          "label": "Segment 1: Email Cadence",
+          "type": "text",
+          "placeholder": "How often do you email this segment?",
+          "required": false,
+          "helpText": "How often do you email this segment?"
+        }
+      ]
+    },
+    {
+      "id": "segment_2_name",
+      "title": "Segment 2: Name",
+      "description": "[Strategy] Complete the Segment 2: Name section",
+      "fields": []
+    },
+    {
+      "id": "segment_2_definition",
+      "title": "Segment 2: Definition",
+      "description": "[Strategy] Complete the Segment 2: Definition section",
+      "fields": []
+    },
+    {
+      "id": "segment_2_email_cadence",
+      "title": "Segment 2: Email Cadence",
+      "description": "[Strategy] Complete the Segment 2: Email Cadence section",
+      "fields": []
+    },
+    {
+      "id": "segment_3_name",
+      "title": "Segment 3: Name",
+      "description": "[Strategy] Complete the Segment 3: Name section",
+      "fields": []
+    },
+    {
+      "id": "segment_3_definition",
+      "title": "Segment 3: Definition",
+      "description": "[Strategy] Complete the Segment 3: Definition section",
+      "fields": []
+    },
+    {
+      "id": "segment_3_email_cadence",
+      "title": "Segment 3: Email Cadence",
+      "description": "[Strategy] Complete the Segment 3: Email Cadence section",
+      "fields": []
+    },
+    {
+      "id": "email_types_frequency",
+      "title": "Email Types & Frequency",
+      "description": "[Strategy] Complete the Email Types & Frequency section",
+      "fields": [
+        {
+          "id": "newsletter_frequency",
+          "label": "Newsletter Frequency",
+          "type": "text",
+          "placeholder": "Weekly, bi-weekly, monthly?",
+          "required": false,
+          "helpText": "Weekly, bi-weekly, monthly?"
+        },
+        {
+          "id": "automated_sequences_active",
+          "label": "Automated Sequences Active",
+          "type": "text",
+          "placeholder": "Welcome, nurture, re-engagement, post-purchase?",
+          "required": false,
+          "helpText": "Welcome, nurture, re-engagement, post-purchase?"
+        },
+        {
+          "id": "promotional_emails_month",
+          "label": "Promotional Emails / Month",
+          "type": "text",
+          "placeholder": "How many sales/promo emails per month?",
+          "required": false,
+          "helpText": "How many sales/promo emails per month?"
+        },
+        {
+          "id": "transactional_emails",
+          "label": "Transactional Emails",
+          "type": "text",
+          "placeholder": "Confirmations, receipts, notifications — are they branded?",
+          "required": false,
+          "helpText": "Confirmations, receipts, notifications — are they branded?"
+        },
+        {
+          "id": "sender_name_address",
+          "label": "Sender Name & Address",
+          "type": "text",
+          "placeholder": "Who do emails come from? Name + email address",
+          "required": false,
+          "helpText": "Who do emails come from? Name + email address"
+        }
+      ]
+    },
+    {
+      "id": "tone_content_guidelines",
+      "title": "Tone & Content Guidelines",
+      "description": "[Strategy] Complete the Tone & Content Guidelines section",
+      "fields": [
+        {
+          "id": "email_voice",
+          "label": "Email Voice",
+          "type": "text",
+          "placeholder": "How should your emails sound? Friendly, professional, witty?",
+          "required": false,
+          "helpText": "How should your emails sound? Friendly, professional, witty?"
+        },
+        {
+          "id": "subject_line_style",
+          "label": "Subject Line Style",
+          "type": "number",
+          "placeholder": "Direct, curious, numbered, question-based, emoji?",
+          "required": false,
+          "helpText": "Direct, curious, numbered, question-based, emoji?"
+        },
+        {
+          "id": "cta_style",
+          "label": "CTA Style",
+          "type": "text",
+          "placeholder": "Button text preference: Learn More, Get Started, Buy Now?",
+          "required": false,
+          "helpText": "Button text preference: Learn More, Get Started, Buy Now?"
+        },
+        {
+          "id": "content_length_preference",
+          "label": "Content Length Preference",
+          "type": "text",
+          "placeholder": "Short and punchy, medium with visuals, or long-form?",
+          "required": false,
+          "helpText": "Short and punchy, medium with visuals, or long-form?"
+        },
+        {
+          "id": "personalization_level",
+          "label": "Personalization Level",
+          "type": "text",
+          "placeholder": "First name, behavior-based, dynamic content blocks?",
+          "required": false,
+          "helpText": "First name, behavior-based, dynamic content blocks?"
+        }
+      ]
+    },
+    {
+      "id": "sequence_builder",
+      "title": "Sequence Builder",
+      "description": "Enter data for each item",
+      "fields": [
+        {
+          "id": "welcome_series_email",
+          "label": "Welcome Series - Email #",
+          "type": "text",
+          "placeholder": "Enter email #",
+          "required": false
+        },
+        {
+          "id": "welcome_series_delay_days",
+          "label": "Welcome Series - Delay (days)",
+          "type": "text",
+          "placeholder": "Enter delay (days)",
+          "required": false
+        },
+        {
+          "id": "welcome_series_subject_line",
+          "label": "Welcome Series - Subject Line",
+          "type": "text",
+          "placeholder": "Enter subject line",
+          "required": false
+        },
+        {
+          "id": "welcome_series_email_purpose_content_summary",
+          "label": "Welcome Series - Email Purpose / Content Summary",
+          "type": "textarea",
+          "placeholder": "Enter email purpose / content summary",
+          "required": false
+        },
+        {
+          "id": "welcome_series_cta",
+          "label": "Welcome Series - CTA",
+          "type": "text",
+          "placeholder": "Enter cta",
+          "required": false
+        },
+        {
+          "id": "welcome_series_goal",
+          "label": "Welcome Series - Goal",
+          "type": "text",
+          "placeholder": "Enter goal",
+          "required": false
+        },
+        {
+          "id": "welcome_series_status",
+          "label": "Welcome Series - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "welcome_series_email_1",
+          "label": "Welcome Series - Email #",
+          "type": "text",
+          "placeholder": "Enter email #",
+          "required": false
+        },
+        {
+          "id": "welcome_series_delay_days_1",
+          "label": "Welcome Series - Delay (days)",
+          "type": "text",
+          "placeholder": "Enter delay (days)",
+          "required": false
+        },
+        {
+          "id": "welcome_series_subject_line_1",
+          "label": "Welcome Series - Subject Line",
+          "type": "text",
+          "placeholder": "Enter subject line",
+          "required": false
+        },
+        {
+          "id": "welcome_series_email_purpose_content_summary_1",
+          "label": "Welcome Series - Email Purpose / Content Summary",
+          "type": "textarea",
+          "placeholder": "Enter email purpose / content summary",
+          "required": false
+        },
+        {
+          "id": "welcome_series_cta_1",
+          "label": "Welcome Series - CTA",
+          "type": "text",
+          "placeholder": "Enter cta",
+          "required": false
+        },
+        {
+          "id": "welcome_series_goal_1",
+          "label": "Welcome Series - Goal",
+          "type": "text",
+          "placeholder": "Enter goal",
+          "required": false
+        },
+        {
+          "id": "welcome_series_status_1",
+          "label": "Welcome Series - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "welcome_series_email_2",
+          "label": "Welcome Series - Email #",
+          "type": "text",
+          "placeholder": "Enter email #",
+          "required": false
+        },
+        {
+          "id": "welcome_series_delay_days_2",
+          "label": "Welcome Series - Delay (days)",
+          "type": "text",
+          "placeholder": "Enter delay (days)",
+          "required": false
+        },
+        {
+          "id": "welcome_series_subject_line_2",
+          "label": "Welcome Series - Subject Line",
+          "type": "text",
+          "placeholder": "Enter subject line",
+          "required": false
+        },
+        {
+          "id": "welcome_series_email_purpose_content_summary_2",
+          "label": "Welcome Series - Email Purpose / Content Summary",
+          "type": "textarea",
+          "placeholder": "Enter email purpose / content summary",
+          "required": false
+        },
+        {
+          "id": "welcome_series_cta_2",
+          "label": "Welcome Series - CTA",
+          "type": "text",
+          "placeholder": "Enter cta",
+          "required": false
+        },
+        {
+          "id": "welcome_series_goal_2",
+          "label": "Welcome Series - Goal",
+          "type": "text",
+          "placeholder": "Enter goal",
+          "required": false
+        },
+        {
+          "id": "welcome_series_status_2",
+          "label": "Welcome Series - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "welcome_series_email_3",
+          "label": "Welcome Series - Email #",
+          "type": "text",
+          "placeholder": "Enter email #",
+          "required": false
+        },
+        {
+          "id": "welcome_series_delay_days_3",
+          "label": "Welcome Series - Delay (days)",
+          "type": "text",
+          "placeholder": "Enter delay (days)",
+          "required": false
+        },
+        {
+          "id": "welcome_series_subject_line_3",
+          "label": "Welcome Series - Subject Line",
+          "type": "text",
+          "placeholder": "Enter subject line",
+          "required": false
+        },
+        {
+          "id": "welcome_series_email_purpose_content_summary_3",
+          "label": "Welcome Series - Email Purpose / Content Summary",
+          "type": "textarea",
+          "placeholder": "Enter email purpose / content summary",
+          "required": false
+        },
+        {
+          "id": "welcome_series_cta_3",
+          "label": "Welcome Series - CTA",
+          "type": "text",
+          "placeholder": "Enter cta",
+          "required": false
+        },
+        {
+          "id": "welcome_series_goal_3",
+          "label": "Welcome Series - Goal",
+          "type": "text",
+          "placeholder": "Enter goal",
+          "required": false
+        },
+        {
+          "id": "welcome_series_status_3",
+          "label": "Welcome Series - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "campaign_planner",
+      "title": "Campaign Planner",
+      "description": "Add entries below. Each entry has the following fields.",
+      "fields": [
+        {
+          "id": "entry_send_date",
+          "label": "Send Date",
+          "type": "text",
+          "placeholder": "Enter send date",
+          "required": false
+        },
+        {
+          "id": "entry_campaign_name",
+          "label": "Campaign Name",
+          "type": "text",
+          "placeholder": "Enter campaign name",
+          "required": false
+        },
+        {
+          "id": "entry_type",
+          "label": "Type",
+          "type": "select",
+          "placeholder": "Enter type",
+          "required": false,
+          "options": [
+            "Blog Post",
+            "Video",
+            "Infographic",
+            "Case Study",
+            "Whitepaper",
+            "Newsletter",
+            "Social Post",
+            "Webinar"
+          ]
+        },
+        {
+          "id": "entry_subject_line",
+          "label": "Subject Line",
+          "type": "text",
+          "placeholder": "Enter subject line",
+          "required": false
+        },
+        {
+          "id": "entry_segment",
+          "label": "Segment",
+          "type": "text",
+          "placeholder": "Enter segment",
+          "required": false
+        },
+        {
+          "id": "entry_cta",
+          "label": "CTA",
+          "type": "text",
+          "placeholder": "Enter cta",
+          "required": false
+        },
+        {
+          "id": "entry_status",
+          "label": "Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "entry_notes",
+          "label": "Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "ab_testing",
+      "title": "AB Testing",
+      "description": "Add entries below. Each entry has the following fields.",
+      "fields": [
+        {
+          "id": "entry_test_date",
+          "label": "Test Date",
+          "type": "text",
+          "placeholder": "Enter test date",
+          "required": false
+        },
+        {
+          "id": "entry_variable_tested",
+          "label": "Variable Tested",
+          "type": "text",
+          "placeholder": "Enter variable tested",
+          "required": false
+        },
+        {
+          "id": "entry_version_a",
+          "label": "Version A",
+          "type": "text",
+          "placeholder": "Enter version a",
+          "required": false
+        },
+        {
+          "id": "entry_version_b",
+          "label": "Version B",
+          "type": "text",
+          "placeholder": "Enter version b",
+          "required": false
+        },
+        {
+          "id": "entry_winner",
+          "label": "Winner",
+          "type": "text",
+          "placeholder": "Enter winner",
+          "required": false
+        },
+        {
+          "id": "entry_a_openclick",
+          "label": "A Open/Click %",
+          "type": "number",
+          "placeholder": "Enter a open/click %",
+          "required": false
+        },
+        {
+          "id": "entry_b_openclick",
+          "label": "B Open/Click %",
+          "type": "number",
+          "placeholder": "Enter b open/click %",
+          "required": false
+        },
+        {
+          "id": "entry_learning_insight",
+          "label": "Learning / Insight",
+          "type": "textarea",
+          "placeholder": "Enter learning / insight",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "performance_tracker",
+      "title": "Performance Tracker",
+      "description": "Add entries below. Each entry has the following fields.",
+      "fields": [
+        {
+          "id": "entry_date",
+          "label": "Date",
+          "type": "text",
+          "placeholder": "Enter date",
+          "required": false
+        },
+        {
+          "id": "entry_campaign_email_name",
+          "label": "Campaign / Email Name",
+          "type": "text",
+          "placeholder": "Enter campaign / email name",
+          "required": false
+        },
+        {
+          "id": "entry_type",
+          "label": "Type",
+          "type": "select",
+          "placeholder": "Enter type",
+          "required": false,
+          "options": [
+            "Blog Post",
+            "Video",
+            "Infographic",
+            "Case Study",
+            "Whitepaper",
+            "Newsletter",
+            "Social Post",
+            "Webinar"
+          ]
+        },
+        {
+          "id": "entry_sent",
+          "label": "Sent",
+          "type": "text",
+          "placeholder": "Enter sent",
+          "required": false
+        },
+        {
+          "id": "entry_delivered",
+          "label": "Delivered",
+          "type": "text",
+          "placeholder": "Enter delivered",
+          "required": false
+        },
+        {
+          "id": "entry_open_rate",
+          "label": "Open Rate %",
+          "type": "number",
+          "placeholder": "Enter open rate %",
+          "required": false
+        },
+        {
+          "id": "entry_click_rate",
+          "label": "Click Rate %",
+          "type": "number",
+          "placeholder": "Enter click rate %",
+          "required": false
+        },
+        {
+          "id": "entry_bounce_rate",
+          "label": "Bounce Rate %",
+          "type": "number",
+          "placeholder": "Enter bounce rate %",
+          "required": false
+        },
+        {
+          "id": "entry_unsubs",
+          "label": "Unsubs",
+          "type": "text",
+          "placeholder": "Enter unsubs",
+          "required": false
+        },
+        {
+          "id": "entry_revenue",
+          "label": "Revenue",
+          "type": "number",
+          "placeholder": "Enter revenue",
+          "required": false
+        },
+        {
+          "id": "entry_notes",
+          "label": "Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        }
+      ]
+    }
+  ]
 }

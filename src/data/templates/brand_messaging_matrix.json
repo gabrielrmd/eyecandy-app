@@ -10,820 +10,6 @@
     "brand"
   ],
   "estimatedTime": "40 min",
-  "sections": [
-    {
-      "id": "dashboard",
-      "title": "Dashboard",
-      "description": "Complete the Dashboard section",
-      "fields": [
-        {
-          "id": "overall_messaging_completeness_0",
-          "label": "OVERALL MESSAGING COMPLETENESS",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "start_with_the_brand_foundation_tab_1",
-          "label": "Start with the Brand Foundation tab",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "section_breakdown_2",
-          "label": "SECTION BREAKDOWN",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "section_3",
-          "label": "Section",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "filled_4",
-          "label": "Filled",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "total_5",
-          "label": "Total",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "completion_6",
-          "label": "Completion",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "status_7",
-          "label": "Status",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "brand_foundation_8",
-          "label": "Brand Foundation",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "not_started_9",
-          "label": "Not Started",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "messaging_pillars_10",
-          "label": "Messaging Pillars",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "needs_attention_11",
-          "label": "Needs Attention",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "audience_matrix_12",
-          "label": "Audience Matrix",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "needs_attention_13",
-          "label": "Needs Attention",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "elevator_pitches_14",
-          "label": "Elevator Pitches",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "not_started_15",
-          "label": "Not Started",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "total_16",
-          "label": "TOTAL",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "messaging_alignment_check_17",
-          "label": "MESSAGING ALIGNMENT CHECK",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "can_your_sales_team_repeat_your_position_18",
-          "label": "Can your sales team repeat your positioning statement from memory?",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "does_your_website_homepage_match_your_me_19",
-          "label": "Does your website homepage match your messaging pillars?",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "do_your_social_media_bios_use_the_same_l_20",
-          "label": "Do your social media bios use the same language as your elevator pitch?",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "have_you_validated_your_messaging_with_a_21",
-          "label": "Have you validated your messaging with at least 5 customers?",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "is_there_a_single_document_your_whole_te_22",
-          "label": "Is there a single document your whole team references for messaging?",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "advertising_unplugged_clarity_over_noise_23",
-          "label": "Advertising Unplugged — Clarity Over Noise. Purpose Beyond Profit.",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "brand_foundation",
-      "title": "Brand Foundation",
-      "description": "Complete the Brand Foundation section",
-      "fields": [
-        {
-          "id": "what_space_do_you_compete_in_0",
-          "label": "What space do you compete in?",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "who_is_your_1_audience_in_one_sentence_1",
-          "label": "Who is your #1 audience in one sentence?",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "what_makes_you_different_from_every_comp_2",
-          "label": "What makes you different from every competitor?",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "if_you_did_not_exist_what_would_they_use_3",
-          "label": "If you did not exist, what would they use?",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "what_you_do_for_whom_and_why_it_matters__4",
-          "label": "What you do, for whom, and why it matters — in one sentence",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "the_future_state_you_are_working_toward_5",
-          "label": "The future state you are working toward",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "the_one_commitment_you_make_to_every_cus_6",
-          "label": "The one commitment you make to every customer",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "the_principles_that_guide_every_decision_7",
-          "label": "The principles that guide every decision",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "if_your_brand_were_a_person_how_would_th_8",
-          "label": "If your brand were a person, how would they act?",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "e_g_bold_warm_expert_these_never_change_9",
-          "label": "e.g. Bold, Warm, Expert — these never change",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "how_does_the_voice_flex_formal_to_casual_10",
-          "label": "How does the voice flex? Formal to casual, serious to playful",
-          "type": "textarea",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "words_and_phrases_you_always_use_vs_alwa_11",
-          "label": "Words and phrases you always use vs. always avoid",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "short_sentences_data_driven_story_led_te_12",
-          "label": "Short sentences? Data-driven? Story-led? Technical?",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "your_brand_in_5_8_words_13",
-          "label": "Your brand in 5-8 words",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "messaging_pillars",
-      "title": "Messaging Pillars",
-      "description": "Complete the Messaging Pillars section",
-      "fields": [
-        {
-          "id": "pillar_1_0",
-          "label": "Pillar 1",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "pillar_2_1",
-          "label": "Pillar 2",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "pillar_3_2",
-          "label": "Pillar 3",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "pillar_4_3",
-          "label": "Pillar 4",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "pillar_5_4",
-          "label": "Pillar 5",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "pillar_name_5",
-          "label": "Pillar Name",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "headline_message_6",
-          "label": "Headline Message",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "supporting_narrative_7",
-          "label": "Supporting Narrative",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "proof_points_8",
-          "label": "Proof Points",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "emotional_hook_9",
-          "label": "Emotional Hook",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "channel_application_how_each_pillar_show_10",
-          "label": "CHANNEL APPLICATION — How each pillar shows up",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "channel_11",
-          "label": "Channel",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "pillar_1_12",
-          "label": "Pillar 1",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "pillar_2_13",
-          "label": "Pillar 2",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "pillar_3_14",
-          "label": "Pillar 3",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "pillar_4_15",
-          "label": "Pillar 4",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "pillar_5_16",
-          "label": "Pillar 5",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "website_landing_pages_17",
-          "label": "Website / Landing Pages",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "social_media_18",
-          "label": "Social Media",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "email_marketing_19",
-          "label": "Email Marketing",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "sales_conversations_20",
-          "label": "Sales Conversations",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "pr_media_21",
-          "label": "PR / Media",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "advertising_paid_22",
-          "label": "Advertising / Paid",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "events_presentations_23",
-          "label": "Events / Presentations",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "audience_matrix",
-      "title": "Audience Matrix",
-      "description": "Complete the Audience Matrix section",
-      "fields": [
-        {
-          "id": "audience_1_0",
-          "label": "Audience 1",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "audience_2_1",
-          "label": "Audience 2",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "audience_3_2",
-          "label": "Audience 3",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "audience_4_3",
-          "label": "Audience 4",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "audience_5_4",
-          "label": "Audience 5",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "audience_label_5",
-          "label": "Audience Label",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "who_they_are_6",
-          "label": "Who They Are",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "what_they_care_about_7",
-          "label": "What They Care About",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "their_biggest_pain_point_8",
-          "label": "Their Biggest Pain Point",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "how_we_help_them_9",
-          "label": "How We Help Them",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "key_message_10",
-          "label": "Key Message",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "proof_point_11",
-          "label": "Proof Point",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "objection_they_will_raise_12",
-          "label": "Objection They Will Raise",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "objection_response_13",
-          "label": "Objection Response",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "call_to_action_14",
-          "label": "Call to Action",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "preferred_channel_15",
-          "label": "Preferred Channel",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "content_they_consume_16",
-          "label": "Content They Consume",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "tone_adjustment_17",
-          "label": "Tone Adjustment",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "internal_champion_potential_18",
-          "label": "Internal Champion Potential",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "messaging_do_s_19",
-          "label": "Messaging Do's",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "messaging_don_ts_20",
-          "label": "Messaging Don'ts",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "competitive_differentiation_by_audience_21",
-          "label": "COMPETITIVE DIFFERENTIATION BY AUDIENCE",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "audience_1_22",
-          "label": "Audience 1",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "audience_2_23",
-          "label": "Audience 2",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "audience_3_24",
-          "label": "Audience 3",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "audience_4_25",
-          "label": "Audience 4",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "audience_5_26",
-          "label": "Audience 5",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "competitor_they_compare_us_to_27",
-          "label": "Competitor They Compare Us To",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "why_they_choose_the_competitor_28",
-          "label": "Why They Choose the Competitor",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "why_they_should_choose_us_29",
-          "label": "Why They Should Choose Us",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "elevator_pitches",
-      "title": "Elevator Pitches",
-      "description": "Complete the Elevator Pitches section",
-      "fields": [
-        {
-          "id": "10_second_pitch_0",
-          "label": "10-Second Pitch",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "one_sentence_use_it_at_networking_events_1",
-          "label": "One sentence. Use it at networking events, in email intros, when someone asks 'what do you do?'",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "30_second_pitch_2",
-          "label": "30-Second Pitch",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "3_4_sentences_use_it_in_meetings_on_call_3",
-          "label": "3-4 sentences. Use it in meetings, on calls, in LinkedIn messages.",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "60_second_pitch_4",
-          "label": "60-Second Pitch",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "a_short_paragraph_use_it_for_investor_in_5",
-          "label": "A short paragraph. Use it for investor intros, partnership conversations, panel introductions.",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "standard_copy_blocks_6",
-          "label": "STANDARD COPY BLOCKS",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "press_release_boilerplate_7",
-          "label": "Press Release Boilerplate",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "the_about_us_paragraph_at_the_end_of_eve_8",
-          "label": "The 'About Us' paragraph at the end of every press release",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "email_signature_tagline_9",
-          "label": "Email Signature Tagline",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "one_line_under_your_name_in_every_email_10",
-          "label": "One line under your name in every email",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "social_media_bio_11",
-          "label": "Social Media Bio",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "twitter_linkedin_instagram_bio_max_160_c_12",
-          "label": "Twitter/LinkedIn/Instagram bio — max 160 characters",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "website_hero_headline_13",
-          "label": "Website Hero Headline",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "the_main_headline_on_your_homepage_14",
-          "label": "The main headline on your homepage",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "website_hero_subheadline_15",
-          "label": "Website Hero Subheadline",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "the_supporting_line_under_the_headline_16",
-          "label": "The supporting line under the headline",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "conference_speaker_bio_17",
-          "label": "Conference Speaker Bio",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "3rd_person_50_75_words_for_event_program_18",
-          "label": "3rd person, 50-75 words, for event programs",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    }
-  ],
   "dashboard": {
     "metrics": [
       {
@@ -837,5 +23,549 @@
         "format": "number"
       }
     ]
-  }
+  },
+  "sections": [
+    {
+      "id": "dashboard",
+      "title": "Dashboard",
+      "description": "Auto-calculated summary of your data. Complete the working sections to see results here.",
+      "readOnly": true,
+      "fields": [
+        {
+          "id": "dashboard_overview",
+          "label": "Dashboard Overview",
+          "type": "textarea",
+          "placeholder": "Dashboard metrics will be calculated from your inputs in the working sections",
+          "required": false,
+          "readOnly": true
+        }
+      ]
+    },
+    {
+      "id": "brand_foundation",
+      "title": "Brand Foundation",
+      "description": "Complete the Brand Foundation section",
+      "fields": []
+    },
+    {
+      "id": "positioning",
+      "title": "Positioning",
+      "description": "[Brand Foundation] Complete the Positioning section",
+      "fields": [
+        {
+          "id": "positioning_statement",
+          "label": "Positioning Statement",
+          "type": "text",
+          "placeholder": "For [target audience] who [need], [brand] is the [category] that [key benefit] because [reason to believe].",
+          "required": false,
+          "helpText": "For [target audience] who [need], [brand] is the [category] that [key benefit] because [reason to believe]."
+        },
+        {
+          "id": "category_market",
+          "label": "Category / Market",
+          "type": "text",
+          "placeholder": "What space do you compete in?",
+          "required": false,
+          "helpText": "What space do you compete in?"
+        },
+        {
+          "id": "target_audience_primary",
+          "label": "Target Audience (Primary)",
+          "type": "text",
+          "placeholder": "Who is your #1 audience in one sentence?",
+          "required": false,
+          "helpText": "Who is your #1 audience in one sentence?"
+        },
+        {
+          "id": "key_differentiator",
+          "label": "Key Differentiator",
+          "type": "text",
+          "placeholder": "What makes you different from every competitor?",
+          "required": false,
+          "helpText": "What makes you different from every competitor?"
+        },
+        {
+          "id": "competitive_alternative",
+          "label": "Competitive Alternative",
+          "type": "text",
+          "placeholder": "If you did not exist, what would they use?",
+          "required": false,
+          "helpText": "If you did not exist, what would they use?"
+        }
+      ]
+    },
+    {
+      "id": "purpose_values",
+      "title": "Purpose & Values",
+      "description": "[Brand Foundation] Complete the Purpose & Values section",
+      "fields": [
+        {
+          "id": "mission_statement",
+          "label": "Mission Statement",
+          "type": "text",
+          "placeholder": "What you do, for whom, and why it matters — in one sentence",
+          "required": false,
+          "helpText": "What you do, for whom, and why it matters — in one sentence"
+        },
+        {
+          "id": "vision_statement",
+          "label": "Vision Statement",
+          "type": "text",
+          "placeholder": "The future state you are working toward",
+          "required": false,
+          "helpText": "The future state you are working toward"
+        },
+        {
+          "id": "brand_promise",
+          "label": "Brand Promise",
+          "type": "text",
+          "placeholder": "The one commitment you make to every customer",
+          "required": false,
+          "helpText": "The one commitment you make to every customer"
+        },
+        {
+          "id": "core_values_35",
+          "label": "Core Values (3-5)",
+          "type": "text",
+          "placeholder": "The principles that guide every decision",
+          "required": false,
+          "helpText": "The principles that guide every decision"
+        },
+        {
+          "id": "brand_personality",
+          "label": "Brand Personality",
+          "type": "text",
+          "placeholder": "If your brand were a person, how would they act?",
+          "required": false,
+          "helpText": "If your brand were a person, how would they act?"
+        }
+      ]
+    },
+    {
+      "id": "voice_tone",
+      "title": "Voice & Tone",
+      "description": "[Brand Foundation] Complete the Voice & Tone section",
+      "fields": [
+        {
+          "id": "brand_voice_3_adjectives",
+          "label": "Brand Voice (3 adjectives)",
+          "type": "text",
+          "placeholder": "e.g. Bold, Warm, Expert — these never change",
+          "required": false,
+          "helpText": "e.g. Bold, Warm, Expert — these never change"
+        },
+        {
+          "id": "tone_range",
+          "label": "Tone Range",
+          "type": "text",
+          "placeholder": "How does the voice flex? Formal to casual, serious to playful",
+          "required": false,
+          "helpText": "How does the voice flex? Formal to casual, serious to playful"
+        },
+        {
+          "id": "we_say_we_never_say",
+          "label": "We Say / We Never Say",
+          "type": "text",
+          "placeholder": "Words and phrases you always use vs. always avoid",
+          "required": false,
+          "helpText": "Words and phrases you always use vs. always avoid"
+        },
+        {
+          "id": "writing_style",
+          "label": "Writing Style",
+          "type": "textarea",
+          "placeholder": "Short sentences? Data-driven? Story-led? Technical?",
+          "required": false,
+          "helpText": "Short sentences? Data-driven? Story-led? Technical?"
+        },
+        {
+          "id": "tagline_slogan",
+          "label": "Tagline / Slogan",
+          "type": "text",
+          "placeholder": "Your brand in 5-8 words",
+          "required": false,
+          "helpText": "Your brand in 5-8 words"
+        }
+      ]
+    },
+    {
+      "id": "messaging_pillars",
+      "title": "Messaging Pillars",
+      "description": "Enter data for each item",
+      "fields": [
+        {
+          "id": "website_landing_pages_pillar_1",
+          "label": "Website / Landing Pages - Pillar 1",
+          "type": "text",
+          "placeholder": "Enter pillar 1",
+          "required": false
+        },
+        {
+          "id": "website_landing_pages_pillar_2",
+          "label": "Website / Landing Pages - Pillar 2",
+          "type": "text",
+          "placeholder": "Enter pillar 2",
+          "required": false
+        },
+        {
+          "id": "website_landing_pages_pillar_3",
+          "label": "Website / Landing Pages - Pillar 3",
+          "type": "text",
+          "placeholder": "Enter pillar 3",
+          "required": false
+        },
+        {
+          "id": "website_landing_pages_pillar_4",
+          "label": "Website / Landing Pages - Pillar 4",
+          "type": "text",
+          "placeholder": "Enter pillar 4",
+          "required": false
+        },
+        {
+          "id": "website_landing_pages_pillar_5",
+          "label": "Website / Landing Pages - Pillar 5",
+          "type": "text",
+          "placeholder": "Enter pillar 5",
+          "required": false
+        },
+        {
+          "id": "social_media_pillar_1",
+          "label": "Social Media - Pillar 1",
+          "type": "text",
+          "placeholder": "Enter pillar 1",
+          "required": false
+        },
+        {
+          "id": "social_media_pillar_2",
+          "label": "Social Media - Pillar 2",
+          "type": "text",
+          "placeholder": "Enter pillar 2",
+          "required": false
+        },
+        {
+          "id": "social_media_pillar_3",
+          "label": "Social Media - Pillar 3",
+          "type": "text",
+          "placeholder": "Enter pillar 3",
+          "required": false
+        },
+        {
+          "id": "social_media_pillar_4",
+          "label": "Social Media - Pillar 4",
+          "type": "text",
+          "placeholder": "Enter pillar 4",
+          "required": false
+        },
+        {
+          "id": "social_media_pillar_5",
+          "label": "Social Media - Pillar 5",
+          "type": "text",
+          "placeholder": "Enter pillar 5",
+          "required": false
+        },
+        {
+          "id": "email_marketing_pillar_1",
+          "label": "Email Marketing - Pillar 1",
+          "type": "text",
+          "placeholder": "Enter pillar 1",
+          "required": false
+        },
+        {
+          "id": "email_marketing_pillar_2",
+          "label": "Email Marketing - Pillar 2",
+          "type": "text",
+          "placeholder": "Enter pillar 2",
+          "required": false
+        },
+        {
+          "id": "email_marketing_pillar_3",
+          "label": "Email Marketing - Pillar 3",
+          "type": "text",
+          "placeholder": "Enter pillar 3",
+          "required": false
+        },
+        {
+          "id": "email_marketing_pillar_4",
+          "label": "Email Marketing - Pillar 4",
+          "type": "text",
+          "placeholder": "Enter pillar 4",
+          "required": false
+        },
+        {
+          "id": "email_marketing_pillar_5",
+          "label": "Email Marketing - Pillar 5",
+          "type": "text",
+          "placeholder": "Enter pillar 5",
+          "required": false
+        },
+        {
+          "id": "sales_conversations_pillar_1",
+          "label": "Sales Conversations - Pillar 1",
+          "type": "text",
+          "placeholder": "Enter pillar 1",
+          "required": false
+        },
+        {
+          "id": "sales_conversations_pillar_2",
+          "label": "Sales Conversations - Pillar 2",
+          "type": "text",
+          "placeholder": "Enter pillar 2",
+          "required": false
+        },
+        {
+          "id": "sales_conversations_pillar_3",
+          "label": "Sales Conversations - Pillar 3",
+          "type": "text",
+          "placeholder": "Enter pillar 3",
+          "required": false
+        },
+        {
+          "id": "sales_conversations_pillar_4",
+          "label": "Sales Conversations - Pillar 4",
+          "type": "text",
+          "placeholder": "Enter pillar 4",
+          "required": false
+        },
+        {
+          "id": "sales_conversations_pillar_5",
+          "label": "Sales Conversations - Pillar 5",
+          "type": "text",
+          "placeholder": "Enter pillar 5",
+          "required": false
+        },
+        {
+          "id": "pr_media_pillar_1",
+          "label": "PR / Media - Pillar 1",
+          "type": "text",
+          "placeholder": "Enter pillar 1",
+          "required": false
+        },
+        {
+          "id": "pr_media_pillar_2",
+          "label": "PR / Media - Pillar 2",
+          "type": "text",
+          "placeholder": "Enter pillar 2",
+          "required": false
+        },
+        {
+          "id": "pr_media_pillar_3",
+          "label": "PR / Media - Pillar 3",
+          "type": "text",
+          "placeholder": "Enter pillar 3",
+          "required": false
+        },
+        {
+          "id": "pr_media_pillar_4",
+          "label": "PR / Media - Pillar 4",
+          "type": "text",
+          "placeholder": "Enter pillar 4",
+          "required": false
+        },
+        {
+          "id": "pr_media_pillar_5",
+          "label": "PR / Media - Pillar 5",
+          "type": "text",
+          "placeholder": "Enter pillar 5",
+          "required": false
+        },
+        {
+          "id": "advertising_paid_pillar_1",
+          "label": "Advertising / Paid - Pillar 1",
+          "type": "text",
+          "placeholder": "Enter pillar 1",
+          "required": false
+        },
+        {
+          "id": "advertising_paid_pillar_2",
+          "label": "Advertising / Paid - Pillar 2",
+          "type": "text",
+          "placeholder": "Enter pillar 2",
+          "required": false
+        },
+        {
+          "id": "advertising_paid_pillar_3",
+          "label": "Advertising / Paid - Pillar 3",
+          "type": "text",
+          "placeholder": "Enter pillar 3",
+          "required": false
+        },
+        {
+          "id": "advertising_paid_pillar_4",
+          "label": "Advertising / Paid - Pillar 4",
+          "type": "text",
+          "placeholder": "Enter pillar 4",
+          "required": false
+        },
+        {
+          "id": "advertising_paid_pillar_5",
+          "label": "Advertising / Paid - Pillar 5",
+          "type": "text",
+          "placeholder": "Enter pillar 5",
+          "required": false
+        },
+        {
+          "id": "events_presentations_pillar_1",
+          "label": "Events / Presentations - Pillar 1",
+          "type": "text",
+          "placeholder": "Enter pillar 1",
+          "required": false
+        },
+        {
+          "id": "events_presentations_pillar_2",
+          "label": "Events / Presentations - Pillar 2",
+          "type": "text",
+          "placeholder": "Enter pillar 2",
+          "required": false
+        },
+        {
+          "id": "events_presentations_pillar_3",
+          "label": "Events / Presentations - Pillar 3",
+          "type": "text",
+          "placeholder": "Enter pillar 3",
+          "required": false
+        },
+        {
+          "id": "events_presentations_pillar_4",
+          "label": "Events / Presentations - Pillar 4",
+          "type": "text",
+          "placeholder": "Enter pillar 4",
+          "required": false
+        },
+        {
+          "id": "events_presentations_pillar_5",
+          "label": "Events / Presentations - Pillar 5",
+          "type": "text",
+          "placeholder": "Enter pillar 5",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "audience_matrix",
+      "title": "Audience Matrix",
+      "description": "Enter data for each item",
+      "fields": [
+        {
+          "id": "audience_1_audience_2",
+          "label": "Audience 1 - Audience 2",
+          "type": "text",
+          "placeholder": "Enter audience 2",
+          "required": false
+        },
+        {
+          "id": "audience_1_audience_3",
+          "label": "Audience 1 - Audience 3",
+          "type": "text",
+          "placeholder": "Enter audience 3",
+          "required": false
+        },
+        {
+          "id": "audience_1_audience_4",
+          "label": "Audience 1 - Audience 4",
+          "type": "text",
+          "placeholder": "Enter audience 4",
+          "required": false
+        },
+        {
+          "id": "audience_1_audience_5",
+          "label": "Audience 1 - Audience 5",
+          "type": "text",
+          "placeholder": "Enter audience 5",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "elevator_pitches_readytouse_copy",
+      "title": "Elevator Pitches & Ready-to-Use Copy",
+      "description": "Complete the Elevator Pitches & Ready-to-Use Copy section",
+      "fields": []
+    },
+    {
+      "id": "elevator_pitches",
+      "title": "Elevator Pitches",
+      "description": "Complete the Elevator Pitches section",
+      "fields": [
+        {
+          "id": "10second_pitch",
+          "label": "10-Second Pitch",
+          "type": "textarea",
+          "placeholder": "One sentence. Use it at networking events, in email intros, when someone asks 'what do you do?'",
+          "required": false,
+          "helpText": "One sentence. Use it at networking events, in email intros, when someone asks 'what do you do?'"
+        },
+        {
+          "id": "30second_pitch",
+          "label": "30-Second Pitch",
+          "type": "textarea",
+          "placeholder": "3-4 sentences. Use it in meetings, on calls, in LinkedIn messages.",
+          "required": false,
+          "helpText": "3-4 sentences. Use it in meetings, on calls, in LinkedIn messages."
+        },
+        {
+          "id": "60second_pitch",
+          "label": "60-Second Pitch",
+          "type": "textarea",
+          "placeholder": "A short paragraph. Use it for investor intros, partnership conversations, panel introductions.",
+          "required": false,
+          "helpText": "A short paragraph. Use it for investor intros, partnership conversations, panel introductions."
+        }
+      ]
+    },
+    {
+      "id": "standard_copy_blocks",
+      "title": "Standard Copy Blocks",
+      "description": "[Elevator Pitches] Complete the Standard Copy Blocks section",
+      "fields": [
+        {
+          "id": "press_release_boilerplate",
+          "label": "Press Release Boilerplate",
+          "type": "text",
+          "placeholder": "The 'About Us' paragraph at the end of every press release",
+          "required": false,
+          "helpText": "The 'About Us' paragraph at the end of every press release"
+        },
+        {
+          "id": "email_signature_tagline",
+          "label": "Email Signature Tagline",
+          "type": "text",
+          "placeholder": "One line under your name in every email",
+          "required": false,
+          "helpText": "One line under your name in every email"
+        },
+        {
+          "id": "social_media_bio",
+          "label": "Social Media Bio",
+          "type": "textarea",
+          "placeholder": "Twitter/LinkedIn/Instagram bio — max 160 characters",
+          "required": false,
+          "helpText": "Twitter/LinkedIn/Instagram bio — max 160 characters"
+        },
+        {
+          "id": "website_hero_headline",
+          "label": "Website Hero Headline",
+          "type": "text",
+          "placeholder": "The main headline on your homepage",
+          "required": false,
+          "helpText": "The main headline on your homepage"
+        },
+        {
+          "id": "website_hero_subheadline",
+          "label": "Website Hero Subheadline",
+          "type": "text",
+          "placeholder": "The supporting line under the headline",
+          "required": false,
+          "helpText": "The supporting line under the headline"
+        },
+        {
+          "id": "conference_speaker_bio",
+          "label": "Conference Speaker Bio",
+          "type": "textarea",
+          "placeholder": "3rd person, 50-75 words, for event programs",
+          "required": false,
+          "helpText": "3rd person, 50-75 words, for event programs"
+        }
+      ]
+    }
+  ]
 }

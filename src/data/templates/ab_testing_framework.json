@@ -10,750 +10,6 @@
     "analytics"
   ],
   "estimatedTime": "55 min",
-  "sections": [
-    {
-      "id": "dashboard",
-      "title": "Dashboard",
-      "description": "Complete the Dashboard section",
-      "fields": [
-        {
-          "id": "tests_completed_0",
-          "label": "Tests Completed",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "win_rate_1",
-          "label": "Win Rate",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "tests_by_channel_2",
-          "label": "Tests by Channel",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "channel_3",
-          "label": "Channel",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "backlog_4",
-          "label": "Backlog",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "completed_5",
-          "label": "Completed",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "win_rate_6",
-          "label": "Win Rate",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "email_7",
-          "label": "Email",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "landing_page_8",
-          "label": "Landing Page",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "paid_ads_9",
-          "label": "Paid Ads",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "social_media_10",
-          "label": "Social Media",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "website_11",
-          "label": "Website",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "pricing_12",
-          "label": "Pricing",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "onboarding_13",
-          "label": "Onboarding",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "average_lift_by_channel_14",
-          "label": "Average Lift by Channel",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "channel_15",
-          "label": "Channel",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "avg_lift_16",
-          "label": "Avg Lift %",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "email_17",
-          "label": "Email",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "landing_page_18",
-          "label": "Landing Page",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "paid_ads_19",
-          "label": "Paid Ads",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "social_media_20",
-          "label": "Social Media",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "website_21",
-          "label": "Website",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "pricing_22",
-          "label": "Pricing",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "onboarding_23",
-          "label": "Onboarding",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "test_backlog",
-      "title": "Test Backlog",
-      "description": "Complete the Test Backlog section",
-      "fields": [
-        {
-          "id": "shorter_40_char_subject_lines_will_incre_0",
-          "label": "Shorter (<40 char) subject lines will increase open rates by 10%+",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "video_above_fold_will_increase_time_on_p_1",
-          "label": "Video above fold will increase time on page by 30% and conversion by 15%",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "orange_cta_will_outperform_teal_by_5_10__2",
-          "label": "Orange CTA will outperform teal by 5-10% due to higher contrast",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "multi_step_form_will_increase_form_compl_3",
-          "label": "Multi-step form will increase form completion by 20%",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "testimonials_near_pricing_table_will_inc_4",
-          "label": "Testimonials near pricing table will increase plan selection by 12%",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "carousels_will_drive_25_lower_cpc_for_b2_5",
-          "label": "Carousels will drive 25% lower CPC for B2B audience",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "personalised_ctas_will_increase_click_ra_6",
-          "label": "Personalised CTAs will increase click rate by 15%",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "deadline_driven_copy_will_increase_ctr_b_7",
-          "label": "Deadline-driven copy will increase CTR by 20%",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "test_planner",
-      "title": "Test Planner",
-      "description": "Complete the Test Planner section",
-      "fields": [
-        {
-          "id": "open_rate_0",
-          "label": "Open Rate",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "click_through_rate_1",
-          "label": "Click-through Rate",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "time_on_page_conversion_2",
-          "label": "Time on Page + Conversion",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "results_tracker",
-      "title": "Results Tracker",
-      "description": "Complete the Results Tracker section",
-      "fields": [
-        {
-          "id": "open_rate_0",
-          "label": "Open Rate",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "click_rate_1",
-          "label": "Click Rate",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "plan_selection_2",
-          "label": "Plan Selection",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "insights_library",
-      "title": "Insights Library",
-      "description": "Complete the Insights Library section",
-      "fields": [
-        {
-          "id": "updated_email_guidelines_all_subjects_mu_0",
-          "label": "Updated email guidelines: all subjects must be under 40 characters. Created subject line templates.",
-          "type": "textarea",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "changed_primary_cta_colour_to_orange_in__1",
-          "label": "Changed primary CTA colour to orange in design system. Teal reserved for secondary actions.",
-          "type": "textarea",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "planned_follow_up_test_video_testimonial_2",
-          "label": "Planned follow-up test: video testimonials vs text quotes near pricing.",
-          "type": "textarea",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "standardised_multi_step_forms_for_all_hi_3",
-          "label": "Standardised multi-step forms for all high-friction conversion points.",
-          "type": "textarea",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "shifted_60_of_linkedin_ad_budget_to_caro_4",
-          "label": "Shifted 60% of LinkedIn ad budget to carousel format. Single images reserved for event promotion.",
-          "type": "textarea",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "testing_calendar",
-      "title": "Testing Calendar",
-      "description": "Complete the Testing Calendar section",
-      "fields": [
-        {
-          "id": "email_subject_length_0",
-          "label": "Email Subject Length",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "cta_button_colour_1",
-          "label": "CTA Button Colour",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "hero_video_vs_image_2",
-          "label": "Hero Video vs Image",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "multi_step_form_3",
-          "label": "Multi-step Form",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "linkedin_ad_format_4",
-          "label": "LinkedIn Ad Format",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "sample_size_calculator",
-      "title": "Sample Size Calculator",
-      "description": "Complete the Sample Size Calculator section",
-      "fields": [
-        {
-          "id": "input_your_test_parameters_0",
-          "label": "INPUT YOUR TEST PARAMETERS",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "current_conversion_rate_1",
-          "label": "Current Conversion Rate (%)",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "enter_your_baseline_rate_e_g_5_for_5_2",
-          "label": "Enter your baseline rate (e.g. 5 for 5%)",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "minimum_detectable_effect_3",
-          "label": "Minimum Detectable Effect (%)",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "the_smallest_lift_you_want_to_detect_e_g_4",
-          "label": "The smallest lift you want to detect (e.g. 10 for 10% relative)",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "statistical_significance_level_5",
-          "label": "Statistical Significance Level",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "typically_95_enter_95_6",
-          "label": "Typically 95% (enter 95)",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "statistical_power_7",
-          "label": "Statistical Power (%)",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "typically_80_enter_80_8",
-          "label": "Typically 80% (enter 80)",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "reference_table_sample_sizes_per_variant_9",
-          "label": "REFERENCE TABLE: Sample Sizes Per Variant",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "for_95_significance_and_80_power_10",
-          "label": "For 95% significance and 80% power",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "baseline_rate_11",
-          "label": "Baseline Rate",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "5_mde_12",
-          "label": "5% MDE",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "10_mde_13",
-          "label": "10% MDE",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "20_mde_14",
-          "label": "20% MDE",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "duration_estimator_15",
-          "label": "DURATION ESTIMATOR",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "daily_traffic_volume_16",
-          "label": "Daily Traffic / Volume:",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "required_sample_per_variant_17",
-          "label": "Required Sample (per variant):",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "number_of_variants_18",
-          "label": "Number of Variants:",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "estimated_duration_days_19",
-          "label": "Estimated Duration (days):",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "best_practices",
-      "title": "Best Practices",
-      "description": "Complete the Best Practices section",
-      "fields": [
-        {
-          "id": "questions_create_curiosity_and_increase__0",
-          "label": "Questions create curiosity and increase open rates",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "personal_names_feel_more_authentic_and_t_1",
-          "label": "Personal names feel more authentic and trustworthy",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "buttons_are_more_visually_prominent_and__2",
-          "label": "Buttons are more visually prominent and easier to click",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "audience_behaviour_varies_test_to_find_y_3",
-          "label": "Audience behaviour varies; test to find your sweet spot",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "plain_text_can_feel_more_personal_for_b2_4",
-          "label": "Plain text can feel more personal for B2B audiences",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "depends_on_offer_complexity_test_for_you_5",
-          "label": "Depends on offer complexity; test for your use case",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "can_increase_open_rates_but_may_reduce_p_6",
-          "label": "Can increase open rates but may reduce perceived professionalism",
-          "type": "textarea",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "benefits_resonate_more_emotionally_with__7",
-          "label": "Benefits resonate more emotionally with most audiences",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "video_can_increase_engagement_but_may_sl_8",
-          "label": "Video can increase engagement but may slow page load",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "long_forms_filter_quality_short_forms_in_9",
-          "label": "Long forms filter quality; short forms increase volume",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "near_cta_vs_above_fold_test_which_drives_10",
-          "label": "Near CTA vs above fold — test which drives more action",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "every_field_removed_can_increase_convers_11",
-          "label": "Every field removed can increase conversion rates",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "reduces_friction_especially_for_payment__12",
-          "label": "Reduces friction especially for payment or data entry",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "focused_pages_with_one_cta_often_outperf_13",
-          "label": "Focused pages with one CTA often outperform cluttered ones",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "format_performance_varies_by_platform_an_14",
-          "label": "Format performance varies by platform and objective",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "specificity_builds_credibility_and_incre_15",
-          "label": "Specificity builds credibility and increases clicks",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "lookalikes_often_outperform_for_conversi_16",
-          "label": "Lookalikes often outperform for conversion campaigns",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "dynamic_creative_adapts_to_audience_segm_17",
-          "label": "Dynamic creative adapts to audience segments automatically",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "matching_ad_to_lp_message_increases_conv_18",
-          "label": "Matching ad to LP message increases conversion",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "depends_on_awareness_stage_test_for_each_19",
-          "label": "Depends on awareness stage; test for each campaign type",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "sticky_nav_improves_access_to_key_pages_20",
-          "label": "Sticky nav improves access to key pages",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "can_capture_5_15_of_leaving_visitors_21",
-          "label": "Can capture 5-15% of leaving visitors",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "can_improve_support_but_may_distract_fro_22",
-          "label": "Can improve support but may distract from conversion",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "faster_pages_always_convert_better_23",
-          "label": "Faster pages always convert better",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "test_thumb_friendly_zones_and_mobile_spe_24",
-          "label": "Test thumb-friendly zones and mobile-specific CTAs",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "get_my_free_guide_often_beats_download_n_25",
-          "label": "'Get My Free Guide' often beats 'Download Now'",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "high_contrast_buttons_draw_the_eye_more__26",
-          "label": "High contrast buttons draw the eye more effectively",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "larger_buttons_are_easier_to_click_espec_27",
-          "label": "Larger buttons are easier to click, especially on mobile",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "limited_time_and_countdown_timers_create_28",
-          "label": "'Limited time' and countdown timers create FOMO",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "start_my_trial_can_outperform_start_your_29",
-          "label": "'Start My Trial' can outperform 'Start Your Trial'",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    }
-  ],
   "dashboard": {
     "metrics": [
       {
@@ -782,5 +38,2790 @@
         "format": "number"
       }
     ]
-  }
+  },
+  "sections": [
+    {
+      "id": "dashboard",
+      "title": "Dashboard",
+      "description": "Auto-calculated summary of your data. Complete the working sections to see results here.",
+      "readOnly": true,
+      "fields": [
+        {
+          "id": "dashboard_overview",
+          "label": "Dashboard Overview",
+          "type": "textarea",
+          "placeholder": "Dashboard metrics will be calculated from your inputs in the working sections",
+          "required": false,
+          "readOnly": true
+        }
+      ]
+    },
+    {
+      "id": "test_backlog",
+      "title": "Test Backlog",
+      "description": "Enter data for each item",
+      "fields": [
+        {
+          "id": "test_short_vs_long_email_subject_lines_hypothesis",
+          "label": "Test short vs long email subject lines - Hypothesis",
+          "type": "text",
+          "placeholder": "Enter hypothesis",
+          "required": false
+        },
+        {
+          "id": "test_short_vs_long_email_subject_lines_channel",
+          "label": "Test short vs long email subject lines - Channel",
+          "type": "select",
+          "placeholder": "Enter channel",
+          "required": false,
+          "options": [
+            "Blog",
+            "Social Media",
+            "Email",
+            "Video",
+            "Paid Search",
+            "Paid Social",
+            "SEO",
+            "Events",
+            "PR"
+          ]
+        },
+        {
+          "id": "test_short_vs_long_email_subject_lines_impact_110",
+          "label": "Test short vs long email subject lines - Impact (1-10)",
+          "type": "text",
+          "placeholder": "Enter impact (1-10)",
+          "required": false
+        },
+        {
+          "id": "test_short_vs_long_email_subject_lines_confidence_110",
+          "label": "Test short vs long email subject lines - Confidence (1-10)",
+          "type": "text",
+          "placeholder": "Enter confidence (1-10)",
+          "required": false
+        },
+        {
+          "id": "test_short_vs_long_email_subject_lines_ease_110",
+          "label": "Test short vs long email subject lines - Ease (1-10)",
+          "type": "text",
+          "placeholder": "Enter ease (1-10)",
+          "required": false
+        },
+        {
+          "id": "test_short_vs_long_email_subject_lines_ice_score",
+          "label": "Test short vs long email subject lines - ICE Score",
+          "type": "scale",
+          "placeholder": "Enter ice score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "test_short_vs_long_email_subject_lines_priority",
+          "label": "Test short vs long email subject lines - Priority",
+          "type": "select",
+          "placeholder": "Enter priority",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "test_short_vs_long_email_subject_lines_notes",
+          "label": "Test short vs long email subject lines - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "swap_hero_image_for_video_on_lp_hypothesis",
+          "label": "Swap hero image for video on LP - Hypothesis",
+          "type": "text",
+          "placeholder": "Enter hypothesis",
+          "required": false
+        },
+        {
+          "id": "swap_hero_image_for_video_on_lp_channel",
+          "label": "Swap hero image for video on LP - Channel",
+          "type": "select",
+          "placeholder": "Enter channel",
+          "required": false,
+          "options": [
+            "Blog",
+            "Social Media",
+            "Email",
+            "Video",
+            "Paid Search",
+            "Paid Social",
+            "SEO",
+            "Events",
+            "PR"
+          ]
+        },
+        {
+          "id": "swap_hero_image_for_video_on_lp_impact_110",
+          "label": "Swap hero image for video on LP - Impact (1-10)",
+          "type": "text",
+          "placeholder": "Enter impact (1-10)",
+          "required": false
+        },
+        {
+          "id": "swap_hero_image_for_video_on_lp_confidence_110",
+          "label": "Swap hero image for video on LP - Confidence (1-10)",
+          "type": "text",
+          "placeholder": "Enter confidence (1-10)",
+          "required": false
+        },
+        {
+          "id": "swap_hero_image_for_video_on_lp_ease_110",
+          "label": "Swap hero image for video on LP - Ease (1-10)",
+          "type": "text",
+          "placeholder": "Enter ease (1-10)",
+          "required": false
+        },
+        {
+          "id": "swap_hero_image_for_video_on_lp_ice_score",
+          "label": "Swap hero image for video on LP - ICE Score",
+          "type": "scale",
+          "placeholder": "Enter ice score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "swap_hero_image_for_video_on_lp_priority",
+          "label": "Swap hero image for video on LP - Priority",
+          "type": "select",
+          "placeholder": "Enter priority",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "swap_hero_image_for_video_on_lp_notes",
+          "label": "Swap hero image for video on LP - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "test_cta_button_colour_teal_vs_orange_hypothesis",
+          "label": "Test CTA button colour (teal vs orange) - Hypothesis",
+          "type": "text",
+          "placeholder": "Enter hypothesis",
+          "required": false
+        },
+        {
+          "id": "test_cta_button_colour_teal_vs_orange_channel",
+          "label": "Test CTA button colour (teal vs orange) - Channel",
+          "type": "select",
+          "placeholder": "Enter channel",
+          "required": false,
+          "options": [
+            "Blog",
+            "Social Media",
+            "Email",
+            "Video",
+            "Paid Search",
+            "Paid Social",
+            "SEO",
+            "Events",
+            "PR"
+          ]
+        },
+        {
+          "id": "test_cta_button_colour_teal_vs_orange_impact_110",
+          "label": "Test CTA button colour (teal vs orange) - Impact (1-10)",
+          "type": "text",
+          "placeholder": "Enter impact (1-10)",
+          "required": false
+        },
+        {
+          "id": "test_cta_button_colour_teal_vs_orange_confidence_110",
+          "label": "Test CTA button colour (teal vs orange) - Confidence (1-10)",
+          "type": "text",
+          "placeholder": "Enter confidence (1-10)",
+          "required": false
+        },
+        {
+          "id": "test_cta_button_colour_teal_vs_orange_ease_110",
+          "label": "Test CTA button colour (teal vs orange) - Ease (1-10)",
+          "type": "text",
+          "placeholder": "Enter ease (1-10)",
+          "required": false
+        },
+        {
+          "id": "test_cta_button_colour_teal_vs_orange_ice_score",
+          "label": "Test CTA button colour (teal vs orange) - ICE Score",
+          "type": "scale",
+          "placeholder": "Enter ice score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "test_cta_button_colour_teal_vs_orange_priority",
+          "label": "Test CTA button colour (teal vs orange) - Priority",
+          "type": "select",
+          "placeholder": "Enter priority",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "test_cta_button_colour_teal_vs_orange_notes",
+          "label": "Test CTA button colour (teal vs orange) - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "test_single_vs_multistep_form_hypothesis",
+          "label": "Test single vs multi-step form - Hypothesis",
+          "type": "text",
+          "placeholder": "Enter hypothesis",
+          "required": false
+        },
+        {
+          "id": "test_single_vs_multistep_form_channel",
+          "label": "Test single vs multi-step form - Channel",
+          "type": "select",
+          "placeholder": "Enter channel",
+          "required": false,
+          "options": [
+            "Blog",
+            "Social Media",
+            "Email",
+            "Video",
+            "Paid Search",
+            "Paid Social",
+            "SEO",
+            "Events",
+            "PR"
+          ]
+        },
+        {
+          "id": "test_single_vs_multistep_form_impact_110",
+          "label": "Test single vs multi-step form - Impact (1-10)",
+          "type": "text",
+          "placeholder": "Enter impact (1-10)",
+          "required": false
+        },
+        {
+          "id": "test_single_vs_multistep_form_confidence_110",
+          "label": "Test single vs multi-step form - Confidence (1-10)",
+          "type": "text",
+          "placeholder": "Enter confidence (1-10)",
+          "required": false
+        },
+        {
+          "id": "test_single_vs_multistep_form_ease_110",
+          "label": "Test single vs multi-step form - Ease (1-10)",
+          "type": "text",
+          "placeholder": "Enter ease (1-10)",
+          "required": false
+        },
+        {
+          "id": "test_single_vs_multistep_form_ice_score",
+          "label": "Test single vs multi-step form - ICE Score",
+          "type": "scale",
+          "placeholder": "Enter ice score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "test_single_vs_multistep_form_priority",
+          "label": "Test single vs multi-step form - Priority",
+          "type": "select",
+          "placeholder": "Enter priority",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "test_single_vs_multistep_form_notes",
+          "label": "Test single vs multi-step form - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "test_social_proof_placement_on_pricing_page_hypothesis",
+          "label": "Test social proof placement on pricing page - Hypothesis",
+          "type": "text",
+          "placeholder": "Enter hypothesis",
+          "required": false
+        },
+        {
+          "id": "test_social_proof_placement_on_pricing_page_channel",
+          "label": "Test social proof placement on pricing page - Channel",
+          "type": "select",
+          "placeholder": "Enter channel",
+          "required": false,
+          "options": [
+            "Blog",
+            "Social Media",
+            "Email",
+            "Video",
+            "Paid Search",
+            "Paid Social",
+            "SEO",
+            "Events",
+            "PR"
+          ]
+        },
+        {
+          "id": "test_social_proof_placement_on_pricing_page_impact_110",
+          "label": "Test social proof placement on pricing page - Impact (1-10)",
+          "type": "text",
+          "placeholder": "Enter impact (1-10)",
+          "required": false
+        },
+        {
+          "id": "test_social_proof_placement_on_pricing_page_confidence_110",
+          "label": "Test social proof placement on pricing page - Confidence (1-10)",
+          "type": "text",
+          "placeholder": "Enter confidence (1-10)",
+          "required": false
+        },
+        {
+          "id": "test_social_proof_placement_on_pricing_page_ease_110",
+          "label": "Test social proof placement on pricing page - Ease (1-10)",
+          "type": "text",
+          "placeholder": "Enter ease (1-10)",
+          "required": false
+        },
+        {
+          "id": "test_social_proof_placement_on_pricing_page_ice_score",
+          "label": "Test social proof placement on pricing page - ICE Score",
+          "type": "scale",
+          "placeholder": "Enter ice score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "test_social_proof_placement_on_pricing_page_priority",
+          "label": "Test social proof placement on pricing page - Priority",
+          "type": "select",
+          "placeholder": "Enter priority",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "test_social_proof_placement_on_pricing_page_notes",
+          "label": "Test social proof placement on pricing page - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "test_linkedin_carousel_vs_single_image_ads_hypothesis",
+          "label": "Test LinkedIn carousel vs single image ads - Hypothesis",
+          "type": "text",
+          "placeholder": "Enter hypothesis",
+          "required": false
+        },
+        {
+          "id": "test_linkedin_carousel_vs_single_image_ads_channel",
+          "label": "Test LinkedIn carousel vs single image ads - Channel",
+          "type": "select",
+          "placeholder": "Enter channel",
+          "required": false,
+          "options": [
+            "Blog",
+            "Social Media",
+            "Email",
+            "Video",
+            "Paid Search",
+            "Paid Social",
+            "SEO",
+            "Events",
+            "PR"
+          ]
+        },
+        {
+          "id": "test_linkedin_carousel_vs_single_image_ads_impact_110",
+          "label": "Test LinkedIn carousel vs single image ads - Impact (1-10)",
+          "type": "text",
+          "placeholder": "Enter impact (1-10)",
+          "required": false
+        },
+        {
+          "id": "test_linkedin_carousel_vs_single_image_ads_confidence_110",
+          "label": "Test LinkedIn carousel vs single image ads - Confidence (1-10)",
+          "type": "text",
+          "placeholder": "Enter confidence (1-10)",
+          "required": false
+        },
+        {
+          "id": "test_linkedin_carousel_vs_single_image_ads_ease_110",
+          "label": "Test LinkedIn carousel vs single image ads - Ease (1-10)",
+          "type": "text",
+          "placeholder": "Enter ease (1-10)",
+          "required": false
+        },
+        {
+          "id": "test_linkedin_carousel_vs_single_image_ads_ice_score",
+          "label": "Test LinkedIn carousel vs single image ads - ICE Score",
+          "type": "scale",
+          "placeholder": "Enter ice score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "test_linkedin_carousel_vs_single_image_ads_priority",
+          "label": "Test LinkedIn carousel vs single image ads - Priority",
+          "type": "select",
+          "placeholder": "Enter priority",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "test_linkedin_carousel_vs_single_image_ads_notes",
+          "label": "Test LinkedIn carousel vs single image ads - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "test_personalised_vs_generic_email_cta_hypothesis",
+          "label": "Test personalised vs generic email CTA - Hypothesis",
+          "type": "text",
+          "placeholder": "Enter hypothesis",
+          "required": false
+        },
+        {
+          "id": "test_personalised_vs_generic_email_cta_channel",
+          "label": "Test personalised vs generic email CTA - Channel",
+          "type": "select",
+          "placeholder": "Enter channel",
+          "required": false,
+          "options": [
+            "Blog",
+            "Social Media",
+            "Email",
+            "Video",
+            "Paid Search",
+            "Paid Social",
+            "SEO",
+            "Events",
+            "PR"
+          ]
+        },
+        {
+          "id": "test_personalised_vs_generic_email_cta_impact_110",
+          "label": "Test personalised vs generic email CTA - Impact (1-10)",
+          "type": "text",
+          "placeholder": "Enter impact (1-10)",
+          "required": false
+        },
+        {
+          "id": "test_personalised_vs_generic_email_cta_confidence_110",
+          "label": "Test personalised vs generic email CTA - Confidence (1-10)",
+          "type": "text",
+          "placeholder": "Enter confidence (1-10)",
+          "required": false
+        },
+        {
+          "id": "test_personalised_vs_generic_email_cta_ease_110",
+          "label": "Test personalised vs generic email CTA - Ease (1-10)",
+          "type": "text",
+          "placeholder": "Enter ease (1-10)",
+          "required": false
+        },
+        {
+          "id": "test_personalised_vs_generic_email_cta_ice_score",
+          "label": "Test personalised vs generic email CTA - ICE Score",
+          "type": "scale",
+          "placeholder": "Enter ice score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "test_personalised_vs_generic_email_cta_priority",
+          "label": "Test personalised vs generic email CTA - Priority",
+          "type": "select",
+          "placeholder": "Enter priority",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "test_personalised_vs_generic_email_cta_notes",
+          "label": "Test personalised vs generic email CTA - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "test_urgency_copy_in_paid_ads_hypothesis",
+          "label": "Test urgency copy in paid ads - Hypothesis",
+          "type": "text",
+          "placeholder": "Enter hypothesis",
+          "required": false
+        },
+        {
+          "id": "test_urgency_copy_in_paid_ads_channel",
+          "label": "Test urgency copy in paid ads - Channel",
+          "type": "select",
+          "placeholder": "Enter channel",
+          "required": false,
+          "options": [
+            "Blog",
+            "Social Media",
+            "Email",
+            "Video",
+            "Paid Search",
+            "Paid Social",
+            "SEO",
+            "Events",
+            "PR"
+          ]
+        },
+        {
+          "id": "test_urgency_copy_in_paid_ads_impact_110",
+          "label": "Test urgency copy in paid ads - Impact (1-10)",
+          "type": "text",
+          "placeholder": "Enter impact (1-10)",
+          "required": false
+        },
+        {
+          "id": "test_urgency_copy_in_paid_ads_confidence_110",
+          "label": "Test urgency copy in paid ads - Confidence (1-10)",
+          "type": "text",
+          "placeholder": "Enter confidence (1-10)",
+          "required": false
+        },
+        {
+          "id": "test_urgency_copy_in_paid_ads_ease_110",
+          "label": "Test urgency copy in paid ads - Ease (1-10)",
+          "type": "text",
+          "placeholder": "Enter ease (1-10)",
+          "required": false
+        },
+        {
+          "id": "test_urgency_copy_in_paid_ads_ice_score",
+          "label": "Test urgency copy in paid ads - ICE Score",
+          "type": "scale",
+          "placeholder": "Enter ice score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "test_urgency_copy_in_paid_ads_priority",
+          "label": "Test urgency copy in paid ads - Priority",
+          "type": "select",
+          "placeholder": "Enter priority",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "test_urgency_copy_in_paid_ads_notes",
+          "label": "Test urgency copy in paid ads - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "test_planner",
+      "title": "Test Planner",
+      "description": "Enter data for each item",
+      "fields": [
+        {
+          "id": "email_subject_length_hypothesis",
+          "label": "Email Subject Length - Hypothesis",
+          "type": "text",
+          "placeholder": "Enter hypothesis",
+          "required": false
+        },
+        {
+          "id": "email_subject_length_channel",
+          "label": "Email Subject Length - Channel",
+          "type": "select",
+          "placeholder": "Enter channel",
+          "required": false,
+          "options": [
+            "Blog",
+            "Social Media",
+            "Email",
+            "Video",
+            "Paid Search",
+            "Paid Social",
+            "SEO",
+            "Events",
+            "PR"
+          ]
+        },
+        {
+          "id": "email_subject_length_control_a",
+          "label": "Email Subject Length - Control (A)",
+          "type": "text",
+          "placeholder": "Enter control (a)",
+          "required": false
+        },
+        {
+          "id": "email_subject_length_variant_b",
+          "label": "Email Subject Length - Variant (B)",
+          "type": "text",
+          "placeholder": "Enter variant (b)",
+          "required": false
+        },
+        {
+          "id": "email_subject_length_primary_metric",
+          "label": "Email Subject Length - Primary Metric",
+          "type": "text",
+          "placeholder": "Enter primary metric",
+          "required": false
+        },
+        {
+          "id": "email_subject_length_start_date",
+          "label": "Email Subject Length - Start Date",
+          "type": "text",
+          "placeholder": "Enter start date",
+          "required": false
+        },
+        {
+          "id": "email_subject_length_end_date",
+          "label": "Email Subject Length - End Date",
+          "type": "text",
+          "placeholder": "Enter end date",
+          "required": false
+        },
+        {
+          "id": "email_subject_length_status",
+          "label": "Email Subject Length - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "email_subject_length_min_sample_size",
+          "label": "Email Subject Length - Min Sample Size",
+          "type": "text",
+          "placeholder": "Enter min sample size",
+          "required": false
+        },
+        {
+          "id": "cta_button_colour_hypothesis",
+          "label": "CTA Button Colour - Hypothesis",
+          "type": "text",
+          "placeholder": "Enter hypothesis",
+          "required": false
+        },
+        {
+          "id": "cta_button_colour_channel",
+          "label": "CTA Button Colour - Channel",
+          "type": "select",
+          "placeholder": "Enter channel",
+          "required": false,
+          "options": [
+            "Blog",
+            "Social Media",
+            "Email",
+            "Video",
+            "Paid Search",
+            "Paid Social",
+            "SEO",
+            "Events",
+            "PR"
+          ]
+        },
+        {
+          "id": "cta_button_colour_control_a",
+          "label": "CTA Button Colour - Control (A)",
+          "type": "text",
+          "placeholder": "Enter control (a)",
+          "required": false
+        },
+        {
+          "id": "cta_button_colour_variant_b",
+          "label": "CTA Button Colour - Variant (B)",
+          "type": "text",
+          "placeholder": "Enter variant (b)",
+          "required": false
+        },
+        {
+          "id": "cta_button_colour_primary_metric",
+          "label": "CTA Button Colour - Primary Metric",
+          "type": "text",
+          "placeholder": "Enter primary metric",
+          "required": false
+        },
+        {
+          "id": "cta_button_colour_start_date",
+          "label": "CTA Button Colour - Start Date",
+          "type": "text",
+          "placeholder": "Enter start date",
+          "required": false
+        },
+        {
+          "id": "cta_button_colour_end_date",
+          "label": "CTA Button Colour - End Date",
+          "type": "text",
+          "placeholder": "Enter end date",
+          "required": false
+        },
+        {
+          "id": "cta_button_colour_status",
+          "label": "CTA Button Colour - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "cta_button_colour_min_sample_size",
+          "label": "CTA Button Colour - Min Sample Size",
+          "type": "text",
+          "placeholder": "Enter min sample size",
+          "required": false
+        },
+        {
+          "id": "hero_video_vs_image_hypothesis",
+          "label": "Hero Video vs Image - Hypothesis",
+          "type": "text",
+          "placeholder": "Enter hypothesis",
+          "required": false
+        },
+        {
+          "id": "hero_video_vs_image_channel",
+          "label": "Hero Video vs Image - Channel",
+          "type": "select",
+          "placeholder": "Enter channel",
+          "required": false,
+          "options": [
+            "Blog",
+            "Social Media",
+            "Email",
+            "Video",
+            "Paid Search",
+            "Paid Social",
+            "SEO",
+            "Events",
+            "PR"
+          ]
+        },
+        {
+          "id": "hero_video_vs_image_control_a",
+          "label": "Hero Video vs Image - Control (A)",
+          "type": "text",
+          "placeholder": "Enter control (a)",
+          "required": false
+        },
+        {
+          "id": "hero_video_vs_image_variant_b",
+          "label": "Hero Video vs Image - Variant (B)",
+          "type": "text",
+          "placeholder": "Enter variant (b)",
+          "required": false
+        },
+        {
+          "id": "hero_video_vs_image_primary_metric",
+          "label": "Hero Video vs Image - Primary Metric",
+          "type": "text",
+          "placeholder": "Enter primary metric",
+          "required": false
+        },
+        {
+          "id": "hero_video_vs_image_start_date",
+          "label": "Hero Video vs Image - Start Date",
+          "type": "text",
+          "placeholder": "Enter start date",
+          "required": false
+        },
+        {
+          "id": "hero_video_vs_image_end_date",
+          "label": "Hero Video vs Image - End Date",
+          "type": "text",
+          "placeholder": "Enter end date",
+          "required": false
+        },
+        {
+          "id": "hero_video_vs_image_status",
+          "label": "Hero Video vs Image - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "hero_video_vs_image_min_sample_size",
+          "label": "Hero Video vs Image - Min Sample Size",
+          "type": "text",
+          "placeholder": "Enter min sample size",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "results_tracker",
+      "title": "Results Tracker",
+      "description": "Enter data for each item",
+      "fields": [
+        {
+          "id": "email_subject_length_metric",
+          "label": "Email Subject Length - Metric",
+          "type": "text",
+          "placeholder": "Enter metric",
+          "required": false
+        },
+        {
+          "id": "email_subject_length_channel",
+          "label": "Email Subject Length - Channel",
+          "type": "select",
+          "placeholder": "Enter channel",
+          "required": false,
+          "options": [
+            "Blog",
+            "Social Media",
+            "Email",
+            "Video",
+            "Paid Search",
+            "Paid Social",
+            "SEO",
+            "Events",
+            "PR"
+          ]
+        },
+        {
+          "id": "email_subject_length_control_result",
+          "label": "Email Subject Length - Control Result",
+          "type": "text",
+          "placeholder": "Enter control result",
+          "required": false
+        },
+        {
+          "id": "email_subject_length_variant_result",
+          "label": "Email Subject Length - Variant Result",
+          "type": "text",
+          "placeholder": "Enter variant result",
+          "required": false
+        },
+        {
+          "id": "email_subject_length_sample_size",
+          "label": "Email Subject Length - Sample Size",
+          "type": "text",
+          "placeholder": "Enter sample size",
+          "required": false
+        },
+        {
+          "id": "email_subject_length_lift",
+          "label": "Email Subject Length - Lift %",
+          "type": "number",
+          "placeholder": "Enter lift %",
+          "required": false
+        },
+        {
+          "id": "email_subject_length_outcome",
+          "label": "Email Subject Length - Outcome",
+          "type": "text",
+          "placeholder": "Enter outcome",
+          "required": false
+        },
+        {
+          "id": "email_subject_length_stat_significant",
+          "label": "Email Subject Length - Stat. Significant",
+          "type": "text",
+          "placeholder": "Enter stat. significant",
+          "required": false
+        },
+        {
+          "id": "email_subject_length_key_learning",
+          "label": "Email Subject Length - Key Learning",
+          "type": "text",
+          "placeholder": "Enter key learning",
+          "required": false
+        },
+        {
+          "id": "homepage_cta_colour_metric",
+          "label": "Homepage CTA Colour - Metric",
+          "type": "text",
+          "placeholder": "Enter metric",
+          "required": false
+        },
+        {
+          "id": "homepage_cta_colour_channel",
+          "label": "Homepage CTA Colour - Channel",
+          "type": "select",
+          "placeholder": "Enter channel",
+          "required": false,
+          "options": [
+            "Blog",
+            "Social Media",
+            "Email",
+            "Video",
+            "Paid Search",
+            "Paid Social",
+            "SEO",
+            "Events",
+            "PR"
+          ]
+        },
+        {
+          "id": "homepage_cta_colour_control_result",
+          "label": "Homepage CTA Colour - Control Result",
+          "type": "text",
+          "placeholder": "Enter control result",
+          "required": false
+        },
+        {
+          "id": "homepage_cta_colour_variant_result",
+          "label": "Homepage CTA Colour - Variant Result",
+          "type": "text",
+          "placeholder": "Enter variant result",
+          "required": false
+        },
+        {
+          "id": "homepage_cta_colour_sample_size",
+          "label": "Homepage CTA Colour - Sample Size",
+          "type": "text",
+          "placeholder": "Enter sample size",
+          "required": false
+        },
+        {
+          "id": "homepage_cta_colour_lift",
+          "label": "Homepage CTA Colour - Lift %",
+          "type": "number",
+          "placeholder": "Enter lift %",
+          "required": false
+        },
+        {
+          "id": "homepage_cta_colour_outcome",
+          "label": "Homepage CTA Colour - Outcome",
+          "type": "text",
+          "placeholder": "Enter outcome",
+          "required": false
+        },
+        {
+          "id": "homepage_cta_colour_stat_significant",
+          "label": "Homepage CTA Colour - Stat. Significant",
+          "type": "text",
+          "placeholder": "Enter stat. significant",
+          "required": false
+        },
+        {
+          "id": "homepage_cta_colour_key_learning",
+          "label": "Homepage CTA Colour - Key Learning",
+          "type": "text",
+          "placeholder": "Enter key learning",
+          "required": false
+        },
+        {
+          "id": "social_proof_on_pricing_metric",
+          "label": "Social Proof on Pricing - Metric",
+          "type": "text",
+          "placeholder": "Enter metric",
+          "required": false
+        },
+        {
+          "id": "social_proof_on_pricing_channel",
+          "label": "Social Proof on Pricing - Channel",
+          "type": "select",
+          "placeholder": "Enter channel",
+          "required": false,
+          "options": [
+            "Blog",
+            "Social Media",
+            "Email",
+            "Video",
+            "Paid Search",
+            "Paid Social",
+            "SEO",
+            "Events",
+            "PR"
+          ]
+        },
+        {
+          "id": "social_proof_on_pricing_control_result",
+          "label": "Social Proof on Pricing - Control Result",
+          "type": "text",
+          "placeholder": "Enter control result",
+          "required": false
+        },
+        {
+          "id": "social_proof_on_pricing_variant_result",
+          "label": "Social Proof on Pricing - Variant Result",
+          "type": "text",
+          "placeholder": "Enter variant result",
+          "required": false
+        },
+        {
+          "id": "social_proof_on_pricing_sample_size",
+          "label": "Social Proof on Pricing - Sample Size",
+          "type": "text",
+          "placeholder": "Enter sample size",
+          "required": false
+        },
+        {
+          "id": "social_proof_on_pricing_lift",
+          "label": "Social Proof on Pricing - Lift %",
+          "type": "number",
+          "placeholder": "Enter lift %",
+          "required": false
+        },
+        {
+          "id": "social_proof_on_pricing_outcome",
+          "label": "Social Proof on Pricing - Outcome",
+          "type": "text",
+          "placeholder": "Enter outcome",
+          "required": false
+        },
+        {
+          "id": "social_proof_on_pricing_stat_significant",
+          "label": "Social Proof on Pricing - Stat. Significant",
+          "type": "text",
+          "placeholder": "Enter stat. significant",
+          "required": false
+        },
+        {
+          "id": "social_proof_on_pricing_key_learning",
+          "label": "Social Proof on Pricing - Key Learning",
+          "type": "text",
+          "placeholder": "Enter key learning",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "insights_library",
+      "title": "Insights Library",
+      "description": "Enter data for each item",
+      "fields": [
+        {
+          "id": "email_test_name",
+          "label": "Email - Test Name",
+          "type": "text",
+          "placeholder": "Enter test name",
+          "required": false
+        },
+        {
+          "id": "email_what_we_tested",
+          "label": "Email - What We Tested",
+          "type": "text",
+          "placeholder": "Enter what we tested",
+          "required": false
+        },
+        {
+          "id": "email_what_we_learned",
+          "label": "Email - What We Learned",
+          "type": "text",
+          "placeholder": "Enter what we learned",
+          "required": false
+        },
+        {
+          "id": "email_action_taken",
+          "label": "Email - Action Taken",
+          "type": "textarea",
+          "placeholder": "Enter action taken",
+          "required": false
+        },
+        {
+          "id": "website_test_name",
+          "label": "Website - Test Name",
+          "type": "text",
+          "placeholder": "Enter test name",
+          "required": false
+        },
+        {
+          "id": "website_what_we_tested",
+          "label": "Website - What We Tested",
+          "type": "text",
+          "placeholder": "Enter what we tested",
+          "required": false
+        },
+        {
+          "id": "website_what_we_learned",
+          "label": "Website - What We Learned",
+          "type": "text",
+          "placeholder": "Enter what we learned",
+          "required": false
+        },
+        {
+          "id": "website_action_taken",
+          "label": "Website - Action Taken",
+          "type": "textarea",
+          "placeholder": "Enter action taken",
+          "required": false
+        },
+        {
+          "id": "website_test_name_1",
+          "label": "Website - Test Name",
+          "type": "text",
+          "placeholder": "Enter test name",
+          "required": false
+        },
+        {
+          "id": "website_what_we_tested_1",
+          "label": "Website - What We Tested",
+          "type": "text",
+          "placeholder": "Enter what we tested",
+          "required": false
+        },
+        {
+          "id": "website_what_we_learned_1",
+          "label": "Website - What We Learned",
+          "type": "text",
+          "placeholder": "Enter what we learned",
+          "required": false
+        },
+        {
+          "id": "website_action_taken_1",
+          "label": "Website - Action Taken",
+          "type": "textarea",
+          "placeholder": "Enter action taken",
+          "required": false
+        },
+        {
+          "id": "landing_page_test_name",
+          "label": "Landing Page - Test Name",
+          "type": "text",
+          "placeholder": "Enter test name",
+          "required": false
+        },
+        {
+          "id": "landing_page_what_we_tested",
+          "label": "Landing Page - What We Tested",
+          "type": "text",
+          "placeholder": "Enter what we tested",
+          "required": false
+        },
+        {
+          "id": "landing_page_what_we_learned",
+          "label": "Landing Page - What We Learned",
+          "type": "text",
+          "placeholder": "Enter what we learned",
+          "required": false
+        },
+        {
+          "id": "landing_page_action_taken",
+          "label": "Landing Page - Action Taken",
+          "type": "textarea",
+          "placeholder": "Enter action taken",
+          "required": false
+        },
+        {
+          "id": "paid_ads_test_name",
+          "label": "Paid Ads - Test Name",
+          "type": "text",
+          "placeholder": "Enter test name",
+          "required": false
+        },
+        {
+          "id": "paid_ads_what_we_tested",
+          "label": "Paid Ads - What We Tested",
+          "type": "text",
+          "placeholder": "Enter what we tested",
+          "required": false
+        },
+        {
+          "id": "paid_ads_what_we_learned",
+          "label": "Paid Ads - What We Learned",
+          "type": "text",
+          "placeholder": "Enter what we learned",
+          "required": false
+        },
+        {
+          "id": "paid_ads_action_taken",
+          "label": "Paid Ads - Action Taken",
+          "type": "textarea",
+          "placeholder": "Enter action taken",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "testing_calendar",
+      "title": "Testing Calendar",
+      "description": "Enter data for each item",
+      "fields": [
+        {
+          "id": "email_subject_length_channel",
+          "label": "Email Subject Length - Channel",
+          "type": "select",
+          "placeholder": "Enter channel",
+          "required": false,
+          "options": [
+            "Blog",
+            "Social Media",
+            "Email",
+            "Video",
+            "Paid Search",
+            "Paid Social",
+            "SEO",
+            "Events",
+            "PR"
+          ]
+        },
+        {
+          "id": "email_subject_length_start",
+          "label": "Email Subject Length - Start",
+          "type": "text",
+          "placeholder": "Enter start",
+          "required": false
+        },
+        {
+          "id": "email_subject_length_end",
+          "label": "Email Subject Length - End",
+          "type": "text",
+          "placeholder": "Enter end",
+          "required": false
+        },
+        {
+          "id": "email_subject_length_duration_days",
+          "label": "Email Subject Length - Duration (days)",
+          "type": "text",
+          "placeholder": "Enter duration (days)",
+          "required": false
+        },
+        {
+          "id": "email_subject_length_status",
+          "label": "Email Subject Length - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "email_subject_length_conflicts",
+          "label": "Email Subject Length - Conflicts",
+          "type": "text",
+          "placeholder": "Enter conflicts",
+          "required": false
+        },
+        {
+          "id": "cta_button_colour_channel",
+          "label": "CTA Button Colour - Channel",
+          "type": "select",
+          "placeholder": "Enter channel",
+          "required": false,
+          "options": [
+            "Blog",
+            "Social Media",
+            "Email",
+            "Video",
+            "Paid Search",
+            "Paid Social",
+            "SEO",
+            "Events",
+            "PR"
+          ]
+        },
+        {
+          "id": "cta_button_colour_start",
+          "label": "CTA Button Colour - Start",
+          "type": "text",
+          "placeholder": "Enter start",
+          "required": false
+        },
+        {
+          "id": "cta_button_colour_end",
+          "label": "CTA Button Colour - End",
+          "type": "text",
+          "placeholder": "Enter end",
+          "required": false
+        },
+        {
+          "id": "cta_button_colour_duration_days",
+          "label": "CTA Button Colour - Duration (days)",
+          "type": "text",
+          "placeholder": "Enter duration (days)",
+          "required": false
+        },
+        {
+          "id": "cta_button_colour_status",
+          "label": "CTA Button Colour - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "cta_button_colour_conflicts",
+          "label": "CTA Button Colour - Conflicts",
+          "type": "text",
+          "placeholder": "Enter conflicts",
+          "required": false
+        },
+        {
+          "id": "hero_video_vs_image_channel",
+          "label": "Hero Video vs Image - Channel",
+          "type": "select",
+          "placeholder": "Enter channel",
+          "required": false,
+          "options": [
+            "Blog",
+            "Social Media",
+            "Email",
+            "Video",
+            "Paid Search",
+            "Paid Social",
+            "SEO",
+            "Events",
+            "PR"
+          ]
+        },
+        {
+          "id": "hero_video_vs_image_start",
+          "label": "Hero Video vs Image - Start",
+          "type": "text",
+          "placeholder": "Enter start",
+          "required": false
+        },
+        {
+          "id": "hero_video_vs_image_end",
+          "label": "Hero Video vs Image - End",
+          "type": "text",
+          "placeholder": "Enter end",
+          "required": false
+        },
+        {
+          "id": "hero_video_vs_image_duration_days",
+          "label": "Hero Video vs Image - Duration (days)",
+          "type": "text",
+          "placeholder": "Enter duration (days)",
+          "required": false
+        },
+        {
+          "id": "hero_video_vs_image_status",
+          "label": "Hero Video vs Image - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "hero_video_vs_image_conflicts",
+          "label": "Hero Video vs Image - Conflicts",
+          "type": "text",
+          "placeholder": "Enter conflicts",
+          "required": false
+        },
+        {
+          "id": "multistep_form_channel",
+          "label": "Multi-step Form - Channel",
+          "type": "select",
+          "placeholder": "Enter channel",
+          "required": false,
+          "options": [
+            "Blog",
+            "Social Media",
+            "Email",
+            "Video",
+            "Paid Search",
+            "Paid Social",
+            "SEO",
+            "Events",
+            "PR"
+          ]
+        },
+        {
+          "id": "multistep_form_start",
+          "label": "Multi-step Form - Start",
+          "type": "text",
+          "placeholder": "Enter start",
+          "required": false
+        },
+        {
+          "id": "multistep_form_end",
+          "label": "Multi-step Form - End",
+          "type": "text",
+          "placeholder": "Enter end",
+          "required": false
+        },
+        {
+          "id": "multistep_form_duration_days",
+          "label": "Multi-step Form - Duration (days)",
+          "type": "text",
+          "placeholder": "Enter duration (days)",
+          "required": false
+        },
+        {
+          "id": "multistep_form_status",
+          "label": "Multi-step Form - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "multistep_form_conflicts",
+          "label": "Multi-step Form - Conflicts",
+          "type": "text",
+          "placeholder": "Enter conflicts",
+          "required": false
+        },
+        {
+          "id": "linkedin_ad_format_channel",
+          "label": "LinkedIn Ad Format - Channel",
+          "type": "select",
+          "placeholder": "Enter channel",
+          "required": false,
+          "options": [
+            "Blog",
+            "Social Media",
+            "Email",
+            "Video",
+            "Paid Search",
+            "Paid Social",
+            "SEO",
+            "Events",
+            "PR"
+          ]
+        },
+        {
+          "id": "linkedin_ad_format_start",
+          "label": "LinkedIn Ad Format - Start",
+          "type": "text",
+          "placeholder": "Enter start",
+          "required": false
+        },
+        {
+          "id": "linkedin_ad_format_end",
+          "label": "LinkedIn Ad Format - End",
+          "type": "text",
+          "placeholder": "Enter end",
+          "required": false
+        },
+        {
+          "id": "linkedin_ad_format_duration_days",
+          "label": "LinkedIn Ad Format - Duration (days)",
+          "type": "text",
+          "placeholder": "Enter duration (days)",
+          "required": false
+        },
+        {
+          "id": "linkedin_ad_format_status",
+          "label": "LinkedIn Ad Format - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "linkedin_ad_format_conflicts",
+          "label": "LinkedIn Ad Format - Conflicts",
+          "type": "text",
+          "placeholder": "Enter conflicts",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "sample_size_calculator",
+      "title": "Sample Size Calculator",
+      "description": "Enter data for each item",
+      "fields": [
+        {
+          "id": "15850_5_mde",
+          "label": "15850 - 5% MDE",
+          "type": "number",
+          "placeholder": "Enter 5% mde",
+          "required": false
+        },
+        {
+          "id": "15850_10_mde",
+          "label": "15850 - 10% MDE",
+          "type": "number",
+          "placeholder": "Enter 10% mde",
+          "required": false
+        },
+        {
+          "id": "15850_20_mde",
+          "label": "15850 - 20% MDE",
+          "type": "number",
+          "placeholder": "Enter 20% mde",
+          "required": false
+        },
+        {
+          "id": "7700_5_mde",
+          "label": "7700 - 5% MDE",
+          "type": "number",
+          "placeholder": "Enter 5% mde",
+          "required": false
+        },
+        {
+          "id": "7700_10_mde",
+          "label": "7700 - 10% MDE",
+          "type": "number",
+          "placeholder": "Enter 10% mde",
+          "required": false
+        },
+        {
+          "id": "7700_20_mde",
+          "label": "7700 - 20% MDE",
+          "type": "number",
+          "placeholder": "Enter 20% mde",
+          "required": false
+        },
+        {
+          "id": "5050_5_mde",
+          "label": "5050 - 5% MDE",
+          "type": "number",
+          "placeholder": "Enter 5% mde",
+          "required": false
+        },
+        {
+          "id": "5050_10_mde",
+          "label": "5050 - 10% MDE",
+          "type": "number",
+          "placeholder": "Enter 10% mde",
+          "required": false
+        },
+        {
+          "id": "5050_20_mde",
+          "label": "5050 - 20% MDE",
+          "type": "number",
+          "placeholder": "Enter 20% mde",
+          "required": false
+        },
+        {
+          "id": "2940_5_mde",
+          "label": "2940 - 5% MDE",
+          "type": "number",
+          "placeholder": "Enter 5% mde",
+          "required": false
+        },
+        {
+          "id": "2940_10_mde",
+          "label": "2940 - 10% MDE",
+          "type": "number",
+          "placeholder": "Enter 10% mde",
+          "required": false
+        },
+        {
+          "id": "2940_20_mde",
+          "label": "2940 - 20% MDE",
+          "type": "number",
+          "placeholder": "Enter 20% mde",
+          "required": false
+        },
+        {
+          "id": "1380_5_mde",
+          "label": "1380 - 5% MDE",
+          "type": "number",
+          "placeholder": "Enter 5% mde",
+          "required": false
+        },
+        {
+          "id": "1380_10_mde",
+          "label": "1380 - 10% MDE",
+          "type": "number",
+          "placeholder": "Enter 10% mde",
+          "required": false
+        },
+        {
+          "id": "1380_20_mde",
+          "label": "1380 - 20% MDE",
+          "type": "number",
+          "placeholder": "Enter 20% mde",
+          "required": false
+        },
+        {
+          "id": "880_5_mde",
+          "label": "880 - 5% MDE",
+          "type": "number",
+          "placeholder": "Enter 5% mde",
+          "required": false
+        },
+        {
+          "id": "880_10_mde",
+          "label": "880 - 10% MDE",
+          "type": "number",
+          "placeholder": "Enter 10% mde",
+          "required": false
+        },
+        {
+          "id": "880_20_mde",
+          "label": "880 - 20% MDE",
+          "type": "number",
+          "placeholder": "Enter 20% mde",
+          "required": false
+        },
+        {
+          "id": "630_5_mde",
+          "label": "630 - 5% MDE",
+          "type": "number",
+          "placeholder": "Enter 5% mde",
+          "required": false
+        },
+        {
+          "id": "630_10_mde",
+          "label": "630 - 10% MDE",
+          "type": "number",
+          "placeholder": "Enter 10% mde",
+          "required": false
+        },
+        {
+          "id": "630_20_mde",
+          "label": "630 - 20% MDE",
+          "type": "number",
+          "placeholder": "Enter 20% mde",
+          "required": false
+        },
+        {
+          "id": "470_5_mde",
+          "label": "470 - 5% MDE",
+          "type": "number",
+          "placeholder": "Enter 5% mde",
+          "required": false
+        },
+        {
+          "id": "470_10_mde",
+          "label": "470 - 10% MDE",
+          "type": "number",
+          "placeholder": "Enter 10% mde",
+          "required": false
+        },
+        {
+          "id": "470_20_mde",
+          "label": "470 - 20% MDE",
+          "type": "number",
+          "placeholder": "Enter 20% mde",
+          "required": false
+        },
+        {
+          "id": "160_5_mde",
+          "label": "160 - 5% MDE",
+          "type": "number",
+          "placeholder": "Enter 5% mde",
+          "required": false
+        },
+        {
+          "id": "160_10_mde",
+          "label": "160 - 10% MDE",
+          "type": "number",
+          "placeholder": "Enter 10% mde",
+          "required": false
+        },
+        {
+          "id": "160_20_mde",
+          "label": "160 - 20% MDE",
+          "type": "number",
+          "placeholder": "Enter 20% mde",
+          "required": false
+        },
+        {
+          "id": "1000_5_mde",
+          "label": "1000 - 5% MDE",
+          "type": "number",
+          "placeholder": "Enter 5% mde",
+          "required": false
+        },
+        {
+          "id": "1000_10_mde",
+          "label": "1000 - 10% MDE",
+          "type": "number",
+          "placeholder": "Enter 10% mde",
+          "required": false
+        },
+        {
+          "id": "1000_20_mde",
+          "label": "1000 - 20% MDE",
+          "type": "number",
+          "placeholder": "Enter 20% mde",
+          "required": false
+        },
+        {
+          "id": "3000_5_mde",
+          "label": "3000 - 5% MDE",
+          "type": "number",
+          "placeholder": "Enter 5% mde",
+          "required": false
+        },
+        {
+          "id": "3000_10_mde",
+          "label": "3000 - 10% MDE",
+          "type": "number",
+          "placeholder": "Enter 10% mde",
+          "required": false
+        },
+        {
+          "id": "3000_20_mde",
+          "label": "3000 - 20% MDE",
+          "type": "number",
+          "placeholder": "Enter 20% mde",
+          "required": false
+        },
+        {
+          "id": "2_5_mde",
+          "label": "2 - 5% MDE",
+          "type": "number",
+          "placeholder": "Enter 5% mde",
+          "required": false
+        },
+        {
+          "id": "2_10_mde",
+          "label": "2 - 10% MDE",
+          "type": "number",
+          "placeholder": "Enter 10% mde",
+          "required": false
+        },
+        {
+          "id": "2_20_mde",
+          "label": "2 - 20% MDE",
+          "type": "number",
+          "placeholder": "Enter 20% mde",
+          "required": false
+        },
+        {
+          "id": "6_5_mde",
+          "label": "6 - 5% MDE",
+          "type": "number",
+          "placeholder": "Enter 5% mde",
+          "required": false
+        },
+        {
+          "id": "6_10_mde",
+          "label": "6 - 10% MDE",
+          "type": "number",
+          "placeholder": "Enter 10% mde",
+          "required": false
+        },
+        {
+          "id": "6_20_mde",
+          "label": "6 - 20% MDE",
+          "type": "number",
+          "placeholder": "Enter 20% mde",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "best_practices",
+      "title": "Best Practices",
+      "description": "Enter data for each item",
+      "fields": [
+        {
+          "id": "email_test_idea",
+          "label": "Email - Test Idea",
+          "type": "text",
+          "placeholder": "Enter test idea",
+          "required": false
+        },
+        {
+          "id": "email_why_it_works",
+          "label": "Email - Why It Works",
+          "type": "text",
+          "placeholder": "Enter why it works",
+          "required": false
+        },
+        {
+          "id": "email_expected_impact",
+          "label": "Email - Expected Impact",
+          "type": "text",
+          "placeholder": "Enter expected impact",
+          "required": false
+        },
+        {
+          "id": "email_test_idea_1",
+          "label": "Email - Test Idea",
+          "type": "text",
+          "placeholder": "Enter test idea",
+          "required": false
+        },
+        {
+          "id": "email_why_it_works_1",
+          "label": "Email - Why It Works",
+          "type": "text",
+          "placeholder": "Enter why it works",
+          "required": false
+        },
+        {
+          "id": "email_expected_impact_1",
+          "label": "Email - Expected Impact",
+          "type": "text",
+          "placeholder": "Enter expected impact",
+          "required": false
+        },
+        {
+          "id": "email_test_idea_2",
+          "label": "Email - Test Idea",
+          "type": "text",
+          "placeholder": "Enter test idea",
+          "required": false
+        },
+        {
+          "id": "email_why_it_works_2",
+          "label": "Email - Why It Works",
+          "type": "text",
+          "placeholder": "Enter why it works",
+          "required": false
+        },
+        {
+          "id": "email_expected_impact_2",
+          "label": "Email - Expected Impact",
+          "type": "text",
+          "placeholder": "Enter expected impact",
+          "required": false
+        },
+        {
+          "id": "email_test_idea_3",
+          "label": "Email - Test Idea",
+          "type": "text",
+          "placeholder": "Enter test idea",
+          "required": false
+        },
+        {
+          "id": "email_why_it_works_3",
+          "label": "Email - Why It Works",
+          "type": "text",
+          "placeholder": "Enter why it works",
+          "required": false
+        },
+        {
+          "id": "email_expected_impact_3",
+          "label": "Email - Expected Impact",
+          "type": "text",
+          "placeholder": "Enter expected impact",
+          "required": false
+        },
+        {
+          "id": "email_test_idea_4",
+          "label": "Email - Test Idea",
+          "type": "text",
+          "placeholder": "Enter test idea",
+          "required": false
+        },
+        {
+          "id": "email_why_it_works_4",
+          "label": "Email - Why It Works",
+          "type": "text",
+          "placeholder": "Enter why it works",
+          "required": false
+        },
+        {
+          "id": "email_expected_impact_4",
+          "label": "Email - Expected Impact",
+          "type": "text",
+          "placeholder": "Enter expected impact",
+          "required": false
+        },
+        {
+          "id": "email_test_idea_5",
+          "label": "Email - Test Idea",
+          "type": "text",
+          "placeholder": "Enter test idea",
+          "required": false
+        },
+        {
+          "id": "email_why_it_works_5",
+          "label": "Email - Why It Works",
+          "type": "text",
+          "placeholder": "Enter why it works",
+          "required": false
+        },
+        {
+          "id": "email_expected_impact_5",
+          "label": "Email - Expected Impact",
+          "type": "text",
+          "placeholder": "Enter expected impact",
+          "required": false
+        },
+        {
+          "id": "email_test_idea_6",
+          "label": "Email - Test Idea",
+          "type": "text",
+          "placeholder": "Enter test idea",
+          "required": false
+        },
+        {
+          "id": "email_why_it_works_6",
+          "label": "Email - Why It Works",
+          "type": "text",
+          "placeholder": "Enter why it works",
+          "required": false
+        },
+        {
+          "id": "email_expected_impact_6",
+          "label": "Email - Expected Impact",
+          "type": "text",
+          "placeholder": "Enter expected impact",
+          "required": false
+        },
+        {
+          "id": "landing_page_test_idea",
+          "label": "Landing Page - Test Idea",
+          "type": "text",
+          "placeholder": "Enter test idea",
+          "required": false
+        },
+        {
+          "id": "landing_page_why_it_works",
+          "label": "Landing Page - Why It Works",
+          "type": "text",
+          "placeholder": "Enter why it works",
+          "required": false
+        },
+        {
+          "id": "landing_page_expected_impact",
+          "label": "Landing Page - Expected Impact",
+          "type": "text",
+          "placeholder": "Enter expected impact",
+          "required": false
+        },
+        {
+          "id": "landing_page_test_idea_1",
+          "label": "Landing Page - Test Idea",
+          "type": "text",
+          "placeholder": "Enter test idea",
+          "required": false
+        },
+        {
+          "id": "landing_page_why_it_works_1",
+          "label": "Landing Page - Why It Works",
+          "type": "text",
+          "placeholder": "Enter why it works",
+          "required": false
+        },
+        {
+          "id": "landing_page_expected_impact_1",
+          "label": "Landing Page - Expected Impact",
+          "type": "text",
+          "placeholder": "Enter expected impact",
+          "required": false
+        },
+        {
+          "id": "landing_page_test_idea_2",
+          "label": "Landing Page - Test Idea",
+          "type": "text",
+          "placeholder": "Enter test idea",
+          "required": false
+        },
+        {
+          "id": "landing_page_why_it_works_2",
+          "label": "Landing Page - Why It Works",
+          "type": "text",
+          "placeholder": "Enter why it works",
+          "required": false
+        },
+        {
+          "id": "landing_page_expected_impact_2",
+          "label": "Landing Page - Expected Impact",
+          "type": "text",
+          "placeholder": "Enter expected impact",
+          "required": false
+        },
+        {
+          "id": "landing_page_test_idea_3",
+          "label": "Landing Page - Test Idea",
+          "type": "text",
+          "placeholder": "Enter test idea",
+          "required": false
+        },
+        {
+          "id": "landing_page_why_it_works_3",
+          "label": "Landing Page - Why It Works",
+          "type": "text",
+          "placeholder": "Enter why it works",
+          "required": false
+        },
+        {
+          "id": "landing_page_expected_impact_3",
+          "label": "Landing Page - Expected Impact",
+          "type": "text",
+          "placeholder": "Enter expected impact",
+          "required": false
+        },
+        {
+          "id": "landing_page_test_idea_4",
+          "label": "Landing Page - Test Idea",
+          "type": "text",
+          "placeholder": "Enter test idea",
+          "required": false
+        },
+        {
+          "id": "landing_page_why_it_works_4",
+          "label": "Landing Page - Why It Works",
+          "type": "text",
+          "placeholder": "Enter why it works",
+          "required": false
+        },
+        {
+          "id": "landing_page_expected_impact_4",
+          "label": "Landing Page - Expected Impact",
+          "type": "text",
+          "placeholder": "Enter expected impact",
+          "required": false
+        },
+        {
+          "id": "landing_page_test_idea_5",
+          "label": "Landing Page - Test Idea",
+          "type": "text",
+          "placeholder": "Enter test idea",
+          "required": false
+        },
+        {
+          "id": "landing_page_why_it_works_5",
+          "label": "Landing Page - Why It Works",
+          "type": "text",
+          "placeholder": "Enter why it works",
+          "required": false
+        },
+        {
+          "id": "landing_page_expected_impact_5",
+          "label": "Landing Page - Expected Impact",
+          "type": "text",
+          "placeholder": "Enter expected impact",
+          "required": false
+        },
+        {
+          "id": "landing_page_test_idea_6",
+          "label": "Landing Page - Test Idea",
+          "type": "text",
+          "placeholder": "Enter test idea",
+          "required": false
+        },
+        {
+          "id": "landing_page_why_it_works_6",
+          "label": "Landing Page - Why It Works",
+          "type": "text",
+          "placeholder": "Enter why it works",
+          "required": false
+        },
+        {
+          "id": "landing_page_expected_impact_6",
+          "label": "Landing Page - Expected Impact",
+          "type": "text",
+          "placeholder": "Enter expected impact",
+          "required": false
+        },
+        {
+          "id": "paid_ads_test_idea",
+          "label": "Paid Ads - Test Idea",
+          "type": "text",
+          "placeholder": "Enter test idea",
+          "required": false
+        },
+        {
+          "id": "paid_ads_why_it_works",
+          "label": "Paid Ads - Why It Works",
+          "type": "text",
+          "placeholder": "Enter why it works",
+          "required": false
+        },
+        {
+          "id": "paid_ads_expected_impact",
+          "label": "Paid Ads - Expected Impact",
+          "type": "text",
+          "placeholder": "Enter expected impact",
+          "required": false
+        },
+        {
+          "id": "paid_ads_test_idea_1",
+          "label": "Paid Ads - Test Idea",
+          "type": "text",
+          "placeholder": "Enter test idea",
+          "required": false
+        },
+        {
+          "id": "paid_ads_why_it_works_1",
+          "label": "Paid Ads - Why It Works",
+          "type": "text",
+          "placeholder": "Enter why it works",
+          "required": false
+        },
+        {
+          "id": "paid_ads_expected_impact_1",
+          "label": "Paid Ads - Expected Impact",
+          "type": "text",
+          "placeholder": "Enter expected impact",
+          "required": false
+        },
+        {
+          "id": "paid_ads_test_idea_2",
+          "label": "Paid Ads - Test Idea",
+          "type": "text",
+          "placeholder": "Enter test idea",
+          "required": false
+        },
+        {
+          "id": "paid_ads_why_it_works_2",
+          "label": "Paid Ads - Why It Works",
+          "type": "text",
+          "placeholder": "Enter why it works",
+          "required": false
+        },
+        {
+          "id": "paid_ads_expected_impact_2",
+          "label": "Paid Ads - Expected Impact",
+          "type": "text",
+          "placeholder": "Enter expected impact",
+          "required": false
+        },
+        {
+          "id": "paid_ads_test_idea_3",
+          "label": "Paid Ads - Test Idea",
+          "type": "text",
+          "placeholder": "Enter test idea",
+          "required": false
+        },
+        {
+          "id": "paid_ads_why_it_works_3",
+          "label": "Paid Ads - Why It Works",
+          "type": "text",
+          "placeholder": "Enter why it works",
+          "required": false
+        },
+        {
+          "id": "paid_ads_expected_impact_3",
+          "label": "Paid Ads - Expected Impact",
+          "type": "text",
+          "placeholder": "Enter expected impact",
+          "required": false
+        },
+        {
+          "id": "paid_ads_test_idea_4",
+          "label": "Paid Ads - Test Idea",
+          "type": "text",
+          "placeholder": "Enter test idea",
+          "required": false
+        },
+        {
+          "id": "paid_ads_why_it_works_4",
+          "label": "Paid Ads - Why It Works",
+          "type": "text",
+          "placeholder": "Enter why it works",
+          "required": false
+        },
+        {
+          "id": "paid_ads_expected_impact_4",
+          "label": "Paid Ads - Expected Impact",
+          "type": "text",
+          "placeholder": "Enter expected impact",
+          "required": false
+        },
+        {
+          "id": "paid_ads_test_idea_5",
+          "label": "Paid Ads - Test Idea",
+          "type": "text",
+          "placeholder": "Enter test idea",
+          "required": false
+        },
+        {
+          "id": "paid_ads_why_it_works_5",
+          "label": "Paid Ads - Why It Works",
+          "type": "text",
+          "placeholder": "Enter why it works",
+          "required": false
+        },
+        {
+          "id": "paid_ads_expected_impact_5",
+          "label": "Paid Ads - Expected Impact",
+          "type": "text",
+          "placeholder": "Enter expected impact",
+          "required": false
+        },
+        {
+          "id": "website_test_idea",
+          "label": "Website - Test Idea",
+          "type": "text",
+          "placeholder": "Enter test idea",
+          "required": false
+        },
+        {
+          "id": "website_why_it_works",
+          "label": "Website - Why It Works",
+          "type": "text",
+          "placeholder": "Enter why it works",
+          "required": false
+        },
+        {
+          "id": "website_expected_impact",
+          "label": "Website - Expected Impact",
+          "type": "text",
+          "placeholder": "Enter expected impact",
+          "required": false
+        },
+        {
+          "id": "website_test_idea_1",
+          "label": "Website - Test Idea",
+          "type": "text",
+          "placeholder": "Enter test idea",
+          "required": false
+        },
+        {
+          "id": "website_why_it_works_1",
+          "label": "Website - Why It Works",
+          "type": "text",
+          "placeholder": "Enter why it works",
+          "required": false
+        },
+        {
+          "id": "website_expected_impact_1",
+          "label": "Website - Expected Impact",
+          "type": "text",
+          "placeholder": "Enter expected impact",
+          "required": false
+        },
+        {
+          "id": "website_test_idea_2",
+          "label": "Website - Test Idea",
+          "type": "text",
+          "placeholder": "Enter test idea",
+          "required": false
+        },
+        {
+          "id": "website_why_it_works_2",
+          "label": "Website - Why It Works",
+          "type": "text",
+          "placeholder": "Enter why it works",
+          "required": false
+        },
+        {
+          "id": "website_expected_impact_2",
+          "label": "Website - Expected Impact",
+          "type": "text",
+          "placeholder": "Enter expected impact",
+          "required": false
+        },
+        {
+          "id": "website_test_idea_3",
+          "label": "Website - Test Idea",
+          "type": "text",
+          "placeholder": "Enter test idea",
+          "required": false
+        },
+        {
+          "id": "website_why_it_works_3",
+          "label": "Website - Why It Works",
+          "type": "text",
+          "placeholder": "Enter why it works",
+          "required": false
+        },
+        {
+          "id": "website_expected_impact_3",
+          "label": "Website - Expected Impact",
+          "type": "text",
+          "placeholder": "Enter expected impact",
+          "required": false
+        },
+        {
+          "id": "website_test_idea_4",
+          "label": "Website - Test Idea",
+          "type": "text",
+          "placeholder": "Enter test idea",
+          "required": false
+        },
+        {
+          "id": "website_why_it_works_4",
+          "label": "Website - Why It Works",
+          "type": "text",
+          "placeholder": "Enter why it works",
+          "required": false
+        },
+        {
+          "id": "website_expected_impact_4",
+          "label": "Website - Expected Impact",
+          "type": "text",
+          "placeholder": "Enter expected impact",
+          "required": false
+        },
+        {
+          "id": "cta_test_idea",
+          "label": "CTA - Test Idea",
+          "type": "text",
+          "placeholder": "Enter test idea",
+          "required": false
+        },
+        {
+          "id": "cta_why_it_works",
+          "label": "CTA - Why It Works",
+          "type": "text",
+          "placeholder": "Enter why it works",
+          "required": false
+        },
+        {
+          "id": "cta_expected_impact",
+          "label": "CTA - Expected Impact",
+          "type": "text",
+          "placeholder": "Enter expected impact",
+          "required": false
+        },
+        {
+          "id": "cta_test_idea_1",
+          "label": "CTA - Test Idea",
+          "type": "text",
+          "placeholder": "Enter test idea",
+          "required": false
+        },
+        {
+          "id": "cta_why_it_works_1",
+          "label": "CTA - Why It Works",
+          "type": "text",
+          "placeholder": "Enter why it works",
+          "required": false
+        },
+        {
+          "id": "cta_expected_impact_1",
+          "label": "CTA - Expected Impact",
+          "type": "text",
+          "placeholder": "Enter expected impact",
+          "required": false
+        },
+        {
+          "id": "cta_test_idea_2",
+          "label": "CTA - Test Idea",
+          "type": "text",
+          "placeholder": "Enter test idea",
+          "required": false
+        },
+        {
+          "id": "cta_why_it_works_2",
+          "label": "CTA - Why It Works",
+          "type": "text",
+          "placeholder": "Enter why it works",
+          "required": false
+        },
+        {
+          "id": "cta_expected_impact_2",
+          "label": "CTA - Expected Impact",
+          "type": "text",
+          "placeholder": "Enter expected impact",
+          "required": false
+        },
+        {
+          "id": "cta_test_idea_3",
+          "label": "CTA - Test Idea",
+          "type": "text",
+          "placeholder": "Enter test idea",
+          "required": false
+        },
+        {
+          "id": "cta_why_it_works_3",
+          "label": "CTA - Why It Works",
+          "type": "text",
+          "placeholder": "Enter why it works",
+          "required": false
+        },
+        {
+          "id": "cta_expected_impact_3",
+          "label": "CTA - Expected Impact",
+          "type": "text",
+          "placeholder": "Enter expected impact",
+          "required": false
+        },
+        {
+          "id": "cta_test_idea_4",
+          "label": "CTA - Test Idea",
+          "type": "text",
+          "placeholder": "Enter test idea",
+          "required": false
+        },
+        {
+          "id": "cta_why_it_works_4",
+          "label": "CTA - Why It Works",
+          "type": "text",
+          "placeholder": "Enter why it works",
+          "required": false
+        },
+        {
+          "id": "cta_expected_impact_4",
+          "label": "CTA - Expected Impact",
+          "type": "text",
+          "placeholder": "Enter expected impact",
+          "required": false
+        },
+        {
+          "id": "social_media_test_idea",
+          "label": "Social Media - Test Idea",
+          "type": "text",
+          "placeholder": "Enter test idea",
+          "required": false
+        },
+        {
+          "id": "social_media_why_it_works",
+          "label": "Social Media - Why It Works",
+          "type": "text",
+          "placeholder": "Enter why it works",
+          "required": false
+        },
+        {
+          "id": "social_media_expected_impact",
+          "label": "Social Media - Expected Impact",
+          "type": "text",
+          "placeholder": "Enter expected impact",
+          "required": false
+        },
+        {
+          "id": "social_media_test_idea_1",
+          "label": "Social Media - Test Idea",
+          "type": "text",
+          "placeholder": "Enter test idea",
+          "required": false
+        },
+        {
+          "id": "social_media_why_it_works_1",
+          "label": "Social Media - Why It Works",
+          "type": "text",
+          "placeholder": "Enter why it works",
+          "required": false
+        },
+        {
+          "id": "social_media_expected_impact_1",
+          "label": "Social Media - Expected Impact",
+          "type": "text",
+          "placeholder": "Enter expected impact",
+          "required": false
+        },
+        {
+          "id": "social_media_test_idea_2",
+          "label": "Social Media - Test Idea",
+          "type": "text",
+          "placeholder": "Enter test idea",
+          "required": false
+        },
+        {
+          "id": "social_media_why_it_works_2",
+          "label": "Social Media - Why It Works",
+          "type": "text",
+          "placeholder": "Enter why it works",
+          "required": false
+        },
+        {
+          "id": "social_media_expected_impact_2",
+          "label": "Social Media - Expected Impact",
+          "type": "text",
+          "placeholder": "Enter expected impact",
+          "required": false
+        },
+        {
+          "id": "social_media_test_idea_3",
+          "label": "Social Media - Test Idea",
+          "type": "text",
+          "placeholder": "Enter test idea",
+          "required": false
+        },
+        {
+          "id": "social_media_why_it_works_3",
+          "label": "Social Media - Why It Works",
+          "type": "text",
+          "placeholder": "Enter why it works",
+          "required": false
+        },
+        {
+          "id": "social_media_expected_impact_3",
+          "label": "Social Media - Expected Impact",
+          "type": "text",
+          "placeholder": "Enter expected impact",
+          "required": false
+        },
+        {
+          "id": "social_media_test_idea_4",
+          "label": "Social Media - Test Idea",
+          "type": "text",
+          "placeholder": "Enter test idea",
+          "required": false
+        },
+        {
+          "id": "social_media_why_it_works_4",
+          "label": "Social Media - Why It Works",
+          "type": "text",
+          "placeholder": "Enter why it works",
+          "required": false
+        },
+        {
+          "id": "social_media_expected_impact_4",
+          "label": "Social Media - Expected Impact",
+          "type": "text",
+          "placeholder": "Enter expected impact",
+          "required": false
+        },
+        {
+          "id": "pricing_test_idea",
+          "label": "Pricing - Test Idea",
+          "type": "text",
+          "placeholder": "Enter test idea",
+          "required": false
+        },
+        {
+          "id": "pricing_why_it_works",
+          "label": "Pricing - Why It Works",
+          "type": "text",
+          "placeholder": "Enter why it works",
+          "required": false
+        },
+        {
+          "id": "pricing_expected_impact",
+          "label": "Pricing - Expected Impact",
+          "type": "text",
+          "placeholder": "Enter expected impact",
+          "required": false
+        },
+        {
+          "id": "pricing_test_idea_1",
+          "label": "Pricing - Test Idea",
+          "type": "text",
+          "placeholder": "Enter test idea",
+          "required": false
+        },
+        {
+          "id": "pricing_why_it_works_1",
+          "label": "Pricing - Why It Works",
+          "type": "text",
+          "placeholder": "Enter why it works",
+          "required": false
+        },
+        {
+          "id": "pricing_expected_impact_1",
+          "label": "Pricing - Expected Impact",
+          "type": "text",
+          "placeholder": "Enter expected impact",
+          "required": false
+        },
+        {
+          "id": "pricing_test_idea_2",
+          "label": "Pricing - Test Idea",
+          "type": "text",
+          "placeholder": "Enter test idea",
+          "required": false
+        },
+        {
+          "id": "pricing_why_it_works_2",
+          "label": "Pricing - Why It Works",
+          "type": "text",
+          "placeholder": "Enter why it works",
+          "required": false
+        },
+        {
+          "id": "pricing_expected_impact_2",
+          "label": "Pricing - Expected Impact",
+          "type": "text",
+          "placeholder": "Enter expected impact",
+          "required": false
+        },
+        {
+          "id": "pricing_test_idea_3",
+          "label": "Pricing - Test Idea",
+          "type": "text",
+          "placeholder": "Enter test idea",
+          "required": false
+        },
+        {
+          "id": "pricing_why_it_works_3",
+          "label": "Pricing - Why It Works",
+          "type": "text",
+          "placeholder": "Enter why it works",
+          "required": false
+        },
+        {
+          "id": "pricing_expected_impact_3",
+          "label": "Pricing - Expected Impact",
+          "type": "text",
+          "placeholder": "Enter expected impact",
+          "required": false
+        },
+        {
+          "id": "onboarding_test_idea",
+          "label": "Onboarding - Test Idea",
+          "type": "text",
+          "placeholder": "Enter test idea",
+          "required": false
+        },
+        {
+          "id": "onboarding_why_it_works",
+          "label": "Onboarding - Why It Works",
+          "type": "text",
+          "placeholder": "Enter why it works",
+          "required": false
+        },
+        {
+          "id": "onboarding_expected_impact",
+          "label": "Onboarding - Expected Impact",
+          "type": "text",
+          "placeholder": "Enter expected impact",
+          "required": false
+        },
+        {
+          "id": "onboarding_test_idea_1",
+          "label": "Onboarding - Test Idea",
+          "type": "text",
+          "placeholder": "Enter test idea",
+          "required": false
+        },
+        {
+          "id": "onboarding_why_it_works_1",
+          "label": "Onboarding - Why It Works",
+          "type": "text",
+          "placeholder": "Enter why it works",
+          "required": false
+        },
+        {
+          "id": "onboarding_expected_impact_1",
+          "label": "Onboarding - Expected Impact",
+          "type": "text",
+          "placeholder": "Enter expected impact",
+          "required": false
+        },
+        {
+          "id": "onboarding_test_idea_2",
+          "label": "Onboarding - Test Idea",
+          "type": "text",
+          "placeholder": "Enter test idea",
+          "required": false
+        },
+        {
+          "id": "onboarding_why_it_works_2",
+          "label": "Onboarding - Why It Works",
+          "type": "text",
+          "placeholder": "Enter why it works",
+          "required": false
+        },
+        {
+          "id": "onboarding_expected_impact_2",
+          "label": "Onboarding - Expected Impact",
+          "type": "text",
+          "placeholder": "Enter expected impact",
+          "required": false
+        },
+        {
+          "id": "onboarding_test_idea_3",
+          "label": "Onboarding - Test Idea",
+          "type": "text",
+          "placeholder": "Enter test idea",
+          "required": false
+        },
+        {
+          "id": "onboarding_why_it_works_3",
+          "label": "Onboarding - Why It Works",
+          "type": "text",
+          "placeholder": "Enter why it works",
+          "required": false
+        },
+        {
+          "id": "onboarding_expected_impact_3",
+          "label": "Onboarding - Expected Impact",
+          "type": "text",
+          "placeholder": "Enter expected impact",
+          "required": false
+        },
+        {
+          "id": "onboarding_test_idea_4",
+          "label": "Onboarding - Test Idea",
+          "type": "text",
+          "placeholder": "Enter test idea",
+          "required": false
+        },
+        {
+          "id": "onboarding_why_it_works_4",
+          "label": "Onboarding - Why It Works",
+          "type": "text",
+          "placeholder": "Enter why it works",
+          "required": false
+        },
+        {
+          "id": "onboarding_expected_impact_4",
+          "label": "Onboarding - Expected Impact",
+          "type": "text",
+          "placeholder": "Enter expected impact",
+          "required": false
+        }
+      ]
+    }
+  ]
 }

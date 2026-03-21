@@ -10,267 +10,6 @@
     "content"
   ],
   "estimatedTime": "45 min",
-  "sections": [
-    {
-      "id": "dashboard",
-      "title": "Dashboard",
-      "description": "Complete the Dashboard section",
-      "fields": [
-        {
-          "id": "overview_0",
-          "label": "OVERVIEW",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "total_planned_1",
-          "label": "Total Planned",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "published_2",
-          "label": "Published",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "in_progress_3",
-          "label": "In Progress",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "completion_rate_4",
-          "label": "Completion Rate",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "content_by_channel_5",
-          "label": "CONTENT BY CHANNEL",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "status_breakdown_6",
-          "label": "STATUS BREAKDOWN",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "channel_7",
-          "label": "Channel",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "planned_8",
-          "label": "Planned",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "published_9",
-          "label": "Published",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "publish_rate_10",
-          "label": "Publish Rate",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "status_11",
-          "label": "Status",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "count_12",
-          "label": "Count",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "blog_13",
-          "label": "Blog",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "idea_14",
-          "label": "Idea",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "social_media_15",
-          "label": "Social Media",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "in_progress_16",
-          "label": "In Progress",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "email_17",
-          "label": "Email",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "in_review_18",
-          "label": "In Review",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "video_19",
-          "label": "Video",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "scheduled_20",
-          "label": "Scheduled",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "podcast_21",
-          "label": "Podcast",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "published_22",
-          "label": "Published",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "paid_ads_23",
-          "label": "Paid Ads",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "website_24",
-          "label": "Website",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "other_25",
-          "label": "Other",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "content_pipeline_health_26",
-          "label": "CONTENT PIPELINE HEALTH",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "ideas_in_pipeline_27",
-          "label": "Ideas in Pipeline",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "ready_to_publish_scheduled_28",
-          "label": "Ready to Publish (Scheduled)",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "awaiting_review_29",
-          "label": "Awaiting Review",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "content_calendar",
-      "title": "Content Calendar",
-      "description": "Complete the Content Calendar section",
-      "fields": [
-        {
-          "id": "why_content_calendars_save_your_sanity_0",
-          "label": "Why Content Calendars Save Your Sanity",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "5_marketing_mistakes_ceos_make_1",
-          "label": "5 Marketing Mistakes CEOs Make",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "march_newsletter_growth_tips_2",
-          "label": "March Newsletter: Growth Tips",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "client_success_dvr_pharm_case_study_3",
-          "label": "Client Success: DVR Pharm Case Study",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "ai_strategy_builder_walkthrough_4",
-          "label": "AI Strategy Builder Walkthrough",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    }
-  ],
   "dashboard": {
     "metrics": [
       {
@@ -284,5 +23,440 @@
         "format": "number"
       }
     ]
-  }
+  },
+  "sections": [
+    {
+      "id": "dashboard",
+      "title": "Dashboard",
+      "description": "Auto-calculated summary of your data. Complete the working sections to see results here.",
+      "readOnly": true,
+      "fields": [
+        {
+          "id": "dashboard_overview",
+          "label": "Dashboard Overview",
+          "type": "textarea",
+          "placeholder": "Dashboard metrics will be calculated from your inputs in the working sections",
+          "required": false,
+          "readOnly": true
+        }
+      ]
+    },
+    {
+      "id": "content_calendar",
+      "title": "Content Calendar",
+      "description": "Enter data for each item",
+      "fields": [
+        {
+          "id": "why_content_calendars_save_your_sanity_channel",
+          "label": "Why Content Calendars Save Your Sanity - Channel",
+          "type": "select",
+          "placeholder": "Enter channel",
+          "required": false,
+          "options": [
+            "Blog",
+            "Social Media",
+            "Email",
+            "Video",
+            "Paid Search",
+            "Paid Social",
+            "SEO",
+            "Events",
+            "PR"
+          ]
+        },
+        {
+          "id": "why_content_calendars_save_your_sanity_content_type",
+          "label": "Why Content Calendars Save Your Sanity - Content Type",
+          "type": "select",
+          "placeholder": "Enter content type",
+          "required": false,
+          "options": [
+            "Blog Post",
+            "Video",
+            "Infographic",
+            "Case Study",
+            "Whitepaper",
+            "Newsletter",
+            "Social Post",
+            "Webinar"
+          ]
+        },
+        {
+          "id": "why_content_calendars_save_your_sanity_owner",
+          "label": "Why Content Calendars Save Your Sanity - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "why_content_calendars_save_your_sanity_status",
+          "label": "Why Content Calendars Save Your Sanity - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "why_content_calendars_save_your_sanity_campaign_tag",
+          "label": "Why Content Calendars Save Your Sanity - Campaign / Tag",
+          "type": "text",
+          "placeholder": "Enter campaign / tag",
+          "required": false
+        },
+        {
+          "id": "why_content_calendars_save_your_sanity_publish_date",
+          "label": "Why Content Calendars Save Your Sanity - Publish Date",
+          "type": "text",
+          "placeholder": "Enter publish date",
+          "required": false
+        },
+        {
+          "id": "why_content_calendars_save_your_sanity_notes_links",
+          "label": "Why Content Calendars Save Your Sanity - Notes / Links",
+          "type": "textarea",
+          "placeholder": "Enter notes / links",
+          "required": false
+        },
+        {
+          "id": "why_content_calendars_save_your_sanity_performance_notes",
+          "label": "Why Content Calendars Save Your Sanity - Performance Notes",
+          "type": "textarea",
+          "placeholder": "Enter performance notes",
+          "required": false
+        },
+        {
+          "id": "5_marketing_mistakes_ceos_make_channel",
+          "label": "5 Marketing Mistakes CEOs Make - Channel",
+          "type": "select",
+          "placeholder": "Enter channel",
+          "required": false,
+          "options": [
+            "Blog",
+            "Social Media",
+            "Email",
+            "Video",
+            "Paid Search",
+            "Paid Social",
+            "SEO",
+            "Events",
+            "PR"
+          ]
+        },
+        {
+          "id": "5_marketing_mistakes_ceos_make_content_type",
+          "label": "5 Marketing Mistakes CEOs Make - Content Type",
+          "type": "select",
+          "placeholder": "Enter content type",
+          "required": false,
+          "options": [
+            "Blog Post",
+            "Video",
+            "Infographic",
+            "Case Study",
+            "Whitepaper",
+            "Newsletter",
+            "Social Post",
+            "Webinar"
+          ]
+        },
+        {
+          "id": "5_marketing_mistakes_ceos_make_owner",
+          "label": "5 Marketing Mistakes CEOs Make - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "5_marketing_mistakes_ceos_make_status",
+          "label": "5 Marketing Mistakes CEOs Make - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "5_marketing_mistakes_ceos_make_campaign_tag",
+          "label": "5 Marketing Mistakes CEOs Make - Campaign / Tag",
+          "type": "text",
+          "placeholder": "Enter campaign / tag",
+          "required": false
+        },
+        {
+          "id": "5_marketing_mistakes_ceos_make_publish_date",
+          "label": "5 Marketing Mistakes CEOs Make - Publish Date",
+          "type": "text",
+          "placeholder": "Enter publish date",
+          "required": false
+        },
+        {
+          "id": "5_marketing_mistakes_ceos_make_notes_links",
+          "label": "5 Marketing Mistakes CEOs Make - Notes / Links",
+          "type": "textarea",
+          "placeholder": "Enter notes / links",
+          "required": false
+        },
+        {
+          "id": "5_marketing_mistakes_ceos_make_performance_notes",
+          "label": "5 Marketing Mistakes CEOs Make - Performance Notes",
+          "type": "textarea",
+          "placeholder": "Enter performance notes",
+          "required": false
+        },
+        {
+          "id": "march_newsletter_growth_tips_channel",
+          "label": "March Newsletter: Growth Tips - Channel",
+          "type": "select",
+          "placeholder": "Enter channel",
+          "required": false,
+          "options": [
+            "Blog",
+            "Social Media",
+            "Email",
+            "Video",
+            "Paid Search",
+            "Paid Social",
+            "SEO",
+            "Events",
+            "PR"
+          ]
+        },
+        {
+          "id": "march_newsletter_growth_tips_content_type",
+          "label": "March Newsletter: Growth Tips - Content Type",
+          "type": "select",
+          "placeholder": "Enter content type",
+          "required": false,
+          "options": [
+            "Blog Post",
+            "Video",
+            "Infographic",
+            "Case Study",
+            "Whitepaper",
+            "Newsletter",
+            "Social Post",
+            "Webinar"
+          ]
+        },
+        {
+          "id": "march_newsletter_growth_tips_owner",
+          "label": "March Newsletter: Growth Tips - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "march_newsletter_growth_tips_status",
+          "label": "March Newsletter: Growth Tips - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "march_newsletter_growth_tips_campaign_tag",
+          "label": "March Newsletter: Growth Tips - Campaign / Tag",
+          "type": "text",
+          "placeholder": "Enter campaign / tag",
+          "required": false
+        },
+        {
+          "id": "march_newsletter_growth_tips_publish_date",
+          "label": "March Newsletter: Growth Tips - Publish Date",
+          "type": "text",
+          "placeholder": "Enter publish date",
+          "required": false
+        },
+        {
+          "id": "march_newsletter_growth_tips_notes_links",
+          "label": "March Newsletter: Growth Tips - Notes / Links",
+          "type": "textarea",
+          "placeholder": "Enter notes / links",
+          "required": false
+        },
+        {
+          "id": "march_newsletter_growth_tips_performance_notes",
+          "label": "March Newsletter: Growth Tips - Performance Notes",
+          "type": "textarea",
+          "placeholder": "Enter performance notes",
+          "required": false
+        },
+        {
+          "id": "client_success_dvr_pharm_case_study_channel",
+          "label": "Client Success: DVR Pharm Case Study - Channel",
+          "type": "select",
+          "placeholder": "Enter channel",
+          "required": false,
+          "options": [
+            "Blog",
+            "Social Media",
+            "Email",
+            "Video",
+            "Paid Search",
+            "Paid Social",
+            "SEO",
+            "Events",
+            "PR"
+          ]
+        },
+        {
+          "id": "client_success_dvr_pharm_case_study_content_type",
+          "label": "Client Success: DVR Pharm Case Study - Content Type",
+          "type": "select",
+          "placeholder": "Enter content type",
+          "required": false,
+          "options": [
+            "Blog Post",
+            "Video",
+            "Infographic",
+            "Case Study",
+            "Whitepaper",
+            "Newsletter",
+            "Social Post",
+            "Webinar"
+          ]
+        },
+        {
+          "id": "client_success_dvr_pharm_case_study_owner",
+          "label": "Client Success: DVR Pharm Case Study - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "client_success_dvr_pharm_case_study_status",
+          "label": "Client Success: DVR Pharm Case Study - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "client_success_dvr_pharm_case_study_campaign_tag",
+          "label": "Client Success: DVR Pharm Case Study - Campaign / Tag",
+          "type": "text",
+          "placeholder": "Enter campaign / tag",
+          "required": false
+        },
+        {
+          "id": "client_success_dvr_pharm_case_study_publish_date",
+          "label": "Client Success: DVR Pharm Case Study - Publish Date",
+          "type": "text",
+          "placeholder": "Enter publish date",
+          "required": false
+        },
+        {
+          "id": "client_success_dvr_pharm_case_study_notes_links",
+          "label": "Client Success: DVR Pharm Case Study - Notes / Links",
+          "type": "textarea",
+          "placeholder": "Enter notes / links",
+          "required": false
+        },
+        {
+          "id": "client_success_dvr_pharm_case_study_performance_notes",
+          "label": "Client Success: DVR Pharm Case Study - Performance Notes",
+          "type": "textarea",
+          "placeholder": "Enter performance notes",
+          "required": false
+        },
+        {
+          "id": "ai_strategy_builder_walkthrough_channel",
+          "label": "AI Strategy Builder Walkthrough - Channel",
+          "type": "select",
+          "placeholder": "Enter channel",
+          "required": false,
+          "options": [
+            "Blog",
+            "Social Media",
+            "Email",
+            "Video",
+            "Paid Search",
+            "Paid Social",
+            "SEO",
+            "Events",
+            "PR"
+          ]
+        },
+        {
+          "id": "ai_strategy_builder_walkthrough_content_type",
+          "label": "AI Strategy Builder Walkthrough - Content Type",
+          "type": "select",
+          "placeholder": "Enter content type",
+          "required": false,
+          "options": [
+            "Blog Post",
+            "Video",
+            "Infographic",
+            "Case Study",
+            "Whitepaper",
+            "Newsletter",
+            "Social Post",
+            "Webinar"
+          ]
+        },
+        {
+          "id": "ai_strategy_builder_walkthrough_owner",
+          "label": "AI Strategy Builder Walkthrough - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "ai_strategy_builder_walkthrough_status",
+          "label": "AI Strategy Builder Walkthrough - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "ai_strategy_builder_walkthrough_campaign_tag",
+          "label": "AI Strategy Builder Walkthrough - Campaign / Tag",
+          "type": "text",
+          "placeholder": "Enter campaign / tag",
+          "required": false
+        },
+        {
+          "id": "ai_strategy_builder_walkthrough_publish_date",
+          "label": "AI Strategy Builder Walkthrough - Publish Date",
+          "type": "text",
+          "placeholder": "Enter publish date",
+          "required": false
+        },
+        {
+          "id": "ai_strategy_builder_walkthrough_notes_links",
+          "label": "AI Strategy Builder Walkthrough - Notes / Links",
+          "type": "textarea",
+          "placeholder": "Enter notes / links",
+          "required": false
+        },
+        {
+          "id": "ai_strategy_builder_walkthrough_performance_notes",
+          "label": "AI Strategy Builder Walkthrough - Performance Notes",
+          "type": "textarea",
+          "placeholder": "Enter performance notes",
+          "required": false
+        }
+      ]
+    }
+  ]
 }

@@ -10,1058 +10,6 @@
     "analytics"
   ],
   "estimatedTime": "55 min",
-  "sections": [
-    {
-      "id": "dashboard",
-      "title": "Dashboard",
-      "description": "Complete the Dashboard section",
-      "fields": [
-        {
-          "id": "total_marketing_spend_0",
-          "label": "Total Marketing Spend",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "total_revenue_generated_1",
-          "label": "Total Revenue Generated",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "total_profit_2",
-          "label": "Total Profit",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "blended_roi_3",
-          "label": "Blended ROI",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "total_customers_acquired_4",
-          "label": "Total Customers Acquired",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "blended_cac_5",
-          "label": "Blended CAC",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "channel_performance_ranking_6",
-          "label": "CHANNEL PERFORMANCE RANKING",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "channel_7",
-          "label": "Channel",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "spend_8",
-          "label": "Spend",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "customers_9",
-          "label": "Customers",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "revenue_10",
-          "label": "Revenue",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "profit_11",
-          "label": "Profit",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "google_ads_12",
-          "label": "Google Ads",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "total_spend_13",
-          "label": "Total Spend",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "customers_won_14",
-          "label": "Customers Won",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "revenue_15",
-          "label": "Revenue",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "profit_16",
-          "label": "Profit",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "facebook_ads_17",
-          "label": "Facebook Ads",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "instagram_ads_18",
-          "label": "Instagram Ads",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "linkedin_ads_19",
-          "label": "LinkedIn Ads",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "seo_organic_20",
-          "label": "SEO / Organic",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "email_marketing_21",
-          "label": "Email Marketing",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "content_marketing_22",
-          "label": "Content Marketing",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "social_media_organic_23",
-          "label": "Social Media (Organic)",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "events_webinars_24",
-          "label": "Events & Webinars",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "referral_programme_25",
-          "label": "Referral Programme",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "affiliate_marketing_26",
-          "label": "Affiliate Marketing",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "tiktok_ads_27",
-          "label": "TikTok Ads",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "youtube_ads_28",
-          "label": "YouTube Ads",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "pr_media_29",
-          "label": "PR & Media",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "channel_roi",
-      "title": "Channel ROI",
-      "description": "Complete the Channel ROI section",
-      "fields": [
-        {
-          "id": "google_ads_0",
-          "label": "Google Ads",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "facebook_ads_1",
-          "label": "Facebook Ads",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "instagram_ads_2",
-          "label": "Instagram Ads",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "linkedin_ads_3",
-          "label": "LinkedIn Ads",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "seo_organic_4",
-          "label": "SEO / Organic",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "email_marketing_5",
-          "label": "Email Marketing",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "content_marketing_6",
-          "label": "Content Marketing",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "social_media_organic_7",
-          "label": "Social Media (Organic)",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "events_webinars_8",
-          "label": "Events & Webinars",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "referral_programme_9",
-          "label": "Referral Programme",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "affiliate_marketing_10",
-          "label": "Affiliate Marketing",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "tiktok_ads_11",
-          "label": "TikTok Ads",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "youtube_ads_12",
-          "label": "YouTube Ads",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "pr_media_13",
-          "label": "PR & Media",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "total_14",
-          "label": "TOTAL",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "channel_share_of_spend_15",
-          "label": "CHANNEL SHARE OF SPEND",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "channel_16",
-          "label": "Channel",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "google_ads_17",
-          "label": "Google Ads",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "facebook_ads_18",
-          "label": "Facebook Ads",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "instagram_ads_19",
-          "label": "Instagram Ads",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "linkedin_ads_20",
-          "label": "LinkedIn Ads",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "seo_organic_21",
-          "label": "SEO / Organic",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "email_marketing_22",
-          "label": "Email Marketing",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "content_marketing_23",
-          "label": "Content Marketing",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "social_media_organic_24",
-          "label": "Social Media (Organic)",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "events_webinars_25",
-          "label": "Events & Webinars",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "referral_programme_26",
-          "label": "Referral Programme",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "affiliate_marketing_27",
-          "label": "Affiliate Marketing",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "tiktok_ads_28",
-          "label": "TikTok Ads",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "youtube_ads_29",
-          "label": "YouTube Ads",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "campaign_roi",
-      "title": "Campaign ROI",
-      "description": "Complete the Campaign ROI section",
-      "fields": [
-        {
-          "id": "spring_product_launch_0",
-          "label": "Spring Product Launch",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "brand_awareness_push_1",
-          "label": "Brand Awareness Push",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "lead_gen_webinar_2",
-          "label": "Lead Gen Webinar",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "linkedin_thought_leadership_3",
-          "label": "LinkedIn Thought Leadership",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "holiday_retargeting_4",
-          "label": "Holiday Retargeting",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "monthly_roi_tracker",
-      "title": "Monthly ROI Tracker",
-      "description": "Complete the Monthly ROI Tracker section",
-      "fields": [
-        {
-          "id": "month_0",
-          "label": "Month",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "total_spend_1",
-          "label": "Total Spend",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "revenue_2",
-          "label": "Revenue",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "profit_3",
-          "label": "Profit",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "leads_4",
-          "label": "Leads",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "total_5",
-          "label": "TOTAL",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "cac_calculator",
-      "title": "CAC Calculator",
-      "description": "Complete the CAC Calculator section",
-      "fields": [
-        {
-          "id": "total_ad_spend_across_google_facebook_li_0",
-          "label": "Total ad spend across Google, Facebook, LinkedIn, etc.",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "freelancers_agencies_stock_images_video__1",
-          "label": "Freelancers, agencies, stock images, video production",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "crm_email_platform_analytics_automation__2",
-          "label": "CRM, email platform, analytics, automation tools",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "pro_rated_marketing_team_compensation_3",
-          "label": "Pro-rated marketing team compensation",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "retainers_or_project_fees_for_external_a_4",
-          "label": "Retainers or project fees for external agencies",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "webinars_conferences_event_sponsorships_5",
-          "label": "Webinars, conferences, event sponsorships",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "pr_agency_press_releases_media_outreach_6",
-          "label": "PR agency, press releases, media outreach",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "office_space_equipment_misc_allocated_to_7",
-          "label": "Office space, equipment, misc allocated to marketing",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "clv_calculator",
-      "title": "CLV Calculator",
-      "description": "Complete the CLV Calculator section",
-      "fields": [
-        {
-          "id": "average_order_value_aov_0",
-          "label": "Average Order Value (AOV)",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "purchase_frequency_per_year_1",
-          "label": "Purchase Frequency (per year)",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "customer_lifespan_years_2",
-          "label": "Customer Lifespan (years)",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "gross_margin_3",
-          "label": "Gross Margin",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "clv_calculations_4",
-          "label": "CLV CALCULATIONS",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "annual_revenue_per_customer_5",
-          "label": "Annual Revenue Per Customer",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "customer_lifetime_revenue_6",
-          "label": "Customer Lifetime Revenue",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "customer_lifetime_value_clv_7",
-          "label": "CUSTOMER LIFETIME VALUE (CLV)",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "clv_cac_ratio_8",
-          "label": "CLV : CAC RATIO",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "cac_from_cac_calculator_9",
-          "label": "CAC (from CAC Calculator)",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "clv_cac_ratio_10",
-          "label": "CLV : CAC Ratio",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "months_to_recover_cac_11",
-          "label": "Months to Recover CAC",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "clv_cac_ratio_benchmarks_12",
-          "label": "CLV:CAC RATIO BENCHMARKS",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "below_1_1_13",
-          "label": "Below 1:1",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "1_1_to_2_1_14",
-          "label": "1:1 to 2:1",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "3_1_15",
-          "label": "3:1",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "4_1_to_5_1_16",
-          "label": "4:1 to 5:1",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "above_5_1_17",
-          "label": "Above 5:1",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "budget_allocation",
-      "title": "Budget Allocation",
-      "description": "Complete the Budget Allocation section",
-      "fields": [
-        {
-          "id": "google_ads_0",
-          "label": "Google Ads",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "facebook_ads_1",
-          "label": "Facebook Ads",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "instagram_ads_2",
-          "label": "Instagram Ads",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "linkedin_ads_3",
-          "label": "LinkedIn Ads",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "seo_organic_4",
-          "label": "SEO / Organic",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "email_marketing_5",
-          "label": "Email Marketing",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "content_marketing_6",
-          "label": "Content Marketing",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "social_media_organic_7",
-          "label": "Social Media (Organic)",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "events_webinars_8",
-          "label": "Events & Webinars",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "referral_programme_9",
-          "label": "Referral Programme",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "affiliate_marketing_10",
-          "label": "Affiliate Marketing",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "tiktok_ads_11",
-          "label": "TikTok Ads",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "youtube_ads_12",
-          "label": "YouTube Ads",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "pr_media_13",
-          "label": "PR & Media",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "total_14",
-          "label": "TOTAL",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "executive_report",
-      "title": "Executive Report",
-      "description": "Complete the Executive Report section",
-      "fields": [
-        {
-          "id": "headline_metrics_0",
-          "label": "HEADLINE METRICS",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "total_marketing_investment_1",
-          "label": "Total Marketing Investment",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "total_revenue_generated_2",
-          "label": "Total Revenue Generated",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "net_marketing_profit_3",
-          "label": "Net Marketing Profit",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "return_on_investment_4",
-          "label": "Return on Investment",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "unit_economics_5",
-          "label": "UNIT ECONOMICS",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "customer_acquisition_cost_6",
-          "label": "Customer Acquisition Cost",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "customer_lifetime_value_7",
-          "label": "Customer Lifetime Value",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "clv_cac_ratio_8",
-          "label": "CLV : CAC Ratio",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "total_customers_acquired_9",
-          "label": "Total Customers Acquired",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "top_5_channels_by_roi_10",
-          "label": "TOP 5 CHANNELS BY ROI",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "channel_11",
-          "label": "Channel",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "spend_12",
-          "label": "Spend",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "revenue_13",
-          "label": "Revenue",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "google_ads_14",
-          "label": "Google Ads",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "total_spend_15",
-          "label": "Total Spend",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "revenue_16",
-          "label": "Revenue",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "facebook_ads_17",
-          "label": "Facebook Ads",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "instagram_ads_18",
-          "label": "Instagram Ads",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "linkedin_ads_19",
-          "label": "LinkedIn Ads",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "seo_organic_20",
-          "label": "SEO / Organic",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "key_insights_21",
-          "label": "KEY INSIGHTS",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "what_is_working_well_22",
-          "label": "What is working well?",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "enter_your_top_3_wins_this_period_23",
-          "label": "Enter your top 3 wins this period",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "what_needs_improvement_24",
-          "label": "What needs improvement?",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "enter_your_top_3_challenges_25",
-          "label": "Enter your top 3 challenges",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "recommended_actions_for_next_period_26",
-          "label": "Recommended actions for next period",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "enter_3_5_prioritised_next_steps_27",
-          "label": "Enter 3-5 prioritised next steps",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "budget_reallocation_recommendations_28",
-          "label": "Budget reallocation recommendations",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "based_on_channel_performance_data_above_29",
-          "label": "Based on channel performance data above",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    }
-  ],
   "dashboard": {
     "metrics": [
       {
@@ -1070,5 +18,3753 @@
         "format": "number"
       }
     ]
-  }
+  },
+  "sections": [
+    {
+      "id": "dashboard",
+      "title": "Dashboard",
+      "description": "Auto-calculated summary of your data. Complete the working sections to see results here.",
+      "readOnly": true,
+      "fields": [
+        {
+          "id": "dashboard_overview",
+          "label": "Dashboard Overview",
+          "type": "textarea",
+          "placeholder": "Dashboard metrics will be calculated from your inputs in the working sections",
+          "required": false,
+          "readOnly": true
+        }
+      ]
+    },
+    {
+      "id": "channel_roi",
+      "title": "Channel ROI",
+      "description": "Enter data for each item",
+      "fields": [
+        {
+          "id": "google_ads_total_spend",
+          "label": "Google Ads - Total Spend",
+          "type": "number",
+          "placeholder": "Enter total spend",
+          "required": false
+        },
+        {
+          "id": "google_ads_customers_won",
+          "label": "Google Ads - Customers Won",
+          "type": "number",
+          "placeholder": "Enter customers won",
+          "required": false
+        },
+        {
+          "id": "google_ads_revenue",
+          "label": "Google Ads - Revenue",
+          "type": "number",
+          "placeholder": "Enter revenue",
+          "required": false
+        },
+        {
+          "id": "google_ads_roi",
+          "label": "Google Ads - ROI",
+          "type": "number",
+          "placeholder": "Enter roi",
+          "required": false
+        },
+        {
+          "id": "google_ads_notes",
+          "label": "Google Ads - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "facebook_ads_total_spend",
+          "label": "Facebook Ads - Total Spend",
+          "type": "number",
+          "placeholder": "Enter total spend",
+          "required": false
+        },
+        {
+          "id": "facebook_ads_customers_won",
+          "label": "Facebook Ads - Customers Won",
+          "type": "number",
+          "placeholder": "Enter customers won",
+          "required": false
+        },
+        {
+          "id": "facebook_ads_revenue",
+          "label": "Facebook Ads - Revenue",
+          "type": "number",
+          "placeholder": "Enter revenue",
+          "required": false
+        },
+        {
+          "id": "facebook_ads_roi",
+          "label": "Facebook Ads - ROI",
+          "type": "number",
+          "placeholder": "Enter roi",
+          "required": false
+        },
+        {
+          "id": "facebook_ads_notes",
+          "label": "Facebook Ads - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "instagram_ads_total_spend",
+          "label": "Instagram Ads - Total Spend",
+          "type": "number",
+          "placeholder": "Enter total spend",
+          "required": false
+        },
+        {
+          "id": "instagram_ads_customers_won",
+          "label": "Instagram Ads - Customers Won",
+          "type": "number",
+          "placeholder": "Enter customers won",
+          "required": false
+        },
+        {
+          "id": "instagram_ads_revenue",
+          "label": "Instagram Ads - Revenue",
+          "type": "number",
+          "placeholder": "Enter revenue",
+          "required": false
+        },
+        {
+          "id": "instagram_ads_roi",
+          "label": "Instagram Ads - ROI",
+          "type": "number",
+          "placeholder": "Enter roi",
+          "required": false
+        },
+        {
+          "id": "instagram_ads_notes",
+          "label": "Instagram Ads - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "linkedin_ads_total_spend",
+          "label": "LinkedIn Ads - Total Spend",
+          "type": "number",
+          "placeholder": "Enter total spend",
+          "required": false
+        },
+        {
+          "id": "linkedin_ads_customers_won",
+          "label": "LinkedIn Ads - Customers Won",
+          "type": "number",
+          "placeholder": "Enter customers won",
+          "required": false
+        },
+        {
+          "id": "linkedin_ads_revenue",
+          "label": "LinkedIn Ads - Revenue",
+          "type": "number",
+          "placeholder": "Enter revenue",
+          "required": false
+        },
+        {
+          "id": "linkedin_ads_roi",
+          "label": "LinkedIn Ads - ROI",
+          "type": "number",
+          "placeholder": "Enter roi",
+          "required": false
+        },
+        {
+          "id": "linkedin_ads_notes",
+          "label": "LinkedIn Ads - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "seo_organic_total_spend",
+          "label": "SEO / Organic - Total Spend",
+          "type": "number",
+          "placeholder": "Enter total spend",
+          "required": false
+        },
+        {
+          "id": "seo_organic_customers_won",
+          "label": "SEO / Organic - Customers Won",
+          "type": "number",
+          "placeholder": "Enter customers won",
+          "required": false
+        },
+        {
+          "id": "seo_organic_revenue",
+          "label": "SEO / Organic - Revenue",
+          "type": "number",
+          "placeholder": "Enter revenue",
+          "required": false
+        },
+        {
+          "id": "seo_organic_roi",
+          "label": "SEO / Organic - ROI",
+          "type": "number",
+          "placeholder": "Enter roi",
+          "required": false
+        },
+        {
+          "id": "seo_organic_notes",
+          "label": "SEO / Organic - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "email_marketing_total_spend",
+          "label": "Email Marketing - Total Spend",
+          "type": "number",
+          "placeholder": "Enter total spend",
+          "required": false
+        },
+        {
+          "id": "email_marketing_customers_won",
+          "label": "Email Marketing - Customers Won",
+          "type": "number",
+          "placeholder": "Enter customers won",
+          "required": false
+        },
+        {
+          "id": "email_marketing_revenue",
+          "label": "Email Marketing - Revenue",
+          "type": "number",
+          "placeholder": "Enter revenue",
+          "required": false
+        },
+        {
+          "id": "email_marketing_roi",
+          "label": "Email Marketing - ROI",
+          "type": "number",
+          "placeholder": "Enter roi",
+          "required": false
+        },
+        {
+          "id": "email_marketing_notes",
+          "label": "Email Marketing - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "content_marketing_total_spend",
+          "label": "Content Marketing - Total Spend",
+          "type": "number",
+          "placeholder": "Enter total spend",
+          "required": false
+        },
+        {
+          "id": "content_marketing_customers_won",
+          "label": "Content Marketing - Customers Won",
+          "type": "number",
+          "placeholder": "Enter customers won",
+          "required": false
+        },
+        {
+          "id": "content_marketing_revenue",
+          "label": "Content Marketing - Revenue",
+          "type": "number",
+          "placeholder": "Enter revenue",
+          "required": false
+        },
+        {
+          "id": "content_marketing_roi",
+          "label": "Content Marketing - ROI",
+          "type": "number",
+          "placeholder": "Enter roi",
+          "required": false
+        },
+        {
+          "id": "content_marketing_notes",
+          "label": "Content Marketing - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "social_media_organic_total_spend",
+          "label": "Social Media (Organic) - Total Spend",
+          "type": "number",
+          "placeholder": "Enter total spend",
+          "required": false
+        },
+        {
+          "id": "social_media_organic_customers_won",
+          "label": "Social Media (Organic) - Customers Won",
+          "type": "number",
+          "placeholder": "Enter customers won",
+          "required": false
+        },
+        {
+          "id": "social_media_organic_revenue",
+          "label": "Social Media (Organic) - Revenue",
+          "type": "number",
+          "placeholder": "Enter revenue",
+          "required": false
+        },
+        {
+          "id": "social_media_organic_roi",
+          "label": "Social Media (Organic) - ROI",
+          "type": "number",
+          "placeholder": "Enter roi",
+          "required": false
+        },
+        {
+          "id": "social_media_organic_notes",
+          "label": "Social Media (Organic) - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "events_webinars_total_spend",
+          "label": "Events & Webinars - Total Spend",
+          "type": "number",
+          "placeholder": "Enter total spend",
+          "required": false
+        },
+        {
+          "id": "events_webinars_customers_won",
+          "label": "Events & Webinars - Customers Won",
+          "type": "number",
+          "placeholder": "Enter customers won",
+          "required": false
+        },
+        {
+          "id": "events_webinars_revenue",
+          "label": "Events & Webinars - Revenue",
+          "type": "number",
+          "placeholder": "Enter revenue",
+          "required": false
+        },
+        {
+          "id": "events_webinars_roi",
+          "label": "Events & Webinars - ROI",
+          "type": "number",
+          "placeholder": "Enter roi",
+          "required": false
+        },
+        {
+          "id": "events_webinars_notes",
+          "label": "Events & Webinars - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "referral_programme_total_spend",
+          "label": "Referral Programme - Total Spend",
+          "type": "number",
+          "placeholder": "Enter total spend",
+          "required": false
+        },
+        {
+          "id": "referral_programme_customers_won",
+          "label": "Referral Programme - Customers Won",
+          "type": "number",
+          "placeholder": "Enter customers won",
+          "required": false
+        },
+        {
+          "id": "referral_programme_revenue",
+          "label": "Referral Programme - Revenue",
+          "type": "number",
+          "placeholder": "Enter revenue",
+          "required": false
+        },
+        {
+          "id": "referral_programme_roi",
+          "label": "Referral Programme - ROI",
+          "type": "number",
+          "placeholder": "Enter roi",
+          "required": false
+        },
+        {
+          "id": "referral_programme_notes",
+          "label": "Referral Programme - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "affiliate_marketing_total_spend",
+          "label": "Affiliate Marketing - Total Spend",
+          "type": "number",
+          "placeholder": "Enter total spend",
+          "required": false
+        },
+        {
+          "id": "affiliate_marketing_customers_won",
+          "label": "Affiliate Marketing - Customers Won",
+          "type": "number",
+          "placeholder": "Enter customers won",
+          "required": false
+        },
+        {
+          "id": "affiliate_marketing_revenue",
+          "label": "Affiliate Marketing - Revenue",
+          "type": "number",
+          "placeholder": "Enter revenue",
+          "required": false
+        },
+        {
+          "id": "affiliate_marketing_roi",
+          "label": "Affiliate Marketing - ROI",
+          "type": "number",
+          "placeholder": "Enter roi",
+          "required": false
+        },
+        {
+          "id": "affiliate_marketing_notes",
+          "label": "Affiliate Marketing - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "tiktok_ads_total_spend",
+          "label": "TikTok Ads - Total Spend",
+          "type": "number",
+          "placeholder": "Enter total spend",
+          "required": false
+        },
+        {
+          "id": "tiktok_ads_customers_won",
+          "label": "TikTok Ads - Customers Won",
+          "type": "number",
+          "placeholder": "Enter customers won",
+          "required": false
+        },
+        {
+          "id": "tiktok_ads_revenue",
+          "label": "TikTok Ads - Revenue",
+          "type": "number",
+          "placeholder": "Enter revenue",
+          "required": false
+        },
+        {
+          "id": "tiktok_ads_roi",
+          "label": "TikTok Ads - ROI",
+          "type": "number",
+          "placeholder": "Enter roi",
+          "required": false
+        },
+        {
+          "id": "tiktok_ads_notes",
+          "label": "TikTok Ads - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "youtube_ads_total_spend",
+          "label": "YouTube Ads - Total Spend",
+          "type": "number",
+          "placeholder": "Enter total spend",
+          "required": false
+        },
+        {
+          "id": "youtube_ads_customers_won",
+          "label": "YouTube Ads - Customers Won",
+          "type": "number",
+          "placeholder": "Enter customers won",
+          "required": false
+        },
+        {
+          "id": "youtube_ads_revenue",
+          "label": "YouTube Ads - Revenue",
+          "type": "number",
+          "placeholder": "Enter revenue",
+          "required": false
+        },
+        {
+          "id": "youtube_ads_roi",
+          "label": "YouTube Ads - ROI",
+          "type": "number",
+          "placeholder": "Enter roi",
+          "required": false
+        },
+        {
+          "id": "youtube_ads_notes",
+          "label": "YouTube Ads - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "pr_media_total_spend",
+          "label": "PR & Media - Total Spend",
+          "type": "number",
+          "placeholder": "Enter total spend",
+          "required": false
+        },
+        {
+          "id": "pr_media_customers_won",
+          "label": "PR & Media - Customers Won",
+          "type": "number",
+          "placeholder": "Enter customers won",
+          "required": false
+        },
+        {
+          "id": "pr_media_revenue",
+          "label": "PR & Media - Revenue",
+          "type": "number",
+          "placeholder": "Enter revenue",
+          "required": false
+        },
+        {
+          "id": "pr_media_roi",
+          "label": "PR & Media - ROI",
+          "type": "number",
+          "placeholder": "Enter roi",
+          "required": false
+        },
+        {
+          "id": "pr_media_notes",
+          "label": "PR & Media - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "channel_share_of_spend_total_spend",
+          "label": "CHANNEL SHARE OF SPEND - Total Spend",
+          "type": "number",
+          "placeholder": "Enter total spend",
+          "required": false
+        },
+        {
+          "id": "channel_share_of_spend_customers_won",
+          "label": "CHANNEL SHARE OF SPEND - Customers Won",
+          "type": "number",
+          "placeholder": "Enter customers won",
+          "required": false
+        },
+        {
+          "id": "channel_share_of_spend_revenue",
+          "label": "CHANNEL SHARE OF SPEND - Revenue",
+          "type": "number",
+          "placeholder": "Enter revenue",
+          "required": false
+        },
+        {
+          "id": "channel_share_of_spend_roi",
+          "label": "CHANNEL SHARE OF SPEND - ROI",
+          "type": "number",
+          "placeholder": "Enter roi",
+          "required": false
+        },
+        {
+          "id": "channel_share_of_spend_notes",
+          "label": "CHANNEL SHARE OF SPEND - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "channel_total_spend",
+          "label": "Channel - Total Spend",
+          "type": "number",
+          "placeholder": "Enter total spend",
+          "required": false
+        },
+        {
+          "id": "channel_customers_won",
+          "label": "Channel - Customers Won",
+          "type": "number",
+          "placeholder": "Enter customers won",
+          "required": false
+        },
+        {
+          "id": "channel_revenue",
+          "label": "Channel - Revenue",
+          "type": "number",
+          "placeholder": "Enter revenue",
+          "required": false
+        },
+        {
+          "id": "channel_roi",
+          "label": "Channel - ROI",
+          "type": "number",
+          "placeholder": "Enter roi",
+          "required": false
+        },
+        {
+          "id": "channel_notes",
+          "label": "Channel - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "google_ads_total_spend_1",
+          "label": "Google Ads - Total Spend",
+          "type": "number",
+          "placeholder": "Enter total spend",
+          "required": false
+        },
+        {
+          "id": "google_ads_customers_won_1",
+          "label": "Google Ads - Customers Won",
+          "type": "number",
+          "placeholder": "Enter customers won",
+          "required": false
+        },
+        {
+          "id": "google_ads_revenue_1",
+          "label": "Google Ads - Revenue",
+          "type": "number",
+          "placeholder": "Enter revenue",
+          "required": false
+        },
+        {
+          "id": "google_ads_roi_1",
+          "label": "Google Ads - ROI",
+          "type": "number",
+          "placeholder": "Enter roi",
+          "required": false
+        },
+        {
+          "id": "google_ads_notes_1",
+          "label": "Google Ads - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "facebook_ads_total_spend_1",
+          "label": "Facebook Ads - Total Spend",
+          "type": "number",
+          "placeholder": "Enter total spend",
+          "required": false
+        },
+        {
+          "id": "facebook_ads_customers_won_1",
+          "label": "Facebook Ads - Customers Won",
+          "type": "number",
+          "placeholder": "Enter customers won",
+          "required": false
+        },
+        {
+          "id": "facebook_ads_revenue_1",
+          "label": "Facebook Ads - Revenue",
+          "type": "number",
+          "placeholder": "Enter revenue",
+          "required": false
+        },
+        {
+          "id": "facebook_ads_roi_1",
+          "label": "Facebook Ads - ROI",
+          "type": "number",
+          "placeholder": "Enter roi",
+          "required": false
+        },
+        {
+          "id": "facebook_ads_notes_1",
+          "label": "Facebook Ads - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "instagram_ads_total_spend_1",
+          "label": "Instagram Ads - Total Spend",
+          "type": "number",
+          "placeholder": "Enter total spend",
+          "required": false
+        },
+        {
+          "id": "instagram_ads_customers_won_1",
+          "label": "Instagram Ads - Customers Won",
+          "type": "number",
+          "placeholder": "Enter customers won",
+          "required": false
+        },
+        {
+          "id": "instagram_ads_revenue_1",
+          "label": "Instagram Ads - Revenue",
+          "type": "number",
+          "placeholder": "Enter revenue",
+          "required": false
+        },
+        {
+          "id": "instagram_ads_roi_1",
+          "label": "Instagram Ads - ROI",
+          "type": "number",
+          "placeholder": "Enter roi",
+          "required": false
+        },
+        {
+          "id": "instagram_ads_notes_1",
+          "label": "Instagram Ads - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "linkedin_ads_total_spend_1",
+          "label": "LinkedIn Ads - Total Spend",
+          "type": "number",
+          "placeholder": "Enter total spend",
+          "required": false
+        },
+        {
+          "id": "linkedin_ads_customers_won_1",
+          "label": "LinkedIn Ads - Customers Won",
+          "type": "number",
+          "placeholder": "Enter customers won",
+          "required": false
+        },
+        {
+          "id": "linkedin_ads_revenue_1",
+          "label": "LinkedIn Ads - Revenue",
+          "type": "number",
+          "placeholder": "Enter revenue",
+          "required": false
+        },
+        {
+          "id": "linkedin_ads_roi_1",
+          "label": "LinkedIn Ads - ROI",
+          "type": "number",
+          "placeholder": "Enter roi",
+          "required": false
+        },
+        {
+          "id": "linkedin_ads_notes_1",
+          "label": "LinkedIn Ads - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "seo_organic_total_spend_1",
+          "label": "SEO / Organic - Total Spend",
+          "type": "number",
+          "placeholder": "Enter total spend",
+          "required": false
+        },
+        {
+          "id": "seo_organic_customers_won_1",
+          "label": "SEO / Organic - Customers Won",
+          "type": "number",
+          "placeholder": "Enter customers won",
+          "required": false
+        },
+        {
+          "id": "seo_organic_revenue_1",
+          "label": "SEO / Organic - Revenue",
+          "type": "number",
+          "placeholder": "Enter revenue",
+          "required": false
+        },
+        {
+          "id": "seo_organic_roi_1",
+          "label": "SEO / Organic - ROI",
+          "type": "number",
+          "placeholder": "Enter roi",
+          "required": false
+        },
+        {
+          "id": "seo_organic_notes_1",
+          "label": "SEO / Organic - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "email_marketing_total_spend_1",
+          "label": "Email Marketing - Total Spend",
+          "type": "number",
+          "placeholder": "Enter total spend",
+          "required": false
+        },
+        {
+          "id": "email_marketing_customers_won_1",
+          "label": "Email Marketing - Customers Won",
+          "type": "number",
+          "placeholder": "Enter customers won",
+          "required": false
+        },
+        {
+          "id": "email_marketing_revenue_1",
+          "label": "Email Marketing - Revenue",
+          "type": "number",
+          "placeholder": "Enter revenue",
+          "required": false
+        },
+        {
+          "id": "email_marketing_roi_1",
+          "label": "Email Marketing - ROI",
+          "type": "number",
+          "placeholder": "Enter roi",
+          "required": false
+        },
+        {
+          "id": "email_marketing_notes_1",
+          "label": "Email Marketing - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "content_marketing_total_spend_1",
+          "label": "Content Marketing - Total Spend",
+          "type": "number",
+          "placeholder": "Enter total spend",
+          "required": false
+        },
+        {
+          "id": "content_marketing_customers_won_1",
+          "label": "Content Marketing - Customers Won",
+          "type": "number",
+          "placeholder": "Enter customers won",
+          "required": false
+        },
+        {
+          "id": "content_marketing_revenue_1",
+          "label": "Content Marketing - Revenue",
+          "type": "number",
+          "placeholder": "Enter revenue",
+          "required": false
+        },
+        {
+          "id": "content_marketing_roi_1",
+          "label": "Content Marketing - ROI",
+          "type": "number",
+          "placeholder": "Enter roi",
+          "required": false
+        },
+        {
+          "id": "content_marketing_notes_1",
+          "label": "Content Marketing - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "social_media_organic_total_spend_1",
+          "label": "Social Media (Organic) - Total Spend",
+          "type": "number",
+          "placeholder": "Enter total spend",
+          "required": false
+        },
+        {
+          "id": "social_media_organic_customers_won_1",
+          "label": "Social Media (Organic) - Customers Won",
+          "type": "number",
+          "placeholder": "Enter customers won",
+          "required": false
+        },
+        {
+          "id": "social_media_organic_revenue_1",
+          "label": "Social Media (Organic) - Revenue",
+          "type": "number",
+          "placeholder": "Enter revenue",
+          "required": false
+        },
+        {
+          "id": "social_media_organic_roi_1",
+          "label": "Social Media (Organic) - ROI",
+          "type": "number",
+          "placeholder": "Enter roi",
+          "required": false
+        },
+        {
+          "id": "social_media_organic_notes_1",
+          "label": "Social Media (Organic) - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "events_webinars_total_spend_1",
+          "label": "Events & Webinars - Total Spend",
+          "type": "number",
+          "placeholder": "Enter total spend",
+          "required": false
+        },
+        {
+          "id": "events_webinars_customers_won_1",
+          "label": "Events & Webinars - Customers Won",
+          "type": "number",
+          "placeholder": "Enter customers won",
+          "required": false
+        },
+        {
+          "id": "events_webinars_revenue_1",
+          "label": "Events & Webinars - Revenue",
+          "type": "number",
+          "placeholder": "Enter revenue",
+          "required": false
+        },
+        {
+          "id": "events_webinars_roi_1",
+          "label": "Events & Webinars - ROI",
+          "type": "number",
+          "placeholder": "Enter roi",
+          "required": false
+        },
+        {
+          "id": "events_webinars_notes_1",
+          "label": "Events & Webinars - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "referral_programme_total_spend_1",
+          "label": "Referral Programme - Total Spend",
+          "type": "number",
+          "placeholder": "Enter total spend",
+          "required": false
+        },
+        {
+          "id": "referral_programme_customers_won_1",
+          "label": "Referral Programme - Customers Won",
+          "type": "number",
+          "placeholder": "Enter customers won",
+          "required": false
+        },
+        {
+          "id": "referral_programme_revenue_1",
+          "label": "Referral Programme - Revenue",
+          "type": "number",
+          "placeholder": "Enter revenue",
+          "required": false
+        },
+        {
+          "id": "referral_programme_roi_1",
+          "label": "Referral Programme - ROI",
+          "type": "number",
+          "placeholder": "Enter roi",
+          "required": false
+        },
+        {
+          "id": "referral_programme_notes_1",
+          "label": "Referral Programme - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "affiliate_marketing_total_spend_1",
+          "label": "Affiliate Marketing - Total Spend",
+          "type": "number",
+          "placeholder": "Enter total spend",
+          "required": false
+        },
+        {
+          "id": "affiliate_marketing_customers_won_1",
+          "label": "Affiliate Marketing - Customers Won",
+          "type": "number",
+          "placeholder": "Enter customers won",
+          "required": false
+        },
+        {
+          "id": "affiliate_marketing_revenue_1",
+          "label": "Affiliate Marketing - Revenue",
+          "type": "number",
+          "placeholder": "Enter revenue",
+          "required": false
+        },
+        {
+          "id": "affiliate_marketing_roi_1",
+          "label": "Affiliate Marketing - ROI",
+          "type": "number",
+          "placeholder": "Enter roi",
+          "required": false
+        },
+        {
+          "id": "affiliate_marketing_notes_1",
+          "label": "Affiliate Marketing - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "tiktok_ads_total_spend_1",
+          "label": "TikTok Ads - Total Spend",
+          "type": "number",
+          "placeholder": "Enter total spend",
+          "required": false
+        },
+        {
+          "id": "tiktok_ads_customers_won_1",
+          "label": "TikTok Ads - Customers Won",
+          "type": "number",
+          "placeholder": "Enter customers won",
+          "required": false
+        },
+        {
+          "id": "tiktok_ads_revenue_1",
+          "label": "TikTok Ads - Revenue",
+          "type": "number",
+          "placeholder": "Enter revenue",
+          "required": false
+        },
+        {
+          "id": "tiktok_ads_roi_1",
+          "label": "TikTok Ads - ROI",
+          "type": "number",
+          "placeholder": "Enter roi",
+          "required": false
+        },
+        {
+          "id": "tiktok_ads_notes_1",
+          "label": "TikTok Ads - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "youtube_ads_total_spend_1",
+          "label": "YouTube Ads - Total Spend",
+          "type": "number",
+          "placeholder": "Enter total spend",
+          "required": false
+        },
+        {
+          "id": "youtube_ads_customers_won_1",
+          "label": "YouTube Ads - Customers Won",
+          "type": "number",
+          "placeholder": "Enter customers won",
+          "required": false
+        },
+        {
+          "id": "youtube_ads_revenue_1",
+          "label": "YouTube Ads - Revenue",
+          "type": "number",
+          "placeholder": "Enter revenue",
+          "required": false
+        },
+        {
+          "id": "youtube_ads_roi_1",
+          "label": "YouTube Ads - ROI",
+          "type": "number",
+          "placeholder": "Enter roi",
+          "required": false
+        },
+        {
+          "id": "youtube_ads_notes_1",
+          "label": "YouTube Ads - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "pr_media_total_spend_1",
+          "label": "PR & Media - Total Spend",
+          "type": "number",
+          "placeholder": "Enter total spend",
+          "required": false
+        },
+        {
+          "id": "pr_media_customers_won_1",
+          "label": "PR & Media - Customers Won",
+          "type": "number",
+          "placeholder": "Enter customers won",
+          "required": false
+        },
+        {
+          "id": "pr_media_revenue_1",
+          "label": "PR & Media - Revenue",
+          "type": "number",
+          "placeholder": "Enter revenue",
+          "required": false
+        },
+        {
+          "id": "pr_media_roi_1",
+          "label": "PR & Media - ROI",
+          "type": "number",
+          "placeholder": "Enter roi",
+          "required": false
+        },
+        {
+          "id": "pr_media_notes_1",
+          "label": "PR & Media - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "campaign_roi",
+      "title": "Campaign ROI",
+      "description": "Enter data for each item",
+      "fields": [
+        {
+          "id": "spring_product_launch_channel",
+          "label": "Spring Product Launch - Channel",
+          "type": "select",
+          "placeholder": "Enter channel",
+          "required": false,
+          "options": [
+            "Blog",
+            "Social Media",
+            "Email",
+            "Video",
+            "Paid Search",
+            "Paid Social",
+            "SEO",
+            "Events",
+            "PR"
+          ]
+        },
+        {
+          "id": "spring_product_launch_ad_spend",
+          "label": "Spring Product Launch - Ad Spend",
+          "type": "number",
+          "placeholder": "Enter ad spend",
+          "required": false
+        },
+        {
+          "id": "spring_product_launch_creative_cost",
+          "label": "Spring Product Launch - Creative Cost",
+          "type": "number",
+          "placeholder": "Enter creative cost",
+          "required": false
+        },
+        {
+          "id": "spring_product_launch_tool_cost",
+          "label": "Spring Product Launch - Tool Cost",
+          "type": "number",
+          "placeholder": "Enter tool cost",
+          "required": false
+        },
+        {
+          "id": "spring_product_launch_labour_cost",
+          "label": "Spring Product Launch - Labour Cost",
+          "type": "number",
+          "placeholder": "Enter labour cost",
+          "required": false
+        },
+        {
+          "id": "spring_product_launch_total_cost",
+          "label": "Spring Product Launch - Total Cost",
+          "type": "number",
+          "placeholder": "Enter total cost",
+          "required": false
+        },
+        {
+          "id": "spring_product_launch_leads",
+          "label": "Spring Product Launch - Leads",
+          "type": "number",
+          "placeholder": "Enter leads",
+          "required": false
+        },
+        {
+          "id": "spring_product_launch_conversions",
+          "label": "Spring Product Launch - Conversions",
+          "type": "number",
+          "placeholder": "Enter conversions",
+          "required": false
+        },
+        {
+          "id": "spring_product_launch_revenue",
+          "label": "Spring Product Launch - Revenue",
+          "type": "number",
+          "placeholder": "Enter revenue",
+          "required": false
+        },
+        {
+          "id": "spring_product_launch_roi",
+          "label": "Spring Product Launch - ROI",
+          "type": "number",
+          "placeholder": "Enter roi",
+          "required": false
+        },
+        {
+          "id": "brand_awareness_push_channel",
+          "label": "Brand Awareness Push - Channel",
+          "type": "select",
+          "placeholder": "Enter channel",
+          "required": false,
+          "options": [
+            "Blog",
+            "Social Media",
+            "Email",
+            "Video",
+            "Paid Search",
+            "Paid Social",
+            "SEO",
+            "Events",
+            "PR"
+          ]
+        },
+        {
+          "id": "brand_awareness_push_ad_spend",
+          "label": "Brand Awareness Push - Ad Spend",
+          "type": "number",
+          "placeholder": "Enter ad spend",
+          "required": false
+        },
+        {
+          "id": "brand_awareness_push_creative_cost",
+          "label": "Brand Awareness Push - Creative Cost",
+          "type": "number",
+          "placeholder": "Enter creative cost",
+          "required": false
+        },
+        {
+          "id": "brand_awareness_push_tool_cost",
+          "label": "Brand Awareness Push - Tool Cost",
+          "type": "number",
+          "placeholder": "Enter tool cost",
+          "required": false
+        },
+        {
+          "id": "brand_awareness_push_labour_cost",
+          "label": "Brand Awareness Push - Labour Cost",
+          "type": "number",
+          "placeholder": "Enter labour cost",
+          "required": false
+        },
+        {
+          "id": "brand_awareness_push_total_cost",
+          "label": "Brand Awareness Push - Total Cost",
+          "type": "number",
+          "placeholder": "Enter total cost",
+          "required": false
+        },
+        {
+          "id": "brand_awareness_push_leads",
+          "label": "Brand Awareness Push - Leads",
+          "type": "number",
+          "placeholder": "Enter leads",
+          "required": false
+        },
+        {
+          "id": "brand_awareness_push_conversions",
+          "label": "Brand Awareness Push - Conversions",
+          "type": "number",
+          "placeholder": "Enter conversions",
+          "required": false
+        },
+        {
+          "id": "brand_awareness_push_revenue",
+          "label": "Brand Awareness Push - Revenue",
+          "type": "number",
+          "placeholder": "Enter revenue",
+          "required": false
+        },
+        {
+          "id": "brand_awareness_push_roi",
+          "label": "Brand Awareness Push - ROI",
+          "type": "number",
+          "placeholder": "Enter roi",
+          "required": false
+        },
+        {
+          "id": "lead_gen_webinar_channel",
+          "label": "Lead Gen Webinar - Channel",
+          "type": "select",
+          "placeholder": "Enter channel",
+          "required": false,
+          "options": [
+            "Blog",
+            "Social Media",
+            "Email",
+            "Video",
+            "Paid Search",
+            "Paid Social",
+            "SEO",
+            "Events",
+            "PR"
+          ]
+        },
+        {
+          "id": "lead_gen_webinar_ad_spend",
+          "label": "Lead Gen Webinar - Ad Spend",
+          "type": "number",
+          "placeholder": "Enter ad spend",
+          "required": false
+        },
+        {
+          "id": "lead_gen_webinar_creative_cost",
+          "label": "Lead Gen Webinar - Creative Cost",
+          "type": "number",
+          "placeholder": "Enter creative cost",
+          "required": false
+        },
+        {
+          "id": "lead_gen_webinar_tool_cost",
+          "label": "Lead Gen Webinar - Tool Cost",
+          "type": "number",
+          "placeholder": "Enter tool cost",
+          "required": false
+        },
+        {
+          "id": "lead_gen_webinar_labour_cost",
+          "label": "Lead Gen Webinar - Labour Cost",
+          "type": "number",
+          "placeholder": "Enter labour cost",
+          "required": false
+        },
+        {
+          "id": "lead_gen_webinar_total_cost",
+          "label": "Lead Gen Webinar - Total Cost",
+          "type": "number",
+          "placeholder": "Enter total cost",
+          "required": false
+        },
+        {
+          "id": "lead_gen_webinar_leads",
+          "label": "Lead Gen Webinar - Leads",
+          "type": "number",
+          "placeholder": "Enter leads",
+          "required": false
+        },
+        {
+          "id": "lead_gen_webinar_conversions",
+          "label": "Lead Gen Webinar - Conversions",
+          "type": "number",
+          "placeholder": "Enter conversions",
+          "required": false
+        },
+        {
+          "id": "lead_gen_webinar_revenue",
+          "label": "Lead Gen Webinar - Revenue",
+          "type": "number",
+          "placeholder": "Enter revenue",
+          "required": false
+        },
+        {
+          "id": "lead_gen_webinar_roi",
+          "label": "Lead Gen Webinar - ROI",
+          "type": "number",
+          "placeholder": "Enter roi",
+          "required": false
+        },
+        {
+          "id": "linkedin_thought_leadership_channel",
+          "label": "LinkedIn Thought Leadership - Channel",
+          "type": "select",
+          "placeholder": "Enter channel",
+          "required": false,
+          "options": [
+            "Blog",
+            "Social Media",
+            "Email",
+            "Video",
+            "Paid Search",
+            "Paid Social",
+            "SEO",
+            "Events",
+            "PR"
+          ]
+        },
+        {
+          "id": "linkedin_thought_leadership_ad_spend",
+          "label": "LinkedIn Thought Leadership - Ad Spend",
+          "type": "number",
+          "placeholder": "Enter ad spend",
+          "required": false
+        },
+        {
+          "id": "linkedin_thought_leadership_creative_cost",
+          "label": "LinkedIn Thought Leadership - Creative Cost",
+          "type": "number",
+          "placeholder": "Enter creative cost",
+          "required": false
+        },
+        {
+          "id": "linkedin_thought_leadership_tool_cost",
+          "label": "LinkedIn Thought Leadership - Tool Cost",
+          "type": "number",
+          "placeholder": "Enter tool cost",
+          "required": false
+        },
+        {
+          "id": "linkedin_thought_leadership_labour_cost",
+          "label": "LinkedIn Thought Leadership - Labour Cost",
+          "type": "number",
+          "placeholder": "Enter labour cost",
+          "required": false
+        },
+        {
+          "id": "linkedin_thought_leadership_total_cost",
+          "label": "LinkedIn Thought Leadership - Total Cost",
+          "type": "number",
+          "placeholder": "Enter total cost",
+          "required": false
+        },
+        {
+          "id": "linkedin_thought_leadership_leads",
+          "label": "LinkedIn Thought Leadership - Leads",
+          "type": "number",
+          "placeholder": "Enter leads",
+          "required": false
+        },
+        {
+          "id": "linkedin_thought_leadership_conversions",
+          "label": "LinkedIn Thought Leadership - Conversions",
+          "type": "number",
+          "placeholder": "Enter conversions",
+          "required": false
+        },
+        {
+          "id": "linkedin_thought_leadership_revenue",
+          "label": "LinkedIn Thought Leadership - Revenue",
+          "type": "number",
+          "placeholder": "Enter revenue",
+          "required": false
+        },
+        {
+          "id": "linkedin_thought_leadership_roi",
+          "label": "LinkedIn Thought Leadership - ROI",
+          "type": "number",
+          "placeholder": "Enter roi",
+          "required": false
+        },
+        {
+          "id": "holiday_retargeting_channel",
+          "label": "Holiday Retargeting - Channel",
+          "type": "select",
+          "placeholder": "Enter channel",
+          "required": false,
+          "options": [
+            "Blog",
+            "Social Media",
+            "Email",
+            "Video",
+            "Paid Search",
+            "Paid Social",
+            "SEO",
+            "Events",
+            "PR"
+          ]
+        },
+        {
+          "id": "holiday_retargeting_ad_spend",
+          "label": "Holiday Retargeting - Ad Spend",
+          "type": "number",
+          "placeholder": "Enter ad spend",
+          "required": false
+        },
+        {
+          "id": "holiday_retargeting_creative_cost",
+          "label": "Holiday Retargeting - Creative Cost",
+          "type": "number",
+          "placeholder": "Enter creative cost",
+          "required": false
+        },
+        {
+          "id": "holiday_retargeting_tool_cost",
+          "label": "Holiday Retargeting - Tool Cost",
+          "type": "number",
+          "placeholder": "Enter tool cost",
+          "required": false
+        },
+        {
+          "id": "holiday_retargeting_labour_cost",
+          "label": "Holiday Retargeting - Labour Cost",
+          "type": "number",
+          "placeholder": "Enter labour cost",
+          "required": false
+        },
+        {
+          "id": "holiday_retargeting_total_cost",
+          "label": "Holiday Retargeting - Total Cost",
+          "type": "number",
+          "placeholder": "Enter total cost",
+          "required": false
+        },
+        {
+          "id": "holiday_retargeting_leads",
+          "label": "Holiday Retargeting - Leads",
+          "type": "number",
+          "placeholder": "Enter leads",
+          "required": false
+        },
+        {
+          "id": "holiday_retargeting_conversions",
+          "label": "Holiday Retargeting - Conversions",
+          "type": "number",
+          "placeholder": "Enter conversions",
+          "required": false
+        },
+        {
+          "id": "holiday_retargeting_revenue",
+          "label": "Holiday Retargeting - Revenue",
+          "type": "number",
+          "placeholder": "Enter revenue",
+          "required": false
+        },
+        {
+          "id": "holiday_retargeting_roi",
+          "label": "Holiday Retargeting - ROI",
+          "type": "number",
+          "placeholder": "Enter roi",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "monthly_roi_tracker",
+      "title": "Monthly ROI Tracker",
+      "description": "Enter data for each item",
+      "fields": [
+        {
+          "id": "jan_total_spend",
+          "label": "Jan - Total Spend",
+          "type": "number",
+          "placeholder": "Enter total spend",
+          "required": false
+        },
+        {
+          "id": "jan_revenue",
+          "label": "Jan - Revenue",
+          "type": "number",
+          "placeholder": "Enter revenue",
+          "required": false
+        },
+        {
+          "id": "jan_roi",
+          "label": "Jan - ROI",
+          "type": "number",
+          "placeholder": "Enter roi",
+          "required": false
+        },
+        {
+          "id": "jan_leads",
+          "label": "Jan - Leads",
+          "type": "number",
+          "placeholder": "Enter leads",
+          "required": false
+        },
+        {
+          "id": "jan_conversions",
+          "label": "Jan - Conversions",
+          "type": "number",
+          "placeholder": "Enter conversions",
+          "required": false
+        },
+        {
+          "id": "jan_cpl",
+          "label": "Jan - CPL",
+          "type": "number",
+          "placeholder": "Enter cpl",
+          "required": false
+        },
+        {
+          "id": "jan_mom_revenue",
+          "label": "Jan - MoM Revenue",
+          "type": "number",
+          "placeholder": "Enter mom revenue",
+          "required": false
+        },
+        {
+          "id": "feb_total_spend",
+          "label": "Feb - Total Spend",
+          "type": "number",
+          "placeholder": "Enter total spend",
+          "required": false
+        },
+        {
+          "id": "feb_revenue",
+          "label": "Feb - Revenue",
+          "type": "number",
+          "placeholder": "Enter revenue",
+          "required": false
+        },
+        {
+          "id": "feb_roi",
+          "label": "Feb - ROI",
+          "type": "number",
+          "placeholder": "Enter roi",
+          "required": false
+        },
+        {
+          "id": "feb_leads",
+          "label": "Feb - Leads",
+          "type": "number",
+          "placeholder": "Enter leads",
+          "required": false
+        },
+        {
+          "id": "feb_conversions",
+          "label": "Feb - Conversions",
+          "type": "number",
+          "placeholder": "Enter conversions",
+          "required": false
+        },
+        {
+          "id": "feb_cpl",
+          "label": "Feb - CPL",
+          "type": "number",
+          "placeholder": "Enter cpl",
+          "required": false
+        },
+        {
+          "id": "feb_mom_revenue",
+          "label": "Feb - MoM Revenue",
+          "type": "number",
+          "placeholder": "Enter mom revenue",
+          "required": false
+        },
+        {
+          "id": "mar_total_spend",
+          "label": "Mar - Total Spend",
+          "type": "number",
+          "placeholder": "Enter total spend",
+          "required": false
+        },
+        {
+          "id": "mar_revenue",
+          "label": "Mar - Revenue",
+          "type": "number",
+          "placeholder": "Enter revenue",
+          "required": false
+        },
+        {
+          "id": "mar_roi",
+          "label": "Mar - ROI",
+          "type": "number",
+          "placeholder": "Enter roi",
+          "required": false
+        },
+        {
+          "id": "mar_leads",
+          "label": "Mar - Leads",
+          "type": "number",
+          "placeholder": "Enter leads",
+          "required": false
+        },
+        {
+          "id": "mar_conversions",
+          "label": "Mar - Conversions",
+          "type": "number",
+          "placeholder": "Enter conversions",
+          "required": false
+        },
+        {
+          "id": "mar_cpl",
+          "label": "Mar - CPL",
+          "type": "number",
+          "placeholder": "Enter cpl",
+          "required": false
+        },
+        {
+          "id": "mar_mom_revenue",
+          "label": "Mar - MoM Revenue",
+          "type": "number",
+          "placeholder": "Enter mom revenue",
+          "required": false
+        },
+        {
+          "id": "apr_total_spend",
+          "label": "Apr - Total Spend",
+          "type": "number",
+          "placeholder": "Enter total spend",
+          "required": false
+        },
+        {
+          "id": "apr_revenue",
+          "label": "Apr - Revenue",
+          "type": "number",
+          "placeholder": "Enter revenue",
+          "required": false
+        },
+        {
+          "id": "apr_roi",
+          "label": "Apr - ROI",
+          "type": "number",
+          "placeholder": "Enter roi",
+          "required": false
+        },
+        {
+          "id": "apr_leads",
+          "label": "Apr - Leads",
+          "type": "number",
+          "placeholder": "Enter leads",
+          "required": false
+        },
+        {
+          "id": "apr_conversions",
+          "label": "Apr - Conversions",
+          "type": "number",
+          "placeholder": "Enter conversions",
+          "required": false
+        },
+        {
+          "id": "apr_cpl",
+          "label": "Apr - CPL",
+          "type": "number",
+          "placeholder": "Enter cpl",
+          "required": false
+        },
+        {
+          "id": "apr_mom_revenue",
+          "label": "Apr - MoM Revenue",
+          "type": "number",
+          "placeholder": "Enter mom revenue",
+          "required": false
+        },
+        {
+          "id": "may_total_spend",
+          "label": "May - Total Spend",
+          "type": "number",
+          "placeholder": "Enter total spend",
+          "required": false
+        },
+        {
+          "id": "may_revenue",
+          "label": "May - Revenue",
+          "type": "number",
+          "placeholder": "Enter revenue",
+          "required": false
+        },
+        {
+          "id": "may_roi",
+          "label": "May - ROI",
+          "type": "number",
+          "placeholder": "Enter roi",
+          "required": false
+        },
+        {
+          "id": "may_leads",
+          "label": "May - Leads",
+          "type": "number",
+          "placeholder": "Enter leads",
+          "required": false
+        },
+        {
+          "id": "may_conversions",
+          "label": "May - Conversions",
+          "type": "number",
+          "placeholder": "Enter conversions",
+          "required": false
+        },
+        {
+          "id": "may_cpl",
+          "label": "May - CPL",
+          "type": "number",
+          "placeholder": "Enter cpl",
+          "required": false
+        },
+        {
+          "id": "may_mom_revenue",
+          "label": "May - MoM Revenue",
+          "type": "number",
+          "placeholder": "Enter mom revenue",
+          "required": false
+        },
+        {
+          "id": "jun_total_spend",
+          "label": "Jun - Total Spend",
+          "type": "number",
+          "placeholder": "Enter total spend",
+          "required": false
+        },
+        {
+          "id": "jun_revenue",
+          "label": "Jun - Revenue",
+          "type": "number",
+          "placeholder": "Enter revenue",
+          "required": false
+        },
+        {
+          "id": "jun_roi",
+          "label": "Jun - ROI",
+          "type": "number",
+          "placeholder": "Enter roi",
+          "required": false
+        },
+        {
+          "id": "jun_leads",
+          "label": "Jun - Leads",
+          "type": "number",
+          "placeholder": "Enter leads",
+          "required": false
+        },
+        {
+          "id": "jun_conversions",
+          "label": "Jun - Conversions",
+          "type": "number",
+          "placeholder": "Enter conversions",
+          "required": false
+        },
+        {
+          "id": "jun_cpl",
+          "label": "Jun - CPL",
+          "type": "number",
+          "placeholder": "Enter cpl",
+          "required": false
+        },
+        {
+          "id": "jun_mom_revenue",
+          "label": "Jun - MoM Revenue",
+          "type": "number",
+          "placeholder": "Enter mom revenue",
+          "required": false
+        },
+        {
+          "id": "jul_total_spend",
+          "label": "Jul - Total Spend",
+          "type": "number",
+          "placeholder": "Enter total spend",
+          "required": false
+        },
+        {
+          "id": "jul_revenue",
+          "label": "Jul - Revenue",
+          "type": "number",
+          "placeholder": "Enter revenue",
+          "required": false
+        },
+        {
+          "id": "jul_roi",
+          "label": "Jul - ROI",
+          "type": "number",
+          "placeholder": "Enter roi",
+          "required": false
+        },
+        {
+          "id": "jul_leads",
+          "label": "Jul - Leads",
+          "type": "number",
+          "placeholder": "Enter leads",
+          "required": false
+        },
+        {
+          "id": "jul_conversions",
+          "label": "Jul - Conversions",
+          "type": "number",
+          "placeholder": "Enter conversions",
+          "required": false
+        },
+        {
+          "id": "jul_cpl",
+          "label": "Jul - CPL",
+          "type": "number",
+          "placeholder": "Enter cpl",
+          "required": false
+        },
+        {
+          "id": "jul_mom_revenue",
+          "label": "Jul - MoM Revenue",
+          "type": "number",
+          "placeholder": "Enter mom revenue",
+          "required": false
+        },
+        {
+          "id": "aug_total_spend",
+          "label": "Aug - Total Spend",
+          "type": "number",
+          "placeholder": "Enter total spend",
+          "required": false
+        },
+        {
+          "id": "aug_revenue",
+          "label": "Aug - Revenue",
+          "type": "number",
+          "placeholder": "Enter revenue",
+          "required": false
+        },
+        {
+          "id": "aug_roi",
+          "label": "Aug - ROI",
+          "type": "number",
+          "placeholder": "Enter roi",
+          "required": false
+        },
+        {
+          "id": "aug_leads",
+          "label": "Aug - Leads",
+          "type": "number",
+          "placeholder": "Enter leads",
+          "required": false
+        },
+        {
+          "id": "aug_conversions",
+          "label": "Aug - Conversions",
+          "type": "number",
+          "placeholder": "Enter conversions",
+          "required": false
+        },
+        {
+          "id": "aug_cpl",
+          "label": "Aug - CPL",
+          "type": "number",
+          "placeholder": "Enter cpl",
+          "required": false
+        },
+        {
+          "id": "aug_mom_revenue",
+          "label": "Aug - MoM Revenue",
+          "type": "number",
+          "placeholder": "Enter mom revenue",
+          "required": false
+        },
+        {
+          "id": "sep_total_spend",
+          "label": "Sep - Total Spend",
+          "type": "number",
+          "placeholder": "Enter total spend",
+          "required": false
+        },
+        {
+          "id": "sep_revenue",
+          "label": "Sep - Revenue",
+          "type": "number",
+          "placeholder": "Enter revenue",
+          "required": false
+        },
+        {
+          "id": "sep_roi",
+          "label": "Sep - ROI",
+          "type": "number",
+          "placeholder": "Enter roi",
+          "required": false
+        },
+        {
+          "id": "sep_leads",
+          "label": "Sep - Leads",
+          "type": "number",
+          "placeholder": "Enter leads",
+          "required": false
+        },
+        {
+          "id": "sep_conversions",
+          "label": "Sep - Conversions",
+          "type": "number",
+          "placeholder": "Enter conversions",
+          "required": false
+        },
+        {
+          "id": "sep_cpl",
+          "label": "Sep - CPL",
+          "type": "number",
+          "placeholder": "Enter cpl",
+          "required": false
+        },
+        {
+          "id": "sep_mom_revenue",
+          "label": "Sep - MoM Revenue",
+          "type": "number",
+          "placeholder": "Enter mom revenue",
+          "required": false
+        },
+        {
+          "id": "oct_total_spend",
+          "label": "Oct - Total Spend",
+          "type": "number",
+          "placeholder": "Enter total spend",
+          "required": false
+        },
+        {
+          "id": "oct_revenue",
+          "label": "Oct - Revenue",
+          "type": "number",
+          "placeholder": "Enter revenue",
+          "required": false
+        },
+        {
+          "id": "oct_roi",
+          "label": "Oct - ROI",
+          "type": "number",
+          "placeholder": "Enter roi",
+          "required": false
+        },
+        {
+          "id": "oct_leads",
+          "label": "Oct - Leads",
+          "type": "number",
+          "placeholder": "Enter leads",
+          "required": false
+        },
+        {
+          "id": "oct_conversions",
+          "label": "Oct - Conversions",
+          "type": "number",
+          "placeholder": "Enter conversions",
+          "required": false
+        },
+        {
+          "id": "oct_cpl",
+          "label": "Oct - CPL",
+          "type": "number",
+          "placeholder": "Enter cpl",
+          "required": false
+        },
+        {
+          "id": "oct_mom_revenue",
+          "label": "Oct - MoM Revenue",
+          "type": "number",
+          "placeholder": "Enter mom revenue",
+          "required": false
+        },
+        {
+          "id": "nov_total_spend",
+          "label": "Nov - Total Spend",
+          "type": "number",
+          "placeholder": "Enter total spend",
+          "required": false
+        },
+        {
+          "id": "nov_revenue",
+          "label": "Nov - Revenue",
+          "type": "number",
+          "placeholder": "Enter revenue",
+          "required": false
+        },
+        {
+          "id": "nov_roi",
+          "label": "Nov - ROI",
+          "type": "number",
+          "placeholder": "Enter roi",
+          "required": false
+        },
+        {
+          "id": "nov_leads",
+          "label": "Nov - Leads",
+          "type": "number",
+          "placeholder": "Enter leads",
+          "required": false
+        },
+        {
+          "id": "nov_conversions",
+          "label": "Nov - Conversions",
+          "type": "number",
+          "placeholder": "Enter conversions",
+          "required": false
+        },
+        {
+          "id": "nov_cpl",
+          "label": "Nov - CPL",
+          "type": "number",
+          "placeholder": "Enter cpl",
+          "required": false
+        },
+        {
+          "id": "nov_mom_revenue",
+          "label": "Nov - MoM Revenue",
+          "type": "number",
+          "placeholder": "Enter mom revenue",
+          "required": false
+        },
+        {
+          "id": "dec_total_spend",
+          "label": "Dec - Total Spend",
+          "type": "number",
+          "placeholder": "Enter total spend",
+          "required": false
+        },
+        {
+          "id": "dec_revenue",
+          "label": "Dec - Revenue",
+          "type": "number",
+          "placeholder": "Enter revenue",
+          "required": false
+        },
+        {
+          "id": "dec_roi",
+          "label": "Dec - ROI",
+          "type": "number",
+          "placeholder": "Enter roi",
+          "required": false
+        },
+        {
+          "id": "dec_leads",
+          "label": "Dec - Leads",
+          "type": "number",
+          "placeholder": "Enter leads",
+          "required": false
+        },
+        {
+          "id": "dec_conversions",
+          "label": "Dec - Conversions",
+          "type": "number",
+          "placeholder": "Enter conversions",
+          "required": false
+        },
+        {
+          "id": "dec_cpl",
+          "label": "Dec - CPL",
+          "type": "number",
+          "placeholder": "Enter cpl",
+          "required": false
+        },
+        {
+          "id": "dec_mom_revenue",
+          "label": "Dec - MoM Revenue",
+          "type": "number",
+          "placeholder": "Enter mom revenue",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "cac_calculator",
+      "title": "CAC Calculator",
+      "description": "Enter data for each item",
+      "fields": [
+        {
+          "id": "paid_advertising_all_channels_monthly_amount",
+          "label": "Paid Advertising (all channels) - Monthly Amount",
+          "type": "number",
+          "placeholder": "Enter monthly amount",
+          "required": false
+        },
+        {
+          "id": "paid_advertising_all_channels_guidance",
+          "label": "Paid Advertising (all channels) - Guidance",
+          "type": "text",
+          "placeholder": "Enter guidance",
+          "required": false
+        },
+        {
+          "id": "content_creation_blog_video_design_monthly_amount",
+          "label": "Content Creation (blog, video, design) - Monthly Amount",
+          "type": "number",
+          "placeholder": "Enter monthly amount",
+          "required": false
+        },
+        {
+          "id": "content_creation_blog_video_design_guidance",
+          "label": "Content Creation (blog, video, design) - Guidance",
+          "type": "text",
+          "placeholder": "Enter guidance",
+          "required": false
+        },
+        {
+          "id": "marketing_software_tools_monthly_amount",
+          "label": "Marketing Software & Tools - Monthly Amount",
+          "type": "number",
+          "placeholder": "Enter monthly amount",
+          "required": false
+        },
+        {
+          "id": "marketing_software_tools_guidance",
+          "label": "Marketing Software & Tools - Guidance",
+          "type": "text",
+          "placeholder": "Enter guidance",
+          "required": false
+        },
+        {
+          "id": "marketing_team_salaries_monthly_amount",
+          "label": "Marketing Team Salaries - Monthly Amount",
+          "type": "number",
+          "placeholder": "Enter monthly amount",
+          "required": false
+        },
+        {
+          "id": "marketing_team_salaries_guidance",
+          "label": "Marketing Team Salaries - Guidance",
+          "type": "text",
+          "placeholder": "Enter guidance",
+          "required": false
+        },
+        {
+          "id": "agency_fees_monthly_amount",
+          "label": "Agency Fees - Monthly Amount",
+          "type": "number",
+          "placeholder": "Enter monthly amount",
+          "required": false
+        },
+        {
+          "id": "agency_fees_guidance",
+          "label": "Agency Fees - Guidance",
+          "type": "text",
+          "placeholder": "Enter guidance",
+          "required": false
+        },
+        {
+          "id": "events_sponsorships_monthly_amount",
+          "label": "Events & Sponsorships - Monthly Amount",
+          "type": "number",
+          "placeholder": "Enter monthly amount",
+          "required": false
+        },
+        {
+          "id": "events_sponsorships_guidance",
+          "label": "Events & Sponsorships - Guidance",
+          "type": "text",
+          "placeholder": "Enter guidance",
+          "required": false
+        },
+        {
+          "id": "pr_communications_monthly_amount",
+          "label": "PR & Communications - Monthly Amount",
+          "type": "number",
+          "placeholder": "Enter monthly amount",
+          "required": false
+        },
+        {
+          "id": "pr_communications_guidance",
+          "label": "PR & Communications - Guidance",
+          "type": "text",
+          "placeholder": "Enter guidance",
+          "required": false
+        },
+        {
+          "id": "marketing_overhead_monthly_amount",
+          "label": "Marketing Overhead - Monthly Amount",
+          "type": "number",
+          "placeholder": "Enter monthly amount",
+          "required": false
+        },
+        {
+          "id": "marketing_overhead_guidance",
+          "label": "Marketing Overhead - Guidance",
+          "type": "text",
+          "placeholder": "Enter guidance",
+          "required": false
+        },
+        {
+          "id": "total_monthly_marketing_cost_monthly_amount",
+          "label": "TOTAL MONTHLY MARKETING COST - Monthly Amount",
+          "type": "number",
+          "placeholder": "Enter monthly amount",
+          "required": false
+        },
+        {
+          "id": "total_monthly_marketing_cost_guidance",
+          "label": "TOTAL MONTHLY MARKETING COST - Guidance",
+          "type": "text",
+          "placeholder": "Enter guidance",
+          "required": false
+        },
+        {
+          "id": "customers_acquired_monthly_amount",
+          "label": "CUSTOMERS ACQUIRED - Monthly Amount",
+          "type": "number",
+          "placeholder": "Enter monthly amount",
+          "required": false
+        },
+        {
+          "id": "customers_acquired_guidance",
+          "label": "CUSTOMERS ACQUIRED - Guidance",
+          "type": "text",
+          "placeholder": "Enter guidance",
+          "required": false
+        },
+        {
+          "id": "new_customers_this_month_monthly_amount",
+          "label": "New Customers This Month - Monthly Amount",
+          "type": "number",
+          "placeholder": "Enter monthly amount",
+          "required": false
+        },
+        {
+          "id": "new_customers_this_month_guidance",
+          "label": "New Customers This Month - Guidance",
+          "type": "text",
+          "placeholder": "Enter guidance",
+          "required": false
+        },
+        {
+          "id": "your_cac_monthly_amount",
+          "label": "YOUR CAC - Monthly Amount",
+          "type": "number",
+          "placeholder": "Enter monthly amount",
+          "required": false
+        },
+        {
+          "id": "your_cac_guidance",
+          "label": "YOUR CAC - Guidance",
+          "type": "text",
+          "placeholder": "Enter guidance",
+          "required": false
+        },
+        {
+          "id": "customer_acquisition_cost_cac_monthly_amount",
+          "label": "Customer Acquisition Cost (CAC) - Monthly Amount",
+          "type": "number",
+          "placeholder": "Enter monthly amount",
+          "required": false
+        },
+        {
+          "id": "customer_acquisition_cost_cac_guidance",
+          "label": "Customer Acquisition Cost (CAC) - Guidance",
+          "type": "text",
+          "placeholder": "Enter guidance",
+          "required": false
+        },
+        {
+          "id": "cac_by_channel_from_channel_roi_tab_monthly_amount",
+          "label": "CAC BY CHANNEL (from Channel ROI tab) - Monthly Amount",
+          "type": "number",
+          "placeholder": "Enter monthly amount",
+          "required": false
+        },
+        {
+          "id": "cac_by_channel_from_channel_roi_tab_guidance",
+          "label": "CAC BY CHANNEL (from Channel ROI tab) - Guidance",
+          "type": "text",
+          "placeholder": "Enter guidance",
+          "required": false
+        },
+        {
+          "id": "channel_monthly_amount",
+          "label": "Channel - Monthly Amount",
+          "type": "number",
+          "placeholder": "Enter monthly amount",
+          "required": false
+        },
+        {
+          "id": "channel_guidance",
+          "label": "Channel - Guidance",
+          "type": "text",
+          "placeholder": "Enter guidance",
+          "required": false
+        },
+        {
+          "id": "google_ads_monthly_amount",
+          "label": "Google Ads - Monthly Amount",
+          "type": "number",
+          "placeholder": "Enter monthly amount",
+          "required": false
+        },
+        {
+          "id": "google_ads_guidance",
+          "label": "Google Ads - Guidance",
+          "type": "text",
+          "placeholder": "Enter guidance",
+          "required": false
+        },
+        {
+          "id": "facebook_ads_monthly_amount",
+          "label": "Facebook Ads - Monthly Amount",
+          "type": "number",
+          "placeholder": "Enter monthly amount",
+          "required": false
+        },
+        {
+          "id": "facebook_ads_guidance",
+          "label": "Facebook Ads - Guidance",
+          "type": "text",
+          "placeholder": "Enter guidance",
+          "required": false
+        },
+        {
+          "id": "instagram_ads_monthly_amount",
+          "label": "Instagram Ads - Monthly Amount",
+          "type": "number",
+          "placeholder": "Enter monthly amount",
+          "required": false
+        },
+        {
+          "id": "instagram_ads_guidance",
+          "label": "Instagram Ads - Guidance",
+          "type": "text",
+          "placeholder": "Enter guidance",
+          "required": false
+        },
+        {
+          "id": "linkedin_ads_monthly_amount",
+          "label": "LinkedIn Ads - Monthly Amount",
+          "type": "number",
+          "placeholder": "Enter monthly amount",
+          "required": false
+        },
+        {
+          "id": "linkedin_ads_guidance",
+          "label": "LinkedIn Ads - Guidance",
+          "type": "text",
+          "placeholder": "Enter guidance",
+          "required": false
+        },
+        {
+          "id": "seo_organic_monthly_amount",
+          "label": "SEO / Organic - Monthly Amount",
+          "type": "number",
+          "placeholder": "Enter monthly amount",
+          "required": false
+        },
+        {
+          "id": "seo_organic_guidance",
+          "label": "SEO / Organic - Guidance",
+          "type": "text",
+          "placeholder": "Enter guidance",
+          "required": false
+        },
+        {
+          "id": "email_marketing_monthly_amount",
+          "label": "Email Marketing - Monthly Amount",
+          "type": "number",
+          "placeholder": "Enter monthly amount",
+          "required": false
+        },
+        {
+          "id": "email_marketing_guidance",
+          "label": "Email Marketing - Guidance",
+          "type": "text",
+          "placeholder": "Enter guidance",
+          "required": false
+        },
+        {
+          "id": "content_marketing_monthly_amount",
+          "label": "Content Marketing - Monthly Amount",
+          "type": "number",
+          "placeholder": "Enter monthly amount",
+          "required": false
+        },
+        {
+          "id": "content_marketing_guidance",
+          "label": "Content Marketing - Guidance",
+          "type": "text",
+          "placeholder": "Enter guidance",
+          "required": false
+        },
+        {
+          "id": "social_media_organic_monthly_amount",
+          "label": "Social Media (Organic) - Monthly Amount",
+          "type": "number",
+          "placeholder": "Enter monthly amount",
+          "required": false
+        },
+        {
+          "id": "social_media_organic_guidance",
+          "label": "Social Media (Organic) - Guidance",
+          "type": "text",
+          "placeholder": "Enter guidance",
+          "required": false
+        },
+        {
+          "id": "events_webinars_monthly_amount",
+          "label": "Events & Webinars - Monthly Amount",
+          "type": "number",
+          "placeholder": "Enter monthly amount",
+          "required": false
+        },
+        {
+          "id": "events_webinars_guidance",
+          "label": "Events & Webinars - Guidance",
+          "type": "text",
+          "placeholder": "Enter guidance",
+          "required": false
+        },
+        {
+          "id": "referral_programme_monthly_amount",
+          "label": "Referral Programme - Monthly Amount",
+          "type": "number",
+          "placeholder": "Enter monthly amount",
+          "required": false
+        },
+        {
+          "id": "referral_programme_guidance",
+          "label": "Referral Programme - Guidance",
+          "type": "text",
+          "placeholder": "Enter guidance",
+          "required": false
+        },
+        {
+          "id": "affiliate_marketing_monthly_amount",
+          "label": "Affiliate Marketing - Monthly Amount",
+          "type": "number",
+          "placeholder": "Enter monthly amount",
+          "required": false
+        },
+        {
+          "id": "affiliate_marketing_guidance",
+          "label": "Affiliate Marketing - Guidance",
+          "type": "text",
+          "placeholder": "Enter guidance",
+          "required": false
+        },
+        {
+          "id": "tiktok_ads_monthly_amount",
+          "label": "TikTok Ads - Monthly Amount",
+          "type": "number",
+          "placeholder": "Enter monthly amount",
+          "required": false
+        },
+        {
+          "id": "tiktok_ads_guidance",
+          "label": "TikTok Ads - Guidance",
+          "type": "text",
+          "placeholder": "Enter guidance",
+          "required": false
+        },
+        {
+          "id": "youtube_ads_monthly_amount",
+          "label": "YouTube Ads - Monthly Amount",
+          "type": "number",
+          "placeholder": "Enter monthly amount",
+          "required": false
+        },
+        {
+          "id": "youtube_ads_guidance",
+          "label": "YouTube Ads - Guidance",
+          "type": "text",
+          "placeholder": "Enter guidance",
+          "required": false
+        },
+        {
+          "id": "pr_media_monthly_amount",
+          "label": "PR & Media - Monthly Amount",
+          "type": "number",
+          "placeholder": "Enter monthly amount",
+          "required": false
+        },
+        {
+          "id": "pr_media_guidance",
+          "label": "PR & Media - Guidance",
+          "type": "text",
+          "placeholder": "Enter guidance",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "clv_calculator",
+      "title": "CLV Calculator",
+      "description": "Enter data for each item",
+      "fields": [
+        {
+          "id": "average_order_value_aov_value",
+          "label": "Average Order Value (AOV) - Value",
+          "type": "text",
+          "placeholder": "Enter value",
+          "required": false
+        },
+        {
+          "id": "average_order_value_aov_explanation",
+          "label": "Average Order Value (AOV) - Explanation",
+          "type": "text",
+          "placeholder": "Enter explanation",
+          "required": false
+        },
+        {
+          "id": "purchase_frequency_per_year_value",
+          "label": "Purchase Frequency (per year) - Value",
+          "type": "text",
+          "placeholder": "Enter value",
+          "required": false
+        },
+        {
+          "id": "purchase_frequency_per_year_explanation",
+          "label": "Purchase Frequency (per year) - Explanation",
+          "type": "text",
+          "placeholder": "Enter explanation",
+          "required": false
+        },
+        {
+          "id": "customer_lifespan_years_value",
+          "label": "Customer Lifespan (years) - Value",
+          "type": "text",
+          "placeholder": "Enter value",
+          "required": false
+        },
+        {
+          "id": "customer_lifespan_years_explanation",
+          "label": "Customer Lifespan (years) - Explanation",
+          "type": "text",
+          "placeholder": "Enter explanation",
+          "required": false
+        },
+        {
+          "id": "gross_margin_value",
+          "label": "Gross Margin - Value",
+          "type": "text",
+          "placeholder": "Enter value",
+          "required": false
+        },
+        {
+          "id": "gross_margin_explanation",
+          "label": "Gross Margin - Explanation",
+          "type": "text",
+          "placeholder": "Enter explanation",
+          "required": false
+        },
+        {
+          "id": "clv_calculations_value",
+          "label": "CLV CALCULATIONS - Value",
+          "type": "text",
+          "placeholder": "Enter value",
+          "required": false
+        },
+        {
+          "id": "clv_calculations_explanation",
+          "label": "CLV CALCULATIONS - Explanation",
+          "type": "text",
+          "placeholder": "Enter explanation",
+          "required": false
+        },
+        {
+          "id": "annual_revenue_per_customer_value",
+          "label": "Annual Revenue Per Customer - Value",
+          "type": "text",
+          "placeholder": "Enter value",
+          "required": false
+        },
+        {
+          "id": "annual_revenue_per_customer_explanation",
+          "label": "Annual Revenue Per Customer - Explanation",
+          "type": "text",
+          "placeholder": "Enter explanation",
+          "required": false
+        },
+        {
+          "id": "customer_lifetime_revenue_value",
+          "label": "Customer Lifetime Revenue - Value",
+          "type": "text",
+          "placeholder": "Enter value",
+          "required": false
+        },
+        {
+          "id": "customer_lifetime_revenue_explanation",
+          "label": "Customer Lifetime Revenue - Explanation",
+          "type": "text",
+          "placeholder": "Enter explanation",
+          "required": false
+        },
+        {
+          "id": "customer_lifetime_value_clv_value",
+          "label": "CUSTOMER LIFETIME VALUE (CLV) - Value",
+          "type": "text",
+          "placeholder": "Enter value",
+          "required": false
+        },
+        {
+          "id": "customer_lifetime_value_clv_explanation",
+          "label": "CUSTOMER LIFETIME VALUE (CLV) - Explanation",
+          "type": "text",
+          "placeholder": "Enter explanation",
+          "required": false
+        },
+        {
+          "id": "clv_cac_ratio_value",
+          "label": "CLV : CAC RATIO - Value",
+          "type": "text",
+          "placeholder": "Enter value",
+          "required": false
+        },
+        {
+          "id": "clv_cac_ratio_explanation",
+          "label": "CLV : CAC RATIO - Explanation",
+          "type": "text",
+          "placeholder": "Enter explanation",
+          "required": false
+        },
+        {
+          "id": "cac_from_cac_calculator_value",
+          "label": "CAC (from CAC Calculator) - Value",
+          "type": "text",
+          "placeholder": "Enter value",
+          "required": false
+        },
+        {
+          "id": "cac_from_cac_calculator_explanation",
+          "label": "CAC (from CAC Calculator) - Explanation",
+          "type": "text",
+          "placeholder": "Enter explanation",
+          "required": false
+        },
+        {
+          "id": "clv_cac_ratio_value_1",
+          "label": "CLV : CAC Ratio - Value",
+          "type": "text",
+          "placeholder": "Enter value",
+          "required": false
+        },
+        {
+          "id": "clv_cac_ratio_explanation_1",
+          "label": "CLV : CAC Ratio - Explanation",
+          "type": "text",
+          "placeholder": "Enter explanation",
+          "required": false
+        },
+        {
+          "id": "months_to_recover_cac_value",
+          "label": "Months to Recover CAC - Value",
+          "type": "text",
+          "placeholder": "Enter value",
+          "required": false
+        },
+        {
+          "id": "months_to_recover_cac_explanation",
+          "label": "Months to Recover CAC - Explanation",
+          "type": "text",
+          "placeholder": "Enter explanation",
+          "required": false
+        },
+        {
+          "id": "clvcac_ratio_benchmarks_value",
+          "label": "CLV:CAC RATIO BENCHMARKS - Value",
+          "type": "text",
+          "placeholder": "Enter value",
+          "required": false
+        },
+        {
+          "id": "clvcac_ratio_benchmarks_explanation",
+          "label": "CLV:CAC RATIO BENCHMARKS - Explanation",
+          "type": "text",
+          "placeholder": "Enter explanation",
+          "required": false
+        },
+        {
+          "id": "below_11_value",
+          "label": "Below 1:1 - Value",
+          "type": "text",
+          "placeholder": "Enter value",
+          "required": false
+        },
+        {
+          "id": "below_11_explanation",
+          "label": "Below 1:1 - Explanation",
+          "type": "text",
+          "placeholder": "Enter explanation",
+          "required": false
+        },
+        {
+          "id": "11_to_21_value",
+          "label": "1:1 to 2:1 - Value",
+          "type": "text",
+          "placeholder": "Enter value",
+          "required": false
+        },
+        {
+          "id": "11_to_21_explanation",
+          "label": "1:1 to 2:1 - Explanation",
+          "type": "text",
+          "placeholder": "Enter explanation",
+          "required": false
+        },
+        {
+          "id": "31_value",
+          "label": "3:1 - Value",
+          "type": "text",
+          "placeholder": "Enter value",
+          "required": false
+        },
+        {
+          "id": "31_explanation",
+          "label": "3:1 - Explanation",
+          "type": "text",
+          "placeholder": "Enter explanation",
+          "required": false
+        },
+        {
+          "id": "41_to_51_value",
+          "label": "4:1 to 5:1 - Value",
+          "type": "text",
+          "placeholder": "Enter value",
+          "required": false
+        },
+        {
+          "id": "41_to_51_explanation",
+          "label": "4:1 to 5:1 - Explanation",
+          "type": "text",
+          "placeholder": "Enter explanation",
+          "required": false
+        },
+        {
+          "id": "above_51_value",
+          "label": "Above 5:1 - Value",
+          "type": "text",
+          "placeholder": "Enter value",
+          "required": false
+        },
+        {
+          "id": "above_51_explanation",
+          "label": "Above 5:1 - Explanation",
+          "type": "text",
+          "placeholder": "Enter explanation",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "budget_allocation",
+      "title": "Budget Allocation",
+      "description": "Enter data for each item",
+      "fields": [
+        {
+          "id": "google_ads_current_spend",
+          "label": "Google Ads - Current Spend",
+          "type": "number",
+          "placeholder": "Enter current spend",
+          "required": false
+        },
+        {
+          "id": "google_ads_current",
+          "label": "Google Ads - Current %",
+          "type": "number",
+          "placeholder": "Enter current %",
+          "required": false
+        },
+        {
+          "id": "google_ads_channel_roi",
+          "label": "Google Ads - Channel ROI",
+          "type": "number",
+          "placeholder": "Enter channel roi",
+          "required": false
+        },
+        {
+          "id": "google_ads_recommended_spend",
+          "label": "Google Ads - Recommended Spend",
+          "type": "number",
+          "placeholder": "Enter recommended spend",
+          "required": false
+        },
+        {
+          "id": "google_ads_recommended",
+          "label": "Google Ads - Recommended %",
+          "type": "number",
+          "placeholder": "Enter recommended %",
+          "required": false
+        },
+        {
+          "id": "google_ads_change",
+          "label": "Google Ads - Change",
+          "type": "text",
+          "placeholder": "Enter change",
+          "required": false
+        },
+        {
+          "id": "google_ads_rationale",
+          "label": "Google Ads - Rationale",
+          "type": "text",
+          "placeholder": "Enter rationale",
+          "required": false
+        },
+        {
+          "id": "facebook_ads_current_spend",
+          "label": "Facebook Ads - Current Spend",
+          "type": "number",
+          "placeholder": "Enter current spend",
+          "required": false
+        },
+        {
+          "id": "facebook_ads_current",
+          "label": "Facebook Ads - Current %",
+          "type": "number",
+          "placeholder": "Enter current %",
+          "required": false
+        },
+        {
+          "id": "facebook_ads_channel_roi",
+          "label": "Facebook Ads - Channel ROI",
+          "type": "number",
+          "placeholder": "Enter channel roi",
+          "required": false
+        },
+        {
+          "id": "facebook_ads_recommended_spend",
+          "label": "Facebook Ads - Recommended Spend",
+          "type": "number",
+          "placeholder": "Enter recommended spend",
+          "required": false
+        },
+        {
+          "id": "facebook_ads_recommended",
+          "label": "Facebook Ads - Recommended %",
+          "type": "number",
+          "placeholder": "Enter recommended %",
+          "required": false
+        },
+        {
+          "id": "facebook_ads_change",
+          "label": "Facebook Ads - Change",
+          "type": "text",
+          "placeholder": "Enter change",
+          "required": false
+        },
+        {
+          "id": "facebook_ads_rationale",
+          "label": "Facebook Ads - Rationale",
+          "type": "text",
+          "placeholder": "Enter rationale",
+          "required": false
+        },
+        {
+          "id": "instagram_ads_current_spend",
+          "label": "Instagram Ads - Current Spend",
+          "type": "number",
+          "placeholder": "Enter current spend",
+          "required": false
+        },
+        {
+          "id": "instagram_ads_current",
+          "label": "Instagram Ads - Current %",
+          "type": "number",
+          "placeholder": "Enter current %",
+          "required": false
+        },
+        {
+          "id": "instagram_ads_channel_roi",
+          "label": "Instagram Ads - Channel ROI",
+          "type": "number",
+          "placeholder": "Enter channel roi",
+          "required": false
+        },
+        {
+          "id": "instagram_ads_recommended_spend",
+          "label": "Instagram Ads - Recommended Spend",
+          "type": "number",
+          "placeholder": "Enter recommended spend",
+          "required": false
+        },
+        {
+          "id": "instagram_ads_recommended",
+          "label": "Instagram Ads - Recommended %",
+          "type": "number",
+          "placeholder": "Enter recommended %",
+          "required": false
+        },
+        {
+          "id": "instagram_ads_change",
+          "label": "Instagram Ads - Change",
+          "type": "text",
+          "placeholder": "Enter change",
+          "required": false
+        },
+        {
+          "id": "instagram_ads_rationale",
+          "label": "Instagram Ads - Rationale",
+          "type": "text",
+          "placeholder": "Enter rationale",
+          "required": false
+        },
+        {
+          "id": "linkedin_ads_current_spend",
+          "label": "LinkedIn Ads - Current Spend",
+          "type": "number",
+          "placeholder": "Enter current spend",
+          "required": false
+        },
+        {
+          "id": "linkedin_ads_current",
+          "label": "LinkedIn Ads - Current %",
+          "type": "number",
+          "placeholder": "Enter current %",
+          "required": false
+        },
+        {
+          "id": "linkedin_ads_channel_roi",
+          "label": "LinkedIn Ads - Channel ROI",
+          "type": "number",
+          "placeholder": "Enter channel roi",
+          "required": false
+        },
+        {
+          "id": "linkedin_ads_recommended_spend",
+          "label": "LinkedIn Ads - Recommended Spend",
+          "type": "number",
+          "placeholder": "Enter recommended spend",
+          "required": false
+        },
+        {
+          "id": "linkedin_ads_recommended",
+          "label": "LinkedIn Ads - Recommended %",
+          "type": "number",
+          "placeholder": "Enter recommended %",
+          "required": false
+        },
+        {
+          "id": "linkedin_ads_change",
+          "label": "LinkedIn Ads - Change",
+          "type": "text",
+          "placeholder": "Enter change",
+          "required": false
+        },
+        {
+          "id": "linkedin_ads_rationale",
+          "label": "LinkedIn Ads - Rationale",
+          "type": "text",
+          "placeholder": "Enter rationale",
+          "required": false
+        },
+        {
+          "id": "seo_organic_current_spend",
+          "label": "SEO / Organic - Current Spend",
+          "type": "number",
+          "placeholder": "Enter current spend",
+          "required": false
+        },
+        {
+          "id": "seo_organic_current",
+          "label": "SEO / Organic - Current %",
+          "type": "number",
+          "placeholder": "Enter current %",
+          "required": false
+        },
+        {
+          "id": "seo_organic_channel_roi",
+          "label": "SEO / Organic - Channel ROI",
+          "type": "number",
+          "placeholder": "Enter channel roi",
+          "required": false
+        },
+        {
+          "id": "seo_organic_recommended_spend",
+          "label": "SEO / Organic - Recommended Spend",
+          "type": "number",
+          "placeholder": "Enter recommended spend",
+          "required": false
+        },
+        {
+          "id": "seo_organic_recommended",
+          "label": "SEO / Organic - Recommended %",
+          "type": "number",
+          "placeholder": "Enter recommended %",
+          "required": false
+        },
+        {
+          "id": "seo_organic_change",
+          "label": "SEO / Organic - Change",
+          "type": "text",
+          "placeholder": "Enter change",
+          "required": false
+        },
+        {
+          "id": "seo_organic_rationale",
+          "label": "SEO / Organic - Rationale",
+          "type": "text",
+          "placeholder": "Enter rationale",
+          "required": false
+        },
+        {
+          "id": "email_marketing_current_spend",
+          "label": "Email Marketing - Current Spend",
+          "type": "number",
+          "placeholder": "Enter current spend",
+          "required": false
+        },
+        {
+          "id": "email_marketing_current",
+          "label": "Email Marketing - Current %",
+          "type": "number",
+          "placeholder": "Enter current %",
+          "required": false
+        },
+        {
+          "id": "email_marketing_channel_roi",
+          "label": "Email Marketing - Channel ROI",
+          "type": "number",
+          "placeholder": "Enter channel roi",
+          "required": false
+        },
+        {
+          "id": "email_marketing_recommended_spend",
+          "label": "Email Marketing - Recommended Spend",
+          "type": "number",
+          "placeholder": "Enter recommended spend",
+          "required": false
+        },
+        {
+          "id": "email_marketing_recommended",
+          "label": "Email Marketing - Recommended %",
+          "type": "number",
+          "placeholder": "Enter recommended %",
+          "required": false
+        },
+        {
+          "id": "email_marketing_change",
+          "label": "Email Marketing - Change",
+          "type": "text",
+          "placeholder": "Enter change",
+          "required": false
+        },
+        {
+          "id": "email_marketing_rationale",
+          "label": "Email Marketing - Rationale",
+          "type": "text",
+          "placeholder": "Enter rationale",
+          "required": false
+        },
+        {
+          "id": "content_marketing_current_spend",
+          "label": "Content Marketing - Current Spend",
+          "type": "number",
+          "placeholder": "Enter current spend",
+          "required": false
+        },
+        {
+          "id": "content_marketing_current",
+          "label": "Content Marketing - Current %",
+          "type": "number",
+          "placeholder": "Enter current %",
+          "required": false
+        },
+        {
+          "id": "content_marketing_channel_roi",
+          "label": "Content Marketing - Channel ROI",
+          "type": "number",
+          "placeholder": "Enter channel roi",
+          "required": false
+        },
+        {
+          "id": "content_marketing_recommended_spend",
+          "label": "Content Marketing - Recommended Spend",
+          "type": "number",
+          "placeholder": "Enter recommended spend",
+          "required": false
+        },
+        {
+          "id": "content_marketing_recommended",
+          "label": "Content Marketing - Recommended %",
+          "type": "number",
+          "placeholder": "Enter recommended %",
+          "required": false
+        },
+        {
+          "id": "content_marketing_change",
+          "label": "Content Marketing - Change",
+          "type": "text",
+          "placeholder": "Enter change",
+          "required": false
+        },
+        {
+          "id": "content_marketing_rationale",
+          "label": "Content Marketing - Rationale",
+          "type": "text",
+          "placeholder": "Enter rationale",
+          "required": false
+        },
+        {
+          "id": "social_media_organic_current_spend",
+          "label": "Social Media (Organic) - Current Spend",
+          "type": "number",
+          "placeholder": "Enter current spend",
+          "required": false
+        },
+        {
+          "id": "social_media_organic_current",
+          "label": "Social Media (Organic) - Current %",
+          "type": "number",
+          "placeholder": "Enter current %",
+          "required": false
+        },
+        {
+          "id": "social_media_organic_channel_roi",
+          "label": "Social Media (Organic) - Channel ROI",
+          "type": "number",
+          "placeholder": "Enter channel roi",
+          "required": false
+        },
+        {
+          "id": "social_media_organic_recommended_spend",
+          "label": "Social Media (Organic) - Recommended Spend",
+          "type": "number",
+          "placeholder": "Enter recommended spend",
+          "required": false
+        },
+        {
+          "id": "social_media_organic_recommended",
+          "label": "Social Media (Organic) - Recommended %",
+          "type": "number",
+          "placeholder": "Enter recommended %",
+          "required": false
+        },
+        {
+          "id": "social_media_organic_change",
+          "label": "Social Media (Organic) - Change",
+          "type": "text",
+          "placeholder": "Enter change",
+          "required": false
+        },
+        {
+          "id": "social_media_organic_rationale",
+          "label": "Social Media (Organic) - Rationale",
+          "type": "text",
+          "placeholder": "Enter rationale",
+          "required": false
+        },
+        {
+          "id": "events_webinars_current_spend",
+          "label": "Events & Webinars - Current Spend",
+          "type": "number",
+          "placeholder": "Enter current spend",
+          "required": false
+        },
+        {
+          "id": "events_webinars_current",
+          "label": "Events & Webinars - Current %",
+          "type": "number",
+          "placeholder": "Enter current %",
+          "required": false
+        },
+        {
+          "id": "events_webinars_channel_roi",
+          "label": "Events & Webinars - Channel ROI",
+          "type": "number",
+          "placeholder": "Enter channel roi",
+          "required": false
+        },
+        {
+          "id": "events_webinars_recommended_spend",
+          "label": "Events & Webinars - Recommended Spend",
+          "type": "number",
+          "placeholder": "Enter recommended spend",
+          "required": false
+        },
+        {
+          "id": "events_webinars_recommended",
+          "label": "Events & Webinars - Recommended %",
+          "type": "number",
+          "placeholder": "Enter recommended %",
+          "required": false
+        },
+        {
+          "id": "events_webinars_change",
+          "label": "Events & Webinars - Change",
+          "type": "text",
+          "placeholder": "Enter change",
+          "required": false
+        },
+        {
+          "id": "events_webinars_rationale",
+          "label": "Events & Webinars - Rationale",
+          "type": "text",
+          "placeholder": "Enter rationale",
+          "required": false
+        },
+        {
+          "id": "referral_programme_current_spend",
+          "label": "Referral Programme - Current Spend",
+          "type": "number",
+          "placeholder": "Enter current spend",
+          "required": false
+        },
+        {
+          "id": "referral_programme_current",
+          "label": "Referral Programme - Current %",
+          "type": "number",
+          "placeholder": "Enter current %",
+          "required": false
+        },
+        {
+          "id": "referral_programme_channel_roi",
+          "label": "Referral Programme - Channel ROI",
+          "type": "number",
+          "placeholder": "Enter channel roi",
+          "required": false
+        },
+        {
+          "id": "referral_programme_recommended_spend",
+          "label": "Referral Programme - Recommended Spend",
+          "type": "number",
+          "placeholder": "Enter recommended spend",
+          "required": false
+        },
+        {
+          "id": "referral_programme_recommended",
+          "label": "Referral Programme - Recommended %",
+          "type": "number",
+          "placeholder": "Enter recommended %",
+          "required": false
+        },
+        {
+          "id": "referral_programme_change",
+          "label": "Referral Programme - Change",
+          "type": "text",
+          "placeholder": "Enter change",
+          "required": false
+        },
+        {
+          "id": "referral_programme_rationale",
+          "label": "Referral Programme - Rationale",
+          "type": "text",
+          "placeholder": "Enter rationale",
+          "required": false
+        },
+        {
+          "id": "affiliate_marketing_current_spend",
+          "label": "Affiliate Marketing - Current Spend",
+          "type": "number",
+          "placeholder": "Enter current spend",
+          "required": false
+        },
+        {
+          "id": "affiliate_marketing_current",
+          "label": "Affiliate Marketing - Current %",
+          "type": "number",
+          "placeholder": "Enter current %",
+          "required": false
+        },
+        {
+          "id": "affiliate_marketing_channel_roi",
+          "label": "Affiliate Marketing - Channel ROI",
+          "type": "number",
+          "placeholder": "Enter channel roi",
+          "required": false
+        },
+        {
+          "id": "affiliate_marketing_recommended_spend",
+          "label": "Affiliate Marketing - Recommended Spend",
+          "type": "number",
+          "placeholder": "Enter recommended spend",
+          "required": false
+        },
+        {
+          "id": "affiliate_marketing_recommended",
+          "label": "Affiliate Marketing - Recommended %",
+          "type": "number",
+          "placeholder": "Enter recommended %",
+          "required": false
+        },
+        {
+          "id": "affiliate_marketing_change",
+          "label": "Affiliate Marketing - Change",
+          "type": "text",
+          "placeholder": "Enter change",
+          "required": false
+        },
+        {
+          "id": "affiliate_marketing_rationale",
+          "label": "Affiliate Marketing - Rationale",
+          "type": "text",
+          "placeholder": "Enter rationale",
+          "required": false
+        },
+        {
+          "id": "tiktok_ads_current_spend",
+          "label": "TikTok Ads - Current Spend",
+          "type": "number",
+          "placeholder": "Enter current spend",
+          "required": false
+        },
+        {
+          "id": "tiktok_ads_current",
+          "label": "TikTok Ads - Current %",
+          "type": "number",
+          "placeholder": "Enter current %",
+          "required": false
+        },
+        {
+          "id": "tiktok_ads_channel_roi",
+          "label": "TikTok Ads - Channel ROI",
+          "type": "number",
+          "placeholder": "Enter channel roi",
+          "required": false
+        },
+        {
+          "id": "tiktok_ads_recommended_spend",
+          "label": "TikTok Ads - Recommended Spend",
+          "type": "number",
+          "placeholder": "Enter recommended spend",
+          "required": false
+        },
+        {
+          "id": "tiktok_ads_recommended",
+          "label": "TikTok Ads - Recommended %",
+          "type": "number",
+          "placeholder": "Enter recommended %",
+          "required": false
+        },
+        {
+          "id": "tiktok_ads_change",
+          "label": "TikTok Ads - Change",
+          "type": "text",
+          "placeholder": "Enter change",
+          "required": false
+        },
+        {
+          "id": "tiktok_ads_rationale",
+          "label": "TikTok Ads - Rationale",
+          "type": "text",
+          "placeholder": "Enter rationale",
+          "required": false
+        },
+        {
+          "id": "youtube_ads_current_spend",
+          "label": "YouTube Ads - Current Spend",
+          "type": "number",
+          "placeholder": "Enter current spend",
+          "required": false
+        },
+        {
+          "id": "youtube_ads_current",
+          "label": "YouTube Ads - Current %",
+          "type": "number",
+          "placeholder": "Enter current %",
+          "required": false
+        },
+        {
+          "id": "youtube_ads_channel_roi",
+          "label": "YouTube Ads - Channel ROI",
+          "type": "number",
+          "placeholder": "Enter channel roi",
+          "required": false
+        },
+        {
+          "id": "youtube_ads_recommended_spend",
+          "label": "YouTube Ads - Recommended Spend",
+          "type": "number",
+          "placeholder": "Enter recommended spend",
+          "required": false
+        },
+        {
+          "id": "youtube_ads_recommended",
+          "label": "YouTube Ads - Recommended %",
+          "type": "number",
+          "placeholder": "Enter recommended %",
+          "required": false
+        },
+        {
+          "id": "youtube_ads_change",
+          "label": "YouTube Ads - Change",
+          "type": "text",
+          "placeholder": "Enter change",
+          "required": false
+        },
+        {
+          "id": "youtube_ads_rationale",
+          "label": "YouTube Ads - Rationale",
+          "type": "text",
+          "placeholder": "Enter rationale",
+          "required": false
+        },
+        {
+          "id": "pr_media_current_spend",
+          "label": "PR & Media - Current Spend",
+          "type": "number",
+          "placeholder": "Enter current spend",
+          "required": false
+        },
+        {
+          "id": "pr_media_current",
+          "label": "PR & Media - Current %",
+          "type": "number",
+          "placeholder": "Enter current %",
+          "required": false
+        },
+        {
+          "id": "pr_media_channel_roi",
+          "label": "PR & Media - Channel ROI",
+          "type": "number",
+          "placeholder": "Enter channel roi",
+          "required": false
+        },
+        {
+          "id": "pr_media_recommended_spend",
+          "label": "PR & Media - Recommended Spend",
+          "type": "number",
+          "placeholder": "Enter recommended spend",
+          "required": false
+        },
+        {
+          "id": "pr_media_recommended",
+          "label": "PR & Media - Recommended %",
+          "type": "number",
+          "placeholder": "Enter recommended %",
+          "required": false
+        },
+        {
+          "id": "pr_media_change",
+          "label": "PR & Media - Change",
+          "type": "text",
+          "placeholder": "Enter change",
+          "required": false
+        },
+        {
+          "id": "pr_media_rationale",
+          "label": "PR & Media - Rationale",
+          "type": "text",
+          "placeholder": "Enter rationale",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "executive_report",
+      "title": "Executive Report",
+      "description": "Enter data for each item",
+      "fields": [
+        {
+          "id": "google_ads_spend",
+          "label": "Google Ads - Spend",
+          "type": "number",
+          "placeholder": "Enter spend",
+          "required": false
+        },
+        {
+          "id": "google_ads_revenue",
+          "label": "Google Ads - Revenue",
+          "type": "number",
+          "placeholder": "Enter revenue",
+          "required": false
+        },
+        {
+          "id": "google_ads_roi",
+          "label": "Google Ads - ROI",
+          "type": "number",
+          "placeholder": "Enter roi",
+          "required": false
+        },
+        {
+          "id": "facebook_ads_spend",
+          "label": "Facebook Ads - Spend",
+          "type": "number",
+          "placeholder": "Enter spend",
+          "required": false
+        },
+        {
+          "id": "facebook_ads_revenue",
+          "label": "Facebook Ads - Revenue",
+          "type": "number",
+          "placeholder": "Enter revenue",
+          "required": false
+        },
+        {
+          "id": "facebook_ads_roi",
+          "label": "Facebook Ads - ROI",
+          "type": "number",
+          "placeholder": "Enter roi",
+          "required": false
+        },
+        {
+          "id": "instagram_ads_spend",
+          "label": "Instagram Ads - Spend",
+          "type": "number",
+          "placeholder": "Enter spend",
+          "required": false
+        },
+        {
+          "id": "instagram_ads_revenue",
+          "label": "Instagram Ads - Revenue",
+          "type": "number",
+          "placeholder": "Enter revenue",
+          "required": false
+        },
+        {
+          "id": "instagram_ads_roi",
+          "label": "Instagram Ads - ROI",
+          "type": "number",
+          "placeholder": "Enter roi",
+          "required": false
+        },
+        {
+          "id": "linkedin_ads_spend",
+          "label": "LinkedIn Ads - Spend",
+          "type": "number",
+          "placeholder": "Enter spend",
+          "required": false
+        },
+        {
+          "id": "linkedin_ads_revenue",
+          "label": "LinkedIn Ads - Revenue",
+          "type": "number",
+          "placeholder": "Enter revenue",
+          "required": false
+        },
+        {
+          "id": "linkedin_ads_roi",
+          "label": "LinkedIn Ads - ROI",
+          "type": "number",
+          "placeholder": "Enter roi",
+          "required": false
+        },
+        {
+          "id": "seo_organic_spend",
+          "label": "SEO / Organic - Spend",
+          "type": "number",
+          "placeholder": "Enter spend",
+          "required": false
+        },
+        {
+          "id": "seo_organic_revenue",
+          "label": "SEO / Organic - Revenue",
+          "type": "number",
+          "placeholder": "Enter revenue",
+          "required": false
+        },
+        {
+          "id": "seo_organic_roi",
+          "label": "SEO / Organic - ROI",
+          "type": "number",
+          "placeholder": "Enter roi",
+          "required": false
+        },
+        {
+          "id": "key_insights_spend",
+          "label": "KEY INSIGHTS - Spend",
+          "type": "number",
+          "placeholder": "Enter spend",
+          "required": false
+        },
+        {
+          "id": "key_insights_revenue",
+          "label": "KEY INSIGHTS - Revenue",
+          "type": "number",
+          "placeholder": "Enter revenue",
+          "required": false
+        },
+        {
+          "id": "key_insights_roi",
+          "label": "KEY INSIGHTS - ROI",
+          "type": "number",
+          "placeholder": "Enter roi",
+          "required": false
+        },
+        {
+          "id": "what_is_working_well_spend",
+          "label": "What is working well? - Spend",
+          "type": "number",
+          "placeholder": "Enter spend",
+          "required": false
+        },
+        {
+          "id": "what_is_working_well_revenue",
+          "label": "What is working well? - Revenue",
+          "type": "number",
+          "placeholder": "Enter revenue",
+          "required": false
+        },
+        {
+          "id": "what_is_working_well_roi",
+          "label": "What is working well? - ROI",
+          "type": "number",
+          "placeholder": "Enter roi",
+          "required": false
+        },
+        {
+          "id": "enter_your_top_3_wins_this_period_spend",
+          "label": "Enter your top 3 wins this period - Spend",
+          "type": "number",
+          "placeholder": "Enter spend",
+          "required": false
+        },
+        {
+          "id": "enter_your_top_3_wins_this_period_revenue",
+          "label": "Enter your top 3 wins this period - Revenue",
+          "type": "number",
+          "placeholder": "Enter revenue",
+          "required": false
+        },
+        {
+          "id": "enter_your_top_3_wins_this_period_roi",
+          "label": "Enter your top 3 wins this period - ROI",
+          "type": "number",
+          "placeholder": "Enter roi",
+          "required": false
+        },
+        {
+          "id": "what_needs_improvement_spend",
+          "label": "What needs improvement? - Spend",
+          "type": "number",
+          "placeholder": "Enter spend",
+          "required": false
+        },
+        {
+          "id": "what_needs_improvement_revenue",
+          "label": "What needs improvement? - Revenue",
+          "type": "number",
+          "placeholder": "Enter revenue",
+          "required": false
+        },
+        {
+          "id": "what_needs_improvement_roi",
+          "label": "What needs improvement? - ROI",
+          "type": "number",
+          "placeholder": "Enter roi",
+          "required": false
+        },
+        {
+          "id": "enter_your_top_3_challenges_spend",
+          "label": "Enter your top 3 challenges - Spend",
+          "type": "number",
+          "placeholder": "Enter spend",
+          "required": false
+        },
+        {
+          "id": "enter_your_top_3_challenges_revenue",
+          "label": "Enter your top 3 challenges - Revenue",
+          "type": "number",
+          "placeholder": "Enter revenue",
+          "required": false
+        },
+        {
+          "id": "enter_your_top_3_challenges_roi",
+          "label": "Enter your top 3 challenges - ROI",
+          "type": "number",
+          "placeholder": "Enter roi",
+          "required": false
+        },
+        {
+          "id": "recommended_actions_for_next_period_spend",
+          "label": "Recommended actions for next period - Spend",
+          "type": "number",
+          "placeholder": "Enter spend",
+          "required": false
+        },
+        {
+          "id": "recommended_actions_for_next_period_revenue",
+          "label": "Recommended actions for next period - Revenue",
+          "type": "number",
+          "placeholder": "Enter revenue",
+          "required": false
+        },
+        {
+          "id": "recommended_actions_for_next_period_roi",
+          "label": "Recommended actions for next period - ROI",
+          "type": "number",
+          "placeholder": "Enter roi",
+          "required": false
+        },
+        {
+          "id": "enter_35_prioritised_next_steps_spend",
+          "label": "Enter 3-5 prioritised next steps - Spend",
+          "type": "number",
+          "placeholder": "Enter spend",
+          "required": false
+        },
+        {
+          "id": "enter_35_prioritised_next_steps_revenue",
+          "label": "Enter 3-5 prioritised next steps - Revenue",
+          "type": "number",
+          "placeholder": "Enter revenue",
+          "required": false
+        },
+        {
+          "id": "enter_35_prioritised_next_steps_roi",
+          "label": "Enter 3-5 prioritised next steps - ROI",
+          "type": "number",
+          "placeholder": "Enter roi",
+          "required": false
+        },
+        {
+          "id": "budget_reallocation_recommendations_spend",
+          "label": "Budget reallocation recommendations - Spend",
+          "type": "number",
+          "placeholder": "Enter spend",
+          "required": false
+        },
+        {
+          "id": "budget_reallocation_recommendations_revenue",
+          "label": "Budget reallocation recommendations - Revenue",
+          "type": "number",
+          "placeholder": "Enter revenue",
+          "required": false
+        },
+        {
+          "id": "budget_reallocation_recommendations_roi",
+          "label": "Budget reallocation recommendations - ROI",
+          "type": "number",
+          "placeholder": "Enter roi",
+          "required": false
+        },
+        {
+          "id": "based_on_channel_performance_data_above_spend",
+          "label": "Based on channel performance data above - Spend",
+          "type": "number",
+          "placeholder": "Enter spend",
+          "required": false
+        },
+        {
+          "id": "based_on_channel_performance_data_above_revenue",
+          "label": "Based on channel performance data above - Revenue",
+          "type": "number",
+          "placeholder": "Enter revenue",
+          "required": false
+        },
+        {
+          "id": "based_on_channel_performance_data_above_roi",
+          "label": "Based on channel performance data above - ROI",
+          "type": "number",
+          "placeholder": "Enter roi",
+          "required": false
+        }
+      ]
+    }
+  ]
 }

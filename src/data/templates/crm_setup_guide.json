@@ -10,407 +10,6 @@
     "growth"
   ],
   "estimatedTime": "65 min",
-  "sections": [
-    {
-      "id": "pipeline_design",
-      "title": "Pipeline Design",
-      "description": "Complete the Pipeline Design section",
-      "fields": [
-        {
-          "id": "contact_info_verified_source_identified_0",
-          "label": "Contact info verified, source identified",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "lead_score_threshold_1",
-          "label": "Lead score >= threshold",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "qualified_by_sdr_budget_confirmed_2",
-          "label": "Qualified by SDR, budget confirmed",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "need_confirmed_stakeholders_identified_3",
-          "label": "Need confirmed, stakeholders identified",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "proposal_delivered_pricing_discussed_4",
-          "label": "Proposal delivered, pricing discussed",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "terms_under_discussion_5",
-          "label": "Terms under discussion",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "contract_signed_payment_received_6",
-          "label": "Contract signed, payment received",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "deal_formally_declined_7",
-          "label": "Deal formally declined",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "contact_properties",
-      "title": "Contact Properties",
-      "description": "Complete the Contact Properties section",
-      "fields": [
-        {
-          "id": "contact_s_first_name_0",
-          "label": "Contact's first name",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "contact_s_last_name_1",
-          "label": "Contact's last name",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "primary_email_address_2",
-          "label": "Primary email address",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "primary_phone_number_3",
-          "label": "Primary phone number",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "organization_name_4",
-          "label": "Organization name",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "role_position_5",
-          "label": "Role / position",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "industry_vertical_6",
-          "label": "Industry vertical",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "employee_count_range_7",
-          "label": "Employee count range",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "how_they_found_you_8",
-          "label": "How they found you",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "calculated_from_scoring_model_9",
-          "label": "Calculated from scoring model",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "lead_mql_sql_customer_evangelist_10",
-          "label": "Lead/MQL/SQL/Customer/Evangelist",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "current_pipeline_stage_11",
-          "label": "Current pipeline stage",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "most_recent_engagement_12",
-          "label": "Most recent engagement",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "assigned_sales_rep_13",
-          "label": "Assigned sales rep",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "campaign_source_tracking_14",
-          "label": "Campaign source tracking",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "campaign_medium_tracking_15",
-          "label": "Campaign medium tracking",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "campaign_name_tracking_16",
-          "label": "Campaign name tracking",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "last_gated_content_downloaded_17",
-          "label": "Last gated content downloaded",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "opted_into_newsletter_18",
-          "label": "Opted into newsletter",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "estimated_company_revenue_19",
-          "label": "Estimated company revenue",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "automations",
-      "title": "Automations",
-      "description": "Complete the Automations section",
-      "fields": [
-        {
-          "id": "assign_to_sdr_based_on_territory_0",
-          "label": "Assign to SDR based on territory",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "send_welcome_email_sequence_1",
-          "label": "Send welcome email sequence",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "notify_sdr_via_slack_email_2",
-          "label": "Notify SDR via Slack + email",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "create_task_for_deal_owner_3",
-          "label": "Create task for deal owner",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "send_feedback_survey_email_4",
-          "label": "Send feedback survey email",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "create_onboarding_tasks_notify_cs_5",
-          "label": "Create onboarding tasks, notify CS",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "add_to_re_engagement_email_flow_6",
-          "label": "Add to re-engagement email flow",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "move_back_to_nurture_sequence_7",
-          "label": "Move back to nurture sequence",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "integrations",
-      "title": "Integrations",
-      "description": "Complete the Integrations section",
-      "fields": [
-        {
-          "id": "contacts_segments_lifecycle_stage_0",
-          "label": "Contacts, segments, lifecycle stage",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "page_views_form_submissions_utm_data_1",
-          "label": "Page views, form submissions, UTM data",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "meeting_bookings_availability_2",
-          "label": "Meeting bookings, availability",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "deal_value_customer_data_3",
-          "label": "Deal value, customer data",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "tickets_satisfaction_scores_4",
-          "label": "Tickets, satisfaction scores",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "deal_alerts_task_notifications_5",
-          "label": "Deal alerts, task notifications",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "reports",
-      "title": "Reports",
-      "description": "Complete the Reports section",
-      "fields": [
-        {
-          "id": "pipeline_overview_0",
-          "label": "Pipeline Overview",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "pipeline_velocity_1",
-          "label": "Pipeline Velocity",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "lead_source_report_2",
-          "label": "Lead Source Report",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "conversion_by_stage_3",
-          "label": "Conversion by Stage",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "activity_report_4",
-          "label": "Activity Report",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "won_lost_analysis_5",
-          "label": "Won/Lost Analysis",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "lead_score_distribution_6",
-          "label": "Lead Score Distribution",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "revenue_forecast_7",
-          "label": "Revenue Forecast",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "rep_performance_8",
-          "label": "Rep Performance",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "customer_lifecycle_9",
-          "label": "Customer Lifecycle",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    }
-  ],
   "dashboard": {
     "metrics": [
       {
@@ -439,5 +38,2758 @@
         "format": "number"
       }
     ]
-  }
+  },
+  "sections": [
+    {
+      "id": "dashboard",
+      "title": "Dashboard",
+      "description": "Auto-calculated summary of your data. Complete the working sections to see results here.",
+      "readOnly": true,
+      "fields": [
+        {
+          "id": "dashboard_overview",
+          "label": "Dashboard Overview",
+          "type": "textarea",
+          "placeholder": "Dashboard metrics will be calculated from your inputs in the working sections",
+          "required": false,
+          "readOnly": true
+        }
+      ]
+    },
+    {
+      "id": "pipeline_design",
+      "title": "Pipeline Design",
+      "description": "Enter data for each item",
+      "fields": [
+        {
+          "id": "1_stage_name",
+          "label": "1 - Stage Name",
+          "type": "text",
+          "placeholder": "Enter stage name",
+          "required": false
+        },
+        {
+          "id": "1_exit_criteria",
+          "label": "1 - Exit Criteria",
+          "type": "text",
+          "placeholder": "Enter exit criteria",
+          "required": false
+        },
+        {
+          "id": "1_conv_rate",
+          "label": "1 - Conv Rate %",
+          "type": "number",
+          "placeholder": "Enter conv rate %",
+          "required": false
+        },
+        {
+          "id": "1_key_activities",
+          "label": "1 - Key Activities",
+          "type": "text",
+          "placeholder": "Enter key activities",
+          "required": false
+        },
+        {
+          "id": "1_owner",
+          "label": "1 - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "1_sla_days",
+          "label": "1 - SLA (days)",
+          "type": "text",
+          "placeholder": "Enter sla (days)",
+          "required": false
+        },
+        {
+          "id": "2_stage_name",
+          "label": "2 - Stage Name",
+          "type": "text",
+          "placeholder": "Enter stage name",
+          "required": false
+        },
+        {
+          "id": "2_exit_criteria",
+          "label": "2 - Exit Criteria",
+          "type": "text",
+          "placeholder": "Enter exit criteria",
+          "required": false
+        },
+        {
+          "id": "2_conv_rate",
+          "label": "2 - Conv Rate %",
+          "type": "number",
+          "placeholder": "Enter conv rate %",
+          "required": false
+        },
+        {
+          "id": "2_key_activities",
+          "label": "2 - Key Activities",
+          "type": "text",
+          "placeholder": "Enter key activities",
+          "required": false
+        },
+        {
+          "id": "2_owner",
+          "label": "2 - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "2_sla_days",
+          "label": "2 - SLA (days)",
+          "type": "text",
+          "placeholder": "Enter sla (days)",
+          "required": false
+        },
+        {
+          "id": "3_stage_name",
+          "label": "3 - Stage Name",
+          "type": "text",
+          "placeholder": "Enter stage name",
+          "required": false
+        },
+        {
+          "id": "3_exit_criteria",
+          "label": "3 - Exit Criteria",
+          "type": "text",
+          "placeholder": "Enter exit criteria",
+          "required": false
+        },
+        {
+          "id": "3_conv_rate",
+          "label": "3 - Conv Rate %",
+          "type": "number",
+          "placeholder": "Enter conv rate %",
+          "required": false
+        },
+        {
+          "id": "3_key_activities",
+          "label": "3 - Key Activities",
+          "type": "text",
+          "placeholder": "Enter key activities",
+          "required": false
+        },
+        {
+          "id": "3_owner",
+          "label": "3 - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "3_sla_days",
+          "label": "3 - SLA (days)",
+          "type": "text",
+          "placeholder": "Enter sla (days)",
+          "required": false
+        },
+        {
+          "id": "4_stage_name",
+          "label": "4 - Stage Name",
+          "type": "text",
+          "placeholder": "Enter stage name",
+          "required": false
+        },
+        {
+          "id": "4_exit_criteria",
+          "label": "4 - Exit Criteria",
+          "type": "text",
+          "placeholder": "Enter exit criteria",
+          "required": false
+        },
+        {
+          "id": "4_conv_rate",
+          "label": "4 - Conv Rate %",
+          "type": "number",
+          "placeholder": "Enter conv rate %",
+          "required": false
+        },
+        {
+          "id": "4_key_activities",
+          "label": "4 - Key Activities",
+          "type": "text",
+          "placeholder": "Enter key activities",
+          "required": false
+        },
+        {
+          "id": "4_owner",
+          "label": "4 - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "4_sla_days",
+          "label": "4 - SLA (days)",
+          "type": "text",
+          "placeholder": "Enter sla (days)",
+          "required": false
+        },
+        {
+          "id": "5_stage_name",
+          "label": "5 - Stage Name",
+          "type": "text",
+          "placeholder": "Enter stage name",
+          "required": false
+        },
+        {
+          "id": "5_exit_criteria",
+          "label": "5 - Exit Criteria",
+          "type": "text",
+          "placeholder": "Enter exit criteria",
+          "required": false
+        },
+        {
+          "id": "5_conv_rate",
+          "label": "5 - Conv Rate %",
+          "type": "number",
+          "placeholder": "Enter conv rate %",
+          "required": false
+        },
+        {
+          "id": "5_key_activities",
+          "label": "5 - Key Activities",
+          "type": "text",
+          "placeholder": "Enter key activities",
+          "required": false
+        },
+        {
+          "id": "5_owner",
+          "label": "5 - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "5_sla_days",
+          "label": "5 - SLA (days)",
+          "type": "text",
+          "placeholder": "Enter sla (days)",
+          "required": false
+        },
+        {
+          "id": "6_stage_name",
+          "label": "6 - Stage Name",
+          "type": "text",
+          "placeholder": "Enter stage name",
+          "required": false
+        },
+        {
+          "id": "6_exit_criteria",
+          "label": "6 - Exit Criteria",
+          "type": "text",
+          "placeholder": "Enter exit criteria",
+          "required": false
+        },
+        {
+          "id": "6_conv_rate",
+          "label": "6 - Conv Rate %",
+          "type": "number",
+          "placeholder": "Enter conv rate %",
+          "required": false
+        },
+        {
+          "id": "6_key_activities",
+          "label": "6 - Key Activities",
+          "type": "text",
+          "placeholder": "Enter key activities",
+          "required": false
+        },
+        {
+          "id": "6_owner",
+          "label": "6 - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "6_sla_days",
+          "label": "6 - SLA (days)",
+          "type": "text",
+          "placeholder": "Enter sla (days)",
+          "required": false
+        },
+        {
+          "id": "7_stage_name",
+          "label": "7 - Stage Name",
+          "type": "text",
+          "placeholder": "Enter stage name",
+          "required": false
+        },
+        {
+          "id": "7_exit_criteria",
+          "label": "7 - Exit Criteria",
+          "type": "text",
+          "placeholder": "Enter exit criteria",
+          "required": false
+        },
+        {
+          "id": "7_conv_rate",
+          "label": "7 - Conv Rate %",
+          "type": "number",
+          "placeholder": "Enter conv rate %",
+          "required": false
+        },
+        {
+          "id": "7_key_activities",
+          "label": "7 - Key Activities",
+          "type": "text",
+          "placeholder": "Enter key activities",
+          "required": false
+        },
+        {
+          "id": "7_owner",
+          "label": "7 - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "7_sla_days",
+          "label": "7 - SLA (days)",
+          "type": "text",
+          "placeholder": "Enter sla (days)",
+          "required": false
+        },
+        {
+          "id": "8_stage_name",
+          "label": "8 - Stage Name",
+          "type": "text",
+          "placeholder": "Enter stage name",
+          "required": false
+        },
+        {
+          "id": "8_exit_criteria",
+          "label": "8 - Exit Criteria",
+          "type": "text",
+          "placeholder": "Enter exit criteria",
+          "required": false
+        },
+        {
+          "id": "8_conv_rate",
+          "label": "8 - Conv Rate %",
+          "type": "number",
+          "placeholder": "Enter conv rate %",
+          "required": false
+        },
+        {
+          "id": "8_key_activities",
+          "label": "8 - Key Activities",
+          "type": "text",
+          "placeholder": "Enter key activities",
+          "required": false
+        },
+        {
+          "id": "8_owner",
+          "label": "8 - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "8_sla_days",
+          "label": "8 - SLA (days)",
+          "type": "text",
+          "placeholder": "Enter sla (days)",
+          "required": false
+        },
+        {
+          "id": "9_stage_name",
+          "label": "9 - Stage Name",
+          "type": "text",
+          "placeholder": "Enter stage name",
+          "required": false
+        },
+        {
+          "id": "9_exit_criteria",
+          "label": "9 - Exit Criteria",
+          "type": "text",
+          "placeholder": "Enter exit criteria",
+          "required": false
+        },
+        {
+          "id": "9_conv_rate",
+          "label": "9 - Conv Rate %",
+          "type": "number",
+          "placeholder": "Enter conv rate %",
+          "required": false
+        },
+        {
+          "id": "9_key_activities",
+          "label": "9 - Key Activities",
+          "type": "text",
+          "placeholder": "Enter key activities",
+          "required": false
+        },
+        {
+          "id": "9_owner",
+          "label": "9 - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "9_sla_days",
+          "label": "9 - SLA (days)",
+          "type": "text",
+          "placeholder": "Enter sla (days)",
+          "required": false
+        },
+        {
+          "id": "10_stage_name",
+          "label": "10 - Stage Name",
+          "type": "text",
+          "placeholder": "Enter stage name",
+          "required": false
+        },
+        {
+          "id": "10_exit_criteria",
+          "label": "10 - Exit Criteria",
+          "type": "text",
+          "placeholder": "Enter exit criteria",
+          "required": false
+        },
+        {
+          "id": "10_conv_rate",
+          "label": "10 - Conv Rate %",
+          "type": "number",
+          "placeholder": "Enter conv rate %",
+          "required": false
+        },
+        {
+          "id": "10_key_activities",
+          "label": "10 - Key Activities",
+          "type": "text",
+          "placeholder": "Enter key activities",
+          "required": false
+        },
+        {
+          "id": "10_owner",
+          "label": "10 - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "10_sla_days",
+          "label": "10 - SLA (days)",
+          "type": "text",
+          "placeholder": "Enter sla (days)",
+          "required": false
+        },
+        {
+          "id": "11_stage_name",
+          "label": "11 - Stage Name",
+          "type": "text",
+          "placeholder": "Enter stage name",
+          "required": false
+        },
+        {
+          "id": "11_exit_criteria",
+          "label": "11 - Exit Criteria",
+          "type": "text",
+          "placeholder": "Enter exit criteria",
+          "required": false
+        },
+        {
+          "id": "11_conv_rate",
+          "label": "11 - Conv Rate %",
+          "type": "number",
+          "placeholder": "Enter conv rate %",
+          "required": false
+        },
+        {
+          "id": "11_key_activities",
+          "label": "11 - Key Activities",
+          "type": "text",
+          "placeholder": "Enter key activities",
+          "required": false
+        },
+        {
+          "id": "11_owner",
+          "label": "11 - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "11_sla_days",
+          "label": "11 - SLA (days)",
+          "type": "text",
+          "placeholder": "Enter sla (days)",
+          "required": false
+        },
+        {
+          "id": "12_stage_name",
+          "label": "12 - Stage Name",
+          "type": "text",
+          "placeholder": "Enter stage name",
+          "required": false
+        },
+        {
+          "id": "12_exit_criteria",
+          "label": "12 - Exit Criteria",
+          "type": "text",
+          "placeholder": "Enter exit criteria",
+          "required": false
+        },
+        {
+          "id": "12_conv_rate",
+          "label": "12 - Conv Rate %",
+          "type": "number",
+          "placeholder": "Enter conv rate %",
+          "required": false
+        },
+        {
+          "id": "12_key_activities",
+          "label": "12 - Key Activities",
+          "type": "text",
+          "placeholder": "Enter key activities",
+          "required": false
+        },
+        {
+          "id": "12_owner",
+          "label": "12 - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "12_sla_days",
+          "label": "12 - SLA (days)",
+          "type": "text",
+          "placeholder": "Enter sla (days)",
+          "required": false
+        },
+        {
+          "id": "13_stage_name",
+          "label": "13 - Stage Name",
+          "type": "text",
+          "placeholder": "Enter stage name",
+          "required": false
+        },
+        {
+          "id": "13_exit_criteria",
+          "label": "13 - Exit Criteria",
+          "type": "text",
+          "placeholder": "Enter exit criteria",
+          "required": false
+        },
+        {
+          "id": "13_conv_rate",
+          "label": "13 - Conv Rate %",
+          "type": "number",
+          "placeholder": "Enter conv rate %",
+          "required": false
+        },
+        {
+          "id": "13_key_activities",
+          "label": "13 - Key Activities",
+          "type": "text",
+          "placeholder": "Enter key activities",
+          "required": false
+        },
+        {
+          "id": "13_owner",
+          "label": "13 - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "13_sla_days",
+          "label": "13 - SLA (days)",
+          "type": "text",
+          "placeholder": "Enter sla (days)",
+          "required": false
+        },
+        {
+          "id": "14_stage_name",
+          "label": "14 - Stage Name",
+          "type": "text",
+          "placeholder": "Enter stage name",
+          "required": false
+        },
+        {
+          "id": "14_exit_criteria",
+          "label": "14 - Exit Criteria",
+          "type": "text",
+          "placeholder": "Enter exit criteria",
+          "required": false
+        },
+        {
+          "id": "14_conv_rate",
+          "label": "14 - Conv Rate %",
+          "type": "number",
+          "placeholder": "Enter conv rate %",
+          "required": false
+        },
+        {
+          "id": "14_key_activities",
+          "label": "14 - Key Activities",
+          "type": "text",
+          "placeholder": "Enter key activities",
+          "required": false
+        },
+        {
+          "id": "14_owner",
+          "label": "14 - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "14_sla_days",
+          "label": "14 - SLA (days)",
+          "type": "text",
+          "placeholder": "Enter sla (days)",
+          "required": false
+        },
+        {
+          "id": "15_stage_name",
+          "label": "15 - Stage Name",
+          "type": "text",
+          "placeholder": "Enter stage name",
+          "required": false
+        },
+        {
+          "id": "15_exit_criteria",
+          "label": "15 - Exit Criteria",
+          "type": "text",
+          "placeholder": "Enter exit criteria",
+          "required": false
+        },
+        {
+          "id": "15_conv_rate",
+          "label": "15 - Conv Rate %",
+          "type": "number",
+          "placeholder": "Enter conv rate %",
+          "required": false
+        },
+        {
+          "id": "15_key_activities",
+          "label": "15 - Key Activities",
+          "type": "text",
+          "placeholder": "Enter key activities",
+          "required": false
+        },
+        {
+          "id": "15_owner",
+          "label": "15 - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "15_sla_days",
+          "label": "15 - SLA (days)",
+          "type": "text",
+          "placeholder": "Enter sla (days)",
+          "required": false
+        },
+        {
+          "id": "16_stage_name",
+          "label": "16 - Stage Name",
+          "type": "text",
+          "placeholder": "Enter stage name",
+          "required": false
+        },
+        {
+          "id": "16_exit_criteria",
+          "label": "16 - Exit Criteria",
+          "type": "text",
+          "placeholder": "Enter exit criteria",
+          "required": false
+        },
+        {
+          "id": "16_conv_rate",
+          "label": "16 - Conv Rate %",
+          "type": "number",
+          "placeholder": "Enter conv rate %",
+          "required": false
+        },
+        {
+          "id": "16_key_activities",
+          "label": "16 - Key Activities",
+          "type": "text",
+          "placeholder": "Enter key activities",
+          "required": false
+        },
+        {
+          "id": "16_owner",
+          "label": "16 - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "16_sla_days",
+          "label": "16 - SLA (days)",
+          "type": "text",
+          "placeholder": "Enter sla (days)",
+          "required": false
+        },
+        {
+          "id": "completion_stage_name",
+          "label": "Completion - Stage Name",
+          "type": "text",
+          "placeholder": "Enter stage name",
+          "required": false
+        },
+        {
+          "id": "completion_exit_criteria",
+          "label": "Completion - Exit Criteria",
+          "type": "text",
+          "placeholder": "Enter exit criteria",
+          "required": false
+        },
+        {
+          "id": "completion_conv_rate",
+          "label": "Completion - Conv Rate %",
+          "type": "number",
+          "placeholder": "Enter conv rate %",
+          "required": false
+        },
+        {
+          "id": "completion_key_activities",
+          "label": "Completion - Key Activities",
+          "type": "text",
+          "placeholder": "Enter key activities",
+          "required": false
+        },
+        {
+          "id": "completion_owner",
+          "label": "Completion - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "completion_sla_days",
+          "label": "Completion - SLA (days)",
+          "type": "text",
+          "placeholder": "Enter sla (days)",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "contact_properties",
+      "title": "Contact Properties",
+      "description": "Enter data for each item",
+      "fields": [
+        {
+          "id": "first_name_category",
+          "label": "First Name - Category",
+          "type": "text",
+          "placeholder": "Enter category",
+          "required": false
+        },
+        {
+          "id": "first_name_type",
+          "label": "First Name - Type",
+          "type": "select",
+          "placeholder": "Enter type",
+          "required": false,
+          "options": [
+            "Blog Post",
+            "Video",
+            "Infographic",
+            "Case Study",
+            "Whitepaper",
+            "Newsletter",
+            "Social Post",
+            "Webinar"
+          ]
+        },
+        {
+          "id": "first_name_required",
+          "label": "First Name - Required?",
+          "type": "text",
+          "placeholder": "Enter required?",
+          "required": false
+        },
+        {
+          "id": "first_name_description",
+          "label": "First Name - Description",
+          "type": "textarea",
+          "placeholder": "Enter description",
+          "required": false
+        },
+        {
+          "id": "first_name_status",
+          "label": "First Name - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "last_name_category",
+          "label": "Last Name - Category",
+          "type": "text",
+          "placeholder": "Enter category",
+          "required": false
+        },
+        {
+          "id": "last_name_type",
+          "label": "Last Name - Type",
+          "type": "select",
+          "placeholder": "Enter type",
+          "required": false,
+          "options": [
+            "Blog Post",
+            "Video",
+            "Infographic",
+            "Case Study",
+            "Whitepaper",
+            "Newsletter",
+            "Social Post",
+            "Webinar"
+          ]
+        },
+        {
+          "id": "last_name_required",
+          "label": "Last Name - Required?",
+          "type": "text",
+          "placeholder": "Enter required?",
+          "required": false
+        },
+        {
+          "id": "last_name_description",
+          "label": "Last Name - Description",
+          "type": "textarea",
+          "placeholder": "Enter description",
+          "required": false
+        },
+        {
+          "id": "last_name_status",
+          "label": "Last Name - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "email_category",
+          "label": "Email - Category",
+          "type": "text",
+          "placeholder": "Enter category",
+          "required": false
+        },
+        {
+          "id": "email_type",
+          "label": "Email - Type",
+          "type": "select",
+          "placeholder": "Enter type",
+          "required": false,
+          "options": [
+            "Blog Post",
+            "Video",
+            "Infographic",
+            "Case Study",
+            "Whitepaper",
+            "Newsletter",
+            "Social Post",
+            "Webinar"
+          ]
+        },
+        {
+          "id": "email_required",
+          "label": "Email - Required?",
+          "type": "text",
+          "placeholder": "Enter required?",
+          "required": false
+        },
+        {
+          "id": "email_description",
+          "label": "Email - Description",
+          "type": "textarea",
+          "placeholder": "Enter description",
+          "required": false
+        },
+        {
+          "id": "email_status",
+          "label": "Email - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "phone_category",
+          "label": "Phone - Category",
+          "type": "text",
+          "placeholder": "Enter category",
+          "required": false
+        },
+        {
+          "id": "phone_type",
+          "label": "Phone - Type",
+          "type": "select",
+          "placeholder": "Enter type",
+          "required": false,
+          "options": [
+            "Blog Post",
+            "Video",
+            "Infographic",
+            "Case Study",
+            "Whitepaper",
+            "Newsletter",
+            "Social Post",
+            "Webinar"
+          ]
+        },
+        {
+          "id": "phone_required",
+          "label": "Phone - Required?",
+          "type": "text",
+          "placeholder": "Enter required?",
+          "required": false
+        },
+        {
+          "id": "phone_description",
+          "label": "Phone - Description",
+          "type": "textarea",
+          "placeholder": "Enter description",
+          "required": false
+        },
+        {
+          "id": "phone_status",
+          "label": "Phone - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "company_name_category",
+          "label": "Company Name - Category",
+          "type": "text",
+          "placeholder": "Enter category",
+          "required": false
+        },
+        {
+          "id": "company_name_type",
+          "label": "Company Name - Type",
+          "type": "select",
+          "placeholder": "Enter type",
+          "required": false,
+          "options": [
+            "Blog Post",
+            "Video",
+            "Infographic",
+            "Case Study",
+            "Whitepaper",
+            "Newsletter",
+            "Social Post",
+            "Webinar"
+          ]
+        },
+        {
+          "id": "company_name_required",
+          "label": "Company Name - Required?",
+          "type": "text",
+          "placeholder": "Enter required?",
+          "required": false
+        },
+        {
+          "id": "company_name_description",
+          "label": "Company Name - Description",
+          "type": "textarea",
+          "placeholder": "Enter description",
+          "required": false
+        },
+        {
+          "id": "company_name_status",
+          "label": "Company Name - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "job_title_category",
+          "label": "Job Title - Category",
+          "type": "text",
+          "placeholder": "Enter category",
+          "required": false
+        },
+        {
+          "id": "job_title_type",
+          "label": "Job Title - Type",
+          "type": "select",
+          "placeholder": "Enter type",
+          "required": false,
+          "options": [
+            "Blog Post",
+            "Video",
+            "Infographic",
+            "Case Study",
+            "Whitepaper",
+            "Newsletter",
+            "Social Post",
+            "Webinar"
+          ]
+        },
+        {
+          "id": "job_title_required",
+          "label": "Job Title - Required?",
+          "type": "text",
+          "placeholder": "Enter required?",
+          "required": false
+        },
+        {
+          "id": "job_title_description",
+          "label": "Job Title - Description",
+          "type": "textarea",
+          "placeholder": "Enter description",
+          "required": false
+        },
+        {
+          "id": "job_title_status",
+          "label": "Job Title - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "industry_category",
+          "label": "Industry - Category",
+          "type": "text",
+          "placeholder": "Enter category",
+          "required": false
+        },
+        {
+          "id": "industry_type",
+          "label": "Industry - Type",
+          "type": "select",
+          "placeholder": "Enter type",
+          "required": false,
+          "options": [
+            "Blog Post",
+            "Video",
+            "Infographic",
+            "Case Study",
+            "Whitepaper",
+            "Newsletter",
+            "Social Post",
+            "Webinar"
+          ]
+        },
+        {
+          "id": "industry_required",
+          "label": "Industry - Required?",
+          "type": "text",
+          "placeholder": "Enter required?",
+          "required": false
+        },
+        {
+          "id": "industry_description",
+          "label": "Industry - Description",
+          "type": "textarea",
+          "placeholder": "Enter description",
+          "required": false
+        },
+        {
+          "id": "industry_status",
+          "label": "Industry - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "company_size_category",
+          "label": "Company Size - Category",
+          "type": "text",
+          "placeholder": "Enter category",
+          "required": false
+        },
+        {
+          "id": "company_size_type",
+          "label": "Company Size - Type",
+          "type": "select",
+          "placeholder": "Enter type",
+          "required": false,
+          "options": [
+            "Blog Post",
+            "Video",
+            "Infographic",
+            "Case Study",
+            "Whitepaper",
+            "Newsletter",
+            "Social Post",
+            "Webinar"
+          ]
+        },
+        {
+          "id": "company_size_required",
+          "label": "Company Size - Required?",
+          "type": "text",
+          "placeholder": "Enter required?",
+          "required": false
+        },
+        {
+          "id": "company_size_description",
+          "label": "Company Size - Description",
+          "type": "textarea",
+          "placeholder": "Enter description",
+          "required": false
+        },
+        {
+          "id": "company_size_status",
+          "label": "Company Size - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "lead_source_category",
+          "label": "Lead Source - Category",
+          "type": "text",
+          "placeholder": "Enter category",
+          "required": false
+        },
+        {
+          "id": "lead_source_type",
+          "label": "Lead Source - Type",
+          "type": "select",
+          "placeholder": "Enter type",
+          "required": false,
+          "options": [
+            "Blog Post",
+            "Video",
+            "Infographic",
+            "Case Study",
+            "Whitepaper",
+            "Newsletter",
+            "Social Post",
+            "Webinar"
+          ]
+        },
+        {
+          "id": "lead_source_required",
+          "label": "Lead Source - Required?",
+          "type": "text",
+          "placeholder": "Enter required?",
+          "required": false
+        },
+        {
+          "id": "lead_source_description",
+          "label": "Lead Source - Description",
+          "type": "textarea",
+          "placeholder": "Enter description",
+          "required": false
+        },
+        {
+          "id": "lead_source_status",
+          "label": "Lead Source - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "lead_score_category",
+          "label": "Lead Score - Category",
+          "type": "text",
+          "placeholder": "Enter category",
+          "required": false
+        },
+        {
+          "id": "lead_score_type",
+          "label": "Lead Score - Type",
+          "type": "select",
+          "placeholder": "Enter type",
+          "required": false,
+          "options": [
+            "Blog Post",
+            "Video",
+            "Infographic",
+            "Case Study",
+            "Whitepaper",
+            "Newsletter",
+            "Social Post",
+            "Webinar"
+          ]
+        },
+        {
+          "id": "lead_score_required",
+          "label": "Lead Score - Required?",
+          "type": "text",
+          "placeholder": "Enter required?",
+          "required": false
+        },
+        {
+          "id": "lead_score_description",
+          "label": "Lead Score - Description",
+          "type": "textarea",
+          "placeholder": "Enter description",
+          "required": false
+        },
+        {
+          "id": "lead_score_status",
+          "label": "Lead Score - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "lifecycle_stage_category",
+          "label": "Lifecycle Stage - Category",
+          "type": "text",
+          "placeholder": "Enter category",
+          "required": false
+        },
+        {
+          "id": "lifecycle_stage_type",
+          "label": "Lifecycle Stage - Type",
+          "type": "select",
+          "placeholder": "Enter type",
+          "required": false,
+          "options": [
+            "Blog Post",
+            "Video",
+            "Infographic",
+            "Case Study",
+            "Whitepaper",
+            "Newsletter",
+            "Social Post",
+            "Webinar"
+          ]
+        },
+        {
+          "id": "lifecycle_stage_required",
+          "label": "Lifecycle Stage - Required?",
+          "type": "text",
+          "placeholder": "Enter required?",
+          "required": false
+        },
+        {
+          "id": "lifecycle_stage_description",
+          "label": "Lifecycle Stage - Description",
+          "type": "textarea",
+          "placeholder": "Enter description",
+          "required": false
+        },
+        {
+          "id": "lifecycle_stage_status",
+          "label": "Lifecycle Stage - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "deal_stage_category",
+          "label": "Deal Stage - Category",
+          "type": "text",
+          "placeholder": "Enter category",
+          "required": false
+        },
+        {
+          "id": "deal_stage_type",
+          "label": "Deal Stage - Type",
+          "type": "select",
+          "placeholder": "Enter type",
+          "required": false,
+          "options": [
+            "Blog Post",
+            "Video",
+            "Infographic",
+            "Case Study",
+            "Whitepaper",
+            "Newsletter",
+            "Social Post",
+            "Webinar"
+          ]
+        },
+        {
+          "id": "deal_stage_required",
+          "label": "Deal Stage - Required?",
+          "type": "text",
+          "placeholder": "Enter required?",
+          "required": false
+        },
+        {
+          "id": "deal_stage_description",
+          "label": "Deal Stage - Description",
+          "type": "textarea",
+          "placeholder": "Enter description",
+          "required": false
+        },
+        {
+          "id": "deal_stage_status",
+          "label": "Deal Stage - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "last_activity_date_category",
+          "label": "Last Activity Date - Category",
+          "type": "text",
+          "placeholder": "Enter category",
+          "required": false
+        },
+        {
+          "id": "last_activity_date_type",
+          "label": "Last Activity Date - Type",
+          "type": "select",
+          "placeholder": "Enter type",
+          "required": false,
+          "options": [
+            "Blog Post",
+            "Video",
+            "Infographic",
+            "Case Study",
+            "Whitepaper",
+            "Newsletter",
+            "Social Post",
+            "Webinar"
+          ]
+        },
+        {
+          "id": "last_activity_date_required",
+          "label": "Last Activity Date - Required?",
+          "type": "text",
+          "placeholder": "Enter required?",
+          "required": false
+        },
+        {
+          "id": "last_activity_date_description",
+          "label": "Last Activity Date - Description",
+          "type": "textarea",
+          "placeholder": "Enter description",
+          "required": false
+        },
+        {
+          "id": "last_activity_date_status",
+          "label": "Last Activity Date - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "owner_category",
+          "label": "Owner - Category",
+          "type": "text",
+          "placeholder": "Enter category",
+          "required": false
+        },
+        {
+          "id": "owner_type",
+          "label": "Owner - Type",
+          "type": "select",
+          "placeholder": "Enter type",
+          "required": false,
+          "options": [
+            "Blog Post",
+            "Video",
+            "Infographic",
+            "Case Study",
+            "Whitepaper",
+            "Newsletter",
+            "Social Post",
+            "Webinar"
+          ]
+        },
+        {
+          "id": "owner_required",
+          "label": "Owner - Required?",
+          "type": "text",
+          "placeholder": "Enter required?",
+          "required": false
+        },
+        {
+          "id": "owner_description",
+          "label": "Owner - Description",
+          "type": "textarea",
+          "placeholder": "Enter description",
+          "required": false
+        },
+        {
+          "id": "owner_status",
+          "label": "Owner - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "utm_source_category",
+          "label": "UTM Source - Category",
+          "type": "text",
+          "placeholder": "Enter category",
+          "required": false
+        },
+        {
+          "id": "utm_source_type",
+          "label": "UTM Source - Type",
+          "type": "select",
+          "placeholder": "Enter type",
+          "required": false,
+          "options": [
+            "Blog Post",
+            "Video",
+            "Infographic",
+            "Case Study",
+            "Whitepaper",
+            "Newsletter",
+            "Social Post",
+            "Webinar"
+          ]
+        },
+        {
+          "id": "utm_source_required",
+          "label": "UTM Source - Required?",
+          "type": "text",
+          "placeholder": "Enter required?",
+          "required": false
+        },
+        {
+          "id": "utm_source_description",
+          "label": "UTM Source - Description",
+          "type": "textarea",
+          "placeholder": "Enter description",
+          "required": false
+        },
+        {
+          "id": "utm_source_status",
+          "label": "UTM Source - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "utm_medium_category",
+          "label": "UTM Medium - Category",
+          "type": "text",
+          "placeholder": "Enter category",
+          "required": false
+        },
+        {
+          "id": "utm_medium_type",
+          "label": "UTM Medium - Type",
+          "type": "select",
+          "placeholder": "Enter type",
+          "required": false,
+          "options": [
+            "Blog Post",
+            "Video",
+            "Infographic",
+            "Case Study",
+            "Whitepaper",
+            "Newsletter",
+            "Social Post",
+            "Webinar"
+          ]
+        },
+        {
+          "id": "utm_medium_required",
+          "label": "UTM Medium - Required?",
+          "type": "text",
+          "placeholder": "Enter required?",
+          "required": false
+        },
+        {
+          "id": "utm_medium_description",
+          "label": "UTM Medium - Description",
+          "type": "textarea",
+          "placeholder": "Enter description",
+          "required": false
+        },
+        {
+          "id": "utm_medium_status",
+          "label": "UTM Medium - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "utm_campaign_category",
+          "label": "UTM Campaign - Category",
+          "type": "text",
+          "placeholder": "Enter category",
+          "required": false
+        },
+        {
+          "id": "utm_campaign_type",
+          "label": "UTM Campaign - Type",
+          "type": "select",
+          "placeholder": "Enter type",
+          "required": false,
+          "options": [
+            "Blog Post",
+            "Video",
+            "Infographic",
+            "Case Study",
+            "Whitepaper",
+            "Newsletter",
+            "Social Post",
+            "Webinar"
+          ]
+        },
+        {
+          "id": "utm_campaign_required",
+          "label": "UTM Campaign - Required?",
+          "type": "text",
+          "placeholder": "Enter required?",
+          "required": false
+        },
+        {
+          "id": "utm_campaign_description",
+          "label": "UTM Campaign - Description",
+          "type": "textarea",
+          "placeholder": "Enter description",
+          "required": false
+        },
+        {
+          "id": "utm_campaign_status",
+          "label": "UTM Campaign - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "content_downloaded_category",
+          "label": "Content Downloaded - Category",
+          "type": "text",
+          "placeholder": "Enter category",
+          "required": false
+        },
+        {
+          "id": "content_downloaded_type",
+          "label": "Content Downloaded - Type",
+          "type": "select",
+          "placeholder": "Enter type",
+          "required": false,
+          "options": [
+            "Blog Post",
+            "Video",
+            "Infographic",
+            "Case Study",
+            "Whitepaper",
+            "Newsletter",
+            "Social Post",
+            "Webinar"
+          ]
+        },
+        {
+          "id": "content_downloaded_required",
+          "label": "Content Downloaded - Required?",
+          "type": "text",
+          "placeholder": "Enter required?",
+          "required": false
+        },
+        {
+          "id": "content_downloaded_description",
+          "label": "Content Downloaded - Description",
+          "type": "textarea",
+          "placeholder": "Enter description",
+          "required": false
+        },
+        {
+          "id": "content_downloaded_status",
+          "label": "Content Downloaded - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "newsletter_subscribed_category",
+          "label": "Newsletter Subscribed - Category",
+          "type": "text",
+          "placeholder": "Enter category",
+          "required": false
+        },
+        {
+          "id": "newsletter_subscribed_type",
+          "label": "Newsletter Subscribed - Type",
+          "type": "select",
+          "placeholder": "Enter type",
+          "required": false,
+          "options": [
+            "Blog Post",
+            "Video",
+            "Infographic",
+            "Case Study",
+            "Whitepaper",
+            "Newsletter",
+            "Social Post",
+            "Webinar"
+          ]
+        },
+        {
+          "id": "newsletter_subscribed_required",
+          "label": "Newsletter Subscribed - Required?",
+          "type": "text",
+          "placeholder": "Enter required?",
+          "required": false
+        },
+        {
+          "id": "newsletter_subscribed_description",
+          "label": "Newsletter Subscribed - Description",
+          "type": "textarea",
+          "placeholder": "Enter description",
+          "required": false
+        },
+        {
+          "id": "newsletter_subscribed_status",
+          "label": "Newsletter Subscribed - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "annual_revenue_category",
+          "label": "Annual Revenue - Category",
+          "type": "text",
+          "placeholder": "Enter category",
+          "required": false
+        },
+        {
+          "id": "annual_revenue_type",
+          "label": "Annual Revenue - Type",
+          "type": "select",
+          "placeholder": "Enter type",
+          "required": false,
+          "options": [
+            "Blog Post",
+            "Video",
+            "Infographic",
+            "Case Study",
+            "Whitepaper",
+            "Newsletter",
+            "Social Post",
+            "Webinar"
+          ]
+        },
+        {
+          "id": "annual_revenue_required",
+          "label": "Annual Revenue - Required?",
+          "type": "text",
+          "placeholder": "Enter required?",
+          "required": false
+        },
+        {
+          "id": "annual_revenue_description",
+          "label": "Annual Revenue - Description",
+          "type": "textarea",
+          "placeholder": "Enter description",
+          "required": false
+        },
+        {
+          "id": "annual_revenue_status",
+          "label": "Annual Revenue - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "automations",
+      "title": "Automations",
+      "description": "Enter data for each item",
+      "fields": [
+        {
+          "id": "lead_assignment_trigger",
+          "label": "Lead Assignment - Trigger",
+          "type": "text",
+          "placeholder": "Enter trigger",
+          "required": false
+        },
+        {
+          "id": "lead_assignment_condition",
+          "label": "Lead Assignment - Condition",
+          "type": "text",
+          "placeholder": "Enter condition",
+          "required": false
+        },
+        {
+          "id": "lead_assignment_action",
+          "label": "Lead Assignment - Action",
+          "type": "textarea",
+          "placeholder": "Enter action",
+          "required": false
+        },
+        {
+          "id": "lead_assignment_owner",
+          "label": "Lead Assignment - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "lead_assignment_priority",
+          "label": "Lead Assignment - Priority",
+          "type": "select",
+          "placeholder": "Enter priority",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "lead_assignment_status",
+          "label": "Lead Assignment - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "welcome_email_trigger",
+          "label": "Welcome Email - Trigger",
+          "type": "text",
+          "placeholder": "Enter trigger",
+          "required": false
+        },
+        {
+          "id": "welcome_email_condition",
+          "label": "Welcome Email - Condition",
+          "type": "text",
+          "placeholder": "Enter condition",
+          "required": false
+        },
+        {
+          "id": "welcome_email_action",
+          "label": "Welcome Email - Action",
+          "type": "textarea",
+          "placeholder": "Enter action",
+          "required": false
+        },
+        {
+          "id": "welcome_email_owner",
+          "label": "Welcome Email - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "welcome_email_priority",
+          "label": "Welcome Email - Priority",
+          "type": "select",
+          "placeholder": "Enter priority",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "welcome_email_status",
+          "label": "Welcome Email - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "mql_notification_trigger",
+          "label": "MQL Notification - Trigger",
+          "type": "text",
+          "placeholder": "Enter trigger",
+          "required": false
+        },
+        {
+          "id": "mql_notification_condition",
+          "label": "MQL Notification - Condition",
+          "type": "text",
+          "placeholder": "Enter condition",
+          "required": false
+        },
+        {
+          "id": "mql_notification_action",
+          "label": "MQL Notification - Action",
+          "type": "textarea",
+          "placeholder": "Enter action",
+          "required": false
+        },
+        {
+          "id": "mql_notification_owner",
+          "label": "MQL Notification - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "mql_notification_priority",
+          "label": "MQL Notification - Priority",
+          "type": "select",
+          "placeholder": "Enter priority",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "mql_notification_status",
+          "label": "MQL Notification - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "followup_reminder_trigger",
+          "label": "Follow-up Reminder - Trigger",
+          "type": "text",
+          "placeholder": "Enter trigger",
+          "required": false
+        },
+        {
+          "id": "followup_reminder_condition",
+          "label": "Follow-up Reminder - Condition",
+          "type": "text",
+          "placeholder": "Enter condition",
+          "required": false
+        },
+        {
+          "id": "followup_reminder_action",
+          "label": "Follow-up Reminder - Action",
+          "type": "textarea",
+          "placeholder": "Enter action",
+          "required": false
+        },
+        {
+          "id": "followup_reminder_owner",
+          "label": "Follow-up Reminder - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "followup_reminder_priority",
+          "label": "Follow-up Reminder - Priority",
+          "type": "select",
+          "placeholder": "Enter priority",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "followup_reminder_status",
+          "label": "Follow-up Reminder - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "lost_deal_survey_trigger",
+          "label": "Lost Deal Survey - Trigger",
+          "type": "text",
+          "placeholder": "Enter trigger",
+          "required": false
+        },
+        {
+          "id": "lost_deal_survey_condition",
+          "label": "Lost Deal Survey - Condition",
+          "type": "text",
+          "placeholder": "Enter condition",
+          "required": false
+        },
+        {
+          "id": "lost_deal_survey_action",
+          "label": "Lost Deal Survey - Action",
+          "type": "textarea",
+          "placeholder": "Enter action",
+          "required": false
+        },
+        {
+          "id": "lost_deal_survey_owner",
+          "label": "Lost Deal Survey - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "lost_deal_survey_priority",
+          "label": "Lost Deal Survey - Priority",
+          "type": "select",
+          "placeholder": "Enter priority",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "lost_deal_survey_status",
+          "label": "Lost Deal Survey - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "onboarding_trigger_trigger",
+          "label": "Onboarding Trigger - Trigger",
+          "type": "text",
+          "placeholder": "Enter trigger",
+          "required": false
+        },
+        {
+          "id": "onboarding_trigger_condition",
+          "label": "Onboarding Trigger - Condition",
+          "type": "text",
+          "placeholder": "Enter condition",
+          "required": false
+        },
+        {
+          "id": "onboarding_trigger_action",
+          "label": "Onboarding Trigger - Action",
+          "type": "textarea",
+          "placeholder": "Enter action",
+          "required": false
+        },
+        {
+          "id": "onboarding_trigger_owner",
+          "label": "Onboarding Trigger - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "onboarding_trigger_priority",
+          "label": "Onboarding Trigger - Priority",
+          "type": "select",
+          "placeholder": "Enter priority",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "onboarding_trigger_status",
+          "label": "Onboarding Trigger - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "reengagement_trigger",
+          "label": "Re-engagement - Trigger",
+          "type": "text",
+          "placeholder": "Enter trigger",
+          "required": false
+        },
+        {
+          "id": "reengagement_condition",
+          "label": "Re-engagement - Condition",
+          "type": "text",
+          "placeholder": "Enter condition",
+          "required": false
+        },
+        {
+          "id": "reengagement_action",
+          "label": "Re-engagement - Action",
+          "type": "textarea",
+          "placeholder": "Enter action",
+          "required": false
+        },
+        {
+          "id": "reengagement_owner",
+          "label": "Re-engagement - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "reengagement_priority",
+          "label": "Re-engagement - Priority",
+          "type": "select",
+          "placeholder": "Enter priority",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "reengagement_status",
+          "label": "Re-engagement - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "lead_recycling_trigger",
+          "label": "Lead Recycling - Trigger",
+          "type": "text",
+          "placeholder": "Enter trigger",
+          "required": false
+        },
+        {
+          "id": "lead_recycling_condition",
+          "label": "Lead Recycling - Condition",
+          "type": "text",
+          "placeholder": "Enter condition",
+          "required": false
+        },
+        {
+          "id": "lead_recycling_action",
+          "label": "Lead Recycling - Action",
+          "type": "textarea",
+          "placeholder": "Enter action",
+          "required": false
+        },
+        {
+          "id": "lead_recycling_owner",
+          "label": "Lead Recycling - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "lead_recycling_priority",
+          "label": "Lead Recycling - Priority",
+          "type": "select",
+          "placeholder": "Enter priority",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "lead_recycling_status",
+          "label": "Lead Recycling - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "integrations",
+      "title": "Integrations",
+      "description": "Enter data for each item",
+      "fields": [
+        {
+          "id": "email_marketing_category",
+          "label": "Email Marketing - Category",
+          "type": "text",
+          "placeholder": "Enter category",
+          "required": false
+        },
+        {
+          "id": "email_marketing_sync_direction",
+          "label": "Email Marketing - Sync Direction",
+          "type": "text",
+          "placeholder": "Enter sync direction",
+          "required": false
+        },
+        {
+          "id": "email_marketing_data_synced",
+          "label": "Email Marketing - Data Synced",
+          "type": "text",
+          "placeholder": "Enter data synced",
+          "required": false
+        },
+        {
+          "id": "email_marketing_owner",
+          "label": "Email Marketing - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "email_marketing_status",
+          "label": "Email Marketing - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "website_analytics_category",
+          "label": "Website Analytics - Category",
+          "type": "text",
+          "placeholder": "Enter category",
+          "required": false
+        },
+        {
+          "id": "website_analytics_sync_direction",
+          "label": "Website Analytics - Sync Direction",
+          "type": "text",
+          "placeholder": "Enter sync direction",
+          "required": false
+        },
+        {
+          "id": "website_analytics_data_synced",
+          "label": "Website Analytics - Data Synced",
+          "type": "text",
+          "placeholder": "Enter data synced",
+          "required": false
+        },
+        {
+          "id": "website_analytics_owner",
+          "label": "Website Analytics - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "website_analytics_status",
+          "label": "Website Analytics - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "calendar_category",
+          "label": "Calendar - Category",
+          "type": "text",
+          "placeholder": "Enter category",
+          "required": false
+        },
+        {
+          "id": "calendar_sync_direction",
+          "label": "Calendar - Sync Direction",
+          "type": "text",
+          "placeholder": "Enter sync direction",
+          "required": false
+        },
+        {
+          "id": "calendar_data_synced",
+          "label": "Calendar - Data Synced",
+          "type": "text",
+          "placeholder": "Enter data synced",
+          "required": false
+        },
+        {
+          "id": "calendar_owner",
+          "label": "Calendar - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "calendar_status",
+          "label": "Calendar - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "billinginvoicing_category",
+          "label": "Billing/Invoicing - Category",
+          "type": "text",
+          "placeholder": "Enter category",
+          "required": false
+        },
+        {
+          "id": "billinginvoicing_sync_direction",
+          "label": "Billing/Invoicing - Sync Direction",
+          "type": "text",
+          "placeholder": "Enter sync direction",
+          "required": false
+        },
+        {
+          "id": "billinginvoicing_data_synced",
+          "label": "Billing/Invoicing - Data Synced",
+          "type": "text",
+          "placeholder": "Enter data synced",
+          "required": false
+        },
+        {
+          "id": "billinginvoicing_owner",
+          "label": "Billing/Invoicing - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "billinginvoicing_status",
+          "label": "Billing/Invoicing - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "support_desk_category",
+          "label": "Support Desk - Category",
+          "type": "text",
+          "placeholder": "Enter category",
+          "required": false
+        },
+        {
+          "id": "support_desk_sync_direction",
+          "label": "Support Desk - Sync Direction",
+          "type": "text",
+          "placeholder": "Enter sync direction",
+          "required": false
+        },
+        {
+          "id": "support_desk_data_synced",
+          "label": "Support Desk - Data Synced",
+          "type": "text",
+          "placeholder": "Enter data synced",
+          "required": false
+        },
+        {
+          "id": "support_desk_owner",
+          "label": "Support Desk - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "support_desk_status",
+          "label": "Support Desk - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "slack_category",
+          "label": "Slack - Category",
+          "type": "text",
+          "placeholder": "Enter category",
+          "required": false
+        },
+        {
+          "id": "slack_sync_direction",
+          "label": "Slack - Sync Direction",
+          "type": "text",
+          "placeholder": "Enter sync direction",
+          "required": false
+        },
+        {
+          "id": "slack_data_synced",
+          "label": "Slack - Data Synced",
+          "type": "text",
+          "placeholder": "Enter data synced",
+          "required": false
+        },
+        {
+          "id": "slack_owner",
+          "label": "Slack - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "slack_status",
+          "label": "Slack - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reports",
+      "title": "Reports",
+      "description": "Enter data for each item",
+      "fields": [
+        {
+          "id": "pipeline_overview_category",
+          "label": "Pipeline Overview - Category",
+          "type": "text",
+          "placeholder": "Enter category",
+          "required": false
+        },
+        {
+          "id": "pipeline_overview_frequency",
+          "label": "Pipeline Overview - Frequency",
+          "type": "text",
+          "placeholder": "Enter frequency",
+          "required": false
+        },
+        {
+          "id": "pipeline_overview_audience",
+          "label": "Pipeline Overview - Audience",
+          "type": "text",
+          "placeholder": "Enter audience",
+          "required": false
+        },
+        {
+          "id": "pipeline_overview_status",
+          "label": "Pipeline Overview - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "pipeline_velocity_category",
+          "label": "Pipeline Velocity - Category",
+          "type": "text",
+          "placeholder": "Enter category",
+          "required": false
+        },
+        {
+          "id": "pipeline_velocity_frequency",
+          "label": "Pipeline Velocity - Frequency",
+          "type": "text",
+          "placeholder": "Enter frequency",
+          "required": false
+        },
+        {
+          "id": "pipeline_velocity_audience",
+          "label": "Pipeline Velocity - Audience",
+          "type": "text",
+          "placeholder": "Enter audience",
+          "required": false
+        },
+        {
+          "id": "pipeline_velocity_status",
+          "label": "Pipeline Velocity - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "lead_source_report_category",
+          "label": "Lead Source Report - Category",
+          "type": "text",
+          "placeholder": "Enter category",
+          "required": false
+        },
+        {
+          "id": "lead_source_report_frequency",
+          "label": "Lead Source Report - Frequency",
+          "type": "text",
+          "placeholder": "Enter frequency",
+          "required": false
+        },
+        {
+          "id": "lead_source_report_audience",
+          "label": "Lead Source Report - Audience",
+          "type": "text",
+          "placeholder": "Enter audience",
+          "required": false
+        },
+        {
+          "id": "lead_source_report_status",
+          "label": "Lead Source Report - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "conversion_by_stage_category",
+          "label": "Conversion by Stage - Category",
+          "type": "text",
+          "placeholder": "Enter category",
+          "required": false
+        },
+        {
+          "id": "conversion_by_stage_frequency",
+          "label": "Conversion by Stage - Frequency",
+          "type": "text",
+          "placeholder": "Enter frequency",
+          "required": false
+        },
+        {
+          "id": "conversion_by_stage_audience",
+          "label": "Conversion by Stage - Audience",
+          "type": "text",
+          "placeholder": "Enter audience",
+          "required": false
+        },
+        {
+          "id": "conversion_by_stage_status",
+          "label": "Conversion by Stage - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "activity_report_category",
+          "label": "Activity Report - Category",
+          "type": "text",
+          "placeholder": "Enter category",
+          "required": false
+        },
+        {
+          "id": "activity_report_frequency",
+          "label": "Activity Report - Frequency",
+          "type": "text",
+          "placeholder": "Enter frequency",
+          "required": false
+        },
+        {
+          "id": "activity_report_audience",
+          "label": "Activity Report - Audience",
+          "type": "text",
+          "placeholder": "Enter audience",
+          "required": false
+        },
+        {
+          "id": "activity_report_status",
+          "label": "Activity Report - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "wonlost_analysis_category",
+          "label": "Won/Lost Analysis - Category",
+          "type": "text",
+          "placeholder": "Enter category",
+          "required": false
+        },
+        {
+          "id": "wonlost_analysis_frequency",
+          "label": "Won/Lost Analysis - Frequency",
+          "type": "text",
+          "placeholder": "Enter frequency",
+          "required": false
+        },
+        {
+          "id": "wonlost_analysis_audience",
+          "label": "Won/Lost Analysis - Audience",
+          "type": "text",
+          "placeholder": "Enter audience",
+          "required": false
+        },
+        {
+          "id": "wonlost_analysis_status",
+          "label": "Won/Lost Analysis - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "lead_score_distribution_category",
+          "label": "Lead Score Distribution - Category",
+          "type": "text",
+          "placeholder": "Enter category",
+          "required": false
+        },
+        {
+          "id": "lead_score_distribution_frequency",
+          "label": "Lead Score Distribution - Frequency",
+          "type": "text",
+          "placeholder": "Enter frequency",
+          "required": false
+        },
+        {
+          "id": "lead_score_distribution_audience",
+          "label": "Lead Score Distribution - Audience",
+          "type": "text",
+          "placeholder": "Enter audience",
+          "required": false
+        },
+        {
+          "id": "lead_score_distribution_status",
+          "label": "Lead Score Distribution - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "revenue_forecast_category",
+          "label": "Revenue Forecast - Category",
+          "type": "text",
+          "placeholder": "Enter category",
+          "required": false
+        },
+        {
+          "id": "revenue_forecast_frequency",
+          "label": "Revenue Forecast - Frequency",
+          "type": "text",
+          "placeholder": "Enter frequency",
+          "required": false
+        },
+        {
+          "id": "revenue_forecast_audience",
+          "label": "Revenue Forecast - Audience",
+          "type": "text",
+          "placeholder": "Enter audience",
+          "required": false
+        },
+        {
+          "id": "revenue_forecast_status",
+          "label": "Revenue Forecast - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "rep_performance_category",
+          "label": "Rep Performance - Category",
+          "type": "text",
+          "placeholder": "Enter category",
+          "required": false
+        },
+        {
+          "id": "rep_performance_frequency",
+          "label": "Rep Performance - Frequency",
+          "type": "text",
+          "placeholder": "Enter frequency",
+          "required": false
+        },
+        {
+          "id": "rep_performance_audience",
+          "label": "Rep Performance - Audience",
+          "type": "text",
+          "placeholder": "Enter audience",
+          "required": false
+        },
+        {
+          "id": "rep_performance_status",
+          "label": "Rep Performance - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "customer_lifecycle_category",
+          "label": "Customer Lifecycle - Category",
+          "type": "text",
+          "placeholder": "Enter category",
+          "required": false
+        },
+        {
+          "id": "customer_lifecycle_frequency",
+          "label": "Customer Lifecycle - Frequency",
+          "type": "text",
+          "placeholder": "Enter frequency",
+          "required": false
+        },
+        {
+          "id": "customer_lifecycle_audience",
+          "label": "Customer Lifecycle - Audience",
+          "type": "text",
+          "placeholder": "Enter audience",
+          "required": false
+        },
+        {
+          "id": "customer_lifecycle_status",
+          "label": "Customer Lifecycle - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        }
+      ]
+    }
+  ]
 }

@@ -10,596 +10,6 @@
     "growth"
   ],
   "estimatedTime": "65 min",
-  "sections": [
-    {
-      "id": "dashboard",
-      "title": "Dashboard",
-      "description": "Complete the Dashboard section",
-      "fields": [
-        {
-          "id": "total_advocates_0",
-          "label": "Total Advocates",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "active_advocates_1",
-          "label": "Active Advocates",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "total_referrals_sent_2",
-          "label": "Total Referrals Sent",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "referrals_converted_3",
-          "label": "Referrals Converted",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "conversion_rate_4",
-          "label": "Conversion Rate",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "total_rewards_issued_5",
-          "label": "Total Rewards Issued",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "total_reward_cost_6",
-          "label": "Total Reward Cost",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "avg_referrals_per_advocate_7",
-          "label": "Avg Referrals per Advocate",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "revenue_from_referrals_8",
-          "label": "Revenue from Referrals",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "programme_roi_9",
-          "label": "Programme ROI",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "programme_setup",
-      "title": "Programme Setup",
-      "description": "Complete the Programme Setup section",
-      "fields": [
-        {
-          "id": "programme_name_0",
-          "label": "Programme Name",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "programme_type_1",
-          "label": "Programme Type",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "launch_date_2",
-          "label": "Launch Date",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "programme_goal_3",
-          "label": "Programme Goal",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "target_referrals_monthly_4",
-          "label": "Target Referrals (Monthly)",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "target_conversion_rate_5",
-          "label": "Target Conversion Rate",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "programme_budget_monthly_6",
-          "label": "Programme Budget (Monthly)",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "programme_manager_7",
-          "label": "Programme Manager",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "reward_tiers_8",
-          "label": "Reward Tiers",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "tier_9",
-          "label": "Tier",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "trigger_10",
-          "label": "Trigger",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "referrer_reward_11",
-          "label": "Referrer Reward",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "referee_reward_12",
-          "label": "Referee Reward",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "reward_type_13",
-          "label": "Reward Type",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "limit_14",
-          "label": "Limit",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "expiry_15",
-          "label": "Expiry",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "bronze_16",
-          "label": "Bronze",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "1_successful_referral_17",
-          "label": "1 successful referral",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "25_credit_18",
-          "label": "$25 credit",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "10_first_order_discount_19",
-          "label": "10% first order discount",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "credit_20",
-          "label": "Credit",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "unlimited_21",
-          "label": "Unlimited",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "30_days_22",
-          "label": "30 days",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "silver_23",
-          "label": "Silver",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "5_successful_referrals_24",
-          "label": "5 successful referrals",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "50_credit_swag_25",
-          "label": "$50 credit + swag",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "15_first_order_discount_26",
-          "label": "15% first order discount",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "credit_gift_27",
-          "label": "Credit + Gift",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "unlimited_28",
-          "label": "Unlimited",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "60_days_29",
-          "label": "60 days",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "advocate_tracker",
-      "title": "Advocate Tracker",
-      "description": "Complete the Advocate Tracker section",
-      "fields": [
-        {
-          "id": "sarah_example_com_0",
-          "label": "sarah@example.com",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "james_example_com_1",
-          "label": "james@example.com",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "maria_example_com_2",
-          "label": "maria@example.com",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "david_example_com_3",
-          "label": "david@example.com",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "emma_example_com_4",
-          "label": "emma@example.com",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "referral_pipeline",
-      "title": "Referral Pipeline",
-      "description": "Complete the Referral Pipeline section",
-      "fields": [
-        {
-          "id": "tom_example_com_0",
-          "label": "tom@example.com",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "lisa_example_com_1",
-          "label": "lisa@example.com",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "alex_example_com_2",
-          "label": "alex@example.com",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "kate_example_com_3",
-          "label": "kate@example.com",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "chris_example_com_4",
-          "label": "chris@example.com",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "reward_management",
-      "title": "Reward Management",
-      "description": "Complete the Reward Management section",
-      "fields": [
-        {
-          "id": "auto_issued_on_conversion_0",
-          "label": "Auto-issued on conversion",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "auto_issued_on_conversion_1",
-          "label": "Auto-issued on conversion",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "auto_issued_on_conversion_2",
-          "label": "Auto-issued on conversion",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "awaiting_conversion_3",
-          "label": "Awaiting conversion",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "programme_performance",
-      "title": "Programme Performance",
-      "description": "Complete the Programme Performance section",
-      "fields": [
-        {
-          "id": "referrals_sent_0",
-          "label": "Referrals Sent",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "referrals_converted_1",
-          "label": "Referrals Converted",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "conversion_rate_2",
-          "label": "Conversion Rate",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "revenue_generated_3",
-          "label": "Revenue Generated",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "rewards_paid_4",
-          "label": "Rewards Paid",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "jan_2026_5",
-          "label": "Jan 2026",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "feb_2026_6",
-          "label": "Feb 2026",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "mar_2026_7",
-          "label": "Mar 2026",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "apr_2026_8",
-          "label": "Apr 2026",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "may_2026_9",
-          "label": "May 2026",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "jun_2026_10",
-          "label": "Jun 2026",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "jul_2026_11",
-          "label": "Jul 2026",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "aug_2026_12",
-          "label": "Aug 2026",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "sep_2026_13",
-          "label": "Sep 2026",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "oct_2026_14",
-          "label": "Oct 2026",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "nov_2026_15",
-          "label": "Nov 2026",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "dec_2026_16",
-          "label": "Dec 2026",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "total_17",
-          "label": "TOTAL",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "communication_templates",
-      "title": "Communication Templates",
-      "description": "Complete the Communication Templates section",
-      "fields": [
-        {
-          "id": "referral_sent_confirmation_0",
-          "label": "Referral Sent Confirmation",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "conversion_notification_1",
-          "label": "Conversion Notification",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "tier_upgrade_2",
-          "label": "Tier Upgrade",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "re_engagement_3",
-          "label": "Re-engagement",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "thank_you_referee_4",
-          "label": "Thank You (Referee)",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    }
-  ],
   "dashboard": {
     "metrics": [
       {
@@ -628,5 +38,2064 @@
         "format": "number"
       }
     ]
-  }
+  },
+  "sections": [
+    {
+      "id": "dashboard",
+      "title": "Dashboard",
+      "description": "Auto-calculated summary of your data. Complete the working sections to see results here.",
+      "readOnly": true,
+      "fields": [
+        {
+          "id": "dashboard_overview",
+          "label": "Dashboard Overview",
+          "type": "textarea",
+          "placeholder": "Dashboard metrics will be calculated from your inputs in the working sections",
+          "required": false,
+          "readOnly": true
+        }
+      ]
+    },
+    {
+      "id": "programme_setup",
+      "title": "Programme Setup",
+      "description": "Enter data for each item",
+      "fields": [
+        {
+          "id": "bronze_trigger",
+          "label": "Bronze - Trigger",
+          "type": "text",
+          "placeholder": "Enter trigger",
+          "required": false
+        },
+        {
+          "id": "bronze_referrer_reward",
+          "label": "Bronze - Referrer Reward",
+          "type": "text",
+          "placeholder": "Enter referrer reward",
+          "required": false
+        },
+        {
+          "id": "bronze_referee_reward",
+          "label": "Bronze - Referee Reward",
+          "type": "text",
+          "placeholder": "Enter referee reward",
+          "required": false
+        },
+        {
+          "id": "bronze_reward_type",
+          "label": "Bronze - Reward Type",
+          "type": "text",
+          "placeholder": "Enter reward type",
+          "required": false
+        },
+        {
+          "id": "bronze_limit",
+          "label": "Bronze - Limit",
+          "type": "text",
+          "placeholder": "Enter limit",
+          "required": false
+        },
+        {
+          "id": "bronze_expiry",
+          "label": "Bronze - Expiry",
+          "type": "text",
+          "placeholder": "Enter expiry",
+          "required": false
+        },
+        {
+          "id": "silver_trigger",
+          "label": "Silver - Trigger",
+          "type": "text",
+          "placeholder": "Enter trigger",
+          "required": false
+        },
+        {
+          "id": "silver_referrer_reward",
+          "label": "Silver - Referrer Reward",
+          "type": "text",
+          "placeholder": "Enter referrer reward",
+          "required": false
+        },
+        {
+          "id": "silver_referee_reward",
+          "label": "Silver - Referee Reward",
+          "type": "text",
+          "placeholder": "Enter referee reward",
+          "required": false
+        },
+        {
+          "id": "silver_reward_type",
+          "label": "Silver - Reward Type",
+          "type": "text",
+          "placeholder": "Enter reward type",
+          "required": false
+        },
+        {
+          "id": "silver_limit",
+          "label": "Silver - Limit",
+          "type": "text",
+          "placeholder": "Enter limit",
+          "required": false
+        },
+        {
+          "id": "silver_expiry",
+          "label": "Silver - Expiry",
+          "type": "text",
+          "placeholder": "Enter expiry",
+          "required": false
+        },
+        {
+          "id": "gold_trigger",
+          "label": "Gold - Trigger",
+          "type": "text",
+          "placeholder": "Enter trigger",
+          "required": false
+        },
+        {
+          "id": "gold_referrer_reward",
+          "label": "Gold - Referrer Reward",
+          "type": "text",
+          "placeholder": "Enter referrer reward",
+          "required": false
+        },
+        {
+          "id": "gold_referee_reward",
+          "label": "Gold - Referee Reward",
+          "type": "text",
+          "placeholder": "Enter referee reward",
+          "required": false
+        },
+        {
+          "id": "gold_reward_type",
+          "label": "Gold - Reward Type",
+          "type": "text",
+          "placeholder": "Enter reward type",
+          "required": false
+        },
+        {
+          "id": "gold_limit",
+          "label": "Gold - Limit",
+          "type": "text",
+          "placeholder": "Enter limit",
+          "required": false
+        },
+        {
+          "id": "gold_expiry",
+          "label": "Gold - Expiry",
+          "type": "text",
+          "placeholder": "Enter expiry",
+          "required": false
+        },
+        {
+          "id": "platinum_trigger",
+          "label": "Platinum - Trigger",
+          "type": "text",
+          "placeholder": "Enter trigger",
+          "required": false
+        },
+        {
+          "id": "platinum_referrer_reward",
+          "label": "Platinum - Referrer Reward",
+          "type": "text",
+          "placeholder": "Enter referrer reward",
+          "required": false
+        },
+        {
+          "id": "platinum_referee_reward",
+          "label": "Platinum - Referee Reward",
+          "type": "text",
+          "placeholder": "Enter referee reward",
+          "required": false
+        },
+        {
+          "id": "platinum_reward_type",
+          "label": "Platinum - Reward Type",
+          "type": "text",
+          "placeholder": "Enter reward type",
+          "required": false
+        },
+        {
+          "id": "platinum_limit",
+          "label": "Platinum - Limit",
+          "type": "text",
+          "placeholder": "Enter limit",
+          "required": false
+        },
+        {
+          "id": "platinum_expiry",
+          "label": "Platinum - Expiry",
+          "type": "text",
+          "placeholder": "Enter expiry",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "advocate_tracker",
+      "title": "Advocate Tracker",
+      "description": "Enter data for each item",
+      "fields": [
+        {
+          "id": "adv001_name",
+          "label": "ADV-001 - Name",
+          "type": "text",
+          "placeholder": "Enter name",
+          "required": false
+        },
+        {
+          "id": "adv001_email",
+          "label": "ADV-001 - Email",
+          "type": "text",
+          "placeholder": "Enter email",
+          "required": false
+        },
+        {
+          "id": "adv001_join_date",
+          "label": "ADV-001 - Join Date",
+          "type": "text",
+          "placeholder": "Enter join date",
+          "required": false
+        },
+        {
+          "id": "adv001_tier",
+          "label": "ADV-001 - Tier",
+          "type": "select",
+          "placeholder": "Enter tier",
+          "required": false,
+          "options": [
+            "Gold",
+            "Silver",
+            "Bronze"
+          ]
+        },
+        {
+          "id": "adv001_status",
+          "label": "ADV-001 - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "adv001_referrals_sent",
+          "label": "ADV-001 - Referrals Sent",
+          "type": "text",
+          "placeholder": "Enter referrals sent",
+          "required": false
+        },
+        {
+          "id": "adv001_referrals_converted",
+          "label": "ADV-001 - Referrals Converted",
+          "type": "text",
+          "placeholder": "Enter referrals converted",
+          "required": false
+        },
+        {
+          "id": "adv001_conversion_rate",
+          "label": "ADV-001 - Conversion Rate",
+          "type": "number",
+          "placeholder": "Enter conversion rate",
+          "required": false
+        },
+        {
+          "id": "adv001_total_earned",
+          "label": "ADV-001 - Total Earned",
+          "type": "text",
+          "placeholder": "Enter total earned",
+          "required": false
+        },
+        {
+          "id": "adv001_last_active",
+          "label": "ADV-001 - Last Active",
+          "type": "number",
+          "placeholder": "Enter last active",
+          "required": false
+        },
+        {
+          "id": "adv002_name",
+          "label": "ADV-002 - Name",
+          "type": "text",
+          "placeholder": "Enter name",
+          "required": false
+        },
+        {
+          "id": "adv002_email",
+          "label": "ADV-002 - Email",
+          "type": "text",
+          "placeholder": "Enter email",
+          "required": false
+        },
+        {
+          "id": "adv002_join_date",
+          "label": "ADV-002 - Join Date",
+          "type": "text",
+          "placeholder": "Enter join date",
+          "required": false
+        },
+        {
+          "id": "adv002_tier",
+          "label": "ADV-002 - Tier",
+          "type": "select",
+          "placeholder": "Enter tier",
+          "required": false,
+          "options": [
+            "Gold",
+            "Silver",
+            "Bronze"
+          ]
+        },
+        {
+          "id": "adv002_status",
+          "label": "ADV-002 - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "adv002_referrals_sent",
+          "label": "ADV-002 - Referrals Sent",
+          "type": "text",
+          "placeholder": "Enter referrals sent",
+          "required": false
+        },
+        {
+          "id": "adv002_referrals_converted",
+          "label": "ADV-002 - Referrals Converted",
+          "type": "text",
+          "placeholder": "Enter referrals converted",
+          "required": false
+        },
+        {
+          "id": "adv002_conversion_rate",
+          "label": "ADV-002 - Conversion Rate",
+          "type": "number",
+          "placeholder": "Enter conversion rate",
+          "required": false
+        },
+        {
+          "id": "adv002_total_earned",
+          "label": "ADV-002 - Total Earned",
+          "type": "text",
+          "placeholder": "Enter total earned",
+          "required": false
+        },
+        {
+          "id": "adv002_last_active",
+          "label": "ADV-002 - Last Active",
+          "type": "number",
+          "placeholder": "Enter last active",
+          "required": false
+        },
+        {
+          "id": "adv003_name",
+          "label": "ADV-003 - Name",
+          "type": "text",
+          "placeholder": "Enter name",
+          "required": false
+        },
+        {
+          "id": "adv003_email",
+          "label": "ADV-003 - Email",
+          "type": "text",
+          "placeholder": "Enter email",
+          "required": false
+        },
+        {
+          "id": "adv003_join_date",
+          "label": "ADV-003 - Join Date",
+          "type": "text",
+          "placeholder": "Enter join date",
+          "required": false
+        },
+        {
+          "id": "adv003_tier",
+          "label": "ADV-003 - Tier",
+          "type": "select",
+          "placeholder": "Enter tier",
+          "required": false,
+          "options": [
+            "Gold",
+            "Silver",
+            "Bronze"
+          ]
+        },
+        {
+          "id": "adv003_status",
+          "label": "ADV-003 - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "adv003_referrals_sent",
+          "label": "ADV-003 - Referrals Sent",
+          "type": "text",
+          "placeholder": "Enter referrals sent",
+          "required": false
+        },
+        {
+          "id": "adv003_referrals_converted",
+          "label": "ADV-003 - Referrals Converted",
+          "type": "text",
+          "placeholder": "Enter referrals converted",
+          "required": false
+        },
+        {
+          "id": "adv003_conversion_rate",
+          "label": "ADV-003 - Conversion Rate",
+          "type": "number",
+          "placeholder": "Enter conversion rate",
+          "required": false
+        },
+        {
+          "id": "adv003_total_earned",
+          "label": "ADV-003 - Total Earned",
+          "type": "text",
+          "placeholder": "Enter total earned",
+          "required": false
+        },
+        {
+          "id": "adv003_last_active",
+          "label": "ADV-003 - Last Active",
+          "type": "number",
+          "placeholder": "Enter last active",
+          "required": false
+        },
+        {
+          "id": "adv004_name",
+          "label": "ADV-004 - Name",
+          "type": "text",
+          "placeholder": "Enter name",
+          "required": false
+        },
+        {
+          "id": "adv004_email",
+          "label": "ADV-004 - Email",
+          "type": "text",
+          "placeholder": "Enter email",
+          "required": false
+        },
+        {
+          "id": "adv004_join_date",
+          "label": "ADV-004 - Join Date",
+          "type": "text",
+          "placeholder": "Enter join date",
+          "required": false
+        },
+        {
+          "id": "adv004_tier",
+          "label": "ADV-004 - Tier",
+          "type": "select",
+          "placeholder": "Enter tier",
+          "required": false,
+          "options": [
+            "Gold",
+            "Silver",
+            "Bronze"
+          ]
+        },
+        {
+          "id": "adv004_status",
+          "label": "ADV-004 - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "adv004_referrals_sent",
+          "label": "ADV-004 - Referrals Sent",
+          "type": "text",
+          "placeholder": "Enter referrals sent",
+          "required": false
+        },
+        {
+          "id": "adv004_referrals_converted",
+          "label": "ADV-004 - Referrals Converted",
+          "type": "text",
+          "placeholder": "Enter referrals converted",
+          "required": false
+        },
+        {
+          "id": "adv004_conversion_rate",
+          "label": "ADV-004 - Conversion Rate",
+          "type": "number",
+          "placeholder": "Enter conversion rate",
+          "required": false
+        },
+        {
+          "id": "adv004_total_earned",
+          "label": "ADV-004 - Total Earned",
+          "type": "text",
+          "placeholder": "Enter total earned",
+          "required": false
+        },
+        {
+          "id": "adv004_last_active",
+          "label": "ADV-004 - Last Active",
+          "type": "number",
+          "placeholder": "Enter last active",
+          "required": false
+        },
+        {
+          "id": "adv005_name",
+          "label": "ADV-005 - Name",
+          "type": "text",
+          "placeholder": "Enter name",
+          "required": false
+        },
+        {
+          "id": "adv005_email",
+          "label": "ADV-005 - Email",
+          "type": "text",
+          "placeholder": "Enter email",
+          "required": false
+        },
+        {
+          "id": "adv005_join_date",
+          "label": "ADV-005 - Join Date",
+          "type": "text",
+          "placeholder": "Enter join date",
+          "required": false
+        },
+        {
+          "id": "adv005_tier",
+          "label": "ADV-005 - Tier",
+          "type": "select",
+          "placeholder": "Enter tier",
+          "required": false,
+          "options": [
+            "Gold",
+            "Silver",
+            "Bronze"
+          ]
+        },
+        {
+          "id": "adv005_status",
+          "label": "ADV-005 - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "adv005_referrals_sent",
+          "label": "ADV-005 - Referrals Sent",
+          "type": "text",
+          "placeholder": "Enter referrals sent",
+          "required": false
+        },
+        {
+          "id": "adv005_referrals_converted",
+          "label": "ADV-005 - Referrals Converted",
+          "type": "text",
+          "placeholder": "Enter referrals converted",
+          "required": false
+        },
+        {
+          "id": "adv005_conversion_rate",
+          "label": "ADV-005 - Conversion Rate",
+          "type": "number",
+          "placeholder": "Enter conversion rate",
+          "required": false
+        },
+        {
+          "id": "adv005_total_earned",
+          "label": "ADV-005 - Total Earned",
+          "type": "text",
+          "placeholder": "Enter total earned",
+          "required": false
+        },
+        {
+          "id": "adv005_last_active",
+          "label": "ADV-005 - Last Active",
+          "type": "number",
+          "placeholder": "Enter last active",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "referral_pipeline",
+      "title": "Referral Pipeline",
+      "description": "Enter data for each item",
+      "fields": [
+        {
+          "id": "ref001_advocate",
+          "label": "REF-001 - Advocate",
+          "type": "text",
+          "placeholder": "Enter advocate",
+          "required": false
+        },
+        {
+          "id": "ref001_referred_name",
+          "label": "REF-001 - Referred Name",
+          "type": "text",
+          "placeholder": "Enter referred name",
+          "required": false
+        },
+        {
+          "id": "ref001_referred_email",
+          "label": "REF-001 - Referred Email",
+          "type": "text",
+          "placeholder": "Enter referred email",
+          "required": false
+        },
+        {
+          "id": "ref001_date_sent",
+          "label": "REF-001 - Date Sent",
+          "type": "text",
+          "placeholder": "Enter date sent",
+          "required": false
+        },
+        {
+          "id": "ref001_channel",
+          "label": "REF-001 - Channel",
+          "type": "select",
+          "placeholder": "Enter channel",
+          "required": false,
+          "options": [
+            "Blog",
+            "Social Media",
+            "Email",
+            "Video",
+            "Paid Search",
+            "Paid Social",
+            "SEO",
+            "Events",
+            "PR"
+          ]
+        },
+        {
+          "id": "ref001_status",
+          "label": "REF-001 - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "ref001_signup_date",
+          "label": "REF-001 - Signup Date",
+          "type": "text",
+          "placeholder": "Enter signup date",
+          "required": false
+        },
+        {
+          "id": "ref001_revenue",
+          "label": "REF-001 - Revenue",
+          "type": "number",
+          "placeholder": "Enter revenue",
+          "required": false
+        },
+        {
+          "id": "ref001_reward_due",
+          "label": "REF-001 - Reward Due",
+          "type": "text",
+          "placeholder": "Enter reward due",
+          "required": false
+        },
+        {
+          "id": "ref001_notes",
+          "label": "REF-001 - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "ref002_advocate",
+          "label": "REF-002 - Advocate",
+          "type": "text",
+          "placeholder": "Enter advocate",
+          "required": false
+        },
+        {
+          "id": "ref002_referred_name",
+          "label": "REF-002 - Referred Name",
+          "type": "text",
+          "placeholder": "Enter referred name",
+          "required": false
+        },
+        {
+          "id": "ref002_referred_email",
+          "label": "REF-002 - Referred Email",
+          "type": "text",
+          "placeholder": "Enter referred email",
+          "required": false
+        },
+        {
+          "id": "ref002_date_sent",
+          "label": "REF-002 - Date Sent",
+          "type": "text",
+          "placeholder": "Enter date sent",
+          "required": false
+        },
+        {
+          "id": "ref002_channel",
+          "label": "REF-002 - Channel",
+          "type": "select",
+          "placeholder": "Enter channel",
+          "required": false,
+          "options": [
+            "Blog",
+            "Social Media",
+            "Email",
+            "Video",
+            "Paid Search",
+            "Paid Social",
+            "SEO",
+            "Events",
+            "PR"
+          ]
+        },
+        {
+          "id": "ref002_status",
+          "label": "REF-002 - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "ref002_signup_date",
+          "label": "REF-002 - Signup Date",
+          "type": "text",
+          "placeholder": "Enter signup date",
+          "required": false
+        },
+        {
+          "id": "ref002_revenue",
+          "label": "REF-002 - Revenue",
+          "type": "number",
+          "placeholder": "Enter revenue",
+          "required": false
+        },
+        {
+          "id": "ref002_reward_due",
+          "label": "REF-002 - Reward Due",
+          "type": "text",
+          "placeholder": "Enter reward due",
+          "required": false
+        },
+        {
+          "id": "ref002_notes",
+          "label": "REF-002 - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "ref003_advocate",
+          "label": "REF-003 - Advocate",
+          "type": "text",
+          "placeholder": "Enter advocate",
+          "required": false
+        },
+        {
+          "id": "ref003_referred_name",
+          "label": "REF-003 - Referred Name",
+          "type": "text",
+          "placeholder": "Enter referred name",
+          "required": false
+        },
+        {
+          "id": "ref003_referred_email",
+          "label": "REF-003 - Referred Email",
+          "type": "text",
+          "placeholder": "Enter referred email",
+          "required": false
+        },
+        {
+          "id": "ref003_date_sent",
+          "label": "REF-003 - Date Sent",
+          "type": "text",
+          "placeholder": "Enter date sent",
+          "required": false
+        },
+        {
+          "id": "ref003_channel",
+          "label": "REF-003 - Channel",
+          "type": "select",
+          "placeholder": "Enter channel",
+          "required": false,
+          "options": [
+            "Blog",
+            "Social Media",
+            "Email",
+            "Video",
+            "Paid Search",
+            "Paid Social",
+            "SEO",
+            "Events",
+            "PR"
+          ]
+        },
+        {
+          "id": "ref003_status",
+          "label": "REF-003 - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "ref003_signup_date",
+          "label": "REF-003 - Signup Date",
+          "type": "text",
+          "placeholder": "Enter signup date",
+          "required": false
+        },
+        {
+          "id": "ref003_revenue",
+          "label": "REF-003 - Revenue",
+          "type": "number",
+          "placeholder": "Enter revenue",
+          "required": false
+        },
+        {
+          "id": "ref003_reward_due",
+          "label": "REF-003 - Reward Due",
+          "type": "text",
+          "placeholder": "Enter reward due",
+          "required": false
+        },
+        {
+          "id": "ref003_notes",
+          "label": "REF-003 - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "ref004_advocate",
+          "label": "REF-004 - Advocate",
+          "type": "text",
+          "placeholder": "Enter advocate",
+          "required": false
+        },
+        {
+          "id": "ref004_referred_name",
+          "label": "REF-004 - Referred Name",
+          "type": "text",
+          "placeholder": "Enter referred name",
+          "required": false
+        },
+        {
+          "id": "ref004_referred_email",
+          "label": "REF-004 - Referred Email",
+          "type": "text",
+          "placeholder": "Enter referred email",
+          "required": false
+        },
+        {
+          "id": "ref004_date_sent",
+          "label": "REF-004 - Date Sent",
+          "type": "text",
+          "placeholder": "Enter date sent",
+          "required": false
+        },
+        {
+          "id": "ref004_channel",
+          "label": "REF-004 - Channel",
+          "type": "select",
+          "placeholder": "Enter channel",
+          "required": false,
+          "options": [
+            "Blog",
+            "Social Media",
+            "Email",
+            "Video",
+            "Paid Search",
+            "Paid Social",
+            "SEO",
+            "Events",
+            "PR"
+          ]
+        },
+        {
+          "id": "ref004_status",
+          "label": "REF-004 - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "ref004_signup_date",
+          "label": "REF-004 - Signup Date",
+          "type": "text",
+          "placeholder": "Enter signup date",
+          "required": false
+        },
+        {
+          "id": "ref004_revenue",
+          "label": "REF-004 - Revenue",
+          "type": "number",
+          "placeholder": "Enter revenue",
+          "required": false
+        },
+        {
+          "id": "ref004_reward_due",
+          "label": "REF-004 - Reward Due",
+          "type": "text",
+          "placeholder": "Enter reward due",
+          "required": false
+        },
+        {
+          "id": "ref004_notes",
+          "label": "REF-004 - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "ref005_advocate",
+          "label": "REF-005 - Advocate",
+          "type": "text",
+          "placeholder": "Enter advocate",
+          "required": false
+        },
+        {
+          "id": "ref005_referred_name",
+          "label": "REF-005 - Referred Name",
+          "type": "text",
+          "placeholder": "Enter referred name",
+          "required": false
+        },
+        {
+          "id": "ref005_referred_email",
+          "label": "REF-005 - Referred Email",
+          "type": "text",
+          "placeholder": "Enter referred email",
+          "required": false
+        },
+        {
+          "id": "ref005_date_sent",
+          "label": "REF-005 - Date Sent",
+          "type": "text",
+          "placeholder": "Enter date sent",
+          "required": false
+        },
+        {
+          "id": "ref005_channel",
+          "label": "REF-005 - Channel",
+          "type": "select",
+          "placeholder": "Enter channel",
+          "required": false,
+          "options": [
+            "Blog",
+            "Social Media",
+            "Email",
+            "Video",
+            "Paid Search",
+            "Paid Social",
+            "SEO",
+            "Events",
+            "PR"
+          ]
+        },
+        {
+          "id": "ref005_status",
+          "label": "REF-005 - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "ref005_signup_date",
+          "label": "REF-005 - Signup Date",
+          "type": "text",
+          "placeholder": "Enter signup date",
+          "required": false
+        },
+        {
+          "id": "ref005_revenue",
+          "label": "REF-005 - Revenue",
+          "type": "number",
+          "placeholder": "Enter revenue",
+          "required": false
+        },
+        {
+          "id": "ref005_reward_due",
+          "label": "REF-005 - Reward Due",
+          "type": "text",
+          "placeholder": "Enter reward due",
+          "required": false
+        },
+        {
+          "id": "ref005_notes",
+          "label": "REF-005 - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "reward_management",
+      "title": "Reward Management",
+      "description": "Enter data for each item",
+      "fields": [
+        {
+          "id": "rwd001_advocate",
+          "label": "RWD-001 - Advocate",
+          "type": "text",
+          "placeholder": "Enter advocate",
+          "required": false
+        },
+        {
+          "id": "rwd001_referral_id",
+          "label": "RWD-001 - Referral ID",
+          "type": "text",
+          "placeholder": "Enter referral id",
+          "required": false
+        },
+        {
+          "id": "rwd001_reward_type",
+          "label": "RWD-001 - Reward Type",
+          "type": "text",
+          "placeholder": "Enter reward type",
+          "required": false
+        },
+        {
+          "id": "rwd001_amount",
+          "label": "RWD-001 - Amount",
+          "type": "number",
+          "placeholder": "Enter amount",
+          "required": false
+        },
+        {
+          "id": "rwd001_status",
+          "label": "RWD-001 - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "rwd001_issue_date",
+          "label": "RWD-001 - Issue Date",
+          "type": "text",
+          "placeholder": "Enter issue date",
+          "required": false
+        },
+        {
+          "id": "rwd001_notes",
+          "label": "RWD-001 - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "rwd002_advocate",
+          "label": "RWD-002 - Advocate",
+          "type": "text",
+          "placeholder": "Enter advocate",
+          "required": false
+        },
+        {
+          "id": "rwd002_referral_id",
+          "label": "RWD-002 - Referral ID",
+          "type": "text",
+          "placeholder": "Enter referral id",
+          "required": false
+        },
+        {
+          "id": "rwd002_reward_type",
+          "label": "RWD-002 - Reward Type",
+          "type": "text",
+          "placeholder": "Enter reward type",
+          "required": false
+        },
+        {
+          "id": "rwd002_amount",
+          "label": "RWD-002 - Amount",
+          "type": "number",
+          "placeholder": "Enter amount",
+          "required": false
+        },
+        {
+          "id": "rwd002_status",
+          "label": "RWD-002 - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "rwd002_issue_date",
+          "label": "RWD-002 - Issue Date",
+          "type": "text",
+          "placeholder": "Enter issue date",
+          "required": false
+        },
+        {
+          "id": "rwd002_notes",
+          "label": "RWD-002 - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "rwd003_advocate",
+          "label": "RWD-003 - Advocate",
+          "type": "text",
+          "placeholder": "Enter advocate",
+          "required": false
+        },
+        {
+          "id": "rwd003_referral_id",
+          "label": "RWD-003 - Referral ID",
+          "type": "text",
+          "placeholder": "Enter referral id",
+          "required": false
+        },
+        {
+          "id": "rwd003_reward_type",
+          "label": "RWD-003 - Reward Type",
+          "type": "text",
+          "placeholder": "Enter reward type",
+          "required": false
+        },
+        {
+          "id": "rwd003_amount",
+          "label": "RWD-003 - Amount",
+          "type": "number",
+          "placeholder": "Enter amount",
+          "required": false
+        },
+        {
+          "id": "rwd003_status",
+          "label": "RWD-003 - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "rwd003_issue_date",
+          "label": "RWD-003 - Issue Date",
+          "type": "text",
+          "placeholder": "Enter issue date",
+          "required": false
+        },
+        {
+          "id": "rwd003_notes",
+          "label": "RWD-003 - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "rwd004_advocate",
+          "label": "RWD-004 - Advocate",
+          "type": "text",
+          "placeholder": "Enter advocate",
+          "required": false
+        },
+        {
+          "id": "rwd004_referral_id",
+          "label": "RWD-004 - Referral ID",
+          "type": "text",
+          "placeholder": "Enter referral id",
+          "required": false
+        },
+        {
+          "id": "rwd004_reward_type",
+          "label": "RWD-004 - Reward Type",
+          "type": "text",
+          "placeholder": "Enter reward type",
+          "required": false
+        },
+        {
+          "id": "rwd004_amount",
+          "label": "RWD-004 - Amount",
+          "type": "number",
+          "placeholder": "Enter amount",
+          "required": false
+        },
+        {
+          "id": "rwd004_status",
+          "label": "RWD-004 - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "rwd004_issue_date",
+          "label": "RWD-004 - Issue Date",
+          "type": "text",
+          "placeholder": "Enter issue date",
+          "required": false
+        },
+        {
+          "id": "rwd004_notes",
+          "label": "RWD-004 - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "programme_performance",
+      "title": "Programme Performance",
+      "description": "Enter data for each item",
+      "fields": [
+        {
+          "id": "jan_2026_new_advocates",
+          "label": "Jan 2026 - New Advocates",
+          "type": "number",
+          "placeholder": "Enter new advocates",
+          "required": false
+        },
+        {
+          "id": "jan_2026_referrals_sent",
+          "label": "Jan 2026 - Referrals Sent",
+          "type": "text",
+          "placeholder": "Enter referrals sent",
+          "required": false
+        },
+        {
+          "id": "jan_2026_referrals_converted",
+          "label": "Jan 2026 - Referrals Converted",
+          "type": "text",
+          "placeholder": "Enter referrals converted",
+          "required": false
+        },
+        {
+          "id": "jan_2026_conversion_rate",
+          "label": "Jan 2026 - Conversion Rate",
+          "type": "number",
+          "placeholder": "Enter conversion rate",
+          "required": false
+        },
+        {
+          "id": "jan_2026_revenue_generated",
+          "label": "Jan 2026 - Revenue Generated",
+          "type": "number",
+          "placeholder": "Enter revenue generated",
+          "required": false
+        },
+        {
+          "id": "jan_2026_rewards_paid",
+          "label": "Jan 2026 - Rewards Paid",
+          "type": "text",
+          "placeholder": "Enter rewards paid",
+          "required": false
+        },
+        {
+          "id": "jan_2026_net_revenue",
+          "label": "Jan 2026 - Net Revenue",
+          "type": "number",
+          "placeholder": "Enter net revenue",
+          "required": false
+        },
+        {
+          "id": "jan_2026_cost_per_acquisition",
+          "label": "Jan 2026 - Cost per Acquisition",
+          "type": "number",
+          "placeholder": "Enter cost per acquisition",
+          "required": false
+        },
+        {
+          "id": "jan_2026_programme_roi",
+          "label": "Jan 2026 - Programme ROI",
+          "type": "number",
+          "placeholder": "Enter programme roi",
+          "required": false
+        },
+        {
+          "id": "feb_2026_new_advocates",
+          "label": "Feb 2026 - New Advocates",
+          "type": "number",
+          "placeholder": "Enter new advocates",
+          "required": false
+        },
+        {
+          "id": "feb_2026_referrals_sent",
+          "label": "Feb 2026 - Referrals Sent",
+          "type": "text",
+          "placeholder": "Enter referrals sent",
+          "required": false
+        },
+        {
+          "id": "feb_2026_referrals_converted",
+          "label": "Feb 2026 - Referrals Converted",
+          "type": "text",
+          "placeholder": "Enter referrals converted",
+          "required": false
+        },
+        {
+          "id": "feb_2026_conversion_rate",
+          "label": "Feb 2026 - Conversion Rate",
+          "type": "number",
+          "placeholder": "Enter conversion rate",
+          "required": false
+        },
+        {
+          "id": "feb_2026_revenue_generated",
+          "label": "Feb 2026 - Revenue Generated",
+          "type": "number",
+          "placeholder": "Enter revenue generated",
+          "required": false
+        },
+        {
+          "id": "feb_2026_rewards_paid",
+          "label": "Feb 2026 - Rewards Paid",
+          "type": "text",
+          "placeholder": "Enter rewards paid",
+          "required": false
+        },
+        {
+          "id": "feb_2026_net_revenue",
+          "label": "Feb 2026 - Net Revenue",
+          "type": "number",
+          "placeholder": "Enter net revenue",
+          "required": false
+        },
+        {
+          "id": "feb_2026_cost_per_acquisition",
+          "label": "Feb 2026 - Cost per Acquisition",
+          "type": "number",
+          "placeholder": "Enter cost per acquisition",
+          "required": false
+        },
+        {
+          "id": "feb_2026_programme_roi",
+          "label": "Feb 2026 - Programme ROI",
+          "type": "number",
+          "placeholder": "Enter programme roi",
+          "required": false
+        },
+        {
+          "id": "mar_2026_new_advocates",
+          "label": "Mar 2026 - New Advocates",
+          "type": "number",
+          "placeholder": "Enter new advocates",
+          "required": false
+        },
+        {
+          "id": "mar_2026_referrals_sent",
+          "label": "Mar 2026 - Referrals Sent",
+          "type": "text",
+          "placeholder": "Enter referrals sent",
+          "required": false
+        },
+        {
+          "id": "mar_2026_referrals_converted",
+          "label": "Mar 2026 - Referrals Converted",
+          "type": "text",
+          "placeholder": "Enter referrals converted",
+          "required": false
+        },
+        {
+          "id": "mar_2026_conversion_rate",
+          "label": "Mar 2026 - Conversion Rate",
+          "type": "number",
+          "placeholder": "Enter conversion rate",
+          "required": false
+        },
+        {
+          "id": "mar_2026_revenue_generated",
+          "label": "Mar 2026 - Revenue Generated",
+          "type": "number",
+          "placeholder": "Enter revenue generated",
+          "required": false
+        },
+        {
+          "id": "mar_2026_rewards_paid",
+          "label": "Mar 2026 - Rewards Paid",
+          "type": "text",
+          "placeholder": "Enter rewards paid",
+          "required": false
+        },
+        {
+          "id": "mar_2026_net_revenue",
+          "label": "Mar 2026 - Net Revenue",
+          "type": "number",
+          "placeholder": "Enter net revenue",
+          "required": false
+        },
+        {
+          "id": "mar_2026_cost_per_acquisition",
+          "label": "Mar 2026 - Cost per Acquisition",
+          "type": "number",
+          "placeholder": "Enter cost per acquisition",
+          "required": false
+        },
+        {
+          "id": "mar_2026_programme_roi",
+          "label": "Mar 2026 - Programme ROI",
+          "type": "number",
+          "placeholder": "Enter programme roi",
+          "required": false
+        },
+        {
+          "id": "apr_2026_new_advocates",
+          "label": "Apr 2026 - New Advocates",
+          "type": "number",
+          "placeholder": "Enter new advocates",
+          "required": false
+        },
+        {
+          "id": "apr_2026_referrals_sent",
+          "label": "Apr 2026 - Referrals Sent",
+          "type": "text",
+          "placeholder": "Enter referrals sent",
+          "required": false
+        },
+        {
+          "id": "apr_2026_referrals_converted",
+          "label": "Apr 2026 - Referrals Converted",
+          "type": "text",
+          "placeholder": "Enter referrals converted",
+          "required": false
+        },
+        {
+          "id": "apr_2026_conversion_rate",
+          "label": "Apr 2026 - Conversion Rate",
+          "type": "number",
+          "placeholder": "Enter conversion rate",
+          "required": false
+        },
+        {
+          "id": "apr_2026_revenue_generated",
+          "label": "Apr 2026 - Revenue Generated",
+          "type": "number",
+          "placeholder": "Enter revenue generated",
+          "required": false
+        },
+        {
+          "id": "apr_2026_rewards_paid",
+          "label": "Apr 2026 - Rewards Paid",
+          "type": "text",
+          "placeholder": "Enter rewards paid",
+          "required": false
+        },
+        {
+          "id": "apr_2026_net_revenue",
+          "label": "Apr 2026 - Net Revenue",
+          "type": "number",
+          "placeholder": "Enter net revenue",
+          "required": false
+        },
+        {
+          "id": "apr_2026_cost_per_acquisition",
+          "label": "Apr 2026 - Cost per Acquisition",
+          "type": "number",
+          "placeholder": "Enter cost per acquisition",
+          "required": false
+        },
+        {
+          "id": "apr_2026_programme_roi",
+          "label": "Apr 2026 - Programme ROI",
+          "type": "number",
+          "placeholder": "Enter programme roi",
+          "required": false
+        },
+        {
+          "id": "may_2026_new_advocates",
+          "label": "May 2026 - New Advocates",
+          "type": "number",
+          "placeholder": "Enter new advocates",
+          "required": false
+        },
+        {
+          "id": "may_2026_referrals_sent",
+          "label": "May 2026 - Referrals Sent",
+          "type": "text",
+          "placeholder": "Enter referrals sent",
+          "required": false
+        },
+        {
+          "id": "may_2026_referrals_converted",
+          "label": "May 2026 - Referrals Converted",
+          "type": "text",
+          "placeholder": "Enter referrals converted",
+          "required": false
+        },
+        {
+          "id": "may_2026_conversion_rate",
+          "label": "May 2026 - Conversion Rate",
+          "type": "number",
+          "placeholder": "Enter conversion rate",
+          "required": false
+        },
+        {
+          "id": "may_2026_revenue_generated",
+          "label": "May 2026 - Revenue Generated",
+          "type": "number",
+          "placeholder": "Enter revenue generated",
+          "required": false
+        },
+        {
+          "id": "may_2026_rewards_paid",
+          "label": "May 2026 - Rewards Paid",
+          "type": "text",
+          "placeholder": "Enter rewards paid",
+          "required": false
+        },
+        {
+          "id": "may_2026_net_revenue",
+          "label": "May 2026 - Net Revenue",
+          "type": "number",
+          "placeholder": "Enter net revenue",
+          "required": false
+        },
+        {
+          "id": "may_2026_cost_per_acquisition",
+          "label": "May 2026 - Cost per Acquisition",
+          "type": "number",
+          "placeholder": "Enter cost per acquisition",
+          "required": false
+        },
+        {
+          "id": "may_2026_programme_roi",
+          "label": "May 2026 - Programme ROI",
+          "type": "number",
+          "placeholder": "Enter programme roi",
+          "required": false
+        },
+        {
+          "id": "jun_2026_new_advocates",
+          "label": "Jun 2026 - New Advocates",
+          "type": "number",
+          "placeholder": "Enter new advocates",
+          "required": false
+        },
+        {
+          "id": "jun_2026_referrals_sent",
+          "label": "Jun 2026 - Referrals Sent",
+          "type": "text",
+          "placeholder": "Enter referrals sent",
+          "required": false
+        },
+        {
+          "id": "jun_2026_referrals_converted",
+          "label": "Jun 2026 - Referrals Converted",
+          "type": "text",
+          "placeholder": "Enter referrals converted",
+          "required": false
+        },
+        {
+          "id": "jun_2026_conversion_rate",
+          "label": "Jun 2026 - Conversion Rate",
+          "type": "number",
+          "placeholder": "Enter conversion rate",
+          "required": false
+        },
+        {
+          "id": "jun_2026_revenue_generated",
+          "label": "Jun 2026 - Revenue Generated",
+          "type": "number",
+          "placeholder": "Enter revenue generated",
+          "required": false
+        },
+        {
+          "id": "jun_2026_rewards_paid",
+          "label": "Jun 2026 - Rewards Paid",
+          "type": "text",
+          "placeholder": "Enter rewards paid",
+          "required": false
+        },
+        {
+          "id": "jun_2026_net_revenue",
+          "label": "Jun 2026 - Net Revenue",
+          "type": "number",
+          "placeholder": "Enter net revenue",
+          "required": false
+        },
+        {
+          "id": "jun_2026_cost_per_acquisition",
+          "label": "Jun 2026 - Cost per Acquisition",
+          "type": "number",
+          "placeholder": "Enter cost per acquisition",
+          "required": false
+        },
+        {
+          "id": "jun_2026_programme_roi",
+          "label": "Jun 2026 - Programme ROI",
+          "type": "number",
+          "placeholder": "Enter programme roi",
+          "required": false
+        },
+        {
+          "id": "jul_2026_new_advocates",
+          "label": "Jul 2026 - New Advocates",
+          "type": "number",
+          "placeholder": "Enter new advocates",
+          "required": false
+        },
+        {
+          "id": "jul_2026_referrals_sent",
+          "label": "Jul 2026 - Referrals Sent",
+          "type": "text",
+          "placeholder": "Enter referrals sent",
+          "required": false
+        },
+        {
+          "id": "jul_2026_referrals_converted",
+          "label": "Jul 2026 - Referrals Converted",
+          "type": "text",
+          "placeholder": "Enter referrals converted",
+          "required": false
+        },
+        {
+          "id": "jul_2026_conversion_rate",
+          "label": "Jul 2026 - Conversion Rate",
+          "type": "number",
+          "placeholder": "Enter conversion rate",
+          "required": false
+        },
+        {
+          "id": "jul_2026_revenue_generated",
+          "label": "Jul 2026 - Revenue Generated",
+          "type": "number",
+          "placeholder": "Enter revenue generated",
+          "required": false
+        },
+        {
+          "id": "jul_2026_rewards_paid",
+          "label": "Jul 2026 - Rewards Paid",
+          "type": "text",
+          "placeholder": "Enter rewards paid",
+          "required": false
+        },
+        {
+          "id": "jul_2026_net_revenue",
+          "label": "Jul 2026 - Net Revenue",
+          "type": "number",
+          "placeholder": "Enter net revenue",
+          "required": false
+        },
+        {
+          "id": "jul_2026_cost_per_acquisition",
+          "label": "Jul 2026 - Cost per Acquisition",
+          "type": "number",
+          "placeholder": "Enter cost per acquisition",
+          "required": false
+        },
+        {
+          "id": "jul_2026_programme_roi",
+          "label": "Jul 2026 - Programme ROI",
+          "type": "number",
+          "placeholder": "Enter programme roi",
+          "required": false
+        },
+        {
+          "id": "aug_2026_new_advocates",
+          "label": "Aug 2026 - New Advocates",
+          "type": "number",
+          "placeholder": "Enter new advocates",
+          "required": false
+        },
+        {
+          "id": "aug_2026_referrals_sent",
+          "label": "Aug 2026 - Referrals Sent",
+          "type": "text",
+          "placeholder": "Enter referrals sent",
+          "required": false
+        },
+        {
+          "id": "aug_2026_referrals_converted",
+          "label": "Aug 2026 - Referrals Converted",
+          "type": "text",
+          "placeholder": "Enter referrals converted",
+          "required": false
+        },
+        {
+          "id": "aug_2026_conversion_rate",
+          "label": "Aug 2026 - Conversion Rate",
+          "type": "number",
+          "placeholder": "Enter conversion rate",
+          "required": false
+        },
+        {
+          "id": "aug_2026_revenue_generated",
+          "label": "Aug 2026 - Revenue Generated",
+          "type": "number",
+          "placeholder": "Enter revenue generated",
+          "required": false
+        },
+        {
+          "id": "aug_2026_rewards_paid",
+          "label": "Aug 2026 - Rewards Paid",
+          "type": "text",
+          "placeholder": "Enter rewards paid",
+          "required": false
+        },
+        {
+          "id": "aug_2026_net_revenue",
+          "label": "Aug 2026 - Net Revenue",
+          "type": "number",
+          "placeholder": "Enter net revenue",
+          "required": false
+        },
+        {
+          "id": "aug_2026_cost_per_acquisition",
+          "label": "Aug 2026 - Cost per Acquisition",
+          "type": "number",
+          "placeholder": "Enter cost per acquisition",
+          "required": false
+        },
+        {
+          "id": "aug_2026_programme_roi",
+          "label": "Aug 2026 - Programme ROI",
+          "type": "number",
+          "placeholder": "Enter programme roi",
+          "required": false
+        },
+        {
+          "id": "sep_2026_new_advocates",
+          "label": "Sep 2026 - New Advocates",
+          "type": "number",
+          "placeholder": "Enter new advocates",
+          "required": false
+        },
+        {
+          "id": "sep_2026_referrals_sent",
+          "label": "Sep 2026 - Referrals Sent",
+          "type": "text",
+          "placeholder": "Enter referrals sent",
+          "required": false
+        },
+        {
+          "id": "sep_2026_referrals_converted",
+          "label": "Sep 2026 - Referrals Converted",
+          "type": "text",
+          "placeholder": "Enter referrals converted",
+          "required": false
+        },
+        {
+          "id": "sep_2026_conversion_rate",
+          "label": "Sep 2026 - Conversion Rate",
+          "type": "number",
+          "placeholder": "Enter conversion rate",
+          "required": false
+        },
+        {
+          "id": "sep_2026_revenue_generated",
+          "label": "Sep 2026 - Revenue Generated",
+          "type": "number",
+          "placeholder": "Enter revenue generated",
+          "required": false
+        },
+        {
+          "id": "sep_2026_rewards_paid",
+          "label": "Sep 2026 - Rewards Paid",
+          "type": "text",
+          "placeholder": "Enter rewards paid",
+          "required": false
+        },
+        {
+          "id": "sep_2026_net_revenue",
+          "label": "Sep 2026 - Net Revenue",
+          "type": "number",
+          "placeholder": "Enter net revenue",
+          "required": false
+        },
+        {
+          "id": "sep_2026_cost_per_acquisition",
+          "label": "Sep 2026 - Cost per Acquisition",
+          "type": "number",
+          "placeholder": "Enter cost per acquisition",
+          "required": false
+        },
+        {
+          "id": "sep_2026_programme_roi",
+          "label": "Sep 2026 - Programme ROI",
+          "type": "number",
+          "placeholder": "Enter programme roi",
+          "required": false
+        },
+        {
+          "id": "oct_2026_new_advocates",
+          "label": "Oct 2026 - New Advocates",
+          "type": "number",
+          "placeholder": "Enter new advocates",
+          "required": false
+        },
+        {
+          "id": "oct_2026_referrals_sent",
+          "label": "Oct 2026 - Referrals Sent",
+          "type": "text",
+          "placeholder": "Enter referrals sent",
+          "required": false
+        },
+        {
+          "id": "oct_2026_referrals_converted",
+          "label": "Oct 2026 - Referrals Converted",
+          "type": "text",
+          "placeholder": "Enter referrals converted",
+          "required": false
+        },
+        {
+          "id": "oct_2026_conversion_rate",
+          "label": "Oct 2026 - Conversion Rate",
+          "type": "number",
+          "placeholder": "Enter conversion rate",
+          "required": false
+        },
+        {
+          "id": "oct_2026_revenue_generated",
+          "label": "Oct 2026 - Revenue Generated",
+          "type": "number",
+          "placeholder": "Enter revenue generated",
+          "required": false
+        },
+        {
+          "id": "oct_2026_rewards_paid",
+          "label": "Oct 2026 - Rewards Paid",
+          "type": "text",
+          "placeholder": "Enter rewards paid",
+          "required": false
+        },
+        {
+          "id": "oct_2026_net_revenue",
+          "label": "Oct 2026 - Net Revenue",
+          "type": "number",
+          "placeholder": "Enter net revenue",
+          "required": false
+        },
+        {
+          "id": "oct_2026_cost_per_acquisition",
+          "label": "Oct 2026 - Cost per Acquisition",
+          "type": "number",
+          "placeholder": "Enter cost per acquisition",
+          "required": false
+        },
+        {
+          "id": "oct_2026_programme_roi",
+          "label": "Oct 2026 - Programme ROI",
+          "type": "number",
+          "placeholder": "Enter programme roi",
+          "required": false
+        },
+        {
+          "id": "nov_2026_new_advocates",
+          "label": "Nov 2026 - New Advocates",
+          "type": "number",
+          "placeholder": "Enter new advocates",
+          "required": false
+        },
+        {
+          "id": "nov_2026_referrals_sent",
+          "label": "Nov 2026 - Referrals Sent",
+          "type": "text",
+          "placeholder": "Enter referrals sent",
+          "required": false
+        },
+        {
+          "id": "nov_2026_referrals_converted",
+          "label": "Nov 2026 - Referrals Converted",
+          "type": "text",
+          "placeholder": "Enter referrals converted",
+          "required": false
+        },
+        {
+          "id": "nov_2026_conversion_rate",
+          "label": "Nov 2026 - Conversion Rate",
+          "type": "number",
+          "placeholder": "Enter conversion rate",
+          "required": false
+        },
+        {
+          "id": "nov_2026_revenue_generated",
+          "label": "Nov 2026 - Revenue Generated",
+          "type": "number",
+          "placeholder": "Enter revenue generated",
+          "required": false
+        },
+        {
+          "id": "nov_2026_rewards_paid",
+          "label": "Nov 2026 - Rewards Paid",
+          "type": "text",
+          "placeholder": "Enter rewards paid",
+          "required": false
+        },
+        {
+          "id": "nov_2026_net_revenue",
+          "label": "Nov 2026 - Net Revenue",
+          "type": "number",
+          "placeholder": "Enter net revenue",
+          "required": false
+        },
+        {
+          "id": "nov_2026_cost_per_acquisition",
+          "label": "Nov 2026 - Cost per Acquisition",
+          "type": "number",
+          "placeholder": "Enter cost per acquisition",
+          "required": false
+        },
+        {
+          "id": "nov_2026_programme_roi",
+          "label": "Nov 2026 - Programme ROI",
+          "type": "number",
+          "placeholder": "Enter programme roi",
+          "required": false
+        },
+        {
+          "id": "dec_2026_new_advocates",
+          "label": "Dec 2026 - New Advocates",
+          "type": "number",
+          "placeholder": "Enter new advocates",
+          "required": false
+        },
+        {
+          "id": "dec_2026_referrals_sent",
+          "label": "Dec 2026 - Referrals Sent",
+          "type": "text",
+          "placeholder": "Enter referrals sent",
+          "required": false
+        },
+        {
+          "id": "dec_2026_referrals_converted",
+          "label": "Dec 2026 - Referrals Converted",
+          "type": "text",
+          "placeholder": "Enter referrals converted",
+          "required": false
+        },
+        {
+          "id": "dec_2026_conversion_rate",
+          "label": "Dec 2026 - Conversion Rate",
+          "type": "number",
+          "placeholder": "Enter conversion rate",
+          "required": false
+        },
+        {
+          "id": "dec_2026_revenue_generated",
+          "label": "Dec 2026 - Revenue Generated",
+          "type": "number",
+          "placeholder": "Enter revenue generated",
+          "required": false
+        },
+        {
+          "id": "dec_2026_rewards_paid",
+          "label": "Dec 2026 - Rewards Paid",
+          "type": "text",
+          "placeholder": "Enter rewards paid",
+          "required": false
+        },
+        {
+          "id": "dec_2026_net_revenue",
+          "label": "Dec 2026 - Net Revenue",
+          "type": "number",
+          "placeholder": "Enter net revenue",
+          "required": false
+        },
+        {
+          "id": "dec_2026_cost_per_acquisition",
+          "label": "Dec 2026 - Cost per Acquisition",
+          "type": "number",
+          "placeholder": "Enter cost per acquisition",
+          "required": false
+        },
+        {
+          "id": "dec_2026_programme_roi",
+          "label": "Dec 2026 - Programme ROI",
+          "type": "number",
+          "placeholder": "Enter programme roi",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "invitation_email",
+      "title": "Invitation Email",
+      "description": "[Communication Templates] Complete the Invitation Email section",
+      "fields": []
+    },
+    {
+      "id": "referral_sent_confirmation",
+      "title": "Referral Sent Confirmation",
+      "description": "[Communication Templates] Complete the Referral Sent Confirmation section",
+      "fields": []
+    },
+    {
+      "id": "conversion_notification",
+      "title": "Conversion Notification",
+      "description": "[Communication Templates] Complete the Conversion Notification section",
+      "fields": []
+    },
+    {
+      "id": "tier_upgrade",
+      "title": "Tier Upgrade",
+      "description": "[Communication Templates] Complete the Tier Upgrade section",
+      "fields": []
+    },
+    {
+      "id": "reengagement",
+      "title": "Re-engagement",
+      "description": "[Communication Templates] Complete the Re-engagement section",
+      "fields": []
+    },
+    {
+      "id": "thank_you_referee",
+      "title": "Thank You (Referee)",
+      "description": "[Communication Templates] Complete the Thank You (Referee) section",
+      "fields": []
+    }
+  ]
 }

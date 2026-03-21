@@ -11,197 +11,6 @@
     "content"
   ],
   "estimatedTime": "45 min",
-  "sections": [
-    {
-      "id": "dashboard",
-      "title": "Dashboard",
-      "description": "Complete the Dashboard section",
-      "fields": [
-        {
-          "id": "episodes_published_0",
-          "label": "Episodes Published",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "episodes_in_pipeline_1",
-          "label": "Episodes in Pipeline",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "total_downloads_2",
-          "label": "Total Downloads",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "avg_downloads_per_episode_3",
-          "label": "Avg Downloads per Episode",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "guests_confirmed_4",
-          "label": "Guests Confirmed",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "sponsorship_revenue_5",
-          "label": "Sponsorship Revenue",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "content_pieces_repurposed_6",
-          "label": "Content Pieces Repurposed",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "show_strategy",
-      "title": "Show Strategy",
-      "description": "Complete the Show Strategy section",
-      "fields": [
-        {
-          "id": "tagline_0",
-          "label": "Tagline",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "format_1",
-          "label": "Format",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "episode_length_2",
-          "label": "Episode Length",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "release_frequency_3",
-          "label": "Release Frequency",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "target_audience_4",
-          "label": "Target Audience",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "primary_goal_5",
-          "label": "Primary Goal",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "content_pillars_6",
-          "label": "Content Pillars",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "hosting_platform_7",
-          "label": "Hosting Platform",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "distribution_channels_8",
-          "label": "Distribution Channels",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "show_host_s_9",
-          "label": "Show Host(s)",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "season_length_10",
-          "label": "Season Length",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "promotion_plan",
-      "title": "Promotion Plan",
-      "description": "Complete the Promotion Plan section",
-      "fields": [
-        {
-          "id": "newsletter_feature_0",
-          "label": "Newsletter feature",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "quote_graphic_link_1",
-          "label": "Quote graphic + link",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "carousel_highlights_2",
-          "label": "Carousel highlights",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "thread_of_key_takeaways_3",
-          "label": "Thread of key takeaways",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "full_video_or_clips_4",
-          "label": "Full video or clips",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "show_notes_embedded_player_5",
-          "label": "Show notes + embedded player",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    }
-  ],
   "dashboard": {
     "metrics": [
       {
@@ -230,5 +39,621 @@
         "format": "number"
       }
     ]
-  }
+  },
+  "sections": [
+    {
+      "id": "dashboard",
+      "title": "Dashboard",
+      "description": "Auto-calculated summary of your data. Complete the working sections to see results here.",
+      "readOnly": true,
+      "fields": [
+        {
+          "id": "dashboard_overview",
+          "label": "Dashboard Overview",
+          "type": "textarea",
+          "placeholder": "Dashboard metrics will be calculated from your inputs in the working sections",
+          "required": false,
+          "readOnly": true
+        }
+      ]
+    },
+    {
+      "id": "show_name",
+      "title": "Show Name",
+      "description": "[Show Strategy] Complete the Show Name section",
+      "fields": []
+    },
+    {
+      "id": "tagline",
+      "title": "Tagline",
+      "description": "[Show Strategy] Complete the Tagline section",
+      "fields": []
+    },
+    {
+      "id": "format",
+      "title": "Format",
+      "description": "[Show Strategy] Complete the Format section",
+      "fields": []
+    },
+    {
+      "id": "episode_length",
+      "title": "Episode Length",
+      "description": "[Show Strategy] Complete the Episode Length section",
+      "fields": []
+    },
+    {
+      "id": "release_frequency",
+      "title": "Release Frequency",
+      "description": "[Show Strategy] Complete the Release Frequency section",
+      "fields": []
+    },
+    {
+      "id": "target_audience",
+      "title": "Target Audience",
+      "description": "[Show Strategy] Complete the Target Audience section",
+      "fields": []
+    },
+    {
+      "id": "primary_goal",
+      "title": "Primary Goal",
+      "description": "[Show Strategy] Complete the Primary Goal section",
+      "fields": []
+    },
+    {
+      "id": "content_pillars",
+      "title": "Content Pillars",
+      "description": "[Show Strategy] Complete the Content Pillars section",
+      "fields": []
+    },
+    {
+      "id": "hosting_platform",
+      "title": "Hosting Platform",
+      "description": "[Show Strategy] Complete the Hosting Platform section",
+      "fields": []
+    },
+    {
+      "id": "distribution_channels",
+      "title": "Distribution Channels",
+      "description": "[Show Strategy] Complete the Distribution Channels section",
+      "fields": []
+    },
+    {
+      "id": "show_hosts",
+      "title": "Show Host(s)",
+      "description": "[Show Strategy] Complete the Show Host(s) section",
+      "fields": []
+    },
+    {
+      "id": "season_length",
+      "title": "Season Length",
+      "description": "[Show Strategy] Complete the Season Length section",
+      "fields": []
+    },
+    {
+      "id": "episode_planner",
+      "title": "Episode Planner",
+      "description": "Add entries below. Each entry has the following fields.",
+      "fields": [
+        {
+          "id": "entry_episode",
+          "label": "Episode #",
+          "type": "text",
+          "placeholder": "Enter episode #",
+          "required": false
+        },
+        {
+          "id": "entry_title",
+          "label": "Title",
+          "type": "text",
+          "placeholder": "Enter title",
+          "required": false
+        },
+        {
+          "id": "entry_topic",
+          "label": "Topic",
+          "type": "text",
+          "placeholder": "Enter topic",
+          "required": false
+        },
+        {
+          "id": "entry_guest",
+          "label": "Guest",
+          "type": "text",
+          "placeholder": "Enter guest",
+          "required": false
+        },
+        {
+          "id": "entry_record_date",
+          "label": "Record Date",
+          "type": "text",
+          "placeholder": "Enter record date",
+          "required": false
+        },
+        {
+          "id": "entry_edit_due",
+          "label": "Edit Due",
+          "type": "text",
+          "placeholder": "Enter edit due",
+          "required": false
+        },
+        {
+          "id": "entry_publish_date",
+          "label": "Publish Date",
+          "type": "text",
+          "placeholder": "Enter publish date",
+          "required": false
+        },
+        {
+          "id": "entry_status",
+          "label": "Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "entry_season",
+          "label": "Season",
+          "type": "text",
+          "placeholder": "Enter season",
+          "required": false
+        },
+        {
+          "id": "entry_content_pillar",
+          "label": "Content Pillar",
+          "type": "text",
+          "placeholder": "Enter content pillar",
+          "required": false
+        },
+        {
+          "id": "entry_notes",
+          "label": "Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "guest_manager",
+      "title": "Guest Manager",
+      "description": "Add entries below. Each entry has the following fields.",
+      "fields": [
+        {
+          "id": "entry_guest_name",
+          "label": "Guest Name",
+          "type": "text",
+          "placeholder": "Enter guest name",
+          "required": false
+        },
+        {
+          "id": "entry_title",
+          "label": "Title",
+          "type": "text",
+          "placeholder": "Enter title",
+          "required": false
+        },
+        {
+          "id": "entry_company",
+          "label": "Company",
+          "type": "text",
+          "placeholder": "Enter company",
+          "required": false
+        },
+        {
+          "id": "entry_email",
+          "label": "Email",
+          "type": "text",
+          "placeholder": "Enter email",
+          "required": false
+        },
+        {
+          "id": "entry_episode_topic",
+          "label": "Episode Topic",
+          "type": "text",
+          "placeholder": "Enter episode topic",
+          "required": false
+        },
+        {
+          "id": "entry_outreach_date",
+          "label": "Outreach Date",
+          "type": "text",
+          "placeholder": "Enter outreach date",
+          "required": false
+        },
+        {
+          "id": "entry_status",
+          "label": "Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "entry_record_date",
+          "label": "Record Date",
+          "type": "text",
+          "placeholder": "Enter record date",
+          "required": false
+        },
+        {
+          "id": "entry_bio_received",
+          "label": "Bio Received",
+          "type": "text",
+          "placeholder": "Enter bio received",
+          "required": false
+        },
+        {
+          "id": "entry_photo_received",
+          "label": "Photo Received",
+          "type": "text",
+          "placeholder": "Enter photo received",
+          "required": false
+        },
+        {
+          "id": "entry_notes",
+          "label": "Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "production_workflow",
+      "title": "Production Workflow",
+      "description": "Add entries below. Each entry has the following fields.",
+      "fields": [
+        {
+          "id": "entry_episode",
+          "label": "Episode #",
+          "type": "text",
+          "placeholder": "Enter episode #",
+          "required": false
+        },
+        {
+          "id": "entry_title",
+          "label": "Title",
+          "type": "text",
+          "placeholder": "Enter title",
+          "required": false
+        },
+        {
+          "id": "entry_recording_done",
+          "label": "Recording Done",
+          "type": "text",
+          "placeholder": "Enter recording done",
+          "required": false
+        },
+        {
+          "id": "entry_raw_edit",
+          "label": "Raw Edit",
+          "type": "text",
+          "placeholder": "Enter raw edit",
+          "required": false
+        },
+        {
+          "id": "entry_sound_design",
+          "label": "Sound Design",
+          "type": "text",
+          "placeholder": "Enter sound design",
+          "required": false
+        },
+        {
+          "id": "entry_show_notes",
+          "label": "Show Notes",
+          "type": "textarea",
+          "placeholder": "Enter show notes",
+          "required": false
+        },
+        {
+          "id": "entry_transcript",
+          "label": "Transcript",
+          "type": "text",
+          "placeholder": "Enter transcript",
+          "required": false
+        },
+        {
+          "id": "entry_artwork",
+          "label": "Artwork",
+          "type": "text",
+          "placeholder": "Enter artwork",
+          "required": false
+        },
+        {
+          "id": "entry_upload",
+          "label": "Upload",
+          "type": "text",
+          "placeholder": "Enter upload",
+          "required": false
+        },
+        {
+          "id": "entry_published",
+          "label": "Published",
+          "type": "text",
+          "placeholder": "Enter published",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "promotion_plan",
+      "title": "Promotion Plan",
+      "description": "Add entries below. Each entry has the following fields.",
+      "fields": [
+        {
+          "id": "entry_episode",
+          "label": "Episode",
+          "type": "text",
+          "placeholder": "Enter episode",
+          "required": false
+        },
+        {
+          "id": "entry_channel",
+          "label": "Channel",
+          "type": "select",
+          "placeholder": "Enter channel",
+          "required": false,
+          "options": [
+            "Blog",
+            "Social Media",
+            "Email",
+            "Video",
+            "Paid Search",
+            "Paid Social",
+            "SEO",
+            "Events",
+            "PR"
+          ]
+        },
+        {
+          "id": "entry_content_type",
+          "label": "Content Type",
+          "type": "select",
+          "placeholder": "Enter content type",
+          "required": false,
+          "options": [
+            "Blog Post",
+            "Video",
+            "Infographic",
+            "Case Study",
+            "Whitepaper",
+            "Newsletter",
+            "Social Post",
+            "Webinar"
+          ]
+        },
+        {
+          "id": "entry_copy",
+          "label": "Copy",
+          "type": "text",
+          "placeholder": "Enter copy",
+          "required": false
+        },
+        {
+          "id": "entry_visual",
+          "label": "Visual",
+          "type": "text",
+          "placeholder": "Enter visual",
+          "required": false
+        },
+        {
+          "id": "entry_post_date",
+          "label": "Post Date",
+          "type": "text",
+          "placeholder": "Enter post date",
+          "required": false
+        },
+        {
+          "id": "entry_status",
+          "label": "Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "entry_owner",
+          "label": "Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "entry_notes",
+          "label": "Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "content_repurposing",
+      "title": "Content Repurposing",
+      "description": "Add entries below. Each entry has the following fields.",
+      "fields": [
+        {
+          "id": "entry_episode",
+          "label": "Episode",
+          "type": "text",
+          "placeholder": "Enter episode",
+          "required": false
+        },
+        {
+          "id": "entry_content_type",
+          "label": "Content Type",
+          "type": "select",
+          "placeholder": "Enter content type",
+          "required": false,
+          "options": [
+            "Blog Post",
+            "Video",
+            "Infographic",
+            "Case Study",
+            "Whitepaper",
+            "Newsletter",
+            "Social Post",
+            "Webinar"
+          ]
+        },
+        {
+          "id": "entry_title",
+          "label": "Title",
+          "type": "text",
+          "placeholder": "Enter title",
+          "required": false
+        },
+        {
+          "id": "entry_platform",
+          "label": "Platform",
+          "type": "text",
+          "placeholder": "Enter platform",
+          "required": false
+        },
+        {
+          "id": "entry_status",
+          "label": "Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "entry_owner",
+          "label": "Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "entry_publish_date",
+          "label": "Publish Date",
+          "type": "text",
+          "placeholder": "Enter publish date",
+          "required": false
+        },
+        {
+          "id": "entry_performance",
+          "label": "Performance",
+          "type": "text",
+          "placeholder": "Enter performance",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "performance_tracker",
+      "title": "Performance Tracker",
+      "description": "Add entries below. Each entry has the following fields.",
+      "fields": [
+        {
+          "id": "entry_episode",
+          "label": "Episode #",
+          "type": "text",
+          "placeholder": "Enter episode #",
+          "required": false
+        },
+        {
+          "id": "entry_title",
+          "label": "Title",
+          "type": "text",
+          "placeholder": "Enter title",
+          "required": false
+        },
+        {
+          "id": "entry_publish_date",
+          "label": "Publish Date",
+          "type": "text",
+          "placeholder": "Enter publish date",
+          "required": false
+        },
+        {
+          "id": "entry_downloads_30d",
+          "label": "Downloads (30d)",
+          "type": "text",
+          "placeholder": "Enter downloads (30d)",
+          "required": false
+        },
+        {
+          "id": "entry_downloads_all",
+          "label": "Downloads (All)",
+          "type": "text",
+          "placeholder": "Enter downloads (all)",
+          "required": false
+        },
+        {
+          "id": "entry_avg_listen",
+          "label": "Avg Listen %",
+          "type": "number",
+          "placeholder": "Enter avg listen %",
+          "required": false
+        },
+        {
+          "id": "entry_rating",
+          "label": "Rating",
+          "type": "scale",
+          "placeholder": "Enter rating",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "entry_reviews",
+          "label": "Reviews",
+          "type": "text",
+          "placeholder": "Enter reviews",
+          "required": false
+        },
+        {
+          "id": "entry_social_shares",
+          "label": "Social Shares",
+          "type": "text",
+          "placeholder": "Enter social shares",
+          "required": false
+        },
+        {
+          "id": "entry_website_visits",
+          "label": "Website Visits",
+          "type": "text",
+          "placeholder": "Enter website visits",
+          "required": false
+        },
+        {
+          "id": "entry_leads_generated",
+          "label": "Leads Generated",
+          "type": "number",
+          "placeholder": "Enter leads generated",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "monetisation_tracker",
+      "title": "Monetisation Tracker",
+      "description": "Enter data for each item",
+      "fields": []
+    }
+  ]
 }

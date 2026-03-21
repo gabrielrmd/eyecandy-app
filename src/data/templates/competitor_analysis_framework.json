@@ -10,1023 +10,6 @@
     "research"
   ],
   "estimatedTime": "70 min",
-  "sections": [
-    {
-      "id": "dashboard",
-      "title": "Dashboard",
-      "description": "Complete the Dashboard section",
-      "fields": [
-        {
-          "id": "competitor_1_0",
-          "label": "Competitor 1",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "competitor_2_1",
-          "label": "Competitor 2",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "competitor_3_2",
-          "label": "Competitor 3",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "competitor_4_3",
-          "label": "Competitor 4",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "competitor_5_4",
-          "label": "Competitor 5",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "company_5",
-          "label": "Company",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "your_company_6",
-          "label": "Your Company",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "avg_feature_score_7",
-          "label": "Avg Feature Score",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "features_you_lead_8",
-          "label": "Features You Lead",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "features_they_lead_9",
-          "label": "Features They Lead",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "marketing_strength_comparison_10",
-          "label": "MARKETING STRENGTH COMPARISON",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "dimension_11",
-          "label": "Dimension",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "your_company_12",
-          "label": "Your Company",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "competitor_1_13",
-          "label": "Competitor 1",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "competitor_2_14",
-          "label": "Competitor 2",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "competitor_3_15",
-          "label": "Competitor 3",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "competitor_4_16",
-          "label": "Competitor 4",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "competitor_5_17",
-          "label": "Competitor 5",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "seo_presence_18",
-          "label": "SEO Presence",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "social_following_19",
-          "label": "Social Following",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "content_quality_20",
-          "label": "Content Quality",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "brand_awareness_21",
-          "label": "Brand Awareness",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "ad_spend_22",
-          "label": "Ad Spend",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "marketing_avg_23",
-          "label": "Marketing Avg",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "strategic_summary_24",
-          "label": "STRATEGIC SUMMARY",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "your_strongest_differentiator_25",
-          "label": "Your Strongest Differentiator",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "review_feature_comparison_where_is_your__26",
-          "label": "Review Feature Comparison — where is your biggest lead?",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "your_biggest_vulnerability_27",
-          "label": "Your Biggest Vulnerability",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "where_do_most_competitors_outscore_you_28",
-          "label": "Where do most competitors outscore you?",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "market_gap_opportunity_29",
-          "label": "Market Gap Opportunity",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "competitor_profiles",
-      "title": "Competitor Profiles",
-      "description": "Complete the Competitor Profiles section",
-      "fields": [
-        {
-          "id": "competitor_1_0",
-          "label": "Competitor 1",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "competitor_2_1",
-          "label": "Competitor 2",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "competitor_3_2",
-          "label": "Competitor 3",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "competitor_4_3",
-          "label": "Competitor 4",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "competitor_5_4",
-          "label": "Competitor 5",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "website_url_5",
-          "label": "Website URL",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "founded_6",
-          "label": "Founded",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "headquarters_7",
-          "label": "Headquarters",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "company_size_8",
-          "label": "Company Size",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "annual_revenue_9",
-          "label": "Annual Revenue",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "funding_stage_10",
-          "label": "Funding Stage",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "target_market_11",
-          "label": "Target Market",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "primary_audience_12",
-          "label": "Primary Audience",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "positioning_statement_13",
-          "label": "Positioning Statement",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "key_value_prop_14",
-          "label": "Key Value Prop",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "pricing_model_15",
-          "label": "Pricing Model",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "price_range_16",
-          "label": "Price Range",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "free_tier_17",
-          "label": "Free Tier?",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "core_product_18",
-          "label": "Core Product",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "key_differentiator_19",
-          "label": "Key Differentiator",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "biggest_weakness_20",
-          "label": "Biggest Weakness",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "nps_review_score_21",
-          "label": "NPS / Review Score",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "g2_capterra_rating_22",
-          "label": "G2/Capterra Rating",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "market_share_est_23",
-          "label": "Market Share Est.",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "feature_comparison",
-      "title": "Feature Comparison",
-      "description": "Complete the Feature Comparison section",
-      "fields": [
-        {
-          "id": "competitor_1_0",
-          "label": "Competitor 1",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "competitor_2_1",
-          "label": "Competitor 2",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "competitor_3_2",
-          "label": "Competitor 3",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "competitor_4_3",
-          "label": "Competitor 4",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "competitor_5_4",
-          "label": "Competitor 5",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "core_product_quality_5",
-          "label": "Core Product Quality",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "ease_of_use_ux_6",
-          "label": "Ease of Use / UX",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "feature_breadth_7",
-          "label": "Feature Breadth",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "feature_depth_8",
-          "label": "Feature Depth",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "onboarding_experience_9",
-          "label": "Onboarding Experience",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "customer_support_10",
-          "label": "Customer Support",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "documentation_11",
-          "label": "Documentation",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "integration_ecosystem_12",
-          "label": "Integration Ecosystem",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "mobile_experience_13",
-          "label": "Mobile Experience",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "performance_speed_14",
-          "label": "Performance / Speed",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "security_compliance_15",
-          "label": "Security & Compliance",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "customization_16",
-          "label": "Customization",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "analytics_reporting_17",
-          "label": "Analytics & Reporting",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "pricing_competitiveness_18",
-          "label": "Pricing Competitiveness",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "brand_recognition_19",
-          "label": "Brand Recognition",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "content_marketing_20",
-          "label": "Content Marketing",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "sales_process_21",
-          "label": "Sales Process",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "customer_success_22",
-          "label": "Customer Success",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "innovation_pace_23",
-          "label": "Innovation Pace",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "community_24",
-          "label": "Community",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "average_score_25",
-          "label": "AVERAGE SCORE",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "marketing_analysis",
-      "title": "Marketing Analysis",
-      "description": "Complete the Marketing Analysis section",
-      "fields": [
-        {
-          "id": "competitor_1_0",
-          "label": "Competitor 1",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "competitor_2_1",
-          "label": "Competitor 2",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "competitor_3_2",
-          "label": "Competitor 3",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "competitor_4_3",
-          "label": "Competitor 4",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "competitor_5_4",
-          "label": "Competitor 5",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "seo_presence_5",
-          "label": "SEO Presence",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "social_following_6",
-          "label": "Social Following",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "content_quality_7",
-          "label": "Content Quality",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "brand_awareness_8",
-          "label": "Brand Awareness",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "ad_spend_9",
-          "label": "Ad Spend",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "email_marketing_10",
-          "label": "Email Marketing",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "event_presence_11",
-          "label": "Event Presence",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "pr_coverage_12",
-          "label": "PR Coverage",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "partner_network_13",
-          "label": "Partner Network",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "community_building_14",
-          "label": "Community Building",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "average_15",
-          "label": "AVERAGE",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "channel_strategy_comparison_16",
-          "label": "CHANNEL STRATEGY COMPARISON",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "dimension_17",
-          "label": "Dimension",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "your_company_18",
-          "label": "Your Company",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "competitor_1_19",
-          "label": "Competitor 1",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "competitor_2_20",
-          "label": "Competitor 2",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "competitor_3_21",
-          "label": "Competitor 3",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "competitor_4_22",
-          "label": "Competitor 4",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "competitor_5_23",
-          "label": "Competitor 5",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "primary_channel_24",
-          "label": "Primary Channel",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "secondary_channel_25",
-          "label": "Secondary Channel",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "content_frequency_26",
-          "label": "Content Frequency",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "tone_voice_27",
-          "label": "Tone / Voice",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "key_message_28",
-          "label": "Key Message",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "cta_style_29",
-          "label": "CTA Style",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "battlecards",
-      "title": "Battlecards",
-      "description": "Complete the Battlecards section",
-      "fields": [
-        {
-          "id": "their_elevator_pitch_0",
-          "label": "Their Elevator Pitch",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "their_target_customer_1",
-          "label": "Their Target Customer",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "their_pricing_2",
-          "label": "Their Pricing",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "their_key_strength_3",
-          "label": "Their Key Strength",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "their_key_weakness_4",
-          "label": "Their Key Weakness",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "when_they_win_5",
-          "label": "When They Win",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "when_we_win_6",
-          "label": "When We Win",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "their_objection_to_us_7",
-          "label": "Their Objection to Us",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "our_counter_argument_8",
-          "label": "Our Counter-Argument",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "landmines_to_set_9",
-          "label": "Landmines to Set",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "proof_points_to_use_10",
-          "label": "Proof Points to Use",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "battlecard_2_11",
-          "label": "BATTLECARD #2",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "competitor_name_12",
-          "label": "Competitor Name",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "their_elevator_pitch_13",
-          "label": "Their Elevator Pitch",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "their_target_customer_14",
-          "label": "Their Target Customer",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "their_pricing_15",
-          "label": "Their Pricing",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "their_key_strength_16",
-          "label": "Their Key Strength",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "their_key_weakness_17",
-          "label": "Their Key Weakness",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "when_they_win_18",
-          "label": "When They Win",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "when_we_win_19",
-          "label": "When We Win",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "their_objection_to_us_20",
-          "label": "Their Objection to Us",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "our_counter_argument_21",
-          "label": "Our Counter-Argument",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "landmines_to_set_22",
-          "label": "Landmines to Set",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "proof_points_to_use_23",
-          "label": "Proof Points to Use",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "battlecard_3_24",
-          "label": "BATTLECARD #3",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "competitor_name_25",
-          "label": "Competitor Name",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "their_elevator_pitch_26",
-          "label": "Their Elevator Pitch",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "their_target_customer_27",
-          "label": "Their Target Customer",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "their_pricing_28",
-          "label": "Their Pricing",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "their_key_strength_29",
-          "label": "Their Key Strength",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    }
-  ],
   "dashboard": {
     "metrics": [
       {
@@ -1055,5 +38,3318 @@
         "format": "number"
       }
     ]
-  }
+  },
+  "sections": [
+    {
+      "id": "dashboard",
+      "title": "Dashboard",
+      "description": "Auto-calculated summary of your data. Complete the working sections to see results here.",
+      "readOnly": true,
+      "fields": [
+        {
+          "id": "dashboard_overview",
+          "label": "Dashboard Overview",
+          "type": "textarea",
+          "placeholder": "Dashboard metrics will be calculated from your inputs in the working sections",
+          "required": false,
+          "readOnly": true
+        }
+      ]
+    },
+    {
+      "id": "competitor_profiles",
+      "title": "Competitor Profiles",
+      "description": "Enter data for each item",
+      "fields": [
+        {
+          "id": "company_name_your_company",
+          "label": "Company Name - Your Company",
+          "type": "text",
+          "placeholder": "Enter your company",
+          "required": false
+        },
+        {
+          "id": "company_name_competitor_1",
+          "label": "Company Name - Competitor 1",
+          "type": "text",
+          "placeholder": "Enter competitor 1",
+          "required": false
+        },
+        {
+          "id": "company_name_competitor_2",
+          "label": "Company Name - Competitor 2",
+          "type": "text",
+          "placeholder": "Enter competitor 2",
+          "required": false
+        },
+        {
+          "id": "company_name_competitor_3",
+          "label": "Company Name - Competitor 3",
+          "type": "text",
+          "placeholder": "Enter competitor 3",
+          "required": false
+        },
+        {
+          "id": "company_name_competitor_4",
+          "label": "Company Name - Competitor 4",
+          "type": "text",
+          "placeholder": "Enter competitor 4",
+          "required": false
+        },
+        {
+          "id": "company_name_competitor_5",
+          "label": "Company Name - Competitor 5",
+          "type": "text",
+          "placeholder": "Enter competitor 5",
+          "required": false
+        },
+        {
+          "id": "website_url_your_company",
+          "label": "Website URL - Your Company",
+          "type": "text",
+          "placeholder": "Enter your company",
+          "required": false
+        },
+        {
+          "id": "website_url_competitor_1",
+          "label": "Website URL - Competitor 1",
+          "type": "text",
+          "placeholder": "Enter competitor 1",
+          "required": false
+        },
+        {
+          "id": "website_url_competitor_2",
+          "label": "Website URL - Competitor 2",
+          "type": "text",
+          "placeholder": "Enter competitor 2",
+          "required": false
+        },
+        {
+          "id": "website_url_competitor_3",
+          "label": "Website URL - Competitor 3",
+          "type": "text",
+          "placeholder": "Enter competitor 3",
+          "required": false
+        },
+        {
+          "id": "website_url_competitor_4",
+          "label": "Website URL - Competitor 4",
+          "type": "text",
+          "placeholder": "Enter competitor 4",
+          "required": false
+        },
+        {
+          "id": "website_url_competitor_5",
+          "label": "Website URL - Competitor 5",
+          "type": "text",
+          "placeholder": "Enter competitor 5",
+          "required": false
+        },
+        {
+          "id": "founded_your_company",
+          "label": "Founded - Your Company",
+          "type": "text",
+          "placeholder": "Enter your company",
+          "required": false
+        },
+        {
+          "id": "founded_competitor_1",
+          "label": "Founded - Competitor 1",
+          "type": "text",
+          "placeholder": "Enter competitor 1",
+          "required": false
+        },
+        {
+          "id": "founded_competitor_2",
+          "label": "Founded - Competitor 2",
+          "type": "text",
+          "placeholder": "Enter competitor 2",
+          "required": false
+        },
+        {
+          "id": "founded_competitor_3",
+          "label": "Founded - Competitor 3",
+          "type": "text",
+          "placeholder": "Enter competitor 3",
+          "required": false
+        },
+        {
+          "id": "founded_competitor_4",
+          "label": "Founded - Competitor 4",
+          "type": "text",
+          "placeholder": "Enter competitor 4",
+          "required": false
+        },
+        {
+          "id": "founded_competitor_5",
+          "label": "Founded - Competitor 5",
+          "type": "text",
+          "placeholder": "Enter competitor 5",
+          "required": false
+        },
+        {
+          "id": "headquarters_your_company",
+          "label": "Headquarters - Your Company",
+          "type": "text",
+          "placeholder": "Enter your company",
+          "required": false
+        },
+        {
+          "id": "headquarters_competitor_1",
+          "label": "Headquarters - Competitor 1",
+          "type": "text",
+          "placeholder": "Enter competitor 1",
+          "required": false
+        },
+        {
+          "id": "headquarters_competitor_2",
+          "label": "Headquarters - Competitor 2",
+          "type": "text",
+          "placeholder": "Enter competitor 2",
+          "required": false
+        },
+        {
+          "id": "headquarters_competitor_3",
+          "label": "Headquarters - Competitor 3",
+          "type": "text",
+          "placeholder": "Enter competitor 3",
+          "required": false
+        },
+        {
+          "id": "headquarters_competitor_4",
+          "label": "Headquarters - Competitor 4",
+          "type": "text",
+          "placeholder": "Enter competitor 4",
+          "required": false
+        },
+        {
+          "id": "headquarters_competitor_5",
+          "label": "Headquarters - Competitor 5",
+          "type": "text",
+          "placeholder": "Enter competitor 5",
+          "required": false
+        },
+        {
+          "id": "company_size_your_company",
+          "label": "Company Size - Your Company",
+          "type": "text",
+          "placeholder": "Enter your company",
+          "required": false
+        },
+        {
+          "id": "company_size_competitor_1",
+          "label": "Company Size - Competitor 1",
+          "type": "text",
+          "placeholder": "Enter competitor 1",
+          "required": false
+        },
+        {
+          "id": "company_size_competitor_2",
+          "label": "Company Size - Competitor 2",
+          "type": "text",
+          "placeholder": "Enter competitor 2",
+          "required": false
+        },
+        {
+          "id": "company_size_competitor_3",
+          "label": "Company Size - Competitor 3",
+          "type": "text",
+          "placeholder": "Enter competitor 3",
+          "required": false
+        },
+        {
+          "id": "company_size_competitor_4",
+          "label": "Company Size - Competitor 4",
+          "type": "text",
+          "placeholder": "Enter competitor 4",
+          "required": false
+        },
+        {
+          "id": "company_size_competitor_5",
+          "label": "Company Size - Competitor 5",
+          "type": "text",
+          "placeholder": "Enter competitor 5",
+          "required": false
+        },
+        {
+          "id": "annual_revenue_your_company",
+          "label": "Annual Revenue - Your Company",
+          "type": "text",
+          "placeholder": "Enter your company",
+          "required": false
+        },
+        {
+          "id": "annual_revenue_competitor_1",
+          "label": "Annual Revenue - Competitor 1",
+          "type": "text",
+          "placeholder": "Enter competitor 1",
+          "required": false
+        },
+        {
+          "id": "annual_revenue_competitor_2",
+          "label": "Annual Revenue - Competitor 2",
+          "type": "text",
+          "placeholder": "Enter competitor 2",
+          "required": false
+        },
+        {
+          "id": "annual_revenue_competitor_3",
+          "label": "Annual Revenue - Competitor 3",
+          "type": "text",
+          "placeholder": "Enter competitor 3",
+          "required": false
+        },
+        {
+          "id": "annual_revenue_competitor_4",
+          "label": "Annual Revenue - Competitor 4",
+          "type": "text",
+          "placeholder": "Enter competitor 4",
+          "required": false
+        },
+        {
+          "id": "annual_revenue_competitor_5",
+          "label": "Annual Revenue - Competitor 5",
+          "type": "text",
+          "placeholder": "Enter competitor 5",
+          "required": false
+        },
+        {
+          "id": "funding_stage_your_company",
+          "label": "Funding Stage - Your Company",
+          "type": "text",
+          "placeholder": "Enter your company",
+          "required": false
+        },
+        {
+          "id": "funding_stage_competitor_1",
+          "label": "Funding Stage - Competitor 1",
+          "type": "text",
+          "placeholder": "Enter competitor 1",
+          "required": false
+        },
+        {
+          "id": "funding_stage_competitor_2",
+          "label": "Funding Stage - Competitor 2",
+          "type": "text",
+          "placeholder": "Enter competitor 2",
+          "required": false
+        },
+        {
+          "id": "funding_stage_competitor_3",
+          "label": "Funding Stage - Competitor 3",
+          "type": "text",
+          "placeholder": "Enter competitor 3",
+          "required": false
+        },
+        {
+          "id": "funding_stage_competitor_4",
+          "label": "Funding Stage - Competitor 4",
+          "type": "text",
+          "placeholder": "Enter competitor 4",
+          "required": false
+        },
+        {
+          "id": "funding_stage_competitor_5",
+          "label": "Funding Stage - Competitor 5",
+          "type": "text",
+          "placeholder": "Enter competitor 5",
+          "required": false
+        },
+        {
+          "id": "target_market_your_company",
+          "label": "Target Market - Your Company",
+          "type": "text",
+          "placeholder": "Enter your company",
+          "required": false
+        },
+        {
+          "id": "target_market_competitor_1",
+          "label": "Target Market - Competitor 1",
+          "type": "text",
+          "placeholder": "Enter competitor 1",
+          "required": false
+        },
+        {
+          "id": "target_market_competitor_2",
+          "label": "Target Market - Competitor 2",
+          "type": "text",
+          "placeholder": "Enter competitor 2",
+          "required": false
+        },
+        {
+          "id": "target_market_competitor_3",
+          "label": "Target Market - Competitor 3",
+          "type": "text",
+          "placeholder": "Enter competitor 3",
+          "required": false
+        },
+        {
+          "id": "target_market_competitor_4",
+          "label": "Target Market - Competitor 4",
+          "type": "text",
+          "placeholder": "Enter competitor 4",
+          "required": false
+        },
+        {
+          "id": "target_market_competitor_5",
+          "label": "Target Market - Competitor 5",
+          "type": "text",
+          "placeholder": "Enter competitor 5",
+          "required": false
+        },
+        {
+          "id": "primary_audience_your_company",
+          "label": "Primary Audience - Your Company",
+          "type": "text",
+          "placeholder": "Enter your company",
+          "required": false
+        },
+        {
+          "id": "primary_audience_competitor_1",
+          "label": "Primary Audience - Competitor 1",
+          "type": "text",
+          "placeholder": "Enter competitor 1",
+          "required": false
+        },
+        {
+          "id": "primary_audience_competitor_2",
+          "label": "Primary Audience - Competitor 2",
+          "type": "text",
+          "placeholder": "Enter competitor 2",
+          "required": false
+        },
+        {
+          "id": "primary_audience_competitor_3",
+          "label": "Primary Audience - Competitor 3",
+          "type": "text",
+          "placeholder": "Enter competitor 3",
+          "required": false
+        },
+        {
+          "id": "primary_audience_competitor_4",
+          "label": "Primary Audience - Competitor 4",
+          "type": "text",
+          "placeholder": "Enter competitor 4",
+          "required": false
+        },
+        {
+          "id": "primary_audience_competitor_5",
+          "label": "Primary Audience - Competitor 5",
+          "type": "text",
+          "placeholder": "Enter competitor 5",
+          "required": false
+        },
+        {
+          "id": "positioning_statement_your_company",
+          "label": "Positioning Statement - Your Company",
+          "type": "text",
+          "placeholder": "Enter your company",
+          "required": false
+        },
+        {
+          "id": "positioning_statement_competitor_1",
+          "label": "Positioning Statement - Competitor 1",
+          "type": "text",
+          "placeholder": "Enter competitor 1",
+          "required": false
+        },
+        {
+          "id": "positioning_statement_competitor_2",
+          "label": "Positioning Statement - Competitor 2",
+          "type": "text",
+          "placeholder": "Enter competitor 2",
+          "required": false
+        },
+        {
+          "id": "positioning_statement_competitor_3",
+          "label": "Positioning Statement - Competitor 3",
+          "type": "text",
+          "placeholder": "Enter competitor 3",
+          "required": false
+        },
+        {
+          "id": "positioning_statement_competitor_4",
+          "label": "Positioning Statement - Competitor 4",
+          "type": "text",
+          "placeholder": "Enter competitor 4",
+          "required": false
+        },
+        {
+          "id": "positioning_statement_competitor_5",
+          "label": "Positioning Statement - Competitor 5",
+          "type": "text",
+          "placeholder": "Enter competitor 5",
+          "required": false
+        },
+        {
+          "id": "key_value_prop_your_company",
+          "label": "Key Value Prop - Your Company",
+          "type": "text",
+          "placeholder": "Enter your company",
+          "required": false
+        },
+        {
+          "id": "key_value_prop_competitor_1",
+          "label": "Key Value Prop - Competitor 1",
+          "type": "text",
+          "placeholder": "Enter competitor 1",
+          "required": false
+        },
+        {
+          "id": "key_value_prop_competitor_2",
+          "label": "Key Value Prop - Competitor 2",
+          "type": "text",
+          "placeholder": "Enter competitor 2",
+          "required": false
+        },
+        {
+          "id": "key_value_prop_competitor_3",
+          "label": "Key Value Prop - Competitor 3",
+          "type": "text",
+          "placeholder": "Enter competitor 3",
+          "required": false
+        },
+        {
+          "id": "key_value_prop_competitor_4",
+          "label": "Key Value Prop - Competitor 4",
+          "type": "text",
+          "placeholder": "Enter competitor 4",
+          "required": false
+        },
+        {
+          "id": "key_value_prop_competitor_5",
+          "label": "Key Value Prop - Competitor 5",
+          "type": "text",
+          "placeholder": "Enter competitor 5",
+          "required": false
+        },
+        {
+          "id": "pricing_model_your_company",
+          "label": "Pricing Model - Your Company",
+          "type": "text",
+          "placeholder": "Enter your company",
+          "required": false
+        },
+        {
+          "id": "pricing_model_competitor_1",
+          "label": "Pricing Model - Competitor 1",
+          "type": "text",
+          "placeholder": "Enter competitor 1",
+          "required": false
+        },
+        {
+          "id": "pricing_model_competitor_2",
+          "label": "Pricing Model - Competitor 2",
+          "type": "text",
+          "placeholder": "Enter competitor 2",
+          "required": false
+        },
+        {
+          "id": "pricing_model_competitor_3",
+          "label": "Pricing Model - Competitor 3",
+          "type": "text",
+          "placeholder": "Enter competitor 3",
+          "required": false
+        },
+        {
+          "id": "pricing_model_competitor_4",
+          "label": "Pricing Model - Competitor 4",
+          "type": "text",
+          "placeholder": "Enter competitor 4",
+          "required": false
+        },
+        {
+          "id": "pricing_model_competitor_5",
+          "label": "Pricing Model - Competitor 5",
+          "type": "text",
+          "placeholder": "Enter competitor 5",
+          "required": false
+        },
+        {
+          "id": "price_range_your_company",
+          "label": "Price Range - Your Company",
+          "type": "text",
+          "placeholder": "Enter your company",
+          "required": false
+        },
+        {
+          "id": "price_range_competitor_1",
+          "label": "Price Range - Competitor 1",
+          "type": "text",
+          "placeholder": "Enter competitor 1",
+          "required": false
+        },
+        {
+          "id": "price_range_competitor_2",
+          "label": "Price Range - Competitor 2",
+          "type": "text",
+          "placeholder": "Enter competitor 2",
+          "required": false
+        },
+        {
+          "id": "price_range_competitor_3",
+          "label": "Price Range - Competitor 3",
+          "type": "text",
+          "placeholder": "Enter competitor 3",
+          "required": false
+        },
+        {
+          "id": "price_range_competitor_4",
+          "label": "Price Range - Competitor 4",
+          "type": "text",
+          "placeholder": "Enter competitor 4",
+          "required": false
+        },
+        {
+          "id": "price_range_competitor_5",
+          "label": "Price Range - Competitor 5",
+          "type": "text",
+          "placeholder": "Enter competitor 5",
+          "required": false
+        },
+        {
+          "id": "free_tier_your_company",
+          "label": "Free Tier? - Your Company",
+          "type": "text",
+          "placeholder": "Enter your company",
+          "required": false
+        },
+        {
+          "id": "free_tier_competitor_1",
+          "label": "Free Tier? - Competitor 1",
+          "type": "text",
+          "placeholder": "Enter competitor 1",
+          "required": false
+        },
+        {
+          "id": "free_tier_competitor_2",
+          "label": "Free Tier? - Competitor 2",
+          "type": "text",
+          "placeholder": "Enter competitor 2",
+          "required": false
+        },
+        {
+          "id": "free_tier_competitor_3",
+          "label": "Free Tier? - Competitor 3",
+          "type": "text",
+          "placeholder": "Enter competitor 3",
+          "required": false
+        },
+        {
+          "id": "free_tier_competitor_4",
+          "label": "Free Tier? - Competitor 4",
+          "type": "text",
+          "placeholder": "Enter competitor 4",
+          "required": false
+        },
+        {
+          "id": "free_tier_competitor_5",
+          "label": "Free Tier? - Competitor 5",
+          "type": "text",
+          "placeholder": "Enter competitor 5",
+          "required": false
+        },
+        {
+          "id": "core_product_your_company",
+          "label": "Core Product - Your Company",
+          "type": "text",
+          "placeholder": "Enter your company",
+          "required": false
+        },
+        {
+          "id": "core_product_competitor_1",
+          "label": "Core Product - Competitor 1",
+          "type": "text",
+          "placeholder": "Enter competitor 1",
+          "required": false
+        },
+        {
+          "id": "core_product_competitor_2",
+          "label": "Core Product - Competitor 2",
+          "type": "text",
+          "placeholder": "Enter competitor 2",
+          "required": false
+        },
+        {
+          "id": "core_product_competitor_3",
+          "label": "Core Product - Competitor 3",
+          "type": "text",
+          "placeholder": "Enter competitor 3",
+          "required": false
+        },
+        {
+          "id": "core_product_competitor_4",
+          "label": "Core Product - Competitor 4",
+          "type": "text",
+          "placeholder": "Enter competitor 4",
+          "required": false
+        },
+        {
+          "id": "core_product_competitor_5",
+          "label": "Core Product - Competitor 5",
+          "type": "text",
+          "placeholder": "Enter competitor 5",
+          "required": false
+        },
+        {
+          "id": "key_differentiator_your_company",
+          "label": "Key Differentiator - Your Company",
+          "type": "text",
+          "placeholder": "Enter your company",
+          "required": false
+        },
+        {
+          "id": "key_differentiator_competitor_1",
+          "label": "Key Differentiator - Competitor 1",
+          "type": "text",
+          "placeholder": "Enter competitor 1",
+          "required": false
+        },
+        {
+          "id": "key_differentiator_competitor_2",
+          "label": "Key Differentiator - Competitor 2",
+          "type": "text",
+          "placeholder": "Enter competitor 2",
+          "required": false
+        },
+        {
+          "id": "key_differentiator_competitor_3",
+          "label": "Key Differentiator - Competitor 3",
+          "type": "text",
+          "placeholder": "Enter competitor 3",
+          "required": false
+        },
+        {
+          "id": "key_differentiator_competitor_4",
+          "label": "Key Differentiator - Competitor 4",
+          "type": "text",
+          "placeholder": "Enter competitor 4",
+          "required": false
+        },
+        {
+          "id": "key_differentiator_competitor_5",
+          "label": "Key Differentiator - Competitor 5",
+          "type": "text",
+          "placeholder": "Enter competitor 5",
+          "required": false
+        },
+        {
+          "id": "biggest_weakness_your_company",
+          "label": "Biggest Weakness - Your Company",
+          "type": "text",
+          "placeholder": "Enter your company",
+          "required": false
+        },
+        {
+          "id": "biggest_weakness_competitor_1",
+          "label": "Biggest Weakness - Competitor 1",
+          "type": "text",
+          "placeholder": "Enter competitor 1",
+          "required": false
+        },
+        {
+          "id": "biggest_weakness_competitor_2",
+          "label": "Biggest Weakness - Competitor 2",
+          "type": "text",
+          "placeholder": "Enter competitor 2",
+          "required": false
+        },
+        {
+          "id": "biggest_weakness_competitor_3",
+          "label": "Biggest Weakness - Competitor 3",
+          "type": "text",
+          "placeholder": "Enter competitor 3",
+          "required": false
+        },
+        {
+          "id": "biggest_weakness_competitor_4",
+          "label": "Biggest Weakness - Competitor 4",
+          "type": "text",
+          "placeholder": "Enter competitor 4",
+          "required": false
+        },
+        {
+          "id": "biggest_weakness_competitor_5",
+          "label": "Biggest Weakness - Competitor 5",
+          "type": "text",
+          "placeholder": "Enter competitor 5",
+          "required": false
+        },
+        {
+          "id": "nps_review_score_your_company",
+          "label": "NPS / Review Score - Your Company",
+          "type": "text",
+          "placeholder": "Enter your company",
+          "required": false
+        },
+        {
+          "id": "nps_review_score_competitor_1",
+          "label": "NPS / Review Score - Competitor 1",
+          "type": "text",
+          "placeholder": "Enter competitor 1",
+          "required": false
+        },
+        {
+          "id": "nps_review_score_competitor_2",
+          "label": "NPS / Review Score - Competitor 2",
+          "type": "text",
+          "placeholder": "Enter competitor 2",
+          "required": false
+        },
+        {
+          "id": "nps_review_score_competitor_3",
+          "label": "NPS / Review Score - Competitor 3",
+          "type": "text",
+          "placeholder": "Enter competitor 3",
+          "required": false
+        },
+        {
+          "id": "nps_review_score_competitor_4",
+          "label": "NPS / Review Score - Competitor 4",
+          "type": "text",
+          "placeholder": "Enter competitor 4",
+          "required": false
+        },
+        {
+          "id": "nps_review_score_competitor_5",
+          "label": "NPS / Review Score - Competitor 5",
+          "type": "text",
+          "placeholder": "Enter competitor 5",
+          "required": false
+        },
+        {
+          "id": "g2capterra_rating_your_company",
+          "label": "G2/Capterra Rating - Your Company",
+          "type": "text",
+          "placeholder": "Enter your company",
+          "required": false
+        },
+        {
+          "id": "g2capterra_rating_competitor_1",
+          "label": "G2/Capterra Rating - Competitor 1",
+          "type": "text",
+          "placeholder": "Enter competitor 1",
+          "required": false
+        },
+        {
+          "id": "g2capterra_rating_competitor_2",
+          "label": "G2/Capterra Rating - Competitor 2",
+          "type": "text",
+          "placeholder": "Enter competitor 2",
+          "required": false
+        },
+        {
+          "id": "g2capterra_rating_competitor_3",
+          "label": "G2/Capterra Rating - Competitor 3",
+          "type": "text",
+          "placeholder": "Enter competitor 3",
+          "required": false
+        },
+        {
+          "id": "g2capterra_rating_competitor_4",
+          "label": "G2/Capterra Rating - Competitor 4",
+          "type": "text",
+          "placeholder": "Enter competitor 4",
+          "required": false
+        },
+        {
+          "id": "g2capterra_rating_competitor_5",
+          "label": "G2/Capterra Rating - Competitor 5",
+          "type": "text",
+          "placeholder": "Enter competitor 5",
+          "required": false
+        },
+        {
+          "id": "market_share_est_your_company",
+          "label": "Market Share Est. - Your Company",
+          "type": "text",
+          "placeholder": "Enter your company",
+          "required": false
+        },
+        {
+          "id": "market_share_est_competitor_1",
+          "label": "Market Share Est. - Competitor 1",
+          "type": "text",
+          "placeholder": "Enter competitor 1",
+          "required": false
+        },
+        {
+          "id": "market_share_est_competitor_2",
+          "label": "Market Share Est. - Competitor 2",
+          "type": "text",
+          "placeholder": "Enter competitor 2",
+          "required": false
+        },
+        {
+          "id": "market_share_est_competitor_3",
+          "label": "Market Share Est. - Competitor 3",
+          "type": "text",
+          "placeholder": "Enter competitor 3",
+          "required": false
+        },
+        {
+          "id": "market_share_est_competitor_4",
+          "label": "Market Share Est. - Competitor 4",
+          "type": "text",
+          "placeholder": "Enter competitor 4",
+          "required": false
+        },
+        {
+          "id": "market_share_est_competitor_5",
+          "label": "Market Share Est. - Competitor 5",
+          "type": "text",
+          "placeholder": "Enter competitor 5",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "feature_comparison",
+      "title": "Feature Comparison",
+      "description": "Enter data for each item",
+      "fields": [
+        {
+          "id": "company_names_your_company",
+          "label": "(Company Names) - Your Company",
+          "type": "text",
+          "placeholder": "Enter your company",
+          "required": false
+        },
+        {
+          "id": "company_names_competitor_1",
+          "label": "(Company Names) - Competitor 1",
+          "type": "text",
+          "placeholder": "Enter competitor 1",
+          "required": false
+        },
+        {
+          "id": "company_names_competitor_2",
+          "label": "(Company Names) - Competitor 2",
+          "type": "text",
+          "placeholder": "Enter competitor 2",
+          "required": false
+        },
+        {
+          "id": "company_names_competitor_3",
+          "label": "(Company Names) - Competitor 3",
+          "type": "text",
+          "placeholder": "Enter competitor 3",
+          "required": false
+        },
+        {
+          "id": "company_names_competitor_4",
+          "label": "(Company Names) - Competitor 4",
+          "type": "text",
+          "placeholder": "Enter competitor 4",
+          "required": false
+        },
+        {
+          "id": "company_names_competitor_5",
+          "label": "(Company Names) - Competitor 5",
+          "type": "text",
+          "placeholder": "Enter competitor 5",
+          "required": false
+        },
+        {
+          "id": "company_names_your_advantage",
+          "label": "(Company Names) - Your Advantage",
+          "type": "text",
+          "placeholder": "Enter your advantage",
+          "required": false
+        },
+        {
+          "id": "core_product_quality_your_company",
+          "label": "Core Product Quality - Your Company",
+          "type": "text",
+          "placeholder": "Enter your company",
+          "required": false
+        },
+        {
+          "id": "core_product_quality_competitor_1",
+          "label": "Core Product Quality - Competitor 1",
+          "type": "text",
+          "placeholder": "Enter competitor 1",
+          "required": false
+        },
+        {
+          "id": "core_product_quality_competitor_2",
+          "label": "Core Product Quality - Competitor 2",
+          "type": "text",
+          "placeholder": "Enter competitor 2",
+          "required": false
+        },
+        {
+          "id": "core_product_quality_competitor_3",
+          "label": "Core Product Quality - Competitor 3",
+          "type": "text",
+          "placeholder": "Enter competitor 3",
+          "required": false
+        },
+        {
+          "id": "core_product_quality_competitor_4",
+          "label": "Core Product Quality - Competitor 4",
+          "type": "text",
+          "placeholder": "Enter competitor 4",
+          "required": false
+        },
+        {
+          "id": "core_product_quality_competitor_5",
+          "label": "Core Product Quality - Competitor 5",
+          "type": "text",
+          "placeholder": "Enter competitor 5",
+          "required": false
+        },
+        {
+          "id": "core_product_quality_your_advantage",
+          "label": "Core Product Quality - Your Advantage",
+          "type": "text",
+          "placeholder": "Enter your advantage",
+          "required": false
+        },
+        {
+          "id": "ease_of_use_ux_your_company",
+          "label": "Ease of Use / UX - Your Company",
+          "type": "text",
+          "placeholder": "Enter your company",
+          "required": false
+        },
+        {
+          "id": "ease_of_use_ux_competitor_1",
+          "label": "Ease of Use / UX - Competitor 1",
+          "type": "text",
+          "placeholder": "Enter competitor 1",
+          "required": false
+        },
+        {
+          "id": "ease_of_use_ux_competitor_2",
+          "label": "Ease of Use / UX - Competitor 2",
+          "type": "text",
+          "placeholder": "Enter competitor 2",
+          "required": false
+        },
+        {
+          "id": "ease_of_use_ux_competitor_3",
+          "label": "Ease of Use / UX - Competitor 3",
+          "type": "text",
+          "placeholder": "Enter competitor 3",
+          "required": false
+        },
+        {
+          "id": "ease_of_use_ux_competitor_4",
+          "label": "Ease of Use / UX - Competitor 4",
+          "type": "text",
+          "placeholder": "Enter competitor 4",
+          "required": false
+        },
+        {
+          "id": "ease_of_use_ux_competitor_5",
+          "label": "Ease of Use / UX - Competitor 5",
+          "type": "text",
+          "placeholder": "Enter competitor 5",
+          "required": false
+        },
+        {
+          "id": "ease_of_use_ux_your_advantage",
+          "label": "Ease of Use / UX - Your Advantage",
+          "type": "text",
+          "placeholder": "Enter your advantage",
+          "required": false
+        },
+        {
+          "id": "feature_breadth_your_company",
+          "label": "Feature Breadth - Your Company",
+          "type": "text",
+          "placeholder": "Enter your company",
+          "required": false
+        },
+        {
+          "id": "feature_breadth_competitor_1",
+          "label": "Feature Breadth - Competitor 1",
+          "type": "text",
+          "placeholder": "Enter competitor 1",
+          "required": false
+        },
+        {
+          "id": "feature_breadth_competitor_2",
+          "label": "Feature Breadth - Competitor 2",
+          "type": "text",
+          "placeholder": "Enter competitor 2",
+          "required": false
+        },
+        {
+          "id": "feature_breadth_competitor_3",
+          "label": "Feature Breadth - Competitor 3",
+          "type": "text",
+          "placeholder": "Enter competitor 3",
+          "required": false
+        },
+        {
+          "id": "feature_breadth_competitor_4",
+          "label": "Feature Breadth - Competitor 4",
+          "type": "text",
+          "placeholder": "Enter competitor 4",
+          "required": false
+        },
+        {
+          "id": "feature_breadth_competitor_5",
+          "label": "Feature Breadth - Competitor 5",
+          "type": "text",
+          "placeholder": "Enter competitor 5",
+          "required": false
+        },
+        {
+          "id": "feature_breadth_your_advantage",
+          "label": "Feature Breadth - Your Advantage",
+          "type": "text",
+          "placeholder": "Enter your advantage",
+          "required": false
+        },
+        {
+          "id": "feature_depth_your_company",
+          "label": "Feature Depth - Your Company",
+          "type": "text",
+          "placeholder": "Enter your company",
+          "required": false
+        },
+        {
+          "id": "feature_depth_competitor_1",
+          "label": "Feature Depth - Competitor 1",
+          "type": "text",
+          "placeholder": "Enter competitor 1",
+          "required": false
+        },
+        {
+          "id": "feature_depth_competitor_2",
+          "label": "Feature Depth - Competitor 2",
+          "type": "text",
+          "placeholder": "Enter competitor 2",
+          "required": false
+        },
+        {
+          "id": "feature_depth_competitor_3",
+          "label": "Feature Depth - Competitor 3",
+          "type": "text",
+          "placeholder": "Enter competitor 3",
+          "required": false
+        },
+        {
+          "id": "feature_depth_competitor_4",
+          "label": "Feature Depth - Competitor 4",
+          "type": "text",
+          "placeholder": "Enter competitor 4",
+          "required": false
+        },
+        {
+          "id": "feature_depth_competitor_5",
+          "label": "Feature Depth - Competitor 5",
+          "type": "text",
+          "placeholder": "Enter competitor 5",
+          "required": false
+        },
+        {
+          "id": "feature_depth_your_advantage",
+          "label": "Feature Depth - Your Advantage",
+          "type": "text",
+          "placeholder": "Enter your advantage",
+          "required": false
+        },
+        {
+          "id": "onboarding_experience_your_company",
+          "label": "Onboarding Experience - Your Company",
+          "type": "text",
+          "placeholder": "Enter your company",
+          "required": false
+        },
+        {
+          "id": "onboarding_experience_competitor_1",
+          "label": "Onboarding Experience - Competitor 1",
+          "type": "text",
+          "placeholder": "Enter competitor 1",
+          "required": false
+        },
+        {
+          "id": "onboarding_experience_competitor_2",
+          "label": "Onboarding Experience - Competitor 2",
+          "type": "text",
+          "placeholder": "Enter competitor 2",
+          "required": false
+        },
+        {
+          "id": "onboarding_experience_competitor_3",
+          "label": "Onboarding Experience - Competitor 3",
+          "type": "text",
+          "placeholder": "Enter competitor 3",
+          "required": false
+        },
+        {
+          "id": "onboarding_experience_competitor_4",
+          "label": "Onboarding Experience - Competitor 4",
+          "type": "text",
+          "placeholder": "Enter competitor 4",
+          "required": false
+        },
+        {
+          "id": "onboarding_experience_competitor_5",
+          "label": "Onboarding Experience - Competitor 5",
+          "type": "text",
+          "placeholder": "Enter competitor 5",
+          "required": false
+        },
+        {
+          "id": "onboarding_experience_your_advantage",
+          "label": "Onboarding Experience - Your Advantage",
+          "type": "text",
+          "placeholder": "Enter your advantage",
+          "required": false
+        },
+        {
+          "id": "customer_support_your_company",
+          "label": "Customer Support - Your Company",
+          "type": "text",
+          "placeholder": "Enter your company",
+          "required": false
+        },
+        {
+          "id": "customer_support_competitor_1",
+          "label": "Customer Support - Competitor 1",
+          "type": "text",
+          "placeholder": "Enter competitor 1",
+          "required": false
+        },
+        {
+          "id": "customer_support_competitor_2",
+          "label": "Customer Support - Competitor 2",
+          "type": "text",
+          "placeholder": "Enter competitor 2",
+          "required": false
+        },
+        {
+          "id": "customer_support_competitor_3",
+          "label": "Customer Support - Competitor 3",
+          "type": "text",
+          "placeholder": "Enter competitor 3",
+          "required": false
+        },
+        {
+          "id": "customer_support_competitor_4",
+          "label": "Customer Support - Competitor 4",
+          "type": "text",
+          "placeholder": "Enter competitor 4",
+          "required": false
+        },
+        {
+          "id": "customer_support_competitor_5",
+          "label": "Customer Support - Competitor 5",
+          "type": "text",
+          "placeholder": "Enter competitor 5",
+          "required": false
+        },
+        {
+          "id": "customer_support_your_advantage",
+          "label": "Customer Support - Your Advantage",
+          "type": "text",
+          "placeholder": "Enter your advantage",
+          "required": false
+        },
+        {
+          "id": "documentation_your_company",
+          "label": "Documentation - Your Company",
+          "type": "text",
+          "placeholder": "Enter your company",
+          "required": false
+        },
+        {
+          "id": "documentation_competitor_1",
+          "label": "Documentation - Competitor 1",
+          "type": "text",
+          "placeholder": "Enter competitor 1",
+          "required": false
+        },
+        {
+          "id": "documentation_competitor_2",
+          "label": "Documentation - Competitor 2",
+          "type": "text",
+          "placeholder": "Enter competitor 2",
+          "required": false
+        },
+        {
+          "id": "documentation_competitor_3",
+          "label": "Documentation - Competitor 3",
+          "type": "text",
+          "placeholder": "Enter competitor 3",
+          "required": false
+        },
+        {
+          "id": "documentation_competitor_4",
+          "label": "Documentation - Competitor 4",
+          "type": "text",
+          "placeholder": "Enter competitor 4",
+          "required": false
+        },
+        {
+          "id": "documentation_competitor_5",
+          "label": "Documentation - Competitor 5",
+          "type": "text",
+          "placeholder": "Enter competitor 5",
+          "required": false
+        },
+        {
+          "id": "documentation_your_advantage",
+          "label": "Documentation - Your Advantage",
+          "type": "text",
+          "placeholder": "Enter your advantage",
+          "required": false
+        },
+        {
+          "id": "integration_ecosystem_your_company",
+          "label": "Integration Ecosystem - Your Company",
+          "type": "text",
+          "placeholder": "Enter your company",
+          "required": false
+        },
+        {
+          "id": "integration_ecosystem_competitor_1",
+          "label": "Integration Ecosystem - Competitor 1",
+          "type": "text",
+          "placeholder": "Enter competitor 1",
+          "required": false
+        },
+        {
+          "id": "integration_ecosystem_competitor_2",
+          "label": "Integration Ecosystem - Competitor 2",
+          "type": "text",
+          "placeholder": "Enter competitor 2",
+          "required": false
+        },
+        {
+          "id": "integration_ecosystem_competitor_3",
+          "label": "Integration Ecosystem - Competitor 3",
+          "type": "text",
+          "placeholder": "Enter competitor 3",
+          "required": false
+        },
+        {
+          "id": "integration_ecosystem_competitor_4",
+          "label": "Integration Ecosystem - Competitor 4",
+          "type": "text",
+          "placeholder": "Enter competitor 4",
+          "required": false
+        },
+        {
+          "id": "integration_ecosystem_competitor_5",
+          "label": "Integration Ecosystem - Competitor 5",
+          "type": "text",
+          "placeholder": "Enter competitor 5",
+          "required": false
+        },
+        {
+          "id": "integration_ecosystem_your_advantage",
+          "label": "Integration Ecosystem - Your Advantage",
+          "type": "text",
+          "placeholder": "Enter your advantage",
+          "required": false
+        },
+        {
+          "id": "mobile_experience_your_company",
+          "label": "Mobile Experience - Your Company",
+          "type": "text",
+          "placeholder": "Enter your company",
+          "required": false
+        },
+        {
+          "id": "mobile_experience_competitor_1",
+          "label": "Mobile Experience - Competitor 1",
+          "type": "text",
+          "placeholder": "Enter competitor 1",
+          "required": false
+        },
+        {
+          "id": "mobile_experience_competitor_2",
+          "label": "Mobile Experience - Competitor 2",
+          "type": "text",
+          "placeholder": "Enter competitor 2",
+          "required": false
+        },
+        {
+          "id": "mobile_experience_competitor_3",
+          "label": "Mobile Experience - Competitor 3",
+          "type": "text",
+          "placeholder": "Enter competitor 3",
+          "required": false
+        },
+        {
+          "id": "mobile_experience_competitor_4",
+          "label": "Mobile Experience - Competitor 4",
+          "type": "text",
+          "placeholder": "Enter competitor 4",
+          "required": false
+        },
+        {
+          "id": "mobile_experience_competitor_5",
+          "label": "Mobile Experience - Competitor 5",
+          "type": "text",
+          "placeholder": "Enter competitor 5",
+          "required": false
+        },
+        {
+          "id": "mobile_experience_your_advantage",
+          "label": "Mobile Experience - Your Advantage",
+          "type": "text",
+          "placeholder": "Enter your advantage",
+          "required": false
+        },
+        {
+          "id": "performance_speed_your_company",
+          "label": "Performance / Speed - Your Company",
+          "type": "text",
+          "placeholder": "Enter your company",
+          "required": false
+        },
+        {
+          "id": "performance_speed_competitor_1",
+          "label": "Performance / Speed - Competitor 1",
+          "type": "text",
+          "placeholder": "Enter competitor 1",
+          "required": false
+        },
+        {
+          "id": "performance_speed_competitor_2",
+          "label": "Performance / Speed - Competitor 2",
+          "type": "text",
+          "placeholder": "Enter competitor 2",
+          "required": false
+        },
+        {
+          "id": "performance_speed_competitor_3",
+          "label": "Performance / Speed - Competitor 3",
+          "type": "text",
+          "placeholder": "Enter competitor 3",
+          "required": false
+        },
+        {
+          "id": "performance_speed_competitor_4",
+          "label": "Performance / Speed - Competitor 4",
+          "type": "text",
+          "placeholder": "Enter competitor 4",
+          "required": false
+        },
+        {
+          "id": "performance_speed_competitor_5",
+          "label": "Performance / Speed - Competitor 5",
+          "type": "text",
+          "placeholder": "Enter competitor 5",
+          "required": false
+        },
+        {
+          "id": "performance_speed_your_advantage",
+          "label": "Performance / Speed - Your Advantage",
+          "type": "text",
+          "placeholder": "Enter your advantage",
+          "required": false
+        },
+        {
+          "id": "security_compliance_your_company",
+          "label": "Security & Compliance - Your Company",
+          "type": "text",
+          "placeholder": "Enter your company",
+          "required": false
+        },
+        {
+          "id": "security_compliance_competitor_1",
+          "label": "Security & Compliance - Competitor 1",
+          "type": "text",
+          "placeholder": "Enter competitor 1",
+          "required": false
+        },
+        {
+          "id": "security_compliance_competitor_2",
+          "label": "Security & Compliance - Competitor 2",
+          "type": "text",
+          "placeholder": "Enter competitor 2",
+          "required": false
+        },
+        {
+          "id": "security_compliance_competitor_3",
+          "label": "Security & Compliance - Competitor 3",
+          "type": "text",
+          "placeholder": "Enter competitor 3",
+          "required": false
+        },
+        {
+          "id": "security_compliance_competitor_4",
+          "label": "Security & Compliance - Competitor 4",
+          "type": "text",
+          "placeholder": "Enter competitor 4",
+          "required": false
+        },
+        {
+          "id": "security_compliance_competitor_5",
+          "label": "Security & Compliance - Competitor 5",
+          "type": "text",
+          "placeholder": "Enter competitor 5",
+          "required": false
+        },
+        {
+          "id": "security_compliance_your_advantage",
+          "label": "Security & Compliance - Your Advantage",
+          "type": "text",
+          "placeholder": "Enter your advantage",
+          "required": false
+        },
+        {
+          "id": "customization_your_company",
+          "label": "Customization - Your Company",
+          "type": "text",
+          "placeholder": "Enter your company",
+          "required": false
+        },
+        {
+          "id": "customization_competitor_1",
+          "label": "Customization - Competitor 1",
+          "type": "text",
+          "placeholder": "Enter competitor 1",
+          "required": false
+        },
+        {
+          "id": "customization_competitor_2",
+          "label": "Customization - Competitor 2",
+          "type": "text",
+          "placeholder": "Enter competitor 2",
+          "required": false
+        },
+        {
+          "id": "customization_competitor_3",
+          "label": "Customization - Competitor 3",
+          "type": "text",
+          "placeholder": "Enter competitor 3",
+          "required": false
+        },
+        {
+          "id": "customization_competitor_4",
+          "label": "Customization - Competitor 4",
+          "type": "text",
+          "placeholder": "Enter competitor 4",
+          "required": false
+        },
+        {
+          "id": "customization_competitor_5",
+          "label": "Customization - Competitor 5",
+          "type": "text",
+          "placeholder": "Enter competitor 5",
+          "required": false
+        },
+        {
+          "id": "customization_your_advantage",
+          "label": "Customization - Your Advantage",
+          "type": "text",
+          "placeholder": "Enter your advantage",
+          "required": false
+        },
+        {
+          "id": "analytics_reporting_your_company",
+          "label": "Analytics & Reporting - Your Company",
+          "type": "text",
+          "placeholder": "Enter your company",
+          "required": false
+        },
+        {
+          "id": "analytics_reporting_competitor_1",
+          "label": "Analytics & Reporting - Competitor 1",
+          "type": "text",
+          "placeholder": "Enter competitor 1",
+          "required": false
+        },
+        {
+          "id": "analytics_reporting_competitor_2",
+          "label": "Analytics & Reporting - Competitor 2",
+          "type": "text",
+          "placeholder": "Enter competitor 2",
+          "required": false
+        },
+        {
+          "id": "analytics_reporting_competitor_3",
+          "label": "Analytics & Reporting - Competitor 3",
+          "type": "text",
+          "placeholder": "Enter competitor 3",
+          "required": false
+        },
+        {
+          "id": "analytics_reporting_competitor_4",
+          "label": "Analytics & Reporting - Competitor 4",
+          "type": "text",
+          "placeholder": "Enter competitor 4",
+          "required": false
+        },
+        {
+          "id": "analytics_reporting_competitor_5",
+          "label": "Analytics & Reporting - Competitor 5",
+          "type": "text",
+          "placeholder": "Enter competitor 5",
+          "required": false
+        },
+        {
+          "id": "analytics_reporting_your_advantage",
+          "label": "Analytics & Reporting - Your Advantage",
+          "type": "text",
+          "placeholder": "Enter your advantage",
+          "required": false
+        },
+        {
+          "id": "pricing_competitiveness_your_company",
+          "label": "Pricing Competitiveness - Your Company",
+          "type": "text",
+          "placeholder": "Enter your company",
+          "required": false
+        },
+        {
+          "id": "pricing_competitiveness_competitor_1",
+          "label": "Pricing Competitiveness - Competitor 1",
+          "type": "text",
+          "placeholder": "Enter competitor 1",
+          "required": false
+        },
+        {
+          "id": "pricing_competitiveness_competitor_2",
+          "label": "Pricing Competitiveness - Competitor 2",
+          "type": "text",
+          "placeholder": "Enter competitor 2",
+          "required": false
+        },
+        {
+          "id": "pricing_competitiveness_competitor_3",
+          "label": "Pricing Competitiveness - Competitor 3",
+          "type": "text",
+          "placeholder": "Enter competitor 3",
+          "required": false
+        },
+        {
+          "id": "pricing_competitiveness_competitor_4",
+          "label": "Pricing Competitiveness - Competitor 4",
+          "type": "text",
+          "placeholder": "Enter competitor 4",
+          "required": false
+        },
+        {
+          "id": "pricing_competitiveness_competitor_5",
+          "label": "Pricing Competitiveness - Competitor 5",
+          "type": "text",
+          "placeholder": "Enter competitor 5",
+          "required": false
+        },
+        {
+          "id": "pricing_competitiveness_your_advantage",
+          "label": "Pricing Competitiveness - Your Advantage",
+          "type": "text",
+          "placeholder": "Enter your advantage",
+          "required": false
+        },
+        {
+          "id": "brand_recognition_your_company",
+          "label": "Brand Recognition - Your Company",
+          "type": "text",
+          "placeholder": "Enter your company",
+          "required": false
+        },
+        {
+          "id": "brand_recognition_competitor_1",
+          "label": "Brand Recognition - Competitor 1",
+          "type": "text",
+          "placeholder": "Enter competitor 1",
+          "required": false
+        },
+        {
+          "id": "brand_recognition_competitor_2",
+          "label": "Brand Recognition - Competitor 2",
+          "type": "text",
+          "placeholder": "Enter competitor 2",
+          "required": false
+        },
+        {
+          "id": "brand_recognition_competitor_3",
+          "label": "Brand Recognition - Competitor 3",
+          "type": "text",
+          "placeholder": "Enter competitor 3",
+          "required": false
+        },
+        {
+          "id": "brand_recognition_competitor_4",
+          "label": "Brand Recognition - Competitor 4",
+          "type": "text",
+          "placeholder": "Enter competitor 4",
+          "required": false
+        },
+        {
+          "id": "brand_recognition_competitor_5",
+          "label": "Brand Recognition - Competitor 5",
+          "type": "text",
+          "placeholder": "Enter competitor 5",
+          "required": false
+        },
+        {
+          "id": "brand_recognition_your_advantage",
+          "label": "Brand Recognition - Your Advantage",
+          "type": "text",
+          "placeholder": "Enter your advantage",
+          "required": false
+        },
+        {
+          "id": "content_marketing_your_company",
+          "label": "Content Marketing - Your Company",
+          "type": "text",
+          "placeholder": "Enter your company",
+          "required": false
+        },
+        {
+          "id": "content_marketing_competitor_1",
+          "label": "Content Marketing - Competitor 1",
+          "type": "text",
+          "placeholder": "Enter competitor 1",
+          "required": false
+        },
+        {
+          "id": "content_marketing_competitor_2",
+          "label": "Content Marketing - Competitor 2",
+          "type": "text",
+          "placeholder": "Enter competitor 2",
+          "required": false
+        },
+        {
+          "id": "content_marketing_competitor_3",
+          "label": "Content Marketing - Competitor 3",
+          "type": "text",
+          "placeholder": "Enter competitor 3",
+          "required": false
+        },
+        {
+          "id": "content_marketing_competitor_4",
+          "label": "Content Marketing - Competitor 4",
+          "type": "text",
+          "placeholder": "Enter competitor 4",
+          "required": false
+        },
+        {
+          "id": "content_marketing_competitor_5",
+          "label": "Content Marketing - Competitor 5",
+          "type": "text",
+          "placeholder": "Enter competitor 5",
+          "required": false
+        },
+        {
+          "id": "content_marketing_your_advantage",
+          "label": "Content Marketing - Your Advantage",
+          "type": "text",
+          "placeholder": "Enter your advantage",
+          "required": false
+        },
+        {
+          "id": "sales_process_your_company",
+          "label": "Sales Process - Your Company",
+          "type": "text",
+          "placeholder": "Enter your company",
+          "required": false
+        },
+        {
+          "id": "sales_process_competitor_1",
+          "label": "Sales Process - Competitor 1",
+          "type": "text",
+          "placeholder": "Enter competitor 1",
+          "required": false
+        },
+        {
+          "id": "sales_process_competitor_2",
+          "label": "Sales Process - Competitor 2",
+          "type": "text",
+          "placeholder": "Enter competitor 2",
+          "required": false
+        },
+        {
+          "id": "sales_process_competitor_3",
+          "label": "Sales Process - Competitor 3",
+          "type": "text",
+          "placeholder": "Enter competitor 3",
+          "required": false
+        },
+        {
+          "id": "sales_process_competitor_4",
+          "label": "Sales Process - Competitor 4",
+          "type": "text",
+          "placeholder": "Enter competitor 4",
+          "required": false
+        },
+        {
+          "id": "sales_process_competitor_5",
+          "label": "Sales Process - Competitor 5",
+          "type": "text",
+          "placeholder": "Enter competitor 5",
+          "required": false
+        },
+        {
+          "id": "sales_process_your_advantage",
+          "label": "Sales Process - Your Advantage",
+          "type": "text",
+          "placeholder": "Enter your advantage",
+          "required": false
+        },
+        {
+          "id": "customer_success_your_company",
+          "label": "Customer Success - Your Company",
+          "type": "text",
+          "placeholder": "Enter your company",
+          "required": false
+        },
+        {
+          "id": "customer_success_competitor_1",
+          "label": "Customer Success - Competitor 1",
+          "type": "text",
+          "placeholder": "Enter competitor 1",
+          "required": false
+        },
+        {
+          "id": "customer_success_competitor_2",
+          "label": "Customer Success - Competitor 2",
+          "type": "text",
+          "placeholder": "Enter competitor 2",
+          "required": false
+        },
+        {
+          "id": "customer_success_competitor_3",
+          "label": "Customer Success - Competitor 3",
+          "type": "text",
+          "placeholder": "Enter competitor 3",
+          "required": false
+        },
+        {
+          "id": "customer_success_competitor_4",
+          "label": "Customer Success - Competitor 4",
+          "type": "text",
+          "placeholder": "Enter competitor 4",
+          "required": false
+        },
+        {
+          "id": "customer_success_competitor_5",
+          "label": "Customer Success - Competitor 5",
+          "type": "text",
+          "placeholder": "Enter competitor 5",
+          "required": false
+        },
+        {
+          "id": "customer_success_your_advantage",
+          "label": "Customer Success - Your Advantage",
+          "type": "text",
+          "placeholder": "Enter your advantage",
+          "required": false
+        },
+        {
+          "id": "innovation_pace_your_company",
+          "label": "Innovation Pace - Your Company",
+          "type": "text",
+          "placeholder": "Enter your company",
+          "required": false
+        },
+        {
+          "id": "innovation_pace_competitor_1",
+          "label": "Innovation Pace - Competitor 1",
+          "type": "text",
+          "placeholder": "Enter competitor 1",
+          "required": false
+        },
+        {
+          "id": "innovation_pace_competitor_2",
+          "label": "Innovation Pace - Competitor 2",
+          "type": "text",
+          "placeholder": "Enter competitor 2",
+          "required": false
+        },
+        {
+          "id": "innovation_pace_competitor_3",
+          "label": "Innovation Pace - Competitor 3",
+          "type": "text",
+          "placeholder": "Enter competitor 3",
+          "required": false
+        },
+        {
+          "id": "innovation_pace_competitor_4",
+          "label": "Innovation Pace - Competitor 4",
+          "type": "text",
+          "placeholder": "Enter competitor 4",
+          "required": false
+        },
+        {
+          "id": "innovation_pace_competitor_5",
+          "label": "Innovation Pace - Competitor 5",
+          "type": "text",
+          "placeholder": "Enter competitor 5",
+          "required": false
+        },
+        {
+          "id": "innovation_pace_your_advantage",
+          "label": "Innovation Pace - Your Advantage",
+          "type": "text",
+          "placeholder": "Enter your advantage",
+          "required": false
+        },
+        {
+          "id": "community_your_company",
+          "label": "Community - Your Company",
+          "type": "text",
+          "placeholder": "Enter your company",
+          "required": false
+        },
+        {
+          "id": "community_competitor_1",
+          "label": "Community - Competitor 1",
+          "type": "text",
+          "placeholder": "Enter competitor 1",
+          "required": false
+        },
+        {
+          "id": "community_competitor_2",
+          "label": "Community - Competitor 2",
+          "type": "text",
+          "placeholder": "Enter competitor 2",
+          "required": false
+        },
+        {
+          "id": "community_competitor_3",
+          "label": "Community - Competitor 3",
+          "type": "text",
+          "placeholder": "Enter competitor 3",
+          "required": false
+        },
+        {
+          "id": "community_competitor_4",
+          "label": "Community - Competitor 4",
+          "type": "text",
+          "placeholder": "Enter competitor 4",
+          "required": false
+        },
+        {
+          "id": "community_competitor_5",
+          "label": "Community - Competitor 5",
+          "type": "text",
+          "placeholder": "Enter competitor 5",
+          "required": false
+        },
+        {
+          "id": "community_your_advantage",
+          "label": "Community - Your Advantage",
+          "type": "text",
+          "placeholder": "Enter your advantage",
+          "required": false
+        },
+        {
+          "id": "average_score_your_company",
+          "label": "AVERAGE SCORE - Your Company",
+          "type": "text",
+          "placeholder": "Enter your company",
+          "required": false
+        },
+        {
+          "id": "average_score_competitor_1",
+          "label": "AVERAGE SCORE - Competitor 1",
+          "type": "text",
+          "placeholder": "Enter competitor 1",
+          "required": false
+        },
+        {
+          "id": "average_score_competitor_2",
+          "label": "AVERAGE SCORE - Competitor 2",
+          "type": "text",
+          "placeholder": "Enter competitor 2",
+          "required": false
+        },
+        {
+          "id": "average_score_competitor_3",
+          "label": "AVERAGE SCORE - Competitor 3",
+          "type": "text",
+          "placeholder": "Enter competitor 3",
+          "required": false
+        },
+        {
+          "id": "average_score_competitor_4",
+          "label": "AVERAGE SCORE - Competitor 4",
+          "type": "text",
+          "placeholder": "Enter competitor 4",
+          "required": false
+        },
+        {
+          "id": "average_score_competitor_5",
+          "label": "AVERAGE SCORE - Competitor 5",
+          "type": "text",
+          "placeholder": "Enter competitor 5",
+          "required": false
+        },
+        {
+          "id": "average_score_your_advantage",
+          "label": "AVERAGE SCORE - Your Advantage",
+          "type": "text",
+          "placeholder": "Enter your advantage",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "marketing_analysis",
+      "title": "Marketing Analysis",
+      "description": "Enter data for each item",
+      "fields": [
+        {
+          "id": "seo_presence_your_company",
+          "label": "SEO Presence - Your Company",
+          "type": "text",
+          "placeholder": "Enter your company",
+          "required": false
+        },
+        {
+          "id": "seo_presence_competitor_1",
+          "label": "SEO Presence - Competitor 1",
+          "type": "text",
+          "placeholder": "Enter competitor 1",
+          "required": false
+        },
+        {
+          "id": "seo_presence_competitor_2",
+          "label": "SEO Presence - Competitor 2",
+          "type": "text",
+          "placeholder": "Enter competitor 2",
+          "required": false
+        },
+        {
+          "id": "seo_presence_competitor_3",
+          "label": "SEO Presence - Competitor 3",
+          "type": "text",
+          "placeholder": "Enter competitor 3",
+          "required": false
+        },
+        {
+          "id": "seo_presence_competitor_4",
+          "label": "SEO Presence - Competitor 4",
+          "type": "text",
+          "placeholder": "Enter competitor 4",
+          "required": false
+        },
+        {
+          "id": "seo_presence_competitor_5",
+          "label": "SEO Presence - Competitor 5",
+          "type": "text",
+          "placeholder": "Enter competitor 5",
+          "required": false
+        },
+        {
+          "id": "social_following_your_company",
+          "label": "Social Following - Your Company",
+          "type": "text",
+          "placeholder": "Enter your company",
+          "required": false
+        },
+        {
+          "id": "social_following_competitor_1",
+          "label": "Social Following - Competitor 1",
+          "type": "text",
+          "placeholder": "Enter competitor 1",
+          "required": false
+        },
+        {
+          "id": "social_following_competitor_2",
+          "label": "Social Following - Competitor 2",
+          "type": "text",
+          "placeholder": "Enter competitor 2",
+          "required": false
+        },
+        {
+          "id": "social_following_competitor_3",
+          "label": "Social Following - Competitor 3",
+          "type": "text",
+          "placeholder": "Enter competitor 3",
+          "required": false
+        },
+        {
+          "id": "social_following_competitor_4",
+          "label": "Social Following - Competitor 4",
+          "type": "text",
+          "placeholder": "Enter competitor 4",
+          "required": false
+        },
+        {
+          "id": "social_following_competitor_5",
+          "label": "Social Following - Competitor 5",
+          "type": "text",
+          "placeholder": "Enter competitor 5",
+          "required": false
+        },
+        {
+          "id": "content_quality_your_company",
+          "label": "Content Quality - Your Company",
+          "type": "text",
+          "placeholder": "Enter your company",
+          "required": false
+        },
+        {
+          "id": "content_quality_competitor_1",
+          "label": "Content Quality - Competitor 1",
+          "type": "text",
+          "placeholder": "Enter competitor 1",
+          "required": false
+        },
+        {
+          "id": "content_quality_competitor_2",
+          "label": "Content Quality - Competitor 2",
+          "type": "text",
+          "placeholder": "Enter competitor 2",
+          "required": false
+        },
+        {
+          "id": "content_quality_competitor_3",
+          "label": "Content Quality - Competitor 3",
+          "type": "text",
+          "placeholder": "Enter competitor 3",
+          "required": false
+        },
+        {
+          "id": "content_quality_competitor_4",
+          "label": "Content Quality - Competitor 4",
+          "type": "text",
+          "placeholder": "Enter competitor 4",
+          "required": false
+        },
+        {
+          "id": "content_quality_competitor_5",
+          "label": "Content Quality - Competitor 5",
+          "type": "text",
+          "placeholder": "Enter competitor 5",
+          "required": false
+        },
+        {
+          "id": "brand_awareness_your_company",
+          "label": "Brand Awareness - Your Company",
+          "type": "text",
+          "placeholder": "Enter your company",
+          "required": false
+        },
+        {
+          "id": "brand_awareness_competitor_1",
+          "label": "Brand Awareness - Competitor 1",
+          "type": "text",
+          "placeholder": "Enter competitor 1",
+          "required": false
+        },
+        {
+          "id": "brand_awareness_competitor_2",
+          "label": "Brand Awareness - Competitor 2",
+          "type": "text",
+          "placeholder": "Enter competitor 2",
+          "required": false
+        },
+        {
+          "id": "brand_awareness_competitor_3",
+          "label": "Brand Awareness - Competitor 3",
+          "type": "text",
+          "placeholder": "Enter competitor 3",
+          "required": false
+        },
+        {
+          "id": "brand_awareness_competitor_4",
+          "label": "Brand Awareness - Competitor 4",
+          "type": "text",
+          "placeholder": "Enter competitor 4",
+          "required": false
+        },
+        {
+          "id": "brand_awareness_competitor_5",
+          "label": "Brand Awareness - Competitor 5",
+          "type": "text",
+          "placeholder": "Enter competitor 5",
+          "required": false
+        },
+        {
+          "id": "ad_spend_your_company",
+          "label": "Ad Spend - Your Company",
+          "type": "text",
+          "placeholder": "Enter your company",
+          "required": false
+        },
+        {
+          "id": "ad_spend_competitor_1",
+          "label": "Ad Spend - Competitor 1",
+          "type": "text",
+          "placeholder": "Enter competitor 1",
+          "required": false
+        },
+        {
+          "id": "ad_spend_competitor_2",
+          "label": "Ad Spend - Competitor 2",
+          "type": "text",
+          "placeholder": "Enter competitor 2",
+          "required": false
+        },
+        {
+          "id": "ad_spend_competitor_3",
+          "label": "Ad Spend - Competitor 3",
+          "type": "text",
+          "placeholder": "Enter competitor 3",
+          "required": false
+        },
+        {
+          "id": "ad_spend_competitor_4",
+          "label": "Ad Spend - Competitor 4",
+          "type": "text",
+          "placeholder": "Enter competitor 4",
+          "required": false
+        },
+        {
+          "id": "ad_spend_competitor_5",
+          "label": "Ad Spend - Competitor 5",
+          "type": "text",
+          "placeholder": "Enter competitor 5",
+          "required": false
+        },
+        {
+          "id": "email_marketing_your_company",
+          "label": "Email Marketing - Your Company",
+          "type": "text",
+          "placeholder": "Enter your company",
+          "required": false
+        },
+        {
+          "id": "email_marketing_competitor_1",
+          "label": "Email Marketing - Competitor 1",
+          "type": "text",
+          "placeholder": "Enter competitor 1",
+          "required": false
+        },
+        {
+          "id": "email_marketing_competitor_2",
+          "label": "Email Marketing - Competitor 2",
+          "type": "text",
+          "placeholder": "Enter competitor 2",
+          "required": false
+        },
+        {
+          "id": "email_marketing_competitor_3",
+          "label": "Email Marketing - Competitor 3",
+          "type": "text",
+          "placeholder": "Enter competitor 3",
+          "required": false
+        },
+        {
+          "id": "email_marketing_competitor_4",
+          "label": "Email Marketing - Competitor 4",
+          "type": "text",
+          "placeholder": "Enter competitor 4",
+          "required": false
+        },
+        {
+          "id": "email_marketing_competitor_5",
+          "label": "Email Marketing - Competitor 5",
+          "type": "text",
+          "placeholder": "Enter competitor 5",
+          "required": false
+        },
+        {
+          "id": "event_presence_your_company",
+          "label": "Event Presence - Your Company",
+          "type": "text",
+          "placeholder": "Enter your company",
+          "required": false
+        },
+        {
+          "id": "event_presence_competitor_1",
+          "label": "Event Presence - Competitor 1",
+          "type": "text",
+          "placeholder": "Enter competitor 1",
+          "required": false
+        },
+        {
+          "id": "event_presence_competitor_2",
+          "label": "Event Presence - Competitor 2",
+          "type": "text",
+          "placeholder": "Enter competitor 2",
+          "required": false
+        },
+        {
+          "id": "event_presence_competitor_3",
+          "label": "Event Presence - Competitor 3",
+          "type": "text",
+          "placeholder": "Enter competitor 3",
+          "required": false
+        },
+        {
+          "id": "event_presence_competitor_4",
+          "label": "Event Presence - Competitor 4",
+          "type": "text",
+          "placeholder": "Enter competitor 4",
+          "required": false
+        },
+        {
+          "id": "event_presence_competitor_5",
+          "label": "Event Presence - Competitor 5",
+          "type": "text",
+          "placeholder": "Enter competitor 5",
+          "required": false
+        },
+        {
+          "id": "pr_coverage_your_company",
+          "label": "PR Coverage - Your Company",
+          "type": "text",
+          "placeholder": "Enter your company",
+          "required": false
+        },
+        {
+          "id": "pr_coverage_competitor_1",
+          "label": "PR Coverage - Competitor 1",
+          "type": "text",
+          "placeholder": "Enter competitor 1",
+          "required": false
+        },
+        {
+          "id": "pr_coverage_competitor_2",
+          "label": "PR Coverage - Competitor 2",
+          "type": "text",
+          "placeholder": "Enter competitor 2",
+          "required": false
+        },
+        {
+          "id": "pr_coverage_competitor_3",
+          "label": "PR Coverage - Competitor 3",
+          "type": "text",
+          "placeholder": "Enter competitor 3",
+          "required": false
+        },
+        {
+          "id": "pr_coverage_competitor_4",
+          "label": "PR Coverage - Competitor 4",
+          "type": "text",
+          "placeholder": "Enter competitor 4",
+          "required": false
+        },
+        {
+          "id": "pr_coverage_competitor_5",
+          "label": "PR Coverage - Competitor 5",
+          "type": "text",
+          "placeholder": "Enter competitor 5",
+          "required": false
+        },
+        {
+          "id": "partner_network_your_company",
+          "label": "Partner Network - Your Company",
+          "type": "text",
+          "placeholder": "Enter your company",
+          "required": false
+        },
+        {
+          "id": "partner_network_competitor_1",
+          "label": "Partner Network - Competitor 1",
+          "type": "text",
+          "placeholder": "Enter competitor 1",
+          "required": false
+        },
+        {
+          "id": "partner_network_competitor_2",
+          "label": "Partner Network - Competitor 2",
+          "type": "text",
+          "placeholder": "Enter competitor 2",
+          "required": false
+        },
+        {
+          "id": "partner_network_competitor_3",
+          "label": "Partner Network - Competitor 3",
+          "type": "text",
+          "placeholder": "Enter competitor 3",
+          "required": false
+        },
+        {
+          "id": "partner_network_competitor_4",
+          "label": "Partner Network - Competitor 4",
+          "type": "text",
+          "placeholder": "Enter competitor 4",
+          "required": false
+        },
+        {
+          "id": "partner_network_competitor_5",
+          "label": "Partner Network - Competitor 5",
+          "type": "text",
+          "placeholder": "Enter competitor 5",
+          "required": false
+        },
+        {
+          "id": "community_building_your_company",
+          "label": "Community Building - Your Company",
+          "type": "text",
+          "placeholder": "Enter your company",
+          "required": false
+        },
+        {
+          "id": "community_building_competitor_1",
+          "label": "Community Building - Competitor 1",
+          "type": "text",
+          "placeholder": "Enter competitor 1",
+          "required": false
+        },
+        {
+          "id": "community_building_competitor_2",
+          "label": "Community Building - Competitor 2",
+          "type": "text",
+          "placeholder": "Enter competitor 2",
+          "required": false
+        },
+        {
+          "id": "community_building_competitor_3",
+          "label": "Community Building - Competitor 3",
+          "type": "text",
+          "placeholder": "Enter competitor 3",
+          "required": false
+        },
+        {
+          "id": "community_building_competitor_4",
+          "label": "Community Building - Competitor 4",
+          "type": "text",
+          "placeholder": "Enter competitor 4",
+          "required": false
+        },
+        {
+          "id": "community_building_competitor_5",
+          "label": "Community Building - Competitor 5",
+          "type": "text",
+          "placeholder": "Enter competitor 5",
+          "required": false
+        },
+        {
+          "id": "average_your_company",
+          "label": "AVERAGE - Your Company",
+          "type": "text",
+          "placeholder": "Enter your company",
+          "required": false
+        },
+        {
+          "id": "average_competitor_1",
+          "label": "AVERAGE - Competitor 1",
+          "type": "text",
+          "placeholder": "Enter competitor 1",
+          "required": false
+        },
+        {
+          "id": "average_competitor_2",
+          "label": "AVERAGE - Competitor 2",
+          "type": "text",
+          "placeholder": "Enter competitor 2",
+          "required": false
+        },
+        {
+          "id": "average_competitor_3",
+          "label": "AVERAGE - Competitor 3",
+          "type": "text",
+          "placeholder": "Enter competitor 3",
+          "required": false
+        },
+        {
+          "id": "average_competitor_4",
+          "label": "AVERAGE - Competitor 4",
+          "type": "text",
+          "placeholder": "Enter competitor 4",
+          "required": false
+        },
+        {
+          "id": "average_competitor_5",
+          "label": "AVERAGE - Competitor 5",
+          "type": "text",
+          "placeholder": "Enter competitor 5",
+          "required": false
+        },
+        {
+          "id": "channel_strategy_comparison_your_company",
+          "label": "CHANNEL STRATEGY COMPARISON - Your Company",
+          "type": "text",
+          "placeholder": "Enter your company",
+          "required": false
+        },
+        {
+          "id": "channel_strategy_comparison_competitor_1",
+          "label": "CHANNEL STRATEGY COMPARISON - Competitor 1",
+          "type": "text",
+          "placeholder": "Enter competitor 1",
+          "required": false
+        },
+        {
+          "id": "channel_strategy_comparison_competitor_2",
+          "label": "CHANNEL STRATEGY COMPARISON - Competitor 2",
+          "type": "text",
+          "placeholder": "Enter competitor 2",
+          "required": false
+        },
+        {
+          "id": "channel_strategy_comparison_competitor_3",
+          "label": "CHANNEL STRATEGY COMPARISON - Competitor 3",
+          "type": "text",
+          "placeholder": "Enter competitor 3",
+          "required": false
+        },
+        {
+          "id": "channel_strategy_comparison_competitor_4",
+          "label": "CHANNEL STRATEGY COMPARISON - Competitor 4",
+          "type": "text",
+          "placeholder": "Enter competitor 4",
+          "required": false
+        },
+        {
+          "id": "channel_strategy_comparison_competitor_5",
+          "label": "CHANNEL STRATEGY COMPARISON - Competitor 5",
+          "type": "text",
+          "placeholder": "Enter competitor 5",
+          "required": false
+        },
+        {
+          "id": "dimension_your_company",
+          "label": "Dimension - Your Company",
+          "type": "text",
+          "placeholder": "Enter your company",
+          "required": false
+        },
+        {
+          "id": "dimension_competitor_1",
+          "label": "Dimension - Competitor 1",
+          "type": "text",
+          "placeholder": "Enter competitor 1",
+          "required": false
+        },
+        {
+          "id": "dimension_competitor_2",
+          "label": "Dimension - Competitor 2",
+          "type": "text",
+          "placeholder": "Enter competitor 2",
+          "required": false
+        },
+        {
+          "id": "dimension_competitor_3",
+          "label": "Dimension - Competitor 3",
+          "type": "text",
+          "placeholder": "Enter competitor 3",
+          "required": false
+        },
+        {
+          "id": "dimension_competitor_4",
+          "label": "Dimension - Competitor 4",
+          "type": "text",
+          "placeholder": "Enter competitor 4",
+          "required": false
+        },
+        {
+          "id": "dimension_competitor_5",
+          "label": "Dimension - Competitor 5",
+          "type": "text",
+          "placeholder": "Enter competitor 5",
+          "required": false
+        },
+        {
+          "id": "primary_channel_your_company",
+          "label": "Primary Channel - Your Company",
+          "type": "text",
+          "placeholder": "Enter your company",
+          "required": false
+        },
+        {
+          "id": "primary_channel_competitor_1",
+          "label": "Primary Channel - Competitor 1",
+          "type": "text",
+          "placeholder": "Enter competitor 1",
+          "required": false
+        },
+        {
+          "id": "primary_channel_competitor_2",
+          "label": "Primary Channel - Competitor 2",
+          "type": "text",
+          "placeholder": "Enter competitor 2",
+          "required": false
+        },
+        {
+          "id": "primary_channel_competitor_3",
+          "label": "Primary Channel - Competitor 3",
+          "type": "text",
+          "placeholder": "Enter competitor 3",
+          "required": false
+        },
+        {
+          "id": "primary_channel_competitor_4",
+          "label": "Primary Channel - Competitor 4",
+          "type": "text",
+          "placeholder": "Enter competitor 4",
+          "required": false
+        },
+        {
+          "id": "primary_channel_competitor_5",
+          "label": "Primary Channel - Competitor 5",
+          "type": "text",
+          "placeholder": "Enter competitor 5",
+          "required": false
+        },
+        {
+          "id": "secondary_channel_your_company",
+          "label": "Secondary Channel - Your Company",
+          "type": "text",
+          "placeholder": "Enter your company",
+          "required": false
+        },
+        {
+          "id": "secondary_channel_competitor_1",
+          "label": "Secondary Channel - Competitor 1",
+          "type": "text",
+          "placeholder": "Enter competitor 1",
+          "required": false
+        },
+        {
+          "id": "secondary_channel_competitor_2",
+          "label": "Secondary Channel - Competitor 2",
+          "type": "text",
+          "placeholder": "Enter competitor 2",
+          "required": false
+        },
+        {
+          "id": "secondary_channel_competitor_3",
+          "label": "Secondary Channel - Competitor 3",
+          "type": "text",
+          "placeholder": "Enter competitor 3",
+          "required": false
+        },
+        {
+          "id": "secondary_channel_competitor_4",
+          "label": "Secondary Channel - Competitor 4",
+          "type": "text",
+          "placeholder": "Enter competitor 4",
+          "required": false
+        },
+        {
+          "id": "secondary_channel_competitor_5",
+          "label": "Secondary Channel - Competitor 5",
+          "type": "text",
+          "placeholder": "Enter competitor 5",
+          "required": false
+        },
+        {
+          "id": "content_frequency_your_company",
+          "label": "Content Frequency - Your Company",
+          "type": "text",
+          "placeholder": "Enter your company",
+          "required": false
+        },
+        {
+          "id": "content_frequency_competitor_1",
+          "label": "Content Frequency - Competitor 1",
+          "type": "text",
+          "placeholder": "Enter competitor 1",
+          "required": false
+        },
+        {
+          "id": "content_frequency_competitor_2",
+          "label": "Content Frequency - Competitor 2",
+          "type": "text",
+          "placeholder": "Enter competitor 2",
+          "required": false
+        },
+        {
+          "id": "content_frequency_competitor_3",
+          "label": "Content Frequency - Competitor 3",
+          "type": "text",
+          "placeholder": "Enter competitor 3",
+          "required": false
+        },
+        {
+          "id": "content_frequency_competitor_4",
+          "label": "Content Frequency - Competitor 4",
+          "type": "text",
+          "placeholder": "Enter competitor 4",
+          "required": false
+        },
+        {
+          "id": "content_frequency_competitor_5",
+          "label": "Content Frequency - Competitor 5",
+          "type": "text",
+          "placeholder": "Enter competitor 5",
+          "required": false
+        },
+        {
+          "id": "tone_voice_your_company",
+          "label": "Tone / Voice - Your Company",
+          "type": "text",
+          "placeholder": "Enter your company",
+          "required": false
+        },
+        {
+          "id": "tone_voice_competitor_1",
+          "label": "Tone / Voice - Competitor 1",
+          "type": "text",
+          "placeholder": "Enter competitor 1",
+          "required": false
+        },
+        {
+          "id": "tone_voice_competitor_2",
+          "label": "Tone / Voice - Competitor 2",
+          "type": "text",
+          "placeholder": "Enter competitor 2",
+          "required": false
+        },
+        {
+          "id": "tone_voice_competitor_3",
+          "label": "Tone / Voice - Competitor 3",
+          "type": "text",
+          "placeholder": "Enter competitor 3",
+          "required": false
+        },
+        {
+          "id": "tone_voice_competitor_4",
+          "label": "Tone / Voice - Competitor 4",
+          "type": "text",
+          "placeholder": "Enter competitor 4",
+          "required": false
+        },
+        {
+          "id": "tone_voice_competitor_5",
+          "label": "Tone / Voice - Competitor 5",
+          "type": "text",
+          "placeholder": "Enter competitor 5",
+          "required": false
+        },
+        {
+          "id": "key_message_your_company",
+          "label": "Key Message - Your Company",
+          "type": "text",
+          "placeholder": "Enter your company",
+          "required": false
+        },
+        {
+          "id": "key_message_competitor_1",
+          "label": "Key Message - Competitor 1",
+          "type": "text",
+          "placeholder": "Enter competitor 1",
+          "required": false
+        },
+        {
+          "id": "key_message_competitor_2",
+          "label": "Key Message - Competitor 2",
+          "type": "text",
+          "placeholder": "Enter competitor 2",
+          "required": false
+        },
+        {
+          "id": "key_message_competitor_3",
+          "label": "Key Message - Competitor 3",
+          "type": "text",
+          "placeholder": "Enter competitor 3",
+          "required": false
+        },
+        {
+          "id": "key_message_competitor_4",
+          "label": "Key Message - Competitor 4",
+          "type": "text",
+          "placeholder": "Enter competitor 4",
+          "required": false
+        },
+        {
+          "id": "key_message_competitor_5",
+          "label": "Key Message - Competitor 5",
+          "type": "text",
+          "placeholder": "Enter competitor 5",
+          "required": false
+        },
+        {
+          "id": "cta_style_your_company",
+          "label": "CTA Style - Your Company",
+          "type": "text",
+          "placeholder": "Enter your company",
+          "required": false
+        },
+        {
+          "id": "cta_style_competitor_1",
+          "label": "CTA Style - Competitor 1",
+          "type": "text",
+          "placeholder": "Enter competitor 1",
+          "required": false
+        },
+        {
+          "id": "cta_style_competitor_2",
+          "label": "CTA Style - Competitor 2",
+          "type": "text",
+          "placeholder": "Enter competitor 2",
+          "required": false
+        },
+        {
+          "id": "cta_style_competitor_3",
+          "label": "CTA Style - Competitor 3",
+          "type": "text",
+          "placeholder": "Enter competitor 3",
+          "required": false
+        },
+        {
+          "id": "cta_style_competitor_4",
+          "label": "CTA Style - Competitor 4",
+          "type": "text",
+          "placeholder": "Enter competitor 4",
+          "required": false
+        },
+        {
+          "id": "cta_style_competitor_5",
+          "label": "CTA Style - Competitor 5",
+          "type": "text",
+          "placeholder": "Enter competitor 5",
+          "required": false
+        },
+        {
+          "id": "top_content_type_your_company",
+          "label": "Top Content Type - Your Company",
+          "type": "text",
+          "placeholder": "Enter your company",
+          "required": false
+        },
+        {
+          "id": "top_content_type_competitor_1",
+          "label": "Top Content Type - Competitor 1",
+          "type": "text",
+          "placeholder": "Enter competitor 1",
+          "required": false
+        },
+        {
+          "id": "top_content_type_competitor_2",
+          "label": "Top Content Type - Competitor 2",
+          "type": "text",
+          "placeholder": "Enter competitor 2",
+          "required": false
+        },
+        {
+          "id": "top_content_type_competitor_3",
+          "label": "Top Content Type - Competitor 3",
+          "type": "text",
+          "placeholder": "Enter competitor 3",
+          "required": false
+        },
+        {
+          "id": "top_content_type_competitor_4",
+          "label": "Top Content Type - Competitor 4",
+          "type": "text",
+          "placeholder": "Enter competitor 4",
+          "required": false
+        },
+        {
+          "id": "top_content_type_competitor_5",
+          "label": "Top Content Type - Competitor 5",
+          "type": "text",
+          "placeholder": "Enter competitor 5",
+          "required": false
+        },
+        {
+          "id": "newsletter_your_company",
+          "label": "Newsletter? - Your Company",
+          "type": "text",
+          "placeholder": "Enter your company",
+          "required": false
+        },
+        {
+          "id": "newsletter_competitor_1",
+          "label": "Newsletter? - Competitor 1",
+          "type": "text",
+          "placeholder": "Enter competitor 1",
+          "required": false
+        },
+        {
+          "id": "newsletter_competitor_2",
+          "label": "Newsletter? - Competitor 2",
+          "type": "text",
+          "placeholder": "Enter competitor 2",
+          "required": false
+        },
+        {
+          "id": "newsletter_competitor_3",
+          "label": "Newsletter? - Competitor 3",
+          "type": "text",
+          "placeholder": "Enter competitor 3",
+          "required": false
+        },
+        {
+          "id": "newsletter_competitor_4",
+          "label": "Newsletter? - Competitor 4",
+          "type": "text",
+          "placeholder": "Enter competitor 4",
+          "required": false
+        },
+        {
+          "id": "newsletter_competitor_5",
+          "label": "Newsletter? - Competitor 5",
+          "type": "text",
+          "placeholder": "Enter competitor 5",
+          "required": false
+        },
+        {
+          "id": "podcast_your_company",
+          "label": "Podcast? - Your Company",
+          "type": "text",
+          "placeholder": "Enter your company",
+          "required": false
+        },
+        {
+          "id": "podcast_competitor_1",
+          "label": "Podcast? - Competitor 1",
+          "type": "text",
+          "placeholder": "Enter competitor 1",
+          "required": false
+        },
+        {
+          "id": "podcast_competitor_2",
+          "label": "Podcast? - Competitor 2",
+          "type": "text",
+          "placeholder": "Enter competitor 2",
+          "required": false
+        },
+        {
+          "id": "podcast_competitor_3",
+          "label": "Podcast? - Competitor 3",
+          "type": "text",
+          "placeholder": "Enter competitor 3",
+          "required": false
+        },
+        {
+          "id": "podcast_competitor_4",
+          "label": "Podcast? - Competitor 4",
+          "type": "text",
+          "placeholder": "Enter competitor 4",
+          "required": false
+        },
+        {
+          "id": "podcast_competitor_5",
+          "label": "Podcast? - Competitor 5",
+          "type": "text",
+          "placeholder": "Enter competitor 5",
+          "required": false
+        },
+        {
+          "id": "youtube_your_company",
+          "label": "YouTube? - Your Company",
+          "type": "text",
+          "placeholder": "Enter your company",
+          "required": false
+        },
+        {
+          "id": "youtube_competitor_1",
+          "label": "YouTube? - Competitor 1",
+          "type": "text",
+          "placeholder": "Enter competitor 1",
+          "required": false
+        },
+        {
+          "id": "youtube_competitor_2",
+          "label": "YouTube? - Competitor 2",
+          "type": "text",
+          "placeholder": "Enter competitor 2",
+          "required": false
+        },
+        {
+          "id": "youtube_competitor_3",
+          "label": "YouTube? - Competitor 3",
+          "type": "text",
+          "placeholder": "Enter competitor 3",
+          "required": false
+        },
+        {
+          "id": "youtube_competitor_4",
+          "label": "YouTube? - Competitor 4",
+          "type": "text",
+          "placeholder": "Enter competitor 4",
+          "required": false
+        },
+        {
+          "id": "youtube_competitor_5",
+          "label": "YouTube? - Competitor 5",
+          "type": "text",
+          "placeholder": "Enter competitor 5",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "battlecard_1",
+      "title": "Battlecard #1",
+      "description": "[Battlecards] Complete the Battlecard #1 section",
+      "fields": []
+    },
+    {
+      "id": "competitor_name",
+      "title": "Competitor Name",
+      "description": "[Battlecards] Complete the Competitor Name section",
+      "fields": []
+    },
+    {
+      "id": "their_elevator_pitch",
+      "title": "Their Elevator Pitch",
+      "description": "[Battlecards] Complete the Their Elevator Pitch section",
+      "fields": []
+    },
+    {
+      "id": "their_target_customer",
+      "title": "Their Target Customer",
+      "description": "[Battlecards] Complete the Their Target Customer section",
+      "fields": []
+    },
+    {
+      "id": "their_pricing",
+      "title": "Their Pricing",
+      "description": "[Battlecards] Complete the Their Pricing section",
+      "fields": []
+    },
+    {
+      "id": "their_key_strength",
+      "title": "Their Key Strength",
+      "description": "[Battlecards] Complete the Their Key Strength section",
+      "fields": []
+    },
+    {
+      "id": "their_key_weakness",
+      "title": "Their Key Weakness",
+      "description": "[Battlecards] Complete the Their Key Weakness section",
+      "fields": []
+    },
+    {
+      "id": "when_they_win",
+      "title": "When They Win",
+      "description": "[Battlecards] Complete the When They Win section",
+      "fields": []
+    },
+    {
+      "id": "when_we_win",
+      "title": "When We Win",
+      "description": "[Battlecards] Complete the When We Win section",
+      "fields": []
+    },
+    {
+      "id": "their_objection_to_us",
+      "title": "Their Objection to Us",
+      "description": "[Battlecards] Complete the Their Objection to Us section",
+      "fields": []
+    },
+    {
+      "id": "our_counterargument",
+      "title": "Our Counter-Argument",
+      "description": "[Battlecards] Complete the Our Counter-Argument section",
+      "fields": []
+    },
+    {
+      "id": "landmines_to_set",
+      "title": "Landmines to Set",
+      "description": "[Battlecards] Complete the Landmines to Set section",
+      "fields": []
+    },
+    {
+      "id": "proof_points_to_use",
+      "title": "Proof Points to Use",
+      "description": "[Battlecards] Complete the Proof Points to Use section",
+      "fields": []
+    },
+    {
+      "id": "battlecard_2",
+      "title": "Battlecard #2",
+      "description": "[Battlecards] Complete the Battlecard #2 section",
+      "fields": []
+    },
+    {
+      "id": "competitor_name_1",
+      "title": "Competitor Name",
+      "description": "[Battlecards] Complete the Competitor Name section",
+      "fields": []
+    },
+    {
+      "id": "their_elevator_pitch_1",
+      "title": "Their Elevator Pitch",
+      "description": "[Battlecards] Complete the Their Elevator Pitch section",
+      "fields": []
+    },
+    {
+      "id": "their_target_customer_1",
+      "title": "Their Target Customer",
+      "description": "[Battlecards] Complete the Their Target Customer section",
+      "fields": []
+    },
+    {
+      "id": "their_pricing_1",
+      "title": "Their Pricing",
+      "description": "[Battlecards] Complete the Their Pricing section",
+      "fields": []
+    },
+    {
+      "id": "their_key_strength_1",
+      "title": "Their Key Strength",
+      "description": "[Battlecards] Complete the Their Key Strength section",
+      "fields": []
+    },
+    {
+      "id": "their_key_weakness_1",
+      "title": "Their Key Weakness",
+      "description": "[Battlecards] Complete the Their Key Weakness section",
+      "fields": []
+    },
+    {
+      "id": "when_they_win_1",
+      "title": "When They Win",
+      "description": "[Battlecards] Complete the When They Win section",
+      "fields": []
+    },
+    {
+      "id": "when_we_win_1",
+      "title": "When We Win",
+      "description": "[Battlecards] Complete the When We Win section",
+      "fields": []
+    },
+    {
+      "id": "their_objection_to_us_1",
+      "title": "Their Objection to Us",
+      "description": "[Battlecards] Complete the Their Objection to Us section",
+      "fields": []
+    },
+    {
+      "id": "our_counterargument_1",
+      "title": "Our Counter-Argument",
+      "description": "[Battlecards] Complete the Our Counter-Argument section",
+      "fields": []
+    },
+    {
+      "id": "landmines_to_set_1",
+      "title": "Landmines to Set",
+      "description": "[Battlecards] Complete the Landmines to Set section",
+      "fields": []
+    },
+    {
+      "id": "proof_points_to_use_1",
+      "title": "Proof Points to Use",
+      "description": "[Battlecards] Complete the Proof Points to Use section",
+      "fields": []
+    },
+    {
+      "id": "battlecard_3",
+      "title": "Battlecard #3",
+      "description": "[Battlecards] Complete the Battlecard #3 section",
+      "fields": []
+    },
+    {
+      "id": "competitor_name_2",
+      "title": "Competitor Name",
+      "description": "[Battlecards] Complete the Competitor Name section",
+      "fields": []
+    },
+    {
+      "id": "their_elevator_pitch_2",
+      "title": "Their Elevator Pitch",
+      "description": "[Battlecards] Complete the Their Elevator Pitch section",
+      "fields": []
+    },
+    {
+      "id": "their_target_customer_2",
+      "title": "Their Target Customer",
+      "description": "[Battlecards] Complete the Their Target Customer section",
+      "fields": []
+    },
+    {
+      "id": "their_pricing_2",
+      "title": "Their Pricing",
+      "description": "[Battlecards] Complete the Their Pricing section",
+      "fields": []
+    },
+    {
+      "id": "their_key_strength_2",
+      "title": "Their Key Strength",
+      "description": "[Battlecards] Complete the Their Key Strength section",
+      "fields": []
+    },
+    {
+      "id": "their_key_weakness_2",
+      "title": "Their Key Weakness",
+      "description": "[Battlecards] Complete the Their Key Weakness section",
+      "fields": []
+    },
+    {
+      "id": "when_they_win_2",
+      "title": "When They Win",
+      "description": "[Battlecards] Complete the When They Win section",
+      "fields": []
+    },
+    {
+      "id": "when_we_win_2",
+      "title": "When We Win",
+      "description": "[Battlecards] Complete the When We Win section",
+      "fields": []
+    },
+    {
+      "id": "their_objection_to_us_2",
+      "title": "Their Objection to Us",
+      "description": "[Battlecards] Complete the Their Objection to Us section",
+      "fields": []
+    },
+    {
+      "id": "our_counterargument_2",
+      "title": "Our Counter-Argument",
+      "description": "[Battlecards] Complete the Our Counter-Argument section",
+      "fields": []
+    },
+    {
+      "id": "landmines_to_set_2",
+      "title": "Landmines to Set",
+      "description": "[Battlecards] Complete the Landmines to Set section",
+      "fields": []
+    },
+    {
+      "id": "proof_points_to_use_2",
+      "title": "Proof Points to Use",
+      "description": "[Battlecards] Complete the Proof Points to Use section",
+      "fields": []
+    },
+    {
+      "id": "battlecard_4",
+      "title": "Battlecard #4",
+      "description": "[Battlecards] Complete the Battlecard #4 section",
+      "fields": []
+    },
+    {
+      "id": "competitor_name_3",
+      "title": "Competitor Name",
+      "description": "[Battlecards] Complete the Competitor Name section",
+      "fields": []
+    },
+    {
+      "id": "their_elevator_pitch_3",
+      "title": "Their Elevator Pitch",
+      "description": "[Battlecards] Complete the Their Elevator Pitch section",
+      "fields": []
+    },
+    {
+      "id": "their_target_customer_3",
+      "title": "Their Target Customer",
+      "description": "[Battlecards] Complete the Their Target Customer section",
+      "fields": []
+    },
+    {
+      "id": "their_pricing_3",
+      "title": "Their Pricing",
+      "description": "[Battlecards] Complete the Their Pricing section",
+      "fields": []
+    },
+    {
+      "id": "their_key_strength_3",
+      "title": "Their Key Strength",
+      "description": "[Battlecards] Complete the Their Key Strength section",
+      "fields": []
+    },
+    {
+      "id": "their_key_weakness_3",
+      "title": "Their Key Weakness",
+      "description": "[Battlecards] Complete the Their Key Weakness section",
+      "fields": []
+    },
+    {
+      "id": "when_they_win_3",
+      "title": "When They Win",
+      "description": "[Battlecards] Complete the When They Win section",
+      "fields": []
+    },
+    {
+      "id": "when_we_win_3",
+      "title": "When We Win",
+      "description": "[Battlecards] Complete the When We Win section",
+      "fields": []
+    },
+    {
+      "id": "their_objection_to_us_3",
+      "title": "Their Objection to Us",
+      "description": "[Battlecards] Complete the Their Objection to Us section",
+      "fields": []
+    },
+    {
+      "id": "our_counterargument_3",
+      "title": "Our Counter-Argument",
+      "description": "[Battlecards] Complete the Our Counter-Argument section",
+      "fields": []
+    },
+    {
+      "id": "landmines_to_set_3",
+      "title": "Landmines to Set",
+      "description": "[Battlecards] Complete the Landmines to Set section",
+      "fields": []
+    },
+    {
+      "id": "proof_points_to_use_3",
+      "title": "Proof Points to Use",
+      "description": "[Battlecards] Complete the Proof Points to Use section",
+      "fields": []
+    },
+    {
+      "id": "battlecard_5",
+      "title": "Battlecard #5",
+      "description": "[Battlecards] Complete the Battlecard #5 section",
+      "fields": []
+    },
+    {
+      "id": "competitor_name_4",
+      "title": "Competitor Name",
+      "description": "[Battlecards] Complete the Competitor Name section",
+      "fields": []
+    },
+    {
+      "id": "their_elevator_pitch_4",
+      "title": "Their Elevator Pitch",
+      "description": "[Battlecards] Complete the Their Elevator Pitch section",
+      "fields": []
+    },
+    {
+      "id": "their_target_customer_4",
+      "title": "Their Target Customer",
+      "description": "[Battlecards] Complete the Their Target Customer section",
+      "fields": []
+    },
+    {
+      "id": "their_pricing_4",
+      "title": "Their Pricing",
+      "description": "[Battlecards] Complete the Their Pricing section",
+      "fields": []
+    },
+    {
+      "id": "their_key_strength_4",
+      "title": "Their Key Strength",
+      "description": "[Battlecards] Complete the Their Key Strength section",
+      "fields": []
+    },
+    {
+      "id": "their_key_weakness_4",
+      "title": "Their Key Weakness",
+      "description": "[Battlecards] Complete the Their Key Weakness section",
+      "fields": []
+    },
+    {
+      "id": "when_they_win_4",
+      "title": "When They Win",
+      "description": "[Battlecards] Complete the When They Win section",
+      "fields": []
+    },
+    {
+      "id": "when_we_win_4",
+      "title": "When We Win",
+      "description": "[Battlecards] Complete the When We Win section",
+      "fields": []
+    },
+    {
+      "id": "their_objection_to_us_4",
+      "title": "Their Objection to Us",
+      "description": "[Battlecards] Complete the Their Objection to Us section",
+      "fields": []
+    },
+    {
+      "id": "our_counterargument_4",
+      "title": "Our Counter-Argument",
+      "description": "[Battlecards] Complete the Our Counter-Argument section",
+      "fields": []
+    },
+    {
+      "id": "landmines_to_set_4",
+      "title": "Landmines to Set",
+      "description": "[Battlecards] Complete the Landmines to Set section",
+      "fields": []
+    },
+    {
+      "id": "proof_points_to_use_4",
+      "title": "Proof Points to Use",
+      "description": "[Battlecards] Complete the Proof Points to Use section",
+      "fields": []
+    }
+  ]
 }

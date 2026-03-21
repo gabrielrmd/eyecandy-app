@@ -10,309 +10,6 @@
     "growth"
   ],
   "estimatedTime": "65 min",
-  "sections": [
-    {
-      "id": "dashboard",
-      "title": "Dashboard",
-      "description": "Complete the Dashboard section",
-      "fields": [
-        {
-          "id": "community_health_dashboard_0",
-          "label": "Community Health Dashboard",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "total_members_1",
-          "label": "Total Members",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "active_members_30_days_2",
-          "label": "Active Members (30 days)",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "engagement_rate_3",
-          "label": "Engagement Rate (%)",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "new_members_this_month_4",
-          "label": "New Members (This Month)",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "churn_rate_5",
-          "label": "Churn Rate (%)",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "net_promoter_score_6",
-          "label": "Net Promoter Score",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "content_posts_this_month_7",
-          "label": "Content Posts (This Month)",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "upcoming_events_8",
-          "label": "Upcoming Events",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "community_strategy",
-      "title": "Community Strategy",
-      "description": "Complete the Community Strategy section",
-      "fields": [
-        {
-          "id": "community_strategy_0",
-          "label": "Community Strategy",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "community_name_1",
-          "label": "Community Name",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "platform_2",
-          "label": "Platform",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "mission_3",
-          "label": "Mission",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "target_members_4",
-          "label": "Target Members",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "growth_goal_5",
-          "label": "Growth Goal",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "engagement_goal_6",
-          "label": "Engagement Goal",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "content_pillars_7",
-          "label": "Content Pillars",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "moderation_policy_8",
-          "label": "Moderation Policy",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "kpis_9",
-          "label": "KPIs",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "budget_10",
-          "label": "Budget",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "engagement_metrics",
-      "title": "Engagement Metrics",
-      "description": "Complete the Engagement Metrics section",
-      "fields": [
-        {
-          "id": "engagement_metrics_0",
-          "label": "Engagement Metrics",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "month_1",
-          "label": "Month",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "total_members_2",
-          "label": "Total Members",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "new_members_3",
-          "label": "New Members",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "churned_members_4",
-          "label": "Churned Members",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "growth_rate_5",
-          "label": "Growth Rate (%)",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "active_members_6",
-          "label": "Active Members",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "engagement_rate_7",
-          "label": "Engagement Rate (%)",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "month_1_8",
-          "label": "Month 1",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "month_2_9",
-          "label": "Month 2",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "month_3_10",
-          "label": "Month 3",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "month_4_11",
-          "label": "Month 4",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "month_5_12",
-          "label": "Month 5",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "month_6_13",
-          "label": "Month 6",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "month_7_14",
-          "label": "Month 7",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "month_8_15",
-          "label": "Month 8",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "month_9_16",
-          "label": "Month 9",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "month_10_17",
-          "label": "Month 10",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "month_11_18",
-          "label": "Month 11",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "month_12_19",
-          "label": "Month 12",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    }
-  ],
   "dashboard": {
     "metrics": [
       {
@@ -341,5 +38,1362 @@
         "format": "number"
       }
     ]
-  }
+  },
+  "sections": [
+    {
+      "id": "dashboard",
+      "title": "Dashboard",
+      "description": "Auto-calculated summary of your data. Complete the working sections to see results here.",
+      "readOnly": true,
+      "fields": [
+        {
+          "id": "dashboard_overview",
+          "label": "Dashboard Overview",
+          "type": "textarea",
+          "placeholder": "Dashboard metrics will be calculated from your inputs in the working sections",
+          "required": false,
+          "readOnly": true
+        }
+      ]
+    },
+    {
+      "id": "community_strategy",
+      "title": "Community Strategy",
+      "description": "Complete the Community Strategy section",
+      "fields": []
+    },
+    {
+      "id": "community_name",
+      "title": "Community Name",
+      "description": "[Community Strategy] Complete the Community Name section",
+      "fields": []
+    },
+    {
+      "id": "platform",
+      "title": "Platform",
+      "description": "[Community Strategy] Complete the Platform section",
+      "fields": []
+    },
+    {
+      "id": "mission",
+      "title": "Mission",
+      "description": "[Community Strategy] Complete the Mission section",
+      "fields": []
+    },
+    {
+      "id": "target_members",
+      "title": "Target Members",
+      "description": "[Community Strategy] Complete the Target Members section",
+      "fields": []
+    },
+    {
+      "id": "growth_goal",
+      "title": "Growth Goal",
+      "description": "[Community Strategy] Complete the Growth Goal section",
+      "fields": []
+    },
+    {
+      "id": "engagement_goal",
+      "title": "Engagement Goal",
+      "description": "[Community Strategy] Complete the Engagement Goal section",
+      "fields": []
+    },
+    {
+      "id": "content_pillars",
+      "title": "Content Pillars",
+      "description": "[Community Strategy] Complete the Content Pillars section",
+      "fields": []
+    },
+    {
+      "id": "moderation_policy",
+      "title": "Moderation Policy",
+      "description": "[Community Strategy] Complete the Moderation Policy section",
+      "fields": []
+    },
+    {
+      "id": "kpis",
+      "title": "KPIs",
+      "description": "[Community Strategy] Complete the KPIs section",
+      "fields": []
+    },
+    {
+      "id": "budget",
+      "title": "Budget",
+      "description": "[Community Strategy] Complete the Budget section",
+      "fields": []
+    },
+    {
+      "id": "member_tracker",
+      "title": "Member Tracker",
+      "description": "Add entries below. Each entry has the following fields.",
+      "fields": [
+        {
+          "id": "entry_member",
+          "label": "Member",
+          "type": "text",
+          "placeholder": "Enter member",
+          "required": false
+        },
+        {
+          "id": "entry_join_date",
+          "label": "Join Date",
+          "type": "text",
+          "placeholder": "Enter join date",
+          "required": false
+        },
+        {
+          "id": "entry_segment",
+          "label": "Segment",
+          "type": "text",
+          "placeholder": "Enter segment",
+          "required": false
+        },
+        {
+          "id": "entry_contribution_score",
+          "label": "Contribution Score",
+          "type": "scale",
+          "placeholder": "Enter contribution score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "entry_posts",
+          "label": "Posts",
+          "type": "text",
+          "placeholder": "Enter posts",
+          "required": false
+        },
+        {
+          "id": "entry_comments",
+          "label": "Comments",
+          "type": "textarea",
+          "placeholder": "Enter comments",
+          "required": false
+        },
+        {
+          "id": "entry_events_attended",
+          "label": "Events Attended",
+          "type": "text",
+          "placeholder": "Enter events attended",
+          "required": false
+        },
+        {
+          "id": "entry_referrals",
+          "label": "Referrals",
+          "type": "text",
+          "placeholder": "Enter referrals",
+          "required": false
+        },
+        {
+          "id": "entry_status",
+          "label": "Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "entry_notes",
+          "label": "Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "content_calendar",
+      "title": "Content Calendar",
+      "description": "Add entries below. Each entry has the following fields.",
+      "fields": [
+        {
+          "id": "entry_week",
+          "label": "Week",
+          "type": "text",
+          "placeholder": "Enter week",
+          "required": false
+        },
+        {
+          "id": "entry_content_title",
+          "label": "Content Title",
+          "type": "text",
+          "placeholder": "Enter content title",
+          "required": false
+        },
+        {
+          "id": "entry_type",
+          "label": "Type",
+          "type": "select",
+          "placeholder": "Enter type",
+          "required": false,
+          "options": [
+            "Blog Post",
+            "Video",
+            "Infographic",
+            "Case Study",
+            "Whitepaper",
+            "Newsletter",
+            "Social Post",
+            "Webinar"
+          ]
+        },
+        {
+          "id": "entry_platform",
+          "label": "Platform",
+          "type": "text",
+          "placeholder": "Enter platform",
+          "required": false
+        },
+        {
+          "id": "entry_author",
+          "label": "Author",
+          "type": "text",
+          "placeholder": "Enter author",
+          "required": false
+        },
+        {
+          "id": "entry_publish_date",
+          "label": "Publish Date",
+          "type": "text",
+          "placeholder": "Enter publish date",
+          "required": false
+        },
+        {
+          "id": "entry_engagement_target",
+          "label": "Engagement Target",
+          "type": "number",
+          "placeholder": "Enter engagement target",
+          "required": false
+        },
+        {
+          "id": "entry_status",
+          "label": "Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "entry_notes",
+          "label": "Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "event_planner",
+      "title": "Event Planner",
+      "description": "Add entries below. Each entry has the following fields.",
+      "fields": [
+        {
+          "id": "entry_event_name",
+          "label": "Event Name",
+          "type": "text",
+          "placeholder": "Enter event name",
+          "required": false
+        },
+        {
+          "id": "entry_type",
+          "label": "Type",
+          "type": "select",
+          "placeholder": "Enter type",
+          "required": false,
+          "options": [
+            "Blog Post",
+            "Video",
+            "Infographic",
+            "Case Study",
+            "Whitepaper",
+            "Newsletter",
+            "Social Post",
+            "Webinar"
+          ]
+        },
+        {
+          "id": "entry_date",
+          "label": "Date",
+          "type": "text",
+          "placeholder": "Enter date",
+          "required": false
+        },
+        {
+          "id": "entry_format",
+          "label": "Format",
+          "type": "text",
+          "placeholder": "Enter format",
+          "required": false
+        },
+        {
+          "id": "entry_attendees",
+          "label": "Attendees",
+          "type": "text",
+          "placeholder": "Enter attendees",
+          "required": false
+        },
+        {
+          "id": "entry_budget",
+          "label": "Budget",
+          "type": "number",
+          "placeholder": "Enter budget",
+          "required": false
+        },
+        {
+          "id": "entry_status",
+          "label": "Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "entry_feedback_score",
+          "label": "Feedback Score",
+          "type": "scale",
+          "placeholder": "Enter feedback score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "entry_notes",
+          "label": "Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "ambassador_programme",
+      "title": "Ambassador Programme",
+      "description": "Add entries below. Each entry has the following fields.",
+      "fields": [
+        {
+          "id": "entry_ambassador",
+          "label": "Ambassador",
+          "type": "text",
+          "placeholder": "Enter ambassador",
+          "required": false
+        },
+        {
+          "id": "entry_tier",
+          "label": "Tier",
+          "type": "select",
+          "placeholder": "Enter tier",
+          "required": false,
+          "options": [
+            "Gold",
+            "Silver",
+            "Bronze"
+          ]
+        },
+        {
+          "id": "entry_join_date",
+          "label": "Join Date",
+          "type": "text",
+          "placeholder": "Enter join date",
+          "required": false
+        },
+        {
+          "id": "entry_activities",
+          "label": "Activities",
+          "type": "text",
+          "placeholder": "Enter activities",
+          "required": false
+        },
+        {
+          "id": "entry_rewards_earned",
+          "label": "Rewards Earned",
+          "type": "text",
+          "placeholder": "Enter rewards earned",
+          "required": false
+        },
+        {
+          "id": "entry_content_created",
+          "label": "Content Created",
+          "type": "text",
+          "placeholder": "Enter content created",
+          "required": false
+        },
+        {
+          "id": "entry_referrals",
+          "label": "Referrals",
+          "type": "text",
+          "placeholder": "Enter referrals",
+          "required": false
+        },
+        {
+          "id": "entry_status",
+          "label": "Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "entry_notes",
+          "label": "Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "engagement_metrics",
+      "title": "Engagement Metrics",
+      "description": "Enter data for each item",
+      "fields": [
+        {
+          "id": "month_1_total_members",
+          "label": "Month 1 - Total Members",
+          "type": "text",
+          "placeholder": "Enter total members",
+          "required": false
+        },
+        {
+          "id": "month_1_new_members",
+          "label": "Month 1 - New Members",
+          "type": "number",
+          "placeholder": "Enter new members",
+          "required": false
+        },
+        {
+          "id": "month_1_churned_members",
+          "label": "Month 1 - Churned Members",
+          "type": "number",
+          "placeholder": "Enter churned members",
+          "required": false
+        },
+        {
+          "id": "month_1_growth_rate",
+          "label": "Month 1 - Growth Rate (%)",
+          "type": "number",
+          "placeholder": "Enter growth rate (%)",
+          "required": false
+        },
+        {
+          "id": "month_1_active_members",
+          "label": "Month 1 - Active Members",
+          "type": "number",
+          "placeholder": "Enter active members",
+          "required": false
+        },
+        {
+          "id": "month_1_engagement_rate",
+          "label": "Month 1 - Engagement Rate (%)",
+          "type": "number",
+          "placeholder": "Enter engagement rate (%)",
+          "required": false
+        },
+        {
+          "id": "month_1_posts",
+          "label": "Month 1 - Posts",
+          "type": "text",
+          "placeholder": "Enter posts",
+          "required": false
+        },
+        {
+          "id": "month_1_comments",
+          "label": "Month 1 - Comments",
+          "type": "textarea",
+          "placeholder": "Enter comments",
+          "required": false
+        },
+        {
+          "id": "month_1_events",
+          "label": "Month 1 - Events",
+          "type": "text",
+          "placeholder": "Enter events",
+          "required": false
+        },
+        {
+          "id": "month_1_nps",
+          "label": "Month 1 - NPS",
+          "type": "text",
+          "placeholder": "Enter nps",
+          "required": false
+        },
+        {
+          "id": "month_2_total_members",
+          "label": "Month 2 - Total Members",
+          "type": "text",
+          "placeholder": "Enter total members",
+          "required": false
+        },
+        {
+          "id": "month_2_new_members",
+          "label": "Month 2 - New Members",
+          "type": "number",
+          "placeholder": "Enter new members",
+          "required": false
+        },
+        {
+          "id": "month_2_churned_members",
+          "label": "Month 2 - Churned Members",
+          "type": "number",
+          "placeholder": "Enter churned members",
+          "required": false
+        },
+        {
+          "id": "month_2_growth_rate",
+          "label": "Month 2 - Growth Rate (%)",
+          "type": "number",
+          "placeholder": "Enter growth rate (%)",
+          "required": false
+        },
+        {
+          "id": "month_2_active_members",
+          "label": "Month 2 - Active Members",
+          "type": "number",
+          "placeholder": "Enter active members",
+          "required": false
+        },
+        {
+          "id": "month_2_engagement_rate",
+          "label": "Month 2 - Engagement Rate (%)",
+          "type": "number",
+          "placeholder": "Enter engagement rate (%)",
+          "required": false
+        },
+        {
+          "id": "month_2_posts",
+          "label": "Month 2 - Posts",
+          "type": "text",
+          "placeholder": "Enter posts",
+          "required": false
+        },
+        {
+          "id": "month_2_comments",
+          "label": "Month 2 - Comments",
+          "type": "textarea",
+          "placeholder": "Enter comments",
+          "required": false
+        },
+        {
+          "id": "month_2_events",
+          "label": "Month 2 - Events",
+          "type": "text",
+          "placeholder": "Enter events",
+          "required": false
+        },
+        {
+          "id": "month_2_nps",
+          "label": "Month 2 - NPS",
+          "type": "text",
+          "placeholder": "Enter nps",
+          "required": false
+        },
+        {
+          "id": "month_3_total_members",
+          "label": "Month 3 - Total Members",
+          "type": "text",
+          "placeholder": "Enter total members",
+          "required": false
+        },
+        {
+          "id": "month_3_new_members",
+          "label": "Month 3 - New Members",
+          "type": "number",
+          "placeholder": "Enter new members",
+          "required": false
+        },
+        {
+          "id": "month_3_churned_members",
+          "label": "Month 3 - Churned Members",
+          "type": "number",
+          "placeholder": "Enter churned members",
+          "required": false
+        },
+        {
+          "id": "month_3_growth_rate",
+          "label": "Month 3 - Growth Rate (%)",
+          "type": "number",
+          "placeholder": "Enter growth rate (%)",
+          "required": false
+        },
+        {
+          "id": "month_3_active_members",
+          "label": "Month 3 - Active Members",
+          "type": "number",
+          "placeholder": "Enter active members",
+          "required": false
+        },
+        {
+          "id": "month_3_engagement_rate",
+          "label": "Month 3 - Engagement Rate (%)",
+          "type": "number",
+          "placeholder": "Enter engagement rate (%)",
+          "required": false
+        },
+        {
+          "id": "month_3_posts",
+          "label": "Month 3 - Posts",
+          "type": "text",
+          "placeholder": "Enter posts",
+          "required": false
+        },
+        {
+          "id": "month_3_comments",
+          "label": "Month 3 - Comments",
+          "type": "textarea",
+          "placeholder": "Enter comments",
+          "required": false
+        },
+        {
+          "id": "month_3_events",
+          "label": "Month 3 - Events",
+          "type": "text",
+          "placeholder": "Enter events",
+          "required": false
+        },
+        {
+          "id": "month_3_nps",
+          "label": "Month 3 - NPS",
+          "type": "text",
+          "placeholder": "Enter nps",
+          "required": false
+        },
+        {
+          "id": "month_4_total_members",
+          "label": "Month 4 - Total Members",
+          "type": "text",
+          "placeholder": "Enter total members",
+          "required": false
+        },
+        {
+          "id": "month_4_new_members",
+          "label": "Month 4 - New Members",
+          "type": "number",
+          "placeholder": "Enter new members",
+          "required": false
+        },
+        {
+          "id": "month_4_churned_members",
+          "label": "Month 4 - Churned Members",
+          "type": "number",
+          "placeholder": "Enter churned members",
+          "required": false
+        },
+        {
+          "id": "month_4_growth_rate",
+          "label": "Month 4 - Growth Rate (%)",
+          "type": "number",
+          "placeholder": "Enter growth rate (%)",
+          "required": false
+        },
+        {
+          "id": "month_4_active_members",
+          "label": "Month 4 - Active Members",
+          "type": "number",
+          "placeholder": "Enter active members",
+          "required": false
+        },
+        {
+          "id": "month_4_engagement_rate",
+          "label": "Month 4 - Engagement Rate (%)",
+          "type": "number",
+          "placeholder": "Enter engagement rate (%)",
+          "required": false
+        },
+        {
+          "id": "month_4_posts",
+          "label": "Month 4 - Posts",
+          "type": "text",
+          "placeholder": "Enter posts",
+          "required": false
+        },
+        {
+          "id": "month_4_comments",
+          "label": "Month 4 - Comments",
+          "type": "textarea",
+          "placeholder": "Enter comments",
+          "required": false
+        },
+        {
+          "id": "month_4_events",
+          "label": "Month 4 - Events",
+          "type": "text",
+          "placeholder": "Enter events",
+          "required": false
+        },
+        {
+          "id": "month_4_nps",
+          "label": "Month 4 - NPS",
+          "type": "text",
+          "placeholder": "Enter nps",
+          "required": false
+        },
+        {
+          "id": "month_5_total_members",
+          "label": "Month 5 - Total Members",
+          "type": "text",
+          "placeholder": "Enter total members",
+          "required": false
+        },
+        {
+          "id": "month_5_new_members",
+          "label": "Month 5 - New Members",
+          "type": "number",
+          "placeholder": "Enter new members",
+          "required": false
+        },
+        {
+          "id": "month_5_churned_members",
+          "label": "Month 5 - Churned Members",
+          "type": "number",
+          "placeholder": "Enter churned members",
+          "required": false
+        },
+        {
+          "id": "month_5_growth_rate",
+          "label": "Month 5 - Growth Rate (%)",
+          "type": "number",
+          "placeholder": "Enter growth rate (%)",
+          "required": false
+        },
+        {
+          "id": "month_5_active_members",
+          "label": "Month 5 - Active Members",
+          "type": "number",
+          "placeholder": "Enter active members",
+          "required": false
+        },
+        {
+          "id": "month_5_engagement_rate",
+          "label": "Month 5 - Engagement Rate (%)",
+          "type": "number",
+          "placeholder": "Enter engagement rate (%)",
+          "required": false
+        },
+        {
+          "id": "month_5_posts",
+          "label": "Month 5 - Posts",
+          "type": "text",
+          "placeholder": "Enter posts",
+          "required": false
+        },
+        {
+          "id": "month_5_comments",
+          "label": "Month 5 - Comments",
+          "type": "textarea",
+          "placeholder": "Enter comments",
+          "required": false
+        },
+        {
+          "id": "month_5_events",
+          "label": "Month 5 - Events",
+          "type": "text",
+          "placeholder": "Enter events",
+          "required": false
+        },
+        {
+          "id": "month_5_nps",
+          "label": "Month 5 - NPS",
+          "type": "text",
+          "placeholder": "Enter nps",
+          "required": false
+        },
+        {
+          "id": "month_6_total_members",
+          "label": "Month 6 - Total Members",
+          "type": "text",
+          "placeholder": "Enter total members",
+          "required": false
+        },
+        {
+          "id": "month_6_new_members",
+          "label": "Month 6 - New Members",
+          "type": "number",
+          "placeholder": "Enter new members",
+          "required": false
+        },
+        {
+          "id": "month_6_churned_members",
+          "label": "Month 6 - Churned Members",
+          "type": "number",
+          "placeholder": "Enter churned members",
+          "required": false
+        },
+        {
+          "id": "month_6_growth_rate",
+          "label": "Month 6 - Growth Rate (%)",
+          "type": "number",
+          "placeholder": "Enter growth rate (%)",
+          "required": false
+        },
+        {
+          "id": "month_6_active_members",
+          "label": "Month 6 - Active Members",
+          "type": "number",
+          "placeholder": "Enter active members",
+          "required": false
+        },
+        {
+          "id": "month_6_engagement_rate",
+          "label": "Month 6 - Engagement Rate (%)",
+          "type": "number",
+          "placeholder": "Enter engagement rate (%)",
+          "required": false
+        },
+        {
+          "id": "month_6_posts",
+          "label": "Month 6 - Posts",
+          "type": "text",
+          "placeholder": "Enter posts",
+          "required": false
+        },
+        {
+          "id": "month_6_comments",
+          "label": "Month 6 - Comments",
+          "type": "textarea",
+          "placeholder": "Enter comments",
+          "required": false
+        },
+        {
+          "id": "month_6_events",
+          "label": "Month 6 - Events",
+          "type": "text",
+          "placeholder": "Enter events",
+          "required": false
+        },
+        {
+          "id": "month_6_nps",
+          "label": "Month 6 - NPS",
+          "type": "text",
+          "placeholder": "Enter nps",
+          "required": false
+        },
+        {
+          "id": "month_7_total_members",
+          "label": "Month 7 - Total Members",
+          "type": "text",
+          "placeholder": "Enter total members",
+          "required": false
+        },
+        {
+          "id": "month_7_new_members",
+          "label": "Month 7 - New Members",
+          "type": "number",
+          "placeholder": "Enter new members",
+          "required": false
+        },
+        {
+          "id": "month_7_churned_members",
+          "label": "Month 7 - Churned Members",
+          "type": "number",
+          "placeholder": "Enter churned members",
+          "required": false
+        },
+        {
+          "id": "month_7_growth_rate",
+          "label": "Month 7 - Growth Rate (%)",
+          "type": "number",
+          "placeholder": "Enter growth rate (%)",
+          "required": false
+        },
+        {
+          "id": "month_7_active_members",
+          "label": "Month 7 - Active Members",
+          "type": "number",
+          "placeholder": "Enter active members",
+          "required": false
+        },
+        {
+          "id": "month_7_engagement_rate",
+          "label": "Month 7 - Engagement Rate (%)",
+          "type": "number",
+          "placeholder": "Enter engagement rate (%)",
+          "required": false
+        },
+        {
+          "id": "month_7_posts",
+          "label": "Month 7 - Posts",
+          "type": "text",
+          "placeholder": "Enter posts",
+          "required": false
+        },
+        {
+          "id": "month_7_comments",
+          "label": "Month 7 - Comments",
+          "type": "textarea",
+          "placeholder": "Enter comments",
+          "required": false
+        },
+        {
+          "id": "month_7_events",
+          "label": "Month 7 - Events",
+          "type": "text",
+          "placeholder": "Enter events",
+          "required": false
+        },
+        {
+          "id": "month_7_nps",
+          "label": "Month 7 - NPS",
+          "type": "text",
+          "placeholder": "Enter nps",
+          "required": false
+        },
+        {
+          "id": "month_8_total_members",
+          "label": "Month 8 - Total Members",
+          "type": "text",
+          "placeholder": "Enter total members",
+          "required": false
+        },
+        {
+          "id": "month_8_new_members",
+          "label": "Month 8 - New Members",
+          "type": "number",
+          "placeholder": "Enter new members",
+          "required": false
+        },
+        {
+          "id": "month_8_churned_members",
+          "label": "Month 8 - Churned Members",
+          "type": "number",
+          "placeholder": "Enter churned members",
+          "required": false
+        },
+        {
+          "id": "month_8_growth_rate",
+          "label": "Month 8 - Growth Rate (%)",
+          "type": "number",
+          "placeholder": "Enter growth rate (%)",
+          "required": false
+        },
+        {
+          "id": "month_8_active_members",
+          "label": "Month 8 - Active Members",
+          "type": "number",
+          "placeholder": "Enter active members",
+          "required": false
+        },
+        {
+          "id": "month_8_engagement_rate",
+          "label": "Month 8 - Engagement Rate (%)",
+          "type": "number",
+          "placeholder": "Enter engagement rate (%)",
+          "required": false
+        },
+        {
+          "id": "month_8_posts",
+          "label": "Month 8 - Posts",
+          "type": "text",
+          "placeholder": "Enter posts",
+          "required": false
+        },
+        {
+          "id": "month_8_comments",
+          "label": "Month 8 - Comments",
+          "type": "textarea",
+          "placeholder": "Enter comments",
+          "required": false
+        },
+        {
+          "id": "month_8_events",
+          "label": "Month 8 - Events",
+          "type": "text",
+          "placeholder": "Enter events",
+          "required": false
+        },
+        {
+          "id": "month_8_nps",
+          "label": "Month 8 - NPS",
+          "type": "text",
+          "placeholder": "Enter nps",
+          "required": false
+        },
+        {
+          "id": "month_9_total_members",
+          "label": "Month 9 - Total Members",
+          "type": "text",
+          "placeholder": "Enter total members",
+          "required": false
+        },
+        {
+          "id": "month_9_new_members",
+          "label": "Month 9 - New Members",
+          "type": "number",
+          "placeholder": "Enter new members",
+          "required": false
+        },
+        {
+          "id": "month_9_churned_members",
+          "label": "Month 9 - Churned Members",
+          "type": "number",
+          "placeholder": "Enter churned members",
+          "required": false
+        },
+        {
+          "id": "month_9_growth_rate",
+          "label": "Month 9 - Growth Rate (%)",
+          "type": "number",
+          "placeholder": "Enter growth rate (%)",
+          "required": false
+        },
+        {
+          "id": "month_9_active_members",
+          "label": "Month 9 - Active Members",
+          "type": "number",
+          "placeholder": "Enter active members",
+          "required": false
+        },
+        {
+          "id": "month_9_engagement_rate",
+          "label": "Month 9 - Engagement Rate (%)",
+          "type": "number",
+          "placeholder": "Enter engagement rate (%)",
+          "required": false
+        },
+        {
+          "id": "month_9_posts",
+          "label": "Month 9 - Posts",
+          "type": "text",
+          "placeholder": "Enter posts",
+          "required": false
+        },
+        {
+          "id": "month_9_comments",
+          "label": "Month 9 - Comments",
+          "type": "textarea",
+          "placeholder": "Enter comments",
+          "required": false
+        },
+        {
+          "id": "month_9_events",
+          "label": "Month 9 - Events",
+          "type": "text",
+          "placeholder": "Enter events",
+          "required": false
+        },
+        {
+          "id": "month_9_nps",
+          "label": "Month 9 - NPS",
+          "type": "text",
+          "placeholder": "Enter nps",
+          "required": false
+        },
+        {
+          "id": "month_10_total_members",
+          "label": "Month 10 - Total Members",
+          "type": "text",
+          "placeholder": "Enter total members",
+          "required": false
+        },
+        {
+          "id": "month_10_new_members",
+          "label": "Month 10 - New Members",
+          "type": "number",
+          "placeholder": "Enter new members",
+          "required": false
+        },
+        {
+          "id": "month_10_churned_members",
+          "label": "Month 10 - Churned Members",
+          "type": "number",
+          "placeholder": "Enter churned members",
+          "required": false
+        },
+        {
+          "id": "month_10_growth_rate",
+          "label": "Month 10 - Growth Rate (%)",
+          "type": "number",
+          "placeholder": "Enter growth rate (%)",
+          "required": false
+        },
+        {
+          "id": "month_10_active_members",
+          "label": "Month 10 - Active Members",
+          "type": "number",
+          "placeholder": "Enter active members",
+          "required": false
+        },
+        {
+          "id": "month_10_engagement_rate",
+          "label": "Month 10 - Engagement Rate (%)",
+          "type": "number",
+          "placeholder": "Enter engagement rate (%)",
+          "required": false
+        },
+        {
+          "id": "month_10_posts",
+          "label": "Month 10 - Posts",
+          "type": "text",
+          "placeholder": "Enter posts",
+          "required": false
+        },
+        {
+          "id": "month_10_comments",
+          "label": "Month 10 - Comments",
+          "type": "textarea",
+          "placeholder": "Enter comments",
+          "required": false
+        },
+        {
+          "id": "month_10_events",
+          "label": "Month 10 - Events",
+          "type": "text",
+          "placeholder": "Enter events",
+          "required": false
+        },
+        {
+          "id": "month_10_nps",
+          "label": "Month 10 - NPS",
+          "type": "text",
+          "placeholder": "Enter nps",
+          "required": false
+        },
+        {
+          "id": "month_11_total_members",
+          "label": "Month 11 - Total Members",
+          "type": "text",
+          "placeholder": "Enter total members",
+          "required": false
+        },
+        {
+          "id": "month_11_new_members",
+          "label": "Month 11 - New Members",
+          "type": "number",
+          "placeholder": "Enter new members",
+          "required": false
+        },
+        {
+          "id": "month_11_churned_members",
+          "label": "Month 11 - Churned Members",
+          "type": "number",
+          "placeholder": "Enter churned members",
+          "required": false
+        },
+        {
+          "id": "month_11_growth_rate",
+          "label": "Month 11 - Growth Rate (%)",
+          "type": "number",
+          "placeholder": "Enter growth rate (%)",
+          "required": false
+        },
+        {
+          "id": "month_11_active_members",
+          "label": "Month 11 - Active Members",
+          "type": "number",
+          "placeholder": "Enter active members",
+          "required": false
+        },
+        {
+          "id": "month_11_engagement_rate",
+          "label": "Month 11 - Engagement Rate (%)",
+          "type": "number",
+          "placeholder": "Enter engagement rate (%)",
+          "required": false
+        },
+        {
+          "id": "month_11_posts",
+          "label": "Month 11 - Posts",
+          "type": "text",
+          "placeholder": "Enter posts",
+          "required": false
+        },
+        {
+          "id": "month_11_comments",
+          "label": "Month 11 - Comments",
+          "type": "textarea",
+          "placeholder": "Enter comments",
+          "required": false
+        },
+        {
+          "id": "month_11_events",
+          "label": "Month 11 - Events",
+          "type": "text",
+          "placeholder": "Enter events",
+          "required": false
+        },
+        {
+          "id": "month_11_nps",
+          "label": "Month 11 - NPS",
+          "type": "text",
+          "placeholder": "Enter nps",
+          "required": false
+        },
+        {
+          "id": "month_12_total_members",
+          "label": "Month 12 - Total Members",
+          "type": "text",
+          "placeholder": "Enter total members",
+          "required": false
+        },
+        {
+          "id": "month_12_new_members",
+          "label": "Month 12 - New Members",
+          "type": "number",
+          "placeholder": "Enter new members",
+          "required": false
+        },
+        {
+          "id": "month_12_churned_members",
+          "label": "Month 12 - Churned Members",
+          "type": "number",
+          "placeholder": "Enter churned members",
+          "required": false
+        },
+        {
+          "id": "month_12_growth_rate",
+          "label": "Month 12 - Growth Rate (%)",
+          "type": "number",
+          "placeholder": "Enter growth rate (%)",
+          "required": false
+        },
+        {
+          "id": "month_12_active_members",
+          "label": "Month 12 - Active Members",
+          "type": "number",
+          "placeholder": "Enter active members",
+          "required": false
+        },
+        {
+          "id": "month_12_engagement_rate",
+          "label": "Month 12 - Engagement Rate (%)",
+          "type": "number",
+          "placeholder": "Enter engagement rate (%)",
+          "required": false
+        },
+        {
+          "id": "month_12_posts",
+          "label": "Month 12 - Posts",
+          "type": "text",
+          "placeholder": "Enter posts",
+          "required": false
+        },
+        {
+          "id": "month_12_comments",
+          "label": "Month 12 - Comments",
+          "type": "textarea",
+          "placeholder": "Enter comments",
+          "required": false
+        },
+        {
+          "id": "month_12_events",
+          "label": "Month 12 - Events",
+          "type": "text",
+          "placeholder": "Enter events",
+          "required": false
+        },
+        {
+          "id": "month_12_nps",
+          "label": "Month 12 - NPS",
+          "type": "text",
+          "placeholder": "Enter nps",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "feedback_ideas",
+      "title": "Feedback & Ideas",
+      "description": "Add entries below. Each entry has the following fields.",
+      "fields": [
+        {
+          "id": "entry_date",
+          "label": "Date",
+          "type": "text",
+          "placeholder": "Enter date",
+          "required": false
+        },
+        {
+          "id": "entry_member",
+          "label": "Member",
+          "type": "text",
+          "placeholder": "Enter member",
+          "required": false
+        },
+        {
+          "id": "entry_feedback_type",
+          "label": "Feedback Type",
+          "type": "text",
+          "placeholder": "Enter feedback type",
+          "required": false
+        },
+        {
+          "id": "entry_category",
+          "label": "Category",
+          "type": "text",
+          "placeholder": "Enter category",
+          "required": false
+        },
+        {
+          "id": "entry_description",
+          "label": "Description",
+          "type": "textarea",
+          "placeholder": "Enter description",
+          "required": false
+        },
+        {
+          "id": "entry_votes",
+          "label": "Votes",
+          "type": "text",
+          "placeholder": "Enter votes",
+          "required": false
+        },
+        {
+          "id": "entry_priority",
+          "label": "Priority",
+          "type": "select",
+          "placeholder": "Enter priority",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "entry_status",
+          "label": "Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "entry_response",
+          "label": "Response",
+          "type": "text",
+          "placeholder": "Enter response",
+          "required": false
+        }
+      ]
+    }
+  ]
 }

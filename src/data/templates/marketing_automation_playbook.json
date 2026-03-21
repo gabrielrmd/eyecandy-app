@@ -10,659 +10,6 @@
     "growth"
   ],
   "estimatedTime": "65 min",
-  "sections": [
-    {
-      "id": "dashboard",
-      "title": "Dashboard",
-      "description": "Complete the Dashboard section",
-      "fields": [
-        {
-          "id": "n_a_0",
-          "label": "N/A",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "workflow_status_overview_1",
-          "label": "Workflow Status Overview",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "status_2",
-          "label": "Status",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "active_3",
-          "label": "Active",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "draft_4",
-          "label": "Draft",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "paused_5",
-          "label": "Paused",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "retired_6",
-          "label": "Retired",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "planned_7",
-          "label": "Planned",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "automation_audit",
-      "title": "Automation Audit",
-      "description": "Complete the Automation Audit section",
-      "fields": [
-        {
-          "id": "do_you_have_triggered_behaviour_based_em_0",
-          "label": "Do you have triggered, behaviour-based email sequences beyond simple newsletters?",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "do_you_have_an_automated_lead_scoring_mo_1",
-          "label": "Do you have an automated lead scoring model that routes leads to sales based on behaviour and fit?",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "do_you_use_dynamic_segments_that_update__2",
-          "label": "Do you use dynamic segments that update automatically based on real-time behaviour and attributes?",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "do_your_automated_communications_use_dyn_3",
-          "label": "Do your automated communications use dynamic content based on recipient attributes and behaviour?",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "do_you_coordinate_automated_touchpoints__4",
-          "label": "Do you coordinate automated touchpoints across email, SMS, web, ads, and social?",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "do_you_have_automated_data_cleansing_ded_5",
-          "label": "Do you have automated data cleansing, deduplication, and enrichment processes?",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "do_you_automatically_track_and_attribute_6",
-          "label": "Do you automatically track and attribute conversions to specific automation workflows?",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "are_your_marketing_tools_connected_with__7",
-          "label": "Are your marketing tools connected with clean, bidirectional data flows?",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "workflow_library",
-      "title": "Workflow Library",
-      "description": "Complete the Workflow Library section",
-      "fields": [
-        {
-          "id": "increase_engagement_by_40_in_first_14_da_0",
-          "label": "Increase engagement by 40% in first 14 days",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "convert_25_of_mqls_to_sqls_within_30_day_1",
-          "label": "Convert 25% of MQLs to SQLs within 30 days",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "recover_10_15_of_abandoned_carts_2",
-          "label": "Recover 10-15% of abandoned carts",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "re_activate_5_10_of_dormant_contacts_3",
-          "label": "Re-activate 5-10% of dormant contacts",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "achieve_80_activation_within_7_days_4",
-          "label": "Achieve 80% activation within 7 days",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "drive_15_upsell_conversion_rate_5",
-          "label": "Drive 15% upsell conversion rate",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "maintain_90_renewal_rate_6",
-          "label": "Maintain 90%+ renewal rate",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "convert_20_of_attendees_to_pipeline_7",
-          "label": "Convert 20% of attendees to pipeline",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "achieve_50_attendance_rate_8",
-          "label": "Achieve 50%+ attendance rate",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "convert_25_of_trialists_to_paid_9",
-          "label": "Convert 25% of trialists to paid",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "collect_nps_from_40_of_customers_10",
-          "label": "Collect NPS from 40% of customers",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "drive_5_incremental_revenue_from_persona_11",
-          "label": "Drive 5% incremental revenue from personalised offers",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "nurture_towards_demo_request_within_14_d_12",
-          "label": "Nurture towards demo request within 14 days",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "win_back_5_8_of_churned_customers_13",
-          "label": "Win back 5-8% of churned customers",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "ensure_4_hour_sales_follow_up_14",
-          "label": "Ensure <4 hour sales follow-up",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "proactive_competitive_positioning_conten_15",
-          "label": "Proactive competitive positioning content",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "convert_10_of_pricing_page_visitors_16",
-          "label": "Convert 10% of pricing page visitors",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "improve_csat_and_identify_product_issues_17",
-          "label": "Improve CSAT and identify product issues",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "generate_referrals_from_20_of_promoters_18",
-          "label": "Generate referrals from 20% of promoters",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "capitalize_on_seasonal_demand_spikes_19",
-          "label": "Capitalize on seasonal demand spikes",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "email_sequence_builder",
-      "title": "Email Sequence Builder",
-      "description": "Complete the Email Sequence Builder section",
-      "fields": [
-        {
-          "id": "welcome_to_brand_here_s_what_s_next_0",
-          "label": "Welcome to [Brand] — Here's what's next",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "your_quick_start_guide_to_key_feature_1",
-          "label": "Your quick-start guide to [key feature]",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "how_customer_name_achieved_result_with_u_2",
-          "label": "How [customer name] achieved [result] with us",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "a_special_offer_just_for_you_3",
-          "label": "A special offer just for you",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "thanks_for_downloading_resource_name_4",
-          "label": "Thanks for downloading [resource name]",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "3_strategies_that_solve_key_pain_point_5",
-          "label": "3 strategies that [solve key pain point]",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "see_how_company_solved_problem_6",
-          "label": "See how [company] solved [problem]",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "ready_to_see_it_in_action_7",
-          "label": "Ready to see it in action?",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "lead_scoring_setup",
-      "title": "Lead Scoring Setup",
-      "description": "Complete the Lead Scoring Setup section",
-      "fields": [
-        {
-          "id": "visited_pricing_page_0",
-          "label": "Visited pricing page",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "downloaded_gated_content_1",
-          "label": "Downloaded gated content",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "attended_webinar_2",
-          "label": "Attended webinar",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "requested_demo_3",
-          "label": "Requested demo",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "opened_3_emails_in_7_days_4",
-          "label": "Opened 3+ emails in 7 days",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "clicked_email_cta_5",
-          "label": "Clicked email CTA",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "visited_5_pages_in_one_session_6",
-          "label": "Visited 5+ pages in one session",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "returned_to_site_after_7_days_7",
-          "label": "Returned to site after 7+ days",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "watched_product_video_50_8",
-          "label": "Watched product video >50%",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "unsubscribed_from_emails_9",
-          "label": "Unsubscribed from emails",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "job_title_matches_icp_10",
-          "label": "Job title matches ICP",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "company_size_matches_icp_11",
-          "label": "Company size matches ICP",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "industry_matches_target_verticals_12",
-          "label": "Industry matches target verticals",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "location_in_target_geography_13",
-          "label": "Location in target geography",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "personal_email_domain_gmail_yahoo_14",
-          "label": "Personal email domain (gmail, yahoo)",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "revenue_matches_icp_range_15",
-          "label": "Revenue matches ICP range",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "mql_threshold_50_points_16",
-          "label": "MQL Threshold: 50+ points",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "sql_threshold_80_points_17",
-          "label": "SQL Threshold: 80+ points",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "hot_lead_100_points_18",
-          "label": "Hot Lead: 100+ points",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "segmentation_planner",
-      "title": "Segmentation Planner",
-      "description": "Complete the Segmentation Planner section",
-      "fields": [
-        {
-          "id": "lead_score_80_visited_pricing_page_in_la_0",
-          "label": "Lead score >80, visited pricing page in last 7 days",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "lead_score_30_79_engaged_in_last_30_days_1",
-          "label": "Lead score 30-79, engaged in last 30 days",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "signup_date_within_last_7_days_2",
-          "label": "Signup date within last 7 days",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "company_size_500_employees_matching_indu_3",
-          "label": "Company size >500 employees + matching industry",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "attended_webinar_in_last_30_days_4",
-          "label": "Attended webinar in last 30 days",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "customer_status_churned_last_90_days_5",
-          "label": "Customer status = churned, last 90 days",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "nps_9_10_high_product_usage_6",
-          "label": "NPS 9-10 + high product usage",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "no_email_open_in_90_days_7",
-          "label": "No email open in 90+ days",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "integration_map",
-      "title": "Integration Map",
-      "description": "Complete the Integration Map section",
-      "fields": [
-        {
-          "id": "contacts_lead_scores_deal_stages_activit_0",
-          "label": "Contacts, lead scores, deal stages, activities",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "mql_alerts_engagement_scores_campaign_me_1",
-          "label": "MQL alerts, engagement scores, campaign membership",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "page_visits_form_submissions_event_track_2",
-          "label": "Page visits, form submissions, event tracking",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "ad_click_data_conversion_tracking_audien_3",
-          "label": "Ad click data, conversion tracking, audience sync",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "social_engagement_profile_data_utm_track_4",
-          "label": "Social engagement, profile data, UTM tracking",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "ticket_data_csat_scores_issue_categories_5",
-          "label": "Ticket data, CSAT scores, issue categories",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "feature_usage_activation_events_login_fr_6",
-          "label": "Feature usage, activation events, login frequency",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "subscription_status_revenue_renewal_date_7",
-          "label": "Subscription status, revenue, renewal dates",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "performance_monitor",
-      "title": "Performance Monitor",
-      "description": "Complete the Performance Monitor section",
-      "fields": [
-        {
-          "id": "welcome_series_0",
-          "label": "Welcome Series",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "lead_nurture_1",
-          "label": "Lead Nurture",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "abandoned_cart_2",
-          "label": "Abandoned Cart",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "re_engagement_3",
-          "label": "Re-engagement",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "post_purchase_onboarding_4",
-          "label": "Post-Purchase Onboarding",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "trial_expiration_5",
-          "label": "Trial Expiration",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    }
-  ],
   "dashboard": {
     "metrics": [
       {
@@ -691,5 +38,3766 @@
         "format": "number"
       }
     ]
-  }
+  },
+  "sections": [
+    {
+      "id": "dashboard",
+      "title": "Dashboard",
+      "description": "Auto-calculated summary of your data. Complete the working sections to see results here.",
+      "readOnly": true,
+      "fields": [
+        {
+          "id": "dashboard_overview",
+          "label": "Dashboard Overview",
+          "type": "textarea",
+          "placeholder": "Dashboard metrics will be calculated from your inputs in the working sections",
+          "required": false,
+          "readOnly": true
+        }
+      ]
+    },
+    {
+      "id": "automation_audit",
+      "title": "Automation Audit",
+      "description": "Enter data for each item",
+      "fields": [
+        {
+          "id": "email_automation_description",
+          "label": "Email Automation - Description",
+          "type": "textarea",
+          "placeholder": "Enter description",
+          "required": false
+        },
+        {
+          "id": "email_automation_score_110",
+          "label": "Email Automation - Score (1-10)",
+          "type": "scale",
+          "placeholder": "Enter score (1-10)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "email_automation_improvement_plan",
+          "label": "Email Automation - Improvement Plan",
+          "type": "text",
+          "placeholder": "Enter improvement plan",
+          "required": false
+        },
+        {
+          "id": "lead_scoring_description",
+          "label": "Lead Scoring - Description",
+          "type": "textarea",
+          "placeholder": "Enter description",
+          "required": false
+        },
+        {
+          "id": "lead_scoring_score_110",
+          "label": "Lead Scoring - Score (1-10)",
+          "type": "scale",
+          "placeholder": "Enter score (1-10)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "lead_scoring_improvement_plan",
+          "label": "Lead Scoring - Improvement Plan",
+          "type": "text",
+          "placeholder": "Enter improvement plan",
+          "required": false
+        },
+        {
+          "id": "segmentation_description",
+          "label": "Segmentation - Description",
+          "type": "textarea",
+          "placeholder": "Enter description",
+          "required": false
+        },
+        {
+          "id": "segmentation_score_110",
+          "label": "Segmentation - Score (1-10)",
+          "type": "scale",
+          "placeholder": "Enter score (1-10)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "segmentation_improvement_plan",
+          "label": "Segmentation - Improvement Plan",
+          "type": "text",
+          "placeholder": "Enter improvement plan",
+          "required": false
+        },
+        {
+          "id": "personalisation_description",
+          "label": "Personalisation - Description",
+          "type": "textarea",
+          "placeholder": "Enter description",
+          "required": false
+        },
+        {
+          "id": "personalisation_score_110",
+          "label": "Personalisation - Score (1-10)",
+          "type": "scale",
+          "placeholder": "Enter score (1-10)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "personalisation_improvement_plan",
+          "label": "Personalisation - Improvement Plan",
+          "type": "text",
+          "placeholder": "Enter improvement plan",
+          "required": false
+        },
+        {
+          "id": "multichannel_orchestration_description",
+          "label": "Multi-Channel Orchestration - Description",
+          "type": "textarea",
+          "placeholder": "Enter description",
+          "required": false
+        },
+        {
+          "id": "multichannel_orchestration_score_110",
+          "label": "Multi-Channel Orchestration - Score (1-10)",
+          "type": "scale",
+          "placeholder": "Enter score (1-10)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "multichannel_orchestration_improvement_plan",
+          "label": "Multi-Channel Orchestration - Improvement Plan",
+          "type": "text",
+          "placeholder": "Enter improvement plan",
+          "required": false
+        },
+        {
+          "id": "data_hygiene_description",
+          "label": "Data Hygiene - Description",
+          "type": "textarea",
+          "placeholder": "Enter description",
+          "required": false
+        },
+        {
+          "id": "data_hygiene_score_110",
+          "label": "Data Hygiene - Score (1-10)",
+          "type": "scale",
+          "placeholder": "Enter score (1-10)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "data_hygiene_improvement_plan",
+          "label": "Data Hygiene - Improvement Plan",
+          "type": "text",
+          "placeholder": "Enter improvement plan",
+          "required": false
+        },
+        {
+          "id": "reporting_attribution_description",
+          "label": "Reporting & Attribution - Description",
+          "type": "textarea",
+          "placeholder": "Enter description",
+          "required": false
+        },
+        {
+          "id": "reporting_attribution_score_110",
+          "label": "Reporting & Attribution - Score (1-10)",
+          "type": "scale",
+          "placeholder": "Enter score (1-10)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "reporting_attribution_improvement_plan",
+          "label": "Reporting & Attribution - Improvement Plan",
+          "type": "text",
+          "placeholder": "Enter improvement plan",
+          "required": false
+        },
+        {
+          "id": "integration_data_flow_description",
+          "label": "Integration & Data Flow - Description",
+          "type": "textarea",
+          "placeholder": "Enter description",
+          "required": false
+        },
+        {
+          "id": "integration_data_flow_score_110",
+          "label": "Integration & Data Flow - Score (1-10)",
+          "type": "scale",
+          "placeholder": "Enter score (1-10)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "integration_data_flow_improvement_plan",
+          "label": "Integration & Data Flow - Improvement Plan",
+          "type": "text",
+          "placeholder": "Enter improvement plan",
+          "required": false
+        },
+        {
+          "id": "overall_maturity_score_description",
+          "label": "OVERALL MATURITY SCORE: - Description",
+          "type": "textarea",
+          "placeholder": "Enter description",
+          "required": false
+        },
+        {
+          "id": "overall_maturity_score_score_110",
+          "label": "OVERALL MATURITY SCORE: - Score (1-10)",
+          "type": "scale",
+          "placeholder": "Enter score (1-10)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "overall_maturity_score_improvement_plan",
+          "label": "OVERALL MATURITY SCORE: - Improvement Plan",
+          "type": "text",
+          "placeholder": "Enter improvement plan",
+          "required": false
+        },
+        {
+          "id": "13_beginner_description",
+          "label": "1-3: Beginner - Description",
+          "type": "textarea",
+          "placeholder": "Enter description",
+          "required": false
+        },
+        {
+          "id": "13_beginner_score_110",
+          "label": "1-3: Beginner - Score (1-10)",
+          "type": "scale",
+          "placeholder": "Enter score (1-10)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "13_beginner_improvement_plan",
+          "label": "1-3: Beginner - Improvement Plan",
+          "type": "text",
+          "placeholder": "Enter improvement plan",
+          "required": false
+        },
+        {
+          "id": "basic_batch_emails_no_triggers_manual_processes_start_with_w_description",
+          "label": "Basic batch emails, no triggers, manual processes. Start with welcome + abandoned cart workflows. - Description",
+          "type": "textarea",
+          "placeholder": "Enter description",
+          "required": false
+        },
+        {
+          "id": "basic_batch_emails_no_triggers_manual_processes_start_with_w_score_110",
+          "label": "Basic batch emails, no triggers, manual processes. Start with welcome + abandoned cart workflows. - Score (1-10)",
+          "type": "scale",
+          "placeholder": "Enter score (1-10)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "basic_batch_emails_no_triggers_manual_processes_start_with_w_improvement_plan",
+          "label": "Basic batch emails, no triggers, manual processes. Start with welcome + abandoned cart workflows. - Improvement Plan",
+          "type": "text",
+          "placeholder": "Enter improvement plan",
+          "required": false
+        },
+        {
+          "id": "45_developing_description",
+          "label": "4-5: Developing - Description",
+          "type": "textarea",
+          "placeholder": "Enter description",
+          "required": false
+        },
+        {
+          "id": "45_developing_score_110",
+          "label": "4-5: Developing - Score (1-10)",
+          "type": "scale",
+          "placeholder": "Enter score (1-10)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "45_developing_improvement_plan",
+          "label": "4-5: Developing - Improvement Plan",
+          "type": "text",
+          "placeholder": "Enter improvement plan",
+          "required": false
+        },
+        {
+          "id": "some_triggered_emails_basic_segmentation_limited_scoring_foc_description",
+          "label": "Some triggered emails, basic segmentation, limited scoring. Focus on nurture sequences and lead qualification. - Description",
+          "type": "textarea",
+          "placeholder": "Enter description",
+          "required": false
+        },
+        {
+          "id": "some_triggered_emails_basic_segmentation_limited_scoring_foc_score_110",
+          "label": "Some triggered emails, basic segmentation, limited scoring. Focus on nurture sequences and lead qualification. - Score (1-10)",
+          "type": "scale",
+          "placeholder": "Enter score (1-10)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "some_triggered_emails_basic_segmentation_limited_scoring_foc_improvement_plan",
+          "label": "Some triggered emails, basic segmentation, limited scoring. Focus on nurture sequences and lead qualification. - Improvement Plan",
+          "type": "text",
+          "placeholder": "Enter improvement plan",
+          "required": false
+        },
+        {
+          "id": "67_intermediate_description",
+          "label": "6-7: Intermediate - Description",
+          "type": "textarea",
+          "placeholder": "Enter description",
+          "required": false
+        },
+        {
+          "id": "67_intermediate_score_110",
+          "label": "6-7: Intermediate - Score (1-10)",
+          "type": "scale",
+          "placeholder": "Enter score (1-10)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "67_intermediate_improvement_plan",
+          "label": "6-7: Intermediate - Improvement Plan",
+          "type": "text",
+          "placeholder": "Enter improvement plan",
+          "required": false
+        },
+        {
+          "id": "multistep_workflows_dynamic_segments_basic_scoring_improve_p_description",
+          "label": "Multi-step workflows, dynamic segments, basic scoring. Improve personalisation and multi-channel coordination. - Description",
+          "type": "textarea",
+          "placeholder": "Enter description",
+          "required": false
+        },
+        {
+          "id": "multistep_workflows_dynamic_segments_basic_scoring_improve_p_score_110",
+          "label": "Multi-step workflows, dynamic segments, basic scoring. Improve personalisation and multi-channel coordination. - Score (1-10)",
+          "type": "scale",
+          "placeholder": "Enter score (1-10)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "multistep_workflows_dynamic_segments_basic_scoring_improve_p_improvement_plan",
+          "label": "Multi-step workflows, dynamic segments, basic scoring. Improve personalisation and multi-channel coordination. - Improvement Plan",
+          "type": "text",
+          "placeholder": "Enter improvement plan",
+          "required": false
+        },
+        {
+          "id": "89_advanced_description",
+          "label": "8-9: Advanced - Description",
+          "type": "textarea",
+          "placeholder": "Enter description",
+          "required": false
+        },
+        {
+          "id": "89_advanced_score_110",
+          "label": "8-9: Advanced - Score (1-10)",
+          "type": "scale",
+          "placeholder": "Enter score (1-10)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "89_advanced_improvement_plan",
+          "label": "8-9: Advanced - Improvement Plan",
+          "type": "text",
+          "placeholder": "Enter improvement plan",
+          "required": false
+        },
+        {
+          "id": "sophisticated_orchestration_predictive_scoring_advanced_pers_description",
+          "label": "Sophisticated orchestration, predictive scoring, advanced personalisation. Optimise for efficiency and AI integration. - Description",
+          "type": "textarea",
+          "placeholder": "Enter description",
+          "required": false
+        },
+        {
+          "id": "sophisticated_orchestration_predictive_scoring_advanced_pers_score_110",
+          "label": "Sophisticated orchestration, predictive scoring, advanced personalisation. Optimise for efficiency and AI integration. - Score (1-10)",
+          "type": "scale",
+          "placeholder": "Enter score (1-10)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "sophisticated_orchestration_predictive_scoring_advanced_pers_improvement_plan",
+          "label": "Sophisticated orchestration, predictive scoring, advanced personalisation. Optimise for efficiency and AI integration. - Improvement Plan",
+          "type": "text",
+          "placeholder": "Enter improvement plan",
+          "required": false
+        },
+        {
+          "id": "10_expert_description",
+          "label": "10: Expert - Description",
+          "type": "textarea",
+          "placeholder": "Enter description",
+          "required": false
+        },
+        {
+          "id": "10_expert_score_110",
+          "label": "10: Expert - Score (1-10)",
+          "type": "scale",
+          "placeholder": "Enter score (1-10)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "10_expert_improvement_plan",
+          "label": "10: Expert - Improvement Plan",
+          "type": "text",
+          "placeholder": "Enter improvement plan",
+          "required": false
+        },
+        {
+          "id": "fully_integrated_aidriven_realtime_personalisation_at_scale__description",
+          "label": "Fully integrated, AI-driven, real-time personalisation at scale. Focus on innovation and competitive advantage. - Description",
+          "type": "textarea",
+          "placeholder": "Enter description",
+          "required": false
+        },
+        {
+          "id": "fully_integrated_aidriven_realtime_personalisation_at_scale__score_110",
+          "label": "Fully integrated, AI-driven, real-time personalisation at scale. Focus on innovation and competitive advantage. - Score (1-10)",
+          "type": "scale",
+          "placeholder": "Enter score (1-10)",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "fully_integrated_aidriven_realtime_personalisation_at_scale__improvement_plan",
+          "label": "Fully integrated, AI-driven, real-time personalisation at scale. Focus on innovation and competitive advantage. - Improvement Plan",
+          "type": "text",
+          "placeholder": "Enter improvement plan",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "workflow_library",
+      "title": "Workflow Library",
+      "description": "Enter data for each item",
+      "fields": [
+        {
+          "id": "welcome_series_funnel_stage",
+          "label": "Welcome Series - Funnel Stage",
+          "type": "text",
+          "placeholder": "Enter funnel stage",
+          "required": false
+        },
+        {
+          "id": "welcome_series_trigger",
+          "label": "Welcome Series - Trigger",
+          "type": "text",
+          "placeholder": "Enter trigger",
+          "required": false
+        },
+        {
+          "id": "welcome_series_expected_outcome",
+          "label": "Welcome Series - Expected Outcome",
+          "type": "text",
+          "placeholder": "Enter expected outcome",
+          "required": false
+        },
+        {
+          "id": "welcome_series_status",
+          "label": "Welcome Series - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "welcome_series_priority",
+          "label": "Welcome Series - Priority",
+          "type": "select",
+          "placeholder": "Enter priority",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "welcome_series_notes",
+          "label": "Welcome Series - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "lead_nurture_sequence_funnel_stage",
+          "label": "Lead Nurture Sequence - Funnel Stage",
+          "type": "text",
+          "placeholder": "Enter funnel stage",
+          "required": false
+        },
+        {
+          "id": "lead_nurture_sequence_trigger",
+          "label": "Lead Nurture Sequence - Trigger",
+          "type": "text",
+          "placeholder": "Enter trigger",
+          "required": false
+        },
+        {
+          "id": "lead_nurture_sequence_expected_outcome",
+          "label": "Lead Nurture Sequence - Expected Outcome",
+          "type": "text",
+          "placeholder": "Enter expected outcome",
+          "required": false
+        },
+        {
+          "id": "lead_nurture_sequence_status",
+          "label": "Lead Nurture Sequence - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "lead_nurture_sequence_priority",
+          "label": "Lead Nurture Sequence - Priority",
+          "type": "select",
+          "placeholder": "Enter priority",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "lead_nurture_sequence_notes",
+          "label": "Lead Nurture Sequence - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "abandoned_cart_recovery_funnel_stage",
+          "label": "Abandoned Cart Recovery - Funnel Stage",
+          "type": "text",
+          "placeholder": "Enter funnel stage",
+          "required": false
+        },
+        {
+          "id": "abandoned_cart_recovery_trigger",
+          "label": "Abandoned Cart Recovery - Trigger",
+          "type": "text",
+          "placeholder": "Enter trigger",
+          "required": false
+        },
+        {
+          "id": "abandoned_cart_recovery_expected_outcome",
+          "label": "Abandoned Cart Recovery - Expected Outcome",
+          "type": "text",
+          "placeholder": "Enter expected outcome",
+          "required": false
+        },
+        {
+          "id": "abandoned_cart_recovery_status",
+          "label": "Abandoned Cart Recovery - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "abandoned_cart_recovery_priority",
+          "label": "Abandoned Cart Recovery - Priority",
+          "type": "select",
+          "placeholder": "Enter priority",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "abandoned_cart_recovery_notes",
+          "label": "Abandoned Cart Recovery - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "reengagement_campaign_funnel_stage",
+          "label": "Re-engagement Campaign - Funnel Stage",
+          "type": "text",
+          "placeholder": "Enter funnel stage",
+          "required": false
+        },
+        {
+          "id": "reengagement_campaign_trigger",
+          "label": "Re-engagement Campaign - Trigger",
+          "type": "text",
+          "placeholder": "Enter trigger",
+          "required": false
+        },
+        {
+          "id": "reengagement_campaign_expected_outcome",
+          "label": "Re-engagement Campaign - Expected Outcome",
+          "type": "text",
+          "placeholder": "Enter expected outcome",
+          "required": false
+        },
+        {
+          "id": "reengagement_campaign_status",
+          "label": "Re-engagement Campaign - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "reengagement_campaign_priority",
+          "label": "Re-engagement Campaign - Priority",
+          "type": "select",
+          "placeholder": "Enter priority",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "reengagement_campaign_notes",
+          "label": "Re-engagement Campaign - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "postpurchase_onboarding_funnel_stage",
+          "label": "Post-Purchase Onboarding - Funnel Stage",
+          "type": "text",
+          "placeholder": "Enter funnel stage",
+          "required": false
+        },
+        {
+          "id": "postpurchase_onboarding_trigger",
+          "label": "Post-Purchase Onboarding - Trigger",
+          "type": "text",
+          "placeholder": "Enter trigger",
+          "required": false
+        },
+        {
+          "id": "postpurchase_onboarding_expected_outcome",
+          "label": "Post-Purchase Onboarding - Expected Outcome",
+          "type": "text",
+          "placeholder": "Enter expected outcome",
+          "required": false
+        },
+        {
+          "id": "postpurchase_onboarding_status",
+          "label": "Post-Purchase Onboarding - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "postpurchase_onboarding_priority",
+          "label": "Post-Purchase Onboarding - Priority",
+          "type": "select",
+          "placeholder": "Enter priority",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "postpurchase_onboarding_notes",
+          "label": "Post-Purchase Onboarding - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "upsell_crosssell_funnel_stage",
+          "label": "Upsell / Cross-sell - Funnel Stage",
+          "type": "text",
+          "placeholder": "Enter funnel stage",
+          "required": false
+        },
+        {
+          "id": "upsell_crosssell_trigger",
+          "label": "Upsell / Cross-sell - Trigger",
+          "type": "text",
+          "placeholder": "Enter trigger",
+          "required": false
+        },
+        {
+          "id": "upsell_crosssell_expected_outcome",
+          "label": "Upsell / Cross-sell - Expected Outcome",
+          "type": "text",
+          "placeholder": "Enter expected outcome",
+          "required": false
+        },
+        {
+          "id": "upsell_crosssell_status",
+          "label": "Upsell / Cross-sell - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "upsell_crosssell_priority",
+          "label": "Upsell / Cross-sell - Priority",
+          "type": "select",
+          "placeholder": "Enter priority",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "upsell_crosssell_notes",
+          "label": "Upsell / Cross-sell - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "renewal_reminder_funnel_stage",
+          "label": "Renewal Reminder - Funnel Stage",
+          "type": "text",
+          "placeholder": "Enter funnel stage",
+          "required": false
+        },
+        {
+          "id": "renewal_reminder_trigger",
+          "label": "Renewal Reminder - Trigger",
+          "type": "text",
+          "placeholder": "Enter trigger",
+          "required": false
+        },
+        {
+          "id": "renewal_reminder_expected_outcome",
+          "label": "Renewal Reminder - Expected Outcome",
+          "type": "text",
+          "placeholder": "Enter expected outcome",
+          "required": false
+        },
+        {
+          "id": "renewal_reminder_status",
+          "label": "Renewal Reminder - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "renewal_reminder_priority",
+          "label": "Renewal Reminder - Priority",
+          "type": "select",
+          "placeholder": "Enter priority",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "renewal_reminder_notes",
+          "label": "Renewal Reminder - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "event_followup_funnel_stage",
+          "label": "Event Follow-Up - Funnel Stage",
+          "type": "text",
+          "placeholder": "Enter funnel stage",
+          "required": false
+        },
+        {
+          "id": "event_followup_trigger",
+          "label": "Event Follow-Up - Trigger",
+          "type": "text",
+          "placeholder": "Enter trigger",
+          "required": false
+        },
+        {
+          "id": "event_followup_expected_outcome",
+          "label": "Event Follow-Up - Expected Outcome",
+          "type": "text",
+          "placeholder": "Enter expected outcome",
+          "required": false
+        },
+        {
+          "id": "event_followup_status",
+          "label": "Event Follow-Up - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "event_followup_priority",
+          "label": "Event Follow-Up - Priority",
+          "type": "select",
+          "placeholder": "Enter priority",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "event_followup_notes",
+          "label": "Event Follow-Up - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "webinar_registration_nurture_funnel_stage",
+          "label": "Webinar Registration Nurture - Funnel Stage",
+          "type": "text",
+          "placeholder": "Enter funnel stage",
+          "required": false
+        },
+        {
+          "id": "webinar_registration_nurture_trigger",
+          "label": "Webinar Registration Nurture - Trigger",
+          "type": "text",
+          "placeholder": "Enter trigger",
+          "required": false
+        },
+        {
+          "id": "webinar_registration_nurture_expected_outcome",
+          "label": "Webinar Registration Nurture - Expected Outcome",
+          "type": "text",
+          "placeholder": "Enter expected outcome",
+          "required": false
+        },
+        {
+          "id": "webinar_registration_nurture_status",
+          "label": "Webinar Registration Nurture - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "webinar_registration_nurture_priority",
+          "label": "Webinar Registration Nurture - Priority",
+          "type": "select",
+          "placeholder": "Enter priority",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "webinar_registration_nurture_notes",
+          "label": "Webinar Registration Nurture - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "trial_expiration_sequence_funnel_stage",
+          "label": "Trial Expiration Sequence - Funnel Stage",
+          "type": "text",
+          "placeholder": "Enter funnel stage",
+          "required": false
+        },
+        {
+          "id": "trial_expiration_sequence_trigger",
+          "label": "Trial Expiration Sequence - Trigger",
+          "type": "text",
+          "placeholder": "Enter trigger",
+          "required": false
+        },
+        {
+          "id": "trial_expiration_sequence_expected_outcome",
+          "label": "Trial Expiration Sequence - Expected Outcome",
+          "type": "text",
+          "placeholder": "Enter expected outcome",
+          "required": false
+        },
+        {
+          "id": "trial_expiration_sequence_status",
+          "label": "Trial Expiration Sequence - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "trial_expiration_sequence_priority",
+          "label": "Trial Expiration Sequence - Priority",
+          "type": "select",
+          "placeholder": "Enter priority",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "trial_expiration_sequence_notes",
+          "label": "Trial Expiration Sequence - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "nps_survey_automation_funnel_stage",
+          "label": "NPS Survey Automation - Funnel Stage",
+          "type": "text",
+          "placeholder": "Enter funnel stage",
+          "required": false
+        },
+        {
+          "id": "nps_survey_automation_trigger",
+          "label": "NPS Survey Automation - Trigger",
+          "type": "text",
+          "placeholder": "Enter trigger",
+          "required": false
+        },
+        {
+          "id": "nps_survey_automation_expected_outcome",
+          "label": "NPS Survey Automation - Expected Outcome",
+          "type": "text",
+          "placeholder": "Enter expected outcome",
+          "required": false
+        },
+        {
+          "id": "nps_survey_automation_status",
+          "label": "NPS Survey Automation - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "nps_survey_automation_priority",
+          "label": "NPS Survey Automation - Priority",
+          "type": "select",
+          "placeholder": "Enter priority",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "nps_survey_automation_notes",
+          "label": "NPS Survey Automation - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "birthday_anniversary_funnel_stage",
+          "label": "Birthday / Anniversary - Funnel Stage",
+          "type": "text",
+          "placeholder": "Enter funnel stage",
+          "required": false
+        },
+        {
+          "id": "birthday_anniversary_trigger",
+          "label": "Birthday / Anniversary - Trigger",
+          "type": "text",
+          "placeholder": "Enter trigger",
+          "required": false
+        },
+        {
+          "id": "birthday_anniversary_expected_outcome",
+          "label": "Birthday / Anniversary - Expected Outcome",
+          "type": "text",
+          "placeholder": "Enter expected outcome",
+          "required": false
+        },
+        {
+          "id": "birthday_anniversary_status",
+          "label": "Birthday / Anniversary - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "birthday_anniversary_priority",
+          "label": "Birthday / Anniversary - Priority",
+          "type": "select",
+          "placeholder": "Enter priority",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "birthday_anniversary_notes",
+          "label": "Birthday / Anniversary - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "content_download_followup_funnel_stage",
+          "label": "Content Download Follow-Up - Funnel Stage",
+          "type": "text",
+          "placeholder": "Enter funnel stage",
+          "required": false
+        },
+        {
+          "id": "content_download_followup_trigger",
+          "label": "Content Download Follow-Up - Trigger",
+          "type": "text",
+          "placeholder": "Enter trigger",
+          "required": false
+        },
+        {
+          "id": "content_download_followup_expected_outcome",
+          "label": "Content Download Follow-Up - Expected Outcome",
+          "type": "text",
+          "placeholder": "Enter expected outcome",
+          "required": false
+        },
+        {
+          "id": "content_download_followup_status",
+          "label": "Content Download Follow-Up - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "content_download_followup_priority",
+          "label": "Content Download Follow-Up - Priority",
+          "type": "select",
+          "placeholder": "Enter priority",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "content_download_followup_notes",
+          "label": "Content Download Follow-Up - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "winback_campaign_funnel_stage",
+          "label": "Win-Back Campaign - Funnel Stage",
+          "type": "text",
+          "placeholder": "Enter funnel stage",
+          "required": false
+        },
+        {
+          "id": "winback_campaign_trigger",
+          "label": "Win-Back Campaign - Trigger",
+          "type": "text",
+          "placeholder": "Enter trigger",
+          "required": false
+        },
+        {
+          "id": "winback_campaign_expected_outcome",
+          "label": "Win-Back Campaign - Expected Outcome",
+          "type": "text",
+          "placeholder": "Enter expected outcome",
+          "required": false
+        },
+        {
+          "id": "winback_campaign_status",
+          "label": "Win-Back Campaign - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "winback_campaign_priority",
+          "label": "Win-Back Campaign - Priority",
+          "type": "select",
+          "placeholder": "Enter priority",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "winback_campaign_notes",
+          "label": "Win-Back Campaign - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "internal_lead_alert_funnel_stage",
+          "label": "Internal Lead Alert - Funnel Stage",
+          "type": "text",
+          "placeholder": "Enter funnel stage",
+          "required": false
+        },
+        {
+          "id": "internal_lead_alert_trigger",
+          "label": "Internal Lead Alert - Trigger",
+          "type": "text",
+          "placeholder": "Enter trigger",
+          "required": false
+        },
+        {
+          "id": "internal_lead_alert_expected_outcome",
+          "label": "Internal Lead Alert - Expected Outcome",
+          "type": "text",
+          "placeholder": "Enter expected outcome",
+          "required": false
+        },
+        {
+          "id": "internal_lead_alert_status",
+          "label": "Internal Lead Alert - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "internal_lead_alert_priority",
+          "label": "Internal Lead Alert - Priority",
+          "type": "select",
+          "placeholder": "Enter priority",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "internal_lead_alert_notes",
+          "label": "Internal Lead Alert - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "competitor_page_visit_funnel_stage",
+          "label": "Competitor Page Visit - Funnel Stage",
+          "type": "text",
+          "placeholder": "Enter funnel stage",
+          "required": false
+        },
+        {
+          "id": "competitor_page_visit_trigger",
+          "label": "Competitor Page Visit - Trigger",
+          "type": "text",
+          "placeholder": "Enter trigger",
+          "required": false
+        },
+        {
+          "id": "competitor_page_visit_expected_outcome",
+          "label": "Competitor Page Visit - Expected Outcome",
+          "type": "text",
+          "placeholder": "Enter expected outcome",
+          "required": false
+        },
+        {
+          "id": "competitor_page_visit_status",
+          "label": "Competitor Page Visit - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "competitor_page_visit_priority",
+          "label": "Competitor Page Visit - Priority",
+          "type": "select",
+          "placeholder": "Enter priority",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "competitor_page_visit_notes",
+          "label": "Competitor Page Visit - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "pricing_page_retarget_funnel_stage",
+          "label": "Pricing Page Retarget - Funnel Stage",
+          "type": "text",
+          "placeholder": "Enter funnel stage",
+          "required": false
+        },
+        {
+          "id": "pricing_page_retarget_trigger",
+          "label": "Pricing Page Retarget - Trigger",
+          "type": "text",
+          "placeholder": "Enter trigger",
+          "required": false
+        },
+        {
+          "id": "pricing_page_retarget_expected_outcome",
+          "label": "Pricing Page Retarget - Expected Outcome",
+          "type": "text",
+          "placeholder": "Enter expected outcome",
+          "required": false
+        },
+        {
+          "id": "pricing_page_retarget_status",
+          "label": "Pricing Page Retarget - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "pricing_page_retarget_priority",
+          "label": "Pricing Page Retarget - Priority",
+          "type": "select",
+          "placeholder": "Enter priority",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "pricing_page_retarget_notes",
+          "label": "Pricing Page Retarget - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "customer_feedback_loop_funnel_stage",
+          "label": "Customer Feedback Loop - Funnel Stage",
+          "type": "text",
+          "placeholder": "Enter funnel stage",
+          "required": false
+        },
+        {
+          "id": "customer_feedback_loop_trigger",
+          "label": "Customer Feedback Loop - Trigger",
+          "type": "text",
+          "placeholder": "Enter trigger",
+          "required": false
+        },
+        {
+          "id": "customer_feedback_loop_expected_outcome",
+          "label": "Customer Feedback Loop - Expected Outcome",
+          "type": "text",
+          "placeholder": "Enter expected outcome",
+          "required": false
+        },
+        {
+          "id": "customer_feedback_loop_status",
+          "label": "Customer Feedback Loop - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "customer_feedback_loop_priority",
+          "label": "Customer Feedback Loop - Priority",
+          "type": "select",
+          "placeholder": "Enter priority",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "customer_feedback_loop_notes",
+          "label": "Customer Feedback Loop - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "referral_programme_activation_funnel_stage",
+          "label": "Referral Programme Activation - Funnel Stage",
+          "type": "text",
+          "placeholder": "Enter funnel stage",
+          "required": false
+        },
+        {
+          "id": "referral_programme_activation_trigger",
+          "label": "Referral Programme Activation - Trigger",
+          "type": "text",
+          "placeholder": "Enter trigger",
+          "required": false
+        },
+        {
+          "id": "referral_programme_activation_expected_outcome",
+          "label": "Referral Programme Activation - Expected Outcome",
+          "type": "text",
+          "placeholder": "Enter expected outcome",
+          "required": false
+        },
+        {
+          "id": "referral_programme_activation_status",
+          "label": "Referral Programme Activation - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "referral_programme_activation_priority",
+          "label": "Referral Programme Activation - Priority",
+          "type": "select",
+          "placeholder": "Enter priority",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "referral_programme_activation_notes",
+          "label": "Referral Programme Activation - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "seasonal_campaign_automation_funnel_stage",
+          "label": "Seasonal Campaign Automation - Funnel Stage",
+          "type": "text",
+          "placeholder": "Enter funnel stage",
+          "required": false
+        },
+        {
+          "id": "seasonal_campaign_automation_trigger",
+          "label": "Seasonal Campaign Automation - Trigger",
+          "type": "text",
+          "placeholder": "Enter trigger",
+          "required": false
+        },
+        {
+          "id": "seasonal_campaign_automation_expected_outcome",
+          "label": "Seasonal Campaign Automation - Expected Outcome",
+          "type": "text",
+          "placeholder": "Enter expected outcome",
+          "required": false
+        },
+        {
+          "id": "seasonal_campaign_automation_status",
+          "label": "Seasonal Campaign Automation - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "seasonal_campaign_automation_priority",
+          "label": "Seasonal Campaign Automation - Priority",
+          "type": "select",
+          "placeholder": "Enter priority",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "seasonal_campaign_automation_notes",
+          "label": "Seasonal Campaign Automation - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "email_sequence_builder",
+      "title": "Email Sequence Builder",
+      "description": "Enter data for each item",
+      "fields": [
+        {
+          "id": "welcome_series_step",
+          "label": "Welcome Series - Step #",
+          "type": "text",
+          "placeholder": "Enter step #",
+          "required": false
+        },
+        {
+          "id": "welcome_series_delay",
+          "label": "Welcome Series - Delay",
+          "type": "text",
+          "placeholder": "Enter delay",
+          "required": false
+        },
+        {
+          "id": "welcome_series_subject_line_content",
+          "label": "Welcome Series - Subject Line / Content",
+          "type": "text",
+          "placeholder": "Enter subject line / content",
+          "required": false
+        },
+        {
+          "id": "welcome_series_send_time",
+          "label": "Welcome Series - Send Time",
+          "type": "text",
+          "placeholder": "Enter send time",
+          "required": false
+        },
+        {
+          "id": "welcome_series_condition",
+          "label": "Welcome Series - Condition",
+          "type": "text",
+          "placeholder": "Enter condition",
+          "required": false
+        },
+        {
+          "id": "welcome_series_goal",
+          "label": "Welcome Series - Goal",
+          "type": "text",
+          "placeholder": "Enter goal",
+          "required": false
+        },
+        {
+          "id": "welcome_series_status",
+          "label": "Welcome Series - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "welcome_series_notes",
+          "label": "Welcome Series - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "welcome_series_step_1",
+          "label": "Welcome Series - Step #",
+          "type": "text",
+          "placeholder": "Enter step #",
+          "required": false
+        },
+        {
+          "id": "welcome_series_delay_1",
+          "label": "Welcome Series - Delay",
+          "type": "text",
+          "placeholder": "Enter delay",
+          "required": false
+        },
+        {
+          "id": "welcome_series_subject_line_content_1",
+          "label": "Welcome Series - Subject Line / Content",
+          "type": "text",
+          "placeholder": "Enter subject line / content",
+          "required": false
+        },
+        {
+          "id": "welcome_series_send_time_1",
+          "label": "Welcome Series - Send Time",
+          "type": "text",
+          "placeholder": "Enter send time",
+          "required": false
+        },
+        {
+          "id": "welcome_series_condition_1",
+          "label": "Welcome Series - Condition",
+          "type": "text",
+          "placeholder": "Enter condition",
+          "required": false
+        },
+        {
+          "id": "welcome_series_goal_1",
+          "label": "Welcome Series - Goal",
+          "type": "text",
+          "placeholder": "Enter goal",
+          "required": false
+        },
+        {
+          "id": "welcome_series_status_1",
+          "label": "Welcome Series - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "welcome_series_notes_1",
+          "label": "Welcome Series - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "welcome_series_step_2",
+          "label": "Welcome Series - Step #",
+          "type": "text",
+          "placeholder": "Enter step #",
+          "required": false
+        },
+        {
+          "id": "welcome_series_delay_2",
+          "label": "Welcome Series - Delay",
+          "type": "text",
+          "placeholder": "Enter delay",
+          "required": false
+        },
+        {
+          "id": "welcome_series_subject_line_content_2",
+          "label": "Welcome Series - Subject Line / Content",
+          "type": "text",
+          "placeholder": "Enter subject line / content",
+          "required": false
+        },
+        {
+          "id": "welcome_series_send_time_2",
+          "label": "Welcome Series - Send Time",
+          "type": "text",
+          "placeholder": "Enter send time",
+          "required": false
+        },
+        {
+          "id": "welcome_series_condition_2",
+          "label": "Welcome Series - Condition",
+          "type": "text",
+          "placeholder": "Enter condition",
+          "required": false
+        },
+        {
+          "id": "welcome_series_goal_2",
+          "label": "Welcome Series - Goal",
+          "type": "text",
+          "placeholder": "Enter goal",
+          "required": false
+        },
+        {
+          "id": "welcome_series_status_2",
+          "label": "Welcome Series - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "welcome_series_notes_2",
+          "label": "Welcome Series - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "welcome_series_step_3",
+          "label": "Welcome Series - Step #",
+          "type": "text",
+          "placeholder": "Enter step #",
+          "required": false
+        },
+        {
+          "id": "welcome_series_delay_3",
+          "label": "Welcome Series - Delay",
+          "type": "text",
+          "placeholder": "Enter delay",
+          "required": false
+        },
+        {
+          "id": "welcome_series_subject_line_content_3",
+          "label": "Welcome Series - Subject Line / Content",
+          "type": "text",
+          "placeholder": "Enter subject line / content",
+          "required": false
+        },
+        {
+          "id": "welcome_series_send_time_3",
+          "label": "Welcome Series - Send Time",
+          "type": "text",
+          "placeholder": "Enter send time",
+          "required": false
+        },
+        {
+          "id": "welcome_series_condition_3",
+          "label": "Welcome Series - Condition",
+          "type": "text",
+          "placeholder": "Enter condition",
+          "required": false
+        },
+        {
+          "id": "welcome_series_goal_3",
+          "label": "Welcome Series - Goal",
+          "type": "text",
+          "placeholder": "Enter goal",
+          "required": false
+        },
+        {
+          "id": "welcome_series_status_3",
+          "label": "Welcome Series - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "welcome_series_notes_3",
+          "label": "Welcome Series - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "lead_nurture_step",
+          "label": "Lead Nurture - Step #",
+          "type": "text",
+          "placeholder": "Enter step #",
+          "required": false
+        },
+        {
+          "id": "lead_nurture_delay",
+          "label": "Lead Nurture - Delay",
+          "type": "text",
+          "placeholder": "Enter delay",
+          "required": false
+        },
+        {
+          "id": "lead_nurture_subject_line_content",
+          "label": "Lead Nurture - Subject Line / Content",
+          "type": "text",
+          "placeholder": "Enter subject line / content",
+          "required": false
+        },
+        {
+          "id": "lead_nurture_send_time",
+          "label": "Lead Nurture - Send Time",
+          "type": "text",
+          "placeholder": "Enter send time",
+          "required": false
+        },
+        {
+          "id": "lead_nurture_condition",
+          "label": "Lead Nurture - Condition",
+          "type": "text",
+          "placeholder": "Enter condition",
+          "required": false
+        },
+        {
+          "id": "lead_nurture_goal",
+          "label": "Lead Nurture - Goal",
+          "type": "text",
+          "placeholder": "Enter goal",
+          "required": false
+        },
+        {
+          "id": "lead_nurture_status",
+          "label": "Lead Nurture - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "lead_nurture_notes",
+          "label": "Lead Nurture - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "lead_nurture_step_1",
+          "label": "Lead Nurture - Step #",
+          "type": "text",
+          "placeholder": "Enter step #",
+          "required": false
+        },
+        {
+          "id": "lead_nurture_delay_1",
+          "label": "Lead Nurture - Delay",
+          "type": "text",
+          "placeholder": "Enter delay",
+          "required": false
+        },
+        {
+          "id": "lead_nurture_subject_line_content_1",
+          "label": "Lead Nurture - Subject Line / Content",
+          "type": "text",
+          "placeholder": "Enter subject line / content",
+          "required": false
+        },
+        {
+          "id": "lead_nurture_send_time_1",
+          "label": "Lead Nurture - Send Time",
+          "type": "text",
+          "placeholder": "Enter send time",
+          "required": false
+        },
+        {
+          "id": "lead_nurture_condition_1",
+          "label": "Lead Nurture - Condition",
+          "type": "text",
+          "placeholder": "Enter condition",
+          "required": false
+        },
+        {
+          "id": "lead_nurture_goal_1",
+          "label": "Lead Nurture - Goal",
+          "type": "text",
+          "placeholder": "Enter goal",
+          "required": false
+        },
+        {
+          "id": "lead_nurture_status_1",
+          "label": "Lead Nurture - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "lead_nurture_notes_1",
+          "label": "Lead Nurture - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "lead_nurture_step_2",
+          "label": "Lead Nurture - Step #",
+          "type": "text",
+          "placeholder": "Enter step #",
+          "required": false
+        },
+        {
+          "id": "lead_nurture_delay_2",
+          "label": "Lead Nurture - Delay",
+          "type": "text",
+          "placeholder": "Enter delay",
+          "required": false
+        },
+        {
+          "id": "lead_nurture_subject_line_content_2",
+          "label": "Lead Nurture - Subject Line / Content",
+          "type": "text",
+          "placeholder": "Enter subject line / content",
+          "required": false
+        },
+        {
+          "id": "lead_nurture_send_time_2",
+          "label": "Lead Nurture - Send Time",
+          "type": "text",
+          "placeholder": "Enter send time",
+          "required": false
+        },
+        {
+          "id": "lead_nurture_condition_2",
+          "label": "Lead Nurture - Condition",
+          "type": "text",
+          "placeholder": "Enter condition",
+          "required": false
+        },
+        {
+          "id": "lead_nurture_goal_2",
+          "label": "Lead Nurture - Goal",
+          "type": "text",
+          "placeholder": "Enter goal",
+          "required": false
+        },
+        {
+          "id": "lead_nurture_status_2",
+          "label": "Lead Nurture - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "lead_nurture_notes_2",
+          "label": "Lead Nurture - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "lead_nurture_step_3",
+          "label": "Lead Nurture - Step #",
+          "type": "text",
+          "placeholder": "Enter step #",
+          "required": false
+        },
+        {
+          "id": "lead_nurture_delay_3",
+          "label": "Lead Nurture - Delay",
+          "type": "text",
+          "placeholder": "Enter delay",
+          "required": false
+        },
+        {
+          "id": "lead_nurture_subject_line_content_3",
+          "label": "Lead Nurture - Subject Line / Content",
+          "type": "text",
+          "placeholder": "Enter subject line / content",
+          "required": false
+        },
+        {
+          "id": "lead_nurture_send_time_3",
+          "label": "Lead Nurture - Send Time",
+          "type": "text",
+          "placeholder": "Enter send time",
+          "required": false
+        },
+        {
+          "id": "lead_nurture_condition_3",
+          "label": "Lead Nurture - Condition",
+          "type": "text",
+          "placeholder": "Enter condition",
+          "required": false
+        },
+        {
+          "id": "lead_nurture_goal_3",
+          "label": "Lead Nurture - Goal",
+          "type": "text",
+          "placeholder": "Enter goal",
+          "required": false
+        },
+        {
+          "id": "lead_nurture_status_3",
+          "label": "Lead Nurture - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "lead_nurture_notes_3",
+          "label": "Lead Nurture - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "lead_scoring_setup",
+      "title": "Lead Scoring Setup",
+      "description": "Enter data for each item",
+      "fields": [
+        {
+          "id": "behavioural_scoring_criteria",
+          "label": "Behavioural - Scoring Criteria",
+          "type": "text",
+          "placeholder": "Enter scoring criteria",
+          "required": false
+        },
+        {
+          "id": "behavioural_points",
+          "label": "Behavioural - Points",
+          "type": "text",
+          "placeholder": "Enter points",
+          "required": false
+        },
+        {
+          "id": "behavioural_decay",
+          "label": "Behavioural - Decay",
+          "type": "text",
+          "placeholder": "Enter decay",
+          "required": false
+        },
+        {
+          "id": "behavioural_notes",
+          "label": "Behavioural - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "behavioural_scoring_criteria_1",
+          "label": "Behavioural - Scoring Criteria",
+          "type": "text",
+          "placeholder": "Enter scoring criteria",
+          "required": false
+        },
+        {
+          "id": "behavioural_points_1",
+          "label": "Behavioural - Points",
+          "type": "text",
+          "placeholder": "Enter points",
+          "required": false
+        },
+        {
+          "id": "behavioural_decay_1",
+          "label": "Behavioural - Decay",
+          "type": "text",
+          "placeholder": "Enter decay",
+          "required": false
+        },
+        {
+          "id": "behavioural_notes_1",
+          "label": "Behavioural - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "behavioural_scoring_criteria_2",
+          "label": "Behavioural - Scoring Criteria",
+          "type": "text",
+          "placeholder": "Enter scoring criteria",
+          "required": false
+        },
+        {
+          "id": "behavioural_points_2",
+          "label": "Behavioural - Points",
+          "type": "text",
+          "placeholder": "Enter points",
+          "required": false
+        },
+        {
+          "id": "behavioural_decay_2",
+          "label": "Behavioural - Decay",
+          "type": "text",
+          "placeholder": "Enter decay",
+          "required": false
+        },
+        {
+          "id": "behavioural_notes_2",
+          "label": "Behavioural - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "behavioural_scoring_criteria_3",
+          "label": "Behavioural - Scoring Criteria",
+          "type": "text",
+          "placeholder": "Enter scoring criteria",
+          "required": false
+        },
+        {
+          "id": "behavioural_points_3",
+          "label": "Behavioural - Points",
+          "type": "text",
+          "placeholder": "Enter points",
+          "required": false
+        },
+        {
+          "id": "behavioural_decay_3",
+          "label": "Behavioural - Decay",
+          "type": "text",
+          "placeholder": "Enter decay",
+          "required": false
+        },
+        {
+          "id": "behavioural_notes_3",
+          "label": "Behavioural - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "behavioural_scoring_criteria_4",
+          "label": "Behavioural - Scoring Criteria",
+          "type": "text",
+          "placeholder": "Enter scoring criteria",
+          "required": false
+        },
+        {
+          "id": "behavioural_points_4",
+          "label": "Behavioural - Points",
+          "type": "text",
+          "placeholder": "Enter points",
+          "required": false
+        },
+        {
+          "id": "behavioural_decay_4",
+          "label": "Behavioural - Decay",
+          "type": "text",
+          "placeholder": "Enter decay",
+          "required": false
+        },
+        {
+          "id": "behavioural_notes_4",
+          "label": "Behavioural - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "behavioural_scoring_criteria_5",
+          "label": "Behavioural - Scoring Criteria",
+          "type": "text",
+          "placeholder": "Enter scoring criteria",
+          "required": false
+        },
+        {
+          "id": "behavioural_points_5",
+          "label": "Behavioural - Points",
+          "type": "text",
+          "placeholder": "Enter points",
+          "required": false
+        },
+        {
+          "id": "behavioural_decay_5",
+          "label": "Behavioural - Decay",
+          "type": "text",
+          "placeholder": "Enter decay",
+          "required": false
+        },
+        {
+          "id": "behavioural_notes_5",
+          "label": "Behavioural - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "behavioural_scoring_criteria_6",
+          "label": "Behavioural - Scoring Criteria",
+          "type": "text",
+          "placeholder": "Enter scoring criteria",
+          "required": false
+        },
+        {
+          "id": "behavioural_points_6",
+          "label": "Behavioural - Points",
+          "type": "text",
+          "placeholder": "Enter points",
+          "required": false
+        },
+        {
+          "id": "behavioural_decay_6",
+          "label": "Behavioural - Decay",
+          "type": "text",
+          "placeholder": "Enter decay",
+          "required": false
+        },
+        {
+          "id": "behavioural_notes_6",
+          "label": "Behavioural - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "behavioural_scoring_criteria_7",
+          "label": "Behavioural - Scoring Criteria",
+          "type": "text",
+          "placeholder": "Enter scoring criteria",
+          "required": false
+        },
+        {
+          "id": "behavioural_points_7",
+          "label": "Behavioural - Points",
+          "type": "text",
+          "placeholder": "Enter points",
+          "required": false
+        },
+        {
+          "id": "behavioural_decay_7",
+          "label": "Behavioural - Decay",
+          "type": "text",
+          "placeholder": "Enter decay",
+          "required": false
+        },
+        {
+          "id": "behavioural_notes_7",
+          "label": "Behavioural - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "behavioural_scoring_criteria_8",
+          "label": "Behavioural - Scoring Criteria",
+          "type": "text",
+          "placeholder": "Enter scoring criteria",
+          "required": false
+        },
+        {
+          "id": "behavioural_points_8",
+          "label": "Behavioural - Points",
+          "type": "text",
+          "placeholder": "Enter points",
+          "required": false
+        },
+        {
+          "id": "behavioural_decay_8",
+          "label": "Behavioural - Decay",
+          "type": "text",
+          "placeholder": "Enter decay",
+          "required": false
+        },
+        {
+          "id": "behavioural_notes_8",
+          "label": "Behavioural - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "behavioural_scoring_criteria_9",
+          "label": "Behavioural - Scoring Criteria",
+          "type": "text",
+          "placeholder": "Enter scoring criteria",
+          "required": false
+        },
+        {
+          "id": "behavioural_points_9",
+          "label": "Behavioural - Points",
+          "type": "text",
+          "placeholder": "Enter points",
+          "required": false
+        },
+        {
+          "id": "behavioural_decay_9",
+          "label": "Behavioural - Decay",
+          "type": "text",
+          "placeholder": "Enter decay",
+          "required": false
+        },
+        {
+          "id": "behavioural_notes_9",
+          "label": "Behavioural - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "demographic_scoring_criteria",
+          "label": "Demographic - Scoring Criteria",
+          "type": "text",
+          "placeholder": "Enter scoring criteria",
+          "required": false
+        },
+        {
+          "id": "demographic_points",
+          "label": "Demographic - Points",
+          "type": "text",
+          "placeholder": "Enter points",
+          "required": false
+        },
+        {
+          "id": "demographic_decay",
+          "label": "Demographic - Decay",
+          "type": "text",
+          "placeholder": "Enter decay",
+          "required": false
+        },
+        {
+          "id": "demographic_notes",
+          "label": "Demographic - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "demographic_scoring_criteria_1",
+          "label": "Demographic - Scoring Criteria",
+          "type": "text",
+          "placeholder": "Enter scoring criteria",
+          "required": false
+        },
+        {
+          "id": "demographic_points_1",
+          "label": "Demographic - Points",
+          "type": "text",
+          "placeholder": "Enter points",
+          "required": false
+        },
+        {
+          "id": "demographic_decay_1",
+          "label": "Demographic - Decay",
+          "type": "text",
+          "placeholder": "Enter decay",
+          "required": false
+        },
+        {
+          "id": "demographic_notes_1",
+          "label": "Demographic - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "demographic_scoring_criteria_2",
+          "label": "Demographic - Scoring Criteria",
+          "type": "text",
+          "placeholder": "Enter scoring criteria",
+          "required": false
+        },
+        {
+          "id": "demographic_points_2",
+          "label": "Demographic - Points",
+          "type": "text",
+          "placeholder": "Enter points",
+          "required": false
+        },
+        {
+          "id": "demographic_decay_2",
+          "label": "Demographic - Decay",
+          "type": "text",
+          "placeholder": "Enter decay",
+          "required": false
+        },
+        {
+          "id": "demographic_notes_2",
+          "label": "Demographic - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "demographic_scoring_criteria_3",
+          "label": "Demographic - Scoring Criteria",
+          "type": "text",
+          "placeholder": "Enter scoring criteria",
+          "required": false
+        },
+        {
+          "id": "demographic_points_3",
+          "label": "Demographic - Points",
+          "type": "text",
+          "placeholder": "Enter points",
+          "required": false
+        },
+        {
+          "id": "demographic_decay_3",
+          "label": "Demographic - Decay",
+          "type": "text",
+          "placeholder": "Enter decay",
+          "required": false
+        },
+        {
+          "id": "demographic_notes_3",
+          "label": "Demographic - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "demographic_scoring_criteria_4",
+          "label": "Demographic - Scoring Criteria",
+          "type": "text",
+          "placeholder": "Enter scoring criteria",
+          "required": false
+        },
+        {
+          "id": "demographic_points_4",
+          "label": "Demographic - Points",
+          "type": "text",
+          "placeholder": "Enter points",
+          "required": false
+        },
+        {
+          "id": "demographic_decay_4",
+          "label": "Demographic - Decay",
+          "type": "text",
+          "placeholder": "Enter decay",
+          "required": false
+        },
+        {
+          "id": "demographic_notes_4",
+          "label": "Demographic - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "demographic_scoring_criteria_5",
+          "label": "Demographic - Scoring Criteria",
+          "type": "text",
+          "placeholder": "Enter scoring criteria",
+          "required": false
+        },
+        {
+          "id": "demographic_points_5",
+          "label": "Demographic - Points",
+          "type": "text",
+          "placeholder": "Enter points",
+          "required": false
+        },
+        {
+          "id": "demographic_decay_5",
+          "label": "Demographic - Decay",
+          "type": "text",
+          "placeholder": "Enter decay",
+          "required": false
+        },
+        {
+          "id": "demographic_notes_5",
+          "label": "Demographic - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "thresholds_scoring_criteria",
+          "label": "Thresholds - Scoring Criteria",
+          "type": "text",
+          "placeholder": "Enter scoring criteria",
+          "required": false
+        },
+        {
+          "id": "thresholds_points",
+          "label": "Thresholds - Points",
+          "type": "text",
+          "placeholder": "Enter points",
+          "required": false
+        },
+        {
+          "id": "thresholds_decay",
+          "label": "Thresholds - Decay",
+          "type": "text",
+          "placeholder": "Enter decay",
+          "required": false
+        },
+        {
+          "id": "thresholds_notes",
+          "label": "Thresholds - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "thresholds_scoring_criteria_1",
+          "label": "Thresholds - Scoring Criteria",
+          "type": "text",
+          "placeholder": "Enter scoring criteria",
+          "required": false
+        },
+        {
+          "id": "thresholds_points_1",
+          "label": "Thresholds - Points",
+          "type": "text",
+          "placeholder": "Enter points",
+          "required": false
+        },
+        {
+          "id": "thresholds_decay_1",
+          "label": "Thresholds - Decay",
+          "type": "text",
+          "placeholder": "Enter decay",
+          "required": false
+        },
+        {
+          "id": "thresholds_notes_1",
+          "label": "Thresholds - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "thresholds_scoring_criteria_2",
+          "label": "Thresholds - Scoring Criteria",
+          "type": "text",
+          "placeholder": "Enter scoring criteria",
+          "required": false
+        },
+        {
+          "id": "thresholds_points_2",
+          "label": "Thresholds - Points",
+          "type": "text",
+          "placeholder": "Enter points",
+          "required": false
+        },
+        {
+          "id": "thresholds_decay_2",
+          "label": "Thresholds - Decay",
+          "type": "text",
+          "placeholder": "Enter decay",
+          "required": false
+        },
+        {
+          "id": "thresholds_notes_2",
+          "label": "Thresholds - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "segmentation_planner",
+      "title": "Segmentation Planner",
+      "description": "Enter data for each item",
+      "fields": [
+        {
+          "id": "hot_leads_type",
+          "label": "Hot Leads - Type",
+          "type": "select",
+          "placeholder": "Enter type",
+          "required": false,
+          "options": [
+            "Blog Post",
+            "Video",
+            "Infographic",
+            "Case Study",
+            "Whitepaper",
+            "Newsletter",
+            "Social Post",
+            "Webinar"
+          ]
+        },
+        {
+          "id": "hot_leads_criteria",
+          "label": "Hot Leads - Criteria",
+          "type": "text",
+          "placeholder": "Enter criteria",
+          "required": false
+        },
+        {
+          "id": "hot_leads_use_case",
+          "label": "Hot Leads - Use Case",
+          "type": "text",
+          "placeholder": "Enter use case",
+          "required": false
+        },
+        {
+          "id": "hot_leads_size_est",
+          "label": "Hot Leads - Size (est.)",
+          "type": "text",
+          "placeholder": "Enter size (est.)",
+          "required": false
+        },
+        {
+          "id": "hot_leads_update_frequency",
+          "label": "Hot Leads - Update Frequency",
+          "type": "text",
+          "placeholder": "Enter update frequency",
+          "required": false
+        },
+        {
+          "id": "hot_leads_notes",
+          "label": "Hot Leads - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "active_nurture_type",
+          "label": "Active Nurture - Type",
+          "type": "select",
+          "placeholder": "Enter type",
+          "required": false,
+          "options": [
+            "Blog Post",
+            "Video",
+            "Infographic",
+            "Case Study",
+            "Whitepaper",
+            "Newsletter",
+            "Social Post",
+            "Webinar"
+          ]
+        },
+        {
+          "id": "active_nurture_criteria",
+          "label": "Active Nurture - Criteria",
+          "type": "text",
+          "placeholder": "Enter criteria",
+          "required": false
+        },
+        {
+          "id": "active_nurture_use_case",
+          "label": "Active Nurture - Use Case",
+          "type": "text",
+          "placeholder": "Enter use case",
+          "required": false
+        },
+        {
+          "id": "active_nurture_size_est",
+          "label": "Active Nurture - Size (est.)",
+          "type": "text",
+          "placeholder": "Enter size (est.)",
+          "required": false
+        },
+        {
+          "id": "active_nurture_update_frequency",
+          "label": "Active Nurture - Update Frequency",
+          "type": "text",
+          "placeholder": "Enter update frequency",
+          "required": false
+        },
+        {
+          "id": "active_nurture_notes",
+          "label": "Active Nurture - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "new_subscribers_7_days_type",
+          "label": "New Subscribers (< 7 days) - Type",
+          "type": "select",
+          "placeholder": "Enter type",
+          "required": false,
+          "options": [
+            "Blog Post",
+            "Video",
+            "Infographic",
+            "Case Study",
+            "Whitepaper",
+            "Newsletter",
+            "Social Post",
+            "Webinar"
+          ]
+        },
+        {
+          "id": "new_subscribers_7_days_criteria",
+          "label": "New Subscribers (< 7 days) - Criteria",
+          "type": "text",
+          "placeholder": "Enter criteria",
+          "required": false
+        },
+        {
+          "id": "new_subscribers_7_days_use_case",
+          "label": "New Subscribers (< 7 days) - Use Case",
+          "type": "text",
+          "placeholder": "Enter use case",
+          "required": false
+        },
+        {
+          "id": "new_subscribers_7_days_size_est",
+          "label": "New Subscribers (< 7 days) - Size (est.)",
+          "type": "text",
+          "placeholder": "Enter size (est.)",
+          "required": false
+        },
+        {
+          "id": "new_subscribers_7_days_update_frequency",
+          "label": "New Subscribers (< 7 days) - Update Frequency",
+          "type": "text",
+          "placeholder": "Enter update frequency",
+          "required": false
+        },
+        {
+          "id": "new_subscribers_7_days_notes",
+          "label": "New Subscribers (< 7 days) - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "enterprise_prospects_type",
+          "label": "Enterprise Prospects - Type",
+          "type": "select",
+          "placeholder": "Enter type",
+          "required": false,
+          "options": [
+            "Blog Post",
+            "Video",
+            "Infographic",
+            "Case Study",
+            "Whitepaper",
+            "Newsletter",
+            "Social Post",
+            "Webinar"
+          ]
+        },
+        {
+          "id": "enterprise_prospects_criteria",
+          "label": "Enterprise Prospects - Criteria",
+          "type": "text",
+          "placeholder": "Enter criteria",
+          "required": false
+        },
+        {
+          "id": "enterprise_prospects_use_case",
+          "label": "Enterprise Prospects - Use Case",
+          "type": "text",
+          "placeholder": "Enter use case",
+          "required": false
+        },
+        {
+          "id": "enterprise_prospects_size_est",
+          "label": "Enterprise Prospects - Size (est.)",
+          "type": "text",
+          "placeholder": "Enter size (est.)",
+          "required": false
+        },
+        {
+          "id": "enterprise_prospects_update_frequency",
+          "label": "Enterprise Prospects - Update Frequency",
+          "type": "text",
+          "placeholder": "Enter update frequency",
+          "required": false
+        },
+        {
+          "id": "enterprise_prospects_notes",
+          "label": "Enterprise Prospects - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "webinar_attendees_type",
+          "label": "Webinar Attendees - Type",
+          "type": "select",
+          "placeholder": "Enter type",
+          "required": false,
+          "options": [
+            "Blog Post",
+            "Video",
+            "Infographic",
+            "Case Study",
+            "Whitepaper",
+            "Newsletter",
+            "Social Post",
+            "Webinar"
+          ]
+        },
+        {
+          "id": "webinar_attendees_criteria",
+          "label": "Webinar Attendees - Criteria",
+          "type": "text",
+          "placeholder": "Enter criteria",
+          "required": false
+        },
+        {
+          "id": "webinar_attendees_use_case",
+          "label": "Webinar Attendees - Use Case",
+          "type": "text",
+          "placeholder": "Enter use case",
+          "required": false
+        },
+        {
+          "id": "webinar_attendees_size_est",
+          "label": "Webinar Attendees - Size (est.)",
+          "type": "text",
+          "placeholder": "Enter size (est.)",
+          "required": false
+        },
+        {
+          "id": "webinar_attendees_update_frequency",
+          "label": "Webinar Attendees - Update Frequency",
+          "type": "text",
+          "placeholder": "Enter update frequency",
+          "required": false
+        },
+        {
+          "id": "webinar_attendees_notes",
+          "label": "Webinar Attendees - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "churned_customers_type",
+          "label": "Churned Customers - Type",
+          "type": "select",
+          "placeholder": "Enter type",
+          "required": false,
+          "options": [
+            "Blog Post",
+            "Video",
+            "Infographic",
+            "Case Study",
+            "Whitepaper",
+            "Newsletter",
+            "Social Post",
+            "Webinar"
+          ]
+        },
+        {
+          "id": "churned_customers_criteria",
+          "label": "Churned Customers - Criteria",
+          "type": "text",
+          "placeholder": "Enter criteria",
+          "required": false
+        },
+        {
+          "id": "churned_customers_use_case",
+          "label": "Churned Customers - Use Case",
+          "type": "text",
+          "placeholder": "Enter use case",
+          "required": false
+        },
+        {
+          "id": "churned_customers_size_est",
+          "label": "Churned Customers - Size (est.)",
+          "type": "text",
+          "placeholder": "Enter size (est.)",
+          "required": false
+        },
+        {
+          "id": "churned_customers_update_frequency",
+          "label": "Churned Customers - Update Frequency",
+          "type": "text",
+          "placeholder": "Enter update frequency",
+          "required": false
+        },
+        {
+          "id": "churned_customers_notes",
+          "label": "Churned Customers - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "product_champions_type",
+          "label": "Product Champions - Type",
+          "type": "select",
+          "placeholder": "Enter type",
+          "required": false,
+          "options": [
+            "Blog Post",
+            "Video",
+            "Infographic",
+            "Case Study",
+            "Whitepaper",
+            "Newsletter",
+            "Social Post",
+            "Webinar"
+          ]
+        },
+        {
+          "id": "product_champions_criteria",
+          "label": "Product Champions - Criteria",
+          "type": "text",
+          "placeholder": "Enter criteria",
+          "required": false
+        },
+        {
+          "id": "product_champions_use_case",
+          "label": "Product Champions - Use Case",
+          "type": "text",
+          "placeholder": "Enter use case",
+          "required": false
+        },
+        {
+          "id": "product_champions_size_est",
+          "label": "Product Champions - Size (est.)",
+          "type": "text",
+          "placeholder": "Enter size (est.)",
+          "required": false
+        },
+        {
+          "id": "product_champions_update_frequency",
+          "label": "Product Champions - Update Frequency",
+          "type": "text",
+          "placeholder": "Enter update frequency",
+          "required": false
+        },
+        {
+          "id": "product_champions_notes",
+          "label": "Product Champions - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "dormant_contacts_type",
+          "label": "Dormant Contacts - Type",
+          "type": "select",
+          "placeholder": "Enter type",
+          "required": false,
+          "options": [
+            "Blog Post",
+            "Video",
+            "Infographic",
+            "Case Study",
+            "Whitepaper",
+            "Newsletter",
+            "Social Post",
+            "Webinar"
+          ]
+        },
+        {
+          "id": "dormant_contacts_criteria",
+          "label": "Dormant Contacts - Criteria",
+          "type": "text",
+          "placeholder": "Enter criteria",
+          "required": false
+        },
+        {
+          "id": "dormant_contacts_use_case",
+          "label": "Dormant Contacts - Use Case",
+          "type": "text",
+          "placeholder": "Enter use case",
+          "required": false
+        },
+        {
+          "id": "dormant_contacts_size_est",
+          "label": "Dormant Contacts - Size (est.)",
+          "type": "text",
+          "placeholder": "Enter size (est.)",
+          "required": false
+        },
+        {
+          "id": "dormant_contacts_update_frequency",
+          "label": "Dormant Contacts - Update Frequency",
+          "type": "text",
+          "placeholder": "Enter update frequency",
+          "required": false
+        },
+        {
+          "id": "dormant_contacts_notes",
+          "label": "Dormant Contacts - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "integration_map",
+      "title": "Integration Map",
+      "description": "Enter data for each item",
+      "fields": [
+        {
+          "id": "crm_eg_salesforce_destination_tool",
+          "label": "CRM (e.g. Salesforce) - Destination Tool",
+          "type": "text",
+          "placeholder": "Enter destination tool",
+          "required": false
+        },
+        {
+          "id": "crm_eg_salesforce_direction",
+          "label": "CRM (e.g. Salesforce) - Direction",
+          "type": "text",
+          "placeholder": "Enter direction",
+          "required": false
+        },
+        {
+          "id": "crm_eg_salesforce_data_synced",
+          "label": "CRM (e.g. Salesforce) - Data Synced",
+          "type": "text",
+          "placeholder": "Enter data synced",
+          "required": false
+        },
+        {
+          "id": "crm_eg_salesforce_status",
+          "label": "CRM (e.g. Salesforce) - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "crm_eg_salesforce_notes",
+          "label": "CRM (e.g. Salesforce) - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "marketing_automation_destination_tool",
+          "label": "Marketing Automation - Destination Tool",
+          "type": "text",
+          "placeholder": "Enter destination tool",
+          "required": false
+        },
+        {
+          "id": "marketing_automation_direction",
+          "label": "Marketing Automation - Direction",
+          "type": "text",
+          "placeholder": "Enter direction",
+          "required": false
+        },
+        {
+          "id": "marketing_automation_data_synced",
+          "label": "Marketing Automation - Data Synced",
+          "type": "text",
+          "placeholder": "Enter data synced",
+          "required": false
+        },
+        {
+          "id": "marketing_automation_status",
+          "label": "Marketing Automation - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "marketing_automation_notes",
+          "label": "Marketing Automation - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "website_analytics_destination_tool",
+          "label": "Website (Analytics) - Destination Tool",
+          "type": "text",
+          "placeholder": "Enter destination tool",
+          "required": false
+        },
+        {
+          "id": "website_analytics_direction",
+          "label": "Website (Analytics) - Direction",
+          "type": "text",
+          "placeholder": "Enter direction",
+          "required": false
+        },
+        {
+          "id": "website_analytics_data_synced",
+          "label": "Website (Analytics) - Data Synced",
+          "type": "text",
+          "placeholder": "Enter data synced",
+          "required": false
+        },
+        {
+          "id": "website_analytics_status",
+          "label": "Website (Analytics) - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "website_analytics_notes",
+          "label": "Website (Analytics) - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "ad_platforms_destination_tool",
+          "label": "Ad Platforms - Destination Tool",
+          "type": "text",
+          "placeholder": "Enter destination tool",
+          "required": false
+        },
+        {
+          "id": "ad_platforms_direction",
+          "label": "Ad Platforms - Direction",
+          "type": "text",
+          "placeholder": "Enter direction",
+          "required": false
+        },
+        {
+          "id": "ad_platforms_data_synced",
+          "label": "Ad Platforms - Data Synced",
+          "type": "text",
+          "placeholder": "Enter data synced",
+          "required": false
+        },
+        {
+          "id": "ad_platforms_status",
+          "label": "Ad Platforms - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "ad_platforms_notes",
+          "label": "Ad Platforms - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "social_media_destination_tool",
+          "label": "Social Media - Destination Tool",
+          "type": "text",
+          "placeholder": "Enter destination tool",
+          "required": false
+        },
+        {
+          "id": "social_media_direction",
+          "label": "Social Media - Direction",
+          "type": "text",
+          "placeholder": "Enter direction",
+          "required": false
+        },
+        {
+          "id": "social_media_data_synced",
+          "label": "Social Media - Data Synced",
+          "type": "text",
+          "placeholder": "Enter data synced",
+          "required": false
+        },
+        {
+          "id": "social_media_status",
+          "label": "Social Media - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "social_media_notes",
+          "label": "Social Media - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "customer_support_destination_tool",
+          "label": "Customer Support - Destination Tool",
+          "type": "text",
+          "placeholder": "Enter destination tool",
+          "required": false
+        },
+        {
+          "id": "customer_support_direction",
+          "label": "Customer Support - Direction",
+          "type": "text",
+          "placeholder": "Enter direction",
+          "required": false
+        },
+        {
+          "id": "customer_support_data_synced",
+          "label": "Customer Support - Data Synced",
+          "type": "text",
+          "placeholder": "Enter data synced",
+          "required": false
+        },
+        {
+          "id": "customer_support_status",
+          "label": "Customer Support - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "customer_support_notes",
+          "label": "Customer Support - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "product_app_destination_tool",
+          "label": "Product (App) - Destination Tool",
+          "type": "text",
+          "placeholder": "Enter destination tool",
+          "required": false
+        },
+        {
+          "id": "product_app_direction",
+          "label": "Product (App) - Direction",
+          "type": "text",
+          "placeholder": "Enter direction",
+          "required": false
+        },
+        {
+          "id": "product_app_data_synced",
+          "label": "Product (App) - Data Synced",
+          "type": "text",
+          "placeholder": "Enter data synced",
+          "required": false
+        },
+        {
+          "id": "product_app_status",
+          "label": "Product (App) - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "product_app_notes",
+          "label": "Product (App) - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "billingpayments_destination_tool",
+          "label": "Billing/Payments - Destination Tool",
+          "type": "text",
+          "placeholder": "Enter destination tool",
+          "required": false
+        },
+        {
+          "id": "billingpayments_direction",
+          "label": "Billing/Payments - Direction",
+          "type": "text",
+          "placeholder": "Enter direction",
+          "required": false
+        },
+        {
+          "id": "billingpayments_data_synced",
+          "label": "Billing/Payments - Data Synced",
+          "type": "text",
+          "placeholder": "Enter data synced",
+          "required": false
+        },
+        {
+          "id": "billingpayments_status",
+          "label": "Billing/Payments - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "billingpayments_notes",
+          "label": "Billing/Payments - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "performance_monitor",
+      "title": "Performance Monitor",
+      "description": "Enter data for each item",
+      "fields": [
+        {
+          "id": "welcome_series_emails_sent",
+          "label": "Welcome Series - Emails Sent",
+          "type": "text",
+          "placeholder": "Enter emails sent",
+          "required": false
+        },
+        {
+          "id": "welcome_series_open_rate",
+          "label": "Welcome Series - Open Rate",
+          "type": "number",
+          "placeholder": "Enter open rate",
+          "required": false
+        },
+        {
+          "id": "welcome_series_click_rate",
+          "label": "Welcome Series - Click Rate",
+          "type": "number",
+          "placeholder": "Enter click rate",
+          "required": false
+        },
+        {
+          "id": "welcome_series_conversion_rate",
+          "label": "Welcome Series - Conversion Rate",
+          "type": "number",
+          "placeholder": "Enter conversion rate",
+          "required": false
+        },
+        {
+          "id": "welcome_series_unsubscribe_rate",
+          "label": "Welcome Series - Unsubscribe Rate",
+          "type": "number",
+          "placeholder": "Enter unsubscribe rate",
+          "required": false
+        },
+        {
+          "id": "welcome_series_revenue",
+          "label": "Welcome Series - Revenue",
+          "type": "number",
+          "placeholder": "Enter revenue",
+          "required": false
+        },
+        {
+          "id": "welcome_series_status",
+          "label": "Welcome Series - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "welcome_series_notes",
+          "label": "Welcome Series - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "lead_nurture_emails_sent",
+          "label": "Lead Nurture - Emails Sent",
+          "type": "text",
+          "placeholder": "Enter emails sent",
+          "required": false
+        },
+        {
+          "id": "lead_nurture_open_rate",
+          "label": "Lead Nurture - Open Rate",
+          "type": "number",
+          "placeholder": "Enter open rate",
+          "required": false
+        },
+        {
+          "id": "lead_nurture_click_rate",
+          "label": "Lead Nurture - Click Rate",
+          "type": "number",
+          "placeholder": "Enter click rate",
+          "required": false
+        },
+        {
+          "id": "lead_nurture_conversion_rate",
+          "label": "Lead Nurture - Conversion Rate",
+          "type": "number",
+          "placeholder": "Enter conversion rate",
+          "required": false
+        },
+        {
+          "id": "lead_nurture_unsubscribe_rate",
+          "label": "Lead Nurture - Unsubscribe Rate",
+          "type": "number",
+          "placeholder": "Enter unsubscribe rate",
+          "required": false
+        },
+        {
+          "id": "lead_nurture_revenue",
+          "label": "Lead Nurture - Revenue",
+          "type": "number",
+          "placeholder": "Enter revenue",
+          "required": false
+        },
+        {
+          "id": "lead_nurture_status",
+          "label": "Lead Nurture - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "lead_nurture_notes",
+          "label": "Lead Nurture - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "abandoned_cart_emails_sent",
+          "label": "Abandoned Cart - Emails Sent",
+          "type": "text",
+          "placeholder": "Enter emails sent",
+          "required": false
+        },
+        {
+          "id": "abandoned_cart_open_rate",
+          "label": "Abandoned Cart - Open Rate",
+          "type": "number",
+          "placeholder": "Enter open rate",
+          "required": false
+        },
+        {
+          "id": "abandoned_cart_click_rate",
+          "label": "Abandoned Cart - Click Rate",
+          "type": "number",
+          "placeholder": "Enter click rate",
+          "required": false
+        },
+        {
+          "id": "abandoned_cart_conversion_rate",
+          "label": "Abandoned Cart - Conversion Rate",
+          "type": "number",
+          "placeholder": "Enter conversion rate",
+          "required": false
+        },
+        {
+          "id": "abandoned_cart_unsubscribe_rate",
+          "label": "Abandoned Cart - Unsubscribe Rate",
+          "type": "number",
+          "placeholder": "Enter unsubscribe rate",
+          "required": false
+        },
+        {
+          "id": "abandoned_cart_revenue",
+          "label": "Abandoned Cart - Revenue",
+          "type": "number",
+          "placeholder": "Enter revenue",
+          "required": false
+        },
+        {
+          "id": "abandoned_cart_status",
+          "label": "Abandoned Cart - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "abandoned_cart_notes",
+          "label": "Abandoned Cart - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "reengagement_emails_sent",
+          "label": "Re-engagement - Emails Sent",
+          "type": "text",
+          "placeholder": "Enter emails sent",
+          "required": false
+        },
+        {
+          "id": "reengagement_open_rate",
+          "label": "Re-engagement - Open Rate",
+          "type": "number",
+          "placeholder": "Enter open rate",
+          "required": false
+        },
+        {
+          "id": "reengagement_click_rate",
+          "label": "Re-engagement - Click Rate",
+          "type": "number",
+          "placeholder": "Enter click rate",
+          "required": false
+        },
+        {
+          "id": "reengagement_conversion_rate",
+          "label": "Re-engagement - Conversion Rate",
+          "type": "number",
+          "placeholder": "Enter conversion rate",
+          "required": false
+        },
+        {
+          "id": "reengagement_unsubscribe_rate",
+          "label": "Re-engagement - Unsubscribe Rate",
+          "type": "number",
+          "placeholder": "Enter unsubscribe rate",
+          "required": false
+        },
+        {
+          "id": "reengagement_revenue",
+          "label": "Re-engagement - Revenue",
+          "type": "number",
+          "placeholder": "Enter revenue",
+          "required": false
+        },
+        {
+          "id": "reengagement_status",
+          "label": "Re-engagement - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "reengagement_notes",
+          "label": "Re-engagement - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "postpurchase_onboarding_emails_sent",
+          "label": "Post-Purchase Onboarding - Emails Sent",
+          "type": "text",
+          "placeholder": "Enter emails sent",
+          "required": false
+        },
+        {
+          "id": "postpurchase_onboarding_open_rate",
+          "label": "Post-Purchase Onboarding - Open Rate",
+          "type": "number",
+          "placeholder": "Enter open rate",
+          "required": false
+        },
+        {
+          "id": "postpurchase_onboarding_click_rate",
+          "label": "Post-Purchase Onboarding - Click Rate",
+          "type": "number",
+          "placeholder": "Enter click rate",
+          "required": false
+        },
+        {
+          "id": "postpurchase_onboarding_conversion_rate",
+          "label": "Post-Purchase Onboarding - Conversion Rate",
+          "type": "number",
+          "placeholder": "Enter conversion rate",
+          "required": false
+        },
+        {
+          "id": "postpurchase_onboarding_unsubscribe_rate",
+          "label": "Post-Purchase Onboarding - Unsubscribe Rate",
+          "type": "number",
+          "placeholder": "Enter unsubscribe rate",
+          "required": false
+        },
+        {
+          "id": "postpurchase_onboarding_revenue",
+          "label": "Post-Purchase Onboarding - Revenue",
+          "type": "number",
+          "placeholder": "Enter revenue",
+          "required": false
+        },
+        {
+          "id": "postpurchase_onboarding_status",
+          "label": "Post-Purchase Onboarding - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "postpurchase_onboarding_notes",
+          "label": "Post-Purchase Onboarding - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "trial_expiration_emails_sent",
+          "label": "Trial Expiration - Emails Sent",
+          "type": "text",
+          "placeholder": "Enter emails sent",
+          "required": false
+        },
+        {
+          "id": "trial_expiration_open_rate",
+          "label": "Trial Expiration - Open Rate",
+          "type": "number",
+          "placeholder": "Enter open rate",
+          "required": false
+        },
+        {
+          "id": "trial_expiration_click_rate",
+          "label": "Trial Expiration - Click Rate",
+          "type": "number",
+          "placeholder": "Enter click rate",
+          "required": false
+        },
+        {
+          "id": "trial_expiration_conversion_rate",
+          "label": "Trial Expiration - Conversion Rate",
+          "type": "number",
+          "placeholder": "Enter conversion rate",
+          "required": false
+        },
+        {
+          "id": "trial_expiration_unsubscribe_rate",
+          "label": "Trial Expiration - Unsubscribe Rate",
+          "type": "number",
+          "placeholder": "Enter unsubscribe rate",
+          "required": false
+        },
+        {
+          "id": "trial_expiration_revenue",
+          "label": "Trial Expiration - Revenue",
+          "type": "number",
+          "placeholder": "Enter revenue",
+          "required": false
+        },
+        {
+          "id": "trial_expiration_status",
+          "label": "Trial Expiration - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "trial_expiration_notes",
+          "label": "Trial Expiration - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        }
+      ]
+    }
+  ]
 }

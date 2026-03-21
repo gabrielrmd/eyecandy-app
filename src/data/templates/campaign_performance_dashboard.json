@@ -10,302 +10,6 @@
     "analytics"
   ],
   "estimatedTime": "55 min",
-  "sections": [
-    {
-      "id": "dashboard",
-      "title": "Dashboard",
-      "description": "Complete the Dashboard section",
-      "fields": [
-        {
-          "id": "total_impressions_0",
-          "label": "Total Impressions",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "73000_1",
-          "label": "73000",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "efficiency_metrics_2",
-          "label": "EFFICIENCY METRICS",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "avg_ctr_3",
-          "label": "Avg CTR",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "0_07424657534246576_4",
-          "label": "0.07424657534246576",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "performance_by_channel_5",
-          "label": "PERFORMANCE BY CHANNEL",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "channel_6",
-          "label": "Channel",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "paid_search_7",
-          "label": "Paid Search",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "paid_social_8",
-          "label": "Paid Social",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "email_9",
-          "label": "Email",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "content_10",
-          "label": "Content",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "seo_11",
-          "label": "SEO",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "events_12",
-          "label": "Events",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "influencer_13",
-          "label": "Influencer",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "strategic_insights_14",
-          "label": "STRATEGIC INSIGHTS",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "campaigns_with_positive_roi_15",
-          "label": "Campaigns with Positive ROI",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "campaigns_over_budget_16",
-          "label": "Campaigns Over Budget",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "avg_campaign_rating_17",
-          "label": "Avg Campaign Rating",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "completed_campaigns_18",
-          "label": "Completed Campaigns",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "campaign_log",
-      "title": "Campaign Log",
-      "description": "Complete the Campaign Log section",
-      "fields": [
-        {
-          "id": "spring_template_launch_0",
-          "label": "Spring Template Launch",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "seo_content_push_1",
-          "label": "SEO Content Push",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "email_nurture_series_2",
-          "label": "Email Nurture Series",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "webinar_budget_mastery_3",
-          "label": "Webinar: Budget Mastery",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "monthly_tracker",
-      "title": "Monthly Tracker",
-      "description": "Complete the Monthly Tracker section",
-      "fields": [
-        {
-          "id": "spend_0",
-          "label": "Spend",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "impressions_1",
-          "label": "Impressions",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "clicks_2",
-          "label": "Clicks",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "leads_3",
-          "label": "Leads",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "conversions_4",
-          "label": "Conversions",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "revenue_5",
-          "label": "Revenue",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "ctr_6",
-          "label": "CTR",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "cpc_7",
-          "label": "CPC",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "cpl_8",
-          "label": "CPL",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "roi_9",
-          "label": "ROI",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "active_campaigns_10",
-          "label": "Active Campaigns",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "new_campaigns_11",
-          "label": "New Campaigns",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "month_over_month_trends_12",
-          "label": "MONTH-OVER-MONTH TRENDS",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "spend_mom_13",
-          "label": "Spend MoM %",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "leads_mom_14",
-          "label": "Leads MoM %",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "revenue_mom_15",
-          "label": "Revenue MoM %",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    }
-  ],
   "dashboard": {
     "metrics": [
       {
@@ -334,5 +38,897 @@
         "format": "number"
       }
     ]
-  }
+  },
+  "sections": [
+    {
+      "id": "dashboard",
+      "title": "Dashboard",
+      "description": "Auto-calculated summary of your data. Complete the working sections to see results here.",
+      "readOnly": true,
+      "fields": [
+        {
+          "id": "dashboard_overview",
+          "label": "Dashboard Overview",
+          "type": "textarea",
+          "placeholder": "Dashboard metrics will be calculated from your inputs in the working sections",
+          "required": false,
+          "readOnly": true
+        }
+      ]
+    },
+    {
+      "id": "campaign_log",
+      "title": "Campaign Log",
+      "description": "Enter data for each item",
+      "fields": [
+        {
+          "id": "spring_template_launch_type",
+          "label": "Spring Template Launch - Type",
+          "type": "select",
+          "placeholder": "Enter type",
+          "required": false,
+          "options": [
+            "Blog Post",
+            "Video",
+            "Infographic",
+            "Case Study",
+            "Whitepaper",
+            "Newsletter",
+            "Social Post",
+            "Webinar"
+          ]
+        },
+        {
+          "id": "spring_template_launch_audience",
+          "label": "Spring Template Launch - Audience",
+          "type": "text",
+          "placeholder": "Enter audience",
+          "required": false
+        },
+        {
+          "id": "spring_template_launch_channel",
+          "label": "Spring Template Launch - Channel",
+          "type": "select",
+          "placeholder": "Enter channel",
+          "required": false,
+          "options": [
+            "Blog",
+            "Social Media",
+            "Email",
+            "Video",
+            "Paid Search",
+            "Paid Social",
+            "SEO",
+            "Events",
+            "PR"
+          ]
+        },
+        {
+          "id": "spring_template_launch_start_date",
+          "label": "Spring Template Launch - Start Date",
+          "type": "text",
+          "placeholder": "Enter start date",
+          "required": false
+        },
+        {
+          "id": "spring_template_launch_status",
+          "label": "Spring Template Launch - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "spring_template_launch_end_date",
+          "label": "Spring Template Launch - End Date",
+          "type": "text",
+          "placeholder": "Enter end date",
+          "required": false
+        },
+        {
+          "id": "spring_template_launch_objective",
+          "label": "Spring Template Launch - Objective",
+          "type": "text",
+          "placeholder": "Enter objective",
+          "required": false
+        },
+        {
+          "id": "spring_template_launch_budget",
+          "label": "Spring Template Launch - Budget",
+          "type": "number",
+          "placeholder": "Enter budget",
+          "required": false
+        },
+        {
+          "id": "spring_template_launch_target_kpi",
+          "label": "Spring Template Launch - Target KPI",
+          "type": "number",
+          "placeholder": "Enter target kpi",
+          "required": false
+        },
+        {
+          "id": "spring_template_launch_impressions",
+          "label": "Spring Template Launch - Impressions",
+          "type": "number",
+          "placeholder": "Enter impressions",
+          "required": false
+        },
+        {
+          "id": "spring_template_launch_clicks",
+          "label": "Spring Template Launch - Clicks",
+          "type": "number",
+          "placeholder": "Enter clicks",
+          "required": false
+        },
+        {
+          "id": "spring_template_launch_leads",
+          "label": "Spring Template Launch - Leads",
+          "type": "number",
+          "placeholder": "Enter leads",
+          "required": false
+        },
+        {
+          "id": "spring_template_launch_conversions",
+          "label": "Spring Template Launch - Conversions",
+          "type": "number",
+          "placeholder": "Enter conversions",
+          "required": false
+        },
+        {
+          "id": "spring_template_launch_revenue",
+          "label": "Spring Template Launch - Revenue",
+          "type": "number",
+          "placeholder": "Enter revenue",
+          "required": false
+        },
+        {
+          "id": "spring_template_launch_actual_spend",
+          "label": "Spring Template Launch - Actual Spend",
+          "type": "number",
+          "placeholder": "Enter actual spend",
+          "required": false
+        },
+        {
+          "id": "spring_template_launch_rating",
+          "label": "Spring Template Launch - Rating",
+          "type": "scale",
+          "placeholder": "Enter rating",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "spring_template_launch_notes",
+          "label": "Spring Template Launch - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "seo_content_push_type",
+          "label": "SEO Content Push - Type",
+          "type": "select",
+          "placeholder": "Enter type",
+          "required": false,
+          "options": [
+            "Blog Post",
+            "Video",
+            "Infographic",
+            "Case Study",
+            "Whitepaper",
+            "Newsletter",
+            "Social Post",
+            "Webinar"
+          ]
+        },
+        {
+          "id": "seo_content_push_audience",
+          "label": "SEO Content Push - Audience",
+          "type": "text",
+          "placeholder": "Enter audience",
+          "required": false
+        },
+        {
+          "id": "seo_content_push_channel",
+          "label": "SEO Content Push - Channel",
+          "type": "select",
+          "placeholder": "Enter channel",
+          "required": false,
+          "options": [
+            "Blog",
+            "Social Media",
+            "Email",
+            "Video",
+            "Paid Search",
+            "Paid Social",
+            "SEO",
+            "Events",
+            "PR"
+          ]
+        },
+        {
+          "id": "seo_content_push_start_date",
+          "label": "SEO Content Push - Start Date",
+          "type": "text",
+          "placeholder": "Enter start date",
+          "required": false
+        },
+        {
+          "id": "seo_content_push_status",
+          "label": "SEO Content Push - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "seo_content_push_end_date",
+          "label": "SEO Content Push - End Date",
+          "type": "text",
+          "placeholder": "Enter end date",
+          "required": false
+        },
+        {
+          "id": "seo_content_push_objective",
+          "label": "SEO Content Push - Objective",
+          "type": "text",
+          "placeholder": "Enter objective",
+          "required": false
+        },
+        {
+          "id": "seo_content_push_budget",
+          "label": "SEO Content Push - Budget",
+          "type": "number",
+          "placeholder": "Enter budget",
+          "required": false
+        },
+        {
+          "id": "seo_content_push_target_kpi",
+          "label": "SEO Content Push - Target KPI",
+          "type": "number",
+          "placeholder": "Enter target kpi",
+          "required": false
+        },
+        {
+          "id": "seo_content_push_impressions",
+          "label": "SEO Content Push - Impressions",
+          "type": "number",
+          "placeholder": "Enter impressions",
+          "required": false
+        },
+        {
+          "id": "seo_content_push_clicks",
+          "label": "SEO Content Push - Clicks",
+          "type": "number",
+          "placeholder": "Enter clicks",
+          "required": false
+        },
+        {
+          "id": "seo_content_push_leads",
+          "label": "SEO Content Push - Leads",
+          "type": "number",
+          "placeholder": "Enter leads",
+          "required": false
+        },
+        {
+          "id": "seo_content_push_conversions",
+          "label": "SEO Content Push - Conversions",
+          "type": "number",
+          "placeholder": "Enter conversions",
+          "required": false
+        },
+        {
+          "id": "seo_content_push_revenue",
+          "label": "SEO Content Push - Revenue",
+          "type": "number",
+          "placeholder": "Enter revenue",
+          "required": false
+        },
+        {
+          "id": "seo_content_push_actual_spend",
+          "label": "SEO Content Push - Actual Spend",
+          "type": "number",
+          "placeholder": "Enter actual spend",
+          "required": false
+        },
+        {
+          "id": "seo_content_push_rating",
+          "label": "SEO Content Push - Rating",
+          "type": "scale",
+          "placeholder": "Enter rating",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "seo_content_push_notes",
+          "label": "SEO Content Push - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "email_nurture_series_type",
+          "label": "Email Nurture Series - Type",
+          "type": "select",
+          "placeholder": "Enter type",
+          "required": false,
+          "options": [
+            "Blog Post",
+            "Video",
+            "Infographic",
+            "Case Study",
+            "Whitepaper",
+            "Newsletter",
+            "Social Post",
+            "Webinar"
+          ]
+        },
+        {
+          "id": "email_nurture_series_audience",
+          "label": "Email Nurture Series - Audience",
+          "type": "text",
+          "placeholder": "Enter audience",
+          "required": false
+        },
+        {
+          "id": "email_nurture_series_channel",
+          "label": "Email Nurture Series - Channel",
+          "type": "select",
+          "placeholder": "Enter channel",
+          "required": false,
+          "options": [
+            "Blog",
+            "Social Media",
+            "Email",
+            "Video",
+            "Paid Search",
+            "Paid Social",
+            "SEO",
+            "Events",
+            "PR"
+          ]
+        },
+        {
+          "id": "email_nurture_series_start_date",
+          "label": "Email Nurture Series - Start Date",
+          "type": "text",
+          "placeholder": "Enter start date",
+          "required": false
+        },
+        {
+          "id": "email_nurture_series_status",
+          "label": "Email Nurture Series - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "email_nurture_series_end_date",
+          "label": "Email Nurture Series - End Date",
+          "type": "text",
+          "placeholder": "Enter end date",
+          "required": false
+        },
+        {
+          "id": "email_nurture_series_objective",
+          "label": "Email Nurture Series - Objective",
+          "type": "text",
+          "placeholder": "Enter objective",
+          "required": false
+        },
+        {
+          "id": "email_nurture_series_budget",
+          "label": "Email Nurture Series - Budget",
+          "type": "number",
+          "placeholder": "Enter budget",
+          "required": false
+        },
+        {
+          "id": "email_nurture_series_target_kpi",
+          "label": "Email Nurture Series - Target KPI",
+          "type": "number",
+          "placeholder": "Enter target kpi",
+          "required": false
+        },
+        {
+          "id": "email_nurture_series_impressions",
+          "label": "Email Nurture Series - Impressions",
+          "type": "number",
+          "placeholder": "Enter impressions",
+          "required": false
+        },
+        {
+          "id": "email_nurture_series_clicks",
+          "label": "Email Nurture Series - Clicks",
+          "type": "number",
+          "placeholder": "Enter clicks",
+          "required": false
+        },
+        {
+          "id": "email_nurture_series_leads",
+          "label": "Email Nurture Series - Leads",
+          "type": "number",
+          "placeholder": "Enter leads",
+          "required": false
+        },
+        {
+          "id": "email_nurture_series_conversions",
+          "label": "Email Nurture Series - Conversions",
+          "type": "number",
+          "placeholder": "Enter conversions",
+          "required": false
+        },
+        {
+          "id": "email_nurture_series_revenue",
+          "label": "Email Nurture Series - Revenue",
+          "type": "number",
+          "placeholder": "Enter revenue",
+          "required": false
+        },
+        {
+          "id": "email_nurture_series_actual_spend",
+          "label": "Email Nurture Series - Actual Spend",
+          "type": "number",
+          "placeholder": "Enter actual spend",
+          "required": false
+        },
+        {
+          "id": "email_nurture_series_rating",
+          "label": "Email Nurture Series - Rating",
+          "type": "scale",
+          "placeholder": "Enter rating",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "email_nurture_series_notes",
+          "label": "Email Nurture Series - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "webinar_budget_mastery_type",
+          "label": "Webinar: Budget Mastery - Type",
+          "type": "select",
+          "placeholder": "Enter type",
+          "required": false,
+          "options": [
+            "Blog Post",
+            "Video",
+            "Infographic",
+            "Case Study",
+            "Whitepaper",
+            "Newsletter",
+            "Social Post",
+            "Webinar"
+          ]
+        },
+        {
+          "id": "webinar_budget_mastery_audience",
+          "label": "Webinar: Budget Mastery - Audience",
+          "type": "text",
+          "placeholder": "Enter audience",
+          "required": false
+        },
+        {
+          "id": "webinar_budget_mastery_channel",
+          "label": "Webinar: Budget Mastery - Channel",
+          "type": "select",
+          "placeholder": "Enter channel",
+          "required": false,
+          "options": [
+            "Blog",
+            "Social Media",
+            "Email",
+            "Video",
+            "Paid Search",
+            "Paid Social",
+            "SEO",
+            "Events",
+            "PR"
+          ]
+        },
+        {
+          "id": "webinar_budget_mastery_start_date",
+          "label": "Webinar: Budget Mastery - Start Date",
+          "type": "text",
+          "placeholder": "Enter start date",
+          "required": false
+        },
+        {
+          "id": "webinar_budget_mastery_status",
+          "label": "Webinar: Budget Mastery - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "webinar_budget_mastery_end_date",
+          "label": "Webinar: Budget Mastery - End Date",
+          "type": "text",
+          "placeholder": "Enter end date",
+          "required": false
+        },
+        {
+          "id": "webinar_budget_mastery_objective",
+          "label": "Webinar: Budget Mastery - Objective",
+          "type": "text",
+          "placeholder": "Enter objective",
+          "required": false
+        },
+        {
+          "id": "webinar_budget_mastery_budget",
+          "label": "Webinar: Budget Mastery - Budget",
+          "type": "number",
+          "placeholder": "Enter budget",
+          "required": false
+        },
+        {
+          "id": "webinar_budget_mastery_target_kpi",
+          "label": "Webinar: Budget Mastery - Target KPI",
+          "type": "number",
+          "placeholder": "Enter target kpi",
+          "required": false
+        },
+        {
+          "id": "webinar_budget_mastery_impressions",
+          "label": "Webinar: Budget Mastery - Impressions",
+          "type": "number",
+          "placeholder": "Enter impressions",
+          "required": false
+        },
+        {
+          "id": "webinar_budget_mastery_clicks",
+          "label": "Webinar: Budget Mastery - Clicks",
+          "type": "number",
+          "placeholder": "Enter clicks",
+          "required": false
+        },
+        {
+          "id": "webinar_budget_mastery_leads",
+          "label": "Webinar: Budget Mastery - Leads",
+          "type": "number",
+          "placeholder": "Enter leads",
+          "required": false
+        },
+        {
+          "id": "webinar_budget_mastery_conversions",
+          "label": "Webinar: Budget Mastery - Conversions",
+          "type": "number",
+          "placeholder": "Enter conversions",
+          "required": false
+        },
+        {
+          "id": "webinar_budget_mastery_revenue",
+          "label": "Webinar: Budget Mastery - Revenue",
+          "type": "number",
+          "placeholder": "Enter revenue",
+          "required": false
+        },
+        {
+          "id": "webinar_budget_mastery_actual_spend",
+          "label": "Webinar: Budget Mastery - Actual Spend",
+          "type": "number",
+          "placeholder": "Enter actual spend",
+          "required": false
+        },
+        {
+          "id": "webinar_budget_mastery_rating",
+          "label": "Webinar: Budget Mastery - Rating",
+          "type": "scale",
+          "placeholder": "Enter rating",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "webinar_budget_mastery_notes",
+          "label": "Webinar: Budget Mastery - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "monthovermonth_trends",
+      "title": "Month-Over-Month Trends",
+      "description": "[Monthly Tracker] Enter monthly values for Month-Over-Month Trends",
+      "fields": [
+        {
+          "id": "spend_mom_jan",
+          "label": "Spend MoM % - Jan",
+          "type": "number",
+          "placeholder": "Enter jan value",
+          "required": false
+        },
+        {
+          "id": "spend_mom_feb",
+          "label": "Spend MoM % - Feb",
+          "type": "number",
+          "placeholder": "Enter feb value",
+          "required": false
+        },
+        {
+          "id": "spend_mom_mar",
+          "label": "Spend MoM % - Mar",
+          "type": "number",
+          "placeholder": "Enter mar value",
+          "required": false
+        },
+        {
+          "id": "spend_mom_apr",
+          "label": "Spend MoM % - Apr",
+          "type": "number",
+          "placeholder": "Enter apr value",
+          "required": false
+        },
+        {
+          "id": "spend_mom_may",
+          "label": "Spend MoM % - May",
+          "type": "number",
+          "placeholder": "Enter may value",
+          "required": false
+        },
+        {
+          "id": "spend_mom_jun",
+          "label": "Spend MoM % - Jun",
+          "type": "number",
+          "placeholder": "Enter jun value",
+          "required": false
+        },
+        {
+          "id": "spend_mom_jul",
+          "label": "Spend MoM % - Jul",
+          "type": "number",
+          "placeholder": "Enter jul value",
+          "required": false
+        },
+        {
+          "id": "spend_mom_aug",
+          "label": "Spend MoM % - Aug",
+          "type": "number",
+          "placeholder": "Enter aug value",
+          "required": false
+        },
+        {
+          "id": "spend_mom_sep",
+          "label": "Spend MoM % - Sep",
+          "type": "number",
+          "placeholder": "Enter sep value",
+          "required": false
+        },
+        {
+          "id": "spend_mom_oct",
+          "label": "Spend MoM % - Oct",
+          "type": "number",
+          "placeholder": "Enter oct value",
+          "required": false
+        },
+        {
+          "id": "spend_mom_nov",
+          "label": "Spend MoM % - Nov",
+          "type": "number",
+          "placeholder": "Enter nov value",
+          "required": false
+        },
+        {
+          "id": "spend_mom_dec",
+          "label": "Spend MoM % - Dec",
+          "type": "number",
+          "placeholder": "Enter dec value",
+          "required": false
+        },
+        {
+          "id": "leads_mom_jan",
+          "label": "Leads MoM % - Jan",
+          "type": "number",
+          "placeholder": "Enter jan value",
+          "required": false
+        },
+        {
+          "id": "leads_mom_feb",
+          "label": "Leads MoM % - Feb",
+          "type": "number",
+          "placeholder": "Enter feb value",
+          "required": false
+        },
+        {
+          "id": "leads_mom_mar",
+          "label": "Leads MoM % - Mar",
+          "type": "number",
+          "placeholder": "Enter mar value",
+          "required": false
+        },
+        {
+          "id": "leads_mom_apr",
+          "label": "Leads MoM % - Apr",
+          "type": "number",
+          "placeholder": "Enter apr value",
+          "required": false
+        },
+        {
+          "id": "leads_mom_may",
+          "label": "Leads MoM % - May",
+          "type": "number",
+          "placeholder": "Enter may value",
+          "required": false
+        },
+        {
+          "id": "leads_mom_jun",
+          "label": "Leads MoM % - Jun",
+          "type": "number",
+          "placeholder": "Enter jun value",
+          "required": false
+        },
+        {
+          "id": "leads_mom_jul",
+          "label": "Leads MoM % - Jul",
+          "type": "number",
+          "placeholder": "Enter jul value",
+          "required": false
+        },
+        {
+          "id": "leads_mom_aug",
+          "label": "Leads MoM % - Aug",
+          "type": "number",
+          "placeholder": "Enter aug value",
+          "required": false
+        },
+        {
+          "id": "leads_mom_sep",
+          "label": "Leads MoM % - Sep",
+          "type": "number",
+          "placeholder": "Enter sep value",
+          "required": false
+        },
+        {
+          "id": "leads_mom_oct",
+          "label": "Leads MoM % - Oct",
+          "type": "number",
+          "placeholder": "Enter oct value",
+          "required": false
+        },
+        {
+          "id": "leads_mom_nov",
+          "label": "Leads MoM % - Nov",
+          "type": "number",
+          "placeholder": "Enter nov value",
+          "required": false
+        },
+        {
+          "id": "leads_mom_dec",
+          "label": "Leads MoM % - Dec",
+          "type": "number",
+          "placeholder": "Enter dec value",
+          "required": false
+        },
+        {
+          "id": "revenue_mom_jan",
+          "label": "Revenue MoM % - Jan",
+          "type": "number",
+          "placeholder": "Enter jan value",
+          "required": false
+        },
+        {
+          "id": "revenue_mom_feb",
+          "label": "Revenue MoM % - Feb",
+          "type": "number",
+          "placeholder": "Enter feb value",
+          "required": false
+        },
+        {
+          "id": "revenue_mom_mar",
+          "label": "Revenue MoM % - Mar",
+          "type": "number",
+          "placeholder": "Enter mar value",
+          "required": false
+        },
+        {
+          "id": "revenue_mom_apr",
+          "label": "Revenue MoM % - Apr",
+          "type": "number",
+          "placeholder": "Enter apr value",
+          "required": false
+        },
+        {
+          "id": "revenue_mom_may",
+          "label": "Revenue MoM % - May",
+          "type": "number",
+          "placeholder": "Enter may value",
+          "required": false
+        },
+        {
+          "id": "revenue_mom_jun",
+          "label": "Revenue MoM % - Jun",
+          "type": "number",
+          "placeholder": "Enter jun value",
+          "required": false
+        },
+        {
+          "id": "revenue_mom_jul",
+          "label": "Revenue MoM % - Jul",
+          "type": "number",
+          "placeholder": "Enter jul value",
+          "required": false
+        },
+        {
+          "id": "revenue_mom_aug",
+          "label": "Revenue MoM % - Aug",
+          "type": "number",
+          "placeholder": "Enter aug value",
+          "required": false
+        },
+        {
+          "id": "revenue_mom_sep",
+          "label": "Revenue MoM % - Sep",
+          "type": "number",
+          "placeholder": "Enter sep value",
+          "required": false
+        },
+        {
+          "id": "revenue_mom_oct",
+          "label": "Revenue MoM % - Oct",
+          "type": "number",
+          "placeholder": "Enter oct value",
+          "required": false
+        },
+        {
+          "id": "revenue_mom_nov",
+          "label": "Revenue MoM % - Nov",
+          "type": "number",
+          "placeholder": "Enter nov value",
+          "required": false
+        },
+        {
+          "id": "revenue_mom_dec",
+          "label": "Revenue MoM % - Dec",
+          "type": "number",
+          "placeholder": "Enter dec value",
+          "required": false
+        }
+      ]
+    }
+  ]
 }

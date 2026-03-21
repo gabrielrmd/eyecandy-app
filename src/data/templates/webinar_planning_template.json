@@ -11,694 +11,6 @@
     "content"
   ],
   "estimatedTime": "45 min",
-  "sections": [
-    {
-      "id": "dashboard",
-      "title": "Dashboard",
-      "description": "Complete the Dashboard section",
-      "fields": [
-        {
-          "id": "total_registrations_0",
-          "label": "Total Registrations",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "attendance_rate_1",
-          "label": "Attendance Rate",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "no_show_rate_2",
-          "label": "No-Show Rate",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "leads_generated_3",
-          "label": "Leads Generated",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "lead_conversion_rate_4",
-          "label": "Lead Conversion Rate",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "promotion_tasks_done_5",
-          "label": "Promotion Tasks Done",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "tech_items_ready_6",
-          "label": "Tech Items Ready",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "follow_ups_sent_7",
-          "label": "Follow-ups Sent",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "webinar_brief",
-      "title": "Webinar Brief",
-      "description": "Complete the Webinar Brief section",
-      "fields": [
-        {
-          "id": "date_time_0",
-          "label": "Date & Time",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "duration_1",
-          "label": "Duration",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "format_2",
-          "label": "Format",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "platform_3",
-          "label": "Platform",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "target_audience_4",
-          "label": "Target Audience",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "registration_goal_5",
-          "label": "Registration Goal",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "attendance_target_6",
-          "label": "Attendance Target",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "primary_objective_7",
-          "label": "Primary Objective",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "key_takeaways_for_attendees_8",
-          "label": "Key Takeaways for Attendees",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "cta_what_should_attendees_do_after_9",
-          "label": "CTA - What should attendees do after?",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "landing_page_url_10",
-          "label": "Landing Page URL",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "webinar_owner_11",
-          "label": "Webinar Owner",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "budget_12",
-          "label": "Budget",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "promotion_plan",
-      "title": "Promotion Plan",
-      "description": "Complete the Promotion Plan section",
-      "fields": [
-        {
-          "id": "save_the_date_to_full_list_0",
-          "label": "Save-the-date to full list",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "announcement_post_all_platforms_1",
-          "label": "Announcement post (all platforms)",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "invitation_with_speaker_bios_2",
-          "label": "Invitation with speaker bios",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "speaker_spotlight_posts_3",
-          "label": "Speaker spotlight posts",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "preview_blog_post_4",
-          "label": "Preview blog post",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "reminder_early_bird_content_5",
-          "label": "Reminder + early bird content",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "targeted_ads_to_lookalike_audiences_6",
-          "label": "Targeted ads to lookalike audiences",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "final_reminder_with_agenda_preview_7",
-          "label": "Final reminder with agenda preview",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "countdown_posts_8",
-          "label": "Countdown posts",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "co_promotion_with_guest_speakers_9",
-          "label": "Co-promotion with guest speakers",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "last_chance_reminder_10",
-          "label": "Last-chance reminder",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "live_alert_post_11",
-          "label": "Live alert post",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "run_of_show",
-      "title": "Run of Show",
-      "description": "Complete the Run of Show section",
-      "fields": [
-        {
-          "id": "run_through_key_transitions_0",
-          "label": "Run through key transitions",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "welcome_agenda_housekeeping_rules_1",
-          "label": "Welcome, agenda, housekeeping rules",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "key_talking_points_for_each_slide_2",
-          "label": "Key talking points for each slide",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "technical_walkthrough_points_3",
-          "label": "Technical walkthrough points",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "introduce_poll_explain_purpose_4",
-          "label": "Introduce poll, explain purpose",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "prioritise_top_voted_questions_5",
-          "label": "Prioritise top-voted questions",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "recap_key_takeaways_share_cta_6",
-          "label": "Recap key takeaways, share CTA",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "thank_speakers_and_audience_7",
-          "label": "Thank speakers and audience",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "tech_checklist",
-      "title": "Tech Checklist",
-      "description": "Complete the Tech Checklist section",
-      "fields": [
-        {
-          "id": "webinar_platform_account_set_up_and_test_0",
-          "label": "Webinar platform account set up and tested",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "registration_page_created_and_tested_1",
-          "label": "Registration page created and tested",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "email_confirmations_configured_2",
-          "label": "Email confirmations configured",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "recording_enabled_3",
-          "label": "Recording enabled",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "chat_and_q_a_settings_configured_4",
-          "label": "Chat and Q&A settings configured",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "speaker_audio_tested_5",
-          "label": "Speaker audio tested",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "speaker_video_tested_6",
-          "label": "Speaker video tested",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "backup_microphone_available_7",
-          "label": "Backup microphone available",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "screen_share_tested_8",
-          "label": "Screen share tested",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "internet_speed_tested_10_mbps_upload_9",
-          "label": "Internet speed tested (>10 Mbps upload)",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "slides_uploaded_to_platform_10",
-          "label": "Slides uploaded to platform",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "polls_created_11",
-          "label": "Polls created",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "handouts_resources_uploaded_12",
-          "label": "Handouts/resources uploaded",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "backup_slides_saved_locally_13",
-          "label": "Backup slides saved locally",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "landing_page_live_and_tested_14",
-          "label": "Landing page live and tested",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "confirmation_emails_tested_15",
-          "label": "Confirmation emails tested",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "reminder_emails_scheduled_16",
-          "label": "Reminder emails scheduled",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "social_posts_scheduled_17",
-          "label": "Social posts scheduled",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "green_room_opened_30_min_early_18",
-          "label": "Green room opened 30 min early",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "recording_started_19",
-          "label": "Recording started",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "chat_monitored_20",
-          "label": "Chat monitored",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "backup_presenter_on_standby_21",
-          "label": "Backup presenter on standby",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "recording_saved_and_downloaded_22",
-          "label": "Recording saved and downloaded",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "attendee_list_exported_23",
-          "label": "Attendee list exported",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "follow_up_emails_triggered_24",
-          "label": "Follow-up emails triggered",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "follow_up_plan",
-      "title": "Follow-Up Plan",
-      "description": "Complete the Follow-Up Plan section",
-      "fields": [
-        {
-          "id": "thank_you_recording_link_resources_0",
-          "label": "Thank you + recording link + resources",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "sorry_we_missed_you_recording_link_1",
-          "label": "Sorry we missed you + recording link",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "key_takeaways_carousel_post_2",
-          "label": "Key takeaways carousel post",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "personalised_follow_up_with_cta_3",
-          "label": "Personalised follow-up with CTA",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "blog_post_with_expanded_content_4",
-          "label": "Blog post with expanded content",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "related_content_or_next_webinar_invite_5",
-          "label": "Related content or next webinar invite",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "testimonial_or_quote_graphics_6",
-          "label": "Testimonial or quote graphics",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "personal_outreach_call_or_demo_offer_7",
-          "label": "Personal outreach call or demo offer",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "repurposed_content_clips_blog_infographi_8",
-          "label": "Repurposed content (clips, blog, infographic)",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "performance_tracker",
-      "title": "Performance Tracker",
-      "description": "Complete the Performance Tracker section",
-      "fields": [
-        {
-          "id": "registrations_0",
-          "label": "Registrations",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "attendance_rate_1",
-          "label": "Attendance Rate",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "no_show_rate_2",
-          "label": "No-Show Rate",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "avg_watch_time_min_3",
-          "label": "Avg Watch Time (min)",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "engagement_score_4",
-          "label": "Engagement Score",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "poll_participation_rate_5",
-          "label": "Poll Participation Rate",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "questions_asked_6",
-          "label": "Questions Asked",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "chat_messages_7",
-          "label": "Chat Messages",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "leads_generated_8",
-          "label": "Leads Generated",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "lead_conversion_rate_9",
-          "label": "Lead Conversion Rate",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "pipeline_generated_10",
-          "label": "Pipeline Generated",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "revenue_attributed_11",
-          "label": "Revenue Attributed",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "nps_score_12",
-          "label": "NPS Score",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "would_recommend_13",
-          "label": "Would Recommend %",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "recording_views_30_days_14",
-          "label": "Recording Views (30 days)",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "social_shares_15",
-          "label": "Social Shares",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    }
-  ],
   "dashboard": {
     "metrics": [
       {
@@ -727,5 +39,4166 @@
         "format": "number"
       }
     ]
-  }
+  },
+  "sections": [
+    {
+      "id": "dashboard",
+      "title": "Dashboard",
+      "description": "Auto-calculated summary of your data. Complete the working sections to see results here.",
+      "readOnly": true,
+      "fields": [
+        {
+          "id": "dashboard_overview",
+          "label": "Dashboard Overview",
+          "type": "textarea",
+          "placeholder": "Dashboard metrics will be calculated from your inputs in the working sections",
+          "required": false,
+          "readOnly": true
+        }
+      ]
+    },
+    {
+      "id": "webinar_title",
+      "title": "Webinar Title",
+      "description": "[Webinar Brief] Complete the Webinar Title section",
+      "fields": []
+    },
+    {
+      "id": "date_time",
+      "title": "Date & Time",
+      "description": "[Webinar Brief] Complete the Date & Time section",
+      "fields": []
+    },
+    {
+      "id": "duration",
+      "title": "Duration",
+      "description": "[Webinar Brief] Complete the Duration section",
+      "fields": []
+    },
+    {
+      "id": "format",
+      "title": "Format",
+      "description": "[Webinar Brief] Complete the Format section",
+      "fields": []
+    },
+    {
+      "id": "platform",
+      "title": "Platform",
+      "description": "[Webinar Brief] Complete the Platform section",
+      "fields": []
+    },
+    {
+      "id": "target_audience",
+      "title": "Target Audience",
+      "description": "[Webinar Brief] Complete the Target Audience section",
+      "fields": []
+    },
+    {
+      "id": "registration_goal",
+      "title": "Registration Goal",
+      "description": "[Webinar Brief] Complete the Registration Goal section",
+      "fields": []
+    },
+    {
+      "id": "attendance_target",
+      "title": "Attendance Target",
+      "description": "[Webinar Brief] Complete the Attendance Target section",
+      "fields": []
+    },
+    {
+      "id": "primary_objective",
+      "title": "Primary Objective",
+      "description": "[Webinar Brief] Complete the Primary Objective section",
+      "fields": []
+    },
+    {
+      "id": "key_takeaways_for_attendees",
+      "title": "Key Takeaways for Attendees",
+      "description": "[Webinar Brief] Complete the Key Takeaways for Attendees section",
+      "fields": []
+    },
+    {
+      "id": "cta_what_should_attendees_do_after",
+      "title": "CTA - What should attendees do after?",
+      "description": "[Webinar Brief] Complete the CTA - What should attendees do after? section",
+      "fields": []
+    },
+    {
+      "id": "landing_page_url",
+      "title": "Landing Page URL",
+      "description": "[Webinar Brief] Complete the Landing Page URL section",
+      "fields": []
+    },
+    {
+      "id": "webinar_owner",
+      "title": "Webinar Owner",
+      "description": "[Webinar Brief] Complete the Webinar Owner section",
+      "fields": []
+    },
+    {
+      "id": "budget",
+      "title": "Budget",
+      "description": "[Webinar Brief] Complete the Budget section",
+      "fields": []
+    },
+    {
+      "id": "promotion_plan",
+      "title": "Promotion Plan",
+      "description": "Enter data for each item",
+      "fields": [
+        {
+          "id": "w4_channel",
+          "label": "W-4 - Channel",
+          "type": "select",
+          "placeholder": "Enter channel",
+          "required": false,
+          "options": [
+            "Blog",
+            "Social Media",
+            "Email",
+            "Video",
+            "Paid Search",
+            "Paid Social",
+            "SEO",
+            "Events",
+            "PR"
+          ]
+        },
+        {
+          "id": "w4_activity",
+          "label": "W-4 - Activity",
+          "type": "text",
+          "placeholder": "Enter activity",
+          "required": false
+        },
+        {
+          "id": "w4_audience",
+          "label": "W-4 - Audience",
+          "type": "text",
+          "placeholder": "Enter audience",
+          "required": false
+        },
+        {
+          "id": "w4_content_needed",
+          "label": "W-4 - Content Needed",
+          "type": "text",
+          "placeholder": "Enter content needed",
+          "required": false
+        },
+        {
+          "id": "w4_owner",
+          "label": "W-4 - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "w4_status",
+          "label": "W-4 - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "w4_send_date",
+          "label": "W-4 - Send Date",
+          "type": "text",
+          "placeholder": "Enter send date",
+          "required": false
+        },
+        {
+          "id": "w4_expected_regs",
+          "label": "W-4 - Expected Regs",
+          "type": "text",
+          "placeholder": "Enter expected regs",
+          "required": false
+        },
+        {
+          "id": "w4_notes",
+          "label": "W-4 - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "w4_channel_1",
+          "label": "W-4 - Channel",
+          "type": "select",
+          "placeholder": "Enter channel",
+          "required": false,
+          "options": [
+            "Blog",
+            "Social Media",
+            "Email",
+            "Video",
+            "Paid Search",
+            "Paid Social",
+            "SEO",
+            "Events",
+            "PR"
+          ]
+        },
+        {
+          "id": "w4_activity_1",
+          "label": "W-4 - Activity",
+          "type": "text",
+          "placeholder": "Enter activity",
+          "required": false
+        },
+        {
+          "id": "w4_audience_1",
+          "label": "W-4 - Audience",
+          "type": "text",
+          "placeholder": "Enter audience",
+          "required": false
+        },
+        {
+          "id": "w4_content_needed_1",
+          "label": "W-4 - Content Needed",
+          "type": "text",
+          "placeholder": "Enter content needed",
+          "required": false
+        },
+        {
+          "id": "w4_owner_1",
+          "label": "W-4 - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "w4_status_1",
+          "label": "W-4 - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "w4_send_date_1",
+          "label": "W-4 - Send Date",
+          "type": "text",
+          "placeholder": "Enter send date",
+          "required": false
+        },
+        {
+          "id": "w4_expected_regs_1",
+          "label": "W-4 - Expected Regs",
+          "type": "text",
+          "placeholder": "Enter expected regs",
+          "required": false
+        },
+        {
+          "id": "w4_notes_1",
+          "label": "W-4 - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "w3_channel",
+          "label": "W-3 - Channel",
+          "type": "select",
+          "placeholder": "Enter channel",
+          "required": false,
+          "options": [
+            "Blog",
+            "Social Media",
+            "Email",
+            "Video",
+            "Paid Search",
+            "Paid Social",
+            "SEO",
+            "Events",
+            "PR"
+          ]
+        },
+        {
+          "id": "w3_activity",
+          "label": "W-3 - Activity",
+          "type": "text",
+          "placeholder": "Enter activity",
+          "required": false
+        },
+        {
+          "id": "w3_audience",
+          "label": "W-3 - Audience",
+          "type": "text",
+          "placeholder": "Enter audience",
+          "required": false
+        },
+        {
+          "id": "w3_content_needed",
+          "label": "W-3 - Content Needed",
+          "type": "text",
+          "placeholder": "Enter content needed",
+          "required": false
+        },
+        {
+          "id": "w3_owner",
+          "label": "W-3 - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "w3_status",
+          "label": "W-3 - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "w3_send_date",
+          "label": "W-3 - Send Date",
+          "type": "text",
+          "placeholder": "Enter send date",
+          "required": false
+        },
+        {
+          "id": "w3_expected_regs",
+          "label": "W-3 - Expected Regs",
+          "type": "text",
+          "placeholder": "Enter expected regs",
+          "required": false
+        },
+        {
+          "id": "w3_notes",
+          "label": "W-3 - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "w3_channel_1",
+          "label": "W-3 - Channel",
+          "type": "select",
+          "placeholder": "Enter channel",
+          "required": false,
+          "options": [
+            "Blog",
+            "Social Media",
+            "Email",
+            "Video",
+            "Paid Search",
+            "Paid Social",
+            "SEO",
+            "Events",
+            "PR"
+          ]
+        },
+        {
+          "id": "w3_activity_1",
+          "label": "W-3 - Activity",
+          "type": "text",
+          "placeholder": "Enter activity",
+          "required": false
+        },
+        {
+          "id": "w3_audience_1",
+          "label": "W-3 - Audience",
+          "type": "text",
+          "placeholder": "Enter audience",
+          "required": false
+        },
+        {
+          "id": "w3_content_needed_1",
+          "label": "W-3 - Content Needed",
+          "type": "text",
+          "placeholder": "Enter content needed",
+          "required": false
+        },
+        {
+          "id": "w3_owner_1",
+          "label": "W-3 - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "w3_status_1",
+          "label": "W-3 - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "w3_send_date_1",
+          "label": "W-3 - Send Date",
+          "type": "text",
+          "placeholder": "Enter send date",
+          "required": false
+        },
+        {
+          "id": "w3_expected_regs_1",
+          "label": "W-3 - Expected Regs",
+          "type": "text",
+          "placeholder": "Enter expected regs",
+          "required": false
+        },
+        {
+          "id": "w3_notes_1",
+          "label": "W-3 - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "w3_channel_2",
+          "label": "W-3 - Channel",
+          "type": "select",
+          "placeholder": "Enter channel",
+          "required": false,
+          "options": [
+            "Blog",
+            "Social Media",
+            "Email",
+            "Video",
+            "Paid Search",
+            "Paid Social",
+            "SEO",
+            "Events",
+            "PR"
+          ]
+        },
+        {
+          "id": "w3_activity_2",
+          "label": "W-3 - Activity",
+          "type": "text",
+          "placeholder": "Enter activity",
+          "required": false
+        },
+        {
+          "id": "w3_audience_2",
+          "label": "W-3 - Audience",
+          "type": "text",
+          "placeholder": "Enter audience",
+          "required": false
+        },
+        {
+          "id": "w3_content_needed_2",
+          "label": "W-3 - Content Needed",
+          "type": "text",
+          "placeholder": "Enter content needed",
+          "required": false
+        },
+        {
+          "id": "w3_owner_2",
+          "label": "W-3 - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "w3_status_2",
+          "label": "W-3 - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "w3_send_date_2",
+          "label": "W-3 - Send Date",
+          "type": "text",
+          "placeholder": "Enter send date",
+          "required": false
+        },
+        {
+          "id": "w3_expected_regs_2",
+          "label": "W-3 - Expected Regs",
+          "type": "text",
+          "placeholder": "Enter expected regs",
+          "required": false
+        },
+        {
+          "id": "w3_notes_2",
+          "label": "W-3 - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "w2_channel",
+          "label": "W-2 - Channel",
+          "type": "select",
+          "placeholder": "Enter channel",
+          "required": false,
+          "options": [
+            "Blog",
+            "Social Media",
+            "Email",
+            "Video",
+            "Paid Search",
+            "Paid Social",
+            "SEO",
+            "Events",
+            "PR"
+          ]
+        },
+        {
+          "id": "w2_activity",
+          "label": "W-2 - Activity",
+          "type": "text",
+          "placeholder": "Enter activity",
+          "required": false
+        },
+        {
+          "id": "w2_audience",
+          "label": "W-2 - Audience",
+          "type": "text",
+          "placeholder": "Enter audience",
+          "required": false
+        },
+        {
+          "id": "w2_content_needed",
+          "label": "W-2 - Content Needed",
+          "type": "text",
+          "placeholder": "Enter content needed",
+          "required": false
+        },
+        {
+          "id": "w2_owner",
+          "label": "W-2 - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "w2_status",
+          "label": "W-2 - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "w2_send_date",
+          "label": "W-2 - Send Date",
+          "type": "text",
+          "placeholder": "Enter send date",
+          "required": false
+        },
+        {
+          "id": "w2_expected_regs",
+          "label": "W-2 - Expected Regs",
+          "type": "text",
+          "placeholder": "Enter expected regs",
+          "required": false
+        },
+        {
+          "id": "w2_notes",
+          "label": "W-2 - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "w2_channel_1",
+          "label": "W-2 - Channel",
+          "type": "select",
+          "placeholder": "Enter channel",
+          "required": false,
+          "options": [
+            "Blog",
+            "Social Media",
+            "Email",
+            "Video",
+            "Paid Search",
+            "Paid Social",
+            "SEO",
+            "Events",
+            "PR"
+          ]
+        },
+        {
+          "id": "w2_activity_1",
+          "label": "W-2 - Activity",
+          "type": "text",
+          "placeholder": "Enter activity",
+          "required": false
+        },
+        {
+          "id": "w2_audience_1",
+          "label": "W-2 - Audience",
+          "type": "text",
+          "placeholder": "Enter audience",
+          "required": false
+        },
+        {
+          "id": "w2_content_needed_1",
+          "label": "W-2 - Content Needed",
+          "type": "text",
+          "placeholder": "Enter content needed",
+          "required": false
+        },
+        {
+          "id": "w2_owner_1",
+          "label": "W-2 - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "w2_status_1",
+          "label": "W-2 - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "w2_send_date_1",
+          "label": "W-2 - Send Date",
+          "type": "text",
+          "placeholder": "Enter send date",
+          "required": false
+        },
+        {
+          "id": "w2_expected_regs_1",
+          "label": "W-2 - Expected Regs",
+          "type": "text",
+          "placeholder": "Enter expected regs",
+          "required": false
+        },
+        {
+          "id": "w2_notes_1",
+          "label": "W-2 - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "w1_channel",
+          "label": "W-1 - Channel",
+          "type": "select",
+          "placeholder": "Enter channel",
+          "required": false,
+          "options": [
+            "Blog",
+            "Social Media",
+            "Email",
+            "Video",
+            "Paid Search",
+            "Paid Social",
+            "SEO",
+            "Events",
+            "PR"
+          ]
+        },
+        {
+          "id": "w1_activity",
+          "label": "W-1 - Activity",
+          "type": "text",
+          "placeholder": "Enter activity",
+          "required": false
+        },
+        {
+          "id": "w1_audience",
+          "label": "W-1 - Audience",
+          "type": "text",
+          "placeholder": "Enter audience",
+          "required": false
+        },
+        {
+          "id": "w1_content_needed",
+          "label": "W-1 - Content Needed",
+          "type": "text",
+          "placeholder": "Enter content needed",
+          "required": false
+        },
+        {
+          "id": "w1_owner",
+          "label": "W-1 - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "w1_status",
+          "label": "W-1 - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "w1_send_date",
+          "label": "W-1 - Send Date",
+          "type": "text",
+          "placeholder": "Enter send date",
+          "required": false
+        },
+        {
+          "id": "w1_expected_regs",
+          "label": "W-1 - Expected Regs",
+          "type": "text",
+          "placeholder": "Enter expected regs",
+          "required": false
+        },
+        {
+          "id": "w1_notes",
+          "label": "W-1 - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "w1_channel_1",
+          "label": "W-1 - Channel",
+          "type": "select",
+          "placeholder": "Enter channel",
+          "required": false,
+          "options": [
+            "Blog",
+            "Social Media",
+            "Email",
+            "Video",
+            "Paid Search",
+            "Paid Social",
+            "SEO",
+            "Events",
+            "PR"
+          ]
+        },
+        {
+          "id": "w1_activity_1",
+          "label": "W-1 - Activity",
+          "type": "text",
+          "placeholder": "Enter activity",
+          "required": false
+        },
+        {
+          "id": "w1_audience_1",
+          "label": "W-1 - Audience",
+          "type": "text",
+          "placeholder": "Enter audience",
+          "required": false
+        },
+        {
+          "id": "w1_content_needed_1",
+          "label": "W-1 - Content Needed",
+          "type": "text",
+          "placeholder": "Enter content needed",
+          "required": false
+        },
+        {
+          "id": "w1_owner_1",
+          "label": "W-1 - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "w1_status_1",
+          "label": "W-1 - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "w1_send_date_1",
+          "label": "W-1 - Send Date",
+          "type": "text",
+          "placeholder": "Enter send date",
+          "required": false
+        },
+        {
+          "id": "w1_expected_regs_1",
+          "label": "W-1 - Expected Regs",
+          "type": "text",
+          "placeholder": "Enter expected regs",
+          "required": false
+        },
+        {
+          "id": "w1_notes_1",
+          "label": "W-1 - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "w1_channel_2",
+          "label": "W-1 - Channel",
+          "type": "select",
+          "placeholder": "Enter channel",
+          "required": false,
+          "options": [
+            "Blog",
+            "Social Media",
+            "Email",
+            "Video",
+            "Paid Search",
+            "Paid Social",
+            "SEO",
+            "Events",
+            "PR"
+          ]
+        },
+        {
+          "id": "w1_activity_2",
+          "label": "W-1 - Activity",
+          "type": "text",
+          "placeholder": "Enter activity",
+          "required": false
+        },
+        {
+          "id": "w1_audience_2",
+          "label": "W-1 - Audience",
+          "type": "text",
+          "placeholder": "Enter audience",
+          "required": false
+        },
+        {
+          "id": "w1_content_needed_2",
+          "label": "W-1 - Content Needed",
+          "type": "text",
+          "placeholder": "Enter content needed",
+          "required": false
+        },
+        {
+          "id": "w1_owner_2",
+          "label": "W-1 - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "w1_status_2",
+          "label": "W-1 - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "w1_send_date_2",
+          "label": "W-1 - Send Date",
+          "type": "text",
+          "placeholder": "Enter send date",
+          "required": false
+        },
+        {
+          "id": "w1_expected_regs_2",
+          "label": "W-1 - Expected Regs",
+          "type": "text",
+          "placeholder": "Enter expected regs",
+          "required": false
+        },
+        {
+          "id": "w1_notes_2",
+          "label": "W-1 - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "day_of_channel",
+          "label": "Day of - Channel",
+          "type": "select",
+          "placeholder": "Enter channel",
+          "required": false,
+          "options": [
+            "Blog",
+            "Social Media",
+            "Email",
+            "Video",
+            "Paid Search",
+            "Paid Social",
+            "SEO",
+            "Events",
+            "PR"
+          ]
+        },
+        {
+          "id": "day_of_activity",
+          "label": "Day of - Activity",
+          "type": "text",
+          "placeholder": "Enter activity",
+          "required": false
+        },
+        {
+          "id": "day_of_audience",
+          "label": "Day of - Audience",
+          "type": "text",
+          "placeholder": "Enter audience",
+          "required": false
+        },
+        {
+          "id": "day_of_content_needed",
+          "label": "Day of - Content Needed",
+          "type": "text",
+          "placeholder": "Enter content needed",
+          "required": false
+        },
+        {
+          "id": "day_of_owner",
+          "label": "Day of - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "day_of_status",
+          "label": "Day of - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "day_of_send_date",
+          "label": "Day of - Send Date",
+          "type": "text",
+          "placeholder": "Enter send date",
+          "required": false
+        },
+        {
+          "id": "day_of_expected_regs",
+          "label": "Day of - Expected Regs",
+          "type": "text",
+          "placeholder": "Enter expected regs",
+          "required": false
+        },
+        {
+          "id": "day_of_notes",
+          "label": "Day of - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "day_of_channel_1",
+          "label": "Day of - Channel",
+          "type": "select",
+          "placeholder": "Enter channel",
+          "required": false,
+          "options": [
+            "Blog",
+            "Social Media",
+            "Email",
+            "Video",
+            "Paid Search",
+            "Paid Social",
+            "SEO",
+            "Events",
+            "PR"
+          ]
+        },
+        {
+          "id": "day_of_activity_1",
+          "label": "Day of - Activity",
+          "type": "text",
+          "placeholder": "Enter activity",
+          "required": false
+        },
+        {
+          "id": "day_of_audience_1",
+          "label": "Day of - Audience",
+          "type": "text",
+          "placeholder": "Enter audience",
+          "required": false
+        },
+        {
+          "id": "day_of_content_needed_1",
+          "label": "Day of - Content Needed",
+          "type": "text",
+          "placeholder": "Enter content needed",
+          "required": false
+        },
+        {
+          "id": "day_of_owner_1",
+          "label": "Day of - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "day_of_status_1",
+          "label": "Day of - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "day_of_send_date_1",
+          "label": "Day of - Send Date",
+          "type": "text",
+          "placeholder": "Enter send date",
+          "required": false
+        },
+        {
+          "id": "day_of_expected_regs_1",
+          "label": "Day of - Expected Regs",
+          "type": "text",
+          "placeholder": "Enter expected regs",
+          "required": false
+        },
+        {
+          "id": "day_of_notes_1",
+          "label": "Day of - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "run_of_show",
+      "title": "Run of Show",
+      "description": "Enter data for each item",
+      "fields": [
+        {
+          "id": "15_min_duration",
+          "label": "-15 min - Duration",
+          "type": "text",
+          "placeholder": "Enter duration",
+          "required": false
+        },
+        {
+          "id": "15_min_segment",
+          "label": "-15 min - Segment",
+          "type": "text",
+          "placeholder": "Enter segment",
+          "required": false
+        },
+        {
+          "id": "15_min_speaker",
+          "label": "-15 min - Speaker",
+          "type": "text",
+          "placeholder": "Enter speaker",
+          "required": false
+        },
+        {
+          "id": "15_min_visual_slide",
+          "label": "-15 min - Visual - Slide",
+          "type": "text",
+          "placeholder": "Enter visual - slide",
+          "required": false
+        },
+        {
+          "id": "15_min_technical_notes",
+          "label": "-15 min - Technical Notes",
+          "type": "textarea",
+          "placeholder": "Enter technical notes",
+          "required": false
+        },
+        {
+          "id": "15_min_talking_points",
+          "label": "-15 min - Talking Points",
+          "type": "text",
+          "placeholder": "Enter talking points",
+          "required": false
+        },
+        {
+          "id": "15_min_transition",
+          "label": "-15 min - Transition",
+          "type": "text",
+          "placeholder": "Enter transition",
+          "required": false
+        },
+        {
+          "id": "5_min_duration",
+          "label": "-5 min - Duration",
+          "type": "text",
+          "placeholder": "Enter duration",
+          "required": false
+        },
+        {
+          "id": "5_min_segment",
+          "label": "-5 min - Segment",
+          "type": "text",
+          "placeholder": "Enter segment",
+          "required": false
+        },
+        {
+          "id": "5_min_speaker",
+          "label": "-5 min - Speaker",
+          "type": "text",
+          "placeholder": "Enter speaker",
+          "required": false
+        },
+        {
+          "id": "5_min_visual_slide",
+          "label": "-5 min - Visual - Slide",
+          "type": "text",
+          "placeholder": "Enter visual - slide",
+          "required": false
+        },
+        {
+          "id": "5_min_technical_notes",
+          "label": "-5 min - Technical Notes",
+          "type": "textarea",
+          "placeholder": "Enter technical notes",
+          "required": false
+        },
+        {
+          "id": "5_min_talking_points",
+          "label": "-5 min - Talking Points",
+          "type": "text",
+          "placeholder": "Enter talking points",
+          "required": false
+        },
+        {
+          "id": "5_min_transition",
+          "label": "-5 min - Transition",
+          "type": "text",
+          "placeholder": "Enter transition",
+          "required": false
+        },
+        {
+          "id": "000_duration",
+          "label": "0:00 - Duration",
+          "type": "text",
+          "placeholder": "Enter duration",
+          "required": false
+        },
+        {
+          "id": "000_segment",
+          "label": "0:00 - Segment",
+          "type": "text",
+          "placeholder": "Enter segment",
+          "required": false
+        },
+        {
+          "id": "000_speaker",
+          "label": "0:00 - Speaker",
+          "type": "text",
+          "placeholder": "Enter speaker",
+          "required": false
+        },
+        {
+          "id": "000_visual_slide",
+          "label": "0:00 - Visual - Slide",
+          "type": "text",
+          "placeholder": "Enter visual - slide",
+          "required": false
+        },
+        {
+          "id": "000_technical_notes",
+          "label": "0:00 - Technical Notes",
+          "type": "textarea",
+          "placeholder": "Enter technical notes",
+          "required": false
+        },
+        {
+          "id": "000_talking_points",
+          "label": "0:00 - Talking Points",
+          "type": "text",
+          "placeholder": "Enter talking points",
+          "required": false
+        },
+        {
+          "id": "000_transition",
+          "label": "0:00 - Transition",
+          "type": "text",
+          "placeholder": "Enter transition",
+          "required": false
+        },
+        {
+          "id": "003_duration",
+          "label": "0:03 - Duration",
+          "type": "text",
+          "placeholder": "Enter duration",
+          "required": false
+        },
+        {
+          "id": "003_segment",
+          "label": "0:03 - Segment",
+          "type": "text",
+          "placeholder": "Enter segment",
+          "required": false
+        },
+        {
+          "id": "003_speaker",
+          "label": "0:03 - Speaker",
+          "type": "text",
+          "placeholder": "Enter speaker",
+          "required": false
+        },
+        {
+          "id": "003_visual_slide",
+          "label": "0:03 - Visual - Slide",
+          "type": "text",
+          "placeholder": "Enter visual - slide",
+          "required": false
+        },
+        {
+          "id": "003_technical_notes",
+          "label": "0:03 - Technical Notes",
+          "type": "textarea",
+          "placeholder": "Enter technical notes",
+          "required": false
+        },
+        {
+          "id": "003_talking_points",
+          "label": "0:03 - Talking Points",
+          "type": "text",
+          "placeholder": "Enter talking points",
+          "required": false
+        },
+        {
+          "id": "003_transition",
+          "label": "0:03 - Transition",
+          "type": "text",
+          "placeholder": "Enter transition",
+          "required": false
+        },
+        {
+          "id": "023_duration",
+          "label": "0:23 - Duration",
+          "type": "text",
+          "placeholder": "Enter duration",
+          "required": false
+        },
+        {
+          "id": "023_segment",
+          "label": "0:23 - Segment",
+          "type": "text",
+          "placeholder": "Enter segment",
+          "required": false
+        },
+        {
+          "id": "023_speaker",
+          "label": "0:23 - Speaker",
+          "type": "text",
+          "placeholder": "Enter speaker",
+          "required": false
+        },
+        {
+          "id": "023_visual_slide",
+          "label": "0:23 - Visual - Slide",
+          "type": "text",
+          "placeholder": "Enter visual - slide",
+          "required": false
+        },
+        {
+          "id": "023_technical_notes",
+          "label": "0:23 - Technical Notes",
+          "type": "textarea",
+          "placeholder": "Enter technical notes",
+          "required": false
+        },
+        {
+          "id": "023_talking_points",
+          "label": "0:23 - Talking Points",
+          "type": "text",
+          "placeholder": "Enter talking points",
+          "required": false
+        },
+        {
+          "id": "023_transition",
+          "label": "0:23 - Transition",
+          "type": "text",
+          "placeholder": "Enter transition",
+          "required": false
+        },
+        {
+          "id": "038_duration",
+          "label": "0:38 - Duration",
+          "type": "text",
+          "placeholder": "Enter duration",
+          "required": false
+        },
+        {
+          "id": "038_segment",
+          "label": "0:38 - Segment",
+          "type": "text",
+          "placeholder": "Enter segment",
+          "required": false
+        },
+        {
+          "id": "038_speaker",
+          "label": "0:38 - Speaker",
+          "type": "text",
+          "placeholder": "Enter speaker",
+          "required": false
+        },
+        {
+          "id": "038_visual_slide",
+          "label": "0:38 - Visual - Slide",
+          "type": "text",
+          "placeholder": "Enter visual - slide",
+          "required": false
+        },
+        {
+          "id": "038_technical_notes",
+          "label": "0:38 - Technical Notes",
+          "type": "textarea",
+          "placeholder": "Enter technical notes",
+          "required": false
+        },
+        {
+          "id": "038_talking_points",
+          "label": "0:38 - Talking Points",
+          "type": "text",
+          "placeholder": "Enter talking points",
+          "required": false
+        },
+        {
+          "id": "038_transition",
+          "label": "0:38 - Transition",
+          "type": "text",
+          "placeholder": "Enter transition",
+          "required": false
+        },
+        {
+          "id": "040_duration",
+          "label": "0:40 - Duration",
+          "type": "text",
+          "placeholder": "Enter duration",
+          "required": false
+        },
+        {
+          "id": "040_segment",
+          "label": "0:40 - Segment",
+          "type": "text",
+          "placeholder": "Enter segment",
+          "required": false
+        },
+        {
+          "id": "040_speaker",
+          "label": "0:40 - Speaker",
+          "type": "text",
+          "placeholder": "Enter speaker",
+          "required": false
+        },
+        {
+          "id": "040_visual_slide",
+          "label": "0:40 - Visual - Slide",
+          "type": "text",
+          "placeholder": "Enter visual - slide",
+          "required": false
+        },
+        {
+          "id": "040_technical_notes",
+          "label": "0:40 - Technical Notes",
+          "type": "textarea",
+          "placeholder": "Enter technical notes",
+          "required": false
+        },
+        {
+          "id": "040_talking_points",
+          "label": "0:40 - Talking Points",
+          "type": "text",
+          "placeholder": "Enter talking points",
+          "required": false
+        },
+        {
+          "id": "040_transition",
+          "label": "0:40 - Transition",
+          "type": "text",
+          "placeholder": "Enter transition",
+          "required": false
+        },
+        {
+          "id": "055_duration",
+          "label": "0:55 - Duration",
+          "type": "text",
+          "placeholder": "Enter duration",
+          "required": false
+        },
+        {
+          "id": "055_segment",
+          "label": "0:55 - Segment",
+          "type": "text",
+          "placeholder": "Enter segment",
+          "required": false
+        },
+        {
+          "id": "055_speaker",
+          "label": "0:55 - Speaker",
+          "type": "text",
+          "placeholder": "Enter speaker",
+          "required": false
+        },
+        {
+          "id": "055_visual_slide",
+          "label": "0:55 - Visual - Slide",
+          "type": "text",
+          "placeholder": "Enter visual - slide",
+          "required": false
+        },
+        {
+          "id": "055_technical_notes",
+          "label": "0:55 - Technical Notes",
+          "type": "textarea",
+          "placeholder": "Enter technical notes",
+          "required": false
+        },
+        {
+          "id": "055_talking_points",
+          "label": "0:55 - Talking Points",
+          "type": "text",
+          "placeholder": "Enter talking points",
+          "required": false
+        },
+        {
+          "id": "055_transition",
+          "label": "0:55 - Transition",
+          "type": "text",
+          "placeholder": "Enter transition",
+          "required": false
+        },
+        {
+          "id": "058_duration",
+          "label": "0:58 - Duration",
+          "type": "text",
+          "placeholder": "Enter duration",
+          "required": false
+        },
+        {
+          "id": "058_segment",
+          "label": "0:58 - Segment",
+          "type": "text",
+          "placeholder": "Enter segment",
+          "required": false
+        },
+        {
+          "id": "058_speaker",
+          "label": "0:58 - Speaker",
+          "type": "text",
+          "placeholder": "Enter speaker",
+          "required": false
+        },
+        {
+          "id": "058_visual_slide",
+          "label": "0:58 - Visual - Slide",
+          "type": "text",
+          "placeholder": "Enter visual - slide",
+          "required": false
+        },
+        {
+          "id": "058_technical_notes",
+          "label": "0:58 - Technical Notes",
+          "type": "textarea",
+          "placeholder": "Enter technical notes",
+          "required": false
+        },
+        {
+          "id": "058_talking_points",
+          "label": "0:58 - Talking Points",
+          "type": "text",
+          "placeholder": "Enter talking points",
+          "required": false
+        },
+        {
+          "id": "058_transition",
+          "label": "0:58 - Transition",
+          "type": "text",
+          "placeholder": "Enter transition",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "registration_tracker",
+      "title": "Registration Tracker",
+      "description": "Add entries below. Each entry has the following fields.",
+      "fields": [
+        {
+          "id": "entry_reg_date",
+          "label": "Reg Date",
+          "type": "text",
+          "placeholder": "Enter reg date",
+          "required": false
+        },
+        {
+          "id": "entry_name",
+          "label": "Name",
+          "type": "text",
+          "placeholder": "Enter name",
+          "required": false
+        },
+        {
+          "id": "entry_email",
+          "label": "Email",
+          "type": "text",
+          "placeholder": "Enter email",
+          "required": false
+        },
+        {
+          "id": "entry_company",
+          "label": "Company",
+          "type": "text",
+          "placeholder": "Enter company",
+          "required": false
+        },
+        {
+          "id": "entry_source",
+          "label": "Source",
+          "type": "text",
+          "placeholder": "Enter source",
+          "required": false
+        },
+        {
+          "id": "entry_attendance",
+          "label": "Attendance",
+          "type": "text",
+          "placeholder": "Enter attendance",
+          "required": false
+        },
+        {
+          "id": "entry_qualified_lead",
+          "label": "Qualified Lead",
+          "type": "text",
+          "placeholder": "Enter qualified lead",
+          "required": false
+        },
+        {
+          "id": "entry_lead_score",
+          "label": "Lead Score",
+          "type": "scale",
+          "placeholder": "Enter lead score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "entry_notes",
+          "label": "Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "speaker_management",
+      "title": "Speaker Management",
+      "description": "Add entries below. Each entry has the following fields.",
+      "fields": [
+        {
+          "id": "entry_speaker_name",
+          "label": "Speaker Name",
+          "type": "text",
+          "placeholder": "Enter speaker name",
+          "required": false
+        },
+        {
+          "id": "entry_title_company",
+          "label": "Title & Company",
+          "type": "text",
+          "placeholder": "Enter title & company",
+          "required": false
+        },
+        {
+          "id": "entry_bio",
+          "label": "Bio",
+          "type": "text",
+          "placeholder": "Enter bio",
+          "required": false
+        },
+        {
+          "id": "entry_photo",
+          "label": "Photo",
+          "type": "text",
+          "placeholder": "Enter photo",
+          "required": false
+        },
+        {
+          "id": "entry_topic",
+          "label": "Topic",
+          "type": "text",
+          "placeholder": "Enter topic",
+          "required": false
+        },
+        {
+          "id": "entry_duration",
+          "label": "Duration",
+          "type": "text",
+          "placeholder": "Enter duration",
+          "required": false
+        },
+        {
+          "id": "entry_slides_due",
+          "label": "Slides Due",
+          "type": "text",
+          "placeholder": "Enter slides due",
+          "required": false
+        },
+        {
+          "id": "entry_rehearsal_date",
+          "label": "Rehearsal Date",
+          "type": "text",
+          "placeholder": "Enter rehearsal date",
+          "required": false
+        },
+        {
+          "id": "entry_confirmed",
+          "label": "Confirmed",
+          "type": "text",
+          "placeholder": "Enter confirmed",
+          "required": false
+        },
+        {
+          "id": "entry_notes",
+          "label": "Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "tech_checklist",
+      "title": "Tech Checklist",
+      "description": "Enter data for each item",
+      "fields": [
+        {
+          "id": "platform_item",
+          "label": "Platform - Item",
+          "type": "text",
+          "placeholder": "Enter item",
+          "required": false
+        },
+        {
+          "id": "platform_owner",
+          "label": "Platform - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "platform_status",
+          "label": "Platform - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "platform_due_date",
+          "label": "Platform - Due Date",
+          "type": "text",
+          "placeholder": "Enter due date",
+          "required": false
+        },
+        {
+          "id": "platform_notes",
+          "label": "Platform - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "platform_item_1",
+          "label": "Platform - Item",
+          "type": "text",
+          "placeholder": "Enter item",
+          "required": false
+        },
+        {
+          "id": "platform_owner_1",
+          "label": "Platform - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "platform_status_1",
+          "label": "Platform - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "platform_due_date_1",
+          "label": "Platform - Due Date",
+          "type": "text",
+          "placeholder": "Enter due date",
+          "required": false
+        },
+        {
+          "id": "platform_notes_1",
+          "label": "Platform - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "platform_item_2",
+          "label": "Platform - Item",
+          "type": "text",
+          "placeholder": "Enter item",
+          "required": false
+        },
+        {
+          "id": "platform_owner_2",
+          "label": "Platform - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "platform_status_2",
+          "label": "Platform - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "platform_due_date_2",
+          "label": "Platform - Due Date",
+          "type": "text",
+          "placeholder": "Enter due date",
+          "required": false
+        },
+        {
+          "id": "platform_notes_2",
+          "label": "Platform - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "platform_item_3",
+          "label": "Platform - Item",
+          "type": "text",
+          "placeholder": "Enter item",
+          "required": false
+        },
+        {
+          "id": "platform_owner_3",
+          "label": "Platform - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "platform_status_3",
+          "label": "Platform - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "platform_due_date_3",
+          "label": "Platform - Due Date",
+          "type": "text",
+          "placeholder": "Enter due date",
+          "required": false
+        },
+        {
+          "id": "platform_notes_3",
+          "label": "Platform - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "platform_item_4",
+          "label": "Platform - Item",
+          "type": "text",
+          "placeholder": "Enter item",
+          "required": false
+        },
+        {
+          "id": "platform_owner_4",
+          "label": "Platform - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "platform_status_4",
+          "label": "Platform - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "platform_due_date_4",
+          "label": "Platform - Due Date",
+          "type": "text",
+          "placeholder": "Enter due date",
+          "required": false
+        },
+        {
+          "id": "platform_notes_4",
+          "label": "Platform - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "audio_video_item",
+          "label": "Audio & Video - Item",
+          "type": "text",
+          "placeholder": "Enter item",
+          "required": false
+        },
+        {
+          "id": "audio_video_owner",
+          "label": "Audio & Video - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "audio_video_status",
+          "label": "Audio & Video - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "audio_video_due_date",
+          "label": "Audio & Video - Due Date",
+          "type": "text",
+          "placeholder": "Enter due date",
+          "required": false
+        },
+        {
+          "id": "audio_video_notes",
+          "label": "Audio & Video - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "audio_video_item_1",
+          "label": "Audio & Video - Item",
+          "type": "text",
+          "placeholder": "Enter item",
+          "required": false
+        },
+        {
+          "id": "audio_video_owner_1",
+          "label": "Audio & Video - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "audio_video_status_1",
+          "label": "Audio & Video - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "audio_video_due_date_1",
+          "label": "Audio & Video - Due Date",
+          "type": "text",
+          "placeholder": "Enter due date",
+          "required": false
+        },
+        {
+          "id": "audio_video_notes_1",
+          "label": "Audio & Video - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "audio_video_item_2",
+          "label": "Audio & Video - Item",
+          "type": "text",
+          "placeholder": "Enter item",
+          "required": false
+        },
+        {
+          "id": "audio_video_owner_2",
+          "label": "Audio & Video - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "audio_video_status_2",
+          "label": "Audio & Video - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "audio_video_due_date_2",
+          "label": "Audio & Video - Due Date",
+          "type": "text",
+          "placeholder": "Enter due date",
+          "required": false
+        },
+        {
+          "id": "audio_video_notes_2",
+          "label": "Audio & Video - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "audio_video_item_3",
+          "label": "Audio & Video - Item",
+          "type": "text",
+          "placeholder": "Enter item",
+          "required": false
+        },
+        {
+          "id": "audio_video_owner_3",
+          "label": "Audio & Video - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "audio_video_status_3",
+          "label": "Audio & Video - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "audio_video_due_date_3",
+          "label": "Audio & Video - Due Date",
+          "type": "text",
+          "placeholder": "Enter due date",
+          "required": false
+        },
+        {
+          "id": "audio_video_notes_3",
+          "label": "Audio & Video - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "audio_video_item_4",
+          "label": "Audio & Video - Item",
+          "type": "text",
+          "placeholder": "Enter item",
+          "required": false
+        },
+        {
+          "id": "audio_video_owner_4",
+          "label": "Audio & Video - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "audio_video_status_4",
+          "label": "Audio & Video - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "audio_video_due_date_4",
+          "label": "Audio & Video - Due Date",
+          "type": "text",
+          "placeholder": "Enter due date",
+          "required": false
+        },
+        {
+          "id": "audio_video_notes_4",
+          "label": "Audio & Video - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "content_item",
+          "label": "Content - Item",
+          "type": "text",
+          "placeholder": "Enter item",
+          "required": false
+        },
+        {
+          "id": "content_owner",
+          "label": "Content - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "content_status",
+          "label": "Content - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "content_due_date",
+          "label": "Content - Due Date",
+          "type": "text",
+          "placeholder": "Enter due date",
+          "required": false
+        },
+        {
+          "id": "content_notes",
+          "label": "Content - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "content_item_1",
+          "label": "Content - Item",
+          "type": "text",
+          "placeholder": "Enter item",
+          "required": false
+        },
+        {
+          "id": "content_owner_1",
+          "label": "Content - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "content_status_1",
+          "label": "Content - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "content_due_date_1",
+          "label": "Content - Due Date",
+          "type": "text",
+          "placeholder": "Enter due date",
+          "required": false
+        },
+        {
+          "id": "content_notes_1",
+          "label": "Content - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "content_item_2",
+          "label": "Content - Item",
+          "type": "text",
+          "placeholder": "Enter item",
+          "required": false
+        },
+        {
+          "id": "content_owner_2",
+          "label": "Content - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "content_status_2",
+          "label": "Content - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "content_due_date_2",
+          "label": "Content - Due Date",
+          "type": "text",
+          "placeholder": "Enter due date",
+          "required": false
+        },
+        {
+          "id": "content_notes_2",
+          "label": "Content - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "content_item_3",
+          "label": "Content - Item",
+          "type": "text",
+          "placeholder": "Enter item",
+          "required": false
+        },
+        {
+          "id": "content_owner_3",
+          "label": "Content - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "content_status_3",
+          "label": "Content - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "content_due_date_3",
+          "label": "Content - Due Date",
+          "type": "text",
+          "placeholder": "Enter due date",
+          "required": false
+        },
+        {
+          "id": "content_notes_3",
+          "label": "Content - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "promotion_item",
+          "label": "Promotion - Item",
+          "type": "text",
+          "placeholder": "Enter item",
+          "required": false
+        },
+        {
+          "id": "promotion_owner",
+          "label": "Promotion - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "promotion_status",
+          "label": "Promotion - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "promotion_due_date",
+          "label": "Promotion - Due Date",
+          "type": "text",
+          "placeholder": "Enter due date",
+          "required": false
+        },
+        {
+          "id": "promotion_notes",
+          "label": "Promotion - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "promotion_item_1",
+          "label": "Promotion - Item",
+          "type": "text",
+          "placeholder": "Enter item",
+          "required": false
+        },
+        {
+          "id": "promotion_owner_1",
+          "label": "Promotion - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "promotion_status_1",
+          "label": "Promotion - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "promotion_due_date_1",
+          "label": "Promotion - Due Date",
+          "type": "text",
+          "placeholder": "Enter due date",
+          "required": false
+        },
+        {
+          "id": "promotion_notes_1",
+          "label": "Promotion - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "promotion_item_2",
+          "label": "Promotion - Item",
+          "type": "text",
+          "placeholder": "Enter item",
+          "required": false
+        },
+        {
+          "id": "promotion_owner_2",
+          "label": "Promotion - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "promotion_status_2",
+          "label": "Promotion - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "promotion_due_date_2",
+          "label": "Promotion - Due Date",
+          "type": "text",
+          "placeholder": "Enter due date",
+          "required": false
+        },
+        {
+          "id": "promotion_notes_2",
+          "label": "Promotion - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "promotion_item_3",
+          "label": "Promotion - Item",
+          "type": "text",
+          "placeholder": "Enter item",
+          "required": false
+        },
+        {
+          "id": "promotion_owner_3",
+          "label": "Promotion - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "promotion_status_3",
+          "label": "Promotion - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "promotion_due_date_3",
+          "label": "Promotion - Due Date",
+          "type": "text",
+          "placeholder": "Enter due date",
+          "required": false
+        },
+        {
+          "id": "promotion_notes_3",
+          "label": "Promotion - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "dayof_item",
+          "label": "Day-of - Item",
+          "type": "text",
+          "placeholder": "Enter item",
+          "required": false
+        },
+        {
+          "id": "dayof_owner",
+          "label": "Day-of - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "dayof_status",
+          "label": "Day-of - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "dayof_due_date",
+          "label": "Day-of - Due Date",
+          "type": "text",
+          "placeholder": "Enter due date",
+          "required": false
+        },
+        {
+          "id": "dayof_notes",
+          "label": "Day-of - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "dayof_item_1",
+          "label": "Day-of - Item",
+          "type": "text",
+          "placeholder": "Enter item",
+          "required": false
+        },
+        {
+          "id": "dayof_owner_1",
+          "label": "Day-of - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "dayof_status_1",
+          "label": "Day-of - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "dayof_due_date_1",
+          "label": "Day-of - Due Date",
+          "type": "text",
+          "placeholder": "Enter due date",
+          "required": false
+        },
+        {
+          "id": "dayof_notes_1",
+          "label": "Day-of - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "dayof_item_2",
+          "label": "Day-of - Item",
+          "type": "text",
+          "placeholder": "Enter item",
+          "required": false
+        },
+        {
+          "id": "dayof_owner_2",
+          "label": "Day-of - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "dayof_status_2",
+          "label": "Day-of - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "dayof_due_date_2",
+          "label": "Day-of - Due Date",
+          "type": "text",
+          "placeholder": "Enter due date",
+          "required": false
+        },
+        {
+          "id": "dayof_notes_2",
+          "label": "Day-of - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "dayof_item_3",
+          "label": "Day-of - Item",
+          "type": "text",
+          "placeholder": "Enter item",
+          "required": false
+        },
+        {
+          "id": "dayof_owner_3",
+          "label": "Day-of - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "dayof_status_3",
+          "label": "Day-of - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "dayof_due_date_3",
+          "label": "Day-of - Due Date",
+          "type": "text",
+          "placeholder": "Enter due date",
+          "required": false
+        },
+        {
+          "id": "dayof_notes_3",
+          "label": "Day-of - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "postevent_item",
+          "label": "Post-Event - Item",
+          "type": "text",
+          "placeholder": "Enter item",
+          "required": false
+        },
+        {
+          "id": "postevent_owner",
+          "label": "Post-Event - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "postevent_status",
+          "label": "Post-Event - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "postevent_due_date",
+          "label": "Post-Event - Due Date",
+          "type": "text",
+          "placeholder": "Enter due date",
+          "required": false
+        },
+        {
+          "id": "postevent_notes",
+          "label": "Post-Event - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "postevent_item_1",
+          "label": "Post-Event - Item",
+          "type": "text",
+          "placeholder": "Enter item",
+          "required": false
+        },
+        {
+          "id": "postevent_owner_1",
+          "label": "Post-Event - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "postevent_status_1",
+          "label": "Post-Event - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "postevent_due_date_1",
+          "label": "Post-Event - Due Date",
+          "type": "text",
+          "placeholder": "Enter due date",
+          "required": false
+        },
+        {
+          "id": "postevent_notes_1",
+          "label": "Post-Event - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "postevent_item_2",
+          "label": "Post-Event - Item",
+          "type": "text",
+          "placeholder": "Enter item",
+          "required": false
+        },
+        {
+          "id": "postevent_owner_2",
+          "label": "Post-Event - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "postevent_status_2",
+          "label": "Post-Event - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "postevent_due_date_2",
+          "label": "Post-Event - Due Date",
+          "type": "text",
+          "placeholder": "Enter due date",
+          "required": false
+        },
+        {
+          "id": "postevent_notes_2",
+          "label": "Post-Event - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "followup_plan",
+      "title": "Follow-Up Plan",
+      "description": "Enter data for each item",
+      "fields": [
+        {
+          "id": "same_day_audience",
+          "label": "Same day - Audience",
+          "type": "text",
+          "placeholder": "Enter audience",
+          "required": false
+        },
+        {
+          "id": "same_day_channel",
+          "label": "Same day - Channel",
+          "type": "select",
+          "placeholder": "Enter channel",
+          "required": false,
+          "options": [
+            "Blog",
+            "Social Media",
+            "Email",
+            "Video",
+            "Paid Search",
+            "Paid Social",
+            "SEO",
+            "Events",
+            "PR"
+          ]
+        },
+        {
+          "id": "same_day_content",
+          "label": "Same day - Content",
+          "type": "text",
+          "placeholder": "Enter content",
+          "required": false
+        },
+        {
+          "id": "same_day_status",
+          "label": "Same day - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "same_day_owner",
+          "label": "Same day - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "same_day_expected_response",
+          "label": "Same day - Expected Response",
+          "type": "text",
+          "placeholder": "Enter expected response",
+          "required": false
+        },
+        {
+          "id": "same_day_notes",
+          "label": "Same day - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "same_day_audience_1",
+          "label": "Same day - Audience",
+          "type": "text",
+          "placeholder": "Enter audience",
+          "required": false
+        },
+        {
+          "id": "same_day_channel_1",
+          "label": "Same day - Channel",
+          "type": "select",
+          "placeholder": "Enter channel",
+          "required": false,
+          "options": [
+            "Blog",
+            "Social Media",
+            "Email",
+            "Video",
+            "Paid Search",
+            "Paid Social",
+            "SEO",
+            "Events",
+            "PR"
+          ]
+        },
+        {
+          "id": "same_day_content_1",
+          "label": "Same day - Content",
+          "type": "text",
+          "placeholder": "Enter content",
+          "required": false
+        },
+        {
+          "id": "same_day_status_1",
+          "label": "Same day - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "same_day_owner_1",
+          "label": "Same day - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "same_day_expected_response_1",
+          "label": "Same day - Expected Response",
+          "type": "text",
+          "placeholder": "Enter expected response",
+          "required": false
+        },
+        {
+          "id": "same_day_notes_1",
+          "label": "Same day - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "day_2_audience",
+          "label": "Day 2 - Audience",
+          "type": "text",
+          "placeholder": "Enter audience",
+          "required": false
+        },
+        {
+          "id": "day_2_channel",
+          "label": "Day 2 - Channel",
+          "type": "select",
+          "placeholder": "Enter channel",
+          "required": false,
+          "options": [
+            "Blog",
+            "Social Media",
+            "Email",
+            "Video",
+            "Paid Search",
+            "Paid Social",
+            "SEO",
+            "Events",
+            "PR"
+          ]
+        },
+        {
+          "id": "day_2_content",
+          "label": "Day 2 - Content",
+          "type": "text",
+          "placeholder": "Enter content",
+          "required": false
+        },
+        {
+          "id": "day_2_status",
+          "label": "Day 2 - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "day_2_owner",
+          "label": "Day 2 - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "day_2_expected_response",
+          "label": "Day 2 - Expected Response",
+          "type": "text",
+          "placeholder": "Enter expected response",
+          "required": false
+        },
+        {
+          "id": "day_2_notes",
+          "label": "Day 2 - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "day_3_audience",
+          "label": "Day 3 - Audience",
+          "type": "text",
+          "placeholder": "Enter audience",
+          "required": false
+        },
+        {
+          "id": "day_3_channel",
+          "label": "Day 3 - Channel",
+          "type": "select",
+          "placeholder": "Enter channel",
+          "required": false,
+          "options": [
+            "Blog",
+            "Social Media",
+            "Email",
+            "Video",
+            "Paid Search",
+            "Paid Social",
+            "SEO",
+            "Events",
+            "PR"
+          ]
+        },
+        {
+          "id": "day_3_content",
+          "label": "Day 3 - Content",
+          "type": "text",
+          "placeholder": "Enter content",
+          "required": false
+        },
+        {
+          "id": "day_3_status",
+          "label": "Day 3 - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "day_3_owner",
+          "label": "Day 3 - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "day_3_expected_response",
+          "label": "Day 3 - Expected Response",
+          "type": "text",
+          "placeholder": "Enter expected response",
+          "required": false
+        },
+        {
+          "id": "day_3_notes",
+          "label": "Day 3 - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "day_5_audience",
+          "label": "Day 5 - Audience",
+          "type": "text",
+          "placeholder": "Enter audience",
+          "required": false
+        },
+        {
+          "id": "day_5_channel",
+          "label": "Day 5 - Channel",
+          "type": "select",
+          "placeholder": "Enter channel",
+          "required": false,
+          "options": [
+            "Blog",
+            "Social Media",
+            "Email",
+            "Video",
+            "Paid Search",
+            "Paid Social",
+            "SEO",
+            "Events",
+            "PR"
+          ]
+        },
+        {
+          "id": "day_5_content",
+          "label": "Day 5 - Content",
+          "type": "text",
+          "placeholder": "Enter content",
+          "required": false
+        },
+        {
+          "id": "day_5_status",
+          "label": "Day 5 - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "day_5_owner",
+          "label": "Day 5 - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "day_5_expected_response",
+          "label": "Day 5 - Expected Response",
+          "type": "text",
+          "placeholder": "Enter expected response",
+          "required": false
+        },
+        {
+          "id": "day_5_notes",
+          "label": "Day 5 - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "week_2_audience",
+          "label": "Week 2 - Audience",
+          "type": "text",
+          "placeholder": "Enter audience",
+          "required": false
+        },
+        {
+          "id": "week_2_channel",
+          "label": "Week 2 - Channel",
+          "type": "select",
+          "placeholder": "Enter channel",
+          "required": false,
+          "options": [
+            "Blog",
+            "Social Media",
+            "Email",
+            "Video",
+            "Paid Search",
+            "Paid Social",
+            "SEO",
+            "Events",
+            "PR"
+          ]
+        },
+        {
+          "id": "week_2_content",
+          "label": "Week 2 - Content",
+          "type": "text",
+          "placeholder": "Enter content",
+          "required": false
+        },
+        {
+          "id": "week_2_status",
+          "label": "Week 2 - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "week_2_owner",
+          "label": "Week 2 - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "week_2_expected_response",
+          "label": "Week 2 - Expected Response",
+          "type": "text",
+          "placeholder": "Enter expected response",
+          "required": false
+        },
+        {
+          "id": "week_2_notes",
+          "label": "Week 2 - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "week_2_audience_1",
+          "label": "Week 2 - Audience",
+          "type": "text",
+          "placeholder": "Enter audience",
+          "required": false
+        },
+        {
+          "id": "week_2_channel_1",
+          "label": "Week 2 - Channel",
+          "type": "select",
+          "placeholder": "Enter channel",
+          "required": false,
+          "options": [
+            "Blog",
+            "Social Media",
+            "Email",
+            "Video",
+            "Paid Search",
+            "Paid Social",
+            "SEO",
+            "Events",
+            "PR"
+          ]
+        },
+        {
+          "id": "week_2_content_1",
+          "label": "Week 2 - Content",
+          "type": "text",
+          "placeholder": "Enter content",
+          "required": false
+        },
+        {
+          "id": "week_2_status_1",
+          "label": "Week 2 - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "week_2_owner_1",
+          "label": "Week 2 - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "week_2_expected_response_1",
+          "label": "Week 2 - Expected Response",
+          "type": "text",
+          "placeholder": "Enter expected response",
+          "required": false
+        },
+        {
+          "id": "week_2_notes_1",
+          "label": "Week 2 - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "week_3_audience",
+          "label": "Week 3 - Audience",
+          "type": "text",
+          "placeholder": "Enter audience",
+          "required": false
+        },
+        {
+          "id": "week_3_channel",
+          "label": "Week 3 - Channel",
+          "type": "select",
+          "placeholder": "Enter channel",
+          "required": false,
+          "options": [
+            "Blog",
+            "Social Media",
+            "Email",
+            "Video",
+            "Paid Search",
+            "Paid Social",
+            "SEO",
+            "Events",
+            "PR"
+          ]
+        },
+        {
+          "id": "week_3_content",
+          "label": "Week 3 - Content",
+          "type": "text",
+          "placeholder": "Enter content",
+          "required": false
+        },
+        {
+          "id": "week_3_status",
+          "label": "Week 3 - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "week_3_owner",
+          "label": "Week 3 - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "week_3_expected_response",
+          "label": "Week 3 - Expected Response",
+          "type": "text",
+          "placeholder": "Enter expected response",
+          "required": false
+        },
+        {
+          "id": "week_3_notes",
+          "label": "Week 3 - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "month_1_audience",
+          "label": "Month 1 - Audience",
+          "type": "text",
+          "placeholder": "Enter audience",
+          "required": false
+        },
+        {
+          "id": "month_1_channel",
+          "label": "Month 1 - Channel",
+          "type": "select",
+          "placeholder": "Enter channel",
+          "required": false,
+          "options": [
+            "Blog",
+            "Social Media",
+            "Email",
+            "Video",
+            "Paid Search",
+            "Paid Social",
+            "SEO",
+            "Events",
+            "PR"
+          ]
+        },
+        {
+          "id": "month_1_content",
+          "label": "Month 1 - Content",
+          "type": "text",
+          "placeholder": "Enter content",
+          "required": false
+        },
+        {
+          "id": "month_1_status",
+          "label": "Month 1 - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "month_1_owner",
+          "label": "Month 1 - Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "month_1_expected_response",
+          "label": "Month 1 - Expected Response",
+          "type": "text",
+          "placeholder": "Enter expected response",
+          "required": false
+        },
+        {
+          "id": "month_1_notes",
+          "label": "Month 1 - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "performance_tracker",
+      "title": "Performance Tracker",
+      "description": "Enter data for each item",
+      "fields": [
+        {
+          "id": "registrations_target",
+          "label": "Registrations - Target",
+          "type": "number",
+          "placeholder": "Enter target",
+          "required": false
+        },
+        {
+          "id": "registrations_actual",
+          "label": "Registrations - Actual",
+          "type": "text",
+          "placeholder": "Enter actual",
+          "required": false
+        },
+        {
+          "id": "registrations_of_target",
+          "label": "Registrations - % of Target",
+          "type": "number",
+          "placeholder": "Enter % of target",
+          "required": false
+        },
+        {
+          "id": "registrations_benchmark",
+          "label": "Registrations - Benchmark",
+          "type": "text",
+          "placeholder": "Enter benchmark",
+          "required": false
+        },
+        {
+          "id": "registrations_vs_benchmark",
+          "label": "Registrations - vs Benchmark",
+          "type": "text",
+          "placeholder": "Enter vs benchmark",
+          "required": false
+        },
+        {
+          "id": "registrations_rating",
+          "label": "Registrations - Rating",
+          "type": "scale",
+          "placeholder": "Enter rating",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "registrations_notes",
+          "label": "Registrations - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "attendance_rate_target",
+          "label": "Attendance Rate - Target",
+          "type": "number",
+          "placeholder": "Enter target",
+          "required": false
+        },
+        {
+          "id": "attendance_rate_actual",
+          "label": "Attendance Rate - Actual",
+          "type": "text",
+          "placeholder": "Enter actual",
+          "required": false
+        },
+        {
+          "id": "attendance_rate_of_target",
+          "label": "Attendance Rate - % of Target",
+          "type": "number",
+          "placeholder": "Enter % of target",
+          "required": false
+        },
+        {
+          "id": "attendance_rate_benchmark",
+          "label": "Attendance Rate - Benchmark",
+          "type": "text",
+          "placeholder": "Enter benchmark",
+          "required": false
+        },
+        {
+          "id": "attendance_rate_vs_benchmark",
+          "label": "Attendance Rate - vs Benchmark",
+          "type": "text",
+          "placeholder": "Enter vs benchmark",
+          "required": false
+        },
+        {
+          "id": "attendance_rate_rating",
+          "label": "Attendance Rate - Rating",
+          "type": "scale",
+          "placeholder": "Enter rating",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "attendance_rate_notes",
+          "label": "Attendance Rate - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "noshow_rate_target",
+          "label": "No-Show Rate - Target",
+          "type": "number",
+          "placeholder": "Enter target",
+          "required": false
+        },
+        {
+          "id": "noshow_rate_actual",
+          "label": "No-Show Rate - Actual",
+          "type": "text",
+          "placeholder": "Enter actual",
+          "required": false
+        },
+        {
+          "id": "noshow_rate_of_target",
+          "label": "No-Show Rate - % of Target",
+          "type": "number",
+          "placeholder": "Enter % of target",
+          "required": false
+        },
+        {
+          "id": "noshow_rate_benchmark",
+          "label": "No-Show Rate - Benchmark",
+          "type": "text",
+          "placeholder": "Enter benchmark",
+          "required": false
+        },
+        {
+          "id": "noshow_rate_vs_benchmark",
+          "label": "No-Show Rate - vs Benchmark",
+          "type": "text",
+          "placeholder": "Enter vs benchmark",
+          "required": false
+        },
+        {
+          "id": "noshow_rate_rating",
+          "label": "No-Show Rate - Rating",
+          "type": "scale",
+          "placeholder": "Enter rating",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "noshow_rate_notes",
+          "label": "No-Show Rate - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "avg_watch_time_min_target",
+          "label": "Avg Watch Time (min) - Target",
+          "type": "number",
+          "placeholder": "Enter target",
+          "required": false
+        },
+        {
+          "id": "avg_watch_time_min_actual",
+          "label": "Avg Watch Time (min) - Actual",
+          "type": "text",
+          "placeholder": "Enter actual",
+          "required": false
+        },
+        {
+          "id": "avg_watch_time_min_of_target",
+          "label": "Avg Watch Time (min) - % of Target",
+          "type": "number",
+          "placeholder": "Enter % of target",
+          "required": false
+        },
+        {
+          "id": "avg_watch_time_min_benchmark",
+          "label": "Avg Watch Time (min) - Benchmark",
+          "type": "text",
+          "placeholder": "Enter benchmark",
+          "required": false
+        },
+        {
+          "id": "avg_watch_time_min_vs_benchmark",
+          "label": "Avg Watch Time (min) - vs Benchmark",
+          "type": "text",
+          "placeholder": "Enter vs benchmark",
+          "required": false
+        },
+        {
+          "id": "avg_watch_time_min_rating",
+          "label": "Avg Watch Time (min) - Rating",
+          "type": "scale",
+          "placeholder": "Enter rating",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "avg_watch_time_min_notes",
+          "label": "Avg Watch Time (min) - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "engagement_score_target",
+          "label": "Engagement Score - Target",
+          "type": "number",
+          "placeholder": "Enter target",
+          "required": false
+        },
+        {
+          "id": "engagement_score_actual",
+          "label": "Engagement Score - Actual",
+          "type": "text",
+          "placeholder": "Enter actual",
+          "required": false
+        },
+        {
+          "id": "engagement_score_of_target",
+          "label": "Engagement Score - % of Target",
+          "type": "number",
+          "placeholder": "Enter % of target",
+          "required": false
+        },
+        {
+          "id": "engagement_score_benchmark",
+          "label": "Engagement Score - Benchmark",
+          "type": "text",
+          "placeholder": "Enter benchmark",
+          "required": false
+        },
+        {
+          "id": "engagement_score_vs_benchmark",
+          "label": "Engagement Score - vs Benchmark",
+          "type": "text",
+          "placeholder": "Enter vs benchmark",
+          "required": false
+        },
+        {
+          "id": "engagement_score_rating",
+          "label": "Engagement Score - Rating",
+          "type": "scale",
+          "placeholder": "Enter rating",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "engagement_score_notes",
+          "label": "Engagement Score - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "poll_participation_rate_target",
+          "label": "Poll Participation Rate - Target",
+          "type": "number",
+          "placeholder": "Enter target",
+          "required": false
+        },
+        {
+          "id": "poll_participation_rate_actual",
+          "label": "Poll Participation Rate - Actual",
+          "type": "text",
+          "placeholder": "Enter actual",
+          "required": false
+        },
+        {
+          "id": "poll_participation_rate_of_target",
+          "label": "Poll Participation Rate - % of Target",
+          "type": "number",
+          "placeholder": "Enter % of target",
+          "required": false
+        },
+        {
+          "id": "poll_participation_rate_benchmark",
+          "label": "Poll Participation Rate - Benchmark",
+          "type": "text",
+          "placeholder": "Enter benchmark",
+          "required": false
+        },
+        {
+          "id": "poll_participation_rate_vs_benchmark",
+          "label": "Poll Participation Rate - vs Benchmark",
+          "type": "text",
+          "placeholder": "Enter vs benchmark",
+          "required": false
+        },
+        {
+          "id": "poll_participation_rate_rating",
+          "label": "Poll Participation Rate - Rating",
+          "type": "scale",
+          "placeholder": "Enter rating",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "poll_participation_rate_notes",
+          "label": "Poll Participation Rate - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "questions_asked_target",
+          "label": "Questions Asked - Target",
+          "type": "number",
+          "placeholder": "Enter target",
+          "required": false
+        },
+        {
+          "id": "questions_asked_actual",
+          "label": "Questions Asked - Actual",
+          "type": "text",
+          "placeholder": "Enter actual",
+          "required": false
+        },
+        {
+          "id": "questions_asked_of_target",
+          "label": "Questions Asked - % of Target",
+          "type": "number",
+          "placeholder": "Enter % of target",
+          "required": false
+        },
+        {
+          "id": "questions_asked_benchmark",
+          "label": "Questions Asked - Benchmark",
+          "type": "text",
+          "placeholder": "Enter benchmark",
+          "required": false
+        },
+        {
+          "id": "questions_asked_vs_benchmark",
+          "label": "Questions Asked - vs Benchmark",
+          "type": "text",
+          "placeholder": "Enter vs benchmark",
+          "required": false
+        },
+        {
+          "id": "questions_asked_rating",
+          "label": "Questions Asked - Rating",
+          "type": "scale",
+          "placeholder": "Enter rating",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "questions_asked_notes",
+          "label": "Questions Asked - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "chat_messages_target",
+          "label": "Chat Messages - Target",
+          "type": "number",
+          "placeholder": "Enter target",
+          "required": false
+        },
+        {
+          "id": "chat_messages_actual",
+          "label": "Chat Messages - Actual",
+          "type": "text",
+          "placeholder": "Enter actual",
+          "required": false
+        },
+        {
+          "id": "chat_messages_of_target",
+          "label": "Chat Messages - % of Target",
+          "type": "number",
+          "placeholder": "Enter % of target",
+          "required": false
+        },
+        {
+          "id": "chat_messages_benchmark",
+          "label": "Chat Messages - Benchmark",
+          "type": "text",
+          "placeholder": "Enter benchmark",
+          "required": false
+        },
+        {
+          "id": "chat_messages_vs_benchmark",
+          "label": "Chat Messages - vs Benchmark",
+          "type": "text",
+          "placeholder": "Enter vs benchmark",
+          "required": false
+        },
+        {
+          "id": "chat_messages_rating",
+          "label": "Chat Messages - Rating",
+          "type": "scale",
+          "placeholder": "Enter rating",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "chat_messages_notes",
+          "label": "Chat Messages - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "leads_generated_target",
+          "label": "Leads Generated - Target",
+          "type": "number",
+          "placeholder": "Enter target",
+          "required": false
+        },
+        {
+          "id": "leads_generated_actual",
+          "label": "Leads Generated - Actual",
+          "type": "text",
+          "placeholder": "Enter actual",
+          "required": false
+        },
+        {
+          "id": "leads_generated_of_target",
+          "label": "Leads Generated - % of Target",
+          "type": "number",
+          "placeholder": "Enter % of target",
+          "required": false
+        },
+        {
+          "id": "leads_generated_benchmark",
+          "label": "Leads Generated - Benchmark",
+          "type": "text",
+          "placeholder": "Enter benchmark",
+          "required": false
+        },
+        {
+          "id": "leads_generated_vs_benchmark",
+          "label": "Leads Generated - vs Benchmark",
+          "type": "text",
+          "placeholder": "Enter vs benchmark",
+          "required": false
+        },
+        {
+          "id": "leads_generated_rating",
+          "label": "Leads Generated - Rating",
+          "type": "scale",
+          "placeholder": "Enter rating",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "leads_generated_notes",
+          "label": "Leads Generated - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "lead_conversion_rate_target",
+          "label": "Lead Conversion Rate - Target",
+          "type": "number",
+          "placeholder": "Enter target",
+          "required": false
+        },
+        {
+          "id": "lead_conversion_rate_actual",
+          "label": "Lead Conversion Rate - Actual",
+          "type": "text",
+          "placeholder": "Enter actual",
+          "required": false
+        },
+        {
+          "id": "lead_conversion_rate_of_target",
+          "label": "Lead Conversion Rate - % of Target",
+          "type": "number",
+          "placeholder": "Enter % of target",
+          "required": false
+        },
+        {
+          "id": "lead_conversion_rate_benchmark",
+          "label": "Lead Conversion Rate - Benchmark",
+          "type": "text",
+          "placeholder": "Enter benchmark",
+          "required": false
+        },
+        {
+          "id": "lead_conversion_rate_vs_benchmark",
+          "label": "Lead Conversion Rate - vs Benchmark",
+          "type": "text",
+          "placeholder": "Enter vs benchmark",
+          "required": false
+        },
+        {
+          "id": "lead_conversion_rate_rating",
+          "label": "Lead Conversion Rate - Rating",
+          "type": "scale",
+          "placeholder": "Enter rating",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "lead_conversion_rate_notes",
+          "label": "Lead Conversion Rate - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "pipeline_generated_target",
+          "label": "Pipeline Generated - Target",
+          "type": "number",
+          "placeholder": "Enter target",
+          "required": false
+        },
+        {
+          "id": "pipeline_generated_actual",
+          "label": "Pipeline Generated - Actual",
+          "type": "text",
+          "placeholder": "Enter actual",
+          "required": false
+        },
+        {
+          "id": "pipeline_generated_of_target",
+          "label": "Pipeline Generated - % of Target",
+          "type": "number",
+          "placeholder": "Enter % of target",
+          "required": false
+        },
+        {
+          "id": "pipeline_generated_benchmark",
+          "label": "Pipeline Generated - Benchmark",
+          "type": "text",
+          "placeholder": "Enter benchmark",
+          "required": false
+        },
+        {
+          "id": "pipeline_generated_vs_benchmark",
+          "label": "Pipeline Generated - vs Benchmark",
+          "type": "text",
+          "placeholder": "Enter vs benchmark",
+          "required": false
+        },
+        {
+          "id": "pipeline_generated_rating",
+          "label": "Pipeline Generated - Rating",
+          "type": "scale",
+          "placeholder": "Enter rating",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "pipeline_generated_notes",
+          "label": "Pipeline Generated - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "revenue_attributed_target",
+          "label": "Revenue Attributed - Target",
+          "type": "number",
+          "placeholder": "Enter target",
+          "required": false
+        },
+        {
+          "id": "revenue_attributed_actual",
+          "label": "Revenue Attributed - Actual",
+          "type": "text",
+          "placeholder": "Enter actual",
+          "required": false
+        },
+        {
+          "id": "revenue_attributed_of_target",
+          "label": "Revenue Attributed - % of Target",
+          "type": "number",
+          "placeholder": "Enter % of target",
+          "required": false
+        },
+        {
+          "id": "revenue_attributed_benchmark",
+          "label": "Revenue Attributed - Benchmark",
+          "type": "text",
+          "placeholder": "Enter benchmark",
+          "required": false
+        },
+        {
+          "id": "revenue_attributed_vs_benchmark",
+          "label": "Revenue Attributed - vs Benchmark",
+          "type": "text",
+          "placeholder": "Enter vs benchmark",
+          "required": false
+        },
+        {
+          "id": "revenue_attributed_rating",
+          "label": "Revenue Attributed - Rating",
+          "type": "scale",
+          "placeholder": "Enter rating",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "revenue_attributed_notes",
+          "label": "Revenue Attributed - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "nps_score_target",
+          "label": "NPS Score - Target",
+          "type": "number",
+          "placeholder": "Enter target",
+          "required": false
+        },
+        {
+          "id": "nps_score_actual",
+          "label": "NPS Score - Actual",
+          "type": "text",
+          "placeholder": "Enter actual",
+          "required": false
+        },
+        {
+          "id": "nps_score_of_target",
+          "label": "NPS Score - % of Target",
+          "type": "number",
+          "placeholder": "Enter % of target",
+          "required": false
+        },
+        {
+          "id": "nps_score_benchmark",
+          "label": "NPS Score - Benchmark",
+          "type": "text",
+          "placeholder": "Enter benchmark",
+          "required": false
+        },
+        {
+          "id": "nps_score_vs_benchmark",
+          "label": "NPS Score - vs Benchmark",
+          "type": "text",
+          "placeholder": "Enter vs benchmark",
+          "required": false
+        },
+        {
+          "id": "nps_score_rating",
+          "label": "NPS Score - Rating",
+          "type": "scale",
+          "placeholder": "Enter rating",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "nps_score_notes",
+          "label": "NPS Score - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "would_recommend_target",
+          "label": "Would Recommend % - Target",
+          "type": "number",
+          "placeholder": "Enter target",
+          "required": false
+        },
+        {
+          "id": "would_recommend_actual",
+          "label": "Would Recommend % - Actual",
+          "type": "text",
+          "placeholder": "Enter actual",
+          "required": false
+        },
+        {
+          "id": "would_recommend_of_target",
+          "label": "Would Recommend % - % of Target",
+          "type": "number",
+          "placeholder": "Enter % of target",
+          "required": false
+        },
+        {
+          "id": "would_recommend_benchmark",
+          "label": "Would Recommend % - Benchmark",
+          "type": "text",
+          "placeholder": "Enter benchmark",
+          "required": false
+        },
+        {
+          "id": "would_recommend_vs_benchmark",
+          "label": "Would Recommend % - vs Benchmark",
+          "type": "text",
+          "placeholder": "Enter vs benchmark",
+          "required": false
+        },
+        {
+          "id": "would_recommend_rating",
+          "label": "Would Recommend % - Rating",
+          "type": "scale",
+          "placeholder": "Enter rating",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "would_recommend_notes",
+          "label": "Would Recommend % - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "recording_views_30_days_target",
+          "label": "Recording Views (30 days) - Target",
+          "type": "number",
+          "placeholder": "Enter target",
+          "required": false
+        },
+        {
+          "id": "recording_views_30_days_actual",
+          "label": "Recording Views (30 days) - Actual",
+          "type": "text",
+          "placeholder": "Enter actual",
+          "required": false
+        },
+        {
+          "id": "recording_views_30_days_of_target",
+          "label": "Recording Views (30 days) - % of Target",
+          "type": "number",
+          "placeholder": "Enter % of target",
+          "required": false
+        },
+        {
+          "id": "recording_views_30_days_benchmark",
+          "label": "Recording Views (30 days) - Benchmark",
+          "type": "text",
+          "placeholder": "Enter benchmark",
+          "required": false
+        },
+        {
+          "id": "recording_views_30_days_vs_benchmark",
+          "label": "Recording Views (30 days) - vs Benchmark",
+          "type": "text",
+          "placeholder": "Enter vs benchmark",
+          "required": false
+        },
+        {
+          "id": "recording_views_30_days_rating",
+          "label": "Recording Views (30 days) - Rating",
+          "type": "scale",
+          "placeholder": "Enter rating",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "recording_views_30_days_notes",
+          "label": "Recording Views (30 days) - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "social_shares_target",
+          "label": "Social Shares - Target",
+          "type": "number",
+          "placeholder": "Enter target",
+          "required": false
+        },
+        {
+          "id": "social_shares_actual",
+          "label": "Social Shares - Actual",
+          "type": "text",
+          "placeholder": "Enter actual",
+          "required": false
+        },
+        {
+          "id": "social_shares_of_target",
+          "label": "Social Shares - % of Target",
+          "type": "number",
+          "placeholder": "Enter % of target",
+          "required": false
+        },
+        {
+          "id": "social_shares_benchmark",
+          "label": "Social Shares - Benchmark",
+          "type": "text",
+          "placeholder": "Enter benchmark",
+          "required": false
+        },
+        {
+          "id": "social_shares_vs_benchmark",
+          "label": "Social Shares - vs Benchmark",
+          "type": "text",
+          "placeholder": "Enter vs benchmark",
+          "required": false
+        },
+        {
+          "id": "social_shares_rating",
+          "label": "Social Shares - Rating",
+          "type": "scale",
+          "placeholder": "Enter rating",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "social_shares_notes",
+          "label": "Social Shares - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        }
+      ]
+    }
+  ]
 }

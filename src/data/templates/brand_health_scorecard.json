@@ -10,953 +10,6 @@
     "brand"
   ],
   "estimatedTime": "40 min",
-  "sections": [
-    {
-      "id": "dashboard",
-      "title": "Dashboard",
-      "description": "Complete the Dashboard section",
-      "fields": [
-        {
-          "id": "brand_health_dashboard_0",
-          "label": "Brand Health Dashboard",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "metric_1",
-          "label": "Metric",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "current_score_2",
-          "label": "Current Score",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "target_3",
-          "label": "Target",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "variance_4",
-          "label": "Variance",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "status_5",
-          "label": "Status",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "overall_brand_health_6",
-          "label": "Overall Brand Health",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "brand_awareness_7",
-          "label": "Brand Awareness",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "brand_perception_8",
-          "label": "Brand Perception",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "nps_score_9",
-          "label": "NPS Score",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "competitor_position_10",
-          "label": "Competitor Position",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "key_metric_11",
-          "label": "Key Metric",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "value_12",
-          "label": "Value",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "target_13",
-          "label": "Target",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "trend_14",
-          "label": "Trend",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "monthly_promotion_rate_15",
-          "label": "Monthly Promotion Rate",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "brand_consideration_16",
-          "label": "Brand Consideration",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "purchase_intent_17",
-          "label": "Purchase Intent",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "brand_loyalty_index_18",
-          "label": "Brand Loyalty Index",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "social_sentiment_score_19",
-          "label": "Social Sentiment Score",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "brand_awareness",
-      "title": "Brand Awareness",
-      "description": "Complete the Brand Awareness section",
-      "fields": [
-        {
-          "id": "brand_awareness_tracker_0",
-          "label": "Brand Awareness Tracker",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "month_1",
-          "label": "Month",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "aided_awareness_2",
-          "label": "Aided Awareness %",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "unaided_awareness_3",
-          "label": "Unaided Awareness %",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "brand_recall_4",
-          "label": "Brand Recall %",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "ad_recall_5",
-          "label": "Ad Recall %",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "target_6",
-          "label": "Target",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "variance_7",
-          "label": "Variance",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "brand_perception",
-      "title": "Brand Perception",
-      "description": "Complete the Brand Perception section",
-      "fields": [
-        {
-          "id": "brand_perception_key_attributes_0",
-          "label": "Brand Perception - Key Attributes",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "attribute_1",
-          "label": "Attribute",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "target_score_2",
-          "label": "Target Score",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "current_score_3",
-          "label": "Current Score",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "variance_4",
-          "label": "Variance",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "trend_5",
-          "label": "Trend",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "benchmark_6",
-          "label": "Benchmark",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "priority_7",
-          "label": "Priority",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "quality_8",
-          "label": "Quality",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "trustworthy_9",
-          "label": "Trustworthy",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "innovative_10",
-          "label": "Innovative",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "customer_focused_11",
-          "label": "Customer-Focused",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "reliable_12",
-          "label": "Reliable",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "value_for_money_13",
-          "label": "Value for Money",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "premium_14",
-          "label": "Premium",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "authentic_15",
-          "label": "Authentic",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "modern_16",
-          "label": "Modern",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "sustainable_17",
-          "label": "Sustainable",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "professional_18",
-          "label": "Professional",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "friendly_19",
-          "label": "Friendly",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "accessible_20",
-          "label": "Accessible",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "consistent_21",
-          "label": "Consistent",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "transparent_22",
-          "label": "Transparent",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "responsive_23",
-          "label": "Responsive",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "forward_thinking_24",
-          "label": "Forward-Thinking",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "industry_leader_25",
-          "label": "Industry Leader",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "distinctive_26",
-          "label": "Distinctive",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "memorable_27",
-          "label": "Memorable",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "nps_tracker",
-      "title": "NPS Tracker",
-      "description": "Complete the NPS Tracker section",
-      "fields": [
-        {
-          "id": "net_promoter_score_nps_tracker_0",
-          "label": "Net Promoter Score (NPS) Tracker",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "month_1",
-          "label": "Month",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "promoters_2",
-          "label": "Promoters",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "passives_3",
-          "label": "Passives",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "detractors_4",
-          "label": "Detractors",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "total_responses_5",
-          "label": "Total Responses",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "nps_score_6",
-          "label": "NPS Score",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "target_7",
-          "label": "Target",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "competitor_benchmark",
-      "title": "Competitor Benchmark",
-      "description": "Complete the Competitor Benchmark section",
-      "fields": [
-        {
-          "id": "competitor_benchmark_analysis_0",
-          "label": "Competitor Benchmark Analysis",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "brand_1",
-          "label": "Brand",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "awareness_2",
-          "label": "Awareness",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "consideration_3",
-          "label": "Consideration",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "preference_4",
-          "label": "Preference",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "social_following_5",
-          "label": "Social Following",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "competitor_1_6",
-          "label": "Competitor 1",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "competitor_2_7",
-          "label": "Competitor 2",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "competitor_3_8",
-          "label": "Competitor 3",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "competitor_4_9",
-          "label": "Competitor 4",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "competitor_5_10",
-          "label": "Competitor 5",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "competitor_6_11",
-          "label": "Competitor 6",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "competitor_7_12",
-          "label": "Competitor 7",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "competitor_8_13",
-          "label": "Competitor 8",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "competitor_9_14",
-          "label": "Competitor 9",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "competitor_10_15",
-          "label": "Competitor 10",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "channel_health",
-      "title": "Channel Health",
-      "description": "Complete the Channel Health section",
-      "fields": [
-        {
-          "id": "digital_channel_performance_0",
-          "label": "Digital Channel Performance",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "channel_1",
-          "label": "Channel",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "reach_2",
-          "label": "Reach",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "engagement_rate_3",
-          "label": "Engagement Rate",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "sentiment_4",
-          "label": "Sentiment",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "growth_rate_5",
-          "label": "Growth Rate",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "cost_per_engagement_6",
-          "label": "Cost per Engagement",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "health_score_7",
-          "label": "Health Score",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "email_8",
-          "label": "Email",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "social_media_9",
-          "label": "Social Media",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "paid_search_10",
-          "label": "Paid Search",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "display_ads_11",
-          "label": "Display Ads",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "content_marketing_12",
-          "label": "Content Marketing",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "influencer_13",
-          "label": "Influencer",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "video_14",
-          "label": "Video",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "retargeting_15",
-          "label": "Retargeting",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "brand_equity_tracker",
-      "title": "Brand Equity Tracker",
-      "description": "Complete the Brand Equity Tracker section",
-      "fields": [
-        {
-          "id": "brand_equity_quarterly_performance_0",
-          "label": "Brand Equity - Quarterly Performance",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "quarter_1",
-          "label": "Quarter",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "brand_value_2",
-          "label": "Brand Value",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "brand_strength_3",
-          "label": "Brand Strength",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "brand_stature_4",
-          "label": "Brand Stature",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "brand_vitality_5",
-          "label": "Brand Vitality",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "overall_equity_score_6",
-          "label": "Overall Equity Score",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "yoy_change_7",
-          "label": "YoY Change %",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "action_plan",
-      "title": "Action Plan",
-      "description": "Complete the Action Plan section",
-      "fields": [
-        {
-          "id": "strategic_action_plan_0",
-          "label": "Strategic Action Plan",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "issue_1",
-          "label": "Issue",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "dimension_2",
-          "label": "Dimension",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "priority_3",
-          "label": "Priority",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "action_required_4",
-          "label": "Action Required",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "owner_5",
-          "label": "Owner",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "due_date_6",
-          "label": "Due Date",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "expected_impact_7",
-          "label": "Expected Impact",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "medium_8",
-          "label": "Medium",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "medium_9",
-          "label": "Medium",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "medium_10",
-          "label": "Medium",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "medium_11",
-          "label": "Medium",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "medium_12",
-          "label": "Medium",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "medium_13",
-          "label": "Medium",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "medium_14",
-          "label": "Medium",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "medium_15",
-          "label": "Medium",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "medium_16",
-          "label": "Medium",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "medium_17",
-          "label": "Medium",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "medium_18",
-          "label": "Medium",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "medium_19",
-          "label": "Medium",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "medium_20",
-          "label": "Medium",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "medium_21",
-          "label": "Medium",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "medium_22",
-          "label": "Medium",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    }
-  ],
   "dashboard": {
     "metrics": [
       {
@@ -985,5 +38,3963 @@
         "format": "number"
       }
     ]
-  }
+  },
+  "sections": [
+    {
+      "id": "dashboard",
+      "title": "Dashboard",
+      "description": "Auto-calculated summary of your data. Complete the working sections to see results here.",
+      "readOnly": true,
+      "fields": [
+        {
+          "id": "dashboard_overview",
+          "label": "Dashboard Overview",
+          "type": "textarea",
+          "placeholder": "Dashboard metrics will be calculated from your inputs in the working sections",
+          "required": false,
+          "readOnly": true
+        }
+      ]
+    },
+    {
+      "id": "brand_awareness",
+      "title": "Brand Awareness",
+      "description": "Enter data for each item",
+      "fields": [
+        {
+          "id": "jan_aided_awareness",
+          "label": "Jan - Aided Awareness %",
+          "type": "number",
+          "placeholder": "Enter aided awareness %",
+          "required": false
+        },
+        {
+          "id": "jan_unaided_awareness",
+          "label": "Jan - Unaided Awareness %",
+          "type": "number",
+          "placeholder": "Enter unaided awareness %",
+          "required": false
+        },
+        {
+          "id": "jan_brand_recall",
+          "label": "Jan - Brand Recall %",
+          "type": "number",
+          "placeholder": "Enter brand recall %",
+          "required": false
+        },
+        {
+          "id": "jan_ad_recall",
+          "label": "Jan - Ad Recall %",
+          "type": "number",
+          "placeholder": "Enter ad recall %",
+          "required": false
+        },
+        {
+          "id": "jan_target",
+          "label": "Jan - Target",
+          "type": "number",
+          "placeholder": "Enter target",
+          "required": false
+        },
+        {
+          "id": "feb_aided_awareness",
+          "label": "Feb - Aided Awareness %",
+          "type": "number",
+          "placeholder": "Enter aided awareness %",
+          "required": false
+        },
+        {
+          "id": "feb_unaided_awareness",
+          "label": "Feb - Unaided Awareness %",
+          "type": "number",
+          "placeholder": "Enter unaided awareness %",
+          "required": false
+        },
+        {
+          "id": "feb_brand_recall",
+          "label": "Feb - Brand Recall %",
+          "type": "number",
+          "placeholder": "Enter brand recall %",
+          "required": false
+        },
+        {
+          "id": "feb_ad_recall",
+          "label": "Feb - Ad Recall %",
+          "type": "number",
+          "placeholder": "Enter ad recall %",
+          "required": false
+        },
+        {
+          "id": "feb_target",
+          "label": "Feb - Target",
+          "type": "number",
+          "placeholder": "Enter target",
+          "required": false
+        },
+        {
+          "id": "mar_aided_awareness",
+          "label": "Mar - Aided Awareness %",
+          "type": "number",
+          "placeholder": "Enter aided awareness %",
+          "required": false
+        },
+        {
+          "id": "mar_unaided_awareness",
+          "label": "Mar - Unaided Awareness %",
+          "type": "number",
+          "placeholder": "Enter unaided awareness %",
+          "required": false
+        },
+        {
+          "id": "mar_brand_recall",
+          "label": "Mar - Brand Recall %",
+          "type": "number",
+          "placeholder": "Enter brand recall %",
+          "required": false
+        },
+        {
+          "id": "mar_ad_recall",
+          "label": "Mar - Ad Recall %",
+          "type": "number",
+          "placeholder": "Enter ad recall %",
+          "required": false
+        },
+        {
+          "id": "mar_target",
+          "label": "Mar - Target",
+          "type": "number",
+          "placeholder": "Enter target",
+          "required": false
+        },
+        {
+          "id": "apr_aided_awareness",
+          "label": "Apr - Aided Awareness %",
+          "type": "number",
+          "placeholder": "Enter aided awareness %",
+          "required": false
+        },
+        {
+          "id": "apr_unaided_awareness",
+          "label": "Apr - Unaided Awareness %",
+          "type": "number",
+          "placeholder": "Enter unaided awareness %",
+          "required": false
+        },
+        {
+          "id": "apr_brand_recall",
+          "label": "Apr - Brand Recall %",
+          "type": "number",
+          "placeholder": "Enter brand recall %",
+          "required": false
+        },
+        {
+          "id": "apr_ad_recall",
+          "label": "Apr - Ad Recall %",
+          "type": "number",
+          "placeholder": "Enter ad recall %",
+          "required": false
+        },
+        {
+          "id": "apr_target",
+          "label": "Apr - Target",
+          "type": "number",
+          "placeholder": "Enter target",
+          "required": false
+        },
+        {
+          "id": "may_aided_awareness",
+          "label": "May - Aided Awareness %",
+          "type": "number",
+          "placeholder": "Enter aided awareness %",
+          "required": false
+        },
+        {
+          "id": "may_unaided_awareness",
+          "label": "May - Unaided Awareness %",
+          "type": "number",
+          "placeholder": "Enter unaided awareness %",
+          "required": false
+        },
+        {
+          "id": "may_brand_recall",
+          "label": "May - Brand Recall %",
+          "type": "number",
+          "placeholder": "Enter brand recall %",
+          "required": false
+        },
+        {
+          "id": "may_ad_recall",
+          "label": "May - Ad Recall %",
+          "type": "number",
+          "placeholder": "Enter ad recall %",
+          "required": false
+        },
+        {
+          "id": "may_target",
+          "label": "May - Target",
+          "type": "number",
+          "placeholder": "Enter target",
+          "required": false
+        },
+        {
+          "id": "jun_aided_awareness",
+          "label": "Jun - Aided Awareness %",
+          "type": "number",
+          "placeholder": "Enter aided awareness %",
+          "required": false
+        },
+        {
+          "id": "jun_unaided_awareness",
+          "label": "Jun - Unaided Awareness %",
+          "type": "number",
+          "placeholder": "Enter unaided awareness %",
+          "required": false
+        },
+        {
+          "id": "jun_brand_recall",
+          "label": "Jun - Brand Recall %",
+          "type": "number",
+          "placeholder": "Enter brand recall %",
+          "required": false
+        },
+        {
+          "id": "jun_ad_recall",
+          "label": "Jun - Ad Recall %",
+          "type": "number",
+          "placeholder": "Enter ad recall %",
+          "required": false
+        },
+        {
+          "id": "jun_target",
+          "label": "Jun - Target",
+          "type": "number",
+          "placeholder": "Enter target",
+          "required": false
+        },
+        {
+          "id": "jul_aided_awareness",
+          "label": "Jul - Aided Awareness %",
+          "type": "number",
+          "placeholder": "Enter aided awareness %",
+          "required": false
+        },
+        {
+          "id": "jul_unaided_awareness",
+          "label": "Jul - Unaided Awareness %",
+          "type": "number",
+          "placeholder": "Enter unaided awareness %",
+          "required": false
+        },
+        {
+          "id": "jul_brand_recall",
+          "label": "Jul - Brand Recall %",
+          "type": "number",
+          "placeholder": "Enter brand recall %",
+          "required": false
+        },
+        {
+          "id": "jul_ad_recall",
+          "label": "Jul - Ad Recall %",
+          "type": "number",
+          "placeholder": "Enter ad recall %",
+          "required": false
+        },
+        {
+          "id": "jul_target",
+          "label": "Jul - Target",
+          "type": "number",
+          "placeholder": "Enter target",
+          "required": false
+        },
+        {
+          "id": "aug_aided_awareness",
+          "label": "Aug - Aided Awareness %",
+          "type": "number",
+          "placeholder": "Enter aided awareness %",
+          "required": false
+        },
+        {
+          "id": "aug_unaided_awareness",
+          "label": "Aug - Unaided Awareness %",
+          "type": "number",
+          "placeholder": "Enter unaided awareness %",
+          "required": false
+        },
+        {
+          "id": "aug_brand_recall",
+          "label": "Aug - Brand Recall %",
+          "type": "number",
+          "placeholder": "Enter brand recall %",
+          "required": false
+        },
+        {
+          "id": "aug_ad_recall",
+          "label": "Aug - Ad Recall %",
+          "type": "number",
+          "placeholder": "Enter ad recall %",
+          "required": false
+        },
+        {
+          "id": "aug_target",
+          "label": "Aug - Target",
+          "type": "number",
+          "placeholder": "Enter target",
+          "required": false
+        },
+        {
+          "id": "sep_aided_awareness",
+          "label": "Sep - Aided Awareness %",
+          "type": "number",
+          "placeholder": "Enter aided awareness %",
+          "required": false
+        },
+        {
+          "id": "sep_unaided_awareness",
+          "label": "Sep - Unaided Awareness %",
+          "type": "number",
+          "placeholder": "Enter unaided awareness %",
+          "required": false
+        },
+        {
+          "id": "sep_brand_recall",
+          "label": "Sep - Brand Recall %",
+          "type": "number",
+          "placeholder": "Enter brand recall %",
+          "required": false
+        },
+        {
+          "id": "sep_ad_recall",
+          "label": "Sep - Ad Recall %",
+          "type": "number",
+          "placeholder": "Enter ad recall %",
+          "required": false
+        },
+        {
+          "id": "sep_target",
+          "label": "Sep - Target",
+          "type": "number",
+          "placeholder": "Enter target",
+          "required": false
+        },
+        {
+          "id": "oct_aided_awareness",
+          "label": "Oct - Aided Awareness %",
+          "type": "number",
+          "placeholder": "Enter aided awareness %",
+          "required": false
+        },
+        {
+          "id": "oct_unaided_awareness",
+          "label": "Oct - Unaided Awareness %",
+          "type": "number",
+          "placeholder": "Enter unaided awareness %",
+          "required": false
+        },
+        {
+          "id": "oct_brand_recall",
+          "label": "Oct - Brand Recall %",
+          "type": "number",
+          "placeholder": "Enter brand recall %",
+          "required": false
+        },
+        {
+          "id": "oct_ad_recall",
+          "label": "Oct - Ad Recall %",
+          "type": "number",
+          "placeholder": "Enter ad recall %",
+          "required": false
+        },
+        {
+          "id": "oct_target",
+          "label": "Oct - Target",
+          "type": "number",
+          "placeholder": "Enter target",
+          "required": false
+        },
+        {
+          "id": "nov_aided_awareness",
+          "label": "Nov - Aided Awareness %",
+          "type": "number",
+          "placeholder": "Enter aided awareness %",
+          "required": false
+        },
+        {
+          "id": "nov_unaided_awareness",
+          "label": "Nov - Unaided Awareness %",
+          "type": "number",
+          "placeholder": "Enter unaided awareness %",
+          "required": false
+        },
+        {
+          "id": "nov_brand_recall",
+          "label": "Nov - Brand Recall %",
+          "type": "number",
+          "placeholder": "Enter brand recall %",
+          "required": false
+        },
+        {
+          "id": "nov_ad_recall",
+          "label": "Nov - Ad Recall %",
+          "type": "number",
+          "placeholder": "Enter ad recall %",
+          "required": false
+        },
+        {
+          "id": "nov_target",
+          "label": "Nov - Target",
+          "type": "number",
+          "placeholder": "Enter target",
+          "required": false
+        },
+        {
+          "id": "dec_aided_awareness",
+          "label": "Dec - Aided Awareness %",
+          "type": "number",
+          "placeholder": "Enter aided awareness %",
+          "required": false
+        },
+        {
+          "id": "dec_unaided_awareness",
+          "label": "Dec - Unaided Awareness %",
+          "type": "number",
+          "placeholder": "Enter unaided awareness %",
+          "required": false
+        },
+        {
+          "id": "dec_brand_recall",
+          "label": "Dec - Brand Recall %",
+          "type": "number",
+          "placeholder": "Enter brand recall %",
+          "required": false
+        },
+        {
+          "id": "dec_ad_recall",
+          "label": "Dec - Ad Recall %",
+          "type": "number",
+          "placeholder": "Enter ad recall %",
+          "required": false
+        },
+        {
+          "id": "dec_target",
+          "label": "Dec - Target",
+          "type": "number",
+          "placeholder": "Enter target",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "brand_perception",
+      "title": "Brand Perception",
+      "description": "Enter data for each item",
+      "fields": [
+        {
+          "id": "quality_target_score",
+          "label": "Quality - Target Score",
+          "type": "scale",
+          "placeholder": "Enter target score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "quality_current_score",
+          "label": "Quality - Current Score",
+          "type": "scale",
+          "placeholder": "Enter current score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "quality_trend",
+          "label": "Quality - Trend",
+          "type": "text",
+          "placeholder": "Enter trend",
+          "required": false
+        },
+        {
+          "id": "quality_benchmark",
+          "label": "Quality - Benchmark",
+          "type": "text",
+          "placeholder": "Enter benchmark",
+          "required": false
+        },
+        {
+          "id": "quality_priority",
+          "label": "Quality - Priority",
+          "type": "select",
+          "placeholder": "Enter priority",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "trustworthy_target_score",
+          "label": "Trustworthy - Target Score",
+          "type": "scale",
+          "placeholder": "Enter target score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "trustworthy_current_score",
+          "label": "Trustworthy - Current Score",
+          "type": "scale",
+          "placeholder": "Enter current score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "trustworthy_trend",
+          "label": "Trustworthy - Trend",
+          "type": "text",
+          "placeholder": "Enter trend",
+          "required": false
+        },
+        {
+          "id": "trustworthy_benchmark",
+          "label": "Trustworthy - Benchmark",
+          "type": "text",
+          "placeholder": "Enter benchmark",
+          "required": false
+        },
+        {
+          "id": "trustworthy_priority",
+          "label": "Trustworthy - Priority",
+          "type": "select",
+          "placeholder": "Enter priority",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "innovative_target_score",
+          "label": "Innovative - Target Score",
+          "type": "scale",
+          "placeholder": "Enter target score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "innovative_current_score",
+          "label": "Innovative - Current Score",
+          "type": "scale",
+          "placeholder": "Enter current score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "innovative_trend",
+          "label": "Innovative - Trend",
+          "type": "text",
+          "placeholder": "Enter trend",
+          "required": false
+        },
+        {
+          "id": "innovative_benchmark",
+          "label": "Innovative - Benchmark",
+          "type": "text",
+          "placeholder": "Enter benchmark",
+          "required": false
+        },
+        {
+          "id": "innovative_priority",
+          "label": "Innovative - Priority",
+          "type": "select",
+          "placeholder": "Enter priority",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "customerfocused_target_score",
+          "label": "Customer-Focused - Target Score",
+          "type": "scale",
+          "placeholder": "Enter target score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "customerfocused_current_score",
+          "label": "Customer-Focused - Current Score",
+          "type": "scale",
+          "placeholder": "Enter current score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "customerfocused_trend",
+          "label": "Customer-Focused - Trend",
+          "type": "text",
+          "placeholder": "Enter trend",
+          "required": false
+        },
+        {
+          "id": "customerfocused_benchmark",
+          "label": "Customer-Focused - Benchmark",
+          "type": "text",
+          "placeholder": "Enter benchmark",
+          "required": false
+        },
+        {
+          "id": "customerfocused_priority",
+          "label": "Customer-Focused - Priority",
+          "type": "select",
+          "placeholder": "Enter priority",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "reliable_target_score",
+          "label": "Reliable - Target Score",
+          "type": "scale",
+          "placeholder": "Enter target score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "reliable_current_score",
+          "label": "Reliable - Current Score",
+          "type": "scale",
+          "placeholder": "Enter current score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "reliable_trend",
+          "label": "Reliable - Trend",
+          "type": "text",
+          "placeholder": "Enter trend",
+          "required": false
+        },
+        {
+          "id": "reliable_benchmark",
+          "label": "Reliable - Benchmark",
+          "type": "text",
+          "placeholder": "Enter benchmark",
+          "required": false
+        },
+        {
+          "id": "reliable_priority",
+          "label": "Reliable - Priority",
+          "type": "select",
+          "placeholder": "Enter priority",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "value_for_money_target_score",
+          "label": "Value for Money - Target Score",
+          "type": "scale",
+          "placeholder": "Enter target score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "value_for_money_current_score",
+          "label": "Value for Money - Current Score",
+          "type": "scale",
+          "placeholder": "Enter current score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "value_for_money_trend",
+          "label": "Value for Money - Trend",
+          "type": "text",
+          "placeholder": "Enter trend",
+          "required": false
+        },
+        {
+          "id": "value_for_money_benchmark",
+          "label": "Value for Money - Benchmark",
+          "type": "text",
+          "placeholder": "Enter benchmark",
+          "required": false
+        },
+        {
+          "id": "value_for_money_priority",
+          "label": "Value for Money - Priority",
+          "type": "select",
+          "placeholder": "Enter priority",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "premium_target_score",
+          "label": "Premium - Target Score",
+          "type": "scale",
+          "placeholder": "Enter target score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "premium_current_score",
+          "label": "Premium - Current Score",
+          "type": "scale",
+          "placeholder": "Enter current score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "premium_trend",
+          "label": "Premium - Trend",
+          "type": "text",
+          "placeholder": "Enter trend",
+          "required": false
+        },
+        {
+          "id": "premium_benchmark",
+          "label": "Premium - Benchmark",
+          "type": "text",
+          "placeholder": "Enter benchmark",
+          "required": false
+        },
+        {
+          "id": "premium_priority",
+          "label": "Premium - Priority",
+          "type": "select",
+          "placeholder": "Enter priority",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "authentic_target_score",
+          "label": "Authentic - Target Score",
+          "type": "scale",
+          "placeholder": "Enter target score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "authentic_current_score",
+          "label": "Authentic - Current Score",
+          "type": "scale",
+          "placeholder": "Enter current score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "authentic_trend",
+          "label": "Authentic - Trend",
+          "type": "text",
+          "placeholder": "Enter trend",
+          "required": false
+        },
+        {
+          "id": "authentic_benchmark",
+          "label": "Authentic - Benchmark",
+          "type": "text",
+          "placeholder": "Enter benchmark",
+          "required": false
+        },
+        {
+          "id": "authentic_priority",
+          "label": "Authentic - Priority",
+          "type": "select",
+          "placeholder": "Enter priority",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "modern_target_score",
+          "label": "Modern - Target Score",
+          "type": "scale",
+          "placeholder": "Enter target score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "modern_current_score",
+          "label": "Modern - Current Score",
+          "type": "scale",
+          "placeholder": "Enter current score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "modern_trend",
+          "label": "Modern - Trend",
+          "type": "text",
+          "placeholder": "Enter trend",
+          "required": false
+        },
+        {
+          "id": "modern_benchmark",
+          "label": "Modern - Benchmark",
+          "type": "text",
+          "placeholder": "Enter benchmark",
+          "required": false
+        },
+        {
+          "id": "modern_priority",
+          "label": "Modern - Priority",
+          "type": "select",
+          "placeholder": "Enter priority",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "sustainable_target_score",
+          "label": "Sustainable - Target Score",
+          "type": "scale",
+          "placeholder": "Enter target score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "sustainable_current_score",
+          "label": "Sustainable - Current Score",
+          "type": "scale",
+          "placeholder": "Enter current score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "sustainable_trend",
+          "label": "Sustainable - Trend",
+          "type": "text",
+          "placeholder": "Enter trend",
+          "required": false
+        },
+        {
+          "id": "sustainable_benchmark",
+          "label": "Sustainable - Benchmark",
+          "type": "text",
+          "placeholder": "Enter benchmark",
+          "required": false
+        },
+        {
+          "id": "sustainable_priority",
+          "label": "Sustainable - Priority",
+          "type": "select",
+          "placeholder": "Enter priority",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "professional_target_score",
+          "label": "Professional - Target Score",
+          "type": "scale",
+          "placeholder": "Enter target score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "professional_current_score",
+          "label": "Professional - Current Score",
+          "type": "scale",
+          "placeholder": "Enter current score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "professional_trend",
+          "label": "Professional - Trend",
+          "type": "text",
+          "placeholder": "Enter trend",
+          "required": false
+        },
+        {
+          "id": "professional_benchmark",
+          "label": "Professional - Benchmark",
+          "type": "text",
+          "placeholder": "Enter benchmark",
+          "required": false
+        },
+        {
+          "id": "professional_priority",
+          "label": "Professional - Priority",
+          "type": "select",
+          "placeholder": "Enter priority",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "friendly_target_score",
+          "label": "Friendly - Target Score",
+          "type": "scale",
+          "placeholder": "Enter target score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "friendly_current_score",
+          "label": "Friendly - Current Score",
+          "type": "scale",
+          "placeholder": "Enter current score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "friendly_trend",
+          "label": "Friendly - Trend",
+          "type": "text",
+          "placeholder": "Enter trend",
+          "required": false
+        },
+        {
+          "id": "friendly_benchmark",
+          "label": "Friendly - Benchmark",
+          "type": "text",
+          "placeholder": "Enter benchmark",
+          "required": false
+        },
+        {
+          "id": "friendly_priority",
+          "label": "Friendly - Priority",
+          "type": "select",
+          "placeholder": "Enter priority",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "accessible_target_score",
+          "label": "Accessible - Target Score",
+          "type": "scale",
+          "placeholder": "Enter target score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "accessible_current_score",
+          "label": "Accessible - Current Score",
+          "type": "scale",
+          "placeholder": "Enter current score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "accessible_trend",
+          "label": "Accessible - Trend",
+          "type": "text",
+          "placeholder": "Enter trend",
+          "required": false
+        },
+        {
+          "id": "accessible_benchmark",
+          "label": "Accessible - Benchmark",
+          "type": "text",
+          "placeholder": "Enter benchmark",
+          "required": false
+        },
+        {
+          "id": "accessible_priority",
+          "label": "Accessible - Priority",
+          "type": "select",
+          "placeholder": "Enter priority",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "consistent_target_score",
+          "label": "Consistent - Target Score",
+          "type": "scale",
+          "placeholder": "Enter target score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "consistent_current_score",
+          "label": "Consistent - Current Score",
+          "type": "scale",
+          "placeholder": "Enter current score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "consistent_trend",
+          "label": "Consistent - Trend",
+          "type": "text",
+          "placeholder": "Enter trend",
+          "required": false
+        },
+        {
+          "id": "consistent_benchmark",
+          "label": "Consistent - Benchmark",
+          "type": "text",
+          "placeholder": "Enter benchmark",
+          "required": false
+        },
+        {
+          "id": "consistent_priority",
+          "label": "Consistent - Priority",
+          "type": "select",
+          "placeholder": "Enter priority",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "transparent_target_score",
+          "label": "Transparent - Target Score",
+          "type": "scale",
+          "placeholder": "Enter target score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "transparent_current_score",
+          "label": "Transparent - Current Score",
+          "type": "scale",
+          "placeholder": "Enter current score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "transparent_trend",
+          "label": "Transparent - Trend",
+          "type": "text",
+          "placeholder": "Enter trend",
+          "required": false
+        },
+        {
+          "id": "transparent_benchmark",
+          "label": "Transparent - Benchmark",
+          "type": "text",
+          "placeholder": "Enter benchmark",
+          "required": false
+        },
+        {
+          "id": "transparent_priority",
+          "label": "Transparent - Priority",
+          "type": "select",
+          "placeholder": "Enter priority",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "responsive_target_score",
+          "label": "Responsive - Target Score",
+          "type": "scale",
+          "placeholder": "Enter target score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "responsive_current_score",
+          "label": "Responsive - Current Score",
+          "type": "scale",
+          "placeholder": "Enter current score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "responsive_trend",
+          "label": "Responsive - Trend",
+          "type": "text",
+          "placeholder": "Enter trend",
+          "required": false
+        },
+        {
+          "id": "responsive_benchmark",
+          "label": "Responsive - Benchmark",
+          "type": "text",
+          "placeholder": "Enter benchmark",
+          "required": false
+        },
+        {
+          "id": "responsive_priority",
+          "label": "Responsive - Priority",
+          "type": "select",
+          "placeholder": "Enter priority",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "forwardthinking_target_score",
+          "label": "Forward-Thinking - Target Score",
+          "type": "scale",
+          "placeholder": "Enter target score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "forwardthinking_current_score",
+          "label": "Forward-Thinking - Current Score",
+          "type": "scale",
+          "placeholder": "Enter current score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "forwardthinking_trend",
+          "label": "Forward-Thinking - Trend",
+          "type": "text",
+          "placeholder": "Enter trend",
+          "required": false
+        },
+        {
+          "id": "forwardthinking_benchmark",
+          "label": "Forward-Thinking - Benchmark",
+          "type": "text",
+          "placeholder": "Enter benchmark",
+          "required": false
+        },
+        {
+          "id": "forwardthinking_priority",
+          "label": "Forward-Thinking - Priority",
+          "type": "select",
+          "placeholder": "Enter priority",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "industry_leader_target_score",
+          "label": "Industry Leader - Target Score",
+          "type": "scale",
+          "placeholder": "Enter target score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "industry_leader_current_score",
+          "label": "Industry Leader - Current Score",
+          "type": "scale",
+          "placeholder": "Enter current score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "industry_leader_trend",
+          "label": "Industry Leader - Trend",
+          "type": "text",
+          "placeholder": "Enter trend",
+          "required": false
+        },
+        {
+          "id": "industry_leader_benchmark",
+          "label": "Industry Leader - Benchmark",
+          "type": "text",
+          "placeholder": "Enter benchmark",
+          "required": false
+        },
+        {
+          "id": "industry_leader_priority",
+          "label": "Industry Leader - Priority",
+          "type": "select",
+          "placeholder": "Enter priority",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "distinctive_target_score",
+          "label": "Distinctive - Target Score",
+          "type": "scale",
+          "placeholder": "Enter target score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "distinctive_current_score",
+          "label": "Distinctive - Current Score",
+          "type": "scale",
+          "placeholder": "Enter current score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "distinctive_trend",
+          "label": "Distinctive - Trend",
+          "type": "text",
+          "placeholder": "Enter trend",
+          "required": false
+        },
+        {
+          "id": "distinctive_benchmark",
+          "label": "Distinctive - Benchmark",
+          "type": "text",
+          "placeholder": "Enter benchmark",
+          "required": false
+        },
+        {
+          "id": "distinctive_priority",
+          "label": "Distinctive - Priority",
+          "type": "select",
+          "placeholder": "Enter priority",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "memorable_target_score",
+          "label": "Memorable - Target Score",
+          "type": "scale",
+          "placeholder": "Enter target score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "memorable_current_score",
+          "label": "Memorable - Current Score",
+          "type": "scale",
+          "placeholder": "Enter current score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "memorable_trend",
+          "label": "Memorable - Trend",
+          "type": "text",
+          "placeholder": "Enter trend",
+          "required": false
+        },
+        {
+          "id": "memorable_benchmark",
+          "label": "Memorable - Benchmark",
+          "type": "text",
+          "placeholder": "Enter benchmark",
+          "required": false
+        },
+        {
+          "id": "memorable_priority",
+          "label": "Memorable - Priority",
+          "type": "select",
+          "placeholder": "Enter priority",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nps_tracker",
+      "title": "NPS Tracker",
+      "description": "Enter data for each item",
+      "fields": [
+        {
+          "id": "jan_promoters",
+          "label": "Jan - Promoters",
+          "type": "text",
+          "placeholder": "Enter promoters",
+          "required": false
+        },
+        {
+          "id": "jan_passives",
+          "label": "Jan - Passives",
+          "type": "text",
+          "placeholder": "Enter passives",
+          "required": false
+        },
+        {
+          "id": "jan_detractors",
+          "label": "Jan - Detractors",
+          "type": "text",
+          "placeholder": "Enter detractors",
+          "required": false
+        },
+        {
+          "id": "jan_total_responses",
+          "label": "Jan - Total Responses",
+          "type": "text",
+          "placeholder": "Enter total responses",
+          "required": false
+        },
+        {
+          "id": "jan_nps_score",
+          "label": "Jan - NPS Score",
+          "type": "scale",
+          "placeholder": "Enter nps score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "jan_target",
+          "label": "Jan - Target",
+          "type": "number",
+          "placeholder": "Enter target",
+          "required": false
+        },
+        {
+          "id": "jan_trend",
+          "label": "Jan - Trend",
+          "type": "text",
+          "placeholder": "Enter trend",
+          "required": false
+        },
+        {
+          "id": "feb_promoters",
+          "label": "Feb - Promoters",
+          "type": "text",
+          "placeholder": "Enter promoters",
+          "required": false
+        },
+        {
+          "id": "feb_passives",
+          "label": "Feb - Passives",
+          "type": "text",
+          "placeholder": "Enter passives",
+          "required": false
+        },
+        {
+          "id": "feb_detractors",
+          "label": "Feb - Detractors",
+          "type": "text",
+          "placeholder": "Enter detractors",
+          "required": false
+        },
+        {
+          "id": "feb_total_responses",
+          "label": "Feb - Total Responses",
+          "type": "text",
+          "placeholder": "Enter total responses",
+          "required": false
+        },
+        {
+          "id": "feb_nps_score",
+          "label": "Feb - NPS Score",
+          "type": "scale",
+          "placeholder": "Enter nps score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "feb_target",
+          "label": "Feb - Target",
+          "type": "number",
+          "placeholder": "Enter target",
+          "required": false
+        },
+        {
+          "id": "feb_trend",
+          "label": "Feb - Trend",
+          "type": "text",
+          "placeholder": "Enter trend",
+          "required": false
+        },
+        {
+          "id": "mar_promoters",
+          "label": "Mar - Promoters",
+          "type": "text",
+          "placeholder": "Enter promoters",
+          "required": false
+        },
+        {
+          "id": "mar_passives",
+          "label": "Mar - Passives",
+          "type": "text",
+          "placeholder": "Enter passives",
+          "required": false
+        },
+        {
+          "id": "mar_detractors",
+          "label": "Mar - Detractors",
+          "type": "text",
+          "placeholder": "Enter detractors",
+          "required": false
+        },
+        {
+          "id": "mar_total_responses",
+          "label": "Mar - Total Responses",
+          "type": "text",
+          "placeholder": "Enter total responses",
+          "required": false
+        },
+        {
+          "id": "mar_nps_score",
+          "label": "Mar - NPS Score",
+          "type": "scale",
+          "placeholder": "Enter nps score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "mar_target",
+          "label": "Mar - Target",
+          "type": "number",
+          "placeholder": "Enter target",
+          "required": false
+        },
+        {
+          "id": "mar_trend",
+          "label": "Mar - Trend",
+          "type": "text",
+          "placeholder": "Enter trend",
+          "required": false
+        },
+        {
+          "id": "apr_promoters",
+          "label": "Apr - Promoters",
+          "type": "text",
+          "placeholder": "Enter promoters",
+          "required": false
+        },
+        {
+          "id": "apr_passives",
+          "label": "Apr - Passives",
+          "type": "text",
+          "placeholder": "Enter passives",
+          "required": false
+        },
+        {
+          "id": "apr_detractors",
+          "label": "Apr - Detractors",
+          "type": "text",
+          "placeholder": "Enter detractors",
+          "required": false
+        },
+        {
+          "id": "apr_total_responses",
+          "label": "Apr - Total Responses",
+          "type": "text",
+          "placeholder": "Enter total responses",
+          "required": false
+        },
+        {
+          "id": "apr_nps_score",
+          "label": "Apr - NPS Score",
+          "type": "scale",
+          "placeholder": "Enter nps score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "apr_target",
+          "label": "Apr - Target",
+          "type": "number",
+          "placeholder": "Enter target",
+          "required": false
+        },
+        {
+          "id": "apr_trend",
+          "label": "Apr - Trend",
+          "type": "text",
+          "placeholder": "Enter trend",
+          "required": false
+        },
+        {
+          "id": "may_promoters",
+          "label": "May - Promoters",
+          "type": "text",
+          "placeholder": "Enter promoters",
+          "required": false
+        },
+        {
+          "id": "may_passives",
+          "label": "May - Passives",
+          "type": "text",
+          "placeholder": "Enter passives",
+          "required": false
+        },
+        {
+          "id": "may_detractors",
+          "label": "May - Detractors",
+          "type": "text",
+          "placeholder": "Enter detractors",
+          "required": false
+        },
+        {
+          "id": "may_total_responses",
+          "label": "May - Total Responses",
+          "type": "text",
+          "placeholder": "Enter total responses",
+          "required": false
+        },
+        {
+          "id": "may_nps_score",
+          "label": "May - NPS Score",
+          "type": "scale",
+          "placeholder": "Enter nps score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "may_target",
+          "label": "May - Target",
+          "type": "number",
+          "placeholder": "Enter target",
+          "required": false
+        },
+        {
+          "id": "may_trend",
+          "label": "May - Trend",
+          "type": "text",
+          "placeholder": "Enter trend",
+          "required": false
+        },
+        {
+          "id": "jun_promoters",
+          "label": "Jun - Promoters",
+          "type": "text",
+          "placeholder": "Enter promoters",
+          "required": false
+        },
+        {
+          "id": "jun_passives",
+          "label": "Jun - Passives",
+          "type": "text",
+          "placeholder": "Enter passives",
+          "required": false
+        },
+        {
+          "id": "jun_detractors",
+          "label": "Jun - Detractors",
+          "type": "text",
+          "placeholder": "Enter detractors",
+          "required": false
+        },
+        {
+          "id": "jun_total_responses",
+          "label": "Jun - Total Responses",
+          "type": "text",
+          "placeholder": "Enter total responses",
+          "required": false
+        },
+        {
+          "id": "jun_nps_score",
+          "label": "Jun - NPS Score",
+          "type": "scale",
+          "placeholder": "Enter nps score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "jun_target",
+          "label": "Jun - Target",
+          "type": "number",
+          "placeholder": "Enter target",
+          "required": false
+        },
+        {
+          "id": "jun_trend",
+          "label": "Jun - Trend",
+          "type": "text",
+          "placeholder": "Enter trend",
+          "required": false
+        },
+        {
+          "id": "jul_promoters",
+          "label": "Jul - Promoters",
+          "type": "text",
+          "placeholder": "Enter promoters",
+          "required": false
+        },
+        {
+          "id": "jul_passives",
+          "label": "Jul - Passives",
+          "type": "text",
+          "placeholder": "Enter passives",
+          "required": false
+        },
+        {
+          "id": "jul_detractors",
+          "label": "Jul - Detractors",
+          "type": "text",
+          "placeholder": "Enter detractors",
+          "required": false
+        },
+        {
+          "id": "jul_total_responses",
+          "label": "Jul - Total Responses",
+          "type": "text",
+          "placeholder": "Enter total responses",
+          "required": false
+        },
+        {
+          "id": "jul_nps_score",
+          "label": "Jul - NPS Score",
+          "type": "scale",
+          "placeholder": "Enter nps score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "jul_target",
+          "label": "Jul - Target",
+          "type": "number",
+          "placeholder": "Enter target",
+          "required": false
+        },
+        {
+          "id": "jul_trend",
+          "label": "Jul - Trend",
+          "type": "text",
+          "placeholder": "Enter trend",
+          "required": false
+        },
+        {
+          "id": "aug_promoters",
+          "label": "Aug - Promoters",
+          "type": "text",
+          "placeholder": "Enter promoters",
+          "required": false
+        },
+        {
+          "id": "aug_passives",
+          "label": "Aug - Passives",
+          "type": "text",
+          "placeholder": "Enter passives",
+          "required": false
+        },
+        {
+          "id": "aug_detractors",
+          "label": "Aug - Detractors",
+          "type": "text",
+          "placeholder": "Enter detractors",
+          "required": false
+        },
+        {
+          "id": "aug_total_responses",
+          "label": "Aug - Total Responses",
+          "type": "text",
+          "placeholder": "Enter total responses",
+          "required": false
+        },
+        {
+          "id": "aug_nps_score",
+          "label": "Aug - NPS Score",
+          "type": "scale",
+          "placeholder": "Enter nps score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "aug_target",
+          "label": "Aug - Target",
+          "type": "number",
+          "placeholder": "Enter target",
+          "required": false
+        },
+        {
+          "id": "aug_trend",
+          "label": "Aug - Trend",
+          "type": "text",
+          "placeholder": "Enter trend",
+          "required": false
+        },
+        {
+          "id": "sep_promoters",
+          "label": "Sep - Promoters",
+          "type": "text",
+          "placeholder": "Enter promoters",
+          "required": false
+        },
+        {
+          "id": "sep_passives",
+          "label": "Sep - Passives",
+          "type": "text",
+          "placeholder": "Enter passives",
+          "required": false
+        },
+        {
+          "id": "sep_detractors",
+          "label": "Sep - Detractors",
+          "type": "text",
+          "placeholder": "Enter detractors",
+          "required": false
+        },
+        {
+          "id": "sep_total_responses",
+          "label": "Sep - Total Responses",
+          "type": "text",
+          "placeholder": "Enter total responses",
+          "required": false
+        },
+        {
+          "id": "sep_nps_score",
+          "label": "Sep - NPS Score",
+          "type": "scale",
+          "placeholder": "Enter nps score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "sep_target",
+          "label": "Sep - Target",
+          "type": "number",
+          "placeholder": "Enter target",
+          "required": false
+        },
+        {
+          "id": "sep_trend",
+          "label": "Sep - Trend",
+          "type": "text",
+          "placeholder": "Enter trend",
+          "required": false
+        },
+        {
+          "id": "oct_promoters",
+          "label": "Oct - Promoters",
+          "type": "text",
+          "placeholder": "Enter promoters",
+          "required": false
+        },
+        {
+          "id": "oct_passives",
+          "label": "Oct - Passives",
+          "type": "text",
+          "placeholder": "Enter passives",
+          "required": false
+        },
+        {
+          "id": "oct_detractors",
+          "label": "Oct - Detractors",
+          "type": "text",
+          "placeholder": "Enter detractors",
+          "required": false
+        },
+        {
+          "id": "oct_total_responses",
+          "label": "Oct - Total Responses",
+          "type": "text",
+          "placeholder": "Enter total responses",
+          "required": false
+        },
+        {
+          "id": "oct_nps_score",
+          "label": "Oct - NPS Score",
+          "type": "scale",
+          "placeholder": "Enter nps score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "oct_target",
+          "label": "Oct - Target",
+          "type": "number",
+          "placeholder": "Enter target",
+          "required": false
+        },
+        {
+          "id": "oct_trend",
+          "label": "Oct - Trend",
+          "type": "text",
+          "placeholder": "Enter trend",
+          "required": false
+        },
+        {
+          "id": "nov_promoters",
+          "label": "Nov - Promoters",
+          "type": "text",
+          "placeholder": "Enter promoters",
+          "required": false
+        },
+        {
+          "id": "nov_passives",
+          "label": "Nov - Passives",
+          "type": "text",
+          "placeholder": "Enter passives",
+          "required": false
+        },
+        {
+          "id": "nov_detractors",
+          "label": "Nov - Detractors",
+          "type": "text",
+          "placeholder": "Enter detractors",
+          "required": false
+        },
+        {
+          "id": "nov_total_responses",
+          "label": "Nov - Total Responses",
+          "type": "text",
+          "placeholder": "Enter total responses",
+          "required": false
+        },
+        {
+          "id": "nov_nps_score",
+          "label": "Nov - NPS Score",
+          "type": "scale",
+          "placeholder": "Enter nps score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "nov_target",
+          "label": "Nov - Target",
+          "type": "number",
+          "placeholder": "Enter target",
+          "required": false
+        },
+        {
+          "id": "nov_trend",
+          "label": "Nov - Trend",
+          "type": "text",
+          "placeholder": "Enter trend",
+          "required": false
+        },
+        {
+          "id": "dec_promoters",
+          "label": "Dec - Promoters",
+          "type": "text",
+          "placeholder": "Enter promoters",
+          "required": false
+        },
+        {
+          "id": "dec_passives",
+          "label": "Dec - Passives",
+          "type": "text",
+          "placeholder": "Enter passives",
+          "required": false
+        },
+        {
+          "id": "dec_detractors",
+          "label": "Dec - Detractors",
+          "type": "text",
+          "placeholder": "Enter detractors",
+          "required": false
+        },
+        {
+          "id": "dec_total_responses",
+          "label": "Dec - Total Responses",
+          "type": "text",
+          "placeholder": "Enter total responses",
+          "required": false
+        },
+        {
+          "id": "dec_nps_score",
+          "label": "Dec - NPS Score",
+          "type": "scale",
+          "placeholder": "Enter nps score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "dec_target",
+          "label": "Dec - Target",
+          "type": "number",
+          "placeholder": "Enter target",
+          "required": false
+        },
+        {
+          "id": "dec_trend",
+          "label": "Dec - Trend",
+          "type": "text",
+          "placeholder": "Enter trend",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "competitor_benchmark",
+      "title": "Competitor Benchmark",
+      "description": "Enter data for each item",
+      "fields": [
+        {
+          "id": "competitor_1_awareness",
+          "label": "Competitor 1 - Awareness",
+          "type": "text",
+          "placeholder": "Enter awareness",
+          "required": false
+        },
+        {
+          "id": "competitor_1_consideration",
+          "label": "Competitor 1 - Consideration",
+          "type": "text",
+          "placeholder": "Enter consideration",
+          "required": false
+        },
+        {
+          "id": "competitor_1_preference",
+          "label": "Competitor 1 - Preference",
+          "type": "text",
+          "placeholder": "Enter preference",
+          "required": false
+        },
+        {
+          "id": "competitor_1_nps",
+          "label": "Competitor 1 - NPS",
+          "type": "text",
+          "placeholder": "Enter nps",
+          "required": false
+        },
+        {
+          "id": "competitor_1_sov",
+          "label": "Competitor 1 - SOV",
+          "type": "text",
+          "placeholder": "Enter sov",
+          "required": false
+        },
+        {
+          "id": "competitor_1_social_following",
+          "label": "Competitor 1 - Social Following",
+          "type": "text",
+          "placeholder": "Enter social following",
+          "required": false
+        },
+        {
+          "id": "competitor_1_website_traffic",
+          "label": "Competitor 1 - Website Traffic",
+          "type": "text",
+          "placeholder": "Enter website traffic",
+          "required": false
+        },
+        {
+          "id": "competitor_1_content_score",
+          "label": "Competitor 1 - Content Score",
+          "type": "scale",
+          "placeholder": "Enter content score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "competitor_1_overall_score",
+          "label": "Competitor 1 - Overall Score",
+          "type": "scale",
+          "placeholder": "Enter overall score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "competitor_2_awareness",
+          "label": "Competitor 2 - Awareness",
+          "type": "text",
+          "placeholder": "Enter awareness",
+          "required": false
+        },
+        {
+          "id": "competitor_2_consideration",
+          "label": "Competitor 2 - Consideration",
+          "type": "text",
+          "placeholder": "Enter consideration",
+          "required": false
+        },
+        {
+          "id": "competitor_2_preference",
+          "label": "Competitor 2 - Preference",
+          "type": "text",
+          "placeholder": "Enter preference",
+          "required": false
+        },
+        {
+          "id": "competitor_2_nps",
+          "label": "Competitor 2 - NPS",
+          "type": "text",
+          "placeholder": "Enter nps",
+          "required": false
+        },
+        {
+          "id": "competitor_2_sov",
+          "label": "Competitor 2 - SOV",
+          "type": "text",
+          "placeholder": "Enter sov",
+          "required": false
+        },
+        {
+          "id": "competitor_2_social_following",
+          "label": "Competitor 2 - Social Following",
+          "type": "text",
+          "placeholder": "Enter social following",
+          "required": false
+        },
+        {
+          "id": "competitor_2_website_traffic",
+          "label": "Competitor 2 - Website Traffic",
+          "type": "text",
+          "placeholder": "Enter website traffic",
+          "required": false
+        },
+        {
+          "id": "competitor_2_content_score",
+          "label": "Competitor 2 - Content Score",
+          "type": "scale",
+          "placeholder": "Enter content score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "competitor_2_overall_score",
+          "label": "Competitor 2 - Overall Score",
+          "type": "scale",
+          "placeholder": "Enter overall score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "competitor_3_awareness",
+          "label": "Competitor 3 - Awareness",
+          "type": "text",
+          "placeholder": "Enter awareness",
+          "required": false
+        },
+        {
+          "id": "competitor_3_consideration",
+          "label": "Competitor 3 - Consideration",
+          "type": "text",
+          "placeholder": "Enter consideration",
+          "required": false
+        },
+        {
+          "id": "competitor_3_preference",
+          "label": "Competitor 3 - Preference",
+          "type": "text",
+          "placeholder": "Enter preference",
+          "required": false
+        },
+        {
+          "id": "competitor_3_nps",
+          "label": "Competitor 3 - NPS",
+          "type": "text",
+          "placeholder": "Enter nps",
+          "required": false
+        },
+        {
+          "id": "competitor_3_sov",
+          "label": "Competitor 3 - SOV",
+          "type": "text",
+          "placeholder": "Enter sov",
+          "required": false
+        },
+        {
+          "id": "competitor_3_social_following",
+          "label": "Competitor 3 - Social Following",
+          "type": "text",
+          "placeholder": "Enter social following",
+          "required": false
+        },
+        {
+          "id": "competitor_3_website_traffic",
+          "label": "Competitor 3 - Website Traffic",
+          "type": "text",
+          "placeholder": "Enter website traffic",
+          "required": false
+        },
+        {
+          "id": "competitor_3_content_score",
+          "label": "Competitor 3 - Content Score",
+          "type": "scale",
+          "placeholder": "Enter content score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "competitor_3_overall_score",
+          "label": "Competitor 3 - Overall Score",
+          "type": "scale",
+          "placeholder": "Enter overall score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "competitor_4_awareness",
+          "label": "Competitor 4 - Awareness",
+          "type": "text",
+          "placeholder": "Enter awareness",
+          "required": false
+        },
+        {
+          "id": "competitor_4_consideration",
+          "label": "Competitor 4 - Consideration",
+          "type": "text",
+          "placeholder": "Enter consideration",
+          "required": false
+        },
+        {
+          "id": "competitor_4_preference",
+          "label": "Competitor 4 - Preference",
+          "type": "text",
+          "placeholder": "Enter preference",
+          "required": false
+        },
+        {
+          "id": "competitor_4_nps",
+          "label": "Competitor 4 - NPS",
+          "type": "text",
+          "placeholder": "Enter nps",
+          "required": false
+        },
+        {
+          "id": "competitor_4_sov",
+          "label": "Competitor 4 - SOV",
+          "type": "text",
+          "placeholder": "Enter sov",
+          "required": false
+        },
+        {
+          "id": "competitor_4_social_following",
+          "label": "Competitor 4 - Social Following",
+          "type": "text",
+          "placeholder": "Enter social following",
+          "required": false
+        },
+        {
+          "id": "competitor_4_website_traffic",
+          "label": "Competitor 4 - Website Traffic",
+          "type": "text",
+          "placeholder": "Enter website traffic",
+          "required": false
+        },
+        {
+          "id": "competitor_4_content_score",
+          "label": "Competitor 4 - Content Score",
+          "type": "scale",
+          "placeholder": "Enter content score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "competitor_4_overall_score",
+          "label": "Competitor 4 - Overall Score",
+          "type": "scale",
+          "placeholder": "Enter overall score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "competitor_5_awareness",
+          "label": "Competitor 5 - Awareness",
+          "type": "text",
+          "placeholder": "Enter awareness",
+          "required": false
+        },
+        {
+          "id": "competitor_5_consideration",
+          "label": "Competitor 5 - Consideration",
+          "type": "text",
+          "placeholder": "Enter consideration",
+          "required": false
+        },
+        {
+          "id": "competitor_5_preference",
+          "label": "Competitor 5 - Preference",
+          "type": "text",
+          "placeholder": "Enter preference",
+          "required": false
+        },
+        {
+          "id": "competitor_5_nps",
+          "label": "Competitor 5 - NPS",
+          "type": "text",
+          "placeholder": "Enter nps",
+          "required": false
+        },
+        {
+          "id": "competitor_5_sov",
+          "label": "Competitor 5 - SOV",
+          "type": "text",
+          "placeholder": "Enter sov",
+          "required": false
+        },
+        {
+          "id": "competitor_5_social_following",
+          "label": "Competitor 5 - Social Following",
+          "type": "text",
+          "placeholder": "Enter social following",
+          "required": false
+        },
+        {
+          "id": "competitor_5_website_traffic",
+          "label": "Competitor 5 - Website Traffic",
+          "type": "text",
+          "placeholder": "Enter website traffic",
+          "required": false
+        },
+        {
+          "id": "competitor_5_content_score",
+          "label": "Competitor 5 - Content Score",
+          "type": "scale",
+          "placeholder": "Enter content score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "competitor_5_overall_score",
+          "label": "Competitor 5 - Overall Score",
+          "type": "scale",
+          "placeholder": "Enter overall score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "competitor_6_awareness",
+          "label": "Competitor 6 - Awareness",
+          "type": "text",
+          "placeholder": "Enter awareness",
+          "required": false
+        },
+        {
+          "id": "competitor_6_consideration",
+          "label": "Competitor 6 - Consideration",
+          "type": "text",
+          "placeholder": "Enter consideration",
+          "required": false
+        },
+        {
+          "id": "competitor_6_preference",
+          "label": "Competitor 6 - Preference",
+          "type": "text",
+          "placeholder": "Enter preference",
+          "required": false
+        },
+        {
+          "id": "competitor_6_nps",
+          "label": "Competitor 6 - NPS",
+          "type": "text",
+          "placeholder": "Enter nps",
+          "required": false
+        },
+        {
+          "id": "competitor_6_sov",
+          "label": "Competitor 6 - SOV",
+          "type": "text",
+          "placeholder": "Enter sov",
+          "required": false
+        },
+        {
+          "id": "competitor_6_social_following",
+          "label": "Competitor 6 - Social Following",
+          "type": "text",
+          "placeholder": "Enter social following",
+          "required": false
+        },
+        {
+          "id": "competitor_6_website_traffic",
+          "label": "Competitor 6 - Website Traffic",
+          "type": "text",
+          "placeholder": "Enter website traffic",
+          "required": false
+        },
+        {
+          "id": "competitor_6_content_score",
+          "label": "Competitor 6 - Content Score",
+          "type": "scale",
+          "placeholder": "Enter content score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "competitor_6_overall_score",
+          "label": "Competitor 6 - Overall Score",
+          "type": "scale",
+          "placeholder": "Enter overall score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "competitor_7_awareness",
+          "label": "Competitor 7 - Awareness",
+          "type": "text",
+          "placeholder": "Enter awareness",
+          "required": false
+        },
+        {
+          "id": "competitor_7_consideration",
+          "label": "Competitor 7 - Consideration",
+          "type": "text",
+          "placeholder": "Enter consideration",
+          "required": false
+        },
+        {
+          "id": "competitor_7_preference",
+          "label": "Competitor 7 - Preference",
+          "type": "text",
+          "placeholder": "Enter preference",
+          "required": false
+        },
+        {
+          "id": "competitor_7_nps",
+          "label": "Competitor 7 - NPS",
+          "type": "text",
+          "placeholder": "Enter nps",
+          "required": false
+        },
+        {
+          "id": "competitor_7_sov",
+          "label": "Competitor 7 - SOV",
+          "type": "text",
+          "placeholder": "Enter sov",
+          "required": false
+        },
+        {
+          "id": "competitor_7_social_following",
+          "label": "Competitor 7 - Social Following",
+          "type": "text",
+          "placeholder": "Enter social following",
+          "required": false
+        },
+        {
+          "id": "competitor_7_website_traffic",
+          "label": "Competitor 7 - Website Traffic",
+          "type": "text",
+          "placeholder": "Enter website traffic",
+          "required": false
+        },
+        {
+          "id": "competitor_7_content_score",
+          "label": "Competitor 7 - Content Score",
+          "type": "scale",
+          "placeholder": "Enter content score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "competitor_7_overall_score",
+          "label": "Competitor 7 - Overall Score",
+          "type": "scale",
+          "placeholder": "Enter overall score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "competitor_8_awareness",
+          "label": "Competitor 8 - Awareness",
+          "type": "text",
+          "placeholder": "Enter awareness",
+          "required": false
+        },
+        {
+          "id": "competitor_8_consideration",
+          "label": "Competitor 8 - Consideration",
+          "type": "text",
+          "placeholder": "Enter consideration",
+          "required": false
+        },
+        {
+          "id": "competitor_8_preference",
+          "label": "Competitor 8 - Preference",
+          "type": "text",
+          "placeholder": "Enter preference",
+          "required": false
+        },
+        {
+          "id": "competitor_8_nps",
+          "label": "Competitor 8 - NPS",
+          "type": "text",
+          "placeholder": "Enter nps",
+          "required": false
+        },
+        {
+          "id": "competitor_8_sov",
+          "label": "Competitor 8 - SOV",
+          "type": "text",
+          "placeholder": "Enter sov",
+          "required": false
+        },
+        {
+          "id": "competitor_8_social_following",
+          "label": "Competitor 8 - Social Following",
+          "type": "text",
+          "placeholder": "Enter social following",
+          "required": false
+        },
+        {
+          "id": "competitor_8_website_traffic",
+          "label": "Competitor 8 - Website Traffic",
+          "type": "text",
+          "placeholder": "Enter website traffic",
+          "required": false
+        },
+        {
+          "id": "competitor_8_content_score",
+          "label": "Competitor 8 - Content Score",
+          "type": "scale",
+          "placeholder": "Enter content score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "competitor_8_overall_score",
+          "label": "Competitor 8 - Overall Score",
+          "type": "scale",
+          "placeholder": "Enter overall score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "competitor_9_awareness",
+          "label": "Competitor 9 - Awareness",
+          "type": "text",
+          "placeholder": "Enter awareness",
+          "required": false
+        },
+        {
+          "id": "competitor_9_consideration",
+          "label": "Competitor 9 - Consideration",
+          "type": "text",
+          "placeholder": "Enter consideration",
+          "required": false
+        },
+        {
+          "id": "competitor_9_preference",
+          "label": "Competitor 9 - Preference",
+          "type": "text",
+          "placeholder": "Enter preference",
+          "required": false
+        },
+        {
+          "id": "competitor_9_nps",
+          "label": "Competitor 9 - NPS",
+          "type": "text",
+          "placeholder": "Enter nps",
+          "required": false
+        },
+        {
+          "id": "competitor_9_sov",
+          "label": "Competitor 9 - SOV",
+          "type": "text",
+          "placeholder": "Enter sov",
+          "required": false
+        },
+        {
+          "id": "competitor_9_social_following",
+          "label": "Competitor 9 - Social Following",
+          "type": "text",
+          "placeholder": "Enter social following",
+          "required": false
+        },
+        {
+          "id": "competitor_9_website_traffic",
+          "label": "Competitor 9 - Website Traffic",
+          "type": "text",
+          "placeholder": "Enter website traffic",
+          "required": false
+        },
+        {
+          "id": "competitor_9_content_score",
+          "label": "Competitor 9 - Content Score",
+          "type": "scale",
+          "placeholder": "Enter content score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "competitor_9_overall_score",
+          "label": "Competitor 9 - Overall Score",
+          "type": "scale",
+          "placeholder": "Enter overall score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "competitor_10_awareness",
+          "label": "Competitor 10 - Awareness",
+          "type": "text",
+          "placeholder": "Enter awareness",
+          "required": false
+        },
+        {
+          "id": "competitor_10_consideration",
+          "label": "Competitor 10 - Consideration",
+          "type": "text",
+          "placeholder": "Enter consideration",
+          "required": false
+        },
+        {
+          "id": "competitor_10_preference",
+          "label": "Competitor 10 - Preference",
+          "type": "text",
+          "placeholder": "Enter preference",
+          "required": false
+        },
+        {
+          "id": "competitor_10_nps",
+          "label": "Competitor 10 - NPS",
+          "type": "text",
+          "placeholder": "Enter nps",
+          "required": false
+        },
+        {
+          "id": "competitor_10_sov",
+          "label": "Competitor 10 - SOV",
+          "type": "text",
+          "placeholder": "Enter sov",
+          "required": false
+        },
+        {
+          "id": "competitor_10_social_following",
+          "label": "Competitor 10 - Social Following",
+          "type": "text",
+          "placeholder": "Enter social following",
+          "required": false
+        },
+        {
+          "id": "competitor_10_website_traffic",
+          "label": "Competitor 10 - Website Traffic",
+          "type": "text",
+          "placeholder": "Enter website traffic",
+          "required": false
+        },
+        {
+          "id": "competitor_10_content_score",
+          "label": "Competitor 10 - Content Score",
+          "type": "scale",
+          "placeholder": "Enter content score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "competitor_10_overall_score",
+          "label": "Competitor 10 - Overall Score",
+          "type": "scale",
+          "placeholder": "Enter overall score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "channel_health",
+      "title": "Channel Health",
+      "description": "Enter data for each item",
+      "fields": [
+        {
+          "id": "email_reach",
+          "label": "Email - Reach",
+          "type": "text",
+          "placeholder": "Enter reach",
+          "required": false
+        },
+        {
+          "id": "email_engagement_rate",
+          "label": "Email - Engagement Rate",
+          "type": "number",
+          "placeholder": "Enter engagement rate",
+          "required": false
+        },
+        {
+          "id": "email_sentiment",
+          "label": "Email - Sentiment",
+          "type": "text",
+          "placeholder": "Enter sentiment",
+          "required": false
+        },
+        {
+          "id": "email_growth_rate",
+          "label": "Email - Growth Rate",
+          "type": "number",
+          "placeholder": "Enter growth rate",
+          "required": false
+        },
+        {
+          "id": "email_cost_per_engagement",
+          "label": "Email - Cost per Engagement",
+          "type": "number",
+          "placeholder": "Enter cost per engagement",
+          "required": false
+        },
+        {
+          "id": "email_health_score",
+          "label": "Email - Health Score",
+          "type": "scale",
+          "placeholder": "Enter health score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "email_status",
+          "label": "Email - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "email_notes",
+          "label": "Email - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "social_media_reach",
+          "label": "Social Media - Reach",
+          "type": "text",
+          "placeholder": "Enter reach",
+          "required": false
+        },
+        {
+          "id": "social_media_engagement_rate",
+          "label": "Social Media - Engagement Rate",
+          "type": "number",
+          "placeholder": "Enter engagement rate",
+          "required": false
+        },
+        {
+          "id": "social_media_sentiment",
+          "label": "Social Media - Sentiment",
+          "type": "text",
+          "placeholder": "Enter sentiment",
+          "required": false
+        },
+        {
+          "id": "social_media_growth_rate",
+          "label": "Social Media - Growth Rate",
+          "type": "number",
+          "placeholder": "Enter growth rate",
+          "required": false
+        },
+        {
+          "id": "social_media_cost_per_engagement",
+          "label": "Social Media - Cost per Engagement",
+          "type": "number",
+          "placeholder": "Enter cost per engagement",
+          "required": false
+        },
+        {
+          "id": "social_media_health_score",
+          "label": "Social Media - Health Score",
+          "type": "scale",
+          "placeholder": "Enter health score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "social_media_status",
+          "label": "Social Media - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "social_media_notes",
+          "label": "Social Media - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "paid_search_reach",
+          "label": "Paid Search - Reach",
+          "type": "text",
+          "placeholder": "Enter reach",
+          "required": false
+        },
+        {
+          "id": "paid_search_engagement_rate",
+          "label": "Paid Search - Engagement Rate",
+          "type": "number",
+          "placeholder": "Enter engagement rate",
+          "required": false
+        },
+        {
+          "id": "paid_search_sentiment",
+          "label": "Paid Search - Sentiment",
+          "type": "text",
+          "placeholder": "Enter sentiment",
+          "required": false
+        },
+        {
+          "id": "paid_search_growth_rate",
+          "label": "Paid Search - Growth Rate",
+          "type": "number",
+          "placeholder": "Enter growth rate",
+          "required": false
+        },
+        {
+          "id": "paid_search_cost_per_engagement",
+          "label": "Paid Search - Cost per Engagement",
+          "type": "number",
+          "placeholder": "Enter cost per engagement",
+          "required": false
+        },
+        {
+          "id": "paid_search_health_score",
+          "label": "Paid Search - Health Score",
+          "type": "scale",
+          "placeholder": "Enter health score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "paid_search_status",
+          "label": "Paid Search - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "paid_search_notes",
+          "label": "Paid Search - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "display_ads_reach",
+          "label": "Display Ads - Reach",
+          "type": "text",
+          "placeholder": "Enter reach",
+          "required": false
+        },
+        {
+          "id": "display_ads_engagement_rate",
+          "label": "Display Ads - Engagement Rate",
+          "type": "number",
+          "placeholder": "Enter engagement rate",
+          "required": false
+        },
+        {
+          "id": "display_ads_sentiment",
+          "label": "Display Ads - Sentiment",
+          "type": "text",
+          "placeholder": "Enter sentiment",
+          "required": false
+        },
+        {
+          "id": "display_ads_growth_rate",
+          "label": "Display Ads - Growth Rate",
+          "type": "number",
+          "placeholder": "Enter growth rate",
+          "required": false
+        },
+        {
+          "id": "display_ads_cost_per_engagement",
+          "label": "Display Ads - Cost per Engagement",
+          "type": "number",
+          "placeholder": "Enter cost per engagement",
+          "required": false
+        },
+        {
+          "id": "display_ads_health_score",
+          "label": "Display Ads - Health Score",
+          "type": "scale",
+          "placeholder": "Enter health score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "display_ads_status",
+          "label": "Display Ads - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "display_ads_notes",
+          "label": "Display Ads - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "seo_reach",
+          "label": "SEO - Reach",
+          "type": "text",
+          "placeholder": "Enter reach",
+          "required": false
+        },
+        {
+          "id": "seo_engagement_rate",
+          "label": "SEO - Engagement Rate",
+          "type": "number",
+          "placeholder": "Enter engagement rate",
+          "required": false
+        },
+        {
+          "id": "seo_sentiment",
+          "label": "SEO - Sentiment",
+          "type": "text",
+          "placeholder": "Enter sentiment",
+          "required": false
+        },
+        {
+          "id": "seo_growth_rate",
+          "label": "SEO - Growth Rate",
+          "type": "number",
+          "placeholder": "Enter growth rate",
+          "required": false
+        },
+        {
+          "id": "seo_cost_per_engagement",
+          "label": "SEO - Cost per Engagement",
+          "type": "number",
+          "placeholder": "Enter cost per engagement",
+          "required": false
+        },
+        {
+          "id": "seo_health_score",
+          "label": "SEO - Health Score",
+          "type": "scale",
+          "placeholder": "Enter health score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "seo_status",
+          "label": "SEO - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "seo_notes",
+          "label": "SEO - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "content_marketing_reach",
+          "label": "Content Marketing - Reach",
+          "type": "text",
+          "placeholder": "Enter reach",
+          "required": false
+        },
+        {
+          "id": "content_marketing_engagement_rate",
+          "label": "Content Marketing - Engagement Rate",
+          "type": "number",
+          "placeholder": "Enter engagement rate",
+          "required": false
+        },
+        {
+          "id": "content_marketing_sentiment",
+          "label": "Content Marketing - Sentiment",
+          "type": "text",
+          "placeholder": "Enter sentiment",
+          "required": false
+        },
+        {
+          "id": "content_marketing_growth_rate",
+          "label": "Content Marketing - Growth Rate",
+          "type": "number",
+          "placeholder": "Enter growth rate",
+          "required": false
+        },
+        {
+          "id": "content_marketing_cost_per_engagement",
+          "label": "Content Marketing - Cost per Engagement",
+          "type": "number",
+          "placeholder": "Enter cost per engagement",
+          "required": false
+        },
+        {
+          "id": "content_marketing_health_score",
+          "label": "Content Marketing - Health Score",
+          "type": "scale",
+          "placeholder": "Enter health score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "content_marketing_status",
+          "label": "Content Marketing - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "content_marketing_notes",
+          "label": "Content Marketing - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "influencer_reach",
+          "label": "Influencer - Reach",
+          "type": "text",
+          "placeholder": "Enter reach",
+          "required": false
+        },
+        {
+          "id": "influencer_engagement_rate",
+          "label": "Influencer - Engagement Rate",
+          "type": "number",
+          "placeholder": "Enter engagement rate",
+          "required": false
+        },
+        {
+          "id": "influencer_sentiment",
+          "label": "Influencer - Sentiment",
+          "type": "text",
+          "placeholder": "Enter sentiment",
+          "required": false
+        },
+        {
+          "id": "influencer_growth_rate",
+          "label": "Influencer - Growth Rate",
+          "type": "number",
+          "placeholder": "Enter growth rate",
+          "required": false
+        },
+        {
+          "id": "influencer_cost_per_engagement",
+          "label": "Influencer - Cost per Engagement",
+          "type": "number",
+          "placeholder": "Enter cost per engagement",
+          "required": false
+        },
+        {
+          "id": "influencer_health_score",
+          "label": "Influencer - Health Score",
+          "type": "scale",
+          "placeholder": "Enter health score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "influencer_status",
+          "label": "Influencer - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "influencer_notes",
+          "label": "Influencer - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "video_reach",
+          "label": "Video - Reach",
+          "type": "text",
+          "placeholder": "Enter reach",
+          "required": false
+        },
+        {
+          "id": "video_engagement_rate",
+          "label": "Video - Engagement Rate",
+          "type": "number",
+          "placeholder": "Enter engagement rate",
+          "required": false
+        },
+        {
+          "id": "video_sentiment",
+          "label": "Video - Sentiment",
+          "type": "text",
+          "placeholder": "Enter sentiment",
+          "required": false
+        },
+        {
+          "id": "video_growth_rate",
+          "label": "Video - Growth Rate",
+          "type": "number",
+          "placeholder": "Enter growth rate",
+          "required": false
+        },
+        {
+          "id": "video_cost_per_engagement",
+          "label": "Video - Cost per Engagement",
+          "type": "number",
+          "placeholder": "Enter cost per engagement",
+          "required": false
+        },
+        {
+          "id": "video_health_score",
+          "label": "Video - Health Score",
+          "type": "scale",
+          "placeholder": "Enter health score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "video_status",
+          "label": "Video - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "video_notes",
+          "label": "Video - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "retargeting_reach",
+          "label": "Retargeting - Reach",
+          "type": "text",
+          "placeholder": "Enter reach",
+          "required": false
+        },
+        {
+          "id": "retargeting_engagement_rate",
+          "label": "Retargeting - Engagement Rate",
+          "type": "number",
+          "placeholder": "Enter engagement rate",
+          "required": false
+        },
+        {
+          "id": "retargeting_sentiment",
+          "label": "Retargeting - Sentiment",
+          "type": "text",
+          "placeholder": "Enter sentiment",
+          "required": false
+        },
+        {
+          "id": "retargeting_growth_rate",
+          "label": "Retargeting - Growth Rate",
+          "type": "number",
+          "placeholder": "Enter growth rate",
+          "required": false
+        },
+        {
+          "id": "retargeting_cost_per_engagement",
+          "label": "Retargeting - Cost per Engagement",
+          "type": "number",
+          "placeholder": "Enter cost per engagement",
+          "required": false
+        },
+        {
+          "id": "retargeting_health_score",
+          "label": "Retargeting - Health Score",
+          "type": "scale",
+          "placeholder": "Enter health score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "retargeting_status",
+          "label": "Retargeting - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "retargeting_notes",
+          "label": "Retargeting - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "sms_reach",
+          "label": "SMS - Reach",
+          "type": "text",
+          "placeholder": "Enter reach",
+          "required": false
+        },
+        {
+          "id": "sms_engagement_rate",
+          "label": "SMS - Engagement Rate",
+          "type": "number",
+          "placeholder": "Enter engagement rate",
+          "required": false
+        },
+        {
+          "id": "sms_sentiment",
+          "label": "SMS - Sentiment",
+          "type": "text",
+          "placeholder": "Enter sentiment",
+          "required": false
+        },
+        {
+          "id": "sms_growth_rate",
+          "label": "SMS - Growth Rate",
+          "type": "number",
+          "placeholder": "Enter growth rate",
+          "required": false
+        },
+        {
+          "id": "sms_cost_per_engagement",
+          "label": "SMS - Cost per Engagement",
+          "type": "number",
+          "placeholder": "Enter cost per engagement",
+          "required": false
+        },
+        {
+          "id": "sms_health_score",
+          "label": "SMS - Health Score",
+          "type": "scale",
+          "placeholder": "Enter health score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "sms_status",
+          "label": "SMS - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "sms_notes",
+          "label": "SMS - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "brand_equity_tracker",
+      "title": "Brand Equity Tracker",
+      "description": "Enter data for each item",
+      "fields": [
+        {
+          "id": "q1_brand_value",
+          "label": "Q1 - Brand Value",
+          "type": "text",
+          "placeholder": "Enter brand value",
+          "required": false
+        },
+        {
+          "id": "q1_brand_strength",
+          "label": "Q1 - Brand Strength",
+          "type": "text",
+          "placeholder": "Enter brand strength",
+          "required": false
+        },
+        {
+          "id": "q1_brand_stature",
+          "label": "Q1 - Brand Stature",
+          "type": "text",
+          "placeholder": "Enter brand stature",
+          "required": false
+        },
+        {
+          "id": "q1_brand_vitality",
+          "label": "Q1 - Brand Vitality",
+          "type": "text",
+          "placeholder": "Enter brand vitality",
+          "required": false
+        },
+        {
+          "id": "q1_overall_equity_score",
+          "label": "Q1 - Overall Equity Score",
+          "type": "scale",
+          "placeholder": "Enter overall equity score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "q1_yoy_change",
+          "label": "Q1 - YoY Change %",
+          "type": "number",
+          "placeholder": "Enter yoy change %",
+          "required": false
+        },
+        {
+          "id": "q2_brand_value",
+          "label": "Q2 - Brand Value",
+          "type": "text",
+          "placeholder": "Enter brand value",
+          "required": false
+        },
+        {
+          "id": "q2_brand_strength",
+          "label": "Q2 - Brand Strength",
+          "type": "text",
+          "placeholder": "Enter brand strength",
+          "required": false
+        },
+        {
+          "id": "q2_brand_stature",
+          "label": "Q2 - Brand Stature",
+          "type": "text",
+          "placeholder": "Enter brand stature",
+          "required": false
+        },
+        {
+          "id": "q2_brand_vitality",
+          "label": "Q2 - Brand Vitality",
+          "type": "text",
+          "placeholder": "Enter brand vitality",
+          "required": false
+        },
+        {
+          "id": "q2_overall_equity_score",
+          "label": "Q2 - Overall Equity Score",
+          "type": "scale",
+          "placeholder": "Enter overall equity score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "q2_yoy_change",
+          "label": "Q2 - YoY Change %",
+          "type": "number",
+          "placeholder": "Enter yoy change %",
+          "required": false
+        },
+        {
+          "id": "q3_brand_value",
+          "label": "Q3 - Brand Value",
+          "type": "text",
+          "placeholder": "Enter brand value",
+          "required": false
+        },
+        {
+          "id": "q3_brand_strength",
+          "label": "Q3 - Brand Strength",
+          "type": "text",
+          "placeholder": "Enter brand strength",
+          "required": false
+        },
+        {
+          "id": "q3_brand_stature",
+          "label": "Q3 - Brand Stature",
+          "type": "text",
+          "placeholder": "Enter brand stature",
+          "required": false
+        },
+        {
+          "id": "q3_brand_vitality",
+          "label": "Q3 - Brand Vitality",
+          "type": "text",
+          "placeholder": "Enter brand vitality",
+          "required": false
+        },
+        {
+          "id": "q3_overall_equity_score",
+          "label": "Q3 - Overall Equity Score",
+          "type": "scale",
+          "placeholder": "Enter overall equity score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "q3_yoy_change",
+          "label": "Q3 - YoY Change %",
+          "type": "number",
+          "placeholder": "Enter yoy change %",
+          "required": false
+        },
+        {
+          "id": "q4_brand_value",
+          "label": "Q4 - Brand Value",
+          "type": "text",
+          "placeholder": "Enter brand value",
+          "required": false
+        },
+        {
+          "id": "q4_brand_strength",
+          "label": "Q4 - Brand Strength",
+          "type": "text",
+          "placeholder": "Enter brand strength",
+          "required": false
+        },
+        {
+          "id": "q4_brand_stature",
+          "label": "Q4 - Brand Stature",
+          "type": "text",
+          "placeholder": "Enter brand stature",
+          "required": false
+        },
+        {
+          "id": "q4_brand_vitality",
+          "label": "Q4 - Brand Vitality",
+          "type": "text",
+          "placeholder": "Enter brand vitality",
+          "required": false
+        },
+        {
+          "id": "q4_overall_equity_score",
+          "label": "Q4 - Overall Equity Score",
+          "type": "scale",
+          "placeholder": "Enter overall equity score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "q4_yoy_change",
+          "label": "Q4 - YoY Change %",
+          "type": "number",
+          "placeholder": "Enter yoy change %",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "action_plan",
+      "title": "Action Plan",
+      "description": "Add entries below. Each entry has the following fields.",
+      "fields": [
+        {
+          "id": "entry_issue",
+          "label": "Issue",
+          "type": "text",
+          "placeholder": "Enter issue",
+          "required": false
+        },
+        {
+          "id": "entry_dimension",
+          "label": "Dimension",
+          "type": "text",
+          "placeholder": "Enter dimension",
+          "required": false
+        },
+        {
+          "id": "entry_priority",
+          "label": "Priority",
+          "type": "select",
+          "placeholder": "Enter priority",
+          "required": false,
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "entry_action_required",
+          "label": "Action Required",
+          "type": "textarea",
+          "placeholder": "Enter action required",
+          "required": false
+        },
+        {
+          "id": "entry_owner",
+          "label": "Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "entry_due_date",
+          "label": "Due Date",
+          "type": "text",
+          "placeholder": "Enter due date",
+          "required": false
+        },
+        {
+          "id": "entry_expected_impact",
+          "label": "Expected Impact",
+          "type": "text",
+          "placeholder": "Enter expected impact",
+          "required": false
+        },
+        {
+          "id": "entry_status",
+          "label": "Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "entry_notes",
+          "label": "Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        }
+      ]
+    }
+  ]
 }

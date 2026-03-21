@@ -10,330 +10,6 @@
     "growth"
   ],
   "estimatedTime": "65 min",
-  "sections": [
-    {
-      "id": "dashboard",
-      "title": "Dashboard",
-      "description": "Complete the Dashboard section",
-      "fields": [
-        {
-          "id": "pipeline_by_stage_0",
-          "label": "PIPELINE BY STAGE",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "stage_1",
-          "label": "Stage",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "cold_2",
-          "label": "Cold",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "warm_3",
-          "label": "Warm",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "mql_4",
-          "label": "MQL",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "sql_5",
-          "label": "SQL",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "fit_vs_engagement_analysis_6",
-          "label": "FIT vs ENGAGEMENT ANALYSIS",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "high_fit_high_engage_sqls_7",
-          "label": "High FIT, High Engage (SQLs)",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "high_fit_low_engage_nurture_8",
-          "label": "High FIT, Low Engage (Nurture)",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "low_fit_high_engage_educate_9",
-          "label": "Low FIT, High Engage (Educate)",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "low_fit_low_engage_cold_10",
-          "label": "Low FIT, Low Engage (Cold)",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "scoring_health_check_11",
-          "label": "SCORING HEALTH CHECK",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "mql_to_sql_ratio_12",
-          "label": "MQL-to-SQL Ratio",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "sql_of_total_13",
-          "label": "SQL % of Total",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "cold_of_total_14",
-          "label": "Cold % of Total",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "leads_without_score_15",
-          "label": "Leads Without Score",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "scoring_criteria",
-      "title": "Scoring Criteria",
-      "description": "Complete the Scoring Criteria section",
-      "fields": [
-        {
-          "id": "decision_maker_level_0",
-          "label": "Decision-maker level",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "employee_count_or_revenue_1",
-          "label": "Employee count or revenue",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "alignment_with_icp_industry_2",
-          "label": "Alignment with ICP industry",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "location_fit_3",
-          "label": "Location fit",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "purchase_decision_power_4",
-          "label": "Purchase decision power",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "uses_compatible_tech_stack_5",
-          "label": "Uses compatible tech stack",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "hiring_funding_expansion_6",
-          "label": "Hiring, funding, expansion",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "problem_matches_your_solution_7",
-          "label": "Problem matches your solution",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "description_8",
-          "label": "Description",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "multiple_site_visits_9",
-          "label": "Multiple site visits",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "pricing_demo_case_study_10",
-          "label": "Pricing, demo, case study",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "gated_content_template_11",
-          "label": "Gated content / template",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "consistent_email_engagement_12",
-          "label": "Consistent email engagement",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "clicked_cta_in_email_13",
-          "label": "Clicked CTA in email",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "contact_demo_request_quote_14",
-          "label": "Contact, demo request, quote",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "webinar_workshop_conference_15",
-          "label": "Webinar, workshop, conference",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "likes_shares_comments_16",
-          "label": "Likes, shares, comments",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "came_back_after_7_days_17",
-          "label": "Came back after 7+ days",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "started_using_product_18",
-          "label": "Started using product",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "action_19",
-          "label": "Action",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "add_to_nurture_sequence_20",
-          "label": "Add to nurture sequence",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "personalized_outreach_21",
-          "label": "Personalized outreach",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "sales_handoff_22",
-          "label": "Sales handoff",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "direct_sales_contact_23",
-          "label": "Direct sales contact",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "lead_scorer",
-      "title": "Lead Scorer",
-      "description": "Complete the Lead Scorer section",
-      "fields": [
-        {
-          "id": "sarah_chen_0",
-          "label": "Sarah Chen",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "james_miller_1",
-          "label": "James Miller",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "maria_lopez_2",
-          "label": "Maria Lopez",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    }
-  ],
   "dashboard": {
     "metrics": [
       {
@@ -362,5 +38,1570 @@
         "format": "number"
       }
     ]
-  }
+  },
+  "sections": [
+    {
+      "id": "dashboard",
+      "title": "Dashboard",
+      "description": "Auto-calculated summary of your data. Complete the working sections to see results here.",
+      "readOnly": true,
+      "fields": [
+        {
+          "id": "dashboard_overview",
+          "label": "Dashboard Overview",
+          "type": "textarea",
+          "placeholder": "Dashboard metrics will be calculated from your inputs in the working sections",
+          "required": false,
+          "readOnly": true
+        }
+      ]
+    },
+    {
+      "id": "scoring_criteria",
+      "title": "Scoring Criteria",
+      "description": "Enter data for each item",
+      "fields": [
+        {
+          "id": "job_titleseniority_points",
+          "label": "Job Title/Seniority - Points",
+          "type": "text",
+          "placeholder": "Enter points",
+          "required": false
+        },
+        {
+          "id": "job_titleseniority_description",
+          "label": "Job Title/Seniority - Description",
+          "type": "textarea",
+          "placeholder": "Enter description",
+          "required": false
+        },
+        {
+          "id": "job_titleseniority_example_high_score",
+          "label": "Job Title/Seniority - Example: High Score",
+          "type": "scale",
+          "placeholder": "Enter example: high score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "job_titleseniority_example_low_score",
+          "label": "Job Title/Seniority - Example: Low Score",
+          "type": "scale",
+          "placeholder": "Enter example: low score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "company_size_points",
+          "label": "Company Size - Points",
+          "type": "text",
+          "placeholder": "Enter points",
+          "required": false
+        },
+        {
+          "id": "company_size_description",
+          "label": "Company Size - Description",
+          "type": "textarea",
+          "placeholder": "Enter description",
+          "required": false
+        },
+        {
+          "id": "company_size_example_high_score",
+          "label": "Company Size - Example: High Score",
+          "type": "scale",
+          "placeholder": "Enter example: high score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "company_size_example_low_score",
+          "label": "Company Size - Example: Low Score",
+          "type": "scale",
+          "placeholder": "Enter example: low score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "industry_match_points",
+          "label": "Industry Match - Points",
+          "type": "text",
+          "placeholder": "Enter points",
+          "required": false
+        },
+        {
+          "id": "industry_match_description",
+          "label": "Industry Match - Description",
+          "type": "textarea",
+          "placeholder": "Enter description",
+          "required": false
+        },
+        {
+          "id": "industry_match_example_high_score",
+          "label": "Industry Match - Example: High Score",
+          "type": "scale",
+          "placeholder": "Enter example: high score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "industry_match_example_low_score",
+          "label": "Industry Match - Example: Low Score",
+          "type": "scale",
+          "placeholder": "Enter example: low score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "geography_points",
+          "label": "Geography - Points",
+          "type": "text",
+          "placeholder": "Enter points",
+          "required": false
+        },
+        {
+          "id": "geography_description",
+          "label": "Geography - Description",
+          "type": "textarea",
+          "placeholder": "Enter description",
+          "required": false
+        },
+        {
+          "id": "geography_example_high_score",
+          "label": "Geography - Example: High Score",
+          "type": "scale",
+          "placeholder": "Enter example: high score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "geography_example_low_score",
+          "label": "Geography - Example: Low Score",
+          "type": "scale",
+          "placeholder": "Enter example: low score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "budget_authority_points",
+          "label": "Budget Authority - Points",
+          "type": "text",
+          "placeholder": "Enter points",
+          "required": false
+        },
+        {
+          "id": "budget_authority_description",
+          "label": "Budget Authority - Description",
+          "type": "textarea",
+          "placeholder": "Enter description",
+          "required": false
+        },
+        {
+          "id": "budget_authority_example_high_score",
+          "label": "Budget Authority - Example: High Score",
+          "type": "scale",
+          "placeholder": "Enter example: high score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "budget_authority_example_low_score",
+          "label": "Budget Authority - Example: Low Score",
+          "type": "scale",
+          "placeholder": "Enter example: low score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "technology_fit_points",
+          "label": "Technology Fit - Points",
+          "type": "text",
+          "placeholder": "Enter points",
+          "required": false
+        },
+        {
+          "id": "technology_fit_description",
+          "label": "Technology Fit - Description",
+          "type": "textarea",
+          "placeholder": "Enter description",
+          "required": false
+        },
+        {
+          "id": "technology_fit_example_high_score",
+          "label": "Technology Fit - Example: High Score",
+          "type": "scale",
+          "placeholder": "Enter example: high score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "technology_fit_example_low_score",
+          "label": "Technology Fit - Example: Low Score",
+          "type": "scale",
+          "placeholder": "Enter example: low score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "company_growth_points",
+          "label": "Company Growth - Points",
+          "type": "text",
+          "placeholder": "Enter points",
+          "required": false
+        },
+        {
+          "id": "company_growth_description",
+          "label": "Company Growth - Description",
+          "type": "textarea",
+          "placeholder": "Enter description",
+          "required": false
+        },
+        {
+          "id": "company_growth_example_high_score",
+          "label": "Company Growth - Example: High Score",
+          "type": "scale",
+          "placeholder": "Enter example: high score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "company_growth_example_low_score",
+          "label": "Company Growth - Example: Low Score",
+          "type": "scale",
+          "placeholder": "Enter example: low score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "pain_point_match_points",
+          "label": "Pain Point Match - Points",
+          "type": "text",
+          "placeholder": "Enter points",
+          "required": false
+        },
+        {
+          "id": "pain_point_match_description",
+          "label": "Pain Point Match - Description",
+          "type": "textarea",
+          "placeholder": "Enter description",
+          "required": false
+        },
+        {
+          "id": "pain_point_match_example_high_score",
+          "label": "Pain Point Match - Example: High Score",
+          "type": "scale",
+          "placeholder": "Enter example: high score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "pain_point_match_example_low_score",
+          "label": "Pain Point Match - Example: Low Score",
+          "type": "scale",
+          "placeholder": "Enter example: low score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "criteria_points",
+          "label": "Criteria - Points",
+          "type": "text",
+          "placeholder": "Enter points",
+          "required": false
+        },
+        {
+          "id": "criteria_description",
+          "label": "Criteria - Description",
+          "type": "textarea",
+          "placeholder": "Enter description",
+          "required": false
+        },
+        {
+          "id": "criteria_example_high_score",
+          "label": "Criteria - Example: High Score",
+          "type": "scale",
+          "placeholder": "Enter example: high score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "criteria_example_low_score",
+          "label": "Criteria - Example: Low Score",
+          "type": "scale",
+          "placeholder": "Enter example: low score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "website_visits_5_points",
+          "label": "Website Visits (5+) - Points",
+          "type": "text",
+          "placeholder": "Enter points",
+          "required": false
+        },
+        {
+          "id": "website_visits_5_description",
+          "label": "Website Visits (5+) - Description",
+          "type": "textarea",
+          "placeholder": "Enter description",
+          "required": false
+        },
+        {
+          "id": "website_visits_5_example_high_score",
+          "label": "Website Visits (5+) - Example: High Score",
+          "type": "scale",
+          "placeholder": "Enter example: high score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "website_visits_5_example_low_score",
+          "label": "Website Visits (5+) - Example: Low Score",
+          "type": "scale",
+          "placeholder": "Enter example: low score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "key_page_visit_points",
+          "label": "Key Page Visit - Points",
+          "type": "text",
+          "placeholder": "Enter points",
+          "required": false
+        },
+        {
+          "id": "key_page_visit_description",
+          "label": "Key Page Visit - Description",
+          "type": "textarea",
+          "placeholder": "Enter description",
+          "required": false
+        },
+        {
+          "id": "key_page_visit_example_high_score",
+          "label": "Key Page Visit - Example: High Score",
+          "type": "scale",
+          "placeholder": "Enter example: high score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "key_page_visit_example_low_score",
+          "label": "Key Page Visit - Example: Low Score",
+          "type": "scale",
+          "placeholder": "Enter example: low score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "content_download_points",
+          "label": "Content Download - Points",
+          "type": "text",
+          "placeholder": "Enter points",
+          "required": false
+        },
+        {
+          "id": "content_download_description",
+          "label": "Content Download - Description",
+          "type": "textarea",
+          "placeholder": "Enter description",
+          "required": false
+        },
+        {
+          "id": "content_download_example_high_score",
+          "label": "Content Download - Example: High Score",
+          "type": "scale",
+          "placeholder": "Enter example: high score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "content_download_example_low_score",
+          "label": "Content Download - Example: Low Score",
+          "type": "scale",
+          "placeholder": "Enter example: low score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "email_opens_3_points",
+          "label": "Email Opens (3+) - Points",
+          "type": "text",
+          "placeholder": "Enter points",
+          "required": false
+        },
+        {
+          "id": "email_opens_3_description",
+          "label": "Email Opens (3+) - Description",
+          "type": "textarea",
+          "placeholder": "Enter description",
+          "required": false
+        },
+        {
+          "id": "email_opens_3_example_high_score",
+          "label": "Email Opens (3+) - Example: High Score",
+          "type": "scale",
+          "placeholder": "Enter example: high score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "email_opens_3_example_low_score",
+          "label": "Email Opens (3+) - Example: Low Score",
+          "type": "scale",
+          "placeholder": "Enter example: low score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "email_click_points",
+          "label": "Email Click - Points",
+          "type": "text",
+          "placeholder": "Enter points",
+          "required": false
+        },
+        {
+          "id": "email_click_description",
+          "label": "Email Click - Description",
+          "type": "textarea",
+          "placeholder": "Enter description",
+          "required": false
+        },
+        {
+          "id": "email_click_example_high_score",
+          "label": "Email Click - Example: High Score",
+          "type": "scale",
+          "placeholder": "Enter example: high score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "email_click_example_low_score",
+          "label": "Email Click - Example: Low Score",
+          "type": "scale",
+          "placeholder": "Enter example: low score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "form_submission_points",
+          "label": "Form Submission - Points",
+          "type": "text",
+          "placeholder": "Enter points",
+          "required": false
+        },
+        {
+          "id": "form_submission_description",
+          "label": "Form Submission - Description",
+          "type": "textarea",
+          "placeholder": "Enter description",
+          "required": false
+        },
+        {
+          "id": "form_submission_example_high_score",
+          "label": "Form Submission - Example: High Score",
+          "type": "scale",
+          "placeholder": "Enter example: high score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "form_submission_example_low_score",
+          "label": "Form Submission - Example: Low Score",
+          "type": "scale",
+          "placeholder": "Enter example: low score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "event_attendance_points",
+          "label": "Event Attendance - Points",
+          "type": "text",
+          "placeholder": "Enter points",
+          "required": false
+        },
+        {
+          "id": "event_attendance_description",
+          "label": "Event Attendance - Description",
+          "type": "textarea",
+          "placeholder": "Enter description",
+          "required": false
+        },
+        {
+          "id": "event_attendance_example_high_score",
+          "label": "Event Attendance - Example: High Score",
+          "type": "scale",
+          "placeholder": "Enter example: high score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "event_attendance_example_low_score",
+          "label": "Event Attendance - Example: Low Score",
+          "type": "scale",
+          "placeholder": "Enter example: low score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "social_engagement_points",
+          "label": "Social Engagement - Points",
+          "type": "text",
+          "placeholder": "Enter points",
+          "required": false
+        },
+        {
+          "id": "social_engagement_description",
+          "label": "Social Engagement - Description",
+          "type": "textarea",
+          "placeholder": "Enter description",
+          "required": false
+        },
+        {
+          "id": "social_engagement_example_high_score",
+          "label": "Social Engagement - Example: High Score",
+          "type": "scale",
+          "placeholder": "Enter example: high score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "social_engagement_example_low_score",
+          "label": "Social Engagement - Example: Low Score",
+          "type": "scale",
+          "placeholder": "Enter example: low score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "return_visit_points",
+          "label": "Return Visit - Points",
+          "type": "text",
+          "placeholder": "Enter points",
+          "required": false
+        },
+        {
+          "id": "return_visit_description",
+          "label": "Return Visit - Description",
+          "type": "textarea",
+          "placeholder": "Enter description",
+          "required": false
+        },
+        {
+          "id": "return_visit_example_high_score",
+          "label": "Return Visit - Example: High Score",
+          "type": "scale",
+          "placeholder": "Enter example: high score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "return_visit_example_low_score",
+          "label": "Return Visit - Example: Low Score",
+          "type": "scale",
+          "placeholder": "Enter example: low score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "free_trialsignup_points",
+          "label": "Free Trial/Signup - Points",
+          "type": "text",
+          "placeholder": "Enter points",
+          "required": false
+        },
+        {
+          "id": "free_trialsignup_description",
+          "label": "Free Trial/Signup - Description",
+          "type": "textarea",
+          "placeholder": "Enter description",
+          "required": false
+        },
+        {
+          "id": "free_trialsignup_example_high_score",
+          "label": "Free Trial/Signup - Example: High Score",
+          "type": "scale",
+          "placeholder": "Enter example: high score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "free_trialsignup_example_low_score",
+          "label": "Free Trial/Signup - Example: Low Score",
+          "type": "scale",
+          "placeholder": "Enter example: low score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "min_score_points",
+          "label": "Min Score - Points",
+          "type": "text",
+          "placeholder": "Enter points",
+          "required": false
+        },
+        {
+          "id": "min_score_description",
+          "label": "Min Score - Description",
+          "type": "textarea",
+          "placeholder": "Enter description",
+          "required": false
+        },
+        {
+          "id": "min_score_example_high_score",
+          "label": "Min Score - Example: High Score",
+          "type": "scale",
+          "placeholder": "Enter example: high score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "min_score_example_low_score",
+          "label": "Min Score - Example: Low Score",
+          "type": "scale",
+          "placeholder": "Enter example: low score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "0_points",
+          "label": "0 - Points",
+          "type": "text",
+          "placeholder": "Enter points",
+          "required": false
+        },
+        {
+          "id": "0_description",
+          "label": "0 - Description",
+          "type": "textarea",
+          "placeholder": "Enter description",
+          "required": false
+        },
+        {
+          "id": "0_example_high_score",
+          "label": "0 - Example: High Score",
+          "type": "scale",
+          "placeholder": "Enter example: high score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "0_example_low_score",
+          "label": "0 - Example: Low Score",
+          "type": "scale",
+          "placeholder": "Enter example: low score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "26_points",
+          "label": "26 - Points",
+          "type": "text",
+          "placeholder": "Enter points",
+          "required": false
+        },
+        {
+          "id": "26_description",
+          "label": "26 - Description",
+          "type": "textarea",
+          "placeholder": "Enter description",
+          "required": false
+        },
+        {
+          "id": "26_example_high_score",
+          "label": "26 - Example: High Score",
+          "type": "scale",
+          "placeholder": "Enter example: high score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "26_example_low_score",
+          "label": "26 - Example: Low Score",
+          "type": "scale",
+          "placeholder": "Enter example: low score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "51_points",
+          "label": "51 - Points",
+          "type": "text",
+          "placeholder": "Enter points",
+          "required": false
+        },
+        {
+          "id": "51_description",
+          "label": "51 - Description",
+          "type": "textarea",
+          "placeholder": "Enter description",
+          "required": false
+        },
+        {
+          "id": "51_example_high_score",
+          "label": "51 - Example: High Score",
+          "type": "scale",
+          "placeholder": "Enter example: high score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "51_example_low_score",
+          "label": "51 - Example: Low Score",
+          "type": "scale",
+          "placeholder": "Enter example: low score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "76_points",
+          "label": "76 - Points",
+          "type": "text",
+          "placeholder": "Enter points",
+          "required": false
+        },
+        {
+          "id": "76_description",
+          "label": "76 - Description",
+          "type": "textarea",
+          "placeholder": "Enter description",
+          "required": false
+        },
+        {
+          "id": "76_example_high_score",
+          "label": "76 - Example: High Score",
+          "type": "scale",
+          "placeholder": "Enter example: high score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "76_example_low_score",
+          "label": "76 - Example: Low Score",
+          "type": "scale",
+          "placeholder": "Enter example: low score",
+          "required": false,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lead_scorer",
+      "title": "Lead Scorer",
+      "description": "Enter data for each item",
+      "fields": [
+        {
+          "id": "sarah_chen_company",
+          "label": "Sarah Chen - Company",
+          "type": "text",
+          "placeholder": "Enter company",
+          "required": false
+        },
+        {
+          "id": "sarah_chen_source",
+          "label": "Sarah Chen - Source",
+          "type": "text",
+          "placeholder": "Enter source",
+          "required": false
+        },
+        {
+          "id": "sarah_chen_date_added",
+          "label": "Sarah Chen - Date Added",
+          "type": "text",
+          "placeholder": "Enter date added",
+          "required": false
+        },
+        {
+          "id": "sarah_chen_title",
+          "label": "Sarah Chen - Title",
+          "type": "text",
+          "placeholder": "Enter title",
+          "required": false
+        },
+        {
+          "id": "sarah_chen_size",
+          "label": "Sarah Chen - Size",
+          "type": "text",
+          "placeholder": "Enter size",
+          "required": false
+        },
+        {
+          "id": "sarah_chen_industry",
+          "label": "Sarah Chen - Industry",
+          "type": "text",
+          "placeholder": "Enter industry",
+          "required": false
+        },
+        {
+          "id": "sarah_chen_geo",
+          "label": "Sarah Chen - Geo",
+          "type": "text",
+          "placeholder": "Enter geo",
+          "required": false
+        },
+        {
+          "id": "sarah_chen_budget",
+          "label": "Sarah Chen - Budget",
+          "type": "number",
+          "placeholder": "Enter budget",
+          "required": false
+        },
+        {
+          "id": "sarah_chen_tech",
+          "label": "Sarah Chen - Tech",
+          "type": "text",
+          "placeholder": "Enter tech",
+          "required": false
+        },
+        {
+          "id": "sarah_chen_growth",
+          "label": "Sarah Chen - Growth",
+          "type": "text",
+          "placeholder": "Enter growth",
+          "required": false
+        },
+        {
+          "id": "sarah_chen_pain",
+          "label": "Sarah Chen - Pain",
+          "type": "text",
+          "placeholder": "Enter pain",
+          "required": false
+        },
+        {
+          "id": "sarah_chen_visits",
+          "label": "Sarah Chen - Visits",
+          "type": "text",
+          "placeholder": "Enter visits",
+          "required": false
+        },
+        {
+          "id": "sarah_chen_keypg",
+          "label": "Sarah Chen - KeyPg",
+          "type": "text",
+          "placeholder": "Enter keypg",
+          "required": false
+        },
+        {
+          "id": "sarah_chen_dload",
+          "label": "Sarah Chen - DLoad",
+          "type": "text",
+          "placeholder": "Enter dload",
+          "required": false
+        },
+        {
+          "id": "sarah_chen_opens",
+          "label": "Sarah Chen - Opens",
+          "type": "text",
+          "placeholder": "Enter opens",
+          "required": false
+        },
+        {
+          "id": "sarah_chen_click",
+          "label": "Sarah Chen - Click",
+          "type": "text",
+          "placeholder": "Enter click",
+          "required": false
+        },
+        {
+          "id": "sarah_chen_form",
+          "label": "Sarah Chen - Form",
+          "type": "text",
+          "placeholder": "Enter form",
+          "required": false
+        },
+        {
+          "id": "sarah_chen_event",
+          "label": "Sarah Chen - Event",
+          "type": "text",
+          "placeholder": "Enter event",
+          "required": false
+        },
+        {
+          "id": "sarah_chen_social",
+          "label": "Sarah Chen - Social",
+          "type": "text",
+          "placeholder": "Enter social",
+          "required": false
+        },
+        {
+          "id": "sarah_chen_return",
+          "label": "Sarah Chen - Return",
+          "type": "text",
+          "placeholder": "Enter return",
+          "required": false
+        },
+        {
+          "id": "sarah_chen_trial",
+          "label": "Sarah Chen - Trial",
+          "type": "text",
+          "placeholder": "Enter trial",
+          "required": false
+        },
+        {
+          "id": "sarah_chen_fit",
+          "label": "Sarah Chen - FIT",
+          "type": "text",
+          "placeholder": "Enter fit",
+          "required": false
+        },
+        {
+          "id": "sarah_chen_engage",
+          "label": "Sarah Chen - ENGAGE",
+          "type": "text",
+          "placeholder": "Enter engage",
+          "required": false
+        },
+        {
+          "id": "sarah_chen_total",
+          "label": "Sarah Chen - TOTAL",
+          "type": "text",
+          "placeholder": "Enter total",
+          "required": false
+        },
+        {
+          "id": "sarah_chen_stage",
+          "label": "Sarah Chen - STAGE",
+          "type": "text",
+          "placeholder": "Enter stage",
+          "required": false
+        },
+        {
+          "id": "james_miller_company",
+          "label": "James Miller - Company",
+          "type": "text",
+          "placeholder": "Enter company",
+          "required": false
+        },
+        {
+          "id": "james_miller_source",
+          "label": "James Miller - Source",
+          "type": "text",
+          "placeholder": "Enter source",
+          "required": false
+        },
+        {
+          "id": "james_miller_date_added",
+          "label": "James Miller - Date Added",
+          "type": "text",
+          "placeholder": "Enter date added",
+          "required": false
+        },
+        {
+          "id": "james_miller_title",
+          "label": "James Miller - Title",
+          "type": "text",
+          "placeholder": "Enter title",
+          "required": false
+        },
+        {
+          "id": "james_miller_size",
+          "label": "James Miller - Size",
+          "type": "text",
+          "placeholder": "Enter size",
+          "required": false
+        },
+        {
+          "id": "james_miller_industry",
+          "label": "James Miller - Industry",
+          "type": "text",
+          "placeholder": "Enter industry",
+          "required": false
+        },
+        {
+          "id": "james_miller_geo",
+          "label": "James Miller - Geo",
+          "type": "text",
+          "placeholder": "Enter geo",
+          "required": false
+        },
+        {
+          "id": "james_miller_budget",
+          "label": "James Miller - Budget",
+          "type": "number",
+          "placeholder": "Enter budget",
+          "required": false
+        },
+        {
+          "id": "james_miller_tech",
+          "label": "James Miller - Tech",
+          "type": "text",
+          "placeholder": "Enter tech",
+          "required": false
+        },
+        {
+          "id": "james_miller_growth",
+          "label": "James Miller - Growth",
+          "type": "text",
+          "placeholder": "Enter growth",
+          "required": false
+        },
+        {
+          "id": "james_miller_pain",
+          "label": "James Miller - Pain",
+          "type": "text",
+          "placeholder": "Enter pain",
+          "required": false
+        },
+        {
+          "id": "james_miller_visits",
+          "label": "James Miller - Visits",
+          "type": "text",
+          "placeholder": "Enter visits",
+          "required": false
+        },
+        {
+          "id": "james_miller_keypg",
+          "label": "James Miller - KeyPg",
+          "type": "text",
+          "placeholder": "Enter keypg",
+          "required": false
+        },
+        {
+          "id": "james_miller_dload",
+          "label": "James Miller - DLoad",
+          "type": "text",
+          "placeholder": "Enter dload",
+          "required": false
+        },
+        {
+          "id": "james_miller_opens",
+          "label": "James Miller - Opens",
+          "type": "text",
+          "placeholder": "Enter opens",
+          "required": false
+        },
+        {
+          "id": "james_miller_click",
+          "label": "James Miller - Click",
+          "type": "text",
+          "placeholder": "Enter click",
+          "required": false
+        },
+        {
+          "id": "james_miller_form",
+          "label": "James Miller - Form",
+          "type": "text",
+          "placeholder": "Enter form",
+          "required": false
+        },
+        {
+          "id": "james_miller_event",
+          "label": "James Miller - Event",
+          "type": "text",
+          "placeholder": "Enter event",
+          "required": false
+        },
+        {
+          "id": "james_miller_social",
+          "label": "James Miller - Social",
+          "type": "text",
+          "placeholder": "Enter social",
+          "required": false
+        },
+        {
+          "id": "james_miller_return",
+          "label": "James Miller - Return",
+          "type": "text",
+          "placeholder": "Enter return",
+          "required": false
+        },
+        {
+          "id": "james_miller_trial",
+          "label": "James Miller - Trial",
+          "type": "text",
+          "placeholder": "Enter trial",
+          "required": false
+        },
+        {
+          "id": "james_miller_fit",
+          "label": "James Miller - FIT",
+          "type": "text",
+          "placeholder": "Enter fit",
+          "required": false
+        },
+        {
+          "id": "james_miller_engage",
+          "label": "James Miller - ENGAGE",
+          "type": "text",
+          "placeholder": "Enter engage",
+          "required": false
+        },
+        {
+          "id": "james_miller_total",
+          "label": "James Miller - TOTAL",
+          "type": "text",
+          "placeholder": "Enter total",
+          "required": false
+        },
+        {
+          "id": "james_miller_stage",
+          "label": "James Miller - STAGE",
+          "type": "text",
+          "placeholder": "Enter stage",
+          "required": false
+        },
+        {
+          "id": "maria_lopez_company",
+          "label": "Maria Lopez - Company",
+          "type": "text",
+          "placeholder": "Enter company",
+          "required": false
+        },
+        {
+          "id": "maria_lopez_source",
+          "label": "Maria Lopez - Source",
+          "type": "text",
+          "placeholder": "Enter source",
+          "required": false
+        },
+        {
+          "id": "maria_lopez_date_added",
+          "label": "Maria Lopez - Date Added",
+          "type": "text",
+          "placeholder": "Enter date added",
+          "required": false
+        },
+        {
+          "id": "maria_lopez_title",
+          "label": "Maria Lopez - Title",
+          "type": "text",
+          "placeholder": "Enter title",
+          "required": false
+        },
+        {
+          "id": "maria_lopez_size",
+          "label": "Maria Lopez - Size",
+          "type": "text",
+          "placeholder": "Enter size",
+          "required": false
+        },
+        {
+          "id": "maria_lopez_industry",
+          "label": "Maria Lopez - Industry",
+          "type": "text",
+          "placeholder": "Enter industry",
+          "required": false
+        },
+        {
+          "id": "maria_lopez_geo",
+          "label": "Maria Lopez - Geo",
+          "type": "text",
+          "placeholder": "Enter geo",
+          "required": false
+        },
+        {
+          "id": "maria_lopez_budget",
+          "label": "Maria Lopez - Budget",
+          "type": "number",
+          "placeholder": "Enter budget",
+          "required": false
+        },
+        {
+          "id": "maria_lopez_tech",
+          "label": "Maria Lopez - Tech",
+          "type": "text",
+          "placeholder": "Enter tech",
+          "required": false
+        },
+        {
+          "id": "maria_lopez_growth",
+          "label": "Maria Lopez - Growth",
+          "type": "text",
+          "placeholder": "Enter growth",
+          "required": false
+        },
+        {
+          "id": "maria_lopez_pain",
+          "label": "Maria Lopez - Pain",
+          "type": "text",
+          "placeholder": "Enter pain",
+          "required": false
+        },
+        {
+          "id": "maria_lopez_visits",
+          "label": "Maria Lopez - Visits",
+          "type": "text",
+          "placeholder": "Enter visits",
+          "required": false
+        },
+        {
+          "id": "maria_lopez_keypg",
+          "label": "Maria Lopez - KeyPg",
+          "type": "text",
+          "placeholder": "Enter keypg",
+          "required": false
+        },
+        {
+          "id": "maria_lopez_dload",
+          "label": "Maria Lopez - DLoad",
+          "type": "text",
+          "placeholder": "Enter dload",
+          "required": false
+        },
+        {
+          "id": "maria_lopez_opens",
+          "label": "Maria Lopez - Opens",
+          "type": "text",
+          "placeholder": "Enter opens",
+          "required": false
+        },
+        {
+          "id": "maria_lopez_click",
+          "label": "Maria Lopez - Click",
+          "type": "text",
+          "placeholder": "Enter click",
+          "required": false
+        },
+        {
+          "id": "maria_lopez_form",
+          "label": "Maria Lopez - Form",
+          "type": "text",
+          "placeholder": "Enter form",
+          "required": false
+        },
+        {
+          "id": "maria_lopez_event",
+          "label": "Maria Lopez - Event",
+          "type": "text",
+          "placeholder": "Enter event",
+          "required": false
+        },
+        {
+          "id": "maria_lopez_social",
+          "label": "Maria Lopez - Social",
+          "type": "text",
+          "placeholder": "Enter social",
+          "required": false
+        },
+        {
+          "id": "maria_lopez_return",
+          "label": "Maria Lopez - Return",
+          "type": "text",
+          "placeholder": "Enter return",
+          "required": false
+        },
+        {
+          "id": "maria_lopez_trial",
+          "label": "Maria Lopez - Trial",
+          "type": "text",
+          "placeholder": "Enter trial",
+          "required": false
+        },
+        {
+          "id": "maria_lopez_fit",
+          "label": "Maria Lopez - FIT",
+          "type": "text",
+          "placeholder": "Enter fit",
+          "required": false
+        },
+        {
+          "id": "maria_lopez_engage",
+          "label": "Maria Lopez - ENGAGE",
+          "type": "text",
+          "placeholder": "Enter engage",
+          "required": false
+        },
+        {
+          "id": "maria_lopez_total",
+          "label": "Maria Lopez - TOTAL",
+          "type": "text",
+          "placeholder": "Enter total",
+          "required": false
+        },
+        {
+          "id": "maria_lopez_stage",
+          "label": "Maria Lopez - STAGE",
+          "type": "text",
+          "placeholder": "Enter stage",
+          "required": false
+        }
+      ]
+    }
+  ]
 }

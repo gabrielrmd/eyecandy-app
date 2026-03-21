@@ -10,673 +10,6 @@
     "channels"
   ],
   "estimatedTime": "50 min",
-  "sections": [
-    {
-      "id": "dashboard",
-      "title": "Dashboard",
-      "description": "Complete the Dashboard section",
-      "fields": [
-        {
-          "id": "active_campaigns_0",
-          "label": "Active Campaigns",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "total_spend_1",
-          "label": "Total Spend",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "influencers_by_tier_2",
-          "label": "Influencers by Tier",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "tier_3",
-          "label": "Tier",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "count_4",
-          "label": "Count",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "of_total_5",
-          "label": "% of Total",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "mega_1m_6",
-          "label": "Mega (1M+)",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "macro_100k_1m_7",
-          "label": "Macro (100K-1M)",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "mid_tier_50k_100k_8",
-          "label": "Mid-Tier (50K-100K)",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "micro_10k_50k_9",
-          "label": "Micro (10K-50K)",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "nano_1k_10k_10",
-          "label": "Nano (1K-10K)",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "influencers_by_platform_11",
-          "label": "Influencers by Platform",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "platform_12",
-          "label": "Platform",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "count_13",
-          "label": "Count",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "of_total_14",
-          "label": "% of Total",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "instagram_15",
-          "label": "Instagram",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "tiktok_16",
-          "label": "TikTok",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "youtube_17",
-          "label": "YouTube",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "linkedin_18",
-          "label": "LinkedIn",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "twitter_x_19",
-          "label": "Twitter/X",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "blog_20",
-          "label": "Blog",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "podcast_21",
-          "label": "Podcast",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "other_22",
-          "label": "Other",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "campaign_performance_summary_23",
-          "label": "Campaign Performance Summary",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "metric_24",
-          "label": "Metric",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "value_25",
-          "label": "Value",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "total_impressions_26",
-          "label": "Total Impressions",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "total_engagements_27",
-          "label": "Total Engagements",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "total_clicks_28",
-          "label": "Total Clicks",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "total_conversions_29",
-          "label": "Total Conversions",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "influencer_database",
-      "title": "Influencer Database",
-      "description": "Complete the Influencer Database section",
-      "fields": [
-        {
-          "id": "fashion_lifestyle_0",
-          "label": "Fashion & Lifestyle",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "technology_saas_1",
-          "label": "Technology & SaaS",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "sustainability_2",
-          "label": "Sustainability",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "marketing_business_3",
-          "label": "Marketing & Business",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "food_hospitality_4",
-          "label": "Food & Hospitality",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "health_wellness_5",
-          "label": "Health & Wellness",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "developer_tools_6",
-          "label": "Developer Tools",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "travel_adventure_7",
-          "label": "Travel & Adventure",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "campaign_planner",
-      "title": "Campaign Planner",
-      "description": "Complete the Campaign Planner section",
-      "fields": [
-        {
-          "id": "3_feed_posts_5_stories_1_reel_each_0",
-          "label": "3 feed posts + 5 stories + 1 reel each",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "4_linkedin_articles_2_newsletter_feature_1",
-          "label": "4 LinkedIn articles + 2 newsletter features",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "2_tiktok_videos_3_ig_reels_2",
-          "label": "2 TikTok videos + 3 IG reels",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "3_youtube_tutorials_blog_post_3",
-          "label": "3 YouTube tutorials + blog post",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "content_calendar",
-      "title": "Content Calendar",
-      "description": "Complete the Content Calendar section",
-      "fields": [
-        {
-          "id": "spring_product_launch_0",
-          "label": "Spring Product Launch",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "spring_product_launch_1",
-          "label": "Spring Product Launch",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "spring_product_launch_2",
-          "label": "Spring Product Launch",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "spring_product_launch_3",
-          "label": "Spring Product Launch",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "thought_leadership_4",
-          "label": "Thought Leadership",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "thought_leadership_5",
-          "label": "Thought Leadership",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "performance_tracker",
-      "title": "Performance Tracker",
-      "description": "Complete the Performance Tracker section",
-      "fields": [
-        {
-          "id": "datadrivendan_0",
-          "label": "DataDrivenDan",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "sarahstyleslife_1",
-          "label": "@SarahStylesLife",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "techwithmarcus_2",
-          "label": "TechWithMarcus",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "codecraftstudio_3",
-          "label": "CodeCraftStudio",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "outreach_tracker",
-      "title": "Outreach Tracker",
-      "description": "Complete the Outreach Tracker section",
-      "fields": [
-        {
-          "id": "signed_for_spring_campaign_0",
-          "label": "Signed for Spring campaign",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "agreed_on_1_500_video_1",
-          "label": "Agreed on $1,500/video",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "try_dm_instead_of_email_2",
-          "label": "Try DM instead of email",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "sent_via_agent_management_3",
-          "label": "Sent via agent management",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "sent_campaign_brief_2026_02_01_4",
-          "label": "Sent campaign brief 2026-02-01",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "budget_payments",
-      "title": "Budget & Payments",
-      "description": "Complete the Budget & Payments section",
-      "fields": [
-        {
-          "id": "spring_product_launch_0",
-          "label": "Spring Product Launch",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "spring_product_launch_1",
-          "label": "Spring Product Launch",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "thought_leadership_2",
-          "label": "Thought Leadership",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "dev_community_build_3",
-          "label": "Dev Community Build",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "contract_checklist",
-      "title": "Contract Checklist",
-      "description": "Complete the Contract Checklist section",
-      "fields": [
-        {
-          "id": "deliverables_clearly_defined_number_of_p_0",
-          "label": "Deliverables clearly defined (number of posts, stories, videos, etc.)",
-          "type": "textarea",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "content_formats_specified_reel_carousel__1",
-          "label": "Content formats specified (reel, carousel, long-form, etc.)",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "platform_s_specified_2",
-          "label": "Platform(s) specified",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "timeline_and_deadlines_stated_3",
-          "label": "Timeline and deadlines stated",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "revision_rounds_defined_how_many_turnaro_4",
-          "label": "Revision rounds defined (how many, turnaround time)",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "fee_amount_and_structure_flat_fee_per_po_5",
-          "label": "Fee amount and structure (flat fee, per post, performance-based)",
-          "type": "textarea",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "payment_schedule_upfront_on_delivery_mil_6",
-          "label": "Payment schedule (upfront, on delivery, milestone-based)",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "additional_costs_covered_travel_product__7",
-          "label": "Additional costs covered (travel, product, props)",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "late_payment_penalty_clause_8",
-          "label": "Late payment penalty clause",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "usage_rights_defined_organic_paid_amplif_9",
-          "label": "Usage rights defined (organic, paid amplification, website, OOH)",
-          "type": "textarea",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "duration_of_usage_rights_6_months_1_year_10",
-          "label": "Duration of usage rights (6 months, 1 year, perpetual)",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "right_to_repurpose_content_11",
-          "label": "Right to repurpose content",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "influencer_retains_right_to_remove_from__12",
-          "label": "Influencer retains right to remove from personal feed",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "ftc_asa_disclosure_requirements_stated_13",
-          "label": "FTC/ASA disclosure requirements stated",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "required_hashtags_ad_sponsored_partner_14",
-          "label": "Required hashtags (#ad, #sponsored, #partner)",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "brand_approval_process_before_publishing_15",
-          "label": "Brand approval process before publishing",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "compliance_with_platform_advertising_pol_16",
-          "label": "Compliance with platform advertising policies",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "exclusivity_period_and_scope_defined_17",
-          "label": "Exclusivity period and scope defined",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "competitor_restrictions_listed_18",
-          "label": "Competitor restrictions listed",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "category_exclusivity_vs_brand_exclusivit_19",
-          "label": "Category exclusivity vs. brand exclusivity",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "termination_clause_with_notice_period_20",
-          "label": "Termination clause with notice period",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "kill_fee_cancellation_fee_defined_21",
-          "label": "Kill fee / cancellation fee defined",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "content_removal_obligations_upon_termina_22",
-          "label": "Content removal obligations upon termination",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "minimum_performance_guarantees_if_applic_23",
-          "label": "Minimum performance guarantees (if applicable)",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "performance_bonus_thresholds_24",
-          "label": "Performance bonus thresholds",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "tracking_and_reporting_requirements_25",
-          "label": "Tracking and reporting requirements",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    }
-  ],
   "dashboard": {
     "metrics": [
       {
@@ -705,5 +38,2813 @@
         "format": "number"
       }
     ]
-  }
+  },
+  "sections": [
+    {
+      "id": "dashboard",
+      "title": "Dashboard",
+      "description": "Auto-calculated summary of your data. Complete the working sections to see results here.",
+      "readOnly": true,
+      "fields": [
+        {
+          "id": "dashboard_overview",
+          "label": "Dashboard Overview",
+          "type": "textarea",
+          "placeholder": "Dashboard metrics will be calculated from your inputs in the working sections",
+          "required": false,
+          "readOnly": true
+        }
+      ]
+    },
+    {
+      "id": "influencer_database",
+      "title": "Influencer Database",
+      "description": "Enter data for each item",
+      "fields": [
+        {
+          "id": "sarahstyleslife_nichecategory",
+          "label": "@SarahStylesLife - Niche/Category",
+          "type": "text",
+          "placeholder": "Enter niche/category",
+          "required": false
+        },
+        {
+          "id": "sarahstyleslife_primary_platform",
+          "label": "@SarahStylesLife - Primary Platform",
+          "type": "text",
+          "placeholder": "Enter primary platform",
+          "required": false
+        },
+        {
+          "id": "sarahstyleslife_tier",
+          "label": "@SarahStylesLife - Tier",
+          "type": "select",
+          "placeholder": "Enter tier",
+          "required": false,
+          "options": [
+            "Gold",
+            "Silver",
+            "Bronze"
+          ]
+        },
+        {
+          "id": "sarahstyleslife_followers",
+          "label": "@SarahStylesLife - Followers",
+          "type": "text",
+          "placeholder": "Enter followers",
+          "required": false
+        },
+        {
+          "id": "sarahstyleslife_eng_rate",
+          "label": "@SarahStylesLife - Eng. Rate",
+          "type": "number",
+          "placeholder": "Enter eng. rate",
+          "required": false
+        },
+        {
+          "id": "sarahstyleslife_location",
+          "label": "@SarahStylesLife - Location",
+          "type": "text",
+          "placeholder": "Enter location",
+          "required": false
+        },
+        {
+          "id": "sarahstyleslife_contact_email",
+          "label": "@SarahStylesLife - Contact Email",
+          "type": "text",
+          "placeholder": "Enter contact email",
+          "required": false
+        },
+        {
+          "id": "sarahstyleslife_status",
+          "label": "@SarahStylesLife - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "sarahstyleslife_notes",
+          "label": "@SarahStylesLife - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "techwithmarcus_nichecategory",
+          "label": "TechWithMarcus - Niche/Category",
+          "type": "text",
+          "placeholder": "Enter niche/category",
+          "required": false
+        },
+        {
+          "id": "techwithmarcus_primary_platform",
+          "label": "TechWithMarcus - Primary Platform",
+          "type": "text",
+          "placeholder": "Enter primary platform",
+          "required": false
+        },
+        {
+          "id": "techwithmarcus_tier",
+          "label": "TechWithMarcus - Tier",
+          "type": "select",
+          "placeholder": "Enter tier",
+          "required": false,
+          "options": [
+            "Gold",
+            "Silver",
+            "Bronze"
+          ]
+        },
+        {
+          "id": "techwithmarcus_followers",
+          "label": "TechWithMarcus - Followers",
+          "type": "text",
+          "placeholder": "Enter followers",
+          "required": false
+        },
+        {
+          "id": "techwithmarcus_eng_rate",
+          "label": "TechWithMarcus - Eng. Rate",
+          "type": "number",
+          "placeholder": "Enter eng. rate",
+          "required": false
+        },
+        {
+          "id": "techwithmarcus_location",
+          "label": "TechWithMarcus - Location",
+          "type": "text",
+          "placeholder": "Enter location",
+          "required": false
+        },
+        {
+          "id": "techwithmarcus_contact_email",
+          "label": "TechWithMarcus - Contact Email",
+          "type": "text",
+          "placeholder": "Enter contact email",
+          "required": false
+        },
+        {
+          "id": "techwithmarcus_status",
+          "label": "TechWithMarcus - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "techwithmarcus_notes",
+          "label": "TechWithMarcus - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "greenliving_emma_nichecategory",
+          "label": "GreenLiving_Emma - Niche/Category",
+          "type": "text",
+          "placeholder": "Enter niche/category",
+          "required": false
+        },
+        {
+          "id": "greenliving_emma_primary_platform",
+          "label": "GreenLiving_Emma - Primary Platform",
+          "type": "text",
+          "placeholder": "Enter primary platform",
+          "required": false
+        },
+        {
+          "id": "greenliving_emma_tier",
+          "label": "GreenLiving_Emma - Tier",
+          "type": "select",
+          "placeholder": "Enter tier",
+          "required": false,
+          "options": [
+            "Gold",
+            "Silver",
+            "Bronze"
+          ]
+        },
+        {
+          "id": "greenliving_emma_followers",
+          "label": "GreenLiving_Emma - Followers",
+          "type": "text",
+          "placeholder": "Enter followers",
+          "required": false
+        },
+        {
+          "id": "greenliving_emma_eng_rate",
+          "label": "GreenLiving_Emma - Eng. Rate",
+          "type": "number",
+          "placeholder": "Enter eng. rate",
+          "required": false
+        },
+        {
+          "id": "greenliving_emma_location",
+          "label": "GreenLiving_Emma - Location",
+          "type": "text",
+          "placeholder": "Enter location",
+          "required": false
+        },
+        {
+          "id": "greenliving_emma_contact_email",
+          "label": "GreenLiving_Emma - Contact Email",
+          "type": "text",
+          "placeholder": "Enter contact email",
+          "required": false
+        },
+        {
+          "id": "greenliving_emma_status",
+          "label": "GreenLiving_Emma - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "greenliving_emma_notes",
+          "label": "GreenLiving_Emma - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "datadrivendan_nichecategory",
+          "label": "DataDrivenDan - Niche/Category",
+          "type": "text",
+          "placeholder": "Enter niche/category",
+          "required": false
+        },
+        {
+          "id": "datadrivendan_primary_platform",
+          "label": "DataDrivenDan - Primary Platform",
+          "type": "text",
+          "placeholder": "Enter primary platform",
+          "required": false
+        },
+        {
+          "id": "datadrivendan_tier",
+          "label": "DataDrivenDan - Tier",
+          "type": "select",
+          "placeholder": "Enter tier",
+          "required": false,
+          "options": [
+            "Gold",
+            "Silver",
+            "Bronze"
+          ]
+        },
+        {
+          "id": "datadrivendan_followers",
+          "label": "DataDrivenDan - Followers",
+          "type": "text",
+          "placeholder": "Enter followers",
+          "required": false
+        },
+        {
+          "id": "datadrivendan_eng_rate",
+          "label": "DataDrivenDan - Eng. Rate",
+          "type": "number",
+          "placeholder": "Enter eng. rate",
+          "required": false
+        },
+        {
+          "id": "datadrivendan_location",
+          "label": "DataDrivenDan - Location",
+          "type": "text",
+          "placeholder": "Enter location",
+          "required": false
+        },
+        {
+          "id": "datadrivendan_contact_email",
+          "label": "DataDrivenDan - Contact Email",
+          "type": "text",
+          "placeholder": "Enter contact email",
+          "required": false
+        },
+        {
+          "id": "datadrivendan_status",
+          "label": "DataDrivenDan - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "datadrivendan_notes",
+          "label": "DataDrivenDan - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "foodiefiesta_nichecategory",
+          "label": "FoodieFiesta - Niche/Category",
+          "type": "text",
+          "placeholder": "Enter niche/category",
+          "required": false
+        },
+        {
+          "id": "foodiefiesta_primary_platform",
+          "label": "FoodieFiesta - Primary Platform",
+          "type": "text",
+          "placeholder": "Enter primary platform",
+          "required": false
+        },
+        {
+          "id": "foodiefiesta_tier",
+          "label": "FoodieFiesta - Tier",
+          "type": "select",
+          "placeholder": "Enter tier",
+          "required": false,
+          "options": [
+            "Gold",
+            "Silver",
+            "Bronze"
+          ]
+        },
+        {
+          "id": "foodiefiesta_followers",
+          "label": "FoodieFiesta - Followers",
+          "type": "text",
+          "placeholder": "Enter followers",
+          "required": false
+        },
+        {
+          "id": "foodiefiesta_eng_rate",
+          "label": "FoodieFiesta - Eng. Rate",
+          "type": "number",
+          "placeholder": "Enter eng. rate",
+          "required": false
+        },
+        {
+          "id": "foodiefiesta_location",
+          "label": "FoodieFiesta - Location",
+          "type": "text",
+          "placeholder": "Enter location",
+          "required": false
+        },
+        {
+          "id": "foodiefiesta_contact_email",
+          "label": "FoodieFiesta - Contact Email",
+          "type": "text",
+          "placeholder": "Enter contact email",
+          "required": false
+        },
+        {
+          "id": "foodiefiesta_status",
+          "label": "FoodieFiesta - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "foodiefiesta_notes",
+          "label": "FoodieFiesta - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "wellnesswithpriya_nichecategory",
+          "label": "WellnessWithPriya - Niche/Category",
+          "type": "text",
+          "placeholder": "Enter niche/category",
+          "required": false
+        },
+        {
+          "id": "wellnesswithpriya_primary_platform",
+          "label": "WellnessWithPriya - Primary Platform",
+          "type": "text",
+          "placeholder": "Enter primary platform",
+          "required": false
+        },
+        {
+          "id": "wellnesswithpriya_tier",
+          "label": "WellnessWithPriya - Tier",
+          "type": "select",
+          "placeholder": "Enter tier",
+          "required": false,
+          "options": [
+            "Gold",
+            "Silver",
+            "Bronze"
+          ]
+        },
+        {
+          "id": "wellnesswithpriya_followers",
+          "label": "WellnessWithPriya - Followers",
+          "type": "text",
+          "placeholder": "Enter followers",
+          "required": false
+        },
+        {
+          "id": "wellnesswithpriya_eng_rate",
+          "label": "WellnessWithPriya - Eng. Rate",
+          "type": "number",
+          "placeholder": "Enter eng. rate",
+          "required": false
+        },
+        {
+          "id": "wellnesswithpriya_location",
+          "label": "WellnessWithPriya - Location",
+          "type": "text",
+          "placeholder": "Enter location",
+          "required": false
+        },
+        {
+          "id": "wellnesswithpriya_contact_email",
+          "label": "WellnessWithPriya - Contact Email",
+          "type": "text",
+          "placeholder": "Enter contact email",
+          "required": false
+        },
+        {
+          "id": "wellnesswithpriya_status",
+          "label": "WellnessWithPriya - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "wellnesswithpriya_notes",
+          "label": "WellnessWithPriya - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "codecraftstudio_nichecategory",
+          "label": "CodeCraftStudio - Niche/Category",
+          "type": "text",
+          "placeholder": "Enter niche/category",
+          "required": false
+        },
+        {
+          "id": "codecraftstudio_primary_platform",
+          "label": "CodeCraftStudio - Primary Platform",
+          "type": "text",
+          "placeholder": "Enter primary platform",
+          "required": false
+        },
+        {
+          "id": "codecraftstudio_tier",
+          "label": "CodeCraftStudio - Tier",
+          "type": "select",
+          "placeholder": "Enter tier",
+          "required": false,
+          "options": [
+            "Gold",
+            "Silver",
+            "Bronze"
+          ]
+        },
+        {
+          "id": "codecraftstudio_followers",
+          "label": "CodeCraftStudio - Followers",
+          "type": "text",
+          "placeholder": "Enter followers",
+          "required": false
+        },
+        {
+          "id": "codecraftstudio_eng_rate",
+          "label": "CodeCraftStudio - Eng. Rate",
+          "type": "number",
+          "placeholder": "Enter eng. rate",
+          "required": false
+        },
+        {
+          "id": "codecraftstudio_location",
+          "label": "CodeCraftStudio - Location",
+          "type": "text",
+          "placeholder": "Enter location",
+          "required": false
+        },
+        {
+          "id": "codecraftstudio_contact_email",
+          "label": "CodeCraftStudio - Contact Email",
+          "type": "text",
+          "placeholder": "Enter contact email",
+          "required": false
+        },
+        {
+          "id": "codecraftstudio_status",
+          "label": "CodeCraftStudio - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "codecraftstudio_notes",
+          "label": "CodeCraftStudio - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "travelwithlisa_nichecategory",
+          "label": "TravelWithLisa - Niche/Category",
+          "type": "text",
+          "placeholder": "Enter niche/category",
+          "required": false
+        },
+        {
+          "id": "travelwithlisa_primary_platform",
+          "label": "TravelWithLisa - Primary Platform",
+          "type": "text",
+          "placeholder": "Enter primary platform",
+          "required": false
+        },
+        {
+          "id": "travelwithlisa_tier",
+          "label": "TravelWithLisa - Tier",
+          "type": "select",
+          "placeholder": "Enter tier",
+          "required": false,
+          "options": [
+            "Gold",
+            "Silver",
+            "Bronze"
+          ]
+        },
+        {
+          "id": "travelwithlisa_followers",
+          "label": "TravelWithLisa - Followers",
+          "type": "text",
+          "placeholder": "Enter followers",
+          "required": false
+        },
+        {
+          "id": "travelwithlisa_eng_rate",
+          "label": "TravelWithLisa - Eng. Rate",
+          "type": "number",
+          "placeholder": "Enter eng. rate",
+          "required": false
+        },
+        {
+          "id": "travelwithlisa_location",
+          "label": "TravelWithLisa - Location",
+          "type": "text",
+          "placeholder": "Enter location",
+          "required": false
+        },
+        {
+          "id": "travelwithlisa_contact_email",
+          "label": "TravelWithLisa - Contact Email",
+          "type": "text",
+          "placeholder": "Enter contact email",
+          "required": false
+        },
+        {
+          "id": "travelwithlisa_status",
+          "label": "TravelWithLisa - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "travelwithlisa_notes",
+          "label": "TravelWithLisa - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "campaign_planner",
+      "title": "Campaign Planner",
+      "description": "Enter data for each item",
+      "fields": [
+        {
+          "id": "spring_product_launch_influencers",
+          "label": "Spring Product Launch - Influencer(s)",
+          "type": "text",
+          "placeholder": "Enter influencer(s)",
+          "required": false
+        },
+        {
+          "id": "spring_product_launch_objective",
+          "label": "Spring Product Launch - Objective",
+          "type": "text",
+          "placeholder": "Enter objective",
+          "required": false
+        },
+        {
+          "id": "spring_product_launch_deliverables",
+          "label": "Spring Product Launch - Deliverables",
+          "type": "text",
+          "placeholder": "Enter deliverables",
+          "required": false
+        },
+        {
+          "id": "spring_product_launch_start_date",
+          "label": "Spring Product Launch - Start Date",
+          "type": "text",
+          "placeholder": "Enter start date",
+          "required": false
+        },
+        {
+          "id": "spring_product_launch_end_date",
+          "label": "Spring Product Launch - End Date",
+          "type": "text",
+          "placeholder": "Enter end date",
+          "required": false
+        },
+        {
+          "id": "spring_product_launch_budget",
+          "label": "Spring Product Launch - Budget",
+          "type": "number",
+          "placeholder": "Enter budget",
+          "required": false
+        },
+        {
+          "id": "spring_product_launch_status",
+          "label": "Spring Product Launch - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "spring_product_launch_platform",
+          "label": "Spring Product Launch - Platform",
+          "type": "text",
+          "placeholder": "Enter platform",
+          "required": false
+        },
+        {
+          "id": "spring_product_launch_notes",
+          "label": "Spring Product Launch - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "thought_leadership_series_influencers",
+          "label": "Thought Leadership Series - Influencer(s)",
+          "type": "text",
+          "placeholder": "Enter influencer(s)",
+          "required": false
+        },
+        {
+          "id": "thought_leadership_series_objective",
+          "label": "Thought Leadership Series - Objective",
+          "type": "text",
+          "placeholder": "Enter objective",
+          "required": false
+        },
+        {
+          "id": "thought_leadership_series_deliverables",
+          "label": "Thought Leadership Series - Deliverables",
+          "type": "text",
+          "placeholder": "Enter deliverables",
+          "required": false
+        },
+        {
+          "id": "thought_leadership_series_start_date",
+          "label": "Thought Leadership Series - Start Date",
+          "type": "text",
+          "placeholder": "Enter start date",
+          "required": false
+        },
+        {
+          "id": "thought_leadership_series_end_date",
+          "label": "Thought Leadership Series - End Date",
+          "type": "text",
+          "placeholder": "Enter end date",
+          "required": false
+        },
+        {
+          "id": "thought_leadership_series_budget",
+          "label": "Thought Leadership Series - Budget",
+          "type": "number",
+          "placeholder": "Enter budget",
+          "required": false
+        },
+        {
+          "id": "thought_leadership_series_status",
+          "label": "Thought Leadership Series - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "thought_leadership_series_platform",
+          "label": "Thought Leadership Series - Platform",
+          "type": "text",
+          "placeholder": "Enter platform",
+          "required": false
+        },
+        {
+          "id": "thought_leadership_series_notes",
+          "label": "Thought Leadership Series - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "summer_campaign_influencers",
+          "label": "Summer Campaign - Influencer(s)",
+          "type": "text",
+          "placeholder": "Enter influencer(s)",
+          "required": false
+        },
+        {
+          "id": "summer_campaign_objective",
+          "label": "Summer Campaign - Objective",
+          "type": "text",
+          "placeholder": "Enter objective",
+          "required": false
+        },
+        {
+          "id": "summer_campaign_deliverables",
+          "label": "Summer Campaign - Deliverables",
+          "type": "text",
+          "placeholder": "Enter deliverables",
+          "required": false
+        },
+        {
+          "id": "summer_campaign_start_date",
+          "label": "Summer Campaign - Start Date",
+          "type": "text",
+          "placeholder": "Enter start date",
+          "required": false
+        },
+        {
+          "id": "summer_campaign_end_date",
+          "label": "Summer Campaign - End Date",
+          "type": "text",
+          "placeholder": "Enter end date",
+          "required": false
+        },
+        {
+          "id": "summer_campaign_budget",
+          "label": "Summer Campaign - Budget",
+          "type": "number",
+          "placeholder": "Enter budget",
+          "required": false
+        },
+        {
+          "id": "summer_campaign_status",
+          "label": "Summer Campaign - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "summer_campaign_platform",
+          "label": "Summer Campaign - Platform",
+          "type": "text",
+          "placeholder": "Enter platform",
+          "required": false
+        },
+        {
+          "id": "summer_campaign_notes",
+          "label": "Summer Campaign - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "developer_community_build_influencers",
+          "label": "Developer Community Build - Influencer(s)",
+          "type": "text",
+          "placeholder": "Enter influencer(s)",
+          "required": false
+        },
+        {
+          "id": "developer_community_build_objective",
+          "label": "Developer Community Build - Objective",
+          "type": "text",
+          "placeholder": "Enter objective",
+          "required": false
+        },
+        {
+          "id": "developer_community_build_deliverables",
+          "label": "Developer Community Build - Deliverables",
+          "type": "text",
+          "placeholder": "Enter deliverables",
+          "required": false
+        },
+        {
+          "id": "developer_community_build_start_date",
+          "label": "Developer Community Build - Start Date",
+          "type": "text",
+          "placeholder": "Enter start date",
+          "required": false
+        },
+        {
+          "id": "developer_community_build_end_date",
+          "label": "Developer Community Build - End Date",
+          "type": "text",
+          "placeholder": "Enter end date",
+          "required": false
+        },
+        {
+          "id": "developer_community_build_budget",
+          "label": "Developer Community Build - Budget",
+          "type": "number",
+          "placeholder": "Enter budget",
+          "required": false
+        },
+        {
+          "id": "developer_community_build_status",
+          "label": "Developer Community Build - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "developer_community_build_platform",
+          "label": "Developer Community Build - Platform",
+          "type": "text",
+          "placeholder": "Enter platform",
+          "required": false
+        },
+        {
+          "id": "developer_community_build_notes",
+          "label": "Developer Community Build - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "content_calendar",
+      "title": "Content Calendar",
+      "description": "Enter data for each item",
+      "fields": [
+        {
+          "id": "sarahstyleslife_campaign",
+          "label": "@SarahStylesLife - Campaign",
+          "type": "text",
+          "placeholder": "Enter campaign",
+          "required": false
+        },
+        {
+          "id": "sarahstyleslife_platform",
+          "label": "@SarahStylesLife - Platform",
+          "type": "text",
+          "placeholder": "Enter platform",
+          "required": false
+        },
+        {
+          "id": "sarahstyleslife_content_type",
+          "label": "@SarahStylesLife - Content Type",
+          "type": "select",
+          "placeholder": "Enter content type",
+          "required": false,
+          "options": [
+            "Blog Post",
+            "Video",
+            "Infographic",
+            "Case Study",
+            "Whitepaper",
+            "Newsletter",
+            "Social Post",
+            "Webinar"
+          ]
+        },
+        {
+          "id": "sarahstyleslife_publish_date",
+          "label": "@SarahStylesLife - Publish Date",
+          "type": "text",
+          "placeholder": "Enter publish date",
+          "required": false
+        },
+        {
+          "id": "sarahstyleslife_approval_status",
+          "label": "@SarahStylesLife - Approval Status",
+          "type": "select",
+          "placeholder": "Enter approval status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "sarahstyleslife_live_link",
+          "label": "@SarahStylesLife - Live Link",
+          "type": "text",
+          "placeholder": "Enter live link",
+          "required": false
+        },
+        {
+          "id": "sarahstyleslife_performance",
+          "label": "@SarahStylesLife - Performance",
+          "type": "text",
+          "placeholder": "Enter performance",
+          "required": false
+        },
+        {
+          "id": "sarahstyleslife_notes",
+          "label": "@SarahStylesLife - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "sarahstyleslife_campaign_1",
+          "label": "@SarahStylesLife - Campaign",
+          "type": "text",
+          "placeholder": "Enter campaign",
+          "required": false
+        },
+        {
+          "id": "sarahstyleslife_platform_1",
+          "label": "@SarahStylesLife - Platform",
+          "type": "text",
+          "placeholder": "Enter platform",
+          "required": false
+        },
+        {
+          "id": "sarahstyleslife_content_type_1",
+          "label": "@SarahStylesLife - Content Type",
+          "type": "select",
+          "placeholder": "Enter content type",
+          "required": false,
+          "options": [
+            "Blog Post",
+            "Video",
+            "Infographic",
+            "Case Study",
+            "Whitepaper",
+            "Newsletter",
+            "Social Post",
+            "Webinar"
+          ]
+        },
+        {
+          "id": "sarahstyleslife_publish_date_1",
+          "label": "@SarahStylesLife - Publish Date",
+          "type": "text",
+          "placeholder": "Enter publish date",
+          "required": false
+        },
+        {
+          "id": "sarahstyleslife_approval_status_1",
+          "label": "@SarahStylesLife - Approval Status",
+          "type": "select",
+          "placeholder": "Enter approval status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "sarahstyleslife_live_link_1",
+          "label": "@SarahStylesLife - Live Link",
+          "type": "text",
+          "placeholder": "Enter live link",
+          "required": false
+        },
+        {
+          "id": "sarahstyleslife_performance_1",
+          "label": "@SarahStylesLife - Performance",
+          "type": "text",
+          "placeholder": "Enter performance",
+          "required": false
+        },
+        {
+          "id": "sarahstyleslife_notes_1",
+          "label": "@SarahStylesLife - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "sarahstyleslife_campaign_2",
+          "label": "@SarahStylesLife - Campaign",
+          "type": "text",
+          "placeholder": "Enter campaign",
+          "required": false
+        },
+        {
+          "id": "sarahstyleslife_platform_2",
+          "label": "@SarahStylesLife - Platform",
+          "type": "text",
+          "placeholder": "Enter platform",
+          "required": false
+        },
+        {
+          "id": "sarahstyleslife_content_type_2",
+          "label": "@SarahStylesLife - Content Type",
+          "type": "select",
+          "placeholder": "Enter content type",
+          "required": false,
+          "options": [
+            "Blog Post",
+            "Video",
+            "Infographic",
+            "Case Study",
+            "Whitepaper",
+            "Newsletter",
+            "Social Post",
+            "Webinar"
+          ]
+        },
+        {
+          "id": "sarahstyleslife_publish_date_2",
+          "label": "@SarahStylesLife - Publish Date",
+          "type": "text",
+          "placeholder": "Enter publish date",
+          "required": false
+        },
+        {
+          "id": "sarahstyleslife_approval_status_2",
+          "label": "@SarahStylesLife - Approval Status",
+          "type": "select",
+          "placeholder": "Enter approval status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "sarahstyleslife_live_link_2",
+          "label": "@SarahStylesLife - Live Link",
+          "type": "text",
+          "placeholder": "Enter live link",
+          "required": false
+        },
+        {
+          "id": "sarahstyleslife_performance_2",
+          "label": "@SarahStylesLife - Performance",
+          "type": "text",
+          "placeholder": "Enter performance",
+          "required": false
+        },
+        {
+          "id": "sarahstyleslife_notes_2",
+          "label": "@SarahStylesLife - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "techwithmarcus_campaign",
+          "label": "TechWithMarcus - Campaign",
+          "type": "text",
+          "placeholder": "Enter campaign",
+          "required": false
+        },
+        {
+          "id": "techwithmarcus_platform",
+          "label": "TechWithMarcus - Platform",
+          "type": "text",
+          "placeholder": "Enter platform",
+          "required": false
+        },
+        {
+          "id": "techwithmarcus_content_type",
+          "label": "TechWithMarcus - Content Type",
+          "type": "select",
+          "placeholder": "Enter content type",
+          "required": false,
+          "options": [
+            "Blog Post",
+            "Video",
+            "Infographic",
+            "Case Study",
+            "Whitepaper",
+            "Newsletter",
+            "Social Post",
+            "Webinar"
+          ]
+        },
+        {
+          "id": "techwithmarcus_publish_date",
+          "label": "TechWithMarcus - Publish Date",
+          "type": "text",
+          "placeholder": "Enter publish date",
+          "required": false
+        },
+        {
+          "id": "techwithmarcus_approval_status",
+          "label": "TechWithMarcus - Approval Status",
+          "type": "select",
+          "placeholder": "Enter approval status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "techwithmarcus_live_link",
+          "label": "TechWithMarcus - Live Link",
+          "type": "text",
+          "placeholder": "Enter live link",
+          "required": false
+        },
+        {
+          "id": "techwithmarcus_performance",
+          "label": "TechWithMarcus - Performance",
+          "type": "text",
+          "placeholder": "Enter performance",
+          "required": false
+        },
+        {
+          "id": "techwithmarcus_notes",
+          "label": "TechWithMarcus - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "datadrivendan_campaign",
+          "label": "DataDrivenDan - Campaign",
+          "type": "text",
+          "placeholder": "Enter campaign",
+          "required": false
+        },
+        {
+          "id": "datadrivendan_platform",
+          "label": "DataDrivenDan - Platform",
+          "type": "text",
+          "placeholder": "Enter platform",
+          "required": false
+        },
+        {
+          "id": "datadrivendan_content_type",
+          "label": "DataDrivenDan - Content Type",
+          "type": "select",
+          "placeholder": "Enter content type",
+          "required": false,
+          "options": [
+            "Blog Post",
+            "Video",
+            "Infographic",
+            "Case Study",
+            "Whitepaper",
+            "Newsletter",
+            "Social Post",
+            "Webinar"
+          ]
+        },
+        {
+          "id": "datadrivendan_publish_date",
+          "label": "DataDrivenDan - Publish Date",
+          "type": "text",
+          "placeholder": "Enter publish date",
+          "required": false
+        },
+        {
+          "id": "datadrivendan_approval_status",
+          "label": "DataDrivenDan - Approval Status",
+          "type": "select",
+          "placeholder": "Enter approval status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "datadrivendan_live_link",
+          "label": "DataDrivenDan - Live Link",
+          "type": "text",
+          "placeholder": "Enter live link",
+          "required": false
+        },
+        {
+          "id": "datadrivendan_performance",
+          "label": "DataDrivenDan - Performance",
+          "type": "text",
+          "placeholder": "Enter performance",
+          "required": false
+        },
+        {
+          "id": "datadrivendan_notes",
+          "label": "DataDrivenDan - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "datadrivendan_campaign_1",
+          "label": "DataDrivenDan - Campaign",
+          "type": "text",
+          "placeholder": "Enter campaign",
+          "required": false
+        },
+        {
+          "id": "datadrivendan_platform_1",
+          "label": "DataDrivenDan - Platform",
+          "type": "text",
+          "placeholder": "Enter platform",
+          "required": false
+        },
+        {
+          "id": "datadrivendan_content_type_1",
+          "label": "DataDrivenDan - Content Type",
+          "type": "select",
+          "placeholder": "Enter content type",
+          "required": false,
+          "options": [
+            "Blog Post",
+            "Video",
+            "Infographic",
+            "Case Study",
+            "Whitepaper",
+            "Newsletter",
+            "Social Post",
+            "Webinar"
+          ]
+        },
+        {
+          "id": "datadrivendan_publish_date_1",
+          "label": "DataDrivenDan - Publish Date",
+          "type": "text",
+          "placeholder": "Enter publish date",
+          "required": false
+        },
+        {
+          "id": "datadrivendan_approval_status_1",
+          "label": "DataDrivenDan - Approval Status",
+          "type": "select",
+          "placeholder": "Enter approval status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "datadrivendan_live_link_1",
+          "label": "DataDrivenDan - Live Link",
+          "type": "text",
+          "placeholder": "Enter live link",
+          "required": false
+        },
+        {
+          "id": "datadrivendan_performance_1",
+          "label": "DataDrivenDan - Performance",
+          "type": "text",
+          "placeholder": "Enter performance",
+          "required": false
+        },
+        {
+          "id": "datadrivendan_notes_1",
+          "label": "DataDrivenDan - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "performance_tracker",
+      "title": "Performance Tracker",
+      "description": "Enter data for each item",
+      "fields": [
+        {
+          "id": "datadrivendan_campaign",
+          "label": "DataDrivenDan - Campaign",
+          "type": "text",
+          "placeholder": "Enter campaign",
+          "required": false
+        },
+        {
+          "id": "datadrivendan_platform",
+          "label": "DataDrivenDan - Platform",
+          "type": "text",
+          "placeholder": "Enter platform",
+          "required": false
+        },
+        {
+          "id": "datadrivendan_impressions",
+          "label": "DataDrivenDan - Impressions",
+          "type": "number",
+          "placeholder": "Enter impressions",
+          "required": false
+        },
+        {
+          "id": "datadrivendan_engagements",
+          "label": "DataDrivenDan - Engagements",
+          "type": "text",
+          "placeholder": "Enter engagements",
+          "required": false
+        },
+        {
+          "id": "datadrivendan_clicks",
+          "label": "DataDrivenDan - Clicks",
+          "type": "number",
+          "placeholder": "Enter clicks",
+          "required": false
+        },
+        {
+          "id": "datadrivendan_conversions",
+          "label": "DataDrivenDan - Conversions",
+          "type": "number",
+          "placeholder": "Enter conversions",
+          "required": false
+        },
+        {
+          "id": "datadrivendan_eng_rate",
+          "label": "DataDrivenDan - Eng. Rate",
+          "type": "number",
+          "placeholder": "Enter eng. rate",
+          "required": false
+        },
+        {
+          "id": "datadrivendan_cost_per_eng",
+          "label": "DataDrivenDan - Cost Per Eng.",
+          "type": "number",
+          "placeholder": "Enter cost per eng.",
+          "required": false
+        },
+        {
+          "id": "datadrivendan_notes",
+          "label": "DataDrivenDan - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "sarahstyleslife_campaign",
+          "label": "@SarahStylesLife - Campaign",
+          "type": "text",
+          "placeholder": "Enter campaign",
+          "required": false
+        },
+        {
+          "id": "sarahstyleslife_platform",
+          "label": "@SarahStylesLife - Platform",
+          "type": "text",
+          "placeholder": "Enter platform",
+          "required": false
+        },
+        {
+          "id": "sarahstyleslife_impressions",
+          "label": "@SarahStylesLife - Impressions",
+          "type": "number",
+          "placeholder": "Enter impressions",
+          "required": false
+        },
+        {
+          "id": "sarahstyleslife_engagements",
+          "label": "@SarahStylesLife - Engagements",
+          "type": "text",
+          "placeholder": "Enter engagements",
+          "required": false
+        },
+        {
+          "id": "sarahstyleslife_clicks",
+          "label": "@SarahStylesLife - Clicks",
+          "type": "number",
+          "placeholder": "Enter clicks",
+          "required": false
+        },
+        {
+          "id": "sarahstyleslife_conversions",
+          "label": "@SarahStylesLife - Conversions",
+          "type": "number",
+          "placeholder": "Enter conversions",
+          "required": false
+        },
+        {
+          "id": "sarahstyleslife_eng_rate",
+          "label": "@SarahStylesLife - Eng. Rate",
+          "type": "number",
+          "placeholder": "Enter eng. rate",
+          "required": false
+        },
+        {
+          "id": "sarahstyleslife_cost_per_eng",
+          "label": "@SarahStylesLife - Cost Per Eng.",
+          "type": "number",
+          "placeholder": "Enter cost per eng.",
+          "required": false
+        },
+        {
+          "id": "sarahstyleslife_notes",
+          "label": "@SarahStylesLife - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "techwithmarcus_campaign",
+          "label": "TechWithMarcus - Campaign",
+          "type": "text",
+          "placeholder": "Enter campaign",
+          "required": false
+        },
+        {
+          "id": "techwithmarcus_platform",
+          "label": "TechWithMarcus - Platform",
+          "type": "text",
+          "placeholder": "Enter platform",
+          "required": false
+        },
+        {
+          "id": "techwithmarcus_impressions",
+          "label": "TechWithMarcus - Impressions",
+          "type": "number",
+          "placeholder": "Enter impressions",
+          "required": false
+        },
+        {
+          "id": "techwithmarcus_engagements",
+          "label": "TechWithMarcus - Engagements",
+          "type": "text",
+          "placeholder": "Enter engagements",
+          "required": false
+        },
+        {
+          "id": "techwithmarcus_clicks",
+          "label": "TechWithMarcus - Clicks",
+          "type": "number",
+          "placeholder": "Enter clicks",
+          "required": false
+        },
+        {
+          "id": "techwithmarcus_conversions",
+          "label": "TechWithMarcus - Conversions",
+          "type": "number",
+          "placeholder": "Enter conversions",
+          "required": false
+        },
+        {
+          "id": "techwithmarcus_eng_rate",
+          "label": "TechWithMarcus - Eng. Rate",
+          "type": "number",
+          "placeholder": "Enter eng. rate",
+          "required": false
+        },
+        {
+          "id": "techwithmarcus_cost_per_eng",
+          "label": "TechWithMarcus - Cost Per Eng.",
+          "type": "number",
+          "placeholder": "Enter cost per eng.",
+          "required": false
+        },
+        {
+          "id": "techwithmarcus_notes",
+          "label": "TechWithMarcus - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "codecraftstudio_campaign",
+          "label": "CodeCraftStudio - Campaign",
+          "type": "text",
+          "placeholder": "Enter campaign",
+          "required": false
+        },
+        {
+          "id": "codecraftstudio_platform",
+          "label": "CodeCraftStudio - Platform",
+          "type": "text",
+          "placeholder": "Enter platform",
+          "required": false
+        },
+        {
+          "id": "codecraftstudio_impressions",
+          "label": "CodeCraftStudio - Impressions",
+          "type": "number",
+          "placeholder": "Enter impressions",
+          "required": false
+        },
+        {
+          "id": "codecraftstudio_engagements",
+          "label": "CodeCraftStudio - Engagements",
+          "type": "text",
+          "placeholder": "Enter engagements",
+          "required": false
+        },
+        {
+          "id": "codecraftstudio_clicks",
+          "label": "CodeCraftStudio - Clicks",
+          "type": "number",
+          "placeholder": "Enter clicks",
+          "required": false
+        },
+        {
+          "id": "codecraftstudio_conversions",
+          "label": "CodeCraftStudio - Conversions",
+          "type": "number",
+          "placeholder": "Enter conversions",
+          "required": false
+        },
+        {
+          "id": "codecraftstudio_eng_rate",
+          "label": "CodeCraftStudio - Eng. Rate",
+          "type": "number",
+          "placeholder": "Enter eng. rate",
+          "required": false
+        },
+        {
+          "id": "codecraftstudio_cost_per_eng",
+          "label": "CodeCraftStudio - Cost Per Eng.",
+          "type": "number",
+          "placeholder": "Enter cost per eng.",
+          "required": false
+        },
+        {
+          "id": "codecraftstudio_notes",
+          "label": "CodeCraftStudio - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "outreach_tracker",
+      "title": "Outreach Tracker",
+      "description": "Enter data for each item",
+      "fields": [
+        {
+          "id": "sarahstyleslife_first_contact",
+          "label": "@SarahStylesLife - First Contact",
+          "type": "text",
+          "placeholder": "Enter first contact",
+          "required": false
+        },
+        {
+          "id": "sarahstyleslife_followup_1",
+          "label": "@SarahStylesLife - Follow-Up 1",
+          "type": "text",
+          "placeholder": "Enter follow-up 1",
+          "required": false
+        },
+        {
+          "id": "sarahstyleslife_followup_2",
+          "label": "@SarahStylesLife - Follow-Up 2",
+          "type": "text",
+          "placeholder": "Enter follow-up 2",
+          "required": false
+        },
+        {
+          "id": "sarahstyleslife_response",
+          "label": "@SarahStylesLife - Response",
+          "type": "text",
+          "placeholder": "Enter response",
+          "required": false
+        },
+        {
+          "id": "sarahstyleslife_status",
+          "label": "@SarahStylesLife - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "sarahstyleslife_notes",
+          "label": "@SarahStylesLife - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "techwithmarcus_first_contact",
+          "label": "TechWithMarcus - First Contact",
+          "type": "text",
+          "placeholder": "Enter first contact",
+          "required": false
+        },
+        {
+          "id": "techwithmarcus_followup_1",
+          "label": "TechWithMarcus - Follow-Up 1",
+          "type": "text",
+          "placeholder": "Enter follow-up 1",
+          "required": false
+        },
+        {
+          "id": "techwithmarcus_followup_2",
+          "label": "TechWithMarcus - Follow-Up 2",
+          "type": "text",
+          "placeholder": "Enter follow-up 2",
+          "required": false
+        },
+        {
+          "id": "techwithmarcus_response",
+          "label": "TechWithMarcus - Response",
+          "type": "text",
+          "placeholder": "Enter response",
+          "required": false
+        },
+        {
+          "id": "techwithmarcus_status",
+          "label": "TechWithMarcus - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "techwithmarcus_notes",
+          "label": "TechWithMarcus - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "greenliving_emma_first_contact",
+          "label": "GreenLiving_Emma - First Contact",
+          "type": "text",
+          "placeholder": "Enter first contact",
+          "required": false
+        },
+        {
+          "id": "greenliving_emma_followup_1",
+          "label": "GreenLiving_Emma - Follow-Up 1",
+          "type": "text",
+          "placeholder": "Enter follow-up 1",
+          "required": false
+        },
+        {
+          "id": "greenliving_emma_followup_2",
+          "label": "GreenLiving_Emma - Follow-Up 2",
+          "type": "text",
+          "placeholder": "Enter follow-up 2",
+          "required": false
+        },
+        {
+          "id": "greenliving_emma_response",
+          "label": "GreenLiving_Emma - Response",
+          "type": "text",
+          "placeholder": "Enter response",
+          "required": false
+        },
+        {
+          "id": "greenliving_emma_status",
+          "label": "GreenLiving_Emma - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "greenliving_emma_notes",
+          "label": "GreenLiving_Emma - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "foodiefiesta_first_contact",
+          "label": "FoodieFiesta - First Contact",
+          "type": "text",
+          "placeholder": "Enter first contact",
+          "required": false
+        },
+        {
+          "id": "foodiefiesta_followup_1",
+          "label": "FoodieFiesta - Follow-Up 1",
+          "type": "text",
+          "placeholder": "Enter follow-up 1",
+          "required": false
+        },
+        {
+          "id": "foodiefiesta_followup_2",
+          "label": "FoodieFiesta - Follow-Up 2",
+          "type": "text",
+          "placeholder": "Enter follow-up 2",
+          "required": false
+        },
+        {
+          "id": "foodiefiesta_response",
+          "label": "FoodieFiesta - Response",
+          "type": "text",
+          "placeholder": "Enter response",
+          "required": false
+        },
+        {
+          "id": "foodiefiesta_status",
+          "label": "FoodieFiesta - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "foodiefiesta_notes",
+          "label": "FoodieFiesta - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "wellnesswithpriya_first_contact",
+          "label": "WellnessWithPriya - First Contact",
+          "type": "text",
+          "placeholder": "Enter first contact",
+          "required": false
+        },
+        {
+          "id": "wellnesswithpriya_followup_1",
+          "label": "WellnessWithPriya - Follow-Up 1",
+          "type": "text",
+          "placeholder": "Enter follow-up 1",
+          "required": false
+        },
+        {
+          "id": "wellnesswithpriya_followup_2",
+          "label": "WellnessWithPriya - Follow-Up 2",
+          "type": "text",
+          "placeholder": "Enter follow-up 2",
+          "required": false
+        },
+        {
+          "id": "wellnesswithpriya_response",
+          "label": "WellnessWithPriya - Response",
+          "type": "text",
+          "placeholder": "Enter response",
+          "required": false
+        },
+        {
+          "id": "wellnesswithpriya_status",
+          "label": "WellnessWithPriya - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "wellnesswithpriya_notes",
+          "label": "WellnessWithPriya - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "budget_payments",
+      "title": "Budget & Payments",
+      "description": "Enter data for each item",
+      "fields": [
+        {
+          "id": "sarahstyleslife_campaign",
+          "label": "@SarahStylesLife - Campaign",
+          "type": "text",
+          "placeholder": "Enter campaign",
+          "required": false
+        },
+        {
+          "id": "sarahstyleslife_agreed_fee",
+          "label": "@SarahStylesLife - Agreed Fee",
+          "type": "text",
+          "placeholder": "Enter agreed fee",
+          "required": false
+        },
+        {
+          "id": "sarahstyleslife_amount_paid",
+          "label": "@SarahStylesLife - Amount Paid",
+          "type": "number",
+          "placeholder": "Enter amount paid",
+          "required": false
+        },
+        {
+          "id": "sarahstyleslife_balance",
+          "label": "@SarahStylesLife - Balance",
+          "type": "text",
+          "placeholder": "Enter balance",
+          "required": false
+        },
+        {
+          "id": "sarahstyleslife_invoice_date",
+          "label": "@SarahStylesLife - Invoice Date",
+          "type": "text",
+          "placeholder": "Enter invoice date",
+          "required": false
+        },
+        {
+          "id": "sarahstyleslife_payment_due",
+          "label": "@SarahStylesLife - Payment Due",
+          "type": "text",
+          "placeholder": "Enter payment due",
+          "required": false
+        },
+        {
+          "id": "sarahstyleslife_status",
+          "label": "@SarahStylesLife - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "sarahstyleslife_notes",
+          "label": "@SarahStylesLife - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "techwithmarcus_campaign",
+          "label": "TechWithMarcus - Campaign",
+          "type": "text",
+          "placeholder": "Enter campaign",
+          "required": false
+        },
+        {
+          "id": "techwithmarcus_agreed_fee",
+          "label": "TechWithMarcus - Agreed Fee",
+          "type": "text",
+          "placeholder": "Enter agreed fee",
+          "required": false
+        },
+        {
+          "id": "techwithmarcus_amount_paid",
+          "label": "TechWithMarcus - Amount Paid",
+          "type": "number",
+          "placeholder": "Enter amount paid",
+          "required": false
+        },
+        {
+          "id": "techwithmarcus_balance",
+          "label": "TechWithMarcus - Balance",
+          "type": "text",
+          "placeholder": "Enter balance",
+          "required": false
+        },
+        {
+          "id": "techwithmarcus_invoice_date",
+          "label": "TechWithMarcus - Invoice Date",
+          "type": "text",
+          "placeholder": "Enter invoice date",
+          "required": false
+        },
+        {
+          "id": "techwithmarcus_payment_due",
+          "label": "TechWithMarcus - Payment Due",
+          "type": "text",
+          "placeholder": "Enter payment due",
+          "required": false
+        },
+        {
+          "id": "techwithmarcus_status",
+          "label": "TechWithMarcus - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "techwithmarcus_notes",
+          "label": "TechWithMarcus - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "datadrivendan_campaign",
+          "label": "DataDrivenDan - Campaign",
+          "type": "text",
+          "placeholder": "Enter campaign",
+          "required": false
+        },
+        {
+          "id": "datadrivendan_agreed_fee",
+          "label": "DataDrivenDan - Agreed Fee",
+          "type": "text",
+          "placeholder": "Enter agreed fee",
+          "required": false
+        },
+        {
+          "id": "datadrivendan_amount_paid",
+          "label": "DataDrivenDan - Amount Paid",
+          "type": "number",
+          "placeholder": "Enter amount paid",
+          "required": false
+        },
+        {
+          "id": "datadrivendan_balance",
+          "label": "DataDrivenDan - Balance",
+          "type": "text",
+          "placeholder": "Enter balance",
+          "required": false
+        },
+        {
+          "id": "datadrivendan_invoice_date",
+          "label": "DataDrivenDan - Invoice Date",
+          "type": "text",
+          "placeholder": "Enter invoice date",
+          "required": false
+        },
+        {
+          "id": "datadrivendan_payment_due",
+          "label": "DataDrivenDan - Payment Due",
+          "type": "text",
+          "placeholder": "Enter payment due",
+          "required": false
+        },
+        {
+          "id": "datadrivendan_status",
+          "label": "DataDrivenDan - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "datadrivendan_notes",
+          "label": "DataDrivenDan - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "codecraftstudio_campaign",
+          "label": "CodeCraftStudio - Campaign",
+          "type": "text",
+          "placeholder": "Enter campaign",
+          "required": false
+        },
+        {
+          "id": "codecraftstudio_agreed_fee",
+          "label": "CodeCraftStudio - Agreed Fee",
+          "type": "text",
+          "placeholder": "Enter agreed fee",
+          "required": false
+        },
+        {
+          "id": "codecraftstudio_amount_paid",
+          "label": "CodeCraftStudio - Amount Paid",
+          "type": "number",
+          "placeholder": "Enter amount paid",
+          "required": false
+        },
+        {
+          "id": "codecraftstudio_balance",
+          "label": "CodeCraftStudio - Balance",
+          "type": "text",
+          "placeholder": "Enter balance",
+          "required": false
+        },
+        {
+          "id": "codecraftstudio_invoice_date",
+          "label": "CodeCraftStudio - Invoice Date",
+          "type": "text",
+          "placeholder": "Enter invoice date",
+          "required": false
+        },
+        {
+          "id": "codecraftstudio_payment_due",
+          "label": "CodeCraftStudio - Payment Due",
+          "type": "text",
+          "placeholder": "Enter payment due",
+          "required": false
+        },
+        {
+          "id": "codecraftstudio_status",
+          "label": "CodeCraftStudio - Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "codecraftstudio_notes",
+          "label": "CodeCraftStudio - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "contract_checklist",
+      "title": "Contract Checklist",
+      "description": "Enter data for each item",
+      "fields": [
+        {
+          "id": "scope_of_work_checklist_item",
+          "label": "Scope of Work - Checklist Item",
+          "type": "text",
+          "placeholder": "Enter checklist item",
+          "required": false
+        },
+        {
+          "id": "scope_of_work_required",
+          "label": "Scope of Work - Required",
+          "type": "text",
+          "placeholder": "Enter required",
+          "required": false
+        },
+        {
+          "id": "scope_of_work_checked",
+          "label": "Scope of Work - Checked",
+          "type": "text",
+          "placeholder": "Enter checked",
+          "required": false
+        },
+        {
+          "id": "scope_of_work_notes",
+          "label": "Scope of Work - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "scope_of_work_checklist_item_1",
+          "label": "Scope of Work - Checklist Item",
+          "type": "text",
+          "placeholder": "Enter checklist item",
+          "required": false
+        },
+        {
+          "id": "scope_of_work_required_1",
+          "label": "Scope of Work - Required",
+          "type": "text",
+          "placeholder": "Enter required",
+          "required": false
+        },
+        {
+          "id": "scope_of_work_checked_1",
+          "label": "Scope of Work - Checked",
+          "type": "text",
+          "placeholder": "Enter checked",
+          "required": false
+        },
+        {
+          "id": "scope_of_work_notes_1",
+          "label": "Scope of Work - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "scope_of_work_checklist_item_2",
+          "label": "Scope of Work - Checklist Item",
+          "type": "text",
+          "placeholder": "Enter checklist item",
+          "required": false
+        },
+        {
+          "id": "scope_of_work_required_2",
+          "label": "Scope of Work - Required",
+          "type": "text",
+          "placeholder": "Enter required",
+          "required": false
+        },
+        {
+          "id": "scope_of_work_checked_2",
+          "label": "Scope of Work - Checked",
+          "type": "text",
+          "placeholder": "Enter checked",
+          "required": false
+        },
+        {
+          "id": "scope_of_work_notes_2",
+          "label": "Scope of Work - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "scope_of_work_checklist_item_3",
+          "label": "Scope of Work - Checklist Item",
+          "type": "text",
+          "placeholder": "Enter checklist item",
+          "required": false
+        },
+        {
+          "id": "scope_of_work_required_3",
+          "label": "Scope of Work - Required",
+          "type": "text",
+          "placeholder": "Enter required",
+          "required": false
+        },
+        {
+          "id": "scope_of_work_checked_3",
+          "label": "Scope of Work - Checked",
+          "type": "text",
+          "placeholder": "Enter checked",
+          "required": false
+        },
+        {
+          "id": "scope_of_work_notes_3",
+          "label": "Scope of Work - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "scope_of_work_checklist_item_4",
+          "label": "Scope of Work - Checklist Item",
+          "type": "text",
+          "placeholder": "Enter checklist item",
+          "required": false
+        },
+        {
+          "id": "scope_of_work_required_4",
+          "label": "Scope of Work - Required",
+          "type": "text",
+          "placeholder": "Enter required",
+          "required": false
+        },
+        {
+          "id": "scope_of_work_checked_4",
+          "label": "Scope of Work - Checked",
+          "type": "text",
+          "placeholder": "Enter checked",
+          "required": false
+        },
+        {
+          "id": "scope_of_work_notes_4",
+          "label": "Scope of Work - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "compensation_checklist_item",
+          "label": "Compensation - Checklist Item",
+          "type": "text",
+          "placeholder": "Enter checklist item",
+          "required": false
+        },
+        {
+          "id": "compensation_required",
+          "label": "Compensation - Required",
+          "type": "text",
+          "placeholder": "Enter required",
+          "required": false
+        },
+        {
+          "id": "compensation_checked",
+          "label": "Compensation - Checked",
+          "type": "text",
+          "placeholder": "Enter checked",
+          "required": false
+        },
+        {
+          "id": "compensation_notes",
+          "label": "Compensation - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "compensation_checklist_item_1",
+          "label": "Compensation - Checklist Item",
+          "type": "text",
+          "placeholder": "Enter checklist item",
+          "required": false
+        },
+        {
+          "id": "compensation_required_1",
+          "label": "Compensation - Required",
+          "type": "text",
+          "placeholder": "Enter required",
+          "required": false
+        },
+        {
+          "id": "compensation_checked_1",
+          "label": "Compensation - Checked",
+          "type": "text",
+          "placeholder": "Enter checked",
+          "required": false
+        },
+        {
+          "id": "compensation_notes_1",
+          "label": "Compensation - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "compensation_checklist_item_2",
+          "label": "Compensation - Checklist Item",
+          "type": "text",
+          "placeholder": "Enter checklist item",
+          "required": false
+        },
+        {
+          "id": "compensation_required_2",
+          "label": "Compensation - Required",
+          "type": "text",
+          "placeholder": "Enter required",
+          "required": false
+        },
+        {
+          "id": "compensation_checked_2",
+          "label": "Compensation - Checked",
+          "type": "text",
+          "placeholder": "Enter checked",
+          "required": false
+        },
+        {
+          "id": "compensation_notes_2",
+          "label": "Compensation - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "compensation_checklist_item_3",
+          "label": "Compensation - Checklist Item",
+          "type": "text",
+          "placeholder": "Enter checklist item",
+          "required": false
+        },
+        {
+          "id": "compensation_required_3",
+          "label": "Compensation - Required",
+          "type": "text",
+          "placeholder": "Enter required",
+          "required": false
+        },
+        {
+          "id": "compensation_checked_3",
+          "label": "Compensation - Checked",
+          "type": "text",
+          "placeholder": "Enter checked",
+          "required": false
+        },
+        {
+          "id": "compensation_notes_3",
+          "label": "Compensation - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "content_rights_checklist_item",
+          "label": "Content Rights - Checklist Item",
+          "type": "text",
+          "placeholder": "Enter checklist item",
+          "required": false
+        },
+        {
+          "id": "content_rights_required",
+          "label": "Content Rights - Required",
+          "type": "text",
+          "placeholder": "Enter required",
+          "required": false
+        },
+        {
+          "id": "content_rights_checked",
+          "label": "Content Rights - Checked",
+          "type": "text",
+          "placeholder": "Enter checked",
+          "required": false
+        },
+        {
+          "id": "content_rights_notes",
+          "label": "Content Rights - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "content_rights_checklist_item_1",
+          "label": "Content Rights - Checklist Item",
+          "type": "text",
+          "placeholder": "Enter checklist item",
+          "required": false
+        },
+        {
+          "id": "content_rights_required_1",
+          "label": "Content Rights - Required",
+          "type": "text",
+          "placeholder": "Enter required",
+          "required": false
+        },
+        {
+          "id": "content_rights_checked_1",
+          "label": "Content Rights - Checked",
+          "type": "text",
+          "placeholder": "Enter checked",
+          "required": false
+        },
+        {
+          "id": "content_rights_notes_1",
+          "label": "Content Rights - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "content_rights_checklist_item_2",
+          "label": "Content Rights - Checklist Item",
+          "type": "text",
+          "placeholder": "Enter checklist item",
+          "required": false
+        },
+        {
+          "id": "content_rights_required_2",
+          "label": "Content Rights - Required",
+          "type": "text",
+          "placeholder": "Enter required",
+          "required": false
+        },
+        {
+          "id": "content_rights_checked_2",
+          "label": "Content Rights - Checked",
+          "type": "text",
+          "placeholder": "Enter checked",
+          "required": false
+        },
+        {
+          "id": "content_rights_notes_2",
+          "label": "Content Rights - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "content_rights_checklist_item_3",
+          "label": "Content Rights - Checklist Item",
+          "type": "text",
+          "placeholder": "Enter checklist item",
+          "required": false
+        },
+        {
+          "id": "content_rights_required_3",
+          "label": "Content Rights - Required",
+          "type": "text",
+          "placeholder": "Enter required",
+          "required": false
+        },
+        {
+          "id": "content_rights_checked_3",
+          "label": "Content Rights - Checked",
+          "type": "text",
+          "placeholder": "Enter checked",
+          "required": false
+        },
+        {
+          "id": "content_rights_notes_3",
+          "label": "Content Rights - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "compliance_checklist_item",
+          "label": "Compliance - Checklist Item",
+          "type": "text",
+          "placeholder": "Enter checklist item",
+          "required": false
+        },
+        {
+          "id": "compliance_required",
+          "label": "Compliance - Required",
+          "type": "text",
+          "placeholder": "Enter required",
+          "required": false
+        },
+        {
+          "id": "compliance_checked",
+          "label": "Compliance - Checked",
+          "type": "text",
+          "placeholder": "Enter checked",
+          "required": false
+        },
+        {
+          "id": "compliance_notes",
+          "label": "Compliance - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "compliance_checklist_item_1",
+          "label": "Compliance - Checklist Item",
+          "type": "text",
+          "placeholder": "Enter checklist item",
+          "required": false
+        },
+        {
+          "id": "compliance_required_1",
+          "label": "Compliance - Required",
+          "type": "text",
+          "placeholder": "Enter required",
+          "required": false
+        },
+        {
+          "id": "compliance_checked_1",
+          "label": "Compliance - Checked",
+          "type": "text",
+          "placeholder": "Enter checked",
+          "required": false
+        },
+        {
+          "id": "compliance_notes_1",
+          "label": "Compliance - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "compliance_checklist_item_2",
+          "label": "Compliance - Checklist Item",
+          "type": "text",
+          "placeholder": "Enter checklist item",
+          "required": false
+        },
+        {
+          "id": "compliance_required_2",
+          "label": "Compliance - Required",
+          "type": "text",
+          "placeholder": "Enter required",
+          "required": false
+        },
+        {
+          "id": "compliance_checked_2",
+          "label": "Compliance - Checked",
+          "type": "text",
+          "placeholder": "Enter checked",
+          "required": false
+        },
+        {
+          "id": "compliance_notes_2",
+          "label": "Compliance - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "compliance_checklist_item_3",
+          "label": "Compliance - Checklist Item",
+          "type": "text",
+          "placeholder": "Enter checklist item",
+          "required": false
+        },
+        {
+          "id": "compliance_required_3",
+          "label": "Compliance - Required",
+          "type": "text",
+          "placeholder": "Enter required",
+          "required": false
+        },
+        {
+          "id": "compliance_checked_3",
+          "label": "Compliance - Checked",
+          "type": "text",
+          "placeholder": "Enter checked",
+          "required": false
+        },
+        {
+          "id": "compliance_notes_3",
+          "label": "Compliance - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "exclusivity_checklist_item",
+          "label": "Exclusivity - Checklist Item",
+          "type": "text",
+          "placeholder": "Enter checklist item",
+          "required": false
+        },
+        {
+          "id": "exclusivity_required",
+          "label": "Exclusivity - Required",
+          "type": "text",
+          "placeholder": "Enter required",
+          "required": false
+        },
+        {
+          "id": "exclusivity_checked",
+          "label": "Exclusivity - Checked",
+          "type": "text",
+          "placeholder": "Enter checked",
+          "required": false
+        },
+        {
+          "id": "exclusivity_notes",
+          "label": "Exclusivity - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "exclusivity_checklist_item_1",
+          "label": "Exclusivity - Checklist Item",
+          "type": "text",
+          "placeholder": "Enter checklist item",
+          "required": false
+        },
+        {
+          "id": "exclusivity_required_1",
+          "label": "Exclusivity - Required",
+          "type": "text",
+          "placeholder": "Enter required",
+          "required": false
+        },
+        {
+          "id": "exclusivity_checked_1",
+          "label": "Exclusivity - Checked",
+          "type": "text",
+          "placeholder": "Enter checked",
+          "required": false
+        },
+        {
+          "id": "exclusivity_notes_1",
+          "label": "Exclusivity - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "exclusivity_checklist_item_2",
+          "label": "Exclusivity - Checklist Item",
+          "type": "text",
+          "placeholder": "Enter checklist item",
+          "required": false
+        },
+        {
+          "id": "exclusivity_required_2",
+          "label": "Exclusivity - Required",
+          "type": "text",
+          "placeholder": "Enter required",
+          "required": false
+        },
+        {
+          "id": "exclusivity_checked_2",
+          "label": "Exclusivity - Checked",
+          "type": "text",
+          "placeholder": "Enter checked",
+          "required": false
+        },
+        {
+          "id": "exclusivity_notes_2",
+          "label": "Exclusivity - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "termination_checklist_item",
+          "label": "Termination - Checklist Item",
+          "type": "text",
+          "placeholder": "Enter checklist item",
+          "required": false
+        },
+        {
+          "id": "termination_required",
+          "label": "Termination - Required",
+          "type": "text",
+          "placeholder": "Enter required",
+          "required": false
+        },
+        {
+          "id": "termination_checked",
+          "label": "Termination - Checked",
+          "type": "text",
+          "placeholder": "Enter checked",
+          "required": false
+        },
+        {
+          "id": "termination_notes",
+          "label": "Termination - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "termination_checklist_item_1",
+          "label": "Termination - Checklist Item",
+          "type": "text",
+          "placeholder": "Enter checklist item",
+          "required": false
+        },
+        {
+          "id": "termination_required_1",
+          "label": "Termination - Required",
+          "type": "text",
+          "placeholder": "Enter required",
+          "required": false
+        },
+        {
+          "id": "termination_checked_1",
+          "label": "Termination - Checked",
+          "type": "text",
+          "placeholder": "Enter checked",
+          "required": false
+        },
+        {
+          "id": "termination_notes_1",
+          "label": "Termination - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "termination_checklist_item_2",
+          "label": "Termination - Checklist Item",
+          "type": "text",
+          "placeholder": "Enter checklist item",
+          "required": false
+        },
+        {
+          "id": "termination_required_2",
+          "label": "Termination - Required",
+          "type": "text",
+          "placeholder": "Enter required",
+          "required": false
+        },
+        {
+          "id": "termination_checked_2",
+          "label": "Termination - Checked",
+          "type": "text",
+          "placeholder": "Enter checked",
+          "required": false
+        },
+        {
+          "id": "termination_notes_2",
+          "label": "Termination - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "performance_checklist_item",
+          "label": "Performance - Checklist Item",
+          "type": "text",
+          "placeholder": "Enter checklist item",
+          "required": false
+        },
+        {
+          "id": "performance_required",
+          "label": "Performance - Required",
+          "type": "text",
+          "placeholder": "Enter required",
+          "required": false
+        },
+        {
+          "id": "performance_checked",
+          "label": "Performance - Checked",
+          "type": "text",
+          "placeholder": "Enter checked",
+          "required": false
+        },
+        {
+          "id": "performance_notes",
+          "label": "Performance - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "performance_checklist_item_1",
+          "label": "Performance - Checklist Item",
+          "type": "text",
+          "placeholder": "Enter checklist item",
+          "required": false
+        },
+        {
+          "id": "performance_required_1",
+          "label": "Performance - Required",
+          "type": "text",
+          "placeholder": "Enter required",
+          "required": false
+        },
+        {
+          "id": "performance_checked_1",
+          "label": "Performance - Checked",
+          "type": "text",
+          "placeholder": "Enter checked",
+          "required": false
+        },
+        {
+          "id": "performance_notes_1",
+          "label": "Performance - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "performance_checklist_item_2",
+          "label": "Performance - Checklist Item",
+          "type": "text",
+          "placeholder": "Enter checklist item",
+          "required": false
+        },
+        {
+          "id": "performance_required_2",
+          "label": "Performance - Required",
+          "type": "text",
+          "placeholder": "Enter required",
+          "required": false
+        },
+        {
+          "id": "performance_checked_2",
+          "label": "Performance - Checked",
+          "type": "text",
+          "placeholder": "Enter checked",
+          "required": false
+        },
+        {
+          "id": "performance_notes_2",
+          "label": "Performance - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        }
+      ]
+    }
+  ]
 }

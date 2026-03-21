@@ -11,596 +11,6 @@
     "content"
   ],
   "estimatedTime": "45 min",
-  "sections": [
-    {
-      "id": "dashboard",
-      "title": "Dashboard",
-      "description": "Complete the Dashboard section",
-      "fields": [
-        {
-          "id": "videos_planned_0",
-          "label": "Videos Planned",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "videos_published_1",
-          "label": "Videos Published",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "videos_in_production_2",
-          "label": "Videos in Production",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "total_views_3",
-          "label": "Total Views",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "avg_engagement_rate_4",
-          "label": "Avg Engagement Rate",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "total_production_cost_5",
-          "label": "Total Production Cost",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "avg_cost_per_video_6",
-          "label": "Avg Cost per Video",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "top_performing_platform_7",
-          "label": "Top Performing Platform",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "video_strategy",
-      "title": "Video Strategy",
-      "description": "Complete the Video Strategy section",
-      "fields": [
-        {
-          "id": "video_marketing_goal_0",
-          "label": "Video Marketing Goal",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "primary_audience_1",
-          "label": "Primary Audience",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "secondary_audience_2",
-          "label": "Secondary Audience",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "key_message_pillars_3",
-          "label": "Key Message Pillars",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "brand_tone_for_video_4",
-          "label": "Brand Tone for Video",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "monthly_video_target_5",
-          "label": "Monthly Video Target",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "annual_budget_6",
-          "label": "Annual Budget",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "primary_platform_7",
-          "label": "Primary Platform",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "content_pillars_8",
-          "label": "Content Pillars",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "pillar_9",
-          "label": "Pillar",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "description_10",
-          "label": "Description",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "video_types_11",
-          "label": "Video Types",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "frequency_12",
-          "label": "Frequency",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "platform_focus_13",
-          "label": "Platform Focus",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "example_topics_14",
-          "label": "Example Topics",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "educational_15",
-          "label": "Educational",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "teach_audience_something_valuable_16",
-          "label": "Teach audience something valuable",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "how_to_tutorial_explainer_17",
-          "label": "How-to, Tutorial, Explainer",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "weekly_18",
-          "label": "Weekly",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "youtube_linkedin_19",
-          "label": "YouTube, LinkedIn",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "industry_tips_product_walkthroughs_20",
-          "label": "Industry tips, product walkthroughs",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "brand_story_21",
-          "label": "Brand Story",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "share_company_culture_and_values_22",
-          "label": "Share company culture and values",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "behind_the_scenes_culture_mission_23",
-          "label": "Behind-the-scenes, Culture, Mission",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "monthly_24",
-          "label": "Monthly",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "instagram_youtube_25",
-          "label": "Instagram, YouTube",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "team_stories_company_milestones_26",
-          "label": "Team stories, company milestones",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "product_27",
-          "label": "Product",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "showcase_product_features_and_benefits_28",
-          "label": "Showcase product features and benefits",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "demo_unboxing_comparison_29",
-          "label": "Demo, Unboxing, Comparison",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "script_template",
-      "title": "Script Template",
-      "description": "Complete the Script Template section",
-      "fields": [
-        {
-          "id": "video_type_0",
-          "label": "Video Type",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "target_duration_1",
-          "label": "Target Duration",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "target_platform_2",
-          "label": "Target Platform",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "target_audience_3",
-          "label": "Target Audience",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "key_message_4",
-          "label": "Key Message",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "script_breakdown_5",
-          "label": "Script Breakdown",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "section_6",
-          "label": "Section",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "timecode_7",
-          "label": "Timecode",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "duration_8",
-          "label": "Duration",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "visual_9",
-          "label": "Visual",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "audio_voiceover_10",
-          "label": "Audio - Voiceover",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "audio_music_11",
-          "label": "Audio - Music",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "on_screen_text_12",
-          "label": "On-Screen Text",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "hook_13",
-          "label": "Hook",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "0_00_14",
-          "label": "0:00",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "0_03_15",
-          "label": "0:03",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "eye_catching_opening_shot_16",
-          "label": "Eye-catching opening shot",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "attention_grabbing_first_line_17",
-          "label": "Attention-grabbing first line",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "upbeat_intro_18",
-          "label": "Upbeat intro",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "problem_19",
-          "label": "Problem",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "0_03_20",
-          "label": "0:03",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "0_10_21",
-          "label": "0:10",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "relatable_scenario_22",
-          "label": "Relatable scenario",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "describe_the_pain_point_23",
-          "label": "Describe the pain point",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "subtle_tension_24",
-          "label": "Subtle tension",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "problem_statement_25",
-          "label": "Problem statement",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "solution_26",
-          "label": "Solution",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "0_13_27",
-          "label": "0:13",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "0_15_28",
-          "label": "0:15",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "product_reveal_or_concept_29",
-          "label": "Product reveal or concept",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "platform_specs",
-      "title": "Platform Specs",
-      "description": "Complete the Platform Specs section",
-      "fields": [
-        {
-          "id": "chapters_improve_retention_0",
-          "label": "Chapters improve retention",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "vertical_only_1",
-          "label": "Vertical only",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "square_or_vertical_preferred_2",
-          "label": "Square or vertical preferred",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "trending_audio_helps_reach_3",
-          "label": "Trending audio helps reach",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "swipe_up_for_links_4",
-          "label": "Swipe up for links",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "hook_in_first_1_2_sec_5",
-          "label": "Hook in first 1-2 sec",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "captions_essential_6",
-          "label": "Captions essential",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "auto_play_without_sound_7",
-          "label": "Auto-play without sound",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "short_form_vertical_8",
-          "label": "Short-form vertical",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "brevity_wins_9",
-          "label": "Brevity wins",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "autoplay_muted_10",
-          "label": "Autoplay muted",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        },
-        {
-          "id": "use_gif_preview_play_link_11",
-          "label": "Use GIF preview + play link",
-          "type": "text",
-          "placeholder": "",
-          "required": false
-        }
-      ]
-    }
-  ],
   "dashboard": {
     "metrics": [
       {
@@ -629,5 +39,1518 @@
         "format": "number"
       }
     ]
-  }
+  },
+  "sections": [
+    {
+      "id": "dashboard",
+      "title": "Dashboard",
+      "description": "Auto-calculated summary of your data. Complete the working sections to see results here.",
+      "readOnly": true,
+      "fields": [
+        {
+          "id": "dashboard_overview",
+          "label": "Dashboard Overview",
+          "type": "textarea",
+          "placeholder": "Dashboard metrics will be calculated from your inputs in the working sections",
+          "required": false,
+          "readOnly": true
+        }
+      ]
+    },
+    {
+      "id": "video_strategy",
+      "title": "Video Strategy",
+      "description": "Enter data for each item",
+      "fields": [
+        {
+          "id": "educational_description",
+          "label": "Educational - Description",
+          "type": "textarea",
+          "placeholder": "Enter description",
+          "required": false
+        },
+        {
+          "id": "educational_video_types",
+          "label": "Educational - Video Types",
+          "type": "text",
+          "placeholder": "Enter video types",
+          "required": false
+        },
+        {
+          "id": "educational_frequency",
+          "label": "Educational - Frequency",
+          "type": "text",
+          "placeholder": "Enter frequency",
+          "required": false
+        },
+        {
+          "id": "educational_platform_focus",
+          "label": "Educational - Platform Focus",
+          "type": "text",
+          "placeholder": "Enter platform focus",
+          "required": false
+        },
+        {
+          "id": "educational_example_topics",
+          "label": "Educational - Example Topics",
+          "type": "text",
+          "placeholder": "Enter example topics",
+          "required": false
+        },
+        {
+          "id": "brand_story_description",
+          "label": "Brand Story - Description",
+          "type": "textarea",
+          "placeholder": "Enter description",
+          "required": false
+        },
+        {
+          "id": "brand_story_video_types",
+          "label": "Brand Story - Video Types",
+          "type": "text",
+          "placeholder": "Enter video types",
+          "required": false
+        },
+        {
+          "id": "brand_story_frequency",
+          "label": "Brand Story - Frequency",
+          "type": "text",
+          "placeholder": "Enter frequency",
+          "required": false
+        },
+        {
+          "id": "brand_story_platform_focus",
+          "label": "Brand Story - Platform Focus",
+          "type": "text",
+          "placeholder": "Enter platform focus",
+          "required": false
+        },
+        {
+          "id": "brand_story_example_topics",
+          "label": "Brand Story - Example Topics",
+          "type": "text",
+          "placeholder": "Enter example topics",
+          "required": false
+        },
+        {
+          "id": "product_description",
+          "label": "Product - Description",
+          "type": "textarea",
+          "placeholder": "Enter description",
+          "required": false
+        },
+        {
+          "id": "product_video_types",
+          "label": "Product - Video Types",
+          "type": "text",
+          "placeholder": "Enter video types",
+          "required": false
+        },
+        {
+          "id": "product_frequency",
+          "label": "Product - Frequency",
+          "type": "text",
+          "placeholder": "Enter frequency",
+          "required": false
+        },
+        {
+          "id": "product_platform_focus",
+          "label": "Product - Platform Focus",
+          "type": "text",
+          "placeholder": "Enter platform focus",
+          "required": false
+        },
+        {
+          "id": "product_example_topics",
+          "label": "Product - Example Topics",
+          "type": "text",
+          "placeholder": "Enter example topics",
+          "required": false
+        },
+        {
+          "id": "social_proof_description",
+          "label": "Social Proof - Description",
+          "type": "textarea",
+          "placeholder": "Enter description",
+          "required": false
+        },
+        {
+          "id": "social_proof_video_types",
+          "label": "Social Proof - Video Types",
+          "type": "text",
+          "placeholder": "Enter video types",
+          "required": false
+        },
+        {
+          "id": "social_proof_frequency",
+          "label": "Social Proof - Frequency",
+          "type": "text",
+          "placeholder": "Enter frequency",
+          "required": false
+        },
+        {
+          "id": "social_proof_platform_focus",
+          "label": "Social Proof - Platform Focus",
+          "type": "text",
+          "placeholder": "Enter platform focus",
+          "required": false
+        },
+        {
+          "id": "social_proof_example_topics",
+          "label": "Social Proof - Example Topics",
+          "type": "text",
+          "placeholder": "Enter example topics",
+          "required": false
+        },
+        {
+          "id": "trending_description",
+          "label": "Trending - Description",
+          "type": "textarea",
+          "placeholder": "Enter description",
+          "required": false
+        },
+        {
+          "id": "trending_video_types",
+          "label": "Trending - Video Types",
+          "type": "text",
+          "placeholder": "Enter video types",
+          "required": false
+        },
+        {
+          "id": "trending_frequency",
+          "label": "Trending - Frequency",
+          "type": "text",
+          "placeholder": "Enter frequency",
+          "required": false
+        },
+        {
+          "id": "trending_platform_focus",
+          "label": "Trending - Platform Focus",
+          "type": "text",
+          "placeholder": "Enter platform focus",
+          "required": false
+        },
+        {
+          "id": "trending_example_topics",
+          "label": "Trending - Example Topics",
+          "type": "text",
+          "placeholder": "Enter example topics",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "content_calendar",
+      "title": "Content Calendar",
+      "description": "Add entries below. Each entry has the following fields.",
+      "fields": [
+        {
+          "id": "entry_week",
+          "label": "Week",
+          "type": "text",
+          "placeholder": "Enter week",
+          "required": false
+        },
+        {
+          "id": "entry_video_title",
+          "label": "Video Title",
+          "type": "text",
+          "placeholder": "Enter video title",
+          "required": false
+        },
+        {
+          "id": "entry_type",
+          "label": "Type",
+          "type": "select",
+          "placeholder": "Enter type",
+          "required": false,
+          "options": [
+            "Blog Post",
+            "Video",
+            "Infographic",
+            "Case Study",
+            "Whitepaper",
+            "Newsletter",
+            "Social Post",
+            "Webinar"
+          ]
+        },
+        {
+          "id": "entry_pillar",
+          "label": "Pillar",
+          "type": "text",
+          "placeholder": "Enter pillar",
+          "required": false
+        },
+        {
+          "id": "entry_platform",
+          "label": "Platform",
+          "type": "text",
+          "placeholder": "Enter platform",
+          "required": false
+        },
+        {
+          "id": "entry_publish_date",
+          "label": "Publish Date",
+          "type": "text",
+          "placeholder": "Enter publish date",
+          "required": false
+        },
+        {
+          "id": "entry_duration",
+          "label": "Duration",
+          "type": "text",
+          "placeholder": "Enter duration",
+          "required": false
+        },
+        {
+          "id": "entry_status",
+          "label": "Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "entry_owner",
+          "label": "Owner",
+          "type": "text",
+          "placeholder": "Enter owner",
+          "required": false
+        },
+        {
+          "id": "entry_thumbnail",
+          "label": "Thumbnail",
+          "type": "text",
+          "placeholder": "Enter thumbnail",
+          "required": false
+        },
+        {
+          "id": "entry_notes",
+          "label": "Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "production_tracker",
+      "title": "Production Tracker",
+      "description": "Add entries below. Each entry has the following fields.",
+      "fields": [
+        {
+          "id": "entry_video_id",
+          "label": "Video ID",
+          "type": "text",
+          "placeholder": "Enter video id",
+          "required": false
+        },
+        {
+          "id": "entry_title",
+          "label": "Title",
+          "type": "text",
+          "placeholder": "Enter title",
+          "required": false
+        },
+        {
+          "id": "entry_script_due",
+          "label": "Script Due",
+          "type": "text",
+          "placeholder": "Enter script due",
+          "required": false
+        },
+        {
+          "id": "entry_film_date",
+          "label": "Film Date",
+          "type": "text",
+          "placeholder": "Enter film date",
+          "required": false
+        },
+        {
+          "id": "entry_edit_due",
+          "label": "Edit Due",
+          "type": "text",
+          "placeholder": "Enter edit due",
+          "required": false
+        },
+        {
+          "id": "entry_review_due",
+          "label": "Review Due",
+          "type": "text",
+          "placeholder": "Enter review due",
+          "required": false
+        },
+        {
+          "id": "entry_status",
+          "label": "Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        },
+        {
+          "id": "entry_editor",
+          "label": "Editor",
+          "type": "text",
+          "placeholder": "Enter editor",
+          "required": false
+        },
+        {
+          "id": "entry_budget",
+          "label": "Budget",
+          "type": "number",
+          "placeholder": "Enter budget",
+          "required": false
+        },
+        {
+          "id": "entry_actual_cost",
+          "label": "Actual Cost",
+          "type": "number",
+          "placeholder": "Enter actual cost",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "script_template",
+      "title": "Script Template",
+      "description": "Enter data for each item",
+      "fields": [
+        {
+          "id": "hook_timecode",
+          "label": "Hook - Timecode",
+          "type": "text",
+          "placeholder": "Enter timecode",
+          "required": false
+        },
+        {
+          "id": "hook_duration",
+          "label": "Hook - Duration",
+          "type": "text",
+          "placeholder": "Enter duration",
+          "required": false
+        },
+        {
+          "id": "hook_visual",
+          "label": "Hook - Visual",
+          "type": "text",
+          "placeholder": "Enter visual",
+          "required": false
+        },
+        {
+          "id": "hook_audio_voiceover",
+          "label": "Hook - Audio - Voiceover",
+          "type": "text",
+          "placeholder": "Enter audio - voiceover",
+          "required": false
+        },
+        {
+          "id": "hook_audio_music",
+          "label": "Hook - Audio - Music",
+          "type": "text",
+          "placeholder": "Enter audio - music",
+          "required": false
+        },
+        {
+          "id": "hook_onscreen_text",
+          "label": "Hook - On-Screen Text",
+          "type": "text",
+          "placeholder": "Enter on-screen text",
+          "required": false
+        },
+        {
+          "id": "hook_notes",
+          "label": "Hook - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "problem_timecode",
+          "label": "Problem - Timecode",
+          "type": "text",
+          "placeholder": "Enter timecode",
+          "required": false
+        },
+        {
+          "id": "problem_duration",
+          "label": "Problem - Duration",
+          "type": "text",
+          "placeholder": "Enter duration",
+          "required": false
+        },
+        {
+          "id": "problem_visual",
+          "label": "Problem - Visual",
+          "type": "text",
+          "placeholder": "Enter visual",
+          "required": false
+        },
+        {
+          "id": "problem_audio_voiceover",
+          "label": "Problem - Audio - Voiceover",
+          "type": "text",
+          "placeholder": "Enter audio - voiceover",
+          "required": false
+        },
+        {
+          "id": "problem_audio_music",
+          "label": "Problem - Audio - Music",
+          "type": "text",
+          "placeholder": "Enter audio - music",
+          "required": false
+        },
+        {
+          "id": "problem_onscreen_text",
+          "label": "Problem - On-Screen Text",
+          "type": "text",
+          "placeholder": "Enter on-screen text",
+          "required": false
+        },
+        {
+          "id": "problem_notes",
+          "label": "Problem - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "solution_timecode",
+          "label": "Solution - Timecode",
+          "type": "text",
+          "placeholder": "Enter timecode",
+          "required": false
+        },
+        {
+          "id": "solution_duration",
+          "label": "Solution - Duration",
+          "type": "text",
+          "placeholder": "Enter duration",
+          "required": false
+        },
+        {
+          "id": "solution_visual",
+          "label": "Solution - Visual",
+          "type": "text",
+          "placeholder": "Enter visual",
+          "required": false
+        },
+        {
+          "id": "solution_audio_voiceover",
+          "label": "Solution - Audio - Voiceover",
+          "type": "text",
+          "placeholder": "Enter audio - voiceover",
+          "required": false
+        },
+        {
+          "id": "solution_audio_music",
+          "label": "Solution - Audio - Music",
+          "type": "text",
+          "placeholder": "Enter audio - music",
+          "required": false
+        },
+        {
+          "id": "solution_onscreen_text",
+          "label": "Solution - On-Screen Text",
+          "type": "text",
+          "placeholder": "Enter on-screen text",
+          "required": false
+        },
+        {
+          "id": "solution_notes",
+          "label": "Solution - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "proof_timecode",
+          "label": "Proof - Timecode",
+          "type": "text",
+          "placeholder": "Enter timecode",
+          "required": false
+        },
+        {
+          "id": "proof_duration",
+          "label": "Proof - Duration",
+          "type": "text",
+          "placeholder": "Enter duration",
+          "required": false
+        },
+        {
+          "id": "proof_visual",
+          "label": "Proof - Visual",
+          "type": "text",
+          "placeholder": "Enter visual",
+          "required": false
+        },
+        {
+          "id": "proof_audio_voiceover",
+          "label": "Proof - Audio - Voiceover",
+          "type": "text",
+          "placeholder": "Enter audio - voiceover",
+          "required": false
+        },
+        {
+          "id": "proof_audio_music",
+          "label": "Proof - Audio - Music",
+          "type": "text",
+          "placeholder": "Enter audio - music",
+          "required": false
+        },
+        {
+          "id": "proof_onscreen_text",
+          "label": "Proof - On-Screen Text",
+          "type": "text",
+          "placeholder": "Enter on-screen text",
+          "required": false
+        },
+        {
+          "id": "proof_notes",
+          "label": "Proof - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "cta_timecode",
+          "label": "CTA - Timecode",
+          "type": "text",
+          "placeholder": "Enter timecode",
+          "required": false
+        },
+        {
+          "id": "cta_duration",
+          "label": "CTA - Duration",
+          "type": "text",
+          "placeholder": "Enter duration",
+          "required": false
+        },
+        {
+          "id": "cta_visual",
+          "label": "CTA - Visual",
+          "type": "text",
+          "placeholder": "Enter visual",
+          "required": false
+        },
+        {
+          "id": "cta_audio_voiceover",
+          "label": "CTA - Audio - Voiceover",
+          "type": "text",
+          "placeholder": "Enter audio - voiceover",
+          "required": false
+        },
+        {
+          "id": "cta_audio_music",
+          "label": "CTA - Audio - Music",
+          "type": "text",
+          "placeholder": "Enter audio - music",
+          "required": false
+        },
+        {
+          "id": "cta_onscreen_text",
+          "label": "CTA - On-Screen Text",
+          "type": "text",
+          "placeholder": "Enter on-screen text",
+          "required": false
+        },
+        {
+          "id": "cta_notes",
+          "label": "CTA - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "end_card_timecode",
+          "label": "End Card - Timecode",
+          "type": "text",
+          "placeholder": "Enter timecode",
+          "required": false
+        },
+        {
+          "id": "end_card_duration",
+          "label": "End Card - Duration",
+          "type": "text",
+          "placeholder": "Enter duration",
+          "required": false
+        },
+        {
+          "id": "end_card_visual",
+          "label": "End Card - Visual",
+          "type": "text",
+          "placeholder": "Enter visual",
+          "required": false
+        },
+        {
+          "id": "end_card_audio_voiceover",
+          "label": "End Card - Audio - Voiceover",
+          "type": "text",
+          "placeholder": "Enter audio - voiceover",
+          "required": false
+        },
+        {
+          "id": "end_card_audio_music",
+          "label": "End Card - Audio - Music",
+          "type": "text",
+          "placeholder": "Enter audio - music",
+          "required": false
+        },
+        {
+          "id": "end_card_onscreen_text",
+          "label": "End Card - On-Screen Text",
+          "type": "text",
+          "placeholder": "Enter on-screen text",
+          "required": false
+        },
+        {
+          "id": "end_card_notes",
+          "label": "End Card - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "distribution_plan",
+      "title": "Distribution Plan",
+      "description": "Add entries below. Each entry has the following fields.",
+      "fields": [
+        {
+          "id": "entry_video_title",
+          "label": "Video Title",
+          "type": "text",
+          "placeholder": "Enter video title",
+          "required": false
+        },
+        {
+          "id": "entry_platform",
+          "label": "Platform",
+          "type": "text",
+          "placeholder": "Enter platform",
+          "required": false
+        },
+        {
+          "id": "entry_format",
+          "label": "Format",
+          "type": "text",
+          "placeholder": "Enter format",
+          "required": false
+        },
+        {
+          "id": "entry_dimensions",
+          "label": "Dimensions",
+          "type": "text",
+          "placeholder": "Enter dimensions",
+          "required": false
+        },
+        {
+          "id": "entry_caption",
+          "label": "Caption",
+          "type": "text",
+          "placeholder": "Enter caption",
+          "required": false
+        },
+        {
+          "id": "entry_hashtags",
+          "label": "Hashtags",
+          "type": "text",
+          "placeholder": "Enter hashtags",
+          "required": false
+        },
+        {
+          "id": "entry_publish_time",
+          "label": "Publish Time",
+          "type": "text",
+          "placeholder": "Enter publish time",
+          "required": false
+        },
+        {
+          "id": "entry_promotion_budget",
+          "label": "Promotion Budget",
+          "type": "number",
+          "placeholder": "Enter promotion budget",
+          "required": false
+        },
+        {
+          "id": "entry_crosspost",
+          "label": "Cross-post",
+          "type": "text",
+          "placeholder": "Enter cross-post",
+          "required": false
+        },
+        {
+          "id": "entry_notes",
+          "label": "Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "budget_tracker",
+      "title": "Budget Tracker",
+      "description": "Add entries below. Each entry has the following fields.",
+      "fields": [
+        {
+          "id": "entry_video_title",
+          "label": "Video Title",
+          "type": "text",
+          "placeholder": "Enter video title",
+          "required": false
+        },
+        {
+          "id": "entry_category",
+          "label": "Category",
+          "type": "text",
+          "placeholder": "Enter category",
+          "required": false
+        },
+        {
+          "id": "entry_description",
+          "label": "Description",
+          "type": "textarea",
+          "placeholder": "Enter description",
+          "required": false
+        },
+        {
+          "id": "entry_budgeted",
+          "label": "Budgeted",
+          "type": "number",
+          "placeholder": "Enter budgeted",
+          "required": false
+        },
+        {
+          "id": "entry_actual",
+          "label": "Actual",
+          "type": "text",
+          "placeholder": "Enter actual",
+          "required": false
+        },
+        {
+          "id": "entry_spent",
+          "label": "% Spent",
+          "type": "number",
+          "placeholder": "Enter % spent",
+          "required": false
+        },
+        {
+          "id": "entry_vendor",
+          "label": "Vendor",
+          "type": "text",
+          "placeholder": "Enter vendor",
+          "required": false
+        },
+        {
+          "id": "entry_status",
+          "label": "Status",
+          "type": "select",
+          "placeholder": "Enter status",
+          "required": false,
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "performance_tracker",
+      "title": "Performance Tracker",
+      "description": "Add entries below. Each entry has the following fields.",
+      "fields": [
+        {
+          "id": "entry_video_title",
+          "label": "Video Title",
+          "type": "text",
+          "placeholder": "Enter video title",
+          "required": false
+        },
+        {
+          "id": "entry_platform",
+          "label": "Platform",
+          "type": "text",
+          "placeholder": "Enter platform",
+          "required": false
+        },
+        {
+          "id": "entry_publish_date",
+          "label": "Publish Date",
+          "type": "text",
+          "placeholder": "Enter publish date",
+          "required": false
+        },
+        {
+          "id": "entry_views",
+          "label": "Views",
+          "type": "text",
+          "placeholder": "Enter views",
+          "required": false
+        },
+        {
+          "id": "entry_watch_time_hrs",
+          "label": "Watch Time (hrs)",
+          "type": "text",
+          "placeholder": "Enter watch time (hrs)",
+          "required": false
+        },
+        {
+          "id": "entry_avg_view_duration",
+          "label": "Avg View Duration",
+          "type": "number",
+          "placeholder": "Enter avg view duration",
+          "required": false
+        },
+        {
+          "id": "entry_likes",
+          "label": "Likes",
+          "type": "text",
+          "placeholder": "Enter likes",
+          "required": false
+        },
+        {
+          "id": "entry_engagement_rate",
+          "label": "Engagement Rate",
+          "type": "number",
+          "placeholder": "Enter engagement rate",
+          "required": false
+        },
+        {
+          "id": "entry_comments",
+          "label": "Comments",
+          "type": "textarea",
+          "placeholder": "Enter comments",
+          "required": false
+        },
+        {
+          "id": "entry_shares",
+          "label": "Shares",
+          "type": "text",
+          "placeholder": "Enter shares",
+          "required": false
+        },
+        {
+          "id": "entry_conversions",
+          "label": "Conversions",
+          "type": "number",
+          "placeholder": "Enter conversions",
+          "required": false
+        },
+        {
+          "id": "entry_revenue",
+          "label": "Revenue",
+          "type": "number",
+          "placeholder": "Enter revenue",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "platform_specs",
+      "title": "Platform Specs",
+      "description": "Enter data for each item",
+      "fields": [
+        {
+          "id": "youtube_format",
+          "label": "YouTube - Format",
+          "type": "text",
+          "placeholder": "Enter format",
+          "required": false
+        },
+        {
+          "id": "youtube_aspect_ratio",
+          "label": "YouTube - Aspect Ratio",
+          "type": "text",
+          "placeholder": "Enter aspect ratio",
+          "required": false
+        },
+        {
+          "id": "youtube_resolution",
+          "label": "YouTube - Resolution",
+          "type": "text",
+          "placeholder": "Enter resolution",
+          "required": false
+        },
+        {
+          "id": "youtube_max_duration",
+          "label": "YouTube - Max Duration",
+          "type": "text",
+          "placeholder": "Enter max duration",
+          "required": false
+        },
+        {
+          "id": "youtube_max_file_size",
+          "label": "YouTube - Max File Size",
+          "type": "text",
+          "placeholder": "Enter max file size",
+          "required": false
+        },
+        {
+          "id": "youtube_recommended_duration",
+          "label": "YouTube - Recommended Duration",
+          "type": "text",
+          "placeholder": "Enter recommended duration",
+          "required": false
+        },
+        {
+          "id": "youtube_notes",
+          "label": "YouTube - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "youtube_format_1",
+          "label": "YouTube - Format",
+          "type": "text",
+          "placeholder": "Enter format",
+          "required": false
+        },
+        {
+          "id": "youtube_aspect_ratio_1",
+          "label": "YouTube - Aspect Ratio",
+          "type": "text",
+          "placeholder": "Enter aspect ratio",
+          "required": false
+        },
+        {
+          "id": "youtube_resolution_1",
+          "label": "YouTube - Resolution",
+          "type": "text",
+          "placeholder": "Enter resolution",
+          "required": false
+        },
+        {
+          "id": "youtube_max_duration_1",
+          "label": "YouTube - Max Duration",
+          "type": "text",
+          "placeholder": "Enter max duration",
+          "required": false
+        },
+        {
+          "id": "youtube_max_file_size_1",
+          "label": "YouTube - Max File Size",
+          "type": "text",
+          "placeholder": "Enter max file size",
+          "required": false
+        },
+        {
+          "id": "youtube_recommended_duration_1",
+          "label": "YouTube - Recommended Duration",
+          "type": "text",
+          "placeholder": "Enter recommended duration",
+          "required": false
+        },
+        {
+          "id": "youtube_notes_1",
+          "label": "YouTube - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "instagram_format",
+          "label": "Instagram - Format",
+          "type": "text",
+          "placeholder": "Enter format",
+          "required": false
+        },
+        {
+          "id": "instagram_aspect_ratio",
+          "label": "Instagram - Aspect Ratio",
+          "type": "text",
+          "placeholder": "Enter aspect ratio",
+          "required": false
+        },
+        {
+          "id": "instagram_resolution",
+          "label": "Instagram - Resolution",
+          "type": "text",
+          "placeholder": "Enter resolution",
+          "required": false
+        },
+        {
+          "id": "instagram_max_duration",
+          "label": "Instagram - Max Duration",
+          "type": "text",
+          "placeholder": "Enter max duration",
+          "required": false
+        },
+        {
+          "id": "instagram_max_file_size",
+          "label": "Instagram - Max File Size",
+          "type": "text",
+          "placeholder": "Enter max file size",
+          "required": false
+        },
+        {
+          "id": "instagram_recommended_duration",
+          "label": "Instagram - Recommended Duration",
+          "type": "text",
+          "placeholder": "Enter recommended duration",
+          "required": false
+        },
+        {
+          "id": "instagram_notes",
+          "label": "Instagram - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "instagram_format_1",
+          "label": "Instagram - Format",
+          "type": "text",
+          "placeholder": "Enter format",
+          "required": false
+        },
+        {
+          "id": "instagram_aspect_ratio_1",
+          "label": "Instagram - Aspect Ratio",
+          "type": "text",
+          "placeholder": "Enter aspect ratio",
+          "required": false
+        },
+        {
+          "id": "instagram_resolution_1",
+          "label": "Instagram - Resolution",
+          "type": "text",
+          "placeholder": "Enter resolution",
+          "required": false
+        },
+        {
+          "id": "instagram_max_duration_1",
+          "label": "Instagram - Max Duration",
+          "type": "text",
+          "placeholder": "Enter max duration",
+          "required": false
+        },
+        {
+          "id": "instagram_max_file_size_1",
+          "label": "Instagram - Max File Size",
+          "type": "text",
+          "placeholder": "Enter max file size",
+          "required": false
+        },
+        {
+          "id": "instagram_recommended_duration_1",
+          "label": "Instagram - Recommended Duration",
+          "type": "text",
+          "placeholder": "Enter recommended duration",
+          "required": false
+        },
+        {
+          "id": "instagram_notes_1",
+          "label": "Instagram - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "instagram_format_2",
+          "label": "Instagram - Format",
+          "type": "text",
+          "placeholder": "Enter format",
+          "required": false
+        },
+        {
+          "id": "instagram_aspect_ratio_2",
+          "label": "Instagram - Aspect Ratio",
+          "type": "text",
+          "placeholder": "Enter aspect ratio",
+          "required": false
+        },
+        {
+          "id": "instagram_resolution_2",
+          "label": "Instagram - Resolution",
+          "type": "text",
+          "placeholder": "Enter resolution",
+          "required": false
+        },
+        {
+          "id": "instagram_max_duration_2",
+          "label": "Instagram - Max Duration",
+          "type": "text",
+          "placeholder": "Enter max duration",
+          "required": false
+        },
+        {
+          "id": "instagram_max_file_size_2",
+          "label": "Instagram - Max File Size",
+          "type": "text",
+          "placeholder": "Enter max file size",
+          "required": false
+        },
+        {
+          "id": "instagram_recommended_duration_2",
+          "label": "Instagram - Recommended Duration",
+          "type": "text",
+          "placeholder": "Enter recommended duration",
+          "required": false
+        },
+        {
+          "id": "instagram_notes_2",
+          "label": "Instagram - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "tiktok_format",
+          "label": "TikTok - Format",
+          "type": "text",
+          "placeholder": "Enter format",
+          "required": false
+        },
+        {
+          "id": "tiktok_aspect_ratio",
+          "label": "TikTok - Aspect Ratio",
+          "type": "text",
+          "placeholder": "Enter aspect ratio",
+          "required": false
+        },
+        {
+          "id": "tiktok_resolution",
+          "label": "TikTok - Resolution",
+          "type": "text",
+          "placeholder": "Enter resolution",
+          "required": false
+        },
+        {
+          "id": "tiktok_max_duration",
+          "label": "TikTok - Max Duration",
+          "type": "text",
+          "placeholder": "Enter max duration",
+          "required": false
+        },
+        {
+          "id": "tiktok_max_file_size",
+          "label": "TikTok - Max File Size",
+          "type": "text",
+          "placeholder": "Enter max file size",
+          "required": false
+        },
+        {
+          "id": "tiktok_recommended_duration",
+          "label": "TikTok - Recommended Duration",
+          "type": "text",
+          "placeholder": "Enter recommended duration",
+          "required": false
+        },
+        {
+          "id": "tiktok_notes",
+          "label": "TikTok - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "linkedin_format",
+          "label": "LinkedIn - Format",
+          "type": "text",
+          "placeholder": "Enter format",
+          "required": false
+        },
+        {
+          "id": "linkedin_aspect_ratio",
+          "label": "LinkedIn - Aspect Ratio",
+          "type": "text",
+          "placeholder": "Enter aspect ratio",
+          "required": false
+        },
+        {
+          "id": "linkedin_resolution",
+          "label": "LinkedIn - Resolution",
+          "type": "text",
+          "placeholder": "Enter resolution",
+          "required": false
+        },
+        {
+          "id": "linkedin_max_duration",
+          "label": "LinkedIn - Max Duration",
+          "type": "text",
+          "placeholder": "Enter max duration",
+          "required": false
+        },
+        {
+          "id": "linkedin_max_file_size",
+          "label": "LinkedIn - Max File Size",
+          "type": "text",
+          "placeholder": "Enter max file size",
+          "required": false
+        },
+        {
+          "id": "linkedin_recommended_duration",
+          "label": "LinkedIn - Recommended Duration",
+          "type": "text",
+          "placeholder": "Enter recommended duration",
+          "required": false
+        },
+        {
+          "id": "linkedin_notes",
+          "label": "LinkedIn - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "facebook_format",
+          "label": "Facebook - Format",
+          "type": "text",
+          "placeholder": "Enter format",
+          "required": false
+        },
+        {
+          "id": "facebook_aspect_ratio",
+          "label": "Facebook - Aspect Ratio",
+          "type": "text",
+          "placeholder": "Enter aspect ratio",
+          "required": false
+        },
+        {
+          "id": "facebook_resolution",
+          "label": "Facebook - Resolution",
+          "type": "text",
+          "placeholder": "Enter resolution",
+          "required": false
+        },
+        {
+          "id": "facebook_max_duration",
+          "label": "Facebook - Max Duration",
+          "type": "text",
+          "placeholder": "Enter max duration",
+          "required": false
+        },
+        {
+          "id": "facebook_max_file_size",
+          "label": "Facebook - Max File Size",
+          "type": "text",
+          "placeholder": "Enter max file size",
+          "required": false
+        },
+        {
+          "id": "facebook_recommended_duration",
+          "label": "Facebook - Recommended Duration",
+          "type": "text",
+          "placeholder": "Enter recommended duration",
+          "required": false
+        },
+        {
+          "id": "facebook_notes",
+          "label": "Facebook - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "facebook_format_1",
+          "label": "Facebook - Format",
+          "type": "text",
+          "placeholder": "Enter format",
+          "required": false
+        },
+        {
+          "id": "facebook_aspect_ratio_1",
+          "label": "Facebook - Aspect Ratio",
+          "type": "text",
+          "placeholder": "Enter aspect ratio",
+          "required": false
+        },
+        {
+          "id": "facebook_resolution_1",
+          "label": "Facebook - Resolution",
+          "type": "text",
+          "placeholder": "Enter resolution",
+          "required": false
+        },
+        {
+          "id": "facebook_max_duration_1",
+          "label": "Facebook - Max Duration",
+          "type": "text",
+          "placeholder": "Enter max duration",
+          "required": false
+        },
+        {
+          "id": "facebook_max_file_size_1",
+          "label": "Facebook - Max File Size",
+          "type": "text",
+          "placeholder": "Enter max file size",
+          "required": false
+        },
+        {
+          "id": "facebook_recommended_duration_1",
+          "label": "Facebook - Recommended Duration",
+          "type": "text",
+          "placeholder": "Enter recommended duration",
+          "required": false
+        },
+        {
+          "id": "facebook_notes_1",
+          "label": "Facebook - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "twitter_format",
+          "label": "Twitter - Format",
+          "type": "text",
+          "placeholder": "Enter format",
+          "required": false
+        },
+        {
+          "id": "twitter_aspect_ratio",
+          "label": "Twitter - Aspect Ratio",
+          "type": "text",
+          "placeholder": "Enter aspect ratio",
+          "required": false
+        },
+        {
+          "id": "twitter_resolution",
+          "label": "Twitter - Resolution",
+          "type": "text",
+          "placeholder": "Enter resolution",
+          "required": false
+        },
+        {
+          "id": "twitter_max_duration",
+          "label": "Twitter - Max Duration",
+          "type": "text",
+          "placeholder": "Enter max duration",
+          "required": false
+        },
+        {
+          "id": "twitter_max_file_size",
+          "label": "Twitter - Max File Size",
+          "type": "text",
+          "placeholder": "Enter max file size",
+          "required": false
+        },
+        {
+          "id": "twitter_recommended_duration",
+          "label": "Twitter - Recommended Duration",
+          "type": "text",
+          "placeholder": "Enter recommended duration",
+          "required": false
+        },
+        {
+          "id": "twitter_notes",
+          "label": "Twitter - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "website_format",
+          "label": "Website - Format",
+          "type": "text",
+          "placeholder": "Enter format",
+          "required": false
+        },
+        {
+          "id": "website_aspect_ratio",
+          "label": "Website - Aspect Ratio",
+          "type": "text",
+          "placeholder": "Enter aspect ratio",
+          "required": false
+        },
+        {
+          "id": "website_resolution",
+          "label": "Website - Resolution",
+          "type": "text",
+          "placeholder": "Enter resolution",
+          "required": false
+        },
+        {
+          "id": "website_max_duration",
+          "label": "Website - Max Duration",
+          "type": "text",
+          "placeholder": "Enter max duration",
+          "required": false
+        },
+        {
+          "id": "website_max_file_size",
+          "label": "Website - Max File Size",
+          "type": "text",
+          "placeholder": "Enter max file size",
+          "required": false
+        },
+        {
+          "id": "website_recommended_duration",
+          "label": "Website - Recommended Duration",
+          "type": "text",
+          "placeholder": "Enter recommended duration",
+          "required": false
+        },
+        {
+          "id": "website_notes",
+          "label": "Website - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        },
+        {
+          "id": "email_format",
+          "label": "Email - Format",
+          "type": "text",
+          "placeholder": "Enter format",
+          "required": false
+        },
+        {
+          "id": "email_aspect_ratio",
+          "label": "Email - Aspect Ratio",
+          "type": "text",
+          "placeholder": "Enter aspect ratio",
+          "required": false
+        },
+        {
+          "id": "email_resolution",
+          "label": "Email - Resolution",
+          "type": "text",
+          "placeholder": "Enter resolution",
+          "required": false
+        },
+        {
+          "id": "email_max_duration",
+          "label": "Email - Max Duration",
+          "type": "text",
+          "placeholder": "Enter max duration",
+          "required": false
+        },
+        {
+          "id": "email_max_file_size",
+          "label": "Email - Max File Size",
+          "type": "text",
+          "placeholder": "Enter max file size",
+          "required": false
+        },
+        {
+          "id": "email_recommended_duration",
+          "label": "Email - Recommended Duration",
+          "type": "text",
+          "placeholder": "Enter recommended duration",
+          "required": false
+        },
+        {
+          "id": "email_notes",
+          "label": "Email - Notes",
+          "type": "textarea",
+          "placeholder": "Enter notes",
+          "required": false
+        }
+      ]
+    }
+  ]
 }
