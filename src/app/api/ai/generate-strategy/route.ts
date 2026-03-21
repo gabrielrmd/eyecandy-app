@@ -2,6 +2,9 @@ import { NextRequest, NextResponse } from "next/server";
 import Anthropic from "@anthropic-ai/sdk";
 import { createClient } from "@/lib/supabase/server";
 
+// Vercel function config: extend timeout for AI generation
+export const maxDuration = 60;
+
 // Gabriel's 15-section methodology with question mappings
 const STRATEGY_SECTIONS = [
   {
@@ -107,9 +110,9 @@ When generating strategy sections:
 - Structure for executive clarity and actionability
 - Write in clear, jargon-free language
 - Include clear thinking about trade-offs
-- Each section should be 500-800 words with rich markdown formatting
-- Include tables, bullet lists, bold key phrases
-- End each section with "## Key Takeaways" (4-6 bullets) and "## Recommended Actions" (4-6 items)`;
+- Each section should be 200-350 words with concise markdown formatting
+- Use bullet lists and bold key phrases
+- End each section with "## Key Takeaways" (3-4 bullets)`;
 
 function getQuestionText(qNum: number): string {
   const questions: Record<number, string> = {
@@ -250,42 +253,39 @@ ${fullContext || "No questionnaire responses provided."}`;
 
     const anthropic = new Anthropic({ apiKey });
 
-    // Generate ALL 15 sections in a single API call
-    const message = await anthropic.messages.create({
-      model: "claude-sonnet-4-20250514",
-      max_tokens: 16384,
-      system: SYSTEM_PROMPT,
-      messages: [
-        {
-          role: "user",
-          content: `Generate a complete 15-section brand strategy for the following brand. This strategy must be deeply rooted in the client's actual questionnaire responses — do not invent or assume information that wasn't provided.
+    // Helper to score section quality
+    function scoreSection(content: string): number {
+      const wordCount = content.split(/\s+/).length;
+      const hasHeadings = /^#{1,3}\s/m.test(content);
+      const hasBullets = /^[-*]\s/m.test(content);
+      const hasBoldText = /\*\*[^*]+\*\*/m.test(content);
+      const hasKeyTakeaways = /key takeaway/i.test(content);
+      let score = 60;
+      if (wordCount > 150) score += 10;
+      if (wordCount > 300) score += 10;
+      if (hasHeadings) score += 5;
+      if (hasBullets) score += 5;
+      if (hasBoldText) score += 3;
+      if (hasKeyTakeaways) score += 5;
+      return Math.min(score, 99);
+    }
 
-Project Context:
-${projectContext}
+    // Helper to parse JSON from LLM response
+    function parseJsonResponse(rawText: string) {
+      let jsonText = rawText.trim();
+      if (jsonText.startsWith("```")) {
+        jsonText = jsonText.replace(/^```(?:json)?\n?/, "").replace(/\n?```$/, "");
+      }
+      return JSON.parse(jsonText);
+    }
 
-Generate ALL of the following sections. Each section should be 500-800 words with rich markdown formatting (headings, bullet points, bold text, tables where appropriate).
+    // Generate in 3 batches of 5 sections each (fits within Vercel timeout)
+    const BATCH_SIZE = 5;
+    const batches = [];
+    for (let i = 0; i < STRATEGY_SECTIONS.length; i += BATCH_SIZE) {
+      batches.push(STRATEGY_SECTIONS.slice(i, i + BATCH_SIZE));
+    }
 
-CRITICAL REQUIREMENTS:
-- Every section MUST end with "## Key Takeaways" (4-6 bullets) and "## Recommended Actions" (4-6 items)
-- Reference specific answers from the questionnaire to support your recommendations
-- Each section builds on previous sections — maintain consistency throughout
-- Replace [BRAND] with the actual brand name and [CATEGORY] with the actual category throughout
-
-${sectionsPrompt}
-
-IMPORTANT: Respond ONLY with a valid JSON object in this exact format (no markdown code fences, no extra text):
-{"sections": [{"id": "brand-story-origin", "title": "Brand Story & Origin", "content": "markdown content here..."}, {"id": "market-analysis", "title": "Market Analysis", "content": "markdown content here..."}, ...]}
-
-Make sure to include all 15 sections in order. Each "content" field should contain the full markdown-formatted section content including the Key Takeaways and Recommended Actions subsections.`,
-        },
-      ],
-    });
-
-    const textBlock = message.content.find((block) => block.type === "text");
-    const rawText =
-      textBlock && textBlock.type === "text" ? textBlock.text : "";
-
-    // Parse the JSON response
     let generatedSections: Array<{
       id: string;
       title: string;
@@ -294,84 +294,74 @@ Make sure to include all 15 sections in order. Each "content" field should conta
       qualityScore: number;
     }> = [];
 
-    try {
-      // Try to extract JSON from the response (handle possible markdown fences)
-      let jsonText = rawText.trim();
-      if (jsonText.startsWith("```")) {
-        jsonText = jsonText
-          .replace(/^```(?:json)?\n?/, "")
-          .replace(/\n?```$/, "");
+    for (const batch of batches) {
+      const batchPrompt = batch.map((s, i) => {
+        const sectionContext = s.questions.length > 0
+          ? `\nRelevant answers:\n${buildQuestionnaireContext(questionnaire_responses, s.questions)}`
+          : "\nSynthesize all previous sections.";
+        return `${i + 1}. ID: "${s.id}" | Title: "${s.title}"${sectionContext}\nInstructions: ${s.prompt}`;
+      }).join("\n\n---\n\n");
+
+      try {
+        const message = await anthropic.messages.create({
+          model: "claude-sonnet-4-20250514",
+          max_tokens: 6000,
+          system: SYSTEM_PROMPT,
+          messages: [{
+            role: "user",
+            content: `Generate ${batch.length} brand strategy sections for this brand.
+
+Project Context:
+${projectContext}
+
+Each section: 200-300 words, concise markdown. End each with "## Key Takeaways" (3 bullets).
+
+${batchPrompt}
+
+Respond ONLY with valid JSON (no code fences):
+{"sections": [{"id": "section-id", "title": "Section Title", "content": "markdown..."}]}`,
+          }],
+        });
+
+        const textBlock = message.content.find((b) => b.type === "text");
+        const rawText = textBlock && textBlock.type === "text" ? textBlock.text : "";
+        const parsed = parseJsonResponse(rawText);
+        const sections = parsed.sections || [];
+
+        for (const expected of batch) {
+          const found = sections.find(
+            (s: { id: string; content: string }) => s.id === expected.id
+          );
+          if (found?.content) {
+            generatedSections.push({
+              id: expected.id,
+              title: expected.title,
+              content: found.content,
+              status: "complete",
+              qualityScore: scoreSection(found.content),
+            });
+          } else {
+            generatedSections.push({
+              id: expected.id,
+              title: expected.title,
+              content: "This section could not be generated. Please try regenerating.",
+              status: "error",
+              qualityScore: 0,
+            });
+          }
+        }
+      } catch (batchErr) {
+        console.error("Batch generation error:", batchErr);
+        for (const expected of batch) {
+          generatedSections.push({
+            id: expected.id,
+            title: expected.title,
+            content: "Generation failed for this batch. Please retry.",
+            status: "error" as const,
+            qualityScore: 0,
+          });
+        }
       }
-      const parsed = JSON.parse(jsonText);
-      const sections = parsed.sections || [];
-
-      generatedSections = STRATEGY_SECTIONS.map((expected) => {
-        const found = sections.find(
-          (s: { id: string; title: string; content: string }) =>
-            s.id === expected.id
-        );
-
-        if (found && found.content) {
-          const content = found.content;
-          // Quality heuristic based on content length, structure, and required elements
-          const wordCount = content.split(/\s+/).length;
-          const hasHeadings = /^#{1,3}\s/m.test(content);
-          const hasBullets = /^[-*]\s/m.test(content);
-          const hasTables = /\|.*\|.*\|/m.test(content);
-          const hasBoldText = /\*\*[^*]+\*\*/m.test(content);
-          const hasKeyTakeaways = /key takeaway/i.test(content);
-          const hasRecommendedActions = /recommended action/i.test(content);
-          let qualityScore = 60;
-          if (wordCount > 300) qualityScore += 8;
-          if (wordCount > 500) qualityScore += 7;
-          if (wordCount > 700) qualityScore += 5;
-          if (hasHeadings) qualityScore += 3;
-          if (hasBullets) qualityScore += 3;
-          if (hasTables) qualityScore += 4;
-          if (hasBoldText) qualityScore += 2;
-          if (hasKeyTakeaways) qualityScore += 4;
-          if (hasRecommendedActions) qualityScore += 4;
-          qualityScore = Math.min(qualityScore, 99);
-
-          return {
-            id: expected.id,
-            title: expected.title,
-            content,
-            status: "complete" as const,
-            qualityScore,
-          };
-        }
-
-        return {
-          id: expected.id,
-          title: expected.title,
-          content:
-            "This section could not be generated. Please try regenerating.",
-          status: "error" as const,
-          qualityScore: 0,
-        };
-      });
-    } catch (parseErr) {
-      console.error("Failed to parse AI response as JSON:", parseErr);
-      // Fallback: treat entire response as a single section and mark rest as error
-      generatedSections = STRATEGY_SECTIONS.map((expected, idx) => {
-        if (idx === 0 && rawText.length > 100) {
-          return {
-            id: expected.id,
-            title: expected.title,
-            content: rawText,
-            status: "complete" as const,
-            qualityScore: 50,
-          };
-        }
-        return {
-          id: expected.id,
-          title: expected.title,
-          content: "Failed to parse AI response. Please try regenerating.",
-          status: "error" as const,
-          qualityScore: 0,
-        };
-      });
     }
 
     // Update project status
