@@ -158,31 +158,70 @@ export default function StrategyResultPage() {
   const handleExportPDF = () => {
     setExporting(true);
 
-    // Build a printable HTML document with all 15 sections
-    const printContent = sections.map((section, idx) => {
-      // Convert markdown to simple HTML
-      const htmlContent = section.content
-        .replace(/^### (.*$)/gm, '<h3 style="font-family:Oswald,sans-serif;color:#1A1A2E;font-size:16px;margin-top:20px;">$1</h3>')
-        .replace(/^## (.*$)/gm, '<h2 style="font-family:Oswald,sans-serif;color:#1A1A2E;font-size:20px;margin-top:24px;border-bottom:1px solid #e0e0e0;padding-bottom:6px;">$1</h2>')
-        .replace(/^# (.*$)/gm, '<h1 style="font-family:Oswald,sans-serif;color:#1A1A2E;font-size:24px;">$1</h1>')
-        .replace(/\*\*(.*?)\*\*/g, '<strong style="color:#1A1A2E;">$1</strong>')
-        .replace(/\*(.*?)\*/g, '<em>$1</em>')
-        .replace(/^- (.*$)/gm, '<li style="margin-left:20px;margin-bottom:4px;">$1</li>')
-        .replace(/^(\d+)\. (.*$)/gm, '<li style="margin-left:20px;margin-bottom:4px;list-style-type:decimal;">$2</li>')
-        .replace(/\n\n/g, '</p><p style="margin:10px 0;line-height:1.7;">')
-        .replace(/\n/g, '<br/>');
+    // Logo URL (absolute path for the print window)
+    const logoUrl = `${window.location.origin}/brand/au-logo.png`;
+    const logoWhiteUrl = `${window.location.origin}/brand/au-logo-white.png`;
+    const dateStr = new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
 
+    // Convert markdown to styled HTML
+    function mdToHtml(md: string): string {
+      return md
+        .replace(/^### (.*$)/gm, '<h3 class="h3">$1</h3>')
+        .replace(/^## (.*$)/gm, (_, title) => {
+          const lower = title.toLowerCase();
+          if (lower.includes('key takeaway')) {
+            return `<div class="takeaways-box"><h2 class="takeaways-title">${title}</h2>`;
+          }
+          if (lower.includes('recommended action')) {
+            return `<div class="actions-box"><h2 class="actions-title">${title}</h2>`;
+          }
+          return `<h2 class="h2">${title}</h2>`;
+        })
+        .replace(/^# (.*$)/gm, '<h1 class="h1">$1</h1>')
+        .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+        .replace(/\*(.*?)\*/g, '<em>$1</em>')
+        .replace(/^- (.*$)/gm, '<li class="bullet">$1</li>')
+        .replace(/^(\d+)\. (.*$)/gm, '<li class="numbered">$2</li>')
+        .replace(/\n\n/g, '</p><p class="body">')
+        .replace(/\n/g, '<br/>');
+    }
+
+    // Build table of contents
+    const tocHtml = sections.map((s, i) =>
+      `<div class="toc-item">
+        <span class="toc-num">${String(i + 1).padStart(2, '0')}</span>
+        <span class="toc-title">${s.title}</span>
+      </div>`
+    ).join('');
+
+    // Build section pages
+    const sectionsHtml = sections.map((section, idx) => {
+      const num = String(idx + 1).padStart(2, '0');
+      const content = mdToHtml(section.content);
       return `
-        <div style="page-break-before:${idx > 0 ? 'always' : 'auto'};padding:40px 0;">
-          <div style="color:#2AB9B0;font-family:Oswald,sans-serif;font-size:11px;text-transform:uppercase;letter-spacing:3px;margin-bottom:8px;">
-            Chapter ${String(idx + 1).padStart(2, '0')}
+        <!-- Section divider page -->
+        <div class="section-divider">
+          <div class="divider-inner">
+            <span class="divider-num">${num}</span>
+            <h1 class="divider-title">${section.title}</h1>
+            <div class="divider-line"></div>
           </div>
-          <h1 style="font-family:Oswald,sans-serif;color:#1A1A2E;font-size:28px;text-transform:uppercase;margin:0 0 16px 0;">
-            ${section.title}
-          </h1>
-          <hr style="border:none;height:2px;background:#2AB9B0;width:60px;margin:0 0 24px 0;"/>
-          <div style="font-family:Inter,sans-serif;font-size:13px;color:#333;line-height:1.8;">
-            <p style="margin:10px 0;line-height:1.7;">${htmlContent}</p>
+          <div class="divider-footer">
+            <img src="${logoUrl}" class="divider-logo" />
+          </div>
+        </div>
+        <!-- Section content page -->
+        <div class="section-content">
+          <div class="section-header">
+            <span class="section-chapter">Chapter ${num}</span>
+            <span class="section-date">${dateStr}</span>
+          </div>
+          <div class="section-body">
+            <p class="body">${content}</p>
+          </div>
+          <div class="section-footer">
+            <img src="${logoUrl}" class="footer-logo" />
+            <span class="footer-page">${idx + 1} / ${sections.length}</span>
           </div>
         </div>`;
     }).join('');
@@ -194,49 +233,121 @@ export default function StrategyResultPage() {
       return;
     }
 
-    printWindow.document.write(`
-      <!DOCTYPE html>
-      <html>
-      <head>
-        <title>Brand Strategy Deck</title>
-        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-        <style>
-          @page { margin: 50px 60px; size: A4; }
-          body { font-family: Inter, sans-serif; color: #333; margin: 0; padding: 0; }
-          @media print {
-            body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
-          }
-        </style>
-      </head>
-      <body>
-        <!-- Cover Page -->
-        <div style="height:100vh;display:flex;flex-direction:column;justify-content:center;padding:60px;">
-          <div style="color:#2AB9B0;font-family:Oswald,sans-serif;font-size:12px;text-transform:uppercase;letter-spacing:4px;">Brand Strategy</div>
-          <h1 style="font-family:Oswald,sans-serif;color:#1A1A2E;font-size:48px;margin:16px 0 8px 0;text-transform:uppercase;">Strategy Deck</h1>
-          <div style="height:3px;width:80px;background:#2AB9B0;margin:16px 0;"></div>
-          <p style="font-size:14px;color:#666;margin-top:24px;">Generated by Advertising Unplugged</p>
-          <p style="font-size:12px;color:#999;margin-top:8px;">${new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}</p>
-        </div>
+    printWindow.document.write(`<!DOCTYPE html>
+<html>
+<head>
+  <title>Brand Strategy Deck</title>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+    @page { margin: 0; size: A4; }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: Inter, sans-serif; color: #333; }
+    @media print { body { -webkit-print-color-adjust: exact; print-color-adjust: exact; } }
 
-        ${printContent}
+    /* Cover page */
+    .cover { height: 100vh; background: #1A1A2E; color: white; display: flex; flex-direction: column; justify-content: flex-end; padding: 80px; position: relative; page-break-after: always; }
+    .cover-logo { height: 48px; margin-bottom: 60px; }
+    .cover-label { font-family: Oswald, sans-serif; font-size: 13px; text-transform: uppercase; letter-spacing: 5px; color: #2AB9B0; margin-bottom: 12px; }
+    .cover-title { font-family: Oswald, sans-serif; font-size: 52px; font-weight: 700; text-transform: uppercase; line-height: 1.1; margin-bottom: 20px; }
+    .cover-line { width: 80px; height: 3px; background: #2AB9B0; margin-bottom: 30px; }
+    .cover-meta { font-size: 13px; color: rgba(255,255,255,0.5); line-height: 1.8; }
+    .cover-footer { position: absolute; bottom: 40px; left: 80px; right: 80px; display: flex; justify-content: space-between; font-size: 10px; color: rgba(255,255,255,0.3); text-transform: uppercase; letter-spacing: 2px; font-family: Oswald, sans-serif; }
 
-        <!-- Back Cover -->
-        <div style="page-break-before:always;height:100vh;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;">
-          <div style="color:#2AB9B0;font-family:Oswald,sans-serif;font-size:12px;text-transform:uppercase;letter-spacing:4px;margin-bottom:16px;">Advertising Unplugged</div>
-          <p style="font-size:14px;color:#666;">Clarity Over Noise. Purpose Beyond Profit.</p>
-          <p style="font-size:12px;color:#999;margin-top:16px;">advertisingunplugged.com</p>
-        </div>
-      </body>
-      </html>
-    `);
+    /* TOC page */
+    .toc-page { height: 100vh; padding: 80px; display: flex; flex-direction: column; page-break-after: always; }
+    .toc-heading { font-family: Oswald, sans-serif; font-size: 28px; text-transform: uppercase; color: #1A1A2E; margin-bottom: 40px; letter-spacing: 2px; }
+    .toc-item { display: flex; align-items: baseline; gap: 16px; padding: 12px 0; border-bottom: 1px solid #eee; }
+    .toc-num { font-family: Oswald, sans-serif; font-size: 14px; color: #2AB9B0; font-weight: 700; min-width: 28px; }
+    .toc-title { font-family: Oswald, sans-serif; font-size: 15px; color: #1A1A2E; text-transform: uppercase; letter-spacing: 1px; }
+
+    /* Section divider */
+    .section-divider { height: 100vh; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; page-break-after: always; background: white; position: relative; }
+    .divider-inner { padding: 40px; }
+    .divider-num { font-family: Oswald, sans-serif; font-size: 64px; font-weight: 700; color: #2AB9B0; display: block; margin-bottom: 16px; }
+    .divider-title { font-family: Oswald, sans-serif; font-size: 32px; font-weight: 700; text-transform: uppercase; color: #1A1A2E; letter-spacing: 2px; }
+    .divider-line { width: 60px; height: 3px; background: #2AB9B0; margin: 24px auto 0; }
+    .divider-footer { position: absolute; bottom: 40px; }
+    .divider-logo { height: 28px; opacity: 0.3; }
+
+    /* Section content */
+    .section-content { padding: 60px 80px; min-height: 100vh; page-break-after: always; position: relative; }
+    .section-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 30px; padding-bottom: 12px; border-bottom: 2px solid #2AB9B0; }
+    .section-chapter { font-family: Oswald, sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 3px; color: #2AB9B0; font-weight: 600; }
+    .section-date { font-size: 10px; color: #999; }
+    .section-body { font-size: 13px; line-height: 1.9; color: #333; }
+    .section-footer { position: absolute; bottom: 30px; left: 80px; right: 80px; display: flex; justify-content: space-between; align-items: center; }
+    .footer-logo { height: 20px; opacity: 0.2; }
+    .footer-page { font-family: Oswald, sans-serif; font-size: 10px; color: #999; letter-spacing: 1px; }
+
+    /* Typography */
+    .h1 { font-family: Oswald, sans-serif; font-size: 22px; color: #1A1A2E; margin: 24px 0 12px; text-transform: uppercase; }
+    .h2 { font-family: Oswald, sans-serif; font-size: 18px; color: #1A1A2E; margin: 28px 0 10px; padding-bottom: 6px; border-bottom: 1px solid #eee; }
+    .h3 { font-family: Oswald, sans-serif; font-size: 15px; color: #2AB9B0; margin: 20px 0 8px; }
+    .body { margin: 8px 0; line-height: 1.9; }
+    strong { color: #1A1A2E; }
+    .bullet { margin-left: 20px; margin-bottom: 6px; padding-left: 8px; position: relative; }
+    .bullet::before { content: ''; position: absolute; left: -12px; top: 8px; width: 5px; height: 5px; border-radius: 50%; background: #2AB9B0; }
+    .numbered { margin-left: 24px; margin-bottom: 6px; list-style-type: decimal; }
+
+    /* Key Takeaways box */
+    .takeaways-box { background: #f0faf9; border-left: 3px solid #2AB9B0; padding: 16px 20px; margin: 24px 0 16px; border-radius: 0 8px 8px 0; }
+    .takeaways-title { font-family: Oswald, sans-serif; font-size: 15px; color: #1A1A2E; margin-bottom: 8px; border: none; padding: 0; }
+    .actions-box { background: #1A1A2E; color: white; padding: 16px 20px; margin: 24px 0 16px; border-radius: 8px; }
+    .actions-title { font-family: Oswald, sans-serif; font-size: 15px; color: #2AB9B0; margin-bottom: 8px; border: none; padding: 0; }
+    .actions-box strong { color: white; }
+    .actions-box .bullet::before { background: #2AB9B0; }
+
+    /* Back cover */
+    .back-cover { height: 100vh; background: #1A1A2E; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; color: white; }
+    .back-logo { height: 56px; margin-bottom: 40px; }
+    .back-tagline { font-family: Oswald, sans-serif; font-size: 18px; text-transform: uppercase; letter-spacing: 4px; color: rgba(255,255,255,0.6); margin-bottom: 12px; }
+    .back-motto { font-size: 14px; color: rgba(255,255,255,0.4); font-style: italic; }
+    .back-url { font-family: Oswald, sans-serif; font-size: 11px; color: #2AB9B0; text-transform: uppercase; letter-spacing: 3px; margin-top: 40px; }
+  </style>
+</head>
+<body>
+  <!-- COVER PAGE -->
+  <div class="cover">
+    <img src="${logoWhiteUrl}" class="cover-logo" />
+    <div class="cover-label">Brand Strategy</div>
+    <div class="cover-title">Strategy Deck</div>
+    <div class="cover-line"></div>
+    <div class="cover-meta">
+      Generated by Advertising Unplugged<br/>
+      ${dateStr}
+    </div>
+    <div class="cover-footer">
+      <span>Confidential</span>
+      <span>advertisingunplugged.com</span>
+    </div>
+  </div>
+
+  <!-- TABLE OF CONTENTS -->
+  <div class="toc-page">
+    <div class="toc-heading">Contents</div>
+    ${tocHtml}
+  </div>
+
+  <!-- STRATEGY SECTIONS -->
+  ${sectionsHtml}
+
+  <!-- BACK COVER -->
+  <div class="back-cover">
+    <img src="${logoWhiteUrl}" class="back-logo" />
+    <div class="back-tagline">Advertising Unplugged</div>
+    <div class="back-motto">Clarity Over Noise. Purpose Beyond Profit.</div>
+    <div class="back-url">advertisingunplugged.com</div>
+  </div>
+</body>
+</html>`);
 
     printWindow.document.close();
 
-    // Wait for fonts to load, then trigger print
+    // Wait for fonts + images to load, then trigger print
     setTimeout(() => {
       printWindow.print();
       setExporting(false);
-    }, 1500);
+    }, 2000);
   };
 
   if (loading) {
