@@ -83,21 +83,6 @@ const SECTION_INTROS: Record<string, string> = {
   "Vision & Growth": "Where are you going? Honest answers here mean realistic, actionable strategies.",
 };
 
-const ARCHETYPES = [
-  { name: "The Hero", desc: "Brave, determined, inspiring", example: "Nike, FedEx" },
-  { name: "The Sage", desc: "Wise, knowledgeable, trusted advisor", example: "Google, BBC" },
-  { name: "The Innocent", desc: "Optimistic, pure, honest", example: "Coca-Cola, Dove" },
-  { name: "The Explorer", desc: "Adventurous, independent, pioneering", example: "Jeep, Patagonia" },
-  { name: "The Outlaw", desc: "Rebellious, disruptive, revolutionary", example: "Harley-Davidson, Virgin" },
-  { name: "The Magician", desc: "Visionary, transformative, innovative", example: "Apple, Disney" },
-  { name: "The Everyman", desc: "Relatable, authentic, down-to-earth", example: "IKEA, Target" },
-  { name: "The Lover", desc: "Passionate, intimate, sensual", example: "Chanel, Victoria's Secret" },
-  { name: "The Jester", desc: "Playful, humorous, fun", example: "Old Spice, M&M's" },
-  { name: "The Caregiver", desc: "Nurturing, generous, compassionate", example: "Johnson & Johnson, Volvo" },
-  { name: "The Creator", desc: "Imaginative, artistic, inventive", example: "Adobe, Lego" },
-  { name: "The Ruler", desc: "Authoritative, commanding, premium", example: "Mercedes-Benz, Rolex" },
-];
-
 /* ---------- Types ---------- */
 
 interface Question {
