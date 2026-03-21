@@ -167,21 +167,8 @@ USING (
   auth.uid()::text = (storage.foldername(name))[1]
 );
 
--- ============================================================================
--- STORAGE OPTIMIZATION
--- ============================================================================
-
--- Create index on bucket_id for faster lookups
-CREATE INDEX IF NOT EXISTS idx_storage_objects_bucket_id
-ON storage.objects(bucket_id);
-
--- Create index on owner_id for faster user-specific queries
-CREATE INDEX IF NOT EXISTS idx_storage_objects_owner_id
-ON storage.objects(owner);
-
--- Create index on created_at for sorting by date
-CREATE INDEX IF NOT EXISTS idx_storage_objects_created_at
-ON storage.objects(created_at DESC);
+-- NOTE: Indexes on storage.objects are managed by Supabase and cannot be
+-- modified by user migrations. The default indexes are sufficient.
 
 -- ============================================================================
 -- NOTES

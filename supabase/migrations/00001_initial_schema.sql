@@ -57,7 +57,7 @@ CREATE INDEX idx_user_profiles_industry ON public.user_profiles(industry);
 -- ============================================================================
 
 CREATE TABLE public.subscriptions (
-  id UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
+  id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
   user_id UUID NOT NULL REFERENCES public.user_profiles(id) ON DELETE CASCADE,
 
   -- Stripe integration
@@ -101,7 +101,7 @@ CREATE INDEX idx_subscriptions_stripe_customer ON public.subscriptions(stripe_cu
 -- ============================================================================
 
 CREATE TABLE public.template_catalog (
-  id UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
+  id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
   name TEXT NOT NULL,
   slug TEXT NOT NULL UNIQUE,
   category TEXT NOT NULL,
@@ -110,7 +110,7 @@ CREATE TABLE public.template_catalog (
   thumbnail_url TEXT,
 
   -- Schema definition for the template
-  schema_fields JSONB NOT NULL, -- Array of field definitions
+  schema_fields JSONB, -- Array of field definitions (loaded from JSON files in app)
   example_data JSONB,
 
   -- SEO & Discovery
@@ -130,7 +130,7 @@ CREATE INDEX idx_template_catalog_featured ON public.template_catalog(featured);
 CREATE INDEX idx_template_catalog_min_plan ON public.template_catalog(min_plan);
 
 CREATE TABLE public.template_responses (
-  id UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
+  id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
   user_id UUID NOT NULL REFERENCES public.user_profiles(id) ON DELETE CASCADE,
   template_id UUID NOT NULL REFERENCES public.template_catalog(id) ON DELETE RESTRICT,
 
@@ -161,7 +161,7 @@ CREATE INDEX idx_template_responses_status ON public.template_responses(status);
 -- ============================================================================
 
 CREATE TABLE public.questionnaire_sections (
-  id UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
+  id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
   section_number INT NOT NULL UNIQUE, -- 1-7
   section_name TEXT NOT NULL,
   section_description TEXT,
@@ -171,7 +171,7 @@ CREATE TABLE public.questionnaire_sections (
 );
 
 CREATE TABLE public.questionnaire_questions (
-  id UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
+  id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
   section_id UUID NOT NULL REFERENCES public.questionnaire_sections(id) ON DELETE CASCADE,
 
   question_number INT NOT NULL, -- 1-39 across all sections
@@ -199,7 +199,7 @@ CREATE TABLE public.questionnaire_questions (
 CREATE INDEX idx_questionnaire_questions_section ON public.questionnaire_questions(section_id);
 
 CREATE TABLE public.strategy_projects (
-  id UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
+  id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
   user_id UUID NOT NULL REFERENCES public.user_profiles(id) ON DELETE CASCADE,
 
   title TEXT NOT NULL,
@@ -223,7 +223,7 @@ CREATE INDEX idx_strategy_projects_user ON public.strategy_projects(user_id);
 CREATE INDEX idx_strategy_projects_status ON public.strategy_projects(status);
 
 CREATE TABLE public.questionnaire_responses (
-  id UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
+  id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
   strategy_project_id UUID NOT NULL REFERENCES public.strategy_projects(id) ON DELETE CASCADE,
   user_id UUID NOT NULL REFERENCES public.user_profiles(id) ON DELETE CASCADE,
 
@@ -252,7 +252,7 @@ CREATE INDEX idx_questionnaire_responses_user ON public.questionnaire_responses(
 -- ============================================================================
 
 CREATE TABLE public.ai_interviews (
-  id UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
+  id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
   strategy_project_id UUID NOT NULL REFERENCES public.strategy_projects(id) ON DELETE CASCADE,
   user_id UUID NOT NULL REFERENCES public.user_profiles(id) ON DELETE CASCADE,
 
@@ -281,7 +281,7 @@ CREATE INDEX idx_ai_interviews_user ON public.ai_interviews(user_id);
 -- ============================================================================
 
 CREATE TABLE public.strategies (
-  id UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
+  id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
   strategy_project_id UUID NOT NULL UNIQUE REFERENCES public.strategy_projects(id) ON DELETE CASCADE,
   user_id UUID NOT NULL REFERENCES public.user_profiles(id) ON DELETE CASCADE,
 
@@ -315,7 +315,7 @@ ALTER TABLE public.strategy_projects
   REFERENCES public.strategies(id) ON DELETE SET NULL;
 
 CREATE TABLE public.strategy_sections (
-  id UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
+  id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
   strategy_id UUID NOT NULL REFERENCES public.strategies(id) ON DELETE CASCADE,
 
   -- Section definition (15 sections per strategy deck)
@@ -348,7 +348,7 @@ CREATE INDEX idx_strategy_sections_quality ON public.strategy_sections(quality_s
 -- ============================================================================
 
 CREATE TABLE public.assets (
-  id UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
+  id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
   user_id UUID NOT NULL REFERENCES public.user_profiles(id) ON DELETE CASCADE,
   strategy_project_id UUID REFERENCES public.strategy_projects(id) ON DELETE CASCADE,
 
@@ -384,7 +384,7 @@ CREATE INDEX idx_assets_type ON public.assets(asset_type);
 -- ============================================================================
 
 CREATE TABLE public.bookings (
-  id UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
+  id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
   user_id UUID NOT NULL REFERENCES public.user_profiles(id) ON DELETE CASCADE,
 
   -- Booking details
@@ -422,7 +422,7 @@ CREATE INDEX idx_bookings_scheduled ON public.bookings(scheduled_at);
 -- ============================================================================
 
 CREATE TABLE public.challenge_enrollments (
-  id UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
+  id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
   user_id UUID NOT NULL REFERENCES public.user_profiles(id) ON DELETE CASCADE,
 
   -- Challenge instance
@@ -454,7 +454,7 @@ CREATE INDEX idx_challenge_enrollments_status ON public.challenge_enrollments(st
 CREATE INDEX idx_challenge_enrollments_cohort ON public.challenge_enrollments(challenge_cohort);
 
 CREATE TABLE public.challenge_weeks (
-  id UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
+  id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
   week_number INT NOT NULL UNIQUE, -- 1-12
   title TEXT NOT NULL,
   description TEXT,
@@ -468,7 +468,7 @@ CREATE TABLE public.challenge_weeks (
 );
 
 CREATE TABLE public.challenge_progress (
-  id UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
+  id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
   enrollment_id UUID NOT NULL REFERENCES public.challenge_enrollments(id) ON DELETE CASCADE,
   user_id UUID NOT NULL REFERENCES public.user_profiles(id) ON DELETE CASCADE,
   week_id UUID NOT NULL REFERENCES public.challenge_weeks(id) ON DELETE RESTRICT,
@@ -501,7 +501,7 @@ CREATE INDEX idx_challenge_progress_user ON public.challenge_progress(user_id);
 -- ============================================================================
 
 CREATE TABLE public.community_members (
-  id UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
+  id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
   user_id UUID NOT NULL UNIQUE REFERENCES public.user_profiles(id) ON DELETE CASCADE,
 
   -- Public profile
@@ -540,7 +540,7 @@ CREATE INDEX idx_community_members_public ON public.community_members(public_pro
 -- ============================================================================
 
 CREATE TABLE public.audit_log (
-  id UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
+  id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
   user_id UUID REFERENCES public.user_profiles(id) ON DELETE SET NULL,
 
   action TEXT NOT NULL, -- 'create', 'update', 'delete', etc.
