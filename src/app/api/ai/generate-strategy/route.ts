@@ -203,7 +203,9 @@ export async function POST(request: NextRequest) {
     }
 
     const body = await request.json();
-    const { strategy_project_id, questionnaire_responses } = body;
+    const { strategy_project_id, questionnaire_responses, batch: batchIndex } = body;
+    // batchIndex: 0 = sections 1-5, 1 = sections 6-10, 2 = sections 11-15
+    const requestedBatch = typeof batchIndex === "number" ? batchIndex : -1;
 
     if (!strategy_project_id) {
       return NextResponse.json(
@@ -279,12 +281,16 @@ ${fullContext || "No questionnaire responses provided."}`;
       return JSON.parse(jsonText);
     }
 
-    // Generate in 3 batches of 5 sections each (fits within Vercel timeout)
+    // Split into 3 batches of 5 sections each
     const BATCH_SIZE = 5;
-    const batches = [];
+    const allBatches = [];
     for (let i = 0; i < STRATEGY_SECTIONS.length; i += BATCH_SIZE) {
-      batches.push(STRATEGY_SECTIONS.slice(i, i + BATCH_SIZE));
+      allBatches.push(STRATEGY_SECTIONS.slice(i, i + BATCH_SIZE));
     }
+    // If a specific batch is requested, only process that one
+    const batches = requestedBatch >= 0 && requestedBatch < allBatches.length
+      ? [allBatches[requestedBatch]]
+      : allBatches;
 
     let generatedSections: Array<{
       id: string;

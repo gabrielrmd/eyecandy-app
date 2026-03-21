@@ -111,23 +111,35 @@ export default function GeneratingPage() {
         ? JSON.parse(storedResponses)
         : undefined;
 
-      const response = await fetch("/api/ai/generate-strategy", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          strategy_project_id: strategyId,
-          questionnaire_responses: questionnaireResponses,
-        }),
-        signal: abortController.signal,
-      });
+      // Generate in 3 batches of 5 sections each to fit within Vercel timeout
+      const allSections: Array<{ id: string; title: string; content: string; status: string; qualityScore: number }> = [];
 
-      if (!response.ok) {
-        const data = await response.json().catch(() => ({}));
-        throw new Error(data.error || "Strategy generation failed");
+      for (let batch = 0; batch < 3; batch++) {
+        setStatusIndex(batch * 5); // Update status message to match current batch
+        setProgress(Math.min(batch * 30 + 10, 85)); // 10%, 40%, 70%
+
+        const response = await fetch("/api/ai/generate-strategy", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            strategy_project_id: strategyId,
+            questionnaire_responses: questionnaireResponses,
+            batch,
+          }),
+          signal: abortController.signal,
+        });
+
+        if (!response.ok) {
+          const data = await response.json().catch(() => ({}));
+          throw new Error(data.error || `Batch ${batch + 1} generation failed`);
+        }
+
+        const data = await response.json();
+        const batchSections = data.sections || [];
+        allSections.push(...batchSections);
       }
 
-      const data = await response.json();
-      const generated = data.sections || [];
+      const generated = allSections;
 
       // Store results in localStorage
       localStorage.setItem(
