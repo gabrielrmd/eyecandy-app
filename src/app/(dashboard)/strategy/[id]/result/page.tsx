@@ -211,14 +211,43 @@ export default function StrategyResultPage() {
     setEditContent("");
   };
 
+  // Blocked error patterns that must never appear in exported PDF
+  const ERROR_PATTERNS = [
+    "generation failed", "could not be generated", "please retry",
+    "please try regenerating", "failed to generate", "error occurred",
+    "section generation failed", "an error occurred",
+  ];
+
+  function isErrorContent(content: string): boolean {
+    const lower = content.toLowerCase();
+    return ERROR_PATTERNS.some(p => lower.includes(p));
+  }
+
+  // Count sections with valid (non-error) content
+  const validSections = sections.filter(
+    s => s.status === "complete" && !isErrorContent(s.content) && s.content.length > 50
+  );
+  const failedSections = sections.filter(
+    s => s.status === "error" || isErrorContent(s.content) || s.content.length <= 50
+  );
+  const canExport = validSections.length === sections.length && sections.length > 0;
+
   const handleExportPDF = () => {
+    // Pre-export validation gate
+    if (!canExport) {
+      const failedNames = failedSections.map(s => s.title).join(", ");
+      alert(
+        `Cannot export: ${failedSections.length} section(s) failed or contain invalid content.\n\n` +
+        `Failed: ${failedNames}\n\n` +
+        `Please regenerate the strategy or edit the failed sections before exporting.`
+      );
+      return;
+    }
+
     setExporting(true);
 
-    // Use the white-text logo for dark backgrounds (as per brand book: "ON DARK BACKGROUNDS")
-    // Use the color logo for white backgrounds
     const origin = window.location.origin;
     const logoWhite = `${origin}/brand/au-logo-white.png`;
-    const logoColor = `${origin}/brand/au-logo.png`;
     const dateStr = new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
     const yearStr = new Date().getFullYear();
     const totalSections = sections.length;
@@ -333,41 +362,43 @@ img { image-rendering: -webkit-optimize-contrast; }
           background: linear-gradient(90deg, #2AB9B0, #8ED16A); }
 
 /* ---- CHAPTER BODY (content — flows naturally, NO fixed height) ---- */
-.chapter-body { page-break-before: always; padding: 64px 90px 60px; }
+.chapter-body { page-break-before: always; padding: 56px 80px 52px; position: relative; }
 .cb-head { display: flex; justify-content: space-between; align-items: center;
-           padding-bottom: 12px; margin-bottom: 32px; border-bottom: 1.5px solid #2AB9B0; }
+           padding-bottom: 10px; margin-bottom: 28px; border-bottom: 2px solid #2AB9B0; }
 .cb-label { font-family: Oswald, sans-serif; font-size: 9px; font-weight: 600;
             text-transform: uppercase; letter-spacing: 3.5px; color: #2AB9B0; }
-.cb-date { font-size: 8px; color: #aaa; }
-.cb-content { font-size: 12px; line-height: 1.95; color: #444; }
-.cb-inner { max-width: 480px; }
+.cb-date { font-family: Inter, sans-serif; font-size: 8px; color: #bbb; }
+.cb-content { font-size: 11.5px; line-height: 1.85; color: #444; }
+.cb-inner { max-width: 100%; columns: 1; }
 
-/* ---- HEADINGS (inside content) ---- */
+/* ---- HEADINGS (inside content) — stronger hierarchy ---- */
 .sh1 { font-family: Oswald, sans-serif; font-size: 18px; font-weight: 600;
-       color: #1A1A2E; margin: 28px 0 12px; text-transform: uppercase; letter-spacing: 0.4px; }
-.sh2 { font-family: Oswald, sans-serif; font-size: 15px; font-weight: 600;
-       color: #1A1A2E; margin: 26px 0 10px; padding-bottom: 6px; border-bottom: 1px solid #eee; }
-.sh3 { font-family: Oswald, sans-serif; font-size: 12px; font-weight: 500;
-       color: #2AB9B0; margin: 20px 0 6px; text-transform: uppercase; letter-spacing: 0.8px; }
+       color: #1A1A2E; margin: 26px 0 10px; text-transform: uppercase; letter-spacing: 0.5px;
+       border-left: 3px solid #2AB9B0; padding-left: 12px; }
+.sh2 { font-family: Oswald, sans-serif; font-size: 14px; font-weight: 600;
+       color: #1A1A2E; margin: 22px 0 8px; padding-bottom: 5px; border-bottom: 1px solid #e8e8e8; }
+.sh3 { font-family: Oswald, sans-serif; font-size: 11px; font-weight: 500;
+       color: #2AB9B0; margin: 16px 0 5px; text-transform: uppercase; letter-spacing: 1px; }
 strong { color: #1A1A2E; font-weight: 600; }
-em { color: #777; }
+em { color: #888; font-style: italic; }
 
-/* ---- BULLETS ---- */
-.bul { display: flex; gap: 8px; margin: 4px 0; line-height: 1.8; }
+/* ---- BULLETS — tighter, more professional ---- */
+.bul { display: flex; gap: 8px; margin: 3px 0; line-height: 1.75; font-size: 11.5px; }
 .bul-d { width: 4px; height: 4px; border-radius: 50%; background: #2AB9B0;
-         flex-shrink: 0; margin-top: 8px; }
+         flex-shrink: 0; margin-top: 7px; }
 .bul-n { font-family: Oswald, sans-serif; font-weight: 600; color: #2AB9B0;
          font-size: 11px; min-width: 16px; }
 .bul-t { flex: 1; }
 
-/* ---- CALLOUT BOXES ---- */
-.box { padding: 16px 20px; margin: 22px 0 16px; page-break-inside: avoid; }
+/* ---- CALLOUT BOXES — more substantial ---- */
+.box { padding: 18px 22px; margin: 20px 0 14px; page-break-inside: avoid; }
 .box-h { font-family: Oswald, sans-serif; font-size: 10px; font-weight: 600;
-         text-transform: uppercase; letter-spacing: 2px; margin-bottom: 8px; }
-.box-body { font-size: 12px; line-height: 1.85; }
-.tk { background: #F5F5F5; border-left: 3px solid #2AB9B0; border-radius: 0 4px 4px 0; }
+         text-transform: uppercase; letter-spacing: 2.5px; margin-bottom: 10px; }
+.box-body { font-size: 11.5px; line-height: 1.75; }
+.tk { background: linear-gradient(135deg, #f7fffe 0%, #F5F5F5 100%);
+      border-left: 3px solid #2AB9B0; border-radius: 0 4px 4px 0; }
 .tk-h { color: #2AB9B0; }
-.ra { background: #1A1A2E; border-radius: 4px; color: rgba(255,255,255,0.85); }
+.ra { background: #1A1A2E; border-radius: 4px; color: rgba(255,255,255,0.88); }
 .ra-h { color: #2AB9B0; }
 .ra strong { color: #fff; }
 .ra .bul-d { background: #2AB9B0; }
@@ -546,11 +577,12 @@ ${chaptersHtml}
             <div className="flex items-center gap-2">
               <button
                 onClick={handleExportPDF}
-                disabled={exporting}
-                className="flex items-center gap-1.5 rounded-lg border border-[var(--navy,#1A1A2E)]/10 px-3 py-1.5 text-xs font-medium text-[var(--navy,#1A1A2E)]/70 transition-colors hover:bg-[var(--navy,#1A1A2E)]/[0.03] disabled:opacity-50"
+                disabled={exporting || !canExport}
+                title={!canExport ? `${failedSections.length} section(s) need fixing before export` : ""}
+                className={`flex items-center gap-1.5 rounded-lg border px-3 py-1.5 text-xs font-medium transition-colors disabled:opacity-40 disabled:cursor-not-allowed ${canExport ? "border-[var(--navy,#1A1A2E)]/10 text-[var(--navy,#1A1A2E)]/70 hover:bg-[var(--navy,#1A1A2E)]/[0.03]" : "border-red-200 text-red-400"}`}
               >
                 {exporting ? <Loader2 className="h-3.5 w-3.5 animate-spin" /> : <FileDown className="h-3.5 w-3.5" />}
-                <span className="hidden sm:inline">{exporting ? "Preparing..." : "Export PDF"}</span>
+                <span className="hidden sm:inline">{exporting ? "Preparing..." : !canExport ? `${failedSections.length} failed` : "Export PDF"}</span>
               </button>
               <button
                 onClick={handleCopyLink}
@@ -585,6 +617,23 @@ ${chaptersHtml}
             </select>
           </div>
         </div>
+
+        {/* ---- Error banner if sections failed ---- */}
+        {failedSections.length > 0 && (
+          <div className="mx-auto max-w-[860px] px-6 pt-6 lg:px-10">
+            <div className="flex items-start gap-3 rounded-lg border border-red-200 bg-red-50 px-5 py-4">
+              <AlertCircle className="mt-0.5 h-4 w-4 shrink-0 text-red-500" />
+              <div>
+                <p className="text-sm font-medium text-red-800">
+                  {failedSections.length} section{failedSections.length > 1 ? 's' : ''} failed to generate
+                </p>
+                <p className="mt-1 text-xs text-red-600">
+                  {failedSections.map(s => s.title).join(', ')}. Edit these sections manually or regenerate the strategy before exporting.
+                </p>
+              </div>
+            </div>
+          </div>
+        )}
 
         {/* ---- Chapter content ---- */}
         <div className="mx-auto max-w-[860px] px-6 py-10 lg:px-10">
