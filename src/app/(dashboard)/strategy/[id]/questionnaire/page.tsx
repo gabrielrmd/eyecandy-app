@@ -12,8 +12,76 @@ import {
   Sparkles,
   X,
   Save,
+  Check,
 } from "lucide-react";
 import { createClient } from "@/lib/supabase/client";
+
+/* ---------- Constants ---------- */
+
+const QUESTION_PLACEHOLDERS: Record<number, string> = {
+  1: "e.g., I noticed small restaurant owners were losing customers to delivery apps but couldn't afford their own online ordering system...",
+  2: "e.g., Small businesses waste 10+ hours/week on manual social media posting. We automate their content calendar...",
+  3: "e.g., Unlike competitors who offer generic templates, we customize every strategy based on real customer data...",
+  4: "e.g., Transparency — we show our pricing publicly. Quality over quantity — we'd rather serve 50 clients exceptionally...",
+  5: "e.g., They would lose a reliable source of expert-level strategy at an accessible price point...",
+  6: "e.g., Tech-savvy small business owners aged 28-45, in service industries, frustrated with expensive agencies...",
+  7: "e.g., They've tried 3-4 marketing tools that all promised results but delivered vanity metrics...",
+  8: "e.g., High cost perception, information overload, difficulty distinguishing quality from marketing noise...",
+  9: "e.g., Reviews, case studies, free trials, expert recommendations, comparison articles...",
+  10: "e.g., Google search first, then LinkedIn peers, then industry blogs and podcasts...",
+  11: "e.g., AI Strategy Builder (flagship), Template Library (41 tools), 90-Day Growth Challenge...",
+  12: "e.g., Proprietary AI model trained on 1000+ successful strategies, combined with human review...",
+  13: "e.g., Harvard Business School certification, Gold Effie winner, 15+ years consulting experience...",
+  14: "e.g., Our training dataset and methodology are proprietary. The AI + human combo is hard to replicate...",
+  15: "e.g., We should NEVER promise guaranteed results or specific revenue numbers...",
+  16: "e.g., Canva (canva.com), Strategyzer (strategyzer.com), local agencies charging \u20AC5,000+...",
+  17: "e.g., We combine AI speed (24h delivery) with human strategic depth (15 sections vs competitors' 3-5)...",
+  18: "e.g., Canva has massive brand recognition and a free tier. Local agencies offer deep personal relationships...",
+  19: "e.g., Canva is design-only, not strategy. Agencies are slow (6-8 weeks) and output depends on consultant...",
+  20: "e.g., AI-generated content is commoditizing basic marketing. The shift is toward strategic differentiation...",
+  21: "e.g., Confident but not arrogant. Direct and honest. Warm and approachable. Smart without being academic...",
+  22: "e.g., Trust and empowerment — they should feel they have a strategic advantage others don't...",
+  23: "e.g., Professional but conversational. Data-backed insights in plain language. Short sentences. No jargon...",
+  26: "e.g., Confidence that they have a clear path forward. Relief that strategy isn't overwhelming...",
+  27: "e.g., When I feel overwhelmed by marketing options, I want a clear framework so I can focus on what works...",
+  28: "e.g., Problem awareness \u2192 Google search \u2192 Compare solutions \u2192 Read reviews \u2192 Free trial \u2192 Purchase...",
+  29: "e.g., Between free trial and purchase — they see value but hesitate on price. Also onboarding drop-off...",
+  30: "e.g., Seeing a completed strategy example, customer testimonials with real numbers, money-back guarantee...",
+  31: "e.g., Educational content that demonstrates expertise without hard selling...",
+  32: "e.g., When launching a new product, rebranding, entering a new market, or after a competitive threat...",
+  33: "e.g., Market leader in AI-powered brand strategy in CEE, 10,000+ users, major accelerator partnerships...",
+  34: "e.g., From a tool to a platform — adding team collaboration, templates marketplace, CRM integration...",
+  35: "e.g., Hire a world-class design team, launch a major PR campaign, and acquire 2-3 complementary tools...",
+  36: "e.g., 'It's like having a senior strategist in your pocket — affordable, fast, and genuinely useful'...",
+  37: "e.g., Industry events, competitor launches, seasonal business planning, funding rounds...",
+  38: "e.g., Monday mornings when planning the week, end of quarter when reviewing, after disappointing campaigns...",
+  39: "e.g., Share anything else — company culture, specific challenges, upcoming events, industry context...",
+};
+
+const ARCHETYPES = [
+  { name: "The Hero", desc: "Brave, determined, inspiring", example: "Nike, FedEx" },
+  { name: "The Sage", desc: "Wise, knowledgeable, trusted advisor", example: "Google, BBC" },
+  { name: "The Innocent", desc: "Optimistic, pure, honest", example: "Coca-Cola, Dove" },
+  { name: "The Explorer", desc: "Adventurous, independent, pioneering", example: "Jeep, Patagonia" },
+  { name: "The Outlaw", desc: "Rebellious, disruptive, revolutionary", example: "Harley-Davidson, Virgin" },
+  { name: "The Magician", desc: "Visionary, transformative, innovative", example: "Apple, Disney" },
+  { name: "The Everyman", desc: "Relatable, authentic, down-to-earth", example: "IKEA, Target" },
+  { name: "The Lover", desc: "Passionate, intimate, sensual", example: "Chanel, Victoria's Secret" },
+  { name: "The Jester", desc: "Playful, humorous, fun", example: "Old Spice, M&M's" },
+  { name: "The Caregiver", desc: "Nurturing, generous, compassionate", example: "Johnson & Johnson, Volvo" },
+  { name: "The Creator", desc: "Imaginative, artistic, inventive", example: "Adobe, Lego" },
+  { name: "The Ruler", desc: "Authoritative, commanding, premium", example: "Mercedes-Benz, Rolex" },
+];
+
+const SECTION_INTROS: Record<string, string> = {
+  "Brand Foundation": "These questions define the core of who you are and why your brand exists. Your answers here shape everything that follows.",
+  "Consumer Insights": "Understanding your customers is the foundation of effective positioning. Be as specific as possible.",
+  "Product & Credibility": "Detail what makes your product unique and credible. This feeds directly into your positioning.",
+  "Competitive Landscape": "Knowing your competitors helps us position you uniquely. Be honest about their strengths.",
+  "Brand Personality": "Your brand's personality determines how people feel about you. Think of your brand as a person \u2014 who are they?",
+  "Customer Journey": "Map how customers discover, evaluate, and choose your brand. Every touchpoint matters.",
+  "Vision & Growth": "Where are you going? Honest answers here mean realistic, actionable strategies.",
+};
 
 /* ---------- Types ---------- */
 
@@ -55,6 +123,10 @@ function getOptionValue(opt: string | { label: string; value: string }): string 
   return typeof opt === "object" && opt !== null ? opt.value : String(opt);
 }
 
+function countWords(text: string): number {
+  return text.trim().split(/\s+/).filter(Boolean).length;
+}
+
 /* ---------- Component ---------- */
 
 export default function QuestionnairePage() {
@@ -74,6 +146,7 @@ export default function QuestionnairePage() {
   const [aiSuggestion, setAiSuggestion] = useState<Record<string, AiSuggestion>>({});
   const [otherText, setOtherText] = useState<Record<string, string>>({});
   const [brandName, setBrandName] = useState("");
+  const [focusedFields, setFocusedFields] = useState<Record<string, boolean>>({});
 
   const saveTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
   const supabase = useRef(createClient());
@@ -243,6 +316,28 @@ export default function QuestionnairePage() {
   const isAnswered = currentAnswer.trim().length > 0;
   const isRequired = currentQuestion?.required ?? false;
   const canProceed = !isRequired || isAnswered;
+
+  // Detect if current question is the first in its section
+  const isFirstInSection =
+    currentQuestionIdx === 0 ||
+    (currentQuestion &&
+      allQuestions[currentQuestionIdx - 1] &&
+      allQuestions[currentQuestionIdx - 1].section_id !== currentQuestion.section_id);
+
+  // Get section intro for current section
+  const sectionIntro =
+    isFirstInSection && currentSection
+      ? SECTION_INTROS[currentSection.section_name] ?? null
+      : null;
+
+  // Check if current question is an archetype select
+  const isArchetypeQuestion =
+    currentQuestion?.question_type === "select" &&
+    /archetype/i.test(currentQuestion.question_text);
+
+  // Check if it's the anti-archetype question (Q25)
+  const isAntiArchetype =
+    isArchetypeQuestion && currentQuestion?.question_number === 25;
 
   /* ---------- Save logic ---------- */
 
@@ -448,18 +543,69 @@ export default function QuestionnairePage() {
     }
   };
 
+  /* ---------- Archetype Grid Renderer ---------- */
+
+  function renderArchetypeGrid(question: Question) {
+    const value = answers[question.id] ?? "";
+
+    return (
+      <div>
+        {isAntiArchetype && (
+          <p className="mb-4 text-sm font-medium text-amber-600">
+            Which archetype is the OPPOSITE of your brand?
+          </p>
+        )}
+        <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3">
+          {ARCHETYPES.map((arch) => {
+            const isSelected = value === arch.name;
+            return (
+              <button
+                key={arch.name}
+                type="button"
+                onClick={() => updateAnswer(question.id, arch.name)}
+                className={`relative rounded-lg border-2 p-4 text-left transition-all ${
+                  isSelected
+                    ? "border-[var(--teal)] bg-[var(--teal)]/5"
+                    : "border-border bg-background hover:border-[var(--teal)]/40 hover:bg-muted"
+                }`}
+              >
+                {isSelected && (
+                  <div className="absolute right-2 top-2">
+                    <Check className="h-4 w-4 text-[var(--teal)]" />
+                  </div>
+                )}
+                <p className="pr-5 text-sm font-bold text-foreground">{arch.name}</p>
+                <p className="mt-1 text-xs text-muted-foreground">{arch.desc}</p>
+                <p className="mt-1.5 text-xs italic text-muted-foreground/70">
+                  e.g. {arch.example}
+                </p>
+              </button>
+            );
+          })}
+        </div>
+      </div>
+    );
+  }
+
   /* ---------- Input Renderers ---------- */
 
   function renderInput(question: Question) {
     const value = answers[question.id] ?? "";
     const aiState = aiSuggestion[question.id];
+    const effectivePlaceholder =
+      question.placeholder || QUESTION_PLACEHOLDERS[question.question_number] || "";
+
+    // Archetype visual selector
+    if (isArchetypeQuestion) {
+      return renderArchetypeGrid(question);
+    }
 
     switch (question.question_type) {
       case "text":
         return (
           <input
             type="text"
-            placeholder={question.placeholder}
+            placeholder={effectivePlaceholder}
             value={value}
             onChange={(e) => updateAnswer(question.id, e.target.value)}
             className="w-full rounded-lg border border-border bg-background px-4 py-3 text-sm text-foreground placeholder:text-muted-foreground focus:border-[var(--coral)] focus:outline-none focus:ring-2 focus:ring-[var(--coral)]/20"
@@ -468,19 +614,35 @@ export default function QuestionnairePage() {
         );
 
       case "textarea": {
-        const charCount = value.length;
+        const wordCount = countWords(value);
+        const hasFocused = focusedFields[question.id] ?? false;
+        const showDetailWarning =
+          question.required && hasFocused && wordCount < 10 && value.length > 0;
+
         return (
           <div>
             <textarea
               rows={5}
-              placeholder={question.placeholder}
+              placeholder={effectivePlaceholder}
               value={value}
               onChange={(e) => updateAnswer(question.id, e.target.value)}
+              onFocus={() =>
+                setFocusedFields((prev) => ({ ...prev, [question.id]: true }))
+              }
               className="w-full rounded-lg border border-border bg-background px-4 py-3 text-sm text-foreground placeholder:text-muted-foreground focus:border-[var(--coral)] focus:outline-none focus:ring-2 focus:ring-[var(--coral)]/20"
               autoFocus
             />
-            <div className="mt-1 text-right text-xs text-muted-foreground">
-              {charCount} characters
+            <div className="mt-1 flex items-center justify-between">
+              <div>
+                {showDetailWarning && (
+                  <p className="text-xs text-amber-500">
+                    \ud83d\udca1 More detail will produce a better strategy
+                  </p>
+                )}
+              </div>
+              <span className="text-xs text-muted-foreground">
+                {wordCount} {wordCount === 1 ? "word" : "words"}
+              </span>
             </div>
           </div>
         );
@@ -493,7 +655,7 @@ export default function QuestionnairePage() {
             onChange={(e) => updateAnswer(question.id, e.target.value)}
             className="w-full appearance-none rounded-lg border border-border bg-background px-4 py-3 text-sm text-foreground focus:border-[var(--coral)] focus:outline-none focus:ring-2 focus:ring-[var(--coral)]/20"
           >
-            <option value="">{question.placeholder || "Select an option..."}</option>
+            <option value="">{effectivePlaceholder || "Select an option..."}</option>
             {question.options?.map((opt) => (
               <option key={getOptionValue(opt)} value={getOptionValue(opt)}>
                 {getOptionLabel(opt)}
@@ -630,7 +792,7 @@ export default function QuestionnairePage() {
         return (
           <input
             type="text"
-            placeholder={question.placeholder}
+            placeholder={effectivePlaceholder}
             value={value}
             onChange={(e) => updateAnswer(question.id, e.target.value)}
             className="w-full rounded-lg border border-border bg-background px-4 py-3 text-sm text-foreground placeholder:text-muted-foreground focus:border-[var(--coral)] focus:outline-none focus:ring-2 focus:ring-[var(--coral)]/20"
@@ -739,6 +901,18 @@ export default function QuestionnairePage() {
       {/* Centered question card */}
       <div className="flex min-h-[calc(100vh-120px)] items-center justify-center px-4 py-8">
         <div className="w-full max-w-[600px]">
+          {/* Section intro banner */}
+          {sectionIntro && (
+            <div className="mb-4 rounded-lg border border-[var(--teal)]/20 bg-[var(--teal)]/5 px-5 py-4">
+              <h3 className="font-[family-name:var(--font-oswald)] text-sm font-bold text-[var(--teal)]">
+                {currentSection.section_name}
+              </h3>
+              <p className="mt-1 text-sm leading-relaxed text-muted-foreground">
+                {sectionIntro}
+              </p>
+            </div>
+          )}
+
           <div className="rounded-xl bg-card p-8 shadow-lg sm:p-10">
             {/* Card header */}
             <div className="mb-6 flex items-start justify-between">

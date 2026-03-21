@@ -9,6 +9,11 @@ import {
   Plus,
   BookOpen,
   Flame,
+  Eye,
+  Clock,
+  AlertCircle,
+  CheckCircle2,
+  Loader2,
 } from "lucide-react";
 
 interface StatCardProps {
@@ -17,11 +22,12 @@ interface StatCardProps {
   value: string;
   subtitle: string;
   color: string;
+  href?: string;
 }
 
-function StatCard({ icon, label, value, subtitle, color }: StatCardProps) {
-  return (
-    <div className="rounded-xl border border-gray-200 bg-white p-6 shadow-sm">
+function StatCard({ icon, label, value, subtitle, color, href }: StatCardProps) {
+  const content = (
+    <>
       <div className="flex items-center gap-3">
         <div
           className="flex h-10 w-10 items-center justify-center rounded-lg"
@@ -35,7 +41,49 @@ function StatCard({ icon, label, value, subtitle, color }: StatCardProps) {
         {value}
       </p>
       <p className="mt-1 text-sm text-gray-400">{subtitle}</p>
+    </>
+  );
+
+  if (href) {
+    return (
+      <Link
+        href={href}
+        className="block rounded-xl border border-gray-200 bg-white p-6 shadow-sm transition-colors hover:border-gray-300 hover:bg-gray-50"
+      >
+        {content}
+      </Link>
+    );
+  }
+
+  return (
+    <div className="rounded-xl border border-gray-200 bg-white p-6 shadow-sm">
+      {content}
     </div>
+  );
+}
+
+function StatusBadge({ status }: { status: string }) {
+  if (status === "completed" || status === "done") {
+    return (
+      <span className="inline-flex items-center gap-1 rounded-full bg-emerald-50 px-2.5 py-0.5 text-xs font-medium text-emerald-700">
+        <CheckCircle2 className="h-3 w-3" />
+        Completed
+      </span>
+    );
+  }
+  if (status === "failed" || status === "error") {
+    return (
+      <span className="inline-flex items-center gap-1 rounded-full bg-red-50 px-2.5 py-0.5 text-xs font-medium text-red-700">
+        <AlertCircle className="h-3 w-3" />
+        Failed
+      </span>
+    );
+  }
+  return (
+    <span className="inline-flex items-center gap-1 rounded-full bg-amber-50 px-2.5 py-0.5 text-xs font-medium text-amber-700">
+      <Loader2 className="h-3 w-3" />
+      In Progress
+    </span>
   );
 }
 
@@ -63,8 +111,9 @@ export default async function DashboardPage() {
   ] = await Promise.all([
     supabase
       .from("strategy_projects")
-      .select("id, status", { count: "exact" })
-      .eq("user_id", user.id),
+      .select("id, title, status, created_at", { count: "exact" })
+      .eq("user_id", user.id)
+      .order("created_at", { ascending: false }),
     supabase
       .from("template_responses")
       .select("id", { count: "exact" })
@@ -84,10 +133,13 @@ export default async function DashboardPage() {
       .maybeSingle(),
   ]);
 
+  // All strategies for the "My Strategies" section
+  const allStrategies = strategiesResult.data ?? [];
+
   // Strategy stats - handle empty/error gracefully
   const strategyCount = strategiesResult.count ?? 0;
   const inProgressCount =
-    strategiesResult.data?.filter((s) => s.status === "in_progress").length ?? 0;
+    allStrategies.filter((s) => s.status === "in_progress").length;
   const strategySubtitle =
     strategyCount === 0
       ? "Create your first strategy"
@@ -173,6 +225,7 @@ export default async function DashboardPage() {
     text: string;
     time: string;
     sortDate: Date;
+    href?: string;
   }
 
   const activities: ActivityItem[] = [];
@@ -184,6 +237,7 @@ export default async function DashboardPage() {
       text: `Created "${s.title ?? "Untitled"}" strategy`,
       time: formatRelativeTime(new Date(s.created_at)),
       sortDate: new Date(s.created_at),
+      href: `/strategy/${s.id}/result`,
     });
   });
 
@@ -224,6 +278,7 @@ export default async function DashboardPage() {
             value={String(strategyCount)}
             subtitle={strategySubtitle}
             color="#eef2ff"
+            href="#my-strategies"
           />
           <StatCard
             icon={<LayoutTemplate className="h-5 w-5 text-emerald-600" />}
@@ -278,6 +333,67 @@ export default async function DashboardPage() {
           </div>
         </div>
 
+        {/* My Strategies */}
+        <div className="mb-10" id="my-strategies">
+          <h2 className="mb-4 font-[family-name:var(--font-oswald)] text-lg font-semibold text-[var(--navy)]">
+            My Strategies
+          </h2>
+          <div className="rounded-xl border border-gray-200 bg-white shadow-sm">
+            {allStrategies.length > 0 ? (
+              <div className="divide-y divide-gray-100">
+                {allStrategies.map((strategy) => (
+                  <div
+                    key={strategy.id}
+                    className="flex items-center gap-4 px-6 py-4"
+                  >
+                    <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-indigo-50">
+                      <Brain className="h-5 w-5 text-indigo-600" />
+                    </div>
+                    <div className="flex-1 min-w-0">
+                      <p className="truncate text-sm font-medium text-gray-900">
+                        {strategy.title ?? "Untitled Strategy"}
+                      </p>
+                      <div className="mt-1 flex items-center gap-3">
+                        <StatusBadge status={strategy.status} />
+                        <span className="flex items-center gap-1 text-xs text-gray-400">
+                          <Clock className="h-3 w-3" />
+                          {formatRelativeTime(new Date(strategy.created_at))}
+                        </span>
+                      </div>
+                    </div>
+                    <Link
+                      href={`/strategy/${strategy.id}/result`}
+                      className="inline-flex shrink-0 items-center gap-1.5 rounded-lg border border-gray-200 bg-white px-4 py-2 text-xs font-semibold text-[var(--navy)] transition-colors hover:bg-gray-50"
+                    >
+                      <Eye className="h-3.5 w-3.5" />
+                      View
+                    </Link>
+                  </div>
+                ))}
+              </div>
+            ) : (
+              <div className="px-6 py-12 text-center">
+                <div className="mx-auto mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-indigo-50">
+                  <Brain className="h-6 w-6 text-indigo-400" />
+                </div>
+                <p className="text-sm font-medium text-gray-900">
+                  No strategies yet
+                </p>
+                <p className="mt-1 text-sm text-gray-400">
+                  Create your first AI-powered brand strategy to get started.
+                </p>
+                <Link
+                  href="/strategy/new"
+                  className="mt-4 inline-flex items-center gap-2 rounded-lg bg-[var(--coral)] px-5 py-2.5 text-sm font-semibold text-white transition-opacity hover:opacity-90"
+                >
+                  <Plus className="h-4 w-4" />
+                  Create Your First Strategy
+                </Link>
+              </div>
+            )}
+          </div>
+        </div>
+
         {/* Recent Activity */}
         <div>
           <h2 className="mb-4 font-[family-name:var(--font-oswald)] text-lg font-semibold text-[var(--navy)]">
@@ -286,24 +402,44 @@ export default async function DashboardPage() {
           <div className="rounded-xl border border-gray-200 bg-white shadow-sm">
             {topActivities.length > 0 ? (
               <div className="divide-y divide-gray-100">
-                {topActivities.map((activity, idx) => (
-                  <div
-                    key={idx}
-                    className="flex items-center gap-4 px-6 py-4"
-                  >
+                {topActivities.map((activity, idx) => {
+                  const inner = (
+                    <>
+                      <div
+                        className={`flex h-9 w-9 shrink-0 items-center justify-center rounded-full ${activity.iconBg}`}
+                      >
+                        {activity.icon}
+                      </div>
+                      <div className="flex-1">
+                        <p className="text-sm font-medium text-gray-900">
+                          {activity.text}
+                        </p>
+                        <p className="text-xs text-gray-400">{activity.time}</p>
+                      </div>
+                    </>
+                  );
+
+                  if (activity.href) {
+                    return (
+                      <Link
+                        key={idx}
+                        href={activity.href}
+                        className="flex items-center gap-4 px-6 py-4 transition-colors hover:bg-gray-50"
+                      >
+                        {inner}
+                      </Link>
+                    );
+                  }
+
+                  return (
                     <div
-                      className={`flex h-9 w-9 items-center justify-center rounded-full ${activity.iconBg}`}
+                      key={idx}
+                      className="flex items-center gap-4 px-6 py-4"
                     >
-                      {activity.icon}
+                      {inner}
                     </div>
-                    <div className="flex-1">
-                      <p className="text-sm font-medium text-gray-900">
-                        {activity.text}
-                      </p>
-                      <p className="text-xs text-gray-400">{activity.time}</p>
-                    </div>
-                  </div>
-                ))}
+                  );
+                })}
               </div>
             ) : (
               <div className="px-6 py-12 text-center">

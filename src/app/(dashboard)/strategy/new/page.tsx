@@ -61,9 +61,9 @@ const BENEFITS = [
   },
   {
     icon: Clock,
-    title: "Ready in ~24 Hours",
+    title: "Ready in Minutes",
     description:
-      "What normally takes weeks of consulting, generated in a day",
+      "What normally takes weeks of consulting, generated in minutes",
   },
   {
     icon: BarChart3,
@@ -89,18 +89,23 @@ export default function NewStrategyPage() {
   const router = useRouter();
   const [businessName, setBusinessName] = useState("");
   const [industry, setIndustry] = useState("");
+  const [industryOther, setIndustryOther] = useState("");
   const [businessStage, setBusinessStage] = useState<BusinessStage | "">("");
   const [mainChallenge, setMainChallenge] = useState("");
   const [goal, setGoal] = useState("");
+  const [goalOther, setGoalOther] = useState("");
   const [isCreating, setIsCreating] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
+  const resolvedIndustry = industry === "Other" ? industryOther.trim() : industry;
+  const resolvedGoal = goal === "Other" ? goalOther.trim() : goal;
+
   const isValid =
     businessName.trim().length > 0 &&
-    industry.length > 0 &&
+    resolvedIndustry.length > 0 &&
     businessStage.length > 0 &&
     mainChallenge.trim().length > 0 &&
-    goal.length > 0;
+    resolvedGoal.length > 0;
 
   async function handleStartStrategy() {
     if (!isValid || isCreating) return;
@@ -121,10 +126,10 @@ export default function NewStrategyPage() {
       }
 
       const description = [
-        `Industry: ${industry}`,
+        `Industry: ${resolvedIndustry}`,
         `Stage: ${businessStage}`,
         `Challenge: ${mainChallenge.trim()}`,
-        `Goal: ${goal}`,
+        `Goal: ${resolvedGoal}`,
       ].join(" | ");
 
       const { data, error: insertError } = await supabase
@@ -214,7 +219,10 @@ export default function NewStrategyPage() {
                   <select
                     id="industry"
                     value={industry}
-                    onChange={(e) => setIndustry(e.target.value)}
+                    onChange={(e) => {
+                      setIndustry(e.target.value);
+                      if (e.target.value !== "Other") setIndustryOther("");
+                    }}
                     className="w-full appearance-none rounded-lg border border-border bg-background px-4 py-2.5 text-sm text-foreground focus:border-coral focus:outline-none focus:ring-2 focus:ring-coral/20"
                   >
                     <option value="">Select your industry</option>
@@ -224,6 +232,16 @@ export default function NewStrategyPage() {
                       </option>
                     ))}
                   </select>
+                  {industry === "Other" && (
+                    <input
+                      type="text"
+                      placeholder="Please specify your industry..."
+                      value={industryOther}
+                      onChange={(e) => setIndustryOther(e.target.value)}
+                      className="mt-2 w-full rounded-lg border border-dashed border-border bg-background px-4 py-2.5 text-sm text-foreground placeholder:text-muted-foreground focus:border-coral focus:outline-none focus:ring-2 focus:ring-coral/20"
+                      autoFocus
+                    />
+                  )}
                 </div>
 
                 {/* Business Stage */}
@@ -295,7 +313,10 @@ export default function NewStrategyPage() {
                   <select
                     id="goal"
                     value={goal}
-                    onChange={(e) => setGoal(e.target.value)}
+                    onChange={(e) => {
+                      setGoal(e.target.value);
+                      if (e.target.value !== "Other") setGoalOther("");
+                    }}
                     className="w-full appearance-none rounded-lg border border-border bg-background px-4 py-2.5 text-sm text-foreground focus:border-coral focus:outline-none focus:ring-2 focus:ring-coral/20"
                   >
                     <option value="">Select your primary goal</option>
@@ -305,6 +326,16 @@ export default function NewStrategyPage() {
                       </option>
                     ))}
                   </select>
+                  {goal === "Other" && (
+                    <input
+                      type="text"
+                      placeholder="Please specify your goal..."
+                      value={goalOther}
+                      onChange={(e) => setGoalOther(e.target.value)}
+                      className="mt-2 w-full rounded-lg border border-dashed border-border bg-background px-4 py-2.5 text-sm text-foreground placeholder:text-muted-foreground focus:border-coral focus:outline-none focus:ring-2 focus:ring-coral/20"
+                      autoFocus
+                    />
+                  )}
                 </div>
 
                 {error && (
@@ -367,19 +398,19 @@ export default function NewStrategyPage() {
                 <div className="flex items-center gap-2">
                   <CheckCircle2 className="h-4 w-4 text-emerald-500" />
                   <span className="text-xs font-medium text-foreground">
-                    4,200+ strategies generated
+                    Built on 15+ years of strategy consulting experience
                   </span>
                 </div>
                 <div className="mt-2 flex items-center gap-2">
                   <CheckCircle2 className="h-4 w-4 text-emerald-500" />
                   <span className="text-xs font-medium text-foreground">
-                    92% user satisfaction rate
+                    Powered by analysis of 1,000+ successful brand strategies
                   </span>
                 </div>
                 <div className="mt-2 flex items-center gap-2">
                   <CheckCircle2 className="h-4 w-4 text-emerald-500" />
                   <span className="text-xs font-medium text-foreground">
-                    Avg. 3.2 hours to complete
+                    Used by entrepreneurs across 30+ countries
                   </span>
                 </div>
               </div>
