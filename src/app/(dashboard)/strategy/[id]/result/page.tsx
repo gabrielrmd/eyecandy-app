@@ -1,38 +1,18 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useCallback } from "react";
 import Link from "next/link";
 import { useParams } from "next/navigation";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import {
-  ArrowLeft,
-  FileDown,
-  Presentation,
-  Share2,
-  RefreshCw,
   ChevronLeft,
   ChevronRight,
-  Sparkles,
-  BarChart3,
-  Target,
-  Users,
-  Megaphone,
-  PenTool,
-  Globe,
-  Lightbulb,
-  Route,
-  Shield,
-  Rocket,
-  Copy,
-  Check,
+  FileDown,
+  Share2,
+  Download,
   Loader2,
   AlertCircle,
-  CalendarDays,
-  TrendingUp,
-  GitBranch,
-  LineChart,
-  Compass,
 } from "lucide-react";
 
 interface GeneratedSection {
@@ -43,23 +23,23 @@ interface GeneratedSection {
   qualityScore: number;
 }
 
-const SECTION_ICONS: Record<string, typeof Target> = {
-  "exec-summary": Sparkles,
-  "market-analysis": BarChart3,
-  "target-audience": Users,
-  "competitive-position": Target,
-  "brand-strategy": PenTool,
-  "value-prop": Lightbulb,
-  "marketing-goals": Compass,
-  "channel-strategy": Globe,
-  "content-strategy": Megaphone,
-  "customer-journey": GitBranch,
-  "marketing-calendar": CalendarDays,
-  "growth-strategy": TrendingUp,
-  "analytics": LineChart,
-  "implementation": Route,
-  "risk-management": Shield,
-};
+const SECTION_TITLES = [
+  "Brand Identity",
+  "Market Analysis",
+  "Competitive Positioning",
+  "Target Audience Deep Dive",
+  "Unique Value Proposition",
+  "Messaging Framework",
+  "Visual Strategy",
+  "Channel Strategy",
+  "Content Pillars",
+  "Campaign Ideas",
+  "Metrics & KPIs",
+  "Budget Allocation",
+  "90-Day Roadmap",
+  "Risk Mitigation",
+  "Next Steps",
+];
 
 export default function StrategyResultPage() {
   const params = useParams();
@@ -68,7 +48,6 @@ export default function StrategyResultPage() {
   const [sections, setSections] = useState<GeneratedSection[]>([]);
   const [loading, setLoading] = useState(true);
   const [activeSectionIdx, setActiveSectionIdx] = useState(0);
-  const [copied, setCopied] = useState(false);
 
   // Load generated sections from localStorage on mount
   useEffect(() => {
@@ -86,12 +65,32 @@ export default function StrategyResultPage() {
     setLoading(false);
   }, [strategyId]);
 
+  // Keyboard navigation
+  const handleKeyDown = useCallback(
+    (e: KeyboardEvent) => {
+      if (sections.length === 0) return;
+      if (e.key === "ArrowLeft" || e.key === "ArrowUp") {
+        e.preventDefault();
+        setActiveSectionIdx((prev) => Math.max(0, prev - 1));
+      } else if (e.key === "ArrowRight" || e.key === "ArrowDown") {
+        e.preventDefault();
+        setActiveSectionIdx((prev) =>
+          Math.min(sections.length - 1, prev + 1)
+        );
+      }
+    },
+    [sections.length]
+  );
+
+  useEffect(() => {
+    window.addEventListener("keydown", handleKeyDown);
+    return () => window.removeEventListener("keydown", handleKeyDown);
+  }, [handleKeyDown]);
+
   const activeSection = sections[activeSectionIdx];
 
   const handleCopyLink = () => {
     navigator.clipboard.writeText(window.location.href);
-    setCopied(true);
-    setTimeout(() => setCopied(false), 2000);
   };
 
   if (loading) {
@@ -109,8 +108,8 @@ export default function StrategyResultPage() {
     return (
       <div className="flex min-h-screen items-center justify-center bg-background">
         <div className="max-w-md rounded-xl border border-border bg-card p-8 text-center">
-          <AlertCircle className="mx-auto h-10 w-10 text-coral" />
-          <h2 className="mt-4 font-[family-name:var(--font-oswald)] text-lg font-semibold text-navy">
+          <AlertCircle className="mx-auto h-10 w-10 text-[#2AB9B0]" />
+          <h2 className="mt-4 font-[family-name:var(--font-oswald)] text-lg font-semibold text-[#1A1A2E]">
             No Strategy Found
           </h2>
           <p className="mt-2 text-sm text-muted-foreground">
@@ -119,7 +118,7 @@ export default function StrategyResultPage() {
           </p>
           <Link
             href={`/strategy/${strategyId}/review`}
-            className="mt-4 inline-block rounded-lg bg-coral px-4 py-2 text-sm font-medium text-white hover:bg-coral/90"
+            className="mt-4 inline-block rounded-lg bg-[#2AB9B0] px-4 py-2 text-sm font-medium text-white hover:bg-[#2AB9B0]/90"
           >
             Go to Review
           </Link>
@@ -130,56 +129,40 @@ export default function StrategyResultPage() {
 
   return (
     <div className="flex min-h-screen bg-background">
-      {/* Sidebar */}
-      <aside className="hidden w-72 shrink-0 border-r border-border bg-card lg:block">
+      {/* Left sidebar */}
+      <aside className="hidden w-60 shrink-0 border-r border-border bg-card lg:block">
         <div className="sticky top-0 flex h-screen flex-col">
           <div className="border-b border-border p-4">
-            <Link
-              href="/strategy/new"
-              className="flex items-center gap-1 text-sm text-muted-foreground hover:text-foreground"
-            >
-              <ArrowLeft className="h-4 w-4" />
-              Back
-            </Link>
-            <h2 className="mt-3 font-[family-name:var(--font-oswald)] text-base font-semibold text-navy">
-              Your Strategy
+            <h2 className="font-[family-name:var(--font-oswald)] text-sm font-semibold uppercase tracking-wider text-muted-foreground">
+              Strategy Sections
             </h2>
-            <p className="text-xs text-muted-foreground">
-              {sections.length} sections generated
-            </p>
           </div>
 
-          <nav className="flex-1 overflow-y-auto p-2">
+          <nav className="flex-1 overflow-y-auto py-2">
             {sections.map((section, idx) => {
-              const Icon = SECTION_ICONS[section.id] || Sparkles;
               const isActive = idx === activeSectionIdx;
               return (
                 <button
                   key={section.id}
                   onClick={() => setActiveSectionIdx(idx)}
-                  className={`flex w-full items-center gap-2.5 rounded-lg px-3 py-2 text-left text-sm transition-colors ${
+                  className={`flex w-full items-center gap-3 border-l-2 px-4 py-2.5 text-left text-sm transition-colors ${
                     isActive
-                      ? "bg-coral/10 font-medium text-coral"
-                      : "text-muted-foreground hover:bg-muted hover:text-foreground"
+                      ? "border-l-[#2AB9B0] bg-[#2AB9B0]/5 font-medium text-[#1A1A2E]"
+                      : "border-l-transparent text-muted-foreground hover:bg-muted hover:text-foreground"
                   }`}
                 >
-                  <Icon className="h-4 w-4 shrink-0" />
+                  <span
+                    className={`flex h-6 w-6 shrink-0 items-center justify-center rounded text-xs font-semibold ${
+                      isActive
+                        ? "bg-[#2AB9B0] text-white"
+                        : "bg-muted text-muted-foreground"
+                    }`}
+                  >
+                    {idx + 1}
+                  </span>
                   <span className="min-w-0 flex-1 truncate">
                     {section.title}
                   </span>
-                  {section.qualityScore > 0 && (
-                    <span
-                      className={`shrink-0 rounded px-1.5 py-0.5 text-[10px] font-semibold ${
-                        section.qualityScore >= 95
-                          ? "bg-emerald-100 text-emerald-700"
-                          : section.qualityScore >= 90
-                            ? "bg-teal/10 text-teal"
-                            : "bg-amber-100 text-amber-700"
-                      }`}
-                    >
-                      {section.qualityScore}%
-                    </span>
-                  )}
                 </button>
               );
             })}
@@ -190,22 +173,12 @@ export default function StrategyResultPage() {
       {/* Main content */}
       <main className="min-w-0 flex-1">
         {/* Top bar */}
-        <div className="sticky top-0 z-10 border-b border-border bg-card/90 backdrop-blur-md">
+        <div className="sticky top-0 z-10 border-b border-border bg-card/95 backdrop-blur-md">
           <div className="flex items-center justify-between px-6 py-3">
-            <div className="flex items-center gap-3">
-              {activeSection && activeSection.qualityScore > 0 && (
-                <span
-                  className={`rounded-full px-2.5 py-0.5 text-xs font-semibold ${
-                    activeSection.qualityScore >= 95
-                      ? "bg-emerald-100 text-emerald-700"
-                      : activeSection.qualityScore >= 90
-                        ? "bg-teal/10 text-teal"
-                        : "bg-amber-100 text-amber-700"
-                  }`}
-                >
-                  Quality: {activeSection.qualityScore}%
-                </span>
-              )}
+            <div className="flex items-center gap-4">
+              <h1 className="font-[family-name:var(--font-oswald)] text-[20px] font-semibold text-[#1A1A2E]">
+                Your Strategy
+              </h1>
               <span className="text-xs text-muted-foreground">
                 Section {activeSectionIdx + 1} of {sections.length}
               </span>
@@ -213,31 +186,24 @@ export default function StrategyResultPage() {
 
             <div className="flex items-center gap-2">
               <button
+                className="flex items-center gap-1.5 rounded-lg border border-border px-3 py-1.5 text-xs font-medium text-foreground transition-colors hover:bg-muted"
+              >
+                <FileDown className="h-3.5 w-3.5" />
+                Export PDF
+              </button>
+              <button
                 onClick={handleCopyLink}
                 className="flex items-center gap-1.5 rounded-lg border border-border px-3 py-1.5 text-xs font-medium text-foreground transition-colors hover:bg-muted"
               >
-                {copied ? (
-                  <Check className="h-3.5 w-3.5 text-emerald-500" />
-                ) : (
-                  <Share2 className="h-3.5 w-3.5" />
-                )}
-                {copied ? "Copied!" : "Share"}
+                <Share2 className="h-3.5 w-3.5" />
+                Share
               </button>
-              <button className="flex items-center gap-1.5 rounded-lg border border-border px-3 py-1.5 text-xs font-medium text-foreground transition-colors hover:bg-muted">
-                <FileDown className="h-3.5 w-3.5" />
-                PDF
-              </button>
-              <button className="flex items-center gap-1.5 rounded-lg border border-border px-3 py-1.5 text-xs font-medium text-foreground transition-colors hover:bg-muted">
-                <Presentation className="h-3.5 w-3.5" />
-                PPTX
-              </button>
-              <Link
-                href={`/strategy/${strategyId}/generating`}
-                className="flex items-center gap-1.5 rounded-lg border border-coral/30 px-3 py-1.5 text-xs font-medium text-coral transition-colors hover:bg-coral/5"
+              <button
+                className="flex items-center gap-1.5 rounded-lg border border-border px-3 py-1.5 text-xs font-medium text-foreground transition-colors hover:bg-muted"
               >
-                <RefreshCw className="h-3.5 w-3.5" />
-                Regenerate
-              </Link>
+                <Download className="h-3.5 w-3.5" />
+                Download
+              </button>
             </div>
           </div>
 
@@ -258,39 +224,100 @@ export default function StrategyResultPage() {
         </div>
 
         {/* Content area */}
-        <div className="mx-auto max-w-4xl px-6 py-8 lg:px-10">
+        <div className="mx-auto max-w-[900px] px-6 py-8 lg:px-10">
           {activeSection && (
             <>
-              {activeSection.status === "error" ? (
-                <div className="rounded-xl border border-red-200 bg-red-50 p-6 text-center">
-                  <AlertCircle className="mx-auto h-8 w-8 text-red-500" />
-                  <h3 className="mt-3 font-[family-name:var(--font-oswald)] text-lg font-semibold text-red-800">
-                    Section Generation Failed
-                  </h3>
-                  <p className="mt-2 text-sm text-red-600">
-                    {activeSection.content}
-                  </p>
-                </div>
-              ) : (
-                <article className="prose prose-sm max-w-none prose-headings:font-[family-name:var(--font-oswald)] prose-headings:text-navy prose-h2:text-2xl prose-h3:text-lg prose-p:text-foreground prose-strong:text-foreground prose-table:text-sm prose-td:border prose-td:border-border prose-td:px-3 prose-td:py-2 prose-th:border prose-th:border-border prose-th:bg-muted prose-th:px-3 prose-th:py-2 prose-th:text-left prose-th:font-medium prose-li:text-foreground prose-a:text-coral">
-                  <ReactMarkdown remarkPlugins={[remarkGfm]}>
-                    {activeSection.content}
-                  </ReactMarkdown>
-                </article>
-              )}
+              {/* White card container */}
+              <div className="rounded-[12px] bg-white p-10 shadow-md">
+                {activeSection.status === "error" ? (
+                  <div className="rounded-xl border border-red-200 bg-red-50 p-6 text-center">
+                    <AlertCircle className="mx-auto h-8 w-8 text-red-500" />
+                    <h3 className="mt-3 font-[family-name:var(--font-oswald)] text-lg font-semibold text-red-800">
+                      Section Generation Failed
+                    </h3>
+                    <p className="mt-2 text-sm text-red-600">
+                      {activeSection.content}
+                    </p>
+                  </div>
+                ) : (
+                  <>
+                    {/* Section heading */}
+                    <h2 className="mb-6 font-[family-name:var(--font-oswald)] text-[28px] font-bold text-[#1A1A2E]">
+                      {activeSectionIdx + 1}. {activeSection.title}
+                    </h2>
+
+                    {/* Markdown content */}
+                    <article className="prose prose-sm max-w-none prose-headings:font-[family-name:var(--font-oswald)] prose-headings:text-[#1A1A2E] prose-h2:mt-8 prose-h2:text-xl prose-h3:text-lg prose-p:text-foreground prose-p:leading-relaxed prose-strong:text-foreground prose-table:text-sm prose-td:border prose-td:border-border prose-td:px-3 prose-td:py-2 prose-th:border prose-th:border-border prose-th:bg-muted prose-th:px-3 prose-th:py-2 prose-th:text-left prose-th:font-medium prose-li:text-foreground prose-a:text-[#2AB9B0]">
+                      <ReactMarkdown
+                        remarkPlugins={[remarkGfm]}
+                        components={{
+                          h2: ({ children, ...props }) => {
+                            const text =
+                              typeof children === "string"
+                                ? children
+                                : Array.isArray(children)
+                                  ? children.join("")
+                                  : String(children ?? "");
+
+                            // Key Takeaways gets special styling
+                            if (text.toLowerCase().includes("key takeaway")) {
+                              return (
+                                <div className="mt-8 mb-4 rounded-lg border-l-4 border-l-[#2AB9B0] bg-[#2AB9B0]/5 px-6 py-4">
+                                  <h2
+                                    className="!mt-0 !mb-0 font-[family-name:var(--font-oswald)] text-xl font-bold text-[#1A1A2E]"
+                                    {...props}
+                                  >
+                                    {children}
+                                  </h2>
+                                </div>
+                              );
+                            }
+
+                            // Recommended Actions gets special styling
+                            if (
+                              text.toLowerCase().includes("recommended action") ||
+                              text.toLowerCase().includes("action item")
+                            ) {
+                              return (
+                                <div className="mt-8 mb-4 rounded-lg bg-gradient-to-r from-[#2AB9B0]/10 to-[#1A1A2E]/5 px-6 py-4">
+                                  <h2
+                                    className="!mt-0 !mb-0 font-[family-name:var(--font-oswald)] text-xl font-bold text-[#1A1A2E]"
+                                    {...props}
+                                  >
+                                    {children}
+                                  </h2>
+                                </div>
+                              );
+                            }
+
+                            return <h2 {...props}>{children}</h2>;
+                          },
+                        }}
+                      >
+                        {activeSection.content}
+                      </ReactMarkdown>
+                    </article>
+                  </>
+                )}
+              </div>
 
               {/* Section navigation */}
-              <div className="mt-10 flex items-center justify-between border-t border-border pt-6">
+              <div className="mt-8 flex items-center justify-between">
                 <button
                   onClick={() =>
                     setActiveSectionIdx((prev) => Math.max(0, prev - 1))
                   }
                   disabled={activeSectionIdx === 0}
-                  className="flex items-center gap-2 rounded-lg border border-border px-4 py-2 text-sm font-medium text-foreground transition-colors hover:bg-muted disabled:cursor-not-allowed disabled:opacity-40"
+                  className="flex items-center gap-2 rounded-lg border border-border px-4 py-2.5 text-sm font-medium text-foreground transition-colors hover:bg-muted disabled:cursor-not-allowed disabled:opacity-40"
                 >
                   <ChevronLeft className="h-4 w-4" />
-                  Previous Section
+                  Previous
                 </button>
+
+                <span className="text-xs text-muted-foreground">
+                  {activeSectionIdx + 1} / {sections.length}
+                </span>
+
                 <button
                   onClick={() =>
                     setActiveSectionIdx((prev) =>
@@ -298,9 +325,9 @@ export default function StrategyResultPage() {
                     )
                   }
                   disabled={activeSectionIdx === sections.length - 1}
-                  className="flex items-center gap-2 rounded-lg bg-coral px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-coral/90 disabled:cursor-not-allowed disabled:opacity-40"
+                  className="flex items-center gap-2 rounded-lg bg-[#2AB9B0] px-4 py-2.5 text-sm font-medium text-white transition-colors hover:bg-[#2AB9B0]/90 disabled:cursor-not-allowed disabled:opacity-40"
                 >
-                  Next Section
+                  Next
                   <ChevronRight className="h-4 w-4" />
                 </button>
               </div>

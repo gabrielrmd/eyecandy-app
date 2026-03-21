@@ -34,6 +34,19 @@ const INDUSTRIES = [
   "Other",
 ];
 
+const GOALS = [
+  "Increase brand awareness",
+  "Generate more leads",
+  "Boost online sales",
+  "Launch a new product",
+  "Enter a new market",
+  "Improve customer retention",
+  "Build a community",
+  "Establish thought leadership",
+  "Rebrand / reposition",
+  "Other",
+];
+
 const BENEFITS = [
   {
     icon: Brain,
@@ -54,7 +67,7 @@ const BENEFITS = [
   },
   {
     icon: BarChart3,
-    title: "Data-Driven Insights",
+    title: "Data-Driven",
     description: "Backed by analysis of thousands of successful strategies",
   },
   {
@@ -70,14 +83,24 @@ const BENEFITS = [
   },
 ];
 
+type BusinessStage = "idea" | "mvp" | "revenue";
+
 export default function NewStrategyPage() {
   const router = useRouter();
   const [businessName, setBusinessName] = useState("");
   const [industry, setIndustry] = useState("");
+  const [businessStage, setBusinessStage] = useState<BusinessStage | "">("");
+  const [mainChallenge, setMainChallenge] = useState("");
+  const [goal, setGoal] = useState("");
   const [isCreating, setIsCreating] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
-  const isValid = businessName.trim().length > 0 && industry.length > 0;
+  const isValid =
+    businessName.trim().length > 0 &&
+    industry.length > 0 &&
+    businessStage.length > 0 &&
+    mainChallenge.trim().length > 0 &&
+    goal.length > 0;
 
   async function handleStartStrategy() {
     if (!isValid || isCreating) return;
@@ -97,12 +120,19 @@ export default function NewStrategyPage() {
         return;
       }
 
+      const description = [
+        `Industry: ${industry}`,
+        `Stage: ${businessStage}`,
+        `Challenge: ${mainChallenge.trim()}`,
+        `Goal: ${goal}`,
+      ].join(" | ");
+
       const { data, error: insertError } = await supabase
         .from("strategy_projects")
         .insert({
           user_id: user.id,
           title: businessName.trim(),
-          description: `${industry}`,
+          description,
           status: "in_progress",
         })
         .select("id")
@@ -145,56 +175,6 @@ export default function NewStrategyPage() {
               into a guided questionnaire.
             </p>
 
-            {/* Process steps */}
-            <div className="mt-8 flex items-start gap-4">
-              <div className="flex flex-col items-center">
-                <div className="flex h-8 w-8 items-center justify-center rounded-full bg-coral text-sm font-bold text-white">
-                  1
-                </div>
-                <div className="mt-1 h-12 w-px bg-border" />
-              </div>
-              <div className="pb-6">
-                <p className="font-medium text-foreground">
-                  Answer the questionnaire
-                </p>
-                <p className="text-sm text-muted-foreground">
-                  39 questions across 7 sections about your business, audience,
-                  and goals
-                </p>
-              </div>
-            </div>
-            <div className="flex items-start gap-4">
-              <div className="flex flex-col items-center">
-                <div className="flex h-8 w-8 items-center justify-center rounded-full bg-teal text-sm font-bold text-white">
-                  2
-                </div>
-                <div className="mt-1 h-12 w-px bg-border" />
-              </div>
-              <div className="pb-6">
-                <p className="font-medium text-foreground">
-                  Review your answers
-                </p>
-                <p className="text-sm text-muted-foreground">
-                  Make sure everything is accurate before generation begins
-                </p>
-              </div>
-            </div>
-            <div className="flex items-start gap-4">
-              <div className="flex flex-col items-center">
-                <div className="flex h-8 w-8 items-center justify-center rounded-full bg-navy text-sm font-bold text-white">
-                  3
-                </div>
-              </div>
-              <div>
-                <p className="font-medium text-foreground">
-                  Receive your AI strategy
-                </p>
-                <p className="text-sm text-muted-foreground">
-                  A complete 15-section strategy deck you can refine and export
-                </p>
-              </div>
-            </div>
-
             {/* Form */}
             <div className="mt-10 max-w-md rounded-xl border border-border bg-card p-6">
               <h2 className="font-[family-name:var(--font-oswald)] text-lg font-semibold text-navy">
@@ -205,6 +185,7 @@ export default function NewStrategyPage() {
               </p>
 
               <div className="mt-5 space-y-4">
+                {/* Business Name */}
                 <div>
                   <label
                     htmlFor="business-name"
@@ -222,6 +203,7 @@ export default function NewStrategyPage() {
                   />
                 </div>
 
+                {/* Industry */}
                 <div>
                   <label
                     htmlFor="industry"
@@ -239,6 +221,87 @@ export default function NewStrategyPage() {
                     {INDUSTRIES.map((ind) => (
                       <option key={ind} value={ind}>
                         {ind}
+                      </option>
+                    ))}
+                  </select>
+                </div>
+
+                {/* Business Stage */}
+                <div>
+                  <label className="mb-1.5 block text-sm font-medium text-foreground">
+                    Business Stage
+                  </label>
+                  <div className="flex flex-col gap-2">
+                    {[
+                      { value: "idea" as const, label: "Idea Stage", desc: "Still planning and validating" },
+                      { value: "mvp" as const, label: "MVP / Early Stage", desc: "Product built, testing the market" },
+                      { value: "revenue" as const, label: "Revenue Generating", desc: "Active customers and revenue" },
+                    ].map((option) => (
+                      <label
+                        key={option.value}
+                        className={`flex cursor-pointer items-center gap-3 rounded-lg border px-4 py-3 text-sm transition-colors ${
+                          businessStage === option.value
+                            ? "border-coral bg-coral/5 text-foreground"
+                            : "border-border bg-background text-foreground hover:bg-muted"
+                        }`}
+                      >
+                        <input
+                          type="radio"
+                          name="business-stage"
+                          value={option.value}
+                          checked={businessStage === option.value}
+                          onChange={(e) =>
+                            setBusinessStage(e.target.value as BusinessStage)
+                          }
+                          className="h-4 w-4 accent-coral"
+                        />
+                        <div>
+                          <p className="font-medium">{option.label}</p>
+                          <p className="text-xs text-muted-foreground">
+                            {option.desc}
+                          </p>
+                        </div>
+                      </label>
+                    ))}
+                  </div>
+                </div>
+
+                {/* Main Challenge */}
+                <div>
+                  <label
+                    htmlFor="main-challenge"
+                    className="mb-1.5 block text-sm font-medium text-foreground"
+                  >
+                    Main Challenge
+                  </label>
+                  <textarea
+                    id="main-challenge"
+                    rows={3}
+                    placeholder="What is the biggest challenge your business is facing right now?"
+                    value={mainChallenge}
+                    onChange={(e) => setMainChallenge(e.target.value)}
+                    className="w-full rounded-lg border border-border bg-background px-4 py-2.5 text-sm text-foreground placeholder:text-muted-foreground focus:border-coral focus:outline-none focus:ring-2 focus:ring-coral/20"
+                  />
+                </div>
+
+                {/* Goal */}
+                <div>
+                  <label
+                    htmlFor="goal"
+                    className="mb-1.5 block text-sm font-medium text-foreground"
+                  >
+                    Goal
+                  </label>
+                  <select
+                    id="goal"
+                    value={goal}
+                    onChange={(e) => setGoal(e.target.value)}
+                    className="w-full appearance-none rounded-lg border border-border bg-background px-4 py-2.5 text-sm text-foreground focus:border-coral focus:outline-none focus:ring-2 focus:ring-coral/20"
+                  >
+                    <option value="">Select your primary goal</option>
+                    {GOALS.map((g) => (
+                      <option key={g} value={g}>
+                        {g}
                       </option>
                     ))}
                   </select>

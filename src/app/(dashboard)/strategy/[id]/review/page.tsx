@@ -37,7 +37,6 @@ export default function ReviewPage() {
     new Set()
   );
 
-  // Fetch actual questionnaire responses from Supabase
   useEffect(() => {
     async function fetchResponses() {
       setLoading(true);
@@ -52,7 +51,7 @@ export default function ReviewPage() {
           return;
         }
 
-        // Fetch sections (column is section_name, not title)
+        // Fetch sections
         const { data: sectionsData, error: sectionsError } =
           await supabase.current
             .from("questionnaire_sections")
@@ -70,10 +69,7 @@ export default function ReviewPage() {
 
         if (questionsError) throw questionsError;
 
-        // Fetch the single questionnaire_responses row for this strategy project.
-        // The table has columns: strategy_project_id, user_id,
-        // section_1_responses through section_7_responses (JSONB),
-        // completed_sections (INT[]), all_sections_completed (BOOLEAN).
+        // Fetch the questionnaire_responses row for this strategy project
         const { data: responseRow, error: responsesError } =
           await supabase.current
             .from("questionnaire_responses")
@@ -131,7 +127,7 @@ export default function ReviewPage() {
         setSections(withAnswers);
         setExpandedSections(new Set(withAnswers.map((s) => s.id)));
 
-        // Store the questionnaire responses in localStorage for the generating page
+        // Store formatted responses in localStorage for the generating page
         const formattedResponses: Record<
           string,
           { question: string; answer: string }[]
@@ -189,14 +185,14 @@ export default function ReviewPage() {
     return (
       <div className="flex min-h-screen items-center justify-center bg-background">
         <div className="max-w-md rounded-xl border border-border bg-card p-8 text-center">
-          <AlertCircle className="mx-auto h-10 w-10 text-[var(--coral)]" />
-          <h2 className="mt-4 font-[family-name:var(--font-oswald)] text-lg font-semibold text-[var(--navy)]">
+          <AlertCircle className="mx-auto h-10 w-10 text-[#2AB9B0]" />
+          <h2 className="mt-4 font-[family-name:var(--font-oswald)] text-lg font-semibold text-[#1A1A2E]">
             Could Not Load Responses
           </h2>
           <p className="mt-2 text-sm text-muted-foreground">{error}</p>
           <Link
             href={`/strategy/${strategyId}/questionnaire`}
-            className="mt-4 inline-block rounded-lg bg-[var(--coral)] px-4 py-2 text-sm font-medium text-white hover:bg-[var(--coral)]/90"
+            className="mt-4 inline-block rounded-lg bg-[#2AB9B0] px-4 py-2 text-sm font-medium text-white hover:bg-[#2AB9B0]/90"
           >
             Back to Questionnaire
           </Link>
@@ -209,8 +205,8 @@ export default function ReviewPage() {
     return (
       <div className="flex min-h-screen items-center justify-center bg-background">
         <div className="max-w-md rounded-xl border border-border bg-card p-8 text-center">
-          <AlertCircle className="mx-auto h-10 w-10 text-[var(--coral)]" />
-          <h2 className="mt-4 font-[family-name:var(--font-oswald)] text-lg font-semibold text-[var(--navy)]">
+          <AlertCircle className="mx-auto h-10 w-10 text-[#2AB9B0]" />
+          <h2 className="mt-4 font-[family-name:var(--font-oswald)] text-lg font-semibold text-[#1A1A2E]">
             No Answers Found
           </h2>
           <p className="mt-2 text-sm text-muted-foreground">
@@ -219,7 +215,7 @@ export default function ReviewPage() {
           </p>
           <Link
             href={`/strategy/${strategyId}/questionnaire`}
-            className="mt-4 inline-block rounded-lg bg-[var(--coral)] px-4 py-2 text-sm font-medium text-white hover:bg-[var(--coral)]/90"
+            className="mt-4 inline-block rounded-lg bg-[#2AB9B0] px-4 py-2 text-sm font-medium text-white hover:bg-[#2AB9B0]/90"
           >
             Go to Questionnaire
           </Link>
@@ -240,18 +236,17 @@ export default function ReviewPage() {
             <ArrowLeft className="h-4 w-4" />
             Back to Questionnaire
           </Link>
-          <h1 className="font-[family-name:var(--font-oswald)] text-2xl font-bold text-[var(--navy)] sm:text-3xl">
+          <h1 className="font-[family-name:var(--font-oswald)] text-[36px] font-bold text-[#1A1A2E]">
             Review Your Answers
           </h1>
           <p className="mt-2 text-muted-foreground">
-            Review all {totalAnswers} answers across {sections.length} sections
-            before generating your strategy. Make sure everything is accurate.
+            Everything looks good? Let&apos;s generate your strategy.
           </p>
         </div>
       </div>
 
       <div className="mx-auto max-w-4xl px-4 py-8 sm:px-6 lg:px-8">
-        {/* Section summaries */}
+        {/* Section cards */}
         <div className="space-y-4">
           {sections.map((section) => {
             const isExpanded = expandedSections.has(section.id);
@@ -267,7 +262,7 @@ export default function ReviewPage() {
                   className="flex w-full items-center justify-between px-5 py-4 text-left transition-colors hover:bg-muted/30"
                 >
                   <div className="flex items-center gap-3">
-                    <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-[var(--teal)]/10 text-[var(--teal)]">
+                    <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-[#2AB9B0]/10 text-[#2AB9B0]">
                       <span className="text-sm font-semibold">
                         {section.section_number}
                       </span>
@@ -284,7 +279,7 @@ export default function ReviewPage() {
                   <div className="flex items-center gap-2">
                     <CheckCircle2 className="h-4 w-4 text-emerald-500" />
                     <Link
-                      href={`/strategy/${strategyId}/questionnaire`}
+                      href={`/strategy/${strategyId}/questionnaire?section=${section.section_number}`}
                       onClick={(e) => e.stopPropagation()}
                       className="rounded-md p-1.5 text-muted-foreground transition-colors hover:bg-muted hover:text-foreground"
                       title="Edit section"
@@ -322,9 +317,9 @@ export default function ReviewPage() {
         </div>
 
         {/* Generate CTA */}
-        <div className="mt-10 rounded-xl border border-[var(--coral)]/20 bg-[var(--coral)]/5 p-6 text-center sm:p-8">
-          <Sparkles className="mx-auto mb-3 h-8 w-8 text-[var(--coral)]" />
-          <h2 className="font-[family-name:var(--font-oswald)] text-xl font-bold text-[var(--navy)]">
+        <div className="mt-10 rounded-xl border border-[#2AB9B0]/20 bg-[#2AB9B0]/5 p-6 text-center sm:p-8">
+          <Sparkles className="mx-auto mb-3 h-8 w-8 text-[#2AB9B0]" />
+          <h2 className="font-[family-name:var(--font-oswald)] text-xl font-bold text-[#1A1A2E]">
             Ready to generate your strategy?
           </h2>
           <p className="mx-auto mt-2 max-w-md text-sm text-muted-foreground">
@@ -334,14 +329,14 @@ export default function ReviewPage() {
 
           <div className="mt-4 flex items-center justify-center gap-2 text-sm text-muted-foreground">
             <Clock className="h-4 w-4" />
-            Estimated generation time: under 1 minute
+            This typically takes 2-3 minutes
           </div>
 
           <Link
             href={`/strategy/${strategyId}/generating`}
-            className="mt-6 inline-flex items-center gap-2 rounded-lg bg-[var(--coral)] px-8 py-3.5 text-base font-semibold text-white transition-colors hover:bg-[var(--coral)]/90"
+            className="mt-6 inline-flex items-center gap-2 rounded-lg bg-[#2AB9B0] px-8 py-3.5 text-base font-semibold text-white transition-colors hover:bg-[#2AB9B0]/90"
           >
-            Generate My Strategy
+            Generate My Strategy Deck
             <ArrowRight className="h-5 w-5" />
           </Link>
         </div>
