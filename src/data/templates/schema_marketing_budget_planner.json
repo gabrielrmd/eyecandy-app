@@ -1,0 +1,130 @@
+{
+  "id": "marketing_budget_planner",
+  "name": "Marketing Budget Planner",
+  "category": "strategy",
+  "sheets": [
+    {
+      "id": "dashboard",
+      "name": "Dashboard",
+      "type": "summary"
+    },
+    {
+      "id": "budget_planner",
+      "name": "Budget Planner",
+      "type": "table",
+      "description": "Enter your planned monthly spend for each marketing category. The Annual Total is auto-calculated.",
+      "columns": [
+        { "id": "category", "header": "Category", "type": "text", "width": "200px", "editable": false },
+        { "id": "jan", "header": "Jan", "type": "currency", "width": "100px" },
+        { "id": "feb", "header": "Feb", "type": "currency", "width": "100px" },
+        { "id": "mar", "header": "Mar", "type": "currency", "width": "100px" },
+        { "id": "apr", "header": "Apr", "type": "currency", "width": "100px" },
+        { "id": "may", "header": "May", "type": "currency", "width": "100px" },
+        { "id": "jun", "header": "Jun", "type": "currency", "width": "100px" },
+        { "id": "jul", "header": "Jul", "type": "currency", "width": "100px" },
+        { "id": "aug", "header": "Aug", "type": "currency", "width": "100px" },
+        { "id": "sep", "header": "Sep", "type": "currency", "width": "100px" },
+        { "id": "oct", "header": "Oct", "type": "currency", "width": "100px" },
+        { "id": "nov", "header": "Nov", "type": "currency", "width": "100px" },
+        { "id": "dec", "header": "Dec", "type": "currency", "width": "100px" },
+        {
+          "id": "annual_total",
+          "header": "Annual Total",
+          "type": "currency",
+          "width": "130px",
+          "editable": false,
+          "formula": "(Number(row.jan)||0)+(Number(row.feb)||0)+(Number(row.mar)||0)+(Number(row.apr)||0)+(Number(row.may)||0)+(Number(row.jun)||0)+(Number(row.jul)||0)+(Number(row.aug)||0)+(Number(row.sep)||0)+(Number(row.oct)||0)+(Number(row.nov)||0)+(Number(row.dec)||0)"
+        }
+      ],
+      "defaultRows": 0
+    },
+    {
+      "id": "actuals",
+      "name": "Actuals",
+      "type": "table",
+      "description": "Enter your actual monthly spend. Compare against your planned budget to track variance.",
+      "columns": [
+        { "id": "category", "header": "Category", "type": "text", "width": "200px", "editable": false },
+        { "id": "jan", "header": "Jan", "type": "currency", "width": "100px" },
+        { "id": "feb", "header": "Feb", "type": "currency", "width": "100px" },
+        { "id": "mar", "header": "Mar", "type": "currency", "width": "100px" },
+        { "id": "apr", "header": "Apr", "type": "currency", "width": "100px" },
+        { "id": "may", "header": "May", "type": "currency", "width": "100px" },
+        { "id": "jun", "header": "Jun", "type": "currency", "width": "100px" },
+        { "id": "jul", "header": "Jul", "type": "currency", "width": "100px" },
+        { "id": "aug", "header": "Aug", "type": "currency", "width": "100px" },
+        { "id": "sep", "header": "Sep", "type": "currency", "width": "100px" },
+        { "id": "oct", "header": "Oct", "type": "currency", "width": "100px" },
+        { "id": "nov", "header": "Nov", "type": "currency", "width": "100px" },
+        { "id": "dec", "header": "Dec", "type": "currency", "width": "100px" },
+        {
+          "id": "annual_total",
+          "header": "Annual Total",
+          "type": "currency",
+          "width": "130px",
+          "editable": false,
+          "formula": "(Number(row.jan)||0)+(Number(row.feb)||0)+(Number(row.mar)||0)+(Number(row.apr)||0)+(Number(row.may)||0)+(Number(row.jun)||0)+(Number(row.jul)||0)+(Number(row.aug)||0)+(Number(row.sep)||0)+(Number(row.oct)||0)+(Number(row.nov)||0)+(Number(row.dec)||0)"
+        }
+      ],
+      "defaultRows": 0
+    },
+    {
+      "id": "roi_tracker",
+      "name": "ROI Tracker",
+      "type": "table",
+      "description": "Track return on investment for each marketing channel.",
+      "columns": [
+        { "id": "channel", "header": "Channel", "type": "text", "width": "200px" },
+        { "id": "total_spend", "header": "Total Spend", "type": "currency", "width": "130px" },
+        { "id": "revenue_generated", "header": "Revenue Generated", "type": "currency", "width": "150px" },
+        { "id": "leads", "header": "Leads", "type": "number", "width": "90px" },
+        { "id": "conversions", "header": "Conversions", "type": "number", "width": "110px" },
+        { "id": "cpl", "header": "Cost per Lead", "type": "currency", "width": "130px", "editable": false, "formula": "Number(row.leads) > 0 ? (Number(row.total_spend) / Number(row.leads)).toFixed(2) : ''" },
+        { "id": "cpa", "header": "Cost per Acquisition", "type": "currency", "width": "150px", "editable": false, "formula": "Number(row.conversions) > 0 ? (Number(row.total_spend) / Number(row.conversions)).toFixed(2) : ''" },
+        { "id": "roi_pct", "header": "ROI %", "type": "percentage", "width": "100px", "editable": false, "formula": "Number(row.total_spend) > 0 ? ((Number(row.revenue_generated) - Number(row.total_spend)) / Number(row.total_spend) * 100).toFixed(1) : ''" },
+        { "id": "notes", "header": "Notes", "type": "textarea", "width": "200px" }
+      ],
+      "defaultRows": 0
+    }
+  ],
+  "defaultData": {
+    "budget_planner": [
+      { "category": "Paid Digital Advertising" },
+      { "category": "Social Media Marketing" },
+      { "category": "Content Marketing & SEO" },
+      { "category": "Email Marketing" },
+      { "category": "Events & Sponsorships" },
+      { "category": "PR & Communications" },
+      { "category": "Creative & Design" },
+      { "category": "Marketing Technology & Tools" },
+      { "category": "Market Research" },
+      { "category": "Influencer Marketing" },
+      { "category": "Print & Traditional Media" },
+      { "category": "Miscellaneous / Contingency" }
+    ],
+    "actuals": [
+      { "category": "Paid Digital Advertising" },
+      { "category": "Social Media Marketing" },
+      { "category": "Content Marketing & SEO" },
+      { "category": "Email Marketing" },
+      { "category": "Events & Sponsorships" },
+      { "category": "PR & Communications" },
+      { "category": "Creative & Design" },
+      { "category": "Marketing Technology & Tools" },
+      { "category": "Market Research" },
+      { "category": "Influencer Marketing" },
+      { "category": "Print & Traditional Media" },
+      { "category": "Miscellaneous / Contingency" }
+    ],
+    "roi_tracker": [
+      { "channel": "Google Ads" },
+      { "channel": "Meta Ads (Facebook/Instagram)" },
+      { "channel": "LinkedIn Ads" },
+      { "channel": "Email Marketing" },
+      { "channel": "Organic Social" },
+      { "channel": "SEO / Organic Search" },
+      { "channel": "Events" },
+      { "channel": "Referral Programme" }
+    ]
+  }
+}

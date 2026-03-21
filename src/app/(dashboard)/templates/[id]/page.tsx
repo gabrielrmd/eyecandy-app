@@ -4,6 +4,8 @@ import path from "path";
 import catalog from "@/data/templates/catalog.json";
 import { loadTemplateResponse } from "@/app/actions/templates";
 import TemplateEditorClient from "./template-editor-client";
+import TemplateRendererWrapper from "./template-renderer-wrapper";
+import type { TemplateSchema, TemplateData } from "@/components/templates/types";
 
 interface TemplateField {
   id: string;
@@ -22,7 +24,7 @@ interface TemplateSection {
   fields: TemplateField[];
 }
 
-interface TemplateData {
+interface OldTemplateData {
   id: string;
   name: string;
   number: number;
@@ -39,6 +41,13 @@ interface PageProps {
   params: Promise<{ id: string }>;
 }
 
+// Templates that have been converted to the new spreadsheet schema format
+const SCHEMA_TEMPLATES = [
+  "marketing_audit_checklist",
+  "customer_persona_builder",
+  "marketing_budget_planner",
+];
+
 export default async function TemplateEditorPage({ params }: PageProps) {
   const { id } = await params;
 
@@ -48,8 +57,58 @@ export default async function TemplateEditorPage({ params }: PageProps) {
     notFound();
   }
 
-  // Read the template JSON file from disk
-  let templateData: TemplateData;
+  // Load any previously saved responses
+  const { data: savedResponses } = await loadTemplateResponse(id);
+
+  // Check if this template has a new schema file
+  if (SCHEMA_TEMPLATES.includes(id)) {
+    let schema: TemplateSchema & { defaultData?: TemplateData };
+    try {
+      const schemaPath = path.join(
+        process.cwd(),
+        "src",
+        "data",
+        "templates",
+        `schema_${id}.json`
+      );
+      const raw = await fs.readFile(schemaPath, "utf-8");
+      schema = JSON.parse(raw) as TemplateSchema & { defaultData?: TemplateData };
+    } catch {
+      notFound();
+    }
+
+    // Merge default data with saved data
+    const initialData: TemplateData = {};
+    for (const sheet of schema.sheets) {
+      if (
+        savedResponses &&
+        typeof savedResponses === "object" &&
+        (savedResponses as Record<string, unknown>)[sheet.id]
+      ) {
+        initialData[sheet.id] = (savedResponses as Record<string, unknown>)[
+          sheet.id
+        ] as Record<string, unknown>[];
+      } else if (schema.defaultData && schema.defaultData[sheet.id]) {
+        initialData[sheet.id] = schema.defaultData[sheet.id];
+      } else if (sheet.type === "form") {
+        initialData[sheet.id] = [{}];
+      } else {
+        initialData[sheet.id] = [];
+      }
+    }
+
+    return (
+      <TemplateRendererWrapper
+        schema={schema}
+        initialData={initialData}
+        templateId={id}
+        templateName={catalogEntry.name}
+      />
+    );
+  }
+
+  // Legacy: Read the old template JSON file from disk
+  let templateData: OldTemplateData;
   try {
     const filePath = path.join(
       process.cwd(),
@@ -59,13 +118,10 @@ export default async function TemplateEditorPage({ params }: PageProps) {
       `${id}.json`
     );
     const raw = await fs.readFile(filePath, "utf-8");
-    templateData = JSON.parse(raw) as TemplateData;
+    templateData = JSON.parse(raw) as OldTemplateData;
   } catch {
     notFound();
   }
-
-  // Load any previously saved responses
-  const { data: savedResponses } = await loadTemplateResponse(id);
 
   return (
     <TemplateEditorClient

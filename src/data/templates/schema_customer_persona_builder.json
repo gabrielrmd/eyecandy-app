@@ -1,0 +1,136 @@
+{
+  "id": "customer_persona_builder",
+  "name": "Customer Persona Builder",
+  "category": "brand",
+  "sheets": [
+    {
+      "id": "dashboard",
+      "name": "Dashboard",
+      "type": "summary"
+    },
+    {
+      "id": "demographics",
+      "name": "Demographics & Background",
+      "type": "form",
+      "description": "Start with what you know about your ideal customer.",
+      "fields": [
+        { "id": "persona_name", "label": "Persona Name", "type": "text", "hint": "Give them a real name (e.g. 'Marketing Maria')", "placeholder": "e.g. Marketing Maria", "required": true },
+        { "id": "age_range", "label": "Age / Age Range", "type": "text", "hint": "e.g. 32-40", "placeholder": "32-40" },
+        { "id": "gender", "label": "Gender", "type": "text", "hint": "If relevant to your product/service", "placeholder": "If relevant" },
+        { "id": "location", "label": "Location", "type": "text", "hint": "City, region, or urban/suburban/rural", "placeholder": "e.g. London, urban" },
+        { "id": "education_level", "label": "Education Level", "type": "text", "hint": "Highest degree or certification", "placeholder": "e.g. Bachelor's in Marketing" },
+        { "id": "job_title", "label": "Job Title / Role", "type": "text", "hint": "Their actual title or function", "placeholder": "e.g. Marketing Manager" },
+        { "id": "industry", "label": "Industry / Sector", "type": "text", "hint": "e.g. SaaS, Retail, Healthcare, NGO", "placeholder": "e.g. SaaS" },
+        { "id": "company_size", "label": "Company Size", "type": "text", "hint": "Startup, SMB, Enterprise, or employee count", "placeholder": "e.g. 50-200 employees" },
+        { "id": "income_range", "label": "Income Range", "type": "text", "hint": "If relevant — household or individual", "placeholder": "e.g. $60K-$90K" },
+        { "id": "family_status", "label": "Family Status", "type": "text", "hint": "Single, married, kids — if it affects decisions", "placeholder": "e.g. Married, 2 kids" }
+      ],
+      "sections": [
+        { "id": "sec_demographics", "title": "Demographics & Background", "fieldIds": ["persona_name", "age_range", "gender", "location", "education_level", "job_title", "industry", "company_size", "income_range", "family_status"], "collapsible": true }
+      ]
+    },
+    {
+      "id": "psychographics",
+      "name": "Psychographics",
+      "type": "form",
+      "description": "This is where personas come alive — values, fears, and motivations.",
+      "fields": [
+        { "id": "core_values", "label": "Core Values", "type": "text", "hint": "What principles guide their decisions?", "placeholder": "e.g. Efficiency, transparency, growth" },
+        { "id": "personality_traits", "label": "Personality Traits", "type": "text", "hint": "Analytical, creative, cautious, impulsive...", "placeholder": "e.g. Analytical, detail-oriented" },
+        { "id": "lifestyle", "label": "Lifestyle Description", "type": "textarea", "hint": "How do they spend their time outside work?", "placeholder": "Describe their typical day or week..." },
+        { "id": "tech_attitude", "label": "Attitudes Toward Technology", "type": "dropdown", "hint": "How quickly do they adopt new tools?", "options": ["Early Adopter", "Early Majority", "Late Majority", "Skeptic"] },
+        { "id": "info_sources", "label": "Information Sources", "type": "text", "hint": "Where do they learn? Podcasts, LinkedIn, blogs...", "placeholder": "e.g. LinkedIn, industry podcasts" },
+        { "id": "social_behavior", "label": "Social Media Behavior", "type": "textarea", "hint": "Lurker, commenter, creator, or absent?", "placeholder": "Describe their social media habits..." },
+        { "id": "professional_aspirations", "label": "Professional Aspirations", "type": "text", "hint": "Where do they want to be in 3-5 years?", "placeholder": "e.g. VP of Marketing" },
+        { "id": "personal_interests", "label": "Personal Interests", "type": "text", "hint": "Hobbies, passions, communities", "placeholder": "e.g. Running, cooking, tech meetups" },
+        { "id": "influences", "label": "Influences & Role Models", "type": "text", "hint": "Who do they look up to or follow?", "placeholder": "e.g. Seth Godin, specific industry leaders" },
+        { "id": "risk_tolerance", "label": "Risk Tolerance", "type": "score", "hint": "1 = Very conservative, 5 = Risk-seeking" }
+      ],
+      "sections": [
+        { "id": "sec_psycho", "title": "Psychographics", "fieldIds": ["core_values", "personality_traits", "lifestyle", "tech_attitude", "info_sources", "social_behavior", "professional_aspirations", "personal_interests", "influences", "risk_tolerance"], "collapsible": true }
+      ]
+    },
+    {
+      "id": "goals_challenges",
+      "name": "Goals & Challenges",
+      "type": "form",
+      "description": "What drives this person and what keeps them up at night.",
+      "fields": [
+        { "id": "primary_goal", "label": "Primary Goal", "type": "text", "hint": "The #1 thing they are trying to achieve", "placeholder": "e.g. Increase lead generation by 50%" },
+        { "id": "secondary_goals", "label": "Secondary Goals", "type": "textarea", "hint": "Other important objectives", "placeholder": "List 2-3 secondary goals..." },
+        { "id": "biggest_frustration", "label": "Biggest Frustration", "type": "text", "hint": "What is their biggest pain point right now?", "placeholder": "e.g. Too many tools, not enough results" },
+        { "id": "daily_challenges", "label": "Daily Challenges", "type": "textarea", "hint": "Recurring problems they face at work", "placeholder": "Describe typical daily obstacles..." },
+        { "id": "keeps_up_at_night", "label": "What Keeps Them Up at Night", "type": "text", "hint": "Their deepest professional worry", "placeholder": "e.g. Falling behind competitors" },
+        { "id": "easier_life", "label": "What Would Make Their Life Easier", "type": "text", "hint": "Their dream solution in one sentence", "placeholder": "e.g. One platform that does it all" },
+        { "id": "google_2am", "label": "What They Google at 2 AM", "type": "text", "hint": "What questions are they secretly searching?", "placeholder": "e.g. 'How to prove marketing ROI'" },
+        { "id": "success_metric", "label": "Success Metric", "type": "text", "hint": "How do they measure success in their role?", "placeholder": "e.g. Pipeline generated, CAC reduction" },
+        { "id": "failure_fear", "label": "Failure Fear", "type": "text", "hint": "What outcome are they most afraid of?", "placeholder": "e.g. Getting budget cut" },
+        { "id": "unmet_need", "label": "Unmet Need", "type": "text", "hint": "What does nobody in the market solve for them?", "placeholder": "e.g. Affordable enterprise-grade analytics" }
+      ],
+      "sections": [
+        { "id": "sec_goals", "title": "Goals & Challenges", "fieldIds": ["primary_goal", "secondary_goals", "biggest_frustration", "daily_challenges", "keeps_up_at_night", "easier_life", "google_2am", "success_metric", "failure_fear", "unmet_need"], "collapsible": true }
+      ]
+    },
+    {
+      "id": "buying_journey",
+      "name": "Buying Journey",
+      "type": "form",
+      "description": "Map how this person discovers, evaluates, and buys solutions.",
+      "fields": [
+        { "id": "awareness_trigger", "label": "Awareness Trigger", "type": "text", "hint": "What event makes them realize they need a solution?", "placeholder": "e.g. Missed quarterly target" },
+        { "id": "research_behavior", "label": "Research Behavior", "type": "textarea", "hint": "How do they evaluate options? Compare, demo, ask peers?", "placeholder": "Describe their research process..." },
+        { "id": "decision_criteria", "label": "Decision Criteria", "type": "text", "hint": "Price, features, trust, speed, support, brand?", "placeholder": "e.g. ROI proof, ease of use, integrations" },
+        { "id": "key_objections", "label": "Key Objections", "type": "textarea", "hint": "What would stop them from buying?", "placeholder": "List common objections..." },
+        { "id": "decision_timeline", "label": "Decision Timeline", "type": "dropdown", "hint": "How long does it take to decide?", "options": ["Impulse (same day)", "1-2 weeks", "1-3 months", "3-6 months", "6+ months / committee"] },
+        { "id": "decision_influencers", "label": "Decision Influencers", "type": "text", "hint": "Who else is involved — boss, partner, team?", "placeholder": "e.g. CFO, IT Director" },
+        { "id": "buying_channel", "label": "Preferred Buying Channel", "type": "dropdown", "hint": "How do they prefer to purchase?", "options": ["Online self-serve", "Sales call/demo", "Through a partner", "Referral", "In-person"] },
+        { "id": "budget_authority", "label": "Budget Authority", "type": "dropdown", "hint": "Do they control the budget?", "options": ["Full authority", "Needs manager approval", "Needs committee approval", "No budget authority"] },
+        { "id": "competitor_alternatives", "label": "Competitor Alternatives", "type": "textarea", "hint": "What else are they considering?", "placeholder": "List competitors or alternative solutions..." },
+        { "id": "deal_breakers", "label": "Deal Breakers", "type": "text", "hint": "What would make them walk away instantly?", "placeholder": "e.g. No free trial, long contracts" }
+      ],
+      "sections": [
+        { "id": "sec_buying", "title": "Buying Journey & Decision", "fieldIds": ["awareness_trigger", "research_behavior", "decision_criteria", "key_objections", "decision_timeline", "decision_influencers", "buying_channel", "budget_authority", "competitor_alternatives", "deal_breakers"], "collapsible": true }
+      ]
+    },
+    {
+      "id": "communication",
+      "name": "Communication",
+      "type": "form",
+      "description": "How to reach and engage this persona effectively.",
+      "fields": [
+        { "id": "content_format", "label": "Preferred Content Format", "type": "text", "hint": "Blog, video, podcast, whitepaper, infographic...", "placeholder": "e.g. Short videos, case studies" },
+        { "id": "preferred_channel", "label": "Preferred Channel", "type": "text", "hint": "Email, LinkedIn, Instagram, in-person events...", "placeholder": "e.g. LinkedIn, email newsletters" },
+        { "id": "tone_resonates", "label": "Tone That Resonates", "type": "dropdown", "hint": "What communication style works best?", "options": ["Professional & formal", "Casual & friendly", "Inspirational & bold", "Data-driven & analytical", "Empathetic & supportive"] },
+        { "id": "action_trigger", "label": "Messaging That Triggers Action", "type": "text", "hint": "What would make them click or call?", "placeholder": "e.g. 'See results in 30 days'" },
+        { "id": "content_turnoffs", "label": "Content Turn-offs", "type": "text", "hint": "What makes them unsubscribe or ignore?", "placeholder": "e.g. Clickbait, over-promotion" },
+        { "id": "email_frequency", "label": "Email Frequency Tolerance", "type": "dropdown", "hint": "How often can you email them?", "options": ["Daily", "2-3x per week", "Weekly", "Bi-weekly", "Monthly"] },
+        { "id": "community_involvement", "label": "Community Involvement", "type": "text", "hint": "Forums, Slack groups, industry associations?", "placeholder": "e.g. Marketing Twitter, local chamber" },
+        { "id": "event_preferences", "label": "Event Preferences", "type": "text", "hint": "Webinars, conferences, workshops, meetups?", "placeholder": "e.g. Online webinars, annual conferences" },
+        { "id": "language_level", "label": "Language / Jargon Level", "type": "dropdown", "hint": "How technical should your language be?", "options": ["Very technical", "Industry jargon OK", "Business language", "Simple & plain", "Mixed"] },
+        { "id": "cta_style", "label": "Call to Action Style", "type": "dropdown", "hint": "Soft or direct?", "options": ["Soft (learn more, explore)", "Medium (get started, try free)", "Direct (buy now, sign up)", "Social proof (join 10K+ users)"] }
+      ],
+      "sections": [
+        { "id": "sec_comms", "title": "Communication & Content Preferences", "fieldIds": ["content_format", "preferred_channel", "tone_resonates", "action_trigger", "content_turnoffs", "email_frequency", "community_involvement", "event_preferences", "language_level", "cta_style"], "collapsible": true }
+      ]
+    },
+    {
+      "id": "brand_relationship",
+      "name": "Brand Relationship",
+      "type": "form",
+      "description": "Define how this persona relates to your brand.",
+      "fields": [
+        { "id": "brand_awareness", "label": "Current Awareness of Your Brand", "type": "dropdown", "hint": "Where are they in their relationship with you?", "options": ["Never heard of us", "Vaguely aware", "Knows the name", "Has visited website", "Active user/customer"] },
+        { "id": "first_impression", "label": "First Impression", "type": "text", "hint": "What would they think seeing your brand for the first time?", "placeholder": "e.g. 'Looks professional but unclear what they do'" },
+        { "id": "trust_builders", "label": "What Would Make Them Trust You", "type": "textarea", "hint": "Proof points: case studies, reviews, certifications?", "placeholder": "List trust signals that matter to them..." },
+        { "id": "recommend_trigger", "label": "What Would Make Them Recommend You", "type": "text", "hint": "When would they tell a colleague about you?", "placeholder": "e.g. After seeing measurable ROI" },
+        { "id": "ideal_relationship", "label": "Ideal Relationship With Your Brand", "type": "dropdown", "hint": "What type of relationship do they want?", "options": ["Transactional", "Advisory/consultative", "Community member", "Strategic partner", "Brand ambassador"] },
+        { "id": "persona_quote", "label": "Quote That Captures This Persona", "type": "textarea", "hint": "Write one sentence in their voice", "placeholder": "\"I just need something that works without a 6-month onboarding process.\"" },
+        { "id": "avatar_description", "label": "Photo or Avatar Description", "type": "textarea", "hint": "Describe what this person looks like for your team", "placeholder": "e.g. Professional woman, mid-30s, smart casual..." },
+        { "id": "persona_created_by", "label": "Persona Created By", "type": "text", "hint": "Your name and date", "placeholder": "e.g. Jane Smith, March 2026" }
+      ],
+      "sections": [
+        { "id": "sec_brand", "title": "Brand Relationship", "fieldIds": ["brand_awareness", "first_impression", "trust_builders", "recommend_trigger", "ideal_relationship", "persona_quote", "avatar_description", "persona_created_by"], "collapsible": true }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "id": "marketing_audit_checklist",
+  "name": "Marketing Audit Checklist",
+  "category": "strategy",
+  "sheets": [
+    {
+      "id": "dashboard",
+      "name": "Dashboard",
+      "type": "summary"
+    },
+    {
+      "id": "audit_checklist",
+      "name": "Audit Checklist",
+      "type": "table",
+      "description": "Score each checkpoint from 1-5, set priorities, and add action notes.",
+      "groupBy": "category",
+      "columns": [
+        { "id": "num", "header": "#", "type": "text", "width": "50px", "editable": false },
+        { "id": "category", "header": "Category", "type": "text", "width": "180px", "editable": false },
+        { "id": "checkpoint", "header": "Checkpoint", "type": "text", "width": "350px", "editable": false },
+        {
+          "id": "score",
+          "header": "Score (1-5)",
+          "type": "score",
+          "width": "150px",
+          "min": 1,
+          "max": 5,
+          "colorScale": {
+            "ranges": [
+              { "min": 1, "max": 2, "color": "#ef4444" },
+              { "min": 3, "max": 3, "color": "#eab308" },
+              { "min": 4, "max": 5, "color": "#22c55e" }
+            ]
+          }
+        },
+        { "id": "priority", "header": "Priority", "type": "dropdown", "width": "120px", "options": ["High", "Medium", "Low"] },
+        { "id": "notes", "header": "Notes / Action Items", "type": "textarea", "width": "250px" },
+        { "id": "status", "header": "Status", "type": "dropdown", "width": "130px", "options": ["Not Started", "In Progress", "Done"] }
+      ],
+      "defaultRows": 0
+    }
+  ],
+  "defaultData": {
+    "audit_checklist": [
+      { "num": "1", "category": "Brand & Positioning", "checkpoint": "Brand guidelines document exists and is up to date" },
+      { "num": "2", "category": "Brand & Positioning", "checkpoint": "Unique value proposition is clearly defined and communicated" },
+      { "num": "3", "category": "Brand & Positioning", "checkpoint": "Brand voice and tone are consistent across all channels" },
+      { "num": "4", "category": "Brand & Positioning", "checkpoint": "Competitive positioning is documented and differentiated" },
+      { "num": "5", "category": "Brand & Positioning", "checkpoint": "Brand assets (logo, colors, fonts) are standardized and accessible" },
+      { "num": "6", "category": "Website & Digital", "checkpoint": "Website loads in under 3 seconds on mobile" },
+      { "num": "7", "category": "Website & Digital", "checkpoint": "All pages have clear calls-to-action" },
+      { "num": "8", "category": "Website & Digital", "checkpoint": "Website is mobile-responsive and tested across devices" },
+      { "num": "9", "category": "Website & Digital", "checkpoint": "Contact/lead capture forms are functional and optimized" },
+      { "num": "10", "category": "Website & Digital", "checkpoint": "SSL certificate is active and all pages are HTTPS" },
+      { "num": "11", "category": "Content Strategy", "checkpoint": "Content calendar exists and is followed consistently" },
+      { "num": "12", "category": "Content Strategy", "checkpoint": "Blog/content hub is active with regular publishing" },
+      { "num": "13", "category": "Content Strategy", "checkpoint": "Content is mapped to each stage of the buyer journey" },
+      { "num": "14", "category": "Content Strategy", "checkpoint": "Content performance is tracked and reported on monthly" },
+      { "num": "15", "category": "Content Strategy", "checkpoint": "Content repurposing strategy is in place" },
+      { "num": "16", "category": "Social Media", "checkpoint": "Active presence on relevant social platforms" },
+      { "num": "17", "category": "Social Media", "checkpoint": "Posting frequency meets platform best practices" },
+      { "num": "18", "category": "Social Media", "checkpoint": "Engagement rate is tracked and above industry benchmarks" },
+      { "num": "19", "category": "Social Media", "checkpoint": "Community management process is in place" },
+      { "num": "20", "category": "Social Media", "checkpoint": "Social profiles are complete, branded, and up to date" },
+      { "num": "21", "category": "Paid Advertising", "checkpoint": "Paid campaigns have clear goals and KPIs defined" },
+      { "num": "22", "category": "Paid Advertising", "checkpoint": "Ad spend is tracked against revenue/conversions" },
+      { "num": "23", "category": "Paid Advertising", "checkpoint": "A/B testing is conducted regularly on ads" },
+      { "num": "24", "category": "Paid Advertising", "checkpoint": "Retargeting campaigns are active and segmented" },
+      { "num": "25", "category": "Paid Advertising", "checkpoint": "Landing pages are optimized for each campaign" },
+      { "num": "26", "category": "SEO", "checkpoint": "Keyword research is conducted quarterly or more" },
+      { "num": "27", "category": "SEO", "checkpoint": "On-page SEO (titles, meta, headers) is optimized" },
+      { "num": "28", "category": "SEO", "checkpoint": "Technical SEO audit completed in the last 6 months" },
+      { "num": "29", "category": "SEO", "checkpoint": "Backlink profile is monitored and actively built" },
+      { "num": "30", "category": "SEO", "checkpoint": "Local SEO is optimized (Google Business Profile, citations)" },
+      { "num": "31", "category": "Email Marketing", "checkpoint": "Email list is segmented by behavior or demographics" },
+      { "num": "32", "category": "Email Marketing", "checkpoint": "Welcome/onboarding email sequence is in place" },
+      { "num": "33", "category": "Email Marketing", "checkpoint": "Email open and click rates are above industry averages" },
+      { "num": "34", "category": "Email Marketing", "checkpoint": "Unsubscribe rate is monitored and under 0.5%" },
+      { "num": "35", "category": "Email Marketing", "checkpoint": "Email templates are branded and mobile-optimized" },
+      { "num": "36", "category": "Analytics & Data", "checkpoint": "Google Analytics (or equivalent) is properly configured" },
+      { "num": "37", "category": "Analytics & Data", "checkpoint": "Conversion tracking is set up for all key actions" },
+      { "num": "38", "category": "Analytics & Data", "checkpoint": "Monthly reporting dashboard exists and is reviewed" },
+      { "num": "39", "category": "Analytics & Data", "checkpoint": "UTM tracking is used consistently across campaigns" },
+      { "num": "40", "category": "Analytics & Data", "checkpoint": "Data privacy compliance (GDPR/CCPA) is maintained" },
+      { "num": "41", "category": "Team & Processes", "checkpoint": "Marketing team roles and responsibilities are clearly defined" },
+      { "num": "42", "category": "Team & Processes", "checkpoint": "Marketing workflow/approval process is documented" },
+      { "num": "43", "category": "Team & Processes", "checkpoint": "Regular marketing team meetings/standups occur" },
+      { "num": "44", "category": "Team & Processes", "checkpoint": "Marketing tech stack is documented and reviewed annually" },
+      { "num": "45", "category": "Team & Processes", "checkpoint": "Budget allocation and tracking process is in place" },
+      { "num": "46", "category": "Customer Experience", "checkpoint": "Customer feedback is collected and acted upon regularly" },
+      { "num": "47", "category": "Customer Experience", "checkpoint": "Customer journey is mapped from awareness to advocacy" },
+      { "num": "48", "category": "Customer Experience", "checkpoint": "NPS or satisfaction surveys are conducted periodically" },
+      { "num": "49", "category": "Customer Experience", "checkpoint": "Testimonials and case studies are collected and used" },
+      { "num": "50", "category": "Customer Experience", "checkpoint": "Customer support response times meet SLA targets" }
+    ]
+  }
+}
