@@ -10,19 +10,19 @@ import {
   BarChart3,
   Target,
   Users,
-  TrendingUp,
   Megaphone,
   PenTool,
   Globe,
-  Mail,
-  Search,
-  DollarSign,
-  LineChart,
   Lightbulb,
   Route,
   Shield,
   Rocket,
   AlertCircle,
+  CalendarDays,
+  TrendingUp,
+  GitBranch,
+  LineChart,
+  Compass,
 } from "lucide-react";
 
 interface StrategySection {
@@ -41,25 +41,22 @@ interface GeneratedSection {
   qualityScore: number;
 }
 
-const INITIAL_SECTIONS: StrategySection[] = [
+const ALL_SECTIONS: StrategySection[] = [
   { id: "exec-summary", title: "Executive Summary", icon: Sparkles, status: "pending", qualityScore: null },
   { id: "market-analysis", title: "Market Analysis", icon: BarChart3, status: "pending", qualityScore: null },
-  { id: "brand-positioning", title: "Brand Positioning", icon: PenTool, status: "pending", qualityScore: null },
-];
-
-const FUTURE_SECTIONS: StrategySection[] = [
-  { id: "target-audience", title: "Target Audience Profiles", icon: Users, status: "pending", qualityScore: null },
+  { id: "target-audience", title: "Target Audience Deep Dive", icon: Users, status: "pending", qualityScore: null },
   { id: "competitive-position", title: "Competitive Positioning", icon: Target, status: "pending", qualityScore: null },
-  { id: "value-prop", title: "Value Proposition Framework", icon: Lightbulb, status: "pending", qualityScore: null },
+  { id: "brand-strategy", title: "Brand Strategy", icon: PenTool, status: "pending", qualityScore: null },
+  { id: "value-prop", title: "Value Proposition", icon: Lightbulb, status: "pending", qualityScore: null },
+  { id: "marketing-goals", title: "Marketing Goals & Objectives", icon: Compass, status: "pending", qualityScore: null },
+  { id: "channel-strategy", title: "Marketing Channels Strategy", icon: Globe, status: "pending", qualityScore: null },
   { id: "content-strategy", title: "Content Strategy", icon: Megaphone, status: "pending", qualityScore: null },
-  { id: "channel-strategy", title: "Channel Strategy", icon: Globe, status: "pending", qualityScore: null },
-  { id: "email-strategy", title: "Email Marketing Plan", icon: Mail, status: "pending", qualityScore: null },
-  { id: "seo-strategy", title: "SEO & Search Strategy", icon: Search, status: "pending", qualityScore: null },
-  { id: "budget-allocation", title: "Budget Allocation", icon: DollarSign, status: "pending", qualityScore: null },
-  { id: "kpi-framework", title: "KPI Framework", icon: LineChart, status: "pending", qualityScore: null },
-  { id: "growth-roadmap", title: "Growth Roadmap", icon: Route, status: "pending", qualityScore: null },
-  { id: "risk-mitigation", title: "Risk Mitigation", icon: Shield, status: "pending", qualityScore: null },
-  { id: "action-plan", title: "90-Day Action Plan", icon: Rocket, status: "pending", qualityScore: null },
+  { id: "customer-journey", title: "Customer Journey & Conversion", icon: GitBranch, status: "pending", qualityScore: null },
+  { id: "marketing-calendar", title: "Marketing Calendar & Timeline", icon: CalendarDays, status: "pending", qualityScore: null },
+  { id: "growth-strategy", title: "Growth & Scaling Strategy", icon: TrendingUp, status: "pending", qualityScore: null },
+  { id: "analytics", title: "Analytics & Measurement", icon: LineChart, status: "pending", qualityScore: null },
+  { id: "implementation", title: "Implementation Roadmap", icon: Route, status: "pending", qualityScore: null },
+  { id: "risk-management", title: "Risk Management & Contingencies", icon: Shield, status: "pending", qualityScore: null },
 ];
 
 export default function GeneratingPage() {
@@ -67,10 +64,7 @@ export default function GeneratingPage() {
   const router = useRouter();
   const strategyId = params.id as string;
 
-  const [sections, setSections] = useState<StrategySection[]>([
-    ...INITIAL_SECTIONS,
-    ...FUTURE_SECTIONS,
-  ]);
+  const [sections, setSections] = useState<StrategySection[]>(ALL_SECTIONS);
   const [isComplete, setIsComplete] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [hasStarted, setHasStarted] = useState(false);
@@ -78,27 +72,32 @@ export default function GeneratingPage() {
   const completedCount = sections.filter(
     (s) => s.status === "complete" || s.status === "error"
   ).length;
-  const totalActive = INITIAL_SECTIONS.length;
   const progress = Math.round((completedCount / sections.length) * 100);
 
   const generateStrategy = useCallback(async () => {
     if (hasStarted) return;
     setHasStarted(true);
 
-    // Mark the active sections as generating
+    // Mark all sections as generating
     setSections((prev) =>
-      prev.map((s) => {
-        const isActive = INITIAL_SECTIONS.some((init) => init.id === s.id);
-        return isActive ? { ...s, status: "generating" } : s;
-      })
+      prev.map((s) => ({ ...s, status: "generating" }))
     );
 
     try {
+      // Load questionnaire responses from localStorage if available
+      const storedResponses = localStorage.getItem(
+        `strategy_questionnaire_${strategyId}`
+      );
+      const questionnaireResponses = storedResponses
+        ? JSON.parse(storedResponses)
+        : undefined;
+
       const response = await fetch("/api/ai/generate-strategy", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
           strategy_project_id: strategyId,
+          questionnaire_responses: questionnaireResponses,
         }),
       });
 
@@ -121,8 +120,14 @@ export default function GeneratingPage() {
               qualityScore: result.qualityScore,
             };
           }
-          return s;
+          return { ...s, status: "error" };
         })
+      );
+
+      // Store the full generated data in localStorage for the result page
+      localStorage.setItem(
+        `strategy_result_${strategyId}`,
+        JSON.stringify(generated)
       );
 
       setIsComplete(true);
@@ -181,7 +186,7 @@ export default function GeneratingPage() {
               ? "Redirecting you to your strategy deck in a moment..."
               : error
                 ? error
-                : `Generating ${totalActive} key sections via AI. This may take a minute.`}
+                : "Generating all 15 sections via AI. This may take up to a minute."}
           </p>
         </div>
 
@@ -199,11 +204,6 @@ export default function GeneratingPage() {
               style={{ width: `${progress}%` }}
             />
           </div>
-          {!isComplete && !error && (
-            <p className="mt-2 text-xs text-muted-foreground">
-              Remaining sections will be available in future updates.
-            </p>
-          )}
         </div>
 
         {/* Section list */}
@@ -313,6 +313,7 @@ export default function GeneratingPage() {
               onClick={() => {
                 setError(null);
                 setHasStarted(false);
+                setSections(ALL_SECTIONS);
               }}
               className="inline-flex items-center gap-2 rounded-lg bg-coral px-6 py-3 text-sm font-semibold text-white transition-colors hover:bg-coral/90"
             >

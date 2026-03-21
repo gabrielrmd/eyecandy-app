@@ -2,7 +2,7 @@
 
 import { useState, useEffect, useRef, useCallback } from "react";
 import Link from "next/link";
-import { useParams } from "next/navigation";
+import { useParams, useRouter } from "next/navigation";
 import {
   ArrowLeft,
   ArrowRight,
@@ -27,14 +27,17 @@ interface Question {
 
 interface Section {
   id: string;
-  title: string;
-  description: string;
+  section_name: string;
+  section_description: string;
   section_number: number;
   questions: Question[];
 }
 
+type SaveStatus = "idle" | "saving" | "saved" | "error";
+
 export default function QuestionnairePage() {
   const params = useParams();
+  const router = useRouter();
   const strategyId = params.id as string;
 
   const [sections, setSections] = useState<Section[]>([]);
@@ -42,9 +45,8 @@ export default function QuestionnairePage() {
   const [error, setError] = useState<string | null>(null);
   const [currentSectionIdx, setCurrentSectionIdx] = useState(0);
   const [answers, setAnswers] = useState<Record<string, string>>({});
-  const [saveStatus, setSaveStatus] = useState<"idle" | "saving" | "saved">(
-    "idle"
-  );
+  const [saveStatus, setSaveStatus] = useState<SaveStatus>("idle");
+  const [responseRowId, setResponseRowId] = useState<string | null>(null);
   const saveTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
   const supabase = useRef(createClient());
 
@@ -55,11 +57,35 @@ export default function QuestionnairePage() {
       setError(null);
 
       try {
+        // Check that the user is authenticated
+        const {
+          data: { user },
+        } = await supabase.current.auth.getUser();
+        if (!user) {
+          router.push("/login");
+          return;
+        }
+
+        // Check that the strategy project exists and belongs to this user
+        const { data: project, error: projectError } = await supabase.current
+          .from("strategy_projects")
+          .select("id")
+          .eq("id", strategyId)
+          .eq("user_id", user.id)
+          .maybeSingle();
+
+        if (projectError) throw projectError;
+        if (!project) {
+          router.push("/strategy/new");
+          return;
+        }
+
         // Fetch sections ordered by section_number
-        const { data: sectionsData, error: sectionsError } = await supabase.current
-          .from("questionnaire_sections")
-          .select("id, title, description, section_number")
-          .order("section_number", { ascending: true });
+        const { data: sectionsData, error: sectionsError } =
+          await supabase.current
+            .from("questionnaire_sections")
+            .select("id, section_name, section_description, section_number")
+            .order("section_number", { ascending: true });
 
         if (sectionsError) throw sectionsError;
         if (!sectionsData || sectionsData.length === 0) {
@@ -69,20 +95,21 @@ export default function QuestionnairePage() {
         }
 
         // Fetch all questions ordered by question_number
-        const { data: questionsData, error: questionsError } = await supabase.current
-          .from("questionnaire_questions")
-          .select(
-            "id, section_id, question_text, question_type, placeholder, options, required, help_text, question_number"
-          )
-          .order("question_number", { ascending: true });
+        const { data: questionsData, error: questionsError } =
+          await supabase.current
+            .from("questionnaire_questions")
+            .select(
+              "id, section_id, question_text, question_type, placeholder, options, required, help_text, question_number"
+            )
+            .order("question_number", { ascending: true });
 
         if (questionsError) throw questionsError;
 
         // Group questions into sections
         const assembled: Section[] = sectionsData.map((sec) => ({
           id: sec.id,
-          title: sec.title,
-          description: sec.description ?? "",
+          section_name: sec.section_name,
+          section_description: sec.section_description ?? "",
           section_number: sec.section_number,
           questions: (questionsData ?? [])
             .filter((q) => q.section_id === sec.id)
@@ -100,17 +127,34 @@ export default function QuestionnairePage() {
 
         setSections(assembled);
 
-        // Load existing responses for this strategy
-        const { data: responsesData } = await supabase.current
+        // Load existing responses for this strategy project
+        // The questionnaire_responses table stores one row per project,
+        // with section_1_responses through section_7_responses JSONB columns.
+        const { data: responseRow } = await supabase.current
           .from("questionnaire_responses")
-          .select("question_id, answer")
-          .eq("strategy_id", strategyId);
+          .select("*")
+          .eq("strategy_project_id", strategyId)
+          .eq("user_id", user.id)
+          .maybeSingle();
 
-        if (responsesData && responsesData.length > 0) {
+        if (responseRow) {
+          setResponseRowId(responseRow.id);
+          // Reconstruct answers from section_N_responses columns
           const loaded: Record<string, string> = {};
-          responsesData.forEach((r) => {
-            if (r.answer) loaded[r.question_id] = r.answer;
-          });
+          for (let i = 1; i <= 7; i++) {
+            const sectionResponses =
+              responseRow[`section_${i}_responses` as keyof typeof responseRow];
+            if (
+              sectionResponses &&
+              typeof sectionResponses === "object" &&
+              !Array.isArray(sectionResponses)
+            ) {
+              const responses = sectionResponses as Record<string, string>;
+              Object.entries(responses).forEach(([questionId, answer]) => {
+                if (answer) loaded[questionId] = answer;
+              });
+            }
+          }
           setAnswers(loaded);
         }
       } catch (err) {
@@ -123,7 +167,7 @@ export default function QuestionnairePage() {
     }
 
     fetchData();
-  }, [strategyId]);
+  }, [strategyId, router]);
 
   const currentSection = sections[currentSectionIdx];
 
@@ -147,59 +191,110 @@ export default function QuestionnairePage() {
       ? Math.round((totalAnswered / totalQuestions) * 100)
       : 0;
 
-  // Save a single response to Supabase
-  const saveResponse = useCallback(
-    async (questionId: string, answer: string) => {
+  // Build the section_N_responses payload from current answers
+  const buildSectionPayload = useCallback(
+    (currentAnswers: Record<string, string>) => {
+      const payload: Record<string, Record<string, string>> = {};
+      sections.forEach((section) => {
+        const sectionKey = `section_${section.section_number}_responses`;
+        const sectionResponses: Record<string, string> = {};
+        section.questions.forEach((q) => {
+          if (currentAnswers[q.id] !== undefined) {
+            sectionResponses[q.id] = currentAnswers[q.id];
+          }
+        });
+        payload[sectionKey] = sectionResponses;
+      });
+      return payload;
+    },
+    [sections]
+  );
+
+  // Compute completed_sections array and all_sections_completed flag
+  const computeCompletionMeta = useCallback(
+    (currentAnswers: Record<string, string>) => {
+      const completedSections: number[] = [];
+      sections.forEach((section) => {
+        const allAnswered = section.questions.every(
+          (q) => !q.required || currentAnswers[q.id]?.trim()
+        );
+        if (allAnswered && section.questions.length > 0) {
+          completedSections.push(section.section_number);
+        }
+      });
+      return {
+        completed_sections: completedSections,
+        all_sections_completed: completedSections.length === sections.length,
+      };
+    },
+    [sections]
+  );
+
+  // Save responses to Supabase (upsert pattern: check existing, then insert or update)
+  const saveResponses = useCallback(
+    async (currentAnswers: Record<string, string>) => {
       const {
         data: { user },
       } = await supabase.current.auth.getUser();
       if (!user) return;
 
-      await supabase.current.from("questionnaire_responses").upsert(
-        {
-          user_id: user.id,
-          strategy_id: strategyId,
-          question_id: questionId,
-          answer,
-          updated_at: new Date().toISOString(),
-        },
-        {
-          onConflict: "user_id,strategy_id,question_id",
+      setSaveStatus("saving");
+
+      try {
+        const sectionPayload = buildSectionPayload(currentAnswers);
+        const completionMeta = computeCompletionMeta(currentAnswers);
+
+        if (responseRowId) {
+          // Update existing row
+          const { error: updateError } = await supabase.current
+            .from("questionnaire_responses")
+            .update({
+              ...sectionPayload,
+              ...completionMeta,
+            })
+            .eq("id", responseRowId);
+
+          if (updateError) throw updateError;
+        } else {
+          // Insert new row
+          const { data: newRow, error: insertError } = await supabase.current
+            .from("questionnaire_responses")
+            .insert({
+              strategy_project_id: strategyId,
+              user_id: user.id,
+              ...sectionPayload,
+              ...completionMeta,
+            })
+            .select("id")
+            .single();
+
+          if (insertError) throw insertError;
+          if (newRow) setResponseRowId(newRow.id);
         }
-      );
+
+        setSaveStatus("saved");
+      } catch {
+        setSaveStatus("error");
+      }
     },
-    [strategyId]
+    [strategyId, responseRowId, buildSectionPayload, computeCompletionMeta]
   );
 
   // Debounced auto-save
-  const pendingSaves = useRef<Map<string, string>>(new Map());
+  const latestAnswers = useRef(answers);
+  latestAnswers.current = answers;
 
-  const flushSaves = useCallback(async () => {
-    const toSave = new Map(pendingSaves.current);
-    pendingSaves.current.clear();
-
-    if (toSave.size === 0) return;
-
-    setSaveStatus("saving");
-    try {
-      const promises = Array.from(toSave.entries()).map(([qId, ans]) =>
-        saveResponse(qId, ans)
-      );
-      await Promise.all(promises);
-      setSaveStatus("saved");
-    } catch {
-      setSaveStatus("idle");
-    }
-  }, [saveResponse]);
+  const scheduleSave = useCallback(() => {
+    if (saveTimer.current) clearTimeout(saveTimer.current);
+    saveTimer.current = setTimeout(() => {
+      saveResponses(latestAnswers.current);
+    }, 1500);
+  }, [saveResponses]);
 
   const updateAnswer = (questionId: string, value: string) => {
     setAnswers((prev) => ({ ...prev, [questionId]: value }));
-    pendingSaves.current.set(questionId, value);
-
-    if (saveTimer.current) clearTimeout(saveTimer.current);
-    saveTimer.current = setTimeout(() => {
-      flushSaves();
-    }, 1500);
+    setSaveStatus("idle");
+    scheduleSave();
   };
 
   // Flush on unmount
@@ -224,8 +319,8 @@ export default function QuestionnairePage() {
     return (
       <div className="flex min-h-screen items-center justify-center bg-background">
         <div className="max-w-md rounded-xl border border-border bg-card p-8 text-center">
-          <AlertCircle className="mx-auto h-10 w-10 text-coral" />
-          <h2 className="mt-4 font-[family-name:var(--font-oswald)] text-lg font-semibold text-navy">
+          <AlertCircle className="mx-auto h-10 w-10 text-[var(--coral)]" />
+          <h2 className="mt-4 font-[family-name:var(--font-oswald)] text-lg font-semibold text-[var(--navy)]">
             Questionnaire Unavailable
           </h2>
           <p className="mt-2 text-sm text-muted-foreground">
@@ -233,7 +328,7 @@ export default function QuestionnairePage() {
           </p>
           <Link
             href={`/strategy/${strategyId}`}
-            className="mt-4 inline-block rounded-lg bg-coral px-4 py-2 text-sm font-medium text-white hover:bg-coral/90"
+            className="mt-4 inline-block rounded-lg bg-[var(--coral)] px-4 py-2 text-sm font-medium text-white hover:bg-[var(--coral)]/90"
           >
             Back to Strategy
           </Link>
@@ -255,7 +350,7 @@ export default function QuestionnairePage() {
               >
                 <ArrowLeft className="h-4 w-4" />
               </Link>
-              <h1 className="font-[family-name:var(--font-oswald)] text-base font-semibold text-navy sm:text-lg">
+              <h1 className="font-[family-name:var(--font-oswald)] text-base font-semibold text-[var(--navy)] sm:text-lg">
                 Strategy Questionnaire
               </h1>
             </div>
@@ -270,6 +365,11 @@ export default function QuestionnairePage() {
                 {saveStatus === "saved" && (
                   <span className="flex items-center gap-1 text-emerald-500">
                     <CheckCircle2 className="h-3 w-3" /> Saved
+                  </span>
+                )}
+                {saveStatus === "error" && (
+                  <span className="flex items-center gap-1 text-red-500">
+                    <AlertCircle className="h-3 w-3" /> Save failed
                   </span>
                 )}
                 {saveStatus === "idle" && (
@@ -293,7 +393,7 @@ export default function QuestionnairePage() {
                   i < currentSectionIdx
                     ? "bg-emerald-400"
                     : i === currentSectionIdx
-                      ? "bg-coral"
+                      ? "bg-[var(--coral)]"
                       : "bg-muted"
                 }`}
               />
@@ -321,7 +421,7 @@ export default function QuestionnairePage() {
                   onClick={() => setCurrentSectionIdx(idx)}
                   className={`flex w-full items-center gap-3 rounded-lg px-3 py-2.5 text-left text-sm transition-colors ${
                     isActive
-                      ? "bg-coral/10 font-medium text-coral"
+                      ? "bg-[var(--coral)]/10 font-medium text-[var(--coral)]"
                       : "text-muted-foreground hover:bg-muted hover:text-foreground"
                   }`}
                 >
@@ -330,7 +430,7 @@ export default function QuestionnairePage() {
                       isComplete
                         ? "bg-emerald-100 text-emerald-600"
                         : isActive
-                          ? "bg-coral/20 text-coral"
+                          ? "bg-[var(--coral)]/20 text-[var(--coral)]"
                           : "bg-muted text-muted-foreground"
                     }`}
                   >
@@ -341,7 +441,7 @@ export default function QuestionnairePage() {
                     )}
                   </div>
                   <div className="min-w-0 flex-1">
-                    <p className="truncate">{section.title}</p>
+                    <p className="truncate">{section.section_name}</p>
                     <p className="text-xs text-muted-foreground">
                       {answered}/{total} answered
                     </p>
@@ -357,12 +457,12 @@ export default function QuestionnairePage() {
           {currentSection && (
             <div className="rounded-xl border border-border bg-card p-6 sm:p-8">
               <div className="mb-6">
-                <h2 className="font-[family-name:var(--font-oswald)] text-xl font-semibold text-navy">
-                  {currentSection.title}
+                <h2 className="font-[family-name:var(--font-oswald)] text-xl font-semibold text-[var(--navy)]">
+                  {currentSection.section_name}
                 </h2>
-                {currentSection.description && (
+                {currentSection.section_description && (
                   <p className="mt-1 text-sm text-muted-foreground">
-                    {currentSection.description}
+                    {currentSection.section_description}
                   </p>
                 )}
               </div>
@@ -379,7 +479,7 @@ export default function QuestionnairePage() {
                       </span>
                       {question.question_text}
                       {question.required && (
-                        <span className="text-coral">*</span>
+                        <span className="text-[var(--coral)]">*</span>
                       )}
                     </label>
 
@@ -399,7 +499,7 @@ export default function QuestionnairePage() {
                         onChange={(e) =>
                           updateAnswer(question.id, e.target.value)
                         }
-                        className="w-full rounded-lg border border-border bg-background px-4 py-2.5 text-sm text-foreground placeholder:text-muted-foreground focus:border-coral focus:outline-none focus:ring-2 focus:ring-coral/20"
+                        className="w-full rounded-lg border border-border bg-background px-4 py-2.5 text-sm text-foreground placeholder:text-muted-foreground focus:border-[var(--coral)] focus:outline-none focus:ring-2 focus:ring-[var(--coral)]/20"
                       />
                     ) : question.question_type === "select" ? (
                       <select
@@ -408,7 +508,7 @@ export default function QuestionnairePage() {
                         onChange={(e) =>
                           updateAnswer(question.id, e.target.value)
                         }
-                        className="w-full appearance-none rounded-lg border border-border bg-background px-4 py-2.5 text-sm text-foreground focus:border-coral focus:outline-none focus:ring-2 focus:ring-coral/20"
+                        className="w-full appearance-none rounded-lg border border-border bg-background px-4 py-2.5 text-sm text-foreground focus:border-[var(--coral)] focus:outline-none focus:ring-2 focus:ring-[var(--coral)]/20"
                       >
                         <option value="">{question.placeholder}</option>
                         {question.options?.map((opt) => (
@@ -426,7 +526,7 @@ export default function QuestionnairePage() {
                         onChange={(e) =>
                           updateAnswer(question.id, e.target.value)
                         }
-                        className="w-full rounded-lg border border-border bg-background px-4 py-2.5 text-sm text-foreground placeholder:text-muted-foreground focus:border-coral focus:outline-none focus:ring-2 focus:ring-coral/20"
+                        className="w-full rounded-lg border border-border bg-background px-4 py-2.5 text-sm text-foreground placeholder:text-muted-foreground focus:border-[var(--coral)] focus:outline-none focus:ring-2 focus:ring-[var(--coral)]/20"
                       />
                     )}
                   </div>
@@ -453,7 +553,7 @@ export default function QuestionnairePage() {
                         Math.min(sections.length - 1, prev + 1)
                       )
                     }
-                    className="flex items-center gap-2 rounded-lg bg-coral px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-coral/90"
+                    className="flex items-center gap-2 rounded-lg bg-[var(--coral)] px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-[var(--coral)]/90"
                   >
                     Next Section
                     <ArrowRight className="h-4 w-4" />
@@ -461,7 +561,7 @@ export default function QuestionnairePage() {
                 ) : (
                   <Link
                     href={`/strategy/${strategyId}/review`}
-                    className="flex items-center gap-2 rounded-lg bg-coral px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-coral/90"
+                    className="flex items-center gap-2 rounded-lg bg-[var(--coral)] px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-[var(--coral)]/90"
                   >
                     Review Answers
                     <ArrowRight className="h-4 w-4" />

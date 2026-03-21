@@ -1,124 +1,144 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect, useRef } from "react";
 import Link from "next/link";
-import { useParams } from "next/navigation";
+import { useParams, useRouter } from "next/navigation";
 import {
   ArrowLeft,
   ArrowRight,
-  Building2,
-  Users,
-  Swords,
-  Gem,
-  Target,
-  AlertTriangle,
-  Rocket,
-  Pencil,
   CheckCircle2,
   Clock,
   Sparkles,
   ChevronDown,
   ChevronUp,
+  Pencil,
+  Loader2,
+  AlertCircle,
 } from "lucide-react";
+import { createClient } from "@/lib/supabase/client";
 
-const SECTIONS = [
-  {
-    id: "business-foundation",
-    title: "Business Foundation",
-    icon: Building2,
-    answers: [
-      { question: "What does your business do in one sentence?", answer: "We help small businesses build professional brand strategies using AI-powered tools and marketing templates." },
-      { question: "How long has your business been operating?", answer: "1-3 years" },
-      { question: "Current annual revenue range", answer: "$100K-$500K" },
-      { question: "Number of employees", answer: "6-15" },
-      { question: "What makes your business different?", answer: "Our AI combines the strategic depth of a marketing agency with the affordability and speed of a self-service tool." },
-      { question: "Company mission statement", answer: "To democratize professional brand strategy for businesses that can't afford top-tier agencies." },
-    ],
-  },
-  {
-    id: "target-audience",
-    title: "Target Audience",
-    icon: Users,
-    answers: [
-      { question: "Describe your ideal customer", answer: "SME founders and marketing managers aged 28-45, in growth-stage companies with $500K-$5M revenue, who know they need better marketing but don't have agency budgets." },
-      { question: "Primary problem you solve", answer: "They waste time and money on unfocused marketing because they lack a cohesive strategy." },
-      { question: "Where do customers find you?", answer: "LinkedIn content, Google search, and referrals from existing customers." },
-      { question: "Average customer lifetime value", answer: "$2,400" },
-      { question: "Typical sales cycle", answer: "1-4 weeks" },
-    ],
-  },
-  {
-    id: "competitive-landscape",
-    title: "Competitive Landscape",
-    icon: Swords,
-    answers: [
-      { question: "Top 3 competitors", answer: "Canva, HubSpot, and traditional marketing agencies" },
-      { question: "What competitors do better", answer: "Canva has better design tools; HubSpot has deeper CRM integration; agencies provide more personalised service." },
-      { question: "What you do better", answer: "We combine strategy + templates + AI in one platform at a fraction of agency cost." },
-      { question: "Market saturation", answer: "Moderate competition" },
-      { question: "Market trends affecting your industry", answer: "AI adoption in marketing, DIY brand building, and the shift from agency retainers to SaaS tools." },
-    ],
-  },
-  {
-    id: "value-proposition",
-    title: "Value Proposition",
-    icon: Gem,
-    answers: [
-      { question: "Core value proposition", answer: "Professional brand strategy in 24 hours, not 24 weeks." },
-      { question: "Emotional benefit", answer: "Confidence that their marketing is strategic, not guesswork." },
-      { question: "Pricing strategy", answer: "Subscription" },
-      { question: "Proof points", answer: "4,200+ strategies generated, 92% satisfaction rate, featured in MarketingWeek." },
-      { question: "Brand voice in 3 words", answer: "Bold, Clear, Empowering" },
-      { question: "Tagline", answer: "Clarity Over Noise." },
-    ],
-  },
-  {
-    id: "marketing-goals",
-    title: "Marketing Goals",
-    icon: Target,
-    answers: [
-      { question: "#1 marketing goal for next 90 days", answer: "Increase monthly signups from 200 to 500." },
-      { question: "Monthly marketing budget", answer: "$5,000-$10,000" },
-      { question: "Current marketing channels", answer: "LinkedIn organic, Google Ads, email newsletter, blog content." },
-      { question: "Success in 12 months", answer: "10,000 active users, $2M ARR, recognized as a category leader in AI-driven brand strategy." },
-      { question: "KPIs you track", answer: "MRR, signup conversion rate, churn rate, NPS, CAC, LTV." },
-      { question: "How you generate leads", answer: "Content marketing, free template downloads, and Google Ads." },
-    ],
-  },
-  {
-    id: "current-challenges",
-    title: "Current Challenges",
-    icon: AlertTriangle,
-    answers: [
-      { question: "Biggest marketing challenge", answer: "Converting free users to paid plans — our freemium-to-paid conversion is only 3%." },
-      { question: "Tactics that didn't work", answer: "Facebook Ads had high CPC and low-quality leads. Cold email outreach had very low response rates." },
-      { question: "Missing resources or skills", answer: "Dedicated content creator and a performance marketing specialist." },
-      { question: "Biggest constraint", answer: "Team / talent" },
-      { question: "Brand consistency rating", answer: "6" },
-    ],
-  },
-  {
-    id: "future-vision",
-    title: "Future Vision",
-    icon: Rocket,
-    answers: [
-      { question: "Where in 3 years?", answer: "The go-to AI strategy platform for SMEs globally, with 100K users across 50 countries." },
-      { question: "New markets or audiences", answer: "Expanding into European and APAC markets, and targeting marketing agencies as resellers." },
-      { question: "New products or services planned", answer: "AI creative assistant, strategy implementation tracking, and a marketplace for freelance marketers." },
-      { question: "Role of marketing in growth", answer: "Marketing should be the primary growth engine, generating 80% of new customer acquisition." },
-      { question: "Anything else?", answer: "We're raising a Series A in Q3 and want the strategy to support investor conversations." },
-      { question: "Commitment level", answer: "All-in — this is a top priority" },
-    ],
-  },
-];
+interface QuestionAnswer {
+  question_id: string;
+  question_text: string;
+  answer: string;
+  section_title: string;
+  section_id: string;
+}
+
+interface ReviewSection {
+  id: string;
+  title: string;
+  section_number: number;
+  answers: { question: string; answer: string; question_id: string }[];
+}
 
 export default function ReviewPage() {
   const params = useParams();
+  const router = useRouter();
   const strategyId = params.id as string;
+  const supabase = useRef(createClient());
 
+  const [sections, setSections] = useState<ReviewSection[]>([]);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
   const [expandedSections, setExpandedSections] = useState<Set<string>>(
-    new Set(SECTIONS.map((s) => s.id))
+    new Set()
   );
+
+  // Fetch actual questionnaire responses from Supabase
+  useEffect(() => {
+    async function fetchResponses() {
+      setLoading(true);
+      setError(null);
+
+      try {
+        // Fetch sections
+        const { data: sectionsData, error: sectionsError } =
+          await supabase.current
+            .from("questionnaire_sections")
+            .select("id, title, section_number")
+            .order("section_number", { ascending: true });
+
+        if (sectionsError) throw sectionsError;
+
+        // Fetch all questions
+        const { data: questionsData, error: questionsError } =
+          await supabase.current
+            .from("questionnaire_questions")
+            .select(
+              "id, section_id, question_text, question_number"
+            )
+            .order("question_number", { ascending: true });
+
+        if (questionsError) throw questionsError;
+
+        // Fetch responses for this strategy
+        const { data: responsesData, error: responsesError } =
+          await supabase.current
+            .from("questionnaire_responses")
+            .select("question_id, answer")
+            .eq("strategy_id", strategyId);
+
+        if (responsesError) throw responsesError;
+
+        // Build a map of question_id -> answer
+        const answersMap: Record<string, string> = {};
+        (responsesData ?? []).forEach((r) => {
+          if (r.answer) answersMap[r.question_id] = r.answer;
+        });
+
+        // Assemble sections with their questions and answers
+        const assembled: ReviewSection[] = (sectionsData ?? []).map((sec) => {
+          const sectionQuestions = (questionsData ?? []).filter(
+            (q) => q.section_id === sec.id
+          );
+          return {
+            id: sec.id,
+            title: sec.title,
+            section_number: sec.section_number,
+            answers: sectionQuestions
+              .filter((q) => answersMap[q.id]?.trim())
+              .map((q) => ({
+                question: q.question_text,
+                answer: answersMap[q.id],
+                question_id: q.id,
+              })),
+          };
+        });
+
+        // Filter out sections with no answers
+        const withAnswers = assembled.filter((s) => s.answers.length > 0);
+        setSections(withAnswers);
+        setExpandedSections(new Set(withAnswers.map((s) => s.id)));
+
+        // Also store the questionnaire responses in localStorage for the generating page
+        const formattedResponses: Record<
+          string,
+          { question: string; answer: string }[]
+        > = {};
+        withAnswers.forEach((sec) => {
+          formattedResponses[sec.title] = sec.answers.map((a) => ({
+            question: a.question,
+            answer: a.answer,
+          }));
+        });
+        localStorage.setItem(
+          `strategy_questionnaire_${strategyId}`,
+          JSON.stringify(formattedResponses)
+        );
+      } catch (err) {
+        const message =
+          err instanceof Error
+            ? err.message
+            : "Failed to load questionnaire responses";
+        setError(message);
+      } finally {
+        setLoading(false);
+      }
+    }
+
+    fetchResponses();
+  }, [strategyId]);
 
   const toggleSection = (id: string) => {
     setExpandedSections((prev) => {
@@ -129,7 +149,64 @@ export default function ReviewPage() {
     });
   };
 
-  const totalAnswers = SECTIONS.reduce((sum, s) => sum + s.answers.length, 0);
+  const totalAnswers = sections.reduce(
+    (sum, s) => sum + s.answers.length,
+    0
+  );
+
+  if (loading) {
+    return (
+      <div className="flex min-h-screen items-center justify-center bg-background">
+        <div className="flex items-center gap-3 text-muted-foreground">
+          <Loader2 className="h-5 w-5 animate-spin" />
+          <span>Loading your answers...</span>
+        </div>
+      </div>
+    );
+  }
+
+  if (error) {
+    return (
+      <div className="flex min-h-screen items-center justify-center bg-background">
+        <div className="max-w-md rounded-xl border border-border bg-card p-8 text-center">
+          <AlertCircle className="mx-auto h-10 w-10 text-coral" />
+          <h2 className="mt-4 font-[family-name:var(--font-oswald)] text-lg font-semibold text-navy">
+            Could Not Load Responses
+          </h2>
+          <p className="mt-2 text-sm text-muted-foreground">{error}</p>
+          <Link
+            href={`/strategy/${strategyId}/questionnaire`}
+            className="mt-4 inline-block rounded-lg bg-coral px-4 py-2 text-sm font-medium text-white hover:bg-coral/90"
+          >
+            Back to Questionnaire
+          </Link>
+        </div>
+      </div>
+    );
+  }
+
+  if (sections.length === 0) {
+    return (
+      <div className="flex min-h-screen items-center justify-center bg-background">
+        <div className="max-w-md rounded-xl border border-border bg-card p-8 text-center">
+          <AlertCircle className="mx-auto h-10 w-10 text-coral" />
+          <h2 className="mt-4 font-[family-name:var(--font-oswald)] text-lg font-semibold text-navy">
+            No Answers Found
+          </h2>
+          <p className="mt-2 text-sm text-muted-foreground">
+            It looks like the questionnaire hasn&apos;t been completed yet.
+            Please fill out the questionnaire first.
+          </p>
+          <Link
+            href={`/strategy/${strategyId}/questionnaire`}
+            className="mt-4 inline-block rounded-lg bg-coral px-4 py-2 text-sm font-medium text-white hover:bg-coral/90"
+          >
+            Go to Questionnaire
+          </Link>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div className="min-h-screen bg-background">
@@ -147,7 +224,7 @@ export default function ReviewPage() {
             Review Your Answers
           </h1>
           <p className="mt-2 text-muted-foreground">
-            Review all {totalAnswers} answers across {SECTIONS.length} sections
+            Review all {totalAnswers} answers across {sections.length} sections
             before generating your strategy. Make sure everything is accurate.
           </p>
         </div>
@@ -156,8 +233,7 @@ export default function ReviewPage() {
       <div className="mx-auto max-w-4xl px-4 py-8 sm:px-6 lg:px-8">
         {/* Section summaries */}
         <div className="space-y-4">
-          {SECTIONS.map((section) => {
-            const Icon = section.icon;
+          {sections.map((section) => {
             const isExpanded = expandedSections.has(section.id);
 
             return (
@@ -172,7 +248,9 @@ export default function ReviewPage() {
                 >
                   <div className="flex items-center gap-3">
                     <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-teal/10 text-teal">
-                      <Icon className="h-4.5 w-4.5" />
+                      <span className="text-sm font-semibold">
+                        {section.section_number}
+                      </span>
                     </div>
                     <div>
                       <h3 className="font-[family-name:var(--font-oswald)] text-base font-semibold text-foreground">
@@ -236,7 +314,7 @@ export default function ReviewPage() {
 
           <div className="mt-4 flex items-center justify-center gap-2 text-sm text-muted-foreground">
             <Clock className="h-4 w-4" />
-            Estimated generation time: 2-3 minutes
+            Estimated generation time: under 1 minute
           </div>
 
           <Link

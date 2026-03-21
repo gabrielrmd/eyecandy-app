@@ -31,7 +31,7 @@ function StatCard({ icon, label, value, subtitle, color }: StatCardProps) {
         </div>
         <span className="text-sm font-medium text-gray-500">{label}</span>
       </div>
-      <p className="mt-4 text-3xl font-bold text-[var(--navy)] font-[family-name:var(--font-oswald)]">
+      <p className="mt-4 font-[family-name:var(--font-oswald)] text-3xl font-bold text-[var(--navy)]">
         {value}
       </p>
       <p className="mt-1 text-sm text-gray-400">{subtitle}</p>
@@ -54,7 +54,7 @@ export default async function DashboardPage() {
     user.email?.split("@")[0] ??
     "there";
 
-  // Fetch real data in parallel
+  // Fetch real data in parallel - use maybeSingle and handle errors gracefully
   const [
     strategiesResult,
     templatesResult,
@@ -71,9 +71,9 @@ export default async function DashboardPage() {
       .eq("user_id", user.id),
     supabase
       .from("challenge_enrollments")
-      .select("id, current_day, total_days, enrolled_at")
+      .select("id, status, weeks_completed, enrollment_date")
       .eq("user_id", user.id)
-      .order("enrolled_at", { ascending: false })
+      .order("enrollment_date", { ascending: false })
       .limit(1)
       .maybeSingle(),
     supabase
@@ -84,7 +84,7 @@ export default async function DashboardPage() {
       .maybeSingle(),
   ]);
 
-  // Strategy stats
+  // Strategy stats - handle empty/error gracefully
   const strategyCount = strategiesResult.count ?? 0;
   const inProgressCount =
     strategiesResult.data?.filter((s) => s.status === "in_progress").length ?? 0;
@@ -93,32 +93,39 @@ export default async function DashboardPage() {
       ? "Create your first strategy"
       : `${inProgressCount} in progress`;
 
-  // Template stats
+  // Template stats - handle empty/error gracefully
   const templatesUsed = templatesResult.count ?? 0;
   const templateSubtitle =
     templatesUsed === 0
       ? "Start using templates"
       : `of 42 available`;
 
-  // Challenge stats
+  // Challenge stats - uses actual schema columns
   const enrollment = challengeResult.data;
-  let challengeValue = "--";
+  let challengeValue = "0%";
   let challengeSubtitle = "Not enrolled yet";
   if (enrollment) {
-    const currentDay = enrollment.current_day ?? 0;
-    const totalDays = enrollment.total_days ?? 30;
-    const pct = totalDays > 0 ? Math.round((currentDay / totalDays) * 100) : 0;
+    const weeksCompleted = enrollment.weeks_completed ?? 0;
+    const totalWeeks = 12;
+    const pct =
+      totalWeeks > 0 ? Math.round((weeksCompleted / totalWeeks) * 100) : 0;
     challengeValue = `${pct}%`;
-    challengeSubtitle = `Day ${currentDay} of ${totalDays}`;
+    const statusLabel =
+      enrollment.status === "completed"
+        ? "Completed"
+        : enrollment.status === "in_progress"
+          ? `Week ${weeksCompleted + 1} of ${totalWeeks}`
+          : "Not started";
+    challengeSubtitle = statusLabel;
   }
 
-  // Subscription stats
+  // Subscription stats - handle empty/error gracefully
   const subscription = subscriptionResult.data;
   let planLabel = "Free";
   let planSubtitle = "Upgrade anytime";
   if (subscription) {
-    planLabel =
-      subscription.plan.charAt(0).toUpperCase() + subscription.plan.slice(1);
+    const planStr = String(subscription.plan ?? "free");
+    planLabel = planStr.charAt(0).toUpperCase() + planStr.slice(1);
     if (subscription.current_period_end) {
       const renewDate = new Date(subscription.current_period_end);
       planSubtitle = `Renews ${renewDate.toLocaleDateString("en-US", { month: "short", day: "numeric" })}`;
@@ -127,10 +134,10 @@ export default async function DashboardPage() {
     }
   }
 
-  // Recent activity from real data
+  // Recent activity from real data - handle errors gracefully
   const { data: recentStrategies } = await supabase
     .from("strategy_projects")
-    .select("id, name, created_at")
+    .select("id, title, created_at")
     .eq("user_id", user.id)
     .order("created_at", { ascending: false })
     .limit(3);
@@ -141,6 +148,23 @@ export default async function DashboardPage() {
     .eq("user_id", user.id)
     .order("updated_at", { ascending: false })
     .limit(3);
+
+  // Optionally fetch template names for display
+  const templateIds = (recentTemplates ?? [])
+    .map((t) => t.template_id)
+    .filter(Boolean);
+  let templateNameMap: Record<string, string> = {};
+  if (templateIds.length > 0) {
+    const { data: templateCatalog } = await supabase
+      .from("template_catalog")
+      .select("id, name")
+      .in("id", templateIds);
+    if (templateCatalog) {
+      templateNameMap = Object.fromEntries(
+        templateCatalog.map((tc) => [tc.id, tc.name])
+      );
+    }
+  }
 
   // Build activity feed
   interface ActivityItem {
@@ -153,21 +177,19 @@ export default async function DashboardPage() {
 
   const activities: ActivityItem[] = [];
 
-  recentStrategies?.forEach((s) => {
+  (recentStrategies ?? []).forEach((s) => {
     activities.push({
       icon: <Brain className="h-4 w-4 text-indigo-600" />,
       iconBg: "bg-indigo-100",
-      text: `Created "${s.name}" strategy`,
+      text: `Created "${s.title ?? "Untitled"}" strategy`,
       time: formatRelativeTime(new Date(s.created_at)),
       sortDate: new Date(s.created_at),
     });
   });
 
-  recentTemplates?.forEach((t) => {
-    const templateName = t.template_id
-      .split("_")
-      .map((w: string) => w.charAt(0).toUpperCase() + w.slice(1))
-      .join(" ");
+  (recentTemplates ?? []).forEach((t) => {
+    const templateName =
+      templateNameMap[t.template_id] ?? "Template";
     activities.push({
       icon: <LayoutTemplate className="h-4 w-4 text-emerald-600" />,
       iconBg: "bg-emerald-100",
@@ -186,7 +208,7 @@ export default async function DashboardPage() {
       <div className="mx-auto max-w-7xl px-4 py-10 sm:px-6 lg:px-8">
         {/* Welcome */}
         <div className="mb-8">
-          <h1 className="text-3xl font-bold text-[var(--navy)] font-[family-name:var(--font-oswald)]">
+          <h1 className="font-[family-name:var(--font-oswald)] text-3xl font-bold text-[var(--navy)]">
             Welcome back, {displayName}
           </h1>
           <p className="mt-1 text-gray-500">
@@ -228,7 +250,7 @@ export default async function DashboardPage() {
 
         {/* Quick Actions */}
         <div className="mb-10">
-          <h2 className="mb-4 text-lg font-semibold text-[var(--navy)] font-[family-name:var(--font-oswald)]">
+          <h2 className="mb-4 font-[family-name:var(--font-oswald)] text-lg font-semibold text-[var(--navy)]">
             Quick Actions
           </h2>
           <div className="flex flex-wrap gap-3">
@@ -251,14 +273,14 @@ export default async function DashboardPage() {
               className="inline-flex items-center gap-2 rounded-lg border border-gray-300 bg-white px-5 py-2.5 text-sm font-semibold text-[var(--navy)] transition-colors hover:bg-gray-50"
             >
               <Flame className="h-4 w-4" />
-              Join Challenge
+              {enrollment ? "Continue Challenge" : "Join Challenge"}
             </Link>
           </div>
         </div>
 
         {/* Recent Activity */}
         <div>
-          <h2 className="mb-4 text-lg font-semibold text-[var(--navy)] font-[family-name:var(--font-oswald)]">
+          <h2 className="mb-4 font-[family-name:var(--font-oswald)] text-lg font-semibold text-[var(--navy)]">
             Recent Activity
           </h2>
           <div className="rounded-xl border border-gray-200 bg-white shadow-sm">

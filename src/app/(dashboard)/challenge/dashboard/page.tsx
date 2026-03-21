@@ -1,27 +1,31 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect, useTransition, useCallback } from "react";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 import {
   ArrowLeft,
   CheckCircle2,
-  Circle,
   ChevronDown,
   ChevronUp,
   Flame,
   Trophy,
   Calendar,
   Clock,
-  Star,
   Target,
-  ArrowRight,
+  Loader2,
 } from "lucide-react";
+import curriculum from "@/data/curriculum.json";
+import {
+  getEnrollment,
+  getChallengeProgress,
+  markTaskComplete,
+} from "@/app/actions/challenge";
 
-interface Task {
+interface CurriculumTask {
   id: string;
   title: string;
   estimatedMinutes: number;
-  completed: boolean;
 }
 
 interface Week {
@@ -31,161 +35,89 @@ interface Week {
   weekTitle: string;
   description: string;
   estimatedHours: number;
-  tasks: Task[];
+  tasks: CurriculumTask[];
 }
 
-const WEEKS: Week[] = [
-  {
-    weekNumber: 1,
-    phase: 1,
-    phaseTitle: "Foundation",
-    weekTitle: "Brand Audit & Baseline",
-    description: "Establish a clear baseline of your current brand position and marketing effectiveness.",
-    estimatedHours: 11,
-    tasks: [
-      { id: "t-1-1", title: "Complete the Marketing Audit Template", estimatedMinutes: 120, completed: true },
-      { id: "t-1-2", title: "Document your current customer journey", estimatedMinutes: 90, completed: true },
-      { id: "t-1-3", title: "Audit your website", estimatedMinutes: 120, completed: true },
-      { id: "t-1-4", title: "Review last 3 months of marketing data", estimatedMinutes: 90, completed: true },
-      { id: "t-1-5", title: "Analyze top 3 competitors", estimatedMinutes: 120, completed: false },
-      { id: "t-1-6", title: "Interview 3 recent customers", estimatedMinutes: 90, completed: false },
-      { id: "t-1-7", title: "Define 90-day success metrics", estimatedMinutes: 60, completed: false },
-    ],
-  },
-  {
-    weekNumber: 2,
-    phase: 1,
-    phaseTitle: "Foundation",
-    weekTitle: "Customer Deep-Dive",
-    description: "Build detailed customer personas and understand your audience's needs, pain points, and buying journey.",
-    estimatedHours: 10,
-    tasks: [
-      { id: "t-2-1", title: "Build primary customer persona", estimatedMinutes: 90, completed: false },
-      { id: "t-2-2", title: "Build secondary customer persona", estimatedMinutes: 90, completed: false },
-      { id: "t-2-3", title: "Map the full buying journey", estimatedMinutes: 120, completed: false },
-      { id: "t-2-4", title: "Identify top customer pain points", estimatedMinutes: 60, completed: false },
-      { id: "t-2-5", title: "Research customer communities online", estimatedMinutes: 90, completed: false },
-      { id: "t-2-6", title: "Create a customer feedback survey", estimatedMinutes: 60, completed: false },
-    ],
-  },
-  {
-    weekNumber: 3,
-    phase: 1,
-    phaseTitle: "Foundation",
-    weekTitle: "Competitive Intelligence",
-    description: "Deep-dive into your competitive landscape and identify strategic opportunities.",
-    estimatedHours: 10,
-    tasks: [
-      { id: "t-3-1", title: "Complete Competitor Analysis Framework", estimatedMinutes: 120, completed: false },
-      { id: "t-3-2", title: "Audit competitor websites and messaging", estimatedMinutes: 90, completed: false },
-      { id: "t-3-3", title: "Analyze competitor social media presence", estimatedMinutes: 60, completed: false },
-      { id: "t-3-4", title: "Sign up for competitor email lists", estimatedMinutes: 30, completed: false },
-      { id: "t-3-5", title: "Identify competitive gaps and opportunities", estimatedMinutes: 90, completed: false },
-      { id: "t-3-6", title: "Document your unique differentiation", estimatedMinutes: 60, completed: false },
-    ],
-  },
-  {
-    weekNumber: 4,
-    phase: 2,
-    phaseTitle: "Strategy",
-    weekTitle: "Brand Identity & Messaging",
-    description: "Define your brand voice, messaging framework, and core value proposition.",
-    estimatedHours: 9,
-    tasks: [
-      { id: "t-4-1", title: "Define brand voice and tone", estimatedMinutes: 60, completed: false },
-      { id: "t-4-2", title: "Create messaging framework", estimatedMinutes: 90, completed: false },
-      { id: "t-4-3", title: "Write brand story", estimatedMinutes: 60, completed: false },
-      { id: "t-4-4", title: "Develop tagline options", estimatedMinutes: 45, completed: false },
-      { id: "t-4-5", title: "Create elevator pitch", estimatedMinutes: 30, completed: false },
-      { id: "t-4-6", title: "Build brand messaging matrix", estimatedMinutes: 90, completed: false },
-    ],
-  },
-  {
-    weekNumber: 5, phase: 2, phaseTitle: "Strategy", weekTitle: "Content Strategy", description: "Plan your content pillars, calendar, and distribution strategy.", estimatedHours: 10,
-    tasks: [
-      { id: "t-5-1", title: "Define content pillars", estimatedMinutes: 60, completed: false },
-      { id: "t-5-2", title: "Create monthly content calendar", estimatedMinutes: 120, completed: false },
-      { id: "t-5-3", title: "Plan blog content strategy", estimatedMinutes: 90, completed: false },
-      { id: "t-5-4", title: "Outline social media strategy", estimatedMinutes: 60, completed: false },
-      { id: "t-5-5", title: "Set up content creation workflow", estimatedMinutes: 60, completed: false },
-    ],
-  },
-  {
-    weekNumber: 6, phase: 2, phaseTitle: "Strategy", weekTitle: "Marketing Plan & Budget", description: "Finalize your marketing plan, channel strategy, and budget allocation.", estimatedHours: 9,
-    tasks: [
-      { id: "t-6-1", title: "Finalize channel strategy", estimatedMinutes: 90, completed: false },
-      { id: "t-6-2", title: "Create marketing budget", estimatedMinutes: 60, completed: false },
-      { id: "t-6-3", title: "Set up marketing OKRs", estimatedMinutes: 45, completed: false },
-      { id: "t-6-4", title: "Plan first campaign", estimatedMinutes: 90, completed: false },
-      { id: "t-6-5", title: "Build marketing project timeline", estimatedMinutes: 60, completed: false },
-    ],
-  },
-  {
-    weekNumber: 7, phase: 3, phaseTitle: "Execution", weekTitle: "Launch & Build", description: "Start executing your strategy — launch campaigns, publish content, and build momentum.", estimatedHours: 12,
-    tasks: [
-      { id: "t-7-1", title: "Launch first content pieces", estimatedMinutes: 120, completed: false },
-      { id: "t-7-2", title: "Set up email marketing flows", estimatedMinutes: 90, completed: false },
-      { id: "t-7-3", title: "Optimize website for conversions", estimatedMinutes: 120, completed: false },
-      { id: "t-7-4", title: "Begin social media campaign", estimatedMinutes: 60, completed: false },
-      { id: "t-7-5", title: "Set up analytics tracking", estimatedMinutes: 90, completed: false },
-    ],
-  },
-  {
-    weekNumber: 8, phase: 3, phaseTitle: "Execution", weekTitle: "Paid Acquisition", description: "Set up and launch paid advertising campaigns.", estimatedHours: 10,
-    tasks: [
-      { id: "t-8-1", title: "Set up Google Ads account", estimatedMinutes: 60, completed: false },
-      { id: "t-8-2", title: "Create ad copy and creatives", estimatedMinutes: 120, completed: false },
-      { id: "t-8-3", title: "Build landing pages", estimatedMinutes: 120, completed: false },
-      { id: "t-8-4", title: "Launch initial campaigns", estimatedMinutes: 60, completed: false },
-      { id: "t-8-5", title: "Set up conversion tracking", estimatedMinutes: 60, completed: false },
-    ],
-  },
-  {
-    weekNumber: 9, phase: 3, phaseTitle: "Execution", weekTitle: "Community & Partnerships", description: "Build community engagement and explore strategic partnerships.", estimatedHours: 8,
-    tasks: [
-      { id: "t-9-1", title: "Identify 10 potential partners", estimatedMinutes: 60, completed: false },
-      { id: "t-9-2", title: "Reach out to 5 partners", estimatedMinutes: 45, completed: false },
-      { id: "t-9-3", title: "Set up community channel", estimatedMinutes: 60, completed: false },
-      { id: "t-9-4", title: "Launch referral programme", estimatedMinutes: 90, completed: false },
-      { id: "t-9-5", title: "Create first case study", estimatedMinutes: 120, completed: false },
-    ],
-  },
-  {
-    weekNumber: 10, phase: 4, phaseTitle: "Optimization", weekTitle: "Data & Analytics Review", description: "Analyze performance data and identify optimization opportunities.", estimatedHours: 9,
-    tasks: [
-      { id: "t-10-1", title: "Pull comprehensive analytics report", estimatedMinutes: 120, completed: false },
-      { id: "t-10-2", title: "Analyze channel performance", estimatedMinutes: 90, completed: false },
-      { id: "t-10-3", title: "Calculate CAC and LTV", estimatedMinutes: 60, completed: false },
-      { id: "t-10-4", title: "Identify top-performing content", estimatedMinutes: 45, completed: false },
-      { id: "t-10-5", title: "Create optimization roadmap", estimatedMinutes: 60, completed: false },
-    ],
-  },
-  {
-    weekNumber: 11, phase: 4, phaseTitle: "Optimization", weekTitle: "A/B Testing & Refinement", description: "Run experiments and refine your strategy based on data.", estimatedHours: 8,
-    tasks: [
-      { id: "t-11-1", title: "Set up A/B tests on landing pages", estimatedMinutes: 90, completed: false },
-      { id: "t-11-2", title: "Test email subject lines", estimatedMinutes: 45, completed: false },
-      { id: "t-11-3", title: "Optimize ad campaigns", estimatedMinutes: 90, completed: false },
-      { id: "t-11-4", title: "Refine content strategy based on data", estimatedMinutes: 60, completed: false },
-      { id: "t-11-5", title: "Update customer personas with new insights", estimatedMinutes: 60, completed: false },
-    ],
-  },
-  {
-    weekNumber: 12, phase: 4, phaseTitle: "Optimization", weekTitle: "Scale & Next Steps", description: "Consolidate gains, build systems for scale, and plan the next 90 days.", estimatedHours: 7,
-    tasks: [
-      { id: "t-12-1", title: "Document all marketing processes", estimatedMinutes: 90, completed: false },
-      { id: "t-12-2", title: "Create marketing playbook", estimatedMinutes: 120, completed: false },
-      { id: "t-12-3", title: "Set goals for next quarter", estimatedMinutes: 60, completed: false },
-      { id: "t-12-4", title: "Celebrate your progress!", estimatedMinutes: 30, completed: false },
-    ],
-  },
-];
-
 export default function ChallengeDashboardPage() {
-  const [weeks, setWeeks] = useState<Week[]>(WEEKS);
+  const router = useRouter();
+  const [loading, setLoading] = useState(true);
+  const [enrollmentId, setEnrollmentId] = useState<string | null>(null);
+  const [completedTasks, setCompletedTasks] = useState<Set<string>>(new Set());
   const [expandedWeeks, setExpandedWeeks] = useState<Set<number>>(
     new Set([1])
   );
+  const [isPending, startTransition] = useTransition();
+
+  const weeks: Week[] = curriculum.curriculum.weeks.map((w) => ({
+    weekNumber: w.weekNumber,
+    phase: w.phase,
+    phaseTitle: w.phaseTitle,
+    weekTitle: w.weekTitle,
+    description: w.description,
+    estimatedHours: w.estimatedHours,
+    tasks: w.tasks.map((t) => ({
+      id: t.id,
+      title: t.title,
+      estimatedMinutes: t.estimatedMinutes,
+    })),
+  }));
+
+  // Load enrollment and progress on mount
+  useEffect(() => {
+    async function loadData() {
+      setLoading(true);
+      const enrollResult = await getEnrollment();
+
+      if (enrollResult.error === "Unauthorized") {
+        router.push("/login");
+        return;
+      }
+
+      if (!enrollResult.enrollment) {
+        router.push("/challenge");
+        return;
+      }
+
+      const enrollment = enrollResult.enrollment;
+      setEnrollmentId(enrollment.id);
+
+      // Load progress
+      const progressResult = await getChallengeProgress(enrollment.id);
+      if (progressResult.progress) {
+        const completed = new Set<string>();
+        progressResult.progress.forEach((p) => {
+          // Parse task completions from assignment_submission
+          if (p.assignment_submission) {
+            try {
+              const taskMap = JSON.parse(p.assignment_submission) as Record<
+                string,
+                boolean
+              >;
+              Object.entries(taskMap).forEach(([taskId, isDone]) => {
+                if (isDone) completed.add(taskId);
+              });
+            } catch {
+              // Ignore parse errors
+            }
+          }
+        });
+        setCompletedTasks(completed);
+
+        // Auto-expand the current week (first with incomplete tasks)
+        const currentWeekNum = weeks.find((w) =>
+          w.tasks.some((t) => !completed.has(t.id))
+        )?.weekNumber;
+        if (currentWeekNum) {
+          setExpandedWeeks(new Set([currentWeekNum]));
+        }
+      }
+
+      setLoading(false);
+    }
+
+    loadData();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [router]);
 
   const toggleWeek = (weekNumber: number) => {
     setExpandedWeeks((prev) => {
@@ -196,40 +128,73 @@ export default function ChallengeDashboardPage() {
     });
   };
 
-  const toggleTask = (weekNumber: number, taskId: string) => {
-    setWeeks((prev) =>
-      prev.map((w) =>
-        w.weekNumber === weekNumber
-          ? {
-              ...w,
-              tasks: w.tasks.map((t) =>
-                t.id === taskId ? { ...t, completed: !t.completed } : t
-              ),
-            }
-          : w
-      )
-    );
-  };
+  const handleToggleTask = useCallback(
+    (weekNumber: number, taskId: string) => {
+      if (!enrollmentId) return;
+      const isCurrentlyComplete = completedTasks.has(taskId);
+      const newIsComplete = !isCurrentlyComplete;
+
+      // Optimistic update
+      setCompletedTasks((prev) => {
+        const next = new Set(prev);
+        if (newIsComplete) next.add(taskId);
+        else next.delete(taskId);
+        return next;
+      });
+
+      startTransition(async () => {
+        const result = await markTaskComplete(
+          enrollmentId,
+          weekNumber,
+          taskId,
+          newIsComplete
+        );
+        if (result.error) {
+          // Revert on error
+          setCompletedTasks((prev) => {
+            const next = new Set(prev);
+            if (isCurrentlyComplete) next.add(taskId);
+            else next.delete(taskId);
+            return next;
+          });
+        }
+      });
+    },
+    [enrollmentId, completedTasks]
+  );
 
   // Compute stats
   const totalTasks = weeks.reduce((sum, w) => sum + w.tasks.length, 0);
-  const completedTasks = weeks.reduce(
-    (sum, w) => sum + w.tasks.filter((t) => t.completed).length,
-    0
-  );
-  const overallProgress = Math.round((completedTasks / totalTasks) * 100);
-
-  // Streak calculation (consecutive days with at least 1 completion)
-  const streakDays = 4; // Placeholder
+  const completedCount = completedTasks.size;
+  const overallProgress =
+    totalTasks > 0 ? Math.round((completedCount / totalTasks) * 100) : 0;
 
   // Current week (first week with incomplete tasks)
   const currentWeek =
-    weeks.find((w) => w.tasks.some((t) => !t.completed))?.weekNumber ?? 1;
+    weeks.find((w) => w.tasks.some((t) => !completedTasks.has(t.id)))
+      ?.weekNumber ?? 12;
+
+  // Weeks fully completed
+  const weeksFullyCompleted = weeks.filter((w) =>
+    w.tasks.every((t) => completedTasks.has(t.id))
+  ).length;
 
   // Next milestone
   const nextMilestoneWeek = weeks.find(
-    (w) => w.weekNumber >= currentWeek && w.tasks.some((t) => !t.completed)
+    (w) =>
+      w.weekNumber >= currentWeek && w.tasks.some((t) => !completedTasks.has(t.id))
   );
+
+  if (loading) {
+    return (
+      <div className="flex min-h-screen items-center justify-center bg-background">
+        <div className="flex items-center gap-3 text-muted-foreground">
+          <Loader2 className="h-5 w-5 animate-spin" />
+          <span>Loading your challenge dashboard...</span>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div className="min-h-screen bg-background">
@@ -243,7 +208,7 @@ export default function ChallengeDashboardPage() {
             <ArrowLeft className="h-4 w-4" />
             Challenge Overview
           </Link>
-          <h1 className="font-[family-name:var(--font-oswald)] text-2xl font-bold text-navy sm:text-3xl">
+          <h1 className="font-[family-name:var(--font-oswald)] text-2xl font-bold text-[var(--navy)] sm:text-3xl">
             Your Challenge Dashboard
           </h1>
           <p className="mt-1 text-muted-foreground">
@@ -258,7 +223,7 @@ export default function ChallengeDashboardPage() {
               <Target className="h-3.5 w-3.5" />
               Overall Progress
             </div>
-            <p className="mt-1 font-[family-name:var(--font-oswald)] text-2xl font-bold text-navy">
+            <p className="mt-1 font-[family-name:var(--font-oswald)] text-2xl font-bold text-[var(--navy)]">
               {overallProgress}%
             </p>
           </div>
@@ -267,17 +232,17 @@ export default function ChallengeDashboardPage() {
               <CheckCircle2 className="h-3.5 w-3.5" />
               Tasks Done
             </div>
-            <p className="mt-1 font-[family-name:var(--font-oswald)] text-2xl font-bold text-navy">
-              {completedTasks}/{totalTasks}
+            <p className="mt-1 font-[family-name:var(--font-oswald)] text-2xl font-bold text-[var(--navy)]">
+              {completedCount}/{totalTasks}
             </p>
           </div>
           <div className="rounded-xl border border-border bg-card p-4">
             <div className="flex items-center gap-2 text-xs text-muted-foreground">
               <Flame className="h-3.5 w-3.5" />
-              Current Streak
+              Weeks Completed
             </div>
-            <p className="mt-1 font-[family-name:var(--font-oswald)] text-2xl font-bold text-coral">
-              {streakDays} days
+            <p className="mt-1 font-[family-name:var(--font-oswald)] text-2xl font-bold text-[var(--coral)]">
+              {weeksFullyCompleted}
             </p>
           </div>
           <div className="rounded-xl border border-border bg-card p-4">
@@ -303,7 +268,7 @@ export default function ChallengeDashboardPage() {
           </div>
           <div className="mt-2 h-3 overflow-hidden rounded-full bg-muted">
             <div
-              className="h-full rounded-full bg-gradient-to-r from-coral via-teal to-emerald-400 transition-all duration-700"
+              className="h-full rounded-full bg-gradient-to-r from-[var(--coral)] via-teal to-emerald-400 transition-all duration-700"
               style={{ width: `${overallProgress}%` }}
             />
           </div>
@@ -320,7 +285,11 @@ export default function ChallengeDashboardPage() {
                 </p>
                 <p className="text-xs text-muted-foreground">
                   {nextMilestoneWeek.weekTitle} &mdash;{" "}
-                  {nextMilestoneWeek.tasks.filter((t) => !t.completed).length}{" "}
+                  {
+                    nextMilestoneWeek.tasks.filter(
+                      (t) => !completedTasks.has(t.id)
+                    ).length
+                  }{" "}
                   tasks remaining
                 </p>
               </div>
@@ -332,11 +301,14 @@ export default function ChallengeDashboardPage() {
         <div className="space-y-3">
           {weeks.map((week) => {
             const isExpanded = expandedWeeks.has(week.weekNumber);
-            const weekCompleted = week.tasks.filter((t) => t.completed).length;
+            const weekCompleted = week.tasks.filter((t) =>
+              completedTasks.has(t.id)
+            ).length;
             const weekTotal = week.tasks.length;
-            const weekProgress = Math.round(
-              (weekCompleted / weekTotal) * 100
-            );
+            const weekProgress =
+              weekTotal > 0
+                ? Math.round((weekCompleted / weekTotal) * 100)
+                : 0;
             const isCurrent = week.weekNumber === currentWeek;
             const isAllDone = weekCompleted === weekTotal;
 
@@ -345,7 +317,7 @@ export default function ChallengeDashboardPage() {
                 key={week.weekNumber}
                 className={`overflow-hidden rounded-xl border bg-card transition-colors ${
                   isCurrent
-                    ? "border-coral/30 shadow-sm"
+                    ? "border-[var(--coral)]/30 shadow-sm"
                     : "border-border"
                 }`}
               >
@@ -359,7 +331,7 @@ export default function ChallengeDashboardPage() {
                       isAllDone
                         ? "bg-emerald-100 text-emerald-600"
                         : isCurrent
-                          ? "bg-coral/10 text-coral"
+                          ? "bg-[var(--coral)]/10 text-[var(--coral)]"
                           : "bg-muted text-muted-foreground"
                     }`}
                   >
@@ -375,7 +347,7 @@ export default function ChallengeDashboardPage() {
                         {week.weekTitle}
                       </h3>
                       {isCurrent && (
-                        <span className="rounded-full bg-coral/10 px-2 py-0.5 text-[10px] font-medium text-coral">
+                        <span className="rounded-full bg-[var(--coral)]/10 px-2 py-0.5 text-[10px] font-medium text-[var(--coral)]">
                           Current
                         </span>
                       )}
@@ -392,7 +364,7 @@ export default function ChallengeDashboardPage() {
                     <div className="mt-1.5 h-1 w-full max-w-[200px] overflow-hidden rounded-full bg-muted">
                       <div
                         className={`h-full rounded-full transition-all ${
-                          isAllDone ? "bg-emerald-400" : "bg-coral"
+                          isAllDone ? "bg-emerald-400" : "bg-[var(--coral)]"
                         }`}
                         style={{ width: `${weekProgress}%` }}
                       />
@@ -412,36 +384,40 @@ export default function ChallengeDashboardPage() {
                       {week.description}
                     </p>
                     <div className="space-y-2">
-                      {week.tasks.map((task) => (
-                        <label
-                          key={task.id}
-                          className="flex cursor-pointer items-start gap-3 rounded-lg p-2 transition-colors hover:bg-muted/30"
-                        >
-                          <input
-                            type="checkbox"
-                            checked={task.completed}
-                            onChange={() =>
-                              toggleTask(week.weekNumber, task.id)
-                            }
-                            className="mt-0.5 h-4 w-4 rounded border-border text-coral focus:ring-coral/20"
-                          />
-                          <div className="min-w-0 flex-1">
-                            <span
-                              className={`text-sm ${
-                                task.completed
-                                  ? "text-muted-foreground line-through"
-                                  : "text-foreground"
-                              }`}
-                            >
-                              {task.title}
+                      {week.tasks.map((task) => {
+                        const isChecked = completedTasks.has(task.id);
+                        return (
+                          <label
+                            key={task.id}
+                            className="flex cursor-pointer items-start gap-3 rounded-lg p-2 transition-colors hover:bg-muted/30"
+                          >
+                            <input
+                              type="checkbox"
+                              checked={isChecked}
+                              onChange={() =>
+                                handleToggleTask(week.weekNumber, task.id)
+                              }
+                              disabled={isPending}
+                              className="mt-0.5 h-4 w-4 rounded border-border text-[var(--coral)] focus:ring-[var(--coral)]/20"
+                            />
+                            <div className="min-w-0 flex-1">
+                              <span
+                                className={`text-sm ${
+                                  isChecked
+                                    ? "text-muted-foreground line-through"
+                                    : "text-foreground"
+                                }`}
+                              >
+                                {task.title}
+                              </span>
+                            </div>
+                            <span className="flex shrink-0 items-center gap-1 text-xs text-muted-foreground">
+                              <Clock className="h-3 w-3" />
+                              {task.estimatedMinutes}m
                             </span>
-                          </div>
-                          <span className="flex shrink-0 items-center gap-1 text-xs text-muted-foreground">
-                            <Clock className="h-3 w-3" />
-                            {task.estimatedMinutes}m
-                          </span>
-                        </label>
-                      ))}
+                          </label>
+                        );
+                      })}
                     </div>
                   </div>
                 )}

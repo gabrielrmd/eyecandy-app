@@ -1,4 +1,8 @@
+"use client";
+
+import { useState, useTransition } from "react";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 import {
   Rocket,
   Target,
@@ -9,13 +13,15 @@ import {
   CheckCircle2,
   Star,
   ChevronRight,
-  ChevronDown,
   ArrowRight,
   Trophy,
   Users,
   BarChart3,
+  Loader2,
+  AlertCircle,
 } from "lucide-react";
 import curriculum from "@/data/curriculum.json";
+import { enrollInChallenge } from "@/app/actions/challenge";
 
 const PHASES = [
   {
@@ -24,7 +30,7 @@ const PHASES = [
     subtitle: "Know Your Brand",
     weeks: "Weeks 1-3",
     icon: Target,
-    color: "bg-navy",
+    color: "bg-[var(--navy)]",
     description:
       "Audit your current position, define your baseline metrics, and understand your competitive landscape.",
   },
@@ -34,7 +40,7 @@ const PHASES = [
     subtitle: "Plan Your Growth",
     weeks: "Weeks 4-6",
     icon: Zap,
-    color: "bg-coral",
+    color: "bg-[var(--coral)]",
     description:
       "Build your brand identity, develop your content strategy, and create your marketing roadmap.",
   },
@@ -109,15 +115,34 @@ const FAQ = [
 
 export default function ChallengePage() {
   const weeks = curriculum.curriculum.weeks;
+  const router = useRouter();
+  const [isPending, startTransition] = useTransition();
+  const [enrollError, setEnrollError] = useState<string | null>(null);
+
+  const handleEnroll = () => {
+    setEnrollError(null);
+    startTransition(async () => {
+      const result = await enrollInChallenge();
+      if (result.error === "Unauthorized") {
+        router.push("/login");
+        return;
+      }
+      if (result.error) {
+        setEnrollError(result.error);
+        return;
+      }
+      router.push("/challenge/dashboard");
+    });
+  };
 
   return (
     <div className="min-h-screen bg-background">
       {/* Hero */}
-      <section className="relative overflow-hidden border-b border-border bg-navy">
+      <section className="relative overflow-hidden border-b border-border bg-[var(--navy)]">
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_50%,rgba(77,184,196,0.15),transparent_60%)]" />
         <div className="relative mx-auto max-w-7xl px-4 py-16 sm:px-6 sm:py-20 lg:px-8 lg:py-24">
           <div className="max-w-2xl">
-            <div className="mb-4 inline-flex items-center gap-2 rounded-full bg-coral/20 px-3 py-1 text-xs font-medium text-coral">
+            <div className="mb-4 inline-flex items-center gap-2 rounded-full bg-[var(--coral)]/20 px-3 py-1 text-xs font-medium text-[var(--coral)]">
               <Trophy className="h-3.5 w-3.5" />
               12-Week Guided Programme
             </div>
@@ -150,20 +175,36 @@ export default function ChallengePage() {
               </span>
             </div>
 
-            <Link
-              href="/challenge/dashboard"
-              className="mt-8 inline-flex items-center gap-2 rounded-lg bg-coral px-6 py-3 text-base font-semibold text-white transition-colors hover:bg-coral/90"
+            <button
+              onClick={handleEnroll}
+              disabled={isPending}
+              className="mt-8 inline-flex items-center gap-2 rounded-lg bg-[var(--coral)] px-6 py-3 text-base font-semibold text-white transition-colors hover:bg-[var(--coral)]/90 disabled:opacity-60"
             >
-              Enroll Now — It&apos;s Free
-              <ArrowRight className="h-5 w-5" />
-            </Link>
+              {isPending ? (
+                <>
+                  <Loader2 className="h-5 w-5 animate-spin" />
+                  Enrolling...
+                </>
+              ) : (
+                <>
+                  Enroll Now — It&apos;s Free
+                  <ArrowRight className="h-5 w-5" />
+                </>
+              )}
+            </button>
+            {enrollError && (
+              <p className="mt-3 flex items-center gap-1.5 text-sm text-red-400">
+                <AlertCircle className="h-4 w-4" />
+                {enrollError}
+              </p>
+            )}
           </div>
         </div>
       </section>
 
       {/* Phase cards */}
       <section className="mx-auto max-w-7xl px-4 py-14 sm:px-6 lg:px-8">
-        <h2 className="font-[family-name:var(--font-oswald)] text-2xl font-bold text-navy">
+        <h2 className="font-[family-name:var(--font-oswald)] text-2xl font-bold text-[var(--navy)]">
           4 Phases to Transform Your Marketing
         </h2>
         <p className="mt-2 text-muted-foreground">
@@ -204,7 +245,7 @@ export default function ChallengePage() {
       {/* 12-week curriculum */}
       <section className="border-t border-border bg-card">
         <div className="mx-auto max-w-7xl px-4 py-14 sm:px-6 lg:px-8">
-          <h2 className="font-[family-name:var(--font-oswald)] text-2xl font-bold text-navy">
+          <h2 className="font-[family-name:var(--font-oswald)] text-2xl font-bold text-[var(--navy)]">
             12-Week Curriculum
           </h2>
           <p className="mt-2 text-muted-foreground">
@@ -219,12 +260,12 @@ export default function ChallengePage() {
                 className="rounded-lg border border-border bg-background p-4 transition-colors hover:border-teal/30"
               >
                 <div className="flex items-start gap-4">
-                  <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-navy/5 font-[family-name:var(--font-oswald)] text-sm font-bold text-navy">
+                  <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-[var(--navy)]/5 font-[family-name:var(--font-oswald)] text-sm font-bold text-[var(--navy)]">
                     W{week.weekNumber}
                   </div>
                   <div className="min-w-0 flex-1">
                     <div className="flex items-center gap-2">
-                      <span className="text-xs font-medium text-coral">
+                      <span className="text-xs font-medium text-[var(--coral)]">
                         Phase {week.phase}: {week.phaseTitle}
                       </span>
                     </div>
@@ -256,7 +297,7 @@ export default function ChallengePage() {
       {/* Testimonials */}
       <section className="border-t border-border">
         <div className="mx-auto max-w-7xl px-4 py-14 sm:px-6 lg:px-8">
-          <h2 className="font-[family-name:var(--font-oswald)] text-2xl font-bold text-navy">
+          <h2 className="font-[family-name:var(--font-oswald)] text-2xl font-bold text-[var(--navy)]">
             Success Stories
           </h2>
           <p className="mt-2 text-muted-foreground">
@@ -295,7 +336,7 @@ export default function ChallengePage() {
       {/* FAQ */}
       <section className="border-t border-border bg-card">
         <div className="mx-auto max-w-3xl px-4 py-14 sm:px-6 lg:px-8">
-          <h2 className="text-center font-[family-name:var(--font-oswald)] text-2xl font-bold text-navy">
+          <h2 className="text-center font-[family-name:var(--font-oswald)] text-2xl font-bold text-[var(--navy)]">
             Frequently Asked Questions
           </h2>
 
@@ -315,13 +356,23 @@ export default function ChallengePage() {
 
           {/* Bottom CTA */}
           <div className="mt-10 text-center">
-            <Link
-              href="/challenge/dashboard"
-              className="inline-flex items-center gap-2 rounded-lg bg-coral px-8 py-3.5 text-base font-semibold text-white transition-colors hover:bg-coral/90"
+            <button
+              onClick={handleEnroll}
+              disabled={isPending}
+              className="inline-flex items-center gap-2 rounded-lg bg-[var(--coral)] px-8 py-3.5 text-base font-semibold text-white transition-colors hover:bg-[var(--coral)]/90 disabled:opacity-60"
             >
-              Start the 90-Day Challenge
-              <ArrowRight className="h-5 w-5" />
-            </Link>
+              {isPending ? (
+                <>
+                  <Loader2 className="h-5 w-5 animate-spin" />
+                  Enrolling...
+                </>
+              ) : (
+                <>
+                  Start the 90-Day Challenge
+                  <ArrowRight className="h-5 w-5" />
+                </>
+              )}
+            </button>
             <p className="mt-3 text-sm text-muted-foreground">
               Free to enroll. No credit card required.
             </p>
