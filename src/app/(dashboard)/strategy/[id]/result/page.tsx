@@ -15,6 +15,9 @@ import {
   AlertCircle,
   CheckCircle2,
   Star,
+  Pencil,
+  Save,
+  X,
 } from "lucide-react";
 import { createClient } from "@/lib/supabase/client";
 
@@ -154,6 +157,59 @@ export default function StrategyResultPage() {
   };
 
   const [exporting, setExporting] = useState(false);
+  const [editingIdx, setEditingIdx] = useState<number | null>(null);
+  const [editContent, setEditContent] = useState("");
+  const [saving, setSaving] = useState(false);
+
+  const startEditing = (idx: number) => {
+    setEditingIdx(idx);
+    setEditContent(sections[idx].content);
+  };
+
+  const cancelEditing = () => {
+    setEditingIdx(null);
+    setEditContent("");
+  };
+
+  const saveEdit = async () => {
+    if (editingIdx === null) return;
+    setSaving(true);
+
+    // Update local state
+    const updated = [...sections];
+    updated[editingIdx] = { ...updated[editingIdx], content: editContent };
+    setSections(updated);
+
+    // Update localStorage cache
+    localStorage.setItem(`strategy_result_${strategyId}`, JSON.stringify(updated));
+
+    // Update in Supabase
+    try {
+      const supabase = createClient();
+      const { data: strategy } = await supabase
+        .from("strategies")
+        .select("id")
+        .eq("strategy_project_id", strategyId)
+        .maybeSingle();
+
+      if (strategy) {
+        await supabase
+          .from("strategy_sections")
+          .update({
+            content: { markdown: editContent },
+            updated_at: new Date().toISOString(),
+          })
+          .eq("strategy_id", strategy.id)
+          .eq("section_number", editingIdx + 1);
+      }
+    } catch (err) {
+      console.error("Failed to save edit to DB:", err);
+    }
+
+    setSaving(false);
+    setEditingIdx(null);
+    setEditContent("");
+  };
 
   const handleExportPDF = () => {
     setExporting(true);
@@ -484,7 +540,52 @@ ${pages}
 
               {/* ======== Content card ======== */}
               <div className="rounded-[4px] bg-white px-8 py-10 shadow-[0_1px_3px_rgba(0,0,0,0.06)] sm:px-12 sm:py-12">
-                {activeSection.status === "error" ? (
+                {/* Edit / View toggle */}
+                <div className="mb-6 flex items-center justify-end gap-2">
+                  {editingIdx === activeSectionIdx ? (
+                    <>
+                      <button
+                        onClick={saveEdit}
+                        disabled={saving}
+                        className="inline-flex items-center gap-1.5 rounded-lg bg-[var(--teal,#2AB9B0)] px-3 py-1.5 text-xs font-semibold text-white transition-colors hover:bg-[var(--teal,#2AB9B0)]/90 disabled:opacity-50"
+                      >
+                        {saving ? <Loader2 className="h-3.5 w-3.5 animate-spin" /> : <Save className="h-3.5 w-3.5" />}
+                        {saving ? "Saving..." : "Save Changes"}
+                      </button>
+                      <button
+                        onClick={cancelEditing}
+                        className="inline-flex items-center gap-1.5 rounded-lg border border-[var(--navy,#1A1A2E)]/10 px-3 py-1.5 text-xs font-medium text-[var(--navy,#1A1A2E)]/60 transition-colors hover:bg-[var(--navy,#1A1A2E)]/[0.03]"
+                      >
+                        <X className="h-3.5 w-3.5" />
+                        Cancel
+                      </button>
+                    </>
+                  ) : (
+                    <button
+                      onClick={() => startEditing(activeSectionIdx)}
+                      className="inline-flex items-center gap-1.5 rounded-lg border border-[var(--navy,#1A1A2E)]/10 px-3 py-1.5 text-xs font-medium text-[var(--navy,#1A1A2E)]/60 transition-colors hover:bg-[var(--navy,#1A1A2E)]/[0.03]"
+                    >
+                      <Pencil className="h-3.5 w-3.5" />
+                      Edit Chapter
+                    </button>
+                  )}
+                </div>
+
+                {editingIdx === activeSectionIdx ? (
+                  /* ======== EDIT MODE ======== */
+                  <div>
+                    <p className="mb-2 text-xs text-[var(--navy,#1A1A2E)]/40">
+                      Edit the markdown content below. Use ## for headings, **bold**, - for bullets.
+                    </p>
+                    <textarea
+                      value={editContent}
+                      onChange={(e) => setEditContent(e.target.value)}
+                      className="w-full rounded-lg border border-[var(--navy,#1A1A2E)]/10 bg-[#F8F8FA] px-5 py-4 font-mono text-[13px] leading-relaxed text-[var(--navy,#1A1A2E)]/80 focus:border-[var(--teal,#2AB9B0)] focus:outline-none focus:ring-2 focus:ring-[var(--teal,#2AB9B0)]/20"
+                      rows={Math.max(20, editContent.split('\n').length + 5)}
+                      spellCheck={false}
+                    />
+                  </div>
+                ) : activeSection.status === "error" ? (
                   <div className="rounded-lg border border-red-200 bg-red-50/50 p-8 text-center">
                     <AlertCircle className="mx-auto h-8 w-8 text-red-400" />
                     <h3 className="mt-4 font-[family-name:var(--font-oswald)] text-lg font-bold uppercase tracking-wider text-red-800">
