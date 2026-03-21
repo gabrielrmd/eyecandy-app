@@ -370,11 +370,85 @@ Respond ONLY with valid JSON (no code fences):
       }
     }
 
-    // Update project status
-    await supabase
-      .from("strategy_projects")
-      .update({ status: "completed" })
-      .eq("id", strategy_project_id);
+    // Calculate average quality score
+    const completedSections = generatedSections.filter(s => s.status === "complete");
+    const avgScore = completedSections.length > 0
+      ? completedSections.reduce((sum, s) => sum + s.qualityScore, 0) / completedSections.length / 10
+      : 0;
+
+    // Delete any existing strategy for this project (re-generation case)
+    const { data: existingStrategy } = await supabase
+      .from("strategies")
+      .select("id")
+      .eq("strategy_project_id", strategy_project_id)
+      .maybeSingle();
+
+    if (existingStrategy) {
+      await supabase
+        .from("strategy_sections")
+        .delete()
+        .eq("strategy_id", existingStrategy.id);
+      await supabase
+        .from("strategies")
+        .delete()
+        .eq("id", existingStrategy.id);
+    }
+
+    // Create a strategies row
+    const { data: strategy, error: strategyInsertError } = await supabase
+      .from("strategies")
+      .insert({
+        strategy_project_id,
+        user_id: user.id,
+        title: project.title || "Strategy",
+        summary: null,
+        generation_status: "completed",
+        overall_quality_score: Math.round(avgScore * 10) / 10,
+        generated_at: new Date().toISOString(),
+      })
+      .select("id")
+      .single();
+
+    if (strategyInsertError || !strategy) {
+      console.error("Failed to save strategy to DB:", strategyInsertError);
+      // Still return the sections even if DB save fails
+    } else {
+      // Insert all section rows
+      const sectionRows = generatedSections.map((section, idx) => ({
+        strategy_id: strategy.id,
+        section_number: idx + 1,
+        section_title: section.title,
+        section_type: section.id,
+        content: { markdown: section.content },
+        quality_score: Math.round(section.qualityScore) / 10,
+        generation_model: "claude-sonnet-4-20250514",
+      }));
+
+      const { error: sectionsInsertError } = await supabase
+        .from("strategy_sections")
+        .insert(sectionRows);
+
+      if (sectionsInsertError) {
+        console.error("Failed to save strategy sections to DB:", sectionsInsertError);
+      }
+
+      // Update strategy_projects status and link the generated strategy
+      await supabase
+        .from("strategy_projects")
+        .update({
+          status: "completed",
+          generated_strategy_id: strategy.id,
+        })
+        .eq("id", strategy_project_id);
+    }
+
+    // Fallback: update project status even if strategy insert failed
+    if (strategyInsertError || !strategy) {
+      await supabase
+        .from("strategy_projects")
+        .update({ status: "completed" })
+        .eq("id", strategy_project_id);
+    }
 
     return NextResponse.json({
       strategy_project_id,

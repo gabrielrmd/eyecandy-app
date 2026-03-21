@@ -16,6 +16,7 @@ import {
   CheckCircle2,
   Star,
 } from "lucide-react";
+import { createClient } from "@/lib/supabase/client";
 
 interface GeneratedSection {
   id: string;
@@ -67,20 +68,53 @@ export default function StrategyResultPage() {
   const [activeSectionIdx, setActiveSectionIdx] = useState(0);
   const [sidebarOpen, setSidebarOpen] = useState(false);
 
-  // Load generated sections from localStorage on mount
+  // Load generated sections: try Supabase first, fallback to localStorage
   useEffect(() => {
-    const stored = localStorage.getItem(`strategy_result_${strategyId}`);
-    if (stored) {
+    async function loadSections() {
       try {
-        const parsed = JSON.parse(stored) as GeneratedSection[];
-        if (Array.isArray(parsed) && parsed.length > 0) {
-          setSections(parsed);
+        const supabase = createClient();
+        const { data: strategy } = await supabase
+          .from("strategies")
+          .select("*, strategy_sections(*)")
+          .eq("strategy_project_id", strategyId)
+          .maybeSingle();
+
+        if (strategy?.strategy_sections && strategy.strategy_sections.length > 0) {
+          const dbSections: GeneratedSection[] = strategy.strategy_sections
+            .sort((a: { section_number: number }, b: { section_number: number }) => a.section_number - b.section_number)
+            .map((s: { section_type: string; section_title: string; content: { markdown?: string } | string; quality_score: number | null }) => ({
+              id: s.section_type,
+              title: s.section_title,
+              content: typeof s.content === "object" && s.content !== null && "markdown" in s.content
+                ? (s.content as { markdown: string }).markdown
+                : String(s.content ?? ""),
+              status: "complete" as const,
+              qualityScore: (s.quality_score || 0) * 10,
+            }));
+          setSections(dbSections);
+          setLoading(false);
+          return;
         }
-      } catch {
-        // ignore parse errors
+      } catch (err) {
+        console.error("Failed to load strategy from DB, falling back to localStorage:", err);
       }
+
+      // Fallback: try localStorage (for strategies generated before DB persistence)
+      const stored = localStorage.getItem(`strategy_result_${strategyId}`);
+      if (stored) {
+        try {
+          const parsed = JSON.parse(stored) as GeneratedSection[];
+          if (Array.isArray(parsed) && parsed.length > 0) {
+            setSections(parsed);
+          }
+        } catch {
+          // ignore parse errors
+        }
+      }
+      setLoading(false);
     }
-    setLoading(false);
+
+    loadSections();
   }, [strategyId]);
 
   // Keyboard navigation

@@ -111,7 +111,7 @@ export default async function DashboardPage() {
   ] = await Promise.all([
     supabase
       .from("strategy_projects")
-      .select("id, title, status, created_at", { count: "exact" })
+      .select("id, title, status, created_at, generated_strategy_id", { count: "exact" })
       .eq("user_id", user.id)
       .order("created_at", { ascending: false }),
     supabase
@@ -138,8 +138,10 @@ export default async function DashboardPage() {
 
   // Strategy stats - handle empty/error gracefully
   const strategyCount = strategiesResult.count ?? 0;
+  const completedCount =
+    allStrategies.filter((s) => s.status === "completed" || s.generated_strategy_id).length;
   const inProgressCount =
-    allStrategies.filter((s) => s.status === "in_progress").length;
+    allStrategies.filter((s) => s.status === "in_progress" && !s.generated_strategy_id).length;
   const strategySubtitle =
     strategyCount === 0
       ? "Create your first strategy"
@@ -341,35 +343,52 @@ export default async function DashboardPage() {
           <div className="rounded-xl border border-gray-200 bg-white shadow-sm">
             {allStrategies.length > 0 ? (
               <div className="divide-y divide-gray-100">
-                {allStrategies.map((strategy) => (
-                  <div
-                    key={strategy.id}
-                    className="flex items-center gap-4 px-6 py-4"
-                  >
-                    <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-indigo-50">
-                      <Brain className="h-5 w-5 text-indigo-600" />
-                    </div>
-                    <div className="flex-1 min-w-0">
-                      <p className="truncate text-sm font-medium text-gray-900">
-                        {strategy.title ?? "Untitled Strategy"}
-                      </p>
-                      <div className="mt-1 flex items-center gap-3">
-                        <StatusBadge status={strategy.status} />
-                        <span className="flex items-center gap-1 text-xs text-gray-400">
-                          <Clock className="h-3 w-3" />
-                          {formatRelativeTime(new Date(strategy.created_at))}
-                        </span>
-                      </div>
-                    </div>
-                    <Link
-                      href={`/strategy/${strategy.id}/result`}
-                      className="inline-flex shrink-0 items-center gap-1.5 rounded-lg border border-gray-200 bg-white px-4 py-2 text-xs font-semibold text-[var(--navy)] transition-colors hover:bg-gray-50"
+                {allStrategies.map((strategy) => {
+                  // Show as completed if status is completed OR if a generated strategy exists
+                  const effectiveStatus = (strategy.status === "completed" || strategy.generated_strategy_id)
+                    ? "completed"
+                    : strategy.status;
+                  const isCompleted = effectiveStatus === "completed";
+                  return (
+                    <div
+                      key={strategy.id}
+                      className="flex items-center gap-4 px-6 py-4"
                     >
-                      <Eye className="h-3.5 w-3.5" />
-                      View
-                    </Link>
-                  </div>
-                ))}
+                      <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-indigo-50">
+                        <Brain className="h-5 w-5 text-indigo-600" />
+                      </div>
+                      <div className="flex-1 min-w-0">
+                        <p className="truncate text-sm font-medium text-gray-900">
+                          {strategy.title ?? "Untitled Strategy"}
+                        </p>
+                        <div className="mt-1 flex items-center gap-3">
+                          <StatusBadge status={effectiveStatus} />
+                          <span className="flex items-center gap-1 text-xs text-gray-400">
+                            <Clock className="h-3 w-3" />
+                            {formatRelativeTime(new Date(strategy.created_at))}
+                          </span>
+                        </div>
+                      </div>
+                      {isCompleted ? (
+                        <Link
+                          href={`/strategy/${strategy.id}/result`}
+                          className="inline-flex shrink-0 items-center gap-1.5 rounded-lg border border-gray-200 bg-white px-4 py-2 text-xs font-semibold text-[var(--navy)] transition-colors hover:bg-gray-50"
+                        >
+                          <Eye className="h-3.5 w-3.5" />
+                          View
+                        </Link>
+                      ) : (
+                        <Link
+                          href={`/strategy/${strategy.id}/questionnaire`}
+                          className="inline-flex shrink-0 items-center gap-1.5 rounded-lg border border-gray-200 bg-white px-4 py-2 text-xs font-semibold text-[var(--navy)] transition-colors hover:bg-gray-50"
+                        >
+                          <Eye className="h-3.5 w-3.5" />
+                          Continue
+                        </Link>
+                      )}
+                    </div>
+                  );
+                })}
               </div>
             ) : (
               <div className="px-6 py-12 text-center">
