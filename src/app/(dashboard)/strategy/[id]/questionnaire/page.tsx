@@ -502,25 +502,60 @@ export default function QuestionnairePage() {
                         className="w-full rounded-lg border border-border bg-background px-4 py-2.5 text-sm text-foreground placeholder:text-muted-foreground focus:border-[var(--coral)] focus:outline-none focus:ring-2 focus:ring-[var(--coral)]/20"
                       />
                     ) : question.question_type === "select" || question.question_type === "multiselect" ? (
-                      <select
-                        id={question.id}
-                        value={answers[question.id] ?? ""}
-                        onChange={(e) =>
-                          updateAnswer(question.id, e.target.value)
-                        }
-                        className="w-full appearance-none rounded-lg border border-border bg-background px-4 py-2.5 text-sm text-foreground focus:border-[var(--coral)] focus:outline-none focus:ring-2 focus:ring-[var(--coral)]/20"
-                      >
-                        <option value="">{question.placeholder || "Select an option..."}</option>
-                        {question.options?.map((opt) => {
-                          const label = typeof opt === "object" && opt !== null ? (opt as {label: string}).label : String(opt);
-                          const value = typeof opt === "object" && opt !== null ? (opt as {value: string}).value : String(opt);
+                      <div className="space-y-2">
+                        <select
+                          id={question.id}
+                          value={
+                            question.options?.some((opt) => {
+                              const v = typeof opt === "object" && opt !== null ? (opt as {value: string}).value : String(opt);
+                              return v === answers[question.id];
+                            })
+                              ? answers[question.id]
+                              : answers[question.id]
+                                ? "__other__"
+                                : ""
+                          }
+                          onChange={(e) => {
+                            if (e.target.value === "__other__") {
+                              updateAnswer(question.id, "");
+                            } else {
+                              updateAnswer(question.id, e.target.value);
+                            }
+                          }}
+                          className="w-full appearance-none rounded-lg border border-border bg-background px-4 py-2.5 text-sm text-foreground focus:border-[var(--coral)] focus:outline-none focus:ring-2 focus:ring-[var(--coral)]/20"
+                        >
+                          <option value="">{question.placeholder || "Select an option..."}</option>
+                          {question.options?.map((opt) => {
+                            const label = typeof opt === "object" && opt !== null ? (opt as {label: string}).label : String(opt);
+                            const value = typeof opt === "object" && opt !== null ? (opt as {value: string}).value : String(opt);
+                            if (label.toLowerCase() === "other") return null;
+                            return (
+                              <option key={value} value={value}>
+                                {label}
+                              </option>
+                            );
+                          })}
+                          <option value="__other__">Other (type your own)</option>
+                        </select>
+                        {(() => {
+                          const currentVal = answers[question.id] ?? "";
+                          const isOther = currentVal !== "" && !question.options?.some((opt) => {
+                            const v = typeof opt === "object" && opt !== null ? (opt as {value: string}).value : String(opt);
+                            return v === currentVal;
+                          });
+                          if (!isOther) return null;
                           return (
-                            <option key={value} value={value}>
-                              {label}
-                            </option>
+                            <input
+                              type="text"
+                              placeholder="Type your answer..."
+                              value={currentVal}
+                              onChange={(e) => updateAnswer(question.id, e.target.value)}
+                              className="w-full rounded-lg border border-border bg-background px-4 py-2.5 text-sm text-foreground placeholder:text-muted-foreground focus:border-[var(--coral)] focus:outline-none focus:ring-2 focus:ring-[var(--coral)]/20"
+                              autoFocus
+                            />
                           );
-                        })}
-                      </select>
+                        })()}
+                      </div>
                     ) : question.question_type === "scale" ? (
                       <div className="flex items-center gap-3">
                         <input
