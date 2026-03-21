@@ -9,11 +9,21 @@ import {
 } from "lucide-react";
 
 const STATUS_MESSAGES = [
-  "Analyzing your responses...",
-  "Crafting brand identity...",
-  "Building market analysis...",
-  "Creating channel strategy...",
-  "Finalizing your deck...",
+  "Crafting your brand story...",
+  "Analyzing market landscape...",
+  "Profiling target audience...",
+  "Defining brand positioning...",
+  "Mapping competitive landscape...",
+  "Discovering brand archetype...",
+  "Defining values & mission...",
+  "Analyzing jobs-to-be-done...",
+  "Mapping customer journey...",
+  "Establishing tone of voice...",
+  "Directing visual identity...",
+  "Curating mood board...",
+  "Building communication strategy...",
+  "Planning growth roadmap...",
+  "Creating action plan...",
 ];
 
 export default function GeneratingPage() {
@@ -119,27 +129,35 @@ export default function GeneratingPage() {
   };
 
   return (
-    <div className="flex min-h-screen items-center justify-center bg-background">
+    <div className="flex min-h-screen items-center justify-center bg-white">
       <div className="mx-auto w-full max-w-md px-6 text-center">
         {/* Animated spinner */}
         <div className="mx-auto mb-8 flex h-20 w-20 items-center justify-center">
           {error ? (
             <AlertCircle className="h-12 w-12 text-red-500" />
           ) : (
-            <Loader2 className="h-12 w-12 animate-spin text-[#2AB9B0]" />
+            <div className="relative">
+              <Loader2 className="h-12 w-12 animate-spin text-[var(--teal,#2AB9B0)]" />
+              <div className="absolute inset-0 flex items-center justify-center">
+                <span className="font-[family-name:var(--font-oswald)] text-[10px] font-bold text-[var(--navy,#1A1A2E)]/50">
+                  {String(statusIndex + 1).padStart(2, "0")}
+                </span>
+              </div>
+            </div>
           )}
         </div>
 
         {/* Status message */}
         {error ? (
           <>
-            <h1 className="font-[family-name:var(--font-oswald)] text-2xl font-bold text-[#1A1A2E]">
+            <h1 className="font-[family-name:var(--font-oswald)] text-2xl font-bold uppercase tracking-wider text-[var(--navy,#1A1A2E)]">
               Generation Failed
             </h1>
-            <p className="mt-3 text-sm text-muted-foreground">{error}</p>
+            <div className="mx-auto mt-3 h-[2px] w-12 bg-red-400" />
+            <p className="mt-4 text-sm text-[var(--navy,#1A1A2E)]/60">{error}</p>
             <button
               onClick={handleRetry}
-              className="mt-6 inline-flex items-center gap-2 rounded-lg bg-[#2AB9B0] px-6 py-3 text-sm font-semibold text-white transition-colors hover:bg-[#2AB9B0]/90"
+              className="mt-6 inline-flex items-center gap-2 rounded-lg bg-[var(--teal,#2AB9B0)] px-6 py-3 font-[family-name:var(--font-oswald)] text-sm font-semibold uppercase tracking-wider text-white transition-colors hover:bg-[var(--teal,#2AB9B0)]/90"
             >
               <RefreshCw className="h-4 w-4" />
               Retry Generation
@@ -147,27 +165,36 @@ export default function GeneratingPage() {
           </>
         ) : (
           <>
-            <h1 className="font-[family-name:var(--font-oswald)] text-2xl font-bold text-[#1A1A2E]">
-              Crafting Your Strategy...
+            <p className="font-[family-name:var(--font-oswald)] text-[10px] font-bold uppercase tracking-[0.3em] text-[var(--teal,#2AB9B0)]">
+              Generating
+            </p>
+            <h1 className="mt-2 font-[family-name:var(--font-oswald)] text-2xl font-bold uppercase tracking-wider text-[var(--navy,#1A1A2E)]">
+              Brand Strategy Deck
             </h1>
-            <p className="mt-3 h-6 text-sm font-medium text-[#2AB9B0] transition-opacity">
+            <div className="mx-auto mt-3 h-[2px] w-12 bg-[var(--teal,#2AB9B0)]" />
+            <p className="mt-5 h-6 font-[family-name:var(--font-oswald)] text-sm font-medium uppercase tracking-wider text-[var(--navy,#1A1A2E)]/50 transition-opacity">
               {STATUS_MESSAGES[statusIndex]}
             </p>
 
             {/* Progress bar */}
             <div className="mt-8">
-              <div className="h-2 overflow-hidden rounded-full bg-muted">
+              <div className="h-[3px] overflow-hidden rounded-full bg-[var(--navy,#1A1A2E)]/5">
                 <div
-                  className="h-full rounded-full bg-gradient-to-r from-[#2AB9B0] to-[#1A1A2E] transition-all duration-700 ease-out"
+                  className="h-full rounded-full bg-[var(--teal,#2AB9B0)] transition-all duration-700 ease-out"
                   style={{ width: `${Math.min(progress, 100)}%` }}
                 />
               </div>
-              <p className="mt-2 text-xs text-muted-foreground">
-                {Math.round(Math.min(progress, 100))}%
-              </p>
+              <div className="mt-3 flex items-center justify-between">
+                <p className="font-[family-name:var(--font-oswald)] text-[10px] uppercase tracking-[0.2em] text-[var(--navy,#1A1A2E)]/30">
+                  Chapter {String(statusIndex + 1).padStart(2, "0")} of 15
+                </p>
+                <p className="font-[family-name:var(--font-oswald)] text-[10px] font-bold tracking-wider text-[var(--navy,#1A1A2E)]/40">
+                  {Math.round(Math.min(progress, 100))}%
+                </p>
+              </div>
             </div>
 
-            <p className="mt-6 text-sm text-muted-foreground">
+            <p className="mt-8 text-[12px] text-[var(--navy,#1A1A2E)]/30">
               This typically takes 2-3 minutes
             </p>
           </>
