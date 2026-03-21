@@ -1,0 +1,50 @@
+{
+  "id": "customer_persona_builder",
+  "name": "Customer Persona Builder",
+  "number": 4,
+  "category": "brand",
+  "description": "Customer Persona Builder - Marketing template for brand professionals",
+  "instructions": "How to Use This Template Step 1: Start With What You Know Go to the Persona Builder tab. Start filling in the fields you already know \u2014 demographics, job title, industry. Do not overthink it. First drafts are meant to be rough. Step 2: Add Psychographics This is where personas come alive. Fill in goals, frustrations, values, and fears. What does this person actually care about? What keeps them up at night? This section separates useful personas from useless ones. Step 3: Map the Buying Journey How does this person discover solutions like yours? What research do they do? Who influences their de",
+  "icon": "briefcase",
+  "tags": [
+    "brand"
+  ],
+  "estimatedTime": "40 min",
+  "sections": [
+    {
+      "id": "section_1",
+      "title": "Main Information",
+      "description": "Enter template information",
+      "fields": [
+        {
+          "id": "field_1",
+          "label": "Name",
+          "type": "text",
+          "placeholder": "Enter name",
+          "required": true
+        },
+        {
+          "id": "field_2",
+          "label": "Description",
+          "type": "textarea",
+          "placeholder": "Enter description",
+          "required": false
+        }
+      ]
+    }
+  ],
+  "dashboard": {
+    "metrics": [
+      {
+        "label": "Completion Rate",
+        "calculation": "Fields completed / Total fields",
+        "format": "percentage"
+      },
+      {
+        "label": "Total Sections",
+        "calculation": "Number of form sections",
+        "format": "number"
+      }
+    ]
+  }
+}

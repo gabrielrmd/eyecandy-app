@@ -1,0 +1,65 @@
+{
+  "id": "marketing_okr_template",
+  "name": "Marketing OKR Template",
+  "number": 19,
+  "category": "strategy",
+  "description": "Marketing OKR Template - Marketing template for strategy professionals",
+  "instructions": "HOW TO USE THIS TEMPLATE Step 1: Define Annual Objectives Start with the Annual OKR Planner. Define 3-5 high-level marketing objectives for the year. Good objectives are ambitious, qualitative, and inspiring \u2014 they describe WHAT you want to achieve, not HOW. Step 2: Set Key Results For each objective, define 2-5 key results. Key results must be specific, measurable, and time-bound. They answer: How will we know we achieved this objective? Step 3: Break Into Quarters Use the Quarterly OKR Tracker to break annual KRs into quarterly targets. Not every KR needs equal quarterly distribution \u2014 some ",
+  "icon": "target",
+  "tags": [
+    "strategy"
+  ],
+  "estimatedTime": "60 min",
+  "sections": [
+    {
+      "id": "section_1",
+      "title": "Main Information",
+      "description": "Enter template information",
+      "fields": [
+        {
+          "id": "field_1",
+          "label": "Name",
+          "type": "text",
+          "placeholder": "Enter name",
+          "required": true
+        },
+        {
+          "id": "field_2",
+          "label": "Description",
+          "type": "textarea",
+          "placeholder": "Enter description",
+          "required": false
+        }
+      ]
+    }
+  ],
+  "dashboard": {
+    "metrics": [
+      {
+        "label": "OKR DASHBOARD",
+        "calculation": "Count of records",
+        "format": "number"
+      },
+      {
+        "label": "Total Objectives",
+        "calculation": "Count of records",
+        "format": "number"
+      },
+      {
+        "label": "Source: Annual OKR Planner",
+        "calculation": "Count of records",
+        "format": "number"
+      },
+      {
+        "label": "Objective Health Summary",
+        "calculation": "Count of records",
+        "format": "number"
+      },
+      {
+        "label": "Objective",
+        "calculation": "# Key Results",
+        "format": "number"
+      }
+    ]
+  }
+}

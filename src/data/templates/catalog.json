@@ -1,0 +1,686 @@
+{
+  "version": "1.0",
+  "generated": "2026-03-18",
+  "total_templates": 42,
+  "templates": [
+    {
+      "id": "marketing_audit_checklist",
+      "number": 1,
+      "name": "Marketing Audit Checklist",
+      "category": "strategy",
+      "description": "Marketing Audit Checklist - Marketing template for strategy professionals",
+      "icon": "target",
+      "tags": [
+        "audit"
+      ],
+      "estimatedTime": "60 min",
+      "sections_count": 1,
+      "fields_count": 2
+    },
+    {
+      "id": "marketing_audit_ceo_edition",
+      "number": 2,
+      "name": "Marketing Audit CEO Edition",
+      "category": "strategy",
+      "description": "Marketing Audit CEO Edition - Marketing template for strategy professionals",
+      "icon": "target",
+      "tags": [
+        "audit"
+      ],
+      "estimatedTime": "60 min",
+      "sections_count": 1,
+      "fields_count": 2
+    },
+    {
+      "id": "content_calendar_template",
+      "number": 3,
+      "name": "Content Calendar Template",
+      "category": "content",
+      "description": "Content Calendar Template - Marketing template for content professionals",
+      "icon": "file-text",
+      "tags": [
+        "content"
+      ],
+      "estimatedTime": "45 min",
+      "sections_count": 1,
+      "fields_count": 2
+    },
+    {
+      "id": "customer_persona_builder",
+      "number": 4,
+      "name": "Customer Persona Builder",
+      "category": "brand",
+      "description": "Customer Persona Builder - Marketing template for brand professionals",
+      "icon": "briefcase",
+      "tags": [
+        "brand"
+      ],
+      "estimatedTime": "40 min",
+      "sections_count": 1,
+      "fields_count": 2
+    },
+    {
+      "id": "brand_messaging_matrix",
+      "number": 5,
+      "name": "Brand Messaging Matrix",
+      "category": "brand",
+      "description": "Brand Messaging Matrix - Marketing template for brand professionals",
+      "icon": "briefcase",
+      "tags": [
+        "brand"
+      ],
+      "estimatedTime": "40 min",
+      "sections_count": 1,
+      "fields_count": 2
+    },
+    {
+      "id": "marketing_budget_planner",
+      "number": 6,
+      "name": "Marketing Budget Planner",
+      "category": "strategy",
+      "description": "Marketing Budget Planner - Marketing template for strategy professionals",
+      "icon": "target",
+      "tags": [
+        "strategy"
+      ],
+      "estimatedTime": "60 min",
+      "sections_count": 1,
+      "fields_count": 2
+    },
+    {
+      "id": "social_media_strategy",
+      "number": 7,
+      "name": "Social Media Strategy",
+      "category": "channels",
+      "description": "Social Media Strategy - Marketing template for channels professionals",
+      "icon": "share-2",
+      "tags": [
+        "strategy",
+        "channels"
+      ],
+      "estimatedTime": "50 min",
+      "sections_count": 1,
+      "fields_count": 2
+    },
+    {
+      "id": "email_marketing_playbook",
+      "number": 8,
+      "name": "Email Marketing Playbook",
+      "category": "channels",
+      "description": "Email Marketing Playbook - Marketing template for channels professionals",
+      "icon": "share-2",
+      "tags": [
+        "channels"
+      ],
+      "estimatedTime": "50 min",
+      "sections_count": 1,
+      "fields_count": 2
+    },
+    {
+      "id": "seo_keyword_tracker",
+      "number": 9,
+      "name": "SEO Keyword Tracker",
+      "category": "channels",
+      "description": "SEO Keyword Tracker - Marketing template for channels professionals",
+      "icon": "share-2",
+      "tags": [
+        "channels"
+      ],
+      "estimatedTime": "50 min",
+      "sections_count": 1,
+      "fields_count": 3
+    },
+    {
+      "id": "lead_scoring_model",
+      "number": 10,
+      "name": "Lead Scoring Model",
+      "category": "growth",
+      "description": "Lead Scoring Model - Marketing template for growth professionals",
+      "icon": "trending-up",
+      "tags": [
+        "growth"
+      ],
+      "estimatedTime": "65 min",
+      "sections_count": 1,
+      "fields_count": 31
+    },
+    {
+      "id": "campaign_performance_dashboard",
+      "number": 11,
+      "name": "Campaign Performance Dashboard",
+      "category": "analytics",
+      "description": "Campaign Performance Dashboard - Marketing template for analytics professionals",
+      "icon": "bar-chart",
+      "tags": [
+        "analytics"
+      ],
+      "estimatedTime": "55 min",
+      "sections_count": 1,
+      "fields_count": 18
+    },
+    {
+      "id": "competitor_analysis_framework",
+      "number": 12,
+      "name": "Competitor Analysis Framework",
+      "category": "research",
+      "description": "Competitor Analysis Framework - Marketing template for research professionals",
+      "icon": "search",
+      "tags": [
+        "research"
+      ],
+      "estimatedTime": "70 min",
+      "sections_count": 2,
+      "fields_count": 88
+    },
+    {
+      "id": "crm_setup_guide",
+      "number": 13,
+      "name": "CRM Setup Guide",
+      "category": "growth",
+      "description": "CRM Setup Guide - Marketing template for growth professionals",
+      "icon": "trending-up",
+      "tags": [
+        "growth"
+      ],
+      "estimatedTime": "65 min",
+      "sections_count": 1,
+      "fields_count": 20
+    },
+    {
+      "id": "marketing_funnel_tracker",
+      "number": 14,
+      "name": "Marketing Funnel Tracker",
+      "category": "analytics",
+      "description": "Marketing Funnel Tracker - Marketing template for analytics professionals",
+      "icon": "bar-chart",
+      "tags": [
+        "analytics"
+      ],
+      "estimatedTime": "55 min",
+      "sections_count": 3,
+      "fields_count": 56
+    },
+    {
+      "id": "landing_page_planner",
+      "number": 15,
+      "name": "Landing Page Planner",
+      "category": "channels",
+      "description": "Landing Page Planner - Marketing template for channels professionals",
+      "icon": "share-2",
+      "tags": [
+        "strategy",
+        "channels"
+      ],
+      "estimatedTime": "50 min",
+      "sections_count": 1,
+      "fields_count": 2
+    },
+    {
+      "id": "customer_journey_map",
+      "number": 16,
+      "name": "Customer Journey Map",
+      "category": "brand",
+      "description": "Customer Journey Map - Marketing template for brand professionals",
+      "icon": "briefcase",
+      "tags": [
+        "brand"
+      ],
+      "estimatedTime": "40 min",
+      "sections_count": 1,
+      "fields_count": 2
+    },
+    {
+      "id": "marketing_roi_calculator",
+      "number": 17,
+      "name": "Marketing ROI Calculator",
+      "category": "analytics",
+      "description": "Marketing ROI Calculator - Marketing template for analytics professionals",
+      "icon": "bar-chart",
+      "tags": [
+        "analytics"
+      ],
+      "estimatedTime": "55 min",
+      "sections_count": 1,
+      "fields_count": 2
+    },
+    {
+      "id": "pr_media_outreach_planner",
+      "number": 18,
+      "name": "PR Media Outreach Planner",
+      "category": "channels",
+      "description": "PR Media Outreach Planner - Marketing template for channels professionals",
+      "icon": "share-2",
+      "tags": [
+        "strategy",
+        "channels"
+      ],
+      "estimatedTime": "50 min",
+      "sections_count": 1,
+      "fields_count": 2
+    },
+    {
+      "id": "marketing_okr_template",
+      "number": 19,
+      "name": "Marketing OKR Template",
+      "category": "strategy",
+      "description": "Marketing OKR Template - Marketing template for strategy professionals",
+      "icon": "target",
+      "tags": [
+        "strategy"
+      ],
+      "estimatedTime": "60 min",
+      "sections_count": 1,
+      "fields_count": 2
+    },
+    {
+      "id": "event_marketing_planner",
+      "number": 20,
+      "name": "Event Marketing Planner",
+      "category": "content",
+      "description": "Event Marketing Planner - Marketing template for content professionals",
+      "icon": "file-text",
+      "tags": [
+        "strategy",
+        "content"
+      ],
+      "estimatedTime": "45 min",
+      "sections_count": 1,
+      "fields_count": 2
+    },
+    {
+      "id": "influencer_marketing_tracker",
+      "number": 21,
+      "name": "Influencer Marketing Tracker",
+      "category": "channels",
+      "description": "Influencer Marketing Tracker - Marketing template for channels professionals",
+      "icon": "share-2",
+      "tags": [
+        "channels"
+      ],
+      "estimatedTime": "50 min",
+      "sections_count": 1,
+      "fields_count": 2
+    },
+    {
+      "id": "ab_testing_framework",
+      "number": 22,
+      "name": "AB Testing Framework",
+      "category": "analytics",
+      "description": "AB Testing Framework - Marketing template for analytics professionals",
+      "icon": "bar-chart",
+      "tags": [
+        "analytics"
+      ],
+      "estimatedTime": "55 min",
+      "sections_count": 1,
+      "fields_count": 2
+    },
+    {
+      "id": "marketing_automation_playbook",
+      "number": 23,
+      "name": "Marketing Automation Playbook",
+      "category": "growth",
+      "description": "Marketing Automation Playbook - Marketing template for growth professionals",
+      "icon": "trending-up",
+      "tags": [
+        "growth"
+      ],
+      "estimatedTime": "65 min",
+      "sections_count": 1,
+      "fields_count": 2
+    },
+    {
+      "id": "product_launch_planner",
+      "number": 24,
+      "name": "Product Launch Planner",
+      "category": "growth",
+      "description": "Product Launch Planner - Marketing template for growth professionals",
+      "icon": "trending-up",
+      "tags": [
+        "strategy",
+        "growth"
+      ],
+      "estimatedTime": "65 min",
+      "sections_count": 1,
+      "fields_count": 12
+    },
+    {
+      "id": "referral_programme_tracker",
+      "number": 25,
+      "name": "Referral Programme Tracker",
+      "category": "growth",
+      "description": "Referral Programme Tracker - Marketing template for growth professionals",
+      "icon": "trending-up",
+      "tags": [
+        "growth"
+      ],
+      "estimatedTime": "65 min",
+      "sections_count": 2,
+      "fields_count": 26
+    },
+    {
+      "id": "ad_brief_template",
+      "number": 26,
+      "name": "Ad Brief Template",
+      "category": "channels",
+      "description": "Ad Brief Template - Marketing template for channels professionals",
+      "icon": "share-2",
+      "tags": [
+        "channels"
+      ],
+      "estimatedTime": "50 min",
+      "sections_count": 3,
+      "fields_count": 28
+    },
+    {
+      "id": "video_marketing_planner",
+      "number": 27,
+      "name": "Video Marketing Planner",
+      "category": "content",
+      "description": "Video Marketing Planner - Marketing template for content professionals",
+      "icon": "file-text",
+      "tags": [
+        "strategy",
+        "content"
+      ],
+      "estimatedTime": "45 min",
+      "sections_count": 3,
+      "fields_count": 29
+    },
+    {
+      "id": "webinar_planning_template",
+      "number": 28,
+      "name": "Webinar Planning Template",
+      "category": "content",
+      "description": "Webinar Planning Template - Marketing template for content professionals",
+      "icon": "file-text",
+      "tags": [
+        "strategy",
+        "content"
+      ],
+      "estimatedTime": "45 min",
+      "sections_count": 1,
+      "fields_count": 10
+    },
+    {
+      "id": "podcast_marketing_planner",
+      "number": 29,
+      "name": "Podcast Marketing Planner",
+      "category": "content",
+      "description": "Podcast Marketing Planner - Marketing template for content professionals",
+      "icon": "file-text",
+      "tags": [
+        "strategy",
+        "content"
+      ],
+      "estimatedTime": "45 min",
+      "sections_count": 1,
+      "fields_count": 1
+    },
+    {
+      "id": "content_audit_template",
+      "number": 30,
+      "name": "Content Audit Template",
+      "category": "content",
+      "description": "Content Audit Template - Marketing template for content professionals",
+      "icon": "file-text",
+      "tags": [
+        "audit",
+        "content"
+      ],
+      "estimatedTime": "45 min",
+      "sections_count": 1,
+      "fields_count": 2
+    },
+    {
+      "id": "marketing_project_manager",
+      "number": 31,
+      "name": "Marketing Project Manager",
+      "category": "strategy",
+      "description": "Marketing Project Manager - Marketing template for strategy professionals",
+      "icon": "target",
+      "tags": [
+        "template"
+      ],
+      "estimatedTime": "60 min",
+      "sections_count": 1,
+      "fields_count": 2
+    },
+    {
+      "id": "partnership_marketing_plan",
+      "number": 32,
+      "name": "Partnership Marketing Plan",
+      "category": "growth",
+      "description": "Partnership Marketing Plan - Marketing template for growth professionals",
+      "icon": "trending-up",
+      "tags": [
+        "strategy",
+        "growth"
+      ],
+      "estimatedTime": "65 min",
+      "sections_count": 1,
+      "fields_count": 2
+    },
+    {
+      "id": "social_listening_dashboard",
+      "number": 33,
+      "name": "Social Listening Dashboard",
+      "category": "research",
+      "description": "Social Listening Dashboard - Marketing template for research professionals",
+      "icon": "search",
+      "tags": [
+        "analytics",
+        "research"
+      ],
+      "estimatedTime": "70 min",
+      "sections_count": 1,
+      "fields_count": 2
+    },
+    {
+      "id": "brand_health_scorecard",
+      "number": 34,
+      "name": "Brand Health Scorecard",
+      "category": "brand",
+      "description": "Brand Health Scorecard - Marketing template for brand professionals",
+      "icon": "briefcase",
+      "tags": [
+        "brand"
+      ],
+      "estimatedTime": "40 min",
+      "sections_count": 1,
+      "fields_count": 2
+    },
+    {
+      "id": "sales_enablement_kit",
+      "number": 35,
+      "name": "Sales Enablement Kit",
+      "category": "growth",
+      "description": "Sales Enablement Kit - Marketing template for growth professionals",
+      "icon": "trending-up",
+      "tags": [
+        "growth"
+      ],
+      "estimatedTime": "65 min",
+      "sections_count": 1,
+      "fields_count": 2
+    },
+    {
+      "id": "market_research_template",
+      "number": 36,
+      "name": "Market Research Template",
+      "category": "research",
+      "description": "Market Research Template - Marketing template for research professionals",
+      "icon": "search",
+      "tags": [
+        "research"
+      ],
+      "estimatedTime": "70 min",
+      "sections_count": 1,
+      "fields_count": 2
+    },
+    {
+      "id": "customer_retention_planner",
+      "number": 37,
+      "name": "Customer Retention Planner",
+      "category": "growth",
+      "description": "Customer Retention Planner - Marketing template for growth professionals",
+      "icon": "trending-up",
+      "tags": [
+        "strategy",
+        "growth"
+      ],
+      "estimatedTime": "65 min",
+      "sections_count": 1,
+      "fields_count": 2
+    },
+    {
+      "id": "community_marketing_playbook",
+      "number": 38,
+      "name": "Community Marketing Playbook",
+      "category": "growth",
+      "description": "Community Marketing Playbook - Marketing template for growth professionals",
+      "icon": "trending-up",
+      "tags": [
+        "growth"
+      ],
+      "estimatedTime": "65 min",
+      "sections_count": 1,
+      "fields_count": 2
+    },
+    {
+      "id": "martech_stack_audit",
+      "number": 39,
+      "name": "Martech Stack Audit",
+      "category": "strategy",
+      "description": "Martech Stack Audit - Marketing template for strategy professionals",
+      "icon": "target",
+      "tags": [
+        "audit"
+      ],
+      "estimatedTime": "60 min",
+      "sections_count": 1,
+      "fields_count": 2
+    },
+    {
+      "id": "brand_book_template",
+      "number": 40,
+      "name": "Brand Book Template",
+      "category": "brand",
+      "description": "Brand Book Template - Marketing template for brand professionals",
+      "icon": "briefcase",
+      "tags": [
+        "brand"
+      ],
+      "estimatedTime": "40 min",
+      "sections_count": 3,
+      "fields_count": 45
+    },
+    {
+      "id": "survey_template",
+      "number": 41,
+      "name": "Survey Template",
+      "category": "research",
+      "description": "Survey Template - Marketing template for research professionals",
+      "icon": "search",
+      "tags": [
+        "research"
+      ],
+      "estimatedTime": "70 min",
+      "sections_count": 1,
+      "fields_count": 2
+    },
+    {
+      "id": "nps_template",
+      "number": 42,
+      "name": "NPS Template",
+      "category": "research",
+      "description": "NPS Template - Marketing template for research professionals",
+      "icon": "search",
+      "tags": [
+        "research"
+      ],
+      "estimatedTime": "70 min",
+      "sections_count": 1,
+      "fields_count": 2
+    }
+  ],
+  "by_category": {
+    "analytics": [
+      "campaign_performance_dashboard",
+      "marketing_funnel_tracker",
+      "marketing_roi_calculator",
+      "ab_testing_framework"
+    ],
+    "brand": [
+      "customer_persona_builder",
+      "brand_messaging_matrix",
+      "customer_journey_map",
+      "brand_health_scorecard",
+      "brand_book_template"
+    ],
+    "channels": [
+      "social_media_strategy",
+      "email_marketing_playbook",
+      "seo_keyword_tracker",
+      "landing_page_planner",
+      "pr_media_outreach_planner",
+      "influencer_marketing_tracker",
+      "ad_brief_template"
+    ],
+    "content": [
+      "content_calendar_template",
+      "event_marketing_planner",
+      "video_marketing_planner",
+      "webinar_planning_template",
+      "podcast_marketing_planner",
+      "content_audit_template"
+    ],
+    "growth": [
+      "lead_scoring_model",
+      "crm_setup_guide",
+      "marketing_automation_playbook",
+      "product_launch_planner",
+      "referral_programme_tracker",
+      "partnership_marketing_plan",
+      "sales_enablement_kit",
+      "customer_retention_planner",
+      "community_marketing_playbook"
+    ],
+    "research": [
+      "competitor_analysis_framework",
+      "social_listening_dashboard",
+      "market_research_template",
+      "survey_template",
+      "nps_template"
+    ],
+    "strategy": [
+      "marketing_audit_checklist",
+      "marketing_audit_ceo_edition",
+      "marketing_budget_planner",
+      "marketing_okr_template",
+      "marketing_project_manager",
+      "martech_stack_audit"
+    ]
+  },
+  "categories": {
+    "strategy": "OKRs, budgets, project management, planning & audits",
+    "content": "Calendars, blogs, video, webinars & podcasts",
+    "channels": "Social media, email, SEO, ads, PR & influencers",
+    "analytics": "Dashboards, funnels, ROI, A/B testing & metrics",
+    "brand": "Messaging, personas, journey maps & brand assets",
+    "growth": "Lead scoring, CRM, automation, launches & retention",
+    "research": "Competitor analysis, market research, surveys & NPS"
+  },
+  "stats": {
+    "total_fields": 425,
+    "fields_by_category": {
+      "strategy": 12,
+      "content": 46,
+      "brand": 53,
+      "channels": 41,
+      "growth": 99,
+      "analytics": 78,
+      "research": 96
+    }
+  }
+}

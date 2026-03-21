@@ -1,0 +1,46 @@
+{
+  "id": "landing_page_planner",
+  "name": "Landing Page Planner",
+  "number": 15,
+  "category": "channels",
+  "description": "Landing Page Planner - Marketing template for channels professionals",
+  "instructions": "HOW TO USE THIS PLANNER Step 1: Study Best Practices Start with the Best Practices tab. Review the 50+ conversion principles organised by category. Bookmark the ones most relevant to your industry and audience. These will guide every design and copy decision. Step 2: Choose Your LP Framework Based on your campaign goal, go to the matching framework tab: \u2022 Product Sales LP \u2014 for e-commerce, product launches, direct sales \u2022 Brand Awareness LP \u2014 for top-of-funnel, thought leadership, PR \u2022 Lead Magnet LP \u2014 for gated content, free tools, email capture \u2022 Event Registration LP \u2014 for webinars, confere",
+  "icon": "share-2",
+  "tags": [
+    "strategy",
+    "channels"
+  ],
+  "estimatedTime": "50 min",
+  "sections": [
+    {
+      "id": "section_1",
+      "title": "Main Information",
+      "description": "Enter template information",
+      "fields": [
+        {
+          "id": "field_1",
+          "label": "Name",
+          "type": "text",
+          "placeholder": "Enter name",
+          "required": true
+        },
+        {
+          "id": "field_2",
+          "label": "Description",
+          "type": "textarea",
+          "placeholder": "Enter description",
+          "required": false
+        }
+      ]
+    }
+  ],
+  "dashboard": {
+    "metrics": [
+      {
+        "label": "LANDING PAGE DASHBOARD",
+        "calculation": "Count of records",
+        "format": "number"
+      }
+    ]
+  }
+}

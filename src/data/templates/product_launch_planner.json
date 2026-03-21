@@ -1,0 +1,148 @@
+{
+  "id": "product_launch_planner",
+  "name": "Product Launch Planner",
+  "number": 24,
+  "category": "growth",
+  "description": "Product Launch Planner - Marketing template for growth professionals",
+  "instructions": "How to Use This Template 1. Launch Overview Start with the Launch Overview tab to define your product, target audience, positioning, and key launch metrics. 2. Go-to-Market Plan Map your GTM strategy including pricing, distribution channels, partnerships, and competitive positioning. 3. Launch Timeline Use the pre-built 12-week timeline with 50+ tasks across all launch phases \u2014 from pre-launch to post-launch. 4. Channel Plan Plan your activation across 10+ marketing channels with budgets, messaging, and timing. 5. Stakeholder RACI Assign roles and responsibilities across teams using the RACI m",
+  "icon": "trending-up",
+  "tags": [
+    "strategy",
+    "growth"
+  ],
+  "estimatedTime": "65 min",
+  "sections": [
+    {
+      "id": "section_2",
+      "title": "Go-to-Market Plan",
+      "description": "Configuration and tracking for Go-to-Market Plan",
+      "fields": [
+        {
+          "id": "field_1",
+          "label": "Go-to-Market Strategy",
+          "type": "text",
+          "placeholder": "Enter go-to-market strategy",
+          "required": false,
+          "helpText": "Positioning & Messaging"
+        },
+        {
+          "id": "field_2",
+          "label": "Go-to-Market Strategy",
+          "type": "text",
+          "placeholder": "Enter go-to-market strategy",
+          "required": false,
+          "helpText": "Element"
+        },
+        {
+          "id": "field_3",
+          "label": "Go-to-Market Strategy",
+          "type": "text",
+          "placeholder": "Enter go-to-market strategy",
+          "required": false,
+          "helpText": "Core Positioning"
+        },
+        {
+          "id": "field_4",
+          "label": "Go-to-Market Strategy",
+          "type": "text",
+          "placeholder": "Enter go-to-market strategy",
+          "required": false,
+          "helpText": "Competitive Differentiation"
+        },
+        {
+          "id": "field_5",
+          "label": "Go-to-Market Strategy",
+          "type": "text",
+          "placeholder": "Enter go-to-market strategy",
+          "required": false,
+          "helpText": "Emotional Appeal"
+        },
+        {
+          "id": "field_6",
+          "label": "Go-to-Market Strategy",
+          "type": "text",
+          "placeholder": "Enter go-to-market strategy",
+          "required": false,
+          "helpText": "Distribution Channels"
+        },
+        {
+          "id": "field_7",
+          "label": "Go-to-Market Strategy",
+          "type": "text",
+          "placeholder": "Enter go-to-market strategy",
+          "required": false,
+          "helpText": "Channel"
+        },
+        {
+          "id": "field_8",
+          "label": "Go-to-Market Strategy",
+          "type": "text",
+          "placeholder": "Enter go-to-market strategy",
+          "required": false,
+          "helpText": "Direct Sales"
+        },
+        {
+          "id": "field_9",
+          "label": "Go-to-Market Strategy",
+          "type": "text",
+          "placeholder": "Enter go-to-market strategy",
+          "required": false,
+          "helpText": "Website"
+        },
+        {
+          "id": "field_10",
+          "label": "Go-to-Market Strategy",
+          "type": "text",
+          "placeholder": "Enter go-to-market strategy",
+          "required": false,
+          "helpText": "Partner Channel"
+        },
+        {
+          "id": "field_11",
+          "label": "Go-to-Market Strategy",
+          "type": "text",
+          "placeholder": "Enter go-to-market strategy",
+          "required": false,
+          "helpText": "Marketplace"
+        },
+        {
+          "id": "field_12",
+          "label": "Go-to-Market Strategy",
+          "type": "text",
+          "placeholder": "Enter go-to-market strategy",
+          "required": false,
+          "helpText": "Resellers"
+        }
+      ]
+    }
+  ],
+  "dashboard": {
+    "metrics": [
+      {
+        "label": "Metric",
+        "calculation": "Value",
+        "format": "number"
+      },
+      {
+        "label": "Launch Phase",
+        "calculation": "Pre-Launch",
+        "format": "number"
+      },
+      {
+        "label": "Days to Launch",
+        "calculation": "Count of records",
+        "format": "number"
+      },
+      {
+        "label": "Tasks Completed",
+        "calculation": "Count of records",
+        "format": "number"
+      },
+      {
+        "label": "Tasks Remaining",
+        "calculation": "Count of records",
+        "format": "number"
+      }
+    ]
+  }
+}

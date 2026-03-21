@@ -1,0 +1,50 @@
+{
+  "id": "content_calendar_template",
+  "name": "Content Calendar Template",
+  "number": 3,
+  "category": "content",
+  "description": "Content Calendar Template - Marketing template for content professionals",
+  "instructions": "How to Use This Template Step 1: Set Your Month Go to the Content Calendar tab. The template is set up for a rolling monthly view. Start by entering the month and year at the top. Step 2: Define Your Channels The channel column uses a dropdown: Blog, Social Media, Email, Video, Podcast, PR, Paid Ads, Website, or Other. Pick the channels relevant to your strategy. Step 3: Plan Your Content For each piece of content, fill in: the topic/title, the channel, content type (e.g. blog post, reel, newsletter), the owner (who is responsible), and the target publish date. Step 4: Track Status Use the Sta",
+  "icon": "file-text",
+  "tags": [
+    "content"
+  ],
+  "estimatedTime": "45 min",
+  "sections": [
+    {
+      "id": "section_1",
+      "title": "Main Information",
+      "description": "Enter template information",
+      "fields": [
+        {
+          "id": "field_1",
+          "label": "Name",
+          "type": "text",
+          "placeholder": "Enter name",
+          "required": true
+        },
+        {
+          "id": "field_2",
+          "label": "Description",
+          "type": "textarea",
+          "placeholder": "Enter description",
+          "required": false
+        }
+      ]
+    }
+  ],
+  "dashboard": {
+    "metrics": [
+      {
+        "label": "Completion Rate",
+        "calculation": "Fields completed / Total fields",
+        "format": "percentage"
+      },
+      {
+        "label": "Total Sections",
+        "calculation": "Number of form sections",
+        "format": "number"
+      }
+    ]
+  }
+}

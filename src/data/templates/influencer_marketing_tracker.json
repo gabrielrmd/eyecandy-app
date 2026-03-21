@@ -1,0 +1,65 @@
+{
+  "id": "influencer_marketing_tracker",
+  "name": "Influencer Marketing Tracker",
+  "number": 21,
+  "category": "channels",
+  "description": "Influencer Marketing Tracker - Marketing template for channels professionals",
+  "instructions": "HOW TO USE THIS TEMPLATE Step 1: Build Your Influencer Database Start by researching and adding potential influencers. Record their platform, niche, follower count, engagement rate, and contact info. Use the Tier system (Mega/Macro/Mid/Micro/Nano) to categorise. Step 2: Plan Your Campaigns For each influencer campaign, create a brief in the Campaign Planner. Define objectives, target audience, key messages, deliverables, timeline, and budget. Step 3: Manage Outreach Track every outreach attempt in the Outreach Tracker. Log initial contact, follow-ups, responses, and negotiation status until yo",
+  "icon": "share-2",
+  "tags": [
+    "channels"
+  ],
+  "estimatedTime": "50 min",
+  "sections": [
+    {
+      "id": "section_1",
+      "title": "Main Information",
+      "description": "Enter template information",
+      "fields": [
+        {
+          "id": "field_1",
+          "label": "Name",
+          "type": "text",
+          "placeholder": "Enter name",
+          "required": true
+        },
+        {
+          "id": "field_2",
+          "label": "Description",
+          "type": "textarea",
+          "placeholder": "Enter description",
+          "required": false
+        }
+      ]
+    }
+  ],
+  "dashboard": {
+    "metrics": [
+      {
+        "label": "INFLUENCER MARKETING DASHBOARD",
+        "calculation": "Count of records",
+        "format": "number"
+      },
+      {
+        "label": "Total Influencers",
+        "calculation": "Count of records",
+        "format": "number"
+      },
+      {
+        "label": "Influencers by Tier",
+        "calculation": "Count of records",
+        "format": "number"
+      },
+      {
+        "label": "Tier",
+        "calculation": "Count",
+        "format": "number"
+      },
+      {
+        "label": "Mega (1M+)",
+        "calculation": "Count of records",
+        "format": "number"
+      }
+    ]
+  }
+}

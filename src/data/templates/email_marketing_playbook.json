@@ -1,0 +1,50 @@
+{
+  "id": "email_marketing_playbook",
+  "name": "Email Marketing Playbook",
+  "number": 8,
+  "category": "channels",
+  "description": "Email Marketing Playbook - Marketing template for channels professionals",
+  "instructions": "How to Use This Template Step 1: Define Your Email Strategy Start with the Strategy tab. Set your goals, define your audience segments, and decide what types of emails you will send. Strategy before tactics \u2014 always. Step 2: Map Your Sequences Go to the Sequence Builder tab. Design your automated email flows: welcome series, nurture sequences, re-engagement, post-purchase. Map the trigger, timing, and goal for each email. Step 3: Plan Your Campaigns Use the Campaign Planner tab for one-off and recurring sends: newsletters, promotions, announcements, seasonal campaigns. Plan the calendar, segme",
+  "icon": "share-2",
+  "tags": [
+    "channels"
+  ],
+  "estimatedTime": "50 min",
+  "sections": [
+    {
+      "id": "section_1",
+      "title": "Main Information",
+      "description": "Enter template information",
+      "fields": [
+        {
+          "id": "field_1",
+          "label": "Name",
+          "type": "text",
+          "placeholder": "Enter name",
+          "required": true
+        },
+        {
+          "id": "field_2",
+          "label": "Description",
+          "type": "textarea",
+          "placeholder": "Enter description",
+          "required": false
+        }
+      ]
+    }
+  ],
+  "dashboard": {
+    "metrics": [
+      {
+        "label": "Completion Rate",
+        "calculation": "Fields completed / Total fields",
+        "format": "percentage"
+      },
+      {
+        "label": "Total Sections",
+        "calculation": "Number of form sections",
+        "format": "number"
+      }
+    ]
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "id": "marketing_automation_playbook",
+  "name": "Marketing Automation Playbook",
+  "number": 23,
+  "category": "growth",
+  "description": "Marketing Automation Playbook - Marketing template for growth professionals",
+  "instructions": "HOW TO USE THIS TEMPLATE Step 1: Run the Automation Audit Honestly assess your current automation capabilities across 8 dimensions. The scoring reveals where to focus first. Step 2: Browse the Workflow Library Review 30+ pre-built workflow blueprints. Pick the ones most relevant to your current funnel gaps. Step 3: Build Email Sequences Use the Email Sequence Builder to plan each automated sequence step by step: triggers, delays, content, and exit conditions. Step 4: Set Up Lead Scoring Define your scoring model in the Lead Scoring Setup. Assign points for behavioural actions and demographic f",
+  "icon": "trending-up",
+  "tags": [
+    "growth"
+  ],
+  "estimatedTime": "65 min",
+  "sections": [
+    {
+      "id": "section_1",
+      "title": "Main Information",
+      "description": "Enter template information",
+      "fields": [
+        {
+          "id": "field_1",
+          "label": "Name",
+          "type": "text",
+          "placeholder": "Enter name",
+          "required": true
+        },
+        {
+          "id": "field_2",
+          "label": "Description",
+          "type": "textarea",
+          "placeholder": "Enter description",
+          "required": false
+        }
+      ]
+    }
+  ],
+  "dashboard": {
+    "metrics": [
+      {
+        "label": "AUTOMATION DASHBOARD",
+        "calculation": "Count of records",
+        "format": "number"
+      },
+      {
+        "label": "Automation Maturity",
+        "calculation": "Count of records",
+        "format": "number"
+      },
+      {
+        "label": "N/A",
+        "calculation": "Count of records",
+        "format": "number"
+      },
+      {
+        "label": "Workflow Status Overview",
+        "calculation": "Count of records",
+        "format": "number"
+      },
+      {
+        "label": "Status",
+        "calculation": "Count",
+        "format": "number"
+      }
+    ]
+  }
+}

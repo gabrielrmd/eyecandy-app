@@ -1,0 +1,111 @@
+<svg viewBox="0 0 1200 1200" xmlns="http://www.w3.org/2000/svg">
+  <!--
+    Advertising Unplugged - LinkedIn Post Template
+    Dimensions: 1200x1200px (square format)
+    Usage: Feed posts, promotional content, educational posts
+
+    Design elements:
+    - Dark navy background with off-white accents
+    - Prominent headline in Poppins bold
+    - Visual hierarchy guides the eye
+    - Coral red accent for emphasis
+    - Text-to-image ratio: 70% text, 30% visual elements
+  -->
+
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+      .bg-primary { fill: #1a1f2e; }
+      .bg-secondary { fill: #f8f9fa; }
+      .text-headline { font-family: 'Poppins', sans-serif; font-size: 56px; font-weight: 700; fill: #f8f9fa; line-height: 1.2; }
+      .text-body { font-family: 'Inter', sans-serif; font-size: 24px; font-weight: 400; fill: #e9ecef; line-height: 1.6; }
+      .text-label { font-family: 'Inter', sans-serif; font-size: 16px; font-weight: 600; fill: #e8384f; letter-spacing: 1px; }
+      .accent-bar { fill: #e8384f; }
+      .accent-circle { fill: #4db8c4; opacity: 0.15; }
+      .logo-text { font-family: 'Poppins', sans-serif; font-size: 18px; font-weight: 700; fill: #f8f9fa; }
+    </style>
+  </defs>
+
+  <!-- Main background -->
+  <rect width="1200" height="1200" class="bg-primary"/>
+
+  <!-- Decorative accent circles (background elements) -->
+  <circle cx="950" cy="150" r="200" class="accent-circle"/>
+  <circle cx="100" cy="950" r="150" class="accent-circle"/>
+
+  <!-- Top accent bar -->
+  <rect width="1200" height="8" class="accent-bar"/>
+
+  <!-- Header: Logo and company name -->
+  <g id="header">
+    <text x="60" y="90" class="logo-text">AU</text>
+    <text x="120" y="90" class="logo-text" font-size="16">Advertising Unplugged</text>
+  </g>
+
+  <!-- Main headline section -->
+  <g id="headline-section">
+    <!-- Label -->
+    <text x="60" y="180" class="text-label">CLARITY OVER NOISE</text>
+
+    <!-- Main headline (editable by user) -->
+    <text x="60" y="280" class="text-headline">
+      <tspan x="60" dy="0">Your Strategy,</tspan>
+      <tspan x="60" dy="70">Amplified</tspan>
+    </text>
+  </g>
+
+  <!-- Body copy section -->
+  <g id="body-section">
+    <!-- Subheading -->
+    <text x="60" y="550" class="text-body" font-weight="500">
+      <tspan x="60" dy="0">Marketing doesn't have to be complicated.</tspan>
+      <tspan x="60" dy="45">Authentic strategy. Real results.</tspan>
+    </text>
+
+    <!-- Divider line -->
+    <line x1="60" y1="650" x2="420" y2="650" stroke="#e8384f" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <!-- Feature highlights -->
+  <g id="features">
+    <g id="feature-1">
+      <circle cx="75" cy="730" r="6" class="accent-bar"/>
+      <text x="110" y="740" class="text-body" font-size="20">
+        AI Strategy Builder
+      </text>
+    </g>
+
+    <g id="feature-2">
+      <circle cx="75" cy="810" r="6" class="accent-bar"/>
+      <text x="110" y="820" class="text-body" font-size="20">
+        41 Battle-Tested Templates
+      </text>
+    </g>
+
+    <g id="feature-3">
+      <circle cx="75" cy="890" r="6" class="accent-bar"/>
+      <text x="110" y="900" class="text-body" font-size="20">
+        Growth Community
+      </text>
+    </g>
+  </g>
+
+  <!-- CTA Section -->
+  <g id="cta-section">
+    <!-- CTA button background (visual representation) -->
+    <rect x="60" y="970" width="240" height="60" rx="4" class="accent-bar"/>
+    <text x="180" y="1010" font-family="'Poppins', sans-serif" font-size="20" font-weight="600" fill="#ffffff" text-anchor="middle">
+      Get Started
+    </text>
+  </g>
+
+  <!-- Footer: Tagline -->
+  <text x="60" y="1140" class="text-body" font-size="18" fill="#adb5bd">
+    Clarity Over Noise. Purpose Beyond Profit.
+  </text>
+
+  <!-- Corner accent (bottom right) -->
+  <rect x="1100" y="1100" width="100" height="100" fill="#e8384f" opacity="0.1"/>
+</svg>

@@ -1,0 +1,65 @@
+{
+  "id": "brand_health_scorecard",
+  "name": "Brand Health Scorecard",
+  "number": 34,
+  "category": "brand",
+  "description": "Brand Health Scorecard - Marketing template for brand professionals",
+  "instructions": "How to Use This Scorecard Tab Overview Welcome Introduction and founder message How to Use This guide Dashboard Overall brand health summary and key metrics Brand Awareness Monthly tracking of awareness metrics Brand Perception 20 key brand attributes and performance NPS Tracker Monthly Net Promoter Score tracking Competitor Benchmark Performance vs. 10 competitors Channel Health Digital channel performance metrics Brand Equity Tracker Quarterly brand equity measurement Action Plan Strategic initiatives and accountability How to Input Data 1. Navigate to the appropriate tab for your data type ",
+  "icon": "briefcase",
+  "tags": [
+    "brand"
+  ],
+  "estimatedTime": "40 min",
+  "sections": [
+    {
+      "id": "section_1",
+      "title": "Main Information",
+      "description": "Enter template information",
+      "fields": [
+        {
+          "id": "field_1",
+          "label": "Name",
+          "type": "text",
+          "placeholder": "Enter name",
+          "required": true
+        },
+        {
+          "id": "field_2",
+          "label": "Description",
+          "type": "textarea",
+          "placeholder": "Enter description",
+          "required": false
+        }
+      ]
+    }
+  ],
+  "dashboard": {
+    "metrics": [
+      {
+        "label": "Brand Health Dashboard",
+        "calculation": "Count of records",
+        "format": "number"
+      },
+      {
+        "label": "Metric",
+        "calculation": "Current Score",
+        "format": "number"
+      },
+      {
+        "label": "Overall Brand Health",
+        "calculation": "Count of records",
+        "format": "number"
+      },
+      {
+        "label": "Brand Awareness",
+        "calculation": "Count of records",
+        "format": "number"
+      },
+      {
+        "label": "Brand Perception",
+        "calculation": "Count of records",
+        "format": "number"
+      }
+    ]
+  }
+}

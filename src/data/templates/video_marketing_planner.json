@@ -1,0 +1,298 @@
+{
+  "id": "video_marketing_planner",
+  "name": "Video Marketing Planner",
+  "number": 27,
+  "category": "content",
+  "description": "Video Marketing Planner - Marketing template for content professionals",
+  "instructions": "How to Use This Template 1. Video Strategy Define your video marketing goals, audience, and content pillars. 2. Content Calendar Plan and schedule all video content across platforms. 3. Production Tracker Manage each video from concept through filming to final delivery. 4. Script Template Use the structured script format for consistent, quality scripts. 5. Distribution Plan Map where each video will be published and promoted. 6. Budget Tracker Track production and promotion costs per video. 7. Performance Tracker Monitor views, engagement, and conversion metrics. 8. Platform Specs Reference vi",
+  "icon": "file-text",
+  "tags": [
+    "strategy",
+    "content"
+  ],
+  "estimatedTime": "45 min",
+  "sections": [
+    {
+      "id": "section_4",
+      "title": "Script Template",
+      "description": "Configuration and tracking for Script Template",
+      "fields": [
+        {
+          "id": "field_1",
+          "label": "Video Script Template",
+          "type": "text",
+          "placeholder": "Enter video script template",
+          "required": false,
+          "helpText": "Video Title"
+        },
+        {
+          "id": "field_2",
+          "label": "Video Script Template",
+          "type": "text",
+          "placeholder": "Enter video script template",
+          "required": false,
+          "helpText": "Video Type"
+        },
+        {
+          "id": "field_3",
+          "label": "Video Script Template",
+          "type": "text",
+          "placeholder": "Enter video script template",
+          "required": false,
+          "helpText": "Target Duration"
+        },
+        {
+          "id": "field_4",
+          "label": "Video Script Template",
+          "type": "text",
+          "placeholder": "Enter video script template",
+          "required": false,
+          "helpText": "Target Platform"
+        },
+        {
+          "id": "field_5",
+          "label": "Video Script Template",
+          "type": "text",
+          "placeholder": "Enter video script template",
+          "required": false,
+          "helpText": "Target Audience"
+        },
+        {
+          "id": "field_6",
+          "label": "Video Script Template",
+          "type": "text",
+          "placeholder": "Enter video script template",
+          "required": false,
+          "helpText": "Key Message"
+        },
+        {
+          "id": "field_7",
+          "label": "Video Script Template",
+          "type": "text",
+          "placeholder": "Enter video script template",
+          "required": false,
+          "helpText": "CTA"
+        },
+        {
+          "id": "field_8",
+          "label": "Video Script Template",
+          "type": "text",
+          "placeholder": "Enter video script template",
+          "required": false,
+          "helpText": "Script Breakdown"
+        },
+        {
+          "id": "field_9",
+          "label": "Video Script Template",
+          "type": "text",
+          "placeholder": "Enter video script template",
+          "required": false,
+          "helpText": "Section"
+        },
+        {
+          "id": "field_10",
+          "label": "Video Script Template",
+          "type": "text",
+          "placeholder": "Enter video script template",
+          "required": false,
+          "helpText": "Hook"
+        },
+        {
+          "id": "field_11",
+          "label": "Video Script Template",
+          "type": "text",
+          "placeholder": "Enter video script template",
+          "required": false,
+          "helpText": "Problem"
+        },
+        {
+          "id": "field_12",
+          "label": "Video Script Template",
+          "type": "text",
+          "placeholder": "Enter video script template",
+          "required": false,
+          "helpText": "Solution"
+        },
+        {
+          "id": "field_13",
+          "label": "Video Script Template",
+          "type": "text",
+          "placeholder": "Enter video script template",
+          "required": false,
+          "helpText": "Proof"
+        },
+        {
+          "id": "field_14",
+          "label": "Video Script Template",
+          "type": "text",
+          "placeholder": "Enter video script template",
+          "required": false,
+          "helpText": "CTA"
+        },
+        {
+          "id": "field_15",
+          "label": "Video Script Template",
+          "type": "text",
+          "placeholder": "Enter video script template",
+          "required": false,
+          "helpText": "End Card"
+        }
+      ]
+    },
+    {
+      "id": "section_7",
+      "title": "Performance Tracker",
+      "description": "Configuration and tracking for Performance Tracker",
+      "fields": [
+        {
+          "id": "field_1",
+          "label": "Video Performance Tracker",
+          "type": "text",
+          "placeholder": "Enter video performance tracker",
+          "required": false,
+          "helpText": "Video Title"
+        }
+      ]
+    },
+    {
+      "id": "section_8",
+      "title": "Platform Specs",
+      "description": "Configuration and tracking for Platform Specs",
+      "fields": [
+        {
+          "id": "field_1",
+          "label": "Video Platform Specs",
+          "type": "text",
+          "placeholder": "Enter video platform specs",
+          "required": false,
+          "helpText": "Platform"
+        },
+        {
+          "id": "field_2",
+          "label": "Video Platform Specs",
+          "type": "text",
+          "placeholder": "Enter video platform specs",
+          "required": false,
+          "helpText": "YouTube"
+        },
+        {
+          "id": "field_3",
+          "label": "Video Platform Specs",
+          "type": "text",
+          "placeholder": "Enter video platform specs",
+          "required": false,
+          "helpText": "YouTube"
+        },
+        {
+          "id": "field_4",
+          "label": "Video Platform Specs",
+          "type": "text",
+          "placeholder": "Enter video platform specs",
+          "required": false,
+          "helpText": "Instagram"
+        },
+        {
+          "id": "field_5",
+          "label": "Video Platform Specs",
+          "type": "text",
+          "placeholder": "Enter video platform specs",
+          "required": false,
+          "helpText": "Instagram"
+        },
+        {
+          "id": "field_6",
+          "label": "Video Platform Specs",
+          "type": "text",
+          "placeholder": "Enter video platform specs",
+          "required": false,
+          "helpText": "Instagram"
+        },
+        {
+          "id": "field_7",
+          "label": "Video Platform Specs",
+          "type": "text",
+          "placeholder": "Enter video platform specs",
+          "required": false,
+          "helpText": "TikTok"
+        },
+        {
+          "id": "field_8",
+          "label": "Video Platform Specs",
+          "type": "text",
+          "placeholder": "Enter video platform specs",
+          "required": false,
+          "helpText": "LinkedIn"
+        },
+        {
+          "id": "field_9",
+          "label": "Video Platform Specs",
+          "type": "text",
+          "placeholder": "Enter video platform specs",
+          "required": false,
+          "helpText": "Facebook"
+        },
+        {
+          "id": "field_10",
+          "label": "Video Platform Specs",
+          "type": "text",
+          "placeholder": "Enter video platform specs",
+          "required": false,
+          "helpText": "Facebook"
+        },
+        {
+          "id": "field_11",
+          "label": "Video Platform Specs",
+          "type": "text",
+          "placeholder": "Enter video platform specs",
+          "required": false,
+          "helpText": "Twitter"
+        },
+        {
+          "id": "field_12",
+          "label": "Video Platform Specs",
+          "type": "text",
+          "placeholder": "Enter video platform specs",
+          "required": false,
+          "helpText": "Website"
+        },
+        {
+          "id": "field_13",
+          "label": "Video Platform Specs",
+          "type": "text",
+          "placeholder": "Enter video platform specs",
+          "required": false,
+          "helpText": "Email"
+        }
+      ]
+    }
+  ],
+  "dashboard": {
+    "metrics": [
+      {
+        "label": "Metric",
+        "calculation": "Value",
+        "format": "number"
+      },
+      {
+        "label": "Videos Planned",
+        "calculation": "Count of records",
+        "format": "number"
+      },
+      {
+        "label": "Videos Published",
+        "calculation": "Count of records",
+        "format": "number"
+      },
+      {
+        "label": "Videos in Production",
+        "calculation": "Count of records",
+        "format": "number"
+      },
+      {
+        "label": "Total Views",
+        "calculation": "Count of records",
+        "format": "number"
+      }
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "id": "social_listening_dashboard",
+  "name": "Social Listening Dashboard",
+  "number": 33,
+  "category": "research",
+  "description": "Social Listening Dashboard - Marketing template for research professionals",
+  "instructions": "How to Use This Dashboard Getting Started Start with the Dashboard tab to see your key metrics at a glance. Track Mentions Add brand mentions in the Brand Mentions tab with date, platform, and content. Analyze Sentiment Use the Sentiment Analysis tab to understand how people are talking about your brand. Monitor Competition Track competitor activity in the Competitor Tracking tab. Manage Topics Organize discussions by topic in the Topic Tracker tab. Monitor Influencers Track influencer mentions and engagement in the Influencer Monitor tab. Handle Crises Respond quickly to crisis situations usi",
+  "icon": "search",
+  "tags": [
+    "analytics",
+    "research"
+  ],
+  "estimatedTime": "70 min",
+  "sections": [
+    {
+      "id": "section_1",
+      "title": "Main Information",
+      "description": "Enter template information",
+      "fields": [
+        {
+          "id": "field_1",
+          "label": "Name",
+          "type": "text",
+          "placeholder": "Enter name",
+          "required": true
+        },
+        {
+          "id": "field_2",
+          "label": "Description",
+          "type": "textarea",
+          "placeholder": "Enter description",
+          "required": false
+        }
+      ]
+    }
+  ],
+  "dashboard": {
+    "metrics": [
+      {
+        "label": "Dashboard",
+        "calculation": "Count of records",
+        "format": "number"
+      },
+      {
+        "label": "Total Mentions",
+        "calculation": "1",
+        "format": "number"
+      },
+      {
+        "label": "Positive Mentions",
+        "calculation": "Count of records",
+        "format": "number"
+      },
+      {
+        "label": "Neutral Mentions",
+        "calculation": "Count of records",
+        "format": "number"
+      },
+      {
+        "label": "Negative Mentions",
+        "calculation": "Count of records",
+        "format": "number"
+      }
+    ]
+  }
+}

@@ -1,0 +1,260 @@
+{
+  "id": "referral_programme_tracker",
+  "name": "Referral Programme Tracker",
+  "number": 25,
+  "category": "growth",
+  "description": "Referral Programme Tracker - Marketing template for growth professionals",
+  "instructions": "How to Use This Template 1. Programme Setup Define your referral programme structure, goals, and reward tiers. 2. Dashboard Monitor programme health with auto-calculated KPIs. 3. Advocate Tracker Track all advocates (referrers) and their activity. 4. Referral Pipeline Manage every referral from invitation to conversion. 5. Reward Management Track reward eligibility, payouts, and costs. 6. Programme Performance Analyse programme metrics over time to optimise. 7. Communication Templates Ready-to-use email and message templates for each stage.",
+  "icon": "trending-up",
+  "tags": [
+    "growth"
+  ],
+  "estimatedTime": "65 min",
+  "sections": [
+    {
+      "id": "section_5",
+      "title": "Programme Performance",
+      "description": "Configuration and tracking for Programme Performance",
+      "fields": [
+        {
+          "id": "field_1",
+          "label": "Programme Performance",
+          "type": "text",
+          "placeholder": "Enter programme performance",
+          "required": false,
+          "helpText": "Month"
+        },
+        {
+          "id": "field_2",
+          "label": "Programme Performance",
+          "type": "text",
+          "placeholder": "Enter programme performance",
+          "required": false,
+          "helpText": "Jan 2026"
+        },
+        {
+          "id": "field_3",
+          "label": "Programme Performance",
+          "type": "text",
+          "placeholder": "Enter programme performance",
+          "required": false,
+          "helpText": "Feb 2026"
+        },
+        {
+          "id": "field_4",
+          "label": "Programme Performance",
+          "type": "text",
+          "placeholder": "Enter programme performance",
+          "required": false,
+          "helpText": "Mar 2026"
+        },
+        {
+          "id": "field_5",
+          "label": "Programme Performance",
+          "type": "text",
+          "placeholder": "Enter programme performance",
+          "required": false,
+          "helpText": "Apr 2026"
+        },
+        {
+          "id": "field_6",
+          "label": "Programme Performance",
+          "type": "text",
+          "placeholder": "Enter programme performance",
+          "required": false,
+          "helpText": "May 2026"
+        },
+        {
+          "id": "field_7",
+          "label": "Programme Performance",
+          "type": "text",
+          "placeholder": "Enter programme performance",
+          "required": false,
+          "helpText": "Jun 2026"
+        },
+        {
+          "id": "field_8",
+          "label": "Programme Performance",
+          "type": "text",
+          "placeholder": "Enter programme performance",
+          "required": false,
+          "helpText": "Jul 2026"
+        },
+        {
+          "id": "field_9",
+          "label": "Programme Performance",
+          "type": "text",
+          "placeholder": "Enter programme performance",
+          "required": false,
+          "helpText": "Aug 2026"
+        },
+        {
+          "id": "field_10",
+          "label": "Programme Performance",
+          "type": "text",
+          "placeholder": "Enter programme performance",
+          "required": false,
+          "helpText": "Sep 2026"
+        },
+        {
+          "id": "field_11",
+          "label": "Programme Performance",
+          "type": "text",
+          "placeholder": "Enter programme performance",
+          "required": false,
+          "helpText": "Oct 2026"
+        },
+        {
+          "id": "field_12",
+          "label": "Programme Performance",
+          "type": "text",
+          "placeholder": "Enter programme performance",
+          "required": false,
+          "helpText": "Nov 2026"
+        },
+        {
+          "id": "field_13",
+          "label": "Programme Performance",
+          "type": "text",
+          "placeholder": "Enter programme performance",
+          "required": false,
+          "helpText": "Dec 2026"
+        },
+        {
+          "id": "field_14",
+          "label": "Programme Performance",
+          "type": "text",
+          "placeholder": "Enter programme performance",
+          "required": false,
+          "helpText": "TOTAL"
+        }
+      ]
+    },
+    {
+      "id": "section_6",
+      "title": "Communication Templates",
+      "description": "Configuration and tracking for Communication Templates",
+      "fields": [
+        {
+          "id": "field_1",
+          "label": "Communication Templates",
+          "type": "text",
+          "placeholder": "Enter communication templates",
+          "required": false,
+          "helpText": "Invitation Email"
+        },
+        {
+          "id": "field_2",
+          "label": "Communication Templates",
+          "type": "textarea",
+          "placeholder": "Enter communication templates",
+          "required": false
+        },
+        {
+          "id": "field_3",
+          "label": "Communication Templates",
+          "type": "text",
+          "placeholder": "Enter communication templates",
+          "required": false,
+          "helpText": "Referral Sent Confirmation"
+        },
+        {
+          "id": "field_4",
+          "label": "Communication Templates",
+          "type": "textarea",
+          "placeholder": "Enter communication templates",
+          "required": false
+        },
+        {
+          "id": "field_5",
+          "label": "Communication Templates",
+          "type": "text",
+          "placeholder": "Enter communication templates",
+          "required": false,
+          "helpText": "Conversion Notification"
+        },
+        {
+          "id": "field_6",
+          "label": "Communication Templates",
+          "type": "textarea",
+          "placeholder": "Enter communication templates",
+          "required": false
+        },
+        {
+          "id": "field_7",
+          "label": "Communication Templates",
+          "type": "text",
+          "placeholder": "Enter communication templates",
+          "required": false,
+          "helpText": "Tier Upgrade"
+        },
+        {
+          "id": "field_8",
+          "label": "Communication Templates",
+          "type": "textarea",
+          "placeholder": "Enter communication templates",
+          "required": false
+        },
+        {
+          "id": "field_9",
+          "label": "Communication Templates",
+          "type": "text",
+          "placeholder": "Enter communication templates",
+          "required": false,
+          "helpText": "Re-engagement"
+        },
+        {
+          "id": "field_10",
+          "label": "Communication Templates",
+          "type": "textarea",
+          "placeholder": "Enter communication templates",
+          "required": false
+        },
+        {
+          "id": "field_11",
+          "label": "Communication Templates",
+          "type": "text",
+          "placeholder": "Enter communication templates",
+          "required": false,
+          "helpText": "Thank You (Referee)"
+        },
+        {
+          "id": "field_12",
+          "label": "Communication Templates",
+          "type": "textarea",
+          "placeholder": "Enter communication templates",
+          "required": false
+        }
+      ]
+    }
+  ],
+  "dashboard": {
+    "metrics": [
+      {
+        "label": "Metric",
+        "calculation": "Value",
+        "format": "number"
+      },
+      {
+        "label": "Total Advocates",
+        "calculation": "5",
+        "format": "number"
+      },
+      {
+        "label": "Active Advocates",
+        "calculation": "5",
+        "format": "number"
+      },
+      {
+        "label": "Total Referrals Sent",
+        "calculation": "5",
+        "format": "number"
+      },
+      {
+        "label": "Referrals Converted",
+        "calculation": "3",
+        "format": "number"
+      }
+    ]
+  }
+}

@@ -1,0 +1,366 @@
+{
+  "seo": {
+    "homepage": {
+      "metaDescription": "Professional brand strategy powered by AI. Get a complete 90-day marketing strategy in 24 hours with Advertising Unplugged. Templates, coaching, and community.",
+      "metaKeywords": "AI marketing strategy, brand strategy, marketing templates, growth challenge, strategy builder"
+    },
+    "templates": {
+      "metaDescription": "41 interactive marketing templates for content planning, social media, email, sales, analytics, and more. Used by 2,400+ entrepreneurs."
+    },
+    "pricing": {
+      "metaDescription": "Transparent pricing for marketing strategy and templates. From €19/month to €2,999/year. 14-day guarantee on all plans."
+    },
+    "growthChallenge": {
+      "metaDescription": "12-week structured marketing challenge with live coaching, done-for-you templates, and accountability. Transform strategy into results."
+    }
+  },
+  "hero": {
+    "mainHeadline": "Professional Brand Strategy, Powered by AI. Delivered in 24 Hours.",
+    "subheadline": "Stop struggling with generic marketing advice. Get a personalized, data-driven strategy tailored to your business with AI-powered insights and our proven 41-template toolkit.",
+    "cta1": "Start Free Assessment",
+    "cta2": "Watch Demo",
+    "trustSignal1": "4.9★ From 200+ reviews",
+    "trustSignal2": "2,400+ Strategies generated",
+    "trustSignal3": "24 hrs Average delivery"
+  },
+  "problems": {
+    "headline": "The Marketing Clarity Gap",
+    "subheadline": "Most entrepreneurs face three critical gaps in their marketing approach",
+    "problem1": {
+      "title": "Education Without Execution",
+      "description": "You know the theory—content marketing, SEO, social media—but struggle to apply it consistently to YOUR business."
+    },
+    "problem2": {
+      "title": "Strategy Without Personalization",
+      "description": "Generic frameworks don't address your unique market position, budget constraints, or growth stage."
+    },
+    "problem3": {
+      "title": "Community Without Credibility",
+      "description": "Marketing communities abound, but backing your decisions with proven strategies and peer accountability is rare."
+    }
+  },
+  "howItWorks": {
+    "headline": "From Strategy to Execution in 3 Steps",
+    "subheadline": "A proven framework that delivers results",
+    "step1": {
+      "number": "01",
+      "title": "Answer, We'll Build",
+      "description": "Complete our 39-question AI Strategy Builder—designed by marketing experts to extract your unique positioning, audience insights, and growth goals.",
+      "time": "⏱️ 15-20 minutes"
+    },
+    "step2": {
+      "number": "02",
+      "title": "AI Generates Instantly",
+      "description": "Our AI engine synthesizes your answers into a comprehensive 15-section strategy deck covering positioning, messaging, channel mix, content pillars, and 90-day roadmap.",
+      "time": "⚡ Real-time"
+    },
+    "step3": {
+      "number": "03",
+      "title": "Execute & Refine",
+      "description": "Use our 41 interactive templates to operationalize your strategy. Track progress, refine tactics, and measure what's working with built-in analytics.",
+      "time": "📊 Ongoing"
+    }
+  },
+  "strategyBuilder": {
+    "headline": "The AI Strategy Builder",
+    "description": "Your personalized marketing strategy, powered by artificial intelligence and grounded in 15+ years of strategic marketing experience.",
+    "features": [
+      "39 Expert Questions covering positioning, audience, competition, and goals",
+      "15-Section Strategy Deck with actionable frameworks and tactics",
+      "AI-Powered Suggestions refine your answers in real-time",
+      "Export & Share your strategy as PDF, PPTX, or web link",
+      "90-Day Roadmap with weekly milestones and KPIs",
+      "Live Updates iterate and regenerate as your business evolves"
+    ]
+  },
+  "templates": {
+    "headline": "41 Interactive Marketing Templates",
+    "subheadline": "Purpose-built for your strategy execution",
+    "categories": [
+      {
+        "id": "content",
+        "name": "Content Planning",
+        "icon": "📋",
+        "count": 8,
+        "description": "Strategic content calendars, blog outlines, and planning frameworks"
+      },
+      {
+        "id": "social",
+        "name": "Social Media",
+        "icon": "💬",
+        "count": 7,
+        "description": "Platform strategies, content kits, and engagement templates"
+      },
+      {
+        "id": "email",
+        "name": "Email Marketing",
+        "icon": "📧",
+        "count": 6,
+        "description": "Nurture sequences, welcome series, and automation templates"
+      },
+      {
+        "id": "conversion",
+        "name": "Conversion & Sales",
+        "icon": "💰",
+        "count": 7,
+        "description": "Sales pages, landing pages, and checkout optimization"
+      },
+      {
+        "id": "analytics",
+        "name": "Analytics & Reporting",
+        "icon": "📊",
+        "count": 5,
+        "description": "Dashboard templates, KPI tracking, and performance reports"
+      },
+      {
+        "id": "brand",
+        "name": "Brand & Design",
+        "icon": "🎨",
+        "count": 4,
+        "description": "Brand guidelines, visual standards, and identity systems"
+      },
+      {
+        "id": "partnership",
+        "name": "Partnership & Growth",
+        "icon": "🤝",
+        "count": 4,
+        "description": "Partnership proposals, collaboration frameworks, and JV templates"
+      }
+    ],
+    "allTemplatesLink": "Explore All Templates"
+  },
+  "growthChallenge": {
+    "headline": "The 90-Day Growth Challenge",
+    "subheadline": "Transform strategy into measurable results with our structured, community-backed challenge",
+    "features": [
+      "12-Week Curriculum with daily tasks and weekly themes",
+      "Live Group Coaching sessions twice per week",
+      "Community Accountability with peer feedback and support",
+      "Done-For-You Templates for rapid implementation",
+      "Weekly Check-ins with progress tracking",
+      "Lifetime Access to all content and templates"
+    ],
+    "enrollCta": "Enroll in Next Cohort",
+    "weeks": {
+      "week1to2": "Week 1-2: Foundation",
+      "week3to4": "Week 3-4: Positioning",
+      "week5to6": "Week 5-6: Audience Research",
+      "week7to8": "Week 7-8: Channel Strategy",
+      "week9to10": "Week 9-10: Content Execution",
+      "week11to12": "Week 11-12: Scale & Optimize"
+    }
+  },
+  "pricing": {
+    "headline": "Simple, Transparent Pricing",
+    "subheadline": "Choose the plan that fits your growth stage",
+    "tiers": [
+      {
+        "id": "template-toolkit",
+        "name": "Template Toolkit",
+        "price": 19,
+        "period": "/month",
+        "description": "Perfect for solo marketers and small teams",
+        "features": [
+          "41 interactive templates",
+          "Template library & search",
+          "Export (PDF, XLSX)",
+          "Email support"
+        ],
+        "cta": "Get Started"
+      },
+      {
+        "id": "starter-strategy",
+        "name": "Starter Strategy",
+        "price": 149,
+        "period": "/one-time",
+        "description": "For entrepreneurs ready to level up",
+        "features": [
+          "AI Strategy Builder (39 Q's)",
+          "15-section strategy deck",
+          "90-day roadmap",
+          "Strategy exports",
+          "1 month template access"
+        ],
+        "cta": "Start Strategy"
+      },
+      {
+        "id": "professional",
+        "name": "Professional",
+        "price": 499,
+        "period": "/year",
+        "description": "The complete platform for growing businesses",
+        "features": [
+          "Everything in Starter",
+          "Unlimited template access",
+          "90-Day Growth Challenge",
+          "Priority email support",
+          "Strategy refinements (3x)",
+          "Community access"
+        ],
+        "cta": "Get Professional",
+        "badge": "MOST POPULAR"
+      },
+      {
+        "id": "enterprise",
+        "name": "Enterprise",
+        "price": 2999,
+        "period": "/year",
+        "description": "For teams and franchise networks",
+        "features": [
+          "Everything in Professional",
+          "5-20 team seats",
+          "1-on-1 strategy sessions",
+          "Custom template creation",
+          "Dedicated support",
+          "API access"
+        ],
+        "cta": "Contact Sales"
+      }
+    ]
+  },
+  "credibility": {
+    "headline": "Backed by Expertise You Can Trust",
+    "subheadline": "Created by a strategist recognized by the world's leading marketing awards",
+    "stat1": {
+      "number": "2,400+",
+      "label": "Strategies Built"
+    },
+    "stat2": {
+      "number": "4.9★",
+      "label": "Average Rating"
+    },
+    "stat3": {
+      "number": "45%",
+      "label": "Avg. Revenue Growth"
+    },
+    "stat4": {
+      "number": "30+ Countries",
+      "label": "Active Users"
+    },
+    "credential1": {
+      "title": "15+ Years Crafting Strategies",
+      "description": "Gabriel Adrian Eremia brings deep expertise in brand positioning, growth marketing, and strategic planning. Every framework in Advertising Unplugged is battle-tested across 100+ brands."
+    },
+    "credential2": {
+      "title": "Forbes Romania Contributor",
+      "description": "Recognized for insights on marketing innovation and business growth. Featured speaker on leadership and strategic marketing in Eastern Europe's most influential business publication."
+    },
+    "credential3": {
+      "title": "Cannes & Effie Recognition",
+      "description": "Marketing campaigns developed with our methodologies have been recognized at the world's most prestigious award shows, validating our approach to strategic excellence."
+    }
+  },
+  "testimonials": [
+    {
+      "rating": 5,
+      "quote": "Advertising Unplugged gave me clarity I'd been missing for 3 years. The strategy is precise, actionable, and delivered exactly when I needed it. Already seeing 35% growth in qualified leads.",
+      "author": "Ana Popescu",
+      "title": "CEO, Tech Startup, Romania"
+    },
+    {
+      "rating": 5,
+      "quote": "As a franchise owner managing 8 locations, having a unified strategy has been a game-changer. The templates saved us weeks of internal meetings and debates.",
+      "author": "Mihai Cristescu",
+      "title": "Franchise Owner, East EU"
+    },
+    {
+      "rating": 5,
+      "quote": "I've invested in dozens of courses and frameworks. This is the first one that actually feels personalized to MY business. The 90-day challenge kept me accountable and got real results.",
+      "author": "Cristina Ionescu",
+      "title": "Coach & Consultant, Romania"
+    }
+  ],
+  "faq": [
+    {
+      "question": "How long does it take to get my strategy?",
+      "answer": "Your AI-powered strategy is generated instantly after you complete the 39-question builder. Most users get their full 15-section strategy deck within 2-5 minutes of submission."
+    },
+    {
+      "question": "Can I refine my strategy after it's created?",
+      "answer": "Absolutely. Professional and Enterprise plans include strategy refinements. You can regenerate sections, adjust answers, and get updated strategies as your business evolves."
+    },
+    {
+      "question": "What if I'm not a marketer? Can I still use this?",
+      "answer": "Yes! The AI Strategy Builder asks questions any business owner can answer—about your goals, audience, and competitive position. No marketing jargon required. All templates are self-explanatory."
+    },
+    {
+      "question": "Is the 90-Day Challenge included in all plans?",
+      "answer": "The 90-Day Growth Challenge is included in Professional and Enterprise plans. Template Toolkit and Starter Strategy users can purchase it separately for €299."
+    },
+    {
+      "question": "Can I export my strategy and templates?",
+      "answer": "Yes. Export strategies as PDF or PPTX. Export template data as XLSX or PDF. Professional and Enterprise plans also get a sharable web link for team collaboration."
+    },
+    {
+      "question": "What about team access?",
+      "answer": "Template Toolkit and Starter Strategy are single-user. Professional plan allows 1-3 team members. Enterprise supports 5-20 seats with full collaboration features and separate team dashboards."
+    },
+    {
+      "question": "Do you offer a refund if I'm not satisfied?",
+      "answer": "Yes. All Starter Strategy, Professional, and Enterprise purchases come with a 14-day money-back guarantee. No questions asked. We're confident you'll see value immediately."
+    },
+    {
+      "question": "Is my data secure? What about privacy?",
+      "answer": "Your data is encrypted and stored in EU data centers via Supabase. We never sell or share your data. Full GDPR compliance. Read our detailed privacy policy for specifics."
+    },
+    {
+      "question": "What payment methods do you accept?",
+      "answer": "We accept all major credit cards (Visa, Mastercard, American Express), Apple Pay, and Google Pay. Payments are processed securely through Stripe."
+    },
+    {
+      "question": "Can I change my plan anytime?",
+      "answer": "Yes, you can upgrade or downgrade your plan anytime. Your new pricing will be reflected on your next billing cycle. No penalties or hidden fees."
+    }
+  ],
+  "finalCta": {
+    "headline": "Stop Guessing. Start Growing.",
+    "description": "Get your personalized brand strategy powered by AI in the next 24 hours. Join 2,400+ entrepreneurs who've turned clarity into results.",
+    "cta1": "Start Free Assessment",
+    "cta2": "See Pricing Plans",
+    "trustline": "✓ No credit card required • ✓ Results in 24 hours • ✓ 14-day guarantee"
+  },
+  "onboarding": {
+    "emailSequence": [
+      {
+        "number": 1,
+        "subject": "Your personalized marketing strategy is ready",
+        "preview": "Complete your assessment in 15 minutes",
+        "headline": "Your €2,000+ Strategy in 24 Hours",
+        "content": "You've just unlocked access to Advertising Unplugged. Here's what you can do next:",
+        "cta": "Start Your Assessment"
+      },
+      {
+        "number": 2,
+        "subject": "See how others are using their strategy (real results inside)",
+        "preview": "45% avg. revenue growth in 90 days",
+        "headline": "How Ana Grew Her Startup 35% in 90 Days",
+        "content": "Your strategy is personalized. But seeing real results from real users can help you know what's possible.",
+        "cta": "See Case Study"
+      },
+      {
+        "number": 3,
+        "subject": "The #1 mistake entrepreneurs make (and how to avoid it)",
+        "preview": "We see this pattern constantly",
+        "headline": "The Clarity Gap",
+        "content": "You've probably experienced this: having strategy ideas but struggling to execute them consistently.",
+        "cta": "Learn More"
+      },
+      {
+        "number": 4,
+        "subject": "Your strategy is ready to execute (templates inside)",
+        "preview": "41 done-for-you templates",
+        "headline": "From Strategy to Action in 24 Hours",
+        "content": "Great strategy without execution is just a nice document. That's why we built templates for every step.",
+        "cta": "Explore Templates"
+      },
+      {
+        "number": 5,
+        "subject": "Limited: Early access to 90-Day Growth Challenge",
+        "preview": "Next cohort closes soon",
+        "headline": "Join the Challenge (Cohort Closes 3/25)",
+        "content": "The structured, community-backed way to execute your strategy and get accountability.",
+        "cta": "Reserve Your Spot"
+      }
+    ]
+  }
+}

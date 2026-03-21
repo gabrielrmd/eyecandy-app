@@ -1,0 +1,289 @@
+{
+  "id": "ad_brief_template",
+  "name": "Ad Brief Template",
+  "number": 26,
+  "category": "channels",
+  "description": "Ad Brief Template - Marketing template for channels professionals",
+  "instructions": "How to Use This Template 1. Campaign Brief Fill in the strategic brief with objectives, audience, and messaging. 2. Creative Brief Define the creative direction, tone, and visual references. 3. Media Plan Map out channels, formats, placements, and flight dates. 4. Ad Specs Library Reference ad specifications for all major platforms. 5. Budget Tracker Allocate and track spend across production and media. 6. Approval Workflow Route briefs through stakeholders with the built-in approval tracker. 7. Performance Tracker Measure ad performance against KPIs post-launch. 8. Brief Library Archive compl",
+  "icon": "share-2",
+  "tags": [
+    "channels"
+  ],
+  "estimatedTime": "50 min",
+  "sections": [
+    {
+      "id": "section_2",
+      "title": "Creative Brief",
+      "description": "Configuration and tracking for Creative Brief",
+      "fields": [
+        {
+          "id": "field_1",
+          "label": "Creative Brief",
+          "type": "text",
+          "placeholder": "Enter creative brief",
+          "required": false,
+          "helpText": "Creative Concept"
+        },
+        {
+          "id": "field_2",
+          "label": "Creative Brief",
+          "type": "text",
+          "placeholder": "Enter creative brief",
+          "required": false,
+          "helpText": "Tone of Voice"
+        },
+        {
+          "id": "field_3",
+          "label": "Creative Brief",
+          "type": "text",
+          "placeholder": "Enter creative brief",
+          "required": false,
+          "helpText": "Visual Direction"
+        },
+        {
+          "id": "field_4",
+          "label": "Creative Brief",
+          "type": "text",
+          "placeholder": "Enter creative brief",
+          "required": false,
+          "helpText": "Headline Direction"
+        },
+        {
+          "id": "field_5",
+          "label": "Creative Brief",
+          "type": "text",
+          "placeholder": "Enter creative brief",
+          "required": false,
+          "helpText": "Body Copy Direction"
+        },
+        {
+          "id": "field_6",
+          "label": "Creative Brief",
+          "type": "text",
+          "placeholder": "Enter creative brief",
+          "required": false,
+          "helpText": "Call to Action"
+        },
+        {
+          "id": "field_7",
+          "label": "Creative Brief",
+          "type": "text",
+          "placeholder": "Enter creative brief",
+          "required": false,
+          "helpText": "Mandatory Inclusions"
+        },
+        {
+          "id": "field_8",
+          "label": "Creative Brief",
+          "type": "text",
+          "placeholder": "Enter creative brief",
+          "required": false,
+          "helpText": "Mandatory Exclusions"
+        },
+        {
+          "id": "field_9",
+          "label": "Creative Brief",
+          "type": "text",
+          "placeholder": "Enter creative brief",
+          "required": false,
+          "helpText": "Reference Examples"
+        },
+        {
+          "id": "field_10",
+          "label": "Creative Brief",
+          "type": "text",
+          "placeholder": "Enter creative brief",
+          "required": false,
+          "helpText": "Format Requirements"
+        },
+        {
+          "id": "field_11",
+          "label": "Creative Brief",
+          "type": "text",
+          "placeholder": "Enter creative brief",
+          "required": false,
+          "helpText": "Deliverables"
+        }
+      ]
+    },
+    {
+      "id": "section_4",
+      "title": "Ad Specs Library",
+      "description": "Configuration and tracking for Ad Specs Library",
+      "fields": [
+        {
+          "id": "field_1",
+          "label": "Ad Specs Library",
+          "type": "text",
+          "placeholder": "Enter ad specs library",
+          "required": false,
+          "helpText": "Platform"
+        },
+        {
+          "id": "field_2",
+          "label": "Ad Specs Library",
+          "type": "text",
+          "placeholder": "Enter ad specs library",
+          "required": false,
+          "helpText": "Facebook"
+        },
+        {
+          "id": "field_3",
+          "label": "Ad Specs Library",
+          "type": "text",
+          "placeholder": "Enter ad specs library",
+          "required": false,
+          "helpText": "Facebook"
+        },
+        {
+          "id": "field_4",
+          "label": "Ad Specs Library",
+          "type": "text",
+          "placeholder": "Enter ad specs library",
+          "required": false,
+          "helpText": "Facebook"
+        },
+        {
+          "id": "field_5",
+          "label": "Ad Specs Library",
+          "type": "text",
+          "placeholder": "Enter ad specs library",
+          "required": false,
+          "helpText": "Instagram"
+        },
+        {
+          "id": "field_6",
+          "label": "Ad Specs Library",
+          "type": "text",
+          "placeholder": "Enter ad specs library",
+          "required": false,
+          "helpText": "Instagram"
+        },
+        {
+          "id": "field_7",
+          "label": "Ad Specs Library",
+          "type": "text",
+          "placeholder": "Enter ad specs library",
+          "required": false,
+          "helpText": "Instagram"
+        },
+        {
+          "id": "field_8",
+          "label": "Ad Specs Library",
+          "type": "text",
+          "placeholder": "Enter ad specs library",
+          "required": false,
+          "helpText": "LinkedIn"
+        },
+        {
+          "id": "field_9",
+          "label": "Ad Specs Library",
+          "type": "text",
+          "placeholder": "Enter ad specs library",
+          "required": false,
+          "helpText": "LinkedIn"
+        },
+        {
+          "id": "field_10",
+          "label": "Ad Specs Library",
+          "type": "text",
+          "placeholder": "Enter ad specs library",
+          "required": false,
+          "helpText": "Google Ads"
+        },
+        {
+          "id": "field_11",
+          "label": "Ad Specs Library",
+          "type": "text",
+          "placeholder": "Enter ad specs library",
+          "required": false,
+          "helpText": "Google Ads"
+        },
+        {
+          "id": "field_12",
+          "label": "Ad Specs Library",
+          "type": "text",
+          "placeholder": "Enter ad specs library",
+          "required": false,
+          "helpText": "YouTube"
+        },
+        {
+          "id": "field_13",
+          "label": "Ad Specs Library",
+          "type": "text",
+          "placeholder": "Enter ad specs library",
+          "required": false,
+          "helpText": "YouTube"
+        },
+        {
+          "id": "field_14",
+          "label": "Ad Specs Library",
+          "type": "text",
+          "placeholder": "Enter ad specs library",
+          "required": false,
+          "helpText": "TikTok"
+        },
+        {
+          "id": "field_15",
+          "label": "Ad Specs Library",
+          "type": "text",
+          "placeholder": "Enter ad specs library",
+          "required": false,
+          "helpText": "X (Twitter)"
+        },
+        {
+          "id": "field_16",
+          "label": "Ad Specs Library",
+          "type": "text",
+          "placeholder": "Enter ad specs library",
+          "required": false,
+          "helpText": "Pinterest"
+        }
+      ]
+    },
+    {
+      "id": "section_7",
+      "title": "Performance Tracker",
+      "description": "Configuration and tracking for Performance Tracker",
+      "fields": [
+        {
+          "id": "field_1",
+          "label": "Ad Performance Tracker",
+          "type": "text",
+          "placeholder": "Enter ad performance tracker",
+          "required": false,
+          "helpText": "Ad Name"
+        }
+      ]
+    }
+  ],
+  "dashboard": {
+    "metrics": [
+      {
+        "label": "Metric",
+        "calculation": "Value",
+        "format": "number"
+      },
+      {
+        "label": "Active Briefs",
+        "calculation": "Count of records",
+        "format": "number"
+      },
+      {
+        "label": "Briefs in Production",
+        "calculation": "Count of records",
+        "format": "number"
+      },
+      {
+        "label": "Briefs Live",
+        "calculation": "Count of records",
+        "format": "number"
+      },
+      {
+        "label": "Total Campaign Budget",
+        "calculation": "Count of records",
+        "format": "number"
+      }
+    ]
+  }
+}

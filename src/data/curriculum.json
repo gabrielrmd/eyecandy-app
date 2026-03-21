@@ -1,0 +1,1171 @@
+{
+  "curriculum": {
+    "title": "Advertising Unplugged: 90-Day Growth Challenge",
+    "description": "A structured 12-week journey to transform marketing from overwhelming to actionable for entrepreneurs, founders, and SMEs.",
+    "philosophy": "Clarity Over Noise. Purpose Beyond Profit.",
+    "duration": "12 weeks",
+    "phases": 4,
+    "totalHours": 100,
+    "weeks": [
+      {
+        "weekNumber": 1,
+        "phase": 1,
+        "phaseTitle": "Foundation",
+        "phaseSubtitle": "Know Your Brand",
+        "weekTitle": "Brand Audit & Baseline",
+        "description": "Establish a clear baseline of your current brand position, marketing effectiveness, and competitive standing. This becomes your benchmark for measuring 90-day progress.",
+        "objectives": [
+          "Conduct a comprehensive brand audit across all touchpoints",
+          "Identify marketing gaps and strengths in your current efforts",
+          "Define what success looks like for your business over 90 days",
+          "Create a baseline for measuring growth and ROI"
+        ],
+        "keyConceptTitle": "The Marketing Audit Framework",
+        "keyConceptSummary": "Your brand isn't what you say it is—it's what your customers experience. A brand audit examines every customer touchpoint to understand what's working, what's broken, and what's missing.",
+        "tasks": [
+          {
+            "id": "task-1-1",
+            "title": "Complete the Marketing Audit Template",
+            "description": "Score your current performance across Website/SEO, Social Media, Email, Content, Paid Ads, Brand Consistency, Customer Experience, Analytics Tracking",
+            "templateId": "marketing-audit",
+            "estimatedMinutes": 120
+          },
+          {
+            "id": "task-1-2",
+            "title": "Document your current customer journey",
+            "description": "Map where customers first hear about you, evaluate you, buy, and stay in touch. Note pain points.",
+            "templateId": "journey-map",
+            "estimatedMinutes": 90
+          },
+          {
+            "id": "task-1-3",
+            "title": "Audit your website",
+            "description": "Check page load speed, mobile responsiveness, CTA clarity, trust signals, navigation ease. Document 5 improvements needed.",
+            "templateId": "marketing-audit",
+            "estimatedMinutes": 120
+          },
+          {
+            "id": "task-1-4",
+            "title": "Review last 3 months of marketing data",
+            "description": "Gather metrics from Google Analytics, social media insights, email platform, paid ads. Identify which channels drove traffic and conversions.",
+            "templateId": "roi-calculator",
+            "estimatedMinutes": 90
+          },
+          {
+            "id": "task-1-5",
+            "title": "Analyze top 3 competitors",
+            "description": "Visit websites, follow social, sign up for email. Note messaging, content strategy, social presence, customer reviews.",
+            "templateId": "competitor-analysis",
+            "estimatedMinutes": 120
+          },
+          {
+            "id": "task-1-6",
+            "title": "Interview 3 recent customers",
+            "description": "Ask how they found you, their decision process, what almost stopped them, what makes you worth recommending.",
+            "templateId": "customer-persona",
+            "estimatedMinutes": 90
+          },
+          {
+            "id": "task-1-7",
+            "title": "Define 90-day success metrics",
+            "description": "Choose 3-5 KPIs to track weekly: Website traffic, email list growth, leads, conversion rate, CAC, brand awareness.",
+            "templateId": "roi-calculator",
+            "estimatedMinutes": 60
+          }
+        ],
+        "milestone": "Completed Marketing Audit document with baseline metrics, competitive insights, and prioritized list of top 10 marketing improvements",
+        "deliverable": "marketing-audit-baseline.pdf",
+        "reflectionPrompt": [
+          "What surprised you most about your current marketing efforts? What are you doing well that you underestimate?",
+          "If you had to describe your current marketing in one sentence, is that aligned with your actual business goals?"
+        ],
+        "communityTopic": "What's the biggest gap you discovered between how you thought your marketing was performing and the actual baseline data?",
+        "estimatedHours": 11,
+        "bonusResources": [
+          {
+            "title": "HubSpot's Free Website Grader",
+            "url": "https://website.grader.com"
+          },
+          {
+            "title": "Semrush or Ahrefs Free Trial",
+            "description": "Analyze competitor backlinks and keywords"
+          },
+          {
+            "title": "Google Analytics Academy",
+            "description": "Free certification to master analytics platform"
+          }
+        ]
+      },
+      {
+        "weekNumber": 2,
+        "phase": 1,
+        "phaseTitle": "Foundation",
+        "phaseSubtitle": "Know Your Brand",
+        "weekTitle": "Customer Discovery & Personas",
+        "description": "Build detailed customer personas that move beyond demographics to psychographics, pain points, and decision-making triggers. Your marketing will be 10x more effective when targeted to a crystal-clear audience.",
+        "objectives": [
+          "Create 2-3 detailed, data-backed customer personas",
+          "Understand your customers' biggest pain points and aspirations",
+          "Identify where and how your ideal customers spend their attention",
+          "Map the decision-making journey from awareness to purchase"
+        ],
+        "keyConceptTitle": "Beyond Demographics—Real Customer Understanding",
+        "keyConceptSummary": "Real personas include Demographics + Psychographics + Behavior + Pain Points + Decision Criteria + Objections. Not 'women 25-45' but 'Sarah is a bootstrapped founder who...'",
+        "tasks": [
+          {
+            "id": "task-2-1",
+            "title": "Complete Customer Persona Builder",
+            "description": "Create 2-3 personas with Demographics, Psychographics, Behavior, Pain Points, Aspirations, Decision Criteria, Objections",
+            "templateId": "customer-persona",
+            "estimatedMinutes": 90
+          },
+          {
+            "id": "task-2-2",
+            "title": "Conduct 5 customer interviews",
+            "description": "Ask: How you found us, buying process, what almost stopped you, what makes you recommend us, what you wish we offered",
+            "templateId": "customer-persona",
+            "estimatedMinutes": 150
+          },
+          {
+            "id": "task-2-3",
+            "title": "Survey your customer base",
+            "description": "5-question form: How you heard about us, biggest challenge, what matters in purchasing, what to change",
+            "templateId": "customer-persona",
+            "estimatedMinutes": 60
+          },
+          {
+            "id": "task-2-4",
+            "title": "Research where customers hang out online",
+            "description": "Identify 3-5 platforms (Reddit, LinkedIn groups, Facebook groups, forums, podcasts, newsletters) and document discussions",
+            "templateId": "social-media-strategy",
+            "estimatedMinutes": 90
+          },
+          {
+            "id": "task-2-5",
+            "title": "Document pain point language",
+            "description": "Highlight exact phrases customers use to describe problems. These become your marketing words.",
+            "templateId": "brand-messaging",
+            "estimatedMinutes": 60
+          },
+          {
+            "id": "task-2-6",
+            "title": "Create competitive persona",
+            "description": "Build persona for top competitor's ideal customer. How different from yours? Where is overlap?",
+            "templateId": "customer-persona",
+            "estimatedMinutes": 90
+          },
+          {
+            "id": "task-2-7",
+            "title": "Map customer decision journey",
+            "description": "For each persona, timeline: What triggers need awareness, where they search, info gathered, decision influencers, final push to buy",
+            "templateId": "journey-map",
+            "estimatedMinutes": 120
+          }
+        ],
+        "milestone": "2-3 detailed customer personas with supporting research, decision journey maps, and list of top pain point phrases from customer research",
+        "deliverable": "customer-personas-research.pdf",
+        "reflectionPrompt": [
+          "When you read your finished persona, what surprises you? What assumption did your research contradict?",
+          "Which persona excites you most to serve? Which is most profitable?"
+        ],
+        "communityTopic": "Share one unexpected insight from your customer research. What did you learn about your ideal customer that you didn't expect?",
+        "estimatedHours": 9,
+        "bonusResources": [
+          {
+            "title": "Typeform or Google Forms",
+            "description": "Free survey tools for customer research"
+          },
+          {
+            "title": "Superhuman",
+            "description": "Email tool showing intent data about prospect engagement"
+          },
+          {
+            "title": "LinkedIn Sales Navigator Free Trial",
+            "description": "Find and research ideal customers"
+          }
+        ]
+      },
+      {
+        "weekNumber": 3,
+        "phase": 1,
+        "phaseTitle": "Foundation",
+        "phaseSubtitle": "Know Your Brand",
+        "weekTitle": "Brand Positioning & Messaging",
+        "description": "Crystallize your unique value proposition and create a messaging framework that differentiates you from competitors and resonates with your ideal customer.",
+        "objectives": [
+          "Define your unique positioning in the marketplace",
+          "Craft a compelling value proposition (not a tagline—a clear statement of differentiation)",
+          "Create a messaging hierarchy: brand essence, key messages, supporting proof points",
+          "Develop message variations for different audience segments"
+        ],
+        "keyConceptTitle": "Positioning Is a Promise You Keep",
+        "keyConceptSummary": "Positioning is a strategic choice about where you compete and how you differentiate. Internal clarity: 'For X audience, with Y problem, we're better than Z alternative because A, B, C'",
+        "tasks": [
+          {
+            "id": "task-3-1",
+            "title": "Complete Brand Positioning Pyramid",
+            "description": "Define Brand Purpose, Promise, Values (3-4), and Personality",
+            "templateId": "brand-messaging",
+            "estimatedMinutes": 90
+          },
+          {
+            "id": "task-3-2",
+            "title": "Write your positioning statement",
+            "description": "Use framework: 'For [audience] who [problem], [Brand] is [category] that [value] unlike [alternative] which [drawback]'",
+            "templateId": "brand-messaging",
+            "estimatedMinutes": 60
+          },
+          {
+            "id": "task-3-3",
+            "title": "Identify your points of difference",
+            "description": "Using competitive analysis, list unique differentiators (Quality, Speed, Price, Service, Innovation, Expertise, Methodology). Pick 2-3 with evidence.",
+            "templateId": "competitor-analysis",
+            "estimatedMinutes": 90
+          },
+          {
+            "id": "task-3-4",
+            "title": "Create your value proposition",
+            "description": "Single sentence: 'We help [audience] [achieve outcome] by [unique method]'. Test on 2-3 customers.",
+            "templateId": "brand-messaging",
+            "estimatedMinutes": 60
+          },
+          {
+            "id": "task-3-5",
+            "title": "Build messaging matrix",
+            "description": "4-5 key messages with Target Audience, Proof Point, Example, Tone for each",
+            "templateId": "brand-messaging",
+            "estimatedMinutes": 120
+          },
+          {
+            "id": "task-3-6",
+            "title": "Develop message variations",
+            "description": "How messaging differs by channel/persona (Founder vs Manager, Email vs LinkedIn). What stays consistent? What changes?",
+            "templateId": "brand-messaging",
+            "estimatedMinutes": 90
+          },
+          {
+            "id": "task-3-7",
+            "title": "Audit current messaging",
+            "description": "Review homepage, email templates, social bios, sales calls. How much aligns with new positioning? What needs to change?",
+            "templateId": "marketing-audit",
+            "estimatedMinutes": 90
+          }
+        ],
+        "milestone": "Completed Brand Positioning document with positioning statement, points of difference, value proposition, messaging matrix, and one-page brand messaging guide",
+        "deliverable": "brand-positioning-guide.pdf",
+        "reflectionPrompt": [
+          "Does your positioning feel authentic? Could you defend it to a skeptical competitor?",
+          "What message, once you say it aloud, immediately feels true and energizing?"
+        ],
+        "communityTopic": "What's your positioning statement? Run it by the community and see if it's clear, compelling, and credible.",
+        "estimatedHours": 7,
+        "bonusResources": [
+          {
+            "title": "Strategyzer's Value Proposition Canvas",
+            "description": "Free template for visualizing positioning"
+          },
+          {
+            "title": "Grammarly Premium",
+            "description": "Ensure all messaging is clear and on-brand"
+          },
+          {
+            "title": "Canva Brand Kit",
+            "description": "Establish visual consistency alongside messaging"
+          }
+        ]
+      },
+      {
+        "weekNumber": 4,
+        "phase": 2,
+        "phaseTitle": "Strategy",
+        "phaseSubtitle": "Plan Your Growth",
+        "weekTitle": "Competitive Intelligence & Market Positioning",
+        "description": "Build a deep competitive intelligence system that informs your strategy, positions you distinctly, and reveals market opportunities.",
+        "objectives": [
+          "Conduct thorough competitive analysis across direct and indirect competitors",
+          "Identify market gaps and positioning opportunities",
+          "Understand competitor messaging, channels, and customer acquisition strategies",
+          "Define your sustainable competitive advantages"
+        ],
+        "keyConceptTitle": "Competitive Analysis Is Strategic Intelligence, Not Paranoia",
+        "keyConceptSummary": "Three competitor types: Direct (same solution, same audience), Indirect (different solution, same problem), Adjacent (similar audience, different solution). Analysis reveals gaps and strategic opportunities.",
+        "tasks": [
+          {
+            "id": "task-4-1",
+            "title": "Complete Competitor Analysis Framework",
+            "description": "Profile 3-5 direct and 2-3 indirect competitors: Value Proposition, Target Audience, Messaging, Pricing, Features, Channels, Reviews, Strengths, Weaknesses",
+            "templateId": "competitor-analysis",
+            "estimatedMinutes": 180
+          },
+          {
+            "id": "task-4-2",
+            "title": "Deep-dive competitor marketing",
+            "description": "Review last 20 social posts, read 5-10 reviews, analyze pricing page, download lead magnet, audit website structure",
+            "templateId": "competitor-analysis",
+            "estimatedMinutes": 120
+          },
+          {
+            "id": "task-4-3",
+            "title": "Monitor competitor pricing and positioning",
+            "description": "Create competitive pricing matrix. What do they charge? What's included? How positioned? Where's white space?",
+            "templateId": "budget-planner",
+            "estimatedMinutes": 90
+          },
+          {
+            "id": "task-4-4",
+            "title": "Analyze competitor keywords and SEO",
+            "description": "Use Ubersuggest or AnswerThePublic to see competitor keywords, their ranking topics, their SEO dominance areas",
+            "templateId": "seo-tracker",
+            "estimatedMinutes": 120
+          },
+          {
+            "id": "task-4-5",
+            "title": "Identify competitive advantages",
+            "description": "Document: What we do better/faster/cheaper? What do we understand about customers competitors miss? What's our sustainable advantage?",
+            "templateId": "competitor-analysis",
+            "estimatedMinutes": 90
+          },
+          {
+            "id": "task-4-6",
+            "title": "Find market gaps",
+            "description": "What are customers asking for that competitors don't address? What problems underserved? What segments ignored? Find 3-5 opportunities.",
+            "templateId": "competitor-analysis",
+            "estimatedMinutes": 90
+          },
+          {
+            "id": "task-4-7",
+            "title": "Create competitive positioning map",
+            "description": "2x2 grid with two important axes (Price vs Ease, Speed vs Comprehensiveness). Plot competitors and yourself. Defensible position?",
+            "templateId": "competitor-analysis",
+            "estimatedMinutes": 60
+          }
+        ],
+        "milestone": "Completed competitive analysis with profiles of 5-8 competitors, positioning map, identified market gaps, and summary of sustainable competitive advantages",
+        "deliverable": "competitive-analysis-report.pdf",
+        "reflectionPrompt": [
+          "What competitor activity surprised or concerned you? What should you watch closely?",
+          "Where is the biggest opportunity to differentiate based on what competitors ignore?"
+        ],
+        "communityTopic": "What competitive advantage are you most confident defending? How would you explain it in a 30-second pitch?",
+        "estimatedHours": 9,
+        "bonusResources": [
+          {
+            "title": "Semrush or Ahrefs",
+            "description": "Comprehensive competitor SEO and ad analysis—free trials"
+          },
+          {
+            "title": "G2 or Capterra",
+            "description": "Read detailed customer reviews to understand pain points"
+          },
+          {
+            "title": "SparkLoop or Feedly",
+            "description": "Monitor competitor content and social activity"
+          }
+        ]
+      },
+      {
+        "weekNumber": 5,
+        "phase": 2,
+        "phaseTitle": "Strategy",
+        "phaseSubtitle": "Plan Your Growth",
+        "weekTitle": "Marketing Strategy, Budgeting & OKRs",
+        "description": "Define your growth targets, allocate budget by channel, and set clear quarterly objectives that ensure every marketing activity connects to business outcomes.",
+        "objectives": [
+          "Set SMART growth targets for 90 days (aligned with business objectives)",
+          "Create a marketing budget that balances brand building with lead generation",
+          "Define OKRs (Objectives and Key Results) that guide all marketing decisions",
+          "Establish a budget allocation framework by channel (organic vs paid, awareness vs conversion)"
+        ],
+        "keyConceptTitle": "Budget Allocation Is Strategy Made Real",
+        "keyConceptSummary": "Strategic budgeting: 60% maintenance, 25% growth/optimization, 15% innovation. Within growth: 30% awareness, 50% leads, 20% retention. OKRs force priorities.",
+        "tasks": [
+          {
+            "id": "task-5-1",
+            "title": "Define 90-day business objectives",
+            "description": "Start business top-down: What must the business achieve? Revenue? Customers? Milestones? What's marketing's role?",
+            "templateId": "okr-template",
+            "estimatedMinutes": 60
+          },
+          {
+            "id": "task-5-2",
+            "title": "Complete Budget Planner",
+            "description": "Document total budget (cash/time), current spend by channel, proposed allocation by channel, estimated ROI per channel",
+            "templateId": "budget-planner",
+            "estimatedMinutes": 90
+          },
+          {
+            "id": "task-5-3",
+            "title": "Set 90-day growth targets",
+            "description": "Specific targets: Website traffic, email list, leads, customers, CAC, conversion rates, brand awareness. Stretch but achievable.",
+            "templateId": "roi-calculator",
+            "estimatedMinutes": 90
+          },
+          {
+            "id": "task-5-4",
+            "title": "Create marketing OKRs",
+            "description": "Write 2-3 Objectives (aspirational) with 2-3 Key Results each (measurable outcomes) that ladder to business goals",
+            "templateId": "okr-template",
+            "estimatedMinutes": 120
+          },
+          {
+            "id": "task-5-5",
+            "title": "Allocate budget by channel",
+            "description": "Based on competitive analysis and customer research, decide allocation: SEO? Paid social? Email? Partnerships? Community? Define percentages and dollars.",
+            "templateId": "budget-planner",
+            "estimatedMinutes": 90
+          },
+          {
+            "id": "task-5-6",
+            "title": "Create 12-week initiative calendar with budget",
+            "description": "Plan specific initiatives (campaigns, content pillars, email, partnerships) with estimated spend and expected return by week",
+            "templateId": "content-calendar",
+            "estimatedMinutes": 90
+          },
+          {
+            "id": "task-5-7",
+            "title": "Define success metrics dashboard",
+            "description": "Choose 5-7 weekly metrics (ladder to OKRs). Build tracking sheet (spreadsheet or Metabase) for actuals vs targets",
+            "templateId": "roi-calculator",
+            "estimatedMinutes": 60
+          }
+        ],
+        "milestone": "Marketing strategy document with 90-day business objectives, marketing OKRs, budget allocation by channel, 12-week initiative calendar with spend, and success metrics dashboard",
+        "deliverable": "marketing-strategy-budget.pdf",
+        "reflectionPrompt": [
+          "Does your budget allocation feel realistic? What assumptions need validation?",
+          "If you cut budget in half, what would you cut? That reveals what matters most."
+        ],
+        "communityTopic": "Share your primary marketing OKR for 90 days. What will success look like, and how will you know if you've achieved it?",
+        "estimatedHours": 7,
+        "bonusResources": [
+          {
+            "title": "Lattice or 15Five",
+            "description": "Free tier for managing OKRs with team"
+          },
+          {
+            "title": "Google Sheets templates",
+            "description": "Budget planning templates"
+          },
+          {
+            "title": "Marketing benchmarks by industry",
+            "description": "SiriusDecisions, HubSpot, Neil Patel for CAC/conversion rates"
+          }
+        ]
+      },
+      {
+        "weekNumber": 6,
+        "phase": 2,
+        "phaseTitle": "Strategy",
+        "phaseSubtitle": "Plan Your Growth",
+        "weekTitle": "Channel Strategy & Content Planning",
+        "description": "Decide which channels will be your core growth levers for the next 90 days, and build a content plan that fuels those channels with consistent, on-brand content.",
+        "objectives": [
+          "Select 2-3 core marketing channels based on audience and business model",
+          "Build a content strategy aligned with buyer journey stages (awareness, consideration, decision)",
+          "Create a 12-week content calendar with specific topics, formats, and distribution",
+          "Establish a sustainable content production workflow"
+        ],
+        "keyConceptTitle": "Channel Concentration Over Fragmentation",
+        "keyConceptSummary": "Pick 1-2 primary channels where you build audience, 1 owned channel (email, community) for relationships, amplify via others. Focused beats scattered.",
+        "tasks": [
+          {
+            "id": "task-6-1",
+            "title": "Complete Channel Strategy Scorecard",
+            "description": "Score each potential channel 0-5: Audience Presence, Business Model Fit, Production Capacity, Competitive Opportunity. Select top 2-3.",
+            "templateId": "social-media-strategy",
+            "estimatedMinutes": 90
+          },
+          {
+            "id": "task-6-2",
+            "title": "Map content to buyer journey",
+            "description": "3x3 grid: Rows = Journey Stage (Awareness, Consideration, Decision), Columns = Format (Blog, Video, Social, Email, Lead Magnet). Brainstorm each cell.",
+            "templateId": "content-calendar",
+            "estimatedMinutes": 90
+          },
+          {
+            "id": "task-6-3",
+            "title": "Create content pillar strategy",
+            "description": "Define 3-5 core topics your brand owns. Every piece of content ladders to one pillar. Examples: 'DIY Strategy', 'Founder Marketing', 'Metrics', 'Content That Converts'",
+            "templateId": "content-calendar",
+            "estimatedMinutes": 90
+          },
+          {
+            "id": "task-6-4",
+            "title": "Build 12-week content calendar",
+            "description": "Plan 1-2 pieces per week on primary channels plus email. Include: Topic, Format, Channel, Date, Owner, Status. Realistic and consistent.",
+            "templateId": "content-calendar",
+            "estimatedMinutes": 120
+          },
+          {
+            "id": "task-6-5",
+            "title": "Create 2-3 content assets in detail",
+            "description": "For top performing ideas, plan actual assets: outline, key points, examples, visuals. Prevents 'I don't know what to write' paralysis.",
+            "templateId": "content-calendar",
+            "estimatedMinutes": 120
+          },
+          {
+            "id": "task-6-6",
+            "title": "Define social media strategy",
+            "description": "For each channel: Posting cadence, content mix (%), engagement tactics, hashtags, repurposing plan",
+            "templateId": "social-media-strategy",
+            "estimatedMinutes": 90
+          },
+          {
+            "id": "task-6-7",
+            "title": "Plan email strategy",
+            "description": "Outline: Welcome sequence, regular cadence, email types (educational, promotional, community), segmentation, content pillars",
+            "templateId": "email-playbook",
+            "estimatedMinutes": 90
+          }
+        ],
+        "milestone": "Channel strategy document with scorecard and rationale, content pillars, 12-week content calendar (24-36 pieces), detailed outlines for top 3 assets, email and social strategies",
+        "deliverable": "channel-content-strategy.pdf",
+        "reflectionPrompt": [
+          "Looking at your 12-week calendar, does this feel sustainable? Where might you get stuck?",
+          "What topic could you teach without prep? That's where you start."
+        ],
+        "communityTopic": "What's your primary content channel and why? What's your first content asset?",
+        "estimatedHours": 9,
+        "bonusResources": [
+          {
+            "title": "Buffer or Later",
+            "description": "Free social media scheduling for consistency"
+          },
+          {
+            "title": "Notion",
+            "description": "Build content production workflow template"
+          },
+          {
+            "title": "Answer the Public or Ubersuggest",
+            "description": "Discover what questions your audience searches—content topics"
+          }
+        ]
+      },
+      {
+        "weekNumber": 7,
+        "phase": 3,
+        "phaseTitle": "Execution",
+        "phaseSubtitle": "Build Your Engine",
+        "weekTitle": "Content Creation & SEO Foundation",
+        "description": "Begin content production and establish SEO fundamentals so organic search becomes a long-term customer acquisition channel.",
+        "objectives": [
+          "Create your first 3-4 pillar content pieces",
+          "Optimize content for both readers and search engines",
+          "Understand SEO basics: keywords, structure, technical SEO",
+          "Build a content repurposing system to maximize content ROI"
+        ],
+        "keyConceptTitle": "Content Is Your Long-Term Asset",
+        "keyConceptSummary": "Paid ads stop when you stop paying. Content works for years. A ranking blog post brings traffic months/years after. Highest ROI with proper execution and SEO optimization.",
+        "tasks": [
+          {
+            "id": "task-7-1",
+            "title": "Conduct keyword research",
+            "description": "Use free tool (Google Keyword Planner, Ubersuggest, AnswerThePublic). Find 10-15 keywords audience searches for. Document: Keyword, Volume, Competition, Intent.",
+            "templateId": "seo-tracker",
+            "estimatedMinutes": 90
+          },
+          {
+            "id": "task-7-2",
+            "title": "Create pillar content piece",
+            "description": "Write comprehensive blog/guide (2,000-3,500 words). Structure: Hook, Overview, Section 1-3, Examples, CTA. Optimize for readability.",
+            "templateId": "content-calendar",
+            "estimatedMinutes": 240
+          },
+          {
+            "id": "task-7-3",
+            "title": "Optimize for SEO",
+            "description": "Include: Target keyword in title/first 100 words, meta description, internal links, external links, alt text for images, mobile check. Use Yoast/Ubersuggest.",
+            "templateId": "seo-tracker",
+            "estimatedMinutes": 120
+          },
+          {
+            "id": "task-7-4",
+            "title": "Create 2-3 supporting content pieces",
+            "description": "Shorter content (800-1,500 words) targeting related keywords, linking to pillar post. Content clusters Google loves.",
+            "templateId": "content-calendar",
+            "estimatedMinutes": 180
+          },
+          {
+            "id": "task-7-5",
+            "title": "Plan content repurposing system",
+            "description": "For each piece: Twitter thread (3-5), LinkedIn post (carousel), Email, Slack, Short video (15-60 sec), Podcast clip. Document templates.",
+            "templateId": "content-calendar",
+            "estimatedMinutes": 90
+          },
+          {
+            "id": "task-7-6",
+            "title": "Set up SEO tracking",
+            "description": "Create spreadsheet or use Google Search Console. Track: Posts ranking, keywords, ranking position. Establish baseline.",
+            "templateId": "seo-tracker",
+            "estimatedMinutes": 60
+          },
+          {
+            "id": "task-7-7",
+            "title": "Audit existing content",
+            "description": "Review old posts. Which could be updated? Which already rank? Optimize existing content for better rankings.",
+            "templateId": "seo-tracker",
+            "estimatedMinutes": 90
+          }
+        ],
+        "milestone": "Published pillar content (2,000+ words, optimized), 2-3 supporting pieces, keyword research document, content repurposing checklist",
+        "deliverable": "content-seo-assets.pdf",
+        "reflectionPrompt": [
+          "What surprised you about keyword research? Were people searching for what you thought?",
+          "What part of content creation was hardest? What will you do differently next time?"
+        ],
+        "communityTopic": "Share your pillar content topic and primary target keyword. What benefit are you promising readers?",
+        "estimatedHours": 11,
+        "bonusResources": [
+          {
+            "title": "Grammarly or Hemingway Editor",
+            "description": "Free tools to improve writing clarity"
+          },
+          {
+            "title": "Canva Pro free trial",
+            "description": "Create graphics for blog posts"
+          },
+          {
+            "title": "Google Search Console",
+            "description": "Free—monitor search performance"
+          }
+        ]
+      },
+      {
+        "weekNumber": 8,
+        "phase": 3,
+        "phaseTitle": "Execution",
+        "phaseSubtitle": "Build Your Engine",
+        "weekTitle": "Email Marketing & Automation",
+        "description": "Build a strategic email list and create automated email sequences that nurture prospects and drive conversions with minimal ongoing effort.",
+        "objectives": [
+          "Establish email as a core customer acquisition channel",
+          "Build a lead magnet and landing page that convert visitors to subscribers",
+          "Create automated email sequences (welcome, nurture, sales) that guide prospects",
+          "Understand email segmentation and personalization basics"
+        ],
+        "keyConceptTitle": "Email Is Your Most Valuable Channel",
+        "keyConceptSummary": "Email is the only touchpoint you truly own. Email ROI is 40x—for every $1 spent, businesses get $40 back. Strategic approach: list growth + nurture sequences + regular communication.",
+        "tasks": [
+          {
+            "id": "task-8-1",
+            "title": "Define your lead magnet",
+            "description": "Create specific, valuable asset solving micro-problem: Checklist, audit, script, framework, guide. Document: Topic, Format, Target Audience, Benefit.",
+            "templateId": "email-playbook",
+            "estimatedMinutes": 60
+          },
+          {
+            "id": "task-8-2",
+            "title": "Create lead magnet asset",
+            "description": "Produce actual asset: Write guide, build template, create video, etc. 30-45 min to go through. Utility > Design.",
+            "templateId": "email-playbook",
+            "estimatedMinutes": 180
+          },
+          {
+            "id": "task-8-3",
+            "title": "Build landing page for conversion",
+            "description": "Use Webflow, Carrd, or Leadpages. Include: Benefit headline, clear description, form (name+email), CTA. Test for 5-second understanding.",
+            "templateId": "landing-page-planner",
+            "estimatedMinutes": 120
+          },
+          {
+            "id": "task-8-4",
+            "title": "Create welcome email sequence",
+            "description": "Plan 3-5 emails: Email 1 (welcome), Email 2 (story), Email 3 (value), Email 4 (offer). Write first 2-3 in full.",
+            "templateId": "email-playbook",
+            "estimatedMinutes": 120
+          },
+          {
+            "id": "task-8-5",
+            "title": "Set up email automation",
+            "description": "Choose platform (Mailchimp, Brevo, ConvertKit, Substack). Create welcome sequence as automation triggered on signup. Test yourself.",
+            "templateId": "email-playbook",
+            "estimatedMinutes": 90
+          },
+          {
+            "id": "task-8-6",
+            "title": "Create lead magnet distribution plan",
+            "description": "How will prospects find it? Website, first content, social CTAs, partnerships, ads. Focus on organic distribution Week 8.",
+            "templateId": "email-playbook",
+            "estimatedMinutes": 60
+          },
+          {
+            "id": "task-8-7",
+            "title": "Document email strategy",
+            "description": "Use Email Playbook: Lead magnet details, landing page, welcome sequence, content pillars, segmentation plan, frequency",
+            "templateId": "email-playbook",
+            "estimatedMinutes": 90
+          }
+        ],
+        "milestone": "Live lead magnet asset, functional landing page, automated welcome sequence (3+ emails), documented email strategy and distribution plan",
+        "deliverable": "email-marketing-setup.pdf",
+        "reflectionPrompt": [
+          "Does your welcome sequence feel authentic to how you communicate with customers?",
+          "What's the most common objection your lead magnet should address? Did you address it?"
+        ],
+        "communityTopic": "What's your lead magnet? Would you sign up for it? If not, what needs to change?",
+        "estimatedHours": 11,
+        "bonusResources": [
+          {
+            "title": "Mailchimp or Brevo",
+            "description": "Free email platforms to get started"
+          },
+          {
+            "title": "Carrd",
+            "description": "Cheap, easy landing page builder"
+          },
+          {
+            "title": "Typeform",
+            "description": "Build beautiful forms with better conversion"
+          }
+        ]
+      },
+      {
+        "weekNumber": 9,
+        "phase": 3,
+        "phaseTitle": "Execution",
+        "phaseSubtitle": "Build Your Engine",
+        "weekTitle": "Campaign Strategy & Paid Advertising Foundation",
+        "description": "Design and launch your first conversion-focused campaign using both organic and paid channels to accelerate customer acquisition.",
+        "objectives": [
+          "Design a complete marketing campaign from awareness through conversion",
+          "Understand paid advertising fundamentals and best practices",
+          "Create an ad brief and plan ad copy, targeting, and creative",
+          "Measure campaign performance and optimize for ROI"
+        ],
+        "keyConceptTitle": "Campaigns Multiply Your Effort",
+        "keyConceptSummary": "Campaigns are coordinated activities with single goal and timeline. Phases: Awareness (reach) + Engagement (value) + Conversion (offer) + Retention (loyalty). Paid ads accelerate but content is the hammer.",
+        "tasks": [
+          {
+            "id": "task-9-1",
+            "title": "Define first campaign",
+            "description": "Goal, target audience, awareness/engagement/conversion tactics, timeline (2-4 weeks), budget, success metrics. Example: '50 email signups in 4 weeks, $500 budget'",
+            "templateId": "campaign-dashboard",
+            "estimatedMinutes": 90
+          },
+          {
+            "id": "task-9-2",
+            "title": "Complete Campaign Dashboard",
+            "description": "Document: Name, objective, audience, channels, dates, budget, metrics, tracking URLs, launch checklist",
+            "templateId": "campaign-dashboard",
+            "estimatedMinutes": 120
+          },
+          {
+            "id": "task-9-3",
+            "title": "Create ad brief",
+            "description": "Goal, target audience, benefit/promise, proof point, CTA, ad variations to test",
+            "templateId": "campaign-dashboard",
+            "estimatedMinutes": 90
+          },
+          {
+            "id": "task-9-4",
+            "title": "Design ad creatives",
+            "description": "2-3 variations: Awareness (benefit-focused), Engagement (teaching), Conversion (offer+urgency). Use Canva free or hire freelancer ($50-200)",
+            "templateId": "campaign-dashboard",
+            "estimatedMinutes": 180
+          },
+          {
+            "id": "task-9-5",
+            "title": "Set up tracking pixels",
+            "description": "Install Facebook/Google pixels on website. Create UTM parameters for campaign URLs. Enable conversion measurement.",
+            "templateId": "campaign-dashboard",
+            "estimatedMinutes": 60
+          },
+          {
+            "id": "task-9-6",
+            "title": "Launch campaign",
+            "description": "Set up paid ads (Facebook/Instagram or LinkedIn) OR organic push (social, email, partnerships). Start with $20/day for testing.",
+            "templateId": "campaign-dashboard",
+            "estimatedMinutes": 120
+          },
+          {
+            "id": "task-9-7",
+            "title": "Create measurement plan",
+            "description": "Track: Impressions, clicks, conversions, cost per lead, landing page conversion rate, email growth, sales. Establish week 1 baseline.",
+            "templateId": "roi-calculator",
+            "estimatedMinutes": 60
+          }
+        ],
+        "milestone": "Live campaign with ads/promotion running, campaign dashboard with tracking, 2-3 ad variations created, initial 1-week performance data",
+        "deliverable": "campaign-launch-report.pdf",
+        "reflectionPrompt": [
+          "What surprised you about early campaign performance? What's working better/worse than expected?",
+          "If you doubled budget, what would you do more of?"
+        ],
+        "communityTopic": "Share your campaign goal and first week results. What surprised you about audience response?",
+        "estimatedHours": 9,
+        "bonusResources": [
+          {
+            "title": "Canva",
+            "description": "Free design tool for creating ads"
+          },
+          {
+            "title": "Facebook Ads Manager",
+            "description": "Free to create and run ads with modest budgets"
+          },
+          {
+            "title": "Google Analytics",
+            "description": "Free—set up campaign tracking"
+          },
+          {
+            "title": "Notion",
+            "description": "Build campaign management workspace"
+          }
+        ]
+      },
+      {
+        "weekNumber": 10,
+        "phase": 4,
+        "phaseTitle": "Optimization",
+        "phaseSubtitle": "Scale & Refine",
+        "weekTitle": "Analytics, Metrics & ROI Mastery",
+        "description": "Establish clear measurement of what's working, calculate true ROI, and begin optimizing your best-performing channels and campaigns.",
+        "objectives": [
+          "Understand key marketing metrics and what they actually mean",
+          "Calculate customer acquisition cost (CAC) and lifetime value (LTV) for your business",
+          "Set up dashboards for weekly performance tracking",
+          "Identify your best-performing channels and campaigns for scaling"
+        ],
+        "keyConceptTitle": "Measurement Is Decision-Making",
+        "keyConceptSummary": "Without measurement, you're guessing. Clarity: Top funnel (awareness), Middle (interest), Bottom (conversion), Unit economics (CAC, LTV, ratio). 3:1 LTV:CAC is sustainable.",
+        "tasks": [
+          {
+            "id": "task-10-1",
+            "title": "Set up measurement dashboard",
+            "description": "Google Sheets or Data Studio. Track: Channel, Metric, Weekly targets vs actuals. 5-7 core KPIs. Check every Monday.",
+            "templateId": "roi-calculator",
+            "estimatedMinutes": 90
+          },
+          {
+            "id": "task-10-2",
+            "title": "Calculate customer acquisition cost (CAC)",
+            "description": "Total marketing spend / New paying customers = CAC. Do per-channel if possible. Is this profitable?",
+            "templateId": "roi-calculator",
+            "estimatedMinutes": 60
+          },
+          {
+            "id": "task-10-3",
+            "title": "Estimate customer lifetime value (LTV)",
+            "description": "Average revenue per customer × Average customer lifetime (months) = LTV. Is LTV at least 3x CAC?",
+            "templateId": "roi-calculator",
+            "estimatedMinutes": 60
+          },
+          {
+            "id": "task-10-4",
+            "title": "Audit your data setup",
+            "description": "Ensure: Customer origin tracking, analytics platform proper setup, UTM parameters on campaigns, conversion flow tracking, attribution clarity",
+            "templateId": "marketing-audit",
+            "estimatedMinutes": 120
+          },
+          {
+            "id": "task-10-5",
+            "title": "Model scenarios with ROI Calculator",
+            "description": "If I spend $X on Y channel, how many leads/customers? Expected ROI? Use to decide budget allocation.",
+            "templateId": "roi-calculator",
+            "estimatedMinutes": 90
+          },
+          {
+            "id": "task-10-6",
+            "title": "Identify top-performing channels",
+            "description": "Which have: Lowest cost per lead? Highest conversion? Best ROI? Focus here. Which underperform? Plan to reduce or eliminate.",
+            "templateId": "funnel-tracker",
+            "estimatedMinutes": 90
+          },
+          {
+            "id": "task-10-7",
+            "title": "Analyze campaign performance",
+            "description": "Week 9 campaign final numbers: Spend, leads, conversions, cost per lead, conversion rate. What worked? What didn't? What to change next?",
+            "templateId": "campaign-dashboard",
+            "estimatedMinutes": 90
+          }
+        ],
+        "milestone": "Live measurement dashboard with 10 weeks data, calculated CAC/LTV, ROI analysis of channels/campaigns, documented optimization opportunities",
+        "deliverable": "analytics-measurement-report.pdf",
+        "reflectionPrompt": [
+          "Does your CAC feel right? Are you spending too much or too little per acquisition?",
+          "Which channel is your best performer? What if you doubled investment there?"
+        ],
+        "communityTopic": "What's your customer acquisition cost? Is it sustainable? What would improve it?",
+        "estimatedHours": 7,
+        "bonusResources": [
+          {
+            "title": "Google Analytics",
+            "description": "Free, comprehensive analytics"
+          },
+          {
+            "title": "Google Data Studio",
+            "description": "Free dashboard building"
+          },
+          {
+            "title": "Stripe or Shopify analytics",
+            "description": "Understand unit economics"
+          },
+          {
+            "title": "Airtable",
+            "description": "Custom measurement dashboards"
+          }
+        ]
+      },
+      {
+        "weekNumber": 11,
+        "phase": 4,
+        "phaseTitle": "Optimization",
+        "phaseSubtitle": "Scale & Refine",
+        "weekTitle": "Community, Partnerships & Authority Building",
+        "description": "Build moats around your brand by establishing community, strategic partnerships, and authority positioning that create defensible competitive advantage.",
+        "objectives": [
+          "Develop a community strategy that turns customers into advocates",
+          "Identify and structure strategic partnerships that expand reach",
+          "Build positioning as an expert/authority in your space",
+          "Create systems for ongoing word-of-mouth and referral marketing"
+        ],
+        "keyConceptTitle": "Community and Authority Are Long-Term Competitive Advantages",
+        "keyConceptSummary": "Paid ads reach everyone. Community + authority reach your people and create defensible competitive moats. Founder in your community will recommend before searching.",
+        "tasks": [
+          {
+            "id": "task-11-1",
+            "title": "Define community strategy",
+            "description": "Choose format: Online group (Facebook/Slack), In-person events, Mastermind, Membership, or Podcast network. Document: Problem solved, moderation, member value.",
+            "templateId": "community-playbook",
+            "estimatedMinutes": 90
+          },
+          {
+            "id": "task-11-2",
+            "title": "Launch community MVP",
+            "description": "Create Facebook/Slack/Circle. Seed with best customers. Create 1-2 starter conversations. Or plan first in-person event.",
+            "templateId": "community-playbook",
+            "estimatedMinutes": 120
+          },
+          {
+            "id": "task-11-3",
+            "title": "Identify partnership opportunities",
+            "description": "List: Complementary services, platforms with your audience, influencers, publications/podcasts. Approach 3-5 with specific proposal.",
+            "templateId": "partnership-plan",
+            "estimatedMinutes": 120
+          },
+          {
+            "id": "task-11-4",
+            "title": "Plan strategic partnership",
+            "description": "With one partner: Co-hosted webinar, guest exchange, affiliate, joint offer. Document: Partner, goal, deliverables, timeline.",
+            "templateId": "partnership-plan",
+            "estimatedMinutes": 120
+          },
+          {
+            "id": "task-11-5",
+            "title": "Create case study library",
+            "description": "Ask 3-5 customers for testimonial/case study. Document: Before situation, transformation, results, lessons. Write 2-3 full case studies.",
+            "templateId": "campaign-dashboard",
+            "estimatedMinutes": 180
+          },
+          {
+            "id": "task-11-6",
+            "title": "Apply to speak/get featured",
+            "description": "Identify 5 podcasts/publications where audience listens. Pitch as guest with specific insight angle. Aim for 2-3 placements.",
+            "templateId": "partnership-plan",
+            "estimatedMinutes": 90
+          },
+          {
+            "id": "task-11-7",
+            "title": "Document partnerships and community",
+            "description": "Use Partnership Plan template: Partner name, initiative, goal, timeline, owner, status. Create community management plan.",
+            "templateId": "partnership-plan",
+            "estimatedMinutes": 90
+          }
+        ],
+        "milestone": "Live community launched, 2-3 strategic partnerships executed, 2-3 published case studies, partnership and community management plan documented",
+        "deliverable": "partnerships-community-strategy.pdf",
+        "reflectionPrompt": [
+          "Who are your best customers who could become advocates? Have you asked them to help?",
+          "What partnership would meaningfully accelerate growth if executed well?"
+        ],
+        "communityTopic": "What's your partnership strategy? What potential partners could you collaborate with?",
+        "estimatedHours": 9,
+        "bonusResources": [
+          {
+            "title": "Circle or Mighty Networks",
+            "description": "Easy community platforms"
+          },
+          {
+            "title": "Slack free tier",
+            "description": "Small community spaces"
+          },
+          {
+            "title": "Notchlist",
+            "description": "Find podcasts to pitch as guest"
+          },
+          {
+            "title": "LinkedIn",
+            "description": "Direct message potential partners"
+          }
+        ]
+      },
+      {
+        "weekNumber": 12,
+        "phase": 4,
+        "phaseTitle": "Optimization",
+        "phaseSubtitle": "Scale & Refine",
+        "weekTitle": "Growth Roadmap & Transition to Sustainable Growth",
+        "description": "Synthesize 90 days of learning, celebrate progress, and design a sustainable growth roadmap for the next phase so momentum doesn't stop at Week 13.",
+        "objectives": [
+          "Measure progress against 90-day goals and celebrate wins",
+          "Analyze what worked, what didn't, and why",
+          "Design a sustainable marketing operating model for ongoing execution",
+          "Plan the next 90 days with refined strategy and priorities"
+        ],
+        "keyConceptTitle": "Week 12 Is the Beginning, Not the End",
+        "keyConceptSummary": "90 days were a sprint. Now build a marathon. Week 12 creates systems and plans that carry momentum forward. Sustainable model: Clear ownership, realistic cadence, evergreen systems, monthly reviews.",
+        "tasks": [
+          {
+            "id": "task-12-1",
+            "title": "Calculate 90-day results",
+            "description": "Week 1 baseline vs Week 12 actual across all success metrics. Quantify: Customers, subscribers, traffic growth, revenue impact. Document wins.",
+            "templateId": "roi-calculator",
+            "estimatedMinutes": 90
+          },
+          {
+            "id": "task-12-2",
+            "title": "Conduct 90-day retrospective",
+            "description": "By phase: What worked? Why? What didn't? Do less of? Identify 3-5 core learnings. Examples: 'Content > Paid Ads', 'LinkedIn works, TikTok doesn't'",
+            "templateId": "brand-health-scorecard",
+            "estimatedMinutes": 120
+          },
+          {
+            "id": "task-12-3",
+            "title": "Score your brand health",
+            "description": "Use Brand Health Scorecard: Awareness, preference, NPS/satisfaction, trust. Self-assess to show direction.",
+            "templateId": "brand-health-scorecard",
+            "estimatedMinutes": 90
+          },
+          {
+            "id": "task-12-4",
+            "title": "Create NPS survey",
+            "description": "Send to customers: 'On scale 0-10, recommend us? Why?' Responses show loyalty. Aim for 40+ NPS score.",
+            "templateId": "nps-template",
+            "estimatedMinutes": 60
+          },
+          {
+            "id": "task-12-5",
+            "title": "Design sustainable operating model",
+            "description": "Document: Ownership, weekly cadence (content Tuesday, email Wednesday, etc), tools, monthly review process",
+            "templateId": "content-calendar",
+            "estimatedMinutes": 120
+          },
+          {
+            "id": "task-12-6",
+            "title": "Plan next 90 days",
+            "description": "Which channels double down? Which stop? New tactics to test? Refine Q2 OKRs. Set new growth targets.",
+            "templateId": "okr-template",
+            "estimatedMinutes": 120
+          },
+          {
+            "id": "task-12-7",
+            "title": "Create 12-month growth roadmap",
+            "description": "Q1 milestones, Q2 initiatives, Q3 scaling, Q4 authority. This is your marketing GPS for next year.",
+            "templateId": "budget-planner",
+            "estimatedMinutes": 120
+          }
+        ],
+        "milestone": "90-day results summary, comprehensive retrospective with learnings, sustainable operating model, NPS results, and clear 90-day roadmap for next quarter",
+        "deliverable": "90day-retrospective-next-roadmap.pdf",
+        "reflectionPrompt": [
+          "What's the biggest progress made in 90 days? What does that success make possible?",
+          "If you could go back to Week 1 with what you know now, what would you do differently?"
+        ],
+        "communityTopic": "Celebrate your 90-day wins! What metric are you most proud of? What's your biggest learning?",
+        "estimatedHours": 8,
+        "bonusResources": [
+          {
+            "title": "Notion",
+            "description": "Build sustainable operating model dashboard"
+          },
+          {
+            "title": "Google Sheets",
+            "description": "Track quarterly progress against roadmap"
+          },
+          {
+            "title": "Calendly",
+            "description": "Systematize quarterly reviews"
+          }
+        ]
+      }
+    ],
+    "templateReference": {
+      "marketingAudit": "Week 1: Baseline audit across all channels",
+      "customerPersona": "Weeks 2, 4: Detailed audience understanding",
+      "brandMessaging": "Week 3: Positioning and messaging framework",
+      "competitorAnalysis": "Week 4: Competitive landscape",
+      "budgetPlanner": "Week 5: Budget allocation",
+      "okrTemplate": "Week 5: Growth objectives and key results",
+      "contentCalendar": "Week 6: Content planning and distribution",
+      "socialMediaStrategy": "Week 6: Channel-specific social approach",
+      "seoTracker": "Week 7: Keyword tracking and optimization",
+      "emailPlaybook": "Week 8: Email strategy and automation",
+      "landingPagePlanner": "Week 8: Lead capture pages",
+      "campaignDashboard": "Week 9: Campaign execution and tracking",
+      "roiCalculator": "Weeks 5, 10: Financial modeling",
+      "funnelTracker": "Week 10: Conversion funnel analysis",
+      "partnershipPlan": "Week 11: Strategic partnerships",
+      "communityPlaybook": "Week 11: Community building",
+      "brandHealthScorecard": "Week 12: Brand metrics",
+      "npsTemplate": "Week 12: Customer satisfaction"
+    },
+    "successMetrics": {
+      "description": "Track these across all 12 weeks",
+      "metrics": [
+        {
+          "name": "Website Traffic",
+          "category": "Awareness"
+        },
+        {
+          "name": "Email Subscribers",
+          "category": "List Growth"
+        },
+        {
+          "name": "Leads Generated",
+          "category": "Conversion"
+        },
+        {
+          "name": "Customers Acquired",
+          "category": "Revenue"
+        },
+        {
+          "name": "Customer Acquisition Cost (CAC)",
+          "category": "Economics"
+        },
+        {
+          "name": "Conversion Rate",
+          "category": "Efficiency"
+        },
+        {
+          "name": "Brand Awareness/Reach",
+          "category": "Positioning"
+        }
+      ]
+    },
+    "principles": [
+      "Clarity Over Noise — every activity produces clarity",
+      "Purpose Beyond Profit — marketing aligned to business outcomes",
+      "Actionable, Not Theoretical — tangible deliverables each week",
+      "Build on Progress — each week builds on previous learning",
+      "Sustainable Systems — by Week 12, systems run without heroic effort",
+      "Community as Asset — growth easier and more fun together"
+    ],
+    "graduationPaths": [
+      {
+        "title": "Advanced Marketing Masters",
+        "description": "Deeper mastery in specialized areas"
+      },
+      {
+        "title": "AI Strategy Builder",
+        "description": "Generate full annual strategy from refined 90-day learnings"
+      },
+      {
+        "title": "Community Membership",
+        "description": "Ongoing coaching and execution support"
+      },
+      {
+        "title": "Templates & Resources",
+        "description": "Lifetime access to all 41 templates and updates"
+      }
+    ]
+  }
+}

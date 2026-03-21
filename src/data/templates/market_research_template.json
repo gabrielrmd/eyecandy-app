@@ -1,0 +1,65 @@
+{
+  "id": "market_research_template",
+  "name": "Market Research Template",
+  "number": 36,
+  "category": "research",
+  "description": "Market Research Template - Marketing template for research professionals",
+  "instructions": "How to Use This Template 1. Research Brief Start by completing the Research Brief tab. Define your project name, objectives, research questions, and methodology. 2. Market Overview Document the market landscape, including TAM/SAM/SOM, key trends, and major players. 3. Collect Insights Use the Customer Insights tab to organize qualitative findings from various sources (surveys, interviews, focus groups, analytics). 4. Competitive Analysis Analyze competitors systematically using the Competitor Analysis tab. Track their positioning, strengths, weaknesses, and threat level. 5. Survey Results Docu",
+  "icon": "search",
+  "tags": [
+    "research"
+  ],
+  "estimatedTime": "70 min",
+  "sections": [
+    {
+      "id": "section_1",
+      "title": "Main Information",
+      "description": "Enter template information",
+      "fields": [
+        {
+          "id": "field_1",
+          "label": "Name",
+          "type": "text",
+          "placeholder": "Enter name",
+          "required": true
+        },
+        {
+          "id": "field_2",
+          "label": "Description",
+          "type": "textarea",
+          "placeholder": "Enter description",
+          "required": false
+        }
+      ]
+    }
+  ],
+  "dashboard": {
+    "metrics": [
+      {
+        "label": "Research Project Dashboard",
+        "calculation": "Count of records",
+        "format": "number"
+      },
+      {
+        "label": "Project Name",
+        "calculation": "Count of records",
+        "format": "number"
+      },
+      {
+        "label": "Research Objective",
+        "calculation": "Count of records",
+        "format": "number"
+      },
+      {
+        "label": "Status",
+        "calculation": "Count of records",
+        "format": "number"
+      },
+      {
+        "label": "Total Research Questions",
+        "calculation": "Count of records",
+        "format": "number"
+      }
+    ]
+  }
+}

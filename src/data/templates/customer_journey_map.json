@@ -1,0 +1,45 @@
+{
+  "id": "customer_journey_map",
+  "name": "Customer Journey Map",
+  "number": 16,
+  "category": "brand",
+  "description": "Customer Journey Map - Marketing template for brand professionals",
+  "instructions": "HOW TO USE THIS JOURNEY MAP Step 1: Define Your Personas Start with the Personas tab. Define 3-5 customer personas. Each journey map should be built for a specific persona \u2014 different customers have different journeys. Step 2: Map the Full Journey Go to the Journey Map tab. For each of the 6 stages (Awareness through Advocacy), fill in the touchpoints, customer actions, thoughts, emotions, pain points, and opportunities. Be honest about negative experiences. Step 3: Identify Touchpoints Use the Touchpoint Inventory to catalogue every interaction point across all channels. Rate each touchpoint ",
+  "icon": "briefcase",
+  "tags": [
+    "brand"
+  ],
+  "estimatedTime": "40 min",
+  "sections": [
+    {
+      "id": "section_1",
+      "title": "Main Information",
+      "description": "Enter template information",
+      "fields": [
+        {
+          "id": "field_1",
+          "label": "Name",
+          "type": "text",
+          "placeholder": "Enter name",
+          "required": true
+        },
+        {
+          "id": "field_2",
+          "label": "Description",
+          "type": "textarea",
+          "placeholder": "Enter description",
+          "required": false
+        }
+      ]
+    }
+  ],
+  "dashboard": {
+    "metrics": [
+      {
+        "label": "CUSTOMER JOURNEY DASHBOARD",
+        "calculation": "Count of records",
+        "format": "number"
+      }
+    ]
+  }
+}

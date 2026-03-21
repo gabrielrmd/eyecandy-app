@@ -1,0 +1,45 @@
+{
+  "id": "marketing_roi_calculator",
+  "name": "Marketing ROI Calculator",
+  "number": 17,
+  "category": "analytics",
+  "description": "Marketing ROI Calculator - Marketing template for analytics professionals",
+  "instructions": "HOW TO USE THIS ROI CALCULATOR Step 1: Set Up Channel ROI Go to Channel ROI. Enter your spend and revenue for each marketing channel. The template auto-calculates ROI, profit, and cost-per-acquisition for each channel. Step 2: Track Campaign ROI Use the Campaign ROI tab to log every campaign. Enter costs (ad spend, creative, tools, labour) and results (leads, conversions, revenue). ROI is auto-calculated. Step 3: Monitor Monthly Trends The Monthly ROI Tracker shows how your overall marketing performance evolves month over month. Enter monthly totals and watch the trends emerge. Step 4: Calcula",
+  "icon": "bar-chart",
+  "tags": [
+    "analytics"
+  ],
+  "estimatedTime": "55 min",
+  "sections": [
+    {
+      "id": "section_1",
+      "title": "Main Information",
+      "description": "Enter template information",
+      "fields": [
+        {
+          "id": "field_1",
+          "label": "Name",
+          "type": "text",
+          "placeholder": "Enter name",
+          "required": true
+        },
+        {
+          "id": "field_2",
+          "label": "Description",
+          "type": "textarea",
+          "placeholder": "Enter description",
+          "required": false
+        }
+      ]
+    }
+  ],
+  "dashboard": {
+    "metrics": [
+      {
+        "label": "MARKETING ROI DASHBOARD",
+        "calculation": "Count of records",
+        "format": "number"
+      }
+    ]
+  }
+}

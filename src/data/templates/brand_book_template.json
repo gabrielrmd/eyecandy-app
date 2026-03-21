@@ -1,0 +1,425 @@
+{
+  "id": "brand_book_template",
+  "name": "Brand Book Template",
+  "number": 40,
+  "category": "brand",
+  "description": "Brand Book Template - Marketing template for brand professionals",
+  "instructions": "How to Use This Template 1. Brand Foundation Define your brand purpose, mission, vision, values, and personality. 2. Visual Identity Document your logo system, colour palette, typography, and imagery style. 3. Tone of Voice Establish your brand voice, writing guidelines, and dos/don'ts. 4. Messaging Architecture Build your messaging hierarchy from tagline to elevator pitch to key messages. 5. Application Guidelines Set rules for how brand elements are applied across channels. 6. Asset Library Catalogue all brand assets with versions, formats, and access links. 7. Brand Audit Score your brand c",
+  "icon": "briefcase",
+  "tags": [
+    "brand"
+  ],
+  "estimatedTime": "40 min",
+  "sections": [
+    {
+      "id": "section_1",
+      "title": "Brand Foundation",
+      "description": "Configuration and tracking for Brand Foundation",
+      "fields": [
+        {
+          "id": "field_1",
+          "label": "Brand Foundation",
+          "type": "text",
+          "placeholder": "Enter brand foundation",
+          "required": false,
+          "helpText": "Brand Purpose"
+        },
+        {
+          "id": "field_2",
+          "label": "Brand Foundation",
+          "type": "text",
+          "placeholder": "Enter brand foundation",
+          "required": false,
+          "helpText": "Mission Statement"
+        },
+        {
+          "id": "field_3",
+          "label": "Brand Foundation",
+          "type": "text",
+          "placeholder": "Enter brand foundation",
+          "required": false,
+          "helpText": "Vision Statement"
+        },
+        {
+          "id": "field_4",
+          "label": "Brand Foundation",
+          "type": "text",
+          "placeholder": "Enter brand foundation",
+          "required": false,
+          "helpText": "Brand Promise"
+        },
+        {
+          "id": "field_5",
+          "label": "Brand Foundation",
+          "type": "text",
+          "placeholder": "Enter brand foundation",
+          "required": false,
+          "helpText": "Brand Values"
+        },
+        {
+          "id": "field_6",
+          "label": "Brand Foundation",
+          "type": "text",
+          "placeholder": "Enter brand foundation",
+          "required": false,
+          "helpText": "   Value 1"
+        },
+        {
+          "id": "field_7",
+          "label": "Brand Foundation",
+          "type": "text",
+          "placeholder": "Enter brand foundation",
+          "required": false,
+          "helpText": "   Value 2"
+        },
+        {
+          "id": "field_8",
+          "label": "Brand Foundation",
+          "type": "text",
+          "placeholder": "Enter brand foundation",
+          "required": false,
+          "helpText": "   Value 3"
+        },
+        {
+          "id": "field_9",
+          "label": "Brand Foundation",
+          "type": "text",
+          "placeholder": "Enter brand foundation",
+          "required": false,
+          "helpText": "   Value 4"
+        },
+        {
+          "id": "field_10",
+          "label": "Brand Foundation",
+          "type": "text",
+          "placeholder": "Enter brand foundation",
+          "required": false,
+          "helpText": "   Value 5"
+        },
+        {
+          "id": "field_11",
+          "label": "Brand Foundation",
+          "type": "text",
+          "placeholder": "Enter brand foundation",
+          "required": false,
+          "helpText": "Brand Personality"
+        },
+        {
+          "id": "field_12",
+          "label": "Brand Foundation",
+          "type": "text",
+          "placeholder": "Enter brand foundation",
+          "required": false,
+          "helpText": "   Trait 1"
+        },
+        {
+          "id": "field_13",
+          "label": "Brand Foundation",
+          "type": "text",
+          "placeholder": "Enter brand foundation",
+          "required": false,
+          "helpText": "   Trait 2"
+        },
+        {
+          "id": "field_14",
+          "label": "Brand Foundation",
+          "type": "text",
+          "placeholder": "Enter brand foundation",
+          "required": false,
+          "helpText": "   Trait 3"
+        },
+        {
+          "id": "field_15",
+          "label": "Brand Foundation",
+          "type": "text",
+          "placeholder": "Enter brand foundation",
+          "required": false,
+          "helpText": "   Trait 4"
+        },
+        {
+          "id": "field_16",
+          "label": "Brand Foundation",
+          "type": "text",
+          "placeholder": "Enter brand foundation",
+          "required": false,
+          "helpText": "   Trait 5"
+        },
+        {
+          "id": "field_17",
+          "label": "Brand Foundation",
+          "type": "text",
+          "placeholder": "Enter brand foundation",
+          "required": false,
+          "helpText": "Brand Archetype"
+        },
+        {
+          "id": "field_18",
+          "label": "Brand Foundation",
+          "type": "text",
+          "placeholder": "Enter brand foundation",
+          "required": false,
+          "helpText": "Target Audience"
+        },
+        {
+          "id": "field_19",
+          "label": "Brand Foundation",
+          "type": "text",
+          "placeholder": "Enter brand foundation",
+          "required": false,
+          "helpText": "Brand Positioning"
+        },
+        {
+          "id": "field_20",
+          "label": "Brand Foundation",
+          "type": "text",
+          "placeholder": "Enter brand foundation",
+          "required": false,
+          "helpText": "Competitive Differentiation"
+        },
+        {
+          "id": "field_21",
+          "label": "Brand Foundation",
+          "type": "text",
+          "placeholder": "Enter brand foundation",
+          "required": false,
+          "helpText": "Brand Story"
+        }
+      ]
+    },
+    {
+      "id": "section_3",
+      "title": "Tone of Voice",
+      "description": "Configuration and tracking for Tone of Voice",
+      "fields": [
+        {
+          "id": "field_1",
+          "label": "Tone of Voice",
+          "type": "text",
+          "placeholder": "Enter tone of voice",
+          "required": false,
+          "helpText": "Voice Characteristics"
+        },
+        {
+          "id": "field_2",
+          "label": "Tone of Voice",
+          "type": "text",
+          "placeholder": "Enter tone of voice",
+          "required": false,
+          "helpText": "Characteristic"
+        },
+        {
+          "id": "field_3",
+          "label": "Tone of Voice",
+          "type": "text",
+          "placeholder": "Enter tone of voice",
+          "required": false,
+          "helpText": "Confident"
+        },
+        {
+          "id": "field_4",
+          "label": "Tone of Voice",
+          "type": "text",
+          "placeholder": "Enter tone of voice",
+          "required": false,
+          "helpText": "Warm"
+        },
+        {
+          "id": "field_5",
+          "label": "Tone of Voice",
+          "type": "text",
+          "placeholder": "Enter tone of voice",
+          "required": false,
+          "helpText": "Clear"
+        },
+        {
+          "id": "field_6",
+          "label": "Tone of Voice",
+          "type": "text",
+          "placeholder": "Enter tone of voice",
+          "required": false,
+          "helpText": "Bold"
+        },
+        {
+          "id": "field_7",
+          "label": "Tone of Voice",
+          "type": "text",
+          "placeholder": "Enter tone of voice",
+          "required": false,
+          "helpText": "Empathetic"
+        },
+        {
+          "id": "field_8",
+          "label": "Tone of Voice",
+          "type": "text",
+          "placeholder": "Enter tone of voice",
+          "required": false,
+          "helpText": "Writing Guidelines by Channel"
+        },
+        {
+          "id": "field_9",
+          "label": "Tone of Voice",
+          "type": "text",
+          "placeholder": "Enter tone of voice",
+          "required": false,
+          "helpText": "Channel"
+        },
+        {
+          "id": "field_10",
+          "label": "Tone of Voice",
+          "type": "text",
+          "placeholder": "Enter tone of voice",
+          "required": false,
+          "helpText": "Website"
+        },
+        {
+          "id": "field_11",
+          "label": "Tone of Voice",
+          "type": "text",
+          "placeholder": "Enter tone of voice",
+          "required": false,
+          "helpText": "Email"
+        },
+        {
+          "id": "field_12",
+          "label": "Tone of Voice",
+          "type": "text",
+          "placeholder": "Enter tone of voice",
+          "required": false,
+          "helpText": "Social Media"
+        },
+        {
+          "id": "field_13",
+          "label": "Tone of Voice",
+          "type": "text",
+          "placeholder": "Enter tone of voice",
+          "required": false,
+          "helpText": "Blog"
+        },
+        {
+          "id": "field_14",
+          "label": "Tone of Voice",
+          "type": "text",
+          "placeholder": "Enter tone of voice",
+          "required": false,
+          "helpText": "Presentations"
+        },
+        {
+          "id": "field_15",
+          "label": "Tone of Voice",
+          "type": "text",
+          "placeholder": "Enter tone of voice",
+          "required": false,
+          "helpText": "Customer Support"
+        }
+      ]
+    },
+    {
+      "id": "section_4",
+      "title": "Messaging Architecture",
+      "description": "Configuration and tracking for Messaging Architecture",
+      "fields": [
+        {
+          "id": "field_1",
+          "label": "Messaging Architecture",
+          "type": "text",
+          "placeholder": "Enter messaging architecture",
+          "required": false,
+          "helpText": "Core Messaging"
+        },
+        {
+          "id": "field_2",
+          "label": "Messaging Architecture",
+          "type": "text",
+          "placeholder": "Enter messaging architecture",
+          "required": false,
+          "helpText": "Tagline"
+        },
+        {
+          "id": "field_3",
+          "label": "Messaging Architecture",
+          "type": "text",
+          "placeholder": "Enter messaging architecture",
+          "required": false,
+          "helpText": "Elevator Pitch"
+        },
+        {
+          "id": "field_4",
+          "label": "Messaging Architecture",
+          "type": "text",
+          "placeholder": "Enter messaging architecture",
+          "required": false,
+          "helpText": "Brand Statement"
+        },
+        {
+          "id": "field_5",
+          "label": "Messaging Architecture",
+          "type": "text",
+          "placeholder": "Enter messaging architecture",
+          "required": false,
+          "helpText": "Boilerplate"
+        },
+        {
+          "id": "field_6",
+          "label": "Messaging Architecture",
+          "type": "text",
+          "placeholder": "Enter messaging architecture",
+          "required": false,
+          "helpText": "Message Pillars"
+        },
+        {
+          "id": "field_7",
+          "label": "Messaging Architecture",
+          "type": "text",
+          "placeholder": "Enter messaging architecture",
+          "required": false,
+          "helpText": "Pillar"
+        },
+        {
+          "id": "field_8",
+          "label": "Messaging Architecture",
+          "type": "text",
+          "placeholder": "Enter messaging architecture",
+          "required": false,
+          "helpText": "Audience-Specific Messaging"
+        },
+        {
+          "id": "field_9",
+          "label": "Messaging Architecture",
+          "type": "text",
+          "placeholder": "Enter messaging architecture",
+          "required": false,
+          "helpText": "Audience"
+        }
+      ]
+    }
+  ],
+  "dashboard": {
+    "metrics": [
+      {
+        "label": "Metric",
+        "calculation": "Value",
+        "format": "number"
+      },
+      {
+        "label": "Brand Elements Documented",
+        "calculation": "Count of records",
+        "format": "number"
+      },
+      {
+        "label": "Visual Identity Completion",
+        "calculation": "Count of records",
+        "format": "number"
+      },
+      {
+        "label": "Tone of Voice Guidelines",
+        "calculation": "13",
+        "format": "number"
+      },
+      {
+        "label": "Messaging Pillars",
+        "calculation": "5",
+        "format": "number"
+      }
+    ]
+  }
+}

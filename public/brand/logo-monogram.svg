@@ -1,0 +1,68 @@
+<svg viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+  <!--
+    Advertising Unplugged - Logo Monogram
+    Concept: Geometric AU with disconnected plug metaphor
+    Usage: Favicons, social avatars, app icons, small applications
+
+    The design combines:
+    - Clean geometric letterforms (A and U)
+    - A subtle disconnected/unplugged visual element
+    - Balanced proportions for icon scaling
+    - Works on both light and dark backgrounds
+  -->
+
+  <defs>
+    <style>
+      .au-primary { fill: #1a1f2e; }
+      .au-accent { fill: #e8384f; }
+      .au-stroke { stroke: #1a1f2e; stroke-width: 3; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+    </style>
+  </defs>
+
+  <!-- Background (optional - remove for transparent) -->
+  <rect width="256" height="256" fill="none"/>
+
+  <!-- Main container group -->
+  <g id="logo-monogram">
+
+    <!-- Left: Letter A -->
+    <!-- A is formed as a geometric triangle with a crossbar -->
+    <g id="letter-a">
+      <!-- Left diagonal line of A -->
+      <line x1="50" y1="170" x2="85" y2="50" class="au-stroke"/>
+
+      <!-- Right diagonal line of A -->
+      <line x1="120" y1="170" x2="85" y2="50" class="au-stroke"/>
+
+      <!-- Horizontal crossbar -->
+      <line x1="60" y1="120" x2="110" y2="120" class="au-stroke"/>
+
+      <!-- Base connecting line -->
+      <line x1="50" y1="170" x2="120" y2="170" class="au-stroke"/>
+    </g>
+
+    <!-- Right: Letter U -->
+    <!-- U is a rounded bottom curve with straight sides -->
+    <g id="letter-u">
+      <!-- Left vertical of U -->
+      <line x1="136" y1="50" x2="136" y2="150" class="au-stroke"/>
+
+      <!-- Right vertical of U -->
+      <line x1="206" y1="50" x2="206" y2="150" class="au-stroke"/>
+
+      <!-- Bottom curve of U (arc approximated with line) -->
+      <path d="M 136 150 Q 171 190 206 150" class="au-stroke"/>
+    </g>
+
+    <!-- Accent element: Unplugged symbolism -->
+    <!-- A subtle disconnected element that breaks the grid -->
+    <g id="unplugged-accent">
+      <!-- Small circle representing disconnection -->
+      <circle cx="171" cy="85" r="8" class="au-accent"/>
+
+      <!-- Two small lines suggesting separation/disconnect -->
+      <line x1="171" y1="95" x2="171" y2="105" class="au-stroke" stroke="#e8384f" stroke-width="2"/>
+      <line x1="171" y1="110" x2="171" y2="120" class="au-stroke" stroke="#e8384f" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

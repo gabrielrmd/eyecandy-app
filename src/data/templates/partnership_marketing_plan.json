@@ -1,0 +1,66 @@
+{
+  "id": "partnership_marketing_plan",
+  "name": "Partnership Marketing Plan",
+  "number": 32,
+  "category": "growth",
+  "description": "Partnership Marketing Plan - Marketing template for growth professionals",
+  "instructions": "How to Use This Workbook Section Description Dashboard View key metrics and KPIs at a glance. Auto-calculated from data in other tabs. Partner Database Centralized list of all partners with contact info, type, industry, and status. Partnership Scorecard Track individual partner performance with revenue, leads, and engagement metrics. Campaign Tracker Monitor all partnership campaigns with budgets, spending, and ROI calculations. Revenue Sharing Manage deal structures and revenue splits with automated calculations. Joint Content Plan Coordinate co-created content with partners across all platfo",
+  "icon": "trending-up",
+  "tags": [
+    "strategy",
+    "growth"
+  ],
+  "estimatedTime": "65 min",
+  "sections": [
+    {
+      "id": "section_1",
+      "title": "Main Information",
+      "description": "Enter template information",
+      "fields": [
+        {
+          "id": "field_1",
+          "label": "Name",
+          "type": "text",
+          "placeholder": "Enter name",
+          "required": true
+        },
+        {
+          "id": "field_2",
+          "label": "Description",
+          "type": "textarea",
+          "placeholder": "Enter description",
+          "required": false
+        }
+      ]
+    }
+  ],
+  "dashboard": {
+    "metrics": [
+      {
+        "label": "Partnership Marketing Dashboard",
+        "calculation": "Count of records",
+        "format": "number"
+      },
+      {
+        "label": "Total Active Partners",
+        "calculation": "Count of records",
+        "format": "number"
+      },
+      {
+        "label": "Total Revenue Generated",
+        "calculation": "Count of records",
+        "format": "number"
+      },
+      {
+        "label": "Total Leads Generated",
+        "calculation": "Count of records",
+        "format": "number"
+      },
+      {
+        "label": "Average Partner ROI",
+        "calculation": "Count of records",
+        "format": "number"
+      }
+    ]
+  }
+}

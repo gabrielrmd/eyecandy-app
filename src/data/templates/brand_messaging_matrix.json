@@ -1,0 +1,50 @@
+{
+  "id": "brand_messaging_matrix",
+  "name": "Brand Messaging Matrix",
+  "number": 5,
+  "category": "brand",
+  "description": "Brand Messaging Matrix - Marketing template for brand professionals",
+  "instructions": "How to Use This Template Step 1: Define Your Brand Foundation Start with the Brand Foundation tab. This is your strategic core \u2014 positioning statement, mission, vision, values, and brand personality. Everything else flows from here. If you cannot fill this in clearly, stop and workshop it before moving on. Step 2: Build Your Messaging Pillars Go to the Messaging Pillars tab. Define 3-5 core messages that support your positioning. Each pillar should have a headline, supporting narrative, proof points, and an emotional hook. These are the themes you will repeat across every channel. Step 3: Map ",
+  "icon": "briefcase",
+  "tags": [
+    "brand"
+  ],
+  "estimatedTime": "40 min",
+  "sections": [
+    {
+      "id": "section_1",
+      "title": "Main Information",
+      "description": "Enter template information",
+      "fields": [
+        {
+          "id": "field_1",
+          "label": "Name",
+          "type": "text",
+          "placeholder": "Enter name",
+          "required": true
+        },
+        {
+          "id": "field_2",
+          "label": "Description",
+          "type": "textarea",
+          "placeholder": "Enter description",
+          "required": false
+        }
+      ]
+    }
+  ],
+  "dashboard": {
+    "metrics": [
+      {
+        "label": "Completion Rate",
+        "calculation": "Fields completed / Total fields",
+        "format": "percentage"
+      },
+      {
+        "label": "Total Sections",
+        "calculation": "Number of form sections",
+        "format": "number"
+      }
+    ]
+  }
+}

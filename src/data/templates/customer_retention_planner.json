@@ -1,0 +1,66 @@
+{
+  "id": "customer_retention_planner",
+  "name": "Customer Retention Planner",
+  "number": 37,
+  "category": "growth",
+  "description": "Customer Retention Planner - Marketing template for growth professionals",
+  "instructions": "HOW TO USE THIS PLANNER Dashboard Start here to see your key retention metrics at a glance. Monitor your retention rate, churn rate, customer lifetime value, and NPS score. Retention Metrics Track monthly performance metrics including active customers, new customers, churn, and revenue retention. Customer Health Score Assess the health of each customer using usage, engagement, and support metrics. Identify at-risk customers before they churn. Churn Analysis Document and analyze churned customers. Understand why customers leave and identify patterns. Loyalty Programme Manage your customer loyal",
+  "icon": "trending-up",
+  "tags": [
+    "strategy",
+    "growth"
+  ],
+  "estimatedTime": "65 min",
+  "sections": [
+    {
+      "id": "section_1",
+      "title": "Main Information",
+      "description": "Enter template information",
+      "fields": [
+        {
+          "id": "field_1",
+          "label": "Name",
+          "type": "text",
+          "placeholder": "Enter name",
+          "required": true
+        },
+        {
+          "id": "field_2",
+          "label": "Description",
+          "type": "textarea",
+          "placeholder": "Enter description",
+          "required": false
+        }
+      ]
+    }
+  ],
+  "dashboard": {
+    "metrics": [
+      {
+        "label": "DASHBOARD",
+        "calculation": "Count of records",
+        "format": "number"
+      },
+      {
+        "label": "Active Customers",
+        "calculation": "500",
+        "format": "number"
+      },
+      {
+        "label": "Churned Customers",
+        "calculation": "25",
+        "format": "number"
+      },
+      {
+        "label": "Average MRR per Customer",
+        "calculation": "100",
+        "format": "number"
+      },
+      {
+        "label": "Average Customer Lifetime (months)",
+        "calculation": "36",
+        "format": "number"
+      }
+    ]
+  }
+}

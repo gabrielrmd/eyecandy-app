@@ -1,0 +1,66 @@
+{
+  "id": "event_marketing_planner",
+  "name": "Event Marketing Planner",
+  "number": 20,
+  "category": "content",
+  "description": "Event Marketing Planner - Marketing template for content professionals",
+  "instructions": "HOW TO USE THIS TEMPLATE Step 1: Map Your Event Portfolio Start with the Event Portfolio tab. List all events for the year \u2014 conferences, webinars, workshops, trade shows, networking events. This gives you a bird's-eye view of your event calendar. Step 2: Create Event Briefs For each major event, create a detailed brief in the Event Brief tab. Define objectives, target audience, key messages, format, and success metrics before committing budget. Step 3: Set Your Budget Use the Budget Tracker to allocate and track costs across categories: venue, catering, speakers, technology, promotion, staffi",
+  "icon": "file-text",
+  "tags": [
+    "strategy",
+    "content"
+  ],
+  "estimatedTime": "45 min",
+  "sections": [
+    {
+      "id": "section_1",
+      "title": "Main Information",
+      "description": "Enter template information",
+      "fields": [
+        {
+          "id": "field_1",
+          "label": "Name",
+          "type": "text",
+          "placeholder": "Enter name",
+          "required": true
+        },
+        {
+          "id": "field_2",
+          "label": "Description",
+          "type": "textarea",
+          "placeholder": "Enter description",
+          "required": false
+        }
+      ]
+    }
+  ],
+  "dashboard": {
+    "metrics": [
+      {
+        "label": "EVENT MARKETING DASHBOARD",
+        "calculation": "Count of records",
+        "format": "number"
+      },
+      {
+        "label": "Total Events",
+        "calculation": "Count of records",
+        "format": "number"
+      },
+      {
+        "label": "Source: Event Portfolio",
+        "calculation": "Count of records",
+        "format": "number"
+      },
+      {
+        "label": "Events by Type",
+        "calculation": "Count of records",
+        "format": "number"
+      },
+      {
+        "label": "Event Type",
+        "calculation": "Count",
+        "format": "number"
+      }
+    ]
+  }
+}

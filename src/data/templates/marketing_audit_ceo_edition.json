@@ -1,0 +1,50 @@
+{
+  "id": "marketing_audit_ceo_edition",
+  "name": "Marketing Audit CEO Edition",
+  "number": 2,
+  "category": "strategy",
+  "description": "Marketing Audit CEO Edition - Marketing template for strategy professionals",
+  "instructions": "How to Use This Template This audit is designed for a 60-90 minute strategic review. Step What to Do 1. Block 90 minutes Do this alone first. No marketing team in the room. You want your unfiltered perspective on whether marketing is delivering value to the business. 2. Open the Audit tab 40 questions across 8 strategic categories. These are not tactical \u2014 they are the questions a board member, investor, or acquirer would ask about your marketing function. 3. Score honestly (1-5) 1 = We have no visibility on this\n2 = We are aware but not acting\n3 = In progress but inconsistent\n4 = Solid and me",
+  "icon": "target",
+  "tags": [
+    "audit"
+  ],
+  "estimatedTime": "60 min",
+  "sections": [
+    {
+      "id": "section_1",
+      "title": "Main Information",
+      "description": "Enter template information",
+      "fields": [
+        {
+          "id": "field_1",
+          "label": "Name",
+          "type": "text",
+          "placeholder": "Enter name",
+          "required": true
+        },
+        {
+          "id": "field_2",
+          "label": "Description",
+          "type": "textarea",
+          "placeholder": "Enter description",
+          "required": false
+        }
+      ]
+    }
+  ],
+  "dashboard": {
+    "metrics": [
+      {
+        "label": "Completion Rate",
+        "calculation": "Fields completed / Total fields",
+        "format": "percentage"
+      },
+      {
+        "label": "Total Sections",
+        "calculation": "Number of form sections",
+        "format": "number"
+      }
+    ]
+  }
+}

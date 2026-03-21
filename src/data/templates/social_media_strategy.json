@@ -1,0 +1,51 @@
+{
+  "id": "social_media_strategy",
+  "name": "Social Media Strategy",
+  "number": 7,
+  "category": "channels",
+  "description": "Social Media Strategy - Marketing template for channels professionals",
+  "instructions": "How to Use This Template Step 1: Define Your Strategy Foundation Start with the Strategy tab. Set your goals, target audience, and brand voice for social. This is your north star \u2014 every post, comment, and campaign should tie back to this. Step 2: Choose Your Platforms Fill in the Platform Audit tab. Be honest about where your audience actually is \u2014 not where you wish they were. Score each platform and commit to 2-3. Step 3: Build Your Content Pillars Define 3-5 recurring themes for your content. These become your content pillars. They keep you focused and give your audience a reason to follow",
+  "icon": "share-2",
+  "tags": [
+    "strategy",
+    "channels"
+  ],
+  "estimatedTime": "50 min",
+  "sections": [
+    {
+      "id": "section_1",
+      "title": "Main Information",
+      "description": "Enter template information",
+      "fields": [
+        {
+          "id": "field_1",
+          "label": "Name",
+          "type": "text",
+          "placeholder": "Enter name",
+          "required": true
+        },
+        {
+          "id": "field_2",
+          "label": "Description",
+          "type": "textarea",
+          "placeholder": "Enter description",
+          "required": false
+        }
+      ]
+    }
+  ],
+  "dashboard": {
+    "metrics": [
+      {
+        "label": "Completion Rate",
+        "calculation": "Fields completed / Total fields",
+        "format": "percentage"
+      },
+      {
+        "label": "Total Sections",
+        "calculation": "Number of form sections",
+        "format": "number"
+      }
+    ]
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "id": "community_marketing_playbook",
+  "name": "Community Marketing Playbook",
+  "number": 38,
+  "category": "growth",
+  "description": "Community Marketing Playbook - Marketing template for growth professionals",
+  "instructions": "How to Use This Playbook 1. Community Strategy Define your community's mission, target members, growth goals, and success metrics. This is your north star document. 2. Member Tracker Record all community members, their engagement level, contributions, and status. Use this to identify champions and at-risk members. 3. Content Calendar Plan your community content weeks or months in advance. Include discussion topics, polls, AMAs, resources, and spotlights. 4. Event Planner Organize community events \u2013 virtual meetups, workshops, hackathons, or conferences. Track attendance and feedback. 5. Ambass",
+  "icon": "trending-up",
+  "tags": [
+    "growth"
+  ],
+  "estimatedTime": "65 min",
+  "sections": [
+    {
+      "id": "section_1",
+      "title": "Main Information",
+      "description": "Enter template information",
+      "fields": [
+        {
+          "id": "field_1",
+          "label": "Name",
+          "type": "text",
+          "placeholder": "Enter name",
+          "required": true
+        },
+        {
+          "id": "field_2",
+          "label": "Description",
+          "type": "textarea",
+          "placeholder": "Enter description",
+          "required": false
+        }
+      ]
+    }
+  ],
+  "dashboard": {
+    "metrics": [
+      {
+        "label": "Community Health Dashboard",
+        "calculation": "Count of records",
+        "format": "number"
+      },
+      {
+        "label": "Total Members",
+        "calculation": "Count of records",
+        "format": "number"
+      },
+      {
+        "label": "Active Members (30 days)",
+        "calculation": "Count of records",
+        "format": "number"
+      },
+      {
+        "label": "Engagement Rate (%)",
+        "calculation": "Count of records",
+        "format": "number"
+      },
+      {
+        "label": "New Members (This Month)",
+        "calculation": "Count of records",
+        "format": "number"
+      }
+    ]
+  }
+}

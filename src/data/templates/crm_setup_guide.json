@@ -1,0 +1,259 @@
+{
+  "id": "crm_setup_guide",
+  "name": "CRM Setup Guide",
+  "number": 13,
+  "category": "growth",
+  "description": "CRM Setup Guide - Marketing template for growth professionals",
+  "instructions": "How to Use This Template Step 1: Design Your Pipeline Go to the Pipeline Design tab. Define your sales stages, exit criteria, and expected conversion rates. This is the backbone of your CRM. Step 2: Map Contact Properties Use the Contact Properties tab to define every field your CRM needs \u2014 standard and custom. Mark which are required vs optional. Step 3: Plan Automations The Automations tab helps you map trigger-based workflows: lead assignment, email sequences, task creation, and stage changes. Step 4: Define Integrations List every tool that connects to your CRM in the Integrations tab \u2014 ma",
+  "icon": "trending-up",
+  "tags": [
+    "growth"
+  ],
+  "estimatedTime": "65 min",
+  "sections": [
+    {
+      "id": "section_1",
+      "title": "Pipeline Design",
+      "description": "Configuration and tracking for Pipeline Design",
+      "fields": [
+        {
+          "id": "field_1",
+          "label": "Pipeline Design",
+          "type": "text",
+          "placeholder": "Enter pipeline design",
+          "required": false,
+          "helpText": "Define every stage in your sales pipeline. Be specific about exit criteria."
+        },
+        {
+          "id": "field_2",
+          "label": "Pipeline Design",
+          "type": "text",
+          "placeholder": "Enter pipeline design",
+          "required": false,
+          "helpText": "SALES PIPELINE STAGES"
+        },
+        {
+          "id": "field_3",
+          "label": "Pipeline Design",
+          "type": "text",
+          "placeholder": "Enter pipeline design",
+          "required": false,
+          "helpText": "Order"
+        },
+        {
+          "id": "field_4",
+          "label": "Pipeline Design",
+          "type": "number",
+          "placeholder": "Enter pipeline design",
+          "required": false,
+          "validation": {
+            "min": 0,
+            "max": 1000
+          }
+        },
+        {
+          "id": "field_5",
+          "label": "Pipeline Design",
+          "type": "number",
+          "placeholder": "Enter pipeline design",
+          "required": false,
+          "validation": {
+            "min": 0,
+            "max": 1000
+          }
+        },
+        {
+          "id": "field_6",
+          "label": "Pipeline Design",
+          "type": "number",
+          "placeholder": "Enter pipeline design",
+          "required": false,
+          "validation": {
+            "min": 0,
+            "max": 1000
+          }
+        },
+        {
+          "id": "field_7",
+          "label": "Pipeline Design",
+          "type": "number",
+          "placeholder": "Enter pipeline design",
+          "required": false,
+          "validation": {
+            "min": 0,
+            "max": 1000
+          }
+        },
+        {
+          "id": "field_8",
+          "label": "Pipeline Design",
+          "type": "number",
+          "placeholder": "Enter pipeline design",
+          "required": false,
+          "validation": {
+            "min": 0,
+            "max": 1000
+          }
+        },
+        {
+          "id": "field_9",
+          "label": "Pipeline Design",
+          "type": "number",
+          "placeholder": "Enter pipeline design",
+          "required": false,
+          "validation": {
+            "min": 0,
+            "max": 1000
+          }
+        },
+        {
+          "id": "field_10",
+          "label": "Pipeline Design",
+          "type": "number",
+          "placeholder": "Enter pipeline design",
+          "required": false,
+          "validation": {
+            "min": 0,
+            "max": 1000
+          }
+        },
+        {
+          "id": "field_11",
+          "label": "Pipeline Design",
+          "type": "number",
+          "placeholder": "Enter pipeline design",
+          "required": false,
+          "validation": {
+            "min": 0,
+            "max": 1000
+          }
+        },
+        {
+          "id": "field_12",
+          "label": "Pipeline Design",
+          "type": "number",
+          "placeholder": "Enter pipeline design",
+          "required": false,
+          "validation": {
+            "min": 0,
+            "max": 1000
+          }
+        },
+        {
+          "id": "field_13",
+          "label": "Pipeline Design",
+          "type": "number",
+          "placeholder": "Enter pipeline design",
+          "required": false,
+          "validation": {
+            "min": 0,
+            "max": 1000
+          }
+        },
+        {
+          "id": "field_14",
+          "label": "Pipeline Design",
+          "type": "number",
+          "placeholder": "Enter pipeline design",
+          "required": false,
+          "validation": {
+            "min": 0,
+            "max": 1000
+          }
+        },
+        {
+          "id": "field_15",
+          "label": "Pipeline Design",
+          "type": "number",
+          "placeholder": "Enter pipeline design",
+          "required": false,
+          "validation": {
+            "min": 0,
+            "max": 1000
+          }
+        },
+        {
+          "id": "field_16",
+          "label": "Pipeline Design",
+          "type": "number",
+          "placeholder": "Enter pipeline design",
+          "required": false,
+          "validation": {
+            "min": 0,
+            "max": 1000
+          }
+        },
+        {
+          "id": "field_17",
+          "label": "Pipeline Design",
+          "type": "number",
+          "placeholder": "Enter pipeline design",
+          "required": false,
+          "validation": {
+            "min": 0,
+            "max": 1000
+          }
+        },
+        {
+          "id": "field_18",
+          "label": "Pipeline Design",
+          "type": "number",
+          "placeholder": "Enter pipeline design",
+          "required": false,
+          "validation": {
+            "min": 0,
+            "max": 1000
+          }
+        },
+        {
+          "id": "field_19",
+          "label": "Pipeline Design",
+          "type": "number",
+          "placeholder": "Enter pipeline design",
+          "required": false,
+          "validation": {
+            "min": 0,
+            "max": 1000
+          }
+        },
+        {
+          "id": "field_20",
+          "label": "Pipeline Design",
+          "type": "text",
+          "placeholder": "Enter pipeline design",
+          "required": false,
+          "helpText": "Completion"
+        }
+      ]
+    }
+  ],
+  "dashboard": {
+    "metrics": [
+      {
+        "label": "Track your CRM implementation progress",
+        "calculation": "Count of records",
+        "format": "number"
+      },
+      {
+        "label": "IMPLEMENTATION PROGRESS",
+        "calculation": "Count of records",
+        "format": "number"
+      },
+      {
+        "label": "Section",
+        "calculation": "Completion",
+        "format": "number"
+      },
+      {
+        "label": "Pipeline Design",
+        "calculation": "0.5",
+        "format": "number"
+      },
+      {
+        "label": "Contact Properties",
+        "calculation": "0.3157894736842105",
+        "format": "number"
+      }
+    ]
+  }
+}

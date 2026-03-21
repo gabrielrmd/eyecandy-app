@@ -1,0 +1,65 @@
+{
+  "id": "nps_template",
+  "name": "NPS Template",
+  "number": 42,
+  "category": "research",
+  "description": "NPS Template - Marketing template for research professionals",
+  "instructions": "How to Use the NPS Template NPS Methodology Net Promoter Score measures customer loyalty on a 0-10 scale:\n\u2022 Promoters (9-10): Loyal enthusiasts who drive growth\n\u2022 Passives (7-8): Satisfied but not enthusiastic; vulnerable to competition\n\u2022 Detractors (0-6): Unhappy customers who may damage your brand Response Log Enter customer feedback here. For each response:\n1. Assign a unique Response ID\n2. Record the date and customer details\n3. Select NPS score (0-10) from dropdown\n4. The Category column auto-calculates (Promoter/Passive/Detractor)\n5. Capture verbatim feedback for analysis\n6. Track follow",
+  "icon": "search",
+  "tags": [
+    "research"
+  ],
+  "estimatedTime": "70 min",
+  "sections": [
+    {
+      "id": "section_1",
+      "title": "Main Information",
+      "description": "Enter template information",
+      "fields": [
+        {
+          "id": "field_1",
+          "label": "Name",
+          "type": "text",
+          "placeholder": "Enter name",
+          "required": true
+        },
+        {
+          "id": "field_2",
+          "label": "Description",
+          "type": "textarea",
+          "placeholder": "Enter description",
+          "required": false
+        }
+      ]
+    }
+  ],
+  "dashboard": {
+    "metrics": [
+      {
+        "label": "NPS Dashboard",
+        "calculation": "Count of records",
+        "format": "number"
+      },
+      {
+        "label": "Current NPS Score",
+        "calculation": "Total Responses",
+        "format": "number"
+      },
+      {
+        "label": "Response Summary",
+        "calculation": "Count of records",
+        "format": "number"
+      },
+      {
+        "label": "Metric",
+        "calculation": "Value",
+        "format": "number"
+      },
+      {
+        "label": "Total Responses",
+        "calculation": "195",
+        "format": "number"
+      }
+    ]
+  }
+}

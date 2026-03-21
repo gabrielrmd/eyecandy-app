@@ -1,0 +1,71 @@
+<svg viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+  <!--
+    Advertising Unplugged - Logo Icon
+    Concept: Standalone symbol representing "unplugged" authenticity
+    Usage: Favicon, social media icon, standalone mark
+
+    Visual metaphor:
+    - Central void/open space represents authenticity and clarity
+    - Disconnected elements suggest "unplugged" from noise
+    - Geometric but warm approach
+    - Works at small sizes (16px+)
+  -->
+
+  <defs>
+    <style>
+      .icon-primary { fill: #1a1f2e; }
+      .icon-accent { fill: #e8384f; }
+      .icon-stroke { stroke: #1a1f2e; stroke-width: 2.5; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+      .icon-accent-stroke { stroke: #e8384f; stroke-width: 2.5; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+    </style>
+  </defs>
+
+  <!-- Outer circle frame (optional background indicator) -->
+  <circle cx="128" cy="128" r="120" fill="none" stroke="#e9ecef" stroke-width="1" opacity="0.5"/>
+
+  <!-- Main iconic element: Acoustic/unplugged symbolism -->
+  <g id="core-icon" transform="translate(128, 128)">
+
+    <!-- Central open circle (clarity/void) -->
+    <circle cx="0" cy="0" r="35" class="icon-stroke" stroke-width="2"/>
+
+    <!-- Top section: Curved lines suggesting sound/authentic communication -->
+    <g id="top-section">
+      <!-- Arc lines radiating upward -->
+      <path d="M -20 -35 Q -20 -55 0 -60 Q 20 -55 20 -35" class="icon-stroke" stroke-width="2"/>
+      <path d="M -30 -25 Q -30 -50 0 -58 Q 30 -50 30 -25" class="icon-stroke" stroke-width="2" opacity="0.6"/>
+    </g>
+
+    <!-- Bottom section: Disconnection/unplugged elements -->
+    <g id="bottom-section">
+      <!-- Two small disconnected segments -->
+      <!-- Left plug element (disconnected) -->
+      <g id="left-plug">
+        <rect x="-20" y="40" width="8" height="20" rx="2" class="icon-accent" opacity="0.8"/>
+        <circle cx="-16" cy="55" r="3" class="icon-accent" opacity="0.6"/>
+        <!-- Gap suggesting disconnection -->
+        <line x1="-16" y1="62" x2="-16" y2="75" class="icon-accent-stroke" stroke-width="1.5"/>
+      </g>
+
+      <!-- Right plug element (disconnected) -->
+      <g id="right-plug">
+        <rect x="12" y="40" width="8" height="20" rx="2" class="icon-accent" opacity="0.8"/>
+        <circle cx="16" cy="55" r="3" class="icon-accent" opacity="0.6"/>
+        <!-- Gap suggesting disconnection -->
+        <line x1="16" y1="62" x2="16" y2="75" class="icon-accent-stroke" stroke-width="1.5"/>
+      </g>
+    </g>
+
+    <!-- Accent marks: small dots suggesting clarity and focus -->
+    <g id="accent-dots" opacity="0.6">
+      <circle cx="-50" cy="0" r="2.5" class="icon-accent"/>
+      <circle cx="50" cy="0" r="2.5" class="icon-accent"/>
+      <circle cx="0" cy="-50" r="2.5" class="icon-accent"/>
+    </g>
+  </g>
+
+  <!-- Secondary indicator: "AU" lettermark integrated subtly -->
+  <g id="subtle-text" transform="translate(128, 200)" opacity="0.3">
+    <text x="0" y="0" font-family="Poppins, sans-serif" font-size="18" font-weight="700" fill="#1a1f2e" text-anchor="middle">AU</text>
+  </g>
+</svg>

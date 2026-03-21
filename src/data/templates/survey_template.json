@@ -1,0 +1,65 @@
+{
+  "id": "survey_template",
+  "name": "Survey Template",
+  "number": 41,
+  "category": "research",
+  "description": "Survey Template - Marketing template for research professionals",
+  "instructions": "How to Use This Survey Template Step 1: Plan Your Survey Go to \"Survey Planner\" tab and enter survey details including name, objective, target audience, sample size, method, timeline, and budget. Step 2: Design Questions Use the \"Question Bank\" tab to explore pre-built questions or add custom questions. Review categories like NPS, satisfaction, demographics, etc. Step 3: Build Your Survey In \"Survey Builder\" tab, select questions from the bank and customize for your specific survey. Add skip logic and mark required fields. Step 4: Deploy Survey Configure response collection method (Online/Phon",
+  "icon": "search",
+  "tags": [
+    "research"
+  ],
+  "estimatedTime": "70 min",
+  "sections": [
+    {
+      "id": "section_1",
+      "title": "Main Information",
+      "description": "Enter template information",
+      "fields": [
+        {
+          "id": "field_1",
+          "label": "Name",
+          "type": "text",
+          "placeholder": "Enter name",
+          "required": true
+        },
+        {
+          "id": "field_2",
+          "label": "Description",
+          "type": "textarea",
+          "placeholder": "Enter description",
+          "required": false
+        }
+      ]
+    }
+  ],
+  "dashboard": {
+    "metrics": [
+      {
+        "label": "Survey Dashboard",
+        "calculation": "Count of records",
+        "format": "number"
+      },
+      {
+        "label": "KEY METRICS",
+        "calculation": "Count of records",
+        "format": "number"
+      },
+      {
+        "label": "Total Surveys Created",
+        "calculation": "2",
+        "format": "number"
+      },
+      {
+        "label": "Total Questions Designed",
+        "calculation": "34",
+        "format": "number"
+      },
+      {
+        "label": "Total Responses Collected",
+        "calculation": "2",
+        "format": "number"
+      }
+    ]
+  }
+}

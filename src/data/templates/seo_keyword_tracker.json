@@ -1,0 +1,75 @@
+{
+  "id": "seo_keyword_tracker",
+  "name": "SEO Keyword Tracker",
+  "number": 9,
+  "category": "channels",
+  "description": "SEO Keyword Tracker - Marketing template for channels professionals",
+  "instructions": "How to Use This Template Step 1: Build Your Keyword List Go to the Keyword Tracker tab. Enter every keyword you want to rank for \u2014 branded, non-branded, long-tail, short-tail. One row per keyword. Step 2: Classify Each Keyword Use the dropdowns to categorize: Intent (Informational, Navigational, Commercial, Transactional), Priority (High, Medium, Low), and Status (Tracking, Optimizing, Ranking, Won). Step 3: Add Monthly Rankings Each month, update your current ranking in the monthly columns (M1\u2013M12). The Dashboard auto-calculates movement and trends. Step 4: Track Competitors Use the Competito",
+  "icon": "share-2",
+  "tags": [
+    "channels"
+  ],
+  "estimatedTime": "50 min",
+  "sections": [
+    {
+      "id": "section_2",
+      "title": "Competitor Tracker",
+      "description": "Configuration and tracking for Competitor Tracker",
+      "fields": [
+        {
+          "id": "field_1",
+          "label": "Competitor Keyword Tracker",
+          "type": "text",
+          "placeholder": "Enter competitor keyword tracker",
+          "required": false,
+          "helpText": "Track how you rank vs competitors on your target keywords."
+        },
+        {
+          "id": "field_2",
+          "label": "Competitor Keyword Tracker",
+          "type": "text",
+          "placeholder": "Enter competitor keyword tracker",
+          "required": false,
+          "helpText": "YOUR SITE"
+        },
+        {
+          "id": "field_3",
+          "label": "Competitor Keyword Tracker",
+          "type": "text",
+          "placeholder": "Enter competitor keyword tracker",
+          "required": false,
+          "helpText": "Keyword"
+        }
+      ]
+    }
+  ],
+  "dashboard": {
+    "metrics": [
+      {
+        "label": "Auto-calculated from your Keyword Tracker",
+        "calculation": "Count of records",
+        "format": "number"
+      },
+      {
+        "label": "Total Keywords",
+        "calculation": "In Top 10",
+        "format": "number"
+      },
+      {
+        "label": "KEYWORD DISTRIBUTION BY INTENT",
+        "calculation": "Count of records",
+        "format": "number"
+      },
+      {
+        "label": "Intent",
+        "calculation": "Count",
+        "format": "number"
+      },
+      {
+        "label": "Informational",
+        "calculation": "1",
+        "format": "number"
+      }
+    ]
+  }
+}

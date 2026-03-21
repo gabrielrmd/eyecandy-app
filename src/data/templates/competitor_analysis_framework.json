@@ -1,0 +1,762 @@
+{
+  "id": "competitor_analysis_framework",
+  "name": "Competitor Analysis Framework",
+  "number": 12,
+  "category": "research",
+  "description": "Competitor Analysis Framework - Marketing template for research professionals",
+  "instructions": "How to Use This Template Step 1: Profile Your Competitors Go to the Competitor Profiles tab. Enter up to 5 competitors with their key details: company name, URL, founded year, size, funding, positioning statement, and target market. Step 2: Compare Features Use the Feature Comparison tab to map your product/service features against competitors. Score each on a 1-5 scale. The template highlights gaps and advantages. Step 3: Analyze Marketing The Marketing Analysis tab compares channels, messaging, content strategy, and brand positioning across all competitors. Step 4: Build Battlecards The Batt",
+  "icon": "search",
+  "tags": [
+    "research"
+  ],
+  "estimatedTime": "70 min",
+  "sections": [
+    {
+      "id": "section_1",
+      "title": "Competitor Profiles",
+      "description": "Configuration and tracking for Competitor Profiles",
+      "fields": [
+        {
+          "id": "field_1",
+          "label": "Competitor Profiles",
+          "type": "text",
+          "placeholder": "Enter competitor profiles",
+          "required": false,
+          "helpText": "Profile up to 5 competitors alongside your own company."
+        },
+        {
+          "id": "field_2",
+          "label": "Competitor Profiles",
+          "type": "text",
+          "placeholder": "Enter competitor profiles",
+          "required": false,
+          "helpText": "Attribute"
+        },
+        {
+          "id": "field_3",
+          "label": "Competitor Profiles",
+          "type": "text",
+          "placeholder": "Enter competitor profiles",
+          "required": false,
+          "helpText": "Company Name"
+        },
+        {
+          "id": "field_4",
+          "label": "Competitor Profiles",
+          "type": "text",
+          "placeholder": "Enter competitor profiles",
+          "required": false,
+          "helpText": "Website URL"
+        },
+        {
+          "id": "field_5",
+          "label": "Competitor Profiles",
+          "type": "text",
+          "placeholder": "Enter competitor profiles",
+          "required": false,
+          "helpText": "Founded"
+        },
+        {
+          "id": "field_6",
+          "label": "Competitor Profiles",
+          "type": "text",
+          "placeholder": "Enter competitor profiles",
+          "required": false,
+          "helpText": "Headquarters"
+        },
+        {
+          "id": "field_7",
+          "label": "Competitor Profiles",
+          "type": "text",
+          "placeholder": "Enter competitor profiles",
+          "required": false,
+          "helpText": "Company Size"
+        },
+        {
+          "id": "field_8",
+          "label": "Competitor Profiles",
+          "type": "text",
+          "placeholder": "Enter competitor profiles",
+          "required": false,
+          "helpText": "Annual Revenue"
+        },
+        {
+          "id": "field_9",
+          "label": "Competitor Profiles",
+          "type": "text",
+          "placeholder": "Enter competitor profiles",
+          "required": false,
+          "helpText": "Funding Stage"
+        },
+        {
+          "id": "field_10",
+          "label": "Competitor Profiles",
+          "type": "text",
+          "placeholder": "Enter competitor profiles",
+          "required": false,
+          "helpText": "Target Market"
+        },
+        {
+          "id": "field_11",
+          "label": "Competitor Profiles",
+          "type": "text",
+          "placeholder": "Enter competitor profiles",
+          "required": false,
+          "helpText": "Primary Audience"
+        },
+        {
+          "id": "field_12",
+          "label": "Competitor Profiles",
+          "type": "text",
+          "placeholder": "Enter competitor profiles",
+          "required": false,
+          "helpText": "Positioning Statement"
+        },
+        {
+          "id": "field_13",
+          "label": "Competitor Profiles",
+          "type": "text",
+          "placeholder": "Enter competitor profiles",
+          "required": false,
+          "helpText": "Key Value Prop"
+        },
+        {
+          "id": "field_14",
+          "label": "Competitor Profiles",
+          "type": "text",
+          "placeholder": "Enter competitor profiles",
+          "required": false,
+          "helpText": "Pricing Model"
+        },
+        {
+          "id": "field_15",
+          "label": "Competitor Profiles",
+          "type": "text",
+          "placeholder": "Enter competitor profiles",
+          "required": false,
+          "helpText": "Price Range"
+        },
+        {
+          "id": "field_16",
+          "label": "Competitor Profiles",
+          "type": "text",
+          "placeholder": "Enter competitor profiles",
+          "required": false,
+          "helpText": "Free Tier?"
+        },
+        {
+          "id": "field_17",
+          "label": "Competitor Profiles",
+          "type": "text",
+          "placeholder": "Enter competitor profiles",
+          "required": false,
+          "helpText": "Core Product"
+        },
+        {
+          "id": "field_18",
+          "label": "Competitor Profiles",
+          "type": "text",
+          "placeholder": "Enter competitor profiles",
+          "required": false,
+          "helpText": "Key Differentiator"
+        },
+        {
+          "id": "field_19",
+          "label": "Competitor Profiles",
+          "type": "text",
+          "placeholder": "Enter competitor profiles",
+          "required": false,
+          "helpText": "Biggest Weakness"
+        },
+        {
+          "id": "field_20",
+          "label": "Competitor Profiles",
+          "type": "text",
+          "placeholder": "Enter competitor profiles",
+          "required": false,
+          "helpText": "NPS / Review Score"
+        },
+        {
+          "id": "field_21",
+          "label": "Competitor Profiles",
+          "type": "text",
+          "placeholder": "Enter competitor profiles",
+          "required": false,
+          "helpText": "G2/Capterra Rating"
+        },
+        {
+          "id": "field_22",
+          "label": "Competitor Profiles",
+          "type": "text",
+          "placeholder": "Enter competitor profiles",
+          "required": false,
+          "helpText": "Market Share Est."
+        }
+      ]
+    },
+    {
+      "id": "section_4",
+      "title": "Battlecards",
+      "description": "Configuration and tracking for Battlecards",
+      "fields": [
+        {
+          "id": "field_1",
+          "label": "Competitive Battlecards",
+          "type": "text",
+          "placeholder": "Enter competitive battlecards",
+          "required": false,
+          "helpText": "One battlecard per competitor. Give these to your sales team."
+        },
+        {
+          "id": "field_2",
+          "label": "Competitive Battlecards",
+          "type": "text",
+          "placeholder": "Enter competitive battlecards",
+          "required": false,
+          "helpText": "BATTLECARD #1"
+        },
+        {
+          "id": "field_3",
+          "label": "Competitive Battlecards",
+          "type": "text",
+          "placeholder": "Enter competitive battlecards",
+          "required": false,
+          "helpText": "Competitor Name"
+        },
+        {
+          "id": "field_4",
+          "label": "Competitive Battlecards",
+          "type": "text",
+          "placeholder": "Enter competitive battlecards",
+          "required": false,
+          "helpText": "Their Elevator Pitch"
+        },
+        {
+          "id": "field_5",
+          "label": "Competitive Battlecards",
+          "type": "text",
+          "placeholder": "Enter competitive battlecards",
+          "required": false,
+          "helpText": "Their Target Customer"
+        },
+        {
+          "id": "field_6",
+          "label": "Competitive Battlecards",
+          "type": "text",
+          "placeholder": "Enter competitive battlecards",
+          "required": false,
+          "helpText": "Their Pricing"
+        },
+        {
+          "id": "field_7",
+          "label": "Competitive Battlecards",
+          "type": "text",
+          "placeholder": "Enter competitive battlecards",
+          "required": false,
+          "helpText": "Their Key Strength"
+        },
+        {
+          "id": "field_8",
+          "label": "Competitive Battlecards",
+          "type": "text",
+          "placeholder": "Enter competitive battlecards",
+          "required": false,
+          "helpText": "Their Key Weakness"
+        },
+        {
+          "id": "field_9",
+          "label": "Competitive Battlecards",
+          "type": "text",
+          "placeholder": "Enter competitive battlecards",
+          "required": false,
+          "helpText": "When They Win"
+        },
+        {
+          "id": "field_10",
+          "label": "Competitive Battlecards",
+          "type": "text",
+          "placeholder": "Enter competitive battlecards",
+          "required": false,
+          "helpText": "When We Win"
+        },
+        {
+          "id": "field_11",
+          "label": "Competitive Battlecards",
+          "type": "text",
+          "placeholder": "Enter competitive battlecards",
+          "required": false,
+          "helpText": "Their Objection to Us"
+        },
+        {
+          "id": "field_12",
+          "label": "Competitive Battlecards",
+          "type": "text",
+          "placeholder": "Enter competitive battlecards",
+          "required": false,
+          "helpText": "Our Counter-Argument"
+        },
+        {
+          "id": "field_13",
+          "label": "Competitive Battlecards",
+          "type": "text",
+          "placeholder": "Enter competitive battlecards",
+          "required": false,
+          "helpText": "Landmines to Set"
+        },
+        {
+          "id": "field_14",
+          "label": "Competitive Battlecards",
+          "type": "text",
+          "placeholder": "Enter competitive battlecards",
+          "required": false,
+          "helpText": "Proof Points to Use"
+        },
+        {
+          "id": "field_15",
+          "label": "Competitive Battlecards",
+          "type": "text",
+          "placeholder": "Enter competitive battlecards",
+          "required": false,
+          "helpText": "BATTLECARD #2"
+        },
+        {
+          "id": "field_16",
+          "label": "Competitive Battlecards",
+          "type": "text",
+          "placeholder": "Enter competitive battlecards",
+          "required": false,
+          "helpText": "Competitor Name"
+        },
+        {
+          "id": "field_17",
+          "label": "Competitive Battlecards",
+          "type": "text",
+          "placeholder": "Enter competitive battlecards",
+          "required": false,
+          "helpText": "Their Elevator Pitch"
+        },
+        {
+          "id": "field_18",
+          "label": "Competitive Battlecards",
+          "type": "text",
+          "placeholder": "Enter competitive battlecards",
+          "required": false,
+          "helpText": "Their Target Customer"
+        },
+        {
+          "id": "field_19",
+          "label": "Competitive Battlecards",
+          "type": "text",
+          "placeholder": "Enter competitive battlecards",
+          "required": false,
+          "helpText": "Their Pricing"
+        },
+        {
+          "id": "field_20",
+          "label": "Competitive Battlecards",
+          "type": "text",
+          "placeholder": "Enter competitive battlecards",
+          "required": false,
+          "helpText": "Their Key Strength"
+        },
+        {
+          "id": "field_21",
+          "label": "Competitive Battlecards",
+          "type": "text",
+          "placeholder": "Enter competitive battlecards",
+          "required": false,
+          "helpText": "Their Key Weakness"
+        },
+        {
+          "id": "field_22",
+          "label": "Competitive Battlecards",
+          "type": "text",
+          "placeholder": "Enter competitive battlecards",
+          "required": false,
+          "helpText": "When They Win"
+        },
+        {
+          "id": "field_23",
+          "label": "Competitive Battlecards",
+          "type": "text",
+          "placeholder": "Enter competitive battlecards",
+          "required": false,
+          "helpText": "When We Win"
+        },
+        {
+          "id": "field_24",
+          "label": "Competitive Battlecards",
+          "type": "text",
+          "placeholder": "Enter competitive battlecards",
+          "required": false,
+          "helpText": "Their Objection to Us"
+        },
+        {
+          "id": "field_25",
+          "label": "Competitive Battlecards",
+          "type": "text",
+          "placeholder": "Enter competitive battlecards",
+          "required": false,
+          "helpText": "Our Counter-Argument"
+        },
+        {
+          "id": "field_26",
+          "label": "Competitive Battlecards",
+          "type": "text",
+          "placeholder": "Enter competitive battlecards",
+          "required": false,
+          "helpText": "Landmines to Set"
+        },
+        {
+          "id": "field_27",
+          "label": "Competitive Battlecards",
+          "type": "text",
+          "placeholder": "Enter competitive battlecards",
+          "required": false,
+          "helpText": "Proof Points to Use"
+        },
+        {
+          "id": "field_28",
+          "label": "Competitive Battlecards",
+          "type": "text",
+          "placeholder": "Enter competitive battlecards",
+          "required": false,
+          "helpText": "BATTLECARD #3"
+        },
+        {
+          "id": "field_29",
+          "label": "Competitive Battlecards",
+          "type": "text",
+          "placeholder": "Enter competitive battlecards",
+          "required": false,
+          "helpText": "Competitor Name"
+        },
+        {
+          "id": "field_30",
+          "label": "Competitive Battlecards",
+          "type": "text",
+          "placeholder": "Enter competitive battlecards",
+          "required": false,
+          "helpText": "Their Elevator Pitch"
+        },
+        {
+          "id": "field_31",
+          "label": "Competitive Battlecards",
+          "type": "text",
+          "placeholder": "Enter competitive battlecards",
+          "required": false,
+          "helpText": "Their Target Customer"
+        },
+        {
+          "id": "field_32",
+          "label": "Competitive Battlecards",
+          "type": "text",
+          "placeholder": "Enter competitive battlecards",
+          "required": false,
+          "helpText": "Their Pricing"
+        },
+        {
+          "id": "field_33",
+          "label": "Competitive Battlecards",
+          "type": "text",
+          "placeholder": "Enter competitive battlecards",
+          "required": false,
+          "helpText": "Their Key Strength"
+        },
+        {
+          "id": "field_34",
+          "label": "Competitive Battlecards",
+          "type": "text",
+          "placeholder": "Enter competitive battlecards",
+          "required": false,
+          "helpText": "Their Key Weakness"
+        },
+        {
+          "id": "field_35",
+          "label": "Competitive Battlecards",
+          "type": "text",
+          "placeholder": "Enter competitive battlecards",
+          "required": false,
+          "helpText": "When They Win"
+        },
+        {
+          "id": "field_36",
+          "label": "Competitive Battlecards",
+          "type": "text",
+          "placeholder": "Enter competitive battlecards",
+          "required": false,
+          "helpText": "When We Win"
+        },
+        {
+          "id": "field_37",
+          "label": "Competitive Battlecards",
+          "type": "text",
+          "placeholder": "Enter competitive battlecards",
+          "required": false,
+          "helpText": "Their Objection to Us"
+        },
+        {
+          "id": "field_38",
+          "label": "Competitive Battlecards",
+          "type": "text",
+          "placeholder": "Enter competitive battlecards",
+          "required": false,
+          "helpText": "Our Counter-Argument"
+        },
+        {
+          "id": "field_39",
+          "label": "Competitive Battlecards",
+          "type": "text",
+          "placeholder": "Enter competitive battlecards",
+          "required": false,
+          "helpText": "Landmines to Set"
+        },
+        {
+          "id": "field_40",
+          "label": "Competitive Battlecards",
+          "type": "text",
+          "placeholder": "Enter competitive battlecards",
+          "required": false,
+          "helpText": "Proof Points to Use"
+        },
+        {
+          "id": "field_41",
+          "label": "Competitive Battlecards",
+          "type": "text",
+          "placeholder": "Enter competitive battlecards",
+          "required": false,
+          "helpText": "BATTLECARD #4"
+        },
+        {
+          "id": "field_42",
+          "label": "Competitive Battlecards",
+          "type": "text",
+          "placeholder": "Enter competitive battlecards",
+          "required": false,
+          "helpText": "Competitor Name"
+        },
+        {
+          "id": "field_43",
+          "label": "Competitive Battlecards",
+          "type": "text",
+          "placeholder": "Enter competitive battlecards",
+          "required": false,
+          "helpText": "Their Elevator Pitch"
+        },
+        {
+          "id": "field_44",
+          "label": "Competitive Battlecards",
+          "type": "text",
+          "placeholder": "Enter competitive battlecards",
+          "required": false,
+          "helpText": "Their Target Customer"
+        },
+        {
+          "id": "field_45",
+          "label": "Competitive Battlecards",
+          "type": "text",
+          "placeholder": "Enter competitive battlecards",
+          "required": false,
+          "helpText": "Their Pricing"
+        },
+        {
+          "id": "field_46",
+          "label": "Competitive Battlecards",
+          "type": "text",
+          "placeholder": "Enter competitive battlecards",
+          "required": false,
+          "helpText": "Their Key Strength"
+        },
+        {
+          "id": "field_47",
+          "label": "Competitive Battlecards",
+          "type": "text",
+          "placeholder": "Enter competitive battlecards",
+          "required": false,
+          "helpText": "Their Key Weakness"
+        },
+        {
+          "id": "field_48",
+          "label": "Competitive Battlecards",
+          "type": "text",
+          "placeholder": "Enter competitive battlecards",
+          "required": false,
+          "helpText": "When They Win"
+        },
+        {
+          "id": "field_49",
+          "label": "Competitive Battlecards",
+          "type": "text",
+          "placeholder": "Enter competitive battlecards",
+          "required": false,
+          "helpText": "When We Win"
+        },
+        {
+          "id": "field_50",
+          "label": "Competitive Battlecards",
+          "type": "text",
+          "placeholder": "Enter competitive battlecards",
+          "required": false,
+          "helpText": "Their Objection to Us"
+        },
+        {
+          "id": "field_51",
+          "label": "Competitive Battlecards",
+          "type": "text",
+          "placeholder": "Enter competitive battlecards",
+          "required": false,
+          "helpText": "Our Counter-Argument"
+        },
+        {
+          "id": "field_52",
+          "label": "Competitive Battlecards",
+          "type": "text",
+          "placeholder": "Enter competitive battlecards",
+          "required": false,
+          "helpText": "Landmines to Set"
+        },
+        {
+          "id": "field_53",
+          "label": "Competitive Battlecards",
+          "type": "text",
+          "placeholder": "Enter competitive battlecards",
+          "required": false,
+          "helpText": "Proof Points to Use"
+        },
+        {
+          "id": "field_54",
+          "label": "Competitive Battlecards",
+          "type": "text",
+          "placeholder": "Enter competitive battlecards",
+          "required": false,
+          "helpText": "BATTLECARD #5"
+        },
+        {
+          "id": "field_55",
+          "label": "Competitive Battlecards",
+          "type": "text",
+          "placeholder": "Enter competitive battlecards",
+          "required": false,
+          "helpText": "Competitor Name"
+        },
+        {
+          "id": "field_56",
+          "label": "Competitive Battlecards",
+          "type": "text",
+          "placeholder": "Enter competitive battlecards",
+          "required": false,
+          "helpText": "Their Elevator Pitch"
+        },
+        {
+          "id": "field_57",
+          "label": "Competitive Battlecards",
+          "type": "text",
+          "placeholder": "Enter competitive battlecards",
+          "required": false,
+          "helpText": "Their Target Customer"
+        },
+        {
+          "id": "field_58",
+          "label": "Competitive Battlecards",
+          "type": "text",
+          "placeholder": "Enter competitive battlecards",
+          "required": false,
+          "helpText": "Their Pricing"
+        },
+        {
+          "id": "field_59",
+          "label": "Competitive Battlecards",
+          "type": "text",
+          "placeholder": "Enter competitive battlecards",
+          "required": false,
+          "helpText": "Their Key Strength"
+        },
+        {
+          "id": "field_60",
+          "label": "Competitive Battlecards",
+          "type": "text",
+          "placeholder": "Enter competitive battlecards",
+          "required": false,
+          "helpText": "Their Key Weakness"
+        },
+        {
+          "id": "field_61",
+          "label": "Competitive Battlecards",
+          "type": "text",
+          "placeholder": "Enter competitive battlecards",
+          "required": false,
+          "helpText": "When They Win"
+        },
+        {
+          "id": "field_62",
+          "label": "Competitive Battlecards",
+          "type": "text",
+          "placeholder": "Enter competitive battlecards",
+          "required": false,
+          "helpText": "When We Win"
+        },
+        {
+          "id": "field_63",
+          "label": "Competitive Battlecards",
+          "type": "text",
+          "placeholder": "Enter competitive battlecards",
+          "required": false,
+          "helpText": "Their Objection to Us"
+        },
+        {
+          "id": "field_64",
+          "label": "Competitive Battlecards",
+          "type": "text",
+          "placeholder": "Enter competitive battlecards",
+          "required": false,
+          "helpText": "Our Counter-Argument"
+        },
+        {
+          "id": "field_65",
+          "label": "Competitive Battlecards",
+          "type": "text",
+          "placeholder": "Enter competitive battlecards",
+          "required": false,
+          "helpText": "Landmines to Set"
+        },
+        {
+          "id": "field_66",
+          "label": "Competitive Battlecards",
+          "type": "text",
+          "placeholder": "Enter competitive battlecards",
+          "required": false,
+          "helpText": "Proof Points to Use"
+        }
+      ]
+    }
+  ],
+  "dashboard": {
+    "metrics": [
+      {
+        "label": "Auto-calculated from your analysis tabs",
+        "calculation": "Count of records",
+        "format": "number"
+      },
+      {
+        "label": "COMPETITIVE SCORECARD (Feature Comparison Averages)",
+        "calculation": "Count of records",
+        "format": "number"
+      },
+      {
+        "label": "Company",
+        "calculation": "Your Company",
+        "format": "number"
+      },
+      {
+        "label": "Avg Feature Score",
+        "calculation": "Count of records",
+        "format": "number"
+      },
+      {
+        "label": "Features You Lead",
+        "calculation": "\u2014",
+        "format": "number"
+      }
+    ]
+  }
+}

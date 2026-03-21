@@ -1,0 +1,195 @@
+{
+  "id": "campaign_performance_dashboard",
+  "name": "Campaign Performance Dashboard",
+  "number": 11,
+  "category": "analytics",
+  "description": "Campaign Performance Dashboard - Marketing template for analytics professionals",
+  "instructions": "How to Use This Template Step 1: Log Your Campaigns Go to the Campaign Log tab. Enter every campaign \u2014 name, channel, type, dates, budget, and target audience. One row per campaign. Step 2: Track Results As campaigns run, update the results columns: Impressions, Clicks, Leads, Conversions, Revenue, and Actual Spend. The template auto-calculates CTR, CPC, CPL, CPA, and ROI. Step 3: Score Each Campaign Use the Status dropdown to mark campaigns as Planning, Active, Paused, Completed, or Cancelled. Add a performance rating (1-5) when done. Step 4: Analyze by Channel The Channel Analysis tab auto-a",
+  "icon": "bar-chart",
+  "tags": [
+    "analytics"
+  ],
+  "estimatedTime": "55 min",
+  "sections": [
+    {
+      "id": "section_2",
+      "title": "Monthly Tracker",
+      "description": "Configuration and tracking for Monthly Tracker",
+      "fields": [
+        {
+          "id": "field_1",
+          "label": "Monthly Performance Tracker",
+          "type": "text",
+          "placeholder": "Enter monthly performance tracker",
+          "required": false,
+          "helpText": "Track monthly totals for trend analysis. Enter data each month."
+        },
+        {
+          "id": "field_2",
+          "label": "Monthly Performance Tracker",
+          "type": "text",
+          "placeholder": "Enter monthly performance tracker",
+          "required": false,
+          "helpText": "Metric"
+        },
+        {
+          "id": "field_3",
+          "label": "Monthly Performance Tracker",
+          "type": "text",
+          "placeholder": "Enter monthly performance tracker",
+          "required": false,
+          "helpText": "Spend"
+        },
+        {
+          "id": "field_4",
+          "label": "Monthly Performance Tracker",
+          "type": "text",
+          "placeholder": "Enter monthly performance tracker",
+          "required": false,
+          "helpText": "Impressions"
+        },
+        {
+          "id": "field_5",
+          "label": "Monthly Performance Tracker",
+          "type": "text",
+          "placeholder": "Enter monthly performance tracker",
+          "required": false,
+          "helpText": "Clicks"
+        },
+        {
+          "id": "field_6",
+          "label": "Monthly Performance Tracker",
+          "type": "text",
+          "placeholder": "Enter monthly performance tracker",
+          "required": false,
+          "helpText": "Leads"
+        },
+        {
+          "id": "field_7",
+          "label": "Monthly Performance Tracker",
+          "type": "text",
+          "placeholder": "Enter monthly performance tracker",
+          "required": false,
+          "helpText": "Conversions"
+        },
+        {
+          "id": "field_8",
+          "label": "Monthly Performance Tracker",
+          "type": "text",
+          "placeholder": "Enter monthly performance tracker",
+          "required": false,
+          "helpText": "Revenue"
+        },
+        {
+          "id": "field_9",
+          "label": "Monthly Performance Tracker",
+          "type": "text",
+          "placeholder": "Enter monthly performance tracker",
+          "required": false,
+          "helpText": "CTR"
+        },
+        {
+          "id": "field_10",
+          "label": "Monthly Performance Tracker",
+          "type": "text",
+          "placeholder": "Enter monthly performance tracker",
+          "required": false,
+          "helpText": "CPC"
+        },
+        {
+          "id": "field_11",
+          "label": "Monthly Performance Tracker",
+          "type": "text",
+          "placeholder": "Enter monthly performance tracker",
+          "required": false,
+          "helpText": "CPL"
+        },
+        {
+          "id": "field_12",
+          "label": "Monthly Performance Tracker",
+          "type": "text",
+          "placeholder": "Enter monthly performance tracker",
+          "required": false,
+          "helpText": "ROI"
+        },
+        {
+          "id": "field_13",
+          "label": "Monthly Performance Tracker",
+          "type": "text",
+          "placeholder": "Enter monthly performance tracker",
+          "required": false,
+          "helpText": "Active Campaigns"
+        },
+        {
+          "id": "field_14",
+          "label": "Monthly Performance Tracker",
+          "type": "text",
+          "placeholder": "Enter monthly performance tracker",
+          "required": false,
+          "helpText": "New Campaigns"
+        },
+        {
+          "id": "field_15",
+          "label": "Monthly Performance Tracker",
+          "type": "text",
+          "placeholder": "Enter monthly performance tracker",
+          "required": false,
+          "helpText": "MONTH-OVER-MONTH TRENDS"
+        },
+        {
+          "id": "field_16",
+          "label": "Monthly Performance Tracker",
+          "type": "text",
+          "placeholder": "Enter monthly performance tracker",
+          "required": false,
+          "helpText": "Spend MoM %"
+        },
+        {
+          "id": "field_17",
+          "label": "Monthly Performance Tracker",
+          "type": "text",
+          "placeholder": "Enter monthly performance tracker",
+          "required": false,
+          "helpText": "Leads MoM %"
+        },
+        {
+          "id": "field_18",
+          "label": "Monthly Performance Tracker",
+          "type": "text",
+          "placeholder": "Enter monthly performance tracker",
+          "required": false,
+          "helpText": "Revenue MoM %"
+        }
+      ]
+    }
+  ],
+  "dashboard": {
+    "metrics": [
+      {
+        "label": "Auto-calculated from Campaign Log",
+        "calculation": "Count of records",
+        "format": "number"
+      },
+      {
+        "label": "Total Campaigns",
+        "calculation": "Active",
+        "format": "number"
+      },
+      {
+        "label": "Total Impressions",
+        "calculation": "Total Clicks",
+        "format": "number"
+      },
+      {
+        "label": "EFFICIENCY METRICS",
+        "calculation": "Count of records",
+        "format": "number"
+      },
+      {
+        "label": "Avg CTR",
+        "calculation": "Avg CPC",
+        "format": "number"
+      }
+    ]
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "id": "ab_testing_framework",
+  "name": "AB Testing Framework",
+  "number": 22,
+  "category": "analytics",
+  "description": "AB Testing Framework - Marketing template for analytics professionals",
+  "instructions": "HOW TO USE THIS TEMPLATE Step 1: Build Your Test Backlog Capture every test idea in the Test Backlog. Score each using ICE (Impact 1-10, Confidence 1-10, Ease 1-10). The average score auto-calculates to help you prioritise. Step 2: Plan Your Test For each test you decide to run, create a detailed plan in the Test Planner. Define your hypothesis, control, variant, primary metric, and minimum sample size. Step 3: Use the Sample Size Calculator Before launching, check the Sample Size Calculator to ensure you will have enough traffic/volume to achieve statistical significance. Step 4: Schedule on ",
+  "icon": "bar-chart",
+  "tags": [
+    "analytics"
+  ],
+  "estimatedTime": "55 min",
+  "sections": [
+    {
+      "id": "section_1",
+      "title": "Main Information",
+      "description": "Enter template information",
+      "fields": [
+        {
+          "id": "field_1",
+          "label": "Name",
+          "type": "text",
+          "placeholder": "Enter name",
+          "required": true
+        },
+        {
+          "id": "field_2",
+          "label": "Description",
+          "type": "textarea",
+          "placeholder": "Enter description",
+          "required": false
+        }
+      ]
+    }
+  ],
+  "dashboard": {
+    "metrics": [
+      {
+        "label": "A/B TESTING DASHBOARD",
+        "calculation": "Count of records",
+        "format": "number"
+      },
+      {
+        "label": "Tests in Backlog",
+        "calculation": "Count of records",
+        "format": "number"
+      },
+      {
+        "label": "Tests by Channel",
+        "calculation": "Count of records",
+        "format": "number"
+      },
+      {
+        "label": "Channel",
+        "calculation": "Backlog",
+        "format": "number"
+      },
+      {
+        "label": "Email",
+        "calculation": "2",
+        "format": "number"
+      }
+    ]
+  }
+}

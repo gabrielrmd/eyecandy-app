@@ -1,0 +1,60 @@
+{
+  "id": "podcast_marketing_planner",
+  "name": "Podcast Marketing Planner",
+  "number": 29,
+  "category": "content",
+  "description": "Podcast Marketing Planner - Marketing template for content professionals",
+  "instructions": "How to Use This Template 1. Show Strategy Define podcast goals, audience, and format. 2. Episode Planner Plan episodes with topics, guests, and publish dates. 3. Guest Manager Track guest outreach, confirmations, and logistics. 4. Production Workflow Manage recording, editing, and publishing pipeline. 5. Promotion Plan Coordinate multi-channel episode promotion. 6. Content Repurposing Plan how to turn episodes into multiple content pieces. 7. Performance Tracker Monitor downloads, engagement, and growth metrics. 8. Monetisation Tracker Track sponsorships, ad revenue, and partnerships.",
+  "icon": "file-text",
+  "tags": [
+    "strategy",
+    "content"
+  ],
+  "estimatedTime": "45 min",
+  "sections": [
+    {
+      "id": "section_7",
+      "title": "Performance Tracker",
+      "description": "Configuration and tracking for Performance Tracker",
+      "fields": [
+        {
+          "id": "field_1",
+          "label": "Episode Performance",
+          "type": "text",
+          "placeholder": "Enter episode performance",
+          "required": false,
+          "helpText": "Episode #"
+        }
+      ]
+    }
+  ],
+  "dashboard": {
+    "metrics": [
+      {
+        "label": "Metric",
+        "calculation": "Value",
+        "format": "number"
+      },
+      {
+        "label": "Episodes Published",
+        "calculation": "Count of records",
+        "format": "number"
+      },
+      {
+        "label": "Episodes in Pipeline",
+        "calculation": "Count of records",
+        "format": "number"
+      },
+      {
+        "label": "Total Downloads",
+        "calculation": "Count of records",
+        "format": "number"
+      },
+      {
+        "label": "Avg Downloads per Episode",
+        "calculation": "Count of records",
+        "format": "number"
+      }
+    ]
+  }
+}

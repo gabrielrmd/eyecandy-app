@@ -1,0 +1,66 @@
+{
+  "id": "content_audit_template",
+  "name": "Content Audit Template",
+  "number": 30,
+  "category": "content",
+  "description": "Content Audit Template - Marketing template for content professionals",
+  "instructions": "How to Use This Template Step 1 Go to Content Inventory and list all your web content with URLs, titles, types, and metadata Step 2 Complete the SEO Analysis tab with target keywords, rankings, and search volume data Step 3 Input Performance Data including sessions, bounce rates, conversions, and social metrics Step 4 Review the Dashboard for auto-calculated summary metrics and insights Step 5 Use Content Scoring to rank content quality, relevance, SEO, and performance Step 6 Identify gaps using the Gap Analysis tab against competitor content Step 7 Create your Action Plan prioritizing which c",
+  "icon": "file-text",
+  "tags": [
+    "audit",
+    "content"
+  ],
+  "estimatedTime": "45 min",
+  "sections": [
+    {
+      "id": "section_1",
+      "title": "Main Information",
+      "description": "Enter template information",
+      "fields": [
+        {
+          "id": "field_1",
+          "label": "Name",
+          "type": "text",
+          "placeholder": "Enter name",
+          "required": true
+        },
+        {
+          "id": "field_2",
+          "label": "Description",
+          "type": "textarea",
+          "placeholder": "Enter description",
+          "required": false
+        }
+      ]
+    }
+  ],
+  "dashboard": {
+    "metrics": [
+      {
+        "label": "Dashboard",
+        "calculation": "Count of records",
+        "format": "number"
+      },
+      {
+        "label": "Total Content Assets",
+        "calculation": "IFERROR(COUNTA('Content Inventory'!A3:A202),0)",
+        "format": "number"
+      },
+      {
+        "label": "Total Blog Posts",
+        "calculation": "IFERROR(COUNTIF('Content Inventory'!C3:C202,\"Blog\"),0)",
+        "format": "number"
+      },
+      {
+        "label": "Total Case Studies",
+        "calculation": "IFERROR(COUNTIF('Content Inventory'!C3:C202,\"Case Study\"),0)",
+        "format": "number"
+      },
+      {
+        "label": "Average Quality Score",
+        "calculation": "IFERROR(AVERAGE('Content Scoring'!B3:B202),0)",
+        "format": "number"
+      }
+    ]
+  }
+}

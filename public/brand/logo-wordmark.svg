@@ -1,0 +1,76 @@
+<svg viewBox="0 0 1200 400" xmlns="http://www.w3.org/2000/svg">
+  <!--
+    Advertising Unplugged - Logo Wordmark
+    Concept: AU monogram + full company name
+    Usage: Primary branding, headers, main applications
+
+    Layout:
+    - Geometric AU monogram on left (square format)
+    - Company name in Poppins-style typography on right
+    - Horizontal configuration optimized for web
+  -->
+
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap');
+
+      .logo-mono-dark { fill: #1a1f2e; }
+      .logo-accent { fill: #e8384f; }
+      .wordmark-text { font-family: 'Poppins', sans-serif; fill: #1a1f2e; letter-spacing: -0.5px; }
+      .wordmark-title { font-size: 64px; font-weight: 700; }
+      .wordmark-tagline { font-size: 20px; font-weight: 400; fill: #6c757d; letter-spacing: 0.5px; }
+      .stroke-element { stroke: #1a1f2e; stroke-width: 2.5; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+      .accent-stroke { stroke: #e8384f; stroke-width: 2.5; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+    </style>
+  </defs>
+
+  <!-- Left section: AU Monogram -->
+  <g id="monogram-left">
+    <!-- Geometric A -->
+    <g id="geo-a">
+      <line x1="40" y1="140" x2="70" y2="40" class="stroke-element"/>
+      <line x1="100" y1="140" x2="70" y2="40" class="stroke-element"/>
+      <line x1="50" y1="95" x2="90" y2="95" class="stroke-element"/>
+      <line x1="40" y1="140" x2="100" y2="140" class="stroke-element"/>
+    </g>
+
+    <!-- Geometric U -->
+    <g id="geo-u">
+      <line x1="120" y1="40" x2="120" y2="120" class="stroke-element"/>
+      <line x1="160" y1="40" x2="160" y2="120" class="stroke-element"/>
+      <path d="M 120 120 Q 140 150 160 120" class="stroke-element"/>
+    </g>
+
+    <!-- Unplugged accent -->
+    <circle cx="140" cy="75" r="6.5" class="logo-accent"/>
+    <line x1="140" y1="82" x2="140" y2="105" class="accent-stroke"/>
+  </g>
+
+  <!-- Middle: Divider accent -->
+  <line x1="200" y1="50" x2="200" y2="190" stroke="#e9ecef" stroke-width="2"/>
+
+  <!-- Right section: Company Name and Tagline -->
+  <g id="wordmark-right">
+    <!-- Main company name -->
+    <text x="240" y="130" class="wordmark-text wordmark-title">
+      Advertising
+    </text>
+
+    <!-- Second line of company name -->
+    <text x="240" y="190" class="wordmark-text wordmark-title">
+      Unplugged
+    </text>
+
+    <!-- Tagline below -->
+    <text x="240" y="225" class="wordmark-text wordmark-tagline">
+      Clarity Over Noise. Purpose Beyond Profit.
+    </text>
+  </g>
+
+  <!-- Visual accent: small geometric element -->
+  <g id="accent-element" transform="translate(950, 110)">
+    <!-- Subtle shape suggesting "unplugged" concept -->
+    <circle cx="0" cy="0" r="4" class="logo-accent" opacity="0.8"/>
+    <line x1="0" y1="6" x2="0" y2="20" class="accent-stroke" stroke-width="1.5"/>
+  </g>
+</svg>

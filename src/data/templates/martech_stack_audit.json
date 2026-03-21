@@ -1,0 +1,50 @@
+{
+  "id": "martech_stack_audit",
+  "name": "Martech Stack Audit",
+  "number": 39,
+  "category": "strategy",
+  "description": "Martech Stack Audit - Marketing template for strategy professionals",
+  "instructions": "How to Use This Audit Getting Started 1. Start with the Tool Inventory tab to catalog all your current martech tools 2. Move to Integration Map to document how your tools connect 3. Use Cost Analysis to understand your technology spending 4. Review Utilisation Assessment to evaluate actual tool usage Using Each Tab Tool Inventory: List every tool in your stack with vendor, cost, and status information Integration Map: Document how tools communicate and the reliability of those connections Cost Analysis: Track your monthly and annual technology spending Utilisation Assessment: Measure how much ",
+  "icon": "target",
+  "tags": [
+    "audit"
+  ],
+  "estimatedTime": "60 min",
+  "sections": [
+    {
+      "id": "section_1",
+      "title": "Main Information",
+      "description": "Enter template information",
+      "fields": [
+        {
+          "id": "field_1",
+          "label": "Name",
+          "type": "text",
+          "placeholder": "Enter name",
+          "required": true
+        },
+        {
+          "id": "field_2",
+          "label": "Description",
+          "type": "textarea",
+          "placeholder": "Enter description",
+          "required": false
+        }
+      ]
+    }
+  ],
+  "dashboard": {
+    "metrics": [
+      {
+        "label": "Completion Rate",
+        "calculation": "Fields completed / Total fields",
+        "format": "percentage"
+      },
+      {
+        "label": "Total Sections",
+        "calculation": "Number of form sections",
+        "format": "number"
+      }
+    ]
+  }
+}

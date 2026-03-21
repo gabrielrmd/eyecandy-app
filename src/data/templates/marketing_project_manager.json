@@ -1,0 +1,65 @@
+{
+  "id": "marketing_project_manager",
+  "name": "Marketing Project Manager",
+  "number": 31,
+  "category": "strategy",
+  "description": "Marketing Project Manager - Marketing template for strategy professionals",
+  "instructions": "How to Use This Template Dashboard View your project metrics and key performance indicators at a glance. Project Portfolio Manage all projects with details on type, owner, dates, status, and budget. Task Manager Track individual tasks with dependencies, effort estimates, and priority levels. Team Workload Monitor team capacity, utilization rates, and task completion. Timeline View Visualize project timelines across 12 weeks with task ownership. Budget Overview Track planned vs actual spending across project categories. Risk Tracker Identify, assess, and mitigate project risks proactively. Meet",
+  "icon": "target",
+  "tags": [
+    "template"
+  ],
+  "estimatedTime": "60 min",
+  "sections": [
+    {
+      "id": "section_1",
+      "title": "Main Information",
+      "description": "Enter template information",
+      "fields": [
+        {
+          "id": "field_1",
+          "label": "Name",
+          "type": "text",
+          "placeholder": "Enter name",
+          "required": true
+        },
+        {
+          "id": "field_2",
+          "label": "Description",
+          "type": "textarea",
+          "placeholder": "Enter description",
+          "required": false
+        }
+      ]
+    }
+  ],
+  "dashboard": {
+    "metrics": [
+      {
+        "label": "Project Dashboard",
+        "calculation": "Count of records",
+        "format": "number"
+      },
+      {
+        "label": "Total Projects",
+        "calculation": "1",
+        "format": "number"
+      },
+      {
+        "label": "Active Projects",
+        "calculation": "Count of records",
+        "format": "number"
+      },
+      {
+        "label": "Completed Projects",
+        "calculation": "Count of records",
+        "format": "number"
+      },
+      {
+        "label": "Total Tasks",
+        "calculation": "1",
+        "format": "number"
+      }
+    ]
+  }
+}

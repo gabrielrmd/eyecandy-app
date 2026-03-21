@@ -1,0 +1,299 @@
+{
+  "id": "lead_scoring_model",
+  "name": "Lead Scoring Model",
+  "number": 10,
+  "category": "growth",
+  "description": "Lead Scoring Model - Marketing template for growth professionals",
+  "instructions": "How to Use This Template Step 1: Define Scoring Criteria Go to the Scoring Criteria tab. Review and customize the FIT criteria (demographics, firmographics) and ENGAGEMENT criteria (behavioral signals). Adjust point values to match your business. Step 2: Set Thresholds In the Scoring Criteria tab, define your threshold ranges: what total score makes a lead Cold, Warm, Marketing Qualified (MQL), or Sales Qualified (SQL). Step 3: Score Your Leads Go to the Lead Scorer tab. Enter each lead and check which criteria they meet. The template auto-calculates their FIT score, ENGAGEMENT score, and Tota",
+  "icon": "trending-up",
+  "tags": [
+    "growth"
+  ],
+  "estimatedTime": "65 min",
+  "sections": [
+    {
+      "id": "section_1",
+      "title": "Scoring Criteria",
+      "description": "Configuration and tracking for Scoring Criteria",
+      "fields": [
+        {
+          "id": "field_1",
+          "label": "Lead Scoring Criteria",
+          "type": "text",
+          "placeholder": "Enter lead scoring criteria",
+          "required": false,
+          "helpText": "Customize criteria and point values. These drive the Lead Scorer calculations."
+        },
+        {
+          "id": "field_2",
+          "label": "Lead Scoring Criteria",
+          "type": "text",
+          "placeholder": "Enter lead scoring criteria",
+          "required": false,
+          "helpText": "FIT CRITERIA \u2014 Who They Are (max 50 points)"
+        },
+        {
+          "id": "field_3",
+          "label": "Lead Scoring Criteria",
+          "type": "text",
+          "placeholder": "Enter lead scoring criteria",
+          "required": false,
+          "helpText": "#"
+        },
+        {
+          "id": "field_4",
+          "label": "Lead Scoring Criteria",
+          "type": "text",
+          "placeholder": "Enter lead scoring criteria",
+          "required": false,
+          "helpText": "F1"
+        },
+        {
+          "id": "field_5",
+          "label": "Lead Scoring Criteria",
+          "type": "text",
+          "placeholder": "Enter lead scoring criteria",
+          "required": false,
+          "helpText": "F2"
+        },
+        {
+          "id": "field_6",
+          "label": "Lead Scoring Criteria",
+          "type": "text",
+          "placeholder": "Enter lead scoring criteria",
+          "required": false,
+          "helpText": "F3"
+        },
+        {
+          "id": "field_7",
+          "label": "Lead Scoring Criteria",
+          "type": "text",
+          "placeholder": "Enter lead scoring criteria",
+          "required": false,
+          "helpText": "F4"
+        },
+        {
+          "id": "field_8",
+          "label": "Lead Scoring Criteria",
+          "type": "text",
+          "placeholder": "Enter lead scoring criteria",
+          "required": false,
+          "helpText": "F5"
+        },
+        {
+          "id": "field_9",
+          "label": "Lead Scoring Criteria",
+          "type": "text",
+          "placeholder": "Enter lead scoring criteria",
+          "required": false,
+          "helpText": "F6"
+        },
+        {
+          "id": "field_10",
+          "label": "Lead Scoring Criteria",
+          "type": "text",
+          "placeholder": "Enter lead scoring criteria",
+          "required": false,
+          "helpText": "F7"
+        },
+        {
+          "id": "field_11",
+          "label": "Lead Scoring Criteria",
+          "type": "text",
+          "placeholder": "Enter lead scoring criteria",
+          "required": false,
+          "helpText": "F8"
+        },
+        {
+          "id": "field_12",
+          "label": "Lead Scoring Criteria",
+          "type": "text",
+          "placeholder": "Enter lead scoring criteria",
+          "required": false,
+          "helpText": "FIT TOTAL"
+        },
+        {
+          "id": "field_13",
+          "label": "Lead Scoring Criteria",
+          "type": "text",
+          "placeholder": "Enter lead scoring criteria",
+          "required": false,
+          "helpText": "ENGAGEMENT CRITERIA \u2014 What They Do (max 50 points)"
+        },
+        {
+          "id": "field_14",
+          "label": "Lead Scoring Criteria",
+          "type": "text",
+          "placeholder": "Enter lead scoring criteria",
+          "required": false,
+          "helpText": "#"
+        },
+        {
+          "id": "field_15",
+          "label": "Lead Scoring Criteria",
+          "type": "text",
+          "placeholder": "Enter lead scoring criteria",
+          "required": false,
+          "helpText": "E1"
+        },
+        {
+          "id": "field_16",
+          "label": "Lead Scoring Criteria",
+          "type": "text",
+          "placeholder": "Enter lead scoring criteria",
+          "required": false,
+          "helpText": "E2"
+        },
+        {
+          "id": "field_17",
+          "label": "Lead Scoring Criteria",
+          "type": "text",
+          "placeholder": "Enter lead scoring criteria",
+          "required": false,
+          "helpText": "E3"
+        },
+        {
+          "id": "field_18",
+          "label": "Lead Scoring Criteria",
+          "type": "text",
+          "placeholder": "Enter lead scoring criteria",
+          "required": false,
+          "helpText": "E4"
+        },
+        {
+          "id": "field_19",
+          "label": "Lead Scoring Criteria",
+          "type": "text",
+          "placeholder": "Enter lead scoring criteria",
+          "required": false,
+          "helpText": "E5"
+        },
+        {
+          "id": "field_20",
+          "label": "Lead Scoring Criteria",
+          "type": "text",
+          "placeholder": "Enter lead scoring criteria",
+          "required": false,
+          "helpText": "E6"
+        },
+        {
+          "id": "field_21",
+          "label": "Lead Scoring Criteria",
+          "type": "text",
+          "placeholder": "Enter lead scoring criteria",
+          "required": false,
+          "helpText": "E7"
+        },
+        {
+          "id": "field_22",
+          "label": "Lead Scoring Criteria",
+          "type": "text",
+          "placeholder": "Enter lead scoring criteria",
+          "required": false,
+          "helpText": "E8"
+        },
+        {
+          "id": "field_23",
+          "label": "Lead Scoring Criteria",
+          "type": "text",
+          "placeholder": "Enter lead scoring criteria",
+          "required": false,
+          "helpText": "E9"
+        },
+        {
+          "id": "field_24",
+          "label": "Lead Scoring Criteria",
+          "type": "text",
+          "placeholder": "Enter lead scoring criteria",
+          "required": false,
+          "helpText": "E10"
+        },
+        {
+          "id": "field_25",
+          "label": "Lead Scoring Criteria",
+          "type": "text",
+          "placeholder": "Enter lead scoring criteria",
+          "required": false,
+          "helpText": "ENGAGEMENT TOTAL"
+        },
+        {
+          "id": "field_26",
+          "label": "Lead Scoring Criteria",
+          "type": "text",
+          "placeholder": "Enter lead scoring criteria",
+          "required": false,
+          "helpText": "SCORING THRESHOLDS"
+        },
+        {
+          "id": "field_27",
+          "label": "Lead Scoring Criteria",
+          "type": "text",
+          "placeholder": "Enter lead scoring criteria",
+          "required": false,
+          "helpText": "Stage"
+        },
+        {
+          "id": "field_28",
+          "label": "Lead Scoring Criteria",
+          "type": "text",
+          "placeholder": "Enter lead scoring criteria",
+          "required": false,
+          "helpText": "Cold"
+        },
+        {
+          "id": "field_29",
+          "label": "Lead Scoring Criteria",
+          "type": "text",
+          "placeholder": "Enter lead scoring criteria",
+          "required": false,
+          "helpText": "Warm"
+        },
+        {
+          "id": "field_30",
+          "label": "Lead Scoring Criteria",
+          "type": "text",
+          "placeholder": "Enter lead scoring criteria",
+          "required": false,
+          "helpText": "MQL"
+        },
+        {
+          "id": "field_31",
+          "label": "Lead Scoring Criteria",
+          "type": "text",
+          "placeholder": "Enter lead scoring criteria",
+          "required": false,
+          "helpText": "SQL"
+        }
+      ]
+    }
+  ],
+  "dashboard": {
+    "metrics": [
+      {
+        "label": "Auto-calculated from your Lead Scorer data",
+        "calculation": "Count of records",
+        "format": "number"
+      },
+      {
+        "label": "Total Leads",
+        "calculation": "3",
+        "format": "number"
+      },
+      {
+        "label": "PIPELINE BY STAGE",
+        "calculation": "Count of records",
+        "format": "number"
+      },
+      {
+        "label": "Stage",
+        "calculation": "Count",
+        "format": "number"
+      },
+      {
+        "label": "Cold",
+        "calculation": "Count of records",
+        "format": "number"
+      }
+    ]
+  }
+}

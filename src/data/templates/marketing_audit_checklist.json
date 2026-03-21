@@ -1,0 +1,50 @@
+{
+  "id": "marketing_audit_checklist",
+  "name": "Marketing Audit Checklist",
+  "number": 1,
+  "category": "strategy",
+  "description": "Marketing Audit Checklist - Marketing template for strategy professionals",
+  "instructions": "How to Use This Template Step What to Do 1. Go to Audit Checklist Open the 'Audit Checklist' tab. You will find 10 marketing categories, each with 5 specific checkpoints \u2014 50 items total. 2. Score each item For each checkpoint, enter a score from 1 to 5 in the Score column:\n1 = Not started / Not in place\n2 = Basic / Needs major improvement\n3 = Functional / Adequate\n4 = Good / Well-executed\n5 = Excellent / Best-in-class 3. Set Priority Use the Priority column to mark each item as High, Medium, or Low. This helps you focus your action plan. 4. Add Notes The Notes column is for your specific obse",
+  "icon": "target",
+  "tags": [
+    "audit"
+  ],
+  "estimatedTime": "60 min",
+  "sections": [
+    {
+      "id": "section_1",
+      "title": "Main Information",
+      "description": "Enter template information",
+      "fields": [
+        {
+          "id": "field_1",
+          "label": "Name",
+          "type": "text",
+          "placeholder": "Enter name",
+          "required": true
+        },
+        {
+          "id": "field_2",
+          "label": "Description",
+          "type": "textarea",
+          "placeholder": "Enter description",
+          "required": false
+        }
+      ]
+    }
+  ],
+  "dashboard": {
+    "metrics": [
+      {
+        "label": "Completion Rate",
+        "calculation": "Fields completed / Total fields",
+        "format": "percentage"
+      },
+      {
+        "label": "Total Sections",
+        "calculation": "Number of form sections",
+        "format": "number"
+      }
+    ]
+  }
+}

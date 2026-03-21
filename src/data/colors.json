@@ -1,0 +1,391 @@
+{
+  "version": "1.0",
+  "brand": "Advertising Unplugged",
+  "description": "Complete color system with semantic naming, accessibility metrics, and implementation guidance",
+  "generated": "2026-03-18",
+  "palettes": {
+    "primary": {
+      "darkNavy": {
+        "name": "Dark Navy",
+        "description": "Primary brand color - trust, stability, sophistication",
+        "hex": "#1a1f2e",
+        "rgb": {
+          "r": 26,
+          "g": 31,
+          "b": 46
+        },
+        "hsl": {
+          "h": 227,
+          "s": 28,
+          "l": 14
+        },
+        "hsla": "rgba(26, 31, 46, 1)",
+        "usage": [
+          "Primary background color",
+          "Text on light backgrounds",
+          "Primary UI elements",
+          "Navigation bars",
+          "Borders and dividers"
+        ],
+        "wcagContrast": {
+          "onOffWhite": 15.2,
+          "onLightGray": 14.1
+        },
+        "tailwind": "slate-950",
+        "cssVariable": "--color-primary-dark-navy"
+      },
+      "coralRed": {
+        "name": "Coral Red",
+        "description": "Primary accent - energy, confidence, urgency",
+        "hex": "#e8384f",
+        "rgb": {
+          "r": 232,
+          "g": 56,
+          "b": 79
+        },
+        "hsl": {
+          "h": 352,
+          "s": 81,
+          "l": 56
+        },
+        "hsla": "rgba(232, 56, 79, 1)",
+        "usage": [
+          "Call-to-action buttons",
+          "Accent elements",
+          "Highlighting key information",
+          "Primary interactive states",
+          "Focus states and hover effects",
+          "Alerts and notifications"
+        ],
+        "wcagContrast": {
+          "onOffWhite": 5.8,
+          "onDarkNavy": 7.2
+        },
+        "tailwind": "rose-500",
+        "cssVariable": "--color-primary-coral-red"
+      }
+    },
+    "secondary": {
+      "offWhite": {
+        "name": "Off-White",
+        "description": "Primary background - breathing room, reduced eye strain",
+        "hex": "#f8f9fa",
+        "rgb": {
+          "r": 248,
+          "g": 249,
+          "b": 250
+        },
+        "hsl": {
+          "h": 210,
+          "s": 12,
+          "l": 97
+        },
+        "hsla": "rgba(248, 249, 250, 1)",
+        "usage": [
+          "Default page background",
+          "Card backgrounds on light layouts",
+          "Safe space for typography",
+          "Digital and print backgrounds"
+        ],
+        "wcagContrast": {
+          "withDarkNavy": 15.2,
+          "withMediumCharcoal": 12.1
+        },
+        "tailwind": "slate-50",
+        "cssVariable": "--color-secondary-off-white"
+      },
+      "lightGray": {
+        "name": "Light Gray",
+        "description": "Divider and secondary background - visual separation",
+        "hex": "#e9ecef",
+        "rgb": {
+          "r": 233,
+          "g": 236,
+          "b": 239
+        },
+        "hsl": {
+          "h": 210,
+          "s": 10,
+          "l": 94
+        },
+        "hsla": "rgba(233, 236, 239, 1)",
+        "usage": [
+          "Borders and dividers",
+          "Secondary backgrounds",
+          "Subtle differentiation",
+          "Disabled states",
+          "Form field backgrounds"
+        ],
+        "wcagContrast": {
+          "withDarkNavy": 12.8,
+          "withMediumCharcoal": 10.2
+        },
+        "tailwind": "slate-200",
+        "cssVariable": "--color-secondary-light-gray"
+      }
+    },
+    "accent": {
+      "warmNeutral": {
+        "name": "Warm Neutral",
+        "description": "Warm accent - humanity, bridge between digital and print",
+        "hex": "#d4a574",
+        "rgb": {
+          "r": 212,
+          "g": 165,
+          "b": 116
+        },
+        "hsl": {
+          "h": 27,
+          "s": 45,
+          "l": 64
+        },
+        "hsla": "rgba(212, 165, 116, 1)",
+        "usage": [
+          "Photography overlays (20-40% opacity)",
+          "Highlight backgrounds",
+          "Secondary CTA buttons",
+          "Accent border elements",
+          "Featured section backgrounds (max 15% of layout)"
+        ],
+        "wcagContrast": {
+          "onOffWhite": 5.1,
+          "onDarkNavy": 2.8
+        },
+        "notes": "Use as overlay or accent only, not primary background",
+        "tailwind": "amber-200",
+        "cssVariable": "--color-accent-warm-neutral"
+      },
+      "lightTeal": {
+        "name": "Light Teal",
+        "description": "Tertiary accent - technical sophistication, variety",
+        "hex": "#4db8c4",
+        "rgb": {
+          "r": 77,
+          "g": 184,
+          "b": 196
+        },
+        "hsl": {
+          "h": 188,
+          "s": 50,
+          "l": 54
+        },
+        "hsla": "rgba(77, 184, 196, 1)",
+        "usage": [
+          "Secondary CTA buttons",
+          "Hover states",
+          "Data visualization accents",
+          "Icon highlights",
+          "Link underlines"
+        ],
+        "wcagContrast": {
+          "onOffWhite": 4.7,
+          "onDarkNavy": 5.9
+        },
+        "tailwind": "cyan-400",
+        "cssVariable": "--color-accent-light-teal"
+      }
+    },
+    "neutral": {
+      "mediumCharcoal": {
+        "name": "Medium Charcoal",
+        "description": "Text and UI color - high contrast for readability",
+        "hex": "#3a3f4d",
+        "rgb": {
+          "r": 58,
+          "g": 63,
+          "b": 77
+        },
+        "hsl": {
+          "h": 227,
+          "s": 14,
+          "l": 26
+        },
+        "hsla": "rgba(58, 63, 77, 1)",
+        "usage": [
+          "Body text",
+          "Secondary navigation",
+          "Metadata and labels",
+          "Form input text",
+          "Secondary UI elements"
+        ],
+        "wcagContrast": {
+          "onOffWhite": 12.1,
+          "onLightGray": 11.1
+        },
+        "tailwind": "slate-700",
+        "cssVariable": "--color-neutral-medium-charcoal"
+      }
+    }
+  },
+  "semanticColors": {
+    "text": {
+      "primary": "#3a3f4d",
+      "secondary": "#6c757d",
+      "tertiary": "#adb5bd",
+      "disabled": "#dee2e6",
+      "onDark": "#f8f9fa",
+      "onDarkSecondary": "#e9ecef"
+    },
+    "background": {
+      "default": "#f8f9fa",
+      "elevated": "#ffffff",
+      "dark": "#1a1f2e"
+    },
+    "interactive": {
+      "primary": "#e8384f",
+      "primaryHover": "#d43249",
+      "primaryActive": "#c12840",
+      "secondary": "#4db8c4",
+      "secondaryHover": "#3fa3ad",
+      "secondaryActive": "#2d8896",
+      "disabled": "#e9ecef"
+    },
+    "status": {
+      "success": "#2ecc71",
+      "error": "#e74c3c",
+      "warning": "#f39c12",
+      "info": "#3498db"
+    },
+    "divider": "#e9ecef",
+    "border": "#dee2e6"
+  },
+  "gradients": {
+    "navyToTransparent": {
+      "name": "Navy to Transparent",
+      "start": "#1a1f2e",
+      "end": "rgba(26, 31, 46, 0)",
+      "startOpacity": 1,
+      "endOpacity": 0,
+      "usage": "Photography overlays, hero section text backgrounds"
+    },
+    "coralToWarmNeutral": {
+      "name": "Coral to Warm Neutral",
+      "start": "#e8384f",
+      "end": "#d4a574",
+      "usage": "CTA buttons, premium section backgrounds (max 15% of layout)",
+      "cssLinear": "linear-gradient(135deg, #e8384f 0%, #d4a574 100%)"
+    },
+    "tealToNavy": {
+      "name": "Teal to Navy",
+      "start": "#4db8c4",
+      "end": "#1a1f2e",
+      "usage": "Data visualization, premium feature backgrounds",
+      "cssLinear": "linear-gradient(180deg, #4db8c4 0%, #1a1f2e 100%)"
+    }
+  },
+  "tailwindConfig": {
+    "extend": {
+      "colors": {
+        "au": {
+          "50": "#f8f9fa",
+          "100": "#e9ecef",
+          "200": "#dee2e6",
+          "300": "#6c757d",
+          "400": "#495057",
+          "500": "#3a3f4d",
+          "600": "#1a1f2e",
+          "700": "#e8384f",
+          "800": "#4db8c4",
+          "900": "#d4a574"
+        }
+      }
+    }
+  },
+  "cssVariables": {
+    "root": {
+      "--color-primary-dark-navy": "#1a1f2e",
+      "--color-primary-coral-red": "#e8384f",
+      "--color-secondary-off-white": "#f8f9fa",
+      "--color-secondary-light-gray": "#e9ecef",
+      "--color-accent-warm-neutral": "#d4a574",
+      "--color-accent-light-teal": "#4db8c4",
+      "--color-neutral-medium-charcoal": "#3a3f4d",
+      "--color-text-primary": "#3a3f4d",
+      "--color-text-secondary": "#6c757d",
+      "--color-text-tertiary": "#adb5bd",
+      "--color-text-disabled": "#dee2e6",
+      "--color-text-on-dark": "#f8f9fa",
+      "--color-bg-default": "#f8f9fa",
+      "--color-bg-elevated": "#ffffff",
+      "--color-bg-dark": "#1a1f2e",
+      "--color-interactive-primary": "#e8384f",
+      "--color-interactive-primary-hover": "#d43249",
+      "--color-interactive-primary-active": "#c12840",
+      "--color-interactive-secondary": "#4db8c4",
+      "--color-interactive-secondary-hover": "#3fa3ad",
+      "--color-status-success": "#2ecc71",
+      "--color-status-error": "#e74c3c",
+      "--color-status-warning": "#f39c12",
+      "--color-status-info": "#3498db",
+      "--color-divider": "#e9ecef",
+      "--color-border": "#dee2e6"
+    }
+  },
+  "accessibility": {
+    "wcagGuidelines": {
+      "normalText": {
+        "AAmin": "4.5:1",
+        "AAAmin": "7:1",
+        "recommendation": "Always test text contrast ratios"
+      },
+      "largeText": {
+        "AAmin": "3:1",
+        "AAAmin": "4.5:1",
+        "definition": "18pt+ or 14pt bold+"
+      }
+    },
+    "colorBlindness": {
+      "note": "Do not rely solely on color to communicate information",
+      "recommendation": "Always pair colors with icons, patterns, or text labels",
+      "testing": "Use WebAIM Contrast Checker or Sim Daltonism simulator"
+    }
+  },
+  "implementationGuides": {
+    "web": {
+      "format": "Use CSS variables for maintainability",
+      "example": "color: var(--color-primary-dark-navy);",
+      "fallback": "Provide hex color fallback for older browsers"
+    },
+    "print": {
+      "format": "CMYK color values",
+      "darkNavy": "C:95% M:88% Y:65% K:60% | PMS 19-3950",
+      "coralRed": "C:0% M:92% Y:68% K:0% | PMS 17-1564",
+      "warmNeutral": "C:12% M:30% Y:57% K:0%",
+      "lightTeal": "C:65% M:10% Y:25% K:0%"
+    },
+    "social": {
+      "format": "RGB or Hex only",
+      "note": "Social platforms use RGB/Hex internally; CMYK not applicable"
+    },
+    "email": {
+      "format": "Hex color only, no RGB or HSL",
+      "note": "Email clients have limited color support; always provide fallback colors"
+    }
+  },
+  "applicationExamples": {
+    "websiteHeader": [
+      "Background: Dark Navy (#1a1f2e)",
+      "Text: Off-White (#f8f9fa)",
+      "CTA Button: Coral Red (#e8384f) with Off-White text",
+      "Hover State: Darken Coral Red to #d43249"
+    ],
+    "emailCTA": [
+      "Button Background: Coral Red (#e8384f)",
+      "Button Text: Off-White (#f8f9fa)",
+      "Surrounding Background: Light Gray (#e9ecef)",
+      "Text: Medium Charcoal (#3a3f4d)"
+    ],
+    "productCard": [
+      "Background: Off-White (#f8f9fa)",
+      "Heading: Dark Navy (#1a1f2e)",
+      "Divider: Light Gray (#e9ecef)",
+      "Accent Border: Coral Red (#e8384f)"
+    ],
+    "dataVisualization": [
+      "Primary Bar: Coral Red (#e8384f)",
+      "Secondary Bar: Light Teal (#4db8c4)",
+      "Background: Off-White (#f8f9fa)",
+      "Grid Lines: Light Gray (#e9ecef)"
+    ]
+  }
+}

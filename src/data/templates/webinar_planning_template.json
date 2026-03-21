@@ -1,0 +1,132 @@
+{
+  "id": "webinar_planning_template",
+  "name": "Webinar Planning Template",
+  "number": 28,
+  "category": "content",
+  "description": "Webinar Planning Template - Marketing template for content professionals",
+  "instructions": "How to Use This Template 1. Webinar Brief Define topic, format, speakers, and goals. 2. Promotion Plan Map your multi-channel promotion timeline. 3. Run of Show Plan the minute-by-minute webinar flow. 4. Registration Tracker Track signups, sources, and attendance. 5. Speaker Management Coordinate speakers, bios, and logistics. 6. Tech Checklist Ensure all technology is tested and ready. 7. Follow-Up Plan Automate post-webinar nurture and content repurposing. 8. Performance Tracker Measure webinar success against KPIs.",
+  "icon": "file-text",
+  "tags": [
+    "strategy",
+    "content"
+  ],
+  "estimatedTime": "45 min",
+  "sections": [
+    {
+      "id": "section_3",
+      "title": "Run of Show",
+      "description": "Configuration and tracking for Run of Show",
+      "fields": [
+        {
+          "id": "field_1",
+          "label": "Run of Show",
+          "type": "text",
+          "placeholder": "Enter run of show",
+          "required": false,
+          "helpText": "Time"
+        },
+        {
+          "id": "field_2",
+          "label": "Run of Show",
+          "type": "text",
+          "placeholder": "Enter run of show",
+          "required": false,
+          "helpText": "-15 min"
+        },
+        {
+          "id": "field_3",
+          "label": "Run of Show",
+          "type": "text",
+          "placeholder": "Enter run of show",
+          "required": false,
+          "helpText": "-5 min"
+        },
+        {
+          "id": "field_4",
+          "label": "Run of Show",
+          "type": "text",
+          "placeholder": "Enter run of show",
+          "required": false,
+          "helpText": "0:00"
+        },
+        {
+          "id": "field_5",
+          "label": "Run of Show",
+          "type": "text",
+          "placeholder": "Enter run of show",
+          "required": false,
+          "helpText": "0:03"
+        },
+        {
+          "id": "field_6",
+          "label": "Run of Show",
+          "type": "text",
+          "placeholder": "Enter run of show",
+          "required": false,
+          "helpText": "0:23"
+        },
+        {
+          "id": "field_7",
+          "label": "Run of Show",
+          "type": "text",
+          "placeholder": "Enter run of show",
+          "required": false,
+          "helpText": "0:38"
+        },
+        {
+          "id": "field_8",
+          "label": "Run of Show",
+          "type": "text",
+          "placeholder": "Enter run of show",
+          "required": false,
+          "helpText": "0:40"
+        },
+        {
+          "id": "field_9",
+          "label": "Run of Show",
+          "type": "text",
+          "placeholder": "Enter run of show",
+          "required": false,
+          "helpText": "0:55"
+        },
+        {
+          "id": "field_10",
+          "label": "Run of Show",
+          "type": "text",
+          "placeholder": "Enter run of show",
+          "required": false,
+          "helpText": "0:58"
+        }
+      ]
+    }
+  ],
+  "dashboard": {
+    "metrics": [
+      {
+        "label": "Metric",
+        "calculation": "Value",
+        "format": "number"
+      },
+      {
+        "label": "Total Registrations",
+        "calculation": "Count of records",
+        "format": "number"
+      },
+      {
+        "label": "Attendance Rate",
+        "calculation": "Count of records",
+        "format": "number"
+      },
+      {
+        "label": "No-Show Rate",
+        "calculation": "Count of records",
+        "format": "number"
+      },
+      {
+        "label": "Leads Generated",
+        "calculation": "Count of records",
+        "format": "number"
+      }
+    ]
+  }
+}

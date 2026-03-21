@@ -1,0 +1,50 @@
+{
+  "id": "sales_enablement_kit",
+  "name": "Sales Enablement Kit",
+  "number": 35,
+  "category": "growth",
+  "description": "Sales Enablement Kit - Marketing template for growth professionals",
+  "instructions": "How to Use This Kit Getting Started Begin with the Dashboard to understand your current sales enablement status. Review the Content Library to see what assets are available. Daily Use Use Battle Cards during competitive deals. Reference the Sales Playbook for stage-specific activities. Check the Objection Handling tab when facing common objections. Content Management The Content Library tracks all your sales assets. Update usage rates and effectiveness scores regularly to keep data current. Training Use the Training Tracker to ensure team members complete required modules. Track certification ",
+  "icon": "trending-up",
+  "tags": [
+    "growth"
+  ],
+  "estimatedTime": "65 min",
+  "sections": [
+    {
+      "id": "section_1",
+      "title": "Main Information",
+      "description": "Enter template information",
+      "fields": [
+        {
+          "id": "field_1",
+          "label": "Name",
+          "type": "text",
+          "placeholder": "Enter name",
+          "required": true
+        },
+        {
+          "id": "field_2",
+          "label": "Description",
+          "type": "textarea",
+          "placeholder": "Enter description",
+          "required": false
+        }
+      ]
+    }
+  ],
+  "dashboard": {
+    "metrics": [
+      {
+        "label": "Completion Rate",
+        "calculation": "Fields completed / Total fields",
+        "format": "percentage"
+      },
+      {
+        "label": "Total Sections",
+        "calculation": "Number of form sections",
+        "format": "number"
+      }
+    ]
+  }
+}
