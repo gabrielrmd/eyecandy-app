@@ -17,9 +17,9 @@ import { createClient } from "@/lib/supabase/client";
 interface Question {
   id: string;
   question_text: string;
-  question_type: "text" | "textarea" | "select";
+  question_type: string;
   placeholder: string;
-  options: string[] | null;
+  options: (string | { label: string; value: string })[] | null;
   required: boolean;
   help_text: string | null;
   question_number: number;
@@ -501,7 +501,7 @@ export default function QuestionnairePage() {
                         }
                         className="w-full rounded-lg border border-border bg-background px-4 py-2.5 text-sm text-foreground placeholder:text-muted-foreground focus:border-[var(--coral)] focus:outline-none focus:ring-2 focus:ring-[var(--coral)]/20"
                       />
-                    ) : question.question_type === "select" ? (
+                    ) : question.question_type === "select" || question.question_type === "multiselect" ? (
                       <select
                         id={question.id}
                         value={answers[question.id] ?? ""}
@@ -510,13 +510,34 @@ export default function QuestionnairePage() {
                         }
                         className="w-full appearance-none rounded-lg border border-border bg-background px-4 py-2.5 text-sm text-foreground focus:border-[var(--coral)] focus:outline-none focus:ring-2 focus:ring-[var(--coral)]/20"
                       >
-                        <option value="">{question.placeholder}</option>
-                        {question.options?.map((opt) => (
-                          <option key={opt} value={opt}>
-                            {opt}
-                          </option>
-                        ))}
+                        <option value="">{question.placeholder || "Select an option..."}</option>
+                        {question.options?.map((opt) => {
+                          const label = typeof opt === "object" && opt !== null ? (opt as {label: string}).label : String(opt);
+                          const value = typeof opt === "object" && opt !== null ? (opt as {value: string}).value : String(opt);
+                          return (
+                            <option key={value} value={value}>
+                              {label}
+                            </option>
+                          );
+                        })}
                       </select>
+                    ) : question.question_type === "scale" ? (
+                      <div className="flex items-center gap-3">
+                        <input
+                          id={question.id}
+                          type="range"
+                          min={1}
+                          max={10}
+                          value={answers[question.id] ?? "5"}
+                          onChange={(e) =>
+                            updateAnswer(question.id, e.target.value)
+                          }
+                          className="flex-1 accent-[var(--coral)]"
+                        />
+                        <span className="w-8 text-center text-sm font-semibold text-[var(--navy)]">
+                          {answers[question.id] ?? "5"}/10
+                        </span>
+                      </div>
                     ) : (
                       <input
                         id={question.id}
