@@ -158,196 +158,154 @@ export default function StrategyResultPage() {
   const handleExportPDF = () => {
     setExporting(true);
 
-    // Logo URL (absolute path for the print window)
-    const logoUrl = `${window.location.origin}/brand/au-logo.png`;
-    const logoWhiteUrl = `${window.location.origin}/brand/au-logo-white.png`;
+    const origin = window.location.origin;
+    const logoColor = `${origin}/brand/au-logo.png`;
+    const logoWhite = `${origin}/brand/au-logo-white.png`;
     const dateStr = new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+    const yearStr = new Date().getFullYear();
 
-    // Convert markdown to styled HTML
+    // Markdown → HTML with brand-compliant styling
     function mdToHtml(md: string): string {
       return md
         .replace(/^### (.*$)/gm, '<h3 class="h3">$1</h3>')
-        .replace(/^## (.*$)/gm, (_, title) => {
-          const lower = title.toLowerCase();
-          if (lower.includes('key takeaway')) {
-            return `<div class="takeaways-box"><h2 class="takeaways-title">${title}</h2>`;
-          }
-          if (lower.includes('recommended action')) {
-            return `<div class="actions-box"><h2 class="actions-title">${title}</h2>`;
-          }
-          return `<h2 class="h2">${title}</h2>`;
+        .replace(/^## (.*$)/gm, (_, t: string) => {
+          const l = t.toLowerCase();
+          if (l.includes('key takeaway')) return `<div class="box-takeaways"><p class="box-label">Key Takeaways</p>`;
+          if (l.includes('recommended action')) return `<div class="box-actions"><p class="box-label-alt">Recommended Actions</p>`;
+          return `<h2 class="h2">${t}</h2>`;
         })
         .replace(/^# (.*$)/gm, '<h1 class="h1">$1</h1>')
         .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
         .replace(/\*(.*?)\*/g, '<em>$1</em>')
-        .replace(/^- (.*$)/gm, '<li class="bullet">$1</li>')
-        .replace(/^(\d+)\. (.*$)/gm, '<li class="numbered">$2</li>')
-        .replace(/\n\n/g, '</p><p class="body">')
+        .replace(/^- (.*$)/gm, '<div class="li"><span class="dot"></span><span>$1</span></div>')
+        .replace(/^(\d+)\. (.*$)/gm, '<div class="li-num"><span class="num">$1.</span><span>$2</span></div>')
+        .replace(/\n\n/g, '</p><p class="p">')
         .replace(/\n/g, '<br/>');
     }
 
-    // Build table of contents
-    const tocHtml = sections.map((s, i) =>
-      `<div class="toc-item">
-        <span class="toc-num">${String(i + 1).padStart(2, '0')}</span>
-        <span class="toc-title">${s.title}</span>
-      </div>`
-    ).join('');
-
-    // Build section pages
-    const sectionsHtml = sections.map((section, idx) => {
-      const num = String(idx + 1).padStart(2, '0');
-      const content = mdToHtml(section.content);
-      return `
-        <!-- Section divider page -->
-        <div class="section-divider">
-          <div class="divider-inner">
-            <span class="divider-num">${num}</span>
-            <h1 class="divider-title">${section.title}</h1>
-            <div class="divider-line"></div>
-          </div>
-          <div class="divider-footer">
-            <img src="${logoUrl}" class="divider-logo" />
-          </div>
-        </div>
-        <!-- Section content page -->
-        <div class="section-content">
-          <div class="section-header">
-            <span class="section-chapter">Chapter ${num}</span>
-            <span class="section-date">${dateStr}</span>
-          </div>
-          <div class="section-body">
-            <p class="body">${content}</p>
-          </div>
-          <div class="section-footer">
-            <img src="${logoUrl}" class="footer-logo" />
-            <span class="footer-page">${idx + 1} / ${sections.length}</span>
-          </div>
-        </div>`;
+    const tocRows = sections.map((s, i) => {
+      const n = String(i + 1).padStart(2, '0');
+      return `<tr><td class="tc-n">${n}</td><td class="tc-t">${s.title}</td></tr>`;
     }).join('');
 
-    const printWindow = window.open('', '_blank');
-    if (!printWindow) {
-      setExporting(false);
-      alert("Please allow popups to export PDF");
-      return;
-    }
+    const pages = sections.map((section, idx) => {
+      const n = String(idx + 1).padStart(2, '0');
+      return `
+<div class="pg divider"><div class="d-wrap"><p class="d-n">${n}</p><p class="d-t">${section.title}</p><div class="d-bar"></div></div><img src="${logoColor}" class="d-logo"/></div>
+<div class="pg content"><div class="c-head"><span class="c-ch">Chapter ${n}</span><span class="c-dt">${dateStr}</span></div><div class="c-body"><p class="p">${mdToHtml(section.content)}</p></div><div class="c-foot"><img src="${logoColor}" class="f-logo"/><span class="f-pg">${n} / ${String(sections.length).padStart(2, '0')}</span></div></div>`;
+    }).join('');
 
-    printWindow.document.write(`<!DOCTYPE html>
-<html>
-<head>
-  <title>Brand Strategy Deck</title>
-  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-  <style>
-    @page { margin: 0; size: A4; }
-    * { box-sizing: border-box; margin: 0; padding: 0; }
-    body { font-family: Inter, sans-serif; color: #333; }
-    @media print { body { -webkit-print-color-adjust: exact; print-color-adjust: exact; } }
+    const w = window.open('', '_blank');
+    if (!w) { setExporting(false); alert("Allow popups to export"); return; }
 
-    /* Cover page */
-    .cover { height: 100vh; background: #1A1A2E; color: white; display: flex; flex-direction: column; justify-content: flex-end; padding: 80px; position: relative; page-break-after: always; }
-    .cover-logo { height: 48px; margin-bottom: 60px; }
-    .cover-label { font-family: Oswald, sans-serif; font-size: 13px; text-transform: uppercase; letter-spacing: 5px; color: #2AB9B0; margin-bottom: 12px; }
-    .cover-title { font-family: Oswald, sans-serif; font-size: 52px; font-weight: 700; text-transform: uppercase; line-height: 1.1; margin-bottom: 20px; }
-    .cover-line { width: 80px; height: 3px; background: #2AB9B0; margin-bottom: 30px; }
-    .cover-meta { font-size: 13px; color: rgba(255,255,255,0.5); line-height: 1.8; }
-    .cover-footer { position: absolute; bottom: 40px; left: 80px; right: 80px; display: flex; justify-content: space-between; font-size: 10px; color: rgba(255,255,255,0.3); text-transform: uppercase; letter-spacing: 2px; font-family: Oswald, sans-serif; }
+    w.document.write(`<!DOCTYPE html><html><head><title>Brand Strategy</title>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+@page{margin:0;size:A4}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Inter,sans-serif;color:#333;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+img{display:block;image-rendering:-webkit-optimize-contrast;image-rendering:crisp-edges}
 
-    /* TOC page */
-    .toc-page { height: 100vh; padding: 80px; display: flex; flex-direction: column; page-break-after: always; }
-    .toc-heading { font-family: Oswald, sans-serif; font-size: 28px; text-transform: uppercase; color: #1A1A2E; margin-bottom: 40px; letter-spacing: 2px; }
-    .toc-item { display: flex; align-items: baseline; gap: 16px; padding: 12px 0; border-bottom: 1px solid #eee; }
-    .toc-num { font-family: Oswald, sans-serif; font-size: 14px; color: #2AB9B0; font-weight: 700; min-width: 28px; }
-    .toc-title { font-family: Oswald, sans-serif; font-size: 15px; color: #1A1A2E; text-transform: uppercase; letter-spacing: 1px; }
+/* === PAGE TEMPLATE === */
+.pg{height:100vh;page-break-after:always;position:relative;overflow:hidden}
 
-    /* Section divider */
-    .section-divider { height: 100vh; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; page-break-after: always; background: white; position: relative; }
-    .divider-inner { padding: 40px; }
-    .divider-num { font-family: Oswald, sans-serif; font-size: 64px; font-weight: 700; color: #2AB9B0; display: block; margin-bottom: 16px; }
-    .divider-title { font-family: Oswald, sans-serif; font-size: 32px; font-weight: 700; text-transform: uppercase; color: #1A1A2E; letter-spacing: 2px; }
-    .divider-line { width: 60px; height: 3px; background: #2AB9B0; margin: 24px auto 0; }
-    .divider-footer { position: absolute; bottom: 40px; }
-    .divider-logo { height: 28px; opacity: 0.3; }
+/* === COVER === */
+.cover{height:100vh;background:#1A1A2E;page-break-after:always;position:relative;display:flex;flex-direction:column}
+.cover-top{flex:1;display:flex;align-items:center;justify-content:center}
+.cover-logo{height:72px;width:auto;filter:brightness(0) invert(1);image-rendering:-webkit-optimize-contrast}
+.cover-bot{padding:0 100px 80px}
+.cover-bar{width:100%;height:4px;background:linear-gradient(90deg,#2AB9B0,#8ED16A,#F28C28,#F8CE30);margin-bottom:48px}
+.cover-lbl{font-family:Oswald,sans-serif;font-size:12px;font-weight:500;text-transform:uppercase;letter-spacing:6px;color:#2AB9B0;margin-bottom:16px}
+.cover-ttl{font-family:Oswald,sans-serif;font-size:54px;font-weight:700;color:white;line-height:1.05;margin-bottom:24px}
+.cover-sub{font-family:Inter,sans-serif;font-size:14px;color:rgba(255,255,255,0.45);line-height:1.8}
+.cover-ft{position:absolute;bottom:36px;left:100px;right:100px;display:flex;justify-content:space-between;font-family:Oswald,sans-serif;font-size:9px;text-transform:uppercase;letter-spacing:2.5px;color:rgba(255,255,255,0.2)}
 
-    /* Section content */
-    .section-content { padding: 60px 80px; min-height: 100vh; page-break-after: always; position: relative; }
-    .section-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 30px; padding-bottom: 12px; border-bottom: 2px solid #2AB9B0; }
-    .section-chapter { font-family: Oswald, sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 3px; color: #2AB9B0; font-weight: 600; }
-    .section-date { font-size: 10px; color: #999; }
-    .section-body { font-size: 13px; line-height: 1.9; color: #333; }
-    .section-footer { position: absolute; bottom: 30px; left: 80px; right: 80px; display: flex; justify-content: space-between; align-items: center; }
-    .footer-logo { height: 20px; opacity: 0.2; }
-    .footer-page { font-family: Oswald, sans-serif; font-size: 10px; color: #999; letter-spacing: 1px; }
+/* === TOC === */
+.toc{height:100vh;padding:100px;page-break-after:always;background:white}
+.toc-h{font-family:Oswald,sans-serif;font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:5px;color:#2AB9B0;margin-bottom:48px}
+.toc table{width:100%;border-collapse:collapse}
+.tc-n{font-family:Oswald,sans-serif;font-size:13px;font-weight:700;color:#2AB9B0;padding:14px 0;width:40px;vertical-align:baseline;border-bottom:1px solid #F5F5F5}
+.tc-t{font-family:Oswald,sans-serif;font-size:14px;font-weight:400;color:#333;padding:14px 0;text-transform:uppercase;letter-spacing:0.8px;border-bottom:1px solid #F5F5F5}
 
-    /* Typography */
-    .h1 { font-family: Oswald, sans-serif; font-size: 22px; color: #1A1A2E; margin: 24px 0 12px; text-transform: uppercase; }
-    .h2 { font-family: Oswald, sans-serif; font-size: 18px; color: #1A1A2E; margin: 28px 0 10px; padding-bottom: 6px; border-bottom: 1px solid #eee; }
-    .h3 { font-family: Oswald, sans-serif; font-size: 15px; color: #2AB9B0; margin: 20px 0 8px; }
-    .body { margin: 8px 0; line-height: 1.9; }
-    strong { color: #1A1A2E; }
-    .bullet { margin-left: 20px; margin-bottom: 6px; padding-left: 8px; position: relative; }
-    .bullet::before { content: ''; position: absolute; left: -12px; top: 8px; width: 5px; height: 5px; border-radius: 50%; background: #2AB9B0; }
-    .numbered { margin-left: 24px; margin-bottom: 6px; list-style-type: decimal; }
+/* === DIVIDER === */
+.divider{display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;background:white}
+.d-wrap{padding:40px}
+.d-n{font-family:Oswald,sans-serif;font-size:72px;font-weight:300;color:#2AB9B0;line-height:1;margin-bottom:20px}
+.d-t{font-family:Oswald,sans-serif;font-size:26px;font-weight:600;text-transform:uppercase;letter-spacing:3px;color:#1A1A2E}
+.d-bar{width:48px;height:3px;background:linear-gradient(90deg,#2AB9B0,#8ED16A);margin:28px auto 0}
+.d-logo{position:absolute;bottom:48px;left:50%;transform:translateX(-50%);height:24px;width:auto;opacity:0.12}
 
-    /* Key Takeaways box */
-    .takeaways-box { background: #f0faf9; border-left: 3px solid #2AB9B0; padding: 16px 20px; margin: 24px 0 16px; border-radius: 0 8px 8px 0; }
-    .takeaways-title { font-family: Oswald, sans-serif; font-size: 15px; color: #1A1A2E; margin-bottom: 8px; border: none; padding: 0; }
-    .actions-box { background: #1A1A2E; color: white; padding: 16px 20px; margin: 24px 0 16px; border-radius: 8px; }
-    .actions-title { font-family: Oswald, sans-serif; font-size: 15px; color: #2AB9B0; margin-bottom: 8px; border: none; padding: 0; }
-    .actions-box strong { color: white; }
-    .actions-box .bullet::before { background: #2AB9B0; }
+/* === CONTENT === */
+.content{padding:72px 100px 80px;background:white}
+.c-head{display:flex;justify-content:space-between;align-items:center;padding-bottom:14px;margin-bottom:36px;border-bottom:1.5px solid #2AB9B0}
+.c-ch{font-family:Oswald,sans-serif;font-size:10px;font-weight:600;text-transform:uppercase;letter-spacing:4px;color:#2AB9B0}
+.c-dt{font-family:Inter,sans-serif;font-size:9px;color:#999;letter-spacing:0.5px}
+.c-body{font-size:12.5px;line-height:2;color:#444;max-width:520px}
+.c-foot{position:absolute;bottom:36px;left:100px;right:100px;display:flex;justify-content:space-between;align-items:center}
+.f-logo{height:18px;width:auto;opacity:0.1}
+.f-pg{font-family:Oswald,sans-serif;font-size:9px;color:#bbb;letter-spacing:1.5px}
 
-    /* Back cover */
-    .back-cover { height: 100vh; background: #1A1A2E; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; color: white; }
-    .back-logo { height: 56px; margin-bottom: 40px; }
-    .back-tagline { font-family: Oswald, sans-serif; font-size: 18px; text-transform: uppercase; letter-spacing: 4px; color: rgba(255,255,255,0.6); margin-bottom: 12px; }
-    .back-motto { font-size: 14px; color: rgba(255,255,255,0.4); font-style: italic; }
-    .back-url { font-family: Oswald, sans-serif; font-size: 11px; color: #2AB9B0; text-transform: uppercase; letter-spacing: 3px; margin-top: 40px; }
-  </style>
-</head>
-<body>
-  <!-- COVER PAGE -->
-  <div class="cover">
-    <img src="${logoWhiteUrl}" class="cover-logo" />
-    <div class="cover-label">Brand Strategy</div>
-    <div class="cover-title">Strategy Deck</div>
-    <div class="cover-line"></div>
-    <div class="cover-meta">
-      Generated by Advertising Unplugged<br/>
-      ${dateStr}
-    </div>
-    <div class="cover-footer">
-      <span>Confidential</span>
-      <span>advertisingunplugged.com</span>
-    </div>
+/* === TYPOGRAPHY === */
+.h1{font-family:Oswald,sans-serif;font-size:20px;font-weight:600;color:#1A1A2E;margin:32px 0 14px;text-transform:uppercase;letter-spacing:0.5px}
+.h2{font-family:Oswald,sans-serif;font-size:16px;font-weight:600;color:#1A1A2E;margin:32px 0 12px;padding-bottom:8px;border-bottom:1px solid #eee}
+.h3{font-family:Oswald,sans-serif;font-size:13px;font-weight:500;color:#2AB9B0;margin:24px 0 8px;text-transform:uppercase;letter-spacing:1px}
+.p{margin:6px 0;line-height:2}
+strong{color:#1A1A2E;font-weight:600}
+em{color:#666}
+
+/* === LISTS === */
+.li{display:flex;gap:10px;margin:5px 0 5px 4px;line-height:1.8}
+.dot{width:5px;height:5px;border-radius:50%;background:#2AB9B0;flex-shrink:0;margin-top:9px}
+.li-num{display:flex;gap:8px;margin:5px 0 5px 4px;line-height:1.8}
+.num{font-family:Oswald,sans-serif;font-weight:600;color:#2AB9B0;font-size:12px;min-width:18px}
+
+/* === CALLOUT BOXES === */
+.box-takeaways{background:#F5F5F5;border-left:3px solid #2AB9B0;padding:20px 24px;margin:28px 0 20px;border-radius:0 6px 6px 0}
+.box-label{font-family:Oswald,sans-serif;font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:2px;color:#2AB9B0;margin-bottom:10px}
+.box-actions{background:#1A1A2E;padding:20px 24px;margin:28px 0 20px;border-radius:6px}
+.box-label-alt{font-family:Oswald,sans-serif;font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:2px;color:#2AB9B0;margin-bottom:10px}
+.box-actions,.box-actions strong,.box-actions span{color:rgba(255,255,255,0.85)}
+.box-actions .dot{background:#2AB9B0}
+
+/* === BACK COVER === */
+.back{height:100vh;background:#1A1A2E;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center}
+.b-logo{height:64px;width:auto;margin-bottom:48px}
+.b-bar{width:120px;height:3px;background:linear-gradient(90deg,#2AB9B0,#8ED16A,#F28C28,#F8CE30);margin-bottom:32px}
+.b-tag{font-family:Oswald,sans-serif;font-size:11px;font-weight:500;text-transform:uppercase;letter-spacing:5px;color:rgba(255,255,255,0.5);margin-bottom:8px}
+.b-mot{font-family:Inter,sans-serif;font-size:13px;color:rgba(255,255,255,0.3);font-style:italic}
+.b-url{font-family:Oswald,sans-serif;font-size:10px;color:#2AB9B0;text-transform:uppercase;letter-spacing:3px;margin-top:48px}
+</style></head><body>
+
+<div class="cover">
+  <div class="cover-top"><img src="${logoWhite}" class="cover-logo"/></div>
+  <div class="cover-bot">
+    <div class="cover-bar"></div>
+    <p class="cover-lbl">Brand Strategy</p>
+    <p class="cover-ttl">Strategy Deck</p>
+    <p class="cover-sub">Prepared by Advertising Unplugged<br/>${dateStr}</p>
   </div>
+  <div class="cover-ft"><span>Confidential &mdash; ${yearStr}</span><span>advertisingunplugged.com</span></div>
+</div>
 
-  <!-- TABLE OF CONTENTS -->
-  <div class="toc-page">
-    <div class="toc-heading">Contents</div>
-    ${tocHtml}
-  </div>
+<div class="toc">
+  <p class="toc-h">Table of Contents</p>
+  <table>${tocRows}</table>
+</div>
 
-  <!-- STRATEGY SECTIONS -->
-  ${sectionsHtml}
+${pages}
 
-  <!-- BACK COVER -->
-  <div class="back-cover">
-    <img src="${logoWhiteUrl}" class="back-logo" />
-    <div class="back-tagline">Advertising Unplugged</div>
-    <div class="back-motto">Clarity Over Noise. Purpose Beyond Profit.</div>
-    <div class="back-url">advertisingunplugged.com</div>
-  </div>
-</body>
-</html>`);
+<div class="pg back">
+  <img src="${logoWhite}" class="b-logo"/>
+  <div class="b-bar"></div>
+  <p class="b-tag">Advertising Unplugged</p>
+  <p class="b-mot">Clarity Over Noise. Purpose Beyond Profit.</p>
+  <p class="b-url">advertisingunplugged.com</p>
+</div>
 
-    printWindow.document.close();
+</body></html>`);
 
-    // Wait for fonts + images to load, then trigger print
-    setTimeout(() => {
-      printWindow.print();
-      setExporting(false);
-    }, 2000);
+    w.document.close();
+    setTimeout(() => { w.print(); setExporting(false); }, 2500);
   };
 
   if (loading) {
