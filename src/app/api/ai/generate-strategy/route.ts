@@ -281,8 +281,8 @@ ${fullContext || "No questionnaire responses provided."}`;
       return JSON.parse(jsonText);
     }
 
-    // Split into 3 batches of 5 sections each
-    const BATCH_SIZE = 5;
+    // Split into 5 batches of 3 sections each (each batch ~20-30s, fits Vercel 60s)
+    const BATCH_SIZE = 3;
     const allBatches = [];
     for (let i = 0; i < STRATEGY_SECTIONS.length; i += BATCH_SIZE) {
       allBatches.push(STRATEGY_SECTIONS.slice(i, i + BATCH_SIZE));
@@ -311,7 +311,7 @@ ${fullContext || "No questionnaire responses provided."}`;
       try {
         const message = await anthropic.messages.create({
           model: "claude-sonnet-4-20250514",
-          max_tokens: 6000,
+          max_tokens: 4000,
           system: SYSTEM_PROMPT,
           messages: [{
             role: "user",
@@ -320,7 +320,7 @@ ${fullContext || "No questionnaire responses provided."}`;
 Project Context:
 ${projectContext}
 
-Each section: 200-300 words, concise markdown. End each with "## Key Takeaways" (3 bullets).
+Each section: 150-250 words, concise markdown. End each with "## Key Takeaways" (3 bullets). Be direct and specific.
 
 ${batchPrompt}
 
