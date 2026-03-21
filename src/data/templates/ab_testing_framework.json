@@ -12,23 +12,178 @@
   "estimatedTime": "55 min",
   "sections": [
     {
-      "id": "section_1",
-      "title": "Main Information",
-      "description": "Enter template information",
+      "id": "hypothesis",
+      "title": "Test Hypothesis",
+      "description": "Define what you're testing and why",
       "fields": [
         {
-          "id": "field_1",
-          "label": "Name",
+          "id": "test_name",
+          "label": "Test Name",
           "type": "text",
-          "placeholder": "Enter name",
-          "required": true
+          "placeholder": "e.g., Homepage CTA Color Test",
+          "required": true,
+          "helpText": ""
         },
         {
-          "id": "field_2",
-          "label": "Description",
+          "id": "hypothesis",
+          "label": "Hypothesis",
           "type": "textarea",
-          "placeholder": "Enter description",
-          "required": false
+          "placeholder": "If we change X, then Y will happen because Z",
+          "required": true,
+          "helpText": ""
+        },
+        {
+          "id": "primary_metric",
+          "label": "Primary Metric",
+          "type": "text",
+          "placeholder": "e.g., Click-through rate",
+          "required": true,
+          "helpText": ""
+        },
+        {
+          "id": "secondary_metrics",
+          "label": "Secondary Metrics",
+          "type": "textarea",
+          "placeholder": "e.g., Bounce rate, Time on page",
+          "required": false,
+          "helpText": ""
+        },
+        {
+          "id": "test_duration",
+          "label": "Test Duration",
+          "type": "text",
+          "placeholder": "e.g., 2 weeks",
+          "required": false,
+          "helpText": ""
+        },
+        {
+          "id": "sample_size",
+          "label": "Target Sample Size",
+          "type": "text",
+          "placeholder": "e.g., 1,000 visitors per variant",
+          "required": false,
+          "helpText": ""
+        },
+        {
+          "id": "confidence_level",
+          "label": "Confidence Level",
+          "type": "select",
+          "options": [
+            "90%",
+            "95%",
+            "99%"
+          ],
+          "required": false,
+          "placeholder": "",
+          "helpText": ""
+        }
+      ]
+    },
+    {
+      "id": "variants",
+      "title": "Test Variants",
+      "description": "Define control and test variations",
+      "fields": [
+        {
+          "id": "control",
+          "label": "Control (A) Description",
+          "type": "textarea",
+          "placeholder": "Describe the current/control version",
+          "required": true,
+          "helpText": ""
+        },
+        {
+          "id": "variant_b",
+          "label": "Variant B Description",
+          "type": "textarea",
+          "placeholder": "Describe what changes in variant B",
+          "required": true,
+          "helpText": ""
+        },
+        {
+          "id": "variant_c",
+          "label": "Variant C Description (optional)",
+          "type": "textarea",
+          "placeholder": "Describe variant C if applicable",
+          "required": false,
+          "helpText": ""
+        },
+        {
+          "id": "traffic_split",
+          "label": "Traffic Split",
+          "type": "text",
+          "placeholder": "e.g., 50/50 or 33/33/33",
+          "required": false,
+          "helpText": ""
+        },
+        {
+          "id": "targeting",
+          "label": "Audience Targeting",
+          "type": "textarea",
+          "placeholder": "e.g., All visitors, returning users only",
+          "required": false,
+          "helpText": ""
+        }
+      ]
+    },
+    {
+      "id": "results",
+      "title": "Results & Analysis",
+      "description": "Document test outcomes",
+      "fields": [
+        {
+          "id": "winner",
+          "label": "Winning Variant",
+          "type": "select",
+          "options": [
+            "Control (A)",
+            "Variant B",
+            "Variant C",
+            "No significant difference"
+          ],
+          "required": false,
+          "placeholder": "",
+          "helpText": ""
+        },
+        {
+          "id": "primary_result",
+          "label": "Primary Metric Result",
+          "type": "text",
+          "placeholder": "e.g., +15% CTR improvement",
+          "required": false,
+          "helpText": ""
+        },
+        {
+          "id": "statistical_significance",
+          "label": "Statistical Significance",
+          "type": "text",
+          "placeholder": "e.g., 95% confidence",
+          "required": false,
+          "helpText": ""
+        },
+        {
+          "id": "learnings",
+          "label": "Key Learnings",
+          "type": "textarea",
+          "placeholder": "What did you learn from this test?",
+          "required": true,
+          "helpText": ""
+        },
+        {
+          "id": "next_steps",
+          "label": "Next Steps",
+          "type": "textarea",
+          "placeholder": "What will you do based on these results?",
+          "required": false,
+          "helpText": ""
+        },
+        {
+          "id": "implementation",
+          "label": "Implementation Plan",
+          "type": "textarea",
+          "placeholder": "How and when will you roll out the winner?",
+          "required": false,
+          "helpText": ""
         }
       ]
     }

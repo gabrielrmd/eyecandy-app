@@ -12,23 +12,213 @@
   "estimatedTime": "40 min",
   "sections": [
     {
-      "id": "section_1",
-      "title": "Main Information",
-      "description": "Enter template information",
+      "id": "awareness",
+      "title": "Brand Awareness",
+      "description": "Measure how well your brand is known",
       "fields": [
         {
-          "id": "field_1",
-          "label": "Name",
+          "id": "aided_awareness",
+          "label": "Aided Awareness (%)",
           "type": "text",
-          "placeholder": "Enter name",
-          "required": true
+          "placeholder": "e.g., 45%",
+          "required": false,
+          "helpText": ""
         },
         {
-          "id": "field_2",
-          "label": "Description",
+          "id": "unaided_awareness",
+          "label": "Unaided Awareness (%)",
+          "type": "text",
+          "placeholder": "e.g., 15%",
+          "required": false,
+          "helpText": ""
+        },
+        {
+          "id": "search_volume",
+          "label": "Monthly Brand Search Volume",
+          "type": "text",
+          "placeholder": "e.g., 5,000",
+          "required": false,
+          "helpText": ""
+        },
+        {
+          "id": "social_mentions",
+          "label": "Monthly Social Mentions",
+          "type": "text",
+          "placeholder": "e.g., 500",
+          "required": false,
+          "helpText": ""
+        },
+        {
+          "id": "media_coverage",
+          "label": "Media Coverage (articles/month)",
+          "type": "text",
+          "placeholder": "e.g., 10",
+          "required": false,
+          "helpText": ""
+        }
+      ]
+    },
+    {
+      "id": "perception",
+      "title": "Brand Perception",
+      "description": "How your brand is perceived",
+      "fields": [
+        {
+          "id": "nps_score",
+          "label": "Net Promoter Score (NPS)",
+          "type": "text",
+          "placeholder": "e.g., 45",
+          "required": false,
+          "helpText": ""
+        },
+        {
+          "id": "brand_sentiment",
+          "label": "Overall Sentiment",
+          "type": "select",
+          "options": [
+            "Very Positive",
+            "Positive",
+            "Neutral",
+            "Negative",
+            "Very Negative"
+          ],
+          "required": false,
+          "placeholder": "",
+          "helpText": ""
+        },
+        {
+          "id": "key_associations",
+          "label": "Top Brand Associations",
           "type": "textarea",
-          "placeholder": "Enter description",
-          "required": false
+          "placeholder": "e.g., Innovative, Reliable, Expensive",
+          "required": false,
+          "helpText": ""
+        },
+        {
+          "id": "differentiation_score",
+          "label": "Differentiation Score (1-10)",
+          "type": "text",
+          "placeholder": "e.g., 7",
+          "required": false,
+          "helpText": ""
+        },
+        {
+          "id": "trust_score",
+          "label": "Trust Score (1-10)",
+          "type": "text",
+          "placeholder": "e.g., 8",
+          "required": false,
+          "helpText": ""
+        },
+        {
+          "id": "competitor_comparison",
+          "label": "Competitive Positioning",
+          "type": "textarea",
+          "placeholder": "How does your brand compare to key competitors?",
+          "required": false,
+          "helpText": ""
+        }
+      ]
+    },
+    {
+      "id": "engagement",
+      "title": "Brand Engagement",
+      "description": "How people interact with your brand",
+      "fields": [
+        {
+          "id": "website_traffic",
+          "label": "Monthly Website Visitors",
+          "type": "text",
+          "placeholder": "e.g., 50,000",
+          "required": false,
+          "helpText": ""
+        },
+        {
+          "id": "social_followers",
+          "label": "Total Social Followers",
+          "type": "text",
+          "placeholder": "e.g., 25,000",
+          "required": false,
+          "helpText": ""
+        },
+        {
+          "id": "engagement_rate",
+          "label": "Social Engagement Rate",
+          "type": "text",
+          "placeholder": "e.g., 3.5%",
+          "required": false,
+          "helpText": ""
+        },
+        {
+          "id": "email_subscribers",
+          "label": "Email Subscriber Count",
+          "type": "text",
+          "placeholder": "e.g., 10,000",
+          "required": false,
+          "helpText": ""
+        },
+        {
+          "id": "email_open_rate",
+          "label": "Email Open Rate",
+          "type": "text",
+          "placeholder": "e.g., 25%",
+          "required": false,
+          "helpText": ""
+        },
+        {
+          "id": "customer_reviews",
+          "label": "Average Review Rating",
+          "type": "text",
+          "placeholder": "e.g., 4.5/5",
+          "required": false,
+          "helpText": ""
+        }
+      ]
+    },
+    {
+      "id": "financial",
+      "title": "Brand Financial Impact",
+      "description": "Business metrics tied to brand strength",
+      "fields": [
+        {
+          "id": "revenue_growth",
+          "label": "Revenue Growth YoY",
+          "type": "text",
+          "placeholder": "e.g., +20%",
+          "required": false,
+          "helpText": ""
+        },
+        {
+          "id": "market_share",
+          "label": "Market Share",
+          "type": "text",
+          "placeholder": "e.g., 12%",
+          "required": false,
+          "helpText": ""
+        },
+        {
+          "id": "customer_ltv",
+          "label": "Customer Lifetime Value",
+          "type": "text",
+          "placeholder": "e.g., \u20ac5,000",
+          "required": false,
+          "helpText": ""
+        },
+        {
+          "id": "cac",
+          "label": "Customer Acquisition Cost",
+          "type": "text",
+          "placeholder": "e.g., \u20ac150",
+          "required": false,
+          "helpText": ""
+        },
+        {
+          "id": "brand_premium",
+          "label": "Price Premium vs Competitors",
+          "type": "text",
+          "placeholder": "e.g., +15%",
+          "required": false,
+          "helpText": ""
         }
       ]
     }
