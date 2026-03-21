@@ -17,14 +17,6 @@ import {
 } from "lucide-react";
 import { createClient } from "@/lib/supabase/client";
 
-interface QuestionAnswer {
-  question_id: string;
-  question_text: string;
-  answer: string;
-  section_title: string;
-  section_id: string;
-}
-
 interface ReviewSection {
   id: string;
   title: string;
@@ -52,11 +44,19 @@ export default function ReviewPage() {
       setError(null);
 
       try {
-        // Fetch sections
+        const {
+          data: { user },
+        } = await supabase.current.auth.getUser();
+        if (!user) {
+          router.push("/login");
+          return;
+        }
+
+        // Fetch sections (column is section_name, not title)
         const { data: sectionsData, error: sectionsError } =
           await supabase.current
             .from("questionnaire_sections")
-            .select("id, title, section_number")
+            .select("id, section_name, section_number")
             .order("section_number", { ascending: true });
 
         if (sectionsError) throw sectionsError;
@@ -65,27 +65,47 @@ export default function ReviewPage() {
         const { data: questionsData, error: questionsError } =
           await supabase.current
             .from("questionnaire_questions")
-            .select(
-              "id, section_id, question_text, question_number"
-            )
+            .select("id, section_id, question_text, question_number")
             .order("question_number", { ascending: true });
 
         if (questionsError) throw questionsError;
 
-        // Fetch responses for this strategy
-        const { data: responsesData, error: responsesError } =
+        // Fetch the single questionnaire_responses row for this strategy project.
+        // The table has columns: strategy_project_id, user_id,
+        // section_1_responses through section_7_responses (JSONB),
+        // completed_sections (INT[]), all_sections_completed (BOOLEAN).
+        const { data: responseRow, error: responsesError } =
           await supabase.current
             .from("questionnaire_responses")
-            .select("question_id, answer")
-            .eq("strategy_id", strategyId);
+            .select("*")
+            .eq("strategy_project_id", strategyId)
+            .eq("user_id", user.id)
+            .maybeSingle();
 
         if (responsesError) throw responsesError;
 
-        // Build a map of question_id -> answer
+        // Build a flat map of question_id -> answer from section_N_responses columns
         const answersMap: Record<string, string> = {};
-        (responsesData ?? []).forEach((r) => {
-          if (r.answer) answersMap[r.question_id] = r.answer;
-        });
+        if (responseRow) {
+          for (let i = 1; i <= 7; i++) {
+            const sectionResponses =
+              responseRow[
+                `section_${i}_responses` as keyof typeof responseRow
+              ];
+            if (
+              sectionResponses &&
+              typeof sectionResponses === "object" &&
+              !Array.isArray(sectionResponses)
+            ) {
+              const responses = sectionResponses as Record<string, string>;
+              Object.entries(responses).forEach(([questionId, answer]) => {
+                if (answer && answer.trim()) {
+                  answersMap[questionId] = answer;
+                }
+              });
+            }
+          }
+        }
 
         // Assemble sections with their questions and answers
         const assembled: ReviewSection[] = (sectionsData ?? []).map((sec) => {
@@ -94,7 +114,7 @@ export default function ReviewPage() {
           );
           return {
             id: sec.id,
-            title: sec.title,
+            title: sec.section_name,
             section_number: sec.section_number,
             answers: sectionQuestions
               .filter((q) => answersMap[q.id]?.trim())
@@ -111,7 +131,7 @@ export default function ReviewPage() {
         setSections(withAnswers);
         setExpandedSections(new Set(withAnswers.map((s) => s.id)));
 
-        // Also store the questionnaire responses in localStorage for the generating page
+        // Store the questionnaire responses in localStorage for the generating page
         const formattedResponses: Record<
           string,
           { question: string; answer: string }[]
@@ -138,7 +158,7 @@ export default function ReviewPage() {
     }
 
     fetchResponses();
-  }, [strategyId]);
+  }, [strategyId, router]);
 
   const toggleSection = (id: string) => {
     setExpandedSections((prev) => {
@@ -169,14 +189,14 @@ export default function ReviewPage() {
     return (
       <div className="flex min-h-screen items-center justify-center bg-background">
         <div className="max-w-md rounded-xl border border-border bg-card p-8 text-center">
-          <AlertCircle className="mx-auto h-10 w-10 text-coral" />
-          <h2 className="mt-4 font-[family-name:var(--font-oswald)] text-lg font-semibold text-navy">
+          <AlertCircle className="mx-auto h-10 w-10 text-[var(--coral)]" />
+          <h2 className="mt-4 font-[family-name:var(--font-oswald)] text-lg font-semibold text-[var(--navy)]">
             Could Not Load Responses
           </h2>
           <p className="mt-2 text-sm text-muted-foreground">{error}</p>
           <Link
             href={`/strategy/${strategyId}/questionnaire`}
-            className="mt-4 inline-block rounded-lg bg-coral px-4 py-2 text-sm font-medium text-white hover:bg-coral/90"
+            className="mt-4 inline-block rounded-lg bg-[var(--coral)] px-4 py-2 text-sm font-medium text-white hover:bg-[var(--coral)]/90"
           >
             Back to Questionnaire
           </Link>
@@ -189,8 +209,8 @@ export default function ReviewPage() {
     return (
       <div className="flex min-h-screen items-center justify-center bg-background">
         <div className="max-w-md rounded-xl border border-border bg-card p-8 text-center">
-          <AlertCircle className="mx-auto h-10 w-10 text-coral" />
-          <h2 className="mt-4 font-[family-name:var(--font-oswald)] text-lg font-semibold text-navy">
+          <AlertCircle className="mx-auto h-10 w-10 text-[var(--coral)]" />
+          <h2 className="mt-4 font-[family-name:var(--font-oswald)] text-lg font-semibold text-[var(--navy)]">
             No Answers Found
           </h2>
           <p className="mt-2 text-sm text-muted-foreground">
@@ -199,7 +219,7 @@ export default function ReviewPage() {
           </p>
           <Link
             href={`/strategy/${strategyId}/questionnaire`}
-            className="mt-4 inline-block rounded-lg bg-coral px-4 py-2 text-sm font-medium text-white hover:bg-coral/90"
+            className="mt-4 inline-block rounded-lg bg-[var(--coral)] px-4 py-2 text-sm font-medium text-white hover:bg-[var(--coral)]/90"
           >
             Go to Questionnaire
           </Link>
@@ -220,7 +240,7 @@ export default function ReviewPage() {
             <ArrowLeft className="h-4 w-4" />
             Back to Questionnaire
           </Link>
-          <h1 className="font-[family-name:var(--font-oswald)] text-2xl font-bold text-navy sm:text-3xl">
+          <h1 className="font-[family-name:var(--font-oswald)] text-2xl font-bold text-[var(--navy)] sm:text-3xl">
             Review Your Answers
           </h1>
           <p className="mt-2 text-muted-foreground">
@@ -247,7 +267,7 @@ export default function ReviewPage() {
                   className="flex w-full items-center justify-between px-5 py-4 text-left transition-colors hover:bg-muted/30"
                 >
                   <div className="flex items-center gap-3">
-                    <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-teal/10 text-teal">
+                    <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-[var(--teal)]/10 text-[var(--teal)]">
                       <span className="text-sm font-semibold">
                         {section.section_number}
                       </span>
@@ -302,9 +322,9 @@ export default function ReviewPage() {
         </div>
 
         {/* Generate CTA */}
-        <div className="mt-10 rounded-xl border border-coral/20 bg-coral/5 p-6 text-center sm:p-8">
-          <Sparkles className="mx-auto mb-3 h-8 w-8 text-coral" />
-          <h2 className="font-[family-name:var(--font-oswald)] text-xl font-bold text-navy">
+        <div className="mt-10 rounded-xl border border-[var(--coral)]/20 bg-[var(--coral)]/5 p-6 text-center sm:p-8">
+          <Sparkles className="mx-auto mb-3 h-8 w-8 text-[var(--coral)]" />
+          <h2 className="font-[family-name:var(--font-oswald)] text-xl font-bold text-[var(--navy)]">
             Ready to generate your strategy?
           </h2>
           <p className="mx-auto mt-2 max-w-md text-sm text-muted-foreground">
@@ -319,7 +339,7 @@ export default function ReviewPage() {
 
           <Link
             href={`/strategy/${strategyId}/generating`}
-            className="mt-6 inline-flex items-center gap-2 rounded-lg bg-coral px-8 py-3.5 text-base font-semibold text-white transition-colors hover:bg-coral/90"
+            className="mt-6 inline-flex items-center gap-2 rounded-lg bg-[var(--coral)] px-8 py-3.5 text-base font-semibold text-white transition-colors hover:bg-[var(--coral)]/90"
           >
             Generate My Strategy
             <ArrowRight className="h-5 w-5" />

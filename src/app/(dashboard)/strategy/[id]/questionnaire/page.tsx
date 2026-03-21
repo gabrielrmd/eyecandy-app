@@ -11,6 +11,9 @@ import {
   Loader2,
   HelpCircle,
   AlertCircle,
+  Sparkles,
+  SkipForward,
+  X,
 } from "lucide-react";
 import { createClient } from "@/lib/supabase/client";
 
@@ -35,6 +38,12 @@ interface Section {
 
 type SaveStatus = "idle" | "saving" | "saved" | "error";
 
+interface AiSuggestion {
+  loading: boolean;
+  suggestions: string[];
+  visible: boolean;
+}
+
 export default function QuestionnairePage() {
   const params = useParams();
   const router = useRouter();
@@ -47,6 +56,9 @@ export default function QuestionnairePage() {
   const [answers, setAnswers] = useState<Record<string, string>>({});
   const [saveStatus, setSaveStatus] = useState<SaveStatus>("idle");
   const [responseRowId, setResponseRowId] = useState<string | null>(null);
+  const [aiSuggestions, setAiSuggestions] = useState<
+    Record<string, AiSuggestion>
+  >({});
   const saveTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
   const supabase = useRef(createClient());
 
@@ -116,7 +128,10 @@ export default function QuestionnairePage() {
             .map((q) => ({
               id: q.id,
               question_text: q.question_text,
-              question_type: q.question_type as "text" | "textarea" | "select",
+              question_type: q.question_type as
+                | "text"
+                | "textarea"
+                | "select",
               placeholder: q.placeholder ?? "",
               options: q.options,
               required: q.required ?? false,
@@ -128,8 +143,6 @@ export default function QuestionnairePage() {
         setSections(assembled);
 
         // Load existing responses for this strategy project
-        // The questionnaire_responses table stores one row per project,
-        // with section_1_responses through section_7_responses JSONB columns.
         const { data: responseRow } = await supabase.current
           .from("questionnaire_responses")
           .select("*")
@@ -143,7 +156,9 @@ export default function QuestionnairePage() {
           const loaded: Record<string, string> = {};
           for (let i = 1; i <= 7; i++) {
             const sectionResponses =
-              responseRow[`section_${i}_responses` as keyof typeof responseRow];
+              responseRow[
+                `section_${i}_responses` as keyof typeof responseRow
+              ];
             if (
               sectionResponses &&
               typeof sectionResponses === "object" &&
@@ -230,7 +245,7 @@ export default function QuestionnairePage() {
     [sections]
   );
 
-  // Save responses to Supabase (upsert pattern: check existing, then insert or update)
+  // Save responses to Supabase
   const saveResponses = useCallback(
     async (currentAnswers: Record<string, string>) => {
       const {
@@ -245,7 +260,6 @@ export default function QuestionnairePage() {
         const completionMeta = computeCompletionMeta(currentAnswers);
 
         if (responseRowId) {
-          // Update existing row
           const { error: updateError } = await supabase.current
             .from("questionnaire_responses")
             .update({
@@ -256,7 +270,6 @@ export default function QuestionnairePage() {
 
           if (updateError) throw updateError;
         } else {
-          // Insert new row
           const { data: newRow, error: insertError } = await supabase.current
             .from("questionnaire_responses")
             .insert({
@@ -303,6 +316,173 @@ export default function QuestionnairePage() {
       if (saveTimer.current) clearTimeout(saveTimer.current);
     };
   }, []);
+
+  // AI suggestion handler
+  const handleAiHelp = async (question: Question) => {
+    const questionId = question.id;
+
+    setAiSuggestions((prev) => ({
+      ...prev,
+      [questionId]: { loading: true, suggestions: [], visible: true },
+    }));
+
+    try {
+      // Gather context from answers
+      const businessName =
+        Object.values(answers).find((v) => v.trim())?.trim() ?? "";
+      const currentAnswer = answers[questionId] ?? "";
+
+      const res = await fetch("/api/ai/suggest", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          question_text: question.question_text,
+          current_answer: currentAnswer,
+          context: {
+            business_name: businessName,
+            section: currentSection?.section_name ?? "",
+            existing_answers: answers,
+          },
+        }),
+      });
+
+      if (!res.ok) throw new Error("Failed to get suggestions");
+
+      const data = await res.json();
+      const suggestions: string[] = data.suggestions ?? [];
+
+      setAiSuggestions((prev) => ({
+        ...prev,
+        [questionId]: { loading: false, suggestions, visible: true },
+      }));
+    } catch {
+      setAiSuggestions((prev) => ({
+        ...prev,
+        [questionId]: {
+          loading: false,
+          suggestions: ["Sorry, AI suggestions are unavailable right now."],
+          visible: true,
+        },
+      }));
+    }
+  };
+
+  const dismissAiSuggestions = (questionId: string) => {
+    setAiSuggestions((prev) => ({
+      ...prev,
+      [questionId]: { ...prev[questionId], visible: false },
+    }));
+  };
+
+  const selectAiSuggestion = (questionId: string, suggestion: string) => {
+    updateAnswer(questionId, suggestion);
+    dismissAiSuggestions(questionId);
+  };
+
+  // Check if a question is about competitors
+  const isCompetitorQuestion = (q: Question) =>
+    q.question_text.toLowerCase().includes("competitor");
+
+  // Render the "I don't know" + optional "Skip" + "AI help" controls below text/textarea fields
+  const renderFieldExtras = (question: Question) => {
+    const isTextType =
+      question.question_type === "text" ||
+      question.question_type === "textarea";
+
+    if (!isTextType) return null;
+
+    const currentVal = answers[question.id] ?? "";
+    const isIDontKnow = currentVal === "I don't know yet";
+    const isSkipped = currentVal === "Skipped";
+    const aiState = aiSuggestions[question.id];
+
+    return (
+      <>
+        {/* Action links row */}
+        <div className="mt-1.5 flex flex-wrap items-center gap-3">
+          {/* I don't know button */}
+          <button
+            type="button"
+            onClick={() => updateAnswer(question.id, "I don't know yet")}
+            className={`flex items-center gap-1 text-xs transition-colors ${
+              isIDontKnow
+                ? "font-medium text-[var(--teal)]"
+                : "text-muted-foreground hover:text-foreground"
+            }`}
+          >
+            <HelpCircle className="h-3 w-3" />
+            I don&apos;t know
+          </button>
+
+          {/* Skip this question (only for non-required) */}
+          {!question.required && (
+            <button
+              type="button"
+              onClick={() => {
+                updateAnswer(question.id, "Skipped");
+              }}
+              className={`flex items-center gap-1 text-xs transition-colors ${
+                isSkipped
+                  ? "font-medium text-[var(--teal)]"
+                  : "text-muted-foreground hover:text-foreground"
+              }`}
+            >
+              <SkipForward className="h-3 w-3" />
+              Skip this question
+            </button>
+          )}
+
+          {/* AI help button */}
+          <button
+            type="button"
+            onClick={() => handleAiHelp(question)}
+            disabled={aiState?.loading}
+            className="flex items-center gap-1 text-xs text-[var(--teal)] transition-colors hover:text-[var(--teal)]/80 disabled:opacity-50"
+          >
+            {aiState?.loading ? (
+              <Loader2 className="h-3 w-3 animate-spin" />
+            ) : (
+              <Sparkles className="h-3 w-3" />
+            )}
+            {aiState?.loading ? "Thinking..." : "Let AI help"}
+          </button>
+        </div>
+
+        {/* AI suggestions panel */}
+        {aiState?.visible && !aiState.loading && aiState.suggestions.length > 0 && (
+          <div className="mt-2 rounded-lg border border-[var(--teal)]/30 bg-[var(--teal)]/5 p-3">
+            <div className="mb-2 flex items-center justify-between">
+              <span className="flex items-center gap-1.5 text-xs font-medium text-[var(--teal)]">
+                <Sparkles className="h-3 w-3" />
+                AI Suggestions
+              </span>
+              <button
+                type="button"
+                onClick={() => dismissAiSuggestions(question.id)}
+                className="rounded p-0.5 text-muted-foreground hover:bg-muted hover:text-foreground"
+              >
+                <X className="h-3.5 w-3.5" />
+              </button>
+            </div>
+            <div className="space-y-1.5">
+              {aiState.suggestions.map((suggestion, sIdx) => (
+                <button
+                  key={sIdx}
+                  type="button"
+                  onClick={() =>
+                    selectAiSuggestion(question.id, suggestion)
+                  }
+                  className="block w-full rounded-md border border-border bg-background px-3 py-2 text-left text-sm text-foreground transition-colors hover:border-[var(--teal)] hover:bg-[var(--teal)]/5"
+                >
+                  {suggestion}
+                </button>
+              ))}
+            </div>
+          </div>
+        )}
+      </>
+    );
+  };
 
   if (loading) {
     return (
@@ -468,181 +648,259 @@ export default function QuestionnairePage() {
               </div>
 
               <div className="space-y-6">
-                {currentSection.questions.map((question, qIdx) => (
-                  <div key={question.id}>
-                    <label
-                      htmlFor={question.id}
-                      className="mb-1.5 flex items-baseline gap-2 text-sm font-medium text-foreground"
-                    >
-                      <span className="text-xs text-muted-foreground">
-                        Q{qIdx + 1}.
-                      </span>
-                      {question.question_text}
-                      {question.required && (
-                        <span className="text-[var(--coral)]">*</span>
-                      )}
-                    </label>
+                {currentSection.questions.map((question, qIdx) => {
+                  const currentVal = answers[question.id] ?? "";
+                  const isSpecialValue =
+                    currentVal === "I don't know yet" ||
+                    currentVal === "Skipped";
 
-                    {question.help_text && (
-                      <p className="mb-1.5 flex items-center gap-1 text-xs text-muted-foreground">
-                        <HelpCircle className="h-3 w-3" />
-                        {question.help_text}
-                      </p>
-                    )}
-
-                    {question.question_type === "textarea" ? (
-                      <textarea
-                        id={question.id}
-                        rows={3}
-                        placeholder={question.placeholder}
-                        value={answers[question.id] ?? ""}
-                        onChange={(e) =>
-                          updateAnswer(question.id, e.target.value)
-                        }
-                        className="w-full rounded-lg border border-border bg-background px-4 py-2.5 text-sm text-foreground placeholder:text-muted-foreground focus:border-[var(--coral)] focus:outline-none focus:ring-2 focus:ring-[var(--coral)]/20"
-                      />
-                    ) : question.question_type === "multiselect" ? (
-                      <div className="space-y-2">
-                        <div className="grid gap-2 sm:grid-cols-2">
-                          {question.options?.map((opt) => {
-                            const label = typeof opt === "object" && opt !== null ? (opt as {label: string}).label : String(opt);
-                            const value = typeof opt === "object" && opt !== null ? (opt as {value: string}).value : String(opt);
-                            const selected = (answers[question.id] ?? "").split(",").map(s => s.trim()).filter(Boolean);
-                            const isChecked = selected.includes(value);
-                            return (
-                              <label
-                                key={value}
-                                className={`flex cursor-pointer items-center gap-3 rounded-lg border px-4 py-2.5 text-sm transition-colors ${
-                                  isChecked
-                                    ? "border-[var(--coral)] bg-[var(--coral)]/5 text-foreground"
-                                    : "border-border bg-background text-foreground hover:bg-muted"
-                                }`}
-                              >
-                                <input
-                                  type="checkbox"
-                                  checked={isChecked}
-                                  onChange={() => {
-                                    let updated: string[];
-                                    if (isChecked) {
-                                      updated = selected.filter(s => s !== value);
-                                    } else {
-                                      updated = [...selected, value];
-                                    }
-                                    updateAnswer(question.id, updated.join(", "));
-                                  }}
-                                  className="h-4 w-4 rounded border-border accent-[var(--coral)]"
-                                />
-                                {label}
-                              </label>
-                            );
-                          })}
-                        </div>
-                        <input
-                          type="text"
-                          placeholder="Other (type your own)..."
-                          onKeyDown={(e) => {
-                            if (e.key === "Enter") {
-                              e.preventDefault();
-                              const input = e.currentTarget;
-                              const val = input.value.trim();
-                              if (val) {
-                                const selected = (answers[question.id] ?? "").split(",").map(s => s.trim()).filter(Boolean);
-                                if (!selected.includes(val)) {
-                                  updateAnswer(question.id, [...selected, val].join(", "));
-                                }
-                                input.value = "";
-                              }
-                            }
-                          }}
-                          className="w-full rounded-lg border border-dashed border-border bg-background px-4 py-2.5 text-sm text-foreground placeholder:text-muted-foreground focus:border-[var(--coral)] focus:outline-none focus:ring-2 focus:ring-[var(--coral)]/20"
-                        />
-                      </div>
-                    ) : question.question_type === "select" ? (
-                      <div className="space-y-2">
-                        <select
-                          id={question.id}
-                          value={
-                            question.options?.some((opt) => {
-                              const v = typeof opt === "object" && opt !== null ? (opt as {value: string}).value : String(opt);
-                              return v === answers[question.id];
-                            })
-                              ? answers[question.id]
-                              : answers[question.id]
-                                ? "__other__"
-                                : ""
-                          }
-                          onChange={(e) => {
-                            if (e.target.value === "__other__") {
-                              updateAnswer(question.id, "");
-                            } else {
-                              updateAnswer(question.id, e.target.value);
-                            }
-                          }}
-                          className="w-full appearance-none rounded-lg border border-border bg-background px-4 py-2.5 text-sm text-foreground focus:border-[var(--coral)] focus:outline-none focus:ring-2 focus:ring-[var(--coral)]/20"
-                        >
-                          <option value="">{question.placeholder || "Select an option..."}</option>
-                          {question.options?.map((opt) => {
-                            const label = typeof opt === "object" && opt !== null ? (opt as {label: string}).label : String(opt);
-                            const value = typeof opt === "object" && opt !== null ? (opt as {value: string}).value : String(opt);
-                            if (label.toLowerCase() === "other") return null;
-                            return (
-                              <option key={value} value={value}>
-                                {label}
-                              </option>
-                            );
-                          })}
-                          <option value="__other__">Other (type your own)</option>
-                        </select>
-                        {(() => {
-                          const currentVal = answers[question.id] ?? "";
-                          const isOther = currentVal !== "" && !question.options?.some((opt) => {
-                            const v = typeof opt === "object" && opt !== null ? (opt as {value: string}).value : String(opt);
-                            return v === currentVal;
-                          });
-                          if (!isOther) return null;
-                          return (
-                            <input
-                              type="text"
-                              placeholder="Type your answer..."
-                              value={currentVal}
-                              onChange={(e) => updateAnswer(question.id, e.target.value)}
-                              className="w-full rounded-lg border border-border bg-background px-4 py-2.5 text-sm text-foreground placeholder:text-muted-foreground focus:border-[var(--coral)] focus:outline-none focus:ring-2 focus:ring-[var(--coral)]/20"
-                              autoFocus
-                            />
-                          );
-                        })()}
-                      </div>
-                    ) : question.question_type === "scale" ? (
-                      <div className="flex items-center gap-3">
-                        <input
-                          id={question.id}
-                          type="range"
-                          min={1}
-                          max={10}
-                          value={answers[question.id] ?? "5"}
-                          onChange={(e) =>
-                            updateAnswer(question.id, e.target.value)
-                          }
-                          className="flex-1 accent-[var(--coral)]"
-                        />
-                        <span className="w-8 text-center text-sm font-semibold text-[var(--navy)]">
-                          {answers[question.id] ?? "5"}/10
+                  return (
+                    <div key={question.id}>
+                      <label
+                        htmlFor={question.id}
+                        className="mb-1.5 flex items-baseline gap-2 text-sm font-medium text-foreground"
+                      >
+                        <span className="text-xs text-muted-foreground">
+                          Q{qIdx + 1}.
                         </span>
-                      </div>
-                    ) : (
-                      <input
-                        id={question.id}
-                        type="text"
-                        placeholder={question.placeholder}
-                        value={answers[question.id] ?? ""}
-                        onChange={(e) =>
-                          updateAnswer(question.id, e.target.value)
-                        }
-                        className="w-full rounded-lg border border-border bg-background px-4 py-2.5 text-sm text-foreground placeholder:text-muted-foreground focus:border-[var(--coral)] focus:outline-none focus:ring-2 focus:ring-[var(--coral)]/20"
-                      />
-                    )}
-                  </div>
-                ))}
+                        {question.question_text}
+                        {question.required && (
+                          <span className="text-[var(--coral)]">*</span>
+                        )}
+                      </label>
+
+                      {question.help_text && (
+                        <p className="mb-1.5 flex items-center gap-1 text-xs text-muted-foreground">
+                          <HelpCircle className="h-3 w-3" />
+                          {question.help_text}
+                        </p>
+                      )}
+
+                      {/* Competitor-specific help text */}
+                      {isCompetitorQuestion(question) &&
+                        (question.question_type === "textarea" ||
+                          question.question_type === "text") && (
+                          <p className="mb-1.5 flex items-center gap-1 text-xs text-[var(--teal)]">
+                            <HelpCircle className="h-3 w-3" />
+                            Include website URLs and social media links for each
+                            competitor so our AI can research them.
+                          </p>
+                        )}
+
+                      {question.question_type === "textarea" ? (
+                        <>
+                          <textarea
+                            id={question.id}
+                            rows={3}
+                            placeholder={
+                              isCompetitorQuestion(question)
+                                ? "e.g. Competitor 1 - https://example.com - @instagram\nCompetitor 2 - https://example2.com - linkedin.com/company/..."
+                                : question.placeholder
+                            }
+                            value={currentVal}
+                            onChange={(e) =>
+                              updateAnswer(question.id, e.target.value)
+                            }
+                            className={`w-full rounded-lg border px-4 py-2.5 text-sm text-foreground placeholder:text-muted-foreground focus:border-[var(--coral)] focus:outline-none focus:ring-2 focus:ring-[var(--coral)]/20 ${
+                              isSpecialValue
+                                ? "border-[var(--teal)]/30 bg-[var(--teal)]/5 italic text-muted-foreground"
+                                : "border-border bg-background"
+                            }`}
+                          />
+                          {renderFieldExtras(question)}
+                        </>
+                      ) : question.question_type === "multiselect" ? (
+                        <div className="space-y-2">
+                          <div className="grid gap-2 sm:grid-cols-2">
+                            {question.options?.map((opt) => {
+                              const label =
+                                typeof opt === "object" && opt !== null
+                                  ? (opt as { label: string }).label
+                                  : String(opt);
+                              const value =
+                                typeof opt === "object" && opt !== null
+                                  ? (opt as { value: string }).value
+                                  : String(opt);
+                              const selected = (answers[question.id] ?? "")
+                                .split(",")
+                                .map((s) => s.trim())
+                                .filter(Boolean);
+                              const isChecked = selected.includes(value);
+                              return (
+                                <label
+                                  key={value}
+                                  className={`flex cursor-pointer items-center gap-3 rounded-lg border px-4 py-2.5 text-sm transition-colors ${
+                                    isChecked
+                                      ? "border-[var(--coral)] bg-[var(--coral)]/5 text-foreground"
+                                      : "border-border bg-background text-foreground hover:bg-muted"
+                                  }`}
+                                >
+                                  <input
+                                    type="checkbox"
+                                    checked={isChecked}
+                                    onChange={() => {
+                                      let updated: string[];
+                                      if (isChecked) {
+                                        updated = selected.filter(
+                                          (s) => s !== value
+                                        );
+                                      } else {
+                                        updated = [...selected, value];
+                                      }
+                                      updateAnswer(
+                                        question.id,
+                                        updated.join(", ")
+                                      );
+                                    }}
+                                    className="h-4 w-4 rounded border-border accent-[var(--coral)]"
+                                  />
+                                  {label}
+                                </label>
+                              );
+                            })}
+                          </div>
+                          <input
+                            type="text"
+                            placeholder="Other (type your own)..."
+                            onKeyDown={(e) => {
+                              if (e.key === "Enter") {
+                                e.preventDefault();
+                                const input = e.currentTarget;
+                                const val = input.value.trim();
+                                if (val) {
+                                  const selected = (
+                                    answers[question.id] ?? ""
+                                  )
+                                    .split(",")
+                                    .map((s) => s.trim())
+                                    .filter(Boolean);
+                                  if (!selected.includes(val)) {
+                                    updateAnswer(
+                                      question.id,
+                                      [...selected, val].join(", ")
+                                    );
+                                  }
+                                  input.value = "";
+                                }
+                              }
+                            }}
+                            className="w-full rounded-lg border border-dashed border-border bg-background px-4 py-2.5 text-sm text-foreground placeholder:text-muted-foreground focus:border-[var(--coral)] focus:outline-none focus:ring-2 focus:ring-[var(--coral)]/20"
+                          />
+                        </div>
+                      ) : question.question_type === "select" ? (
+                        <div className="space-y-2">
+                          <select
+                            id={question.id}
+                            value={
+                              question.options?.some((opt) => {
+                                const v =
+                                  typeof opt === "object" && opt !== null
+                                    ? (opt as { value: string }).value
+                                    : String(opt);
+                                return v === answers[question.id];
+                              })
+                                ? answers[question.id]
+                                : answers[question.id]
+                                  ? "__other__"
+                                  : ""
+                            }
+                            onChange={(e) => {
+                              if (e.target.value === "__other__") {
+                                updateAnswer(question.id, "");
+                              } else {
+                                updateAnswer(question.id, e.target.value);
+                              }
+                            }}
+                            className="w-full appearance-none rounded-lg border border-border bg-background px-4 py-2.5 text-sm text-foreground focus:border-[var(--coral)] focus:outline-none focus:ring-2 focus:ring-[var(--coral)]/20"
+                          >
+                            <option value="">
+                              {question.placeholder || "Select an option..."}
+                            </option>
+                            {question.options?.map((opt) => {
+                              const label =
+                                typeof opt === "object" && opt !== null
+                                  ? (opt as { label: string }).label
+                                  : String(opt);
+                              const value =
+                                typeof opt === "object" && opt !== null
+                                  ? (opt as { value: string }).value
+                                  : String(opt);
+                              if (label.toLowerCase() === "other") return null;
+                              return (
+                                <option key={value} value={value}>
+                                  {label}
+                                </option>
+                              );
+                            })}
+                            <option value="__other__">
+                              Other (type your own)
+                            </option>
+                          </select>
+                          {(() => {
+                            const selectVal = answers[question.id] ?? "";
+                            const isOther =
+                              selectVal !== "" &&
+                              !question.options?.some((opt) => {
+                                const v =
+                                  typeof opt === "object" && opt !== null
+                                    ? (opt as { value: string }).value
+                                    : String(opt);
+                                return v === selectVal;
+                              });
+                            if (!isOther) return null;
+                            return (
+                              <input
+                                type="text"
+                                placeholder="Type your answer..."
+                                value={selectVal}
+                                onChange={(e) =>
+                                  updateAnswer(question.id, e.target.value)
+                                }
+                                className="w-full rounded-lg border border-border bg-background px-4 py-2.5 text-sm text-foreground placeholder:text-muted-foreground focus:border-[var(--coral)] focus:outline-none focus:ring-2 focus:ring-[var(--coral)]/20"
+                                autoFocus
+                              />
+                            );
+                          })()}
+                        </div>
+                      ) : question.question_type === "scale" ? (
+                        <div className="flex items-center gap-3">
+                          <input
+                            id={question.id}
+                            type="range"
+                            min={1}
+                            max={10}
+                            value={answers[question.id] ?? "5"}
+                            onChange={(e) =>
+                              updateAnswer(question.id, e.target.value)
+                            }
+                            className="flex-1 accent-[var(--coral)]"
+                          />
+                          <span className="w-8 text-center text-sm font-semibold text-[var(--navy)]">
+                            {answers[question.id] ?? "5"}/10
+                          </span>
+                        </div>
+                      ) : (
+                        <>
+                          <input
+                            id={question.id}
+                            type="text"
+                            placeholder={question.placeholder}
+                            value={currentVal}
+                            onChange={(e) =>
+                              updateAnswer(question.id, e.target.value)
+                            }
+                            className={`w-full rounded-lg border px-4 py-2.5 text-sm text-foreground placeholder:text-muted-foreground focus:border-[var(--coral)] focus:outline-none focus:ring-2 focus:ring-[var(--coral)]/20 ${
+                              isSpecialValue
+                                ? "border-[var(--teal)]/30 bg-[var(--teal)]/5 italic text-muted-foreground"
+                                : "border-border bg-background"
+                            }`}
+                          />
+                          {renderFieldExtras(question)}
+                        </>
+                      )}
+                    </div>
+                  );
+                })}
               </div>
 
               {/* Navigation */}
