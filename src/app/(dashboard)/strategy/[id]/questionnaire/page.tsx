@@ -73,6 +73,7 @@ export default function QuestionnairePage() {
   const [responseRowId, setResponseRowId] = useState<string | null>(null);
   const [aiSuggestion, setAiSuggestion] = useState<Record<string, AiSuggestion>>({});
   const [otherText, setOtherText] = useState<Record<string, string>>({});
+  const [brandName, setBrandName] = useState("");
 
   const saveTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
   const supabase = useRef(createClient());
@@ -96,7 +97,7 @@ export default function QuestionnairePage() {
         // Verify project ownership
         const { data: project, error: projectError } = await supabase.current
           .from("strategy_projects")
-          .select("id")
+          .select("id, title, description")
           .eq("id", strategyId)
           .eq("user_id", user.id)
           .maybeSingle();
@@ -106,6 +107,14 @@ export default function QuestionnairePage() {
           router.push("/strategy/new");
           return;
         }
+
+        // Extract brand name and category from project
+        const projTitle = project.title || "";
+        const projDesc = project.description || "";
+        // Category is extracted from description (format: "Industry: X | Stage: Y | ...")
+        const categoryMatch = projDesc.match(/Industry:\s*([^|]+)/);
+        const category = categoryMatch ? categoryMatch[1].trim() : "";
+        setBrandName(projTitle);
 
         // Fetch sections
         const { data: sectionsData, error: sectionsError } =
@@ -140,17 +149,26 @@ export default function QuestionnairePage() {
           section_number: sec.section_number,
           questions: (questionsData ?? [])
             .filter((q) => q.section_id === sec.id)
-            .map((q) => ({
-              id: q.id,
-              section_id: q.section_id,
-              question_text: q.question_text,
-              question_type: q.question_type as Question["question_type"],
-              placeholder: q.placeholder ?? "",
-              options: q.options,
-              required: q.required ?? false,
-              help_text: q.help_text,
-              question_number: q.question_number,
-            })),
+            .map((q) => {
+              // Replace [BRAND] and [CATEGORY] placeholders with actual values
+              const replacePlaceholders = (text: string | null) => {
+                if (!text) return text;
+                return text
+                  .replace(/\[BRAND\]/g, projTitle || "[BRAND]")
+                  .replace(/\[CATEGORY\]/g, category || "[CATEGORY]");
+              };
+              return {
+                id: q.id,
+                section_id: q.section_id,
+                question_text: replacePlaceholders(q.question_text) || q.question_text,
+                question_type: q.question_type as Question["question_type"],
+                placeholder: replacePlaceholders(q.placeholder) ?? "",
+                options: q.options,
+                required: q.required ?? false,
+                help_text: replacePlaceholders(q.help_text),
+                question_number: q.question_number,
+              };
+            }),
         }));
 
         setSections(assembled);
