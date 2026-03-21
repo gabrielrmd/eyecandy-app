@@ -214,154 +214,217 @@ export default function StrategyResultPage() {
   const handleExportPDF = () => {
     setExporting(true);
 
+    // Use the white-text logo for dark backgrounds (as per brand book: "ON DARK BACKGROUNDS")
+    // Use the color logo for white backgrounds
     const origin = window.location.origin;
-    const logoColor = `${origin}/brand/au-logo.png`;
     const logoWhite = `${origin}/brand/au-logo-white.png`;
+    const logoColor = `${origin}/brand/au-logo.png`;
     const dateStr = new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
     const yearStr = new Date().getFullYear();
+    const totalSections = sections.length;
 
-    // Markdown → HTML with brand-compliant styling
+    // Markdown → HTML
     function mdToHtml(md: string): string {
-      return md
-        .replace(/^### (.*$)/gm, '<h3 class="h3">$1</h3>')
-        .replace(/^## (.*$)/gm, (_, t: string) => {
-          const l = t.toLowerCase();
-          if (l.includes('key takeaway')) return `<div class="box-takeaways"><p class="box-label">Key Takeaways</p>`;
-          if (l.includes('recommended action')) return `<div class="box-actions"><p class="box-label-alt">Recommended Actions</p>`;
-          return `<h2 class="h2">${t}</h2>`;
-        })
-        .replace(/^# (.*$)/gm, '<h1 class="h1">$1</h1>')
-        .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
-        .replace(/\*(.*?)\*/g, '<em>$1</em>')
-        .replace(/^- (.*$)/gm, '<div class="li"><span class="dot"></span><span>$1</span></div>')
-        .replace(/^(\d+)\. (.*$)/gm, '<div class="li-num"><span class="num">$1.</span><span>$2</span></div>')
-        .replace(/\n\n/g, '</p><p class="p">')
-        .replace(/\n/g, '<br/>');
+      let html = md;
+      // Must process multi-line patterns before single-line
+      html = html.replace(/^### (.*$)/gm, '<h3 class="sh3">$1</h3>');
+      html = html.replace(/^## (.*$)/gm, (_, t: string) => {
+        const l = t.toLowerCase();
+        if (l.includes('key takeaway')) return `</div><div class="box tk"><p class="box-h tk-h">Key Takeaways</p><div class="box-body">`;
+        if (l.includes('recommended action')) return `</div><div class="box ra"><p class="box-h ra-h">Recommended Actions</p><div class="box-body">`;
+        return `<h2 class="sh2">${t}</h2>`;
+      });
+      html = html.replace(/^# (.*$)/gm, '<h1 class="sh1">$1</h1>');
+      html = html.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+      html = html.replace(/\*(.*?)\*/g, '<em>$1</em>');
+      html = html.replace(/^- (.*$)/gm, '<div class="bul"><span class="bul-d"></span><span class="bul-t">$1</span></div>');
+      html = html.replace(/^(\d+)\. (.*$)/gm, '<div class="bul"><span class="bul-n">$1.</span><span class="bul-t">$2</span></div>');
+      html = html.replace(/\n\n/g, '<br/><br/>');
+      html = html.replace(/\n/g, '<br/>');
+      return html;
     }
 
-    const tocRows = sections.map((s, i) => {
-      const n = String(i + 1).padStart(2, '0');
-      return `<tr><td class="tc-n">${n}</td><td class="tc-t">${s.title}</td></tr>`;
-    }).join('');
+    // TOC
+    const tocHtml = sections.map((s, i) =>
+      `<div class="toc-row"><span class="toc-n">${String(i+1).padStart(2,'0')}</span><span class="toc-ln"></span><span class="toc-t">${s.title}</span></div>`
+    ).join('');
 
-    const pages = sections.map((section, idx) => {
+    // Sections — NO fixed height, NO overflow hidden
+    // Each section gets a page-break-before, content flows naturally
+    const chaptersHtml = sections.map((section, idx) => {
       const n = String(idx + 1).padStart(2, '0');
+      const bodyHtml = mdToHtml(section.content);
       return `
-<div class="pg divider"><div class="d-wrap"><p class="d-n">${n}</p><p class="d-t">${section.title}</p><div class="d-bar"></div></div><img src="${logoColor}" class="d-logo"/></div>
-<div class="pg content"><div class="c-head"><span class="c-ch">Chapter ${n}</span><span class="c-dt">${dateStr}</span></div><div class="c-body"><p class="p">${mdToHtml(section.content)}</p></div><div class="c-foot"><img src="${logoColor}" class="f-logo"/><span class="f-pg">${n} / ${String(sections.length).padStart(2, '0')}</span></div></div>`;
+<div class="chapter-start">
+  <p class="cs-n">${n}</p>
+  <h1 class="cs-t">${section.title}</h1>
+  <div class="cs-bar"></div>
+</div>
+<div class="chapter-body">
+  <div class="cb-head">
+    <span class="cb-label">Chapter ${n}</span>
+    <span class="cb-date">${dateStr}</span>
+  </div>
+  <div class="cb-content"><div class="cb-inner">${bodyHtml}</div></div>
+</div>`;
     }).join('');
 
     const w = window.open('', '_blank');
-    if (!w) { setExporting(false); alert("Allow popups to export"); return; }
+    if (!w) { setExporting(false); alert("Allow popups to export PDF"); return; }
 
-    w.document.write(`<!DOCTYPE html><html><head><title>Brand Strategy</title>
+    w.document.write(`<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>Brand Strategy Deck</title>
 <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
 <style>
-@page{margin:0;size:A4}
-*{box-sizing:border-box;margin:0;padding:0}
-body{font-family:Inter,sans-serif;color:#333;-webkit-print-color-adjust:exact;print-color-adjust:exact}
-img{display:block;image-rendering:-webkit-optimize-contrast;image-rendering:crisp-edges}
+/* ============================================================
+   PRINT-OPTIMISED BRAND STRATEGY DECK
+   Source of truth: Advertising_Unplugged_Brand_Guidelines v1.0
+   Fonts: Oswald (headlines), Inter (body)
+   Colors: Teal #2AB9B0, Charcoal #333, Dark #1A1A2E, Light #F5F5F5
+   ============================================================ */
 
-/* === PAGE TEMPLATE === */
-.pg{height:100vh;page-break-after:always;position:relative;overflow:hidden}
+@page { margin: 0; size: A4; }
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: Inter, sans-serif; font-size: 12px; color: #333;
+       -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+img { image-rendering: -webkit-optimize-contrast; }
 
-/* === COVER === */
-.cover{height:100vh;background:#1A1A2E;page-break-after:always;position:relative;display:flex;flex-direction:column}
-.cover-top{flex:1;display:flex;align-items:center;justify-content:center}
-.cover-logo{height:72px;width:auto;filter:brightness(0) invert(1);image-rendering:-webkit-optimize-contrast}
-.cover-bot{padding:0 100px 80px}
-.cover-bar{width:100%;height:4px;background:linear-gradient(90deg,#2AB9B0,#8ED16A,#F28C28,#F8CE30);margin-bottom:48px}
-.cover-lbl{font-family:Oswald,sans-serif;font-size:12px;font-weight:500;text-transform:uppercase;letter-spacing:6px;color:#2AB9B0;margin-bottom:16px}
-.cover-ttl{font-family:Oswald,sans-serif;font-size:54px;font-weight:700;color:white;line-height:1.05;margin-bottom:24px}
-.cover-sub{font-family:Inter,sans-serif;font-size:14px;color:rgba(255,255,255,0.45);line-height:1.8}
-.cover-ft{position:absolute;bottom:36px;left:100px;right:100px;display:flex;justify-content:space-between;font-family:Oswald,sans-serif;font-size:9px;text-transform:uppercase;letter-spacing:2.5px;color:rgba(255,255,255,0.2)}
+/* ---- COVER ---- */
+.cover { width: 100%; height: 100vh; background: #1A1A2E; color: #fff;
+         display: flex; flex-direction: column; justify-content: flex-end;
+         padding: 0 90px 70px; page-break-after: always; position: relative; }
+.cover-logo { width: 200px; height: auto; position: absolute; top: 60px; left: 90px; }
+.cover-bar { width: 100%; height: 4px; margin-bottom: 44px;
+             background: linear-gradient(90deg, #2AB9B0, #8ED16A, #F28C28, #F8CE30); }
+.cover-lbl { font-family: Oswald, sans-serif; font-size: 11px; font-weight: 500;
+             text-transform: uppercase; letter-spacing: 6px; color: #2AB9B0; margin-bottom: 14px; }
+.cover-ttl { font-family: Oswald, sans-serif; font-size: 48px; font-weight: 700;
+             color: #fff; line-height: 1.08; margin-bottom: 20px; }
+.cover-sub { font-size: 13px; color: rgba(255,255,255,0.4); line-height: 1.8; }
+.cover-ft  { position: absolute; bottom: 32px; left: 90px; right: 90px;
+             display: flex; justify-content: space-between;
+             font-family: Oswald, sans-serif; font-size: 8px; letter-spacing: 2px;
+             text-transform: uppercase; color: rgba(255,255,255,0.18); }
 
-/* === TOC === */
-.toc{height:100vh;padding:100px;page-break-after:always;background:white}
-.toc-h{font-family:Oswald,sans-serif;font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:5px;color:#2AB9B0;margin-bottom:48px}
-.toc table{width:100%;border-collapse:collapse}
-.tc-n{font-family:Oswald,sans-serif;font-size:13px;font-weight:700;color:#2AB9B0;padding:14px 0;width:40px;vertical-align:baseline;border-bottom:1px solid #F5F5F5}
-.tc-t{font-family:Oswald,sans-serif;font-size:14px;font-weight:400;color:#333;padding:14px 0;text-transform:uppercase;letter-spacing:0.8px;border-bottom:1px solid #F5F5F5}
+/* ---- TABLE OF CONTENTS ---- */
+.toc-page { padding: 90px; page-break-after: always; }
+.toc-label { font-family: Oswald, sans-serif; font-size: 10px; font-weight: 600;
+             text-transform: uppercase; letter-spacing: 5px; color: #2AB9B0; margin-bottom: 44px; }
+.toc-row { display: flex; align-items: baseline; gap: 12px; padding: 11px 0;
+           border-bottom: 1px solid #F0F0F0; }
+.toc-n { font-family: Oswald, sans-serif; font-size: 12px; font-weight: 700;
+         color: #2AB9B0; min-width: 24px; }
+.toc-ln { flex: 1; border-bottom: 1px dotted #ddd; margin-bottom: 3px; }
+.toc-t { font-family: Oswald, sans-serif; font-size: 12px; font-weight: 400;
+         color: #333; text-transform: uppercase; letter-spacing: 0.6px; }
 
-/* === DIVIDER === */
-.divider{display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;background:white}
-.d-wrap{padding:40px}
-.d-n{font-family:Oswald,sans-serif;font-size:72px;font-weight:300;color:#2AB9B0;line-height:1;margin-bottom:20px}
-.d-t{font-family:Oswald,sans-serif;font-size:26px;font-weight:600;text-transform:uppercase;letter-spacing:3px;color:#1A1A2E}
-.d-bar{width:48px;height:3px;background:linear-gradient(90deg,#2AB9B0,#8ED16A);margin:28px auto 0}
-.d-logo{position:absolute;bottom:48px;left:50%;transform:translateX(-50%);height:24px;width:auto;opacity:0.12}
+/* ---- CHAPTER START (divider) ---- */
+.chapter-start { page-break-before: always; height: 100vh; display: flex;
+                 flex-direction: column; justify-content: center; align-items: center;
+                 text-align: center; }
+.cs-n { font-family: Oswald, sans-serif; font-size: 64px; font-weight: 300;
+        color: #2AB9B0; line-height: 1; margin-bottom: 18px; }
+.cs-t { font-family: Oswald, sans-serif; font-size: 24px; font-weight: 600;
+        text-transform: uppercase; letter-spacing: 2.5px; color: #1A1A2E; max-width: 440px; }
+.cs-bar { width: 40px; height: 3px; margin-top: 24px;
+          background: linear-gradient(90deg, #2AB9B0, #8ED16A); }
 
-/* === CONTENT === */
-.content{padding:72px 100px 80px;background:white}
-.c-head{display:flex;justify-content:space-between;align-items:center;padding-bottom:14px;margin-bottom:36px;border-bottom:1.5px solid #2AB9B0}
-.c-ch{font-family:Oswald,sans-serif;font-size:10px;font-weight:600;text-transform:uppercase;letter-spacing:4px;color:#2AB9B0}
-.c-dt{font-family:Inter,sans-serif;font-size:9px;color:#999;letter-spacing:0.5px}
-.c-body{font-size:12.5px;line-height:2;color:#444;max-width:520px}
-.c-foot{position:absolute;bottom:36px;left:100px;right:100px;display:flex;justify-content:space-between;align-items:center}
-.f-logo{height:18px;width:auto;opacity:0.1}
-.f-pg{font-family:Oswald,sans-serif;font-size:9px;color:#bbb;letter-spacing:1.5px}
+/* ---- CHAPTER BODY (content — flows naturally, NO fixed height) ---- */
+.chapter-body { page-break-before: always; padding: 64px 90px 60px; }
+.cb-head { display: flex; justify-content: space-between; align-items: center;
+           padding-bottom: 12px; margin-bottom: 32px; border-bottom: 1.5px solid #2AB9B0; }
+.cb-label { font-family: Oswald, sans-serif; font-size: 9px; font-weight: 600;
+            text-transform: uppercase; letter-spacing: 3.5px; color: #2AB9B0; }
+.cb-date { font-size: 8px; color: #aaa; }
+.cb-content { font-size: 12px; line-height: 1.95; color: #444; }
+.cb-inner { max-width: 480px; }
 
-/* === TYPOGRAPHY === */
-.h1{font-family:Oswald,sans-serif;font-size:20px;font-weight:600;color:#1A1A2E;margin:32px 0 14px;text-transform:uppercase;letter-spacing:0.5px}
-.h2{font-family:Oswald,sans-serif;font-size:16px;font-weight:600;color:#1A1A2E;margin:32px 0 12px;padding-bottom:8px;border-bottom:1px solid #eee}
-.h3{font-family:Oswald,sans-serif;font-size:13px;font-weight:500;color:#2AB9B0;margin:24px 0 8px;text-transform:uppercase;letter-spacing:1px}
-.p{margin:6px 0;line-height:2}
-strong{color:#1A1A2E;font-weight:600}
-em{color:#666}
+/* ---- HEADINGS (inside content) ---- */
+.sh1 { font-family: Oswald, sans-serif; font-size: 18px; font-weight: 600;
+       color: #1A1A2E; margin: 28px 0 12px; text-transform: uppercase; letter-spacing: 0.4px; }
+.sh2 { font-family: Oswald, sans-serif; font-size: 15px; font-weight: 600;
+       color: #1A1A2E; margin: 26px 0 10px; padding-bottom: 6px; border-bottom: 1px solid #eee; }
+.sh3 { font-family: Oswald, sans-serif; font-size: 12px; font-weight: 500;
+       color: #2AB9B0; margin: 20px 0 6px; text-transform: uppercase; letter-spacing: 0.8px; }
+strong { color: #1A1A2E; font-weight: 600; }
+em { color: #777; }
 
-/* === LISTS === */
-.li{display:flex;gap:10px;margin:5px 0 5px 4px;line-height:1.8}
-.dot{width:5px;height:5px;border-radius:50%;background:#2AB9B0;flex-shrink:0;margin-top:9px}
-.li-num{display:flex;gap:8px;margin:5px 0 5px 4px;line-height:1.8}
-.num{font-family:Oswald,sans-serif;font-weight:600;color:#2AB9B0;font-size:12px;min-width:18px}
+/* ---- BULLETS ---- */
+.bul { display: flex; gap: 8px; margin: 4px 0; line-height: 1.8; }
+.bul-d { width: 4px; height: 4px; border-radius: 50%; background: #2AB9B0;
+         flex-shrink: 0; margin-top: 8px; }
+.bul-n { font-family: Oswald, sans-serif; font-weight: 600; color: #2AB9B0;
+         font-size: 11px; min-width: 16px; }
+.bul-t { flex: 1; }
 
-/* === CALLOUT BOXES === */
-.box-takeaways{background:#F5F5F5;border-left:3px solid #2AB9B0;padding:20px 24px;margin:28px 0 20px;border-radius:0 6px 6px 0}
-.box-label{font-family:Oswald,sans-serif;font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:2px;color:#2AB9B0;margin-bottom:10px}
-.box-actions{background:#1A1A2E;padding:20px 24px;margin:28px 0 20px;border-radius:6px}
-.box-label-alt{font-family:Oswald,sans-serif;font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:2px;color:#2AB9B0;margin-bottom:10px}
-.box-actions,.box-actions strong,.box-actions span{color:rgba(255,255,255,0.85)}
-.box-actions .dot{background:#2AB9B0}
+/* ---- CALLOUT BOXES ---- */
+.box { padding: 16px 20px; margin: 22px 0 16px; page-break-inside: avoid; }
+.box-h { font-family: Oswald, sans-serif; font-size: 10px; font-weight: 600;
+         text-transform: uppercase; letter-spacing: 2px; margin-bottom: 8px; }
+.box-body { font-size: 12px; line-height: 1.85; }
+.tk { background: #F5F5F5; border-left: 3px solid #2AB9B0; border-radius: 0 4px 4px 0; }
+.tk-h { color: #2AB9B0; }
+.ra { background: #1A1A2E; border-radius: 4px; color: rgba(255,255,255,0.85); }
+.ra-h { color: #2AB9B0; }
+.ra strong { color: #fff; }
+.ra .bul-d { background: #2AB9B0; }
 
-/* === BACK COVER === */
-.back{height:100vh;background:#1A1A2E;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center}
-.b-logo{height:64px;width:auto;margin-bottom:48px}
-.b-bar{width:120px;height:3px;background:linear-gradient(90deg,#2AB9B0,#8ED16A,#F28C28,#F8CE30);margin-bottom:32px}
-.b-tag{font-family:Oswald,sans-serif;font-size:11px;font-weight:500;text-transform:uppercase;letter-spacing:5px;color:rgba(255,255,255,0.5);margin-bottom:8px}
-.b-mot{font-family:Inter,sans-serif;font-size:13px;color:rgba(255,255,255,0.3);font-style:italic}
-.b-url{font-family:Oswald,sans-serif;font-size:10px;color:#2AB9B0;text-transform:uppercase;letter-spacing:3px;margin-top:48px}
-</style></head><body>
+/* ---- BACK COVER ---- */
+.back-cover { page-break-before: always; height: 100vh; background: #1A1A2E;
+              display: flex; flex-direction: column; justify-content: center;
+              align-items: center; text-align: center; }
+.bc-logo { width: 180px; height: auto; margin-bottom: 44px; }
+.bc-bar { width: 100px; height: 3px; margin-bottom: 28px;
+          background: linear-gradient(90deg, #2AB9B0, #8ED16A, #F28C28, #F8CE30); }
+.bc-tag { font-family: Oswald, sans-serif; font-size: 10px; font-weight: 500;
+          text-transform: uppercase; letter-spacing: 4px; color: rgba(255,255,255,0.45); margin-bottom: 6px; }
+.bc-mot { font-size: 12px; color: rgba(255,255,255,0.25); font-style: italic; }
+.bc-url { font-family: Oswald, sans-serif; font-size: 9px; color: #2AB9B0;
+          text-transform: uppercase; letter-spacing: 3px; margin-top: 40px; }
+</style>
+</head>
+<body>
 
+<!-- COVER -->
 <div class="cover">
-  <div class="cover-top"><img src="${logoWhite}" class="cover-logo"/></div>
-  <div class="cover-bot">
-    <div class="cover-bar"></div>
-    <p class="cover-lbl">Brand Strategy</p>
-    <p class="cover-ttl">Strategy Deck</p>
-    <p class="cover-sub">Prepared by Advertising Unplugged<br/>${dateStr}</p>
+  <img src="${logoWhite}" class="cover-logo"/>
+  <div class="cover-bar"></div>
+  <p class="cover-lbl">Brand Strategy</p>
+  <p class="cover-ttl">Strategy Deck</p>
+  <p class="cover-sub">Prepared by Advertising Unplugged<br/>${dateStr}</p>
+  <div class="cover-ft">
+    <span>Confidential &mdash; ${yearStr}</span>
+    <span>advertisingunplugged.com</span>
   </div>
-  <div class="cover-ft"><span>Confidential &mdash; ${yearStr}</span><span>advertisingunplugged.com</span></div>
 </div>
 
-<div class="toc">
-  <p class="toc-h">Table of Contents</p>
-  <table>${tocRows}</table>
+<!-- TABLE OF CONTENTS -->
+<div class="toc-page">
+  <p class="toc-label">Table of Contents</p>
+  ${tocHtml}
 </div>
 
-${pages}
+<!-- ALL ${totalSections} CHAPTERS -->
+${chaptersHtml}
 
-<div class="pg back">
-  <img src="${logoWhite}" class="b-logo"/>
-  <div class="b-bar"></div>
-  <p class="b-tag">Advertising Unplugged</p>
-  <p class="b-mot">Clarity Over Noise. Purpose Beyond Profit.</p>
-  <p class="b-url">advertisingunplugged.com</p>
+<!-- BACK COVER -->
+<div class="back-cover">
+  <img src="${logoWhite}" class="bc-logo"/>
+  <div class="bc-bar"></div>
+  <p class="bc-tag">Advertising Unplugged</p>
+  <p class="bc-mot">Clarity Over Noise. Purpose Beyond Profit.</p>
+  <p class="bc-url">advertisingunplugged.com</p>
 </div>
 
-</body></html>`);
+</body>
+</html>`);
 
     w.document.close();
-    setTimeout(() => { w.print(); setExporting(false); }, 2500);
+    // Wait for Google Fonts + logo images to fully load
+    setTimeout(() => { w.print(); setExporting(false); }, 3000);
   };
 
   if (loading) {
