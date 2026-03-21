@@ -501,7 +501,63 @@ export default function QuestionnairePage() {
                         }
                         className="w-full rounded-lg border border-border bg-background px-4 py-2.5 text-sm text-foreground placeholder:text-muted-foreground focus:border-[var(--coral)] focus:outline-none focus:ring-2 focus:ring-[var(--coral)]/20"
                       />
-                    ) : question.question_type === "select" || question.question_type === "multiselect" ? (
+                    ) : question.question_type === "multiselect" ? (
+                      <div className="space-y-2">
+                        <div className="grid gap-2 sm:grid-cols-2">
+                          {question.options?.map((opt) => {
+                            const label = typeof opt === "object" && opt !== null ? (opt as {label: string}).label : String(opt);
+                            const value = typeof opt === "object" && opt !== null ? (opt as {value: string}).value : String(opt);
+                            const selected = (answers[question.id] ?? "").split(",").map(s => s.trim()).filter(Boolean);
+                            const isChecked = selected.includes(value);
+                            return (
+                              <label
+                                key={value}
+                                className={`flex cursor-pointer items-center gap-3 rounded-lg border px-4 py-2.5 text-sm transition-colors ${
+                                  isChecked
+                                    ? "border-[var(--coral)] bg-[var(--coral)]/5 text-foreground"
+                                    : "border-border bg-background text-foreground hover:bg-muted"
+                                }`}
+                              >
+                                <input
+                                  type="checkbox"
+                                  checked={isChecked}
+                                  onChange={() => {
+                                    let updated: string[];
+                                    if (isChecked) {
+                                      updated = selected.filter(s => s !== value);
+                                    } else {
+                                      updated = [...selected, value];
+                                    }
+                                    updateAnswer(question.id, updated.join(", "));
+                                  }}
+                                  className="h-4 w-4 rounded border-border accent-[var(--coral)]"
+                                />
+                                {label}
+                              </label>
+                            );
+                          })}
+                        </div>
+                        <input
+                          type="text"
+                          placeholder="Other (type your own)..."
+                          onKeyDown={(e) => {
+                            if (e.key === "Enter") {
+                              e.preventDefault();
+                              const input = e.currentTarget;
+                              const val = input.value.trim();
+                              if (val) {
+                                const selected = (answers[question.id] ?? "").split(",").map(s => s.trim()).filter(Boolean);
+                                if (!selected.includes(val)) {
+                                  updateAnswer(question.id, [...selected, val].join(", "));
+                                }
+                                input.value = "";
+                              }
+                            }
+                          }}
+                          className="w-full rounded-lg border border-dashed border-border bg-background px-4 py-2.5 text-sm text-foreground placeholder:text-muted-foreground focus:border-[var(--coral)] focus:outline-none focus:ring-2 focus:ring-[var(--coral)]/20"
+                        />
+                      </div>
+                    ) : question.question_type === "select" ? (
                       <div className="space-y-2">
                         <select
                           id={question.id}
