@@ -83,6 +83,21 @@ const SECTION_INTROS: Record<string, string> = {
   "Vision & Growth": "Where are you going? Honest answers here mean realistic, actionable strategies.",
 };
 
+const ARCHETYPES = [
+  { name: "The Hero", desc: "Brave, determined, inspiring", example: "Nike, FedEx" },
+  { name: "The Sage", desc: "Wise, knowledgeable, trusted advisor", example: "Google, BBC" },
+  { name: "The Innocent", desc: "Optimistic, pure, honest", example: "Coca-Cola, Dove" },
+  { name: "The Explorer", desc: "Adventurous, independent, pioneering", example: "Jeep, Patagonia" },
+  { name: "The Outlaw", desc: "Rebellious, disruptive, revolutionary", example: "Harley-Davidson, Virgin" },
+  { name: "The Magician", desc: "Visionary, transformative, innovative", example: "Apple, Disney" },
+  { name: "The Everyman", desc: "Relatable, authentic, down-to-earth", example: "IKEA, Target" },
+  { name: "The Lover", desc: "Passionate, intimate, sensual", example: "Chanel, Victoria's Secret" },
+  { name: "The Jester", desc: "Playful, humorous, fun", example: "Old Spice, M&M's" },
+  { name: "The Caregiver", desc: "Nurturing, generous, compassionate", example: "Johnson & Johnson, Volvo" },
+  { name: "The Creator", desc: "Imaginative, artistic, inventive", example: "Adobe, Lego" },
+  { name: "The Ruler", desc: "Authoritative, commanding, premium", example: "Mercedes-Benz, Rolex" },
+];
+
 /* ---------- Types ---------- */
 
 interface Question {
@@ -597,7 +612,48 @@ export default function QuestionnairePage() {
 
     // Archetype visual selector
     if (isArchetypeQuestion) {
-      return renderArchetypeGrid(question);
+      const currentVal = answers[question.id] ?? "";
+      return (
+        <div>
+          {isAntiArchetype && (
+            <p className="mb-4 text-sm text-muted-foreground italic">
+              Which archetype is the OPPOSITE of your brand? What personality would feel inauthentic?
+            </p>
+          )}
+          <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3">
+            {ARCHETYPES.map((arch) => {
+              const isSelected = currentVal === arch.name;
+              return (
+                <button
+                  key={arch.name}
+                  type="button"
+                  onClick={() => updateAnswer(question.id, arch.name)}
+                  className={`relative rounded-xl border-2 p-4 text-left transition-all ${
+                    isSelected
+                      ? "border-[var(--teal)] bg-[var(--teal)]/5 shadow-md"
+                      : "border-border bg-background hover:border-[var(--teal)]/30 hover:bg-muted/50"
+                  }`}
+                >
+                  {isSelected && (
+                    <div className="absolute right-3 top-3 flex h-5 w-5 items-center justify-center rounded-full bg-[var(--teal)]">
+                      <Check className="h-3 w-3 text-white" />
+                    </div>
+                  )}
+                  <p className="font-[family-name:var(--font-oswald)] text-sm font-bold text-[var(--navy)]">
+                    {arch.name}
+                  </p>
+                  <p className="mt-1 text-xs text-muted-foreground">
+                    {arch.desc}
+                  </p>
+                  <p className="mt-1.5 text-[10px] font-medium text-[var(--teal)]">
+                    e.g. {arch.example}
+                  </p>
+                </button>
+              );
+            })}
+          </div>
+        </div>
+      );
     }
 
     switch (question.question_type) {
