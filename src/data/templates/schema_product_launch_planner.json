@@ -1,0 +1,1240 @@
+{
+  "id": "product_launch_planner",
+  "name": "Product Launch Planner",
+  "category": "growth",
+  "sheets": [
+    {
+      "id": "dashboard",
+      "name": "Dashboard",
+      "type": "summary"
+    },
+    {
+      "id": "launch_overview",
+      "name": "Launch Overview",
+      "type": "summary"
+    },
+    {
+      "id": "go_to_market_plan",
+      "name": "Go-to-Market Plan",
+      "type": "table",
+      "columns": [
+        {
+          "id": "element",
+          "header": "Element",
+          "type": "text"
+        },
+        {
+          "id": "description",
+          "header": "Description",
+          "type": "textarea",
+          "width": "250px"
+        },
+        {
+          "id": "target_audience",
+          "header": "Target Audience",
+          "type": "text"
+        },
+        {
+          "id": "key_message",
+          "header": "Key Message",
+          "type": "textarea",
+          "width": "250px"
+        },
+        {
+          "id": "proof_points",
+          "header": "Proof Points",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "id": "launch_timeline",
+      "name": "Launch Timeline",
+      "type": "table",
+      "columns": [
+        {
+          "id": "launch_date",
+          "header": "Launch Date:",
+          "type": "date"
+        },
+        {
+          "id": "days_to_launch",
+          "header": "Days to Launch:",
+          "type": "text"
+        },
+        {
+          "id": "46089",
+          "header": "-46089",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "id": "channel_plan",
+      "name": "Channel Plan",
+      "type": "table",
+      "columns": [
+        {
+          "id": "channel",
+          "header": "Channel",
+          "type": "text"
+        },
+        {
+          "id": "type",
+          "header": "Type",
+          "type": "text"
+        },
+        {
+          "id": "budget",
+          "header": "Budget",
+          "type": "currency"
+        },
+        {
+          "id": "key_message",
+          "header": "Key Message",
+          "type": "textarea",
+          "width": "250px"
+        },
+        {
+          "id": "content_needed",
+          "header": "Content Needed",
+          "type": "textarea",
+          "width": "250px"
+        },
+        {
+          "id": "launch_date",
+          "header": "Launch Date",
+          "type": "date"
+        },
+        {
+          "id": "owner",
+          "header": "Owner",
+          "type": "text"
+        },
+        {
+          "id": "target_kpi",
+          "header": "Target KPI",
+          "type": "text"
+        },
+        {
+          "id": "status",
+          "header": "Status",
+          "type": "dropdown",
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done",
+            "On Hold",
+            "Cancelled"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stakeholder_raci",
+      "name": "Stakeholder RACI",
+      "type": "table",
+      "columns": [
+        {
+          "id": "activity",
+          "header": "Activity",
+          "type": "text"
+        },
+        {
+          "id": "launch_lead",
+          "header": "Launch Lead",
+          "type": "text"
+        },
+        {
+          "id": "product",
+          "header": "Product",
+          "type": "text"
+        },
+        {
+          "id": "marketing",
+          "header": "Marketing",
+          "type": "text"
+        },
+        {
+          "id": "sales",
+          "header": "Sales",
+          "type": "text"
+        },
+        {
+          "id": "cs",
+          "header": "CS",
+          "type": "text"
+        },
+        {
+          "id": "engineering",
+          "header": "Engineering",
+          "type": "text"
+        },
+        {
+          "id": "design",
+          "header": "Design",
+          "type": "text"
+        },
+        {
+          "id": "pr",
+          "header": "PR",
+          "type": "text"
+        },
+        {
+          "id": "exec_sponsor",
+          "header": "Exec Sponsor",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "id": "launch_checklist",
+      "name": "Launch Checklist",
+      "type": "form",
+      "fields": [
+        {
+          "id": "item",
+          "label": "Item",
+          "type": "text",
+          "hint": "Status",
+          "placeholder": "Status"
+        },
+        {
+          "id": "product_positioning_finalised",
+          "label": "Product positioning finalised",
+          "type": "text"
+        },
+        {
+          "id": "value_proposition_validated",
+          "label": "Value proposition validated",
+          "type": "text"
+        },
+        {
+          "id": "competitive_analysis_complete",
+          "label": "Competitive analysis complete",
+          "type": "text"
+        },
+        {
+          "id": "pricing_approved",
+          "label": "Pricing approved",
+          "type": "text"
+        },
+        {
+          "id": "launch_kpis_defined",
+          "label": "Launch KPIs defined",
+          "type": "text"
+        },
+        {
+          "id": "target_personas_documented",
+          "label": "Target personas documented",
+          "type": "text"
+        },
+        {
+          "id": "landing_page_live",
+          "label": "Landing page live",
+          "type": "text"
+        },
+        {
+          "id": "blog_post_drafted",
+          "label": "Blog post drafted",
+          "type": "text"
+        },
+        {
+          "id": "email_sequences_built",
+          "label": "Email sequences built",
+          "type": "text"
+        },
+        {
+          "id": "social_content_created",
+          "label": "Social content created",
+          "type": "text"
+        },
+        {
+          "id": "sales_deck_ready",
+          "label": "Sales deck ready",
+          "type": "text"
+        },
+        {
+          "id": "product_demo_video",
+          "label": "Product demo video",
+          "type": "text"
+        },
+        {
+          "id": "case_study_or_testimonials",
+          "label": "Case study or testimonials",
+          "type": "text"
+        },
+        {
+          "id": "press_release_written",
+          "label": "Press release written",
+          "type": "text"
+        },
+        {
+          "id": "faq_document",
+          "label": "FAQ document",
+          "type": "text"
+        },
+        {
+          "id": "product_ready_for_launch",
+          "label": "Product ready for launch",
+          "type": "text"
+        },
+        {
+          "id": "analytics_tracking_configured",
+          "label": "Analytics tracking configured",
+          "type": "text"
+        },
+        {
+          "id": "crm_integration_tested",
+          "label": "CRM integration tested",
+          "type": "text"
+        },
+        {
+          "id": "landing_page_load_tested",
+          "label": "Landing page load tested",
+          "type": "text"
+        },
+        {
+          "id": "email_deliverability_checked",
+          "label": "Email deliverability checked",
+          "type": "text"
+        },
+        {
+          "id": "forms_ctas_tested",
+          "label": "Forms & CTAs tested",
+          "type": "text"
+        },
+        {
+          "id": "sales_team_trained",
+          "label": "Sales team trained",
+          "type": "text"
+        },
+        {
+          "id": "cs_team_briefed",
+          "label": "CS team briefed",
+          "type": "text"
+        },
+        {
+          "id": "support_docs_updated",
+          "label": "Support docs updated",
+          "type": "text"
+        },
+        {
+          "id": "internal_faq_distributed",
+          "label": "Internal FAQ distributed",
+          "type": "text"
+        },
+        {
+          "id": "partner_materials_shared",
+          "label": "Partner materials shared",
+          "type": "text"
+        },
+        {
+          "id": "teaser_campaign_sent",
+          "label": "Teaser campaign sent",
+          "type": "text"
+        },
+        {
+          "id": "media_outreach_complete",
+          "label": "Media outreach complete",
+          "type": "text"
+        },
+        {
+          "id": "influencer_briefs_sent",
+          "label": "Influencer briefs sent",
+          "type": "text"
+        },
+        {
+          "id": "executive_sign_off_obtained",
+          "label": "Executive sign-off obtained",
+          "type": "text"
+        },
+        {
+          "id": "staging_review_done",
+          "label": "Staging review done",
+          "type": "text"
+        },
+        {
+          "id": "beta_feedback_incorporated",
+          "label": "Beta feedback incorporated",
+          "type": "text"
+        },
+        {
+          "id": "landing_page_published",
+          "label": "Landing page published",
+          "type": "text"
+        },
+        {
+          "id": "launch_email_sent",
+          "label": "Launch email sent",
+          "type": "text"
+        },
+        {
+          "id": "social_posts_scheduled",
+          "label": "Social posts scheduled",
+          "type": "text"
+        },
+        {
+          "id": "press_release_distributed",
+          "label": "Press release distributed",
+          "type": "text"
+        },
+        {
+          "id": "paid_ads_activated",
+          "label": "Paid ads activated",
+          "type": "text"
+        },
+        {
+          "id": "team_slack_channel_active",
+          "label": "Team Slack channel active",
+          "type": "text"
+        },
+        {
+          "id": "day_1_metrics_reviewed",
+          "label": "Day 1 metrics reviewed",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "id": "messaging_matrix",
+      "name": "Messaging Matrix",
+      "type": "table",
+      "columns": [
+        {
+          "id": "persona",
+          "header": "Persona",
+          "type": "text"
+        },
+        {
+          "id": "pain_point",
+          "header": "Pain Point",
+          "type": "text"
+        },
+        {
+          "id": "key_message",
+          "header": "Key Message",
+          "type": "textarea",
+          "width": "250px"
+        },
+        {
+          "id": "proof_point",
+          "header": "Proof Point",
+          "type": "text"
+        },
+        {
+          "id": "cta",
+          "header": "CTA",
+          "type": "text"
+        },
+        {
+          "id": "channel",
+          "header": "Channel",
+          "type": "text"
+        },
+        {
+          "id": "phase",
+          "header": "Phase",
+          "type": "dropdown",
+          "options": [
+            "Planning",
+            "In Progress",
+            "Review",
+            "Complete"
+          ],
+          "editable": false
+        },
+        {
+          "id": "tone",
+          "header": "Tone",
+          "type": "text"
+        }
+      ],
+      "groupBy": "phase"
+    },
+    {
+      "id": "risk_register",
+      "name": "Risk Register",
+      "type": "table",
+      "columns": [
+        {
+          "id": "risk_id",
+          "header": "Risk ID",
+          "type": "text"
+        },
+        {
+          "id": "risk_description",
+          "header": "Risk Description",
+          "type": "textarea",
+          "width": "250px"
+        },
+        {
+          "id": "category",
+          "header": "Category",
+          "type": "text",
+          "editable": false
+        },
+        {
+          "id": "probability",
+          "header": "Probability",
+          "type": "text"
+        },
+        {
+          "id": "impact",
+          "header": "Impact",
+          "type": "text"
+        },
+        {
+          "id": "risk_level",
+          "header": "Risk Level",
+          "type": "text"
+        },
+        {
+          "id": "mitigation_plan",
+          "header": "Mitigation Plan",
+          "type": "textarea",
+          "width": "250px"
+        },
+        {
+          "id": "owner",
+          "header": "Owner",
+          "type": "text"
+        }
+      ],
+      "groupBy": "category"
+    },
+    {
+      "id": "performance_tracker",
+      "name": "Performance Tracker",
+      "type": "table",
+      "columns": [
+        {
+          "id": "kpi",
+          "header": "KPI",
+          "type": "text"
+        },
+        {
+          "id": "target",
+          "header": "Target",
+          "type": "text"
+        },
+        {
+          "id": "day_1",
+          "header": "Day 1",
+          "type": "text"
+        },
+        {
+          "id": "week_1",
+          "header": "Week 1",
+          "type": "text"
+        },
+        {
+          "id": "week_2",
+          "header": "Week 2",
+          "type": "text"
+        },
+        {
+          "id": "week_4",
+          "header": "Week 4",
+          "type": "text"
+        },
+        {
+          "id": "month_2",
+          "header": "Month 2",
+          "type": "text"
+        },
+        {
+          "id": "month_3",
+          "header": "Month 3",
+          "type": "text"
+        },
+        {
+          "id": "of_target",
+          "header": "% of Target",
+          "type": "percentage"
+        },
+        {
+          "id": "status",
+          "header": "Status",
+          "type": "dropdown",
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done",
+            "On Hold",
+            "Cancelled"
+          ]
+        }
+      ]
+    }
+  ],
+  "defaultData": {
+    "go_to_market_plan": [
+      {
+        "element": "Core Positioning",
+        "description": "How you want market to perceive product",
+        "target_audience": "All segments",
+        "key_message": "Primary positioning statement",
+        "proof_points": "Market data, research"
+      },
+      {
+        "element": "Competitive Differentiation",
+        "description": "What sets you apart",
+        "target_audience": "Decision makers",
+        "key_message": "Why choose us over alternatives",
+        "proof_points": "Feature comparison, case studies"
+      },
+      {
+        "element": "Emotional Appeal",
+        "description": "Emotional connection point",
+        "target_audience": "End users",
+        "key_message": "How product makes them feel",
+        "proof_points": "Testimonials, user stories"
+      },
+      {
+        "element": "Distribution Channels"
+      },
+      {
+        "element": "Channel",
+        "description": "Type",
+        "target_audience": "Priority",
+        "key_message": "Expected Revenue %",
+        "proof_points": "Launch Strategy"
+      },
+      {
+        "element": "Direct Sales",
+        "description": "Direct",
+        "target_audience": "High",
+        "key_message": "40%",
+        "proof_points": "Sales enablement kit + demo scripts"
+      },
+      {
+        "element": "Website",
+        "description": "Direct",
+        "target_audience": "High",
+        "key_message": "25%",
+        "proof_points": "Landing page + conversion funnel"
+      },
+      {
+        "element": "Partner Channel",
+        "description": "Indirect",
+        "target_audience": "Medium",
+        "key_message": "20%",
+        "proof_points": "Partner onboarding + co-marketing"
+      },
+      {
+        "element": "Marketplace",
+        "description": "Indirect",
+        "target_audience": "Medium",
+        "key_message": "10%",
+        "proof_points": "Listing optimisation + reviews"
+      },
+      {
+        "element": "Resellers",
+        "description": "Indirect",
+        "target_audience": "Low",
+        "key_message": "5%",
+        "proof_points": "Reseller programme + pricing"
+      }
+    ],
+    "launch_timeline": [
+      {
+        "launch_date": "Today:"
+      },
+      {
+        "launch_date": "Week",
+        "days_to_launch": "Owner",
+        "46089": "Status"
+      },
+      {
+        "launch_date": "W-12",
+        "days_to_launch": "Product Lead",
+        "46089": "Not Started"
+      },
+      {
+        "launch_date": "W-12",
+        "days_to_launch": "Marketing Lead",
+        "46089": "Not Started"
+      },
+      {
+        "launch_date": "W-11",
+        "days_to_launch": "Marketing Lead",
+        "46089": "Not Started"
+      },
+      {
+        "launch_date": "W-11",
+        "days_to_launch": "Launch Lead",
+        "46089": "Not Started"
+      },
+      {
+        "launch_date": "W-10",
+        "days_to_launch": "Marketing Lead",
+        "46089": "Not Started"
+      },
+      {
+        "launch_date": "W-10",
+        "days_to_launch": "Product Lead",
+        "46089": "Not Started"
+      },
+      {
+        "launch_date": "W-9",
+        "days_to_launch": "Marketing Lead",
+        "46089": "Not Started"
+      },
+      {
+        "launch_date": "W-9",
+        "days_to_launch": "Content Lead",
+        "46089": "Not Started"
+      },
+      {
+        "launch_date": "W-8",
+        "days_to_launch": "Content Lead",
+        "46089": "Not Started"
+      },
+      {
+        "launch_date": "W-8",
+        "days_to_launch": "Creative Lead",
+        "46089": "Not Started"
+      },
+      {
+        "launch_date": "W-7",
+        "days_to_launch": "Design Lead",
+        "46089": "Not Started"
+      },
+      {
+        "launch_date": "W-7",
+        "days_to_launch": "Email Lead",
+        "46089": "Not Started"
+      },
+      {
+        "launch_date": "W-6",
+        "days_to_launch": "Sales Ops",
+        "46089": "Not Started"
+      },
+      {
+        "launch_date": "W-6",
+        "days_to_launch": "PR Lead",
+        "46089": "Not Started"
+      },
+      {
+        "launch_date": "W-5",
+        "days_to_launch": "Sales Ops",
+        "46089": "Not Started"
+      },
+      {
+        "launch_date": "W-5",
+        "days_to_launch": "CS Lead",
+        "46089": "Not Started"
+      },
+      {
+        "launch_date": "W-4",
+        "days_to_launch": "Analytics Lead",
+        "46089": "Not Started"
+      },
+      {
+        "launch_date": "W-4",
+        "days_to_launch": "Marketing Ops",
+        "46089": "Not Started"
+      },
+      {
+        "launch_date": "W-3",
+        "days_to_launch": "Social Lead",
+        "46089": "Not Started"
+      },
+      {
+        "launch_date": "W-3",
+        "days_to_launch": "Email Lead",
+        "46089": "Not Started"
+      },
+      {
+        "launch_date": "W-2",
+        "days_to_launch": "PR Lead",
+        "46089": "Not Started"
+      },
+      {
+        "launch_date": "W-2",
+        "days_to_launch": "Launch Lead",
+        "46089": "Not Started"
+      },
+      {
+        "launch_date": "W-1",
+        "days_to_launch": "Launch Lead",
+        "46089": "Not Started"
+      },
+      {
+        "launch_date": "W-1",
+        "days_to_launch": "Product Lead",
+        "46089": "Not Started"
+      },
+      {
+        "launch_date": "Launch",
+        "days_to_launch": "Marketing Lead",
+        "46089": "Not Started"
+      },
+      {
+        "launch_date": "Launch",
+        "days_to_launch": "Email Lead",
+        "46089": "Not Started"
+      },
+      {
+        "launch_date": "Launch",
+        "days_to_launch": "Social Lead",
+        "46089": "Not Started"
+      },
+      {
+        "launch_date": "Launch",
+        "days_to_launch": "PR Lead",
+        "46089": "Not Started"
+      },
+      {
+        "launch_date": "Launch",
+        "days_to_launch": "Paid Media Lead",
+        "46089": "Not Started"
+      },
+      {
+        "launch_date": "W+1",
+        "days_to_launch": "Analytics Lead",
+        "46089": "Not Started"
+      },
+      {
+        "launch_date": "W+1",
+        "days_to_launch": "CS Lead",
+        "46089": "Not Started"
+      },
+      {
+        "launch_date": "W+2",
+        "days_to_launch": "Marketing Lead",
+        "46089": "Not Started"
+      },
+      {
+        "launch_date": "W+2",
+        "days_to_launch": "Growth Lead",
+        "46089": "Not Started"
+      },
+      {
+        "launch_date": "W+3",
+        "days_to_launch": "Content Lead",
+        "46089": "Not Started"
+      },
+      {
+        "launch_date": "W+4",
+        "days_to_launch": "Launch Lead",
+        "46089": "Not Started"
+      }
+    ],
+    "channel_plan": [
+      {
+        "channel": "Email Marketing",
+        "type": "Owned",
+        "budget": "$5,000",
+        "key_message": "Launch announcement + nurture",
+        "content_needed": "4 emails, landing page",
+        "owner": "Email Lead",
+        "target_kpi": "Open rate >25%",
+        "status": "Planned"
+      },
+      {
+        "channel": "Blog / Content",
+        "type": "Owned",
+        "budget": "$2,000",
+        "key_message": "Product story & thought leadership",
+        "content_needed": "3 blog posts, 1 guide",
+        "owner": "Content Lead",
+        "target_kpi": "5,000 page views",
+        "status": "Planned"
+      },
+      {
+        "channel": "Social Media (Organic)",
+        "type": "Owned",
+        "budget": "$1,000",
+        "key_message": "Engagement & community buzz",
+        "content_needed": "15 posts, 3 videos",
+        "owner": "Social Lead",
+        "target_kpi": "500 engagements",
+        "status": "Planned"
+      },
+      {
+        "channel": "Paid Social",
+        "type": "Paid",
+        "budget": "$10,000",
+        "key_message": "Targeted acquisition",
+        "content_needed": "5 ad sets, 10 creatives",
+        "owner": "Paid Lead",
+        "target_kpi": "500 leads",
+        "status": "Planned"
+      },
+      {
+        "channel": "Paid Search",
+        "type": "Paid",
+        "budget": "$8,000",
+        "key_message": "Intent capture",
+        "content_needed": "20 keywords, 4 ad groups",
+        "owner": "Paid Lead",
+        "target_kpi": "300 leads",
+        "status": "Planned"
+      },
+      {
+        "channel": "PR & Media",
+        "type": "Earned",
+        "budget": "$3,000",
+        "key_message": "Industry coverage",
+        "content_needed": "Press release, media kit",
+        "owner": "PR Lead",
+        "target_kpi": "5 media mentions",
+        "status": "Planned"
+      },
+      {
+        "channel": "Influencer",
+        "type": "Earned",
+        "budget": "$5,000",
+        "key_message": "Authentic endorsement",
+        "content_needed": "Briefs, product samples",
+        "owner": "Influencer Lead",
+        "target_kpi": "50K reach",
+        "status": "Planned"
+      },
+      {
+        "channel": "Webinar / Events",
+        "type": "Owned",
+        "budget": "$4,000",
+        "key_message": "Demo & education",
+        "content_needed": "Presentation, landing page",
+        "owner": "Events Lead",
+        "target_kpi": "200 registrations",
+        "status": "Planned"
+      },
+      {
+        "channel": "Partner Marketing",
+        "type": "Shared",
+        "budget": "$3,000",
+        "key_message": "Co-branded reach",
+        "content_needed": "Joint content, emails",
+        "owner": "Partner Lead",
+        "target_kpi": "100 partner leads",
+        "status": "Planned"
+      },
+      {
+        "channel": "Product Hunt / Marketplace",
+        "type": "Owned",
+        "budget": "$1,000",
+        "key_message": "Community launch",
+        "content_needed": "Listing, visuals, video",
+        "owner": "Growth Lead",
+        "target_kpi": "500 upvotes",
+        "status": "Planned"
+      }
+    ],
+    "stakeholder_raci": [
+      {
+        "activity": "Product positioning",
+        "launch_lead": "A",
+        "product": "R",
+        "marketing": "C",
+        "sales": "C",
+        "cs": "I",
+        "engineering": "I",
+        "design": "I",
+        "pr": "I",
+        "exec_sponsor": "I"
+      },
+      {
+        "activity": "GTM strategy",
+        "launch_lead": "R",
+        "product": "C",
+        "marketing": "A",
+        "sales": "C",
+        "cs": "I",
+        "engineering": "I",
+        "design": "I",
+        "pr": "I",
+        "exec_sponsor": "I"
+      },
+      {
+        "activity": "Pricing",
+        "launch_lead": "C",
+        "product": "A",
+        "marketing": "C",
+        "sales": "R",
+        "cs": "I",
+        "engineering": "I",
+        "design": "I",
+        "pr": "I",
+        "exec_sponsor": "I"
+      },
+      {
+        "activity": "Launch timeline",
+        "launch_lead": "A",
+        "product": "C",
+        "marketing": "R",
+        "sales": "I",
+        "cs": "I",
+        "engineering": "C",
+        "design": "I",
+        "pr": "I",
+        "exec_sponsor": "I"
+      },
+      {
+        "activity": "Creative assets",
+        "launch_lead": "I",
+        "product": "C",
+        "marketing": "A",
+        "sales": "I",
+        "cs": "I",
+        "engineering": "I",
+        "design": "R",
+        "pr": "I",
+        "exec_sponsor": "I"
+      },
+      {
+        "activity": "Sales enablement",
+        "launch_lead": "C",
+        "product": "C",
+        "marketing": "A",
+        "sales": "R",
+        "cs": "I",
+        "engineering": "I",
+        "design": "I",
+        "pr": "I",
+        "exec_sponsor": "I"
+      },
+      {
+        "activity": "PR & media",
+        "launch_lead": "C",
+        "product": "I",
+        "marketing": "C",
+        "sales": "I",
+        "cs": "I",
+        "engineering": "I",
+        "design": "I",
+        "pr": "R",
+        "exec_sponsor": "A"
+      },
+      {
+        "activity": "Customer comms",
+        "launch_lead": "C",
+        "product": "I",
+        "marketing": "A",
+        "sales": "I",
+        "cs": "R",
+        "engineering": "I",
+        "design": "I",
+        "pr": "I",
+        "exec_sponsor": "I"
+      },
+      {
+        "activity": "Technical readiness",
+        "launch_lead": "I",
+        "product": "A",
+        "marketing": "I",
+        "sales": "I",
+        "cs": "I",
+        "engineering": "R",
+        "design": "I",
+        "pr": "I",
+        "exec_sponsor": "I"
+      },
+      {
+        "activity": "Analytics setup",
+        "launch_lead": "A",
+        "product": "C",
+        "marketing": "R",
+        "sales": "I",
+        "cs": "I",
+        "engineering": "C",
+        "design": "I",
+        "pr": "I",
+        "exec_sponsor": "I"
+      },
+      {
+        "activity": "Launch day execution",
+        "launch_lead": "A",
+        "product": "C",
+        "marketing": "R",
+        "sales": "C",
+        "cs": "C",
+        "engineering": "C",
+        "design": "I",
+        "pr": "I",
+        "exec_sponsor": "I"
+      },
+      {
+        "activity": "Post-launch review",
+        "launch_lead": "A",
+        "product": "R",
+        "marketing": "R",
+        "sales": "C",
+        "cs": "C",
+        "engineering": "C",
+        "design": "I",
+        "pr": "I",
+        "exec_sponsor": "I"
+      }
+    ],
+    "messaging_matrix": [
+      {
+        "persona": "CMO / VP Marketing",
+        "pain_point": "Proving ROI on marketing spend",
+        "key_message": "Measurable impact from day one",
+        "proof_point": "43% average ROI improvement",
+        "cta": "Book a demo",
+        "channel": "Email, LinkedIn",
+        "phase": "Pre-Launch",
+        "tone": "Strategic, data-driven"
+      },
+      {
+        "persona": "Marketing Manager",
+        "pain_point": "Too many tools, not enough time",
+        "key_message": "One platform to rule your stack",
+        "proof_point": "Save 12 hours per week",
+        "cta": "Start free trial",
+        "channel": "Blog, Webinar",
+        "phase": "Launch",
+        "tone": "Practical, empathetic"
+      },
+      {
+        "persona": "Content Marketer",
+        "pain_point": "Content that doesn't convert",
+        "key_message": "Create content that drives revenue",
+        "proof_point": "2.5x content conversion rate",
+        "cta": "See how it works",
+        "channel": "Social, Blog",
+        "phase": "Post-Launch",
+        "tone": "Creative, inspiring"
+      },
+      {
+        "persona": "Growth Lead",
+        "pain_point": "Scaling acquisition channels",
+        "key_message": "Scale without sacrificing quality",
+        "proof_point": "3x pipeline in 90 days",
+        "cta": "Get the playbook",
+        "channel": "Paid, Email",
+        "phase": "Pre-Launch",
+        "tone": "Bold, results-oriented"
+      },
+      {
+        "persona": "Agency Owner",
+        "pain_point": "Client retention & reporting",
+        "key_message": "Impress clients with better results",
+        "proof_point": "95% client retention rate",
+        "cta": "Partner with us",
+        "channel": "Events, Direct",
+        "phase": "Launch",
+        "tone": "Professional, partnership"
+      }
+    ],
+    "risk_register": [
+      {
+        "risk_id": "R-001",
+        "risk_description": "Product not ready by launch date",
+        "category": "Technical",
+        "probability": "Medium",
+        "impact": "High",
+        "risk_level": "High",
+        "mitigation_plan": "Build 2-week buffer into timeline; define MVP scope",
+        "owner": "Product Lead"
+      },
+      {
+        "risk_id": "R-002",
+        "risk_description": "Key messaging doesn't resonate",
+        "category": "Marketing",
+        "probability": "Medium",
+        "impact": "Medium",
+        "risk_level": "Medium",
+        "mitigation_plan": "A/B test messaging with focus group pre-launch",
+        "owner": "Marketing Lead"
+      },
+      {
+        "risk_id": "R-003",
+        "risk_description": "Competitor launches similar product first",
+        "category": "Competitive",
+        "probability": "Low",
+        "impact": "High",
+        "risk_level": "Medium",
+        "mitigation_plan": "Monitor competitor activity; prepare rapid response plan",
+        "owner": "Launch Lead"
+      },
+      {
+        "risk_id": "R-004",
+        "risk_description": "Budget overrun on paid channels",
+        "category": "Financial",
+        "probability": "Medium",
+        "impact": "Medium",
+        "risk_level": "Medium",
+        "mitigation_plan": "Set daily spend caps; review weekly",
+        "owner": "Paid Media Lead"
+      },
+      {
+        "risk_id": "R-005",
+        "risk_description": "Low email deliverability",
+        "category": "Technical",
+        "probability": "Low",
+        "impact": "Medium",
+        "risk_level": "Low",
+        "mitigation_plan": "Warm up domain; test with seed list",
+        "owner": "Email Lead"
+      },
+      {
+        "risk_id": "R-006",
+        "risk_description": "Sales team not prepared",
+        "category": "Enablement",
+        "probability": "Medium",
+        "impact": "High",
+        "risk_level": "High",
+        "mitigation_plan": "Schedule training 3 weeks before launch; create cheat sheets",
+        "owner": "Sales Ops"
+      },
+      {
+        "risk_id": "R-007",
+        "risk_description": "Negative press coverage",
+        "category": "Reputation",
+        "probability": "Low",
+        "impact": "High",
+        "risk_level": "Medium",
+        "mitigation_plan": "Prepare crisis comms plan; brief PR team",
+        "owner": "PR Lead"
+      },
+      {
+        "risk_id": "R-008",
+        "risk_description": "Website crashes under traffic",
+        "category": "Technical",
+        "probability": "Low",
+        "impact": "High",
+        "risk_level": "Medium",
+        "mitigation_plan": "Load test 2 weeks before; have CDN backup",
+        "owner": "Engineering"
+      }
+    ],
+    "performance_tracker": [
+      {
+        "kpi": "Website Traffic"
+      },
+      {
+        "kpi": "Signups / Leads"
+      },
+      {
+        "kpi": "Conversion Rate"
+      },
+      {
+        "kpi": "Revenue"
+      },
+      {
+        "kpi": "MQLs Generated"
+      },
+      {
+        "kpi": "Email Open Rate"
+      },
+      {
+        "kpi": "Social Engagement"
+      },
+      {
+        "kpi": "Media Mentions"
+      },
+      {
+        "kpi": "Customer Feedback Score"
+      },
+      {
+        "kpi": "NPS Score"
+      }
+    ]
+  }
+}

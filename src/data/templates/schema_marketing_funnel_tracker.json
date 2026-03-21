@@ -1,0 +1,333 @@
+{
+  "id": "marketing_funnel_tracker",
+  "name": "Marketing Funnel Tracker",
+  "category": "analytics",
+  "sheets": [
+    {
+      "id": "dashboard",
+      "name": "Dashboard",
+      "type": "summary"
+    },
+    {
+      "id": "monthly_funnel",
+      "name": "Monthly Funnel",
+      "type": "table",
+      "columns": [
+        {
+          "id": "stage",
+          "header": "Stage",
+          "type": "dropdown",
+          "options": [
+            "Planning",
+            "In Progress",
+            "Review",
+            "Complete"
+          ]
+        },
+        {
+          "id": "jan",
+          "header": "Jan",
+          "type": "text"
+        },
+        {
+          "id": "feb",
+          "header": "Feb",
+          "type": "text"
+        },
+        {
+          "id": "mar",
+          "header": "Mar",
+          "type": "text"
+        },
+        {
+          "id": "apr",
+          "header": "Apr",
+          "type": "text"
+        },
+        {
+          "id": "may",
+          "header": "May",
+          "type": "text"
+        },
+        {
+          "id": "jun",
+          "header": "Jun",
+          "type": "text"
+        },
+        {
+          "id": "jul",
+          "header": "Jul",
+          "type": "text"
+        },
+        {
+          "id": "aug",
+          "header": "Aug",
+          "type": "text"
+        },
+        {
+          "id": "sep",
+          "header": "Sep",
+          "type": "text"
+        },
+        {
+          "id": "oct",
+          "header": "Oct",
+          "type": "text"
+        },
+        {
+          "id": "nov",
+          "header": "Nov",
+          "type": "text"
+        },
+        {
+          "id": "dec",
+          "header": "Dec",
+          "type": "text"
+        },
+        {
+          "id": "ytd",
+          "header": "YTD",
+          "type": "number"
+        }
+      ]
+    },
+    {
+      "id": "funnel_targets",
+      "name": "Funnel Targets",
+      "type": "table",
+      "columns": [
+        {
+          "id": "stage",
+          "header": "Stage",
+          "type": "dropdown",
+          "options": [
+            "Planning",
+            "In Progress",
+            "Review",
+            "Complete"
+          ]
+        },
+        {
+          "id": "jan",
+          "header": "Jan",
+          "type": "text"
+        },
+        {
+          "id": "feb",
+          "header": "Feb",
+          "type": "text"
+        },
+        {
+          "id": "mar",
+          "header": "Mar",
+          "type": "text"
+        },
+        {
+          "id": "apr",
+          "header": "Apr",
+          "type": "text"
+        },
+        {
+          "id": "may",
+          "header": "May",
+          "type": "text"
+        },
+        {
+          "id": "jun",
+          "header": "Jun",
+          "type": "text"
+        },
+        {
+          "id": "jul",
+          "header": "Jul",
+          "type": "text"
+        },
+        {
+          "id": "aug",
+          "header": "Aug",
+          "type": "text"
+        },
+        {
+          "id": "sep",
+          "header": "Sep",
+          "type": "text"
+        },
+        {
+          "id": "oct",
+          "header": "Oct",
+          "type": "text"
+        },
+        {
+          "id": "nov",
+          "header": "Nov",
+          "type": "text"
+        },
+        {
+          "id": "dec",
+          "header": "Dec",
+          "type": "text"
+        },
+        {
+          "id": "ytd",
+          "header": "YTD",
+          "type": "number"
+        }
+      ]
+    },
+    {
+      "id": "channel_funnel",
+      "name": "Channel Funnel",
+      "type": "summary"
+    }
+  ],
+  "defaultData": {
+    "monthly_funnel": [
+      {
+        "stage": "Visitors"
+      },
+      {
+        "stage": "Leads"
+      },
+      {
+        "stage": "MQLs"
+      },
+      {
+        "stage": "SQLs"
+      },
+      {
+        "stage": "Opportunities"
+      },
+      {
+        "stage": "Customers"
+      },
+      {
+        "stage": "Revenue"
+      },
+      {
+        "stage": "CONVERSION RATES (auto-calculated)"
+      },
+      {
+        "stage": "Conversion",
+        "jan": "Jan",
+        "feb": "Feb",
+        "mar": "Mar",
+        "apr": "Apr",
+        "may": "May",
+        "jun": "Jun",
+        "jul": "Jul",
+        "aug": "Aug",
+        "sep": "Sep",
+        "oct": "Oct",
+        "nov": "Nov",
+        "dec": "Dec",
+        "ytd": "YTD"
+      },
+      {
+        "stage": "Visitor→Lead"
+      },
+      {
+        "stage": "Lead→MQL"
+      },
+      {
+        "stage": "MQL→SQL"
+      },
+      {
+        "stage": "SQL→Opp"
+      },
+      {
+        "stage": "Opp→Customer"
+      },
+      {
+        "stage": "Overall (V→C)"
+      },
+      {
+        "stage": "DROP-OFF VOLUMES (auto-calculated — leads lost at each stage)"
+      },
+      {
+        "stage": "Drop-off Stage",
+        "jan": "Jan",
+        "feb": "Feb",
+        "mar": "Mar",
+        "apr": "Apr",
+        "may": "May",
+        "jun": "Jun",
+        "jul": "Jul",
+        "aug": "Aug",
+        "sep": "Sep",
+        "oct": "Oct",
+        "nov": "Nov",
+        "dec": "Dec",
+        "ytd": "YTD"
+      },
+      {
+        "stage": "Visitor→Lead Lost"
+      },
+      {
+        "stage": "Lead→MQL Lost"
+      },
+      {
+        "stage": "MQL→SQL Lost"
+      },
+      {
+        "stage": "SQL→Opp Lost"
+      },
+      {
+        "stage": "Opp→Customer Lost"
+      }
+    ],
+    "funnel_targets": [
+      {
+        "stage": "Visitors"
+      },
+      {
+        "stage": "Leads"
+      },
+      {
+        "stage": "MQLs"
+      },
+      {
+        "stage": "SQLs"
+      },
+      {
+        "stage": "Opportunities"
+      },
+      {
+        "stage": "Customers"
+      },
+      {
+        "stage": "TARGET CONVERSION RATES"
+      },
+      {
+        "stage": "Conversion",
+        "jan": "Jan",
+        "feb": "Feb",
+        "mar": "Mar",
+        "apr": "Apr",
+        "may": "May",
+        "jun": "Jun",
+        "jul": "Jul",
+        "aug": "Aug",
+        "sep": "Sep",
+        "oct": "Oct",
+        "nov": "Nov",
+        "dec": "Dec",
+        "ytd": "YTD"
+      },
+      {
+        "stage": "Visitor→Lead"
+      },
+      {
+        "stage": "Lead→MQL"
+      },
+      {
+        "stage": "MQL→SQL"
+      },
+      {
+        "stage": "SQL→Opp"
+      },
+      {
+        "stage": "Opp→Customer"
+      }
+    ]
+  }
+}

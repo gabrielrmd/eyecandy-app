@@ -1,0 +1,1016 @@
+{
+  "id": "pr_media_outreach_planner",
+  "name": "PR Media Outreach Planner",
+  "category": "channels",
+  "sheets": [
+    {
+      "id": "dashboard",
+      "name": "Dashboard",
+      "type": "summary"
+    },
+    {
+      "id": "media_contacts",
+      "name": "Media Contacts",
+      "type": "table",
+      "columns": [
+        {
+          "id": "col_0",
+          "header": "#",
+          "type": "number"
+        },
+        {
+          "id": "name",
+          "header": "Name",
+          "type": "text"
+        },
+        {
+          "id": "title",
+          "header": "Title",
+          "type": "text"
+        },
+        {
+          "id": "outlet",
+          "header": "Outlet",
+          "type": "text"
+        },
+        {
+          "id": "beat_topic",
+          "header": "Beat / Topic",
+          "type": "text"
+        },
+        {
+          "id": "contact_type",
+          "header": "Contact Type",
+          "type": "text"
+        },
+        {
+          "id": "email_handle",
+          "header": "Email / Handle",
+          "type": "text"
+        },
+        {
+          "id": "relationship",
+          "header": "Relationship",
+          "type": "text"
+        },
+        {
+          "id": "last_contact",
+          "header": "Last Contact",
+          "type": "text"
+        },
+        {
+          "id": "notes",
+          "header": "Notes",
+          "type": "textarea",
+          "width": "250px"
+        }
+      ]
+    },
+    {
+      "id": "story_angles",
+      "name": "Story Angles",
+      "type": "table",
+      "columns": [
+        {
+          "id": "col_0",
+          "header": "#",
+          "type": "number"
+        },
+        {
+          "id": "story_angle",
+          "header": "Story Angle",
+          "type": "text"
+        },
+        {
+          "id": "category",
+          "header": "Category",
+          "type": "text",
+          "editable": false
+        },
+        {
+          "id": "pitch_summary",
+          "header": "Pitch Summary",
+          "type": "textarea",
+          "width": "250px"
+        },
+        {
+          "id": "target_outlets",
+          "header": "Target Outlets",
+          "type": "text"
+        },
+        {
+          "id": "status",
+          "header": "Status",
+          "type": "dropdown",
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done",
+            "On Hold",
+            "Cancelled"
+          ]
+        },
+        {
+          "id": "notes",
+          "header": "Notes",
+          "type": "textarea",
+          "width": "250px"
+        }
+      ],
+      "groupBy": "category"
+    },
+    {
+      "id": "press_release_planner",
+      "name": "Press Release Planner",
+      "type": "table",
+      "columns": [
+        {
+          "id": "col_0",
+          "header": "#",
+          "type": "number"
+        },
+        {
+          "id": "headline",
+          "header": "Headline",
+          "type": "text"
+        },
+        {
+          "id": "category",
+          "header": "Category",
+          "type": "text",
+          "editable": false
+        },
+        {
+          "id": "target_date",
+          "header": "Target Date",
+          "type": "date"
+        },
+        {
+          "id": "embargo",
+          "header": "Embargo",
+          "type": "text"
+        },
+        {
+          "id": "status",
+          "header": "Status",
+          "type": "dropdown",
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done",
+            "On Hold",
+            "Cancelled"
+          ]
+        },
+        {
+          "id": "approver",
+          "header": "Approver",
+          "type": "text"
+        },
+        {
+          "id": "distribution",
+          "header": "Distribution",
+          "type": "text"
+        },
+        {
+          "id": "notes",
+          "header": "Notes",
+          "type": "textarea",
+          "width": "250px"
+        }
+      ],
+      "groupBy": "category"
+    },
+    {
+      "id": "outreach_tracker",
+      "name": "Outreach Tracker",
+      "type": "table",
+      "columns": [
+        {
+          "id": "col_0",
+          "header": "#",
+          "type": "number"
+        },
+        {
+          "id": "contact_name",
+          "header": "Contact Name",
+          "type": "text"
+        },
+        {
+          "id": "outlet",
+          "header": "Outlet",
+          "type": "text"
+        },
+        {
+          "id": "story_angle",
+          "header": "Story Angle",
+          "type": "text"
+        },
+        {
+          "id": "pitch_method",
+          "header": "Pitch Method",
+          "type": "text"
+        },
+        {
+          "id": "date_sent",
+          "header": "Date Sent",
+          "type": "date"
+        },
+        {
+          "id": "status",
+          "header": "Status",
+          "type": "dropdown",
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done",
+            "On Hold",
+            "Cancelled"
+          ]
+        },
+        {
+          "id": "follow_up_date",
+          "header": "Follow-up Date",
+          "type": "date"
+        },
+        {
+          "id": "notes",
+          "header": "Notes",
+          "type": "textarea",
+          "width": "250px"
+        }
+      ]
+    },
+    {
+      "id": "coverage_log",
+      "name": "Coverage Log",
+      "type": "table",
+      "columns": [
+        {
+          "id": "col_0",
+          "header": "#",
+          "type": "number"
+        },
+        {
+          "id": "headline_title",
+          "header": "Headline / Title",
+          "type": "text"
+        },
+        {
+          "id": "outlet",
+          "header": "Outlet",
+          "type": "text"
+        },
+        {
+          "id": "date",
+          "header": "Date",
+          "type": "date"
+        },
+        {
+          "id": "type",
+          "header": "Type",
+          "type": "text"
+        },
+        {
+          "id": "journalist",
+          "header": "Journalist",
+          "type": "text"
+        },
+        {
+          "id": "sentiment",
+          "header": "Sentiment",
+          "type": "text"
+        },
+        {
+          "id": "reach",
+          "header": "Reach",
+          "type": "number"
+        },
+        {
+          "id": "est_media_value",
+          "header": "Est. Media Value",
+          "type": "number"
+        },
+        {
+          "id": "url",
+          "header": "URL",
+          "type": "url"
+        },
+        {
+          "id": "notes",
+          "header": "Notes",
+          "type": "textarea",
+          "width": "250px"
+        }
+      ]
+    },
+    {
+      "id": "pr_calendar",
+      "name": "PR Calendar",
+      "type": "table",
+      "columns": [
+        {
+          "id": "col_0",
+          "header": "#",
+          "type": "number"
+        },
+        {
+          "id": "date",
+          "header": "Date",
+          "type": "date"
+        },
+        {
+          "id": "activity",
+          "header": "Activity",
+          "type": "text"
+        },
+        {
+          "id": "type",
+          "header": "Type",
+          "type": "text"
+        },
+        {
+          "id": "story_angle",
+          "header": "Story Angle",
+          "type": "text"
+        },
+        {
+          "id": "owner",
+          "header": "Owner",
+          "type": "text"
+        },
+        {
+          "id": "status",
+          "header": "Status",
+          "type": "dropdown",
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done",
+            "On Hold",
+            "Cancelled"
+          ]
+        },
+        {
+          "id": "notes",
+          "header": "Notes",
+          "type": "textarea",
+          "width": "250px"
+        }
+      ]
+    },
+    {
+      "id": "crisis_communications",
+      "name": "Crisis Communications",
+      "type": "table",
+      "columns": [
+        {
+          "id": "data_breach_security_incident",
+          "header": "Data Breach / Security Incident",
+          "type": "text"
+        },
+        {
+          "id": "cto_legal",
+          "header": "CTO + Legal",
+          "type": "text"
+        },
+        {
+          "id": "it_cto_ceo_legal_board_public_statement",
+          "header": "IT > CTO > CEO > Legal > Board > Public Statement",
+          "type": "text"
+        }
+      ]
+    }
+  ],
+  "defaultData": {
+    "media_contacts": [
+      {
+        "col_0": 1,
+        "name": "Sarah Mitchell",
+        "title": "Tech Reporter",
+        "outlet": "TechCrunch",
+        "beat_topic": "SaaS & Startups",
+        "contact_type": "Journalist",
+        "email_handle": "sarah@example.com",
+        "relationship": "Warm",
+        "last_contact": "2026-02-15",
+        "notes": "Met at Web Summit 2025"
+      },
+      {
+        "col_0": 2,
+        "name": "James O'Brien",
+        "title": "Senior Editor",
+        "outlet": "Forbes",
+        "beat_topic": "Marketing & Brand Strategy",
+        "contact_type": "Editor",
+        "email_handle": "james@example.com",
+        "relationship": "Cold",
+        "notes": "Covers marketing innovation"
+      },
+      {
+        "col_0": 3,
+        "name": "Ana Petrova",
+        "title": "Host",
+        "outlet": "Marketing Over Coffee Podcast",
+        "beat_topic": "Digital Marketing",
+        "contact_type": "Podcaster",
+        "email_handle": "ana@example.com",
+        "relationship": "Strong",
+        "last_contact": "2026-01-20",
+        "notes": "Guest appearance booked for Q2"
+      },
+      {
+        "col_0": 4,
+        "name": "David Kim",
+        "title": "Staff Writer",
+        "outlet": "Adweek",
+        "beat_topic": "Advertising & Creative",
+        "contact_type": "Journalist",
+        "email_handle": "david@example.com",
+        "relationship": "Warm",
+        "last_contact": "2026-02-28",
+        "notes": "Interested in agency culture stories"
+      },
+      {
+        "col_0": 5,
+        "name": "Lisa Chen",
+        "title": "Contributing Editor",
+        "outlet": "Harvard Business Review",
+        "beat_topic": "Leadership & Strategy",
+        "contact_type": "Editor",
+        "email_handle": "lisa@example.com",
+        "relationship": "Cold",
+        "notes": "Accepts thought leadership pitches"
+      },
+      {
+        "col_0": 6,
+        "name": "Mark Thompson",
+        "title": "Founder",
+        "outlet": "The Drum",
+        "beat_topic": "Digital Advertising",
+        "contact_type": "Blogger",
+        "email_handle": "mark@example.com",
+        "relationship": "Warm",
+        "last_contact": "2026-01-10",
+        "notes": "Open to sponsored content partnerships"
+      },
+      {
+        "col_0": 7,
+        "name": "Rachel Adams",
+        "title": "Producer",
+        "outlet": "BBC Business",
+        "beat_topic": "Business & Innovation",
+        "contact_type": "TV Producer",
+        "email_handle": "rachel@example.com",
+        "relationship": "Cold",
+        "notes": "Requires 2-week lead time for segments"
+      },
+      {
+        "col_0": 8,
+        "name": "Tom Silva",
+        "title": "Industry Analyst",
+        "outlet": "Gartner",
+        "beat_topic": "MarTech",
+        "contact_type": "Analyst",
+        "email_handle": "tom@example.com",
+        "relationship": "Strong",
+        "last_contact": "2026-03-01",
+        "notes": "Annual MarTech report contributor"
+      },
+      {
+        "col_0": 9,
+        "name": "Emily Watson",
+        "title": "Social Lead",
+        "outlet": "Marketing Week",
+        "beat_topic": "Social Media Marketing",
+        "contact_type": "Journalist",
+        "email_handle": "emily@example.com",
+        "relationship": "Warm",
+        "last_contact": "2026-02-20",
+        "notes": "Prefers Twitter DM for initial contact"
+      },
+      {
+        "col_0": 10,
+        "name": "Chris Park",
+        "title": "Newsletter Editor",
+        "outlet": "Morning Brew",
+        "beat_topic": "Business & Tech",
+        "contact_type": "Editor",
+        "email_handle": "chris@example.com",
+        "relationship": "Cold",
+        "notes": "High reach, competitive placement"
+      }
+    ],
+    "story_angles": [
+      {
+        "col_0": 1,
+        "story_angle": "The Death of Cookie-Based Marketing",
+        "category": "Trend Commentary",
+        "pitch_summary": "How privacy changes are forcing marketers to rethink targeting. Our data shows 60% of SMBs are unprepared for the cookieless future. We offer expert commentary + proprietary survey data.",
+        "target_outlets": "TechCrunch, Adweek, Marketing Week",
+        "status": "Ready to Pitch",
+        "notes": "Timely — Google deadline approaching"
+      },
+      {
+        "col_0": 2,
+        "story_angle": "Why 73% of Marketing Budgets Are Wasted",
+        "category": "Data / Research",
+        "pitch_summary": "Original research from 500+ marketing leaders reveals massive inefficiency. We break down where the waste happens and what top performers do differently.",
+        "target_outlets": "Forbes, HBR, The Drum",
+        "status": "Developing",
+        "notes": "Need to finalise survey results"
+      },
+      {
+        "col_0": 3,
+        "story_angle": "From Startup to Scale: Our Growth Story",
+        "category": "Company Milestone",
+        "pitch_summary": "Company hit $10M ARR milestone. Founder interview angle: lessons from bootstrapping in a competitive market without VC funding.",
+        "target_outlets": "Morning Brew, Inc., Entrepreneur",
+        "status": "Idea",
+        "notes": "Wait for Q2 revenue confirmation"
+      },
+      {
+        "col_0": 4,
+        "story_angle": "AI in Marketing: Hype vs Reality",
+        "category": "Thought Leadership",
+        "pitch_summary": "Our CEO cuts through the noise with a practical framework for evaluating AI marketing tools. Based on testing 30+ tools with real client campaigns.",
+        "target_outlets": "Harvard Business Review, MIT Tech Review",
+        "status": "Ready to Pitch",
+        "notes": "CEO availability confirmed"
+      },
+      {
+        "col_0": 5,
+        "story_angle": "How One NGO Tripled Donations with Digital",
+        "category": "Customer Success",
+        "pitch_summary": "Case study: small NGO used our framework to redesign their digital strategy. Result: 3x donations in 6 months with zero additional budget.",
+        "target_outlets": "Stanford Social Innovation, Nonprofit Quarterly",
+        "status": "Developing",
+        "notes": "Need client approval for story"
+      },
+      {
+        "col_0": 6,
+        "story_angle": "The Hidden Cost of Marketing Tool Sprawl",
+        "category": "Industry Analysis",
+        "pitch_summary": "Average marketing team uses 12+ tools but only actively uses 5. We analyse the cost of tool sprawl and propose a consolidation framework.",
+        "target_outlets": "Martech.org, ChiefMartec, Adweek",
+        "status": "Idea",
+        "notes": "Partner with Martech alliance?"
+      },
+      {
+        "col_0": 7,
+        "story_angle": "Sustainability Marketing: Beyond Greenwashing",
+        "category": "Social Impact",
+        "pitch_summary": "Practical guide to authentic sustainability marketing. Based on our work with NGOs and B-Corps. Includes framework for avoiding greenwashing traps.",
+        "target_outlets": "The Guardian, Fast Company, GreenBiz",
+        "status": "Ready to Pitch",
+        "notes": "Aligns with Earth Day timing"
+      },
+      {
+        "col_0": 8,
+        "story_angle": "5 Marketing Metrics Your CEO Actually Cares About",
+        "category": "Thought Leadership",
+        "pitch_summary": "Bridge the gap between marketing metrics and boardroom language. Translating CAC, CLV, and attribution into terms executives understand.",
+        "target_outlets": "Forbes, CMO.com, Marketing Week",
+        "status": "Ready to Pitch",
+        "notes": "Strong evergreen angle"
+      }
+    ],
+    "press_release_planner": [
+      {
+        "col_0": 1,
+        "headline": "Company Reaches $10M ARR Milestone",
+        "category": "Company Milestone",
+        "target_date": "2026-04-15",
+        "embargo": "2026-04-14",
+        "status": "Draft",
+        "approver": "CEO",
+        "distribution": "Wire Service",
+        "notes": "Coordinate with investor comms"
+      },
+      {
+        "col_0": 2,
+        "headline": "New AI Marketing Framework Released",
+        "category": "Product Launch",
+        "target_date": "2026-05-01",
+        "embargo": "None",
+        "status": "Developing",
+        "approver": "VP Marketing",
+        "distribution": "Direct to Media",
+        "notes": "Include demo access for journalists"
+      },
+      {
+        "col_0": 3,
+        "headline": "Annual Marketing Efficiency Report",
+        "category": "Data / Research",
+        "target_date": "2026-06-01",
+        "embargo": "2026-05-28",
+        "status": "Idea",
+        "approver": "Head of Research",
+        "distribution": "Blog + Media",
+        "notes": "Embargo for key outlets"
+      },
+      {
+        "col_0": 4,
+        "headline": "Partnership with Industry Association",
+        "category": "Partnership",
+        "target_date": "2026-04-01",
+        "embargo": "None",
+        "status": "Approved",
+        "approver": "CEO",
+        "distribution": "Social + Wire",
+        "notes": "Joint release with partner"
+      },
+      {
+        "col_0": 5,
+        "headline": "Sustainability Commitment Announcement",
+        "category": "Social Impact",
+        "target_date": "2026-04-22",
+        "embargo": "None",
+        "status": "Draft",
+        "approver": "COO",
+        "distribution": "Wire Service",
+        "notes": "Earth Day timing"
+      }
+    ],
+    "outreach_tracker": [
+      {
+        "col_0": 1,
+        "contact_name": "Sarah Mitchell",
+        "outlet": "TechCrunch",
+        "story_angle": "The Death of Cookie-Based Marketing",
+        "pitch_method": "Email",
+        "date_sent": "2026-03-01",
+        "status": "Pitched",
+        "follow_up_date": "2026-03-08",
+        "notes": "Opened email, no reply yet"
+      },
+      {
+        "col_0": 2,
+        "contact_name": "David Kim",
+        "outlet": "Adweek",
+        "story_angle": "The Death of Cookie-Based Marketing",
+        "pitch_method": "Email",
+        "date_sent": "2026-03-02",
+        "status": "Follow-up Sent",
+        "follow_up_date": "2026-03-10",
+        "notes": "Expressed interest, asked for data"
+      },
+      {
+        "col_0": 3,
+        "contact_name": "Lisa Chen",
+        "outlet": "HBR",
+        "story_angle": "5 Marketing Metrics Your CEO Cares About",
+        "pitch_method": "LinkedIn",
+        "date_sent": "2026-02-20",
+        "status": "In Discussion",
+        "follow_up_date": "2026-03-15",
+        "notes": "Reviewing for Q3 editorial calendar"
+      },
+      {
+        "col_0": 4,
+        "contact_name": "Ana Petrova",
+        "outlet": "Marketing Over Coffee",
+        "story_angle": "AI in Marketing: Hype vs Reality",
+        "pitch_method": "Email",
+        "date_sent": "2026-02-15",
+        "status": "Published",
+        "notes": "Episode aired March 5"
+      },
+      {
+        "col_0": 5,
+        "contact_name": "James O'Brien",
+        "outlet": "Forbes",
+        "story_angle": "Why 73% of Marketing Budgets Are Wasted",
+        "pitch_method": "Email",
+        "date_sent": "2026-03-05",
+        "status": "Pitched",
+        "follow_up_date": "2026-03-12",
+        "notes": "First contact — warm intro from Tom"
+      },
+      {
+        "col_0": 6,
+        "contact_name": "Emily Watson",
+        "outlet": "Marketing Week",
+        "story_angle": "Sustainability Marketing",
+        "pitch_method": "Twitter DM",
+        "date_sent": "2026-03-01",
+        "status": "Follow-up Sent",
+        "follow_up_date": "2026-03-09",
+        "notes": "Interested but timing unclear"
+      },
+      {
+        "col_0": 7,
+        "contact_name": "Mark Thompson",
+        "outlet": "The Drum",
+        "story_angle": "AI in Marketing: Hype vs Reality",
+        "pitch_method": "Email",
+        "date_sent": "2026-02-25",
+        "status": "Declined",
+        "notes": "Already covered similar angle recently"
+      },
+      {
+        "col_0": 8,
+        "contact_name": "Chris Park",
+        "outlet": "Morning Brew",
+        "story_angle": "From Startup to Scale: Our Growth Story",
+        "pitch_method": "Email",
+        "date_sent": "2026-03-04",
+        "status": "Pitched",
+        "follow_up_date": "2026-03-11",
+        "notes": "Waiting for Q2 numbers before proceeding"
+      }
+    ],
+    "coverage_log": [
+      {
+        "col_0": 1,
+        "headline_title": "AI Marketing: What Actually Works in 2026",
+        "outlet": "Marketing Over Coffee",
+        "date": "2026-03-05",
+        "type": "Podcast",
+        "journalist": "Ana Petrova",
+        "sentiment": "Positive",
+        "reach": 45000,
+        "est_media_value": 2500,
+        "url": "https://example.com/episode",
+        "notes": "20-min segment, CEO interview"
+      },
+      {
+        "col_0": 2,
+        "headline_title": "Cookie Apocalypse: Are SMBs Ready?",
+        "outlet": "Adweek",
+        "date": "2026-03-15",
+        "type": "Online Article",
+        "journalist": "David Kim",
+        "sentiment": "Positive",
+        "reach": 280000,
+        "est_media_value": 8500,
+        "url": "https://example.com/article",
+        "notes": "Quoted as primary source"
+      },
+      {
+        "col_0": 3,
+        "headline_title": "Marketing Tool Consolidation Trend",
+        "outlet": "The Drum",
+        "date": "2026-02-28",
+        "type": "Blog Post",
+        "journalist": "Mark Thompson",
+        "sentiment": "Neutral",
+        "reach": 120000,
+        "est_media_value": 3500,
+        "url": "https://example.com/blog",
+        "notes": "Mentioned alongside 3 competitors"
+      },
+      {
+        "col_0": 4,
+        "headline_title": "5 Metrics That Matter to the C-Suite",
+        "outlet": "Marketing Week",
+        "date": "2026-03-20",
+        "type": "Newsletter",
+        "journalist": "Emily Watson",
+        "sentiment": "Positive",
+        "reach": 95000,
+        "est_media_value": 4200,
+        "url": "https://example.com/newsletter",
+        "notes": "Featured in weekly roundup"
+      },
+      {
+        "col_0": 5,
+        "headline_title": "Sustainability in Marketing Roundup",
+        "outlet": "The Guardian",
+        "date": "2026-04-22",
+        "type": "Online Article",
+        "journalist": "Guest Contributor",
+        "sentiment": "Positive",
+        "reach": 500000,
+        "est_media_value": 15000,
+        "url": "https://example.com/guardian",
+        "notes": "Op-ed placement"
+      }
+    ],
+    "pr_calendar": [
+      {
+        "col_0": 1,
+        "date": "2026-03-15",
+        "activity": "Cookie Marketing Pitch Wave",
+        "type": "Media Pitch",
+        "story_angle": "Cookie-Based Marketing story",
+        "owner": "Marketing Team",
+        "status": "In Progress",
+        "notes": "Target 10 outlets this week"
+      },
+      {
+        "col_0": 2,
+        "date": "2026-04-01",
+        "activity": "Partnership Announcement",
+        "type": "Press Release",
+        "story_angle": "Industry Association partnership",
+        "owner": "CEO + PR",
+        "status": "Planning",
+        "notes": "Joint release coordination"
+      },
+      {
+        "col_0": 3,
+        "date": "2026-04-15",
+        "activity": "$10M ARR Milestone",
+        "type": "Press Release",
+        "story_angle": "Growth Story",
+        "owner": "CEO",
+        "status": "Planning",
+        "notes": "Embargo 24h before"
+      },
+      {
+        "col_0": 4,
+        "date": "2026-04-22",
+        "activity": "Earth Day — Sustainability Op-Ed",
+        "type": "Op-Ed",
+        "story_angle": "Sustainability Marketing",
+        "owner": "COO",
+        "status": "Confirmed",
+        "notes": "The Guardian placement confirmed"
+      },
+      {
+        "col_0": 5,
+        "date": "2026-05-01",
+        "activity": "New Product Launch",
+        "type": "Press Release",
+        "story_angle": "AI Marketing Framework",
+        "owner": "VP Product",
+        "status": "Planning",
+        "notes": "Demo access for reviewers"
+      },
+      {
+        "col_0": 6,
+        "date": "2026-05-15",
+        "activity": "Web Summit Application",
+        "type": "Event",
+        "story_angle": "Multiple angles",
+        "owner": "Events Team",
+        "status": "Planning",
+        "notes": "Speaking slot application deadline"
+      },
+      {
+        "col_0": 7,
+        "date": "2026-06-01",
+        "activity": "Annual Marketing Report",
+        "type": "Report Launch",
+        "story_angle": "Marketing Budgets research",
+        "owner": "Head of Research",
+        "status": "Planning",
+        "notes": "Embargo for top 5 outlets"
+      },
+      {
+        "col_0": 8,
+        "date": "2026-06-15",
+        "activity": "Cannes Lions",
+        "type": "Event",
+        "story_angle": "Creative excellence",
+        "owner": "CEO",
+        "status": "Confirmed",
+        "notes": "Networking + client hospitality"
+      },
+      {
+        "col_0": 9,
+        "date": "2026-07-01",
+        "activity": "Q2 Results Roundup",
+        "type": "Media Pitch",
+        "story_angle": "Growth metrics + case studies",
+        "owner": "PR Team",
+        "status": "Planning",
+        "notes": "Coordinate with finance"
+      },
+      {
+        "col_0": 10,
+        "date": "2026-08-01",
+        "activity": "Back to School Campaign",
+        "type": "Social Campaign",
+        "story_angle": "Education sector angle",
+        "owner": "Social Team",
+        "status": "Planning",
+        "notes": "Partner with education NGO"
+      },
+      {
+        "col_0": 11,
+        "date": "2026-09-15",
+        "activity": "Marketing Effectiveness Awards",
+        "type": "Award Submission",
+        "story_angle": "Campaign case studies",
+        "owner": "Marketing Team",
+        "status": "Planning",
+        "notes": "Deadline Sep 30"
+      },
+      {
+        "col_0": 12,
+        "date": "2026-10-01",
+        "activity": "Q3 Thought Leadership Push",
+        "type": "Media Pitch",
+        "story_angle": "CEO interviews + op-eds",
+        "owner": "PR Team",
+        "status": "Planning",
+        "notes": "Target Forbes, HBR, Fast Company"
+      }
+    ],
+    "crisis_communications": [
+      {
+        "data_breach_security_incident": "Product Failure / Outage",
+        "we_are_aware_of_a_potential_security_iss": "We are experiencing a service disruption and our team is working urgently to resolve it. We apologise for the inconvenience and will provide regular updates until service is fully restored.",
+        "cto_legal": "VP Engineering",
+        "it_cto_ceo_legal_board_public_statement": "Engineering > VP Eng > CEO > Customer Comms"
+      },
+      {
+        "data_breach_security_incident": "Negative Press / Viral Criticism",
+        "we_are_aware_of_a_potential_security_iss": "We take all feedback seriously and are reviewing the concerns raised. We are committed to transparency and will address this directly once we have all the facts.",
+        "cto_legal": "CEO + PR",
+        "it_cto_ceo_legal_board_public_statement": "PR > Legal > CEO > Public Response"
+      },
+      {
+        "data_breach_security_incident": "Employee Misconduct",
+        "we_are_aware_of_a_potential_security_iss": "We have been made aware of allegations regarding employee conduct. We take these matters extremely seriously and are conducting a thorough investigation in line with our values and policies.",
+        "cto_legal": "HR Director + Legal",
+        "it_cto_ceo_legal_board_public_statement": "HR > Legal > CEO > Board if needed"
+      },
+      {
+        "data_breach_security_incident": "Financial Issues / Layoffs",
+        "we_are_aware_of_a_potential_security_iss": "We are making difficult but necessary changes to ensure the long-term health of our business. We are supporting affected team members with severance, career support, and outplacement services.",
+        "cto_legal": "CEO",
+        "it_cto_ceo_legal_board_public_statement": "Finance > CEO > HR > Legal > All-Hands > Public"
+      },
+      {
+        "data_breach_security_incident": "Regulatory / Compliance Issue",
+        "we_are_aware_of_a_potential_security_iss": "We are cooperating fully with [regulatory body] and are committed to meeting all compliance requirements. We have engaged external counsel to guide our response.",
+        "cto_legal": "Legal + CEO",
+        "it_cto_ceo_legal_board_public_statement": "Legal > CEO > Board > Regulatory Body > Public"
+      },
+      {
+        "data_breach_security_incident": "Customer Injury / Safety Issue",
+        "we_are_aware_of_a_potential_security_iss": "The safety of our customers is our absolute priority. We are investigating this incident thoroughly and have taken immediate steps to [specific action].",
+        "cto_legal": "CEO + Legal",
+        "it_cto_ceo_legal_board_public_statement": "Operations > Legal > CEO > Regulatory > Public"
+      },
+      {
+        "data_breach_security_incident": "Social Media Crisis",
+        "we_are_aware_of_a_potential_security_iss": "We are aware of the conversation happening online and want to address it directly and transparently. We value our community and take these concerns seriously.",
+        "cto_legal": "Social Media Lead + PR",
+        "it_cto_ceo_legal_board_public_statement": "Social > PR > CEO if escalating"
+      },
+      {
+        "data_breach_security_incident": "CRISIS RESPONSE CHECKLIST (FIRST 24 HOURS)"
+      },
+      {
+        "data_breach_security_incident": "1.",
+        "we_are_aware_of_a_potential_security_iss": "Acknowledge the issue internally within 1 hour"
+      },
+      {
+        "data_breach_security_incident": "2.",
+        "we_are_aware_of_a_potential_security_iss": "Assemble crisis response team (CEO, Legal, PR, relevant department head)"
+      },
+      {
+        "data_breach_security_incident": "3.",
+        "we_are_aware_of_a_potential_security_iss": "Gather facts — what happened, who is affected, what is the current status"
+      },
+      {
+        "data_breach_security_incident": "4.",
+        "we_are_aware_of_a_potential_security_iss": "Draft initial holding statement for external communications"
+      },
+      {
+        "data_breach_security_incident": "5.",
+        "we_are_aware_of_a_potential_security_iss": "Get legal review of all external communications before release"
+      },
+      {
+        "data_breach_security_incident": "6.",
+        "we_are_aware_of_a_potential_security_iss": "Issue holding statement to media within 4 hours of discovery"
+      },
+      {
+        "data_breach_security_incident": "7.",
+        "we_are_aware_of_a_potential_security_iss": "Notify affected customers directly (email, phone) before public statement"
+      },
+      {
+        "data_breach_security_incident": "8.",
+        "we_are_aware_of_a_potential_security_iss": "Set up monitoring for social media mentions and press coverage"
+      },
+      {
+        "data_breach_security_incident": "9.",
+        "we_are_aware_of_a_potential_security_iss": "Schedule regular internal updates (every 2-4 hours during active crisis)"
+      },
+      {
+        "data_breach_security_incident": "10.",
+        "we_are_aware_of_a_potential_security_iss": "Designate single spokesperson — all media inquiries go through one person"
+      },
+      {
+        "data_breach_security_incident": "11.",
+        "we_are_aware_of_a_potential_security_iss": "Prepare FAQ document for customer-facing teams"
+      },
+      {
+        "data_breach_security_incident": "12.",
+        "we_are_aware_of_a_potential_security_iss": "Document everything — decisions, timelines, communications sent"
+      },
+      {
+        "data_breach_security_incident": "13.",
+        "we_are_aware_of_a_potential_security_iss": "Plan follow-up communication with updated facts within 24 hours"
+      },
+      {
+        "data_breach_security_incident": "14.",
+        "we_are_aware_of_a_potential_security_iss": "Schedule post-crisis review meeting within 1 week of resolution"
+      }
+    ]
+  }
+}

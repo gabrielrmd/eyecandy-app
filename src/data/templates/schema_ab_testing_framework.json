@@ -1,0 +1,1027 @@
+{
+  "id": "ab_testing_framework",
+  "name": "AB Testing Framework",
+  "category": "analytics",
+  "sheets": [
+    {
+      "id": "dashboard",
+      "name": "Dashboard",
+      "type": "summary"
+    },
+    {
+      "id": "test_backlog",
+      "name": "Test Backlog",
+      "type": "table",
+      "columns": [
+        {
+          "id": "col_0",
+          "header": "#",
+          "type": "number"
+        },
+        {
+          "id": "test_idea",
+          "header": "Test Idea",
+          "type": "text"
+        },
+        {
+          "id": "hypothesis",
+          "header": "Hypothesis",
+          "type": "text"
+        },
+        {
+          "id": "channel",
+          "header": "Channel",
+          "type": "text"
+        },
+        {
+          "id": "impact_1_10",
+          "header": "Impact (1-10)",
+          "type": "number"
+        },
+        {
+          "id": "confidence_1_10",
+          "header": "Confidence (1-10)",
+          "type": "number"
+        },
+        {
+          "id": "ease_1_10",
+          "header": "Ease (1-10)",
+          "type": "number"
+        },
+        {
+          "id": "ice_score",
+          "header": "ICE Score",
+          "type": "score",
+          "min": 1,
+          "max": 5,
+          "colorScale": {
+            "ranges": [
+              {
+                "min": 1,
+                "max": 2,
+                "color": "#ef4444"
+              },
+              {
+                "min": 3,
+                "max": 3,
+                "color": "#eab308"
+              },
+              {
+                "min": 4,
+                "max": 5,
+                "color": "#22c55e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "priority",
+          "header": "Priority",
+          "type": "dropdown",
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "notes",
+          "header": "Notes",
+          "type": "textarea",
+          "width": "250px"
+        }
+      ]
+    },
+    {
+      "id": "test_planner",
+      "name": "Test Planner",
+      "type": "table",
+      "columns": [
+        {
+          "id": "col_0",
+          "header": "#",
+          "type": "number"
+        },
+        {
+          "id": "test_name",
+          "header": "Test Name",
+          "type": "text"
+        },
+        {
+          "id": "hypothesis",
+          "header": "Hypothesis",
+          "type": "text"
+        },
+        {
+          "id": "channel",
+          "header": "Channel",
+          "type": "text"
+        },
+        {
+          "id": "control_a",
+          "header": "Control (A)",
+          "type": "text"
+        },
+        {
+          "id": "variant_b",
+          "header": "Variant (B)",
+          "type": "text"
+        },
+        {
+          "id": "primary_metric",
+          "header": "Primary Metric",
+          "type": "text"
+        },
+        {
+          "id": "start_date",
+          "header": "Start Date",
+          "type": "date"
+        },
+        {
+          "id": "end_date",
+          "header": "End Date",
+          "type": "date"
+        },
+        {
+          "id": "status",
+          "header": "Status",
+          "type": "dropdown",
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done",
+            "On Hold",
+            "Cancelled"
+          ]
+        },
+        {
+          "id": "min_sample_size",
+          "header": "Min Sample Size",
+          "type": "number"
+        }
+      ]
+    },
+    {
+      "id": "results_tracker",
+      "name": "Results Tracker",
+      "type": "table",
+      "columns": [
+        {
+          "id": "col_0",
+          "header": "#",
+          "type": "number"
+        },
+        {
+          "id": "test_name",
+          "header": "Test Name",
+          "type": "text"
+        },
+        {
+          "id": "metric",
+          "header": "Metric",
+          "type": "text"
+        },
+        {
+          "id": "channel",
+          "header": "Channel",
+          "type": "text"
+        },
+        {
+          "id": "control_result",
+          "header": "Control Result",
+          "type": "number"
+        },
+        {
+          "id": "variant_result",
+          "header": "Variant Result",
+          "type": "number"
+        },
+        {
+          "id": "sample_size",
+          "header": "Sample Size",
+          "type": "number"
+        },
+        {
+          "id": "lift",
+          "header": "Lift %",
+          "type": "percentage"
+        },
+        {
+          "id": "outcome",
+          "header": "Outcome",
+          "type": "text"
+        },
+        {
+          "id": "stat_significant",
+          "header": "Stat. Significant",
+          "type": "text"
+        },
+        {
+          "id": "key_learning",
+          "header": "Key Learning",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "id": "insights_library",
+      "name": "Insights Library",
+      "type": "table",
+      "columns": [
+        {
+          "id": "col_0",
+          "header": "#",
+          "type": "number"
+        },
+        {
+          "id": "channel",
+          "header": "Channel",
+          "type": "text"
+        },
+        {
+          "id": "test_name",
+          "header": "Test Name",
+          "type": "text"
+        },
+        {
+          "id": "what_we_tested",
+          "header": "What We Tested",
+          "type": "text"
+        },
+        {
+          "id": "what_we_learned",
+          "header": "What We Learned",
+          "type": "text"
+        },
+        {
+          "id": "action_taken",
+          "header": "Action Taken",
+          "type": "textarea",
+          "width": "250px"
+        }
+      ]
+    },
+    {
+      "id": "testing_calendar",
+      "name": "Testing Calendar",
+      "type": "table",
+      "columns": [
+        {
+          "id": "col_0",
+          "header": "#",
+          "type": "number"
+        },
+        {
+          "id": "test_name",
+          "header": "Test Name",
+          "type": "text"
+        },
+        {
+          "id": "channel",
+          "header": "Channel",
+          "type": "text"
+        },
+        {
+          "id": "start",
+          "header": "Start",
+          "type": "date"
+        },
+        {
+          "id": "end",
+          "header": "End",
+          "type": "date"
+        },
+        {
+          "id": "duration_days",
+          "header": "Duration (days)",
+          "type": "number"
+        },
+        {
+          "id": "status",
+          "header": "Status",
+          "type": "dropdown",
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done",
+            "On Hold",
+            "Cancelled"
+          ]
+        },
+        {
+          "id": "conflicts",
+          "header": "Conflicts",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "id": "sample_size_calculator",
+      "name": "Sample Size Calculator",
+      "type": "form",
+      "fields": [
+        {
+          "id": "current_conversion_rate",
+          "label": "Current Conversion Rate (%)",
+          "type": "text",
+          "hint": "Enter your baseline rate (e.g. 5 for 5%)",
+          "placeholder": "Enter your baseline rate (e.g. 5 for 5%)"
+        },
+        {
+          "id": "minimum_detectable_effect",
+          "label": "Minimum Detectable Effect (%)",
+          "type": "text",
+          "hint": "The smallest lift you want to detect (e.g. 10 for 10% relative)",
+          "placeholder": "The smallest lift you want to detect (e.g. 10 for 10% relative)"
+        },
+        {
+          "id": "statistical_significance_level",
+          "label": "Statistical Significance Level",
+          "type": "text",
+          "hint": "Typically 95% (enter 95)",
+          "placeholder": "Typically 95% (enter 95)"
+        },
+        {
+          "id": "statistical_power",
+          "label": "Statistical Power (%)",
+          "type": "text",
+          "hint": "Typically 80% (enter 80)",
+          "placeholder": "Typically 80% (enter 80)"
+        },
+        {
+          "id": "10",
+          "label": "10%",
+          "type": "text",
+          "hint": "350",
+          "placeholder": "350"
+        },
+        {
+          "id": "15",
+          "label": "15%",
+          "type": "text",
+          "hint": "220",
+          "placeholder": "220"
+        },
+        {
+          "id": "20",
+          "label": "20%",
+          "type": "text",
+          "hint": "160",
+          "placeholder": "160"
+        },
+        {
+          "id": "25",
+          "label": "25%",
+          "type": "text",
+          "hint": "120",
+          "placeholder": "120"
+        },
+        {
+          "id": "50",
+          "label": "50%",
+          "type": "text",
+          "hint": "40",
+          "placeholder": "40"
+        },
+        {
+          "id": "daily_traffic_volume",
+          "label": "Daily Traffic / Volume:",
+          "type": "text"
+        },
+        {
+          "id": "required_sample_per_variant",
+          "label": "Required Sample (per variant):",
+          "type": "text"
+        },
+        {
+          "id": "number_of_variants",
+          "label": "Number of Variants:",
+          "type": "text"
+        },
+        {
+          "id": "estimated_duration_days",
+          "label": "Estimated Duration (days):",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "id": "best_practices",
+      "name": "Best Practices",
+      "type": "table",
+      "columns": [
+        {
+          "id": "col_0",
+          "header": "#",
+          "type": "number"
+        },
+        {
+          "id": "channel",
+          "header": "Channel",
+          "type": "text"
+        },
+        {
+          "id": "test_idea",
+          "header": "Test Idea",
+          "type": "text"
+        },
+        {
+          "id": "why_it_works",
+          "header": "Why It Works",
+          "type": "text"
+        },
+        {
+          "id": "expected_impact",
+          "header": "Expected Impact",
+          "type": "text"
+        }
+      ]
+    }
+  ],
+  "defaultData": {
+    "test_backlog": [
+      {
+        "col_0": 1,
+        "test_idea": "Test short vs long email subject lines",
+        "hypothesis": "Shorter (<40 char) subject lines will increase open rates by 10%+",
+        "channel": "Email",
+        "impact_1_10": 8,
+        "confidence_1_10": 7,
+        "ease_1_10": 9,
+        "ice_score": 8,
+        "priority": "High",
+        "notes": "Start with weekly newsletter"
+      },
+      {
+        "col_0": 2,
+        "test_idea": "Swap hero image for video on LP",
+        "hypothesis": "Video above fold will increase time on page by 30% and conversion by 15%",
+        "channel": "Landing Page",
+        "impact_1_10": 9,
+        "confidence_1_10": 6,
+        "ease_1_10": 5,
+        "ice_score": 6.66666666666667,
+        "priority": "High",
+        "notes": "Need video production first"
+      },
+      {
+        "col_0": 3,
+        "test_idea": "Test CTA button colour (teal vs orange)",
+        "hypothesis": "Orange CTA will outperform teal by 5-10% due to higher contrast",
+        "channel": "Website",
+        "impact_1_10": 5,
+        "confidence_1_10": 8,
+        "ease_1_10": 10,
+        "ice_score": 7.66666666666667,
+        "priority": "High",
+        "notes": "Quick win; implement in 1 day"
+      },
+      {
+        "col_0": 4,
+        "test_idea": "Test single vs multi-step form",
+        "hypothesis": "Multi-step form will increase form completion by 20%",
+        "channel": "Landing Page",
+        "impact_1_10": 8,
+        "confidence_1_10": 7,
+        "ease_1_10": 4,
+        "ice_score": 6.33333333333333,
+        "priority": "Medium",
+        "notes": "Requires dev support"
+      },
+      {
+        "col_0": 5,
+        "test_idea": "Test social proof placement on pricing page",
+        "hypothesis": "Testimonials near pricing table will increase plan selection by 12%",
+        "channel": "Website",
+        "impact_1_10": 7,
+        "confidence_1_10": 6,
+        "ease_1_10": 7,
+        "ice_score": 6.66666666666667,
+        "priority": "Medium",
+        "notes": "Use NPS quotes"
+      },
+      {
+        "col_0": 6,
+        "test_idea": "Test LinkedIn carousel vs single image ads",
+        "hypothesis": "Carousels will drive 25% lower CPC for B2B audience",
+        "channel": "Paid Ads",
+        "impact_1_10": 7,
+        "confidence_1_10": 5,
+        "ease_1_10": 8,
+        "ice_score": 6.66666666666667,
+        "priority": "Medium",
+        "notes": "A/B in campaign manager"
+      },
+      {
+        "col_0": 7,
+        "test_idea": "Test personalised vs generic email CTA",
+        "hypothesis": "Personalised CTAs will increase click rate by 15%",
+        "channel": "Email",
+        "impact_1_10": 6,
+        "confidence_1_10": 7,
+        "ease_1_10": 6,
+        "ice_score": 6.33333333333333,
+        "priority": "Medium",
+        "notes": "Requires dynamic content"
+      },
+      {
+        "col_0": 8,
+        "test_idea": "Test urgency copy in paid ads",
+        "hypothesis": "Deadline-driven copy will increase CTR by 20%",
+        "channel": "Paid Ads",
+        "impact_1_10": 6,
+        "confidence_1_10": 6,
+        "ease_1_10": 9,
+        "ice_score": 7,
+        "priority": "Medium",
+        "notes": "Easy creative swap"
+      }
+    ],
+    "test_planner": [
+      {
+        "col_0": 1,
+        "test_name": "Email Subject Length",
+        "hypothesis": "Shorter subjects (<40 chars) increase open rate by 10%",
+        "channel": "Email",
+        "control_a": "Current long-form subject",
+        "variant_b": "Short punchy subject (max 40 chars)",
+        "primary_metric": "Open Rate",
+        "start_date": "2026-03-01",
+        "end_date": "2026-03-14",
+        "status": "Running",
+        "min_sample_size": 5000
+      },
+      {
+        "col_0": 2,
+        "test_name": "CTA Button Colour",
+        "hypothesis": "Orange CTA outperforms teal by 5-10%",
+        "channel": "Website",
+        "control_a": "Teal CTA button",
+        "variant_b": "Orange CTA button",
+        "primary_metric": "Click-through Rate",
+        "start_date": "2026-03-01",
+        "end_date": "2026-03-21",
+        "status": "Running",
+        "min_sample_size": 3000
+      },
+      {
+        "col_0": 3,
+        "test_name": "Hero Video vs Image",
+        "hypothesis": "Video increases time on page by 30%",
+        "channel": "Landing Page",
+        "control_a": "Static hero image",
+        "variant_b": "60s product demo video",
+        "primary_metric": "Time on Page + Conversion",
+        "start_date": "2026-04-01",
+        "end_date": "2026-04-30",
+        "status": "Planned",
+        "min_sample_size": 2000
+      }
+    ],
+    "results_tracker": [
+      {
+        "col_0": 1,
+        "test_name": "Email Subject Length",
+        "metric": "Open Rate",
+        "channel": "Email",
+        "control_result": 0.218,
+        "variant_result": 0.247,
+        "sample_size": 12500,
+        "lift": 0.13302752293578,
+        "outcome": "Winner Found",
+        "stat_significant": "Yes",
+        "key_learning": "Short subjects won: +13.3% open rate. Implement across all campaigns."
+      },
+      {
+        "col_0": 2,
+        "test_name": "Homepage CTA Colour",
+        "metric": "Click Rate",
+        "channel": "Website",
+        "control_result": 0.034,
+        "variant_result": 0.041,
+        "sample_size": 8200,
+        "lift": 0.205882352941176,
+        "outcome": "Winner Found",
+        "stat_significant": "Yes",
+        "key_learning": "Orange outperformed teal by 20.6%. Update design system."
+      },
+      {
+        "col_0": 3,
+        "test_name": "Social Proof on Pricing",
+        "metric": "Plan Selection",
+        "channel": "Website",
+        "control_result": 0.12,
+        "variant_result": 0.13,
+        "sample_size": 4500,
+        "lift": 0.0833333333333334,
+        "outcome": "Inconclusive",
+        "stat_significant": "No",
+        "key_learning": "+8.3% lift but not significant. Re-run with larger sample or different placement."
+      }
+    ],
+    "insights_library": [
+      {
+        "col_0": 1,
+        "channel": "Email",
+        "test_name": "Subject Line Length",
+        "what_we_tested": "Short (<40 char) vs long (60+ char) email subjects",
+        "what_we_learned": "Short subjects increase open rates by ~13%. Works consistently across audience segments.",
+        "action_taken": "Updated email guidelines: all subjects must be under 40 characters. Created subject line templates."
+      },
+      {
+        "col_0": 2,
+        "channel": "Website",
+        "test_name": "CTA Button Colour",
+        "what_we_tested": "Teal vs orange CTA button on homepage",
+        "what_we_learned": "Orange outperforms teal by ~21% for CTA clicks. Higher contrast against white backgrounds drives action.",
+        "action_taken": "Changed primary CTA colour to orange in design system. Teal reserved for secondary actions."
+      },
+      {
+        "col_0": 3,
+        "channel": "Website",
+        "test_name": "Social Proof Placement",
+        "what_we_tested": "Testimonials near pricing vs above fold",
+        "what_we_learned": "No significant difference at current sample size. Social proof may work better in different formats (video vs text).",
+        "action_taken": "Planned follow-up test: video testimonials vs text quotes near pricing."
+      },
+      {
+        "col_0": 4,
+        "channel": "Landing Page",
+        "test_name": "Form Length",
+        "what_we_tested": "Single long form vs 3-step wizard",
+        "what_we_learned": "Multi-step forms increased completion by 22% for lead gen pages. Users feel less overwhelmed.",
+        "action_taken": "Standardised multi-step forms for all high-friction conversion points."
+      },
+      {
+        "col_0": 5,
+        "channel": "Paid Ads",
+        "test_name": "Ad Format",
+        "what_we_tested": "Carousel vs single image on LinkedIn",
+        "what_we_learned": "Carousels drove 28% lower CPC and 15% higher engagement for B2B content.",
+        "action_taken": "Shifted 60% of LinkedIn ad budget to carousel format. Single images reserved for event promotion."
+      }
+    ],
+    "testing_calendar": [
+      {
+        "col_0": 1,
+        "test_name": "Email Subject Length",
+        "channel": "Email",
+        "start": "2026-03-01",
+        "end": "2026-03-14",
+        "duration_days": 13,
+        "status": "Completed",
+        "conflicts": "None"
+      },
+      {
+        "col_0": 2,
+        "test_name": "CTA Button Colour",
+        "channel": "Website",
+        "start": "2026-03-01",
+        "end": "2026-03-21",
+        "duration_days": 20,
+        "status": "Running",
+        "conflicts": "None - different page element"
+      },
+      {
+        "col_0": 3,
+        "test_name": "Hero Video vs Image",
+        "channel": "Landing Page",
+        "start": "2026-04-01",
+        "end": "2026-04-30",
+        "duration_days": 29,
+        "status": "Planned",
+        "conflicts": "None"
+      },
+      {
+        "col_0": 4,
+        "test_name": "Multi-step Form",
+        "channel": "Landing Page",
+        "start": "2026-05-01",
+        "end": "2026-05-31",
+        "duration_days": 30,
+        "status": "Planned",
+        "conflicts": "Wait for #3 to complete"
+      },
+      {
+        "col_0": 5,
+        "test_name": "LinkedIn Ad Format",
+        "channel": "Paid Ads",
+        "start": "2026-03-15",
+        "end": "2026-04-15",
+        "duration_days": 31,
+        "status": "Running",
+        "conflicts": "None"
+      }
+    ],
+    "best_practices": [
+      {
+        "col_0": 1,
+        "channel": "Email",
+        "test_idea": "Subject line: question vs statement",
+        "why_it_works": "Questions create curiosity and increase open rates",
+        "expected_impact": "5-15% open rate lift"
+      },
+      {
+        "col_0": 2,
+        "channel": "Email",
+        "test_idea": "Sender name: person vs brand",
+        "why_it_works": "Personal names feel more authentic and trustworthy",
+        "expected_impact": "10-20% open rate lift"
+      },
+      {
+        "col_0": 3,
+        "channel": "Email",
+        "test_idea": "CTA button vs text link",
+        "why_it_works": "Buttons are more visually prominent and easier to click",
+        "expected_impact": "15-30% CTR lift"
+      },
+      {
+        "col_0": 4,
+        "channel": "Email",
+        "test_idea": "Send time: morning vs afternoon",
+        "why_it_works": "Audience behaviour varies; test to find your sweet spot",
+        "expected_impact": "5-10% open rate lift"
+      },
+      {
+        "col_0": 5,
+        "channel": "Email",
+        "test_idea": "Plain text vs HTML design",
+        "why_it_works": "Plain text can feel more personal for B2B audiences",
+        "expected_impact": "Varies by audience"
+      },
+      {
+        "col_0": 6,
+        "channel": "Email",
+        "test_idea": "Short vs long email copy",
+        "why_it_works": "Depends on offer complexity; test for your use case",
+        "expected_impact": "10-25% conversion lift"
+      },
+      {
+        "col_0": 7,
+        "channel": "Email",
+        "test_idea": "Emoji in subject line",
+        "why_it_works": "Can increase open rates but may reduce perceived professionalism",
+        "expected_impact": "5-15% open rate change"
+      },
+      {
+        "col_0": 8,
+        "channel": "Landing Page",
+        "test_idea": "Headline: benefit vs feature-focused",
+        "why_it_works": "Benefits resonate more emotionally with most audiences",
+        "expected_impact": "10-20% conversion lift"
+      },
+      {
+        "col_0": 9,
+        "channel": "Landing Page",
+        "test_idea": "Hero image vs video",
+        "why_it_works": "Video can increase engagement but may slow page load",
+        "expected_impact": "15-30% time on page"
+      },
+      {
+        "col_0": 10,
+        "channel": "Landing Page",
+        "test_idea": "Long vs short form",
+        "why_it_works": "Long forms filter quality; short forms increase volume",
+        "expected_impact": "20-40% completion change"
+      },
+      {
+        "col_0": 11,
+        "channel": "Landing Page",
+        "test_idea": "Social proof placement",
+        "why_it_works": "Near CTA vs above fold — test which drives more action",
+        "expected_impact": "5-15% conversion lift"
+      },
+      {
+        "col_0": 12,
+        "channel": "Landing Page",
+        "test_idea": "Number of form fields",
+        "why_it_works": "Every field removed can increase conversion rates",
+        "expected_impact": "5-10% per field removed"
+      },
+      {
+        "col_0": 13,
+        "channel": "Landing Page",
+        "test_idea": "Trust badges and security icons",
+        "why_it_works": "Reduces friction especially for payment or data entry",
+        "expected_impact": "3-8% conversion lift"
+      },
+      {
+        "col_0": 14,
+        "channel": "Landing Page",
+        "test_idea": "Single CTA vs multiple",
+        "why_it_works": "Focused pages with one CTA often outperform cluttered ones",
+        "expected_impact": "10-25% conversion lift"
+      },
+      {
+        "col_0": 15,
+        "channel": "Paid Ads",
+        "test_idea": "Image vs carousel vs video",
+        "why_it_works": "Format performance varies by platform and objective",
+        "expected_impact": "15-40% CTR change"
+      },
+      {
+        "col_0": 16,
+        "channel": "Paid Ads",
+        "test_idea": "Headline: specific number vs general claim",
+        "why_it_works": "Specificity builds credibility and increases clicks",
+        "expected_impact": "10-20% CTR lift"
+      },
+      {
+        "col_0": 17,
+        "channel": "Paid Ads",
+        "test_idea": "Lookalike vs interest targeting",
+        "why_it_works": "Lookalikes often outperform for conversion campaigns",
+        "expected_impact": "20-50% CPA improvement"
+      },
+      {
+        "col_0": 18,
+        "channel": "Paid Ads",
+        "test_idea": "Dynamic vs static creative",
+        "why_it_works": "Dynamic creative adapts to audience segments automatically",
+        "expected_impact": "10-30% conversion lift"
+      },
+      {
+        "col_0": 19,
+        "channel": "Paid Ads",
+        "test_idea": "Landing page match vs homepage",
+        "why_it_works": "Matching ad to LP message increases conversion",
+        "expected_impact": "15-35% conversion lift"
+      },
+      {
+        "col_0": 20,
+        "channel": "Paid Ads",
+        "test_idea": "Copy length: short vs long",
+        "why_it_works": "Depends on awareness stage; test for each campaign type",
+        "expected_impact": "10-25% engagement change"
+      },
+      {
+        "col_0": 21,
+        "channel": "Website",
+        "test_idea": "Navigation: sticky vs static header",
+        "why_it_works": "Sticky nav improves access to key pages",
+        "expected_impact": "5-10% pages per session"
+      },
+      {
+        "col_0": 22,
+        "channel": "Website",
+        "test_idea": "Exit intent popup: yes vs no",
+        "why_it_works": "Can capture 5-15% of leaving visitors",
+        "expected_impact": "5-15% lead capture lift"
+      },
+      {
+        "col_0": 23,
+        "channel": "Website",
+        "test_idea": "Chatbot vs no chatbot",
+        "why_it_works": "Can improve support but may distract from conversion",
+        "expected_impact": "Varies significantly"
+      },
+      {
+        "col_0": 24,
+        "channel": "Website",
+        "test_idea": "Page speed optimisation",
+        "why_it_works": "Faster pages always convert better",
+        "expected_impact": "7% per second of improvement"
+      },
+      {
+        "col_0": 25,
+        "channel": "Website",
+        "test_idea": "Mobile layout variations",
+        "why_it_works": "Test thumb-friendly zones and mobile-specific CTAs",
+        "expected_impact": "10-30% mobile conversion"
+      },
+      {
+        "col_0": 26,
+        "channel": "CTA",
+        "test_idea": "Button text: action vs benefit",
+        "why_it_works": "'Get My Free Guide' often beats 'Download Now'",
+        "expected_impact": "10-20% click lift"
+      },
+      {
+        "col_0": 27,
+        "channel": "CTA",
+        "test_idea": "Button colour: high contrast vs brand colour",
+        "why_it_works": "High contrast buttons draw the eye more effectively",
+        "expected_impact": "5-15% click lift"
+      },
+      {
+        "col_0": 28,
+        "channel": "CTA",
+        "test_idea": "Button size: large vs standard",
+        "why_it_works": "Larger buttons are easier to click, especially on mobile",
+        "expected_impact": "3-8% click lift"
+      },
+      {
+        "col_0": 29,
+        "channel": "CTA",
+        "test_idea": "Urgency language: with vs without",
+        "why_it_works": "'Limited time' and countdown timers create FOMO",
+        "expected_impact": "10-25% conversion lift"
+      },
+      {
+        "col_0": 30,
+        "channel": "CTA",
+        "test_idea": "First person vs second person",
+        "why_it_works": "'Start My Trial' can outperform 'Start Your Trial'",
+        "expected_impact": "5-15% click lift"
+      },
+      {
+        "col_0": 31,
+        "channel": "Social Media",
+        "test_idea": "Post time: peak vs off-peak",
+        "why_it_works": "Off-peak may have less competition for attention",
+        "expected_impact": "Varies by platform"
+      },
+      {
+        "col_0": 32,
+        "channel": "Social Media",
+        "test_idea": "Hashtag count: few vs many",
+        "why_it_works": "Platform-specific; test to find diminishing returns",
+        "expected_impact": "5-20% reach change"
+      },
+      {
+        "col_0": 33,
+        "channel": "Social Media",
+        "test_idea": "User-generated vs branded content",
+        "why_it_works": "UGC often feels more authentic and drives engagement",
+        "expected_impact": "20-50% engagement lift"
+      },
+      {
+        "col_0": 34,
+        "channel": "Social Media",
+        "test_idea": "Poll/question vs statement post",
+        "why_it_works": "Interactive posts drive higher algorithmic distribution",
+        "expected_impact": "15-40% engagement lift"
+      },
+      {
+        "col_0": 35,
+        "channel": "Social Media",
+        "test_idea": "Video length: short vs long",
+        "why_it_works": "Attention spans vary by platform and audience",
+        "expected_impact": "10-30% completion change"
+      },
+      {
+        "col_0": 36,
+        "channel": "Pricing",
+        "test_idea": "Annual vs monthly default",
+        "why_it_works": "Pre-selecting annual can increase LTV",
+        "expected_impact": "10-25% annual plan uptake"
+      },
+      {
+        "col_0": 37,
+        "channel": "Pricing",
+        "test_idea": "3 tiers vs 2 tiers",
+        "why_it_works": "The decoy effect of a middle tier influences choice",
+        "expected_impact": "5-15% premium plan lift"
+      },
+      {
+        "col_0": 38,
+        "channel": "Pricing",
+        "test_idea": "Free trial length: 7 vs 14 vs 30 days",
+        "why_it_works": "Longer trials may increase conversion but slow revenue",
+        "expected_impact": "Varies significantly"
+      },
+      {
+        "col_0": 39,
+        "channel": "Pricing",
+        "test_idea": "Show price per day vs per month",
+        "why_it_works": "Smaller numbers feel more affordable",
+        "expected_impact": "5-10% conversion lift"
+      },
+      {
+        "col_0": 40,
+        "channel": "Onboarding",
+        "test_idea": "Guided tour vs self-serve",
+        "why_it_works": "Tours can improve activation but may feel restrictive",
+        "expected_impact": "15-30% activation lift"
+      },
+      {
+        "col_0": 41,
+        "channel": "Onboarding",
+        "test_idea": "Email drip: daily vs every 3 days",
+        "why_it_works": "Depends on product complexity and user patience",
+        "expected_impact": "10-20% engagement change"
+      },
+      {
+        "col_0": 42,
+        "channel": "Onboarding",
+        "test_idea": "Personalised vs generic welcome",
+        "why_it_works": "Personalisation makes users feel valued and understood",
+        "expected_impact": "10-25% activation lift"
+      },
+      {
+        "col_0": 43,
+        "channel": "Onboarding",
+        "test_idea": "Checklist vs no checklist",
+        "why_it_works": "Progress indicators motivate completion behaviour",
+        "expected_impact": "20-40% feature adoption"
+      },
+      {
+        "col_0": 44,
+        "channel": "Onboarding",
+        "test_idea": "Video walkthrough vs text guide",
+        "why_it_works": "Video is more engaging but requires more production effort",
+        "expected_impact": "15-25% completion lift"
+      }
+    ]
+  }
+}

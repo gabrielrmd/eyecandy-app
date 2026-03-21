@@ -1,0 +1,497 @@
+{
+  "id": "social_media_strategy",
+  "name": "Social Media Strategy",
+  "category": "channels",
+  "sheets": [
+    {
+      "id": "dashboard",
+      "name": "Dashboard",
+      "type": "summary"
+    },
+    {
+      "id": "strategy",
+      "name": "Strategy",
+      "type": "form",
+      "fields": [
+        {
+          "id": "primary_social_media_goal",
+          "label": "Primary Social Media Goal",
+          "type": "text",
+          "hint": "Brand awareness, lead generation, community, sales, support?",
+          "placeholder": "Brand awareness, lead generation, community, sales, support?"
+        },
+        {
+          "id": "secondary_goal",
+          "label": "Secondary Goal",
+          "type": "text",
+          "hint": "What else should social contribute to?",
+          "placeholder": "What else should social contribute to?"
+        },
+        {
+          "id": "key_metric_for_success",
+          "label": "Key Metric for Success",
+          "type": "text",
+          "hint": "The ONE number that tells you if social is working",
+          "placeholder": "The ONE number that tells you if social is working"
+        },
+        {
+          "id": "quarterly_target",
+          "label": "Quarterly Target",
+          "type": "text",
+          "hint": "Specific, measurable target for this quarter",
+          "placeholder": "Specific, measurable target for this quarter"
+        },
+        {
+          "id": "annual_vision",
+          "label": "Annual Vision",
+          "type": "text",
+          "hint": "Where should your social presence be in 12 months?",
+          "placeholder": "Where should your social presence be in 12 months?"
+        },
+        {
+          "id": "primary_audience",
+          "label": "Primary Audience",
+          "type": "text",
+          "hint": "Who are you trying to reach on social?",
+          "placeholder": "Who are you trying to reach on social?"
+        },
+        {
+          "id": "where_they_hang_out",
+          "label": "Where They Hang Out",
+          "type": "text",
+          "hint": "Which platforms, groups, hashtags?",
+          "placeholder": "Which platforms, groups, hashtags?"
+        },
+        {
+          "id": "what_they_engage_with",
+          "label": "What They Engage With",
+          "type": "text",
+          "hint": "What content format gets them to stop scrolling?",
+          "placeholder": "What content format gets them to stop scrolling?"
+        },
+        {
+          "id": "when_they_are_online",
+          "label": "When They Are Online",
+          "type": "text",
+          "hint": "Peak hours and days for your audience",
+          "placeholder": "Peak hours and days for your audience"
+        },
+        {
+          "id": "their_social_behavior",
+          "label": "Their Social Behavior",
+          "type": "text",
+          "hint": "Lurker, commenter, sharer, creator?",
+          "placeholder": "Lurker, commenter, sharer, creator?"
+        },
+        {
+          "id": "influencers_they_follow",
+          "label": "Influencers They Follow",
+          "type": "text",
+          "hint": "Accounts and voices they trust",
+          "placeholder": "Accounts and voices they trust"
+        },
+        {
+          "id": "social_voice_3_words",
+          "label": "Social Voice (3 words)",
+          "type": "text",
+          "hint": "How should your brand sound on social? e.g. Bold, Helpful, Real",
+          "placeholder": "How should your brand sound on social? e.g. Bold, Helpful, Real"
+        },
+        {
+          "id": "tone_adjustments_by_platform",
+          "label": "Tone Adjustments by Platform",
+          "type": "text",
+          "hint": "Same voice, different tone — LinkedIn vs. Instagram vs. TikTok",
+          "placeholder": "Same voice, different tone — LinkedIn vs. Instagram vs. TikTok"
+        },
+        {
+          "id": "hashtag_strategy",
+          "label": "Hashtag Strategy",
+          "type": "text",
+          "hint": "Branded hashtags, industry hashtags, campaign hashtags",
+          "placeholder": "Branded hashtags, industry hashtags, campaign hashtags"
+        },
+        {
+          "id": "community_guidelines",
+          "label": "Community Guidelines",
+          "type": "text",
+          "hint": "How do you respond to comments, DMs, negative feedback?",
+          "placeholder": "How do you respond to comments, DMs, negative feedback?"
+        },
+        {
+          "id": "visual_style",
+          "label": "Visual Style",
+          "type": "text",
+          "hint": "Color palette, photo style, graphic templates, video look",
+          "placeholder": "Color palette, photo style, graphic templates, video look"
+        },
+        {
+          "id": "content_pillars_3_5_recurring_themes",
+          "label": "CONTENT PILLARS (3-5 recurring themes)",
+          "type": "text"
+        },
+        {
+          "id": "pillar_1_name",
+          "label": "Pillar 1 Name",
+          "type": "text"
+        },
+        {
+          "id": "pillar_1_description",
+          "label": "Pillar 1 Description",
+          "type": "textarea"
+        },
+        {
+          "id": "pillar_2_name",
+          "label": "Pillar 2 Name",
+          "type": "text"
+        },
+        {
+          "id": "pillar_2_description",
+          "label": "Pillar 2 Description",
+          "type": "textarea"
+        },
+        {
+          "id": "pillar_3_name",
+          "label": "Pillar 3 Name",
+          "type": "text"
+        },
+        {
+          "id": "pillar_3_description",
+          "label": "Pillar 3 Description",
+          "type": "textarea"
+        },
+        {
+          "id": "pillar_4_name",
+          "label": "Pillar 4 Name",
+          "type": "text"
+        },
+        {
+          "id": "pillar_4_description",
+          "label": "Pillar 4 Description",
+          "type": "textarea"
+        },
+        {
+          "id": "pillar_5_name",
+          "label": "Pillar 5 Name",
+          "type": "text"
+        },
+        {
+          "id": "pillar_5_description",
+          "label": "Pillar 5 Description",
+          "type": "textarea"
+        }
+      ],
+      "sections": [
+        {
+          "id": "goals_objectives",
+          "title": "Goals & Objectives",
+          "fieldIds": [
+            "primary_social_media_goal",
+            "secondary_goal",
+            "key_metric_for_success",
+            "quarterly_target",
+            "annual_vision"
+          ],
+          "collapsible": true
+        },
+        {
+          "id": "target_audience_on_social",
+          "title": "Target Audience On Social",
+          "fieldIds": [
+            "primary_audience",
+            "where_they_hang_out",
+            "what_they_engage_with",
+            "when_they_are_online",
+            "their_social_behavior",
+            "influencers_they_follow"
+          ],
+          "collapsible": true
+        },
+        {
+          "id": "brand_voice_on_social",
+          "title": "Brand Voice On Social",
+          "fieldIds": [
+            "social_voice_3_words",
+            "tone_adjustments_by_platform",
+            "hashtag_strategy",
+            "community_guidelines",
+            "visual_style",
+            "content_pillars_3_5_recurring_themes",
+            "pillar_1_name",
+            "pillar_1_description",
+            "pillar_2_name",
+            "pillar_2_description",
+            "pillar_3_name",
+            "pillar_3_description",
+            "pillar_4_name",
+            "pillar_4_description",
+            "pillar_5_name",
+            "pillar_5_description"
+          ],
+          "collapsible": true
+        }
+      ]
+    },
+    {
+      "id": "platform_audit",
+      "name": "Platform Audit",
+      "type": "table",
+      "columns": [
+        {
+          "id": "platform",
+          "header": "Platform",
+          "type": "text"
+        },
+        {
+          "id": "audience_fit_1_5",
+          "header": "Audience Fit\n(1-5)",
+          "type": "text"
+        },
+        {
+          "id": "content_fit_1_5",
+          "header": "Content Fit\n(1-5)",
+          "type": "textarea",
+          "width": "250px"
+        },
+        {
+          "id": "resource_req_1_5",
+          "header": "Resource Req.\n(1-5)",
+          "type": "text"
+        },
+        {
+          "id": "competitor_presence_1_5",
+          "header": "Competitor\nPresence (1-5)",
+          "type": "text"
+        },
+        {
+          "id": "growth_potential_1_5",
+          "header": "Growth\nPotential (1-5)",
+          "type": "text"
+        },
+        {
+          "id": "current_followers",
+          "header": "Current\nFollowers",
+          "type": "number"
+        },
+        {
+          "id": "total_score",
+          "header": "Total Score",
+          "type": "score",
+          "min": 1,
+          "max": 5,
+          "colorScale": {
+            "ranges": [
+              {
+                "min": 1,
+                "max": 2,
+                "color": "#ef4444"
+              },
+              {
+                "min": 3,
+                "max": 3,
+                "color": "#eab308"
+              },
+              {
+                "min": 4,
+                "max": 5,
+                "color": "#22c55e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "priority",
+          "header": "Priority",
+          "type": "dropdown",
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "content_mix",
+      "name": "Content Mix",
+      "type": "table",
+      "columns": [
+        {
+          "id": "platform",
+          "header": "Platform",
+          "type": "text"
+        },
+        {
+          "id": "content_types",
+          "header": "Content Types",
+          "type": "textarea",
+          "width": "250px"
+        },
+        {
+          "id": "posts_week",
+          "header": "Posts / Week",
+          "type": "text"
+        },
+        {
+          "id": "best_days",
+          "header": "Best Days",
+          "type": "text"
+        },
+        {
+          "id": "best_times",
+          "header": "Best Times",
+          "type": "text"
+        },
+        {
+          "id": "primary_pillar",
+          "header": "Primary Pillar",
+          "type": "text"
+        },
+        {
+          "id": "content_ratio",
+          "header": "Content Ratio",
+          "type": "textarea",
+          "width": "250px"
+        },
+        {
+          "id": "notes",
+          "header": "Notes",
+          "type": "textarea",
+          "width": "250px"
+        }
+      ]
+    },
+    {
+      "id": "performance_tracker",
+      "name": "Performance Tracker",
+      "type": "table",
+      "columns": [
+        {
+          "id": "date",
+          "header": "Date",
+          "type": "date"
+        },
+        {
+          "id": "platform",
+          "header": "Platform",
+          "type": "text"
+        },
+        {
+          "id": "content_type",
+          "header": "Content Type",
+          "type": "textarea",
+          "width": "250px"
+        },
+        {
+          "id": "reach",
+          "header": "Reach",
+          "type": "text"
+        },
+        {
+          "id": "engagement",
+          "header": "Engagement",
+          "type": "text"
+        },
+        {
+          "id": "eng_rate",
+          "header": "Eng. Rate",
+          "type": "percentage"
+        },
+        {
+          "id": "new_followers",
+          "header": "New Followers",
+          "type": "number"
+        },
+        {
+          "id": "link_clicks",
+          "header": "Link Clicks",
+          "type": "url"
+        },
+        {
+          "id": "post_topic_description",
+          "header": "Post Topic / Description",
+          "type": "textarea",
+          "width": "250px"
+        },
+        {
+          "id": "top_performer",
+          "header": "Top Performer?",
+          "type": "text"
+        }
+      ]
+    }
+  ],
+  "defaultData": {
+    "platform_audit": [
+      {
+        "platform": "Instagram"
+      },
+      {
+        "platform": "LinkedIn"
+      },
+      {
+        "platform": "Facebook"
+      },
+      {
+        "platform": "TikTok"
+      },
+      {
+        "platform": "X (Twitter)"
+      },
+      {
+        "platform": "YouTube"
+      },
+      {
+        "platform": "Pinterest"
+      },
+      {
+        "platform": "Other"
+      }
+    ],
+    "content_mix": [
+      {
+        "platform": "Instagram"
+      },
+      {
+        "platform": "LinkedIn"
+      },
+      {
+        "platform": "Facebook"
+      },
+      {
+        "platform": "TikTok"
+      },
+      {
+        "platform": "X (Twitter)"
+      },
+      {
+        "platform": "YouTube"
+      },
+      {
+        "platform": "Pinterest"
+      },
+      {
+        "platform": "Other"
+      },
+      {
+        "platform": "CONTENT RATIO GUIDE"
+      },
+      {
+        "platform": "The 80/20 Rule",
+        "posts_week": "80% value-driven content (educate, entertain, inspire) / 20% promotional"
+      },
+      {
+        "platform": "The 4-1-1 Rule",
+        "posts_week": "4 pieces of curated content, 1 original, 1 promotional"
+      },
+      {
+        "platform": "The Rule of Thirds",
+        "posts_week": "1/3 brand content, 1/3 industry content, 1/3 personal/community content"
+      },
+      {
+        "platform": "The 70/20/10 Rule",
+        "posts_week": "70% proven content types, 20% experiments, 10% bold/risky ideas"
+      }
+    ]
+  }
+}

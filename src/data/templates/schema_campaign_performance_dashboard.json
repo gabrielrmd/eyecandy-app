@@ -1,0 +1,193 @@
+{
+  "id": "campaign_performance_dashboard",
+  "name": "Campaign Performance Dashboard",
+  "category": "analytics",
+  "sheets": [
+    {
+      "id": "dashboard",
+      "name": "Dashboard",
+      "type": "summary"
+    },
+    {
+      "id": "campaign_log",
+      "name": "Campaign Log",
+      "type": "table",
+      "columns": [
+        {
+          "id": "campaign_details",
+          "header": "CAMPAIGN DETAILS",
+          "type": "textarea",
+          "width": "250px"
+        },
+        {
+          "id": "budget_results",
+          "header": "BUDGET & RESULTS",
+          "type": "currency"
+        },
+        {
+          "id": "performance",
+          "header": "PERFORMANCE",
+          "type": "number"
+        }
+      ]
+    },
+    {
+      "id": "monthly_tracker",
+      "name": "Monthly Tracker",
+      "type": "table",
+      "columns": [
+        {
+          "id": "metric",
+          "header": "Metric",
+          "type": "text"
+        },
+        {
+          "id": "jan",
+          "header": "Jan",
+          "type": "text"
+        },
+        {
+          "id": "feb",
+          "header": "Feb",
+          "type": "text"
+        },
+        {
+          "id": "mar",
+          "header": "Mar",
+          "type": "text"
+        },
+        {
+          "id": "apr",
+          "header": "Apr",
+          "type": "text"
+        },
+        {
+          "id": "may",
+          "header": "May",
+          "type": "text"
+        },
+        {
+          "id": "jun",
+          "header": "Jun",
+          "type": "text"
+        },
+        {
+          "id": "jul",
+          "header": "Jul",
+          "type": "text"
+        },
+        {
+          "id": "aug",
+          "header": "Aug",
+          "type": "text"
+        },
+        {
+          "id": "sep",
+          "header": "Sep",
+          "type": "text"
+        },
+        {
+          "id": "oct",
+          "header": "Oct",
+          "type": "text"
+        },
+        {
+          "id": "nov",
+          "header": "Nov",
+          "type": "text"
+        },
+        {
+          "id": "dec",
+          "header": "Dec",
+          "type": "text"
+        },
+        {
+          "id": "ytd",
+          "header": "YTD",
+          "type": "number"
+        }
+      ]
+    }
+  ],
+  "defaultData": {
+    "campaign_log": [
+      {
+        "campaign_details": "Campaign Name",
+        "budget_results": "Target KPI",
+        "performance": "Rating"
+      },
+      {
+        "performance": "1-5"
+      },
+      {
+        "campaign_details": "Spring Template Launch",
+        "budget_results": "500 downloads",
+        "performance": 4
+      },
+      {
+        "campaign_details": "SEO Content Push",
+        "budget_results": "Top 10 rankings",
+        "performance": 3
+      },
+      {
+        "campaign_details": "Email Nurture Series",
+        "budget_results": "15% conversion",
+        "performance": 5
+      },
+      {
+        "campaign_details": "Webinar: Budget Mastery",
+        "budget_results": "50 attendees"
+      }
+    ],
+    "monthly_tracker": [
+      {
+        "metric": "Spend"
+      },
+      {
+        "metric": "Impressions"
+      },
+      {
+        "metric": "Clicks"
+      },
+      {
+        "metric": "Leads"
+      },
+      {
+        "metric": "Conversions"
+      },
+      {
+        "metric": "Revenue"
+      },
+      {
+        "metric": "CTR"
+      },
+      {
+        "metric": "CPC"
+      },
+      {
+        "metric": "CPL"
+      },
+      {
+        "metric": "ROI"
+      },
+      {
+        "metric": "Active Campaigns"
+      },
+      {
+        "metric": "New Campaigns"
+      },
+      {
+        "metric": "MONTH-OVER-MONTH TRENDS"
+      },
+      {
+        "metric": "Spend MoM %"
+      },
+      {
+        "metric": "Leads MoM %"
+      },
+      {
+        "metric": "Revenue MoM %"
+      }
+    ]
+  }
+}

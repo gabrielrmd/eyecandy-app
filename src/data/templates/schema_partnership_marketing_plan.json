@@ -1,0 +1,611 @@
+{
+  "id": "partnership_marketing_plan",
+  "name": "Partnership Marketing Plan",
+  "category": "growth",
+  "sheets": [
+    {
+      "id": "dashboard",
+      "name": "Dashboard",
+      "type": "summary"
+    },
+    {
+      "id": "partner_database",
+      "name": "Partner Database",
+      "type": "table",
+      "columns": [
+        {
+          "id": "partner_id",
+          "header": "Partner ID",
+          "type": "text"
+        },
+        {
+          "id": "name",
+          "header": "Name",
+          "type": "text"
+        },
+        {
+          "id": "type",
+          "header": "Type",
+          "type": "text"
+        },
+        {
+          "id": "contact",
+          "header": "Contact",
+          "type": "text"
+        },
+        {
+          "id": "industry",
+          "header": "Industry",
+          "type": "text"
+        },
+        {
+          "id": "size",
+          "header": "Size",
+          "type": "text"
+        },
+        {
+          "id": "status",
+          "header": "Status",
+          "type": "dropdown",
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done",
+            "On Hold",
+            "Cancelled"
+          ]
+        },
+        {
+          "id": "tier",
+          "header": "Tier",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "id": "partnership_scorecard",
+      "name": "Partnership Scorecard",
+      "type": "table",
+      "columns": [
+        {
+          "id": "partner_name",
+          "header": "Partner Name",
+          "type": "text"
+        },
+        {
+          "id": "revenue_generated",
+          "header": "Revenue Generated",
+          "type": "currency"
+        },
+        {
+          "id": "leads_generated",
+          "header": "Leads Generated",
+          "type": "percentage"
+        },
+        {
+          "id": "content_pieces",
+          "header": "Content Pieces",
+          "type": "textarea",
+          "width": "250px"
+        },
+        {
+          "id": "joint_events",
+          "header": "Joint Events",
+          "type": "text"
+        },
+        {
+          "id": "engagement_score",
+          "header": "Engagement Score",
+          "type": "score",
+          "min": 1,
+          "max": 5,
+          "colorScale": {
+            "ranges": [
+              {
+                "min": 1,
+                "max": 2,
+                "color": "#ef4444"
+              },
+              {
+                "min": 3,
+                "max": 3,
+                "color": "#eab308"
+              },
+              {
+                "min": 4,
+                "max": 5,
+                "color": "#22c55e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "roi",
+          "header": "ROI",
+          "type": "percentage"
+        },
+        {
+          "id": "rating",
+          "header": "Rating",
+          "type": "score",
+          "min": 1,
+          "max": 5,
+          "colorScale": {
+            "ranges": [
+              {
+                "min": 1,
+                "max": 2,
+                "color": "#ef4444"
+              },
+              {
+                "min": 3,
+                "max": 3,
+                "color": "#eab308"
+              },
+              {
+                "min": 4,
+                "max": 5,
+                "color": "#22c55e"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "campaign_tracker",
+      "name": "Campaign Tracker",
+      "type": "table",
+      "columns": [
+        {
+          "id": "campaign",
+          "header": "Campaign",
+          "type": "text"
+        },
+        {
+          "id": "partner",
+          "header": "Partner",
+          "type": "text"
+        },
+        {
+          "id": "type",
+          "header": "Type",
+          "type": "text"
+        },
+        {
+          "id": "start_date",
+          "header": "Start Date",
+          "type": "date"
+        },
+        {
+          "id": "end_date",
+          "header": "End Date",
+          "type": "date"
+        },
+        {
+          "id": "budget",
+          "header": "Budget",
+          "type": "currency"
+        },
+        {
+          "id": "actual_spend",
+          "header": "Actual Spend",
+          "type": "date"
+        },
+        {
+          "id": "leads",
+          "header": "Leads",
+          "type": "number"
+        },
+        {
+          "id": "revenue",
+          "header": "Revenue",
+          "type": "currency"
+        },
+        {
+          "id": "roi",
+          "header": "ROI",
+          "type": "percentage"
+        },
+        {
+          "id": "status",
+          "header": "Status",
+          "type": "dropdown",
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done",
+            "On Hold",
+            "Cancelled"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "revenue_sharing",
+      "name": "Revenue Sharing",
+      "type": "table",
+      "columns": [
+        {
+          "id": "partner",
+          "header": "Partner",
+          "type": "text"
+        },
+        {
+          "id": "deal",
+          "header": "Deal",
+          "type": "text"
+        },
+        {
+          "id": "revenue",
+          "header": "Revenue",
+          "type": "currency"
+        },
+        {
+          "id": "partner_share",
+          "header": "Partner Share %",
+          "type": "percentage"
+        },
+        {
+          "id": "partner_amount",
+          "header": "Partner Amount",
+          "type": "currency"
+        },
+        {
+          "id": "our_amount",
+          "header": "Our Amount",
+          "type": "currency"
+        },
+        {
+          "id": "payment_status",
+          "header": "Payment Status",
+          "type": "dropdown",
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done",
+            "On Hold",
+            "Cancelled"
+          ]
+        },
+        {
+          "id": "due_date",
+          "header": "Due Date",
+          "type": "date"
+        }
+      ]
+    },
+    {
+      "id": "joint_content_plan",
+      "name": "Joint Content Plan",
+      "type": "table",
+      "columns": [
+        {
+          "id": "content_title",
+          "header": "Content Title",
+          "type": "textarea",
+          "width": "250px"
+        },
+        {
+          "id": "partner",
+          "header": "Partner",
+          "type": "text"
+        },
+        {
+          "id": "type",
+          "header": "Type",
+          "type": "text"
+        },
+        {
+          "id": "owner",
+          "header": "Owner",
+          "type": "text"
+        },
+        {
+          "id": "draft_due",
+          "header": "Draft Due",
+          "type": "date"
+        },
+        {
+          "id": "publish_date",
+          "header": "Publish Date",
+          "type": "date"
+        },
+        {
+          "id": "platform",
+          "header": "Platform",
+          "type": "text"
+        },
+        {
+          "id": "status",
+          "header": "Status",
+          "type": "dropdown",
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done",
+            "On Hold",
+            "Cancelled"
+          ]
+        },
+        {
+          "id": "performance",
+          "header": "Performance",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "id": "partnership_pipeline",
+      "name": "Partnership Pipeline",
+      "type": "table",
+      "columns": [
+        {
+          "id": "prospect",
+          "header": "Prospect",
+          "type": "text"
+        },
+        {
+          "id": "type",
+          "header": "Type",
+          "type": "text"
+        },
+        {
+          "id": "stage",
+          "header": "Stage",
+          "type": "dropdown",
+          "options": [
+            "Planning",
+            "In Progress",
+            "Review",
+            "Complete"
+          ]
+        },
+        {
+          "id": "expected_value",
+          "header": "Expected Value",
+          "type": "text"
+        },
+        {
+          "id": "probability",
+          "header": "Probability",
+          "type": "text"
+        },
+        {
+          "id": "weighted_value",
+          "header": "Weighted Value",
+          "type": "number"
+        },
+        {
+          "id": "contact",
+          "header": "Contact",
+          "type": "text"
+        },
+        {
+          "id": "next_step",
+          "header": "Next Step",
+          "type": "text"
+        },
+        {
+          "id": "notes",
+          "header": "Notes",
+          "type": "textarea",
+          "width": "250px"
+        }
+      ]
+    },
+    {
+      "id": "agreement_tracker",
+      "name": "Agreement Tracker",
+      "type": "table",
+      "columns": [
+        {
+          "id": "partner",
+          "header": "Partner",
+          "type": "text"
+        },
+        {
+          "id": "agreement_type",
+          "header": "Agreement Type",
+          "type": "text"
+        },
+        {
+          "id": "start_date",
+          "header": "Start Date",
+          "type": "date"
+        },
+        {
+          "id": "end_date",
+          "header": "End Date",
+          "type": "date"
+        },
+        {
+          "id": "renewal_date",
+          "header": "Renewal Date",
+          "type": "date"
+        },
+        {
+          "id": "auto_renew",
+          "header": "Auto-Renew",
+          "type": "text"
+        },
+        {
+          "id": "key_terms",
+          "header": "Key Terms",
+          "type": "text"
+        },
+        {
+          "id": "status",
+          "header": "Status",
+          "type": "dropdown",
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done",
+            "On Hold",
+            "Cancelled"
+          ]
+        },
+        {
+          "id": "owner",
+          "header": "Owner",
+          "type": "text"
+        }
+      ]
+    }
+  ],
+  "defaultData": {
+    "partner_database": [
+      {
+        "partner_id": "P001"
+      },
+      {
+        "partner_id": "P002"
+      },
+      {
+        "partner_id": "P003"
+      },
+      {
+        "partner_id": "P004"
+      },
+      {
+        "partner_id": "P005"
+      },
+      {
+        "partner_id": "P006"
+      },
+      {
+        "partner_id": "P007"
+      },
+      {
+        "partner_id": "P008"
+      },
+      {
+        "partner_id": "P009"
+      },
+      {
+        "partner_id": "P010"
+      },
+      {
+        "partner_id": "P011"
+      },
+      {
+        "partner_id": "P012"
+      },
+      {
+        "partner_id": "P013"
+      },
+      {
+        "partner_id": "P014"
+      },
+      {
+        "partner_id": "P015"
+      },
+      {
+        "partner_id": "P016"
+      },
+      {
+        "partner_id": "P017"
+      },
+      {
+        "partner_id": "P018"
+      },
+      {
+        "partner_id": "P019"
+      },
+      {
+        "partner_id": "P020"
+      },
+      {
+        "partner_id": "P021"
+      },
+      {
+        "partner_id": "P022"
+      },
+      {
+        "partner_id": "P023"
+      },
+      {
+        "partner_id": "P024"
+      },
+      {
+        "partner_id": "P025"
+      },
+      {
+        "partner_id": "P026"
+      },
+      {
+        "partner_id": "P027"
+      },
+      {
+        "partner_id": "P028"
+      },
+      {
+        "partner_id": "P029"
+      },
+      {
+        "partner_id": "P030"
+      },
+      {
+        "partner_id": "P031"
+      },
+      {
+        "partner_id": "P032"
+      },
+      {
+        "partner_id": "P033"
+      },
+      {
+        "partner_id": "P034"
+      },
+      {
+        "partner_id": "P035"
+      },
+      {
+        "partner_id": "P036"
+      },
+      {
+        "partner_id": "P037"
+      },
+      {
+        "partner_id": "P038"
+      },
+      {
+        "partner_id": "P039"
+      },
+      {
+        "partner_id": "P040"
+      },
+      {
+        "partner_id": "P041"
+      },
+      {
+        "partner_id": "P042"
+      },
+      {
+        "partner_id": "P043"
+      },
+      {
+        "partner_id": "P044"
+      },
+      {
+        "partner_id": "P045"
+      },
+      {
+        "partner_id": "P046"
+      },
+      {
+        "partner_id": "P047"
+      },
+      {
+        "partner_id": "P048"
+      },
+      {
+        "partner_id": "P049"
+      },
+      {
+        "partner_id": "P050"
+      }
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "id": "marketing_audit_ceo_edition",
+  "name": "Marketing Audit CEO Edition",
+  "category": "strategy",
+  "sheets": [
+    {
+      "id": "dashboard",
+      "name": "Dashboard",
+      "type": "summary"
+    },
+    {
+      "id": "ceo_audit",
+      "name": "CEO Audit",
+      "type": "form",
+      "fields": [
+        {
+          "id": "category",
+          "label": "Category",
+          "type": "text",
+          "hint": "Score (1-5)",
+          "placeholder": "Score (1-5)"
+        },
+        {
+          "id": "marketing_revenue_alignment",
+          "label": "Marketing-Revenue Alignment",
+          "type": "text"
+        },
+        {
+          "id": "brand_health_market_position",
+          "label": "Brand Health & Market Position",
+          "type": "text"
+        },
+        {
+          "id": "customer_acquisition_efficiency",
+          "label": "Customer Acquisition Efficiency",
+          "type": "text"
+        },
+        {
+          "id": "marketing_team_capability",
+          "label": "Marketing Team & Capability",
+          "type": "text"
+        },
+        {
+          "id": "digital_maturity",
+          "label": "Digital Maturity",
+          "type": "text"
+        },
+        {
+          "id": "content_thought_leadership",
+          "label": "Content & Thought Leadership",
+          "type": "text"
+        },
+        {
+          "id": "data_decision_quality",
+          "label": "Data & Decision Quality",
+          "type": "text"
+        },
+        {
+          "id": "competitive_readiness",
+          "label": "Competitive Readiness",
+          "type": "text"
+        }
+      ]
+    }
+  ]
+}

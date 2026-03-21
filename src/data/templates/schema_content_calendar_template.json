@@ -1,0 +1,138 @@
+{
+  "id": "content_calendar_template",
+  "name": "Content Calendar Template",
+  "category": "content",
+  "sheets": [
+    {
+      "id": "dashboard",
+      "name": "Dashboard",
+      "type": "summary"
+    },
+    {
+      "id": "content_calendar",
+      "name": "Content Calendar",
+      "type": "table",
+      "columns": [
+        {
+          "id": "col_0",
+          "header": "#",
+          "type": "number"
+        },
+        {
+          "id": "content_title_topic",
+          "header": "Content Title / Topic",
+          "type": "textarea",
+          "width": "250px"
+        },
+        {
+          "id": "channel",
+          "header": "Channel",
+          "type": "text"
+        },
+        {
+          "id": "content_type",
+          "header": "Content Type",
+          "type": "textarea",
+          "width": "250px"
+        },
+        {
+          "id": "owner",
+          "header": "Owner",
+          "type": "text"
+        },
+        {
+          "id": "status",
+          "header": "Status",
+          "type": "dropdown",
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done",
+            "On Hold",
+            "Cancelled"
+          ]
+        },
+        {
+          "id": "campaign_tag",
+          "header": "Campaign / Tag",
+          "type": "text"
+        },
+        {
+          "id": "publish_date",
+          "header": "Publish Date",
+          "type": "date"
+        },
+        {
+          "id": "notes_links",
+          "header": "Notes / Links",
+          "type": "url"
+        },
+        {
+          "id": "performance_notes",
+          "header": "Performance Notes",
+          "type": "textarea",
+          "width": "250px"
+        }
+      ]
+    }
+  ],
+  "defaultData": {
+    "content_calendar": [
+      {
+        "col_0": 1,
+        "content_title_topic": "Why Content Calendars Save Your Sanity",
+        "channel": "Blog",
+        "content_type": "Blog Post",
+        "owner": "Gabriel",
+        "status": "Published",
+        "campaign_tag": "Launch Week",
+        "publish_date": "2026-03-02",
+        "notes_links": "Link to blog post",
+        "performance_notes": "432 views, 28 shares"
+      },
+      {
+        "col_0": 2,
+        "content_title_topic": "5 Marketing Mistakes CEOs Make",
+        "channel": "Social Media",
+        "content_type": "Reel/Short",
+        "owner": "Content Lead",
+        "status": "Scheduled",
+        "campaign_tag": "Thought Leadership",
+        "publish_date": "2026-03-05",
+        "notes_links": "Filmed, editing done"
+      },
+      {
+        "col_0": 3,
+        "content_title_topic": "March Newsletter: Growth Tips",
+        "channel": "Email",
+        "content_type": "Newsletter",
+        "owner": "Gabriel",
+        "status": "In Progress",
+        "campaign_tag": "Monthly Newsletter",
+        "publish_date": "2026-03-10",
+        "notes_links": "Draft in progress"
+      },
+      {
+        "col_0": 4,
+        "content_title_topic": "Client Success: DVR Pharm Case Study",
+        "channel": "Blog",
+        "content_type": "Case Study",
+        "owner": "Content Lead",
+        "status": "In Review",
+        "campaign_tag": "Case Studies",
+        "publish_date": "2026-03-15",
+        "notes_links": "Awaiting client approval"
+      },
+      {
+        "col_0": 5,
+        "content_title_topic": "AI Strategy Builder Walkthrough",
+        "channel": "Video",
+        "content_type": "Video",
+        "owner": "Gabriel",
+        "status": "Idea",
+        "campaign_tag": "Product Launch",
+        "publish_date": "2026-03-20"
+      }
+    ]
+  }
+}

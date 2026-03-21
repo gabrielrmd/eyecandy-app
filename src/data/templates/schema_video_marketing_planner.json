@@ -1,0 +1,628 @@
+{
+  "id": "video_marketing_planner",
+  "name": "Video Marketing Planner",
+  "category": "content",
+  "sheets": [
+    {
+      "id": "dashboard",
+      "name": "Dashboard",
+      "type": "summary"
+    },
+    {
+      "id": "video_strategy",
+      "name": "Video Strategy",
+      "type": "summary"
+    },
+    {
+      "id": "content_calendar",
+      "name": "Content Calendar",
+      "type": "table",
+      "columns": [
+        {
+          "id": "week",
+          "header": "Week",
+          "type": "text"
+        },
+        {
+          "id": "video_title",
+          "header": "Video Title",
+          "type": "text"
+        },
+        {
+          "id": "type",
+          "header": "Type",
+          "type": "text"
+        },
+        {
+          "id": "pillar",
+          "header": "Pillar",
+          "type": "text",
+          "editable": false
+        },
+        {
+          "id": "platform",
+          "header": "Platform",
+          "type": "text"
+        },
+        {
+          "id": "publish_date",
+          "header": "Publish Date",
+          "type": "date"
+        },
+        {
+          "id": "duration",
+          "header": "Duration",
+          "type": "text"
+        },
+        {
+          "id": "status",
+          "header": "Status",
+          "type": "dropdown",
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done",
+            "On Hold",
+            "Cancelled"
+          ]
+        },
+        {
+          "id": "owner",
+          "header": "Owner",
+          "type": "text"
+        },
+        {
+          "id": "thumbnail",
+          "header": "Thumbnail",
+          "type": "text"
+        },
+        {
+          "id": "notes",
+          "header": "Notes",
+          "type": "textarea",
+          "width": "250px"
+        }
+      ],
+      "groupBy": "pillar"
+    },
+    {
+      "id": "production_tracker",
+      "name": "Production Tracker",
+      "type": "table",
+      "columns": [
+        {
+          "id": "video_id",
+          "header": "Video ID",
+          "type": "text"
+        },
+        {
+          "id": "title",
+          "header": "Title",
+          "type": "text"
+        },
+        {
+          "id": "script_due",
+          "header": "Script Due",
+          "type": "date"
+        },
+        {
+          "id": "film_date",
+          "header": "Film Date",
+          "type": "date"
+        },
+        {
+          "id": "edit_due",
+          "header": "Edit Due",
+          "type": "date"
+        },
+        {
+          "id": "review_due",
+          "header": "Review Due",
+          "type": "date"
+        },
+        {
+          "id": "status",
+          "header": "Status",
+          "type": "dropdown",
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done",
+            "On Hold",
+            "Cancelled"
+          ]
+        },
+        {
+          "id": "editor",
+          "header": "Editor",
+          "type": "text"
+        },
+        {
+          "id": "budget",
+          "header": "Budget",
+          "type": "currency"
+        },
+        {
+          "id": "actual_cost",
+          "header": "Actual Cost",
+          "type": "currency"
+        },
+        {
+          "id": "variance",
+          "header": "Variance",
+          "type": "number"
+        }
+      ]
+    },
+    {
+      "id": "script_template",
+      "name": "Script Template",
+      "type": "table",
+      "columns": [
+        {
+          "id": "section",
+          "header": "Section",
+          "type": "text",
+          "editable": false
+        },
+        {
+          "id": "timecode",
+          "header": "Timecode",
+          "type": "text"
+        },
+        {
+          "id": "duration",
+          "header": "Duration",
+          "type": "text"
+        },
+        {
+          "id": "visual",
+          "header": "Visual",
+          "type": "text"
+        },
+        {
+          "id": "audio_voiceover",
+          "header": "Audio - Voiceover",
+          "type": "text"
+        },
+        {
+          "id": "audio_music",
+          "header": "Audio - Music",
+          "type": "text"
+        },
+        {
+          "id": "on_screen_text",
+          "header": "On-Screen Text",
+          "type": "text"
+        },
+        {
+          "id": "notes",
+          "header": "Notes",
+          "type": "textarea",
+          "width": "250px"
+        }
+      ],
+      "groupBy": "section"
+    },
+    {
+      "id": "distribution_plan",
+      "name": "Distribution Plan",
+      "type": "table",
+      "columns": [
+        {
+          "id": "video_title",
+          "header": "Video Title",
+          "type": "text"
+        },
+        {
+          "id": "platform",
+          "header": "Platform",
+          "type": "text"
+        },
+        {
+          "id": "format",
+          "header": "Format",
+          "type": "text"
+        },
+        {
+          "id": "dimensions",
+          "header": "Dimensions",
+          "type": "text"
+        },
+        {
+          "id": "caption",
+          "header": "Caption",
+          "type": "text"
+        },
+        {
+          "id": "hashtags",
+          "header": "Hashtags",
+          "type": "text"
+        },
+        {
+          "id": "publish_time",
+          "header": "Publish Time",
+          "type": "text"
+        },
+        {
+          "id": "promotion_budget",
+          "header": "Promotion Budget",
+          "type": "currency"
+        },
+        {
+          "id": "cross_post",
+          "header": "Cross-post",
+          "type": "text"
+        },
+        {
+          "id": "notes",
+          "header": "Notes",
+          "type": "textarea",
+          "width": "250px"
+        }
+      ]
+    },
+    {
+      "id": "budget_tracker",
+      "name": "Budget Tracker",
+      "type": "table",
+      "columns": [
+        {
+          "id": "video_title",
+          "header": "Video Title",
+          "type": "text"
+        },
+        {
+          "id": "category",
+          "header": "Category",
+          "type": "text",
+          "editable": false
+        },
+        {
+          "id": "description",
+          "header": "Description",
+          "type": "textarea",
+          "width": "250px"
+        },
+        {
+          "id": "budgeted",
+          "header": "Budgeted",
+          "type": "currency"
+        },
+        {
+          "id": "actual",
+          "header": "Actual",
+          "type": "text"
+        },
+        {
+          "id": "variance",
+          "header": "Variance",
+          "type": "number"
+        },
+        {
+          "id": "spent",
+          "header": "% Spent",
+          "type": "percentage"
+        },
+        {
+          "id": "vendor",
+          "header": "Vendor",
+          "type": "date"
+        },
+        {
+          "id": "status",
+          "header": "Status",
+          "type": "dropdown",
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done",
+            "On Hold",
+            "Cancelled"
+          ]
+        }
+      ],
+      "groupBy": "category"
+    },
+    {
+      "id": "performance_tracker",
+      "name": "Performance Tracker",
+      "type": "table",
+      "columns": [
+        {
+          "id": "video_title",
+          "header": "Video Title",
+          "type": "text"
+        },
+        {
+          "id": "platform",
+          "header": "Platform",
+          "type": "text"
+        },
+        {
+          "id": "publish_date",
+          "header": "Publish Date",
+          "type": "date"
+        },
+        {
+          "id": "views",
+          "header": "Views",
+          "type": "number"
+        },
+        {
+          "id": "watch_time_hrs",
+          "header": "Watch Time (hrs)",
+          "type": "text"
+        },
+        {
+          "id": "avg_view_duration",
+          "header": "Avg View Duration",
+          "type": "text"
+        },
+        {
+          "id": "likes",
+          "header": "Likes",
+          "type": "text"
+        },
+        {
+          "id": "engagement_rate",
+          "header": "Engagement Rate",
+          "type": "percentage"
+        },
+        {
+          "id": "comments",
+          "header": "Comments",
+          "type": "textarea",
+          "width": "250px"
+        },
+        {
+          "id": "shares",
+          "header": "Shares",
+          "type": "text"
+        },
+        {
+          "id": "conversions",
+          "header": "Conversions",
+          "type": "percentage"
+        },
+        {
+          "id": "revenue",
+          "header": "Revenue",
+          "type": "currency"
+        }
+      ]
+    },
+    {
+      "id": "platform_specs",
+      "name": "Platform Specs",
+      "type": "table",
+      "columns": [
+        {
+          "id": "platform",
+          "header": "Platform",
+          "type": "text"
+        },
+        {
+          "id": "format",
+          "header": "Format",
+          "type": "text"
+        },
+        {
+          "id": "aspect_ratio",
+          "header": "Aspect Ratio",
+          "type": "text"
+        },
+        {
+          "id": "resolution",
+          "header": "Resolution",
+          "type": "text"
+        },
+        {
+          "id": "max_duration",
+          "header": "Max Duration",
+          "type": "text"
+        },
+        {
+          "id": "max_file_size",
+          "header": "Max File Size",
+          "type": "text"
+        },
+        {
+          "id": "recommended_duration",
+          "header": "Recommended Duration",
+          "type": "date"
+        },
+        {
+          "id": "notes",
+          "header": "Notes",
+          "type": "textarea",
+          "width": "250px"
+        }
+      ]
+    }
+  ],
+  "defaultData": {
+    "script_template": [
+      {
+        "section": "Hook",
+        "timecode": "0:00",
+        "duration": "0:03",
+        "visual": "Eye-catching opening shot",
+        "audio_voiceover": "Attention-grabbing first line",
+        "audio_music": "Upbeat intro",
+        "notes": "Must hook in first 3 seconds"
+      },
+      {
+        "section": "Problem",
+        "timecode": "0:03",
+        "duration": "0:10",
+        "visual": "Relatable scenario",
+        "audio_voiceover": "Describe the pain point",
+        "audio_music": "Subtle tension",
+        "on_screen_text": "Problem statement",
+        "notes": "Build empathy"
+      },
+      {
+        "section": "Solution",
+        "timecode": "0:13",
+        "duration": "0:15",
+        "visual": "Product reveal or concept",
+        "audio_voiceover": "Introduce the solution",
+        "audio_music": "Uplifting shift",
+        "on_screen_text": "Key benefit",
+        "notes": "The aha moment"
+      },
+      {
+        "section": "Proof",
+        "timecode": "0:28",
+        "duration": "0:10",
+        "visual": "Data, testimonials, demos",
+        "audio_voiceover": "Evidence and social proof",
+        "audio_music": "Confident tone",
+        "on_screen_text": "Stats or quotes",
+        "notes": "Build credibility"
+      },
+      {
+        "section": "CTA",
+        "timecode": "0:38",
+        "duration": "0:07",
+        "visual": "Clear next step visual",
+        "audio_voiceover": "Tell them what to do next",
+        "audio_music": "Energetic close",
+        "on_screen_text": "URL or action",
+        "notes": "Single clear CTA"
+      },
+      {
+        "section": "End Card",
+        "timecode": "0:45",
+        "duration": "0:05",
+        "visual": "Logo + subscribe/follow",
+        "audio_music": "Brand jingle",
+        "on_screen_text": "Logo, social handles",
+        "notes": "Standard end card"
+      }
+    ],
+    "platform_specs": [
+      {
+        "platform": "YouTube",
+        "format": "Standard",
+        "aspect_ratio": "16:9",
+        "resolution": "1920x1080",
+        "max_duration": "12 hours",
+        "max_file_size": "256GB",
+        "recommended_duration": "8-15 min",
+        "notes": "Chapters improve retention"
+      },
+      {
+        "platform": "YouTube",
+        "format": "Shorts",
+        "aspect_ratio": "9:16",
+        "resolution": "1080x1920",
+        "max_duration": "60 sec",
+        "max_file_size": "256GB",
+        "recommended_duration": "15-60 sec",
+        "notes": "Vertical only"
+      },
+      {
+        "platform": "Instagram",
+        "format": "Feed",
+        "aspect_ratio": "1:1 or 4:5",
+        "resolution": "1080x1080",
+        "max_duration": "60 sec",
+        "max_file_size": "4GB",
+        "recommended_duration": "15-30 sec",
+        "notes": "Square or vertical preferred"
+      },
+      {
+        "platform": "Instagram",
+        "format": "Reels",
+        "aspect_ratio": "9:16",
+        "resolution": "1080x1920",
+        "max_duration": "90 sec",
+        "max_file_size": "4GB",
+        "recommended_duration": "15-30 sec",
+        "notes": "Trending audio helps reach"
+      },
+      {
+        "platform": "Instagram",
+        "format": "Stories",
+        "aspect_ratio": "9:16",
+        "resolution": "1080x1920",
+        "max_duration": "15 sec/story",
+        "max_file_size": "4GB",
+        "recommended_duration": "10-15 sec",
+        "notes": "Swipe up for links"
+      },
+      {
+        "platform": "TikTok",
+        "format": "Standard",
+        "aspect_ratio": "9:16",
+        "resolution": "1080x1920",
+        "max_duration": "10 min",
+        "max_file_size": "287MB",
+        "recommended_duration": "15-60 sec",
+        "notes": "Hook in first 1-2 sec"
+      },
+      {
+        "platform": "LinkedIn",
+        "format": "Feed",
+        "aspect_ratio": "16:9 or 1:1",
+        "resolution": "1920x1080",
+        "max_duration": "10 min",
+        "max_file_size": "5GB",
+        "recommended_duration": "30-90 sec",
+        "notes": "Captions essential"
+      },
+      {
+        "platform": "Facebook",
+        "format": "Feed",
+        "aspect_ratio": "16:9 or 1:1",
+        "resolution": "1920x1080",
+        "max_duration": "240 min",
+        "max_file_size": "4GB",
+        "recommended_duration": "15-60 sec",
+        "notes": "Auto-play without sound"
+      },
+      {
+        "platform": "Facebook",
+        "format": "Reels",
+        "aspect_ratio": "9:16",
+        "resolution": "1080x1920",
+        "max_duration": "90 sec",
+        "max_file_size": "4GB",
+        "recommended_duration": "15-30 sec",
+        "notes": "Short-form vertical"
+      },
+      {
+        "platform": "Twitter",
+        "format": "Standard",
+        "aspect_ratio": "16:9",
+        "resolution": "1920x1080",
+        "max_duration": "2:20 min",
+        "max_file_size": "512MB",
+        "recommended_duration": "15-45 sec",
+        "notes": "Brevity wins"
+      },
+      {
+        "platform": "Website",
+        "format": "Hero",
+        "aspect_ratio": "16:9",
+        "resolution": "1920x1080",
+        "max_duration": "No limit",
+        "max_file_size": "Varies",
+        "recommended_duration": "30-120 sec",
+        "notes": "Autoplay muted"
+      },
+      {
+        "platform": "Email",
+        "format": "Embedded GIF",
+        "aspect_ratio": "16:9",
+        "resolution": "600px wide",
+        "max_duration": "5 sec GIF",
+        "max_file_size": "1MB",
+        "recommended_duration": "N/A",
+        "notes": "Use GIF preview + play link"
+      }
+    ]
+  }
+}

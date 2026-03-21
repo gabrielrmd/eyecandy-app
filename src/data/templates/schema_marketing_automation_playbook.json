@@ -1,0 +1,1149 @@
+{
+  "id": "marketing_automation_playbook",
+  "name": "Marketing Automation Playbook",
+  "category": "growth",
+  "sheets": [
+    {
+      "id": "dashboard",
+      "name": "Dashboard",
+      "type": "summary"
+    },
+    {
+      "id": "automation_audit",
+      "name": "Automation Audit",
+      "type": "form",
+      "fields": [
+        {
+          "id": "dimension",
+          "label": "Dimension",
+          "type": "text",
+          "hint": "Score (1-10)",
+          "placeholder": "Score (1-10)"
+        },
+        {
+          "id": "email_automation",
+          "label": "Email Automation",
+          "type": "text"
+        },
+        {
+          "id": "lead_scoring",
+          "label": "Lead Scoring",
+          "type": "text"
+        },
+        {
+          "id": "segmentation",
+          "label": "Segmentation",
+          "type": "text"
+        },
+        {
+          "id": "personalisation",
+          "label": "Personalisation",
+          "type": "text"
+        },
+        {
+          "id": "multi_channel_orchestration",
+          "label": "Multi-Channel Orchestration",
+          "type": "text"
+        },
+        {
+          "id": "data_hygiene",
+          "label": "Data Hygiene",
+          "type": "text"
+        },
+        {
+          "id": "reporting_attribution",
+          "label": "Reporting & Attribution",
+          "type": "text"
+        },
+        {
+          "id": "integration_data_flow",
+          "label": "Integration & Data Flow",
+          "type": "text"
+        },
+        {
+          "id": "1_3_beginner",
+          "label": "1-3: Beginner",
+          "type": "text"
+        },
+        {
+          "id": "basic_batch_emails_no_triggers_manual_pr",
+          "label": "Basic batch emails, no triggers, manual processes. Start with welcome + abandoned cart workflows.",
+          "type": "text"
+        },
+        {
+          "id": "4_5_developing",
+          "label": "4-5: Developing",
+          "type": "text"
+        },
+        {
+          "id": "some_triggered_emails_basic_segmentation",
+          "label": "Some triggered emails, basic segmentation, limited scoring. Focus on nurture sequences and lead qualification.",
+          "type": "text"
+        },
+        {
+          "id": "6_7_intermediate",
+          "label": "6-7: Intermediate",
+          "type": "text"
+        },
+        {
+          "id": "multi_step_workflows_dynamic_segments_ba",
+          "label": "Multi-step workflows, dynamic segments, basic scoring. Improve personalisation and multi-channel coordination.",
+          "type": "text"
+        },
+        {
+          "id": "8_9_advanced",
+          "label": "8-9: Advanced",
+          "type": "text"
+        },
+        {
+          "id": "sophisticated_orchestration_predictive_s",
+          "label": "Sophisticated orchestration, predictive scoring, advanced personalisation. Optimise for efficiency and AI integration.",
+          "type": "text"
+        },
+        {
+          "id": "10_expert",
+          "label": "10: Expert",
+          "type": "text"
+        },
+        {
+          "id": "fully_integrated_ai_driven_real_time_per",
+          "label": "Fully integrated, AI-driven, real-time personalisation at scale. Focus on innovation and competitive advantage.",
+          "type": "text"
+        }
+      ],
+      "sections": [
+        {
+          "id": "overall_maturity_score",
+          "title": "Overall Maturity Score:",
+          "fieldIds": [
+            "1_3_beginner",
+            "basic_batch_emails_no_triggers_manual_pr",
+            "4_5_developing",
+            "some_triggered_emails_basic_segmentation",
+            "6_7_intermediate",
+            "multi_step_workflows_dynamic_segments_ba",
+            "8_9_advanced",
+            "sophisticated_orchestration_predictive_s",
+            "10_expert",
+            "fully_integrated_ai_driven_real_time_per"
+          ],
+          "collapsible": true
+        }
+      ]
+    },
+    {
+      "id": "workflow_library",
+      "name": "Workflow Library",
+      "type": "table",
+      "columns": [
+        {
+          "id": "col_0",
+          "header": "#",
+          "type": "number"
+        },
+        {
+          "id": "workflow_name",
+          "header": "Workflow Name",
+          "type": "text"
+        },
+        {
+          "id": "funnel_stage",
+          "header": "Funnel Stage",
+          "type": "dropdown",
+          "options": [
+            "Planning",
+            "In Progress",
+            "Review",
+            "Complete"
+          ]
+        },
+        {
+          "id": "trigger",
+          "header": "Trigger",
+          "type": "text"
+        },
+        {
+          "id": "expected_outcome",
+          "header": "Expected Outcome",
+          "type": "text"
+        },
+        {
+          "id": "status",
+          "header": "Status",
+          "type": "dropdown",
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done",
+            "On Hold",
+            "Cancelled"
+          ]
+        },
+        {
+          "id": "priority",
+          "header": "Priority",
+          "type": "dropdown",
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "notes",
+          "header": "Notes",
+          "type": "textarea",
+          "width": "250px"
+        }
+      ]
+    },
+    {
+      "id": "email_sequence_builder",
+      "name": "Email Sequence Builder",
+      "type": "table",
+      "columns": [
+        {
+          "id": "col_0",
+          "header": "#",
+          "type": "number"
+        },
+        {
+          "id": "sequence_name",
+          "header": "Sequence Name",
+          "type": "text"
+        },
+        {
+          "id": "step",
+          "header": "Step #",
+          "type": "text"
+        },
+        {
+          "id": "delay",
+          "header": "Delay",
+          "type": "text"
+        },
+        {
+          "id": "subject_line_content",
+          "header": "Subject Line / Content",
+          "type": "textarea",
+          "width": "250px"
+        },
+        {
+          "id": "send_time",
+          "header": "Send Time",
+          "type": "date"
+        },
+        {
+          "id": "condition",
+          "header": "Condition",
+          "type": "text"
+        },
+        {
+          "id": "goal",
+          "header": "Goal",
+          "type": "text"
+        },
+        {
+          "id": "status",
+          "header": "Status",
+          "type": "dropdown",
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done",
+            "On Hold",
+            "Cancelled"
+          ]
+        },
+        {
+          "id": "notes",
+          "header": "Notes",
+          "type": "textarea",
+          "width": "250px"
+        }
+      ]
+    },
+    {
+      "id": "lead_scoring_setup",
+      "name": "Lead Scoring Setup",
+      "type": "table",
+      "columns": [
+        {
+          "id": "col_0",
+          "header": "#",
+          "type": "number"
+        },
+        {
+          "id": "category",
+          "header": "Category",
+          "type": "text",
+          "editable": false
+        },
+        {
+          "id": "scoring_criteria",
+          "header": "Scoring Criteria",
+          "type": "text"
+        },
+        {
+          "id": "points",
+          "header": "Points",
+          "type": "text"
+        },
+        {
+          "id": "decay",
+          "header": "Decay",
+          "type": "text"
+        },
+        {
+          "id": "notes",
+          "header": "Notes",
+          "type": "textarea",
+          "width": "250px"
+        }
+      ],
+      "groupBy": "category"
+    },
+    {
+      "id": "segmentation_planner",
+      "name": "Segmentation Planner",
+      "type": "table",
+      "columns": [
+        {
+          "id": "col_0",
+          "header": "#",
+          "type": "number"
+        },
+        {
+          "id": "segment_name",
+          "header": "Segment Name",
+          "type": "text"
+        },
+        {
+          "id": "type",
+          "header": "Type",
+          "type": "text"
+        },
+        {
+          "id": "criteria",
+          "header": "Criteria",
+          "type": "text"
+        },
+        {
+          "id": "use_case",
+          "header": "Use Case",
+          "type": "text"
+        },
+        {
+          "id": "size_est",
+          "header": "Size (est.)",
+          "type": "text"
+        },
+        {
+          "id": "update_frequency",
+          "header": "Update Frequency",
+          "type": "date"
+        },
+        {
+          "id": "notes",
+          "header": "Notes",
+          "type": "textarea",
+          "width": "250px"
+        }
+      ]
+    },
+    {
+      "id": "integration_map",
+      "name": "Integration Map",
+      "type": "table",
+      "columns": [
+        {
+          "id": "col_0",
+          "header": "#",
+          "type": "number"
+        },
+        {
+          "id": "source_tool",
+          "header": "Source Tool",
+          "type": "text"
+        },
+        {
+          "id": "destination_tool",
+          "header": "Destination Tool",
+          "type": "text"
+        },
+        {
+          "id": "direction",
+          "header": "Direction",
+          "type": "text"
+        },
+        {
+          "id": "data_synced",
+          "header": "Data Synced",
+          "type": "text"
+        },
+        {
+          "id": "status",
+          "header": "Status",
+          "type": "dropdown",
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done",
+            "On Hold",
+            "Cancelled"
+          ]
+        },
+        {
+          "id": "notes",
+          "header": "Notes",
+          "type": "textarea",
+          "width": "250px"
+        }
+      ]
+    },
+    {
+      "id": "performance_monitor",
+      "name": "Performance Monitor",
+      "type": "table",
+      "columns": [
+        {
+          "id": "col_0",
+          "header": "#",
+          "type": "number"
+        },
+        {
+          "id": "workflow_name",
+          "header": "Workflow Name",
+          "type": "text"
+        },
+        {
+          "id": "emails_sent",
+          "header": "Emails Sent",
+          "type": "text"
+        },
+        {
+          "id": "open_rate",
+          "header": "Open Rate",
+          "type": "percentage"
+        },
+        {
+          "id": "click_rate",
+          "header": "Click Rate",
+          "type": "percentage"
+        },
+        {
+          "id": "conversion_rate",
+          "header": "Conversion Rate",
+          "type": "percentage"
+        },
+        {
+          "id": "unsubscribe_rate",
+          "header": "Unsubscribe Rate",
+          "type": "percentage"
+        },
+        {
+          "id": "revenue",
+          "header": "Revenue",
+          "type": "currency"
+        },
+        {
+          "id": "status",
+          "header": "Status",
+          "type": "dropdown",
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done",
+            "On Hold",
+            "Cancelled"
+          ]
+        },
+        {
+          "id": "notes",
+          "header": "Notes",
+          "type": "textarea",
+          "width": "250px"
+        }
+      ]
+    }
+  ],
+  "defaultData": {
+    "workflow_library": [
+      {
+        "col_0": 1,
+        "workflow_name": "Welcome Series",
+        "funnel_stage": "TOFU",
+        "trigger": "New subscriber / form submission",
+        "expected_outcome": "Increase engagement by 40% in first 14 days",
+        "status": "Active",
+        "priority": "High",
+        "notes": "3-5 emails over 2 weeks"
+      },
+      {
+        "col_0": 2,
+        "workflow_name": "Lead Nurture Sequence",
+        "funnel_stage": "MOFU",
+        "trigger": "MQL score threshold reached",
+        "expected_outcome": "Convert 25% of MQLs to SQLs within 30 days",
+        "status": "Active",
+        "priority": "High",
+        "notes": "Content-based education + offers"
+      },
+      {
+        "col_0": 3,
+        "workflow_name": "Abandoned Cart Recovery",
+        "funnel_stage": "BOFU",
+        "trigger": "Cart abandoned >1 hour",
+        "expected_outcome": "Recover 10-15% of abandoned carts",
+        "status": "Active",
+        "priority": "High",
+        "notes": "3-email sequence with incentive escalation"
+      },
+      {
+        "col_0": 4,
+        "workflow_name": "Re-engagement Campaign",
+        "funnel_stage": "Retention",
+        "trigger": "No activity in 60+ days",
+        "expected_outcome": "Re-activate 5-10% of dormant contacts",
+        "status": "Active",
+        "priority": "Medium",
+        "notes": "Sunset non-responders after 90 days"
+      },
+      {
+        "col_0": 5,
+        "workflow_name": "Post-Purchase Onboarding",
+        "funnel_stage": "Retention",
+        "trigger": "First purchase / signup",
+        "expected_outcome": "Achieve 80% activation within 7 days",
+        "status": "Active",
+        "priority": "High",
+        "notes": "Product education + quick wins"
+      },
+      {
+        "col_0": 6,
+        "workflow_name": "Upsell / Cross-sell",
+        "funnel_stage": "Expansion",
+        "trigger": "Product usage milestone",
+        "expected_outcome": "Drive 15% upsell conversion rate",
+        "status": "Planned",
+        "priority": "Medium",
+        "notes": "Trigger based on feature adoption"
+      },
+      {
+        "col_0": 7,
+        "workflow_name": "Renewal Reminder",
+        "funnel_stage": "Retention",
+        "trigger": "60 days before renewal",
+        "expected_outcome": "Maintain 90%+ renewal rate",
+        "status": "Active",
+        "priority": "High",
+        "notes": "Start 60 days out, escalate at 30 and 7 days"
+      },
+      {
+        "col_0": 8,
+        "workflow_name": "Event Follow-Up",
+        "funnel_stage": "MOFU",
+        "trigger": "Event attendance confirmed",
+        "expected_outcome": "Convert 20% of attendees to pipeline",
+        "status": "Active",
+        "priority": "Medium",
+        "notes": "Segmented by engagement level at event"
+      },
+      {
+        "col_0": 9,
+        "workflow_name": "Webinar Registration Nurture",
+        "funnel_stage": "TOFU",
+        "trigger": "Webinar registration",
+        "expected_outcome": "Achieve 50%+ attendance rate",
+        "status": "Active",
+        "priority": "Medium",
+        "notes": "Reminders + pre-event content"
+      },
+      {
+        "col_0": 10,
+        "workflow_name": "Trial Expiration Sequence",
+        "funnel_stage": "BOFU",
+        "trigger": "Trial T-minus 7 days",
+        "expected_outcome": "Convert 25% of trialists to paid",
+        "status": "Active",
+        "priority": "High",
+        "notes": "Value recap + comparison + urgency"
+      },
+      {
+        "col_0": 11,
+        "workflow_name": "NPS Survey Automation",
+        "funnel_stage": "Retention",
+        "trigger": "30 days after purchase/signup",
+        "expected_outcome": "Collect NPS from 40% of customers",
+        "status": "Active",
+        "priority": "Medium",
+        "notes": "Route promoters to review sites, detractors to support"
+      },
+      {
+        "col_0": 12,
+        "workflow_name": "Birthday / Anniversary",
+        "funnel_stage": "Retention",
+        "trigger": "Customer birthday / signup anniversary",
+        "expected_outcome": "Drive 5% incremental revenue from personalised offers",
+        "status": "Planned",
+        "priority": "Low",
+        "notes": "Personal touch + exclusive offer"
+      },
+      {
+        "col_0": 13,
+        "workflow_name": "Content Download Follow-Up",
+        "funnel_stage": "MOFU",
+        "trigger": "Gated content downloaded",
+        "expected_outcome": "Nurture towards demo request within 14 days",
+        "status": "Active",
+        "priority": "High",
+        "notes": "Related content + case studies"
+      },
+      {
+        "col_0": 14,
+        "workflow_name": "Win-Back Campaign",
+        "funnel_stage": "Retention",
+        "trigger": "Churned customer (30+ days)",
+        "expected_outcome": "Win back 5-8% of churned customers",
+        "status": "Planned",
+        "priority": "Medium",
+        "notes": "Understand reasons + special offer"
+      },
+      {
+        "col_0": 15,
+        "workflow_name": "Internal Lead Alert",
+        "funnel_stage": "Sales",
+        "trigger": "High-intent behaviour detected",
+        "expected_outcome": "Ensure <4 hour sales follow-up",
+        "status": "Active",
+        "priority": "Critical",
+        "notes": "Real-time alerts to assigned rep"
+      },
+      {
+        "col_0": 16,
+        "workflow_name": "Competitor Page Visit",
+        "funnel_stage": "MOFU",
+        "trigger": "Visited competitor comparison page",
+        "expected_outcome": "Proactive competitive positioning content",
+        "status": "Planned",
+        "priority": "Medium",
+        "notes": "Battlecard content via email"
+      },
+      {
+        "col_0": 17,
+        "workflow_name": "Pricing Page Retarget",
+        "funnel_stage": "BOFU",
+        "trigger": "Visited pricing page but no conversion",
+        "expected_outcome": "Convert 10% of pricing page visitors",
+        "status": "Active",
+        "priority": "High",
+        "notes": "Email + retargeting ad combo"
+      },
+      {
+        "col_0": 18,
+        "workflow_name": "Customer Feedback Loop",
+        "funnel_stage": "Retention",
+        "trigger": "Support ticket closed",
+        "expected_outcome": "Improve CSAT and identify product issues",
+        "status": "Planned",
+        "priority": "Medium",
+        "notes": "Survey + follow-up based on rating"
+      },
+      {
+        "col_0": 19,
+        "workflow_name": "Referral Programme Activation",
+        "funnel_stage": "Advocacy",
+        "trigger": "Customer reaches NPS 9-10",
+        "expected_outcome": "Generate referrals from 20% of promoters",
+        "status": "Planned",
+        "priority": "Medium",
+        "notes": "Invite to referral programme"
+      },
+      {
+        "col_0": 20,
+        "workflow_name": "Seasonal Campaign Automation",
+        "funnel_stage": "TOFU",
+        "trigger": "Calendar trigger (seasonal dates)",
+        "expected_outcome": "Capitalize on seasonal demand spikes",
+        "status": "Planned",
+        "priority": "Low",
+        "notes": "Pre-built for key dates"
+      }
+    ],
+    "email_sequence_builder": [
+      {
+        "col_0": 1,
+        "sequence_name": "Welcome Series",
+        "step": "1",
+        "delay": "Immediate",
+        "subject_line_content": "Welcome to [Brand] — Here's what's next",
+        "send_time": "10:00 AM",
+        "condition": "On signup",
+        "goal": "Introduction + first value",
+        "status": "Active",
+        "notes": "Set expectations + deliver lead magnet"
+      },
+      {
+        "col_0": 2,
+        "sequence_name": "Welcome Series",
+        "step": "2",
+        "delay": "+2 days",
+        "subject_line_content": "Your quick-start guide to [key feature]",
+        "send_time": "10:00 AM",
+        "condition": "Opened email 1",
+        "goal": "Education + activation",
+        "status": "Active",
+        "notes": "Link to tutorial video"
+      },
+      {
+        "col_0": 3,
+        "sequence_name": "Welcome Series",
+        "step": "3",
+        "delay": "+4 days",
+        "subject_line_content": "How [customer name] achieved [result] with us",
+        "send_time": "10:00 AM",
+        "condition": "No purchase yet",
+        "goal": "Social proof + CTA",
+        "status": "Active",
+        "notes": "Case study with clear CTA"
+      },
+      {
+        "col_0": 4,
+        "sequence_name": "Welcome Series",
+        "step": "4",
+        "delay": "+7 days",
+        "subject_line_content": "A special offer just for you",
+        "send_time": "10:00 AM",
+        "condition": "Not converted",
+        "goal": "Incentive + urgency",
+        "status": "Active",
+        "notes": "Time-limited discount"
+      },
+      {
+        "col_0": 5,
+        "sequence_name": "Lead Nurture",
+        "step": "1",
+        "delay": "Immediate",
+        "subject_line_content": "Thanks for downloading [resource name]",
+        "send_time": "10:00 AM",
+        "condition": "Content download",
+        "goal": "Deliver + educate",
+        "status": "Active",
+        "notes": "Deliver asset + set up next touch"
+      },
+      {
+        "col_0": 6,
+        "sequence_name": "Lead Nurture",
+        "step": "2",
+        "delay": "+3 days",
+        "subject_line_content": "3 strategies that [solve key pain point]",
+        "send_time": "10:00 AM",
+        "condition": "All contacts",
+        "goal": "Deep-value content",
+        "status": "Active",
+        "notes": "Educational, no hard sell"
+      },
+      {
+        "col_0": 7,
+        "sequence_name": "Lead Nurture",
+        "step": "3",
+        "delay": "+7 days",
+        "subject_line_content": "See how [company] solved [problem]",
+        "send_time": "10:00 AM",
+        "condition": "Clicked email 2",
+        "goal": "Case study + demo CTA",
+        "status": "Active",
+        "notes": "Move to demo request"
+      },
+      {
+        "col_0": 8,
+        "sequence_name": "Lead Nurture",
+        "step": "4",
+        "delay": "+10 days",
+        "subject_line_content": "Ready to see it in action?",
+        "send_time": "10:00 AM",
+        "condition": "Not booked demo",
+        "goal": "Demo booking CTA",
+        "status": "Active",
+        "notes": "Direct demo offer"
+      }
+    ],
+    "lead_scoring_setup": [
+      {
+        "col_0": 1,
+        "category": "Behavioural",
+        "scoring_criteria": "Visited pricing page",
+        "points": "+15",
+        "decay": "None",
+        "notes": "High intent signal"
+      },
+      {
+        "col_0": 2,
+        "category": "Behavioural",
+        "scoring_criteria": "Downloaded gated content",
+        "points": "+10",
+        "decay": "After 30 days",
+        "notes": "Content-qualified lead"
+      },
+      {
+        "col_0": 3,
+        "category": "Behavioural",
+        "scoring_criteria": "Attended webinar",
+        "points": "+12",
+        "decay": "After 30 days",
+        "notes": "Engaged with brand"
+      },
+      {
+        "col_0": 4,
+        "category": "Behavioural",
+        "scoring_criteria": "Requested demo",
+        "points": "+25",
+        "decay": "None",
+        "notes": "Sales-ready signal"
+      },
+      {
+        "col_0": 5,
+        "category": "Behavioural",
+        "scoring_criteria": "Opened 3+ emails in 7 days",
+        "points": "+8",
+        "decay": "After 14 days",
+        "notes": "Active engagement"
+      },
+      {
+        "col_0": 6,
+        "category": "Behavioural",
+        "scoring_criteria": "Clicked email CTA",
+        "points": "+5",
+        "decay": "After 14 days",
+        "notes": "Interest indicator"
+      },
+      {
+        "col_0": 7,
+        "category": "Behavioural",
+        "scoring_criteria": "Visited 5+ pages in one session",
+        "points": "+10",
+        "decay": "After 7 days",
+        "notes": "Research behaviour"
+      },
+      {
+        "col_0": 8,
+        "category": "Behavioural",
+        "scoring_criteria": "Returned to site after 7+ days",
+        "points": "+7",
+        "decay": "After 14 days",
+        "notes": "Re-engagement"
+      },
+      {
+        "col_0": 9,
+        "category": "Behavioural",
+        "scoring_criteria": "Watched product video >50%",
+        "points": "+8",
+        "decay": "After 30 days",
+        "notes": "Product interest"
+      },
+      {
+        "col_0": 10,
+        "category": "Behavioural",
+        "scoring_criteria": "Unsubscribed from emails",
+        "points": "-20",
+        "decay": "Never",
+        "notes": "Remove from active nurture"
+      },
+      {
+        "col_0": 11,
+        "category": "Demographic",
+        "scoring_criteria": "Job title matches ICP",
+        "points": "+15",
+        "decay": "Never",
+        "notes": "Decision maker or influencer"
+      },
+      {
+        "col_0": 12,
+        "category": "Demographic",
+        "scoring_criteria": "Company size matches ICP",
+        "points": "+10",
+        "decay": "Never",
+        "notes": "Right company fit"
+      },
+      {
+        "col_0": 13,
+        "category": "Demographic",
+        "scoring_criteria": "Industry matches target verticals",
+        "points": "+10",
+        "decay": "Never",
+        "notes": "Vertical alignment"
+      },
+      {
+        "col_0": 14,
+        "category": "Demographic",
+        "scoring_criteria": "Location in target geography",
+        "points": "+5",
+        "decay": "Never",
+        "notes": "Serviceable market"
+      },
+      {
+        "col_0": 15,
+        "category": "Demographic",
+        "scoring_criteria": "Personal email domain (gmail, yahoo)",
+        "points": "-10",
+        "decay": "Never",
+        "notes": "Likely not B2B buyer"
+      },
+      {
+        "col_0": 16,
+        "category": "Demographic",
+        "scoring_criteria": "Revenue matches ICP range",
+        "points": "+10",
+        "decay": "Never",
+        "notes": "Budget potential"
+      },
+      {
+        "col_0": 17,
+        "category": "Thresholds",
+        "scoring_criteria": "MQL Threshold: 50+ points",
+        "notes": "Route to nurture sequence"
+      },
+      {
+        "col_0": 18,
+        "category": "Thresholds",
+        "scoring_criteria": "SQL Threshold: 80+ points",
+        "notes": "Alert sales team immediately"
+      },
+      {
+        "col_0": 19,
+        "category": "Thresholds",
+        "scoring_criteria": "Hot Lead: 100+ points",
+        "notes": "Priority outreach within 1 hour"
+      }
+    ],
+    "segmentation_planner": [
+      {
+        "col_0": 1,
+        "segment_name": "Hot Leads",
+        "type": "Behavioural",
+        "criteria": "Lead score >80, visited pricing page in last 7 days",
+        "use_case": "Priority sales outreach + personalised email",
+        "size_est": "~50",
+        "update_frequency": "Real-time",
+        "notes": "Alert sales team immediately"
+      },
+      {
+        "col_0": 2,
+        "segment_name": "Active Nurture",
+        "type": "Behavioural",
+        "criteria": "Lead score 30-79, engaged in last 30 days",
+        "use_case": "Educational drip + webinar invites",
+        "size_est": "~500",
+        "update_frequency": "Daily",
+        "notes": "Content-focused nurture"
+      },
+      {
+        "col_0": 3,
+        "segment_name": "New Subscribers (< 7 days)",
+        "type": "Lifecycle",
+        "criteria": "Signup date within last 7 days",
+        "use_case": "Welcome series automation",
+        "size_est": "~100/week",
+        "update_frequency": "Daily",
+        "notes": "Exclude from promotional sends"
+      },
+      {
+        "col_0": 4,
+        "segment_name": "Enterprise Prospects",
+        "type": "Firmographic",
+        "criteria": "Company size >500 employees + matching industry",
+        "use_case": "ABM campaigns + personalised outreach",
+        "size_est": "~200",
+        "update_frequency": "Weekly",
+        "notes": "Cross-reference with CRM"
+      },
+      {
+        "col_0": 5,
+        "segment_name": "Webinar Attendees",
+        "type": "Behavioural",
+        "criteria": "Attended webinar in last 30 days",
+        "use_case": "Post-webinar nurture + demo offer",
+        "size_est": "~150",
+        "update_frequency": "After each event",
+        "notes": "Segment by engagement level"
+      },
+      {
+        "col_0": 6,
+        "segment_name": "Churned Customers",
+        "type": "Lifecycle",
+        "criteria": "Customer status = churned, last 90 days",
+        "use_case": "Win-back campaign + special offer",
+        "size_est": "~75",
+        "update_frequency": "Weekly",
+        "notes": "Understand churn reasons first"
+      },
+      {
+        "col_0": 7,
+        "segment_name": "Product Champions",
+        "type": "Behavioural",
+        "criteria": "NPS 9-10 + high product usage",
+        "use_case": "Referral programme + case study requests",
+        "size_est": "~100",
+        "update_frequency": "Monthly",
+        "notes": "Most valuable advocacy segment"
+      },
+      {
+        "col_0": 8,
+        "segment_name": "Dormant Contacts",
+        "type": "Behavioural",
+        "criteria": "No email open in 90+ days",
+        "use_case": "Re-engagement campaign or sunset",
+        "size_est": "~1000",
+        "update_frequency": "Monthly",
+        "notes": "Clean list quarterly"
+      }
+    ],
+    "integration_map": [
+      {
+        "col_0": 1,
+        "source_tool": "CRM (e.g. Salesforce)",
+        "destination_tool": "Marketing Automation",
+        "direction": "Bi-directional",
+        "data_synced": "Contacts, lead scores, deal stages, activities",
+        "status": "Connected",
+        "notes": "Real-time sync required"
+      },
+      {
+        "col_0": 2,
+        "source_tool": "Marketing Automation",
+        "destination_tool": "CRM",
+        "direction": "One-way",
+        "data_synced": "MQL alerts, engagement scores, campaign membership",
+        "status": "Connected",
+        "notes": "Trigger-based push"
+      },
+      {
+        "col_0": 3,
+        "source_tool": "Website (Analytics)",
+        "destination_tool": "Marketing Automation",
+        "direction": "One-way",
+        "data_synced": "Page visits, form submissions, event tracking",
+        "status": "Connected",
+        "notes": "JavaScript tracking tag"
+      },
+      {
+        "col_0": 4,
+        "source_tool": "Ad Platforms",
+        "destination_tool": "Marketing Automation",
+        "direction": "One-way",
+        "data_synced": "Ad click data, conversion tracking, audience sync",
+        "status": "Partial",
+        "notes": "Facebook + Google connected; LinkedIn pending"
+      },
+      {
+        "col_0": 5,
+        "source_tool": "Social Media",
+        "destination_tool": "Marketing Automation",
+        "direction": "One-way",
+        "data_synced": "Social engagement, profile data, UTM tracking",
+        "status": "Planned",
+        "notes": "Need social listening integration"
+      },
+      {
+        "col_0": 6,
+        "source_tool": "Customer Support",
+        "destination_tool": "CRM",
+        "direction": "One-way",
+        "data_synced": "Ticket data, CSAT scores, issue categories",
+        "status": "Connected",
+        "notes": "Enrich customer profiles"
+      },
+      {
+        "col_0": 7,
+        "source_tool": "Product (App)",
+        "destination_tool": "Marketing Automation",
+        "direction": "One-way",
+        "data_synced": "Feature usage, activation events, login frequency",
+        "status": "Planned",
+        "notes": "Requires dev team implementation"
+      },
+      {
+        "col_0": 8,
+        "source_tool": "Billing/Payments",
+        "destination_tool": "CRM",
+        "direction": "One-way",
+        "data_synced": "Subscription status, revenue, renewal dates",
+        "status": "Connected",
+        "notes": "Revenue attribution"
+      }
+    ],
+    "performance_monitor": [
+      {
+        "col_0": 1,
+        "workflow_name": "Welcome Series",
+        "emails_sent": 12500,
+        "open_rate": 0.52,
+        "click_rate": 0.18,
+        "conversion_rate": 0.08,
+        "unsubscribe_rate": 0.003,
+        "revenue": 15000,
+        "status": "Active",
+        "notes": "Best performing sequence"
+      },
+      {
+        "col_0": 2,
+        "workflow_name": "Lead Nurture",
+        "emails_sent": 8200,
+        "open_rate": 0.38,
+        "click_rate": 0.12,
+        "conversion_rate": 0.04,
+        "unsubscribe_rate": 0.005,
+        "revenue": 45000,
+        "status": "Active",
+        "notes": "Generates most pipeline"
+      },
+      {
+        "col_0": 3,
+        "workflow_name": "Abandoned Cart",
+        "emails_sent": 3400,
+        "open_rate": 0.45,
+        "click_rate": 0.22,
+        "conversion_rate": 0.12,
+        "unsubscribe_rate": 0.002,
+        "revenue": 28000,
+        "status": "Active",
+        "notes": "Strong revenue driver"
+      },
+      {
+        "col_0": 4,
+        "workflow_name": "Re-engagement",
+        "emails_sent": 5600,
+        "open_rate": 0.15,
+        "click_rate": 0.04,
+        "conversion_rate": 0.02,
+        "unsubscribe_rate": 0.025,
+        "revenue": 3000,
+        "status": "Active",
+        "notes": "High unsub rate expected"
+      },
+      {
+        "col_0": 5,
+        "workflow_name": "Post-Purchase Onboarding",
+        "emails_sent": 4200,
+        "open_rate": 0.62,
+        "click_rate": 0.28,
+        "conversion_rate": 0.15,
+        "unsubscribe_rate": 0.001,
+        "status": "Active",
+        "notes": "Highest engagement rates"
+      },
+      {
+        "col_0": 6,
+        "workflow_name": "Trial Expiration",
+        "emails_sent": 2100,
+        "open_rate": 0.55,
+        "click_rate": 0.2,
+        "conversion_rate": 0.25,
+        "unsubscribe_rate": 0.008,
+        "revenue": 52000,
+        "status": "Active",
+        "notes": "Key conversion workflow"
+      }
+    ]
+  }
+}

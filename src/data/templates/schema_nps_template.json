@@ -1,0 +1,674 @@
+{
+  "id": "nps_template",
+  "name": "NPS Template",
+  "category": "research",
+  "sheets": [
+    {
+      "id": "dashboard",
+      "name": "Dashboard",
+      "type": "summary"
+    },
+    {
+      "id": "response_log",
+      "name": "Response Log",
+      "type": "table",
+      "columns": [
+        {
+          "id": "response_id",
+          "header": "Response ID",
+          "type": "text"
+        },
+        {
+          "id": "date",
+          "header": "Date",
+          "type": "date"
+        },
+        {
+          "id": "customer_name",
+          "header": "Customer Name",
+          "type": "text"
+        },
+        {
+          "id": "email",
+          "header": "Email",
+          "type": "text"
+        },
+        {
+          "id": "segment",
+          "header": "Segment",
+          "type": "text"
+        },
+        {
+          "id": "product_service",
+          "header": "Product/Service",
+          "type": "text"
+        },
+        {
+          "id": "nps_score",
+          "header": "NPS Score",
+          "type": "score",
+          "min": 1,
+          "max": 5,
+          "colorScale": {
+            "ranges": [
+              {
+                "min": 1,
+                "max": 2,
+                "color": "#ef4444"
+              },
+              {
+                "min": 3,
+                "max": 3,
+                "color": "#eab308"
+              },
+              {
+                "min": 4,
+                "max": 5,
+                "color": "#22c55e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "category",
+          "header": "Category",
+          "type": "text",
+          "editable": false
+        },
+        {
+          "id": "verbatim_feedback",
+          "header": "Verbatim Feedback",
+          "type": "currency"
+        },
+        {
+          "id": "follow_up_status",
+          "header": "Follow-up Status",
+          "type": "dropdown",
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done",
+            "On Hold",
+            "Cancelled"
+          ]
+        },
+        {
+          "id": "follow_up_owner",
+          "header": "Follow-up Owner",
+          "type": "text"
+        },
+        {
+          "id": "follow_up_date",
+          "header": "Follow-up Date",
+          "type": "date"
+        }
+      ],
+      "groupBy": "category"
+    },
+    {
+      "id": "trend_analysis",
+      "name": "Trend Analysis",
+      "type": "table",
+      "columns": [
+        {
+          "id": "month",
+          "header": "Month",
+          "type": "text"
+        },
+        {
+          "id": "total_responses",
+          "header": "Total Responses",
+          "type": "number"
+        },
+        {
+          "id": "promoters_count",
+          "header": "Promoters Count",
+          "type": "number"
+        },
+        {
+          "id": "passives_count",
+          "header": "Passives Count",
+          "type": "number"
+        },
+        {
+          "id": "detractors_count",
+          "header": "Detractors Count",
+          "type": "number"
+        },
+        {
+          "id": "promoters",
+          "header": "% Promoters",
+          "type": "percentage"
+        },
+        {
+          "id": "passives",
+          "header": "% Passives",
+          "type": "percentage"
+        },
+        {
+          "id": "detractors",
+          "header": "% Detractors",
+          "type": "percentage"
+        },
+        {
+          "id": "nps_score",
+          "header": "NPS Score",
+          "type": "score",
+          "min": 1,
+          "max": 5,
+          "colorScale": {
+            "ranges": [
+              {
+                "min": 1,
+                "max": 2,
+                "color": "#ef4444"
+              },
+              {
+                "min": 3,
+                "max": 3,
+                "color": "#eab308"
+              },
+              {
+                "min": 4,
+                "max": 5,
+                "color": "#22c55e"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "segment_analysis",
+      "name": "Segment Analysis",
+      "type": "table",
+      "columns": [
+        {
+          "id": "segment",
+          "header": "Segment",
+          "type": "text"
+        },
+        {
+          "id": "total_responses",
+          "header": "Total Responses",
+          "type": "number"
+        },
+        {
+          "id": "promoters",
+          "header": "Promoters",
+          "type": "number"
+        },
+        {
+          "id": "passives",
+          "header": "Passives",
+          "type": "number"
+        },
+        {
+          "id": "detractors",
+          "header": "Detractors",
+          "type": "number"
+        },
+        {
+          "id": "nps_score",
+          "header": "NPS Score",
+          "type": "score",
+          "min": 1,
+          "max": 5,
+          "colorScale": {
+            "ranges": [
+              {
+                "min": 1,
+                "max": 2,
+                "color": "#ef4444"
+              },
+              {
+                "min": 3,
+                "max": 3,
+                "color": "#eab308"
+              },
+              {
+                "min": 4,
+                "max": 5,
+                "color": "#22c55e"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "verbatim_analysis",
+      "name": "Verbatim Analysis",
+      "type": "form",
+      "fields": [
+        {
+          "id": "nps_score",
+          "label": "NPS Score",
+          "type": "text",
+          "hint": "Verbatim",
+          "placeholder": "Verbatim"
+        }
+      ]
+    },
+    {
+      "id": "action_plan",
+      "name": "Action Plan",
+      "type": "table",
+      "columns": [
+        {
+          "id": "action_id",
+          "header": "Action ID",
+          "type": "textarea",
+          "width": "250px"
+        },
+        {
+          "id": "source",
+          "header": "Source",
+          "type": "text"
+        },
+        {
+          "id": "customer_segment",
+          "header": "Customer/Segment",
+          "type": "text"
+        },
+        {
+          "id": "issue_opportunity",
+          "header": "Issue/Opportunity",
+          "type": "text"
+        },
+        {
+          "id": "action",
+          "header": "Action",
+          "type": "textarea",
+          "width": "250px"
+        },
+        {
+          "id": "owner",
+          "header": "Owner",
+          "type": "text"
+        },
+        {
+          "id": "due_date",
+          "header": "Due Date",
+          "type": "date"
+        },
+        {
+          "id": "status",
+          "header": "Status",
+          "type": "dropdown",
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done",
+            "On Hold",
+            "Cancelled"
+          ]
+        },
+        {
+          "id": "outcome",
+          "header": "Outcome",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "id": "benchmarking",
+      "name": "Benchmarking",
+      "type": "table",
+      "columns": [
+        {
+          "id": "industry",
+          "header": "Industry",
+          "type": "text"
+        },
+        {
+          "id": "average_nps",
+          "header": "Average NPS",
+          "type": "number"
+        },
+        {
+          "id": "best_in_class_nps",
+          "header": "Best-in-Class NPS",
+          "type": "number"
+        },
+        {
+          "id": "your_nps",
+          "header": "Your NPS",
+          "type": "number"
+        },
+        {
+          "id": "gap_to_average",
+          "header": "Gap to Average",
+          "type": "number"
+        },
+        {
+          "id": "gap_to_best",
+          "header": "Gap to Best",
+          "type": "number"
+        }
+      ]
+    },
+    {
+      "id": "reporting",
+      "name": "Reporting",
+      "type": "summary"
+    }
+  ],
+  "defaultData": {
+    "response_log": [
+      {
+        "category": "Detractor"
+      },
+      {
+        "category": "Detractor"
+      },
+      {
+        "category": "Detractor"
+      },
+      {
+        "category": "Detractor"
+      },
+      {
+        "category": "Detractor"
+      },
+      {
+        "category": "Detractor"
+      },
+      {
+        "category": "Detractor"
+      },
+      {
+        "category": "Detractor"
+      },
+      {
+        "category": "Detractor"
+      },
+      {
+        "category": "Detractor"
+      },
+      {
+        "category": "Detractor"
+      },
+      {
+        "category": "Detractor"
+      },
+      {
+        "category": "Detractor"
+      },
+      {
+        "category": "Detractor"
+      },
+      {
+        "category": "Detractor"
+      },
+      {
+        "category": "Detractor"
+      },
+      {
+        "category": "Detractor"
+      },
+      {
+        "category": "Detractor"
+      },
+      {
+        "category": "Detractor"
+      },
+      {
+        "category": "Detractor"
+      },
+      {
+        "category": "Detractor"
+      },
+      {
+        "category": "Detractor"
+      },
+      {
+        "category": "Detractor"
+      },
+      {
+        "category": "Detractor"
+      },
+      {
+        "category": "Detractor"
+      },
+      {
+        "category": "Detractor"
+      },
+      {
+        "category": "Detractor"
+      },
+      {
+        "category": "Detractor"
+      },
+      {
+        "category": "Detractor"
+      },
+      {
+        "category": "Detractor"
+      },
+      {
+        "category": "Detractor"
+      },
+      {
+        "category": "Detractor"
+      },
+      {
+        "category": "Detractor"
+      },
+      {
+        "category": "Detractor"
+      },
+      {
+        "category": "Detractor"
+      },
+      {
+        "category": "Detractor"
+      },
+      {
+        "category": "Detractor"
+      },
+      {
+        "category": "Detractor"
+      },
+      {
+        "category": "Detractor"
+      },
+      {
+        "category": "Detractor"
+      },
+      {
+        "category": "Detractor"
+      },
+      {
+        "category": "Detractor"
+      },
+      {
+        "category": "Detractor"
+      },
+      {
+        "category": "Detractor"
+      },
+      {
+        "category": "Detractor"
+      },
+      {
+        "category": "Detractor"
+      },
+      {
+        "category": "Detractor"
+      },
+      {
+        "category": "Detractor"
+      },
+      {
+        "category": "Detractor"
+      },
+      {
+        "category": "Detractor"
+      },
+      {
+        "category": "Detractor"
+      },
+      {
+        "category": "Detractor"
+      },
+      {
+        "category": "Detractor"
+      },
+      {
+        "category": "Detractor"
+      },
+      {
+        "category": "Detractor"
+      },
+      {
+        "category": "Detractor"
+      },
+      {
+        "category": "Detractor"
+      },
+      {
+        "category": "Detractor"
+      },
+      {
+        "category": "Detractor"
+      }
+    ],
+    "trend_analysis": [
+      {
+        "month": "Jan",
+        "total_responses": 16.25
+      },
+      {
+        "month": "Feb",
+        "total_responses": 16.25
+      },
+      {
+        "month": "Mar",
+        "total_responses": 16.25
+      },
+      {
+        "month": "Apr",
+        "total_responses": 16.25
+      },
+      {
+        "month": "May",
+        "total_responses": 16.25
+      },
+      {
+        "month": "Jun",
+        "total_responses": 16.25
+      },
+      {
+        "month": "Jul",
+        "total_responses": 16.25
+      },
+      {
+        "month": "Aug",
+        "total_responses": 16.25
+      },
+      {
+        "month": "Sep",
+        "total_responses": 16.25
+      },
+      {
+        "month": "Oct",
+        "total_responses": 16.25
+      },
+      {
+        "month": "Nov",
+        "total_responses": 16.25
+      },
+      {
+        "month": "Dec",
+        "total_responses": 16.25
+      }
+    ],
+    "segment_analysis": [
+      {
+        "segment": "Enterprise"
+      },
+      {
+        "segment": "SMB"
+      },
+      {
+        "segment": "Startup"
+      },
+      {
+        "segment": "Individual"
+      }
+    ],
+    "benchmarking": [
+      {
+        "industry": "SaaS",
+        "average_nps": 32,
+        "best_in_class_nps": 60,
+        "gap_to_average": -32,
+        "gap_to_best": -60
+      },
+      {
+        "industry": "E-commerce",
+        "average_nps": 35,
+        "best_in_class_nps": 55,
+        "gap_to_average": -35,
+        "gap_to_best": -55
+      },
+      {
+        "industry": "Financial Services",
+        "average_nps": 28,
+        "best_in_class_nps": 50,
+        "gap_to_average": -28,
+        "gap_to_best": -50
+      },
+      {
+        "industry": "Healthcare",
+        "average_nps": 30,
+        "best_in_class_nps": 52,
+        "gap_to_average": -30,
+        "gap_to_best": -52
+      },
+      {
+        "industry": "Telecom",
+        "average_nps": 20,
+        "best_in_class_nps": 45,
+        "gap_to_average": -20,
+        "gap_to_best": -45
+      },
+      {
+        "industry": "Retail",
+        "average_nps": 35,
+        "best_in_class_nps": 58,
+        "gap_to_average": -35,
+        "gap_to_best": -58
+      },
+      {
+        "industry": "Travel & Hospitality",
+        "average_nps": 40,
+        "best_in_class_nps": 62,
+        "gap_to_average": -40,
+        "gap_to_best": -62
+      },
+      {
+        "industry": "Education",
+        "average_nps": 38,
+        "best_in_class_nps": 60,
+        "gap_to_average": -38,
+        "gap_to_best": -60
+      },
+      {
+        "industry": "Manufacturing",
+        "average_nps": 25,
+        "best_in_class_nps": 48,
+        "gap_to_average": -25,
+        "gap_to_best": -48
+      },
+      {
+        "industry": "Professional Services",
+        "average_nps": 45,
+        "best_in_class_nps": 65,
+        "gap_to_average": -45,
+        "gap_to_best": -65
+      }
+    ]
+  }
+}

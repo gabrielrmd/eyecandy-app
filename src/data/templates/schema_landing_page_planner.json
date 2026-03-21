@@ -1,0 +1,1502 @@
+{
+  "id": "landing_page_planner",
+  "name": "Landing Page Planner",
+  "category": "channels",
+  "sheets": [
+    {
+      "id": "dashboard",
+      "name": "Dashboard",
+      "type": "summary"
+    },
+    {
+      "id": "best_practices",
+      "name": "Best Practices",
+      "type": "table",
+      "columns": [
+        {
+          "id": "col_0",
+          "header": "#",
+          "type": "number"
+        },
+        {
+          "id": "category",
+          "header": "Category",
+          "type": "text",
+          "editable": false
+        },
+        {
+          "id": "best_practice",
+          "header": "Best Practice",
+          "type": "text"
+        },
+        {
+          "id": "impact_level",
+          "header": "Impact Level",
+          "type": "text"
+        },
+        {
+          "id": "implemented",
+          "header": "Implemented?",
+          "type": "text"
+        }
+      ],
+      "groupBy": "category"
+    },
+    {
+      "id": "product_sales_lp",
+      "name": "Product Sales LP",
+      "type": "table",
+      "columns": [
+        {
+          "id": "col_0",
+          "header": "#",
+          "type": "number"
+        },
+        {
+          "id": "section",
+          "header": "Section",
+          "type": "text",
+          "editable": false
+        },
+        {
+          "id": "content_guide",
+          "header": "Content Guide",
+          "type": "textarea",
+          "width": "250px"
+        },
+        {
+          "id": "design_notes",
+          "header": "Design Notes",
+          "type": "textarea",
+          "width": "250px"
+        },
+        {
+          "id": "priority",
+          "header": "Priority",
+          "type": "dropdown",
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        }
+      ],
+      "groupBy": "section"
+    },
+    {
+      "id": "brand_awareness_lp",
+      "name": "Brand Awareness LP",
+      "type": "table",
+      "columns": [
+        {
+          "id": "col_0",
+          "header": "#",
+          "type": "number"
+        },
+        {
+          "id": "section",
+          "header": "Section",
+          "type": "text",
+          "editable": false
+        },
+        {
+          "id": "content_guide",
+          "header": "Content Guide",
+          "type": "textarea",
+          "width": "250px"
+        },
+        {
+          "id": "design_notes",
+          "header": "Design Notes",
+          "type": "textarea",
+          "width": "250px"
+        },
+        {
+          "id": "priority",
+          "header": "Priority",
+          "type": "dropdown",
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        }
+      ],
+      "groupBy": "section"
+    },
+    {
+      "id": "lead_magnet_lp",
+      "name": "Lead Magnet LP",
+      "type": "table",
+      "columns": [
+        {
+          "id": "col_0",
+          "header": "#",
+          "type": "number"
+        },
+        {
+          "id": "section",
+          "header": "Section",
+          "type": "text",
+          "editable": false
+        },
+        {
+          "id": "content_guide",
+          "header": "Content Guide",
+          "type": "textarea",
+          "width": "250px"
+        },
+        {
+          "id": "design_notes",
+          "header": "Design Notes",
+          "type": "textarea",
+          "width": "250px"
+        },
+        {
+          "id": "priority",
+          "header": "Priority",
+          "type": "dropdown",
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        }
+      ],
+      "groupBy": "section"
+    },
+    {
+      "id": "event_registration_lp",
+      "name": "Event Registration LP",
+      "type": "table",
+      "columns": [
+        {
+          "id": "col_0",
+          "header": "#",
+          "type": "number"
+        },
+        {
+          "id": "section",
+          "header": "Section",
+          "type": "text",
+          "editable": false
+        },
+        {
+          "id": "content_guide",
+          "header": "Content Guide",
+          "type": "textarea",
+          "width": "250px"
+        },
+        {
+          "id": "design_notes",
+          "header": "Design Notes",
+          "type": "textarea",
+          "width": "250px"
+        },
+        {
+          "id": "priority",
+          "header": "Priority",
+          "type": "dropdown",
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        }
+      ],
+      "groupBy": "section"
+    },
+    {
+      "id": "saas_service_lp",
+      "name": "SaaS Service LP",
+      "type": "table",
+      "columns": [
+        {
+          "id": "col_0",
+          "header": "#",
+          "type": "number"
+        },
+        {
+          "id": "section",
+          "header": "Section",
+          "type": "text",
+          "editable": false
+        },
+        {
+          "id": "content_guide",
+          "header": "Content Guide",
+          "type": "textarea",
+          "width": "250px"
+        },
+        {
+          "id": "design_notes",
+          "header": "Design Notes",
+          "type": "textarea",
+          "width": "250px"
+        },
+        {
+          "id": "priority",
+          "header": "Priority",
+          "type": "dropdown",
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        }
+      ],
+      "groupBy": "section"
+    },
+    {
+      "id": "page_strategy",
+      "name": "Page Strategy",
+      "type": "table",
+      "columns": [
+        {
+          "id": "col_0",
+          "header": "#",
+          "type": "number"
+        },
+        {
+          "id": "page_name",
+          "header": "Page Name",
+          "type": "text"
+        },
+        {
+          "id": "goal",
+          "header": "Goal",
+          "type": "text"
+        },
+        {
+          "id": "target_audience",
+          "header": "Target Audience",
+          "type": "text"
+        },
+        {
+          "id": "traffic_source",
+          "header": "Traffic Source",
+          "type": "text"
+        },
+        {
+          "id": "lp_framework",
+          "header": "LP Framework",
+          "type": "text"
+        },
+        {
+          "id": "status",
+          "header": "Status",
+          "type": "dropdown",
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done",
+            "On Hold",
+            "Cancelled"
+          ]
+        },
+        {
+          "id": "launch_date",
+          "header": "Launch Date",
+          "type": "date"
+        },
+        {
+          "id": "notes",
+          "header": "Notes",
+          "type": "textarea",
+          "width": "250px"
+        }
+      ]
+    },
+    {
+      "id": "copy_planner",
+      "name": "Copy Planner",
+      "type": "form",
+      "fields": [
+        {
+          "id": "page_1",
+          "label": "PAGE 1",
+          "type": "text"
+        },
+        {
+          "id": "page_2",
+          "label": "PAGE 2",
+          "type": "text"
+        },
+        {
+          "id": "page_3",
+          "label": "PAGE 3",
+          "type": "text"
+        },
+        {
+          "id": "page_4",
+          "label": "PAGE 4",
+          "type": "text"
+        },
+        {
+          "id": "page_5",
+          "label": "PAGE 5",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "id": "ab_test_planner",
+      "name": "AB Test Planner",
+      "type": "table",
+      "columns": [
+        {
+          "id": "col_0",
+          "header": "#",
+          "type": "number"
+        },
+        {
+          "id": "page_name",
+          "header": "Page Name",
+          "type": "text"
+        },
+        {
+          "id": "variable_type",
+          "header": "Variable Type",
+          "type": "text"
+        },
+        {
+          "id": "variant_a_control",
+          "header": "Variant A (Control)",
+          "type": "text"
+        },
+        {
+          "id": "variant_b_challenger",
+          "header": "Variant B (Challenger)",
+          "type": "text"
+        },
+        {
+          "id": "hypothesis",
+          "header": "Hypothesis",
+          "type": "text"
+        },
+        {
+          "id": "duration",
+          "header": "Duration",
+          "type": "text"
+        },
+        {
+          "id": "status",
+          "header": "Status",
+          "type": "dropdown",
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done",
+            "On Hold",
+            "Cancelled"
+          ]
+        },
+        {
+          "id": "winner_learning",
+          "header": "Winner & Learning",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "id": "performance_tracker",
+      "name": "Performance Tracker",
+      "type": "table",
+      "columns": [
+        {
+          "id": "col_0",
+          "header": "#",
+          "type": "number"
+        },
+        {
+          "id": "page_name",
+          "header": "Page Name",
+          "type": "text"
+        },
+        {
+          "id": "framework",
+          "header": "Framework",
+          "type": "text"
+        },
+        {
+          "id": "launch_date",
+          "header": "Launch Date",
+          "type": "date"
+        },
+        {
+          "id": "status",
+          "header": "Status",
+          "type": "dropdown",
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done",
+            "On Hold",
+            "Cancelled"
+          ]
+        },
+        {
+          "id": "visitors",
+          "header": "Visitors",
+          "type": "text"
+        },
+        {
+          "id": "conversions",
+          "header": "Conversions",
+          "type": "percentage"
+        },
+        {
+          "id": "ad_spend",
+          "header": "Ad Spend",
+          "type": "date"
+        },
+        {
+          "id": "conv_rate",
+          "header": "Conv Rate",
+          "type": "percentage"
+        },
+        {
+          "id": "cpa",
+          "header": "CPA",
+          "type": "number"
+        },
+        {
+          "id": "revenue",
+          "header": "Revenue",
+          "type": "currency"
+        },
+        {
+          "id": "profit",
+          "header": "Profit",
+          "type": "number"
+        },
+        {
+          "id": "roi",
+          "header": "ROI",
+          "type": "percentage"
+        },
+        {
+          "id": "notes",
+          "header": "Notes",
+          "type": "textarea",
+          "width": "250px"
+        }
+      ]
+    }
+  ],
+  "defaultData": {
+    "best_practices": [
+      {
+        "col_0": 1,
+        "category": "Headlines & Copy",
+        "best_practice": "Use benefit-driven headlines that answer 'What is in it for me?'",
+        "impact_level": "High"
+      },
+      {
+        "col_0": 2,
+        "category": "Headlines & Copy",
+        "best_practice": "Keep headlines under 10 words for maximum impact",
+        "impact_level": "High"
+      },
+      {
+        "col_0": 3,
+        "category": "Headlines & Copy",
+        "best_practice": "Include a power word: Free, New, Proven, Instant, Guaranteed",
+        "impact_level": "Medium"
+      },
+      {
+        "col_0": 4,
+        "category": "Headlines & Copy",
+        "best_practice": "Write subheads that expand on the headline promise",
+        "impact_level": "Medium"
+      },
+      {
+        "col_0": 5,
+        "category": "Headlines & Copy",
+        "best_practice": "Use second person (you/your) to speak directly to the visitor",
+        "impact_level": "High"
+      },
+      {
+        "col_0": 6,
+        "category": "Headlines & Copy",
+        "best_practice": "Break copy into scannable sections with clear subheads",
+        "impact_level": "High"
+      },
+      {
+        "col_0": 7,
+        "category": "Headlines & Copy",
+        "best_practice": "Eliminate jargon — write at an 8th grade reading level",
+        "impact_level": "Medium"
+      },
+      {
+        "col_0": 8,
+        "category": "Headlines & Copy",
+        "best_practice": "Lead with the problem before presenting your solution",
+        "impact_level": "High"
+      },
+      {
+        "col_0": 9,
+        "category": "CTA Design",
+        "best_practice": "Use contrasting colour for CTA buttons that stands out from page",
+        "impact_level": "High"
+      },
+      {
+        "col_0": 10,
+        "category": "CTA Design",
+        "best_practice": "Write action-oriented CTA text: Get, Start, Download, Join",
+        "impact_level": "High"
+      },
+      {
+        "col_0": 11,
+        "category": "CTA Design",
+        "best_practice": "Place primary CTA above the fold and repeat below",
+        "impact_level": "High"
+      },
+      {
+        "col_0": 12,
+        "category": "CTA Design",
+        "best_practice": "Add urgency or scarcity cues near the CTA when authentic",
+        "impact_level": "Medium"
+      },
+      {
+        "col_0": 13,
+        "category": "CTA Design",
+        "best_practice": "Use directional cues (arrows, eye gaze) pointing to CTA",
+        "impact_level": "Medium"
+      },
+      {
+        "col_0": 14,
+        "category": "CTA Design",
+        "best_practice": "Make CTA button large enough to tap on mobile (min 44x44px)",
+        "impact_level": "High"
+      },
+      {
+        "col_0": 15,
+        "category": "CTA Design",
+        "best_practice": "Add micro-copy below CTA to reduce anxiety (No credit card required)",
+        "impact_level": "High"
+      },
+      {
+        "col_0": 16,
+        "category": "Visual Design",
+        "best_practice": "Use hero images or videos that show the product in context",
+        "impact_level": "High"
+      },
+      {
+        "col_0": 17,
+        "category": "Visual Design",
+        "best_practice": "Maintain consistent brand colours and typography throughout",
+        "impact_level": "Medium"
+      },
+      {
+        "col_0": 18,
+        "category": "Visual Design",
+        "best_practice": "Use white space strategically — do not overcrowd the layout",
+        "impact_level": "High"
+      },
+      {
+        "col_0": 19,
+        "category": "Visual Design",
+        "best_practice": "Ensure visual hierarchy guides the eye from headline to CTA",
+        "impact_level": "High"
+      },
+      {
+        "col_0": 20,
+        "category": "Visual Design",
+        "best_practice": "Use real photos over stock images when possible",
+        "impact_level": "Medium"
+      },
+      {
+        "col_0": 21,
+        "category": "Visual Design",
+        "best_practice": "Keep page width between 960-1200px for optimal readability",
+        "impact_level": "Low"
+      },
+      {
+        "col_0": 22,
+        "category": "Visual Design",
+        "best_practice": "Use icons to break up text and illustrate key benefits",
+        "impact_level": "Medium"
+      },
+      {
+        "col_0": 23,
+        "category": "Trust & Social Proof",
+        "best_practice": "Display customer testimonials with real names and photos",
+        "impact_level": "High"
+      },
+      {
+        "col_0": 24,
+        "category": "Trust & Social Proof",
+        "best_practice": "Include trust badges: security seals, certifications, awards",
+        "impact_level": "High"
+      },
+      {
+        "col_0": 25,
+        "category": "Trust & Social Proof",
+        "best_practice": "Show customer logos or 'as seen in' media mentions",
+        "impact_level": "Medium"
+      },
+      {
+        "col_0": 26,
+        "category": "Trust & Social Proof",
+        "best_practice": "Display specific numbers: '10,000+ customers served'",
+        "impact_level": "High"
+      },
+      {
+        "col_0": 27,
+        "category": "Trust & Social Proof",
+        "best_practice": "Add star ratings or review scores near the CTA",
+        "impact_level": "High"
+      },
+      {
+        "col_0": 28,
+        "category": "Trust & Social Proof",
+        "best_practice": "Include a money-back guarantee or risk-free trial promise",
+        "impact_level": "High"
+      },
+      {
+        "col_0": 29,
+        "category": "Trust & Social Proof",
+        "best_practice": "Show real-time activity: 'X people viewing this right now'",
+        "impact_level": "Low"
+      },
+      {
+        "col_0": 30,
+        "category": "Forms & Conversion",
+        "best_practice": "Ask only for essential information — fewer fields = higher conversion",
+        "impact_level": "High"
+      },
+      {
+        "col_0": 31,
+        "category": "Forms & Conversion",
+        "best_practice": "Use inline form validation with real-time error messages",
+        "impact_level": "Medium"
+      },
+      {
+        "col_0": 32,
+        "category": "Forms & Conversion",
+        "best_practice": "Pre-fill fields when possible from URL parameters or cookies",
+        "impact_level": "Medium"
+      },
+      {
+        "col_0": 33,
+        "category": "Forms & Conversion",
+        "best_practice": "Place form labels above input fields not beside them",
+        "impact_level": "Medium"
+      },
+      {
+        "col_0": 34,
+        "category": "Forms & Conversion",
+        "best_practice": "Use multi-step forms for complex data collection",
+        "impact_level": "High"
+      },
+      {
+        "col_0": 35,
+        "category": "Forms & Conversion",
+        "best_practice": "Add progress indicators for multi-step forms",
+        "impact_level": "Medium"
+      },
+      {
+        "col_0": 36,
+        "category": "Forms & Conversion",
+        "best_practice": "Make the submit button text specific: 'Get My Free Guide'",
+        "impact_level": "High"
+      },
+      {
+        "col_0": 37,
+        "category": "Page Speed & Technical",
+        "best_practice": "Load page in under 3 seconds — each second lost = 7% fewer conversions",
+        "impact_level": "High"
+      },
+      {
+        "col_0": 38,
+        "category": "Page Speed & Technical",
+        "best_practice": "Compress images to WebP format and lazy-load below-fold images",
+        "impact_level": "High"
+      },
+      {
+        "col_0": 39,
+        "category": "Page Speed & Technical",
+        "best_practice": "Minimise HTTP requests — combine CSS/JS files",
+        "impact_level": "Medium"
+      },
+      {
+        "col_0": 40,
+        "category": "Page Speed & Technical",
+        "best_practice": "Use a CDN for faster global delivery",
+        "impact_level": "Medium"
+      },
+      {
+        "col_0": 41,
+        "category": "Page Speed & Technical",
+        "best_practice": "Implement responsive design — 60%+ traffic is mobile",
+        "impact_level": "High"
+      },
+      {
+        "col_0": 42,
+        "category": "Page Speed & Technical",
+        "best_practice": "Remove navigation menu to keep visitors focused",
+        "impact_level": "High"
+      },
+      {
+        "col_0": 43,
+        "category": "Page Speed & Technical",
+        "best_practice": "Set up proper tracking: UTMs, conversion pixels, heatmaps",
+        "impact_level": "High"
+      },
+      {
+        "col_0": 44,
+        "category": "Mobile Optimisation",
+        "best_practice": "Design mobile-first — stack content vertically",
+        "impact_level": "High"
+      },
+      {
+        "col_0": 45,
+        "category": "Mobile Optimisation",
+        "best_practice": "Use tap-friendly buttons with adequate spacing",
+        "impact_level": "High"
+      },
+      {
+        "col_0": 46,
+        "category": "Mobile Optimisation",
+        "best_practice": "Simplify forms for mobile — use dropdowns over text input",
+        "impact_level": "Medium"
+      },
+      {
+        "col_0": 47,
+        "category": "Mobile Optimisation",
+        "best_practice": "Test on real devices, not just browser resizers",
+        "impact_level": "Medium"
+      },
+      {
+        "col_0": 48,
+        "category": "Mobile Optimisation",
+        "best_practice": "Use click-to-call buttons for phone numbers",
+        "impact_level": "Medium"
+      },
+      {
+        "col_0": 49,
+        "category": "Mobile Optimisation",
+        "best_practice": "Avoid pop-ups that cover content on mobile",
+        "impact_level": "High"
+      },
+      {
+        "col_0": 50,
+        "category": "Testing & Optimisation",
+        "best_practice": "Always test one variable at a time in AB tests",
+        "impact_level": "High"
+      },
+      {
+        "col_0": 51,
+        "category": "Testing & Optimisation",
+        "best_practice": "Run tests for minimum 2 weeks or 1000 visitors",
+        "impact_level": "High"
+      },
+      {
+        "col_0": 52,
+        "category": "Testing & Optimisation",
+        "best_practice": "Reach 95% statistical significance before declaring winner",
+        "impact_level": "High"
+      },
+      {
+        "col_0": 53,
+        "category": "Testing & Optimisation",
+        "best_practice": "Test headlines first — they have the biggest impact on conversion",
+        "impact_level": "High"
+      },
+      {
+        "col_0": 54,
+        "category": "Testing & Optimisation",
+        "best_practice": "Document every test with hypothesis, result, and learning",
+        "impact_level": "Medium"
+      },
+      {
+        "col_0": 55,
+        "category": "Testing & Optimisation",
+        "best_practice": "Create a testing roadmap — plan tests quarterly",
+        "impact_level": "Medium"
+      },
+      {
+        "col_0": 56,
+        "category": "Testing & Optimisation",
+        "best_practice": "Use heatmaps and session recordings to inform test ideas",
+        "impact_level": "High"
+      },
+      {
+        "col_0": "IMPLEMENTATION SUMMARY"
+      }
+    ],
+    "product_sales_lp": [
+      {
+        "col_0": 1,
+        "section": "Hero Section",
+        "content_guide": "Product name + one-line value proposition. Hero image/video showing product in use. Price prominently displayed. Primary CTA: Buy Now / Add to Cart.",
+        "design_notes": "Full-width hero image. Price in large font. CTA button in contrasting colour above the fold.",
+        "priority": "Must Have"
+      },
+      {
+        "col_0": 2,
+        "section": "Problem Statement",
+        "content_guide": "2-3 sentences describing the pain point your product solves. Use emotional language the customer uses.",
+        "design_notes": "Short paragraph or 3 bullet points. Icon or illustration of the problem.",
+        "priority": "Must Have"
+      },
+      {
+        "col_0": 3,
+        "section": "Product Features",
+        "content_guide": "3-5 key features with benefit-oriented descriptions. Each feature should answer: what it does AND why it matters.",
+        "design_notes": "Icon + feature name + 1-sentence benefit. Grid layout (2 or 3 columns).",
+        "priority": "Must Have"
+      },
+      {
+        "col_0": 4,
+        "section": "Product Gallery",
+        "content_guide": "4-8 high-quality product images from different angles. Include lifestyle shots showing the product in context.",
+        "design_notes": "Image carousel or grid. Zoom-on-hover functionality. Include 360-degree view if possible.",
+        "priority": "Must Have"
+      },
+      {
+        "col_0": 5,
+        "section": "Benefits Section",
+        "content_guide": "Transform features into outcomes. 'What will change in my life?' Focus on emotional and practical benefits.",
+        "design_notes": "3-column layout with icons. Before/after comparison if applicable.",
+        "priority": "Must Have"
+      },
+      {
+        "col_0": 6,
+        "section": "Social Proof",
+        "content_guide": "Customer reviews (minimum 3). Star ratings. Number of units sold. User-generated content.",
+        "design_notes": "Star rating summary at top. Individual reviews with name, photo, verified badge.",
+        "priority": "Must Have"
+      },
+      {
+        "col_0": 7,
+        "section": "Comparison Table",
+        "content_guide": "Compare your product vs alternatives or vs 'without this product'. Show clear advantages.",
+        "design_notes": "Table format with checkmarks. Your product column highlighted.",
+        "priority": "Should Have"
+      },
+      {
+        "col_0": 8,
+        "section": "FAQ Section",
+        "content_guide": "Address top 5-8 objections as questions. Include shipping, returns, warranty, sizing.",
+        "design_notes": "Accordion/expandable format. Keep answers concise (2-3 sentences).",
+        "priority": "Should Have"
+      },
+      {
+        "col_0": 9,
+        "section": "Guarantee / Risk Reversal",
+        "content_guide": "Money-back guarantee, free returns, warranty details. Make the promise bold and specific.",
+        "design_notes": "Badge or seal graphic. Large bold text: '30-Day Money-Back Guarantee'.",
+        "priority": "Must Have"
+      },
+      {
+        "col_0": 10,
+        "section": "Urgency / Scarcity",
+        "content_guide": "Limited stock, time-limited offer, special pricing. Only use when genuine.",
+        "design_notes": "Countdown timer or stock counter. Contrasting background colour.",
+        "priority": "Nice to Have"
+      },
+      {
+        "col_0": 11,
+        "section": "Secondary CTA",
+        "content_guide": "Repeat the purchase CTA. Add alternative: 'Add to Wishlist' or 'Compare Plans'.",
+        "design_notes": "Sticky bottom bar on mobile. Button matches hero CTA style.",
+        "priority": "Must Have"
+      },
+      {
+        "col_0": 12,
+        "section": "Trust Footer",
+        "content_guide": "Payment method logos, security badges, contact information, return policy link.",
+        "design_notes": "Horizontal row of badges. Small text for policy links.",
+        "priority": "Must Have"
+      },
+      {
+        "col_0": "PRODUCT SALES CONVERSION TIPS"
+      },
+      {
+        "col_0": "•",
+        "section": "Show the price early — hiding it increases bounce rate by 30%+"
+      },
+      {
+        "col_0": "•",
+        "section": "Use odd pricing (e.g. $47 instead of $50) for perceived value"
+      },
+      {
+        "col_0": "•",
+        "section": "Include shipping cost on the landing page — surprise costs are the #1 cart abandonment reason"
+      },
+      {
+        "col_0": "•",
+        "section": "Add a size/fit guide for physical products to reduce returns"
+      },
+      {
+        "col_0": "•",
+        "section": "Use video demonstrations — they increase conversion by 80% on average"
+      },
+      {
+        "col_0": "•",
+        "section": "Show real customer photos alongside professional product shots"
+      },
+      {
+        "col_0": "•",
+        "section": "Include a live chat or chatbot for instant purchase support"
+      },
+      {
+        "col_0": "•",
+        "section": "Offer multiple payment options: credit card, PayPal, Apple Pay, Buy Now Pay Later"
+      },
+      {
+        "col_0": "•",
+        "section": "Display estimated delivery date to create anticipation"
+      },
+      {
+        "col_0": "•",
+        "section": "Use cross-sell suggestions sparingly — max 2-3 complementary products"
+      }
+    ],
+    "brand_awareness_lp": [
+      {
+        "col_0": 1,
+        "section": "Brand Story Hero",
+        "content_guide": "Bold brand statement or manifesto. What does your brand stand for? Lead with purpose and mission, not products.",
+        "design_notes": "Full-screen hero with cinematic imagery or video background. Large typography. Minimal navigation.",
+        "priority": "Must Have"
+      },
+      {
+        "col_0": 2,
+        "section": "The Problem We Solve",
+        "content_guide": "Describe the bigger problem or movement your brand is part of. Think industry-level, not product-level.",
+        "design_notes": "Storytelling format. Statistics or data visualisation to quantify the problem.",
+        "priority": "Must Have"
+      },
+      {
+        "col_0": 3,
+        "section": "Our Mission",
+        "content_guide": "Your brand mission and vision in clear, memorable language. Why does your company exist beyond making money?",
+        "design_notes": "Quote-style layout. Brand colours prominent. Founder photo optional.",
+        "priority": "Must Have"
+      },
+      {
+        "col_0": 4,
+        "section": "Brand Values",
+        "content_guide": "3-5 core values with real examples of how you live them. Show, do not just tell.",
+        "design_notes": "Card layout with icons. Each value gets a short story or proof point.",
+        "priority": "Must Have"
+      },
+      {
+        "col_0": 5,
+        "section": "Impact Numbers",
+        "content_guide": "Key statistics that demonstrate your brand impact: customers helped, projects completed, awards won.",
+        "design_notes": "Large numbers with animated counters. Before/after or growth metrics.",
+        "priority": "Should Have"
+      },
+      {
+        "col_0": 6,
+        "section": "Customer Stories",
+        "content_guide": "Long-form testimonials or mini case studies. Focus on transformation and emotional journey.",
+        "design_notes": "Full-width story sections with customer photos. Video testimonials preferred.",
+        "priority": "Must Have"
+      },
+      {
+        "col_0": 7,
+        "section": "Behind the Scenes",
+        "content_guide": "Team photos, office culture, manufacturing process, sourcing stories. Humanise your brand.",
+        "design_notes": "Photo gallery or video montage. Candid, authentic imagery preferred.",
+        "priority": "Should Have"
+      },
+      {
+        "col_0": 8,
+        "section": "Media & Awards",
+        "content_guide": "Press mentions, industry awards, certifications. Build credibility through third-party validation.",
+        "design_notes": "Logo bar for media. Award badges in a grid. Links to press articles.",
+        "priority": "Should Have"
+      },
+      {
+        "col_0": 9,
+        "section": "Community & Social",
+        "content_guide": "Social media feeds, user-generated content, community initiatives, events.",
+        "design_notes": "Instagram-style grid. Social proof counters (followers, reviews).",
+        "priority": "Nice to Have"
+      },
+      {
+        "col_0": 10,
+        "section": "Content Hub Link",
+        "content_guide": "Link to blog, podcast, newsletter, or resource center. Give visitors a reason to stay connected.",
+        "design_notes": "Card-style links to top content pieces. 'Subscribe' CTA for newsletter.",
+        "priority": "Must Have"
+      },
+      {
+        "col_0": 11,
+        "section": "Soft CTA",
+        "content_guide": "Newsletter signup, social media follow, content download. Low-commitment actions that keep the relationship going.",
+        "design_notes": "Subtle, non-aggressive design. 'Join our community' language vs 'Buy now'.",
+        "priority": "Must Have"
+      },
+      {
+        "col_0": "BRAND AWARENESS KPIs TO TRACK"
+      },
+      {
+        "col_0": "•",
+        "section": "Time on Page",
+        "content_guide": "Target: 2+ minutes. Measures content engagement depth."
+      },
+      {
+        "col_0": "•",
+        "section": "Scroll Depth",
+        "content_guide": "Target: 70%+ reach bottom. Shows content holds attention."
+      },
+      {
+        "col_0": "•",
+        "section": "Social Shares",
+        "content_guide": "Target: 2%+ share rate. Measures content virality."
+      },
+      {
+        "col_0": "•",
+        "section": "Return Visitors",
+        "content_guide": "Target: 15%+ return rate. Shows brand recall."
+      },
+      {
+        "col_0": "•",
+        "section": "Newsletter Signups",
+        "content_guide": "Target: 5-10% conversion. Measures opt-in interest."
+      },
+      {
+        "col_0": "•",
+        "section": "Branded Search Lift",
+        "content_guide": "Target: 20%+ increase. Measures brand awareness growth."
+      },
+      {
+        "col_0": "•",
+        "section": "Social Media Follows",
+        "content_guide": "Target: 3-5% follow rate from page visitors."
+      },
+      {
+        "col_0": "•",
+        "section": "Content Downloads",
+        "content_guide": "Target: 10-15% download rate for gated content."
+      }
+    ],
+    "lead_magnet_lp": [
+      {
+        "col_0": 1,
+        "section": "Hero + Form",
+        "content_guide": "Compelling headline focused on what the visitor will learn or gain. Lead magnet title + subtitle. Form placed directly in the hero section for immediate visibility.",
+        "design_notes": "Split layout: left side copy, right side form. Form above the fold. 3-5 form fields maximum.",
+        "priority": "Must Have"
+      },
+      {
+        "col_0": 2,
+        "section": "What You Will Get",
+        "content_guide": "Bullet list of 5-7 specific takeaways. Be concrete: 'You will learn X' not 'You will get insights'. Preview 2-3 key findings.",
+        "design_notes": "Numbered list or checklist format. Include a mockup or preview image of the deliverable.",
+        "priority": "Must Have"
+      },
+      {
+        "col_0": 3,
+        "section": "Sneak Peek",
+        "content_guide": "Share 1-2 key insights or data points from the content to prove its value. Create a 'fear of missing out' on the full content.",
+        "design_notes": "Pull quote or stat callout. Partial infographic or chart from the content.",
+        "priority": "Should Have"
+      },
+      {
+        "col_0": 4,
+        "section": "Who This Is For",
+        "content_guide": "Define the ideal reader: job title, industry, experience level. Help visitors self-qualify.",
+        "design_notes": "3 persona cards or a simple checklist: 'This is for you if...'",
+        "priority": "Should Have"
+      },
+      {
+        "col_0": 5,
+        "section": "Author / Expert Credibility",
+        "content_guide": "Author bio with credentials. Company expertise. Number of people who have already downloaded.",
+        "design_notes": "Photo + bio. Social proof numbers: '5,000+ marketers downloaded'.",
+        "priority": "Must Have"
+      },
+      {
+        "col_0": 6,
+        "section": "Content Format Details",
+        "content_guide": "What format: PDF, video, template? How many pages? Time to consume? Is it immediately actionable?",
+        "design_notes": "Icon-based list: pages, read time, format. Set expectations clearly.",
+        "priority": "Should Have"
+      },
+      {
+        "col_0": 7,
+        "section": "Social Proof",
+        "content_guide": "Testimonials from people who used the lead magnet. Quotes about how it helped them.",
+        "design_notes": "1-2 testimonials with photos. Star rating if applicable.",
+        "priority": "Should Have"
+      },
+      {
+        "col_0": 8,
+        "section": "Privacy Assurance",
+        "content_guide": "Clear statement: 'We will not spam you.' Privacy policy link. Unsubscribe option mentioned.",
+        "design_notes": "Small text near the form submit button. Trust badges.",
+        "priority": "Must Have"
+      },
+      {
+        "col_0": 9,
+        "section": "Secondary CTA",
+        "content_guide": "Repeat the form or a 'Download Now' button lower on the page for visitors who scrolled past the hero.",
+        "design_notes": "Simplified version of the hero form. Same CTA styling.",
+        "priority": "Must Have"
+      },
+      {
+        "col_0": "LEAD MAGNET IDEAS BY TYPE"
+      },
+      {
+        "section": "Type",
+        "content_guide": "Examples",
+        "design_notes": "Typical Conversion Rate"
+      },
+      {
+        "section": "Ebook / Guide",
+        "content_guide": "Industry report, how-to guide, definitive guide, playbook",
+        "design_notes": "15-25%"
+      },
+      {
+        "section": "Template / Toolkit",
+        "content_guide": "Spreadsheet template, Notion template, Figma UI kit, email templates",
+        "design_notes": "25-40%"
+      },
+      {
+        "section": "Checklist",
+        "content_guide": "Launch checklist, audit checklist, compliance checklist",
+        "design_notes": "30-45%"
+      },
+      {
+        "section": "Free Tool / Calculator",
+        "content_guide": "ROI calculator, grading tool, assessment quiz",
+        "design_notes": "20-35%"
+      },
+      {
+        "section": "Webinar Recording",
+        "content_guide": "Past webinar replay, masterclass, training video",
+        "design_notes": "15-25%"
+      },
+      {
+        "section": "Case Study",
+        "content_guide": "Customer success story, before/after study, ROI case study",
+        "design_notes": "10-20%"
+      },
+      {
+        "section": "Whitepaper",
+        "content_guide": "Research findings, industry analysis, thought leadership",
+        "design_notes": "10-20%"
+      },
+      {
+        "section": "Swipe File",
+        "content_guide": "Ad examples, email sequences, headline formulas, copy templates",
+        "design_notes": "25-40%"
+      },
+      {
+        "section": "Free Course",
+        "content_guide": "Email course (5-7 days), video mini-course, certification prep",
+        "design_notes": "20-35%"
+      },
+      {
+        "section": "Report / Survey Results",
+        "content_guide": "Annual industry report, benchmark data, trend analysis",
+        "design_notes": "15-25%"
+      }
+    ],
+    "event_registration_lp": [
+      {
+        "col_0": 1,
+        "section": "Event Hero",
+        "content_guide": "Event name, date, time (with timezone), format (live/virtual/hybrid). One-line value proposition: what attendees will learn or gain.",
+        "design_notes": "Bold event name. Countdown timer to event date. Register CTA prominent above the fold.",
+        "priority": "Must Have"
+      },
+      {
+        "col_0": 2,
+        "section": "Key Details Bar",
+        "content_guide": "Date, time, duration, format, price (or FREE). All critical info scannable at a glance.",
+        "design_notes": "Horizontal bar with icon+text pairs. Sticky on scroll if possible.",
+        "priority": "Must Have"
+      },
+      {
+        "col_0": 3,
+        "section": "What You Will Learn",
+        "content_guide": "3-5 specific learning outcomes or agenda highlights. Be specific about what attendees will walk away with.",
+        "design_notes": "Numbered list or timeline format. Each point is actionable and specific.",
+        "priority": "Must Have"
+      },
+      {
+        "col_0": 4,
+        "section": "Speaker Profiles",
+        "content_guide": "Name, title, company, photo, brief bio, key credential. For multiple speakers, highlight the headliner.",
+        "design_notes": "Speaker cards with photos. Social media links. Credentials highlighted.",
+        "priority": "Must Have"
+      },
+      {
+        "col_0": 5,
+        "section": "Agenda / Schedule",
+        "content_guide": "Time-blocked agenda showing session topics, speakers, and breaks. For multi-day events, use tabbed views.",
+        "design_notes": "Timeline or table format. Session descriptions expandable. Download agenda as PDF option.",
+        "priority": "Should Have"
+      },
+      {
+        "col_0": 6,
+        "section": "Who Should Attend",
+        "content_guide": "Define ideal attendee: role, industry, experience level. Help people self-select.",
+        "design_notes": "Persona cards or checklist format. 'This event is for you if...'",
+        "priority": "Should Have"
+      },
+      {
+        "col_0": 7,
+        "section": "Past Event Proof",
+        "content_guide": "Photos/videos from previous events. Attendee testimonials. Previous attendance numbers.",
+        "design_notes": "Photo gallery. Video highlight reel. Testimonial carousel.",
+        "priority": "Should Have"
+      },
+      {
+        "col_0": 8,
+        "section": "Sponsors & Partners",
+        "content_guide": "Logo bar of event sponsors. Partnership credibility signals.",
+        "design_notes": "Tiered logo display (Gold, Silver, Bronze). Brief sponsor descriptions optional.",
+        "priority": "Nice to Have"
+      },
+      {
+        "col_0": 9,
+        "section": "Registration Form",
+        "content_guide": "Name, email, company, job title minimum. Add dietary/accessibility needs for in-person events.",
+        "design_notes": "Simple form. Group registration option for teams. Early bird pricing if applicable.",
+        "priority": "Must Have"
+      },
+      {
+        "col_0": 10,
+        "section": "FAQ",
+        "content_guide": "Common questions: Is there a recording? Can I get a refund? What platform? Is there networking?",
+        "design_notes": "Accordion format. 6-8 questions maximum.",
+        "priority": "Should Have"
+      },
+      {
+        "col_0": 11,
+        "section": "Share & Invite",
+        "content_guide": "Social sharing buttons. 'Bring a colleague' referral CTA. Calendar add buttons (Google, Outlook, iCal).",
+        "design_notes": "Share buttons prominent. Pre-written social post for easy sharing.",
+        "priority": "Should Have"
+      }
+    ],
+    "saas_service_lp": [
+      {
+        "col_0": 1,
+        "section": "Hero + Primary CTA",
+        "content_guide": "Clear product/service name. One-sentence value proposition answering: 'What does it do and for whom?' Primary CTA: Start Free Trial / Book a Demo / Get Started.",
+        "design_notes": "Product screenshot or demo video in the hero. CTA with contrasting colour. No navigation menu.",
+        "priority": "Must Have"
+      },
+      {
+        "col_0": 2,
+        "section": "Product Demo / Video",
+        "content_guide": "30-90 second product walkthrough. Show the interface or service in action. Focus on the 'aha moment'.",
+        "design_notes": "Embedded video with play button overlay. Autoplay muted option. GIF alternative for fast loading.",
+        "priority": "Must Have"
+      },
+      {
+        "col_0": 3,
+        "section": "Key Benefits",
+        "content_guide": "3-4 primary benefits with outcome-focused language. Not features, but results: 'Save 10 hours/week' not 'Has automation'.",
+        "design_notes": "Icon + benefit headline + 1-sentence description. Grid or column layout.",
+        "priority": "Must Have"
+      },
+      {
+        "col_0": 4,
+        "section": "How It Works",
+        "content_guide": "3-5 step process showing how easy it is to get started. Reduce perceived complexity.",
+        "design_notes": "Numbered steps with icons or screenshots. 'Get started in 3 minutes' messaging.",
+        "priority": "Must Have"
+      },
+      {
+        "col_0": 5,
+        "section": "Feature Comparison",
+        "content_guide": "Compare plans/tiers or compare vs manual processes. Show what is included at each level.",
+        "design_notes": "Comparison table with checkmarks. Most popular plan highlighted.",
+        "priority": "Should Have"
+      },
+      {
+        "col_0": 6,
+        "section": "Integrations",
+        "content_guide": "Show compatible tools and platforms. 'Works with tools you already use.'",
+        "design_notes": "Logo grid of integration partners. 'And 50+ more' if applicable.",
+        "priority": "Should Have"
+      },
+      {
+        "col_0": 7,
+        "section": "Case Studies",
+        "content_guide": "2-3 customer success stories with specific metrics: 'Increased conversions by 40%' or 'Saved $50K/year'.",
+        "design_notes": "Before/after metrics. Customer logo + quote + result. Industry-specific if possible.",
+        "priority": "Must Have"
+      },
+      {
+        "col_0": 8,
+        "section": "Pricing",
+        "content_guide": "Clear pricing tiers if applicable. Annual vs monthly toggle. Highlight best value option.",
+        "design_notes": "Pricing cards (3 tiers max). Feature checklist per tier. 'Most Popular' badge.",
+        "priority": "Should Have"
+      },
+      {
+        "col_0": 9,
+        "section": "Security & Compliance",
+        "content_guide": "SOC2, GDPR, encryption, uptime guarantees. Address enterprise buyer concerns.",
+        "design_notes": "Badge grid. Security certifications. Uptime percentage display.",
+        "priority": "Should Have"
+      },
+      {
+        "col_0": 10,
+        "section": "FAQ",
+        "content_guide": "Address trial terms, billing, data portability, onboarding support, contract terms.",
+        "design_notes": "Accordion format. Group by category: Billing, Features, Support, Security.",
+        "priority": "Should Have"
+      },
+      {
+        "col_0": 11,
+        "section": "Final CTA",
+        "content_guide": "Repeat primary CTA with urgency element. 'Start your 14-day free trial — no credit card required.'",
+        "design_notes": "Full-width CTA section. Contrasting background. Testimonial quote nearby.",
+        "priority": "Must Have"
+      },
+      {
+        "col_0": "SAAS CONVERSION BENCHMARKS"
+      },
+      {
+        "section": "Metric",
+        "content_guide": "Good",
+        "design_notes": "Great",
+        "priority": "Elite"
+      },
+      {
+        "section": "Free Trial Signup Rate",
+        "content_guide": "3-5%",
+        "design_notes": "5-10%",
+        "priority": "10%+"
+      },
+      {
+        "section": "Demo Request Rate",
+        "content_guide": "2-4%",
+        "design_notes": "4-8%",
+        "priority": "8%+"
+      },
+      {
+        "section": "Trial to Paid Conversion",
+        "content_guide": "15-25%",
+        "design_notes": "25-40%",
+        "priority": "40%+"
+      },
+      {
+        "section": "Free to Paid (Freemium)",
+        "content_guide": "2-5%",
+        "design_notes": "5-10%",
+        "priority": "10%+"
+      },
+      {
+        "section": "Avg Time to Convert",
+        "content_guide": "7-14 days",
+        "design_notes": "3-7 days",
+        "priority": "< 3 days"
+      },
+      {
+        "section": "Cost per Trial Signup",
+        "content_guide": "$30-80",
+        "design_notes": "$15-30",
+        "priority": "< $15"
+      },
+      {
+        "section": "Landing Page Bounce Rate",
+        "content_guide": "40-60%",
+        "design_notes": "30-40%",
+        "priority": "< 30%"
+      }
+    ],
+    "page_strategy": [
+      {
+        "col_0": 1,
+        "page_name": "Spring Product Launch",
+        "goal": "Product Sales",
+        "target_audience": "Online shoppers 25-45",
+        "traffic_source": "Google Ads",
+        "lp_framework": "Product Sales LP",
+        "status": "Planning",
+        "launch_date": "2026-04-01",
+        "notes": "Flagship product launch campaign"
+      },
+      {
+        "col_0": 2,
+        "page_name": "Company Story Page",
+        "goal": "Brand Awareness",
+        "target_audience": "General audience",
+        "traffic_source": "Social Media",
+        "lp_framework": "Brand Awareness LP",
+        "status": "Copy Draft",
+        "launch_date": "2026-03-20",
+        "notes": "About Us storytelling page"
+      },
+      {
+        "col_0": 3,
+        "page_name": "2026 Marketing Report",
+        "goal": "Lead Generation",
+        "target_audience": "Marketing managers",
+        "traffic_source": "LinkedIn Ads",
+        "lp_framework": "Lead Magnet LP",
+        "status": "Design",
+        "launch_date": "2026-03-25",
+        "notes": "Gated annual report download"
+      },
+      {
+        "col_0": 4,
+        "page_name": "Annual Conference 2026",
+        "goal": "Event Registration",
+        "target_audience": "Industry professionals",
+        "traffic_source": "Email Campaign",
+        "lp_framework": "Event Registration LP",
+        "status": "Planning",
+        "launch_date": "2026-05-01",
+        "notes": "Main conference registration page"
+      },
+      {
+        "col_0": 5,
+        "page_name": "Free Trial Signup",
+        "goal": "Free Trial / Demo",
+        "target_audience": "SaaS decision makers",
+        "traffic_source": "Google Ads",
+        "lp_framework": "SaaS Service LP",
+        "status": "Live",
+        "launch_date": "2026-02-15",
+        "notes": "Product free trial landing page"
+      }
+    ],
+    "ab_test_planner": [
+      {
+        "col_0": 1,
+        "page_name": "Spring Product Launch",
+        "variable_type": "Headline",
+        "variant_a_control": "Save 20% This Spring",
+        "variant_b_challenger": "Spring Sale: Your Favourites at 20% Off",
+        "hypothesis": "Specific product mention increases relevance and CTR by 15%",
+        "duration": "2 weeks",
+        "status": "Planning"
+      },
+      {
+        "col_0": 2,
+        "page_name": "2026 Marketing Report",
+        "variable_type": "Form Length",
+        "variant_a_control": "Name + Email + Company + Role",
+        "variant_b_challenger": "Name + Email only",
+        "hypothesis": "Reducing form fields from 4 to 2 will increase conversion by 25%",
+        "duration": "3 weeks",
+        "status": "Planning"
+      },
+      {
+        "col_0": 3,
+        "page_name": "Free Trial Signup",
+        "variable_type": "CTA Text",
+        "variant_a_control": "Start Free Trial",
+        "variant_b_challenger": "Try It Free — No Card Needed",
+        "hypothesis": "Adding 'no card' removes friction and lifts signups by 20%",
+        "duration": "2 weeks",
+        "status": "Planning"
+      }
+    ]
+  }
+}

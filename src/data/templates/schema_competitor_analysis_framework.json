@@ -1,0 +1,247 @@
+{
+  "id": "competitor_analysis_framework",
+  "name": "Competitor Analysis Framework",
+  "category": "research",
+  "sheets": [
+    {
+      "id": "dashboard",
+      "name": "Dashboard",
+      "type": "summary"
+    },
+    {
+      "id": "competitor_profiles",
+      "name": "Competitor Profiles",
+      "type": "table",
+      "columns": [
+        {
+          "id": "attribute",
+          "header": "Attribute",
+          "type": "text"
+        },
+        {
+          "id": "your_company",
+          "header": "Your Company",
+          "type": "text"
+        },
+        {
+          "id": "competitor_1",
+          "header": "Competitor 1",
+          "type": "text"
+        },
+        {
+          "id": "competitor_2",
+          "header": "Competitor 2",
+          "type": "text"
+        },
+        {
+          "id": "competitor_3",
+          "header": "Competitor 3",
+          "type": "text"
+        },
+        {
+          "id": "competitor_4",
+          "header": "Competitor 4",
+          "type": "text"
+        },
+        {
+          "id": "competitor_5",
+          "header": "Competitor 5",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "id": "feature_comparison",
+      "name": "Feature Comparison",
+      "type": "summary"
+    },
+    {
+      "id": "marketing_analysis",
+      "name": "Marketing Analysis",
+      "type": "table",
+      "columns": [
+        {
+          "id": "dimension",
+          "header": "Dimension",
+          "type": "text"
+        },
+        {
+          "id": "your_company",
+          "header": "Your Company",
+          "type": "text"
+        },
+        {
+          "id": "competitor_1",
+          "header": "Competitor 1",
+          "type": "text"
+        },
+        {
+          "id": "competitor_2",
+          "header": "Competitor 2",
+          "type": "text"
+        },
+        {
+          "id": "competitor_3",
+          "header": "Competitor 3",
+          "type": "text"
+        },
+        {
+          "id": "competitor_4",
+          "header": "Competitor 4",
+          "type": "text"
+        },
+        {
+          "id": "competitor_5",
+          "header": "Competitor 5",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "id": "battlecards",
+      "name": "Battlecards",
+      "type": "summary"
+    }
+  ],
+  "defaultData": {
+    "competitor_profiles": [
+      {
+        "attribute": "Company Name"
+      },
+      {
+        "attribute": "Website URL"
+      },
+      {
+        "attribute": "Founded"
+      },
+      {
+        "attribute": "Headquarters"
+      },
+      {
+        "attribute": "Company Size"
+      },
+      {
+        "attribute": "Annual Revenue"
+      },
+      {
+        "attribute": "Funding Stage"
+      },
+      {
+        "attribute": "Target Market"
+      },
+      {
+        "attribute": "Primary Audience"
+      },
+      {
+        "attribute": "Positioning Statement"
+      },
+      {
+        "attribute": "Key Value Prop"
+      },
+      {
+        "attribute": "Pricing Model"
+      },
+      {
+        "attribute": "Price Range"
+      },
+      {
+        "attribute": "Free Tier?"
+      },
+      {
+        "attribute": "Core Product"
+      },
+      {
+        "attribute": "Key Differentiator"
+      },
+      {
+        "attribute": "Biggest Weakness"
+      },
+      {
+        "attribute": "NPS / Review Score"
+      },
+      {
+        "attribute": "G2/Capterra Rating"
+      },
+      {
+        "attribute": "Market Share Est."
+      }
+    ],
+    "marketing_analysis": [
+      {
+        "dimension": "SEO Presence"
+      },
+      {
+        "dimension": "Social Following"
+      },
+      {
+        "dimension": "Content Quality"
+      },
+      {
+        "dimension": "Brand Awareness"
+      },
+      {
+        "dimension": "Ad Spend"
+      },
+      {
+        "dimension": "Email Marketing"
+      },
+      {
+        "dimension": "Event Presence"
+      },
+      {
+        "dimension": "PR Coverage"
+      },
+      {
+        "dimension": "Partner Network"
+      },
+      {
+        "dimension": "Community Building"
+      },
+      {
+        "dimension": "AVERAGE"
+      },
+      {
+        "dimension": "CHANNEL STRATEGY COMPARISON"
+      },
+      {
+        "dimension": "Dimension",
+        "your_company": "Your Company",
+        "competitor_1": "Competitor 1",
+        "competitor_2": "Competitor 2",
+        "competitor_3": "Competitor 3",
+        "competitor_4": "Competitor 4",
+        "competitor_5": "Competitor 5"
+      },
+      {
+        "dimension": "Primary Channel"
+      },
+      {
+        "dimension": "Secondary Channel"
+      },
+      {
+        "dimension": "Content Frequency"
+      },
+      {
+        "dimension": "Tone / Voice"
+      },
+      {
+        "dimension": "Key Message"
+      },
+      {
+        "dimension": "CTA Style"
+      },
+      {
+        "dimension": "Top Content Type"
+      },
+      {
+        "dimension": "Newsletter?"
+      },
+      {
+        "dimension": "Podcast?"
+      },
+      {
+        "dimension": "YouTube?"
+      }
+    ]
+  }
+}

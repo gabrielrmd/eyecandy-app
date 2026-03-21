@@ -1,0 +1,520 @@
+{
+  "id": "podcast_marketing_planner",
+  "name": "Podcast Marketing Planner",
+  "category": "content",
+  "sheets": [
+    {
+      "id": "dashboard",
+      "name": "Dashboard",
+      "type": "summary"
+    },
+    {
+      "id": "show_strategy",
+      "name": "Show Strategy",
+      "type": "summary"
+    },
+    {
+      "id": "episode_planner",
+      "name": "Episode Planner",
+      "type": "table",
+      "columns": [
+        {
+          "id": "episode",
+          "header": "Episode #",
+          "type": "text"
+        },
+        {
+          "id": "title",
+          "header": "Title",
+          "type": "text"
+        },
+        {
+          "id": "topic",
+          "header": "Topic",
+          "type": "text"
+        },
+        {
+          "id": "guest",
+          "header": "Guest",
+          "type": "text"
+        },
+        {
+          "id": "record_date",
+          "header": "Record Date",
+          "type": "date"
+        },
+        {
+          "id": "edit_due",
+          "header": "Edit Due",
+          "type": "date"
+        },
+        {
+          "id": "publish_date",
+          "header": "Publish Date",
+          "type": "date"
+        },
+        {
+          "id": "status",
+          "header": "Status",
+          "type": "dropdown",
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done",
+            "On Hold",
+            "Cancelled"
+          ]
+        },
+        {
+          "id": "season",
+          "header": "Season",
+          "type": "text"
+        },
+        {
+          "id": "content_pillar",
+          "header": "Content Pillar",
+          "type": "textarea",
+          "width": "250px"
+        },
+        {
+          "id": "notes",
+          "header": "Notes",
+          "type": "textarea",
+          "width": "250px"
+        }
+      ]
+    },
+    {
+      "id": "guest_manager",
+      "name": "Guest Manager",
+      "type": "table",
+      "columns": [
+        {
+          "id": "guest_name",
+          "header": "Guest Name",
+          "type": "text"
+        },
+        {
+          "id": "title",
+          "header": "Title",
+          "type": "text"
+        },
+        {
+          "id": "company",
+          "header": "Company",
+          "type": "text"
+        },
+        {
+          "id": "email",
+          "header": "Email",
+          "type": "text"
+        },
+        {
+          "id": "episode_topic",
+          "header": "Episode Topic",
+          "type": "text"
+        },
+        {
+          "id": "outreach_date",
+          "header": "Outreach Date",
+          "type": "date"
+        },
+        {
+          "id": "status",
+          "header": "Status",
+          "type": "dropdown",
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done",
+            "On Hold",
+            "Cancelled"
+          ]
+        },
+        {
+          "id": "record_date",
+          "header": "Record Date",
+          "type": "date"
+        },
+        {
+          "id": "bio_received",
+          "header": "Bio Received",
+          "type": "text"
+        },
+        {
+          "id": "photo_received",
+          "header": "Photo Received",
+          "type": "text"
+        },
+        {
+          "id": "notes",
+          "header": "Notes",
+          "type": "textarea",
+          "width": "250px"
+        }
+      ]
+    },
+    {
+      "id": "production_workflow",
+      "name": "Production Workflow",
+      "type": "table",
+      "columns": [
+        {
+          "id": "episode",
+          "header": "Episode #",
+          "type": "text"
+        },
+        {
+          "id": "title",
+          "header": "Title",
+          "type": "text"
+        },
+        {
+          "id": "recording_done",
+          "header": "Recording Done",
+          "type": "checkbox"
+        },
+        {
+          "id": "raw_edit",
+          "header": "Raw Edit",
+          "type": "text"
+        },
+        {
+          "id": "sound_design",
+          "header": "Sound Design",
+          "type": "text"
+        },
+        {
+          "id": "show_notes",
+          "header": "Show Notes",
+          "type": "textarea",
+          "width": "250px"
+        },
+        {
+          "id": "transcript",
+          "header": "Transcript",
+          "type": "text"
+        },
+        {
+          "id": "artwork",
+          "header": "Artwork",
+          "type": "text"
+        },
+        {
+          "id": "upload",
+          "header": "Upload",
+          "type": "text"
+        },
+        {
+          "id": "published",
+          "header": "Published",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "id": "promotion_plan",
+      "name": "Promotion Plan",
+      "type": "table",
+      "columns": [
+        {
+          "id": "episode",
+          "header": "Episode",
+          "type": "text"
+        },
+        {
+          "id": "channel",
+          "header": "Channel",
+          "type": "text"
+        },
+        {
+          "id": "content_type",
+          "header": "Content Type",
+          "type": "textarea",
+          "width": "250px"
+        },
+        {
+          "id": "copy",
+          "header": "Copy",
+          "type": "textarea",
+          "width": "250px"
+        },
+        {
+          "id": "visual",
+          "header": "Visual",
+          "type": "text"
+        },
+        {
+          "id": "post_date",
+          "header": "Post Date",
+          "type": "date"
+        },
+        {
+          "id": "status",
+          "header": "Status",
+          "type": "dropdown",
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done",
+            "On Hold",
+            "Cancelled"
+          ]
+        },
+        {
+          "id": "owner",
+          "header": "Owner",
+          "type": "text"
+        },
+        {
+          "id": "notes",
+          "header": "Notes",
+          "type": "textarea",
+          "width": "250px"
+        }
+      ]
+    },
+    {
+      "id": "content_repurposing",
+      "name": "Content Repurposing",
+      "type": "table",
+      "columns": [
+        {
+          "id": "episode",
+          "header": "Episode",
+          "type": "text"
+        },
+        {
+          "id": "content_type",
+          "header": "Content Type",
+          "type": "textarea",
+          "width": "250px"
+        },
+        {
+          "id": "title",
+          "header": "Title",
+          "type": "text"
+        },
+        {
+          "id": "platform",
+          "header": "Platform",
+          "type": "text"
+        },
+        {
+          "id": "status",
+          "header": "Status",
+          "type": "dropdown",
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done",
+            "On Hold",
+            "Cancelled"
+          ]
+        },
+        {
+          "id": "owner",
+          "header": "Owner",
+          "type": "text"
+        },
+        {
+          "id": "publish_date",
+          "header": "Publish Date",
+          "type": "date"
+        },
+        {
+          "id": "performance",
+          "header": "Performance",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "id": "performance_tracker",
+      "name": "Performance Tracker",
+      "type": "table",
+      "columns": [
+        {
+          "id": "episode",
+          "header": "Episode #",
+          "type": "text"
+        },
+        {
+          "id": "title",
+          "header": "Title",
+          "type": "text"
+        },
+        {
+          "id": "publish_date",
+          "header": "Publish Date",
+          "type": "date"
+        },
+        {
+          "id": "downloads_30d",
+          "header": "Downloads (30d)",
+          "type": "text"
+        },
+        {
+          "id": "downloads_all",
+          "header": "Downloads (All)",
+          "type": "text"
+        },
+        {
+          "id": "avg_listen",
+          "header": "Avg Listen %",
+          "type": "percentage"
+        },
+        {
+          "id": "rating",
+          "header": "Rating",
+          "type": "score",
+          "min": 1,
+          "max": 5,
+          "colorScale": {
+            "ranges": [
+              {
+                "min": 1,
+                "max": 2,
+                "color": "#ef4444"
+              },
+              {
+                "min": 3,
+                "max": 3,
+                "color": "#eab308"
+              },
+              {
+                "min": 4,
+                "max": 5,
+                "color": "#22c55e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "reviews",
+          "header": "Reviews",
+          "type": "number"
+        },
+        {
+          "id": "social_shares",
+          "header": "Social Shares",
+          "type": "text"
+        },
+        {
+          "id": "website_visits",
+          "header": "Website Visits",
+          "type": "url"
+        },
+        {
+          "id": "leads_generated",
+          "header": "Leads Generated",
+          "type": "percentage"
+        }
+      ]
+    },
+    {
+      "id": "monetisation_tracker",
+      "name": "Monetisation Tracker",
+      "type": "table",
+      "columns": [
+        {
+          "id": "sponsor",
+          "header": "Sponsor",
+          "type": "text"
+        },
+        {
+          "id": "type",
+          "header": "Type",
+          "type": "text"
+        },
+        {
+          "id": "episodes",
+          "header": "Episodes",
+          "type": "text"
+        },
+        {
+          "id": "deal_value",
+          "header": "Deal Value",
+          "type": "text"
+        },
+        {
+          "id": "revenue_received",
+          "header": "Revenue Received",
+          "type": "currency"
+        },
+        {
+          "id": "status",
+          "header": "Status",
+          "type": "dropdown",
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done",
+            "On Hold",
+            "Cancelled"
+          ]
+        },
+        {
+          "id": "contact",
+          "header": "Contact",
+          "type": "text"
+        },
+        {
+          "id": "start_date",
+          "header": "Start Date",
+          "type": "date"
+        },
+        {
+          "id": "end_date",
+          "header": "End Date",
+          "type": "date"
+        }
+      ]
+    }
+  ],
+  "defaultData": {
+    "promotion_plan": [
+      {
+        "channel": "Email",
+        "content_type": "Newsletter feature",
+        "visual": "Episode artwork",
+        "status": "Not Started"
+      },
+      {
+        "channel": "LinkedIn",
+        "content_type": "Quote graphic + link",
+        "visual": "Audiogram",
+        "status": "Not Started"
+      },
+      {
+        "channel": "Instagram",
+        "content_type": "Carousel highlights",
+        "visual": "Carousel slides",
+        "status": "Not Started"
+      },
+      {
+        "channel": "Twitter",
+        "content_type": "Thread of key takeaways",
+        "visual": "Quote card",
+        "status": "Not Started"
+      },
+      {
+        "channel": "YouTube",
+        "content_type": "Full video or clips",
+        "visual": "Thumbnail",
+        "status": "Not Started"
+      },
+      {
+        "channel": "Blog",
+        "content_type": "Show notes + embedded player",
+        "visual": "Featured image",
+        "status": "Not Started"
+      }
+    ],
+    "monetisation_tracker": [
+      {
+        "sponsor": "TOTAL"
+      }
+    ]
+  }
+}

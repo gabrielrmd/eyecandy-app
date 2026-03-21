@@ -1,0 +1,322 @@
+{
+  "id": "social_listening_dashboard",
+  "name": "Social Listening Dashboard",
+  "category": "research",
+  "sheets": [
+    {
+      "id": "dashboard",
+      "name": "Dashboard",
+      "type": "summary"
+    },
+    {
+      "id": "brand_mentions",
+      "name": "Brand Mentions",
+      "type": "table",
+      "columns": [
+        {
+          "id": "date",
+          "header": "Date",
+          "type": "date"
+        },
+        {
+          "id": "platform",
+          "header": "Platform",
+          "type": "text"
+        },
+        {
+          "id": "mention_text",
+          "header": "Mention Text",
+          "type": "text"
+        },
+        {
+          "id": "sentiment",
+          "header": "Sentiment",
+          "type": "text"
+        },
+        {
+          "id": "author",
+          "header": "Author",
+          "type": "text"
+        },
+        {
+          "id": "reach",
+          "header": "Reach",
+          "type": "text"
+        },
+        {
+          "id": "engagement",
+          "header": "Engagement",
+          "type": "text"
+        },
+        {
+          "id": "topic",
+          "header": "Topic",
+          "type": "text"
+        },
+        {
+          "id": "response_needed",
+          "header": "Response Needed",
+          "type": "text"
+        },
+        {
+          "id": "notes",
+          "header": "Notes",
+          "type": "textarea",
+          "width": "250px"
+        }
+      ]
+    },
+    {
+      "id": "competitor_tracking",
+      "name": "Competitor Tracking",
+      "type": "table",
+      "columns": [
+        {
+          "id": "competitor_name",
+          "header": "Competitor Name",
+          "type": "text"
+        },
+        {
+          "id": "platform",
+          "header": "Platform",
+          "type": "text"
+        },
+        {
+          "id": "date",
+          "header": "Date",
+          "type": "date"
+        },
+        {
+          "id": "mention_type",
+          "header": "Mention Type",
+          "type": "text"
+        },
+        {
+          "id": "sentiment",
+          "header": "Sentiment",
+          "type": "text"
+        },
+        {
+          "id": "reach",
+          "header": "Reach",
+          "type": "text"
+        },
+        {
+          "id": "topic",
+          "header": "Topic",
+          "type": "text"
+        },
+        {
+          "id": "key_takeaway",
+          "header": "Key Takeaway",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "id": "sentiment_analysis",
+      "name": "Sentiment Analysis",
+      "type": "form",
+      "fields": [
+        {
+          "id": "total_mentions",
+          "label": "Total Mentions",
+          "type": "text",
+          "hint": "Neutral Count",
+          "placeholder": "Neutral Count"
+        }
+      ]
+    },
+    {
+      "id": "topic_tracker",
+      "name": "Topic Tracker",
+      "type": "table",
+      "columns": [
+        {
+          "id": "topic",
+          "header": "Topic",
+          "type": "text"
+        },
+        {
+          "id": "category",
+          "header": "Category",
+          "type": "text",
+          "editable": false
+        },
+        {
+          "id": "mention_count",
+          "header": "Mention Count",
+          "type": "number"
+        },
+        {
+          "id": "sentiment",
+          "header": "Sentiment",
+          "type": "text"
+        },
+        {
+          "id": "trending",
+          "header": "Trending",
+          "type": "date"
+        },
+        {
+          "id": "priority",
+          "header": "Priority",
+          "type": "dropdown",
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "related_keywords",
+          "header": "Related Keywords",
+          "type": "text"
+        },
+        {
+          "id": "action_required",
+          "header": "Action Required",
+          "type": "textarea",
+          "width": "250px"
+        },
+        {
+          "id": "notes",
+          "header": "Notes",
+          "type": "textarea",
+          "width": "250px"
+        }
+      ],
+      "groupBy": "category"
+    },
+    {
+      "id": "influencer_monitor",
+      "name": "Influencer Monitor",
+      "type": "table",
+      "columns": [
+        {
+          "id": "influencer",
+          "header": "Influencer",
+          "type": "text"
+        },
+        {
+          "id": "platform",
+          "header": "Platform",
+          "type": "text"
+        },
+        {
+          "id": "followers",
+          "header": "Followers",
+          "type": "number"
+        },
+        {
+          "id": "mentions_of_brand",
+          "header": "Mentions of Brand",
+          "type": "text"
+        },
+        {
+          "id": "sentiment",
+          "header": "Sentiment",
+          "type": "text"
+        },
+        {
+          "id": "engagement_rate",
+          "header": "Engagement Rate",
+          "type": "percentage"
+        },
+        {
+          "id": "potential_value",
+          "header": "Potential Value",
+          "type": "text"
+        },
+        {
+          "id": "relationship_status",
+          "header": "Relationship Status",
+          "type": "dropdown",
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done",
+            "On Hold",
+            "Cancelled"
+          ]
+        },
+        {
+          "id": "notes",
+          "header": "Notes",
+          "type": "textarea",
+          "width": "250px"
+        }
+      ]
+    },
+    {
+      "id": "crisis_alerts",
+      "name": "Crisis Alerts",
+      "type": "table",
+      "columns": [
+        {
+          "id": "date",
+          "header": "Date",
+          "type": "date"
+        },
+        {
+          "id": "alert_level",
+          "header": "Alert Level",
+          "type": "text"
+        },
+        {
+          "id": "issue",
+          "header": "Issue",
+          "type": "text"
+        },
+        {
+          "id": "platform",
+          "header": "Platform",
+          "type": "text"
+        },
+        {
+          "id": "mentions",
+          "header": "Mentions",
+          "type": "text"
+        },
+        {
+          "id": "sentiment",
+          "header": "Sentiment",
+          "type": "text"
+        },
+        {
+          "id": "response_plan",
+          "header": "Response Plan",
+          "type": "textarea",
+          "width": "250px"
+        },
+        {
+          "id": "owner",
+          "header": "Owner",
+          "type": "text"
+        },
+        {
+          "id": "status",
+          "header": "Status",
+          "type": "dropdown",
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done",
+            "On Hold",
+            "Cancelled"
+          ]
+        },
+        {
+          "id": "resolution",
+          "header": "Resolution",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "id": "report_template",
+      "name": "Report Template",
+      "type": "summary"
+    }
+  ]
+}

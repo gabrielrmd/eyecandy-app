@@ -1,0 +1,766 @@
+{
+  "id": "webinar_planning_template",
+  "name": "Webinar Planning Template",
+  "category": "content",
+  "sheets": [
+    {
+      "id": "dashboard",
+      "name": "Dashboard",
+      "type": "summary"
+    },
+    {
+      "id": "webinar_brief",
+      "name": "Webinar Brief",
+      "type": "summary"
+    },
+    {
+      "id": "promotion_plan",
+      "name": "Promotion Plan",
+      "type": "table",
+      "columns": [
+        {
+          "id": "week",
+          "header": "Week",
+          "type": "text"
+        },
+        {
+          "id": "channel",
+          "header": "Channel",
+          "type": "text"
+        },
+        {
+          "id": "activity",
+          "header": "Activity",
+          "type": "text"
+        },
+        {
+          "id": "audience",
+          "header": "Audience",
+          "type": "text"
+        },
+        {
+          "id": "content_needed",
+          "header": "Content Needed",
+          "type": "textarea",
+          "width": "250px"
+        },
+        {
+          "id": "owner",
+          "header": "Owner",
+          "type": "text"
+        },
+        {
+          "id": "status",
+          "header": "Status",
+          "type": "dropdown",
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done",
+            "On Hold",
+            "Cancelled"
+          ]
+        },
+        {
+          "id": "send_date",
+          "header": "Send Date",
+          "type": "date"
+        },
+        {
+          "id": "expected_regs",
+          "header": "Expected Regs",
+          "type": "text"
+        },
+        {
+          "id": "notes",
+          "header": "Notes",
+          "type": "textarea",
+          "width": "250px"
+        }
+      ]
+    },
+    {
+      "id": "run_of_show",
+      "name": "Run of Show",
+      "type": "table",
+      "columns": [
+        {
+          "id": "time",
+          "header": "Time",
+          "type": "text"
+        },
+        {
+          "id": "duration",
+          "header": "Duration",
+          "type": "text"
+        },
+        {
+          "id": "segment",
+          "header": "Segment",
+          "type": "text"
+        },
+        {
+          "id": "speaker",
+          "header": "Speaker",
+          "type": "text"
+        },
+        {
+          "id": "visual_slide",
+          "header": "Visual - Slide",
+          "type": "text"
+        },
+        {
+          "id": "technical_notes",
+          "header": "Technical Notes",
+          "type": "textarea",
+          "width": "250px"
+        },
+        {
+          "id": "talking_points",
+          "header": "Talking Points",
+          "type": "text"
+        },
+        {
+          "id": "transition",
+          "header": "Transition",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "id": "registration_tracker",
+      "name": "Registration Tracker",
+      "type": "table",
+      "columns": [
+        {
+          "id": "reg_date",
+          "header": "Reg Date",
+          "type": "date"
+        },
+        {
+          "id": "name",
+          "header": "Name",
+          "type": "text"
+        },
+        {
+          "id": "email",
+          "header": "Email",
+          "type": "text"
+        },
+        {
+          "id": "company",
+          "header": "Company",
+          "type": "text"
+        },
+        {
+          "id": "source",
+          "header": "Source",
+          "type": "text"
+        },
+        {
+          "id": "attendance",
+          "header": "Attendance",
+          "type": "date"
+        },
+        {
+          "id": "qualified_lead",
+          "header": "Qualified Lead",
+          "type": "text"
+        },
+        {
+          "id": "lead_score",
+          "header": "Lead Score",
+          "type": "score",
+          "min": 1,
+          "max": 5,
+          "colorScale": {
+            "ranges": [
+              {
+                "min": 1,
+                "max": 2,
+                "color": "#ef4444"
+              },
+              {
+                "min": 3,
+                "max": 3,
+                "color": "#eab308"
+              },
+              {
+                "min": 4,
+                "max": 5,
+                "color": "#22c55e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "notes",
+          "header": "Notes",
+          "type": "textarea",
+          "width": "250px"
+        }
+      ]
+    },
+    {
+      "id": "speaker_management",
+      "name": "Speaker Management",
+      "type": "table",
+      "columns": [
+        {
+          "id": "speaker_name",
+          "header": "Speaker Name",
+          "type": "text"
+        },
+        {
+          "id": "title_company",
+          "header": "Title & Company",
+          "type": "text"
+        },
+        {
+          "id": "bio",
+          "header": "Bio",
+          "type": "text"
+        },
+        {
+          "id": "photo",
+          "header": "Photo",
+          "type": "text"
+        },
+        {
+          "id": "topic",
+          "header": "Topic",
+          "type": "text"
+        },
+        {
+          "id": "duration",
+          "header": "Duration",
+          "type": "text"
+        },
+        {
+          "id": "slides_due",
+          "header": "Slides Due",
+          "type": "date"
+        },
+        {
+          "id": "rehearsal_date",
+          "header": "Rehearsal Date",
+          "type": "date"
+        },
+        {
+          "id": "confirmed",
+          "header": "Confirmed",
+          "type": "text"
+        },
+        {
+          "id": "notes",
+          "header": "Notes",
+          "type": "textarea",
+          "width": "250px"
+        }
+      ]
+    },
+    {
+      "id": "tech_checklist",
+      "name": "Tech Checklist",
+      "type": "form",
+      "fields": [
+        {
+          "id": "item",
+          "label": "Item",
+          "type": "text",
+          "hint": "Status",
+          "placeholder": "Status"
+        },
+        {
+          "id": "webinar_platform_account_set_up_and_test",
+          "label": "Webinar platform account set up and tested",
+          "type": "text"
+        },
+        {
+          "id": "registration_page_created_and_tested",
+          "label": "Registration page created and tested",
+          "type": "text"
+        },
+        {
+          "id": "email_confirmations_configured",
+          "label": "Email confirmations configured",
+          "type": "text"
+        },
+        {
+          "id": "recording_enabled",
+          "label": "Recording enabled",
+          "type": "text"
+        },
+        {
+          "id": "chat_and_q_a_settings_configured",
+          "label": "Chat and Q&A settings configured",
+          "type": "text"
+        },
+        {
+          "id": "speaker_audio_tested",
+          "label": "Speaker audio tested",
+          "type": "text"
+        },
+        {
+          "id": "speaker_video_tested",
+          "label": "Speaker video tested",
+          "type": "text"
+        },
+        {
+          "id": "backup_microphone_available",
+          "label": "Backup microphone available",
+          "type": "text"
+        },
+        {
+          "id": "screen_share_tested",
+          "label": "Screen share tested",
+          "type": "text"
+        },
+        {
+          "id": "internet_speed_tested_10_mbps_upload",
+          "label": "Internet speed tested (>10 Mbps upload)",
+          "type": "text"
+        },
+        {
+          "id": "slides_uploaded_to_platform",
+          "label": "Slides uploaded to platform",
+          "type": "text"
+        },
+        {
+          "id": "polls_created",
+          "label": "Polls created",
+          "type": "text"
+        },
+        {
+          "id": "handouts_resources_uploaded",
+          "label": "Handouts/resources uploaded",
+          "type": "text"
+        },
+        {
+          "id": "backup_slides_saved_locally",
+          "label": "Backup slides saved locally",
+          "type": "text"
+        },
+        {
+          "id": "landing_page_live_and_tested",
+          "label": "Landing page live and tested",
+          "type": "text"
+        },
+        {
+          "id": "confirmation_emails_tested",
+          "label": "Confirmation emails tested",
+          "type": "text"
+        },
+        {
+          "id": "reminder_emails_scheduled",
+          "label": "Reminder emails scheduled",
+          "type": "text"
+        },
+        {
+          "id": "social_posts_scheduled",
+          "label": "Social posts scheduled",
+          "type": "text"
+        },
+        {
+          "id": "green_room_opened_30_min_early",
+          "label": "Green room opened 30 min early",
+          "type": "text"
+        },
+        {
+          "id": "recording_started",
+          "label": "Recording started",
+          "type": "text"
+        },
+        {
+          "id": "chat_monitored",
+          "label": "Chat monitored",
+          "type": "text"
+        },
+        {
+          "id": "backup_presenter_on_standby",
+          "label": "Backup presenter on standby",
+          "type": "text"
+        },
+        {
+          "id": "recording_saved_and_downloaded",
+          "label": "Recording saved and downloaded",
+          "type": "text"
+        },
+        {
+          "id": "attendee_list_exported",
+          "label": "Attendee list exported",
+          "type": "text"
+        },
+        {
+          "id": "follow_up_emails_triggered",
+          "label": "Follow-up emails triggered",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "id": "follow_up_plan",
+      "name": "Follow-Up Plan",
+      "type": "table",
+      "columns": [
+        {
+          "id": "timing",
+          "header": "Timing",
+          "type": "text"
+        },
+        {
+          "id": "audience",
+          "header": "Audience",
+          "type": "text"
+        },
+        {
+          "id": "channel",
+          "header": "Channel",
+          "type": "text"
+        },
+        {
+          "id": "content",
+          "header": "Content",
+          "type": "textarea",
+          "width": "250px"
+        },
+        {
+          "id": "status",
+          "header": "Status",
+          "type": "dropdown",
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done",
+            "On Hold",
+            "Cancelled"
+          ]
+        },
+        {
+          "id": "owner",
+          "header": "Owner",
+          "type": "text"
+        },
+        {
+          "id": "expected_response",
+          "header": "Expected Response",
+          "type": "text"
+        },
+        {
+          "id": "notes",
+          "header": "Notes",
+          "type": "textarea",
+          "width": "250px"
+        }
+      ]
+    },
+    {
+      "id": "performance_tracker",
+      "name": "Performance Tracker",
+      "type": "form",
+      "fields": [
+        {
+          "id": "target",
+          "label": "Target",
+          "type": "text",
+          "hint": "% of Target",
+          "placeholder": "% of Target"
+        }
+      ]
+    }
+  ],
+  "defaultData": {
+    "promotion_plan": [
+      {
+        "week": "W-4",
+        "channel": "Email",
+        "activity": "Save-the-date to full list",
+        "audience": "All subscribers",
+        "content_needed": "Email + landing page",
+        "owner": "Email Lead",
+        "status": "Not Started",
+        "expected_regs": "50"
+      },
+      {
+        "week": "W-4",
+        "channel": "Social",
+        "activity": "Announcement post (all platforms)",
+        "audience": "All followers",
+        "content_needed": "Graphic + copy",
+        "owner": "Social Lead",
+        "status": "Not Started",
+        "expected_regs": "20"
+      },
+      {
+        "week": "W-3",
+        "channel": "Email",
+        "activity": "Invitation with speaker bios",
+        "audience": "Segmented list",
+        "content_needed": "Email + speaker photos",
+        "owner": "Email Lead",
+        "status": "Not Started",
+        "expected_regs": "80"
+      },
+      {
+        "week": "W-3",
+        "channel": "LinkedIn",
+        "activity": "Speaker spotlight posts",
+        "audience": "Professional audience",
+        "content_needed": "Individual speaker posts",
+        "owner": "Social Lead",
+        "status": "Not Started",
+        "expected_regs": "15"
+      },
+      {
+        "week": "W-3",
+        "channel": "Blog",
+        "activity": "Preview blog post",
+        "audience": "Website visitors",
+        "content_needed": "Blog post + CTA",
+        "owner": "Content Lead",
+        "status": "Not Started",
+        "expected_regs": "25"
+      },
+      {
+        "week": "W-2",
+        "channel": "Email",
+        "activity": "Reminder + early bird content",
+        "audience": "Registered + non-registered",
+        "content_needed": "Reminder email",
+        "owner": "Email Lead",
+        "status": "Not Started",
+        "expected_regs": "40"
+      },
+      {
+        "week": "W-2",
+        "channel": "Paid Social",
+        "activity": "Targeted ads to lookalike audiences",
+        "audience": "Lookalike + retargeting",
+        "content_needed": "Ad creatives",
+        "owner": "Paid Lead",
+        "status": "Not Started",
+        "expected_regs": "60"
+      },
+      {
+        "week": "W-1",
+        "channel": "Email",
+        "activity": "Final reminder with agenda preview",
+        "audience": "Full list",
+        "content_needed": "Agenda preview email",
+        "owner": "Email Lead",
+        "status": "Not Started",
+        "expected_regs": "30"
+      },
+      {
+        "week": "W-1",
+        "channel": "Social",
+        "activity": "Countdown posts",
+        "audience": "All followers",
+        "content_needed": "Countdown graphics",
+        "owner": "Social Lead",
+        "status": "Not Started",
+        "expected_regs": "10"
+      },
+      {
+        "week": "W-1",
+        "channel": "Partner",
+        "activity": "Co-promotion with guest speakers",
+        "audience": "Speaker audiences",
+        "content_needed": "Co-branded assets",
+        "owner": "Partner Lead",
+        "status": "Not Started",
+        "expected_regs": "35"
+      },
+      {
+        "week": "Day of",
+        "channel": "Email",
+        "activity": "Last-chance reminder",
+        "audience": "Registered",
+        "content_needed": "Short reminder",
+        "owner": "Email Lead",
+        "status": "Not Started",
+        "expected_regs": "N/A"
+      },
+      {
+        "week": "Day of",
+        "channel": "Social",
+        "activity": "Live alert post",
+        "audience": "All followers",
+        "content_needed": "Live graphic",
+        "owner": "Social Lead",
+        "status": "Not Started",
+        "expected_regs": "5"
+      }
+    ],
+    "run_of_show": [
+      {
+        "time": "-15 min",
+        "duration": "15 min",
+        "segment": "Tech check & sound test",
+        "speaker": "All speakers",
+        "visual_slide": "Test slides",
+        "technical_notes": "Check audio, video, screenshare",
+        "talking_points": "Run through key transitions"
+      },
+      {
+        "time": "-5 min",
+        "duration": "5 min",
+        "segment": "Holding slide + music",
+        "speaker": "N/A",
+        "visual_slide": "Welcome slide",
+        "technical_notes": "Start recording, enable chat"
+      },
+      {
+        "time": "0:00",
+        "duration": "3 min",
+        "segment": "Welcome & housekeeping",
+        "speaker": "Host",
+        "visual_slide": "Intro slide",
+        "technical_notes": "Spotlight host, mute attendees",
+        "talking_points": "Welcome, agenda, housekeeping rules",
+        "transition": "Hand to speaker 1"
+      },
+      {
+        "time": "0:03",
+        "duration": "20 min",
+        "segment": "Main presentation",
+        "speaker": "Speaker 1",
+        "visual_slide": "Presentation deck",
+        "technical_notes": "Advance slides on cue",
+        "talking_points": "Key talking points for each slide",
+        "transition": "Hand to speaker 2"
+      },
+      {
+        "time": "0:23",
+        "duration": "15 min",
+        "segment": "Deep dive or demo",
+        "speaker": "Speaker 2",
+        "visual_slide": "Demo/slides",
+        "technical_notes": "Screenshare if demo",
+        "talking_points": "Technical walkthrough points",
+        "transition": "Hand back to host"
+      },
+      {
+        "time": "0:38",
+        "duration": "2 min",
+        "segment": "Audience poll",
+        "speaker": "Host",
+        "visual_slide": "Poll slide",
+        "technical_notes": "Launch poll in platform",
+        "talking_points": "Introduce poll, explain purpose",
+        "transition": "Share results"
+      },
+      {
+        "time": "0:40",
+        "duration": "15 min",
+        "segment": "Q&A session",
+        "speaker": "All speakers",
+        "visual_slide": "Q&A slide",
+        "technical_notes": "Monitor chat for questions",
+        "talking_points": "Prioritise top-voted questions",
+        "transition": "Wrap-up cue at 5 min"
+      },
+      {
+        "time": "0:55",
+        "duration": "3 min",
+        "segment": "Closing & CTA",
+        "speaker": "Host",
+        "visual_slide": "CTA slide",
+        "technical_notes": "Show offer/link",
+        "talking_points": "Recap key takeaways, share CTA"
+      },
+      {
+        "time": "0:58",
+        "duration": "2 min",
+        "segment": "Thank you & next steps",
+        "speaker": "Host",
+        "visual_slide": "End slide",
+        "technical_notes": "Stop recording",
+        "talking_points": "Thank speakers and audience"
+      }
+    ],
+    "follow_up_plan": [
+      {
+        "timing": "Same day",
+        "audience": "Attendees",
+        "channel": "Email",
+        "content": "Thank you + recording link + resources",
+        "status": "Not Started",
+        "owner": "Email Lead",
+        "expected_response": "40% open rate"
+      },
+      {
+        "timing": "Same day",
+        "audience": "No-shows",
+        "channel": "Email",
+        "content": "Sorry we missed you + recording link",
+        "status": "Not Started",
+        "owner": "Email Lead",
+        "expected_response": "30% open rate"
+      },
+      {
+        "timing": "Day 2",
+        "audience": "All registrants",
+        "channel": "Social",
+        "content": "Key takeaways carousel post",
+        "status": "Not Started",
+        "owner": "Social Lead",
+        "expected_response": "500 engagements"
+      },
+      {
+        "timing": "Day 3",
+        "audience": "Qualified leads",
+        "channel": "Email",
+        "content": "Personalised follow-up with CTA",
+        "status": "Not Started",
+        "owner": "Sales",
+        "expected_response": "20% reply rate"
+      },
+      {
+        "timing": "Day 5",
+        "audience": "Attendees",
+        "channel": "Email",
+        "content": "Blog post with expanded content",
+        "status": "Not Started",
+        "owner": "Content Lead",
+        "expected_response": "25% open rate"
+      },
+      {
+        "timing": "Week 2",
+        "audience": "All registrants",
+        "channel": "Email",
+        "content": "Related content or next webinar invite",
+        "status": "Not Started",
+        "owner": "Email Lead",
+        "expected_response": "20% open rate"
+      },
+      {
+        "timing": "Week 2",
+        "audience": "Attendees",
+        "channel": "Social",
+        "content": "Testimonial or quote graphics",
+        "status": "Not Started",
+        "owner": "Social Lead",
+        "expected_response": "300 engagements"
+      },
+      {
+        "timing": "Week 3",
+        "audience": "Qualified leads",
+        "channel": "Sales",
+        "content": "Personal outreach call or demo offer",
+        "status": "Not Started",
+        "owner": "Sales",
+        "expected_response": "10% conversion"
+      },
+      {
+        "timing": "Month 1",
+        "audience": "All registrants",
+        "channel": "Email",
+        "content": "Repurposed content (clips, blog, infographic)",
+        "status": "Not Started",
+        "owner": "Content Lead",
+        "expected_response": "15% open rate"
+      }
+    ]
+  }
+}

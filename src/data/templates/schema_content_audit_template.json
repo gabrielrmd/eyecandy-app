@@ -1,0 +1,550 @@
+{
+  "id": "content_audit_template",
+  "name": "Content Audit Template",
+  "category": "content",
+  "sheets": [
+    {
+      "id": "dashboard",
+      "name": "Dashboard",
+      "type": "summary"
+    },
+    {
+      "id": "content_inventory",
+      "name": "Content Inventory",
+      "type": "table",
+      "columns": [
+        {
+          "id": "url",
+          "header": "URL",
+          "type": "url"
+        },
+        {
+          "id": "title",
+          "header": "Title",
+          "type": "text"
+        },
+        {
+          "id": "content_type",
+          "header": "Content Type",
+          "type": "textarea",
+          "width": "250px"
+        },
+        {
+          "id": "author",
+          "header": "Author",
+          "type": "text"
+        },
+        {
+          "id": "publish_date",
+          "header": "Publish Date",
+          "type": "date"
+        },
+        {
+          "id": "last_updated",
+          "header": "Last Updated",
+          "type": "date"
+        },
+        {
+          "id": "word_count",
+          "header": "Word Count",
+          "type": "number"
+        },
+        {
+          "id": "status",
+          "header": "Status",
+          "type": "dropdown",
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done",
+            "On Hold",
+            "Cancelled"
+          ]
+        },
+        {
+          "id": "topic_cluster",
+          "header": "Topic Cluster",
+          "type": "text"
+        },
+        {
+          "id": "target_keyword",
+          "header": "Target Keyword",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "id": "seo_analysis",
+      "name": "SEO Analysis",
+      "type": "table",
+      "columns": [
+        {
+          "id": "url",
+          "header": "URL",
+          "type": "url"
+        },
+        {
+          "id": "target_keyword",
+          "header": "Target Keyword",
+          "type": "text"
+        },
+        {
+          "id": "current_ranking",
+          "header": "Current Ranking",
+          "type": "text"
+        },
+        {
+          "id": "monthly_volume",
+          "header": "Monthly Volume",
+          "type": "number"
+        },
+        {
+          "id": "keyword_difficulty",
+          "header": "Keyword Difficulty",
+          "type": "text"
+        },
+        {
+          "id": "meta_title",
+          "header": "Meta Title",
+          "type": "text"
+        },
+        {
+          "id": "meta_description",
+          "header": "Meta Description",
+          "type": "textarea",
+          "width": "250px"
+        },
+        {
+          "id": "internal_links",
+          "header": "Internal Links",
+          "type": "url"
+        },
+        {
+          "id": "external_links",
+          "header": "External Links",
+          "type": "url"
+        },
+        {
+          "id": "page_speed_score",
+          "header": "Page Speed Score",
+          "type": "score",
+          "min": 1,
+          "max": 5,
+          "colorScale": {
+            "ranges": [
+              {
+                "min": 1,
+                "max": 2,
+                "color": "#ef4444"
+              },
+              {
+                "min": 3,
+                "max": 3,
+                "color": "#eab308"
+              },
+              {
+                "min": 4,
+                "max": 5,
+                "color": "#22c55e"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "performance_data",
+      "name": "Performance Data",
+      "type": "table",
+      "columns": [
+        {
+          "id": "url",
+          "header": "URL",
+          "type": "url"
+        },
+        {
+          "id": "sessions",
+          "header": "Sessions",
+          "type": "text"
+        },
+        {
+          "id": "bounce_rate",
+          "header": "Bounce Rate",
+          "type": "percentage"
+        },
+        {
+          "id": "avg_time_on_page",
+          "header": "Avg Time on Page",
+          "type": "text"
+        },
+        {
+          "id": "conversions",
+          "header": "Conversions",
+          "type": "percentage"
+        },
+        {
+          "id": "conversion_rate",
+          "header": "Conversion Rate",
+          "type": "percentage"
+        },
+        {
+          "id": "social_shares",
+          "header": "Social Shares",
+          "type": "text"
+        },
+        {
+          "id": "backlinks",
+          "header": "Backlinks",
+          "type": "url"
+        },
+        {
+          "id": "domain_authority",
+          "header": "Domain Authority",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "id": "content_scoring",
+      "name": "Content Scoring",
+      "type": "table",
+      "columns": [
+        {
+          "id": "url",
+          "header": "URL",
+          "type": "url"
+        },
+        {
+          "id": "quality_score_1_10",
+          "header": "Quality Score (1-10)",
+          "type": "score",
+          "min": 1,
+          "max": 5,
+          "colorScale": {
+            "ranges": [
+              {
+                "min": 1,
+                "max": 2,
+                "color": "#ef4444"
+              },
+              {
+                "min": 3,
+                "max": 3,
+                "color": "#eab308"
+              },
+              {
+                "min": 4,
+                "max": 5,
+                "color": "#22c55e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "relevance_score_1_10",
+          "header": "Relevance Score (1-10)",
+          "type": "score",
+          "min": 1,
+          "max": 5,
+          "colorScale": {
+            "ranges": [
+              {
+                "min": 1,
+                "max": 2,
+                "color": "#ef4444"
+              },
+              {
+                "min": 3,
+                "max": 3,
+                "color": "#eab308"
+              },
+              {
+                "min": 4,
+                "max": 5,
+                "color": "#22c55e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "seo_score_1_10",
+          "header": "SEO Score (1-10)",
+          "type": "score",
+          "min": 1,
+          "max": 5,
+          "colorScale": {
+            "ranges": [
+              {
+                "min": 1,
+                "max": 2,
+                "color": "#ef4444"
+              },
+              {
+                "min": 3,
+                "max": 3,
+                "color": "#eab308"
+              },
+              {
+                "min": 4,
+                "max": 5,
+                "color": "#22c55e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "performance_score_1_10",
+          "header": "Performance Score (1-10)",
+          "type": "score",
+          "min": 1,
+          "max": 5,
+          "colorScale": {
+            "ranges": [
+              {
+                "min": 1,
+                "max": 2,
+                "color": "#ef4444"
+              },
+              {
+                "min": 3,
+                "max": 3,
+                "color": "#eab308"
+              },
+              {
+                "min": 4,
+                "max": 5,
+                "color": "#22c55e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "overall_score",
+          "header": "Overall Score",
+          "type": "score",
+          "min": 1,
+          "max": 5,
+          "colorScale": {
+            "ranges": [
+              {
+                "min": 1,
+                "max": 2,
+                "color": "#ef4444"
+              },
+              {
+                "min": 3,
+                "max": 3,
+                "color": "#eab308"
+              },
+              {
+                "min": 4,
+                "max": 5,
+                "color": "#22c55e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "action",
+          "header": "Action",
+          "type": "textarea",
+          "width": "250px"
+        }
+      ]
+    },
+    {
+      "id": "gap_analysis",
+      "name": "Gap Analysis",
+      "type": "table",
+      "columns": [
+        {
+          "id": "topic_area",
+          "header": "Topic Area",
+          "type": "text"
+        },
+        {
+          "id": "current_content_count",
+          "header": "Current Content Count",
+          "type": "number"
+        },
+        {
+          "id": "competitor_content_count",
+          "header": "Competitor Content Count",
+          "type": "number"
+        },
+        {
+          "id": "gap_size",
+          "header": "Gap Size",
+          "type": "number"
+        },
+        {
+          "id": "priority",
+          "header": "Priority",
+          "type": "dropdown",
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "content_type_needed",
+          "header": "Content Type Needed",
+          "type": "textarea",
+          "width": "250px"
+        },
+        {
+          "id": "target_keywords",
+          "header": "Target Keywords",
+          "type": "text"
+        },
+        {
+          "id": "notes",
+          "header": "Notes",
+          "type": "textarea",
+          "width": "250px"
+        }
+      ]
+    },
+    {
+      "id": "action_plan",
+      "name": "Action Plan",
+      "type": "table",
+      "columns": [
+        {
+          "id": "content_url",
+          "header": "Content URL",
+          "type": "url"
+        },
+        {
+          "id": "current_status",
+          "header": "Current Status",
+          "type": "dropdown",
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done",
+            "On Hold",
+            "Cancelled"
+          ]
+        },
+        {
+          "id": "action_required",
+          "header": "Action Required",
+          "type": "textarea",
+          "width": "250px"
+        },
+        {
+          "id": "priority",
+          "header": "Priority",
+          "type": "dropdown",
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "assigned_to",
+          "header": "Assigned To",
+          "type": "text"
+        },
+        {
+          "id": "due_date",
+          "header": "Due Date",
+          "type": "date"
+        },
+        {
+          "id": "new_target_keyword",
+          "header": "New Target Keyword",
+          "type": "text"
+        },
+        {
+          "id": "expected_impact",
+          "header": "Expected Impact",
+          "type": "text"
+        },
+        {
+          "id": "status",
+          "header": "Status",
+          "type": "dropdown",
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done",
+            "On Hold",
+            "Cancelled"
+          ]
+        },
+        {
+          "id": "notes",
+          "header": "Notes",
+          "type": "textarea",
+          "width": "250px"
+        }
+      ]
+    },
+    {
+      "id": "content_calendar",
+      "name": "Content Calendar",
+      "type": "table",
+      "columns": [
+        {
+          "id": "week",
+          "header": "Week",
+          "type": "text"
+        },
+        {
+          "id": "content_title",
+          "header": "Content Title",
+          "type": "textarea",
+          "width": "250px"
+        },
+        {
+          "id": "type",
+          "header": "Type",
+          "type": "text"
+        },
+        {
+          "id": "action",
+          "header": "Action",
+          "type": "textarea",
+          "width": "250px"
+        },
+        {
+          "id": "author",
+          "header": "Author",
+          "type": "text"
+        },
+        {
+          "id": "draft_due",
+          "header": "Draft Due",
+          "type": "date"
+        },
+        {
+          "id": "publish_date",
+          "header": "Publish Date",
+          "type": "date"
+        },
+        {
+          "id": "status",
+          "header": "Status",
+          "type": "dropdown",
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done",
+            "On Hold",
+            "Cancelled"
+          ]
+        },
+        {
+          "id": "notes",
+          "header": "Notes",
+          "type": "textarea",
+          "width": "250px"
+        }
+      ]
+    }
+  ]
+}

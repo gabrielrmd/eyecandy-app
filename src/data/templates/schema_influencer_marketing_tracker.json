@@ -1,0 +1,978 @@
+{
+  "id": "influencer_marketing_tracker",
+  "name": "Influencer Marketing Tracker",
+  "category": "channels",
+  "sheets": [
+    {
+      "id": "dashboard",
+      "name": "Dashboard",
+      "type": "summary"
+    },
+    {
+      "id": "influencer_database",
+      "name": "Influencer Database",
+      "type": "table",
+      "columns": [
+        {
+          "id": "col_0",
+          "header": "#",
+          "type": "number"
+        },
+        {
+          "id": "influencer_name",
+          "header": "Influencer Name",
+          "type": "text"
+        },
+        {
+          "id": "niche_category",
+          "header": "Niche/Category",
+          "type": "text"
+        },
+        {
+          "id": "primary_platform",
+          "header": "Primary Platform",
+          "type": "text"
+        },
+        {
+          "id": "tier",
+          "header": "Tier",
+          "type": "text"
+        },
+        {
+          "id": "followers",
+          "header": "Followers",
+          "type": "number"
+        },
+        {
+          "id": "eng_rate",
+          "header": "Eng. Rate",
+          "type": "percentage"
+        },
+        {
+          "id": "location",
+          "header": "Location",
+          "type": "text"
+        },
+        {
+          "id": "contact_email",
+          "header": "Contact Email",
+          "type": "text"
+        },
+        {
+          "id": "status",
+          "header": "Status",
+          "type": "dropdown",
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done",
+            "On Hold",
+            "Cancelled"
+          ]
+        },
+        {
+          "id": "notes",
+          "header": "Notes",
+          "type": "textarea",
+          "width": "250px"
+        }
+      ]
+    },
+    {
+      "id": "campaign_planner",
+      "name": "Campaign Planner",
+      "type": "table",
+      "columns": [
+        {
+          "id": "col_0",
+          "header": "#",
+          "type": "number"
+        },
+        {
+          "id": "campaign_name",
+          "header": "Campaign Name",
+          "type": "text"
+        },
+        {
+          "id": "influencer_s",
+          "header": "Influencer(s)",
+          "type": "text"
+        },
+        {
+          "id": "objective",
+          "header": "Objective",
+          "type": "text"
+        },
+        {
+          "id": "deliverables",
+          "header": "Deliverables",
+          "type": "text"
+        },
+        {
+          "id": "start_date",
+          "header": "Start Date",
+          "type": "date"
+        },
+        {
+          "id": "end_date",
+          "header": "End Date",
+          "type": "date"
+        },
+        {
+          "id": "budget",
+          "header": "Budget",
+          "type": "currency"
+        },
+        {
+          "id": "status",
+          "header": "Status",
+          "type": "dropdown",
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done",
+            "On Hold",
+            "Cancelled"
+          ]
+        },
+        {
+          "id": "platform",
+          "header": "Platform",
+          "type": "text"
+        },
+        {
+          "id": "notes",
+          "header": "Notes",
+          "type": "textarea",
+          "width": "250px"
+        }
+      ]
+    },
+    {
+      "id": "content_calendar",
+      "name": "Content Calendar",
+      "type": "table",
+      "columns": [
+        {
+          "id": "col_0",
+          "header": "#",
+          "type": "number"
+        },
+        {
+          "id": "influencer",
+          "header": "Influencer",
+          "type": "text"
+        },
+        {
+          "id": "campaign",
+          "header": "Campaign",
+          "type": "text"
+        },
+        {
+          "id": "platform",
+          "header": "Platform",
+          "type": "text"
+        },
+        {
+          "id": "content_type",
+          "header": "Content Type",
+          "type": "textarea",
+          "width": "250px"
+        },
+        {
+          "id": "publish_date",
+          "header": "Publish Date",
+          "type": "date"
+        },
+        {
+          "id": "approval_status",
+          "header": "Approval Status",
+          "type": "dropdown",
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done",
+            "On Hold",
+            "Cancelled"
+          ]
+        },
+        {
+          "id": "live_link",
+          "header": "Live Link",
+          "type": "url"
+        },
+        {
+          "id": "performance",
+          "header": "Performance",
+          "type": "text"
+        },
+        {
+          "id": "notes",
+          "header": "Notes",
+          "type": "textarea",
+          "width": "250px"
+        }
+      ]
+    },
+    {
+      "id": "performance_tracker",
+      "name": "Performance Tracker",
+      "type": "table",
+      "columns": [
+        {
+          "id": "col_0",
+          "header": "#",
+          "type": "number"
+        },
+        {
+          "id": "influencer",
+          "header": "Influencer",
+          "type": "text"
+        },
+        {
+          "id": "campaign",
+          "header": "Campaign",
+          "type": "text"
+        },
+        {
+          "id": "platform",
+          "header": "Platform",
+          "type": "text"
+        },
+        {
+          "id": "impressions",
+          "header": "Impressions",
+          "type": "number"
+        },
+        {
+          "id": "engagements",
+          "header": "Engagements",
+          "type": "number"
+        },
+        {
+          "id": "clicks",
+          "header": "Clicks",
+          "type": "number"
+        },
+        {
+          "id": "conversions",
+          "header": "Conversions",
+          "type": "percentage"
+        },
+        {
+          "id": "eng_rate",
+          "header": "Eng. Rate",
+          "type": "percentage"
+        },
+        {
+          "id": "cost_per_eng",
+          "header": "Cost Per Eng.",
+          "type": "currency"
+        },
+        {
+          "id": "notes",
+          "header": "Notes",
+          "type": "textarea",
+          "width": "250px"
+        }
+      ]
+    },
+    {
+      "id": "outreach_tracker",
+      "name": "Outreach Tracker",
+      "type": "table",
+      "columns": [
+        {
+          "id": "col_0",
+          "header": "#",
+          "type": "number"
+        },
+        {
+          "id": "influencer",
+          "header": "Influencer",
+          "type": "text"
+        },
+        {
+          "id": "first_contact",
+          "header": "First Contact",
+          "type": "text"
+        },
+        {
+          "id": "follow_up_1",
+          "header": "Follow-Up 1",
+          "type": "text"
+        },
+        {
+          "id": "follow_up_2",
+          "header": "Follow-Up 2",
+          "type": "text"
+        },
+        {
+          "id": "response",
+          "header": "Response",
+          "type": "text"
+        },
+        {
+          "id": "status",
+          "header": "Status",
+          "type": "dropdown",
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done",
+            "On Hold",
+            "Cancelled"
+          ]
+        },
+        {
+          "id": "notes",
+          "header": "Notes",
+          "type": "textarea",
+          "width": "250px"
+        }
+      ]
+    },
+    {
+      "id": "budget_payments",
+      "name": "Budget & Payments",
+      "type": "table",
+      "columns": [
+        {
+          "id": "col_0",
+          "header": "#",
+          "type": "number"
+        },
+        {
+          "id": "influencer",
+          "header": "Influencer",
+          "type": "text"
+        },
+        {
+          "id": "campaign",
+          "header": "Campaign",
+          "type": "text"
+        },
+        {
+          "id": "agreed_fee",
+          "header": "Agreed Fee",
+          "type": "currency"
+        },
+        {
+          "id": "amount_paid",
+          "header": "Amount Paid",
+          "type": "currency"
+        },
+        {
+          "id": "balance",
+          "header": "Balance",
+          "type": "number"
+        },
+        {
+          "id": "invoice_date",
+          "header": "Invoice Date",
+          "type": "date"
+        },
+        {
+          "id": "payment_due",
+          "header": "Payment Due",
+          "type": "date"
+        },
+        {
+          "id": "status",
+          "header": "Status",
+          "type": "dropdown",
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done",
+            "On Hold",
+            "Cancelled"
+          ]
+        },
+        {
+          "id": "notes",
+          "header": "Notes",
+          "type": "textarea",
+          "width": "250px"
+        }
+      ]
+    },
+    {
+      "id": "contract_checklist",
+      "name": "Contract Checklist",
+      "type": "table",
+      "columns": [
+        {
+          "id": "col_0",
+          "header": "#",
+          "type": "number"
+        },
+        {
+          "id": "category",
+          "header": "Category",
+          "type": "text",
+          "editable": false
+        },
+        {
+          "id": "checklist_item",
+          "header": "Checklist Item",
+          "type": "checkbox"
+        },
+        {
+          "id": "required",
+          "header": "Required",
+          "type": "text"
+        },
+        {
+          "id": "checked",
+          "header": "Checked",
+          "type": "checkbox"
+        },
+        {
+          "id": "notes",
+          "header": "Notes",
+          "type": "textarea",
+          "width": "250px"
+        }
+      ],
+      "groupBy": "category"
+    }
+  ],
+  "defaultData": {
+    "influencer_database": [
+      {
+        "col_0": 1,
+        "influencer_name": "@SarahStylesLife",
+        "niche_category": "Fashion & Lifestyle",
+        "primary_platform": "Instagram",
+        "tier": "Micro (10K-50K)",
+        "followers": 35000,
+        "eng_rate": 0.048,
+        "location": "London, UK",
+        "contact_email": "sarah@email.com",
+        "status": "Active",
+        "notes": "Great product photography; 3 campaigns completed"
+      },
+      {
+        "col_0": 2,
+        "influencer_name": "TechWithMarcus",
+        "niche_category": "Technology & SaaS",
+        "primary_platform": "YouTube",
+        "tier": "Mid-Tier (50K-100K)",
+        "followers": 82000,
+        "eng_rate": 0.032,
+        "location": "New York, US",
+        "contact_email": "marcus@tech.com",
+        "status": "Active",
+        "notes": "Deep-dive review format; enterprise audience"
+      },
+      {
+        "col_0": 3,
+        "influencer_name": "GreenLiving_Emma",
+        "niche_category": "Sustainability",
+        "primary_platform": "Instagram",
+        "tier": "Nano (1K-10K)",
+        "followers": 8500,
+        "eng_rate": 0.072,
+        "location": "Berlin, DE",
+        "contact_email": "emma@green.com",
+        "status": "Prospect",
+        "notes": "High engagement; aligned with sustainability values"
+      },
+      {
+        "col_0": 4,
+        "influencer_name": "DataDrivenDan",
+        "niche_category": "Marketing & Business",
+        "primary_platform": "LinkedIn",
+        "tier": "Micro (10K-50K)",
+        "followers": 28000,
+        "eng_rate": 0.055,
+        "location": "Toronto, CA",
+        "contact_email": "dan@data.com",
+        "status": "Active",
+        "notes": "Thought leadership posts; B2B audience"
+      },
+      {
+        "col_0": 5,
+        "influencer_name": "FoodieFiesta",
+        "niche_category": "Food & Hospitality",
+        "primary_platform": "TikTok",
+        "tier": "Macro (100K-1M)",
+        "followers": 450000,
+        "eng_rate": 0.038,
+        "location": "Los Angeles, US",
+        "contact_email": "fiesta@food.com",
+        "status": "Prospect",
+        "notes": "Viral potential; restaurant/food brand focus"
+      },
+      {
+        "col_0": 6,
+        "influencer_name": "WellnessWithPriya",
+        "niche_category": "Health & Wellness",
+        "primary_platform": "Instagram",
+        "tier": "Micro (10K-50K)",
+        "followers": 22000,
+        "eng_rate": 0.063,
+        "location": "Mumbai, IN",
+        "contact_email": "priya@well.com",
+        "status": "Contacted",
+        "notes": "Authentic wellness content; strong community trust"
+      },
+      {
+        "col_0": 7,
+        "influencer_name": "CodeCraftStudio",
+        "niche_category": "Developer Tools",
+        "primary_platform": "YouTube",
+        "tier": "Micro (10K-50K)",
+        "followers": 15000,
+        "eng_rate": 0.045,
+        "location": "Austin, US",
+        "contact_email": "codecraft@dev.com",
+        "status": "Active",
+        "notes": "Tutorial format; developer audience"
+      },
+      {
+        "col_0": 8,
+        "influencer_name": "TravelWithLisa",
+        "niche_category": "Travel & Adventure",
+        "primary_platform": "Instagram",
+        "tier": "Mid-Tier (50K-100K)",
+        "followers": 67000,
+        "eng_rate": 0.041,
+        "location": "Sydney, AU",
+        "contact_email": "lisa@travel.com",
+        "status": "Inactive",
+        "notes": "Previous campaign Q3 2025; seasonal partner"
+      }
+    ],
+    "campaign_planner": [
+      {
+        "col_0": 1,
+        "campaign_name": "Spring Product Launch",
+        "influencer_s": "@SarahStylesLife, TechWithMarcus",
+        "objective": "Drive 500 product page visits",
+        "deliverables": "3 feed posts + 5 stories + 1 reel each",
+        "start_date": "2026-03-01",
+        "end_date": "2026-03-31",
+        "budget": 5000,
+        "status": "Active",
+        "platform": "Instagram, YouTube",
+        "notes": "Exclusive discount code per influencer"
+      },
+      {
+        "col_0": 2,
+        "campaign_name": "Thought Leadership Series",
+        "influencer_s": "DataDrivenDan",
+        "objective": "Position brand as industry authority",
+        "deliverables": "4 LinkedIn articles + 2 newsletter features",
+        "start_date": "2026-02-01",
+        "end_date": "2026-05-31",
+        "budget": 3000,
+        "status": "Active",
+        "platform": "LinkedIn",
+        "notes": "Monthly cadence"
+      },
+      {
+        "col_0": 3,
+        "campaign_name": "Summer Campaign",
+        "influencer_s": "FoodieFiesta, @SarahStylesLife",
+        "objective": "Brand awareness in lifestyle segment",
+        "deliverables": "2 TikTok videos + 3 IG reels",
+        "start_date": "2026-06-01",
+        "end_date": "2026-06-30",
+        "budget": 8000,
+        "status": "Planning",
+        "platform": "TikTok, Instagram",
+        "notes": "Cross-platform storytelling"
+      },
+      {
+        "col_0": 4,
+        "campaign_name": "Developer Community Build",
+        "influencer_s": "CodeCraftStudio",
+        "objective": "Generate 200 free trial signups",
+        "deliverables": "3 YouTube tutorials + blog post",
+        "start_date": "2026-04-01",
+        "end_date": "2026-04-30",
+        "budget": 2500,
+        "status": "Planning",
+        "platform": "YouTube",
+        "notes": "Integration tutorial format"
+      }
+    ],
+    "content_calendar": [
+      {
+        "col_0": 1,
+        "influencer": "@SarahStylesLife",
+        "campaign": "Spring Product Launch",
+        "platform": "Instagram",
+        "content_type": "Feed Post",
+        "publish_date": "2026-03-05",
+        "approval_status": "Approved",
+        "performance": "Pending",
+        "notes": "Unboxing + styled flat lay"
+      },
+      {
+        "col_0": 2,
+        "influencer": "@SarahStylesLife",
+        "campaign": "Spring Product Launch",
+        "platform": "Instagram",
+        "content_type": "Story (5x)",
+        "publish_date": "2026-03-06",
+        "approval_status": "Approved",
+        "performance": "Pending",
+        "notes": "BTS + swipe-up link"
+      },
+      {
+        "col_0": 3,
+        "influencer": "@SarahStylesLife",
+        "campaign": "Spring Product Launch",
+        "platform": "Instagram",
+        "content_type": "Reel",
+        "publish_date": "2026-03-12",
+        "approval_status": "Draft Submitted",
+        "performance": "Pending",
+        "notes": "60s product demo"
+      },
+      {
+        "col_0": 4,
+        "influencer": "TechWithMarcus",
+        "campaign": "Spring Product Launch",
+        "platform": "YouTube",
+        "content_type": "Long-form Review",
+        "publish_date": "2026-03-15",
+        "approval_status": "In Review",
+        "performance": "Pending",
+        "notes": "10-min deep-dive review"
+      },
+      {
+        "col_0": 5,
+        "influencer": "DataDrivenDan",
+        "campaign": "Thought Leadership",
+        "platform": "LinkedIn",
+        "content_type": "Article",
+        "publish_date": "2026-02-15",
+        "approval_status": "Published",
+        "live_link": "https://linkedin.com/...",
+        "performance": "12K views, 340 engagements",
+        "notes": "AI in marketing operations"
+      },
+      {
+        "col_0": 6,
+        "influencer": "DataDrivenDan",
+        "campaign": "Thought Leadership",
+        "platform": "LinkedIn",
+        "content_type": "Article",
+        "publish_date": "2026-03-15",
+        "approval_status": "Draft Submitted",
+        "performance": "Pending",
+        "notes": "Data-driven attribution"
+      }
+    ],
+    "performance_tracker": [
+      {
+        "col_0": 1,
+        "influencer": "DataDrivenDan",
+        "campaign": "Thought Leadership",
+        "platform": "LinkedIn",
+        "impressions": 28000,
+        "engagements": 1200,
+        "clicks": 380,
+        "conversions": 45,
+        "eng_rate": 0.0428571428571429,
+        "cost_per_eng": 0.625,
+        "notes": "Top-performing LinkedIn article this quarter"
+      },
+      {
+        "col_0": 2,
+        "influencer": "@SarahStylesLife",
+        "campaign": "Spring Launch",
+        "platform": "Instagram",
+        "impressions": 45000,
+        "engagements": 3200,
+        "clicks": 850,
+        "conversions": 120,
+        "eng_rate": 0.0711111111111111,
+        "cost_per_eng": 0.390625,
+        "notes": "Feed post + stories combined"
+      },
+      {
+        "col_0": 3,
+        "influencer": "TechWithMarcus",
+        "campaign": "Spring Launch",
+        "platform": "YouTube",
+        "impressions": 32000,
+        "engagements": 2800,
+        "clicks": 1200,
+        "conversions": 85,
+        "eng_rate": 0.0875,
+        "cost_per_eng": 0.535714285714286,
+        "notes": "Long-form review; high intent clicks"
+      },
+      {
+        "col_0": 4,
+        "influencer": "CodeCraftStudio",
+        "campaign": "Dev Community",
+        "platform": "YouTube",
+        "impressions": 15000,
+        "engagements": 950,
+        "clicks": 620,
+        "conversions": 42,
+        "eng_rate": 0.0633333333333333,
+        "cost_per_eng": 0.657894736842105,
+        "notes": "Tutorial format drives signups"
+      }
+    ],
+    "outreach_tracker": [
+      {
+        "col_0": 1,
+        "influencer": "@SarahStylesLife",
+        "first_contact": "2025-11-01",
+        "follow_up_1": "2025-11-08",
+        "response": "Positive - interested",
+        "status": "Signed",
+        "notes": "Signed for Spring campaign"
+      },
+      {
+        "col_0": 2,
+        "influencer": "TechWithMarcus",
+        "first_contact": "2025-11-15",
+        "follow_up_1": "2025-11-22",
+        "follow_up_2": "2025-12-01",
+        "response": "Positive - negotiating rates",
+        "status": "Signed",
+        "notes": "Agreed on $1,500/video"
+      },
+      {
+        "col_0": 3,
+        "influencer": "GreenLiving_Emma",
+        "first_contact": "2026-01-10",
+        "follow_up_1": "2026-01-17",
+        "response": "No response yet",
+        "status": "Follow-Up Needed",
+        "notes": "Try DM instead of email"
+      },
+      {
+        "col_0": 4,
+        "influencer": "FoodieFiesta",
+        "first_contact": "2026-01-15",
+        "response": "Pending",
+        "status": "Contacted",
+        "notes": "Sent via agent management"
+      },
+      {
+        "col_0": 5,
+        "influencer": "WellnessWithPriya",
+        "first_contact": "2026-01-20",
+        "follow_up_1": "2026-01-27",
+        "response": "Interested - wants brief",
+        "status": "Negotiating",
+        "notes": "Sent campaign brief 2026-02-01"
+      }
+    ],
+    "budget_payments": [
+      {
+        "col_0": 1,
+        "influencer": "@SarahStylesLife",
+        "campaign": "Spring Product Launch",
+        "agreed_fee": 2500,
+        "amount_paid": 2500,
+        "invoice_date": "2026-02-15",
+        "payment_due": "2026-03-15",
+        "status": "Paid",
+        "notes": "Paid via bank transfer"
+      },
+      {
+        "col_0": 2,
+        "influencer": "TechWithMarcus",
+        "campaign": "Spring Product Launch",
+        "agreed_fee": 1500,
+        "amount_paid": 750,
+        "invoice_date": "2026-03-01",
+        "payment_due": "2026-03-31",
+        "status": "Partial",
+        "notes": "50% upfront, 50% on publish"
+      },
+      {
+        "col_0": 3,
+        "influencer": "DataDrivenDan",
+        "campaign": "Thought Leadership",
+        "agreed_fee": 3000,
+        "amount_paid": 750,
+        "balance": 2250,
+        "invoice_date": "2026-01-15",
+        "payment_due": "Monthly",
+        "status": "Partial",
+        "notes": "$750/month for 4 months"
+      },
+      {
+        "col_0": 4,
+        "influencer": "CodeCraftStudio",
+        "campaign": "Dev Community Build",
+        "agreed_fee": 2500,
+        "balance": 2500,
+        "invoice_date": "2026-04-01",
+        "payment_due": "2026-04-30",
+        "status": "Pending",
+        "notes": "Payment on content delivery"
+      }
+    ],
+    "contract_checklist": [
+      {
+        "col_0": 1,
+        "category": "Scope of Work",
+        "checklist_item": "Deliverables clearly defined (number of posts, stories, videos, etc.)",
+        "required": "Yes"
+      },
+      {
+        "col_0": 2,
+        "category": "Scope of Work",
+        "checklist_item": "Content formats specified (reel, carousel, long-form, etc.)",
+        "required": "Yes"
+      },
+      {
+        "col_0": 3,
+        "category": "Scope of Work",
+        "checklist_item": "Platform(s) specified",
+        "required": "Yes"
+      },
+      {
+        "col_0": 4,
+        "category": "Scope of Work",
+        "checklist_item": "Timeline and deadlines stated",
+        "required": "Yes"
+      },
+      {
+        "col_0": 5,
+        "category": "Scope of Work",
+        "checklist_item": "Revision rounds defined (how many, turnaround time)",
+        "required": "Yes"
+      },
+      {
+        "col_0": 6,
+        "category": "Compensation",
+        "checklist_item": "Fee amount and structure (flat fee, per post, performance-based)",
+        "required": "Yes"
+      },
+      {
+        "col_0": 7,
+        "category": "Compensation",
+        "checklist_item": "Payment schedule (upfront, on delivery, milestone-based)",
+        "required": "Yes"
+      },
+      {
+        "col_0": 8,
+        "category": "Compensation",
+        "checklist_item": "Additional costs covered (travel, product, props)",
+        "required": "No"
+      },
+      {
+        "col_0": 9,
+        "category": "Compensation",
+        "checklist_item": "Late payment penalty clause",
+        "required": "No"
+      },
+      {
+        "col_0": 10,
+        "category": "Content Rights",
+        "checklist_item": "Usage rights defined (organic, paid amplification, website, OOH)",
+        "required": "Yes"
+      },
+      {
+        "col_0": 11,
+        "category": "Content Rights",
+        "checklist_item": "Duration of usage rights (6 months, 1 year, perpetual)",
+        "required": "Yes"
+      },
+      {
+        "col_0": 12,
+        "category": "Content Rights",
+        "checklist_item": "Right to repurpose content",
+        "required": "Yes"
+      },
+      {
+        "col_0": 13,
+        "category": "Content Rights",
+        "checklist_item": "Influencer retains right to remove from personal feed",
+        "required": "No"
+      },
+      {
+        "col_0": 14,
+        "category": "Compliance",
+        "checklist_item": "FTC/ASA disclosure requirements stated",
+        "required": "Yes"
+      },
+      {
+        "col_0": 15,
+        "category": "Compliance",
+        "checklist_item": "Required hashtags (#ad, #sponsored, #partner)",
+        "required": "Yes"
+      },
+      {
+        "col_0": 16,
+        "category": "Compliance",
+        "checklist_item": "Brand approval process before publishing",
+        "required": "Yes"
+      },
+      {
+        "col_0": 17,
+        "category": "Compliance",
+        "checklist_item": "Compliance with platform advertising policies",
+        "required": "Yes"
+      },
+      {
+        "col_0": 18,
+        "category": "Exclusivity",
+        "checklist_item": "Exclusivity period and scope defined",
+        "required": "No"
+      },
+      {
+        "col_0": 19,
+        "category": "Exclusivity",
+        "checklist_item": "Competitor restrictions listed",
+        "required": "No"
+      },
+      {
+        "col_0": 20,
+        "category": "Exclusivity",
+        "checklist_item": "Category exclusivity vs. brand exclusivity",
+        "required": "No"
+      },
+      {
+        "col_0": 21,
+        "category": "Termination",
+        "checklist_item": "Termination clause with notice period",
+        "required": "Yes"
+      },
+      {
+        "col_0": 22,
+        "category": "Termination",
+        "checklist_item": "Kill fee / cancellation fee defined",
+        "required": "No"
+      },
+      {
+        "col_0": 23,
+        "category": "Termination",
+        "checklist_item": "Content removal obligations upon termination",
+        "required": "No"
+      },
+      {
+        "col_0": 24,
+        "category": "Performance",
+        "checklist_item": "Minimum performance guarantees (if applicable)",
+        "required": "No"
+      },
+      {
+        "col_0": 25,
+        "category": "Performance",
+        "checklist_item": "Performance bonus thresholds",
+        "required": "No"
+      },
+      {
+        "col_0": 26,
+        "category": "Performance",
+        "checklist_item": "Tracking and reporting requirements",
+        "required": "Yes"
+      }
+    ]
+  }
+}

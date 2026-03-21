@@ -1,0 +1,1539 @@
+{
+  "id": "event_marketing_planner",
+  "name": "Event Marketing Planner",
+  "category": "content",
+  "sheets": [
+    {
+      "id": "dashboard",
+      "name": "Dashboard",
+      "type": "summary"
+    },
+    {
+      "id": "event_portfolio",
+      "name": "Event Portfolio",
+      "type": "table",
+      "columns": [
+        {
+          "id": "col_0",
+          "header": "#",
+          "type": "number"
+        },
+        {
+          "id": "event_name",
+          "header": "Event Name",
+          "type": "text"
+        },
+        {
+          "id": "quarter",
+          "header": "Quarter",
+          "type": "text"
+        },
+        {
+          "id": "type",
+          "header": "Type",
+          "type": "text"
+        },
+        {
+          "id": "format",
+          "header": "Format",
+          "type": "text"
+        },
+        {
+          "id": "start_date",
+          "header": "Start Date",
+          "type": "date"
+        },
+        {
+          "id": "end_date",
+          "header": "End Date",
+          "type": "date"
+        },
+        {
+          "id": "status",
+          "header": "Status",
+          "type": "dropdown",
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done",
+            "On Hold",
+            "Cancelled"
+          ]
+        },
+        {
+          "id": "budget",
+          "header": "Budget",
+          "type": "currency"
+        },
+        {
+          "id": "owner",
+          "header": "Owner",
+          "type": "text"
+        },
+        {
+          "id": "objective",
+          "header": "Objective",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "id": "event_brief",
+      "name": "Event Brief",
+      "type": "table",
+      "columns": [
+        {
+          "id": "col_0",
+          "header": "#",
+          "type": "number"
+        },
+        {
+          "id": "event_name",
+          "header": "Event Name",
+          "type": "text"
+        },
+        {
+          "id": "primary_objective",
+          "header": "Primary Objective",
+          "type": "text"
+        },
+        {
+          "id": "target_audience",
+          "header": "Target Audience",
+          "type": "text"
+        },
+        {
+          "id": "expected_attendees",
+          "header": "Expected Attendees",
+          "type": "date"
+        },
+        {
+          "id": "format",
+          "header": "Format",
+          "type": "text"
+        },
+        {
+          "id": "date",
+          "header": "Date",
+          "type": "date"
+        },
+        {
+          "id": "key_messages",
+          "header": "Key Messages",
+          "type": "textarea",
+          "width": "250px"
+        }
+      ]
+    },
+    {
+      "id": "budget_tracker",
+      "name": "Budget Tracker",
+      "type": "table",
+      "columns": [
+        {
+          "id": "col_0",
+          "header": "#",
+          "type": "number"
+        },
+        {
+          "id": "event_name",
+          "header": "Event Name",
+          "type": "text"
+        },
+        {
+          "id": "cost_category",
+          "header": "Cost Category",
+          "type": "currency"
+        },
+        {
+          "id": "vendor",
+          "header": "Vendor",
+          "type": "date"
+        },
+        {
+          "id": "allocated",
+          "header": "Allocated",
+          "type": "number"
+        },
+        {
+          "id": "actual_spent",
+          "header": "Actual Spent",
+          "type": "number"
+        },
+        {
+          "id": "variance",
+          "header": "Variance",
+          "type": "number"
+        },
+        {
+          "id": "status",
+          "header": "Status",
+          "type": "dropdown",
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done",
+            "On Hold",
+            "Cancelled"
+          ]
+        },
+        {
+          "id": "notes",
+          "header": "Notes",
+          "type": "textarea",
+          "width": "250px"
+        }
+      ]
+    },
+    {
+      "id": "timeline_checklist",
+      "name": "Timeline & Checklist",
+      "type": "table",
+      "columns": [
+        {
+          "id": "col_0",
+          "header": "#",
+          "type": "number"
+        },
+        {
+          "id": "phase",
+          "header": "Phase",
+          "type": "dropdown",
+          "options": [
+            "Planning",
+            "In Progress",
+            "Review",
+            "Complete"
+          ],
+          "editable": false
+        },
+        {
+          "id": "task",
+          "header": "Task",
+          "type": "text"
+        },
+        {
+          "id": "owner",
+          "header": "Owner",
+          "type": "text"
+        },
+        {
+          "id": "due_date",
+          "header": "Due Date",
+          "type": "date"
+        },
+        {
+          "id": "status",
+          "header": "Status",
+          "type": "dropdown",
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done",
+            "On Hold",
+            "Cancelled"
+          ]
+        },
+        {
+          "id": "notes",
+          "header": "Notes",
+          "type": "textarea",
+          "width": "250px"
+        }
+      ],
+      "groupBy": "phase"
+    },
+    {
+      "id": "speaker_management",
+      "name": "Speaker Management",
+      "type": "table",
+      "columns": [
+        {
+          "id": "col_0",
+          "header": "#",
+          "type": "number"
+        },
+        {
+          "id": "speaker_name",
+          "header": "Speaker Name",
+          "type": "text"
+        },
+        {
+          "id": "company_title",
+          "header": "Company & Title",
+          "type": "text"
+        },
+        {
+          "id": "topic_session_title",
+          "header": "Topic / Session Title",
+          "type": "text"
+        },
+        {
+          "id": "session_type",
+          "header": "Session Type",
+          "type": "text"
+        },
+        {
+          "id": "time_slot",
+          "header": "Time Slot",
+          "type": "text"
+        },
+        {
+          "id": "duration",
+          "header": "Duration",
+          "type": "text"
+        },
+        {
+          "id": "status",
+          "header": "Status",
+          "type": "dropdown",
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done",
+            "On Hold",
+            "Cancelled"
+          ]
+        },
+        {
+          "id": "av_needs",
+          "header": "AV Needs",
+          "type": "text"
+        },
+        {
+          "id": "notes",
+          "header": "Notes",
+          "type": "textarea",
+          "width": "250px"
+        }
+      ]
+    },
+    {
+      "id": "promotion_plan",
+      "name": "Promotion Plan",
+      "type": "table",
+      "columns": [
+        {
+          "id": "col_0",
+          "header": "#",
+          "type": "number"
+        },
+        {
+          "id": "channel",
+          "header": "Channel",
+          "type": "text"
+        },
+        {
+          "id": "tactic",
+          "header": "Tactic",
+          "type": "text"
+        },
+        {
+          "id": "audience",
+          "header": "Audience",
+          "type": "text"
+        },
+        {
+          "id": "send_publish_date",
+          "header": "Send/Publish Date",
+          "type": "date"
+        },
+        {
+          "id": "status",
+          "header": "Status",
+          "type": "dropdown",
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done",
+            "On Hold",
+            "Cancelled"
+          ]
+        },
+        {
+          "id": "owner",
+          "header": "Owner",
+          "type": "text"
+        },
+        {
+          "id": "budget",
+          "header": "Budget",
+          "type": "currency"
+        },
+        {
+          "id": "notes",
+          "header": "Notes",
+          "type": "textarea",
+          "width": "250px"
+        }
+      ]
+    },
+    {
+      "id": "registration_tracker",
+      "name": "Registration Tracker",
+      "type": "table",
+      "columns": [
+        {
+          "id": "col_0",
+          "header": "#",
+          "type": "number"
+        },
+        {
+          "id": "event_name",
+          "header": "Event Name",
+          "type": "text"
+        },
+        {
+          "id": "target_registrations",
+          "header": "Target Registrations",
+          "type": "number"
+        },
+        {
+          "id": "actual_registrations",
+          "header": "Actual Registrations",
+          "type": "number"
+        },
+        {
+          "id": "of_target",
+          "header": "% of Target",
+          "type": "percentage"
+        },
+        {
+          "id": "attended",
+          "header": "Attended",
+          "type": "date"
+        },
+        {
+          "id": "attendance_rate",
+          "header": "Attendance Rate",
+          "type": "date"
+        },
+        {
+          "id": "no_shows",
+          "header": "No-Shows",
+          "type": "number"
+        },
+        {
+          "id": "no_show_rate",
+          "header": "No-Show Rate",
+          "type": "percentage"
+        },
+        {
+          "id": "source_channel",
+          "header": "Source Channel",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "id": "sponsorship_manager",
+      "name": "Sponsorship Manager",
+      "type": "table",
+      "columns": [
+        {
+          "id": "col_0",
+          "header": "#",
+          "type": "number"
+        },
+        {
+          "id": "sponsor_name",
+          "header": "Sponsor Name",
+          "type": "text"
+        },
+        {
+          "id": "package_tier",
+          "header": "Package Tier",
+          "type": "text"
+        },
+        {
+          "id": "sponsorship_fee",
+          "header": "Sponsorship Fee",
+          "type": "currency"
+        },
+        {
+          "id": "amount_received",
+          "header": "Amount Received",
+          "type": "currency"
+        },
+        {
+          "id": "balance_due",
+          "header": "Balance Due",
+          "type": "date"
+        },
+        {
+          "id": "contract_signed",
+          "header": "Contract Signed",
+          "type": "text"
+        },
+        {
+          "id": "deliverables_met",
+          "header": "Deliverables Met",
+          "type": "text"
+        },
+        {
+          "id": "satisfaction",
+          "header": "Satisfaction",
+          "type": "score",
+          "min": 1,
+          "max": 5,
+          "colorScale": {
+            "ranges": [
+              {
+                "min": 1,
+                "max": 2,
+                "color": "#ef4444"
+              },
+              {
+                "min": 3,
+                "max": 3,
+                "color": "#eab308"
+              },
+              {
+                "min": 4,
+                "max": 5,
+                "color": "#22c55e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "notes",
+          "header": "Notes",
+          "type": "textarea",
+          "width": "250px"
+        }
+      ]
+    },
+    {
+      "id": "post_event_analysis",
+      "name": "Post-Event Analysis",
+      "type": "table",
+      "columns": [
+        {
+          "id": "col_0",
+          "header": "#",
+          "type": "number"
+        },
+        {
+          "id": "event_name",
+          "header": "Event Name",
+          "type": "text"
+        },
+        {
+          "id": "total_cost",
+          "header": "Total Cost",
+          "type": "currency"
+        },
+        {
+          "id": "revenue_generated",
+          "header": "Revenue Generated",
+          "type": "currency"
+        },
+        {
+          "id": "roi",
+          "header": "ROI",
+          "type": "percentage"
+        },
+        {
+          "id": "leads_generated",
+          "header": "Leads Generated",
+          "type": "percentage"
+        },
+        {
+          "id": "satisfaction_1_10",
+          "header": "Satisfaction (1-10)",
+          "type": "score",
+          "min": 1,
+          "max": 5,
+          "colorScale": {
+            "ranges": [
+              {
+                "min": 1,
+                "max": 2,
+                "color": "#ef4444"
+              },
+              {
+                "min": 3,
+                "max": 3,
+                "color": "#eab308"
+              },
+              {
+                "min": 4,
+                "max": 5,
+                "color": "#22c55e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "attendees",
+          "header": "Attendees",
+          "type": "date"
+        },
+        {
+          "id": "cost_per_attendee",
+          "header": "Cost per Attendee",
+          "type": "date"
+        },
+        {
+          "id": "key_learnings",
+          "header": "Key Learnings",
+          "type": "text"
+        }
+      ]
+    }
+  ],
+  "defaultData": {
+    "event_portfolio": [
+      {
+        "col_0": 1,
+        "event_name": "Annual Marketing Summit",
+        "quarter": "Q2",
+        "type": "Conference",
+        "format": "In-Person",
+        "start_date": "2026-06-15",
+        "end_date": "2026-06-16",
+        "status": "Planning",
+        "budget": 50000,
+        "owner": "Marketing Director",
+        "objective": "Brand awareness & lead generation"
+      },
+      {
+        "col_0": 2,
+        "event_name": "Monthly Webinar Series",
+        "quarter": "Q1-Q4",
+        "type": "Webinar",
+        "format": "Virtual",
+        "start_date": "2026-01-15",
+        "end_date": "2026-12-15",
+        "status": "In Progress",
+        "budget": 12000,
+        "owner": "Content Manager",
+        "objective": "Thought leadership & lead nurture"
+      },
+      {
+        "col_0": 3,
+        "event_name": "Product Launch Event",
+        "quarter": "Q1",
+        "type": "Product Launch",
+        "format": "Hybrid",
+        "start_date": "2026-03-20",
+        "end_date": "2026-03-20",
+        "status": "Confirmed",
+        "budget": 25000,
+        "owner": "Product Marketing",
+        "objective": "Generate 500 trial signups"
+      },
+      {
+        "col_0": 4,
+        "event_name": "Industry Trade Show",
+        "quarter": "Q3",
+        "type": "Trade Show",
+        "format": "In-Person",
+        "start_date": "2026-09-10",
+        "end_date": "2026-09-12",
+        "status": "Planning",
+        "budget": 35000,
+        "owner": "Events Manager",
+        "objective": "Pipeline generation & networking"
+      },
+      {
+        "col_0": 5,
+        "event_name": "Customer Appreciation Dinner",
+        "quarter": "Q4",
+        "type": "Networking",
+        "format": "In-Person",
+        "start_date": "2026-11-15",
+        "end_date": "2026-11-15",
+        "status": "Planning",
+        "budget": 15000,
+        "owner": "Customer Success",
+        "objective": "Retention & upsell opportunities"
+      },
+      {
+        "col_0": 6,
+        "event_name": "Workshop: Marketing Masterclass",
+        "quarter": "Q2",
+        "type": "Workshop",
+        "format": "In-Person",
+        "start_date": "2026-05-08",
+        "end_date": "2026-05-08",
+        "status": "Planning",
+        "budget": 8000,
+        "owner": "Training Lead",
+        "objective": "Position as industry expert"
+      },
+      {
+        "col_0": 7,
+        "event_name": "Partner Co-Marketing Webinar",
+        "quarter": "Q1",
+        "type": "Webinar",
+        "format": "Virtual",
+        "start_date": "2026-02-25",
+        "end_date": "2026-02-25",
+        "status": "Confirmed",
+        "budget": 3000,
+        "owner": "Partnerships",
+        "objective": "Joint lead generation"
+      },
+      {
+        "col_0": 8,
+        "event_name": "Internal Marketing Offsite",
+        "quarter": "Q3",
+        "type": "Internal",
+        "format": "In-Person",
+        "start_date": "2026-08-01",
+        "end_date": "2026-08-02",
+        "status": "Planning",
+        "budget": 10000,
+        "owner": "Marketing Director",
+        "objective": "Team alignment & strategy"
+      },
+      {
+        "col_0": 9,
+        "event_name": "Thought Leadership Panel",
+        "quarter": "Q2",
+        "type": "Conference",
+        "format": "Hybrid",
+        "start_date": "2026-04-22",
+        "end_date": "2026-04-22",
+        "status": "Planning",
+        "budget": 5000,
+        "owner": "PR Manager",
+        "objective": "Media coverage & credibility"
+      },
+      {
+        "col_0": 10,
+        "event_name": "Holiday Customer Event",
+        "quarter": "Q4",
+        "type": "Networking",
+        "format": "In-Person",
+        "start_date": "2026-12-10",
+        "end_date": "2026-12-10",
+        "status": "Planning",
+        "budget": 12000,
+        "owner": "Events Manager",
+        "objective": "Customer loyalty & community"
+      }
+    ],
+    "event_brief": [
+      {
+        "col_0": 1,
+        "event_name": "Annual Marketing Summit",
+        "primary_objective": "Position brand as industry thought leader; generate 200 MQLs",
+        "target_audience": "CMOs, VPs Marketing, Marketing Directors at mid-market & enterprise companies",
+        "expected_attendees": 500,
+        "format": "In-Person",
+        "date": "2026-06-15",
+        "key_messages": "Innovation in marketing automation; Data-driven decision making; Sustainable growth strategies"
+      },
+      {
+        "col_0": 2,
+        "event_name": "Product Launch Event",
+        "primary_objective": "Drive 500 trial signups within 30 days of launch",
+        "target_audience": "Current customers, prospects in pipeline, industry analysts",
+        "expected_attendees": 200,
+        "format": "Hybrid",
+        "date": "2026-03-20",
+        "key_messages": "Solving the #1 pain point; 3x faster than alternatives; Seamless integration"
+      },
+      {
+        "col_0": 3,
+        "event_name": "Monthly Webinar: AI in Marketing",
+        "primary_objective": "Establish thought leadership and nurture leads through educational content",
+        "target_audience": "Marketing managers and specialists exploring AI tools",
+        "expected_attendees": 150,
+        "format": "Virtual",
+        "date": "Monthly",
+        "key_messages": "Practical AI applications; Real case studies; Actionable frameworks"
+      }
+    ],
+    "budget_tracker": [
+      {
+        "col_0": 1,
+        "event_name": "Annual Marketing Summit",
+        "cost_category": "Venue & AV",
+        "vendor": "Grand Hotel Convention Center",
+        "allocated": 15000,
+        "variance": 15000,
+        "status": "Pending",
+        "notes": "Contract negotiations"
+      },
+      {
+        "col_0": 2,
+        "event_name": "Annual Marketing Summit",
+        "cost_category": "Catering",
+        "vendor": "Gourmet Events Co.",
+        "allocated": 8000,
+        "variance": 8000,
+        "status": "Pending",
+        "notes": "Menu tasting scheduled"
+      },
+      {
+        "col_0": 3,
+        "event_name": "Annual Marketing Summit",
+        "cost_category": "Speaker Fees",
+        "vendor": "Multiple speakers",
+        "allocated": 5000,
+        "variance": 5000,
+        "status": "Pending",
+        "notes": "3 keynotes confirmed"
+      },
+      {
+        "col_0": 4,
+        "event_name": "Annual Marketing Summit",
+        "cost_category": "Promotion",
+        "vendor": "Internal + agency",
+        "allocated": 7000,
+        "actual_spent": 2500,
+        "variance": 4500,
+        "status": "In Progress",
+        "notes": "Email + social campaigns live"
+      },
+      {
+        "col_0": 5,
+        "event_name": "Annual Marketing Summit",
+        "cost_category": "Materials & Print",
+        "vendor": "PrintCo",
+        "allocated": 3000,
+        "variance": 3000,
+        "status": "Pending",
+        "notes": "Badges, programmes, banners"
+      },
+      {
+        "col_0": 6,
+        "event_name": "Annual Marketing Summit",
+        "cost_category": "Technology",
+        "vendor": "EventTech Platform",
+        "allocated": 4000,
+        "actual_spent": 4000,
+        "status": "Paid",
+        "notes": "Registration + app platform"
+      },
+      {
+        "col_0": 7,
+        "event_name": "Annual Marketing Summit",
+        "cost_category": "Staffing",
+        "vendor": "Temp agency",
+        "allocated": 3000,
+        "variance": 3000,
+        "status": "Pending",
+        "notes": "10 event staff needed"
+      },
+      {
+        "col_0": 8,
+        "event_name": "Annual Marketing Summit",
+        "cost_category": "Contingency",
+        "allocated": 5000,
+        "variance": 5000,
+        "status": "Reserved",
+        "notes": "10% contingency buffer"
+      },
+      {
+        "col_0": 9,
+        "event_name": "Product Launch Event",
+        "cost_category": "Venue",
+        "vendor": "Innovation Hub",
+        "allocated": 5000,
+        "actual_spent": 5000,
+        "status": "Paid",
+        "notes": "Deposit paid"
+      },
+      {
+        "col_0": 10,
+        "event_name": "Product Launch Event",
+        "cost_category": "Technology",
+        "vendor": "Streaming platform",
+        "allocated": 3000,
+        "actual_spent": 1500,
+        "variance": 1500,
+        "status": "In Progress",
+        "notes": "Hybrid setup"
+      },
+      {
+        "col_0": 11,
+        "event_name": "Product Launch Event",
+        "cost_category": "Promotion",
+        "vendor": "Internal",
+        "allocated": 4000,
+        "actual_spent": 2000,
+        "variance": 2000,
+        "status": "In Progress",
+        "notes": "Pre-launch campaign"
+      },
+      {
+        "col_0": 12,
+        "event_name": "Product Launch Event",
+        "cost_category": "Catering",
+        "vendor": "Local caterer",
+        "allocated": 2500,
+        "variance": 2500,
+        "status": "Pending",
+        "notes": "Cocktail reception"
+      }
+    ],
+    "timeline_checklist": [
+      {
+        "col_0": 1,
+        "phase": "12 Weeks Out",
+        "task": "Define event objectives and success metrics",
+        "owner": "Event Manager",
+        "status": "Not Started"
+      },
+      {
+        "col_0": 2,
+        "phase": "12 Weeks Out",
+        "task": "Secure venue and sign contract",
+        "owner": "Event Manager",
+        "status": "Not Started"
+      },
+      {
+        "col_0": 3,
+        "phase": "12 Weeks Out",
+        "task": "Set event budget and get approval",
+        "owner": "Marketing Director",
+        "status": "Not Started"
+      },
+      {
+        "col_0": 4,
+        "phase": "12 Weeks Out",
+        "task": "Create event brief and messaging framework",
+        "owner": "Content Manager",
+        "status": "Not Started"
+      },
+      {
+        "col_0": 5,
+        "phase": "12 Weeks Out",
+        "task": "Identify and invite keynote speakers",
+        "owner": "PR Manager",
+        "status": "Not Started"
+      },
+      {
+        "col_0": 6,
+        "phase": "12 Weeks Out",
+        "task": "Set up registration platform",
+        "owner": "Digital Manager",
+        "status": "Not Started"
+      },
+      {
+        "col_0": 7,
+        "phase": "8 Weeks Out",
+        "task": "Finalise event agenda and schedule",
+        "owner": "Event Manager",
+        "status": "Not Started"
+      },
+      {
+        "col_0": 8,
+        "phase": "8 Weeks Out",
+        "task": "Launch early-bird registration",
+        "owner": "Digital Manager",
+        "status": "Not Started"
+      },
+      {
+        "col_0": 9,
+        "phase": "8 Weeks Out",
+        "task": "Begin email promotion sequence",
+        "owner": "Email Marketing",
+        "status": "Not Started"
+      },
+      {
+        "col_0": 10,
+        "phase": "8 Weeks Out",
+        "task": "Create social media promotion plan",
+        "owner": "Social Media",
+        "status": "Not Started"
+      },
+      {
+        "col_0": 11,
+        "phase": "8 Weeks Out",
+        "task": "Design event landing page",
+        "owner": "Web Developer",
+        "status": "Not Started"
+      },
+      {
+        "col_0": 12,
+        "phase": "8 Weeks Out",
+        "task": "Confirm sponsors and deliverables",
+        "owner": "Partnerships",
+        "status": "Not Started"
+      },
+      {
+        "col_0": 13,
+        "phase": "4 Weeks Out",
+        "task": "Finalise speaker presentations and AV needs",
+        "owner": "Event Manager",
+        "status": "Not Started"
+      },
+      {
+        "col_0": 14,
+        "phase": "4 Weeks Out",
+        "task": "Order printed materials (badges, signage, programmes)",
+        "owner": "Operations",
+        "status": "Not Started"
+      },
+      {
+        "col_0": 15,
+        "phase": "4 Weeks Out",
+        "task": "Confirm catering menu and headcount",
+        "owner": "Event Manager",
+        "status": "Not Started"
+      },
+      {
+        "col_0": 16,
+        "phase": "4 Weeks Out",
+        "task": "Send attendee logistics email (parking, directions, agenda)",
+        "owner": "Email Marketing",
+        "status": "Not Started"
+      },
+      {
+        "col_0": 17,
+        "phase": "4 Weeks Out",
+        "task": "Prepare media kit and press invitations",
+        "owner": "PR Manager",
+        "status": "Not Started"
+      },
+      {
+        "col_0": 18,
+        "phase": "4 Weeks Out",
+        "task": "Brief event staff and volunteers",
+        "owner": "Event Manager",
+        "status": "Not Started"
+      },
+      {
+        "col_0": 19,
+        "phase": "2 Weeks Out",
+        "task": "Final registration push — last-chance promotion",
+        "owner": "Marketing Team",
+        "status": "Not Started"
+      },
+      {
+        "col_0": 20,
+        "phase": "2 Weeks Out",
+        "task": "Confirm all vendor deliveries and timelines",
+        "owner": "Operations",
+        "status": "Not Started"
+      },
+      {
+        "col_0": 21,
+        "phase": "2 Weeks Out",
+        "task": "Test all technology (streaming, mics, slides, WiFi)",
+        "owner": "Technical Lead",
+        "status": "Not Started"
+      },
+      {
+        "col_0": 22,
+        "phase": "2 Weeks Out",
+        "task": "Prepare attendee welcome packs",
+        "owner": "Operations",
+        "status": "Not Started"
+      },
+      {
+        "col_0": 23,
+        "phase": "2 Weeks Out",
+        "task": "Create social media live coverage plan",
+        "owner": "Social Media",
+        "status": "Not Started"
+      },
+      {
+        "col_0": 24,
+        "phase": "1 Week Out",
+        "task": "Send final reminder to all registrants",
+        "owner": "Email Marketing",
+        "status": "Not Started"
+      },
+      {
+        "col_0": 25,
+        "phase": "1 Week Out",
+        "task": "Print final attendee list and badges",
+        "owner": "Operations",
+        "status": "Not Started"
+      },
+      {
+        "col_0": 26,
+        "phase": "1 Week Out",
+        "task": "Do full venue walk-through",
+        "owner": "Event Manager",
+        "status": "Not Started"
+      },
+      {
+        "col_0": 27,
+        "phase": "1 Week Out",
+        "task": "Prepare on-site emergency contacts and protocols",
+        "owner": "Event Manager",
+        "status": "Not Started"
+      },
+      {
+        "col_0": 28,
+        "phase": "1 Week Out",
+        "task": "Brief photographers and videographers",
+        "owner": "Content Manager",
+        "status": "Not Started"
+      },
+      {
+        "col_0": 29,
+        "phase": "Day Of",
+        "task": "Arrive early for final setup and sound check",
+        "owner": "Event Manager",
+        "status": "Not Started"
+      },
+      {
+        "col_0": 30,
+        "phase": "Day Of",
+        "task": "Staff registration desk and welcome area",
+        "owner": "Operations",
+        "status": "Not Started"
+      },
+      {
+        "col_0": 31,
+        "phase": "Day Of",
+        "task": "Live social media coverage",
+        "owner": "Social Media",
+        "status": "Not Started"
+      },
+      {
+        "col_0": 32,
+        "phase": "Day Of",
+        "task": "Manage speaker transitions and timing",
+        "owner": "Event Manager",
+        "status": "Not Started"
+      },
+      {
+        "col_0": 33,
+        "phase": "Day Of",
+        "task": "Capture attendee feedback (quick surveys)",
+        "owner": "Marketing Team",
+        "status": "Not Started"
+      },
+      {
+        "col_0": 34,
+        "phase": "Day Of",
+        "task": "Network and facilitate introductions",
+        "owner": "Leadership Team",
+        "status": "Not Started"
+      },
+      {
+        "col_0": 35,
+        "phase": "Post-Event (Week 1)",
+        "task": "Send thank-you email to all attendees",
+        "owner": "Email Marketing",
+        "status": "Not Started"
+      },
+      {
+        "col_0": 36,
+        "phase": "Post-Event (Week 1)",
+        "task": "Share event photos and video highlights",
+        "owner": "Content Manager",
+        "status": "Not Started"
+      },
+      {
+        "col_0": 37,
+        "phase": "Post-Event (Week 1)",
+        "task": "Send detailed satisfaction survey",
+        "owner": "Marketing Team",
+        "status": "Not Started"
+      },
+      {
+        "col_0": 38,
+        "phase": "Post-Event (Week 1)",
+        "task": "Pass qualified leads to sales team",
+        "owner": "Demand Gen",
+        "status": "Not Started"
+      },
+      {
+        "col_0": 39,
+        "phase": "Post-Event (Week 1)",
+        "task": "Debrief with team — what worked, what didn't",
+        "owner": "Event Manager",
+        "status": "Not Started"
+      },
+      {
+        "col_0": 40,
+        "phase": "Post-Event (Week 2)",
+        "task": "Publish event recap blog post",
+        "owner": "Content Manager",
+        "status": "Not Started"
+      },
+      {
+        "col_0": 41,
+        "phase": "Post-Event (Week 2)",
+        "task": "Complete Post-Event Analysis in this workbook",
+        "owner": "Event Manager",
+        "status": "Not Started"
+      },
+      {
+        "col_0": 42,
+        "phase": "Post-Event (Week 2)",
+        "task": "Reconcile budget — actual vs. allocated",
+        "owner": "Finance",
+        "status": "Not Started"
+      },
+      {
+        "col_0": 43,
+        "phase": "Post-Event (Week 2)",
+        "task": "Send sponsor fulfillment report",
+        "owner": "Partnerships",
+        "status": "Not Started"
+      },
+      {
+        "col_0": 44,
+        "phase": "Post-Event (Week 2)",
+        "task": "Archive assets and update playbook for next event",
+        "owner": "Marketing Ops",
+        "status": "Not Started"
+      }
+    ],
+    "speaker_management": [
+      {
+        "col_0": 1,
+        "speaker_name": "Dr. Sarah Mitchell",
+        "company_title": "CEO, FutureTech Insights",
+        "topic_session_title": "The Next Decade of Marketing AI",
+        "session_type": "Keynote",
+        "time_slot": "09:00-09:45",
+        "duration": "45 min",
+        "status": "Confirmed",
+        "av_needs": "Slides + lapel mic",
+        "notes": "Bestselling author; needs green room"
+      },
+      {
+        "col_0": 2,
+        "speaker_name": "James Rodriguez",
+        "company_title": "VP Marketing, ScaleUp Inc.",
+        "topic_session_title": "Growth Marketing Without the Hype",
+        "session_type": "Panel",
+        "time_slot": "10:00-10:45",
+        "duration": "45 min",
+        "status": "Confirmed",
+        "av_needs": "Panel mic + screen",
+        "notes": "Moderator: internal host"
+      },
+      {
+        "col_0": 3,
+        "speaker_name": "Elena Kowalski",
+        "company_title": "Head of Content, MediaGroup",
+        "topic_session_title": "Content at Scale: From Strategy to Execution",
+        "session_type": "Workshop",
+        "time_slot": "11:00-12:30",
+        "duration": "90 min",
+        "status": "Pending",
+        "av_needs": "Laptop + whiteboard",
+        "notes": "Hands-on session; max 30 people"
+      },
+      {
+        "col_0": 4,
+        "speaker_name": "Michael Chang",
+        "company_title": "CMO, GreenBrand Co.",
+        "topic_session_title": "Purpose-Driven Marketing That Drives Revenue",
+        "session_type": "Keynote",
+        "time_slot": "14:00-14:45",
+        "duration": "45 min",
+        "status": "Confirmed",
+        "av_needs": "Slides + handheld mic",
+        "notes": "Harvard case study reference"
+      },
+      {
+        "col_0": 5,
+        "speaker_name": "Priya Sharma",
+        "company_title": "Founder, DataDriven Agency",
+        "topic_session_title": "Marketing Attribution in a Cookieless World",
+        "session_type": "Fireside Chat",
+        "time_slot": "15:00-15:30",
+        "duration": "30 min",
+        "status": "Invited",
+        "av_needs": "2x lapel mics",
+        "notes": "Interview format with internal CMO"
+      }
+    ],
+    "promotion_plan": [
+      {
+        "col_0": 1,
+        "channel": "Email",
+        "tactic": "Save-the-date announcement",
+        "audience": "Full subscriber list",
+        "send_publish_date": "12 weeks out",
+        "status": "Planned",
+        "owner": "Email Marketing",
+        "notes": "Teaser with early-bird CTA"
+      },
+      {
+        "col_0": 2,
+        "channel": "Email",
+        "tactic": "Early-bird registration invite",
+        "audience": "Segmented VIP list",
+        "send_publish_date": "10 weeks out",
+        "status": "Planned",
+        "owner": "Email Marketing",
+        "notes": "Exclusive pricing expires in 2 weeks"
+      },
+      {
+        "col_0": 3,
+        "channel": "Email",
+        "tactic": "Speaker announcement series",
+        "audience": "Full list",
+        "send_publish_date": "8 weeks out",
+        "status": "Planned",
+        "owner": "Email Marketing",
+        "notes": "1 email per keynote reveal"
+      },
+      {
+        "col_0": 4,
+        "channel": "Email",
+        "tactic": "Last-chance registration",
+        "audience": "Non-registered prospects",
+        "send_publish_date": "2 weeks out",
+        "status": "Planned",
+        "owner": "Email Marketing",
+        "notes": "Urgency + social proof"
+      },
+      {
+        "col_0": 5,
+        "channel": "Email",
+        "tactic": "Final reminder + logistics",
+        "audience": "Registered attendees",
+        "send_publish_date": "1 week out",
+        "status": "Planned",
+        "owner": "Email Marketing",
+        "notes": "Parking, agenda, what to bring"
+      },
+      {
+        "col_0": 6,
+        "channel": "Social Media",
+        "tactic": "Event page creation (LinkedIn)",
+        "audience": "Professional network",
+        "send_publish_date": "12 weeks out",
+        "status": "Planned",
+        "owner": "Social Media",
+        "budget": 500,
+        "notes": "LinkedIn Event + sponsored post"
+      },
+      {
+        "col_0": 7,
+        "channel": "Social Media",
+        "tactic": "Weekly countdown posts",
+        "audience": "All platforms",
+        "send_publish_date": "8-1 weeks out",
+        "status": "Planned",
+        "owner": "Social Media",
+        "budget": 1000,
+        "notes": "Speaker spotlights, agenda reveals"
+      },
+      {
+        "col_0": 8,
+        "channel": "Social Media",
+        "tactic": "Speaker takeover stories",
+        "audience": "Instagram + LinkedIn",
+        "send_publish_date": "4 weeks out",
+        "status": "Planned",
+        "owner": "Social Media",
+        "notes": "Each speaker shares their preview"
+      },
+      {
+        "col_0": 9,
+        "channel": "Paid Ads",
+        "tactic": "LinkedIn sponsored campaign",
+        "audience": "Target audience",
+        "send_publish_date": "8 weeks out",
+        "status": "Planned",
+        "owner": "Performance",
+        "budget": 3000,
+        "notes": "Lookalike + retargeting audiences"
+      },
+      {
+        "col_0": 10,
+        "channel": "Paid Ads",
+        "tactic": "Google Search campaign",
+        "audience": "High-intent keywords",
+        "send_publish_date": "6 weeks out",
+        "status": "Planned",
+        "owner": "Performance",
+        "budget": 2000,
+        "notes": "Event name + industry terms"
+      },
+      {
+        "col_0": 11,
+        "channel": "PR",
+        "tactic": "Press release distribution",
+        "audience": "Media contacts",
+        "send_publish_date": "8 weeks out",
+        "status": "Planned",
+        "owner": "PR Manager",
+        "budget": 500,
+        "notes": "Wire service + direct pitches"
+      },
+      {
+        "col_0": 12,
+        "channel": "PR",
+        "tactic": "Media invitations",
+        "audience": "Industry journalists",
+        "send_publish_date": "6 weeks out",
+        "status": "Planned",
+        "owner": "PR Manager",
+        "notes": "Personalised invites with press passes"
+      },
+      {
+        "col_0": 13,
+        "channel": "Partnerships",
+        "tactic": "Co-promotion with sponsors",
+        "audience": "Sponsor audiences",
+        "send_publish_date": "8 weeks out",
+        "status": "Planned",
+        "owner": "Partnerships",
+        "notes": "Shared email + social assets"
+      },
+      {
+        "col_0": 14,
+        "channel": "Direct Outreach",
+        "tactic": "Personal invitations to VIPs",
+        "audience": "Top 50 prospects",
+        "send_publish_date": "10 weeks out",
+        "status": "Planned",
+        "owner": "Sales Team",
+        "notes": "Handwritten notes or video messages"
+      }
+    ],
+    "registration_tracker": [
+      {
+        "col_0": 1,
+        "event_name": "Annual Marketing Summit",
+        "target_registrations": 500,
+        "actual_registrations": 320,
+        "of_target": 0.64,
+        "no_shows": 320,
+        "no_show_rate": 1,
+        "source_channel": "Multi-channel"
+      },
+      {
+        "col_0": 2,
+        "event_name": "Monthly Webinar: Jan",
+        "target_registrations": 200,
+        "actual_registrations": 185,
+        "of_target": 0.925,
+        "attended": 142,
+        "attendance_rate": 0.7675675675675676,
+        "no_shows": 43,
+        "no_show_rate": 0.23243243243243245,
+        "source_channel": "Email + LinkedIn"
+      },
+      {
+        "col_0": 3,
+        "event_name": "Monthly Webinar: Feb",
+        "target_registrations": 200,
+        "actual_registrations": 210,
+        "of_target": 1.05,
+        "attended": 168,
+        "attendance_rate": 0.8,
+        "no_shows": 42,
+        "no_show_rate": 0.2,
+        "source_channel": "Email + Paid"
+      },
+      {
+        "col_0": 4,
+        "event_name": "Product Launch Event",
+        "target_registrations": 200,
+        "actual_registrations": 175,
+        "of_target": 0.875,
+        "no_shows": 175,
+        "no_show_rate": 1,
+        "source_channel": "Direct invite + Web"
+      },
+      {
+        "col_0": 5,
+        "event_name": "Partner Co-Marketing Webinar",
+        "target_registrations": 150,
+        "actual_registrations": 95,
+        "of_target": 0.6333333333333333,
+        "attended": 72,
+        "attendance_rate": 0.7578947368421053,
+        "no_shows": 23,
+        "no_show_rate": 0.24210526315789474,
+        "source_channel": "Partner email list"
+      }
+    ],
+    "sponsorship_manager": [
+      {
+        "col_0": 1,
+        "sponsor_name": "TechCorp Inc.",
+        "package_tier": "Platinum",
+        "sponsorship_fee": 25000,
+        "amount_received": 25000,
+        "contract_signed": "Yes",
+        "deliverables_met": "Partial",
+        "notes": "Logo, booth, keynote intro, 5 VIP passes"
+      },
+      {
+        "col_0": 2,
+        "sponsor_name": "DataDriven Solutions",
+        "package_tier": "Gold",
+        "sponsorship_fee": 15000,
+        "amount_received": 7500,
+        "balance_due": 7500,
+        "contract_signed": "Yes",
+        "deliverables_met": "Not Started",
+        "notes": "Logo, booth, 3 passes, email mention"
+      },
+      {
+        "col_0": 3,
+        "sponsor_name": "GreenBrand Co.",
+        "package_tier": "Gold",
+        "sponsorship_fee": 15000,
+        "amount_received": 15000,
+        "contract_signed": "Yes",
+        "deliverables_met": "Partial",
+        "notes": "Logo, booth, 3 passes, panel seat"
+      },
+      {
+        "col_0": 4,
+        "sponsor_name": "StartupHub",
+        "package_tier": "Silver",
+        "sponsorship_fee": 8000,
+        "amount_received": 8000,
+        "contract_signed": "Yes",
+        "deliverables_met": "Not Started",
+        "notes": "Logo, 2 passes, digital promotion"
+      },
+      {
+        "col_0": 5,
+        "sponsor_name": "MediaGroup",
+        "package_tier": "In-Kind",
+        "contract_signed": "Yes",
+        "deliverables_met": "Not Started",
+        "notes": "Media coverage in exchange for booth"
+      }
+    ],
+    "post_event_analysis": [
+      {
+        "col_0": 1,
+        "event_name": "Monthly Webinar: Jan",
+        "total_cost": 1500,
+        "roi": -1,
+        "leads_generated": 45,
+        "satisfaction_1_10": 8.2,
+        "attendees": 142,
+        "cost_per_attendee": 10.56338028169014,
+        "key_learnings": "Strong Q&A engagement; record demo requests post-webinar"
+      },
+      {
+        "col_0": 2,
+        "event_name": "Monthly Webinar: Feb",
+        "total_cost": 1800,
+        "roi": -1,
+        "leads_generated": 62,
+        "satisfaction_1_10": 8.5,
+        "attendees": 168,
+        "cost_per_attendee": 10.714285714285714,
+        "key_learnings": "Guest speaker format outperformed solo; 20% more leads"
+      },
+      {
+        "col_0": 3,
+        "event_name": "Partner Co-Marketing Webinar",
+        "total_cost": 1200,
+        "roi": -1,
+        "leads_generated": 28,
+        "satisfaction_1_10": 7.8,
+        "attendees": 72,
+        "cost_per_attendee": 16.666666666666668,
+        "key_learnings": "Partner audience lower quality; pre-qualify registrants next time"
+      }
+    ]
+  }
+}

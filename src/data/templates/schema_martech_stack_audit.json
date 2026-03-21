@@ -1,0 +1,636 @@
+{
+  "id": "martech_stack_audit",
+  "name": "Martech Stack Audit",
+  "category": "strategy",
+  "sheets": [
+    {
+      "id": "dashboard",
+      "name": "Dashboard",
+      "type": "summary"
+    },
+    {
+      "id": "tool_inventory",
+      "name": "Tool Inventory",
+      "type": "table",
+      "columns": [
+        {
+          "id": "tool_name",
+          "header": "Tool Name",
+          "type": "text"
+        },
+        {
+          "id": "category",
+          "header": "Category",
+          "type": "text",
+          "editable": false
+        },
+        {
+          "id": "vendor",
+          "header": "Vendor",
+          "type": "date"
+        },
+        {
+          "id": "annual_cost",
+          "header": "Annual Cost",
+          "type": "currency"
+        },
+        {
+          "id": "contract_end",
+          "header": "Contract End",
+          "type": "date"
+        },
+        {
+          "id": "users",
+          "header": "Users",
+          "type": "text"
+        },
+        {
+          "id": "utilisation",
+          "header": "Utilisation %",
+          "type": "percentage"
+        },
+        {
+          "id": "owner",
+          "header": "Owner",
+          "type": "text"
+        },
+        {
+          "id": "status",
+          "header": "Status",
+          "type": "dropdown",
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done",
+            "On Hold",
+            "Cancelled"
+          ]
+        },
+        {
+          "id": "notes",
+          "header": "Notes",
+          "type": "textarea",
+          "width": "250px"
+        }
+      ],
+      "groupBy": "category"
+    },
+    {
+      "id": "integration_map",
+      "name": "Integration Map",
+      "type": "table",
+      "columns": [
+        {
+          "id": "from_tool",
+          "header": "From Tool",
+          "type": "text"
+        },
+        {
+          "id": "to_tool",
+          "header": "To Tool",
+          "type": "text"
+        },
+        {
+          "id": "integration_type",
+          "header": "Integration Type",
+          "type": "text"
+        },
+        {
+          "id": "data_flow",
+          "header": "Data Flow",
+          "type": "text"
+        },
+        {
+          "id": "frequency",
+          "header": "Frequency",
+          "type": "text"
+        },
+        {
+          "id": "status",
+          "header": "Status",
+          "type": "dropdown",
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done",
+            "On Hold",
+            "Cancelled"
+          ]
+        },
+        {
+          "id": "reliability_score",
+          "header": "Reliability Score",
+          "type": "score",
+          "min": 1,
+          "max": 5,
+          "colorScale": {
+            "ranges": [
+              {
+                "min": 1,
+                "max": 2,
+                "color": "#ef4444"
+              },
+              {
+                "min": 3,
+                "max": 3,
+                "color": "#eab308"
+              },
+              {
+                "min": 4,
+                "max": 5,
+                "color": "#22c55e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "owner",
+          "header": "Owner",
+          "type": "text"
+        },
+        {
+          "id": "notes",
+          "header": "Notes",
+          "type": "textarea",
+          "width": "250px"
+        }
+      ]
+    },
+    {
+      "id": "cost_analysis",
+      "name": "Cost Analysis",
+      "type": "table",
+      "columns": [
+        {
+          "id": "month",
+          "header": "Month",
+          "type": "text"
+        },
+        {
+          "id": "total_tools",
+          "header": "Total Tools",
+          "type": "text"
+        },
+        {
+          "id": "new_tools",
+          "header": "New Tools",
+          "type": "text"
+        },
+        {
+          "id": "removed_tools",
+          "header": "Removed Tools",
+          "type": "text"
+        },
+        {
+          "id": "monthly_cost",
+          "header": "Monthly Cost",
+          "type": "currency"
+        },
+        {
+          "id": "annual_run_rate",
+          "header": "Annual Run Rate",
+          "type": "percentage"
+        },
+        {
+          "id": "cost_per_user",
+          "header": "Cost per User",
+          "type": "currency"
+        },
+        {
+          "id": "budget",
+          "header": "Budget",
+          "type": "currency"
+        },
+        {
+          "id": "variance",
+          "header": "Variance",
+          "type": "number"
+        },
+        {
+          "id": "notes",
+          "header": "Notes",
+          "type": "textarea",
+          "width": "250px"
+        }
+      ]
+    },
+    {
+      "id": "utilisation_assessment",
+      "name": "Utilisation Assessment",
+      "type": "table",
+      "columns": [
+        {
+          "id": "tool",
+          "header": "Tool",
+          "type": "text"
+        },
+        {
+          "id": "category",
+          "header": "Category",
+          "type": "text",
+          "editable": false
+        },
+        {
+          "id": "licensed_users",
+          "header": "Licensed Users",
+          "type": "text"
+        },
+        {
+          "id": "active_users",
+          "header": "Active Users",
+          "type": "checkbox"
+        },
+        {
+          "id": "utilisation_rate",
+          "header": "Utilisation Rate",
+          "type": "percentage"
+        },
+        {
+          "id": "features_used",
+          "header": "Features Used %",
+          "type": "percentage"
+        },
+        {
+          "id": "satisfaction_score",
+          "header": "Satisfaction Score",
+          "type": "score",
+          "min": 1,
+          "max": 5,
+          "colorScale": {
+            "ranges": [
+              {
+                "min": 1,
+                "max": 2,
+                "color": "#ef4444"
+              },
+              {
+                "min": 3,
+                "max": 3,
+                "color": "#eab308"
+              },
+              {
+                "min": 4,
+                "max": 5,
+                "color": "#22c55e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "recommendation",
+          "header": "Recommendation",
+          "type": "date"
+        },
+        {
+          "id": "notes",
+          "header": "Notes",
+          "type": "textarea",
+          "width": "250px"
+        }
+      ],
+      "groupBy": "category"
+    },
+    {
+      "id": "vendor_evaluation",
+      "name": "Vendor Evaluation",
+      "type": "table",
+      "columns": [
+        {
+          "id": "vendor",
+          "header": "Vendor",
+          "type": "date"
+        },
+        {
+          "id": "tool",
+          "header": "Tool",
+          "type": "text"
+        },
+        {
+          "id": "category",
+          "header": "Category",
+          "type": "text",
+          "editable": false
+        },
+        {
+          "id": "price_score",
+          "header": "Price Score",
+          "type": "score",
+          "min": 1,
+          "max": 5,
+          "colorScale": {
+            "ranges": [
+              {
+                "min": 1,
+                "max": 2,
+                "color": "#ef4444"
+              },
+              {
+                "min": 3,
+                "max": 3,
+                "color": "#eab308"
+              },
+              {
+                "min": 4,
+                "max": 5,
+                "color": "#22c55e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "feature_score",
+          "header": "Feature Score",
+          "type": "score",
+          "min": 1,
+          "max": 5,
+          "colorScale": {
+            "ranges": [
+              {
+                "min": 1,
+                "max": 2,
+                "color": "#ef4444"
+              },
+              {
+                "min": 3,
+                "max": 3,
+                "color": "#eab308"
+              },
+              {
+                "min": 4,
+                "max": 5,
+                "color": "#22c55e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "support_score",
+          "header": "Support Score",
+          "type": "score",
+          "min": 1,
+          "max": 5,
+          "colorScale": {
+            "ranges": [
+              {
+                "min": 1,
+                "max": 2,
+                "color": "#ef4444"
+              },
+              {
+                "min": 3,
+                "max": 3,
+                "color": "#eab308"
+              },
+              {
+                "min": 4,
+                "max": 5,
+                "color": "#22c55e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "integration_score",
+          "header": "Integration Score",
+          "type": "score",
+          "min": 1,
+          "max": 5,
+          "colorScale": {
+            "ranges": [
+              {
+                "min": 1,
+                "max": 2,
+                "color": "#ef4444"
+              },
+              {
+                "min": 3,
+                "max": 3,
+                "color": "#eab308"
+              },
+              {
+                "min": 4,
+                "max": 5,
+                "color": "#22c55e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "overall_score",
+          "header": "Overall Score",
+          "type": "score",
+          "min": 1,
+          "max": 5,
+          "colorScale": {
+            "ranges": [
+              {
+                "min": 1,
+                "max": 2,
+                "color": "#ef4444"
+              },
+              {
+                "min": 3,
+                "max": 3,
+                "color": "#eab308"
+              },
+              {
+                "min": 4,
+                "max": 5,
+                "color": "#22c55e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "contract_status",
+          "header": "Contract Status",
+          "type": "dropdown",
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done",
+            "On Hold",
+            "Cancelled"
+          ]
+        },
+        {
+          "id": "renewal_date",
+          "header": "Renewal Date",
+          "type": "date"
+        }
+      ],
+      "groupBy": "category"
+    },
+    {
+      "id": "gap_analysis",
+      "name": "Gap Analysis",
+      "type": "table",
+      "columns": [
+        {
+          "id": "capability_needed",
+          "header": "Capability Needed",
+          "type": "text"
+        },
+        {
+          "id": "current_solution",
+          "header": "Current Solution",
+          "type": "text"
+        },
+        {
+          "id": "gap_description",
+          "header": "Gap Description",
+          "type": "textarea",
+          "width": "250px"
+        },
+        {
+          "id": "priority",
+          "header": "Priority",
+          "type": "dropdown",
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "proposed_solution",
+          "header": "Proposed Solution",
+          "type": "text"
+        },
+        {
+          "id": "estimated_cost",
+          "header": "Estimated Cost",
+          "type": "currency"
+        },
+        {
+          "id": "expected_roi",
+          "header": "Expected ROI",
+          "type": "percentage"
+        },
+        {
+          "id": "timeline",
+          "header": "Timeline",
+          "type": "text"
+        },
+        {
+          "id": "owner",
+          "header": "Owner",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "id": "optimisation_plan",
+      "name": "Optimisation Plan",
+      "type": "table",
+      "columns": [
+        {
+          "id": "action",
+          "header": "Action",
+          "type": "textarea",
+          "width": "250px"
+        },
+        {
+          "id": "tool",
+          "header": "Tool",
+          "type": "text"
+        },
+        {
+          "id": "category",
+          "header": "Category",
+          "type": "text",
+          "editable": false
+        },
+        {
+          "id": "type",
+          "header": "Type",
+          "type": "text"
+        },
+        {
+          "id": "priority",
+          "header": "Priority",
+          "type": "dropdown",
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "expected_savings",
+          "header": "Expected Savings",
+          "type": "text"
+        },
+        {
+          "id": "implementation_date",
+          "header": "Implementation Date",
+          "type": "date"
+        },
+        {
+          "id": "owner",
+          "header": "Owner",
+          "type": "text"
+        },
+        {
+          "id": "status",
+          "header": "Status",
+          "type": "dropdown",
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done",
+            "On Hold",
+            "Cancelled"
+          ]
+        },
+        {
+          "id": "notes",
+          "header": "Notes",
+          "type": "textarea",
+          "width": "250px"
+        }
+      ],
+      "groupBy": "category"
+    }
+  ],
+  "defaultData": {
+    "cost_analysis": [
+      {
+        "month": "January"
+      },
+      {
+        "month": "February"
+      },
+      {
+        "month": "March"
+      },
+      {
+        "month": "April"
+      },
+      {
+        "month": "May"
+      },
+      {
+        "month": "June"
+      },
+      {
+        "month": "July"
+      },
+      {
+        "month": "August"
+      },
+      {
+        "month": "September"
+      },
+      {
+        "month": "October"
+      },
+      {
+        "month": "November"
+      },
+      {
+        "month": "December"
+      }
+    ]
+  }
+}

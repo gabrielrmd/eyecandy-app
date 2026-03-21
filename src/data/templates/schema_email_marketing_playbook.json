@@ -1,0 +1,484 @@
+{
+  "id": "email_marketing_playbook",
+  "name": "Email Marketing Playbook",
+  "category": "channels",
+  "sheets": [
+    {
+      "id": "dashboard",
+      "name": "Dashboard",
+      "type": "summary"
+    },
+    {
+      "id": "strategy",
+      "name": "Strategy",
+      "type": "form",
+      "fields": [
+        {
+          "id": "goals_kpis",
+          "label": "GOALS & KPIs",
+          "type": "textarea"
+        },
+        {
+          "id": "primary_email_goal",
+          "label": "Primary Email Goal",
+          "type": "text",
+          "hint": "List growth, lead nurture, sales, retention, engagement?",
+          "placeholder": "List growth, lead nurture, sales, retention, engagement?"
+        },
+        {
+          "id": "key_metric",
+          "label": "Key Metric",
+          "type": "text",
+          "hint": "The one number that defines email success",
+          "placeholder": "The one number that defines email success"
+        },
+        {
+          "id": "monthly_target",
+          "label": "Monthly Target",
+          "type": "text",
+          "hint": "Specific, measurable target",
+          "placeholder": "Specific, measurable target"
+        },
+        {
+          "id": "current_list_size",
+          "label": "Current List Size",
+          "type": "text",
+          "hint": "How many subscribers do you have today?",
+          "placeholder": "How many subscribers do you have today?"
+        },
+        {
+          "id": "list_growth_strategy",
+          "label": "List Growth Strategy",
+          "type": "text",
+          "hint": "How will you grow your list? Lead magnets, partnerships, content?",
+          "placeholder": "How will you grow your list? Lead magnets, partnerships, content?"
+        },
+        {
+          "id": "segment_1_name",
+          "label": "Segment 1: Name",
+          "type": "text",
+          "hint": "e.g. New Subscribers, Trial Users, Enterprise Leads",
+          "placeholder": "e.g. New Subscribers, Trial Users, Enterprise Leads"
+        },
+        {
+          "id": "segment_1_definition",
+          "label": "Segment 1: Definition",
+          "type": "text",
+          "hint": "What criteria define this segment?",
+          "placeholder": "What criteria define this segment?"
+        },
+        {
+          "id": "segment_1_email_cadence",
+          "label": "Segment 1: Email Cadence",
+          "type": "text",
+          "hint": "How often do you email this segment?",
+          "placeholder": "How often do you email this segment?"
+        },
+        {
+          "id": "segment_2_name",
+          "label": "Segment 2: Name",
+          "type": "text"
+        },
+        {
+          "id": "segment_2_definition",
+          "label": "Segment 2: Definition",
+          "type": "text"
+        },
+        {
+          "id": "segment_2_email_cadence",
+          "label": "Segment 2: Email Cadence",
+          "type": "text"
+        },
+        {
+          "id": "segment_3_name",
+          "label": "Segment 3: Name",
+          "type": "text"
+        },
+        {
+          "id": "segment_3_definition",
+          "label": "Segment 3: Definition",
+          "type": "text"
+        },
+        {
+          "id": "segment_3_email_cadence",
+          "label": "Segment 3: Email Cadence",
+          "type": "text"
+        },
+        {
+          "id": "newsletter_frequency",
+          "label": "Newsletter Frequency",
+          "type": "text",
+          "hint": "Weekly, bi-weekly, monthly?",
+          "placeholder": "Weekly, bi-weekly, monthly?"
+        },
+        {
+          "id": "automated_sequences_active",
+          "label": "Automated Sequences Active",
+          "type": "text",
+          "hint": "Welcome, nurture, re-engagement, post-purchase?",
+          "placeholder": "Welcome, nurture, re-engagement, post-purchase?"
+        },
+        {
+          "id": "promotional_emails_month",
+          "label": "Promotional Emails / Month",
+          "type": "text",
+          "hint": "How many sales/promo emails per month?",
+          "placeholder": "How many sales/promo emails per month?"
+        },
+        {
+          "id": "transactional_emails",
+          "label": "Transactional Emails",
+          "type": "text",
+          "hint": "Confirmations, receipts, notifications — are they branded?",
+          "placeholder": "Confirmations, receipts, notifications — are they branded?"
+        },
+        {
+          "id": "sender_name_address",
+          "label": "Sender Name & Address",
+          "type": "text",
+          "hint": "Who do emails come from? Name + email address",
+          "placeholder": "Who do emails come from? Name + email address"
+        },
+        {
+          "id": "email_voice",
+          "label": "Email Voice",
+          "type": "text",
+          "hint": "How should your emails sound? Friendly, professional, witty?",
+          "placeholder": "How should your emails sound? Friendly, professional, witty?"
+        },
+        {
+          "id": "subject_line_style",
+          "label": "Subject Line Style",
+          "type": "text",
+          "hint": "Direct, curious, numbered, question-based, emoji?",
+          "placeholder": "Direct, curious, numbered, question-based, emoji?"
+        },
+        {
+          "id": "cta_style",
+          "label": "CTA Style",
+          "type": "text",
+          "hint": "Button text preference: Learn More, Get Started, Buy Now?",
+          "placeholder": "Button text preference: Learn More, Get Started, Buy Now?"
+        },
+        {
+          "id": "content_length_preference",
+          "label": "Content Length Preference",
+          "type": "text",
+          "hint": "Short and punchy, medium with visuals, or long-form?",
+          "placeholder": "Short and punchy, medium with visuals, or long-form?"
+        },
+        {
+          "id": "personalization_level",
+          "label": "Personalization Level",
+          "type": "text",
+          "hint": "First name, behavior-based, dynamic content blocks?",
+          "placeholder": "First name, behavior-based, dynamic content blocks?"
+        }
+      ],
+      "sections": [
+        {
+          "id": "audience_segments",
+          "title": "Audience Segments",
+          "fieldIds": [
+            "segment_1_name",
+            "segment_1_definition",
+            "segment_1_email_cadence",
+            "segment_2_name",
+            "segment_2_definition",
+            "segment_2_email_cadence",
+            "segment_3_name",
+            "segment_3_definition",
+            "segment_3_email_cadence"
+          ],
+          "collapsible": true
+        },
+        {
+          "id": "email_types_frequency",
+          "title": "Email Types & Frequency",
+          "fieldIds": [
+            "newsletter_frequency",
+            "automated_sequences_active",
+            "promotional_emails_month",
+            "transactional_emails",
+            "sender_name_address"
+          ],
+          "collapsible": true
+        },
+        {
+          "id": "tone_content_guidelines",
+          "title": "Tone & Content Guidelines",
+          "fieldIds": [
+            "email_voice",
+            "subject_line_style",
+            "cta_style",
+            "content_length_preference",
+            "personalization_level"
+          ],
+          "collapsible": true
+        }
+      ]
+    },
+    {
+      "id": "sequence_builder",
+      "name": "Sequence Builder",
+      "type": "table",
+      "columns": [
+        {
+          "id": "sequence_name",
+          "header": "Sequence Name",
+          "type": "text"
+        },
+        {
+          "id": "email",
+          "header": "Email #",
+          "type": "text"
+        },
+        {
+          "id": "delay_days",
+          "header": "Delay (days)",
+          "type": "text"
+        },
+        {
+          "id": "subject_line",
+          "header": "Subject Line",
+          "type": "text"
+        },
+        {
+          "id": "email_purpose_content_summary",
+          "header": "Email Purpose / Content Summary",
+          "type": "text"
+        },
+        {
+          "id": "cta",
+          "header": "CTA",
+          "type": "text"
+        },
+        {
+          "id": "goal",
+          "header": "Goal",
+          "type": "text"
+        },
+        {
+          "id": "status",
+          "header": "Status",
+          "type": "dropdown",
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done",
+            "On Hold",
+            "Cancelled"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "campaign_planner",
+      "name": "Campaign Planner",
+      "type": "table",
+      "columns": [
+        {
+          "id": "send_date",
+          "header": "Send Date",
+          "type": "date"
+        },
+        {
+          "id": "campaign_name",
+          "header": "Campaign Name",
+          "type": "text"
+        },
+        {
+          "id": "type",
+          "header": "Type",
+          "type": "text"
+        },
+        {
+          "id": "subject_line",
+          "header": "Subject Line",
+          "type": "text"
+        },
+        {
+          "id": "segment",
+          "header": "Segment",
+          "type": "text"
+        },
+        {
+          "id": "cta",
+          "header": "CTA",
+          "type": "text"
+        },
+        {
+          "id": "status",
+          "header": "Status",
+          "type": "dropdown",
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done",
+            "On Hold",
+            "Cancelled"
+          ]
+        },
+        {
+          "id": "notes",
+          "header": "Notes",
+          "type": "textarea",
+          "width": "250px"
+        }
+      ]
+    },
+    {
+      "id": "ab_testing",
+      "name": "AB Testing",
+      "type": "table",
+      "columns": [
+        {
+          "id": "test_date",
+          "header": "Test Date",
+          "type": "date"
+        },
+        {
+          "id": "variable_tested",
+          "header": "Variable Tested",
+          "type": "text"
+        },
+        {
+          "id": "version_a",
+          "header": "Version A",
+          "type": "text"
+        },
+        {
+          "id": "version_b",
+          "header": "Version B",
+          "type": "text"
+        },
+        {
+          "id": "winner",
+          "header": "Winner",
+          "type": "text"
+        },
+        {
+          "id": "a_open_click",
+          "header": "A Open/Click %",
+          "type": "percentage"
+        },
+        {
+          "id": "b_open_click",
+          "header": "B Open/Click %",
+          "type": "percentage"
+        },
+        {
+          "id": "learning_insight",
+          "header": "Learning / Insight",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "id": "performance_tracker",
+      "name": "Performance Tracker",
+      "type": "table",
+      "columns": [
+        {
+          "id": "date",
+          "header": "Date",
+          "type": "date"
+        },
+        {
+          "id": "campaign_email_name",
+          "header": "Campaign / Email Name",
+          "type": "text"
+        },
+        {
+          "id": "type",
+          "header": "Type",
+          "type": "text"
+        },
+        {
+          "id": "sent",
+          "header": "Sent",
+          "type": "text"
+        },
+        {
+          "id": "delivered",
+          "header": "Delivered",
+          "type": "text"
+        },
+        {
+          "id": "open_rate",
+          "header": "Open Rate %",
+          "type": "percentage"
+        },
+        {
+          "id": "click_rate",
+          "header": "Click Rate %",
+          "type": "percentage"
+        },
+        {
+          "id": "bounce_rate",
+          "header": "Bounce Rate %",
+          "type": "percentage"
+        },
+        {
+          "id": "unsubs",
+          "header": "Unsubs",
+          "type": "text"
+        },
+        {
+          "id": "revenue",
+          "header": "Revenue",
+          "type": "currency"
+        },
+        {
+          "id": "notes",
+          "header": "Notes",
+          "type": "textarea",
+          "width": "250px"
+        }
+      ]
+    }
+  ],
+  "defaultData": {
+    "sequence_builder": [
+      {
+        "sequence_name": "Welcome Series",
+        "email": "1",
+        "subject_line": "Welcome to [Brand] — here is what to expect",
+        "email_purpose_content_summary": "Introduce brand, set expectations, deliver lead magnet",
+        "cta": "Download your free resource",
+        "goal": "Deliver value, build trust",
+        "status": "Draft"
+      },
+      {
+        "sequence_name": "Welcome Series",
+        "email": "2",
+        "delay_days": "2",
+        "subject_line": "The #1 mistake most [audience] make",
+        "email_purpose_content_summary": "Share insight, position as expert",
+        "cta": "Read the full article",
+        "goal": "Build authority",
+        "status": "Draft"
+      },
+      {
+        "sequence_name": "Welcome Series",
+        "email": "3",
+        "delay_days": "4",
+        "subject_line": "How [case study] achieved [result]",
+        "email_purpose_content_summary": "Social proof via case study or testimonial",
+        "cta": "See the full case study",
+        "goal": "Build credibility",
+        "status": "Draft"
+      },
+      {
+        "sequence_name": "Welcome Series",
+        "email": "4",
+        "delay_days": "7",
+        "subject_line": "Ready to [desired outcome]? Here is how",
+        "email_purpose_content_summary": "Soft pitch — introduce your solution",
+        "cta": "Book a call / Start free trial",
+        "goal": "Convert",
+        "status": "Draft"
+      }
+    ]
+  }
+}

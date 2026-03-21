@@ -1,0 +1,578 @@
+{
+  "id": "crm_setup_guide",
+  "name": "CRM Setup Guide",
+  "category": "growth",
+  "sheets": [
+    {
+      "id": "dashboard",
+      "name": "Dashboard",
+      "type": "summary"
+    },
+    {
+      "id": "pipeline_design",
+      "name": "Pipeline Design",
+      "type": "table",
+      "columns": [
+        {
+          "id": "order",
+          "header": "Order",
+          "type": "number"
+        },
+        {
+          "id": "stage_name",
+          "header": "Stage Name",
+          "type": "dropdown",
+          "options": [
+            "Planning",
+            "In Progress",
+            "Review",
+            "Complete"
+          ]
+        },
+        {
+          "id": "exit_criteria",
+          "header": "Exit Criteria",
+          "type": "text"
+        },
+        {
+          "id": "conv_rate",
+          "header": "Conv Rate %",
+          "type": "percentage"
+        },
+        {
+          "id": "key_activities",
+          "header": "Key Activities",
+          "type": "text"
+        },
+        {
+          "id": "owner",
+          "header": "Owner",
+          "type": "text"
+        },
+        {
+          "id": "sla_days",
+          "header": "SLA (days)",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "id": "contact_properties",
+      "name": "Contact Properties",
+      "type": "table",
+      "columns": [
+        {
+          "id": "property_name",
+          "header": "Property Name",
+          "type": "text"
+        },
+        {
+          "id": "category",
+          "header": "Category",
+          "type": "text",
+          "editable": false
+        },
+        {
+          "id": "type",
+          "header": "Type",
+          "type": "text"
+        },
+        {
+          "id": "required",
+          "header": "Required?",
+          "type": "text"
+        },
+        {
+          "id": "description",
+          "header": "Description",
+          "type": "textarea",
+          "width": "250px"
+        },
+        {
+          "id": "status",
+          "header": "Status",
+          "type": "dropdown",
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done",
+            "On Hold",
+            "Cancelled"
+          ]
+        }
+      ],
+      "groupBy": "category"
+    },
+    {
+      "id": "automations",
+      "name": "Automations",
+      "type": "table",
+      "columns": [
+        {
+          "id": "automation_name",
+          "header": "Automation Name",
+          "type": "text"
+        },
+        {
+          "id": "trigger",
+          "header": "Trigger",
+          "type": "text"
+        },
+        {
+          "id": "condition",
+          "header": "Condition",
+          "type": "text"
+        },
+        {
+          "id": "action",
+          "header": "Action",
+          "type": "textarea",
+          "width": "250px"
+        },
+        {
+          "id": "owner",
+          "header": "Owner",
+          "type": "text"
+        },
+        {
+          "id": "priority",
+          "header": "Priority",
+          "type": "dropdown",
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "status",
+          "header": "Status",
+          "type": "dropdown",
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done",
+            "On Hold",
+            "Cancelled"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "integrations",
+      "name": "Integrations",
+      "type": "table",
+      "columns": [
+        {
+          "id": "tool_name",
+          "header": "Tool Name",
+          "type": "text"
+        },
+        {
+          "id": "category",
+          "header": "Category",
+          "type": "text",
+          "editable": false
+        },
+        {
+          "id": "sync_direction",
+          "header": "Sync Direction",
+          "type": "text"
+        },
+        {
+          "id": "data_synced",
+          "header": "Data Synced",
+          "type": "text"
+        },
+        {
+          "id": "owner",
+          "header": "Owner",
+          "type": "text"
+        },
+        {
+          "id": "status",
+          "header": "Status",
+          "type": "dropdown",
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done",
+            "On Hold",
+            "Cancelled"
+          ]
+        }
+      ],
+      "groupBy": "category"
+    },
+    {
+      "id": "reports",
+      "name": "Reports",
+      "type": "summary"
+    }
+  ],
+  "defaultData": {
+    "pipeline_design": [
+      {
+        "order": 1,
+        "stage_name": "Lead Captured",
+        "exit_criteria": "Contact info verified, source identified",
+        "conv_rate": 100,
+        "key_activities": "Enrich data, assign to nurture",
+        "owner": "Marketing",
+        "sla_days": "1"
+      },
+      {
+        "order": 2,
+        "stage_name": "MQL",
+        "exit_criteria": "Lead score >= threshold",
+        "conv_rate": "40",
+        "key_activities": "Score lead, route to SDR",
+        "owner": "Marketing",
+        "sla_days": "1"
+      },
+      {
+        "order": 3,
+        "stage_name": "SQL",
+        "exit_criteria": "Qualified by SDR, budget confirmed",
+        "conv_rate": "60",
+        "key_activities": "Discovery call completed",
+        "owner": "SDR",
+        "sla_days": "2"
+      },
+      {
+        "order": 4,
+        "stage_name": "Opportunity",
+        "exit_criteria": "Need confirmed, stakeholders identified",
+        "conv_rate": "50",
+        "key_activities": "Demo scheduled",
+        "owner": "AE",
+        "sla_days": "3"
+      },
+      {
+        "order": 5,
+        "stage_name": "Proposal Sent",
+        "exit_criteria": "Proposal delivered, pricing discussed",
+        "conv_rate": "70",
+        "key_activities": "Follow-up sequence active",
+        "owner": "AE",
+        "sla_days": "5"
+      },
+      {
+        "order": 6,
+        "stage_name": "Negotiation",
+        "exit_criteria": "Terms under discussion",
+        "conv_rate": "80",
+        "key_activities": "Handle objections",
+        "owner": "AE",
+        "sla_days": "7"
+      },
+      {
+        "order": 7,
+        "stage_name": "Closed Won",
+        "exit_criteria": "Contract signed, payment received",
+        "conv_rate": 100,
+        "key_activities": "Onboarding triggered",
+        "owner": "AE",
+        "sla_days": "1"
+      },
+      {
+        "order": 8,
+        "stage_name": "Closed Lost",
+        "exit_criteria": "Deal formally declined",
+        "key_activities": "Lost reason captured",
+        "owner": "AE",
+        "sla_days": "1"
+      },
+      {
+        "order": "Completion",
+        "key_activities": 0.5
+      }
+    ],
+    "contact_properties": [
+      {
+        "property_name": "First Name",
+        "category": "Contact Info",
+        "type": "Text",
+        "required": "Yes",
+        "description": "Contact's first name",
+        "status": "Done"
+      },
+      {
+        "property_name": "Last Name",
+        "category": "Contact Info",
+        "type": "Text",
+        "required": "Yes",
+        "description": "Contact's last name",
+        "status": "Done"
+      },
+      {
+        "property_name": "Email",
+        "category": "Contact Info",
+        "type": "Email",
+        "required": "Yes",
+        "description": "Primary email address",
+        "status": "Done"
+      },
+      {
+        "property_name": "Phone",
+        "category": "Contact Info",
+        "type": "Phone",
+        "required": "No",
+        "description": "Primary phone number",
+        "status": "Done"
+      },
+      {
+        "property_name": "Company Name",
+        "category": "Company",
+        "type": "Text",
+        "required": "Yes",
+        "description": "Organization name",
+        "status": "Done"
+      },
+      {
+        "property_name": "Job Title",
+        "category": "Company",
+        "type": "Text",
+        "required": "Yes",
+        "description": "Role / position",
+        "status": "Done"
+      },
+      {
+        "property_name": "Industry",
+        "category": "Company",
+        "type": "Dropdown",
+        "required": "No",
+        "description": "Industry vertical",
+        "status": "Pending"
+      },
+      {
+        "property_name": "Company Size",
+        "category": "Company",
+        "type": "Dropdown",
+        "required": "No",
+        "description": "Employee count range",
+        "status": "Pending"
+      },
+      {
+        "property_name": "Lead Source",
+        "category": "Tracking",
+        "type": "Dropdown",
+        "required": "Yes",
+        "description": "How they found you",
+        "status": "Done"
+      },
+      {
+        "property_name": "Lead Score",
+        "category": "Scoring",
+        "type": "Number",
+        "required": "Auto",
+        "description": "Calculated from scoring model",
+        "status": "Pending"
+      },
+      {
+        "property_name": "Lifecycle Stage",
+        "category": "Tracking",
+        "type": "Dropdown",
+        "required": "Yes",
+        "description": "Lead/MQL/SQL/Customer/Evangelist",
+        "status": "Pending"
+      },
+      {
+        "property_name": "Deal Stage",
+        "category": "Pipeline",
+        "type": "Dropdown",
+        "required": "Auto",
+        "description": "Current pipeline stage",
+        "status": "Pending"
+      },
+      {
+        "property_name": "Last Activity Date",
+        "category": "Tracking",
+        "type": "Date",
+        "required": "Auto",
+        "description": "Most recent engagement",
+        "status": "Pending"
+      },
+      {
+        "property_name": "Owner",
+        "category": "Assignment",
+        "type": "User",
+        "required": "Yes",
+        "description": "Assigned sales rep",
+        "status": "Pending"
+      },
+      {
+        "property_name": "UTM Source",
+        "category": "Tracking",
+        "type": "Text",
+        "required": "Auto",
+        "description": "Campaign source tracking",
+        "status": "Pending"
+      },
+      {
+        "property_name": "UTM Medium",
+        "category": "Tracking",
+        "type": "Text",
+        "required": "Auto",
+        "description": "Campaign medium tracking",
+        "status": "Pending"
+      },
+      {
+        "property_name": "UTM Campaign",
+        "category": "Tracking",
+        "type": "Text",
+        "required": "Auto",
+        "description": "Campaign name tracking",
+        "status": "Pending"
+      },
+      {
+        "property_name": "Content Downloaded",
+        "category": "Engagement",
+        "type": "Text",
+        "required": "Auto",
+        "description": "Last gated content downloaded",
+        "status": "Pending"
+      },
+      {
+        "property_name": "Newsletter Subscribed",
+        "category": "Engagement",
+        "type": "Boolean",
+        "required": "Auto",
+        "description": "Opted into newsletter",
+        "status": "Pending"
+      },
+      {
+        "property_name": "Annual Revenue",
+        "category": "Company",
+        "type": "Currency",
+        "required": "No",
+        "description": "Estimated company revenue",
+        "status": "Pending"
+      }
+    ],
+    "automations": [
+      {
+        "automation_name": "Lead Assignment",
+        "trigger": "New lead created",
+        "condition": "Lead score > 50",
+        "action": "Assign to SDR based on territory",
+        "owner": "Marketing Ops",
+        "priority": "High",
+        "status": "Draft"
+      },
+      {
+        "automation_name": "Welcome Email",
+        "trigger": "Form submission",
+        "condition": "First-time contact",
+        "action": "Send welcome email sequence",
+        "owner": "Marketing",
+        "priority": "High",
+        "status": "Draft"
+      },
+      {
+        "automation_name": "MQL Notification",
+        "trigger": "Lead score threshold",
+        "condition": "Score >= MQL threshold",
+        "action": "Notify SDR via Slack + email",
+        "owner": "Marketing Ops",
+        "priority": "High",
+        "status": "Draft"
+      },
+      {
+        "automation_name": "Follow-up Reminder",
+        "trigger": "No activity 3 days",
+        "condition": "Open deal, no touchpoint",
+        "action": "Create task for deal owner",
+        "owner": "Sales Ops",
+        "priority": "Medium",
+        "status": "Draft"
+      },
+      {
+        "automation_name": "Lost Deal Survey",
+        "trigger": "Stage = Closed Lost",
+        "condition": "Deal value > $1000",
+        "action": "Send feedback survey email",
+        "owner": "Marketing",
+        "priority": "Medium",
+        "status": "Draft"
+      },
+      {
+        "automation_name": "Onboarding Trigger",
+        "trigger": "Stage = Closed Won",
+        "condition": "Contract signed",
+        "action": "Create onboarding tasks, notify CS",
+        "owner": "Sales Ops",
+        "priority": "High",
+        "status": "Draft"
+      },
+      {
+        "automation_name": "Re-engagement",
+        "trigger": "No activity 30 days",
+        "condition": "Was MQL or SQL",
+        "action": "Add to re-engagement email flow",
+        "owner": "Marketing",
+        "priority": "Low",
+        "status": "Draft"
+      },
+      {
+        "automation_name": "Lead Recycling",
+        "trigger": "SQL rejected by sales",
+        "condition": "Reason not timing",
+        "action": "Move back to nurture sequence",
+        "owner": "Marketing Ops",
+        "priority": "Medium",
+        "status": "Draft"
+      }
+    ],
+    "integrations": [
+      {
+        "tool_name": "Email Marketing",
+        "category": "Marketing",
+        "sync_direction": "CRM → Email",
+        "data_synced": "Contacts, segments, lifecycle stage",
+        "owner": "Marketing",
+        "status": "Planned"
+      },
+      {
+        "tool_name": "Website Analytics",
+        "category": "Analytics",
+        "sync_direction": "Web → CRM",
+        "data_synced": "Page views, form submissions, UTM data",
+        "owner": "Marketing Ops",
+        "status": "Planned"
+      },
+      {
+        "tool_name": "Calendar",
+        "category": "Productivity",
+        "sync_direction": "Bidirectional",
+        "data_synced": "Meeting bookings, availability",
+        "owner": "Sales",
+        "status": "Planned"
+      },
+      {
+        "tool_name": "Billing/Invoicing",
+        "category": "Finance",
+        "sync_direction": "CRM → Finance",
+        "data_synced": "Deal value, customer data",
+        "owner": "Finance",
+        "status": "Planned"
+      },
+      {
+        "tool_name": "Support Desk",
+        "category": "Support",
+        "sync_direction": "Bidirectional",
+        "data_synced": "Tickets, satisfaction scores",
+        "owner": "CS",
+        "status": "Planned"
+      },
+      {
+        "tool_name": "Slack",
+        "category": "Communication",
+        "sync_direction": "CRM → Slack",
+        "data_synced": "Deal alerts, task notifications",
+        "owner": "Sales Ops",
+        "status": "Planned"
+      }
+    ]
+  }
+}

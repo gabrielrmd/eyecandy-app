@@ -41,12 +41,7 @@ interface PageProps {
   params: Promise<{ id: string }>;
 }
 
-// Templates that have been converted to the new spreadsheet schema format
-const SCHEMA_TEMPLATES = [
-  "marketing_audit_checklist",
-  "customer_persona_builder",
-  "marketing_budget_planner",
-];
+// Auto-detect: check for schema file existence instead of hardcoded list
 
 export default async function TemplateEditorPage({ params }: PageProps) {
   const { id } = await params;
@@ -60,17 +55,17 @@ export default async function TemplateEditorPage({ params }: PageProps) {
   // Load any previously saved responses
   const { data: savedResponses } = await loadTemplateResponse(id);
 
-  // Check if this template has a new schema file
-  if (SCHEMA_TEMPLATES.includes(id)) {
+  // Check if this template has a schema file (new spreadsheet renderer)
+  const schemaPath = path.join(process.cwd(), "src", "data", "templates", `schema_${id}.json`);
+  let hasSchema = false;
+  try {
+    await fs.access(schemaPath);
+    hasSchema = true;
+  } catch { /* no schema file */ }
+
+  if (hasSchema) {
     let schema: TemplateSchema & { defaultData?: TemplateData };
     try {
-      const schemaPath = path.join(
-        process.cwd(),
-        "src",
-        "data",
-        "templates",
-        `schema_${id}.json`
-      );
       const raw = await fs.readFile(schemaPath, "utf-8");
       schema = JSON.parse(raw) as TemplateSchema & { defaultData?: TemplateData };
     } catch {

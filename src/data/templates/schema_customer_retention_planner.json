@@ -1,0 +1,2717 @@
+{
+  "id": "customer_retention_planner",
+  "name": "Customer Retention Planner",
+  "category": "growth",
+  "sheets": [
+    {
+      "id": "dashboard",
+      "name": "Dashboard",
+      "type": "summary"
+    },
+    {
+      "id": "retention_metrics",
+      "name": "Retention Metrics",
+      "type": "table",
+      "columns": [
+        {
+          "id": "month",
+          "header": "Month",
+          "type": "text"
+        },
+        {
+          "id": "active_customers",
+          "header": "Active Customers",
+          "type": "checkbox"
+        },
+        {
+          "id": "new",
+          "header": "New",
+          "type": "number"
+        },
+        {
+          "id": "churned",
+          "header": "Churned",
+          "type": "number"
+        },
+        {
+          "id": "retained",
+          "header": "Retained",
+          "type": "number"
+        },
+        {
+          "id": "retention_rate",
+          "header": "Retention Rate (%)",
+          "type": "percentage"
+        },
+        {
+          "id": "churn_rate",
+          "header": "Churn Rate (%)",
+          "type": "percentage"
+        },
+        {
+          "id": "mrr",
+          "header": "MRR",
+          "type": "number"
+        },
+        {
+          "id": "expansion_revenue",
+          "header": "Expansion Revenue",
+          "type": "currency"
+        },
+        {
+          "id": "net_revenue_retention",
+          "header": "Net Revenue Retention (%)",
+          "type": "currency"
+        }
+      ]
+    },
+    {
+      "id": "customer_health_score",
+      "name": "Customer Health Score",
+      "type": "table",
+      "columns": [
+        {
+          "id": "customer",
+          "header": "Customer",
+          "type": "text"
+        },
+        {
+          "id": "segment",
+          "header": "Segment",
+          "type": "text"
+        },
+        {
+          "id": "usage_score_1_10",
+          "header": "Usage Score (1-10)",
+          "type": "score",
+          "min": 1,
+          "max": 5,
+          "colorScale": {
+            "ranges": [
+              {
+                "min": 1,
+                "max": 2,
+                "color": "#ef4444"
+              },
+              {
+                "min": 3,
+                "max": 3,
+                "color": "#eab308"
+              },
+              {
+                "min": 4,
+                "max": 5,
+                "color": "#22c55e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "engagement_score_1_10",
+          "header": "Engagement Score (1-10)",
+          "type": "score",
+          "min": 1,
+          "max": 5,
+          "colorScale": {
+            "ranges": [
+              {
+                "min": 1,
+                "max": 2,
+                "color": "#ef4444"
+              },
+              {
+                "min": 3,
+                "max": 3,
+                "color": "#eab308"
+              },
+              {
+                "min": 4,
+                "max": 5,
+                "color": "#22c55e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "support_score_1_10",
+          "header": "Support Score (1-10)",
+          "type": "score",
+          "min": 1,
+          "max": 5,
+          "colorScale": {
+            "ranges": [
+              {
+                "min": 1,
+                "max": 2,
+                "color": "#ef4444"
+              },
+              {
+                "min": 3,
+                "max": 3,
+                "color": "#eab308"
+              },
+              {
+                "min": 4,
+                "max": 5,
+                "color": "#22c55e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "nps",
+          "header": "NPS",
+          "type": "number"
+        },
+        {
+          "id": "overall_health",
+          "header": "Overall Health",
+          "type": "number"
+        },
+        {
+          "id": "risk_level",
+          "header": "Risk Level",
+          "type": "text"
+        },
+        {
+          "id": "last_contact",
+          "header": "Last Contact",
+          "type": "text"
+        },
+        {
+          "id": "action",
+          "header": "Action",
+          "type": "textarea",
+          "width": "250px"
+        }
+      ]
+    },
+    {
+      "id": "churn_analysis",
+      "name": "Churn Analysis",
+      "type": "table",
+      "columns": [
+        {
+          "id": "customer",
+          "header": "Customer",
+          "type": "text"
+        },
+        {
+          "id": "churn_date",
+          "header": "Churn Date",
+          "type": "date"
+        },
+        {
+          "id": "segment",
+          "header": "Segment",
+          "type": "text"
+        },
+        {
+          "id": "reason",
+          "header": "Reason",
+          "type": "text"
+        },
+        {
+          "id": "arr_lost",
+          "header": "ARR Lost",
+          "type": "number"
+        },
+        {
+          "id": "recovery_attempt",
+          "header": "Recovery Attempt",
+          "type": "text"
+        },
+        {
+          "id": "outcome",
+          "header": "Outcome",
+          "type": "text"
+        },
+        {
+          "id": "lessons_learned",
+          "header": "Lessons Learned",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "id": "loyalty_programme",
+      "name": "Loyalty Programme",
+      "type": "table",
+      "columns": [
+        {
+          "id": "customer",
+          "header": "Customer",
+          "type": "text"
+        },
+        {
+          "id": "tier",
+          "header": "Tier",
+          "type": "text"
+        },
+        {
+          "id": "points_balance",
+          "header": "Points Balance",
+          "type": "number"
+        },
+        {
+          "id": "rewards_redeemed",
+          "header": "Rewards Redeemed",
+          "type": "number"
+        },
+        {
+          "id": "lifetime_value",
+          "header": "Lifetime Value",
+          "type": "number"
+        },
+        {
+          "id": "renewal_date",
+          "header": "Renewal Date",
+          "type": "date"
+        },
+        {
+          "id": "engagement_level",
+          "header": "Engagement Level",
+          "type": "number"
+        },
+        {
+          "id": "upsell_opportunity",
+          "header": "Upsell Opportunity",
+          "type": "text"
+        },
+        {
+          "id": "notes",
+          "header": "Notes",
+          "type": "textarea",
+          "width": "250px"
+        }
+      ]
+    },
+    {
+      "id": "win_back_campaigns",
+      "name": "Win-Back Campaigns",
+      "type": "table",
+      "columns": [
+        {
+          "id": "campaign",
+          "header": "Campaign",
+          "type": "text"
+        },
+        {
+          "id": "target_segment",
+          "header": "Target Segment",
+          "type": "text"
+        },
+        {
+          "id": "channel",
+          "header": "Channel",
+          "type": "text"
+        },
+        {
+          "id": "offer",
+          "header": "Offer",
+          "type": "text"
+        },
+        {
+          "id": "start_date",
+          "header": "Start Date",
+          "type": "date"
+        },
+        {
+          "id": "end_date",
+          "header": "End Date",
+          "type": "date"
+        },
+        {
+          "id": "contacts",
+          "header": "Contacts",
+          "type": "number"
+        },
+        {
+          "id": "re_activated",
+          "header": "Re-activated",
+          "type": "number"
+        },
+        {
+          "id": "win_back_rate",
+          "header": "Win-Back Rate (%)",
+          "type": "percentage"
+        },
+        {
+          "id": "revenue_recovered",
+          "header": "Revenue Recovered",
+          "type": "currency"
+        },
+        {
+          "id": "roi",
+          "header": "ROI (%)",
+          "type": "percentage"
+        }
+      ]
+    },
+    {
+      "id": "customer_journey_map",
+      "name": "Customer Journey Map",
+      "type": "table",
+      "columns": [
+        {
+          "id": "adoption",
+          "header": "Adoption",
+          "type": "text"
+        },
+        {
+          "id": "product_walkthrough_success_milestones_b",
+          "header": "Product walkthrough, Success milestones, Best practices",
+          "type": "text"
+        },
+        {
+          "id": "in_app_video_documentation",
+          "header": "In-app, Video, Documentation",
+          "type": "text"
+        },
+        {
+          "id": "feature_adoption_task_completion",
+          "header": "Feature adoption, Task completion",
+          "type": "text"
+        },
+        {
+          "id": "slow_adoption_feature_underuse",
+          "header": "Slow adoption, Feature underuse",
+          "type": "text"
+        },
+        {
+          "id": "tutorials_guided_tours",
+          "header": "Tutorials, Guided tours",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "id": "retention_playbook",
+      "name": "Retention Playbook",
+      "type": "table",
+      "columns": [
+        {
+          "id": "play_name",
+          "header": "Play Name",
+          "type": "text"
+        },
+        {
+          "id": "trigger",
+          "header": "Trigger",
+          "type": "text"
+        },
+        {
+          "id": "target",
+          "header": "Target",
+          "type": "text"
+        },
+        {
+          "id": "channel",
+          "header": "Channel",
+          "type": "text"
+        },
+        {
+          "id": "message",
+          "header": "Message",
+          "type": "textarea",
+          "width": "250px"
+        },
+        {
+          "id": "timing",
+          "header": "Timing",
+          "type": "text"
+        },
+        {
+          "id": "owner",
+          "header": "Owner",
+          "type": "text"
+        },
+        {
+          "id": "success_metric",
+          "header": "Success Metric",
+          "type": "text"
+        },
+        {
+          "id": "status",
+          "header": "Status",
+          "type": "dropdown",
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done",
+            "On Hold",
+            "Cancelled"
+          ]
+        }
+      ]
+    }
+  ],
+  "defaultData": {
+    "retention_metrics": [
+      {
+        "month": "2025-01",
+        "active_customers": 500,
+        "new": 25,
+        "churned": 15,
+        "churn_rate": 3,
+        "mrr": 50000,
+        "expansion_revenue": 2000,
+        "net_revenue_retention": 4.02
+      },
+      {
+        "month": "2025-01",
+        "active_customers": 510,
+        "new": 26,
+        "churned": 14,
+        "churn_rate": 2.74509803921569,
+        "mrr": 50500,
+        "expansion_revenue": 2100,
+        "net_revenue_retention": 4.18217821782178
+      },
+      {
+        "month": "2025-03",
+        "active_customers": 520,
+        "new": 27,
+        "churned": 13,
+        "churn_rate": 2.5,
+        "mrr": 51000,
+        "expansion_revenue": 2200,
+        "net_revenue_retention": 4.34117647058824
+      },
+      {
+        "month": "2025-04",
+        "active_customers": 530,
+        "new": 28,
+        "churned": 12,
+        "churn_rate": 2.26415094339623,
+        "mrr": 51500,
+        "expansion_revenue": 2300,
+        "net_revenue_retention": 4.49708737864078
+      },
+      {
+        "month": "2025-05",
+        "active_customers": 540,
+        "new": 29,
+        "churned": 11,
+        "churn_rate": 2.03703703703704,
+        "mrr": 52000,
+        "expansion_revenue": 2400,
+        "net_revenue_retention": 4.65
+      },
+      {
+        "month": "2025-05",
+        "active_customers": 550,
+        "new": 30,
+        "churned": 15,
+        "churn_rate": 2.72727272727273,
+        "mrr": 52500,
+        "expansion_revenue": 2500,
+        "net_revenue_retention": 4.79047619047619
+      },
+      {
+        "month": "2025-06",
+        "active_customers": 560,
+        "new": 31,
+        "churned": 14,
+        "churn_rate": 2.5,
+        "mrr": 53000,
+        "expansion_revenue": 2600,
+        "net_revenue_retention": 4.9377358490566
+      },
+      {
+        "month": "2025-07",
+        "active_customers": 570,
+        "new": 32,
+        "churned": 13,
+        "churn_rate": 2.28070175438597,
+        "mrr": 53500,
+        "expansion_revenue": 2700,
+        "net_revenue_retention": 5.08224299065421
+      },
+      {
+        "month": "2025-08",
+        "active_customers": 580,
+        "new": 33,
+        "churned": 12,
+        "churn_rate": 2.06896551724138,
+        "mrr": 54000,
+        "expansion_revenue": 2800,
+        "net_revenue_retention": 5.22407407407407
+      },
+      {
+        "month": "2025-09",
+        "active_customers": 590,
+        "new": 34,
+        "churned": 11,
+        "churn_rate": 1.86440677966102,
+        "mrr": 54500,
+        "expansion_revenue": 2900,
+        "net_revenue_retention": 5.36330275229358
+      },
+      {
+        "month": "2025-10",
+        "active_customers": 600,
+        "new": 35,
+        "churned": 15,
+        "churn_rate": 2.5,
+        "mrr": 55000,
+        "expansion_revenue": 3000,
+        "net_revenue_retention": 5.49090909090909
+      },
+      {
+        "month": "2025-11",
+        "active_customers": 610,
+        "new": 36,
+        "churned": 14,
+        "churn_rate": 2.29508196721311,
+        "mrr": 55500,
+        "expansion_revenue": 3100,
+        "net_revenue_retention": 5.62522522522523
+      }
+    ],
+    "customer_health_score": [
+      {
+        "customer": "Customer 1",
+        "segment": "Startup",
+        "usage_score_1_10": 5,
+        "engagement_score_1_10": 6,
+        "support_score_1_10": 7,
+        "nps": 8,
+        "overall_health": 6,
+        "last_contact": "2026-03-08 09:28:10.582000"
+      },
+      {
+        "customer": "Customer 2",
+        "segment": "SMB",
+        "usage_score_1_10": 6,
+        "engagement_score_1_10": 7,
+        "support_score_1_10": 8,
+        "nps": 9,
+        "overall_health": 7,
+        "last_contact": "2026-03-07 09:28:10.582000"
+      },
+      {
+        "customer": "Customer 3",
+        "segment": "Enterprise",
+        "usage_score_1_10": 7,
+        "engagement_score_1_10": 8,
+        "support_score_1_10": 9,
+        "nps": 8,
+        "overall_health": 8,
+        "last_contact": "2026-03-06 09:28:10.583000"
+      },
+      {
+        "customer": "Customer 4",
+        "segment": "Startup",
+        "usage_score_1_10": 8,
+        "engagement_score_1_10": 9,
+        "support_score_1_10": 10,
+        "nps": 9,
+        "overall_health": 9,
+        "last_contact": "2026-03-05 09:28:10.583000"
+      },
+      {
+        "customer": "Customer 5",
+        "segment": "SMB",
+        "usage_score_1_10": 9,
+        "engagement_score_1_10": 10,
+        "support_score_1_10": 7,
+        "nps": 8,
+        "overall_health": 8.66666666666667,
+        "last_contact": "2026-03-04 09:28:10.584000"
+      },
+      {
+        "customer": "Customer 6",
+        "segment": "Enterprise",
+        "usage_score_1_10": 10,
+        "engagement_score_1_10": 6,
+        "support_score_1_10": 8,
+        "nps": 9,
+        "overall_health": 8,
+        "last_contact": "2026-03-03 09:28:10.584000"
+      },
+      {
+        "customer": "Customer 7",
+        "segment": "Startup",
+        "usage_score_1_10": 5,
+        "engagement_score_1_10": 7,
+        "support_score_1_10": 9,
+        "nps": 8,
+        "overall_health": 7,
+        "last_contact": "2026-03-02 09:28:10.585000"
+      },
+      {
+        "customer": "Customer 8",
+        "segment": "SMB",
+        "usage_score_1_10": 6,
+        "engagement_score_1_10": 8,
+        "support_score_1_10": 10,
+        "nps": 9,
+        "overall_health": 8,
+        "last_contact": "2026-03-01 09:28:10.585000"
+      },
+      {
+        "customer": "Customer 9",
+        "segment": "Enterprise",
+        "usage_score_1_10": 7,
+        "engagement_score_1_10": 9,
+        "support_score_1_10": 7,
+        "nps": 8,
+        "overall_health": 7.66666666666667,
+        "last_contact": "2026-02-28 09:28:10.586000"
+      },
+      {
+        "customer": "Customer 10",
+        "segment": "Startup",
+        "usage_score_1_10": 8,
+        "engagement_score_1_10": 10,
+        "support_score_1_10": 8,
+        "nps": 9,
+        "overall_health": 8.66666666666667,
+        "last_contact": "2026-02-27 09:28:10.586000"
+      },
+      {
+        "customer": "Customer 11",
+        "segment": "SMB",
+        "usage_score_1_10": 9,
+        "engagement_score_1_10": 6,
+        "support_score_1_10": 9,
+        "nps": 8,
+        "overall_health": 8,
+        "last_contact": "2026-02-26 09:28:10.587000"
+      },
+      {
+        "customer": "Customer 12",
+        "segment": "Enterprise",
+        "usage_score_1_10": 10,
+        "engagement_score_1_10": 7,
+        "support_score_1_10": 10,
+        "nps": 9,
+        "overall_health": 9,
+        "last_contact": "2026-02-25 09:28:10.587000"
+      },
+      {
+        "customer": "Customer 13",
+        "segment": "Startup",
+        "usage_score_1_10": 5,
+        "engagement_score_1_10": 8,
+        "support_score_1_10": 7,
+        "nps": 8,
+        "overall_health": 6.66666666666667,
+        "last_contact": "2026-02-24 09:28:10.588000"
+      },
+      {
+        "customer": "Customer 14",
+        "segment": "SMB",
+        "usage_score_1_10": 6,
+        "engagement_score_1_10": 9,
+        "support_score_1_10": 8,
+        "nps": 9,
+        "overall_health": 7.66666666666667,
+        "last_contact": "2026-02-23 09:28:10.588000"
+      },
+      {
+        "customer": "Customer 15",
+        "segment": "Enterprise",
+        "usage_score_1_10": 7,
+        "engagement_score_1_10": 10,
+        "support_score_1_10": 9,
+        "nps": 8,
+        "overall_health": 8.66666666666667,
+        "last_contact": "2026-02-22 09:28:10.589000"
+      },
+      {
+        "customer": "Customer 16",
+        "segment": "Startup",
+        "usage_score_1_10": 8,
+        "engagement_score_1_10": 6,
+        "support_score_1_10": 10,
+        "nps": 9,
+        "overall_health": 8,
+        "last_contact": "2026-02-21 09:28:10.589000"
+      },
+      {
+        "customer": "Customer 17",
+        "segment": "SMB",
+        "usage_score_1_10": 9,
+        "engagement_score_1_10": 7,
+        "support_score_1_10": 7,
+        "nps": 8,
+        "overall_health": 7.66666666666667,
+        "last_contact": "2026-02-20 09:28:10.590000"
+      },
+      {
+        "customer": "Customer 18",
+        "segment": "Enterprise",
+        "usage_score_1_10": 10,
+        "engagement_score_1_10": 8,
+        "support_score_1_10": 8,
+        "nps": 9,
+        "overall_health": 8.66666666666667,
+        "last_contact": "2026-02-19 09:28:10.590000"
+      },
+      {
+        "customer": "Customer 19",
+        "segment": "Startup",
+        "usage_score_1_10": 5,
+        "engagement_score_1_10": 9,
+        "support_score_1_10": 9,
+        "nps": 8,
+        "overall_health": 7.66666666666667,
+        "last_contact": "2026-02-18 09:28:10.591000"
+      },
+      {
+        "customer": "Customer 20",
+        "segment": "SMB",
+        "usage_score_1_10": 6,
+        "engagement_score_1_10": 10,
+        "support_score_1_10": 10,
+        "nps": 9,
+        "overall_health": 8.66666666666667,
+        "last_contact": "2026-02-17 09:28:10.591000"
+      },
+      {
+        "customer": "Customer 21",
+        "segment": "Enterprise",
+        "usage_score_1_10": 7,
+        "engagement_score_1_10": 6,
+        "support_score_1_10": 7,
+        "nps": 8,
+        "overall_health": 6.66666666666667,
+        "last_contact": "2026-02-16 09:28:10.591000"
+      },
+      {
+        "customer": "Customer 22",
+        "segment": "Startup",
+        "usage_score_1_10": 8,
+        "engagement_score_1_10": 7,
+        "support_score_1_10": 8,
+        "nps": 9,
+        "overall_health": 7.66666666666667,
+        "last_contact": "2026-02-15 09:28:10.592000"
+      },
+      {
+        "customer": "Customer 23",
+        "segment": "SMB",
+        "usage_score_1_10": 9,
+        "engagement_score_1_10": 8,
+        "support_score_1_10": 9,
+        "nps": 8,
+        "overall_health": 8.66666666666667,
+        "last_contact": "2026-02-14 09:28:10.592000"
+      },
+      {
+        "customer": "Customer 24",
+        "segment": "Enterprise",
+        "usage_score_1_10": 10,
+        "engagement_score_1_10": 9,
+        "support_score_1_10": 10,
+        "nps": 9,
+        "overall_health": 9.66666666666667,
+        "last_contact": "2026-02-13 09:28:10.593000"
+      },
+      {
+        "customer": "Customer 25",
+        "segment": "Startup",
+        "usage_score_1_10": 5,
+        "engagement_score_1_10": 10,
+        "support_score_1_10": 7,
+        "nps": 8,
+        "overall_health": 7.33333333333333,
+        "last_contact": "2026-02-12 09:28:10.593000"
+      },
+      {
+        "customer": "Customer 26",
+        "segment": "SMB",
+        "usage_score_1_10": 6,
+        "engagement_score_1_10": 6,
+        "support_score_1_10": 8,
+        "nps": 9,
+        "overall_health": 6.66666666666667,
+        "last_contact": "2026-02-11 09:28:10.594000"
+      },
+      {
+        "customer": "Customer 27",
+        "segment": "Enterprise",
+        "usage_score_1_10": 7,
+        "engagement_score_1_10": 7,
+        "support_score_1_10": 9,
+        "nps": 8,
+        "overall_health": 7.66666666666667,
+        "last_contact": "2026-02-10 09:28:10.594000"
+      },
+      {
+        "customer": "Customer 28",
+        "segment": "Startup",
+        "usage_score_1_10": 8,
+        "engagement_score_1_10": 8,
+        "support_score_1_10": 10,
+        "nps": 9,
+        "overall_health": 8.66666666666667,
+        "last_contact": "2026-02-09 09:28:10.595000"
+      },
+      {
+        "customer": "Customer 29",
+        "segment": "SMB",
+        "usage_score_1_10": 9,
+        "engagement_score_1_10": 9,
+        "support_score_1_10": 7,
+        "nps": 8,
+        "overall_health": 8.33333333333333,
+        "last_contact": "2026-02-08 09:28:10.595000"
+      },
+      {
+        "customer": "Customer 30",
+        "segment": "Enterprise",
+        "usage_score_1_10": 10,
+        "engagement_score_1_10": 10,
+        "support_score_1_10": 8,
+        "nps": 9,
+        "overall_health": 9.33333333333333,
+        "last_contact": "2026-02-07 09:28:10.596000"
+      },
+      {
+        "customer": "Customer 31",
+        "segment": "Startup",
+        "usage_score_1_10": 5,
+        "engagement_score_1_10": 6,
+        "support_score_1_10": 9,
+        "nps": 8,
+        "overall_health": 6.66666666666667,
+        "last_contact": "2026-03-08 09:28:10.596000"
+      },
+      {
+        "customer": "Customer 32",
+        "segment": "SMB",
+        "usage_score_1_10": 6,
+        "engagement_score_1_10": 7,
+        "support_score_1_10": 10,
+        "nps": 9,
+        "overall_health": 7.66666666666667,
+        "last_contact": "2026-03-07 09:28:10.597000"
+      },
+      {
+        "customer": "Customer 33",
+        "segment": "Enterprise",
+        "usage_score_1_10": 7,
+        "engagement_score_1_10": 8,
+        "support_score_1_10": 7,
+        "nps": 8,
+        "overall_health": 7.33333333333333,
+        "last_contact": "2026-03-06 09:28:10.597000"
+      },
+      {
+        "customer": "Customer 34",
+        "segment": "Startup",
+        "usage_score_1_10": 8,
+        "engagement_score_1_10": 9,
+        "support_score_1_10": 8,
+        "nps": 9,
+        "overall_health": 8.33333333333333,
+        "last_contact": "2026-03-05 09:28:10.598000"
+      },
+      {
+        "customer": "Customer 35",
+        "segment": "SMB",
+        "usage_score_1_10": 9,
+        "engagement_score_1_10": 10,
+        "support_score_1_10": 9,
+        "nps": 8,
+        "overall_health": 9.33333333333333,
+        "last_contact": "2026-03-04 09:28:10.598000"
+      },
+      {
+        "customer": "Customer 36",
+        "segment": "Enterprise",
+        "usage_score_1_10": 10,
+        "engagement_score_1_10": 6,
+        "support_score_1_10": 10,
+        "nps": 9,
+        "overall_health": 8.66666666666667,
+        "last_contact": "2026-03-03 09:28:10.599000"
+      },
+      {
+        "customer": "Customer 37",
+        "segment": "Startup",
+        "usage_score_1_10": 5,
+        "engagement_score_1_10": 7,
+        "support_score_1_10": 7,
+        "nps": 8,
+        "overall_health": 6.33333333333333,
+        "last_contact": "2026-03-02 09:28:10.599000"
+      },
+      {
+        "customer": "Customer 38",
+        "segment": "SMB",
+        "usage_score_1_10": 6,
+        "engagement_score_1_10": 8,
+        "support_score_1_10": 8,
+        "nps": 9,
+        "overall_health": 7.33333333333333,
+        "last_contact": "2026-03-01 09:28:10.600000"
+      },
+      {
+        "customer": "Customer 39",
+        "segment": "Enterprise",
+        "usage_score_1_10": 7,
+        "engagement_score_1_10": 9,
+        "support_score_1_10": 9,
+        "nps": 8,
+        "overall_health": 8.33333333333333,
+        "last_contact": "2026-02-28 09:28:10.600000"
+      },
+      {
+        "customer": "Customer 40",
+        "segment": "Startup",
+        "usage_score_1_10": 8,
+        "engagement_score_1_10": 10,
+        "support_score_1_10": 10,
+        "nps": 9,
+        "overall_health": 9.33333333333333,
+        "last_contact": "2026-02-27 09:28:10.601000"
+      },
+      {
+        "customer": "Customer 41",
+        "segment": "SMB",
+        "usage_score_1_10": 9,
+        "engagement_score_1_10": 6,
+        "support_score_1_10": 7,
+        "nps": 8,
+        "overall_health": 7.33333333333333,
+        "last_contact": "2026-02-26 09:28:10.601000"
+      },
+      {
+        "customer": "Customer 42",
+        "segment": "Enterprise",
+        "usage_score_1_10": 10,
+        "engagement_score_1_10": 7,
+        "support_score_1_10": 8,
+        "nps": 9,
+        "overall_health": 8.33333333333333,
+        "last_contact": "2026-02-25 09:28:10.602000"
+      },
+      {
+        "customer": "Customer 43",
+        "segment": "Startup",
+        "usage_score_1_10": 5,
+        "engagement_score_1_10": 8,
+        "support_score_1_10": 9,
+        "nps": 8,
+        "overall_health": 7.33333333333333,
+        "last_contact": "2026-02-24 09:28:10.602000"
+      },
+      {
+        "customer": "Customer 44",
+        "segment": "SMB",
+        "usage_score_1_10": 6,
+        "engagement_score_1_10": 9,
+        "support_score_1_10": 10,
+        "nps": 9,
+        "overall_health": 8.33333333333333,
+        "last_contact": "2026-02-23 09:28:10.602000"
+      },
+      {
+        "customer": "Customer 45",
+        "segment": "Enterprise",
+        "usage_score_1_10": 7,
+        "engagement_score_1_10": 10,
+        "support_score_1_10": 7,
+        "nps": 8,
+        "overall_health": 8,
+        "last_contact": "2026-02-22 09:28:10.603000"
+      },
+      {
+        "customer": "Customer 46",
+        "segment": "Startup",
+        "usage_score_1_10": 8,
+        "engagement_score_1_10": 6,
+        "support_score_1_10": 8,
+        "nps": 9,
+        "overall_health": 7.33333333333333,
+        "last_contact": "2026-02-21 09:28:10.603000"
+      },
+      {
+        "customer": "Customer 47",
+        "segment": "SMB",
+        "usage_score_1_10": 9,
+        "engagement_score_1_10": 7,
+        "support_score_1_10": 9,
+        "nps": 8,
+        "overall_health": 8.33333333333333,
+        "last_contact": "2026-02-20 09:28:10.604000"
+      },
+      {
+        "customer": "Customer 48",
+        "segment": "Enterprise",
+        "usage_score_1_10": 10,
+        "engagement_score_1_10": 8,
+        "support_score_1_10": 10,
+        "nps": 9,
+        "overall_health": 9.33333333333333,
+        "last_contact": "2026-02-19 09:28:10.604000"
+      },
+      {
+        "customer": "Customer 49",
+        "segment": "Startup",
+        "usage_score_1_10": 5,
+        "engagement_score_1_10": 9,
+        "support_score_1_10": 7,
+        "nps": 8,
+        "overall_health": 7,
+        "last_contact": "2026-02-18 09:28:10.605000"
+      },
+      {
+        "customer": "Customer 50",
+        "segment": "SMB",
+        "usage_score_1_10": 6,
+        "engagement_score_1_10": 10,
+        "support_score_1_10": 8,
+        "nps": 9,
+        "overall_health": 8,
+        "last_contact": "2026-02-17 09:28:10.605000"
+      },
+      {
+        "customer": "Customer 51",
+        "segment": "Enterprise",
+        "usage_score_1_10": 7,
+        "engagement_score_1_10": 6,
+        "support_score_1_10": 9,
+        "nps": 8,
+        "overall_health": 7.33333333333333,
+        "last_contact": "2026-02-16 09:28:10.606000"
+      },
+      {
+        "customer": "Customer 52",
+        "segment": "Startup",
+        "usage_score_1_10": 8,
+        "engagement_score_1_10": 7,
+        "support_score_1_10": 10,
+        "nps": 9,
+        "overall_health": 8.33333333333333,
+        "last_contact": "2026-02-15 09:28:10.606000"
+      },
+      {
+        "customer": "Customer 53",
+        "segment": "SMB",
+        "usage_score_1_10": 9,
+        "engagement_score_1_10": 8,
+        "support_score_1_10": 7,
+        "nps": 8,
+        "overall_health": 8,
+        "last_contact": "2026-02-14 09:28:10.607000"
+      },
+      {
+        "customer": "Customer 54",
+        "segment": "Enterprise",
+        "usage_score_1_10": 10,
+        "engagement_score_1_10": 9,
+        "support_score_1_10": 8,
+        "nps": 9,
+        "overall_health": 9,
+        "last_contact": "2026-02-13 09:28:10.607000"
+      },
+      {
+        "customer": "Customer 55",
+        "segment": "Startup",
+        "usage_score_1_10": 5,
+        "engagement_score_1_10": 10,
+        "support_score_1_10": 9,
+        "nps": 8,
+        "overall_health": 8,
+        "last_contact": "2026-02-12 09:28:10.608000"
+      },
+      {
+        "customer": "Customer 56",
+        "segment": "SMB",
+        "usage_score_1_10": 6,
+        "engagement_score_1_10": 6,
+        "support_score_1_10": 10,
+        "nps": 9,
+        "overall_health": 7.33333333333333,
+        "last_contact": "2026-02-11 09:28:10.608000"
+      },
+      {
+        "customer": "Customer 57",
+        "segment": "Enterprise",
+        "usage_score_1_10": 7,
+        "engagement_score_1_10": 7,
+        "support_score_1_10": 7,
+        "nps": 8,
+        "overall_health": 7,
+        "last_contact": "2026-02-10 09:28:10.609000"
+      },
+      {
+        "customer": "Customer 58",
+        "segment": "Startup",
+        "usage_score_1_10": 8,
+        "engagement_score_1_10": 8,
+        "support_score_1_10": 8,
+        "nps": 9,
+        "overall_health": 8,
+        "last_contact": "2026-02-09 09:28:10.609000"
+      },
+      {
+        "customer": "Customer 59",
+        "segment": "SMB",
+        "usage_score_1_10": 9,
+        "engagement_score_1_10": 9,
+        "support_score_1_10": 9,
+        "nps": 8,
+        "overall_health": 9,
+        "last_contact": "2026-02-08 09:28:10.610000"
+      }
+    ],
+    "churn_analysis": [
+      {
+        "customer": "Lost Customer 1",
+        "churn_date": "2025-12-08",
+        "segment": "Startup",
+        "arr_lost": 5000,
+        "recovery_attempt": "Yes",
+        "outcome": "Not attempted"
+      },
+      {
+        "customer": "Lost Customer 2",
+        "churn_date": "2025-12-09",
+        "segment": "SMB",
+        "arr_lost": 7000,
+        "recovery_attempt": "No",
+        "outcome": "Rejected"
+      },
+      {
+        "customer": "Lost Customer 3",
+        "churn_date": "2025-12-10",
+        "segment": "Enterprise",
+        "arr_lost": 9000,
+        "recovery_attempt": "Yes",
+        "outcome": "Successful"
+      },
+      {
+        "customer": "Lost Customer 4",
+        "churn_date": "2025-12-11",
+        "segment": "Startup",
+        "arr_lost": 11000,
+        "recovery_attempt": "No",
+        "outcome": "Not attempted"
+      },
+      {
+        "customer": "Lost Customer 5",
+        "churn_date": "2025-12-12",
+        "segment": "SMB",
+        "arr_lost": 13000,
+        "recovery_attempt": "Yes",
+        "outcome": "Rejected"
+      },
+      {
+        "customer": "Lost Customer 6",
+        "churn_date": "2025-12-13",
+        "segment": "Enterprise",
+        "arr_lost": 15000,
+        "recovery_attempt": "No",
+        "outcome": "Successful"
+      },
+      {
+        "customer": "Lost Customer 7",
+        "churn_date": "2025-12-14",
+        "segment": "Startup",
+        "arr_lost": 17000,
+        "recovery_attempt": "Yes",
+        "outcome": "Not attempted"
+      },
+      {
+        "customer": "Lost Customer 8",
+        "churn_date": "2025-12-15",
+        "segment": "SMB",
+        "arr_lost": 19000,
+        "recovery_attempt": "No",
+        "outcome": "Rejected"
+      },
+      {
+        "customer": "Lost Customer 9",
+        "churn_date": "2025-12-16",
+        "segment": "Enterprise",
+        "arr_lost": 5000,
+        "recovery_attempt": "Yes",
+        "outcome": "Successful"
+      },
+      {
+        "customer": "Lost Customer 10",
+        "churn_date": "2025-12-17",
+        "segment": "Startup",
+        "arr_lost": 7000,
+        "recovery_attempt": "No",
+        "outcome": "Not attempted"
+      },
+      {
+        "customer": "Lost Customer 11",
+        "churn_date": "2025-12-18",
+        "segment": "SMB",
+        "arr_lost": 9000,
+        "recovery_attempt": "Yes",
+        "outcome": "Rejected"
+      },
+      {
+        "customer": "Lost Customer 12",
+        "churn_date": "2025-12-19",
+        "segment": "Enterprise",
+        "arr_lost": 11000,
+        "recovery_attempt": "No",
+        "outcome": "Successful"
+      },
+      {
+        "customer": "Lost Customer 13",
+        "churn_date": "2025-12-20",
+        "segment": "Startup",
+        "arr_lost": 13000,
+        "recovery_attempt": "Yes",
+        "outcome": "Not attempted"
+      },
+      {
+        "customer": "Lost Customer 14",
+        "churn_date": "2025-12-21",
+        "segment": "SMB",
+        "arr_lost": 15000,
+        "recovery_attempt": "No",
+        "outcome": "Rejected"
+      },
+      {
+        "customer": "Lost Customer 15",
+        "churn_date": "2025-12-22",
+        "segment": "Enterprise",
+        "arr_lost": 17000,
+        "recovery_attempt": "Yes",
+        "outcome": "Successful"
+      },
+      {
+        "customer": "Lost Customer 16",
+        "churn_date": "2025-12-23",
+        "segment": "Startup",
+        "arr_lost": 19000,
+        "recovery_attempt": "No",
+        "outcome": "Not attempted"
+      },
+      {
+        "customer": "Lost Customer 17",
+        "churn_date": "2025-12-24",
+        "segment": "SMB",
+        "arr_lost": 5000,
+        "recovery_attempt": "Yes",
+        "outcome": "Rejected"
+      },
+      {
+        "customer": "Lost Customer 18",
+        "churn_date": "2025-12-25",
+        "segment": "Enterprise",
+        "arr_lost": 7000,
+        "recovery_attempt": "No",
+        "outcome": "Successful"
+      },
+      {
+        "customer": "Lost Customer 19",
+        "churn_date": "2025-12-26",
+        "segment": "Startup",
+        "arr_lost": 9000,
+        "recovery_attempt": "Yes",
+        "outcome": "Not attempted"
+      },
+      {
+        "customer": "Lost Customer 20",
+        "churn_date": "2025-12-27",
+        "segment": "SMB",
+        "arr_lost": 11000,
+        "recovery_attempt": "No",
+        "outcome": "Rejected"
+      },
+      {
+        "customer": "Lost Customer 21",
+        "churn_date": "2025-12-28",
+        "segment": "Enterprise",
+        "arr_lost": 13000,
+        "recovery_attempt": "Yes",
+        "outcome": "Successful"
+      },
+      {
+        "customer": "Lost Customer 22",
+        "churn_date": "2025-12-29",
+        "segment": "Startup",
+        "arr_lost": 15000,
+        "recovery_attempt": "No",
+        "outcome": "Not attempted"
+      },
+      {
+        "customer": "Lost Customer 23",
+        "churn_date": "2025-12-30",
+        "segment": "SMB",
+        "arr_lost": 17000,
+        "recovery_attempt": "Yes",
+        "outcome": "Rejected"
+      },
+      {
+        "customer": "Lost Customer 24",
+        "churn_date": "2025-12-31",
+        "segment": "Enterprise",
+        "arr_lost": 19000,
+        "recovery_attempt": "No",
+        "outcome": "Successful"
+      },
+      {
+        "customer": "Lost Customer 25",
+        "churn_date": "2026-01-01",
+        "segment": "Startup",
+        "arr_lost": 5000,
+        "recovery_attempt": "Yes",
+        "outcome": "Not attempted"
+      },
+      {
+        "customer": "Lost Customer 26",
+        "churn_date": "2026-01-02",
+        "segment": "SMB",
+        "arr_lost": 7000,
+        "recovery_attempt": "No",
+        "outcome": "Rejected"
+      },
+      {
+        "customer": "Lost Customer 27",
+        "churn_date": "2026-01-03",
+        "segment": "Enterprise",
+        "arr_lost": 9000,
+        "recovery_attempt": "Yes",
+        "outcome": "Successful"
+      },
+      {
+        "customer": "Lost Customer 28",
+        "churn_date": "2026-01-04",
+        "segment": "Startup",
+        "arr_lost": 11000,
+        "recovery_attempt": "No",
+        "outcome": "Not attempted"
+      },
+      {
+        "customer": "Lost Customer 29",
+        "churn_date": "2026-01-05",
+        "segment": "SMB",
+        "arr_lost": 13000,
+        "recovery_attempt": "Yes",
+        "outcome": "Rejected"
+      },
+      {
+        "customer": "Lost Customer 30",
+        "churn_date": "2026-01-06",
+        "segment": "Enterprise",
+        "arr_lost": 15000,
+        "recovery_attempt": "No",
+        "outcome": "Successful"
+      },
+      {
+        "customer": "Lost Customer 31",
+        "churn_date": "2026-01-07",
+        "segment": "Startup",
+        "arr_lost": 17000,
+        "recovery_attempt": "Yes",
+        "outcome": "Not attempted"
+      },
+      {
+        "customer": "Lost Customer 32",
+        "churn_date": "2026-01-08",
+        "segment": "SMB",
+        "arr_lost": 19000,
+        "recovery_attempt": "No",
+        "outcome": "Rejected"
+      },
+      {
+        "customer": "Lost Customer 33",
+        "churn_date": "2026-01-09",
+        "segment": "Enterprise",
+        "arr_lost": 5000,
+        "recovery_attempt": "Yes",
+        "outcome": "Successful"
+      },
+      {
+        "customer": "Lost Customer 34",
+        "churn_date": "2026-01-10",
+        "segment": "Startup",
+        "arr_lost": 7000,
+        "recovery_attempt": "No",
+        "outcome": "Not attempted"
+      },
+      {
+        "customer": "Lost Customer 35",
+        "churn_date": "2026-01-11",
+        "segment": "SMB",
+        "arr_lost": 9000,
+        "recovery_attempt": "Yes",
+        "outcome": "Rejected"
+      },
+      {
+        "customer": "Lost Customer 36",
+        "churn_date": "2026-01-12",
+        "segment": "Enterprise",
+        "arr_lost": 11000,
+        "recovery_attempt": "No",
+        "outcome": "Successful"
+      },
+      {
+        "customer": "Lost Customer 37",
+        "churn_date": "2026-01-13",
+        "segment": "Startup",
+        "arr_lost": 13000,
+        "recovery_attempt": "Yes",
+        "outcome": "Not attempted"
+      },
+      {
+        "customer": "Lost Customer 38",
+        "churn_date": "2026-01-14",
+        "segment": "SMB",
+        "arr_lost": 15000,
+        "recovery_attempt": "No",
+        "outcome": "Rejected"
+      },
+      {
+        "customer": "Lost Customer 39",
+        "churn_date": "2026-01-15",
+        "segment": "Enterprise",
+        "arr_lost": 17000,
+        "recovery_attempt": "Yes",
+        "outcome": "Successful"
+      },
+      {
+        "customer": "Lost Customer 40",
+        "churn_date": "2026-01-16",
+        "segment": "Startup",
+        "arr_lost": 19000,
+        "recovery_attempt": "No",
+        "outcome": "Not attempted"
+      },
+      {
+        "customer": "Lost Customer 41",
+        "churn_date": "2026-01-17",
+        "segment": "SMB",
+        "arr_lost": 5000,
+        "recovery_attempt": "Yes",
+        "outcome": "Rejected"
+      },
+      {
+        "customer": "Lost Customer 42",
+        "churn_date": "2026-01-18",
+        "segment": "Enterprise",
+        "arr_lost": 7000,
+        "recovery_attempt": "No",
+        "outcome": "Successful"
+      },
+      {
+        "customer": "Lost Customer 43",
+        "churn_date": "2026-01-19",
+        "segment": "Startup",
+        "arr_lost": 9000,
+        "recovery_attempt": "Yes",
+        "outcome": "Not attempted"
+      },
+      {
+        "customer": "Lost Customer 44",
+        "churn_date": "2026-01-20",
+        "segment": "SMB",
+        "arr_lost": 11000,
+        "recovery_attempt": "No",
+        "outcome": "Rejected"
+      },
+      {
+        "customer": "Lost Customer 45",
+        "churn_date": "2026-01-21",
+        "segment": "Enterprise",
+        "arr_lost": 13000,
+        "recovery_attempt": "Yes",
+        "outcome": "Successful"
+      },
+      {
+        "customer": "Lost Customer 46",
+        "churn_date": "2026-01-22",
+        "segment": "Startup",
+        "arr_lost": 15000,
+        "recovery_attempt": "No",
+        "outcome": "Not attempted"
+      },
+      {
+        "customer": "Lost Customer 47",
+        "churn_date": "2026-01-23",
+        "segment": "SMB",
+        "arr_lost": 17000,
+        "recovery_attempt": "Yes",
+        "outcome": "Rejected"
+      },
+      {
+        "customer": "Lost Customer 48",
+        "churn_date": "2026-01-24",
+        "segment": "Enterprise",
+        "arr_lost": 19000,
+        "recovery_attempt": "No",
+        "outcome": "Successful"
+      },
+      {
+        "customer": "Lost Customer 49",
+        "churn_date": "2026-01-25",
+        "segment": "Startup",
+        "arr_lost": 5000,
+        "recovery_attempt": "Yes",
+        "outcome": "Not attempted"
+      },
+      {
+        "customer": "Lost Customer 50",
+        "churn_date": "2026-01-26",
+        "segment": "SMB",
+        "arr_lost": 7000,
+        "recovery_attempt": "No",
+        "outcome": "Rejected"
+      }
+    ],
+    "loyalty_programme": [
+      {
+        "customer": "Customer 1",
+        "tier": "Bronze",
+        "points_balance": 100,
+        "rewards_redeemed": 50,
+        "lifetime_value": 5000,
+        "renewal_date": "2027-03-08",
+        "engagement_level": 70,
+        "upsell_opportunity": "Low"
+      },
+      {
+        "customer": "Customer 2",
+        "tier": "Silver",
+        "points_balance": 201,
+        "rewards_redeemed": 51,
+        "lifetime_value": 15001,
+        "renewal_date": "2027-03-07",
+        "engagement_level": 71,
+        "upsell_opportunity": "Medium"
+      },
+      {
+        "customer": "Customer 3",
+        "tier": "Gold",
+        "points_balance": 302,
+        "rewards_redeemed": 52,
+        "lifetime_value": 25002,
+        "renewal_date": "2027-03-06",
+        "engagement_level": 72,
+        "upsell_opportunity": "High"
+      },
+      {
+        "customer": "Customer 4",
+        "tier": "Platinum",
+        "points_balance": 403,
+        "rewards_redeemed": 53,
+        "lifetime_value": 35003,
+        "renewal_date": "2027-03-05",
+        "engagement_level": 73,
+        "upsell_opportunity": "Low"
+      },
+      {
+        "customer": "Customer 5",
+        "tier": "Bronze",
+        "points_balance": 104,
+        "rewards_redeemed": 54,
+        "lifetime_value": 5004,
+        "renewal_date": "2027-03-04",
+        "engagement_level": 74,
+        "upsell_opportunity": "Medium"
+      },
+      {
+        "customer": "Customer 6",
+        "tier": "Silver",
+        "points_balance": 205,
+        "rewards_redeemed": 55,
+        "lifetime_value": 15005,
+        "renewal_date": "2027-03-03",
+        "engagement_level": 75,
+        "upsell_opportunity": "High"
+      },
+      {
+        "customer": "Customer 7",
+        "tier": "Gold",
+        "points_balance": 306,
+        "rewards_redeemed": 56,
+        "lifetime_value": 25006,
+        "renewal_date": "2027-03-02",
+        "engagement_level": 76,
+        "upsell_opportunity": "Low"
+      },
+      {
+        "customer": "Customer 8",
+        "tier": "Platinum",
+        "points_balance": 407,
+        "rewards_redeemed": 57,
+        "lifetime_value": 35007,
+        "renewal_date": "2027-03-01",
+        "engagement_level": 77,
+        "upsell_opportunity": "Medium"
+      },
+      {
+        "customer": "Customer 9",
+        "tier": "Bronze",
+        "points_balance": 108,
+        "rewards_redeemed": 58,
+        "lifetime_value": 5008,
+        "renewal_date": "2027-02-28",
+        "engagement_level": 78,
+        "upsell_opportunity": "High"
+      },
+      {
+        "customer": "Customer 10",
+        "tier": "Silver",
+        "points_balance": 209,
+        "rewards_redeemed": 59,
+        "lifetime_value": 15009,
+        "renewal_date": "2027-02-27",
+        "engagement_level": 79,
+        "upsell_opportunity": "Low"
+      },
+      {
+        "customer": "Customer 11",
+        "tier": "Gold",
+        "points_balance": 310,
+        "rewards_redeemed": 60,
+        "lifetime_value": 25010,
+        "renewal_date": "2027-02-26",
+        "engagement_level": 80,
+        "upsell_opportunity": "Medium"
+      },
+      {
+        "customer": "Customer 12",
+        "tier": "Platinum",
+        "points_balance": 411,
+        "rewards_redeemed": 61,
+        "lifetime_value": 35011,
+        "renewal_date": "2027-02-25",
+        "engagement_level": 81,
+        "upsell_opportunity": "High"
+      },
+      {
+        "customer": "Customer 13",
+        "tier": "Bronze",
+        "points_balance": 112,
+        "rewards_redeemed": 62,
+        "lifetime_value": 5012,
+        "renewal_date": "2027-02-24",
+        "engagement_level": 82,
+        "upsell_opportunity": "Low"
+      },
+      {
+        "customer": "Customer 14",
+        "tier": "Silver",
+        "points_balance": 213,
+        "rewards_redeemed": 63,
+        "lifetime_value": 15013,
+        "renewal_date": "2027-02-23",
+        "engagement_level": 83,
+        "upsell_opportunity": "Medium"
+      },
+      {
+        "customer": "Customer 15",
+        "tier": "Gold",
+        "points_balance": 314,
+        "rewards_redeemed": 64,
+        "lifetime_value": 25014,
+        "renewal_date": "2027-02-22",
+        "engagement_level": 84,
+        "upsell_opportunity": "High"
+      },
+      {
+        "customer": "Customer 16",
+        "tier": "Platinum",
+        "points_balance": 415,
+        "rewards_redeemed": 65,
+        "lifetime_value": 35015,
+        "renewal_date": "2027-02-21",
+        "engagement_level": 85,
+        "upsell_opportunity": "Low"
+      },
+      {
+        "customer": "Customer 17",
+        "tier": "Bronze",
+        "points_balance": 116,
+        "rewards_redeemed": 66,
+        "lifetime_value": 5016,
+        "renewal_date": "2027-02-20",
+        "engagement_level": 86,
+        "upsell_opportunity": "Medium"
+      },
+      {
+        "customer": "Customer 18",
+        "tier": "Silver",
+        "points_balance": 217,
+        "rewards_redeemed": 67,
+        "lifetime_value": 15017,
+        "renewal_date": "2027-02-19",
+        "engagement_level": 87,
+        "upsell_opportunity": "High"
+      },
+      {
+        "customer": "Customer 19",
+        "tier": "Gold",
+        "points_balance": 318,
+        "rewards_redeemed": 68,
+        "lifetime_value": 25018,
+        "renewal_date": "2027-02-18",
+        "engagement_level": 88,
+        "upsell_opportunity": "Low"
+      },
+      {
+        "customer": "Customer 20",
+        "tier": "Platinum",
+        "points_balance": 419,
+        "rewards_redeemed": 69,
+        "lifetime_value": 35019,
+        "renewal_date": "2027-02-17",
+        "engagement_level": 89,
+        "upsell_opportunity": "Medium"
+      },
+      {
+        "customer": "Customer 21",
+        "tier": "Bronze",
+        "points_balance": 120,
+        "rewards_redeemed": 70,
+        "lifetime_value": 5020,
+        "renewal_date": "2027-02-16",
+        "engagement_level": 90,
+        "upsell_opportunity": "High"
+      },
+      {
+        "customer": "Customer 22",
+        "tier": "Silver",
+        "points_balance": 221,
+        "rewards_redeemed": 71,
+        "lifetime_value": 15021,
+        "renewal_date": "2027-02-15",
+        "engagement_level": 91,
+        "upsell_opportunity": "Low"
+      },
+      {
+        "customer": "Customer 23",
+        "tier": "Gold",
+        "points_balance": 322,
+        "rewards_redeemed": 72,
+        "lifetime_value": 25022,
+        "renewal_date": "2027-02-14",
+        "engagement_level": 92,
+        "upsell_opportunity": "Medium"
+      },
+      {
+        "customer": "Customer 24",
+        "tier": "Platinum",
+        "points_balance": 423,
+        "rewards_redeemed": 73,
+        "lifetime_value": 35023,
+        "renewal_date": "2027-02-13",
+        "engagement_level": 93,
+        "upsell_opportunity": "High"
+      },
+      {
+        "customer": "Customer 25",
+        "tier": "Bronze",
+        "points_balance": 124,
+        "rewards_redeemed": 74,
+        "lifetime_value": 5024,
+        "renewal_date": "2027-02-12",
+        "engagement_level": 94,
+        "upsell_opportunity": "Low"
+      },
+      {
+        "customer": "Customer 26",
+        "tier": "Silver",
+        "points_balance": 225,
+        "rewards_redeemed": 75,
+        "lifetime_value": 15025,
+        "renewal_date": "2027-02-11",
+        "engagement_level": 95,
+        "upsell_opportunity": "Medium"
+      },
+      {
+        "customer": "Customer 27",
+        "tier": "Gold",
+        "points_balance": 326,
+        "rewards_redeemed": 76,
+        "lifetime_value": 25026,
+        "renewal_date": "2027-02-10",
+        "engagement_level": 96,
+        "upsell_opportunity": "High"
+      },
+      {
+        "customer": "Customer 28",
+        "tier": "Platinum",
+        "points_balance": 427,
+        "rewards_redeemed": 77,
+        "lifetime_value": 35027,
+        "renewal_date": "2027-02-09",
+        "engagement_level": 97,
+        "upsell_opportunity": "Low"
+      },
+      {
+        "customer": "Customer 29",
+        "tier": "Bronze",
+        "points_balance": 128,
+        "rewards_redeemed": 78,
+        "lifetime_value": 5028,
+        "renewal_date": "2027-02-08",
+        "engagement_level": 98,
+        "upsell_opportunity": "Medium"
+      },
+      {
+        "customer": "Customer 30",
+        "tier": "Silver",
+        "points_balance": 229,
+        "rewards_redeemed": 79,
+        "lifetime_value": 15029,
+        "renewal_date": "2027-02-07",
+        "engagement_level": 99,
+        "upsell_opportunity": "High"
+      },
+      {
+        "customer": "Customer 31",
+        "tier": "Gold",
+        "points_balance": 330,
+        "rewards_redeemed": 50,
+        "lifetime_value": 25030,
+        "renewal_date": "2027-02-06",
+        "engagement_level": 70,
+        "upsell_opportunity": "Low"
+      },
+      {
+        "customer": "Customer 32",
+        "tier": "Platinum",
+        "points_balance": 431,
+        "rewards_redeemed": 51,
+        "lifetime_value": 35031,
+        "renewal_date": "2027-02-05",
+        "engagement_level": 71,
+        "upsell_opportunity": "Medium"
+      },
+      {
+        "customer": "Customer 33",
+        "tier": "Bronze",
+        "points_balance": 132,
+        "rewards_redeemed": 52,
+        "lifetime_value": 5032,
+        "renewal_date": "2027-02-04",
+        "engagement_level": 72,
+        "upsell_opportunity": "High"
+      },
+      {
+        "customer": "Customer 34",
+        "tier": "Silver",
+        "points_balance": 233,
+        "rewards_redeemed": 53,
+        "lifetime_value": 15033,
+        "renewal_date": "2027-02-03",
+        "engagement_level": 73,
+        "upsell_opportunity": "Low"
+      },
+      {
+        "customer": "Customer 35",
+        "tier": "Gold",
+        "points_balance": 334,
+        "rewards_redeemed": 54,
+        "lifetime_value": 25034,
+        "renewal_date": "2027-02-02",
+        "engagement_level": 74,
+        "upsell_opportunity": "Medium"
+      },
+      {
+        "customer": "Customer 36",
+        "tier": "Platinum",
+        "points_balance": 435,
+        "rewards_redeemed": 55,
+        "lifetime_value": 35035,
+        "renewal_date": "2027-02-01",
+        "engagement_level": 75,
+        "upsell_opportunity": "High"
+      },
+      {
+        "customer": "Customer 37",
+        "tier": "Bronze",
+        "points_balance": 136,
+        "rewards_redeemed": 56,
+        "lifetime_value": 5036,
+        "renewal_date": "2027-01-31",
+        "engagement_level": 76,
+        "upsell_opportunity": "Low"
+      },
+      {
+        "customer": "Customer 38",
+        "tier": "Silver",
+        "points_balance": 237,
+        "rewards_redeemed": 57,
+        "lifetime_value": 15037,
+        "renewal_date": "2027-01-30",
+        "engagement_level": 77,
+        "upsell_opportunity": "Medium"
+      },
+      {
+        "customer": "Customer 39",
+        "tier": "Gold",
+        "points_balance": 338,
+        "rewards_redeemed": 58,
+        "lifetime_value": 25038,
+        "renewal_date": "2027-01-29",
+        "engagement_level": 78,
+        "upsell_opportunity": "High"
+      },
+      {
+        "customer": "Customer 40",
+        "tier": "Platinum",
+        "points_balance": 439,
+        "rewards_redeemed": 59,
+        "lifetime_value": 35039,
+        "renewal_date": "2027-01-28",
+        "engagement_level": 79,
+        "upsell_opportunity": "Low"
+      },
+      {
+        "customer": "Customer 41",
+        "tier": "Bronze",
+        "points_balance": 140,
+        "rewards_redeemed": 60,
+        "lifetime_value": 5040,
+        "renewal_date": "2027-01-27",
+        "engagement_level": 80,
+        "upsell_opportunity": "Medium"
+      },
+      {
+        "customer": "Customer 42",
+        "tier": "Silver",
+        "points_balance": 241,
+        "rewards_redeemed": 61,
+        "lifetime_value": 15041,
+        "renewal_date": "2027-01-26",
+        "engagement_level": 81,
+        "upsell_opportunity": "High"
+      },
+      {
+        "customer": "Customer 43",
+        "tier": "Gold",
+        "points_balance": 342,
+        "rewards_redeemed": 62,
+        "lifetime_value": 25042,
+        "renewal_date": "2027-01-25",
+        "engagement_level": 82,
+        "upsell_opportunity": "Low"
+      },
+      {
+        "customer": "Customer 44",
+        "tier": "Platinum",
+        "points_balance": 443,
+        "rewards_redeemed": 63,
+        "lifetime_value": 35043,
+        "renewal_date": "2027-01-24",
+        "engagement_level": 83,
+        "upsell_opportunity": "Medium"
+      },
+      {
+        "customer": "Customer 45",
+        "tier": "Bronze",
+        "points_balance": 144,
+        "rewards_redeemed": 64,
+        "lifetime_value": 5044,
+        "renewal_date": "2027-01-23",
+        "engagement_level": 84,
+        "upsell_opportunity": "High"
+      },
+      {
+        "customer": "Customer 46",
+        "tier": "Silver",
+        "points_balance": 245,
+        "rewards_redeemed": 65,
+        "lifetime_value": 15045,
+        "renewal_date": "2027-01-22",
+        "engagement_level": 85,
+        "upsell_opportunity": "Low"
+      },
+      {
+        "customer": "Customer 47",
+        "tier": "Gold",
+        "points_balance": 346,
+        "rewards_redeemed": 66,
+        "lifetime_value": 25046,
+        "renewal_date": "2027-01-21",
+        "engagement_level": 86,
+        "upsell_opportunity": "Medium"
+      },
+      {
+        "customer": "Customer 48",
+        "tier": "Platinum",
+        "points_balance": 447,
+        "rewards_redeemed": 67,
+        "lifetime_value": 35047,
+        "renewal_date": "2027-01-20",
+        "engagement_level": 87,
+        "upsell_opportunity": "High"
+      },
+      {
+        "customer": "Customer 49",
+        "tier": "Bronze",
+        "points_balance": 148,
+        "rewards_redeemed": 68,
+        "lifetime_value": 5048,
+        "renewal_date": "2027-01-19",
+        "engagement_level": 88,
+        "upsell_opportunity": "Low"
+      },
+      {
+        "customer": "Customer 50",
+        "tier": "Silver",
+        "points_balance": 249,
+        "rewards_redeemed": 69,
+        "lifetime_value": 15049,
+        "renewal_date": "2027-01-18",
+        "engagement_level": 89,
+        "upsell_opportunity": "Medium"
+      }
+    ],
+    "win_back_campaigns": [
+      {
+        "campaign": "Campaign 1",
+        "target_segment": "Startup",
+        "channel": "Email",
+        "offer": "20% Discount",
+        "start_date": "2026-01-07",
+        "end_date": "2026-02-06",
+        "contacts": 100,
+        "re_activated": 30,
+        "win_back_rate": 30,
+        "revenue_recovered": 30000,
+        "roi": 25000
+      },
+      {
+        "campaign": "Campaign 2",
+        "target_segment": "SMB",
+        "channel": "SMS",
+        "offer": "20% Discount",
+        "start_date": "2026-01-08",
+        "end_date": "2026-02-07",
+        "contacts": 101,
+        "re_activated": 30,
+        "win_back_rate": 29.7029702970297,
+        "revenue_recovered": 30000,
+        "roi": 24702.9702970297
+      },
+      {
+        "campaign": "Campaign 3",
+        "target_segment": "Enterprise",
+        "channel": "In-App",
+        "offer": "20% Discount",
+        "start_date": "2026-01-09",
+        "end_date": "2026-02-08",
+        "contacts": 102,
+        "re_activated": 31,
+        "win_back_rate": 30.3921568627451,
+        "revenue_recovered": 31000,
+        "roi": 25392.1568627451
+      },
+      {
+        "campaign": "Campaign 4",
+        "target_segment": "Startup",
+        "channel": "Phone",
+        "offer": "20% Discount",
+        "start_date": "2026-01-10",
+        "end_date": "2026-02-09",
+        "contacts": 103,
+        "re_activated": 31,
+        "win_back_rate": 30.0970873786408,
+        "revenue_recovered": 31000,
+        "roi": 25097.0873786408
+      },
+      {
+        "campaign": "Campaign 5",
+        "target_segment": "SMB",
+        "channel": "Email",
+        "offer": "20% Discount",
+        "start_date": "2026-01-11",
+        "end_date": "2026-02-10",
+        "contacts": 104,
+        "re_activated": 31,
+        "win_back_rate": 29.8076923076923,
+        "revenue_recovered": 31000,
+        "roi": 24807.6923076923
+      },
+      {
+        "campaign": "Campaign 6",
+        "target_segment": "Enterprise",
+        "channel": "SMS",
+        "offer": "20% Discount",
+        "start_date": "2026-01-12",
+        "end_date": "2026-02-11",
+        "contacts": 105,
+        "re_activated": 32,
+        "win_back_rate": 30.4761904761905,
+        "revenue_recovered": 32000,
+        "roi": 25476.1904761905
+      },
+      {
+        "campaign": "Campaign 7",
+        "target_segment": "Startup",
+        "channel": "In-App",
+        "offer": "20% Discount",
+        "start_date": "2026-01-13",
+        "end_date": "2026-02-12",
+        "contacts": 106,
+        "re_activated": 32,
+        "win_back_rate": 30.188679245283,
+        "revenue_recovered": 32000,
+        "roi": 25188.679245283
+      },
+      {
+        "campaign": "Campaign 8",
+        "target_segment": "SMB",
+        "channel": "Phone",
+        "offer": "20% Discount",
+        "start_date": "2026-01-14",
+        "end_date": "2026-02-13",
+        "contacts": 107,
+        "re_activated": 32,
+        "win_back_rate": 29.9065420560748,
+        "revenue_recovered": 32000,
+        "roi": 24906.5420560748
+      },
+      {
+        "campaign": "Campaign 9",
+        "target_segment": "Enterprise",
+        "channel": "Email",
+        "offer": "20% Discount",
+        "start_date": "2026-01-15",
+        "end_date": "2026-02-14",
+        "contacts": 108,
+        "re_activated": 32,
+        "win_back_rate": 29.6296296296296,
+        "revenue_recovered": 32000,
+        "roi": 24629.6296296296
+      },
+      {
+        "campaign": "Campaign 10",
+        "target_segment": "Startup",
+        "channel": "SMS",
+        "offer": "20% Discount",
+        "start_date": "2026-01-16",
+        "end_date": "2026-02-15",
+        "contacts": 109,
+        "re_activated": 33,
+        "win_back_rate": 30.2752293577982,
+        "revenue_recovered": 33000,
+        "roi": 25275.2293577982
+      },
+      {
+        "campaign": "Campaign 11",
+        "target_segment": "SMB",
+        "channel": "In-App",
+        "offer": "20% Discount",
+        "start_date": "2026-01-17",
+        "end_date": "2026-02-16",
+        "contacts": 110,
+        "re_activated": 33,
+        "win_back_rate": 30,
+        "revenue_recovered": 33000,
+        "roi": 25000
+      },
+      {
+        "campaign": "Campaign 12",
+        "target_segment": "Enterprise",
+        "channel": "Phone",
+        "offer": "20% Discount",
+        "start_date": "2026-01-18",
+        "end_date": "2026-02-17",
+        "contacts": 111,
+        "re_activated": 33,
+        "win_back_rate": 29.7297297297297,
+        "revenue_recovered": 33000,
+        "roi": 24729.7297297297
+      },
+      {
+        "campaign": "Campaign 13",
+        "target_segment": "Startup",
+        "channel": "Email",
+        "offer": "20% Discount",
+        "start_date": "2026-01-19",
+        "end_date": "2026-02-18",
+        "contacts": 112,
+        "re_activated": 34,
+        "win_back_rate": 30.3571428571429,
+        "revenue_recovered": 34000,
+        "roi": 25357.1428571429
+      },
+      {
+        "campaign": "Campaign 14",
+        "target_segment": "SMB",
+        "channel": "SMS",
+        "offer": "20% Discount",
+        "start_date": "2026-01-20",
+        "end_date": "2026-02-19",
+        "contacts": 113,
+        "re_activated": 34,
+        "win_back_rate": 30.0884955752212,
+        "revenue_recovered": 34000,
+        "roi": 25088.4955752212
+      },
+      {
+        "campaign": "Campaign 15",
+        "target_segment": "Enterprise",
+        "channel": "In-App",
+        "offer": "20% Discount",
+        "start_date": "2026-01-21",
+        "end_date": "2026-02-20",
+        "contacts": 114,
+        "re_activated": 34,
+        "win_back_rate": 29.8245614035088,
+        "revenue_recovered": 34000,
+        "roi": 24824.5614035088
+      },
+      {
+        "campaign": "Campaign 16",
+        "target_segment": "Startup",
+        "channel": "Phone",
+        "offer": "20% Discount",
+        "start_date": "2026-01-22",
+        "end_date": "2026-02-21",
+        "contacts": 115,
+        "re_activated": 35,
+        "win_back_rate": 30.4347826086957,
+        "revenue_recovered": 35000,
+        "roi": 25434.7826086957
+      },
+      {
+        "campaign": "Campaign 17",
+        "target_segment": "SMB",
+        "channel": "Email",
+        "offer": "20% Discount",
+        "start_date": "2026-01-23",
+        "end_date": "2026-02-22",
+        "contacts": 116,
+        "re_activated": 35,
+        "win_back_rate": 30.1724137931035,
+        "revenue_recovered": 35000,
+        "roi": 25172.4137931035
+      },
+      {
+        "campaign": "Campaign 18",
+        "target_segment": "Enterprise",
+        "channel": "SMS",
+        "offer": "20% Discount",
+        "start_date": "2026-01-24",
+        "end_date": "2026-02-23",
+        "contacts": 117,
+        "re_activated": 35,
+        "win_back_rate": 29.9145299145299,
+        "revenue_recovered": 35000,
+        "roi": 24914.5299145299
+      },
+      {
+        "campaign": "Campaign 19",
+        "target_segment": "Startup",
+        "channel": "In-App",
+        "offer": "20% Discount",
+        "start_date": "2026-01-25",
+        "end_date": "2026-02-24",
+        "contacts": 118,
+        "re_activated": 35,
+        "win_back_rate": 29.6610169491525,
+        "revenue_recovered": 35000,
+        "roi": 24661.0169491525
+      },
+      {
+        "campaign": "Campaign 20",
+        "target_segment": "SMB",
+        "channel": "Phone",
+        "offer": "20% Discount",
+        "start_date": "2026-01-26",
+        "end_date": "2026-02-25",
+        "contacts": 119,
+        "re_activated": 36,
+        "win_back_rate": 30.2521008403361,
+        "revenue_recovered": 36000,
+        "roi": 25252.1008403361
+      },
+      {
+        "campaign": "Campaign 21",
+        "target_segment": "Enterprise",
+        "channel": "Email",
+        "offer": "20% Discount",
+        "start_date": "2026-01-27",
+        "end_date": "2026-02-26",
+        "contacts": 120,
+        "re_activated": 36,
+        "win_back_rate": 30,
+        "revenue_recovered": 36000,
+        "roi": 25000
+      },
+      {
+        "campaign": "Campaign 22",
+        "target_segment": "Startup",
+        "channel": "SMS",
+        "offer": "20% Discount",
+        "start_date": "2026-01-28",
+        "end_date": "2026-02-27",
+        "contacts": 121,
+        "re_activated": 36,
+        "win_back_rate": 29.7520661157025,
+        "revenue_recovered": 36000,
+        "roi": 24752.0661157025
+      },
+      {
+        "campaign": "Campaign 23",
+        "target_segment": "SMB",
+        "channel": "In-App",
+        "offer": "20% Discount",
+        "start_date": "2026-01-29",
+        "end_date": "2026-02-28",
+        "contacts": 122,
+        "re_activated": 37,
+        "win_back_rate": 30.327868852459,
+        "revenue_recovered": 37000,
+        "roi": 25327.868852459
+      },
+      {
+        "campaign": "Campaign 24",
+        "target_segment": "Enterprise",
+        "channel": "Phone",
+        "offer": "20% Discount",
+        "start_date": "2026-01-30",
+        "end_date": "2026-03-01",
+        "contacts": 123,
+        "re_activated": 37,
+        "win_back_rate": 30.0813008130081,
+        "revenue_recovered": 37000,
+        "roi": 25081.3008130081
+      },
+      {
+        "campaign": "Campaign 25",
+        "target_segment": "Startup",
+        "channel": "Email",
+        "offer": "20% Discount",
+        "start_date": "2026-01-31",
+        "end_date": "2026-03-02",
+        "contacts": 124,
+        "re_activated": 37,
+        "win_back_rate": 29.8387096774194,
+        "revenue_recovered": 37000,
+        "roi": 24838.7096774194
+      },
+      {
+        "campaign": "Campaign 26",
+        "target_segment": "SMB",
+        "channel": "SMS",
+        "offer": "20% Discount",
+        "start_date": "2026-02-01",
+        "end_date": "2026-03-03",
+        "contacts": 125,
+        "re_activated": 38,
+        "win_back_rate": 30.4,
+        "revenue_recovered": 38000,
+        "roi": 25400
+      },
+      {
+        "campaign": "Campaign 27",
+        "target_segment": "Enterprise",
+        "channel": "In-App",
+        "offer": "20% Discount",
+        "start_date": "2026-02-02",
+        "end_date": "2026-03-04",
+        "contacts": 126,
+        "re_activated": 38,
+        "win_back_rate": 30.1587301587302,
+        "revenue_recovered": 38000,
+        "roi": 25158.7301587302
+      },
+      {
+        "campaign": "Campaign 28",
+        "target_segment": "Startup",
+        "channel": "Phone",
+        "offer": "20% Discount",
+        "start_date": "2026-02-03",
+        "end_date": "2026-03-05",
+        "contacts": 127,
+        "re_activated": 38,
+        "win_back_rate": 29.9212598425197,
+        "revenue_recovered": 38000,
+        "roi": 24921.2598425197
+      },
+      {
+        "campaign": "Campaign 29",
+        "target_segment": "SMB",
+        "channel": "Email",
+        "offer": "20% Discount",
+        "start_date": "2026-02-04",
+        "end_date": "2026-03-06",
+        "contacts": 128,
+        "re_activated": 38,
+        "win_back_rate": 29.6875,
+        "revenue_recovered": 38000,
+        "roi": 24687.5
+      },
+      {
+        "campaign": "Campaign 30",
+        "target_segment": "Enterprise",
+        "channel": "SMS",
+        "offer": "20% Discount",
+        "start_date": "2026-02-05",
+        "end_date": "2026-03-07",
+        "contacts": 129,
+        "re_activated": 39,
+        "win_back_rate": 30.2325581395349,
+        "revenue_recovered": 39000,
+        "roi": 25232.5581395349
+      }
+    ],
+    "customer_journey_map": [
+      {
+        "adoption": "Engagement",
+        "product_walkthrough_success_milestones_b": "Regular check-ins, Feature releases, Community events",
+        "in_app_video_documentation": "Email, Webinar, Slack",
+        "feature_adoption_task_completion": "Usage frequency, Feature depth",
+        "slow_adoption_feature_underuse": "Declining engagement, Inactivity",
+        "tutorials_guided_tours": "Offers, Proactive support"
+      },
+      {
+        "adoption": "Renewal",
+        "product_walkthrough_success_milestones_b": "Success review, Renewal proposal, Contract negotiation",
+        "in_app_video_documentation": "Call, Email, Meeting",
+        "feature_adoption_task_completion": "Renewal rate, Upsell amount",
+        "slow_adoption_feature_underuse": "Renewal risk, Price concerns",
+        "tutorials_guided_tours": "Special offers, Account review"
+      },
+      {
+        "adoption": "Expansion",
+        "product_walkthrough_success_milestones_b": "Upsell outreach, New features, Partnership opportunities",
+        "in_app_video_documentation": "Sales call, Email, Demo",
+        "feature_adoption_task_completion": "ACV growth, Cross-sell rate",
+        "slow_adoption_feature_underuse": "Budget constraints, Competing priorities",
+        "tutorials_guided_tours": "ROI analysis, Custom solutions"
+      },
+      {
+        "adoption": "Advocacy",
+        "product_walkthrough_success_milestones_b": "Case study, Referral program, User group",
+        "in_app_video_documentation": "Email, Event, Community",
+        "feature_adoption_task_completion": "Referrals, Case studies",
+        "slow_adoption_feature_underuse": "Limited advocacy, Quiet reference",
+        "tutorials_guided_tours": "Recognition, Rewards"
+      }
+    ],
+    "retention_playbook": [
+      {
+        "play_name": "Win-Back Offer",
+        "trigger": "Churn (30 days post)",
+        "target": "All segments",
+        "channel": "Email",
+        "message": "We miss you - 20% off your next month",
+        "timing": "Day 3 post-churn",
+        "owner": "Retention team",
+        "success_metric": "Reactivation rate",
+        "status": "Active"
+      },
+      {
+        "play_name": "Health Check",
+        "trigger": "Low engagement (7 days)",
+        "target": "All customers",
+        "channel": "In-app + Email",
+        "message": "Let us help you get the most value",
+        "timing": "Day 8",
+        "owner": "CSM",
+        "success_metric": "Engagement increase",
+        "status": "Active"
+      },
+      {
+        "play_name": "Feature Highlight",
+        "trigger": "New feature release",
+        "target": "Relevant segment",
+        "channel": "Email + In-app",
+        "message": "Introducing [feature] for you",
+        "timing": "Launch day + Day 7",
+        "owner": "Product",
+        "success_metric": "Feature adoption %",
+        "status": "Active"
+      },
+      {
+        "play_name": "Loyalty Reward",
+        "trigger": "Milestone (6 months)",
+        "target": "Active customers",
+        "channel": "Email",
+        "message": "Thank you - earn bonus points",
+        "timing": "On milestone",
+        "owner": "Marketing",
+        "success_metric": "Tier upgrade rate",
+        "status": "Active"
+      },
+      {
+        "play_name": "NPS Recovery",
+        "trigger": "Detractor NPS",
+        "target": "NPS < 6",
+        "channel": "Phone",
+        "message": "Personal outreach to understand concerns",
+        "timing": "Within 48 hours",
+        "owner": "CSM",
+        "success_metric": "NPS improvement",
+        "status": "Active"
+      },
+      {
+        "play_name": "Upsell Opportunity",
+        "trigger": "Usage increase",
+        "target": "Ready to expand",
+        "channel": "Sales call",
+        "message": "Explore plans that match your usage",
+        "timing": "Day 15",
+        "owner": "Sales",
+        "success_metric": "MRR increase",
+        "status": "Active"
+      },
+      {
+        "play_name": "Renewal Campaign",
+        "trigger": "Renewal date (60 days)",
+        "target": "All customers",
+        "channel": "Email series",
+        "message": "5-email renewal campaign",
+        "timing": "Day 60-0 before",
+        "owner": "Sales",
+        "success_metric": "Renewal rate %",
+        "status": "Active"
+      },
+      {
+        "play_name": "Referral Program",
+        "trigger": "Long-term customer",
+        "target": "Advocates",
+        "channel": "Email + In-app",
+        "message": "Share and earn rewards",
+        "timing": "Year 1+",
+        "owner": "Growth",
+        "success_metric": "Referral rate",
+        "status": "Active"
+      },
+      {
+        "play_name": "Support Excellence",
+        "trigger": "Support ticket",
+        "target": "All segments",
+        "channel": "In-app + Email",
+        "message": "Follow-up: Was this helpful?",
+        "timing": "Post-resolution",
+        "owner": "Support",
+        "success_metric": "CSAT score",
+        "status": "Active"
+      },
+      {
+        "play_name": "Launch Celebration",
+        "trigger": "Product milestone",
+        "target": "Engaged customers",
+        "channel": "Webinar + Email",
+        "message": "Join us for a celebration event",
+        "timing": "Event day",
+        "owner": "Product",
+        "success_metric": "Attendance rate",
+        "status": "Active"
+      },
+      {
+        "play_name": "Competitive Win",
+        "trigger": "Competitor mention",
+        "target": "At-risk customers",
+        "channel": "Sales call",
+        "message": "Discuss differentiation",
+        "timing": "Within 24 hours",
+        "owner": "Sales",
+        "success_metric": "Retention rate",
+        "status": "Active"
+      },
+      {
+        "play_name": "Budget Planning",
+        "trigger": "Q4 planning period",
+        "target": "Enterprise",
+        "channel": "Account review call",
+        "message": "Plan next year together",
+        "timing": "Oct-Nov",
+        "owner": "Account team",
+        "success_metric": "Expansion rate",
+        "status": "Active"
+      },
+      {
+        "play_name": "CSM Check-in",
+        "trigger": "Quarterly",
+        "target": "All customers",
+        "channel": "Phone + Email",
+        "message": "Quarterly business review",
+        "timing": "Start of quarter",
+        "owner": "CSM",
+        "success_metric": "Satisfaction score",
+        "status": "Active"
+      },
+      {
+        "play_name": "Product Education",
+        "trigger": "New user (post-signup)",
+        "target": "All new users",
+        "channel": "Email series + Video",
+        "message": "Product mastery series",
+        "timing": "Days 1,3,5,7",
+        "owner": "Onboarding",
+        "success_metric": "Course completion %",
+        "status": "Active"
+      },
+      {
+        "play_name": "Peer Community",
+        "trigger": "Active user",
+        "target": "Engaged customers",
+        "channel": "In-app + Event",
+        "message": "Join user group discussion",
+        "timing": "Monthly",
+        "owner": "Community",
+        "success_metric": "Participation rate",
+        "status": "Active"
+      },
+      {
+        "play_name": "ROI Report",
+        "trigger": "Mid-tenure (6 months)",
+        "target": "All customers",
+        "channel": "Email",
+        "message": "Your ROI dashboard",
+        "timing": "Month 6",
+        "owner": "Success",
+        "success_metric": "Report open rate",
+        "status": "Active"
+      },
+      {
+        "play_name": "Special Event",
+        "trigger": "Industry conference",
+        "target": "VIP customers",
+        "channel": "Email + In-app",
+        "message": "Exclusive conference discount",
+        "timing": "Before event",
+        "owner": "Marketing",
+        "success_metric": "Attendance rate",
+        "status": "Active"
+      },
+      {
+        "play_name": "Crisis Support",
+        "trigger": "Issue detected",
+        "target": "All segments",
+        "channel": "Phone + Email",
+        "message": "Proactive issue resolution",
+        "timing": "Immediately",
+        "owner": "Support",
+        "success_metric": "Resolution time",
+        "status": "Active"
+      },
+      {
+        "play_name": "Year-End Thank You",
+        "trigger": "Year anniversary",
+        "target": "Loyal customers",
+        "channel": "Mail + Email",
+        "message": "Physical thank you gift",
+        "timing": "Anniversary month",
+        "owner": "Exec team",
+        "success_metric": "Sentiment score",
+        "status": "Active"
+      },
+      {
+        "play_name": "Strategic Review",
+        "trigger": "Annual planning",
+        "target": "Strategic accounts",
+        "channel": "Executive call",
+        "message": "Executive business review",
+        "timing": "Annual",
+        "owner": "Account exec",
+        "success_metric": "Expansion revenue",
+        "status": "Active"
+      }
+    ]
+  }
+}

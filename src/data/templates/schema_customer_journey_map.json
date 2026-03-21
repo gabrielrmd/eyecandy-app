@@ -1,0 +1,998 @@
+{
+  "id": "customer_journey_map",
+  "name": "Customer Journey Map",
+  "category": "brand",
+  "sheets": [
+    {
+      "id": "dashboard",
+      "name": "Dashboard",
+      "type": "summary"
+    },
+    {
+      "id": "personas",
+      "name": "Personas",
+      "type": "form",
+      "fields": [
+        {
+          "id": "define_the_key_personas_whose_journeys_y",
+          "label": "Define the key personas whose journeys you will map. Each persona should represent a distinct customer segment with different needs, behaviours, and goals.",
+          "type": "textarea"
+        },
+        {
+          "id": "persona_name",
+          "label": "Persona Name",
+          "type": "text"
+        },
+        {
+          "id": "job_title_role",
+          "label": "Job Title / Role",
+          "type": "text"
+        },
+        {
+          "id": "age_range",
+          "label": "Age Range",
+          "type": "text"
+        },
+        {
+          "id": "industry_sector",
+          "label": "Industry / Sector",
+          "type": "text"
+        },
+        {
+          "id": "company_size",
+          "label": "Company Size",
+          "type": "text"
+        },
+        {
+          "id": "annual_revenue_budget",
+          "label": "Annual Revenue / Budget",
+          "type": "text"
+        },
+        {
+          "id": "key_goals",
+          "label": "Key Goals",
+          "type": "textarea"
+        },
+        {
+          "id": "main_challenges",
+          "label": "Main Challenges",
+          "type": "textarea"
+        },
+        {
+          "id": "decision_making_style",
+          "label": "Decision-Making Style",
+          "type": "text"
+        },
+        {
+          "id": "information_sources",
+          "label": "Information Sources",
+          "type": "text"
+        },
+        {
+          "id": "preferred_channels",
+          "label": "Preferred Channels",
+          "type": "text"
+        },
+        {
+          "id": "tech_savviness",
+          "label": "Tech Savviness",
+          "type": "text"
+        },
+        {
+          "id": "buying_triggers",
+          "label": "Buying Triggers",
+          "type": "text"
+        },
+        {
+          "id": "common_objections",
+          "label": "Common Objections",
+          "type": "text"
+        },
+        {
+          "id": "success_metrics",
+          "label": "Success Metrics",
+          "type": "text"
+        },
+        {
+          "id": "emotional_drivers",
+          "label": "Emotional Drivers",
+          "type": "text"
+        },
+        {
+          "id": "quote_that_represents_them",
+          "label": "Quote That Represents Them",
+          "type": "text"
+        },
+        {
+          "id": "journey_priority_stage",
+          "label": "Journey Priority Stage",
+          "type": "textarea"
+        }
+      ]
+    },
+    {
+      "id": "journey_map",
+      "name": "Journey Map",
+      "type": "table",
+      "columns": [
+        {
+          "id": "stage",
+          "header": "Stage",
+          "type": "dropdown",
+          "options": [
+            "Planning",
+            "In Progress",
+            "Review",
+            "Complete"
+          ]
+        },
+        {
+          "id": "touchpoint",
+          "header": "Touchpoint",
+          "type": "text"
+        },
+        {
+          "id": "customer_actions",
+          "header": "Customer Actions",
+          "type": "textarea",
+          "width": "250px"
+        },
+        {
+          "id": "customer_thoughts",
+          "header": "Customer Thoughts",
+          "type": "text"
+        },
+        {
+          "id": "emotion_1_5",
+          "header": "Emotion (1-5)",
+          "type": "text"
+        },
+        {
+          "id": "pain_points",
+          "header": "Pain Points",
+          "type": "text"
+        },
+        {
+          "id": "opportunities",
+          "header": "Opportunities",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "id": "touchpoint_inventory",
+      "name": "Touchpoint Inventory",
+      "type": "table",
+      "columns": [
+        {
+          "id": "col_0",
+          "header": "#",
+          "type": "number"
+        },
+        {
+          "id": "touchpoint_name",
+          "header": "Touchpoint Name",
+          "type": "text"
+        },
+        {
+          "id": "stage",
+          "header": "Stage",
+          "type": "dropdown",
+          "options": [
+            "Planning",
+            "In Progress",
+            "Review",
+            "Complete"
+          ]
+        },
+        {
+          "id": "channel",
+          "header": "Channel",
+          "type": "text"
+        },
+        {
+          "id": "importance_1_10",
+          "header": "Importance (1-10)",
+          "type": "number"
+        },
+        {
+          "id": "performance_1_10",
+          "header": "Performance (1-10)",
+          "type": "number"
+        },
+        {
+          "id": "gap",
+          "header": "Gap",
+          "type": "number"
+        },
+        {
+          "id": "owner",
+          "header": "Owner",
+          "type": "text"
+        },
+        {
+          "id": "notes",
+          "header": "Notes",
+          "type": "textarea",
+          "width": "250px"
+        }
+      ]
+    },
+    {
+      "id": "moments_of_truth",
+      "name": "Moments of Truth",
+      "type": "table",
+      "columns": [
+        {
+          "id": "col_0",
+          "header": "#",
+          "type": "number"
+        },
+        {
+          "id": "moment",
+          "header": "Moment",
+          "type": "text"
+        },
+        {
+          "id": "stage",
+          "header": "Stage",
+          "type": "dropdown",
+          "options": [
+            "Planning",
+            "In Progress",
+            "Review",
+            "Complete"
+          ]
+        },
+        {
+          "id": "why_it_matters",
+          "header": "Why It Matters",
+          "type": "text"
+        },
+        {
+          "id": "current_experience",
+          "header": "Current Experience",
+          "type": "text"
+        },
+        {
+          "id": "impact_1_10",
+          "header": "Impact (1-10)",
+          "type": "number"
+        },
+        {
+          "id": "urgency_1_10",
+          "header": "Urgency (1-10)",
+          "type": "number"
+        },
+        {
+          "id": "improvement_plan",
+          "header": "Improvement Plan",
+          "type": "textarea",
+          "width": "250px"
+        }
+      ]
+    },
+    {
+      "id": "emotion_curve",
+      "name": "Emotion Curve",
+      "type": "table",
+      "columns": [
+        {
+          "id": "col_0",
+          "header": "#",
+          "type": "number"
+        },
+        {
+          "id": "touchpoint",
+          "header": "Touchpoint",
+          "type": "text"
+        },
+        {
+          "id": "stage",
+          "header": "Stage",
+          "type": "dropdown",
+          "options": [
+            "Planning",
+            "In Progress",
+            "Review",
+            "Complete"
+          ]
+        },
+        {
+          "id": "expected_1_5",
+          "header": "Expected (1-5)",
+          "type": "number"
+        },
+        {
+          "id": "actual_1_5",
+          "header": "Actual (1-5)",
+          "type": "number"
+        },
+        {
+          "id": "gap",
+          "header": "Gap",
+          "type": "number"
+        },
+        {
+          "id": "what_causes_the_gap",
+          "header": "What Causes the Gap",
+          "type": "text"
+        },
+        {
+          "id": "how_to_close_the_gap",
+          "header": "How to Close the Gap",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "id": "action_plan",
+      "name": "Action Plan",
+      "type": "table",
+      "columns": [
+        {
+          "id": "col_0",
+          "header": "#",
+          "type": "number"
+        },
+        {
+          "id": "initiative",
+          "header": "Initiative",
+          "type": "text"
+        },
+        {
+          "id": "stage",
+          "header": "Stage",
+          "type": "dropdown",
+          "options": [
+            "Planning",
+            "In Progress",
+            "Review",
+            "Complete"
+          ]
+        },
+        {
+          "id": "description",
+          "header": "Description",
+          "type": "textarea",
+          "width": "250px"
+        },
+        {
+          "id": "priority",
+          "header": "Priority",
+          "type": "dropdown",
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "owner",
+          "header": "Owner",
+          "type": "text"
+        },
+        {
+          "id": "status",
+          "header": "Status",
+          "type": "dropdown",
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done",
+            "On Hold",
+            "Cancelled"
+          ]
+        },
+        {
+          "id": "start_date",
+          "header": "Start Date",
+          "type": "date"
+        },
+        {
+          "id": "due_date",
+          "header": "Due Date",
+          "type": "date"
+        },
+        {
+          "id": "notes",
+          "header": "Notes",
+          "type": "textarea",
+          "width": "250px"
+        }
+      ]
+    }
+  ],
+  "defaultData": {
+    "journey_map": [
+      {
+        "stage": "Awareness",
+        "touchpoint": "Google Search",
+        "customer_actions": "Searches for solution to their problem",
+        "customer_thoughts": "I wonder if there is a tool that can help me with this",
+        "emotion_1_5": "3 - Neutral",
+        "pain_points": "Hard to find relevant results among noise",
+        "opportunities": "SEO content targeting pain-point keywords"
+      },
+      {
+        "stage": "Awareness",
+        "touchpoint": "Social Media Ad",
+        "customer_actions": "Sees ad in LinkedIn feed, pauses to read",
+        "customer_thoughts": "This looks interesting but is it legit?",
+        "emotion_1_5": "3 - Neutral",
+        "pain_points": "Ad fatigue — too many similar ads in feed",
+        "opportunities": "Use customer testimonial in ad creative"
+      },
+      {
+        "stage": "Awareness",
+        "touchpoint": "Blog Article",
+        "customer_actions": "Reads a how-to article found via search",
+        "customer_thoughts": "This company seems to know their stuff",
+        "emotion_1_5": "4 - Satisfied",
+        "pain_points": "Article does not clearly link to a solution",
+        "opportunities": "Add contextual CTA to relevant product/service"
+      },
+      {
+        "stage": "Consideration",
+        "touchpoint": "Website Visit",
+        "customer_actions": "Explores product pages, reads features",
+        "customer_thoughts": "Does this solve my specific problem?",
+        "emotion_1_5": "3 - Neutral",
+        "pain_points": "Too much jargon, unclear pricing",
+        "opportunities": "Add use-case specific landing pages"
+      },
+      {
+        "stage": "Consideration",
+        "touchpoint": "Case Study",
+        "customer_actions": "Downloads case study from similar company",
+        "customer_thoughts": "If it worked for them, maybe it works for me",
+        "emotion_1_5": "4 - Satisfied",
+        "pain_points": "Case study is too vague on specifics",
+        "opportunities": "Include exact metrics and timeline in case studies"
+      },
+      {
+        "stage": "Consideration",
+        "touchpoint": "Demo Request",
+        "customer_actions": "Fills out demo form, waits for follow-up",
+        "customer_thoughts": "I hope they respond quickly",
+        "emotion_1_5": "3 - Neutral",
+        "pain_points": "Took 48 hours to get a response",
+        "opportunities": "Implement instant scheduling — reduce to under 2 hours"
+      },
+      {
+        "stage": "Decision",
+        "touchpoint": "Sales Call",
+        "customer_actions": "Discusses needs with sales rep",
+        "customer_thoughts": "Do they understand my situation?",
+        "emotion_1_5": "4 - Satisfied",
+        "pain_points": "Sales rep talked about features, not my problems",
+        "opportunities": "Train sales on consultative selling approach"
+      },
+      {
+        "stage": "Decision",
+        "touchpoint": "Proposal Review",
+        "customer_actions": "Reviews proposal with team, compares to alternatives",
+        "customer_thoughts": "Is the ROI clear enough to justify to my boss?",
+        "emotion_1_5": "3 - Neutral",
+        "pain_points": "Proposal lacks ROI projections",
+        "opportunities": "Include custom ROI calculator in every proposal"
+      },
+      {
+        "stage": "Onboarding",
+        "touchpoint": "Welcome Email",
+        "customer_actions": "Opens welcome email, reads getting started guide",
+        "customer_thoughts": "Okay, what do I do first?",
+        "emotion_1_5": "3 - Neutral",
+        "pain_points": "Too many steps in the onboarding flow",
+        "opportunities": "Create a 5-minute quick-start guide"
+      },
+      {
+        "stage": "Onboarding",
+        "touchpoint": "First Use",
+        "customer_actions": "Tries the product for the first time",
+        "customer_thoughts": "This is more complicated than I expected",
+        "emotion_1_5": "2 - Dissatisfied",
+        "pain_points": "No guided tutorial, UI is confusing",
+        "opportunities": "Add interactive product walkthrough"
+      },
+      {
+        "stage": "Retention",
+        "touchpoint": "Support Ticket",
+        "customer_actions": "Submits a support request for an issue",
+        "customer_thoughts": "I hope they can fix this quickly",
+        "emotion_1_5": "2 - Dissatisfied",
+        "pain_points": "Response time was 24+ hours",
+        "opportunities": "Implement live chat with under 5-minute response"
+      },
+      {
+        "stage": "Retention",
+        "touchpoint": "Monthly Review",
+        "customer_actions": "Reviews dashboard, checks performance metrics",
+        "customer_thoughts": "Am I getting value from this?",
+        "emotion_1_5": "4 - Satisfied",
+        "pain_points": "Hard to see ROI at a glance",
+        "opportunities": "Add ROI dashboard widget showing value delivered"
+      },
+      {
+        "stage": "Advocacy",
+        "touchpoint": "Referral Request",
+        "customer_actions": "Receives request to refer a colleague",
+        "customer_thoughts": "I would recommend them but the process is clunky",
+        "emotion_1_5": "3 - Neutral",
+        "pain_points": "No easy referral link or incentive",
+        "opportunities": "Build one-click referral program with rewards"
+      },
+      {
+        "stage": "Advocacy",
+        "touchpoint": "Review Request",
+        "customer_actions": "Asked to leave a review on G2 or Trustpilot",
+        "customer_thoughts": "I want to help but I am busy",
+        "emotion_1_5": "3 - Neutral",
+        "pain_points": "Review process takes too long",
+        "opportunities": "Send pre-filled review template, make it 2 minutes"
+      }
+    ],
+    "touchpoint_inventory": [
+      {
+        "col_0": 1,
+        "touchpoint_name": "Google Search Results",
+        "stage": "Awareness",
+        "channel": "Website",
+        "importance_1_10": 9,
+        "performance_1_10": 6,
+        "gap": 3,
+        "owner": "Marketing Team"
+      },
+      {
+        "col_0": 2,
+        "touchpoint_name": "Social Media Ads",
+        "stage": "Awareness",
+        "channel": "Advertising",
+        "importance_1_10": 8,
+        "performance_1_10": 7,
+        "gap": 1,
+        "owner": "Paid Media Team"
+      },
+      {
+        "col_0": 3,
+        "touchpoint_name": "Blog Content",
+        "stage": "Awareness",
+        "channel": "Website",
+        "importance_1_10": 8,
+        "performance_1_10": 5,
+        "gap": 3,
+        "owner": "Content Team"
+      },
+      {
+        "col_0": 4,
+        "touchpoint_name": "Website Homepage",
+        "stage": "Consideration",
+        "channel": "Website",
+        "importance_1_10": 10,
+        "performance_1_10": 7,
+        "gap": 3,
+        "owner": "Web Team"
+      },
+      {
+        "col_0": 5,
+        "touchpoint_name": "Product Demo",
+        "stage": "Consideration",
+        "channel": "Phone",
+        "importance_1_10": 10,
+        "performance_1_10": 8,
+        "gap": 2,
+        "owner": "Sales Team"
+      },
+      {
+        "col_0": 6,
+        "touchpoint_name": "Case Studies Page",
+        "stage": "Consideration",
+        "channel": "Website",
+        "importance_1_10": 8,
+        "performance_1_10": 5,
+        "gap": 3,
+        "owner": "Marketing Team"
+      },
+      {
+        "col_0": 7,
+        "touchpoint_name": "Pricing Page",
+        "stage": "Decision",
+        "channel": "Website",
+        "importance_1_10": 10,
+        "performance_1_10": 6,
+        "gap": 4,
+        "owner": "Product Team"
+      },
+      {
+        "col_0": 8,
+        "touchpoint_name": "Sales Proposal",
+        "stage": "Decision",
+        "channel": "Email",
+        "importance_1_10": 9,
+        "performance_1_10": 7,
+        "gap": 2,
+        "owner": "Sales Team"
+      },
+      {
+        "col_0": 9,
+        "touchpoint_name": "Contract Signing",
+        "stage": "Decision",
+        "channel": "Email",
+        "importance_1_10": 8,
+        "performance_1_10": 8,
+        "owner": "Legal Team"
+      },
+      {
+        "col_0": 10,
+        "touchpoint_name": "Welcome Email",
+        "stage": "Onboarding",
+        "channel": "Email",
+        "importance_1_10": 9,
+        "performance_1_10": 6,
+        "gap": 3,
+        "owner": "CX Team"
+      },
+      {
+        "col_0": 11,
+        "touchpoint_name": "Onboarding Call",
+        "stage": "Onboarding",
+        "channel": "Phone",
+        "importance_1_10": 10,
+        "performance_1_10": 7,
+        "gap": 3,
+        "owner": "CS Team"
+      },
+      {
+        "col_0": 12,
+        "touchpoint_name": "Monthly Check-in",
+        "stage": "Retention",
+        "channel": "Email",
+        "importance_1_10": 7,
+        "performance_1_10": 5,
+        "gap": 2,
+        "owner": "CS Team"
+      },
+      {
+        "col_0": 13,
+        "touchpoint_name": "Support Chat",
+        "stage": "Retention",
+        "channel": "Chat",
+        "importance_1_10": 9,
+        "performance_1_10": 6,
+        "gap": 3,
+        "owner": "Support Team"
+      },
+      {
+        "col_0": 14,
+        "touchpoint_name": "NPS Survey",
+        "stage": "Retention",
+        "channel": "Email",
+        "importance_1_10": 7,
+        "performance_1_10": 4,
+        "gap": 3,
+        "owner": "CX Team"
+      },
+      {
+        "col_0": 15,
+        "touchpoint_name": "Referral Program",
+        "stage": "Advocacy",
+        "channel": "Website",
+        "importance_1_10": 8,
+        "performance_1_10": 3,
+        "gap": 5,
+        "owner": "Marketing Team"
+      }
+    ],
+    "moments_of_truth": [
+      {
+        "col_0": 1,
+        "moment": "First Website Visit",
+        "stage": "Awareness",
+        "why_it_matters": "Sets first impression of brand quality and relevance. Visitors decide in 3 seconds if they stay or bounce.",
+        "current_experience": "Homepage is cluttered, value prop unclear, mobile experience is slow",
+        "impact_1_10": 9,
+        "urgency_1_10": 9,
+        "improvement_plan": "Redesign homepage with clear value prop, faster load, mobile-first"
+      },
+      {
+        "col_0": 2,
+        "moment": "Product Demo",
+        "stage": "Consideration",
+        "why_it_matters": "The demo is where prospects decide if the product can solve their problem. Poor demos lose deals.",
+        "current_experience": "Demos are generic, not customised to prospect industry or use case",
+        "impact_1_10": 10,
+        "urgency_1_10": 8,
+        "improvement_plan": "Create industry-specific demo scripts, pre-research each prospect"
+      },
+      {
+        "col_0": 3,
+        "moment": "First 24 Hours After Purchase",
+        "stage": "Onboarding",
+        "why_it_matters": "The first day sets the tone for the entire relationship. Early confusion leads to churn.",
+        "current_experience": "Welcome email is generic, no guided setup, support not proactive",
+        "impact_1_10": 10,
+        "urgency_1_10": 10,
+        "improvement_plan": "Launch Day 1 concierge programme with personalised onboarding"
+      },
+      {
+        "col_0": 4,
+        "moment": "First Support Interaction",
+        "stage": "Retention",
+        "why_it_matters": "How you handle problems defines loyalty more than how you handle success.",
+        "current_experience": "Average response time 18 hours, no self-service options",
+        "impact_1_10": 9,
+        "urgency_1_10": 9,
+        "improvement_plan": "Implement live chat, build knowledge base, target 2-hour response"
+      },
+      {
+        "col_0": 5,
+        "moment": "Renewal Decision",
+        "stage": "Retention",
+        "why_it_matters": "The renewal moment tests whether the value delivered matches the value promised.",
+        "current_experience": "No proactive outreach, customer has to search for renewal info",
+        "impact_1_10": 8,
+        "urgency_1_10": 7,
+        "improvement_plan": "Launch 90-day pre-renewal campaign showing value delivered + ROI"
+      }
+    ],
+    "emotion_curve": [
+      {
+        "col_0": 1,
+        "touchpoint": "Google Search",
+        "stage": "Awareness",
+        "expected_1_5": 3,
+        "actual_1_5": 3,
+        "what_causes_the_gap": "None — meets expectations",
+        "how_to_close_the_gap": "Maintain SEO visibility"
+      },
+      {
+        "col_0": 2,
+        "touchpoint": "Website Landing",
+        "stage": "Awareness",
+        "expected_1_5": 4,
+        "actual_1_5": 3,
+        "gap": -1,
+        "what_causes_the_gap": "Page loads slowly, unclear messaging",
+        "how_to_close_the_gap": "Optimise page speed, rewrite hero copy"
+      },
+      {
+        "col_0": 3,
+        "touchpoint": "Content Download",
+        "stage": "Consideration",
+        "expected_1_5": 4,
+        "actual_1_5": 4,
+        "what_causes_the_gap": "Content is relevant and valuable",
+        "how_to_close_the_gap": "Continue producing high-quality gated content"
+      },
+      {
+        "col_0": 4,
+        "touchpoint": "Demo Scheduling",
+        "stage": "Consideration",
+        "expected_1_5": 4,
+        "actual_1_5": 2,
+        "gap": -2,
+        "what_causes_the_gap": "Had to wait 2 days for a slot",
+        "how_to_close_the_gap": "Add instant self-serve booking calendar"
+      },
+      {
+        "col_0": 5,
+        "touchpoint": "Demo Experience",
+        "stage": "Consideration",
+        "expected_1_5": 5,
+        "actual_1_5": 4,
+        "gap": -1,
+        "what_causes_the_gap": "Good but too generic, not personalised",
+        "how_to_close_the_gap": "Pre-research accounts, customise demo flow"
+      },
+      {
+        "col_0": 6,
+        "touchpoint": "Pricing Discussion",
+        "stage": "Decision",
+        "expected_1_5": 3,
+        "actual_1_5": 2,
+        "gap": -1,
+        "what_causes_the_gap": "Pricing not transparent, hidden fees",
+        "how_to_close_the_gap": "Publish pricing page, eliminate surprise charges"
+      },
+      {
+        "col_0": 7,
+        "touchpoint": "Contract Process",
+        "stage": "Decision",
+        "expected_1_5": 3,
+        "actual_1_5": 3,
+        "what_causes_the_gap": "Standard, no surprises",
+        "how_to_close_the_gap": "Maintain clean process"
+      },
+      {
+        "col_0": 8,
+        "touchpoint": "Welcome Email",
+        "stage": "Onboarding",
+        "expected_1_5": 4,
+        "actual_1_5": 2,
+        "gap": -2,
+        "what_causes_the_gap": "Generic email, no clear next steps",
+        "how_to_close_the_gap": "Personalise welcome sequence, add Day 1 checklist"
+      },
+      {
+        "col_0": 9,
+        "touchpoint": "First Product Use",
+        "stage": "Onboarding",
+        "expected_1_5": 5,
+        "actual_1_5": 3,
+        "gap": -2,
+        "what_causes_the_gap": "Steep learning curve, no guidance",
+        "how_to_close_the_gap": "Add interactive walkthrough and tooltips"
+      },
+      {
+        "col_0": 10,
+        "touchpoint": "30-Day Check-in",
+        "stage": "Onboarding",
+        "expected_1_5": 4,
+        "actual_1_5": 4,
+        "what_causes_the_gap": "Proactive call from CS is appreciated",
+        "how_to_close_the_gap": "Maintain and expand check-in programme"
+      },
+      {
+        "col_0": 11,
+        "touchpoint": "Support Request",
+        "stage": "Retention",
+        "expected_1_5": 4,
+        "actual_1_5": 2,
+        "gap": -2,
+        "what_causes_the_gap": "Slow response, had to repeat context",
+        "how_to_close_the_gap": "Implement CRM integration, target 2h response"
+      },
+      {
+        "col_0": 12,
+        "touchpoint": "Quarterly Review",
+        "stage": "Retention",
+        "expected_1_5": 4,
+        "actual_1_5": 3,
+        "gap": -1,
+        "what_causes_the_gap": "Review is data-light, no clear ROI",
+        "how_to_close_the_gap": "Build automated ROI report per customer"
+      },
+      {
+        "col_0": 13,
+        "touchpoint": "Renewal",
+        "stage": "Retention",
+        "expected_1_5": 3,
+        "actual_1_5": 3,
+        "what_causes_the_gap": "Straightforward process",
+        "how_to_close_the_gap": "Add value summary email before renewal"
+      },
+      {
+        "col_0": 14,
+        "touchpoint": "Referral Ask",
+        "stage": "Advocacy",
+        "expected_1_5": 3,
+        "actual_1_5": 2,
+        "gap": -1,
+        "what_causes_the_gap": "No incentive, no easy sharing mechanism",
+        "how_to_close_the_gap": "Launch referral programme with one-click sharing"
+      },
+      {
+        "col_0": 15,
+        "touchpoint": "Case Study Invite",
+        "stage": "Advocacy",
+        "expected_1_5": 4,
+        "actual_1_5": 4,
+        "what_causes_the_gap": "Customer feels valued and showcased",
+        "how_to_close_the_gap": "Streamline case study process, offer co-marketing"
+      },
+      {
+        "col_0": "EMOTION SCALE GUIDE"
+      },
+      {
+        "col_0": "1 — Frustrated",
+        "stage": "Customer is angry, wants to leave, may complain publicly"
+      },
+      {
+        "col_0": "2 — Dissatisfied",
+        "stage": "Customer is unhappy, considering alternatives"
+      },
+      {
+        "col_0": "3 — Neutral",
+        "stage": "Customer has no strong feelings, experience is adequate"
+      },
+      {
+        "col_0": "4 — Satisfied",
+        "stage": "Customer is pleased, expectations met or slightly exceeded"
+      },
+      {
+        "col_0": "5 — Delighted",
+        "stage": "Customer is genuinely impressed, likely to recommend"
+      }
+    ],
+    "action_plan": [
+      {
+        "col_0": 1,
+        "initiative": "Redesign Homepage",
+        "stage": "Awareness",
+        "description": "Rebuild homepage with clear value prop, faster load time, mobile-first design",
+        "priority": "Critical",
+        "owner": "Web Team",
+        "status": "In Progress",
+        "start_date": "2026-03-01",
+        "due_date": "2026-04-15"
+      },
+      {
+        "col_0": 2,
+        "initiative": "Launch Self-Serve Demo Booking",
+        "stage": "Consideration",
+        "description": "Replace manual scheduling with Calendly integration for instant booking",
+        "priority": "High",
+        "owner": "Sales Ops",
+        "status": "Not Started",
+        "start_date": "2026-04-01",
+        "due_date": "2026-04-30"
+      },
+      {
+        "col_0": 3,
+        "initiative": "Build Industry-Specific Demos",
+        "stage": "Consideration",
+        "description": "Create 5 demo scripts customised for top industry verticals",
+        "priority": "High",
+        "owner": "Sales Team",
+        "status": "Not Started",
+        "start_date": "2026-04-15",
+        "due_date": "2026-05-30"
+      },
+      {
+        "col_0": 4,
+        "initiative": "Publish Transparent Pricing",
+        "stage": "Decision",
+        "description": "Create pricing page with clear tiers, no hidden fees, FAQ section",
+        "priority": "Critical",
+        "owner": "Product Team",
+        "status": "In Progress",
+        "start_date": "2026-03-15",
+        "due_date": "2026-04-01"
+      },
+      {
+        "col_0": 5,
+        "initiative": "Launch Day 1 Onboarding Flow",
+        "stage": "Onboarding",
+        "description": "Personalised welcome sequence + interactive product walkthrough",
+        "priority": "Critical",
+        "owner": "CX Team",
+        "status": "Not Started",
+        "start_date": "2026-04-01",
+        "due_date": "2026-05-15"
+      },
+      {
+        "col_0": 6,
+        "initiative": "Implement Live Chat",
+        "stage": "Retention",
+        "description": "Deploy live chat with under 5-minute response target during business hours",
+        "priority": "High",
+        "owner": "Support Team",
+        "status": "Not Started",
+        "start_date": "2026-05-01",
+        "due_date": "2026-06-15"
+      },
+      {
+        "col_0": 7,
+        "initiative": "Build Customer ROI Dashboard",
+        "stage": "Retention",
+        "description": "Automated dashboard showing value delivered per customer",
+        "priority": "Medium",
+        "owner": "Product Team",
+        "status": "Not Started",
+        "start_date": "2026-06-01",
+        "due_date": "2026-07-31"
+      },
+      {
+        "col_0": 8,
+        "initiative": "Launch Referral Programme",
+        "stage": "Advocacy",
+        "description": "One-click referral with rewards for both referrer and referee",
+        "priority": "Medium",
+        "owner": "Marketing Team",
+        "status": "Not Started",
+        "start_date": "2026-07-01",
+        "due_date": "2026-08-15"
+      }
+    ]
+  }
+}

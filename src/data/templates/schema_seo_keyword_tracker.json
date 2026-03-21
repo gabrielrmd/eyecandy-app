@@ -1,0 +1,186 @@
+{
+  "id": "seo_keyword_tracker",
+  "name": "SEO Keyword Tracker",
+  "category": "channels",
+  "sheets": [
+    {
+      "id": "dashboard",
+      "name": "Dashboard",
+      "type": "summary"
+    },
+    {
+      "id": "keyword_tracker",
+      "name": "Keyword Tracker",
+      "type": "table",
+      "columns": [
+        {
+          "id": "keyword_info",
+          "header": "KEYWORD INFO",
+          "type": "text"
+        },
+        {
+          "id": "metrics_targets",
+          "header": "METRICS & TARGETS",
+          "type": "number"
+        },
+        {
+          "id": "ranking_history",
+          "header": "RANKING HISTORY",
+          "type": "number"
+        }
+      ]
+    },
+    {
+      "id": "competitor_tracker",
+      "name": "Competitor Tracker",
+      "type": "table",
+      "columns": [
+        {
+          "id": "keyword",
+          "header": "Keyword",
+          "type": "text"
+        },
+        {
+          "id": "your_rank",
+          "header": "Your Rank",
+          "type": "text"
+        },
+        {
+          "id": "competitor_1",
+          "header": "Competitor 1",
+          "type": "text"
+        },
+        {
+          "id": "c1_rank",
+          "header": "C1 Rank",
+          "type": "text"
+        },
+        {
+          "id": "competitor_2",
+          "header": "Competitor 2",
+          "type": "text"
+        },
+        {
+          "id": "c2_rank",
+          "header": "C2 Rank",
+          "type": "text"
+        },
+        {
+          "id": "competitor_3",
+          "header": "Competitor 3",
+          "type": "text"
+        },
+        {
+          "id": "c3_rank",
+          "header": "C3 Rank",
+          "type": "text"
+        },
+        {
+          "id": "gap_vs_best",
+          "header": "Gap vs Best",
+          "type": "number"
+        },
+        {
+          "id": "opportunity",
+          "header": "Opportunity",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "id": "content_map",
+      "name": "Content Map",
+      "type": "table",
+      "columns": [
+        {
+          "id": "keyword",
+          "header": "Keyword",
+          "type": "text"
+        },
+        {
+          "id": "primary_secondary",
+          "header": "Primary/Secondary",
+          "type": "text"
+        },
+        {
+          "id": "target_url",
+          "header": "Target URL",
+          "type": "url"
+        },
+        {
+          "id": "page_title",
+          "header": "Page Title",
+          "type": "text"
+        },
+        {
+          "id": "content_type",
+          "header": "Content Type",
+          "type": "textarea",
+          "width": "250px"
+        },
+        {
+          "id": "word_count",
+          "header": "Word Count",
+          "type": "number"
+        },
+        {
+          "id": "last_updated",
+          "header": "Last Updated",
+          "type": "date"
+        },
+        {
+          "id": "status",
+          "header": "Status",
+          "type": "dropdown",
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done",
+            "On Hold",
+            "Cancelled"
+          ]
+        },
+        {
+          "id": "notes",
+          "header": "Notes",
+          "type": "textarea",
+          "width": "250px"
+        }
+      ]
+    }
+  ],
+  "defaultData": {
+    "keyword_tracker": [
+      {
+        "keyword_info": "Keyword",
+        "metrics_targets": "Search Vol",
+        "ranking_history": "Month 1"
+      },
+      {
+        "keyword_info": "marketing audit template",
+        "metrics_targets": 2400,
+        "ranking_history": 18
+      },
+      {
+        "keyword_info": "brand messaging framework",
+        "metrics_targets": 1800,
+        "ranking_history": 25
+      },
+      {
+        "keyword_info": "social media strategy template",
+        "metrics_targets": 5400,
+        "ranking_history": 8
+      },
+      {
+        "keyword_info": "content calendar free download",
+        "metrics_targets": 3200,
+        "ranking_history": 14
+      },
+      {
+        "keyword_info": "email marketing playbook",
+        "metrics_targets": 1200,
+        "ranking_history": 32
+      }
+    ]
+  }
+}

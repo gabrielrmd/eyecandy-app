@@ -1,0 +1,790 @@
+{
+  "id": "ad_brief_template",
+  "name": "Ad Brief Template",
+  "category": "channels",
+  "sheets": [
+    {
+      "id": "dashboard",
+      "name": "Dashboard",
+      "type": "summary"
+    },
+    {
+      "id": "campaign_brief",
+      "name": "Campaign Brief",
+      "type": "summary"
+    },
+    {
+      "id": "creative_brief",
+      "name": "Creative Brief",
+      "type": "form",
+      "fields": [
+        {
+          "id": "the_big_idea_that_brings_the_strategy_to",
+          "label": "The big idea that brings the strategy to life",
+          "type": "text"
+        },
+        {
+          "id": "how_should_the_ad_feel_e_g_bold_warm_wit",
+          "label": "How should the ad feel? (e.g., Bold, Warm, Witty, Authoritative)",
+          "type": "text"
+        },
+        {
+          "id": "describe_the_look_and_feel_colours_image",
+          "label": "Describe the look and feel — colours, imagery style, mood",
+          "type": "text"
+        },
+        {
+          "id": "3_5_headline_options_or_direction",
+          "label": "3-5 headline options or direction",
+          "type": "text"
+        },
+        {
+          "id": "key_messages_and_copy_points_to_include",
+          "label": "Key messages and copy points to include",
+          "type": "text"
+        },
+        {
+          "id": "what_do_we_want_the_audience_to_do",
+          "label": "What do we want the audience to do?",
+          "type": "text"
+        },
+        {
+          "id": "logos_legal_disclaimers_taglines_hashtag",
+          "label": "Logos, legal disclaimers, taglines, hashtags",
+          "type": "text"
+        },
+        {
+          "id": "competitor_mentions_off_brand_imagery_re",
+          "label": "Competitor mentions, off-brand imagery, restricted claims",
+          "type": "text"
+        },
+        {
+          "id": "links_or_descriptions_of_ads_that_captur",
+          "label": "Links or descriptions of ads that capture the desired direction",
+          "type": "textarea"
+        },
+        {
+          "id": "sizes_formats_aspect_ratios_needed",
+          "label": "Sizes, formats, aspect ratios needed",
+          "type": "text"
+        },
+        {
+          "id": "list_all_deliverables_needed_from_creati",
+          "label": "List all deliverables needed from creative team",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "id": "media_plan",
+      "name": "Media Plan",
+      "type": "table",
+      "columns": [
+        {
+          "id": "channel",
+          "header": "Channel",
+          "type": "text"
+        },
+        {
+          "id": "platform",
+          "header": "Platform",
+          "type": "text"
+        },
+        {
+          "id": "format",
+          "header": "Format",
+          "type": "text"
+        },
+        {
+          "id": "placement",
+          "header": "Placement",
+          "type": "text"
+        },
+        {
+          "id": "audience",
+          "header": "Audience",
+          "type": "text"
+        },
+        {
+          "id": "budget",
+          "header": "Budget",
+          "type": "currency"
+        },
+        {
+          "id": "start_date",
+          "header": "Start Date",
+          "type": "date"
+        },
+        {
+          "id": "end_date",
+          "header": "End Date",
+          "type": "date"
+        },
+        {
+          "id": "impressions_target",
+          "header": "Impressions Target",
+          "type": "number"
+        },
+        {
+          "id": "cpc_target",
+          "header": "CPC Target",
+          "type": "text"
+        },
+        {
+          "id": "notes",
+          "header": "Notes",
+          "type": "textarea",
+          "width": "250px"
+        }
+      ]
+    },
+    {
+      "id": "ad_specs_library",
+      "name": "Ad Specs Library",
+      "type": "table",
+      "columns": [
+        {
+          "id": "platform",
+          "header": "Platform",
+          "type": "text"
+        },
+        {
+          "id": "format",
+          "header": "Format",
+          "type": "text"
+        },
+        {
+          "id": "dimensions",
+          "header": "Dimensions",
+          "type": "text"
+        },
+        {
+          "id": "aspect_ratio",
+          "header": "Aspect Ratio",
+          "type": "text"
+        },
+        {
+          "id": "max_file_size",
+          "header": "Max File Size",
+          "type": "text"
+        },
+        {
+          "id": "file_types",
+          "header": "File Types",
+          "type": "text"
+        },
+        {
+          "id": "character_limits",
+          "header": "Character Limits",
+          "type": "text"
+        },
+        {
+          "id": "notes",
+          "header": "Notes",
+          "type": "textarea",
+          "width": "250px"
+        }
+      ]
+    },
+    {
+      "id": "budget_tracker",
+      "name": "Budget Tracker",
+      "type": "table",
+      "columns": [
+        {
+          "id": "line_item",
+          "header": "Line Item",
+          "type": "text"
+        },
+        {
+          "id": "category",
+          "header": "Category",
+          "type": "text",
+          "editable": false
+        },
+        {
+          "id": "description",
+          "header": "Description",
+          "type": "textarea",
+          "width": "250px"
+        },
+        {
+          "id": "budget",
+          "header": "Budget",
+          "type": "currency"
+        },
+        {
+          "id": "actual",
+          "header": "Actual",
+          "type": "text"
+        },
+        {
+          "id": "variance",
+          "header": "Variance",
+          "type": "number"
+        },
+        {
+          "id": "spent",
+          "header": "% Spent",
+          "type": "percentage"
+        },
+        {
+          "id": "status",
+          "header": "Status",
+          "type": "dropdown",
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done",
+            "On Hold",
+            "Cancelled"
+          ]
+        }
+      ],
+      "groupBy": "category"
+    },
+    {
+      "id": "approval_workflow",
+      "name": "Approval Workflow",
+      "type": "table",
+      "columns": [
+        {
+          "id": "step",
+          "header": "Step",
+          "type": "text"
+        },
+        {
+          "id": "approver",
+          "header": "Approver",
+          "type": "text"
+        },
+        {
+          "id": "role",
+          "header": "Role",
+          "type": "text"
+        },
+        {
+          "id": "status",
+          "header": "Status",
+          "type": "dropdown",
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done",
+            "On Hold",
+            "Cancelled"
+          ]
+        },
+        {
+          "id": "date_submitted",
+          "header": "Date Submitted",
+          "type": "date"
+        },
+        {
+          "id": "date_approved",
+          "header": "Date Approved",
+          "type": "date"
+        },
+        {
+          "id": "feedback",
+          "header": "Feedback",
+          "type": "currency"
+        },
+        {
+          "id": "sla_days",
+          "header": "SLA (Days)",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "id": "performance_tracker",
+      "name": "Performance Tracker",
+      "type": "table",
+      "columns": [
+        {
+          "id": "ad_name",
+          "header": "Ad Name",
+          "type": "text"
+        },
+        {
+          "id": "platform",
+          "header": "Platform",
+          "type": "text"
+        },
+        {
+          "id": "format",
+          "header": "Format",
+          "type": "text"
+        },
+        {
+          "id": "impressions",
+          "header": "Impressions",
+          "type": "number"
+        },
+        {
+          "id": "clicks",
+          "header": "Clicks",
+          "type": "number"
+        },
+        {
+          "id": "ctr",
+          "header": "CTR",
+          "type": "percentage"
+        },
+        {
+          "id": "conversions",
+          "header": "Conversions",
+          "type": "percentage"
+        },
+        {
+          "id": "conv_rate",
+          "header": "Conv. Rate",
+          "type": "percentage"
+        },
+        {
+          "id": "performance_score",
+          "header": "Performance Score",
+          "type": "score",
+          "min": 1,
+          "max": 5,
+          "colorScale": {
+            "ranges": [
+              {
+                "min": 1,
+                "max": 2,
+                "color": "#ef4444"
+              },
+              {
+                "min": 3,
+                "max": 3,
+                "color": "#eab308"
+              },
+              {
+                "min": 4,
+                "max": 5,
+                "color": "#22c55e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "spend",
+          "header": "Spend",
+          "type": "date"
+        },
+        {
+          "id": "roas",
+          "header": "ROAS",
+          "type": "percentage"
+        }
+      ]
+    },
+    {
+      "id": "brief_library",
+      "name": "Brief Library",
+      "type": "table",
+      "columns": [
+        {
+          "id": "brief_id",
+          "header": "Brief ID",
+          "type": "textarea",
+          "width": "250px"
+        },
+        {
+          "id": "brief_title",
+          "header": "Brief Title",
+          "type": "textarea",
+          "width": "250px"
+        },
+        {
+          "id": "campaign",
+          "header": "Campaign",
+          "type": "text"
+        },
+        {
+          "id": "date_created",
+          "header": "Date Created",
+          "type": "date"
+        },
+        {
+          "id": "owner",
+          "header": "Owner",
+          "type": "text"
+        },
+        {
+          "id": "status",
+          "header": "Status",
+          "type": "dropdown",
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done",
+            "On Hold",
+            "Cancelled"
+          ]
+        },
+        {
+          "id": "results_summary",
+          "header": "Results Summary",
+          "type": "textarea",
+          "width": "250px"
+        },
+        {
+          "id": "link",
+          "header": "Link",
+          "type": "url"
+        }
+      ]
+    }
+  ],
+  "defaultData": {
+    "media_plan": [
+      {
+        "channel": "Paid Social",
+        "platform": "Facebook",
+        "format": "Video",
+        "placement": "Feed",
+        "audience": "25-45 professionals",
+        "budget": "$5,000",
+        "impressions_target": "500,000",
+        "cpc_target": "$0.50"
+      },
+      {
+        "channel": "Paid Social",
+        "platform": "Instagram",
+        "format": "Carousel",
+        "placement": "Stories + Feed",
+        "audience": "25-35 urban",
+        "budget": "$3,000",
+        "impressions_target": "300,000",
+        "cpc_target": "$0.40"
+      },
+      {
+        "channel": "Paid Social",
+        "platform": "LinkedIn",
+        "format": "Single Image",
+        "placement": "Feed",
+        "audience": "Decision makers",
+        "budget": "$4,000",
+        "impressions_target": "100,000",
+        "cpc_target": "$2.50"
+      },
+      {
+        "channel": "Paid Search",
+        "platform": "Google Ads",
+        "format": "Text",
+        "placement": "Search",
+        "audience": "High intent",
+        "budget": "$6,000",
+        "impressions_target": "50,000",
+        "cpc_target": "$1.20"
+      },
+      {
+        "channel": "Display",
+        "platform": "Google Display",
+        "format": "Banner",
+        "placement": "Contextual",
+        "audience": "Retargeting",
+        "budget": "$2,000",
+        "impressions_target": "1,000,000",
+        "cpc_target": "$0.15"
+      },
+      {
+        "channel": "Video",
+        "platform": "YouTube",
+        "format": "Pre-roll",
+        "placement": "In-stream",
+        "audience": "Broad awareness",
+        "budget": "$3,000",
+        "impressions_target": "200,000",
+        "cpc_target": "$0.03 CPV"
+      },
+      {
+        "channel": "Native",
+        "platform": "Outbrain",
+        "format": "Article",
+        "placement": "Content sites",
+        "audience": "Interest-based",
+        "budget": "$1,500",
+        "impressions_target": "150,000",
+        "cpc_target": "$0.30"
+      },
+      {
+        "channel": "Email",
+        "platform": "Internal",
+        "format": "HTML",
+        "placement": "Newsletter",
+        "audience": "Existing customers",
+        "budget": "$500",
+        "impressions_target": "25,000",
+        "cpc_target": "N/A"
+      }
+    ],
+    "ad_specs_library": [
+      {
+        "platform": "Facebook",
+        "format": "Feed Image",
+        "dimensions": "1200x628px",
+        "aspect_ratio": "1.91:1",
+        "max_file_size": "30MB",
+        "file_types": "JPG, PNG",
+        "character_limits": "125 primary, 40 headline",
+        "notes": "Recommended: minimal text on image"
+      },
+      {
+        "platform": "Facebook",
+        "format": "Stories",
+        "dimensions": "1080x1920px",
+        "aspect_ratio": "9:16",
+        "max_file_size": "30MB",
+        "file_types": "JPG, PNG, MP4",
+        "character_limits": "125 primary",
+        "notes": "Full screen vertical"
+      },
+      {
+        "platform": "Facebook",
+        "format": "Video Feed",
+        "dimensions": "1280x720px min",
+        "aspect_ratio": "16:9 or 1:1",
+        "max_file_size": "4GB",
+        "file_types": "MP4, MOV",
+        "character_limits": "125 primary",
+        "notes": "15-60 sec recommended"
+      },
+      {
+        "platform": "Instagram",
+        "format": "Feed Post",
+        "dimensions": "1080x1080px",
+        "aspect_ratio": "1:1",
+        "max_file_size": "30MB",
+        "file_types": "JPG, PNG",
+        "character_limits": "2200 caption",
+        "notes": "Square performs best"
+      },
+      {
+        "platform": "Instagram",
+        "format": "Stories",
+        "dimensions": "1080x1920px",
+        "aspect_ratio": "9:16",
+        "max_file_size": "30MB",
+        "file_types": "JPG, PNG, MP4",
+        "character_limits": "N/A",
+        "notes": "15 sec max per story"
+      },
+      {
+        "platform": "Instagram",
+        "format": "Reels",
+        "dimensions": "1080x1920px",
+        "aspect_ratio": "9:16",
+        "max_file_size": "4GB",
+        "file_types": "MP4",
+        "character_limits": "2200 caption",
+        "notes": "15-90 sec"
+      },
+      {
+        "platform": "LinkedIn",
+        "format": "Single Image",
+        "dimensions": "1200x627px",
+        "aspect_ratio": "1.91:1",
+        "max_file_size": "5MB",
+        "file_types": "JPG, PNG",
+        "character_limits": "150 intro, 70 headline",
+        "notes": "Professional tone"
+      },
+      {
+        "platform": "LinkedIn",
+        "format": "Video",
+        "dimensions": "Varies",
+        "aspect_ratio": "16:9 or 1:1",
+        "max_file_size": "200MB",
+        "file_types": "MP4",
+        "character_limits": "600 intro",
+        "notes": "3-30 sec for ads"
+      },
+      {
+        "platform": "Google Ads",
+        "format": "Responsive Search",
+        "dimensions": "N/A",
+        "aspect_ratio": "N/A",
+        "max_file_size": "N/A",
+        "file_types": "Text",
+        "character_limits": "30 headline, 90 description",
+        "notes": "3 headlines, 2 descriptions"
+      },
+      {
+        "platform": "Google Ads",
+        "format": "Display Banner",
+        "dimensions": "300x250, 728x90",
+        "aspect_ratio": "Various",
+        "max_file_size": "150KB",
+        "file_types": "JPG, PNG, GIF, HTML5",
+        "character_limits": "N/A",
+        "notes": "Multiple sizes needed"
+      },
+      {
+        "platform": "YouTube",
+        "format": "Pre-roll",
+        "dimensions": "1920x1080px",
+        "aspect_ratio": "16:9",
+        "max_file_size": "256GB",
+        "file_types": "MP4",
+        "character_limits": "N/A",
+        "notes": "Skip after 5 sec"
+      },
+      {
+        "platform": "YouTube",
+        "format": "Bumper",
+        "dimensions": "1920x1080px",
+        "aspect_ratio": "16:9",
+        "max_file_size": "256GB",
+        "file_types": "MP4",
+        "character_limits": "N/A",
+        "notes": "6 sec non-skippable"
+      },
+      {
+        "platform": "TikTok",
+        "format": "In-feed",
+        "dimensions": "1080x1920px",
+        "aspect_ratio": "9:16",
+        "max_file_size": "500MB",
+        "file_types": "MP4",
+        "character_limits": "100 description",
+        "notes": "9-15 sec recommended"
+      },
+      {
+        "platform": "X (Twitter)",
+        "format": "Image",
+        "dimensions": "1200x675px",
+        "aspect_ratio": "16:9",
+        "max_file_size": "5MB",
+        "file_types": "JPG, PNG",
+        "character_limits": "280 tweet",
+        "notes": "Hashtags recommended"
+      },
+      {
+        "platform": "Pinterest",
+        "format": "Standard Pin",
+        "dimensions": "1000x1500px",
+        "aspect_ratio": "2:3",
+        "max_file_size": "20MB",
+        "file_types": "JPG, PNG",
+        "character_limits": "500 description",
+        "notes": "Vertical format"
+      }
+    ],
+    "budget_tracker": [
+      {
+        "line_item": "Creative Production",
+        "category": "Production",
+        "description": "Design, copywriting, video production",
+        "budget": "$8,000",
+        "variance": 8000
+      },
+      {
+        "line_item": "Photography",
+        "category": "Production",
+        "description": "Product and lifestyle photography",
+        "budget": "$3,000",
+        "variance": 3000
+      },
+      {
+        "line_item": "Video Production",
+        "category": "Production",
+        "description": "Ad video creation and editing",
+        "budget": "$5,000",
+        "variance": 5000
+      },
+      {
+        "line_item": "Facebook Ads",
+        "category": "Media",
+        "description": "Facebook ad spend",
+        "budget": "$5,000",
+        "variance": 5000
+      },
+      {
+        "line_item": "Instagram Ads",
+        "category": "Media",
+        "description": "Instagram ad spend",
+        "budget": "$3,000",
+        "variance": 3000
+      },
+      {
+        "line_item": "LinkedIn Ads",
+        "category": "Media",
+        "description": "LinkedIn ad spend",
+        "budget": "$4,000",
+        "variance": 4000
+      },
+      {
+        "line_item": "Google Ads",
+        "category": "Media",
+        "description": "Search and display spend",
+        "budget": "$8,000",
+        "variance": 8000
+      },
+      {
+        "line_item": "YouTube Ads",
+        "category": "Media",
+        "description": "Video ad spend",
+        "budget": "$3,000",
+        "variance": 3000
+      },
+      {
+        "line_item": "Influencer Fees",
+        "category": "Partnerships",
+        "description": "Influencer collaboration costs",
+        "budget": "$5,000",
+        "variance": 5000
+      },
+      {
+        "line_item": "Agency Fees",
+        "category": "Services",
+        "description": "Agency management and strategy",
+        "budget": "$6,000",
+        "variance": 6000
+      },
+      {
+        "line_item": "TOTAL"
+      }
+    ],
+    "approval_workflow": [
+      {
+        "step": "1. Strategy Review",
+        "role": "Marketing Director",
+        "status": "Pending",
+        "sla_days": "2"
+      },
+      {
+        "step": "2. Creative Review",
+        "role": "Creative Director",
+        "status": "Pending",
+        "sla_days": "3"
+      },
+      {
+        "step": "3. Legal Compliance",
+        "role": "Legal Counsel",
+        "status": "Pending",
+        "sla_days": "2"
+      },
+      {
+        "step": "4. Brand Review",
+        "role": "Brand Manager",
+        "status": "Pending",
+        "sla_days": "2"
+      },
+      {
+        "step": "5. Budget Approval",
+        "role": "Finance Lead",
+        "status": "Pending",
+        "sla_days": "1"
+      },
+      {
+        "step": "6. Final Sign-off",
+        "role": "VP Marketing",
+        "status": "Pending",
+        "sla_days": "1"
+      }
+    ]
+  }
+}

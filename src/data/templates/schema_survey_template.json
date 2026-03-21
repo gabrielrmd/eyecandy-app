@@ -1,0 +1,605 @@
+{
+  "id": "survey_template",
+  "name": "Survey Template",
+  "category": "research",
+  "sheets": [
+    {
+      "id": "dashboard",
+      "name": "Dashboard",
+      "type": "summary"
+    },
+    {
+      "id": "survey_planner",
+      "name": "Survey Planner",
+      "type": "table",
+      "columns": [
+        {
+          "id": "survey_id",
+          "header": "Survey ID",
+          "type": "text"
+        },
+        {
+          "id": "survey_name",
+          "header": "Survey Name",
+          "type": "text"
+        },
+        {
+          "id": "objective",
+          "header": "Objective",
+          "type": "text"
+        },
+        {
+          "id": "target_audience",
+          "header": "Target Audience",
+          "type": "text"
+        },
+        {
+          "id": "sample_size_target",
+          "header": "Sample Size Target",
+          "type": "text"
+        },
+        {
+          "id": "method",
+          "header": "Method",
+          "type": "text"
+        },
+        {
+          "id": "start_date",
+          "header": "Start Date",
+          "type": "date"
+        },
+        {
+          "id": "end_date",
+          "header": "End Date",
+          "type": "date"
+        },
+        {
+          "id": "status",
+          "header": "Status",
+          "type": "dropdown",
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done",
+            "On Hold",
+            "Cancelled"
+          ]
+        },
+        {
+          "id": "owner",
+          "header": "Owner",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "id": "question_bank",
+      "name": "Question Bank",
+      "type": "table",
+      "columns": [
+        {
+          "id": "q_id",
+          "header": "Q ID",
+          "type": "number"
+        },
+        {
+          "id": "category",
+          "header": "Category",
+          "type": "text",
+          "editable": false
+        },
+        {
+          "id": "question_text",
+          "header": "Question Text",
+          "type": "text"
+        },
+        {
+          "id": "question_type",
+          "header": "Question Type",
+          "type": "text"
+        },
+        {
+          "id": "required",
+          "header": "Required",
+          "type": "text"
+        }
+      ],
+      "groupBy": "category"
+    },
+    {
+      "id": "survey_builder",
+      "name": "Survey Builder",
+      "type": "table",
+      "columns": [
+        {
+          "id": "survey_id",
+          "header": "Survey ID",
+          "type": "text"
+        },
+        {
+          "id": "question",
+          "header": "Question #",
+          "type": "text"
+        },
+        {
+          "id": "question_text",
+          "header": "Question Text",
+          "type": "text"
+        },
+        {
+          "id": "question_type",
+          "header": "Question Type",
+          "type": "text"
+        },
+        {
+          "id": "answer_options",
+          "header": "Answer Options",
+          "type": "text"
+        },
+        {
+          "id": "skip_logic",
+          "header": "Skip Logic",
+          "type": "text"
+        },
+        {
+          "id": "required",
+          "header": "Required",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "id": "response_tracker",
+      "name": "Response Tracker",
+      "type": "table",
+      "columns": [
+        {
+          "id": "response_id",
+          "header": "Response ID",
+          "type": "text"
+        },
+        {
+          "id": "survey_id",
+          "header": "Survey ID",
+          "type": "text"
+        },
+        {
+          "id": "respondent_id",
+          "header": "Respondent ID",
+          "type": "text"
+        },
+        {
+          "id": "date",
+          "header": "Date",
+          "type": "date"
+        },
+        {
+          "id": "channel",
+          "header": "Channel",
+          "type": "text"
+        },
+        {
+          "id": "status",
+          "header": "Status",
+          "type": "dropdown",
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done",
+            "On Hold",
+            "Cancelled"
+          ]
+        },
+        {
+          "id": "duration_mins",
+          "header": "Duration (mins)",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "id": "results_analysis",
+      "name": "Results Analysis",
+      "type": "table",
+      "columns": [
+        {
+          "id": "question",
+          "header": "Question",
+          "type": "text"
+        },
+        {
+          "id": "response_option",
+          "header": "Response Option",
+          "type": "text"
+        },
+        {
+          "id": "count",
+          "header": "Count",
+          "type": "number"
+        },
+        {
+          "id": "percentage",
+          "header": "Percentage (%)",
+          "type": "percentage"
+        },
+        {
+          "id": "mean_score",
+          "header": "Mean Score",
+          "type": "score",
+          "min": 1,
+          "max": 5,
+          "colorScale": {
+            "ranges": [
+              {
+                "min": 1,
+                "max": 2,
+                "color": "#ef4444"
+              },
+              {
+                "min": 3,
+                "max": 3,
+                "color": "#eab308"
+              },
+              {
+                "min": 4,
+                "max": 5,
+                "color": "#22c55e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "std_deviation",
+          "header": "Std Deviation",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "id": "cross_tab_analysis",
+      "name": "Cross-Tab Analysis",
+      "type": "table",
+      "columns": [
+        {
+          "id": "row_variable",
+          "header": "Row Variable",
+          "type": "text"
+        },
+        {
+          "id": "column_variable",
+          "header": "Column Variable",
+          "type": "text"
+        },
+        {
+          "id": "count_percentage",
+          "header": "Count/Percentage",
+          "type": "percentage"
+        },
+        {
+          "id": "total",
+          "header": "Total",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "id": "reporting",
+      "name": "Reporting",
+      "type": "summary"
+    },
+    {
+      "id": "survey_calendar",
+      "name": "Survey Calendar",
+      "type": "table",
+      "columns": [
+        {
+          "id": "month",
+          "header": "Month",
+          "type": "text"
+        },
+        {
+          "id": "january",
+          "header": "January",
+          "type": "text"
+        },
+        {
+          "id": "february",
+          "header": "February",
+          "type": "text"
+        },
+        {
+          "id": "march",
+          "header": "March",
+          "type": "text"
+        },
+        {
+          "id": "april",
+          "header": "April",
+          "type": "text"
+        },
+        {
+          "id": "may",
+          "header": "May",
+          "type": "text"
+        },
+        {
+          "id": "june",
+          "header": "June",
+          "type": "text"
+        },
+        {
+          "id": "july",
+          "header": "July",
+          "type": "text"
+        },
+        {
+          "id": "august",
+          "header": "August",
+          "type": "text"
+        },
+        {
+          "id": "september",
+          "header": "September",
+          "type": "text"
+        },
+        {
+          "id": "october",
+          "header": "October",
+          "type": "text"
+        },
+        {
+          "id": "november",
+          "header": "November",
+          "type": "text"
+        },
+        {
+          "id": "december",
+          "header": "December",
+          "type": "text"
+        }
+      ]
+    }
+  ],
+  "defaultData": {
+    "question_bank": [
+      {
+        "q_id": 1,
+        "category": "NPS",
+        "question_text": "How likely are you to recommend us to a friend or colleague? (0-10)",
+        "question_type": "Rating 1-10",
+        "required": "Yes"
+      },
+      {
+        "q_id": 2,
+        "category": "Satisfaction",
+        "question_text": "Overall, how satisfied are you with our product/service?",
+        "question_type": "Likert Scale",
+        "required": "Yes"
+      },
+      {
+        "q_id": 3,
+        "category": "CES",
+        "question_text": "It was easy to do business with us",
+        "question_type": "Likert Scale",
+        "required": "Yes"
+      },
+      {
+        "q_id": 4,
+        "category": "Satisfaction",
+        "question_text": "How well did our product meet your expectations?",
+        "question_type": "Likert Scale",
+        "required": "Yes"
+      },
+      {
+        "q_id": 5,
+        "category": "Service",
+        "question_text": "How would you rate the quality of customer service?",
+        "question_type": "Rating 1-10",
+        "required": "Yes"
+      },
+      {
+        "q_id": 6,
+        "category": "Product",
+        "question_text": "Which features do you use most? (Select all that apply)",
+        "question_type": "Multiple Choice",
+        "required": "No"
+      },
+      {
+        "q_id": 7,
+        "category": "Satisfaction",
+        "question_text": "I would recommend this company to others",
+        "question_type": "Likert Scale",
+        "required": "Yes"
+      },
+      {
+        "q_id": 8,
+        "category": "Demographics",
+        "question_text": "What is your job title/role?",
+        "question_type": "Open Text",
+        "required": "No"
+      },
+      {
+        "q_id": 9,
+        "category": "Demographics",
+        "question_text": "What is your company size?",
+        "question_type": "Multiple Choice",
+        "required": "No"
+      },
+      {
+        "q_id": 10,
+        "category": "Demographics",
+        "question_text": "What industry do you work in?",
+        "question_type": "Multiple Choice",
+        "required": "No"
+      },
+      {
+        "q_id": 11,
+        "category": "Demographics",
+        "question_text": "How long have you been a customer?",
+        "question_type": "Multiple Choice",
+        "required": "No"
+      },
+      {
+        "q_id": 12,
+        "category": "Brand",
+        "question_text": "How would you describe our brand?",
+        "question_type": "Open Text",
+        "required": "No"
+      },
+      {
+        "q_id": 13,
+        "category": "Brand",
+        "question_text": "What is your perception of our brand quality?",
+        "question_type": "Likert Scale",
+        "required": "Yes"
+      },
+      {
+        "q_id": 14,
+        "category": "Product",
+        "question_text": "How does our product compare to competitors?",
+        "question_type": "Ranking",
+        "required": "Yes"
+      },
+      {
+        "q_id": 15,
+        "category": "Service",
+        "question_text": "How quickly did we respond to your inquiry?",
+        "question_type": "Likert Scale",
+        "required": "Yes"
+      },
+      {
+        "q_id": 16,
+        "category": "Satisfaction",
+        "question_text": "Would you purchase from us again?",
+        "question_type": "Yes-No",
+        "required": "Yes"
+      },
+      {
+        "q_id": 17,
+        "category": "Product",
+        "question_text": "Which of these features would you like to see?",
+        "question_type": "Ranking",
+        "required": "No"
+      },
+      {
+        "q_id": 18,
+        "category": "Service",
+        "question_text": "How knowledgeable was our sales/support team?",
+        "question_type": "Rating 1-10",
+        "required": "Yes"
+      },
+      {
+        "q_id": 19,
+        "category": "Open-ended",
+        "question_text": "What could we improve most?",
+        "question_type": "Open Text",
+        "required": "No"
+      },
+      {
+        "q_id": 20,
+        "category": "Open-ended",
+        "question_text": "What do you like most about our offering?",
+        "question_type": "Open Text",
+        "required": "No"
+      },
+      {
+        "q_id": 21,
+        "category": "Satisfaction",
+        "question_text": "Value for money",
+        "question_type": "Likert Scale",
+        "required": "Yes"
+      },
+      {
+        "q_id": 22,
+        "category": "Product",
+        "question_text": "Ease of use",
+        "question_type": "Likert Scale",
+        "required": "Yes"
+      },
+      {
+        "q_id": 23,
+        "category": "Demographics",
+        "question_text": "What is your age range?",
+        "question_type": "Multiple Choice",
+        "required": "No"
+      },
+      {
+        "q_id": 24,
+        "category": "Demographics",
+        "question_text": "How often do you use our product/service?",
+        "question_type": "Multiple Choice",
+        "required": "No"
+      },
+      {
+        "q_id": 25,
+        "category": "Brand",
+        "question_text": "Brand awareness: Have you heard of us?",
+        "question_type": "Yes-No",
+        "required": "Yes"
+      },
+      {
+        "q_id": 26,
+        "category": "Service",
+        "question_text": "Price competitiveness",
+        "question_type": "Likert Scale",
+        "required": "Yes"
+      },
+      {
+        "q_id": 27,
+        "category": "Product",
+        "question_text": "Product reliability and consistency",
+        "question_type": "Likert Scale",
+        "required": "Yes"
+      },
+      {
+        "q_id": 28,
+        "category": "Satisfaction",
+        "question_text": "My needs were fully met",
+        "question_type": "Likert Scale",
+        "required": "Yes"
+      },
+      {
+        "q_id": 29,
+        "category": "Open-ended",
+        "question_text": "How can we better serve you?",
+        "question_type": "Open Text",
+        "required": "No"
+      },
+      {
+        "q_id": 30,
+        "category": "Brand",
+        "question_text": "Would you consider switching to a competitor?",
+        "question_type": "Yes-No",
+        "required": "Yes"
+      },
+      {
+        "q_id": 31,
+        "category": "Demographics",
+        "question_text": "Geographic location/region",
+        "question_type": "Multiple Choice",
+        "required": "No"
+      },
+      {
+        "q_id": 32,
+        "category": "Service",
+        "question_text": "Documentation and support quality",
+        "question_type": "Likert Scale",
+        "required": "Yes"
+      }
+    ],
+    "survey_calendar": [
+      {
+        "month": "Survey Name 1"
+      },
+      {
+        "month": "Survey Name 2"
+      },
+      {
+        "month": "Survey Name 3"
+      },
+      {
+        "month": "Notes/Status"
+      }
+    ]
+  }
+}

@@ -1,0 +1,310 @@
+{
+  "id": "market_research_template",
+  "name": "Market Research Template",
+  "category": "research",
+  "sheets": [
+    {
+      "id": "dashboard",
+      "name": "Dashboard",
+      "type": "summary"
+    },
+    {
+      "id": "research_brief",
+      "name": "Research Brief",
+      "type": "summary"
+    },
+    {
+      "id": "market_overview",
+      "name": "Market Overview",
+      "type": "summary"
+    },
+    {
+      "id": "customer_insights",
+      "name": "Customer Insights",
+      "type": "table",
+      "columns": [
+        {
+          "id": "insight_id",
+          "header": "Insight ID",
+          "type": "text"
+        },
+        {
+          "id": "source",
+          "header": "Source",
+          "type": "text"
+        },
+        {
+          "id": "insight",
+          "header": "Insight",
+          "type": "text"
+        },
+        {
+          "id": "theme",
+          "header": "Theme",
+          "type": "text"
+        },
+        {
+          "id": "segment",
+          "header": "Segment",
+          "type": "text"
+        },
+        {
+          "id": "impact",
+          "header": "Impact",
+          "type": "text"
+        },
+        {
+          "id": "confidence",
+          "header": "Confidence (%)",
+          "type": "percentage"
+        },
+        {
+          "id": "actionable",
+          "header": "Actionable",
+          "type": "textarea",
+          "width": "250px"
+        },
+        {
+          "id": "action_required",
+          "header": "Action Required",
+          "type": "textarea",
+          "width": "250px"
+        }
+      ]
+    },
+    {
+      "id": "competitor_analysis",
+      "name": "Competitor Analysis",
+      "type": "table",
+      "columns": [
+        {
+          "id": "competitor",
+          "header": "Competitor",
+          "type": "text"
+        },
+        {
+          "id": "market_share",
+          "header": "Market Share (%)",
+          "type": "percentage"
+        },
+        {
+          "id": "positioning",
+          "header": "Positioning",
+          "type": "text"
+        },
+        {
+          "id": "strengths",
+          "header": "Strengths",
+          "type": "text"
+        },
+        {
+          "id": "weaknesses",
+          "header": "Weaknesses",
+          "type": "text"
+        },
+        {
+          "id": "pricing",
+          "header": "Pricing",
+          "type": "text"
+        },
+        {
+          "id": "target_audience",
+          "header": "Target Audience",
+          "type": "text"
+        },
+        {
+          "id": "recent_moves",
+          "header": "Recent Moves",
+          "type": "text"
+        },
+        {
+          "id": "threat_level",
+          "header": "Threat Level",
+          "type": "text"
+        },
+        {
+          "id": "notes",
+          "header": "Notes",
+          "type": "textarea",
+          "width": "250px"
+        }
+      ]
+    },
+    {
+      "id": "survey_results",
+      "name": "Survey Results",
+      "type": "table",
+      "columns": [
+        {
+          "id": "question",
+          "header": "Question",
+          "type": "text"
+        },
+        {
+          "id": "response_type",
+          "header": "Response Type",
+          "type": "text"
+        },
+        {
+          "id": "sample_size",
+          "header": "Sample Size",
+          "type": "text"
+        },
+        {
+          "id": "key_finding",
+          "header": "Key Finding",
+          "type": "text"
+        },
+        {
+          "id": "statistical_significance",
+          "header": "Statistical Significance (%)",
+          "type": "percentage"
+        },
+        {
+          "id": "segment_breakdown",
+          "header": "Segment Breakdown",
+          "type": "text"
+        },
+        {
+          "id": "implications",
+          "header": "Implications",
+          "type": "text"
+        },
+        {
+          "id": "chart_needed",
+          "header": "Chart Needed",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "id": "swot_analysis",
+      "name": "SWOT Analysis",
+      "type": "table",
+      "columns": [
+        {
+          "id": "item",
+          "header": "Item",
+          "type": "text"
+        },
+        {
+          "id": "description",
+          "header": "Description",
+          "type": "textarea",
+          "width": "250px"
+        },
+        {
+          "id": "priority",
+          "header": "Priority",
+          "type": "dropdown",
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "action",
+          "header": "Action",
+          "type": "textarea",
+          "width": "250px"
+        }
+      ]
+    },
+    {
+      "id": "recommendations",
+      "name": "Recommendations",
+      "type": "table",
+      "columns": [
+        {
+          "id": "finding",
+          "header": "Finding",
+          "type": "text"
+        },
+        {
+          "id": "recommendation",
+          "header": "Recommendation",
+          "type": "date"
+        },
+        {
+          "id": "priority",
+          "header": "Priority",
+          "type": "dropdown",
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "impact",
+          "header": "Impact",
+          "type": "text"
+        },
+        {
+          "id": "effort",
+          "header": "Effort",
+          "type": "text"
+        },
+        {
+          "id": "owner",
+          "header": "Owner",
+          "type": "text"
+        },
+        {
+          "id": "timeline",
+          "header": "Timeline",
+          "type": "text"
+        },
+        {
+          "id": "status",
+          "header": "Status",
+          "type": "dropdown",
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done",
+            "On Hold",
+            "Cancelled"
+          ]
+        },
+        {
+          "id": "supporting_data",
+          "header": "Supporting Data",
+          "type": "text"
+        }
+      ]
+    }
+  ],
+  "defaultData": {
+    "swot_analysis": [
+      {
+        "item": "WEAKNESSES"
+      },
+      {
+        "item": "Item",
+        "description": "Description",
+        "priority": "Priority",
+        "action": "Action"
+      },
+      {
+        "item": "OPPORTUNITIES"
+      },
+      {
+        "item": "Item",
+        "description": "Description",
+        "priority": "Priority",
+        "action": "Action"
+      },
+      {
+        "item": "THREATS"
+      },
+      {
+        "item": "Item",
+        "description": "Description",
+        "priority": "Priority",
+        "action": "Action"
+      }
+    ]
+  }
+}

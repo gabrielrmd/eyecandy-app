@@ -1,0 +1,247 @@
+{
+  "id": "marketing_project_manager",
+  "name": "Marketing Project Manager",
+  "category": "strategy",
+  "sheets": [
+    {
+      "id": "dashboard",
+      "name": "Dashboard",
+      "type": "summary"
+    },
+    {
+      "id": "project_portfolio",
+      "name": "Project Portfolio",
+      "type": "summary"
+    },
+    {
+      "id": "task_manager",
+      "name": "Task Manager",
+      "type": "summary"
+    },
+    {
+      "id": "team_workload",
+      "name": "Team Workload",
+      "type": "table",
+      "columns": [
+        {
+          "id": "name",
+          "header": "Name",
+          "type": "text"
+        },
+        {
+          "id": "role",
+          "header": "Role",
+          "type": "text"
+        },
+        {
+          "id": "current_projects",
+          "header": "Current Projects",
+          "type": "number"
+        },
+        {
+          "id": "tasks_assigned",
+          "header": "Tasks Assigned",
+          "type": "number"
+        },
+        {
+          "id": "tasks_completed",
+          "header": "Tasks Completed",
+          "type": "checkbox"
+        },
+        {
+          "id": "completion_rate",
+          "header": "Completion Rate",
+          "type": "percentage"
+        },
+        {
+          "id": "capacity_hours",
+          "header": "Capacity (Hours)",
+          "type": "number"
+        },
+        {
+          "id": "utilised_hours",
+          "header": "Utilised (Hours)",
+          "type": "number"
+        },
+        {
+          "id": "utilisation_rate",
+          "header": "Utilisation Rate",
+          "type": "percentage"
+        },
+        {
+          "id": "notes",
+          "header": "Notes",
+          "type": "textarea",
+          "width": "250px"
+        }
+      ]
+    },
+    {
+      "id": "timeline_view",
+      "name": "Timeline View",
+      "type": "table",
+      "columns": [
+        {
+          "id": "project",
+          "header": "Project",
+          "type": "text"
+        },
+        {
+          "id": "task",
+          "header": "Task",
+          "type": "text"
+        },
+        {
+          "id": "owner",
+          "header": "Owner",
+          "type": "text"
+        },
+        {
+          "id": "start_date",
+          "header": "Start Date",
+          "type": "date"
+        },
+        {
+          "id": "end_date",
+          "header": "End Date",
+          "type": "date"
+        },
+        {
+          "id": "duration",
+          "header": "Duration",
+          "type": "number"
+        },
+        {
+          "id": "week_1",
+          "header": "Week 1",
+          "type": "text"
+        },
+        {
+          "id": "week_2",
+          "header": "Week 2",
+          "type": "text"
+        },
+        {
+          "id": "week_3",
+          "header": "Week 3",
+          "type": "text"
+        },
+        {
+          "id": "week_4",
+          "header": "Week 4",
+          "type": "text"
+        },
+        {
+          "id": "week_5",
+          "header": "Week 5",
+          "type": "text"
+        },
+        {
+          "id": "week_6",
+          "header": "Week 6",
+          "type": "text"
+        },
+        {
+          "id": "week_7",
+          "header": "Week 7",
+          "type": "text"
+        },
+        {
+          "id": "week_8",
+          "header": "Week 8",
+          "type": "text"
+        },
+        {
+          "id": "week_9",
+          "header": "Week 9",
+          "type": "text"
+        },
+        {
+          "id": "week_10",
+          "header": "Week 10",
+          "type": "text"
+        },
+        {
+          "id": "week_11",
+          "header": "Week 11",
+          "type": "text"
+        },
+        {
+          "id": "week_12",
+          "header": "Week 12",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "id": "budget_overview",
+      "name": "Budget Overview",
+      "type": "summary"
+    },
+    {
+      "id": "risk_tracker",
+      "name": "Risk Tracker",
+      "type": "summary"
+    },
+    {
+      "id": "meeting_notes",
+      "name": "Meeting Notes",
+      "type": "table",
+      "columns": [
+        {
+          "id": "date",
+          "header": "Date",
+          "type": "date"
+        },
+        {
+          "id": "meeting_type",
+          "header": "Meeting Type",
+          "type": "text"
+        },
+        {
+          "id": "project",
+          "header": "Project",
+          "type": "text"
+        },
+        {
+          "id": "attendees",
+          "header": "Attendees",
+          "type": "date"
+        },
+        {
+          "id": "key_decisions",
+          "header": "Key Decisions",
+          "type": "text"
+        },
+        {
+          "id": "action_items",
+          "header": "Action Items",
+          "type": "textarea",
+          "width": "250px"
+        },
+        {
+          "id": "owner",
+          "header": "Owner",
+          "type": "text"
+        },
+        {
+          "id": "due_date",
+          "header": "Due Date",
+          "type": "date"
+        },
+        {
+          "id": "status",
+          "header": "Status",
+          "type": "dropdown",
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done",
+            "On Hold",
+            "Cancelled"
+          ]
+        }
+      ]
+    }
+  ]
+}

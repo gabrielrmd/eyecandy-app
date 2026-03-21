@@ -1,0 +1,1551 @@
+{
+  "id": "marketing_okr_template",
+  "name": "Marketing OKR Template",
+  "category": "strategy",
+  "sheets": [
+    {
+      "id": "dashboard",
+      "name": "Dashboard",
+      "type": "summary"
+    },
+    {
+      "id": "annual_okr_planner",
+      "name": "Annual OKR Planner",
+      "type": "table",
+      "columns": [
+        {
+          "id": "col_0",
+          "header": "#",
+          "type": "number"
+        },
+        {
+          "id": "objective",
+          "header": "Objective",
+          "type": "text"
+        },
+        {
+          "id": "key_result",
+          "header": "Key Result",
+          "type": "text"
+        },
+        {
+          "id": "kr_owner",
+          "header": "KR Owner",
+          "type": "text"
+        },
+        {
+          "id": "start",
+          "header": "Start",
+          "type": "date"
+        },
+        {
+          "id": "deadline",
+          "header": "Deadline",
+          "type": "date"
+        },
+        {
+          "id": "score_0_1",
+          "header": "Score (0-1)",
+          "type": "score",
+          "min": 1,
+          "max": 5,
+          "colorScale": {
+            "ranges": [
+              {
+                "min": 1,
+                "max": 2,
+                "color": "#ef4444"
+              },
+              {
+                "min": 3,
+                "max": 3,
+                "color": "#eab308"
+              },
+              {
+                "min": 4,
+                "max": 5,
+                "color": "#22c55e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "confidence",
+          "header": "Confidence",
+          "type": "text"
+        },
+        {
+          "id": "notes",
+          "header": "Notes",
+          "type": "textarea",
+          "width": "250px"
+        }
+      ]
+    },
+    {
+      "id": "q1_tracker",
+      "name": "Q1 Tracker",
+      "type": "table",
+      "columns": [
+        {
+          "id": "col_0",
+          "header": "#",
+          "type": "number"
+        },
+        {
+          "id": "objective",
+          "header": "Objective",
+          "type": "text"
+        },
+        {
+          "id": "key_result",
+          "header": "Key Result",
+          "type": "text"
+        },
+        {
+          "id": "owner",
+          "header": "Owner",
+          "type": "text"
+        },
+        {
+          "id": "target",
+          "header": "Target",
+          "type": "text"
+        },
+        {
+          "id": "actual",
+          "header": "Actual",
+          "type": "text"
+        },
+        {
+          "id": "week_4",
+          "header": "Week 4",
+          "type": "text"
+        },
+        {
+          "id": "week_8",
+          "header": "Week 8",
+          "type": "text"
+        },
+        {
+          "id": "score_0_1",
+          "header": "Score (0-1)",
+          "type": "score",
+          "min": 1,
+          "max": 5,
+          "colorScale": {
+            "ranges": [
+              {
+                "min": 1,
+                "max": 2,
+                "color": "#ef4444"
+              },
+              {
+                "min": 3,
+                "max": 3,
+                "color": "#eab308"
+              },
+              {
+                "min": 4,
+                "max": 5,
+                "color": "#22c55e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "status",
+          "header": "Status",
+          "type": "dropdown",
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done",
+            "On Hold",
+            "Cancelled"
+          ]
+        },
+        {
+          "id": "notes",
+          "header": "Notes",
+          "type": "textarea",
+          "width": "250px"
+        }
+      ]
+    },
+    {
+      "id": "q2_tracker",
+      "name": "Q2 Tracker",
+      "type": "table",
+      "columns": [
+        {
+          "id": "col_0",
+          "header": "#",
+          "type": "text"
+        },
+        {
+          "id": "objective",
+          "header": "Objective",
+          "type": "text"
+        },
+        {
+          "id": "key_result",
+          "header": "Key Result",
+          "type": "text"
+        },
+        {
+          "id": "owner",
+          "header": "Owner",
+          "type": "text"
+        },
+        {
+          "id": "target",
+          "header": "Target",
+          "type": "text"
+        },
+        {
+          "id": "actual",
+          "header": "Actual",
+          "type": "text"
+        },
+        {
+          "id": "week_4",
+          "header": "Week 4",
+          "type": "text"
+        },
+        {
+          "id": "week_8",
+          "header": "Week 8",
+          "type": "text"
+        },
+        {
+          "id": "score_0_1",
+          "header": "Score (0-1)",
+          "type": "score",
+          "min": 1,
+          "max": 5,
+          "colorScale": {
+            "ranges": [
+              {
+                "min": 1,
+                "max": 2,
+                "color": "#ef4444"
+              },
+              {
+                "min": 3,
+                "max": 3,
+                "color": "#eab308"
+              },
+              {
+                "min": 4,
+                "max": 5,
+                "color": "#22c55e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "status",
+          "header": "Status",
+          "type": "dropdown",
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done",
+            "On Hold",
+            "Cancelled"
+          ]
+        },
+        {
+          "id": "notes",
+          "header": "Notes",
+          "type": "textarea",
+          "width": "250px"
+        }
+      ]
+    },
+    {
+      "id": "q3_tracker",
+      "name": "Q3 Tracker",
+      "type": "table",
+      "columns": [
+        {
+          "id": "col_0",
+          "header": "#",
+          "type": "text"
+        },
+        {
+          "id": "objective",
+          "header": "Objective",
+          "type": "text"
+        },
+        {
+          "id": "key_result",
+          "header": "Key Result",
+          "type": "text"
+        },
+        {
+          "id": "owner",
+          "header": "Owner",
+          "type": "text"
+        },
+        {
+          "id": "target",
+          "header": "Target",
+          "type": "text"
+        },
+        {
+          "id": "actual",
+          "header": "Actual",
+          "type": "text"
+        },
+        {
+          "id": "week_4",
+          "header": "Week 4",
+          "type": "text"
+        },
+        {
+          "id": "week_8",
+          "header": "Week 8",
+          "type": "text"
+        },
+        {
+          "id": "score_0_1",
+          "header": "Score (0-1)",
+          "type": "score",
+          "min": 1,
+          "max": 5,
+          "colorScale": {
+            "ranges": [
+              {
+                "min": 1,
+                "max": 2,
+                "color": "#ef4444"
+              },
+              {
+                "min": 3,
+                "max": 3,
+                "color": "#eab308"
+              },
+              {
+                "min": 4,
+                "max": 5,
+                "color": "#22c55e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "status",
+          "header": "Status",
+          "type": "dropdown",
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done",
+            "On Hold",
+            "Cancelled"
+          ]
+        },
+        {
+          "id": "notes",
+          "header": "Notes",
+          "type": "textarea",
+          "width": "250px"
+        }
+      ]
+    },
+    {
+      "id": "q4_tracker",
+      "name": "Q4 Tracker",
+      "type": "table",
+      "columns": [
+        {
+          "id": "col_0",
+          "header": "#",
+          "type": "text"
+        },
+        {
+          "id": "objective",
+          "header": "Objective",
+          "type": "text"
+        },
+        {
+          "id": "key_result",
+          "header": "Key Result",
+          "type": "text"
+        },
+        {
+          "id": "owner",
+          "header": "Owner",
+          "type": "text"
+        },
+        {
+          "id": "target",
+          "header": "Target",
+          "type": "text"
+        },
+        {
+          "id": "actual",
+          "header": "Actual",
+          "type": "text"
+        },
+        {
+          "id": "week_4",
+          "header": "Week 4",
+          "type": "text"
+        },
+        {
+          "id": "week_8",
+          "header": "Week 8",
+          "type": "text"
+        },
+        {
+          "id": "score_0_1",
+          "header": "Score (0-1)",
+          "type": "score",
+          "min": 1,
+          "max": 5,
+          "colorScale": {
+            "ranges": [
+              {
+                "min": 1,
+                "max": 2,
+                "color": "#ef4444"
+              },
+              {
+                "min": 3,
+                "max": 3,
+                "color": "#eab308"
+              },
+              {
+                "min": 4,
+                "max": 5,
+                "color": "#22c55e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "status",
+          "header": "Status",
+          "type": "dropdown",
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done",
+            "On Hold",
+            "Cancelled"
+          ]
+        },
+        {
+          "id": "notes",
+          "header": "Notes",
+          "type": "textarea",
+          "width": "250px"
+        }
+      ]
+    },
+    {
+      "id": "team_alignment",
+      "name": "Team Alignment",
+      "type": "table",
+      "columns": [
+        {
+          "id": "col_0",
+          "header": "#",
+          "type": "number"
+        },
+        {
+          "id": "team_member",
+          "header": "Team Member",
+          "type": "text"
+        },
+        {
+          "id": "role",
+          "header": "Role",
+          "type": "text"
+        },
+        {
+          "id": "company_objective",
+          "header": "Company Objective",
+          "type": "text"
+        },
+        {
+          "id": "team_objective",
+          "header": "Team Objective",
+          "type": "text"
+        },
+        {
+          "id": "individual_kr",
+          "header": "Individual KR",
+          "type": "text"
+        },
+        {
+          "id": "score",
+          "header": "Score",
+          "type": "score",
+          "min": 1,
+          "max": 5,
+          "colorScale": {
+            "ranges": [
+              {
+                "min": 1,
+                "max": 2,
+                "color": "#ef4444"
+              },
+              {
+                "min": 3,
+                "max": 3,
+                "color": "#eab308"
+              },
+              {
+                "min": 4,
+                "max": 5,
+                "color": "#22c55e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "confidence",
+          "header": "Confidence",
+          "type": "text"
+        },
+        {
+          "id": "status",
+          "header": "Status",
+          "type": "dropdown",
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done",
+            "On Hold",
+            "Cancelled"
+          ]
+        },
+        {
+          "id": "notes",
+          "header": "Notes",
+          "type": "textarea",
+          "width": "250px"
+        }
+      ]
+    },
+    {
+      "id": "kr_scoring",
+      "name": "KR Scoring",
+      "type": "table",
+      "columns": [
+        {
+          "id": "col_0",
+          "header": "#",
+          "type": "number"
+        },
+        {
+          "id": "key_result",
+          "header": "Key Result",
+          "type": "text"
+        },
+        {
+          "id": "owner",
+          "header": "Owner",
+          "type": "text"
+        },
+        {
+          "id": "baseline",
+          "header": "Baseline",
+          "type": "text"
+        },
+        {
+          "id": "target",
+          "header": "Target",
+          "type": "text"
+        },
+        {
+          "id": "current",
+          "header": "Current",
+          "type": "text"
+        },
+        {
+          "id": "progress",
+          "header": "% Progress",
+          "type": "percentage"
+        },
+        {
+          "id": "score_0_1",
+          "header": "Score (0-1)",
+          "type": "score",
+          "min": 1,
+          "max": 5,
+          "colorScale": {
+            "ranges": [
+              {
+                "min": 1,
+                "max": 2,
+                "color": "#ef4444"
+              },
+              {
+                "min": 3,
+                "max": 3,
+                "color": "#eab308"
+              },
+              {
+                "min": 4,
+                "max": 5,
+                "color": "#22c55e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "confidence",
+          "header": "Confidence",
+          "type": "text"
+        },
+        {
+          "id": "commentary",
+          "header": "Commentary",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "id": "okr_review",
+      "name": "OKR Review",
+      "type": "table",
+      "columns": [
+        {
+          "id": "review_period",
+          "header": "Review Period:",
+          "type": "number"
+        },
+        {
+          "id": "q1_2026",
+          "header": "Q1 2026",
+          "type": "text"
+        },
+        {
+          "id": "review_date",
+          "header": "Review Date:",
+          "type": "date"
+        }
+      ]
+    },
+    {
+      "id": "initiative_tracker",
+      "name": "Initiative Tracker",
+      "type": "table",
+      "columns": [
+        {
+          "id": "col_0",
+          "header": "#",
+          "type": "number"
+        },
+        {
+          "id": "initiative",
+          "header": "Initiative",
+          "type": "text"
+        },
+        {
+          "id": "linked_key_result",
+          "header": "Linked Key Result",
+          "type": "url"
+        },
+        {
+          "id": "owner",
+          "header": "Owner",
+          "type": "text"
+        },
+        {
+          "id": "start_date",
+          "header": "Start Date",
+          "type": "date"
+        },
+        {
+          "id": "end_date",
+          "header": "End Date",
+          "type": "date"
+        },
+        {
+          "id": "status",
+          "header": "Status",
+          "type": "dropdown",
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done",
+            "On Hold",
+            "Cancelled"
+          ]
+        },
+        {
+          "id": "priority",
+          "header": "Priority",
+          "type": "dropdown",
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "effort_days",
+          "header": "Effort (days)",
+          "type": "number"
+        },
+        {
+          "id": "impact_1_5",
+          "header": "Impact (1-5)",
+          "type": "number"
+        },
+        {
+          "id": "notes",
+          "header": "Notes",
+          "type": "textarea",
+          "width": "250px"
+        }
+      ]
+    },
+    {
+      "id": "okr_examples_library",
+      "name": "OKR Examples Library",
+      "type": "table",
+      "columns": [
+        {
+          "id": "col_0",
+          "header": "#",
+          "type": "number"
+        },
+        {
+          "id": "category",
+          "header": "Category",
+          "type": "text",
+          "editable": false
+        },
+        {
+          "id": "objective",
+          "header": "Objective",
+          "type": "text"
+        },
+        {
+          "id": "example_key_results",
+          "header": "Example Key Results",
+          "type": "text"
+        },
+        {
+          "id": "success_metrics",
+          "header": "Success Metrics",
+          "type": "text"
+        }
+      ],
+      "groupBy": "category"
+    }
+  ],
+  "defaultData": {
+    "annual_okr_planner": [
+      {
+        "col_0": 1,
+        "objective": "Increase Brand Awareness",
+        "key_result": "Grow organic social media reach by 40%",
+        "kr_owner": "Social Media Manager",
+        "start": "2026-01-01",
+        "deadline": "2026-12-31",
+        "confidence": "Green",
+        "notes": "Track monthly across all platforms"
+      },
+      {
+        "key_result": "Achieve 50 media mentions in tier-1 publications",
+        "kr_owner": "PR Lead",
+        "start": "2026-01-01",
+        "deadline": "2026-12-31",
+        "confidence": "Yellow",
+        "notes": "Include earned + contributed"
+      },
+      {
+        "key_result": "Increase branded search volume by 25%",
+        "kr_owner": "SEO Specialist",
+        "start": "2026-01-01",
+        "deadline": "2026-12-31",
+        "confidence": "Green",
+        "notes": "Use Google Trends + Search Console"
+      },
+      {
+        "col_0": 2,
+        "objective": "Drive Demand Generation",
+        "key_result": "Generate 5,000 marketing qualified leads",
+        "kr_owner": "Demand Gen Manager",
+        "start": "2026-01-01",
+        "deadline": "2026-12-31",
+        "confidence": "Green",
+        "notes": "MQL definition: scored 50+"
+      },
+      {
+        "key_result": "Achieve $2M in marketing-sourced pipeline",
+        "kr_owner": "Demand Gen Manager",
+        "start": "2026-01-01",
+        "deadline": "2026-12-31",
+        "confidence": "Yellow",
+        "notes": "Track in CRM with source attribution"
+      },
+      {
+        "key_result": "Reduce cost per lead by 20%",
+        "kr_owner": "Performance Marketing",
+        "start": "2026-01-01",
+        "deadline": "2026-12-31",
+        "confidence": "Green",
+        "notes": "Baseline: current CPL across channels"
+      },
+      {
+        "key_result": "Increase email conversion rate to 3.5%",
+        "kr_owner": "Email Marketing",
+        "start": "2026-01-01",
+        "deadline": "2026-12-31",
+        "confidence": "Green",
+        "notes": "From current 2.1% baseline"
+      },
+      {
+        "col_0": 3,
+        "objective": "Improve Customer Engagement",
+        "key_result": "Increase NPS score from 42 to 55",
+        "kr_owner": "Customer Marketing",
+        "start": "2026-01-01",
+        "deadline": "2026-12-31",
+        "confidence": "Yellow",
+        "notes": "Quarterly survey cadence"
+      },
+      {
+        "key_result": "Launch customer community with 1,000 active members",
+        "kr_owner": "Community Manager",
+        "start": "2026-01-01",
+        "deadline": "2026-09-30",
+        "confidence": "Red",
+        "notes": "Active = posted or engaged in last 30 days"
+      },
+      {
+        "key_result": "Achieve 40% customer content engagement rate",
+        "kr_owner": "Content Marketing",
+        "start": "2026-01-01",
+        "deadline": "2026-12-31",
+        "confidence": "Green",
+        "notes": "Engagement = clicks + shares + comments"
+      }
+    ],
+    "q1_tracker": [
+      {
+        "col_0": 1,
+        "objective": "Build Brand Foundation",
+        "key_result": "Launch brand awareness campaign reaching 500K impressions",
+        "owner": "Social Media",
+        "target": "500000",
+        "actual": "125000",
+        "week_4": "Wk4: Strategy finalized",
+        "week_8": "Wk8: Campaigns live",
+        "score_0_1": 0.25,
+        "status": "In Progress",
+        "notes": "Ramping up spend in Feb"
+      },
+      {
+        "key_result": "Publish 12 thought leadership articles",
+        "owner": "Content",
+        "target": "12",
+        "actual": "3",
+        "week_4": "Wk4: 3 published",
+        "week_8": "Wk8: 6 published",
+        "score_0_1": 0.25,
+        "status": "In Progress",
+        "notes": "On track"
+      },
+      {
+        "key_result": "Secure 5 podcast guest appearances",
+        "owner": "PR",
+        "target": "5",
+        "actual": "1",
+        "week_4": "Wk4: 2 booked",
+        "week_8": "Wk8: 3 completed",
+        "score_0_1": 0.2,
+        "status": "In Progress",
+        "notes": "Good pipeline"
+      },
+      {
+        "col_0": 2,
+        "objective": "Establish Lead Engine",
+        "key_result": "Generate 800 MQLs from content marketing",
+        "owner": "Demand Gen",
+        "target": "800",
+        "actual": "150",
+        "week_4": "Wk4: Funnel mapped",
+        "week_8": "Wk8: 400 MQLs",
+        "score_0_1": 0.19,
+        "status": "In Progress",
+        "notes": "Need to optimize landing pages"
+      },
+      {
+        "key_result": "Launch 3 lead magnet campaigns",
+        "owner": "Content",
+        "target": "3",
+        "actual": "1",
+        "week_4": "Wk4: 1 launched",
+        "week_8": "Wk8: 2 launched",
+        "score_0_1": 0.33,
+        "status": "In Progress",
+        "notes": "Ebook performing well"
+      }
+    ],
+    "team_alignment": [
+      {
+        "col_0": 1,
+        "team_member": "Sarah Chen",
+        "role": "Content Marketing Lead",
+        "company_objective": "Increase Brand Awareness",
+        "team_objective": "Create thought leadership content engine",
+        "individual_kr": "Publish 24 blog posts with avg 500+ shares each",
+        "confidence": "Green",
+        "status": "In Progress",
+        "notes": "Focus on data-driven content"
+      },
+      {
+        "col_0": 2,
+        "team_member": "Marcus Johnson",
+        "role": "Demand Gen Specialist",
+        "company_objective": "Drive Demand Generation",
+        "team_objective": "Build multi-channel lead gen system",
+        "individual_kr": "Generate 1,200 MQLs from paid campaigns at <$45 CPL",
+        "confidence": "Yellow",
+        "status": "In Progress",
+        "notes": "Testing new LinkedIn ad formats"
+      },
+      {
+        "col_0": 3,
+        "team_member": "Emma Rodriguez",
+        "role": "Social Media Manager",
+        "company_objective": "Increase Brand Awareness",
+        "team_objective": "Grow community engagement",
+        "individual_kr": "Increase social engagement rate from 2.1% to 4.5%",
+        "confidence": "Green",
+        "status": "In Progress",
+        "notes": "New content pillars performing well"
+      },
+      {
+        "col_0": 4,
+        "team_member": "David Kim",
+        "role": "Email Marketing Specialist",
+        "company_objective": "Drive Demand Generation",
+        "team_objective": "Optimise nurture funnels",
+        "individual_kr": "Achieve 35% email-to-MQL conversion rate",
+        "confidence": "Green",
+        "status": "In Progress",
+        "notes": "A/B testing subject lines"
+      },
+      {
+        "col_0": 5,
+        "team_member": "Lisa Park",
+        "role": "Product Marketing Manager",
+        "company_objective": "Improve Customer Engagement",
+        "team_objective": "Launch customer advocacy programme",
+        "individual_kr": "Recruit 50 customer advocates who create 2+ pieces of content",
+        "confidence": "Red",
+        "status": "Not Started",
+        "notes": "Pending Q2 launch"
+      }
+    ],
+    "kr_scoring": [
+      {
+        "col_0": 1,
+        "key_result": "Grow organic social reach by 40%",
+        "owner": "Social Media",
+        "baseline": "250K",
+        "target": "350K",
+        "current": "280K",
+        "score_0_1": 0.3,
+        "confidence": "Green",
+        "commentary": "Steady growth from content strategy"
+      },
+      {
+        "col_0": 2,
+        "key_result": "Generate 5,000 MQLs",
+        "owner": "Demand Gen",
+        "target": "5000",
+        "current": "1200",
+        "progress": 0.24,
+        "score_0_1": 0.24,
+        "confidence": "Yellow",
+        "commentary": "Need to accelerate Q2 campaigns"
+      },
+      {
+        "col_0": 3,
+        "key_result": "Achieve $2M pipeline",
+        "owner": "Demand Gen",
+        "baseline": "$0",
+        "target": "$2,000,000",
+        "current": "$450,000",
+        "score_0_1": 0.23,
+        "confidence": "Yellow",
+        "commentary": "Enterprise deals in negotiation"
+      },
+      {
+        "col_0": 4,
+        "key_result": "Reduce CPL by 20%",
+        "owner": "Performance",
+        "baseline": "$65",
+        "target": "$52",
+        "current": "$58",
+        "score_0_1": 0.54,
+        "confidence": "Green",
+        "commentary": "New creative driving efficiency"
+      },
+      {
+        "col_0": 5,
+        "key_result": "Increase NPS to 55",
+        "owner": "Customer Mktg",
+        "baseline": "42",
+        "target": "55",
+        "current": "46",
+        "progress": 0.3076923076923077,
+        "score_0_1": 0.31,
+        "confidence": "Yellow",
+        "commentary": "New onboarding flow helping"
+      },
+      {
+        "col_0": 6,
+        "key_result": "Launch community with 1K members",
+        "owner": "Community",
+        "target": "1000",
+        "confidence": "Red",
+        "commentary": "Launch delayed to Q2"
+      },
+      {
+        "col_0": 7,
+        "key_result": "Publish 12 thought leadership articles",
+        "owner": "Content",
+        "target": "12",
+        "current": "3",
+        "progress": 0.25,
+        "score_0_1": 0.25,
+        "confidence": "Green",
+        "commentary": "On pace for quarterly target"
+      },
+      {
+        "col_0": 8,
+        "key_result": "Secure 5 podcast appearances",
+        "owner": "PR",
+        "target": "5",
+        "current": "1",
+        "progress": 0.2,
+        "score_0_1": 0.2,
+        "confidence": "Green",
+        "commentary": "3 more scheduled"
+      }
+    ],
+    "okr_review": [
+      {
+        "review_period": "#",
+        "q1_2026": "Objective",
+        "review_date": "Final Score"
+      },
+      {
+        "review_period": 1,
+        "q1_2026": "Increase Brand Awareness",
+        "review_date": 0.65
+      },
+      {
+        "review_period": 2,
+        "q1_2026": "Increase Brand Awareness",
+        "review_date": 0.4
+      },
+      {
+        "review_period": 3,
+        "q1_2026": "Drive Demand Generation",
+        "review_date": 0.55
+      },
+      {
+        "review_period": "QUARTERLY RETROSPECTIVE"
+      },
+      {
+        "review_period": "What was our biggest win this quarter?"
+      },
+      {
+        "review_period": "What was our biggest miss and why?"
+      }
+    ],
+    "initiative_tracker": [
+      {
+        "col_0": 1,
+        "initiative": "Launch influencer partnership programme",
+        "linked_key_result": "Grow organic social reach by 40%",
+        "owner": "Social Media Manager",
+        "start_date": "2026-01-15",
+        "end_date": "2026-03-31",
+        "status": "In Progress",
+        "priority": "High",
+        "effort_days": 20,
+        "impact_1_5": 4,
+        "notes": "Targeting 10 micro-influencers"
+      },
+      {
+        "col_0": 2,
+        "initiative": "Create SEO content cluster (10 articles)",
+        "linked_key_result": "Publish 12 thought leadership articles",
+        "owner": "Content Writer",
+        "start_date": "2026-01-01",
+        "end_date": "2026-04-30",
+        "status": "In Progress",
+        "priority": "High",
+        "effort_days": 30,
+        "impact_1_5": 5,
+        "notes": "Pillar page + supporting articles"
+      },
+      {
+        "col_0": 3,
+        "initiative": "Build automated email nurture sequence",
+        "linked_key_result": "Generate 5,000 MQLs",
+        "owner": "Email Specialist",
+        "start_date": "2026-02-01",
+        "end_date": "2026-03-15",
+        "status": "Completed",
+        "priority": "High",
+        "effort_days": 15,
+        "impact_1_5": 4,
+        "notes": "5-email sequence live"
+      },
+      {
+        "col_0": 4,
+        "initiative": "Redesign landing pages for conversion",
+        "linked_key_result": "Reduce cost per lead by 20%",
+        "owner": "Web Developer",
+        "start_date": "2026-01-15",
+        "end_date": "2026-02-28",
+        "status": "In Progress",
+        "priority": "Medium",
+        "effort_days": 10,
+        "impact_1_5": 3,
+        "notes": "A/B testing 3 variants"
+      },
+      {
+        "col_0": 5,
+        "initiative": "Launch customer NPS survey programme",
+        "linked_key_result": "Increase NPS to 55",
+        "owner": "Customer Marketing",
+        "start_date": "2026-01-01",
+        "end_date": "2026-01-31",
+        "status": "Completed",
+        "priority": "High",
+        "effort_days": 5,
+        "impact_1_5": 4,
+        "notes": "Quarterly cadence established"
+      },
+      {
+        "col_0": 6,
+        "initiative": "Develop podcast pitch deck",
+        "linked_key_result": "Secure 5 podcast appearances",
+        "owner": "PR Coordinator",
+        "start_date": "2026-01-10",
+        "end_date": "2026-01-25",
+        "status": "Completed",
+        "priority": "Medium",
+        "effort_days": 3,
+        "impact_1_5": 3,
+        "notes": "Targeting marketing podcasts"
+      },
+      {
+        "col_0": 7,
+        "initiative": "Build community platform on Circle",
+        "linked_key_result": "Launch community with 1K members",
+        "owner": "Community Manager",
+        "start_date": "2026-02-01",
+        "end_date": "2026-04-30",
+        "status": "Not Started",
+        "priority": "High",
+        "effort_days": 25,
+        "impact_1_5": 5,
+        "notes": "Evaluating Circle vs. Discourse"
+      },
+      {
+        "col_0": 8,
+        "initiative": "Create paid social campaign refresh",
+        "linked_key_result": "Generate 5,000 MQLs",
+        "owner": "Performance Marketer",
+        "start_date": "2026-03-01",
+        "end_date": "2026-03-31",
+        "status": "Not Started",
+        "priority": "Medium",
+        "effort_days": 8,
+        "impact_1_5": 3,
+        "notes": "New creative for Q2 push"
+      }
+    ],
+    "okr_examples_library": [
+      {
+        "col_0": 1,
+        "category": "Brand & Awareness",
+        "objective": "Establish market-leading brand recognition",
+        "example_key_results": "Increase unaided brand recall from 15% to 30% in target market",
+        "success_metrics": "Brand tracking survey scores"
+      },
+      {
+        "col_0": 2,
+        "category": "Brand & Awareness",
+        "objective": "Build thought leadership position",
+        "example_key_results": "Publish 20 original research pieces cited by 5+ industry publications",
+        "success_metrics": "Citation count, share of voice"
+      },
+      {
+        "col_0": 3,
+        "category": "Brand & Awareness",
+        "objective": "Expand into new market segment",
+        "example_key_results": "Achieve 10% aided awareness in enterprise segment within 6 months",
+        "success_metrics": "Segment-specific brand survey"
+      },
+      {
+        "col_0": 4,
+        "category": "Brand & Awareness",
+        "objective": "Win industry awards for marketing excellence",
+        "example_key_results": "Submit 10 award entries and win 3+ marketing awards",
+        "success_metrics": "Award wins, shortlists"
+      },
+      {
+        "col_0": 5,
+        "category": "Brand & Awareness",
+        "objective": "Dominate share of voice in key topics",
+        "example_key_results": "Increase SOV from 8% to 20% in AI/automation conversation",
+        "success_metrics": "SOV tracking tools"
+      },
+      {
+        "col_0": 6,
+        "category": "Content Marketing",
+        "objective": "Create a world-class content engine",
+        "example_key_results": "Publish 50 SEO-optimised articles generating 100K monthly organic visits",
+        "success_metrics": "GA4 organic sessions"
+      },
+      {
+        "col_0": 7,
+        "category": "Content Marketing",
+        "objective": "Launch a flagship content property",
+        "example_key_results": "Build email newsletter to 10K subscribers with 40%+ open rate",
+        "success_metrics": "Subscriber count, open rate"
+      },
+      {
+        "col_0": 8,
+        "category": "Content Marketing",
+        "objective": "Maximise content ROI",
+        "example_key_results": "Increase content-attributed pipeline from $500K to $1.5M",
+        "success_metrics": "CRM attribution"
+      },
+      {
+        "col_0": 9,
+        "category": "Content Marketing",
+        "objective": "Build a content repurposing machine",
+        "example_key_results": "Turn every pillar piece into 10+ derivative assets across 5 channels",
+        "success_metrics": "Assets per pillar, channel coverage"
+      },
+      {
+        "col_0": 10,
+        "category": "Content Marketing",
+        "objective": "Achieve content-market fit",
+        "example_key_results": "Reach 5% engagement rate across all content types",
+        "success_metrics": "Avg engagement rate"
+      },
+      {
+        "col_0": 11,
+        "category": "Demand Generation",
+        "objective": "Build predictable lead generation engine",
+        "example_key_results": "Generate 10K MQLs per quarter with <$40 CPL",
+        "success_metrics": "MQL count, CPL"
+      },
+      {
+        "col_0": 12,
+        "category": "Demand Generation",
+        "objective": "Accelerate pipeline velocity",
+        "example_key_results": "Reduce average sales cycle from 90 to 60 days for marketing-sourced deals",
+        "success_metrics": "CRM pipeline data"
+      },
+      {
+        "col_0": 13,
+        "category": "Demand Generation",
+        "objective": "Maximise marketing ROI",
+        "example_key_results": "Achieve 5:1 marketing ROI across all paid channels",
+        "success_metrics": "ROAS by channel"
+      },
+      {
+        "col_0": 14,
+        "category": "Demand Generation",
+        "objective": "Launch account-based marketing programme",
+        "example_key_results": "Engage 100 target accounts with 30% achieving 'engaged' status",
+        "success_metrics": "ABM platform data"
+      },
+      {
+        "col_0": 15,
+        "category": "Demand Generation",
+        "objective": "Optimise conversion funnel",
+        "example_key_results": "Increase MQL-to-SQL conversion rate from 25% to 40%",
+        "success_metrics": "Funnel conversion rates"
+      },
+      {
+        "col_0": 16,
+        "category": "Product Marketing",
+        "objective": "Drive successful product launch",
+        "example_key_results": "Achieve 5K signups in first 30 days with 20% activation rate",
+        "success_metrics": "Signup + activation metrics"
+      },
+      {
+        "col_0": 17,
+        "category": "Product Marketing",
+        "objective": "Build competitive positioning",
+        "example_key_results": "Create battlecards for top 5 competitors, used by 80% of sales team",
+        "success_metrics": "Sales enablement adoption"
+      },
+      {
+        "col_0": 18,
+        "category": "Product Marketing",
+        "objective": "Improve customer onboarding",
+        "example_key_results": "Reduce time-to-value from 14 days to 5 days",
+        "success_metrics": "Onboarding analytics"
+      },
+      {
+        "col_0": 19,
+        "category": "Product Marketing",
+        "objective": "Establish pricing leadership",
+        "example_key_results": "Launch value-based pricing generating 15% higher ARPU",
+        "success_metrics": "Revenue per user"
+      },
+      {
+        "col_0": 20,
+        "category": "Product Marketing",
+        "objective": "Drive feature adoption",
+        "example_key_results": "Achieve 60% adoption of new feature within 90 days of launch",
+        "success_metrics": "Product analytics"
+      },
+      {
+        "col_0": 21,
+        "category": "Customer Marketing",
+        "objective": "Build customer advocacy programme",
+        "example_key_results": "Recruit 100 advocates generating 50 case studies and 200 reviews",
+        "success_metrics": "Advocate count, content output"
+      },
+      {
+        "col_0": 22,
+        "category": "Customer Marketing",
+        "objective": "Improve customer retention",
+        "example_key_results": "Increase net revenue retention from 95% to 110%",
+        "success_metrics": "NRR"
+      },
+      {
+        "col_0": 23,
+        "category": "Customer Marketing",
+        "objective": "Launch referral programme",
+        "example_key_results": "Generate 500 referrals converting at 25%",
+        "success_metrics": "Referral count, conversion"
+      },
+      {
+        "col_0": 24,
+        "category": "Customer Marketing",
+        "objective": "Expand customer education",
+        "example_key_results": "Launch certification programme with 1K completions",
+        "success_metrics": "Certification completions"
+      },
+      {
+        "col_0": 25,
+        "category": "Customer Marketing",
+        "objective": "Increase customer lifetime value",
+        "example_key_results": "Grow average CLV from $5K to $7.5K through cross-sell campaigns",
+        "success_metrics": "CLV tracking"
+      },
+      {
+        "col_0": 26,
+        "category": "Digital & Performance",
+        "objective": "Dominate organic search",
+        "example_key_results": "Rank #1-3 for 50 high-intent keywords driving $500K in pipeline",
+        "success_metrics": "Keyword rankings, attributed pipeline"
+      },
+      {
+        "col_0": 27,
+        "category": "Digital & Performance",
+        "objective": "Optimise paid media efficiency",
+        "example_key_results": "Reduce CPA by 30% while maintaining lead volume",
+        "success_metrics": "CPA, lead volume"
+      },
+      {
+        "col_0": 28,
+        "category": "Digital & Performance",
+        "objective": "Build first-party data strategy",
+        "example_key_results": "Grow first-party data pool to 50K profiles with 80% data completeness",
+        "success_metrics": "CDP/DMP metrics"
+      },
+      {
+        "col_0": 29,
+        "category": "Digital & Performance",
+        "objective": "Master marketing automation",
+        "example_key_results": "Achieve 90% lead scoring accuracy with <4hr response time to hot leads",
+        "success_metrics": "Scoring accuracy, response time"
+      },
+      {
+        "col_0": 30,
+        "category": "Digital & Performance",
+        "objective": "Launch personalisation at scale",
+        "example_key_results": "Implement dynamic content across email and web with 20% lift in conversion",
+        "success_metrics": "A/B test results, conversion rate"
+      },
+      {
+        "col_0": 31,
+        "category": "Social Media",
+        "objective": "Build engaged community",
+        "example_key_results": "Grow total social following to 100K with 5% avg engagement rate",
+        "success_metrics": "Follower count, engagement rate"
+      },
+      {
+        "col_0": 32,
+        "category": "Social Media",
+        "objective": "Launch employee advocacy programme",
+        "example_key_results": "Activate 50 employee advocates generating 2x branded content reach",
+        "success_metrics": "Advocacy platform metrics"
+      },
+      {
+        "col_0": 33,
+        "category": "Social Media",
+        "objective": "Dominate video content",
+        "example_key_results": "Produce 100 short-form videos averaging 10K views each",
+        "success_metrics": "View count, completion rate"
+      },
+      {
+        "col_0": 34,
+        "category": "Social Media",
+        "objective": "Build social selling programme",
+        "example_key_results": "Enable 20 sales reps to generate 100 social-sourced opportunities",
+        "success_metrics": "Opportunity source tracking"
+      },
+      {
+        "col_0": 35,
+        "category": "Social Media",
+        "objective": "Achieve viral content moments",
+        "example_key_results": "Create 5 content pieces achieving 1M+ organic impressions each",
+        "success_metrics": "Impression tracking"
+      },
+      {
+        "col_0": 36,
+        "category": "Email Marketing",
+        "objective": "Build best-in-class email programme",
+        "example_key_results": "Grow subscriber list to 50K with <0.5% unsubscribe rate",
+        "success_metrics": "List size, unsub rate"
+      },
+      {
+        "col_0": 37,
+        "category": "Email Marketing",
+        "objective": "Maximise email revenue",
+        "example_key_results": "Generate $500K in email-attributed revenue through segmented campaigns",
+        "success_metrics": "Email revenue attribution"
+      },
+      {
+        "col_0": 38,
+        "category": "Email Marketing",
+        "objective": "Achieve deliverability excellence",
+        "example_key_results": "Maintain 98%+ deliverability with <0.1% spam complaint rate",
+        "success_metrics": "Deliverability metrics"
+      },
+      {
+        "col_0": 39,
+        "category": "Email Marketing",
+        "objective": "Personalise at scale",
+        "example_key_results": "Implement behavioural triggers generating 3x higher CTR than batch emails",
+        "success_metrics": "CTR comparison"
+      },
+      {
+        "col_0": 40,
+        "category": "Email Marketing",
+        "objective": "Launch lifecycle email strategy",
+        "example_key_results": "Map and automate 12 lifecycle email journeys with 25% overall conversion",
+        "success_metrics": "Journey conversion rates"
+      },
+      {
+        "col_0": 41,
+        "category": "Events & Experiences",
+        "objective": "Build signature event brand",
+        "example_key_results": "Host annual conference with 500+ attendees and 90% satisfaction score",
+        "success_metrics": "Registration, NPS"
+      },
+      {
+        "col_0": 42,
+        "category": "Events & Experiences",
+        "objective": "Maximise webinar programme ROI",
+        "example_key_results": "Run 24 webinars generating 2K registrations each with 40% attendance",
+        "success_metrics": "Registration, attendance rate"
+      },
+      {
+        "col_0": 43,
+        "category": "Events & Experiences",
+        "objective": "Dominate industry events",
+        "example_key_results": "Speak at 10 tier-1 conferences reaching 5K+ combined audience",
+        "success_metrics": "Speaking slots, audience size"
+      },
+      {
+        "col_0": 44,
+        "category": "Events & Experiences",
+        "objective": "Launch experiential marketing",
+        "example_key_results": "Create 3 immersive brand experiences with 10K total participants",
+        "success_metrics": "Participation, social mentions"
+      },
+      {
+        "col_0": 45,
+        "category": "Events & Experiences",
+        "objective": "Build partner co-marketing programme",
+        "example_key_results": "Launch 6 joint events with strategic partners generating 500 shared leads",
+        "success_metrics": "Joint leads, partner satisfaction"
+      },
+      {
+        "col_0": 46,
+        "category": "Analytics & Operations",
+        "objective": "Build data-driven marketing culture",
+        "example_key_results": "Implement attribution model covering 90% of marketing spend",
+        "success_metrics": "Attribution coverage"
+      },
+      {
+        "col_0": 47,
+        "category": "Analytics & Operations",
+        "objective": "Achieve marketing ops excellence",
+        "example_key_results": "Reduce campaign launch time from 2 weeks to 3 days",
+        "success_metrics": "Time-to-launch metrics"
+      },
+      {
+        "col_0": 48,
+        "category": "Analytics & Operations",
+        "objective": "Build real-time reporting",
+        "example_key_results": "Launch automated dashboard refreshing hourly covering all key metrics",
+        "success_metrics": "Dashboard uptime, metric coverage"
+      },
+      {
+        "col_0": 49,
+        "category": "Analytics & Operations",
+        "objective": "Implement marketing experimentation",
+        "example_key_results": "Run 50 A/B tests per quarter with 30% producing statistically significant wins",
+        "success_metrics": "Test velocity, win rate"
+      },
+      {
+        "col_0": 50,
+        "category": "Analytics & Operations",
+        "objective": "Achieve budget mastery",
+        "example_key_results": "Maintain <5% variance between planned and actual spend each quarter",
+        "success_metrics": "Budget variance"
+      },
+      {
+        "col_0": 51,
+        "category": "Sustainability & Purpose",
+        "objective": "Embed sustainability in brand narrative",
+        "example_key_results": "Publish annual impact report and integrate ESG messaging in 50% of campaigns",
+        "success_metrics": "Campaign audit, report completion"
+      },
+      {
+        "col_0": 52,
+        "category": "Sustainability & Purpose",
+        "objective": "Reduce marketing carbon footprint",
+        "example_key_results": "Decrease digital advertising carbon footprint by 25% through green media buying",
+        "success_metrics": "Carbon measurement tools"
+      },
+      {
+        "col_0": 53,
+        "category": "Sustainability & Purpose",
+        "objective": "Build cause marketing programme",
+        "example_key_results": "Launch 2 cause partnerships generating $100K in social impact + 500K impressions",
+        "success_metrics": "Partnership metrics, impressions"
+      }
+    ]
+  }
+}

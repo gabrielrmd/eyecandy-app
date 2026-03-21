@@ -1,0 +1,388 @@
+{
+  "id": "community_marketing_playbook",
+  "name": "Community Marketing Playbook",
+  "category": "growth",
+  "sheets": [
+    {
+      "id": "dashboard",
+      "name": "Dashboard",
+      "type": "summary"
+    },
+    {
+      "id": "community_strategy",
+      "name": "Community Strategy",
+      "type": "summary"
+    },
+    {
+      "id": "member_tracker",
+      "name": "Member Tracker",
+      "type": "table",
+      "columns": [
+        {
+          "id": "member",
+          "header": "Member",
+          "type": "text"
+        },
+        {
+          "id": "join_date",
+          "header": "Join Date",
+          "type": "date"
+        },
+        {
+          "id": "segment",
+          "header": "Segment",
+          "type": "text"
+        },
+        {
+          "id": "contribution_score",
+          "header": "Contribution Score",
+          "type": "score",
+          "min": 1,
+          "max": 5,
+          "colorScale": {
+            "ranges": [
+              {
+                "min": 1,
+                "max": 2,
+                "color": "#ef4444"
+              },
+              {
+                "min": 3,
+                "max": 3,
+                "color": "#eab308"
+              },
+              {
+                "min": 4,
+                "max": 5,
+                "color": "#22c55e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "posts",
+          "header": "Posts",
+          "type": "text"
+        },
+        {
+          "id": "comments",
+          "header": "Comments",
+          "type": "textarea",
+          "width": "250px"
+        },
+        {
+          "id": "events_attended",
+          "header": "Events Attended",
+          "type": "date"
+        },
+        {
+          "id": "referrals",
+          "header": "Referrals",
+          "type": "text"
+        },
+        {
+          "id": "status",
+          "header": "Status",
+          "type": "dropdown",
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done",
+            "On Hold",
+            "Cancelled"
+          ]
+        },
+        {
+          "id": "notes",
+          "header": "Notes",
+          "type": "textarea",
+          "width": "250px"
+        }
+      ]
+    },
+    {
+      "id": "content_calendar",
+      "name": "Content Calendar",
+      "type": "table",
+      "columns": [
+        {
+          "id": "week",
+          "header": "Week",
+          "type": "text"
+        },
+        {
+          "id": "content_title",
+          "header": "Content Title",
+          "type": "textarea",
+          "width": "250px"
+        },
+        {
+          "id": "type",
+          "header": "Type",
+          "type": "text"
+        },
+        {
+          "id": "platform",
+          "header": "Platform",
+          "type": "text"
+        },
+        {
+          "id": "author",
+          "header": "Author",
+          "type": "text"
+        },
+        {
+          "id": "publish_date",
+          "header": "Publish Date",
+          "type": "date"
+        },
+        {
+          "id": "engagement_target",
+          "header": "Engagement Target",
+          "type": "text"
+        },
+        {
+          "id": "status",
+          "header": "Status",
+          "type": "dropdown",
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done",
+            "On Hold",
+            "Cancelled"
+          ]
+        },
+        {
+          "id": "notes",
+          "header": "Notes",
+          "type": "textarea",
+          "width": "250px"
+        }
+      ]
+    },
+    {
+      "id": "event_planner",
+      "name": "Event Planner",
+      "type": "table",
+      "columns": [
+        {
+          "id": "event_name",
+          "header": "Event Name",
+          "type": "text"
+        },
+        {
+          "id": "type",
+          "header": "Type",
+          "type": "text"
+        },
+        {
+          "id": "date",
+          "header": "Date",
+          "type": "date"
+        },
+        {
+          "id": "format",
+          "header": "Format",
+          "type": "text"
+        },
+        {
+          "id": "attendees",
+          "header": "Attendees",
+          "type": "date"
+        },
+        {
+          "id": "budget",
+          "header": "Budget",
+          "type": "currency"
+        },
+        {
+          "id": "status",
+          "header": "Status",
+          "type": "dropdown",
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done",
+            "On Hold",
+            "Cancelled"
+          ]
+        },
+        {
+          "id": "feedback_score",
+          "header": "Feedback Score",
+          "type": "score",
+          "min": 1,
+          "max": 5,
+          "colorScale": {
+            "ranges": [
+              {
+                "min": 1,
+                "max": 2,
+                "color": "#ef4444"
+              },
+              {
+                "min": 3,
+                "max": 3,
+                "color": "#eab308"
+              },
+              {
+                "min": 4,
+                "max": 5,
+                "color": "#22c55e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "notes",
+          "header": "Notes",
+          "type": "textarea",
+          "width": "250px"
+        }
+      ]
+    },
+    {
+      "id": "ambassador_programme",
+      "name": "Ambassador Programme",
+      "type": "table",
+      "columns": [
+        {
+          "id": "ambassador",
+          "header": "Ambassador",
+          "type": "text"
+        },
+        {
+          "id": "tier",
+          "header": "Tier",
+          "type": "text"
+        },
+        {
+          "id": "join_date",
+          "header": "Join Date",
+          "type": "date"
+        },
+        {
+          "id": "activities",
+          "header": "Activities",
+          "type": "text"
+        },
+        {
+          "id": "rewards_earned",
+          "header": "Rewards Earned",
+          "type": "text"
+        },
+        {
+          "id": "content_created",
+          "header": "Content Created",
+          "type": "textarea",
+          "width": "250px"
+        },
+        {
+          "id": "referrals",
+          "header": "Referrals",
+          "type": "text"
+        },
+        {
+          "id": "status",
+          "header": "Status",
+          "type": "dropdown",
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done",
+            "On Hold",
+            "Cancelled"
+          ]
+        },
+        {
+          "id": "notes",
+          "header": "Notes",
+          "type": "textarea",
+          "width": "250px"
+        }
+      ]
+    },
+    {
+      "id": "engagement_metrics",
+      "name": "Engagement Metrics",
+      "type": "form",
+      "fields": [
+        {
+          "id": "total_members",
+          "label": "Total Members",
+          "type": "text",
+          "hint": "Churned Members",
+          "placeholder": "Churned Members"
+        }
+      ]
+    },
+    {
+      "id": "feedback_ideas",
+      "name": "Feedback & Ideas",
+      "type": "table",
+      "columns": [
+        {
+          "id": "date",
+          "header": "Date",
+          "type": "date"
+        },
+        {
+          "id": "member",
+          "header": "Member",
+          "type": "text"
+        },
+        {
+          "id": "feedback_type",
+          "header": "Feedback Type",
+          "type": "currency"
+        },
+        {
+          "id": "category",
+          "header": "Category",
+          "type": "text",
+          "editable": false
+        },
+        {
+          "id": "description",
+          "header": "Description",
+          "type": "textarea",
+          "width": "250px"
+        },
+        {
+          "id": "votes",
+          "header": "Votes",
+          "type": "text"
+        },
+        {
+          "id": "priority",
+          "header": "Priority",
+          "type": "dropdown",
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "status",
+          "header": "Status",
+          "type": "dropdown",
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done",
+            "On Hold",
+            "Cancelled"
+          ]
+        },
+        {
+          "id": "response",
+          "header": "Response",
+          "type": "text"
+        }
+      ],
+      "groupBy": "category"
+    }
+  ]
+}

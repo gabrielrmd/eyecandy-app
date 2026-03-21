@@ -1,0 +1,822 @@
+{
+  "id": "brand_health_scorecard",
+  "name": "Brand Health Scorecard",
+  "category": "brand",
+  "sheets": [
+    {
+      "id": "dashboard",
+      "name": "Dashboard",
+      "type": "summary"
+    },
+    {
+      "id": "brand_awareness",
+      "name": "Brand Awareness",
+      "type": "summary"
+    },
+    {
+      "id": "brand_perception",
+      "name": "Brand Perception",
+      "type": "table",
+      "columns": [
+        {
+          "id": "attribute",
+          "header": "Attribute",
+          "type": "text"
+        },
+        {
+          "id": "target_score",
+          "header": "Target Score",
+          "type": "score",
+          "min": 1,
+          "max": 5,
+          "colorScale": {
+            "ranges": [
+              {
+                "min": 1,
+                "max": 2,
+                "color": "#ef4444"
+              },
+              {
+                "min": 3,
+                "max": 3,
+                "color": "#eab308"
+              },
+              {
+                "min": 4,
+                "max": 5,
+                "color": "#22c55e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "current_score",
+          "header": "Current Score",
+          "type": "score",
+          "min": 1,
+          "max": 5,
+          "colorScale": {
+            "ranges": [
+              {
+                "min": 1,
+                "max": 2,
+                "color": "#ef4444"
+              },
+              {
+                "min": 3,
+                "max": 3,
+                "color": "#eab308"
+              },
+              {
+                "min": 4,
+                "max": 5,
+                "color": "#22c55e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "variance",
+          "header": "Variance",
+          "type": "number"
+        },
+        {
+          "id": "trend",
+          "header": "Trend",
+          "type": "date"
+        },
+        {
+          "id": "benchmark",
+          "header": "Benchmark",
+          "type": "number"
+        },
+        {
+          "id": "priority",
+          "header": "Priority",
+          "type": "dropdown",
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nps_tracker",
+      "name": "NPS Tracker",
+      "type": "table",
+      "columns": [
+        {
+          "id": "month",
+          "header": "Month",
+          "type": "text"
+        },
+        {
+          "id": "promoters",
+          "header": "Promoters",
+          "type": "number"
+        },
+        {
+          "id": "passives",
+          "header": "Passives",
+          "type": "number"
+        },
+        {
+          "id": "detractors",
+          "header": "Detractors",
+          "type": "number"
+        },
+        {
+          "id": "total_responses",
+          "header": "Total Responses",
+          "type": "number"
+        },
+        {
+          "id": "nps_score",
+          "header": "NPS Score",
+          "type": "score",
+          "min": 1,
+          "max": 5,
+          "colorScale": {
+            "ranges": [
+              {
+                "min": 1,
+                "max": 2,
+                "color": "#ef4444"
+              },
+              {
+                "min": 3,
+                "max": 3,
+                "color": "#eab308"
+              },
+              {
+                "min": 4,
+                "max": 5,
+                "color": "#22c55e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "target",
+          "header": "Target",
+          "type": "number"
+        },
+        {
+          "id": "trend",
+          "header": "Trend",
+          "type": "date"
+        }
+      ]
+    },
+    {
+      "id": "competitor_benchmark",
+      "name": "Competitor Benchmark",
+      "type": "table",
+      "columns": [
+        {
+          "id": "brand",
+          "header": "Brand",
+          "type": "text"
+        },
+        {
+          "id": "awareness",
+          "header": "Awareness",
+          "type": "number"
+        },
+        {
+          "id": "consideration",
+          "header": "Consideration",
+          "type": "number"
+        },
+        {
+          "id": "preference",
+          "header": "Preference",
+          "type": "number"
+        },
+        {
+          "id": "nps",
+          "header": "NPS",
+          "type": "number"
+        },
+        {
+          "id": "sov",
+          "header": "SOV",
+          "type": "number"
+        },
+        {
+          "id": "social_following",
+          "header": "Social Following",
+          "type": "number"
+        },
+        {
+          "id": "website_traffic",
+          "header": "Website Traffic",
+          "type": "url"
+        },
+        {
+          "id": "content_score",
+          "header": "Content Score",
+          "type": "score",
+          "min": 1,
+          "max": 5,
+          "colorScale": {
+            "ranges": [
+              {
+                "min": 1,
+                "max": 2,
+                "color": "#ef4444"
+              },
+              {
+                "min": 3,
+                "max": 3,
+                "color": "#eab308"
+              },
+              {
+                "min": 4,
+                "max": 5,
+                "color": "#22c55e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "overall_score",
+          "header": "Overall Score",
+          "type": "score",
+          "min": 1,
+          "max": 5,
+          "colorScale": {
+            "ranges": [
+              {
+                "min": 1,
+                "max": 2,
+                "color": "#ef4444"
+              },
+              {
+                "min": 3,
+                "max": 3,
+                "color": "#eab308"
+              },
+              {
+                "min": 4,
+                "max": 5,
+                "color": "#22c55e"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "channel_health",
+      "name": "Channel Health",
+      "type": "table",
+      "columns": [
+        {
+          "id": "channel",
+          "header": "Channel",
+          "type": "text"
+        },
+        {
+          "id": "reach",
+          "header": "Reach",
+          "type": "number"
+        },
+        {
+          "id": "engagement_rate",
+          "header": "Engagement Rate",
+          "type": "percentage"
+        },
+        {
+          "id": "sentiment",
+          "header": "Sentiment",
+          "type": "number"
+        },
+        {
+          "id": "growth_rate",
+          "header": "Growth Rate",
+          "type": "percentage"
+        },
+        {
+          "id": "cost_per_engagement",
+          "header": "Cost per Engagement",
+          "type": "currency"
+        },
+        {
+          "id": "health_score",
+          "header": "Health Score",
+          "type": "score",
+          "min": 1,
+          "max": 5,
+          "colorScale": {
+            "ranges": [
+              {
+                "min": 1,
+                "max": 2,
+                "color": "#ef4444"
+              },
+              {
+                "min": 3,
+                "max": 3,
+                "color": "#eab308"
+              },
+              {
+                "min": 4,
+                "max": 5,
+                "color": "#22c55e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "status",
+          "header": "Status",
+          "type": "dropdown",
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done",
+            "On Hold",
+            "Cancelled"
+          ]
+        },
+        {
+          "id": "notes",
+          "header": "Notes",
+          "type": "textarea",
+          "width": "250px"
+        }
+      ]
+    },
+    {
+      "id": "brand_equity_tracker",
+      "name": "Brand Equity Tracker",
+      "type": "table",
+      "columns": [
+        {
+          "id": "quarter",
+          "header": "Quarter",
+          "type": "text"
+        },
+        {
+          "id": "brand_value",
+          "header": "Brand Value",
+          "type": "number"
+        },
+        {
+          "id": "brand_strength",
+          "header": "Brand Strength",
+          "type": "number"
+        },
+        {
+          "id": "brand_stature",
+          "header": "Brand Stature",
+          "type": "number"
+        },
+        {
+          "id": "brand_vitality",
+          "header": "Brand Vitality",
+          "type": "number"
+        },
+        {
+          "id": "overall_equity_score",
+          "header": "Overall Equity Score",
+          "type": "score",
+          "min": 1,
+          "max": 5,
+          "colorScale": {
+            "ranges": [
+              {
+                "min": 1,
+                "max": 2,
+                "color": "#ef4444"
+              },
+              {
+                "min": 3,
+                "max": 3,
+                "color": "#eab308"
+              },
+              {
+                "min": 4,
+                "max": 5,
+                "color": "#22c55e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "yoy_change",
+          "header": "YoY Change %",
+          "type": "percentage"
+        }
+      ]
+    },
+    {
+      "id": "action_plan",
+      "name": "Action Plan",
+      "type": "table",
+      "columns": [
+        {
+          "id": "issue",
+          "header": "Issue",
+          "type": "text"
+        },
+        {
+          "id": "dimension",
+          "header": "Dimension",
+          "type": "text"
+        },
+        {
+          "id": "priority",
+          "header": "Priority",
+          "type": "dropdown",
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "action_required",
+          "header": "Action Required",
+          "type": "textarea",
+          "width": "250px"
+        },
+        {
+          "id": "owner",
+          "header": "Owner",
+          "type": "text"
+        },
+        {
+          "id": "due_date",
+          "header": "Due Date",
+          "type": "date"
+        },
+        {
+          "id": "expected_impact",
+          "header": "Expected Impact",
+          "type": "text"
+        },
+        {
+          "id": "status",
+          "header": "Status",
+          "type": "dropdown",
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done",
+            "On Hold",
+            "Cancelled"
+          ]
+        },
+        {
+          "id": "notes",
+          "header": "Notes",
+          "type": "textarea",
+          "width": "250px"
+        }
+      ]
+    }
+  ],
+  "defaultData": {
+    "brand_perception": [
+      {
+        "attribute": "Quality",
+        "target_score": 8,
+        "variance": -8,
+        "trend": "→"
+      },
+      {
+        "attribute": "Trustworthy",
+        "target_score": 8,
+        "variance": -8,
+        "trend": "→"
+      },
+      {
+        "attribute": "Innovative",
+        "target_score": 8,
+        "variance": -8,
+        "trend": "→"
+      },
+      {
+        "attribute": "Customer-Focused",
+        "target_score": 8,
+        "variance": -8,
+        "trend": "→"
+      },
+      {
+        "attribute": "Reliable",
+        "target_score": 8,
+        "variance": -8,
+        "trend": "→"
+      },
+      {
+        "attribute": "Value for Money",
+        "target_score": 8,
+        "variance": -8,
+        "trend": "→"
+      },
+      {
+        "attribute": "Premium",
+        "target_score": 8,
+        "variance": -8,
+        "trend": "→"
+      },
+      {
+        "attribute": "Authentic",
+        "target_score": 8,
+        "variance": -8,
+        "trend": "→"
+      },
+      {
+        "attribute": "Modern",
+        "target_score": 8,
+        "variance": -8,
+        "trend": "→"
+      },
+      {
+        "attribute": "Sustainable",
+        "target_score": 8,
+        "variance": -8,
+        "trend": "→"
+      },
+      {
+        "attribute": "Professional",
+        "target_score": 8,
+        "variance": -8,
+        "trend": "→"
+      },
+      {
+        "attribute": "Friendly",
+        "target_score": 8,
+        "variance": -8,
+        "trend": "→"
+      },
+      {
+        "attribute": "Accessible",
+        "target_score": 8,
+        "variance": -8,
+        "trend": "→"
+      },
+      {
+        "attribute": "Consistent",
+        "target_score": 8,
+        "variance": -8,
+        "trend": "→"
+      },
+      {
+        "attribute": "Transparent",
+        "target_score": 8,
+        "variance": -8,
+        "trend": "→"
+      },
+      {
+        "attribute": "Responsive",
+        "target_score": 8,
+        "variance": -8,
+        "trend": "→"
+      },
+      {
+        "attribute": "Forward-Thinking",
+        "target_score": 8,
+        "variance": -8,
+        "trend": "→"
+      },
+      {
+        "attribute": "Industry Leader",
+        "target_score": 8,
+        "variance": -8,
+        "trend": "→"
+      },
+      {
+        "attribute": "Distinctive",
+        "target_score": 8,
+        "variance": -8,
+        "trend": "→"
+      },
+      {
+        "attribute": "Memorable",
+        "target_score": 8,
+        "trend": "→"
+      }
+    ],
+    "nps_tracker": [
+      {
+        "month": "Jan",
+        "target": 50,
+        "trend": "→"
+      },
+      {
+        "month": "Feb",
+        "target": 50,
+        "trend": "→"
+      },
+      {
+        "month": "Mar",
+        "target": 50,
+        "trend": "→"
+      },
+      {
+        "month": "Apr",
+        "target": 50,
+        "trend": "→"
+      },
+      {
+        "month": "May",
+        "target": 50,
+        "trend": "→"
+      },
+      {
+        "month": "Jun",
+        "target": 50,
+        "trend": "→"
+      },
+      {
+        "month": "Jul",
+        "target": 50,
+        "trend": "→"
+      },
+      {
+        "month": "Aug",
+        "target": 50,
+        "trend": "→"
+      },
+      {
+        "month": "Sep",
+        "target": 50,
+        "trend": "→"
+      },
+      {
+        "month": "Oct",
+        "target": 50,
+        "trend": "→"
+      },
+      {
+        "month": "Nov",
+        "target": 50,
+        "trend": "→"
+      },
+      {
+        "month": "Dec",
+        "target": 50,
+        "trend": "→"
+      }
+    ],
+    "competitor_benchmark": [
+      {
+        "brand": "Competitor 1"
+      },
+      {
+        "brand": "Competitor 2"
+      },
+      {
+        "brand": "Competitor 3"
+      },
+      {
+        "brand": "Competitor 4"
+      },
+      {
+        "brand": "Competitor 5"
+      },
+      {
+        "brand": "Competitor 6"
+      },
+      {
+        "brand": "Competitor 7"
+      },
+      {
+        "brand": "Competitor 8"
+      },
+      {
+        "brand": "Competitor 9"
+      },
+      {
+        "brand": "Competitor 10"
+      }
+    ],
+    "channel_health": [
+      {
+        "channel": "Email",
+        "status": "Healthy"
+      },
+      {
+        "channel": "Social Media",
+        "status": "Healthy"
+      },
+      {
+        "channel": "Paid Search",
+        "status": "Healthy"
+      },
+      {
+        "channel": "Display Ads",
+        "status": "Healthy"
+      },
+      {
+        "channel": "SEO",
+        "status": "Healthy"
+      },
+      {
+        "channel": "Content Marketing",
+        "status": "Healthy"
+      },
+      {
+        "channel": "Influencer",
+        "status": "Healthy"
+      },
+      {
+        "channel": "Video",
+        "status": "Healthy"
+      },
+      {
+        "channel": "Retargeting",
+        "status": "Healthy"
+      },
+      {
+        "channel": "SMS",
+        "status": "Healthy"
+      }
+    ],
+    "brand_equity_tracker": [
+      {
+        "quarter": "Q1",
+        "yoy_change": "0%"
+      },
+      {
+        "quarter": "Q2",
+        "yoy_change": "0%"
+      },
+      {
+        "quarter": "Q3",
+        "yoy_change": "0%"
+      },
+      {
+        "quarter": "Q4",
+        "yoy_change": "0%"
+      }
+    ],
+    "action_plan": [
+      {
+        "priority": "Medium",
+        "status": "Not Started"
+      },
+      {
+        "priority": "Medium",
+        "status": "Not Started"
+      },
+      {
+        "priority": "Medium",
+        "status": "Not Started"
+      },
+      {
+        "priority": "Medium",
+        "status": "Not Started"
+      },
+      {
+        "priority": "Medium",
+        "status": "Not Started"
+      },
+      {
+        "priority": "Medium",
+        "status": "Not Started"
+      },
+      {
+        "priority": "Medium",
+        "status": "Not Started"
+      },
+      {
+        "priority": "Medium",
+        "status": "Not Started"
+      },
+      {
+        "priority": "Medium",
+        "status": "Not Started"
+      },
+      {
+        "priority": "Medium",
+        "status": "Not Started"
+      },
+      {
+        "priority": "Medium",
+        "status": "Not Started"
+      },
+      {
+        "priority": "Medium",
+        "status": "Not Started"
+      },
+      {
+        "priority": "Medium",
+        "status": "Not Started"
+      },
+      {
+        "priority": "Medium",
+        "status": "Not Started"
+      },
+      {
+        "priority": "Medium",
+        "status": "Not Started"
+      }
+    ]
+  }
+}

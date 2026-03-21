@@ -1,0 +1,400 @@
+{
+  "id": "referral_programme_tracker",
+  "name": "Referral Programme Tracker",
+  "category": "growth",
+  "sheets": [
+    {
+      "id": "dashboard",
+      "name": "Dashboard",
+      "type": "summary"
+    },
+    {
+      "id": "programme_setup",
+      "name": "Programme Setup",
+      "type": "summary"
+    },
+    {
+      "id": "advocate_tracker",
+      "name": "Advocate Tracker",
+      "type": "table",
+      "columns": [
+        {
+          "id": "advocate_id",
+          "header": "Advocate ID",
+          "type": "text"
+        },
+        {
+          "id": "name",
+          "header": "Name",
+          "type": "text"
+        },
+        {
+          "id": "email",
+          "header": "Email",
+          "type": "text"
+        },
+        {
+          "id": "join_date",
+          "header": "Join Date",
+          "type": "date"
+        },
+        {
+          "id": "tier",
+          "header": "Tier",
+          "type": "text"
+        },
+        {
+          "id": "status",
+          "header": "Status",
+          "type": "dropdown",
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done",
+            "On Hold",
+            "Cancelled"
+          ]
+        },
+        {
+          "id": "referrals_sent",
+          "header": "Referrals Sent",
+          "type": "number"
+        },
+        {
+          "id": "referrals_converted",
+          "header": "Referrals Converted",
+          "type": "number"
+        },
+        {
+          "id": "conversion_rate",
+          "header": "Conversion Rate",
+          "type": "percentage"
+        },
+        {
+          "id": "total_earned",
+          "header": "Total Earned",
+          "type": "text"
+        },
+        {
+          "id": "last_active",
+          "header": "Last Active",
+          "type": "checkbox"
+        }
+      ]
+    },
+    {
+      "id": "referral_pipeline",
+      "name": "Referral Pipeline",
+      "type": "table",
+      "columns": [
+        {
+          "id": "referral_id",
+          "header": "Referral ID",
+          "type": "text"
+        },
+        {
+          "id": "advocate",
+          "header": "Advocate",
+          "type": "text"
+        },
+        {
+          "id": "referred_name",
+          "header": "Referred Name",
+          "type": "text"
+        },
+        {
+          "id": "referred_email",
+          "header": "Referred Email",
+          "type": "text"
+        },
+        {
+          "id": "date_sent",
+          "header": "Date Sent",
+          "type": "date"
+        },
+        {
+          "id": "channel",
+          "header": "Channel",
+          "type": "text"
+        },
+        {
+          "id": "status",
+          "header": "Status",
+          "type": "dropdown",
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done",
+            "On Hold",
+            "Cancelled"
+          ]
+        },
+        {
+          "id": "signup_date",
+          "header": "Signup Date",
+          "type": "date"
+        },
+        {
+          "id": "revenue",
+          "header": "Revenue",
+          "type": "currency"
+        },
+        {
+          "id": "reward_due",
+          "header": "Reward Due",
+          "type": "date"
+        },
+        {
+          "id": "notes",
+          "header": "Notes",
+          "type": "textarea",
+          "width": "250px"
+        }
+      ]
+    },
+    {
+      "id": "reward_management",
+      "name": "Reward Management",
+      "type": "table",
+      "columns": [
+        {
+          "id": "reward_id",
+          "header": "Reward ID",
+          "type": "text"
+        },
+        {
+          "id": "advocate",
+          "header": "Advocate",
+          "type": "text"
+        },
+        {
+          "id": "referral_id",
+          "header": "Referral ID",
+          "type": "text"
+        },
+        {
+          "id": "reward_type",
+          "header": "Reward Type",
+          "type": "text"
+        },
+        {
+          "id": "amount",
+          "header": "Amount",
+          "type": "currency"
+        },
+        {
+          "id": "status",
+          "header": "Status",
+          "type": "dropdown",
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done",
+            "On Hold",
+            "Cancelled"
+          ]
+        },
+        {
+          "id": "issue_date",
+          "header": "Issue Date",
+          "type": "date"
+        },
+        {
+          "id": "notes",
+          "header": "Notes",
+          "type": "textarea",
+          "width": "250px"
+        }
+      ]
+    },
+    {
+      "id": "programme_performance",
+      "name": "Programme Performance",
+      "type": "form",
+      "fields": [
+        {
+          "id": "new_advocates",
+          "label": "New Advocates",
+          "type": "text",
+          "hint": "Referrals Converted",
+          "placeholder": "Referrals Converted"
+        }
+      ]
+    },
+    {
+      "id": "communication_templates",
+      "name": "Communication Templates",
+      "type": "summary"
+    }
+  ],
+  "defaultData": {
+    "advocate_tracker": [
+      {
+        "advocate_id": "ADV-001",
+        "name": "Sarah Chen",
+        "email": "sarah@example.com",
+        "join_date": "2026-01-15",
+        "tier": "Gold",
+        "status": "Active",
+        "referrals_sent": 12,
+        "referrals_converted": 8,
+        "conversion_rate": 0.666666666666667,
+        "total_earned": "$200",
+        "last_active": "2026-03-01"
+      },
+      {
+        "advocate_id": "ADV-002",
+        "name": "James Wright",
+        "email": "james@example.com",
+        "join_date": "2026-01-20",
+        "tier": "Silver",
+        "status": "Active",
+        "referrals_sent": 7,
+        "referrals_converted": 4,
+        "conversion_rate": 0.571428571428571,
+        "total_earned": "$100",
+        "last_active": "2026-02-28"
+      },
+      {
+        "advocate_id": "ADV-003",
+        "name": "Maria Garcia",
+        "email": "maria@example.com",
+        "join_date": "2026-02-01",
+        "tier": "Bronze",
+        "status": "Active",
+        "referrals_sent": 3,
+        "referrals_converted": 2,
+        "conversion_rate": 0.666666666666667,
+        "total_earned": "$50",
+        "last_active": "2026-03-05"
+      },
+      {
+        "advocate_id": "ADV-004",
+        "name": "David Kim",
+        "email": "david@example.com",
+        "join_date": "2026-02-10",
+        "tier": "Bronze",
+        "status": "Active",
+        "referrals_sent": 2,
+        "referrals_converted": 1,
+        "conversion_rate": 0.5,
+        "total_earned": "$25",
+        "last_active": "2026-02-20"
+      },
+      {
+        "advocate_id": "ADV-005",
+        "name": "Emma Wilson",
+        "email": "emma@example.com",
+        "join_date": "2026-02-15",
+        "tier": "Silver",
+        "status": "Active",
+        "referrals_sent": 6,
+        "referrals_converted": 3,
+        "conversion_rate": 0.5,
+        "total_earned": "$75",
+        "last_active": "2026-03-03"
+      }
+    ],
+    "referral_pipeline": [
+      {
+        "referral_id": "REF-001",
+        "advocate": "Sarah Chen",
+        "referred_name": "Tom Brown",
+        "referred_email": "tom@example.com",
+        "date_sent": "2026-01-20",
+        "channel": "Email",
+        "status": "Converted",
+        "signup_date": "2026-01-25",
+        "revenue": "$500",
+        "reward_due": "$25",
+        "notes": "Signed up for annual plan"
+      },
+      {
+        "referral_id": "REF-002",
+        "advocate": "Sarah Chen",
+        "referred_name": "Lisa Park",
+        "referred_email": "lisa@example.com",
+        "date_sent": "2026-01-22",
+        "channel": "Link",
+        "status": "Converted",
+        "signup_date": "2026-02-01",
+        "revenue": "$200",
+        "reward_due": "$25",
+        "notes": "Monthly plan"
+      },
+      {
+        "referral_id": "REF-003",
+        "advocate": "James Wright",
+        "referred_name": "Alex Lee",
+        "referred_email": "alex@example.com",
+        "date_sent": "2026-02-01",
+        "channel": "Social",
+        "status": "Pending",
+        "notes": "Clicked link, not signed up"
+      },
+      {
+        "referral_id": "REF-004",
+        "advocate": "Maria Garcia",
+        "referred_name": "Kate Brown",
+        "referred_email": "kate@example.com",
+        "date_sent": "2026-02-05",
+        "channel": "Email",
+        "status": "Converted",
+        "signup_date": "2026-02-10",
+        "revenue": "$350",
+        "reward_due": "$25"
+      },
+      {
+        "referral_id": "REF-005",
+        "advocate": "Emma Wilson",
+        "referred_name": "Chris Patel",
+        "referred_email": "chris@example.com",
+        "date_sent": "2026-02-10",
+        "channel": "Link",
+        "status": "Expired",
+        "notes": "Link expired after 30 days"
+      }
+    ],
+    "reward_management": [
+      {
+        "reward_id": "RWD-001",
+        "advocate": "Sarah Chen",
+        "referral_id": "REF-001",
+        "reward_type": "Account Credit",
+        "amount": "$25",
+        "status": "Paid",
+        "issue_date": "2026-02-01",
+        "notes": "Auto-issued on conversion"
+      },
+      {
+        "reward_id": "RWD-002",
+        "advocate": "Sarah Chen",
+        "referral_id": "REF-002",
+        "reward_type": "Account Credit",
+        "amount": "$25",
+        "status": "Paid",
+        "issue_date": "2026-02-05",
+        "notes": "Auto-issued on conversion"
+      },
+      {
+        "reward_id": "RWD-003",
+        "advocate": "Maria Garcia",
+        "referral_id": "REF-004",
+        "reward_type": "Account Credit",
+        "amount": "$25",
+        "status": "Paid",
+        "issue_date": "2026-02-15",
+        "notes": "Auto-issued on conversion"
+      },
+      {
+        "reward_id": "RWD-004",
+        "advocate": "James Wright",
+        "referral_id": "REF-003",
+        "reward_type": "Account Credit",
+        "amount": "$25",
+        "status": "Pending",
+        "notes": "Awaiting conversion"
+      }
+    ]
+  }
+}

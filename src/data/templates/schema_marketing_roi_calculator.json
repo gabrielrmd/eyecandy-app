@@ -1,0 +1,1061 @@
+{
+  "id": "marketing_roi_calculator",
+  "name": "Marketing ROI Calculator",
+  "category": "analytics",
+  "sheets": [
+    {
+      "id": "dashboard",
+      "name": "Dashboard",
+      "type": "summary"
+    },
+    {
+      "id": "channel_roi",
+      "name": "Channel ROI",
+      "type": "table",
+      "columns": [
+        {
+          "id": "channel",
+          "header": "Channel",
+          "type": "text"
+        },
+        {
+          "id": "total_spend",
+          "header": "Total Spend",
+          "type": "date"
+        },
+        {
+          "id": "customers_won",
+          "header": "Customers Won",
+          "type": "number"
+        },
+        {
+          "id": "revenue",
+          "header": "Revenue",
+          "type": "currency"
+        },
+        {
+          "id": "profit",
+          "header": "Profit",
+          "type": "number"
+        },
+        {
+          "id": "roi",
+          "header": "ROI",
+          "type": "percentage"
+        },
+        {
+          "id": "cpa",
+          "header": "CPA",
+          "type": "number"
+        },
+        {
+          "id": "notes",
+          "header": "Notes",
+          "type": "textarea",
+          "width": "250px"
+        }
+      ]
+    },
+    {
+      "id": "campaign_roi",
+      "name": "Campaign ROI",
+      "type": "table",
+      "columns": [
+        {
+          "id": "campaign_name",
+          "header": "Campaign Name",
+          "type": "text"
+        },
+        {
+          "id": "channel",
+          "header": "Channel",
+          "type": "text"
+        },
+        {
+          "id": "ad_spend",
+          "header": "Ad Spend",
+          "type": "date"
+        },
+        {
+          "id": "creative_cost",
+          "header": "Creative Cost",
+          "type": "currency"
+        },
+        {
+          "id": "tool_cost",
+          "header": "Tool Cost",
+          "type": "currency"
+        },
+        {
+          "id": "labour_cost",
+          "header": "Labour Cost",
+          "type": "currency"
+        },
+        {
+          "id": "total_cost",
+          "header": "Total Cost",
+          "type": "currency"
+        },
+        {
+          "id": "leads",
+          "header": "Leads",
+          "type": "number"
+        },
+        {
+          "id": "conversions",
+          "header": "Conversions",
+          "type": "percentage"
+        },
+        {
+          "id": "revenue",
+          "header": "Revenue",
+          "type": "currency"
+        },
+        {
+          "id": "profit",
+          "header": "Profit",
+          "type": "number"
+        },
+        {
+          "id": "roi",
+          "header": "ROI",
+          "type": "percentage"
+        }
+      ]
+    },
+    {
+      "id": "monthly_roi_tracker",
+      "name": "Monthly ROI Tracker",
+      "type": "table",
+      "columns": [
+        {
+          "id": "month",
+          "header": "Month",
+          "type": "text"
+        },
+        {
+          "id": "total_spend",
+          "header": "Total Spend",
+          "type": "date"
+        },
+        {
+          "id": "revenue",
+          "header": "Revenue",
+          "type": "currency"
+        },
+        {
+          "id": "profit",
+          "header": "Profit",
+          "type": "number"
+        },
+        {
+          "id": "roi",
+          "header": "ROI",
+          "type": "percentage"
+        },
+        {
+          "id": "leads",
+          "header": "Leads",
+          "type": "number"
+        },
+        {
+          "id": "conversions",
+          "header": "Conversions",
+          "type": "percentage"
+        },
+        {
+          "id": "cpl",
+          "header": "CPL",
+          "type": "number"
+        },
+        {
+          "id": "cpa",
+          "header": "CPA",
+          "type": "number"
+        },
+        {
+          "id": "mom_revenue",
+          "header": "MoM Revenue",
+          "type": "currency"
+        }
+      ]
+    },
+    {
+      "id": "cac_calculator",
+      "name": "CAC Calculator",
+      "type": "form",
+      "fields": [
+        {
+          "id": "enter_your_costs_below_to_calculate_the_",
+          "label": "Enter your costs below to calculate the true cost of acquiring a customer.",
+          "type": "text"
+        },
+        {
+          "id": "cost_category",
+          "label": "Cost Category",
+          "type": "text",
+          "hint": "Guidance",
+          "placeholder": "Guidance"
+        },
+        {
+          "id": "paid_advertising_all_channels",
+          "label": "Paid Advertising (all channels)",
+          "type": "text",
+          "hint": "Total ad spend across Google, Facebook, LinkedIn, etc.",
+          "placeholder": "Total ad spend across Google, Facebook, LinkedIn, etc."
+        },
+        {
+          "id": "content_creation_blog_video_design",
+          "label": "Content Creation (blog, video, design)",
+          "type": "text",
+          "hint": "Freelancers, agencies, stock images, video production",
+          "placeholder": "Freelancers, agencies, stock images, video production"
+        },
+        {
+          "id": "marketing_software_tools",
+          "label": "Marketing Software & Tools",
+          "type": "text",
+          "hint": "CRM, email platform, analytics, automation tools",
+          "placeholder": "CRM, email platform, analytics, automation tools"
+        },
+        {
+          "id": "marketing_team_salaries",
+          "label": "Marketing Team Salaries",
+          "type": "text",
+          "hint": "Pro-rated marketing team compensation",
+          "placeholder": "Pro-rated marketing team compensation"
+        },
+        {
+          "id": "agency_fees",
+          "label": "Agency Fees",
+          "type": "text",
+          "hint": "Retainers or project fees for external agencies",
+          "placeholder": "Retainers or project fees for external agencies"
+        },
+        {
+          "id": "events_sponsorships",
+          "label": "Events & Sponsorships",
+          "type": "text",
+          "hint": "Webinars, conferences, event sponsorships",
+          "placeholder": "Webinars, conferences, event sponsorships"
+        },
+        {
+          "id": "pr_communications",
+          "label": "PR & Communications",
+          "type": "text",
+          "hint": "PR agency, press releases, media outreach",
+          "placeholder": "PR agency, press releases, media outreach"
+        },
+        {
+          "id": "marketing_overhead",
+          "label": "Marketing Overhead",
+          "type": "text",
+          "hint": "Office space, equipment, misc allocated to marketing",
+          "placeholder": "Office space, equipment, misc allocated to marketing"
+        },
+        {
+          "id": "total_monthly_marketing_cost",
+          "label": "TOTAL MONTHLY MARKETING COST",
+          "type": "text"
+        },
+        {
+          "id": "new_customers_this_month",
+          "label": "New Customers This Month",
+          "type": "text"
+        },
+        {
+          "id": "customer_acquisition_cost_cac",
+          "label": "Customer Acquisition Cost (CAC)",
+          "type": "text"
+        },
+        {
+          "id": "cac_by_channel_from_channel_roi_tab",
+          "label": "CAC BY CHANNEL (from Channel ROI tab)",
+          "type": "text"
+        },
+        {
+          "id": "channel",
+          "label": "Channel",
+          "type": "text"
+        },
+        {
+          "id": "google_ads",
+          "label": "Google Ads",
+          "type": "text"
+        },
+        {
+          "id": "facebook_ads",
+          "label": "Facebook Ads",
+          "type": "text"
+        },
+        {
+          "id": "instagram_ads",
+          "label": "Instagram Ads",
+          "type": "text"
+        },
+        {
+          "id": "linkedin_ads",
+          "label": "LinkedIn Ads",
+          "type": "text"
+        },
+        {
+          "id": "seo_organic",
+          "label": "SEO / Organic",
+          "type": "text"
+        },
+        {
+          "id": "email_marketing",
+          "label": "Email Marketing",
+          "type": "text"
+        },
+        {
+          "id": "content_marketing",
+          "label": "Content Marketing",
+          "type": "text"
+        },
+        {
+          "id": "social_media_organic",
+          "label": "Social Media (Organic)",
+          "type": "text"
+        },
+        {
+          "id": "events_webinars",
+          "label": "Events & Webinars",
+          "type": "text"
+        },
+        {
+          "id": "referral_programme",
+          "label": "Referral Programme",
+          "type": "text"
+        },
+        {
+          "id": "affiliate_marketing",
+          "label": "Affiliate Marketing",
+          "type": "text"
+        },
+        {
+          "id": "tiktok_ads",
+          "label": "TikTok Ads",
+          "type": "text"
+        },
+        {
+          "id": "youtube_ads",
+          "label": "YouTube Ads",
+          "type": "text"
+        },
+        {
+          "id": "pr_media",
+          "label": "PR & Media",
+          "type": "text"
+        }
+      ],
+      "sections": [
+        {
+          "id": "marketing_costs",
+          "title": "Marketing Costs",
+          "fieldIds": [
+            "cost_category",
+            "paid_advertising_all_channels",
+            "content_creation_blog_video_design",
+            "marketing_software_tools",
+            "marketing_team_salaries",
+            "agency_fees",
+            "events_sponsorships",
+            "pr_communications",
+            "marketing_overhead",
+            "total_monthly_marketing_cost"
+          ],
+          "collapsible": true
+        },
+        {
+          "id": "customers_acquired",
+          "title": "Customers Acquired",
+          "fieldIds": [
+            "new_customers_this_month"
+          ],
+          "collapsible": true
+        },
+        {
+          "id": "your_cac",
+          "title": "Your Cac",
+          "fieldIds": [
+            "customer_acquisition_cost_cac",
+            "cac_by_channel_from_channel_roi_tab",
+            "channel",
+            "google_ads",
+            "facebook_ads",
+            "instagram_ads",
+            "linkedin_ads",
+            "seo_organic",
+            "email_marketing",
+            "content_marketing",
+            "social_media_organic",
+            "events_webinars",
+            "referral_programme",
+            "affiliate_marketing",
+            "tiktok_ads",
+            "youtube_ads",
+            "pr_media"
+          ],
+          "collapsible": true
+        }
+      ]
+    },
+    {
+      "id": "clv_calculator",
+      "name": "CLV Calculator",
+      "type": "form",
+      "fields": [
+        {
+          "id": "calculate_the_lifetime_value_of_a_custom",
+          "label": "Calculate the lifetime value of a customer. When CLV is significantly higher than CAC, your marketing is generating long-term profitable growth.",
+          "type": "text"
+        },
+        {
+          "id": "metric",
+          "label": "Metric",
+          "type": "text",
+          "hint": "Explanation",
+          "placeholder": "Explanation"
+        },
+        {
+          "id": "average_order_value_aov",
+          "label": "Average Order Value (AOV)",
+          "type": "text",
+          "hint": "Average revenue per transaction",
+          "placeholder": "Average revenue per transaction"
+        },
+        {
+          "id": "purchase_frequency_per_year",
+          "label": "Purchase Frequency (per year)",
+          "type": "text",
+          "hint": "How many times a customer buys per year",
+          "placeholder": "How many times a customer buys per year"
+        },
+        {
+          "id": "customer_lifespan_years",
+          "label": "Customer Lifespan (years)",
+          "type": "text",
+          "hint": "Average years a customer stays active",
+          "placeholder": "Average years a customer stays active"
+        },
+        {
+          "id": "gross_margin",
+          "label": "Gross Margin",
+          "type": "text",
+          "hint": "Percentage of revenue that is profit after COGS",
+          "placeholder": "Percentage of revenue that is profit after COGS"
+        },
+        {
+          "id": "annual_revenue_per_customer",
+          "label": "Annual Revenue Per Customer",
+          "type": "text",
+          "hint": "AOV x Purchase Frequency",
+          "placeholder": "AOV x Purchase Frequency"
+        },
+        {
+          "id": "customer_lifetime_revenue",
+          "label": "Customer Lifetime Revenue",
+          "type": "text",
+          "hint": "Annual Revenue x Lifespan",
+          "placeholder": "Annual Revenue x Lifespan"
+        },
+        {
+          "id": "customer_lifetime_value_clv",
+          "label": "CUSTOMER LIFETIME VALUE (CLV)",
+          "type": "text",
+          "hint": "Lifetime Revenue x Gross Margin",
+          "placeholder": "Lifetime Revenue x Gross Margin"
+        },
+        {
+          "id": "cac_from_cac_calculator",
+          "label": "CAC (from CAC Calculator)",
+          "type": "text"
+        },
+        {
+          "id": "clv_cac_ratio",
+          "label": "CLV : CAC Ratio",
+          "type": "text",
+          "hint": "Target: 3:1 or higher for sustainable growth",
+          "placeholder": "Target: 3:1 or higher for sustainable growth"
+        },
+        {
+          "id": "months_to_recover_cac",
+          "label": "Months to Recover CAC",
+          "type": "text",
+          "hint": "Target: under 12 months",
+          "placeholder": "Target: under 12 months"
+        },
+        {
+          "id": "below_1_1",
+          "label": "Below 1:1",
+          "type": "text"
+        },
+        {
+          "id": "1_1_to_2_1",
+          "label": "1:1 to 2:1",
+          "type": "text"
+        },
+        {
+          "id": "3_1",
+          "label": "3:1",
+          "type": "text"
+        },
+        {
+          "id": "4_1_to_5_1",
+          "label": "4:1 to 5:1",
+          "type": "text"
+        },
+        {
+          "id": "above_5_1",
+          "label": "Above 5:1",
+          "type": "text"
+        }
+      ],
+      "sections": [
+        {
+          "id": "clv_inputs",
+          "title": "Clv Inputs",
+          "fieldIds": [
+            "metric",
+            "average_order_value_aov",
+            "purchase_frequency_per_year",
+            "customer_lifespan_years",
+            "gross_margin"
+          ],
+          "collapsible": true
+        },
+        {
+          "id": "clv_calculations",
+          "title": "Clv Calculations",
+          "fieldIds": [
+            "annual_revenue_per_customer",
+            "customer_lifetime_revenue",
+            "customer_lifetime_value_clv"
+          ],
+          "collapsible": true
+        },
+        {
+          "id": "clv_cac_ratio",
+          "title": "Clv : Cac Ratio",
+          "fieldIds": [
+            "cac_from_cac_calculator",
+            "clv_cac_ratio",
+            "months_to_recover_cac"
+          ],
+          "collapsible": true
+        },
+        {
+          "id": "clv_cac_ratio_benchmarks",
+          "title": "Clv:Cac Ratio Benchmarks",
+          "fieldIds": [
+            "below_1_1",
+            "1_1_to_2_1",
+            "3_1",
+            "4_1_to_5_1",
+            "above_5_1"
+          ],
+          "collapsible": true
+        }
+      ]
+    },
+    {
+      "id": "budget_allocation",
+      "name": "Budget Allocation",
+      "type": "table",
+      "columns": [
+        {
+          "id": "channel",
+          "header": "Channel",
+          "type": "text"
+        },
+        {
+          "id": "current_spend",
+          "header": "Current Spend",
+          "type": "date"
+        },
+        {
+          "id": "current",
+          "header": "Current %",
+          "type": "percentage"
+        },
+        {
+          "id": "channel_roi",
+          "header": "Channel ROI",
+          "type": "percentage"
+        },
+        {
+          "id": "recommended_spend",
+          "header": "Recommended Spend",
+          "type": "date"
+        },
+        {
+          "id": "recommended",
+          "header": "Recommended %",
+          "type": "date"
+        },
+        {
+          "id": "change",
+          "header": "Change",
+          "type": "number"
+        },
+        {
+          "id": "rationale",
+          "header": "Rationale",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "id": "executive_report",
+      "name": "Executive Report",
+      "type": "summary"
+    }
+  ],
+  "defaultData": {
+    "channel_roi": [
+      {
+        "channel": "Google Ads",
+        "total_spend": 25000,
+        "customers_won": 120,
+        "revenue": 85000,
+        "profit": 60000,
+        "roi": 2.4,
+        "cpa": 208.33333333333334
+      },
+      {
+        "channel": "Facebook Ads",
+        "total_spend": 15000,
+        "customers_won": 80,
+        "revenue": 42000,
+        "profit": 27000,
+        "roi": 1.8,
+        "cpa": 187.5
+      },
+      {
+        "channel": "Instagram Ads",
+        "total_spend": 8000,
+        "customers_won": 45,
+        "revenue": 22000,
+        "profit": 14000,
+        "roi": 1.75,
+        "cpa": 177.77777777777777
+      },
+      {
+        "channel": "LinkedIn Ads",
+        "total_spend": 12000,
+        "customers_won": 30,
+        "revenue": 48000,
+        "profit": 36000,
+        "roi": 3,
+        "cpa": 400
+      },
+      {
+        "channel": "SEO / Organic",
+        "total_spend": 5000,
+        "customers_won": 200,
+        "revenue": 95000,
+        "profit": 90000,
+        "roi": 18,
+        "cpa": 25
+      },
+      {
+        "channel": "Email Marketing",
+        "total_spend": 3000,
+        "customers_won": 150,
+        "revenue": 72000,
+        "profit": 69000,
+        "roi": 23,
+        "cpa": 20
+      },
+      {
+        "channel": "Content Marketing",
+        "total_spend": 8000,
+        "customers_won": 90,
+        "revenue": 38000,
+        "profit": 30000,
+        "roi": 3.75,
+        "cpa": 88.88888888888889
+      },
+      {
+        "channel": "Social Media (Organic)",
+        "total_spend": 2000,
+        "customers_won": 40,
+        "revenue": 12000,
+        "profit": 10000,
+        "roi": 5,
+        "cpa": 50
+      },
+      {
+        "channel": "Events & Webinars",
+        "total_spend": 20000,
+        "customers_won": 60,
+        "revenue": 75000,
+        "profit": 55000,
+        "roi": 2.75,
+        "cpa": 333.3333333333333
+      },
+      {
+        "channel": "Referral Programme",
+        "total_spend": 4000,
+        "customers_won": 100,
+        "revenue": 55000,
+        "profit": 51000,
+        "roi": 12.75,
+        "cpa": 40
+      },
+      {
+        "channel": "Affiliate Marketing",
+        "total_spend": 6000,
+        "customers_won": 50,
+        "revenue": 28000,
+        "profit": 22000,
+        "roi": 3.6666666666666665,
+        "cpa": 120
+      },
+      {
+        "channel": "TikTok Ads",
+        "total_spend": 5000,
+        "customers_won": 35,
+        "revenue": 15000,
+        "profit": 10000,
+        "roi": 2,
+        "cpa": 142.85714285714286
+      },
+      {
+        "channel": "YouTube Ads",
+        "total_spend": 10000,
+        "customers_won": 40,
+        "revenue": 32000,
+        "profit": 22000,
+        "roi": 2.2,
+        "cpa": 250
+      },
+      {
+        "channel": "PR & Media",
+        "total_spend": 7000,
+        "customers_won": 25,
+        "revenue": 30000,
+        "profit": 23000,
+        "roi": 3.2857142857142856,
+        "cpa": 280
+      },
+      {
+        "channel": "TOTAL",
+        "total_spend": 130000,
+        "customers_won": 1065,
+        "revenue": 649000,
+        "profit": 519000,
+        "roi": 3.9923076923076923,
+        "cpa": 122.06572769953051
+      },
+      {
+        "channel": "CHANNEL SHARE OF SPEND"
+      },
+      {
+        "channel": "Channel",
+        "total_spend": "Share of Spend",
+        "customers_won": "Share of Revenue",
+        "revenue": "Share of Customers"
+      },
+      {
+        "channel": "Google Ads"
+      },
+      {
+        "channel": "Facebook Ads",
+        "total_spend": 0.19230769230769232,
+        "customers_won": 0.13097072419106318,
+        "revenue": 0.11267605633802817
+      },
+      {
+        "channel": "Instagram Ads",
+        "total_spend": 0.11538461538461539,
+        "customers_won": 0.06471494607087827,
+        "revenue": 0.07511737089201878
+      },
+      {
+        "channel": "LinkedIn Ads",
+        "total_spend": 0.06153846153846154,
+        "customers_won": 0.03389830508474576,
+        "revenue": 0.04225352112676056
+      },
+      {
+        "channel": "SEO / Organic",
+        "total_spend": 0.09230769230769231,
+        "customers_won": 0.07395993836671803,
+        "revenue": 0.028169014084507043
+      },
+      {
+        "channel": "Email Marketing",
+        "total_spend": 0.038461538461538464,
+        "customers_won": 0.14637904468412943,
+        "revenue": 0.18779342723004694
+      },
+      {
+        "channel": "Content Marketing",
+        "total_spend": 0.023076923076923078,
+        "customers_won": 0.11093990755007704,
+        "revenue": 0.14084507042253522
+      },
+      {
+        "channel": "Social Media (Organic)",
+        "total_spend": 0.06153846153846154,
+        "customers_won": 0.05855161787365177,
+        "revenue": 0.08450704225352113
+      },
+      {
+        "channel": "Events & Webinars",
+        "total_spend": 0.015384615384615385,
+        "customers_won": 0.01848998459167951,
+        "revenue": 0.03755868544600939
+      },
+      {
+        "channel": "Referral Programme",
+        "total_spend": 0.15384615384615385,
+        "customers_won": 0.11556240369799692,
+        "revenue": 0.056338028169014086
+      },
+      {
+        "channel": "Affiliate Marketing",
+        "total_spend": 0.03076923076923077,
+        "customers_won": 0.0847457627118644,
+        "revenue": 0.09389671361502347
+      },
+      {
+        "channel": "TikTok Ads",
+        "total_spend": 0.046153846153846156,
+        "customers_won": 0.04314329738058552,
+        "revenue": 0.046948356807511735
+      },
+      {
+        "channel": "YouTube Ads",
+        "total_spend": 0.038461538461538464,
+        "customers_won": 0.023112480739599383,
+        "revenue": 0.03286384976525822
+      },
+      {
+        "channel": "PR & Media",
+        "total_spend": 0.07692307692307693,
+        "customers_won": 0.04930662557781202,
+        "revenue": 0.03755868544600939
+      }
+    ],
+    "campaign_roi": [
+      {
+        "campaign_name": "Spring Product Launch",
+        "channel": "Google Ads",
+        "ad_spend": 8000,
+        "creative_cost": 2000,
+        "tool_cost": 500,
+        "labour_cost": 3000,
+        "total_cost": 13500,
+        "leads": 250,
+        "conversions": 45,
+        "revenue": 32000,
+        "profit": 18500,
+        "roi": 1.3703703703703705
+      },
+      {
+        "campaign_name": "Brand Awareness Push",
+        "channel": "Facebook Ads",
+        "ad_spend": 5000,
+        "creative_cost": 1500,
+        "tool_cost": 200,
+        "labour_cost": 1500,
+        "total_cost": 8200,
+        "leads": 400,
+        "conversions": 30,
+        "revenue": 12000,
+        "profit": 3800,
+        "roi": 0.4634146341463415
+      },
+      {
+        "campaign_name": "Lead Gen Webinar",
+        "channel": "Email Marketing",
+        "ad_spend": 1000,
+        "creative_cost": 500,
+        "tool_cost": 300,
+        "labour_cost": 2000,
+        "total_cost": 3800,
+        "leads": 180,
+        "conversions": 60,
+        "revenue": 28000,
+        "profit": 24200,
+        "roi": 6.368421052631579
+      },
+      {
+        "campaign_name": "LinkedIn Thought Leadership",
+        "channel": "LinkedIn Ads",
+        "ad_spend": 4000,
+        "creative_cost": 1000,
+        "labour_cost": 1500,
+        "total_cost": 6500,
+        "leads": 120,
+        "conversions": 20,
+        "revenue": 18000,
+        "profit": 11500,
+        "roi": 1.7692307692307692
+      },
+      {
+        "campaign_name": "Holiday Retargeting",
+        "channel": "Google Ads",
+        "ad_spend": 6000,
+        "creative_cost": 800,
+        "tool_cost": 200,
+        "labour_cost": 1000,
+        "total_cost": 8000,
+        "leads": 300,
+        "conversions": 80,
+        "revenue": 45000,
+        "profit": 37000,
+        "roi": 4.625
+      }
+    ],
+    "monthly_roi_tracker": [
+      {
+        "month": "Jan"
+      },
+      {
+        "month": "Feb"
+      },
+      {
+        "month": "Mar"
+      },
+      {
+        "month": "Apr"
+      },
+      {
+        "month": "May"
+      },
+      {
+        "month": "Jun"
+      },
+      {
+        "month": "Jul"
+      },
+      {
+        "month": "Aug"
+      },
+      {
+        "month": "Sep"
+      },
+      {
+        "month": "Oct"
+      },
+      {
+        "month": "Nov"
+      },
+      {
+        "month": "Dec"
+      },
+      {
+        "month": "TOTAL"
+      }
+    ],
+    "budget_allocation": [
+      {
+        "channel": "Google Ads",
+        "current_spend": "Total Spend",
+        "channel_roi": "ROI"
+      },
+      {
+        "channel": "Facebook Ads",
+        "current_spend": 25000,
+        "current": 0.2032520325203252,
+        "channel_roi": 2.4,
+        "change": -25000
+      },
+      {
+        "channel": "Instagram Ads",
+        "current_spend": 15000,
+        "current": 0.12195121951219512,
+        "channel_roi": 1.8,
+        "change": -15000
+      },
+      {
+        "channel": "LinkedIn Ads",
+        "current_spend": 8000,
+        "current": 0.06504065040650407,
+        "channel_roi": 1.75,
+        "change": -8000
+      },
+      {
+        "channel": "SEO / Organic",
+        "current_spend": 12000,
+        "current": 0.0975609756097561,
+        "channel_roi": 3,
+        "change": -12000
+      },
+      {
+        "channel": "Email Marketing",
+        "current_spend": 5000,
+        "current": 0.04065040650406504,
+        "channel_roi": 18,
+        "change": -5000
+      },
+      {
+        "channel": "Content Marketing",
+        "current_spend": 3000,
+        "current": 0.024390243902439025,
+        "channel_roi": 23,
+        "change": -3000
+      },
+      {
+        "channel": "Social Media (Organic)",
+        "current_spend": 8000,
+        "current": 0.06504065040650407,
+        "channel_roi": 3.75,
+        "change": -8000
+      },
+      {
+        "channel": "Events & Webinars",
+        "current_spend": 2000,
+        "current": 0.016260162601626018,
+        "channel_roi": 5,
+        "change": -2000
+      },
+      {
+        "channel": "Referral Programme",
+        "current_spend": 20000,
+        "current": 0.16260162601626016,
+        "channel_roi": 2.75,
+        "change": -20000
+      },
+      {
+        "channel": "Affiliate Marketing",
+        "current_spend": 4000,
+        "current": 0.032520325203252036,
+        "channel_roi": 12.75,
+        "change": -4000
+      },
+      {
+        "channel": "TikTok Ads",
+        "current_spend": 6000,
+        "current": 0.04878048780487805,
+        "channel_roi": 3.6666666666666665,
+        "change": -6000
+      },
+      {
+        "channel": "YouTube Ads",
+        "current_spend": 5000,
+        "current": 0.04065040650406504,
+        "channel_roi": 2,
+        "change": -5000
+      },
+      {
+        "channel": "PR & Media",
+        "current_spend": 10000,
+        "current": 0.08130081300813008,
+        "channel_roi": 2.2,
+        "change": -10000
+      },
+      {
+        "channel": "TOTAL",
+        "current_spend": 123000,
+        "current": "100%",
+        "recommended": "100%",
+        "change": -123000
+      }
+    ]
+  }
+}

@@ -1,0 +1,3102 @@
+{
+  "id": "sales_enablement_kit",
+  "name": "Sales Enablement Kit",
+  "category": "growth",
+  "sheets": [
+    {
+      "id": "dashboard",
+      "name": "Dashboard",
+      "type": "summary"
+    },
+    {
+      "id": "content_library",
+      "name": "Content Library",
+      "type": "table",
+      "columns": [
+        {
+          "id": "asset_id",
+          "header": "Asset ID",
+          "type": "text"
+        },
+        {
+          "id": "title",
+          "header": "Title",
+          "type": "text"
+        },
+        {
+          "id": "type",
+          "header": "Type",
+          "type": "text"
+        },
+        {
+          "id": "buyer_stage",
+          "header": "Buyer Stage",
+          "type": "dropdown",
+          "options": [
+            "Planning",
+            "In Progress",
+            "Review",
+            "Complete"
+          ]
+        },
+        {
+          "id": "persona",
+          "header": "Persona",
+          "type": "text"
+        },
+        {
+          "id": "last_updated",
+          "header": "Last Updated",
+          "type": "date"
+        },
+        {
+          "id": "usage_rate",
+          "header": "Usage Rate",
+          "type": "percentage"
+        },
+        {
+          "id": "effectiveness_score",
+          "header": "Effectiveness Score",
+          "type": "score",
+          "min": 1,
+          "max": 5,
+          "colorScale": {
+            "ranges": [
+              {
+                "min": 1,
+                "max": 2,
+                "color": "#ef4444"
+              },
+              {
+                "min": 3,
+                "max": 3,
+                "color": "#eab308"
+              },
+              {
+                "min": 4,
+                "max": 5,
+                "color": "#22c55e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "status",
+          "header": "Status",
+          "type": "dropdown",
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done",
+            "On Hold",
+            "Cancelled"
+          ]
+        },
+        {
+          "id": "link",
+          "header": "Link",
+          "type": "url"
+        }
+      ]
+    },
+    {
+      "id": "battle_cards",
+      "name": "Battle Cards",
+      "type": "table",
+      "columns": [
+        {
+          "id": "competitor",
+          "header": "Competitor",
+          "type": "text"
+        },
+        {
+          "id": "their_pitch",
+          "header": "Their Pitch",
+          "type": "text"
+        },
+        {
+          "id": "our_counter",
+          "header": "Our Counter",
+          "type": "number"
+        },
+        {
+          "id": "key_differentiators",
+          "header": "Key Differentiators",
+          "type": "text"
+        },
+        {
+          "id": "weaknesses_to_exploit",
+          "header": "Weaknesses to Exploit",
+          "type": "text"
+        },
+        {
+          "id": "common_objections",
+          "header": "Common Objections",
+          "type": "text"
+        },
+        {
+          "id": "win_rate_vs_them",
+          "header": "Win Rate vs Them",
+          "type": "percentage"
+        },
+        {
+          "id": "last_updated",
+          "header": "Last Updated",
+          "type": "date"
+        }
+      ]
+    },
+    {
+      "id": "objection_handling",
+      "name": "Objection Handling",
+      "type": "table",
+      "columns": [
+        {
+          "id": "objection",
+          "header": "Objection",
+          "type": "text"
+        },
+        {
+          "id": "category",
+          "header": "Category",
+          "type": "text",
+          "editable": false
+        },
+        {
+          "id": "response",
+          "header": "Response",
+          "type": "text"
+        },
+        {
+          "id": "supporting_evidence",
+          "header": "Supporting Evidence",
+          "type": "text"
+        },
+        {
+          "id": "follow_up_question",
+          "header": "Follow-up Question",
+          "type": "text"
+        },
+        {
+          "id": "success_rate",
+          "header": "Success Rate",
+          "type": "percentage"
+        },
+        {
+          "id": "notes",
+          "header": "Notes",
+          "type": "textarea",
+          "width": "250px"
+        }
+      ],
+      "groupBy": "category"
+    },
+    {
+      "id": "sales_playbook",
+      "name": "Sales Playbook",
+      "type": "table",
+      "columns": [
+        {
+          "id": "stage",
+          "header": "Stage",
+          "type": "dropdown",
+          "options": [
+            "Planning",
+            "In Progress",
+            "Review",
+            "Complete"
+          ]
+        },
+        {
+          "id": "activity",
+          "header": "Activity",
+          "type": "text"
+        },
+        {
+          "id": "script_or_talking_points",
+          "header": "Script or Talking Points",
+          "type": "text"
+        },
+        {
+          "id": "content_to_share",
+          "header": "Content to Share",
+          "type": "textarea",
+          "width": "250px"
+        },
+        {
+          "id": "kpi",
+          "header": "KPI",
+          "type": "text"
+        },
+        {
+          "id": "best_practice",
+          "header": "Best Practice",
+          "type": "text"
+        },
+        {
+          "id": "common_mistakes",
+          "header": "Common Mistakes",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "id": "training_tracker",
+      "name": "Training Tracker",
+      "type": "table",
+      "columns": [
+        {
+          "id": "module",
+          "header": "Module",
+          "type": "text"
+        },
+        {
+          "id": "topic",
+          "header": "Topic",
+          "type": "text"
+        },
+        {
+          "id": "format",
+          "header": "Format",
+          "type": "text"
+        },
+        {
+          "id": "duration",
+          "header": "Duration",
+          "type": "text"
+        },
+        {
+          "id": "assigned_to",
+          "header": "Assigned To",
+          "type": "text"
+        },
+        {
+          "id": "completion_date",
+          "header": "Completion Date",
+          "type": "date"
+        },
+        {
+          "id": "score",
+          "header": "Score",
+          "type": "score",
+          "min": 1,
+          "max": 5,
+          "colorScale": {
+            "ranges": [
+              {
+                "min": 1,
+                "max": 2,
+                "color": "#ef4444"
+              },
+              {
+                "min": 3,
+                "max": 3,
+                "color": "#eab308"
+              },
+              {
+                "min": 4,
+                "max": 5,
+                "color": "#22c55e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "status",
+          "header": "Status",
+          "type": "dropdown",
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done",
+            "On Hold",
+            "Cancelled"
+          ]
+        },
+        {
+          "id": "certification",
+          "header": "Certification",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "id": "pipeline_support",
+      "name": "Pipeline Support",
+      "type": "table",
+      "columns": [
+        {
+          "id": "deal",
+          "header": "Deal",
+          "type": "text"
+        },
+        {
+          "id": "stage",
+          "header": "Stage",
+          "type": "dropdown",
+          "options": [
+            "Planning",
+            "In Progress",
+            "Review",
+            "Complete"
+          ]
+        },
+        {
+          "id": "value",
+          "header": "Value",
+          "type": "number"
+        },
+        {
+          "id": "sales_rep",
+          "header": "Sales Rep",
+          "type": "text"
+        },
+        {
+          "id": "content_used",
+          "header": "Content Used",
+          "type": "textarea",
+          "width": "250px"
+        },
+        {
+          "id": "content_needed",
+          "header": "Content Needed",
+          "type": "textarea",
+          "width": "250px"
+        },
+        {
+          "id": "next_action",
+          "header": "Next Action",
+          "type": "textarea",
+          "width": "250px"
+        },
+        {
+          "id": "win_probability",
+          "header": "Win Probability",
+          "type": "number"
+        },
+        {
+          "id": "notes",
+          "header": "Notes",
+          "type": "textarea",
+          "width": "250px"
+        }
+      ]
+    },
+    {
+      "id": "feedback_loop",
+      "name": "Feedback Loop",
+      "type": "table",
+      "columns": [
+        {
+          "id": "date",
+          "header": "Date",
+          "type": "date"
+        },
+        {
+          "id": "sales_rep",
+          "header": "Sales Rep",
+          "type": "text"
+        },
+        {
+          "id": "content_asset",
+          "header": "Content Asset",
+          "type": "textarea",
+          "width": "250px"
+        },
+        {
+          "id": "feedback_type",
+          "header": "Feedback Type",
+          "type": "currency"
+        },
+        {
+          "id": "details",
+          "header": "Details",
+          "type": "textarea",
+          "width": "250px"
+        },
+        {
+          "id": "priority",
+          "header": "Priority",
+          "type": "dropdown",
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "id": "action_taken",
+          "header": "Action Taken",
+          "type": "textarea",
+          "width": "250px"
+        },
+        {
+          "id": "status",
+          "header": "Status",
+          "type": "dropdown",
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done",
+            "On Hold",
+            "Cancelled"
+          ]
+        }
+      ]
+    }
+  ],
+  "defaultData": {
+    "content_library": [
+      {
+        "asset_id": "ASSET-001",
+        "title": "Content Asset 1",
+        "type": "Case Study",
+        "buyer_stage": "Awareness",
+        "persona": "CFO",
+        "last_updated": "03/07/2026",
+        "usage_rate": 0.01,
+        "effectiveness_score": 0.01,
+        "status": "Active",
+        "link": "assets/doc1.pdf"
+      },
+      {
+        "asset_id": "ASSET-002",
+        "title": "Content Asset 2",
+        "type": "Battle Card",
+        "buyer_stage": "Consideration",
+        "persona": "CMO",
+        "last_updated": "03/06/2026",
+        "usage_rate": 0.02,
+        "effectiveness_score": 0.02,
+        "status": "In Review",
+        "link": "assets/doc2.pdf"
+      },
+      {
+        "asset_id": "ASSET-003",
+        "title": "Content Asset 3",
+        "type": "One-Pager",
+        "buyer_stage": "Decision",
+        "persona": "VP Sales",
+        "last_updated": "03/05/2026",
+        "usage_rate": 0.03,
+        "effectiveness_score": 0.03,
+        "status": "Archived",
+        "link": "assets/doc3.pdf"
+      },
+      {
+        "asset_id": "ASSET-004",
+        "title": "Content Asset 4",
+        "type": "Presentation",
+        "buyer_stage": "Retention",
+        "persona": "Director Marketing",
+        "last_updated": "03/04/2026",
+        "usage_rate": 0.04,
+        "effectiveness_score": 0.04,
+        "status": "Active",
+        "link": "assets/doc4.pdf"
+      },
+      {
+        "asset_id": "ASSET-005",
+        "title": "Content Asset 5",
+        "type": "Demo Script",
+        "buyer_stage": "Awareness",
+        "persona": "Operations Manager",
+        "last_updated": "03/03/2026",
+        "usage_rate": 0.05,
+        "effectiveness_score": 0.05,
+        "status": "In Review",
+        "link": "assets/doc5.pdf"
+      },
+      {
+        "asset_id": "ASSET-006",
+        "title": "Content Asset 6",
+        "type": "ROI Calculator",
+        "buyer_stage": "Consideration",
+        "persona": "CFO",
+        "last_updated": "03/02/2026",
+        "usage_rate": 0.06,
+        "effectiveness_score": 0.06,
+        "status": "Archived",
+        "link": "assets/doc6.pdf"
+      },
+      {
+        "asset_id": "ASSET-007",
+        "title": "Content Asset 7",
+        "type": "Email Template",
+        "buyer_stage": "Decision",
+        "persona": "CMO",
+        "last_updated": "03/01/2026",
+        "usage_rate": 0.07,
+        "effectiveness_score": 0.07,
+        "status": "Active",
+        "link": "assets/doc7.pdf"
+      },
+      {
+        "asset_id": "ASSET-008",
+        "title": "Content Asset 8",
+        "type": "Objection Handler",
+        "buyer_stage": "Retention",
+        "persona": "VP Sales",
+        "last_updated": "02/28/2026",
+        "usage_rate": 0.08,
+        "effectiveness_score": 0.08,
+        "status": "In Review",
+        "link": "assets/doc8.pdf"
+      },
+      {
+        "asset_id": "ASSET-009",
+        "title": "Content Asset 9",
+        "type": "Proposal Template",
+        "buyer_stage": "Awareness",
+        "persona": "Director Marketing",
+        "last_updated": "02/27/2026",
+        "usage_rate": 0.09,
+        "effectiveness_score": 0.09,
+        "status": "Archived",
+        "link": "assets/doc9.pdf"
+      },
+      {
+        "asset_id": "ASSET-010",
+        "title": "Content Asset 10",
+        "type": "Whitepaper",
+        "buyer_stage": "Consideration",
+        "persona": "Operations Manager",
+        "last_updated": "02/26/2026",
+        "usage_rate": 0.1,
+        "effectiveness_score": 0.1,
+        "status": "Active",
+        "link": "assets/doc10.pdf"
+      },
+      {
+        "asset_id": "ASSET-011",
+        "title": "Content Asset 11",
+        "type": "Case Study",
+        "buyer_stage": "Decision",
+        "persona": "CFO",
+        "last_updated": "02/25/2026",
+        "usage_rate": 0.11,
+        "effectiveness_score": 0.11,
+        "status": "In Review",
+        "link": "assets/doc11.pdf"
+      },
+      {
+        "asset_id": "ASSET-012",
+        "title": "Content Asset 12",
+        "type": "Battle Card",
+        "buyer_stage": "Retention",
+        "persona": "CMO",
+        "last_updated": "02/24/2026",
+        "usage_rate": 0.12,
+        "effectiveness_score": 0.12,
+        "status": "Archived",
+        "link": "assets/doc12.pdf"
+      },
+      {
+        "asset_id": "ASSET-013",
+        "title": "Content Asset 13",
+        "type": "One-Pager",
+        "buyer_stage": "Awareness",
+        "persona": "VP Sales",
+        "last_updated": "02/23/2026",
+        "usage_rate": 0.13,
+        "effectiveness_score": 0.13,
+        "status": "Active",
+        "link": "assets/doc13.pdf"
+      },
+      {
+        "asset_id": "ASSET-014",
+        "title": "Content Asset 14",
+        "type": "Presentation",
+        "buyer_stage": "Consideration",
+        "persona": "Director Marketing",
+        "last_updated": "02/22/2026",
+        "usage_rate": 0.14,
+        "effectiveness_score": 0.14,
+        "status": "In Review",
+        "link": "assets/doc14.pdf"
+      },
+      {
+        "asset_id": "ASSET-015",
+        "title": "Content Asset 15",
+        "type": "Demo Script",
+        "buyer_stage": "Decision",
+        "persona": "Operations Manager",
+        "last_updated": "02/21/2026",
+        "usage_rate": 0.15,
+        "effectiveness_score": 0.15,
+        "status": "Archived",
+        "link": "assets/doc15.pdf"
+      },
+      {
+        "asset_id": "ASSET-016",
+        "title": "Content Asset 16",
+        "type": "ROI Calculator",
+        "buyer_stage": "Retention",
+        "persona": "CFO",
+        "last_updated": "02/20/2026",
+        "usage_rate": 0.16,
+        "effectiveness_score": 0.16,
+        "status": "Active",
+        "link": "assets/doc16.pdf"
+      },
+      {
+        "asset_id": "ASSET-017",
+        "title": "Content Asset 17",
+        "type": "Email Template",
+        "buyer_stage": "Awareness",
+        "persona": "CMO",
+        "last_updated": "02/19/2026",
+        "usage_rate": 0.17,
+        "effectiveness_score": 0.17,
+        "status": "In Review",
+        "link": "assets/doc17.pdf"
+      },
+      {
+        "asset_id": "ASSET-018",
+        "title": "Content Asset 18",
+        "type": "Objection Handler",
+        "buyer_stage": "Consideration",
+        "persona": "VP Sales",
+        "last_updated": "02/18/2026",
+        "usage_rate": 0.18,
+        "effectiveness_score": 0.18,
+        "status": "Archived",
+        "link": "assets/doc18.pdf"
+      },
+      {
+        "asset_id": "ASSET-019",
+        "title": "Content Asset 19",
+        "type": "Proposal Template",
+        "buyer_stage": "Decision",
+        "persona": "Director Marketing",
+        "last_updated": "02/17/2026",
+        "usage_rate": 0.19,
+        "effectiveness_score": 0.19,
+        "status": "Active",
+        "link": "assets/doc19.pdf"
+      },
+      {
+        "asset_id": "ASSET-020",
+        "title": "Content Asset 20",
+        "type": "Whitepaper",
+        "buyer_stage": "Retention",
+        "persona": "Operations Manager",
+        "last_updated": "02/16/2026",
+        "usage_rate": 0.2,
+        "effectiveness_score": 0.2,
+        "status": "In Review",
+        "link": "assets/doc20.pdf"
+      },
+      {
+        "asset_id": "ASSET-021",
+        "title": "Content Asset 21",
+        "type": "Case Study",
+        "buyer_stage": "Awareness",
+        "persona": "CFO",
+        "last_updated": "02/15/2026",
+        "usage_rate": 0.21,
+        "effectiveness_score": 0.21,
+        "status": "Archived",
+        "link": "assets/doc21.pdf"
+      },
+      {
+        "asset_id": "ASSET-022",
+        "title": "Content Asset 22",
+        "type": "Battle Card",
+        "buyer_stage": "Consideration",
+        "persona": "CMO",
+        "last_updated": "02/14/2026",
+        "usage_rate": 0.22,
+        "effectiveness_score": 0.22,
+        "status": "Active",
+        "link": "assets/doc22.pdf"
+      },
+      {
+        "asset_id": "ASSET-023",
+        "title": "Content Asset 23",
+        "type": "One-Pager",
+        "buyer_stage": "Decision",
+        "persona": "VP Sales",
+        "last_updated": "02/13/2026",
+        "usage_rate": 0.23,
+        "effectiveness_score": 0.23,
+        "status": "In Review",
+        "link": "assets/doc23.pdf"
+      },
+      {
+        "asset_id": "ASSET-024",
+        "title": "Content Asset 24",
+        "type": "Presentation",
+        "buyer_stage": "Retention",
+        "persona": "Director Marketing",
+        "last_updated": "02/12/2026",
+        "usage_rate": 0.24,
+        "effectiveness_score": 0.24,
+        "status": "Archived",
+        "link": "assets/doc24.pdf"
+      },
+      {
+        "asset_id": "ASSET-025",
+        "title": "Content Asset 25",
+        "type": "Demo Script",
+        "buyer_stage": "Awareness",
+        "persona": "Operations Manager",
+        "last_updated": "02/11/2026",
+        "usage_rate": 0.25,
+        "effectiveness_score": 0.25,
+        "status": "Active",
+        "link": "assets/doc25.pdf"
+      },
+      {
+        "asset_id": "ASSET-026",
+        "title": "Content Asset 26",
+        "type": "ROI Calculator",
+        "buyer_stage": "Consideration",
+        "persona": "CFO",
+        "last_updated": "02/10/2026",
+        "usage_rate": 0.26,
+        "effectiveness_score": 0.26,
+        "status": "In Review",
+        "link": "assets/doc26.pdf"
+      },
+      {
+        "asset_id": "ASSET-027",
+        "title": "Content Asset 27",
+        "type": "Email Template",
+        "buyer_stage": "Decision",
+        "persona": "CMO",
+        "last_updated": "02/09/2026",
+        "usage_rate": 0.27,
+        "effectiveness_score": 0.27,
+        "status": "Archived",
+        "link": "assets/doc27.pdf"
+      },
+      {
+        "asset_id": "ASSET-028",
+        "title": "Content Asset 28",
+        "type": "Objection Handler",
+        "buyer_stage": "Retention",
+        "persona": "VP Sales",
+        "last_updated": "02/08/2026",
+        "usage_rate": 0.28,
+        "effectiveness_score": 0.28,
+        "status": "Active",
+        "link": "assets/doc28.pdf"
+      },
+      {
+        "asset_id": "ASSET-029",
+        "title": "Content Asset 29",
+        "type": "Proposal Template",
+        "buyer_stage": "Awareness",
+        "persona": "Director Marketing",
+        "last_updated": "02/07/2026",
+        "usage_rate": 0.29,
+        "effectiveness_score": 0.29,
+        "status": "In Review",
+        "link": "assets/doc29.pdf"
+      },
+      {
+        "asset_id": "ASSET-030",
+        "title": "Content Asset 30",
+        "type": "Whitepaper",
+        "buyer_stage": "Consideration",
+        "persona": "Operations Manager",
+        "last_updated": "03/08/2026",
+        "usage_rate": 0.3,
+        "effectiveness_score": 0.3,
+        "status": "Archived",
+        "link": "assets/doc30.pdf"
+      },
+      {
+        "asset_id": "ASSET-031",
+        "title": "Content Asset 31",
+        "type": "Case Study",
+        "buyer_stage": "Decision",
+        "persona": "CFO",
+        "last_updated": "03/07/2026",
+        "usage_rate": 0.31,
+        "effectiveness_score": 0.31,
+        "status": "Active",
+        "link": "assets/doc31.pdf"
+      },
+      {
+        "asset_id": "ASSET-032",
+        "title": "Content Asset 32",
+        "type": "Battle Card",
+        "buyer_stage": "Retention",
+        "persona": "CMO",
+        "last_updated": "03/06/2026",
+        "usage_rate": 0.32,
+        "effectiveness_score": 0.32,
+        "status": "In Review",
+        "link": "assets/doc32.pdf"
+      },
+      {
+        "asset_id": "ASSET-033",
+        "title": "Content Asset 33",
+        "type": "One-Pager",
+        "buyer_stage": "Awareness",
+        "persona": "VP Sales",
+        "last_updated": "03/05/2026",
+        "usage_rate": 0.33,
+        "effectiveness_score": 0.33,
+        "status": "Archived",
+        "link": "assets/doc33.pdf"
+      },
+      {
+        "asset_id": "ASSET-034",
+        "title": "Content Asset 34",
+        "type": "Presentation",
+        "buyer_stage": "Consideration",
+        "persona": "Director Marketing",
+        "last_updated": "03/04/2026",
+        "usage_rate": 0.34,
+        "effectiveness_score": 0.34,
+        "status": "Active",
+        "link": "assets/doc34.pdf"
+      },
+      {
+        "asset_id": "ASSET-035",
+        "title": "Content Asset 35",
+        "type": "Demo Script",
+        "buyer_stage": "Decision",
+        "persona": "Operations Manager",
+        "last_updated": "03/03/2026",
+        "usage_rate": 0.35,
+        "effectiveness_score": 0.35,
+        "status": "In Review",
+        "link": "assets/doc35.pdf"
+      },
+      {
+        "asset_id": "ASSET-036",
+        "title": "Content Asset 36",
+        "type": "ROI Calculator",
+        "buyer_stage": "Retention",
+        "persona": "CFO",
+        "last_updated": "03/02/2026",
+        "usage_rate": 0.36,
+        "effectiveness_score": 0.36,
+        "status": "Archived",
+        "link": "assets/doc36.pdf"
+      },
+      {
+        "asset_id": "ASSET-037",
+        "title": "Content Asset 37",
+        "type": "Email Template",
+        "buyer_stage": "Awareness",
+        "persona": "CMO",
+        "last_updated": "03/01/2026",
+        "usage_rate": 0.37,
+        "effectiveness_score": 0.37,
+        "status": "Active",
+        "link": "assets/doc37.pdf"
+      },
+      {
+        "asset_id": "ASSET-038",
+        "title": "Content Asset 38",
+        "type": "Objection Handler",
+        "buyer_stage": "Consideration",
+        "persona": "VP Sales",
+        "last_updated": "02/28/2026",
+        "usage_rate": 0.38,
+        "effectiveness_score": 0.38,
+        "status": "In Review",
+        "link": "assets/doc38.pdf"
+      },
+      {
+        "asset_id": "ASSET-039",
+        "title": "Content Asset 39",
+        "type": "Proposal Template",
+        "buyer_stage": "Decision",
+        "persona": "Director Marketing",
+        "last_updated": "02/27/2026",
+        "usage_rate": 0.39,
+        "effectiveness_score": 0.39,
+        "status": "Archived",
+        "link": "assets/doc39.pdf"
+      },
+      {
+        "asset_id": "ASSET-040",
+        "title": "Content Asset 40",
+        "type": "Whitepaper",
+        "buyer_stage": "Retention",
+        "persona": "Operations Manager",
+        "last_updated": "02/26/2026",
+        "usage_rate": 0.4,
+        "effectiveness_score": 0.4,
+        "status": "Active",
+        "link": "assets/doc40.pdf"
+      },
+      {
+        "asset_id": "ASSET-041",
+        "title": "Content Asset 41",
+        "type": "Case Study",
+        "buyer_stage": "Awareness",
+        "persona": "CFO",
+        "last_updated": "02/25/2026",
+        "usage_rate": 0.41,
+        "effectiveness_score": 0.41,
+        "status": "In Review",
+        "link": "assets/doc41.pdf"
+      },
+      {
+        "asset_id": "ASSET-042",
+        "title": "Content Asset 42",
+        "type": "Battle Card",
+        "buyer_stage": "Consideration",
+        "persona": "CMO",
+        "last_updated": "02/24/2026",
+        "usage_rate": 0.42,
+        "effectiveness_score": 0.42,
+        "status": "Archived",
+        "link": "assets/doc42.pdf"
+      },
+      {
+        "asset_id": "ASSET-043",
+        "title": "Content Asset 43",
+        "type": "One-Pager",
+        "buyer_stage": "Decision",
+        "persona": "VP Sales",
+        "last_updated": "02/23/2026",
+        "usage_rate": 0.43,
+        "effectiveness_score": 0.43,
+        "status": "Active",
+        "link": "assets/doc43.pdf"
+      },
+      {
+        "asset_id": "ASSET-044",
+        "title": "Content Asset 44",
+        "type": "Presentation",
+        "buyer_stage": "Retention",
+        "persona": "Director Marketing",
+        "last_updated": "02/22/2026",
+        "usage_rate": 0.44,
+        "effectiveness_score": 0.44,
+        "status": "In Review",
+        "link": "assets/doc44.pdf"
+      },
+      {
+        "asset_id": "ASSET-045",
+        "title": "Content Asset 45",
+        "type": "Demo Script",
+        "buyer_stage": "Awareness",
+        "persona": "Operations Manager",
+        "last_updated": "02/21/2026",
+        "usage_rate": 0.45,
+        "effectiveness_score": 0.45,
+        "status": "Archived",
+        "link": "assets/doc45.pdf"
+      },
+      {
+        "asset_id": "ASSET-046",
+        "title": "Content Asset 46",
+        "type": "ROI Calculator",
+        "buyer_stage": "Consideration",
+        "persona": "CFO",
+        "last_updated": "02/20/2026",
+        "usage_rate": 0.46,
+        "effectiveness_score": 0.46,
+        "status": "Active",
+        "link": "assets/doc46.pdf"
+      },
+      {
+        "asset_id": "ASSET-047",
+        "title": "Content Asset 47",
+        "type": "Email Template",
+        "buyer_stage": "Decision",
+        "persona": "CMO",
+        "last_updated": "02/19/2026",
+        "usage_rate": 0.47,
+        "effectiveness_score": 0.47,
+        "status": "In Review",
+        "link": "assets/doc47.pdf"
+      },
+      {
+        "asset_id": "ASSET-048",
+        "title": "Content Asset 48",
+        "type": "Objection Handler",
+        "buyer_stage": "Retention",
+        "persona": "VP Sales",
+        "last_updated": "02/18/2026",
+        "usage_rate": 0.48,
+        "effectiveness_score": 0.48,
+        "status": "Archived",
+        "link": "assets/doc48.pdf"
+      },
+      {
+        "asset_id": "ASSET-049",
+        "title": "Content Asset 49",
+        "type": "Proposal Template",
+        "buyer_stage": "Awareness",
+        "persona": "Director Marketing",
+        "last_updated": "02/17/2026",
+        "usage_rate": 0.49,
+        "effectiveness_score": 0.49,
+        "status": "Active",
+        "link": "assets/doc49.pdf"
+      },
+      {
+        "asset_id": "ASSET-050",
+        "title": "Content Asset 50",
+        "type": "Whitepaper",
+        "buyer_stage": "Consideration",
+        "persona": "Operations Manager",
+        "last_updated": "02/16/2026",
+        "usage_rate": 0.5,
+        "effectiveness_score": 0.5,
+        "status": "In Review",
+        "link": "assets/doc50.pdf"
+      },
+      {
+        "asset_id": "ASSET-051",
+        "title": "Content Asset 51",
+        "type": "Case Study",
+        "buyer_stage": "Decision",
+        "persona": "CFO",
+        "last_updated": "02/15/2026",
+        "usage_rate": 0.51,
+        "effectiveness_score": 0.51,
+        "status": "Archived",
+        "link": "assets/doc51.pdf"
+      },
+      {
+        "asset_id": "ASSET-052",
+        "title": "Content Asset 52",
+        "type": "Battle Card",
+        "buyer_stage": "Retention",
+        "persona": "CMO",
+        "last_updated": "02/14/2026",
+        "usage_rate": 0.52,
+        "effectiveness_score": 0.52,
+        "status": "Active",
+        "link": "assets/doc52.pdf"
+      },
+      {
+        "asset_id": "ASSET-053",
+        "title": "Content Asset 53",
+        "type": "One-Pager",
+        "buyer_stage": "Awareness",
+        "persona": "VP Sales",
+        "last_updated": "02/13/2026",
+        "usage_rate": 0.53,
+        "effectiveness_score": 0.53,
+        "status": "In Review",
+        "link": "assets/doc53.pdf"
+      },
+      {
+        "asset_id": "ASSET-054",
+        "title": "Content Asset 54",
+        "type": "Presentation",
+        "buyer_stage": "Consideration",
+        "persona": "Director Marketing",
+        "last_updated": "02/12/2026",
+        "usage_rate": 0.54,
+        "effectiveness_score": 0.54,
+        "status": "Archived",
+        "link": "assets/doc54.pdf"
+      },
+      {
+        "asset_id": "ASSET-055",
+        "title": "Content Asset 55",
+        "type": "Demo Script",
+        "buyer_stage": "Decision",
+        "persona": "Operations Manager",
+        "last_updated": "02/11/2026",
+        "usage_rate": 0.55,
+        "effectiveness_score": 0.55,
+        "status": "Active",
+        "link": "assets/doc55.pdf"
+      },
+      {
+        "asset_id": "ASSET-056",
+        "title": "Content Asset 56",
+        "type": "ROI Calculator",
+        "buyer_stage": "Retention",
+        "persona": "CFO",
+        "last_updated": "02/10/2026",
+        "usage_rate": 0.56,
+        "effectiveness_score": 0.56,
+        "status": "In Review",
+        "link": "assets/doc56.pdf"
+      },
+      {
+        "asset_id": "ASSET-057",
+        "title": "Content Asset 57",
+        "type": "Email Template",
+        "buyer_stage": "Awareness",
+        "persona": "CMO",
+        "last_updated": "02/09/2026",
+        "usage_rate": 0.57,
+        "effectiveness_score": 0.57,
+        "status": "Archived",
+        "link": "assets/doc57.pdf"
+      },
+      {
+        "asset_id": "ASSET-058",
+        "title": "Content Asset 58",
+        "type": "Objection Handler",
+        "buyer_stage": "Consideration",
+        "persona": "VP Sales",
+        "last_updated": "02/08/2026",
+        "usage_rate": 0.58,
+        "effectiveness_score": 0.58,
+        "status": "Active",
+        "link": "assets/doc58.pdf"
+      },
+      {
+        "asset_id": "ASSET-059",
+        "title": "Content Asset 59",
+        "type": "Proposal Template",
+        "buyer_stage": "Decision",
+        "persona": "Director Marketing",
+        "last_updated": "02/07/2026",
+        "usage_rate": 0.59,
+        "effectiveness_score": 0.59,
+        "status": "In Review",
+        "link": "assets/doc59.pdf"
+      }
+    ],
+    "battle_cards": [
+      {
+        "competitor": "CompetitorA",
+        "their_pitch": "CompetitorA promises fast implementation and cost savings",
+        "our_counter": "We offer superior support and customization",
+        "key_differentiators": "Better integrations, superior analytics, dedicated support",
+        "weaknesses_to_exploit": "Limited customization, higher cost of ownership",
+        "common_objections": "\"Too expensive\" - highlight ROI; \"Limited features\" - demo capabilities",
+        "win_rate_vs_them": 0.55,
+        "last_updated": "03/03/2026"
+      },
+      {
+        "competitor": "CompetitorB",
+        "their_pitch": "CompetitorB promises fast implementation and cost savings",
+        "our_counter": "We offer superior support and customization",
+        "key_differentiators": "Better integrations, superior analytics, dedicated support",
+        "weaknesses_to_exploit": "Limited customization, higher cost of ownership",
+        "common_objections": "\"Too expensive\" - highlight ROI; \"Limited features\" - demo capabilities",
+        "win_rate_vs_them": 0.6,
+        "last_updated": "02/26/2026"
+      },
+      {
+        "competitor": "CompetitorC",
+        "their_pitch": "CompetitorC promises fast implementation and cost savings",
+        "our_counter": "We offer superior support and customization",
+        "key_differentiators": "Better integrations, superior analytics, dedicated support",
+        "weaknesses_to_exploit": "Limited customization, higher cost of ownership",
+        "common_objections": "\"Too expensive\" - highlight ROI; \"Limited features\" - demo capabilities",
+        "win_rate_vs_them": 0.65,
+        "last_updated": "02/21/2026"
+      },
+      {
+        "competitor": "CompetitorD",
+        "their_pitch": "CompetitorD promises fast implementation and cost savings",
+        "our_counter": "We offer superior support and customization",
+        "key_differentiators": "Better integrations, superior analytics, dedicated support",
+        "weaknesses_to_exploit": "Limited customization, higher cost of ownership",
+        "common_objections": "\"Too expensive\" - highlight ROI; \"Limited features\" - demo capabilities",
+        "win_rate_vs_them": 0.7,
+        "last_updated": "02/16/2026"
+      },
+      {
+        "competitor": "CompetitorE",
+        "their_pitch": "CompetitorE promises fast implementation and cost savings",
+        "our_counter": "We offer superior support and customization",
+        "key_differentiators": "Better integrations, superior analytics, dedicated support",
+        "weaknesses_to_exploit": "Limited customization, higher cost of ownership",
+        "common_objections": "\"Too expensive\" - highlight ROI; \"Limited features\" - demo capabilities",
+        "win_rate_vs_them": 0.75,
+        "last_updated": "02/11/2026"
+      },
+      {
+        "competitor": "CompetitorF",
+        "their_pitch": "CompetitorF promises fast implementation and cost savings",
+        "our_counter": "We offer superior support and customization",
+        "key_differentiators": "Better integrations, superior analytics, dedicated support",
+        "weaknesses_to_exploit": "Limited customization, higher cost of ownership",
+        "common_objections": "\"Too expensive\" - highlight ROI; \"Limited features\" - demo capabilities",
+        "win_rate_vs_them": 0.8,
+        "last_updated": "02/06/2026"
+      },
+      {
+        "competitor": "CompetitorG",
+        "their_pitch": "CompetitorG promises fast implementation and cost savings",
+        "our_counter": "We offer superior support and customization",
+        "key_differentiators": "Better integrations, superior analytics, dedicated support",
+        "weaknesses_to_exploit": "Limited customization, higher cost of ownership",
+        "common_objections": "\"Too expensive\" - highlight ROI; \"Limited features\" - demo capabilities",
+        "win_rate_vs_them": 0.85,
+        "last_updated": "02/01/2026"
+      },
+      {
+        "competitor": "CompetitorH",
+        "their_pitch": "CompetitorH promises fast implementation and cost savings",
+        "our_counter": "We offer superior support and customization",
+        "key_differentiators": "Better integrations, superior analytics, dedicated support",
+        "weaknesses_to_exploit": "Limited customization, higher cost of ownership",
+        "common_objections": "\"Too expensive\" - highlight ROI; \"Limited features\" - demo capabilities",
+        "win_rate_vs_them": 0.9,
+        "last_updated": "01/27/2026"
+      },
+      {
+        "competitor": "CompetitorI",
+        "their_pitch": "CompetitorI promises fast implementation and cost savings",
+        "our_counter": "We offer superior support and customization",
+        "key_differentiators": "Better integrations, superior analytics, dedicated support",
+        "weaknesses_to_exploit": "Limited customization, higher cost of ownership",
+        "common_objections": "\"Too expensive\" - highlight ROI; \"Limited features\" - demo capabilities",
+        "win_rate_vs_them": 0.95,
+        "last_updated": "01/22/2026"
+      },
+      {
+        "competitor": "CompetitorJ",
+        "their_pitch": "CompetitorJ promises fast implementation and cost savings",
+        "our_counter": "We offer superior support and customization",
+        "key_differentiators": "Better integrations, superior analytics, dedicated support",
+        "weaknesses_to_exploit": "Limited customization, higher cost of ownership",
+        "common_objections": "\"Too expensive\" - highlight ROI; \"Limited features\" - demo capabilities",
+        "win_rate_vs_them": 1,
+        "last_updated": "01/17/2026"
+      }
+    ],
+    "objection_handling": [
+      {
+        "objection": "Too expensive",
+        "category": "Price",
+        "response": "Response to Too expensive: Focus on ROI and implementation support",
+        "supporting_evidence": "Case study showing 300% ROI, customer testimonials",
+        "follow_up_question": "What specific concern prevents you from moving forward?",
+        "success_rate": 0.64,
+        "notes": "Notes for handling Too expensive"
+      },
+      {
+        "objection": "Competitors offer the same for less",
+        "category": "Price",
+        "response": "Response to Competitors offer the same for less: Focus on ROI and implementation support",
+        "supporting_evidence": "Case study showing 300% ROI, customer testimonials",
+        "follow_up_question": "What specific concern prevents you from moving forward?",
+        "success_rate": 0.65,
+        "notes": "Notes for handling Competitors offer the same for less"
+      },
+      {
+        "objection": "We don't have features X, Y, Z",
+        "category": "Feature",
+        "response": "Response to We don't have features X, Y, Z: Focus on ROI and implementation support",
+        "supporting_evidence": "Case study showing 300% ROI, customer testimonials",
+        "follow_up_question": "What specific concern prevents you from moving forward?",
+        "success_rate": 0.66,
+        "notes": "Notes for handling We don't have features X, Y, Z"
+      },
+      {
+        "objection": "Too complex to implement",
+        "category": "Feature",
+        "response": "Response to Too complex to implement: Focus on ROI and implementation support",
+        "supporting_evidence": "Case study showing 300% ROI, customer testimonials",
+        "follow_up_question": "What specific concern prevents you from moving forward?",
+        "success_rate": 0.67,
+        "notes": "Notes for handling Too complex to implement"
+      },
+      {
+        "objection": "Competitor X is cheaper",
+        "category": "Competition",
+        "response": "Response to Competitor X is cheaper: Focus on ROI and implementation support",
+        "supporting_evidence": "Case study showing 300% ROI, customer testimonials",
+        "follow_up_question": "What specific concern prevents you from moving forward?",
+        "success_rate": 0.68,
+        "notes": "Notes for handling Competitor X is cheaper"
+      },
+      {
+        "objection": "Competitor Y has better support",
+        "category": "Competition",
+        "response": "Response to Competitor Y has better support: Focus on ROI and implementation support",
+        "supporting_evidence": "Case study showing 300% ROI, customer testimonials",
+        "follow_up_question": "What specific concern prevents you from moving forward?",
+        "success_rate": 0.69,
+        "notes": "Notes for handling Competitor Y has better support"
+      },
+      {
+        "objection": "Not the right time",
+        "category": "Timing",
+        "response": "Response to Not the right time: Focus on ROI and implementation support",
+        "supporting_evidence": "Case study showing 300% ROI, customer testimonials",
+        "follow_up_question": "What specific concern prevents you from moving forward?",
+        "success_rate": 0.7,
+        "notes": "Notes for handling Not the right time"
+      },
+      {
+        "objection": "We need budget approval",
+        "category": "Authority",
+        "response": "Response to We need budget approval: Focus on ROI and implementation support",
+        "supporting_evidence": "Case study showing 300% ROI, customer testimonials",
+        "follow_up_question": "What specific concern prevents you from moving forward?",
+        "success_rate": 0.71,
+        "notes": "Notes for handling We need budget approval"
+      },
+      {
+        "objection": "We don't have a pressing need",
+        "category": "Need",
+        "response": "Response to We don't have a pressing need: Focus on ROI and implementation support",
+        "supporting_evidence": "Case study showing 300% ROI, customer testimonials",
+        "follow_up_question": "What specific concern prevents you from moving forward?",
+        "success_rate": 0.72,
+        "notes": "Notes for handling We don't have a pressing need"
+      },
+      {
+        "objection": "Our team isn't ready for change",
+        "category": "Need",
+        "response": "Response to Our team isn't ready for change: Focus on ROI and implementation support",
+        "supporting_evidence": "Case study showing 300% ROI, customer testimonials",
+        "follow_up_question": "What specific concern prevents you from moving forward?",
+        "success_rate": 0.73,
+        "notes": "Notes for handling Our team isn't ready for change"
+      },
+      {
+        "objection": "Too expensive",
+        "category": "Price",
+        "response": "Response to Too expensive: Focus on ROI and implementation support",
+        "supporting_evidence": "Case study showing 300% ROI, customer testimonials",
+        "follow_up_question": "What specific concern prevents you from moving forward?",
+        "success_rate": 0.74,
+        "notes": "Notes for handling Too expensive"
+      },
+      {
+        "objection": "Competitors offer the same for less",
+        "category": "Price",
+        "response": "Response to Competitors offer the same for less: Focus on ROI and implementation support",
+        "supporting_evidence": "Case study showing 300% ROI, customer testimonials",
+        "follow_up_question": "What specific concern prevents you from moving forward?",
+        "success_rate": 0.75,
+        "notes": "Notes for handling Competitors offer the same for less"
+      },
+      {
+        "objection": "We don't have features X, Y, Z",
+        "category": "Feature",
+        "response": "Response to We don't have features X, Y, Z: Focus on ROI and implementation support",
+        "supporting_evidence": "Case study showing 300% ROI, customer testimonials",
+        "follow_up_question": "What specific concern prevents you from moving forward?",
+        "success_rate": 0.76,
+        "notes": "Notes for handling We don't have features X, Y, Z"
+      },
+      {
+        "objection": "Too complex to implement",
+        "category": "Feature",
+        "response": "Response to Too complex to implement: Focus on ROI and implementation support",
+        "supporting_evidence": "Case study showing 300% ROI, customer testimonials",
+        "follow_up_question": "What specific concern prevents you from moving forward?",
+        "success_rate": 0.77,
+        "notes": "Notes for handling Too complex to implement"
+      },
+      {
+        "objection": "Competitor X is cheaper",
+        "category": "Competition",
+        "response": "Response to Competitor X is cheaper: Focus on ROI and implementation support",
+        "supporting_evidence": "Case study showing 300% ROI, customer testimonials",
+        "follow_up_question": "What specific concern prevents you from moving forward?",
+        "success_rate": 0.78,
+        "notes": "Notes for handling Competitor X is cheaper"
+      },
+      {
+        "objection": "Competitor Y has better support",
+        "category": "Competition",
+        "response": "Response to Competitor Y has better support: Focus on ROI and implementation support",
+        "supporting_evidence": "Case study showing 300% ROI, customer testimonials",
+        "follow_up_question": "What specific concern prevents you from moving forward?",
+        "success_rate": 0.79,
+        "notes": "Notes for handling Competitor Y has better support"
+      },
+      {
+        "objection": "Not the right time",
+        "category": "Timing",
+        "response": "Response to Not the right time: Focus on ROI and implementation support",
+        "supporting_evidence": "Case study showing 300% ROI, customer testimonials",
+        "follow_up_question": "What specific concern prevents you from moving forward?",
+        "success_rate": 0.8,
+        "notes": "Notes for handling Not the right time"
+      },
+      {
+        "objection": "We need budget approval",
+        "category": "Authority",
+        "response": "Response to We need budget approval: Focus on ROI and implementation support",
+        "supporting_evidence": "Case study showing 300% ROI, customer testimonials",
+        "follow_up_question": "What specific concern prevents you from moving forward?",
+        "success_rate": 0.81,
+        "notes": "Notes for handling We need budget approval"
+      },
+      {
+        "objection": "We don't have a pressing need",
+        "category": "Need",
+        "response": "Response to We don't have a pressing need: Focus on ROI and implementation support",
+        "supporting_evidence": "Case study showing 300% ROI, customer testimonials",
+        "follow_up_question": "What specific concern prevents you from moving forward?",
+        "success_rate": 0.82,
+        "notes": "Notes for handling We don't have a pressing need"
+      },
+      {
+        "objection": "Our team isn't ready for change",
+        "category": "Need",
+        "response": "Response to Our team isn't ready for change: Focus on ROI and implementation support",
+        "supporting_evidence": "Case study showing 300% ROI, customer testimonials",
+        "follow_up_question": "What specific concern prevents you from moving forward?",
+        "success_rate": 0.83,
+        "notes": "Notes for handling Our team isn't ready for change"
+      },
+      {
+        "objection": "Too expensive",
+        "category": "Price",
+        "response": "Response to Too expensive: Focus on ROI and implementation support",
+        "supporting_evidence": "Case study showing 300% ROI, customer testimonials",
+        "follow_up_question": "What specific concern prevents you from moving forward?",
+        "success_rate": 0.84,
+        "notes": "Notes for handling Too expensive"
+      },
+      {
+        "objection": "Competitors offer the same for less",
+        "category": "Price",
+        "response": "Response to Competitors offer the same for less: Focus on ROI and implementation support",
+        "supporting_evidence": "Case study showing 300% ROI, customer testimonials",
+        "follow_up_question": "What specific concern prevents you from moving forward?",
+        "success_rate": 0.85,
+        "notes": "Notes for handling Competitors offer the same for less"
+      },
+      {
+        "objection": "We don't have features X, Y, Z",
+        "category": "Feature",
+        "response": "Response to We don't have features X, Y, Z: Focus on ROI and implementation support",
+        "supporting_evidence": "Case study showing 300% ROI, customer testimonials",
+        "follow_up_question": "What specific concern prevents you from moving forward?",
+        "success_rate": 0.86,
+        "notes": "Notes for handling We don't have features X, Y, Z"
+      },
+      {
+        "objection": "Too complex to implement",
+        "category": "Feature",
+        "response": "Response to Too complex to implement: Focus on ROI and implementation support",
+        "supporting_evidence": "Case study showing 300% ROI, customer testimonials",
+        "follow_up_question": "What specific concern prevents you from moving forward?",
+        "success_rate": 0.87,
+        "notes": "Notes for handling Too complex to implement"
+      },
+      {
+        "objection": "Competitor X is cheaper",
+        "category": "Competition",
+        "response": "Response to Competitor X is cheaper: Focus on ROI and implementation support",
+        "supporting_evidence": "Case study showing 300% ROI, customer testimonials",
+        "follow_up_question": "What specific concern prevents you from moving forward?",
+        "success_rate": 0.88,
+        "notes": "Notes for handling Competitor X is cheaper"
+      },
+      {
+        "objection": "Competitor Y has better support",
+        "category": "Competition",
+        "response": "Response to Competitor Y has better support: Focus on ROI and implementation support",
+        "supporting_evidence": "Case study showing 300% ROI, customer testimonials",
+        "follow_up_question": "What specific concern prevents you from moving forward?",
+        "success_rate": 0.89,
+        "notes": "Notes for handling Competitor Y has better support"
+      },
+      {
+        "objection": "Not the right time",
+        "category": "Timing",
+        "response": "Response to Not the right time: Focus on ROI and implementation support",
+        "supporting_evidence": "Case study showing 300% ROI, customer testimonials",
+        "follow_up_question": "What specific concern prevents you from moving forward?",
+        "success_rate": 0.6,
+        "notes": "Notes for handling Not the right time"
+      },
+      {
+        "objection": "We need budget approval",
+        "category": "Authority",
+        "response": "Response to We need budget approval: Focus on ROI and implementation support",
+        "supporting_evidence": "Case study showing 300% ROI, customer testimonials",
+        "follow_up_question": "What specific concern prevents you from moving forward?",
+        "success_rate": 0.61,
+        "notes": "Notes for handling We need budget approval"
+      },
+      {
+        "objection": "We don't have a pressing need",
+        "category": "Need",
+        "response": "Response to We don't have a pressing need: Focus on ROI and implementation support",
+        "supporting_evidence": "Case study showing 300% ROI, customer testimonials",
+        "follow_up_question": "What specific concern prevents you from moving forward?",
+        "success_rate": 0.62,
+        "notes": "Notes for handling We don't have a pressing need"
+      },
+      {
+        "objection": "Our team isn't ready for change",
+        "category": "Need",
+        "response": "Response to Our team isn't ready for change: Focus on ROI and implementation support",
+        "supporting_evidence": "Case study showing 300% ROI, customer testimonials",
+        "follow_up_question": "What specific concern prevents you from moving forward?",
+        "success_rate": 0.63,
+        "notes": "Notes for handling Our team isn't ready for change"
+      }
+    ],
+    "sales_playbook": [
+      {
+        "stage": "Prospecting",
+        "activity": "Initial outreach",
+        "script_or_talking_points": "Opening: Establish credibility. Main: Show value. Closing: Next steps",
+        "content_to_share": "One-pager, Case study, ROI Calculator",
+        "kpi": "Move Initial outreach to next stage",
+        "best_practice": "Listen 70%, talk 30%. Focus on buyer's challenges",
+        "common_mistakes": "Talking too much. Skipping needs discovery. Missing decision makers"
+      },
+      {
+        "stage": "Discovery",
+        "activity": "Needs assessment",
+        "script_or_talking_points": "Opening: Establish credibility. Main: Show value. Closing: Next steps",
+        "content_to_share": "One-pager, Case study, ROI Calculator",
+        "kpi": "Move Needs assessment to next stage",
+        "best_practice": "Listen 70%, talk 30%. Focus on buyer's challenges",
+        "common_mistakes": "Talking too much. Skipping needs discovery. Missing decision makers"
+      },
+      {
+        "stage": "Qualification",
+        "activity": "Stakeholder alignment",
+        "script_or_talking_points": "Opening: Establish credibility. Main: Show value. Closing: Next steps",
+        "content_to_share": "One-pager, Case study, ROI Calculator",
+        "kpi": "Move Stakeholder alignment to next stage",
+        "best_practice": "Listen 70%, talk 30%. Focus on buyer's challenges",
+        "common_mistakes": "Talking too much. Skipping needs discovery. Missing decision makers"
+      },
+      {
+        "stage": "Solution Design",
+        "activity": "Custom demo",
+        "script_or_talking_points": "Opening: Establish credibility. Main: Show value. Closing: Next steps",
+        "content_to_share": "One-pager, Case study, ROI Calculator",
+        "kpi": "Move Custom demo to next stage",
+        "best_practice": "Listen 70%, talk 30%. Focus on buyer's challenges",
+        "common_mistakes": "Talking too much. Skipping needs discovery. Missing decision makers"
+      },
+      {
+        "stage": "Proposal",
+        "activity": "Present proposal",
+        "script_or_talking_points": "Opening: Establish credibility. Main: Show value. Closing: Next steps",
+        "content_to_share": "One-pager, Case study, ROI Calculator",
+        "kpi": "Move Present proposal to next stage",
+        "best_practice": "Listen 70%, talk 30%. Focus on buyer's challenges",
+        "common_mistakes": "Talking too much. Skipping needs discovery. Missing decision makers"
+      },
+      {
+        "stage": "Negotiation",
+        "activity": "Negotiate terms",
+        "script_or_talking_points": "Opening: Establish credibility. Main: Show value. Closing: Next steps",
+        "content_to_share": "One-pager, Case study, ROI Calculator",
+        "kpi": "Move Negotiate terms to next stage",
+        "best_practice": "Listen 70%, talk 30%. Focus on buyer's challenges",
+        "common_mistakes": "Talking too much. Skipping needs discovery. Missing decision makers"
+      },
+      {
+        "stage": "Closing",
+        "activity": "Final approval",
+        "script_or_talking_points": "Opening: Establish credibility. Main: Show value. Closing: Next steps",
+        "content_to_share": "One-pager, Case study, ROI Calculator",
+        "kpi": "Move Final approval to next stage",
+        "best_practice": "Listen 70%, talk 30%. Focus on buyer's challenges",
+        "common_mistakes": "Talking too much. Skipping needs discovery. Missing decision makers"
+      },
+      {
+        "stage": "Prospecting",
+        "activity": "Contract review",
+        "script_or_talking_points": "Opening: Establish credibility. Main: Show value. Closing: Next steps",
+        "content_to_share": "One-pager, Case study, ROI Calculator",
+        "kpi": "Move Contract review to next stage",
+        "best_practice": "Listen 70%, talk 30%. Focus on buyer's challenges",
+        "common_mistakes": "Talking too much. Skipping needs discovery. Missing decision makers"
+      },
+      {
+        "stage": "Discovery",
+        "activity": "Implementation planning",
+        "script_or_talking_points": "Opening: Establish credibility. Main: Show value. Closing: Next steps",
+        "content_to_share": "One-pager, Case study, ROI Calculator",
+        "kpi": "Move Implementation planning to next stage",
+        "best_practice": "Listen 70%, talk 30%. Focus on buyer's challenges",
+        "common_mistakes": "Talking too much. Skipping needs discovery. Missing decision makers"
+      },
+      {
+        "stage": "Qualification",
+        "activity": "Launch preparation",
+        "script_or_talking_points": "Opening: Establish credibility. Main: Show value. Closing: Next steps",
+        "content_to_share": "One-pager, Case study, ROI Calculator",
+        "kpi": "Move Launch preparation to next stage",
+        "best_practice": "Listen 70%, talk 30%. Focus on buyer's challenges",
+        "common_mistakes": "Talking too much. Skipping needs discovery. Missing decision makers"
+      },
+      {
+        "stage": "Solution Design",
+        "activity": "First 30 day review",
+        "script_or_talking_points": "Opening: Establish credibility. Main: Show value. Closing: Next steps",
+        "content_to_share": "One-pager, Case study, ROI Calculator",
+        "kpi": "Move First 30 day review to next stage",
+        "best_practice": "Listen 70%, talk 30%. Focus on buyer's challenges",
+        "common_mistakes": "Talking too much. Skipping needs discovery. Missing decision makers"
+      },
+      {
+        "stage": "Proposal",
+        "activity": "Expansion discussion",
+        "script_or_talking_points": "Opening: Establish credibility. Main: Show value. Closing: Next steps",
+        "content_to_share": "One-pager, Case study, ROI Calculator",
+        "kpi": "Move Expansion discussion to next stage",
+        "best_practice": "Listen 70%, talk 30%. Focus on buyer's challenges",
+        "common_mistakes": "Talking too much. Skipping needs discovery. Missing decision makers"
+      },
+      {
+        "stage": "Negotiation",
+        "activity": "Training delivery",
+        "script_or_talking_points": "Opening: Establish credibility. Main: Show value. Closing: Next steps",
+        "content_to_share": "One-pager, Case study, ROI Calculator",
+        "kpi": "Move Training delivery to next stage",
+        "best_practice": "Listen 70%, talk 30%. Focus on buyer's challenges",
+        "common_mistakes": "Talking too much. Skipping needs discovery. Missing decision makers"
+      },
+      {
+        "stage": "Closing",
+        "activity": "Support handoff",
+        "script_or_talking_points": "Opening: Establish credibility. Main: Show value. Closing: Next steps",
+        "content_to_share": "One-pager, Case study, ROI Calculator",
+        "kpi": "Move Support handoff to next stage",
+        "best_practice": "Listen 70%, talk 30%. Focus on buyer's challenges",
+        "common_mistakes": "Talking too much. Skipping needs discovery. Missing decision makers"
+      },
+      {
+        "stage": "Prospecting",
+        "activity": "Success planning",
+        "script_or_talking_points": "Opening: Establish credibility. Main: Show value. Closing: Next steps",
+        "content_to_share": "One-pager, Case study, ROI Calculator",
+        "kpi": "Move Success planning to next stage",
+        "best_practice": "Listen 70%, talk 30%. Focus on buyer's challenges",
+        "common_mistakes": "Talking too much. Skipping needs discovery. Missing decision makers"
+      },
+      {
+        "stage": "Discovery",
+        "activity": "Upsell opportunity",
+        "script_or_talking_points": "Opening: Establish credibility. Main: Show value. Closing: Next steps",
+        "content_to_share": "One-pager, Case study, ROI Calculator",
+        "kpi": "Move Upsell opportunity to next stage",
+        "best_practice": "Listen 70%, talk 30%. Focus on buyer's challenges",
+        "common_mistakes": "Talking too much. Skipping needs discovery. Missing decision makers"
+      },
+      {
+        "stage": "Qualification",
+        "activity": "Retention call",
+        "script_or_talking_points": "Opening: Establish credibility. Main: Show value. Closing: Next steps",
+        "content_to_share": "One-pager, Case study, ROI Calculator",
+        "kpi": "Move Retention call to next stage",
+        "best_practice": "Listen 70%, talk 30%. Focus on buyer's challenges",
+        "common_mistakes": "Talking too much. Skipping needs discovery. Missing decision makers"
+      },
+      {
+        "stage": "Solution Design",
+        "activity": "Executive briefing",
+        "script_or_talking_points": "Opening: Establish credibility. Main: Show value. Closing: Next steps",
+        "content_to_share": "One-pager, Case study, ROI Calculator",
+        "kpi": "Move Executive briefing to next stage",
+        "best_practice": "Listen 70%, talk 30%. Focus on buyer's challenges",
+        "common_mistakes": "Talking too much. Skipping needs discovery. Missing decision makers"
+      },
+      {
+        "stage": "Proposal",
+        "activity": "Technical deep-dive",
+        "script_or_talking_points": "Opening: Establish credibility. Main: Show value. Closing: Next steps",
+        "content_to_share": "One-pager, Case study, ROI Calculator",
+        "kpi": "Move Technical deep-dive to next stage",
+        "best_practice": "Listen 70%, talk 30%. Focus on buyer's challenges",
+        "common_mistakes": "Talking too much. Skipping needs discovery. Missing decision makers"
+      },
+      {
+        "stage": "Negotiation",
+        "activity": "Business case development",
+        "script_or_talking_points": "Opening: Establish credibility. Main: Show value. Closing: Next steps",
+        "content_to_share": "One-pager, Case study, ROI Calculator",
+        "kpi": "Move Business case development to next stage",
+        "best_practice": "Listen 70%, talk 30%. Focus on buyer's challenges",
+        "common_mistakes": "Talking too much. Skipping needs discovery. Missing decision makers"
+      }
+    ],
+    "training_tracker": [
+      {
+        "module": "Fundamentals",
+        "topic": "Product Overview",
+        "format": "Video",
+        "duration": "30 mins",
+        "assigned_to": "John Smith",
+        "completion_date": "03/08/2026",
+        "score": 75,
+        "status": "Not Started",
+        "certification": "Yes"
+      },
+      {
+        "module": "Advanced",
+        "topic": "Competitive Positioning",
+        "format": "Workshop",
+        "duration": "31 mins",
+        "assigned_to": "Sarah Johnson",
+        "completion_date": "03/07/2026",
+        "score": 76,
+        "status": "In Progress",
+        "certification": "No"
+      },
+      {
+        "module": "Product Deep-Dive",
+        "topic": "Objection Handling",
+        "format": "Self-paced",
+        "duration": "32 mins",
+        "assigned_to": "Mike Davis",
+        "completion_date": "03/06/2026",
+        "score": 77,
+        "status": "Completed",
+        "certification": "No"
+      },
+      {
+        "module": "Sales Techniques",
+        "topic": "Negotiation Skills",
+        "format": "Live Training",
+        "duration": "33 mins",
+        "assigned_to": "Emily Chen",
+        "completion_date": "03/05/2026",
+        "score": 78,
+        "status": "Not Started",
+        "certification": "Yes"
+      },
+      {
+        "module": "Fundamentals",
+        "topic": "Account Management",
+        "format": "One-on-one",
+        "duration": "34 mins",
+        "assigned_to": "Robert Wilson",
+        "completion_date": "03/04/2026",
+        "score": 79,
+        "status": "In Progress",
+        "certification": "No"
+      },
+      {
+        "module": "Advanced",
+        "topic": "Product Overview",
+        "format": "Video",
+        "duration": "35 mins",
+        "assigned_to": "Jessica Lee",
+        "completion_date": "03/03/2026",
+        "score": 80,
+        "status": "Completed",
+        "certification": "No"
+      },
+      {
+        "module": "Product Deep-Dive",
+        "topic": "Competitive Positioning",
+        "format": "Workshop",
+        "duration": "36 mins",
+        "assigned_to": "John Smith",
+        "completion_date": "03/02/2026",
+        "score": 81,
+        "status": "Not Started",
+        "certification": "Yes"
+      },
+      {
+        "module": "Sales Techniques",
+        "topic": "Objection Handling",
+        "format": "Self-paced",
+        "duration": "37 mins",
+        "assigned_to": "Sarah Johnson",
+        "completion_date": "03/01/2026",
+        "score": 82,
+        "status": "In Progress",
+        "certification": "No"
+      },
+      {
+        "module": "Fundamentals",
+        "topic": "Negotiation Skills",
+        "format": "Live Training",
+        "duration": "38 mins",
+        "assigned_to": "Mike Davis",
+        "completion_date": "02/28/2026",
+        "score": 83,
+        "status": "Completed",
+        "certification": "No"
+      },
+      {
+        "module": "Advanced",
+        "topic": "Account Management",
+        "format": "One-on-one",
+        "duration": "39 mins",
+        "assigned_to": "Emily Chen",
+        "completion_date": "02/27/2026",
+        "score": 84,
+        "status": "Not Started",
+        "certification": "Yes"
+      },
+      {
+        "module": "Product Deep-Dive",
+        "topic": "Product Overview",
+        "format": "Video",
+        "duration": "40 mins",
+        "assigned_to": "Robert Wilson",
+        "completion_date": "02/26/2026",
+        "score": 85,
+        "status": "In Progress",
+        "certification": "No"
+      },
+      {
+        "module": "Sales Techniques",
+        "topic": "Competitive Positioning",
+        "format": "Workshop",
+        "duration": "41 mins",
+        "assigned_to": "Jessica Lee",
+        "completion_date": "02/25/2026",
+        "score": 86,
+        "status": "Completed",
+        "certification": "No"
+      },
+      {
+        "module": "Fundamentals",
+        "topic": "Objection Handling",
+        "format": "Self-paced",
+        "duration": "42 mins",
+        "assigned_to": "John Smith",
+        "completion_date": "02/24/2026",
+        "score": 87,
+        "status": "Not Started",
+        "certification": "Yes"
+      },
+      {
+        "module": "Advanced",
+        "topic": "Negotiation Skills",
+        "format": "Live Training",
+        "duration": "43 mins",
+        "assigned_to": "Sarah Johnson",
+        "completion_date": "02/23/2026",
+        "score": 88,
+        "status": "In Progress",
+        "certification": "No"
+      },
+      {
+        "module": "Product Deep-Dive",
+        "topic": "Account Management",
+        "format": "One-on-one",
+        "duration": "44 mins",
+        "assigned_to": "Mike Davis",
+        "completion_date": "02/22/2026",
+        "score": 89,
+        "status": "Completed",
+        "certification": "No"
+      },
+      {
+        "module": "Sales Techniques",
+        "topic": "Product Overview",
+        "format": "Video",
+        "duration": "45 mins",
+        "assigned_to": "Emily Chen",
+        "completion_date": "02/21/2026",
+        "score": 90,
+        "status": "Not Started",
+        "certification": "Yes"
+      },
+      {
+        "module": "Fundamentals",
+        "topic": "Competitive Positioning",
+        "format": "Workshop",
+        "duration": "46 mins",
+        "assigned_to": "Robert Wilson",
+        "completion_date": "02/20/2026",
+        "score": 91,
+        "status": "In Progress",
+        "certification": "No"
+      },
+      {
+        "module": "Advanced",
+        "topic": "Objection Handling",
+        "format": "Self-paced",
+        "duration": "47 mins",
+        "assigned_to": "Jessica Lee",
+        "completion_date": "02/19/2026",
+        "score": 92,
+        "status": "Completed",
+        "certification": "No"
+      },
+      {
+        "module": "Product Deep-Dive",
+        "topic": "Negotiation Skills",
+        "format": "Live Training",
+        "duration": "48 mins",
+        "assigned_to": "John Smith",
+        "completion_date": "02/18/2026",
+        "score": 93,
+        "status": "Not Started",
+        "certification": "Yes"
+      },
+      {
+        "module": "Sales Techniques",
+        "topic": "Account Management",
+        "format": "One-on-one",
+        "duration": "49 mins",
+        "assigned_to": "Sarah Johnson",
+        "completion_date": "02/17/2026",
+        "score": 94,
+        "status": "In Progress",
+        "certification": "No"
+      },
+      {
+        "module": "Fundamentals",
+        "topic": "Product Overview",
+        "format": "Video",
+        "duration": "50 mins",
+        "assigned_to": "Mike Davis",
+        "completion_date": "03/08/2026",
+        "score": 95,
+        "status": "Completed",
+        "certification": "No"
+      },
+      {
+        "module": "Advanced",
+        "topic": "Competitive Positioning",
+        "format": "Workshop",
+        "duration": "51 mins",
+        "assigned_to": "Emily Chen",
+        "completion_date": "03/07/2026",
+        "score": 96,
+        "status": "Not Started",
+        "certification": "Yes"
+      },
+      {
+        "module": "Product Deep-Dive",
+        "topic": "Objection Handling",
+        "format": "Self-paced",
+        "duration": "52 mins",
+        "assigned_to": "Robert Wilson",
+        "completion_date": "03/06/2026",
+        "score": 97,
+        "status": "In Progress",
+        "certification": "No"
+      },
+      {
+        "module": "Sales Techniques",
+        "topic": "Negotiation Skills",
+        "format": "Live Training",
+        "duration": "53 mins",
+        "assigned_to": "Jessica Lee",
+        "completion_date": "03/05/2026",
+        "score": 98,
+        "status": "Completed",
+        "certification": "No"
+      },
+      {
+        "module": "Fundamentals",
+        "topic": "Account Management",
+        "format": "One-on-one",
+        "duration": "54 mins",
+        "assigned_to": "John Smith",
+        "completion_date": "03/04/2026",
+        "score": 99,
+        "status": "Not Started",
+        "certification": "Yes"
+      },
+      {
+        "module": "Advanced",
+        "topic": "Product Overview",
+        "format": "Video",
+        "duration": "55 mins",
+        "assigned_to": "Sarah Johnson",
+        "completion_date": "03/03/2026",
+        "score": 75,
+        "status": "In Progress",
+        "certification": "No"
+      },
+      {
+        "module": "Product Deep-Dive",
+        "topic": "Competitive Positioning",
+        "format": "Workshop",
+        "duration": "56 mins",
+        "assigned_to": "Mike Davis",
+        "completion_date": "03/02/2026",
+        "score": 76,
+        "status": "Completed",
+        "certification": "No"
+      },
+      {
+        "module": "Sales Techniques",
+        "topic": "Objection Handling",
+        "format": "Self-paced",
+        "duration": "57 mins",
+        "assigned_to": "Emily Chen",
+        "completion_date": "03/01/2026",
+        "score": 77,
+        "status": "Not Started",
+        "certification": "Yes"
+      },
+      {
+        "module": "Fundamentals",
+        "topic": "Negotiation Skills",
+        "format": "Live Training",
+        "duration": "58 mins",
+        "assigned_to": "Robert Wilson",
+        "completion_date": "02/28/2026",
+        "score": 78,
+        "status": "In Progress",
+        "certification": "No"
+      },
+      {
+        "module": "Advanced",
+        "topic": "Account Management",
+        "format": "One-on-one",
+        "duration": "59 mins",
+        "assigned_to": "Jessica Lee",
+        "completion_date": "02/27/2026",
+        "score": 79,
+        "status": "Completed",
+        "certification": "No"
+      }
+    ],
+    "pipeline_support": [
+      {
+        "deal": "DEAL-000",
+        "stage": "Prospecting",
+        "value": 50000,
+        "sales_rep": "John Smith",
+        "content_used": "Case Study",
+        "content_needed": "Demo",
+        "next_action": "Schedule demo / Send proposal / Follow up",
+        "win_probability": 0.5,
+        "notes": "Deal progressing well"
+      },
+      {
+        "deal": "DEAL-001",
+        "stage": "Discovery",
+        "value": 52000,
+        "sales_rep": "Sarah Johnson",
+        "content_used": "Demo",
+        "content_needed": "One-pager",
+        "next_action": "Schedule demo / Send proposal / Follow up",
+        "win_probability": 0.51,
+        "notes": "Awaiting stakeholder feedback"
+      },
+      {
+        "deal": "DEAL-002",
+        "stage": "Qualification",
+        "value": 54000,
+        "sales_rep": "Mike Davis",
+        "content_used": "One-pager",
+        "content_needed": "ROI Calculator",
+        "next_action": "Schedule demo / Send proposal / Follow up",
+        "win_probability": 0.52,
+        "notes": "Deal progressing well"
+      },
+      {
+        "deal": "DEAL-003",
+        "stage": "Solution Design",
+        "value": 56000,
+        "sales_rep": "Emily Chen",
+        "content_used": "ROI Calculator",
+        "content_needed": "Battle Card",
+        "next_action": "Schedule demo / Send proposal / Follow up",
+        "win_probability": 0.53,
+        "notes": "Awaiting stakeholder feedback"
+      },
+      {
+        "deal": "DEAL-004",
+        "stage": "Proposal",
+        "value": 58000,
+        "sales_rep": "Robert Wilson",
+        "content_used": "Battle Card",
+        "content_needed": "Whitepaper",
+        "next_action": "Schedule demo / Send proposal / Follow up",
+        "win_probability": 0.54,
+        "notes": "Deal progressing well"
+      },
+      {
+        "deal": "DEAL-005",
+        "stage": "Negotiation",
+        "value": 60000,
+        "sales_rep": "Jessica Lee",
+        "content_used": "Whitepaper",
+        "content_needed": "Case Study",
+        "next_action": "Schedule demo / Send proposal / Follow up",
+        "win_probability": 0.55,
+        "notes": "Awaiting stakeholder feedback"
+      },
+      {
+        "deal": "DEAL-006",
+        "stage": "Closing",
+        "value": 62000,
+        "sales_rep": "John Smith",
+        "content_used": "Case Study",
+        "content_needed": "Demo",
+        "next_action": "Schedule demo / Send proposal / Follow up",
+        "win_probability": 0.56,
+        "notes": "Deal progressing well"
+      },
+      {
+        "deal": "DEAL-007",
+        "stage": "Prospecting",
+        "value": 64000,
+        "sales_rep": "Sarah Johnson",
+        "content_used": "Demo",
+        "content_needed": "One-pager",
+        "next_action": "Schedule demo / Send proposal / Follow up",
+        "win_probability": 0.57,
+        "notes": "Awaiting stakeholder feedback"
+      },
+      {
+        "deal": "DEAL-008",
+        "stage": "Discovery",
+        "value": 66000,
+        "sales_rep": "Mike Davis",
+        "content_used": "One-pager",
+        "content_needed": "ROI Calculator",
+        "next_action": "Schedule demo / Send proposal / Follow up",
+        "win_probability": 0.58,
+        "notes": "Deal progressing well"
+      },
+      {
+        "deal": "DEAL-009",
+        "stage": "Qualification",
+        "value": 68000,
+        "sales_rep": "Emily Chen",
+        "content_used": "ROI Calculator",
+        "content_needed": "Battle Card",
+        "next_action": "Schedule demo / Send proposal / Follow up",
+        "win_probability": 0.59,
+        "notes": "Awaiting stakeholder feedback"
+      },
+      {
+        "deal": "DEAL-010",
+        "stage": "Solution Design",
+        "value": 70000,
+        "sales_rep": "Robert Wilson",
+        "content_used": "Battle Card",
+        "content_needed": "Whitepaper",
+        "next_action": "Schedule demo / Send proposal / Follow up",
+        "win_probability": 0.6,
+        "notes": "Deal progressing well"
+      },
+      {
+        "deal": "DEAL-011",
+        "stage": "Proposal",
+        "value": 72000,
+        "sales_rep": "Jessica Lee",
+        "content_used": "Whitepaper",
+        "content_needed": "Case Study",
+        "next_action": "Schedule demo / Send proposal / Follow up",
+        "win_probability": 0.61,
+        "notes": "Awaiting stakeholder feedback"
+      },
+      {
+        "deal": "DEAL-012",
+        "stage": "Negotiation",
+        "value": 74000,
+        "sales_rep": "John Smith",
+        "content_used": "Case Study",
+        "content_needed": "Demo",
+        "next_action": "Schedule demo / Send proposal / Follow up",
+        "win_probability": 0.62,
+        "notes": "Deal progressing well"
+      },
+      {
+        "deal": "DEAL-013",
+        "stage": "Closing",
+        "value": 76000,
+        "sales_rep": "Sarah Johnson",
+        "content_used": "Demo",
+        "content_needed": "One-pager",
+        "next_action": "Schedule demo / Send proposal / Follow up",
+        "win_probability": 0.63,
+        "notes": "Awaiting stakeholder feedback"
+      },
+      {
+        "deal": "DEAL-014",
+        "stage": "Prospecting",
+        "value": 78000,
+        "sales_rep": "Mike Davis",
+        "content_used": "One-pager",
+        "content_needed": "ROI Calculator",
+        "next_action": "Schedule demo / Send proposal / Follow up",
+        "win_probability": 0.64,
+        "notes": "Deal progressing well"
+      },
+      {
+        "deal": "DEAL-015",
+        "stage": "Discovery",
+        "value": 80000,
+        "sales_rep": "Emily Chen",
+        "content_used": "ROI Calculator",
+        "content_needed": "Battle Card",
+        "next_action": "Schedule demo / Send proposal / Follow up",
+        "win_probability": 0.65,
+        "notes": "Awaiting stakeholder feedback"
+      },
+      {
+        "deal": "DEAL-016",
+        "stage": "Qualification",
+        "value": 82000,
+        "sales_rep": "Robert Wilson",
+        "content_used": "Battle Card",
+        "content_needed": "Whitepaper",
+        "next_action": "Schedule demo / Send proposal / Follow up",
+        "win_probability": 0.66,
+        "notes": "Deal progressing well"
+      },
+      {
+        "deal": "DEAL-017",
+        "stage": "Solution Design",
+        "value": 84000,
+        "sales_rep": "Jessica Lee",
+        "content_used": "Whitepaper",
+        "content_needed": "Case Study",
+        "next_action": "Schedule demo / Send proposal / Follow up",
+        "win_probability": 0.67,
+        "notes": "Awaiting stakeholder feedback"
+      },
+      {
+        "deal": "DEAL-018",
+        "stage": "Proposal",
+        "value": 86000,
+        "sales_rep": "John Smith",
+        "content_used": "Case Study",
+        "content_needed": "Demo",
+        "next_action": "Schedule demo / Send proposal / Follow up",
+        "win_probability": 0.68,
+        "notes": "Deal progressing well"
+      },
+      {
+        "deal": "DEAL-019",
+        "stage": "Negotiation",
+        "value": 88000,
+        "sales_rep": "Sarah Johnson",
+        "content_used": "Demo",
+        "content_needed": "One-pager",
+        "next_action": "Schedule demo / Send proposal / Follow up",
+        "win_probability": 0.69,
+        "notes": "Awaiting stakeholder feedback"
+      },
+      {
+        "deal": "DEAL-020",
+        "stage": "Closing",
+        "value": 90000,
+        "sales_rep": "Mike Davis",
+        "content_used": "One-pager",
+        "content_needed": "ROI Calculator",
+        "next_action": "Schedule demo / Send proposal / Follow up",
+        "win_probability": 0.7,
+        "notes": "Deal progressing well"
+      },
+      {
+        "deal": "DEAL-021",
+        "stage": "Prospecting",
+        "value": 92000,
+        "sales_rep": "Emily Chen",
+        "content_used": "ROI Calculator",
+        "content_needed": "Battle Card",
+        "next_action": "Schedule demo / Send proposal / Follow up",
+        "win_probability": 0.71,
+        "notes": "Awaiting stakeholder feedback"
+      },
+      {
+        "deal": "DEAL-022",
+        "stage": "Discovery",
+        "value": 94000,
+        "sales_rep": "Robert Wilson",
+        "content_used": "Battle Card",
+        "content_needed": "Whitepaper",
+        "next_action": "Schedule demo / Send proposal / Follow up",
+        "win_probability": 0.72,
+        "notes": "Deal progressing well"
+      },
+      {
+        "deal": "DEAL-023",
+        "stage": "Qualification",
+        "value": 96000,
+        "sales_rep": "Jessica Lee",
+        "content_used": "Whitepaper",
+        "content_needed": "Case Study",
+        "next_action": "Schedule demo / Send proposal / Follow up",
+        "win_probability": 0.73,
+        "notes": "Awaiting stakeholder feedback"
+      },
+      {
+        "deal": "DEAL-024",
+        "stage": "Solution Design",
+        "value": 98000,
+        "sales_rep": "John Smith",
+        "content_used": "Case Study",
+        "content_needed": "Demo",
+        "next_action": "Schedule demo / Send proposal / Follow up",
+        "win_probability": 0.74,
+        "notes": "Deal progressing well"
+      },
+      {
+        "deal": "DEAL-025",
+        "stage": "Proposal",
+        "value": 100000,
+        "sales_rep": "Sarah Johnson",
+        "content_used": "Demo",
+        "content_needed": "One-pager",
+        "next_action": "Schedule demo / Send proposal / Follow up",
+        "win_probability": 0.75,
+        "notes": "Awaiting stakeholder feedback"
+      },
+      {
+        "deal": "DEAL-026",
+        "stage": "Negotiation",
+        "value": 102000,
+        "sales_rep": "Mike Davis",
+        "content_used": "One-pager",
+        "content_needed": "ROI Calculator",
+        "next_action": "Schedule demo / Send proposal / Follow up",
+        "win_probability": 0.76,
+        "notes": "Deal progressing well"
+      },
+      {
+        "deal": "DEAL-027",
+        "stage": "Closing",
+        "value": 104000,
+        "sales_rep": "Emily Chen",
+        "content_used": "ROI Calculator",
+        "content_needed": "Battle Card",
+        "next_action": "Schedule demo / Send proposal / Follow up",
+        "win_probability": 0.77,
+        "notes": "Awaiting stakeholder feedback"
+      },
+      {
+        "deal": "DEAL-028",
+        "stage": "Prospecting",
+        "value": 106000,
+        "sales_rep": "Robert Wilson",
+        "content_used": "Battle Card",
+        "content_needed": "Whitepaper",
+        "next_action": "Schedule demo / Send proposal / Follow up",
+        "win_probability": 0.78,
+        "notes": "Deal progressing well"
+      },
+      {
+        "deal": "DEAL-029",
+        "stage": "Discovery",
+        "value": 108000,
+        "sales_rep": "Jessica Lee",
+        "content_used": "Whitepaper",
+        "content_needed": "Case Study",
+        "next_action": "Schedule demo / Send proposal / Follow up",
+        "win_probability": 0.79,
+        "notes": "Awaiting stakeholder feedback"
+      },
+      {
+        "deal": "DEAL-030",
+        "stage": "Qualification",
+        "value": 110000,
+        "sales_rep": "John Smith",
+        "content_used": "Case Study",
+        "content_needed": "Demo",
+        "next_action": "Schedule demo / Send proposal / Follow up",
+        "win_probability": 0.8,
+        "notes": "Deal progressing well"
+      },
+      {
+        "deal": "DEAL-031",
+        "stage": "Solution Design",
+        "value": 112000,
+        "sales_rep": "Sarah Johnson",
+        "content_used": "Demo",
+        "content_needed": "One-pager",
+        "next_action": "Schedule demo / Send proposal / Follow up",
+        "win_probability": 0.81,
+        "notes": "Awaiting stakeholder feedback"
+      },
+      {
+        "deal": "DEAL-032",
+        "stage": "Proposal",
+        "value": 114000,
+        "sales_rep": "Mike Davis",
+        "content_used": "One-pager",
+        "content_needed": "ROI Calculator",
+        "next_action": "Schedule demo / Send proposal / Follow up",
+        "win_probability": 0.82,
+        "notes": "Deal progressing well"
+      },
+      {
+        "deal": "DEAL-033",
+        "stage": "Negotiation",
+        "value": 116000,
+        "sales_rep": "Emily Chen",
+        "content_used": "ROI Calculator",
+        "content_needed": "Battle Card",
+        "next_action": "Schedule demo / Send proposal / Follow up",
+        "win_probability": 0.83,
+        "notes": "Awaiting stakeholder feedback"
+      },
+      {
+        "deal": "DEAL-034",
+        "stage": "Closing",
+        "value": 118000,
+        "sales_rep": "Robert Wilson",
+        "content_used": "Battle Card",
+        "content_needed": "Whitepaper",
+        "next_action": "Schedule demo / Send proposal / Follow up",
+        "win_probability": 0.84,
+        "notes": "Deal progressing well"
+      },
+      {
+        "deal": "DEAL-035",
+        "stage": "Prospecting",
+        "value": 120000,
+        "sales_rep": "Jessica Lee",
+        "content_used": "Whitepaper",
+        "content_needed": "Case Study",
+        "next_action": "Schedule demo / Send proposal / Follow up",
+        "win_probability": 0.85,
+        "notes": "Awaiting stakeholder feedback"
+      },
+      {
+        "deal": "DEAL-036",
+        "stage": "Discovery",
+        "value": 122000,
+        "sales_rep": "John Smith",
+        "content_used": "Case Study",
+        "content_needed": "Demo",
+        "next_action": "Schedule demo / Send proposal / Follow up",
+        "win_probability": 0.86,
+        "notes": "Deal progressing well"
+      },
+      {
+        "deal": "DEAL-037",
+        "stage": "Qualification",
+        "value": 124000,
+        "sales_rep": "Sarah Johnson",
+        "content_used": "Demo",
+        "content_needed": "One-pager",
+        "next_action": "Schedule demo / Send proposal / Follow up",
+        "win_probability": 0.87,
+        "notes": "Awaiting stakeholder feedback"
+      },
+      {
+        "deal": "DEAL-038",
+        "stage": "Solution Design",
+        "value": 126000,
+        "sales_rep": "Mike Davis",
+        "content_used": "One-pager",
+        "content_needed": "ROI Calculator",
+        "next_action": "Schedule demo / Send proposal / Follow up",
+        "win_probability": 0.88,
+        "notes": "Deal progressing well"
+      },
+      {
+        "deal": "DEAL-039",
+        "stage": "Proposal",
+        "value": 128000,
+        "sales_rep": "Emily Chen",
+        "content_used": "ROI Calculator",
+        "content_needed": "Battle Card",
+        "next_action": "Schedule demo / Send proposal / Follow up",
+        "win_probability": 0.89,
+        "notes": "Awaiting stakeholder feedback"
+      },
+      {
+        "deal": "DEAL-040",
+        "stage": "Negotiation",
+        "value": 130000,
+        "sales_rep": "Robert Wilson",
+        "content_used": "Battle Card",
+        "content_needed": "Whitepaper",
+        "next_action": "Schedule demo / Send proposal / Follow up",
+        "win_probability": 0.5,
+        "notes": "Deal progressing well"
+      },
+      {
+        "deal": "DEAL-041",
+        "stage": "Closing",
+        "value": 132000,
+        "sales_rep": "Jessica Lee",
+        "content_used": "Whitepaper",
+        "content_needed": "Case Study",
+        "next_action": "Schedule demo / Send proposal / Follow up",
+        "win_probability": 0.51,
+        "notes": "Awaiting stakeholder feedback"
+      },
+      {
+        "deal": "DEAL-042",
+        "stage": "Prospecting",
+        "value": 134000,
+        "sales_rep": "John Smith",
+        "content_used": "Case Study",
+        "content_needed": "Demo",
+        "next_action": "Schedule demo / Send proposal / Follow up",
+        "win_probability": 0.52,
+        "notes": "Deal progressing well"
+      },
+      {
+        "deal": "DEAL-043",
+        "stage": "Discovery",
+        "value": 136000,
+        "sales_rep": "Sarah Johnson",
+        "content_used": "Demo",
+        "content_needed": "One-pager",
+        "next_action": "Schedule demo / Send proposal / Follow up",
+        "win_probability": 0.53,
+        "notes": "Awaiting stakeholder feedback"
+      },
+      {
+        "deal": "DEAL-044",
+        "stage": "Qualification",
+        "value": 138000,
+        "sales_rep": "Mike Davis",
+        "content_used": "One-pager",
+        "content_needed": "ROI Calculator",
+        "next_action": "Schedule demo / Send proposal / Follow up",
+        "win_probability": 0.54,
+        "notes": "Deal progressing well"
+      },
+      {
+        "deal": "DEAL-045",
+        "stage": "Solution Design",
+        "value": 140000,
+        "sales_rep": "Emily Chen",
+        "content_used": "ROI Calculator",
+        "content_needed": "Battle Card",
+        "next_action": "Schedule demo / Send proposal / Follow up",
+        "win_probability": 0.55,
+        "notes": "Awaiting stakeholder feedback"
+      },
+      {
+        "deal": "DEAL-046",
+        "stage": "Proposal",
+        "value": 142000,
+        "sales_rep": "Robert Wilson",
+        "content_used": "Battle Card",
+        "content_needed": "Whitepaper",
+        "next_action": "Schedule demo / Send proposal / Follow up",
+        "win_probability": 0.56,
+        "notes": "Deal progressing well"
+      },
+      {
+        "deal": "DEAL-047",
+        "stage": "Negotiation",
+        "value": 144000,
+        "sales_rep": "Jessica Lee",
+        "content_used": "Whitepaper",
+        "content_needed": "Case Study",
+        "next_action": "Schedule demo / Send proposal / Follow up",
+        "win_probability": 0.57,
+        "notes": "Awaiting stakeholder feedback"
+      },
+      {
+        "deal": "DEAL-048",
+        "stage": "Closing",
+        "value": 146000,
+        "sales_rep": "John Smith",
+        "content_used": "Case Study",
+        "content_needed": "Demo",
+        "next_action": "Schedule demo / Send proposal / Follow up",
+        "win_probability": 0.58,
+        "notes": "Deal progressing well"
+      },
+      {
+        "deal": "DEAL-049",
+        "stage": "Prospecting",
+        "value": 148000,
+        "sales_rep": "Sarah Johnson",
+        "content_used": "Demo",
+        "content_needed": "One-pager",
+        "next_action": "Schedule demo / Send proposal / Follow up",
+        "win_probability": 0.59,
+        "notes": "Awaiting stakeholder feedback"
+      }
+    ],
+    "feedback_loop": [
+      {
+        "date": "03/08/2026",
+        "sales_rep": "John Smith",
+        "content_asset": "Case Study A",
+        "feedback_type": "Positive",
+        "details": "Feedback: This asset was very helpful in the sales call",
+        "priority": "Low",
+        "action_taken": "Updated asset / Scheduled training / Created new content",
+        "status": "Open"
+      },
+      {
+        "date": "03/07/2026",
+        "sales_rep": "Sarah Johnson",
+        "content_asset": "Demo Script",
+        "feedback_type": "Improvement",
+        "details": "Feedback: This asset was very helpful in the sales call",
+        "priority": "Medium",
+        "action_taken": "Updated asset / Scheduled training / Created new content",
+        "status": "In Progress"
+      },
+      {
+        "date": "03/06/2026",
+        "sales_rep": "Mike Davis",
+        "content_asset": "One-pager",
+        "feedback_type": "Missing",
+        "details": "Feedback: This asset was very helpful in the sales call",
+        "priority": "High",
+        "action_taken": "Updated asset / Scheduled training / Created new content",
+        "status": "Closed"
+      },
+      {
+        "date": "03/05/2026",
+        "sales_rep": "Emily Chen",
+        "content_asset": "ROI Calculator",
+        "feedback_type": "Outdated",
+        "details": "Feedback: This asset was very helpful in the sales call",
+        "priority": "Low",
+        "action_taken": "Updated asset / Scheduled training / Created new content",
+        "status": "Open"
+      },
+      {
+        "date": "03/04/2026",
+        "sales_rep": "Robert Wilson",
+        "content_asset": "Battle Card",
+        "feedback_type": "Positive",
+        "details": "Feedback: This asset was very helpful in the sales call",
+        "priority": "Medium",
+        "action_taken": "Updated asset / Scheduled training / Created new content",
+        "status": "In Progress"
+      },
+      {
+        "date": "03/03/2026",
+        "sales_rep": "Jessica Lee",
+        "content_asset": "Whitepaper",
+        "feedback_type": "Improvement",
+        "details": "Feedback: This asset was very helpful in the sales call",
+        "priority": "High",
+        "action_taken": "Updated asset / Scheduled training / Created new content",
+        "status": "Closed"
+      },
+      {
+        "date": "03/02/2026",
+        "sales_rep": "John Smith",
+        "content_asset": "Objection Handler",
+        "feedback_type": "Missing",
+        "details": "Feedback: This asset was very helpful in the sales call",
+        "priority": "Low",
+        "action_taken": "Updated asset / Scheduled training / Created new content",
+        "status": "Open"
+      },
+      {
+        "date": "03/01/2026",
+        "sales_rep": "Sarah Johnson",
+        "content_asset": "Case Study A",
+        "feedback_type": "Outdated",
+        "details": "Feedback: This asset was very helpful in the sales call",
+        "priority": "Medium",
+        "action_taken": "Updated asset / Scheduled training / Created new content",
+        "status": "In Progress"
+      },
+      {
+        "date": "02/28/2026",
+        "sales_rep": "Mike Davis",
+        "content_asset": "Demo Script",
+        "feedback_type": "Positive",
+        "details": "Feedback: This asset was very helpful in the sales call",
+        "priority": "High",
+        "action_taken": "Updated asset / Scheduled training / Created new content",
+        "status": "Closed"
+      },
+      {
+        "date": "02/27/2026",
+        "sales_rep": "Emily Chen",
+        "content_asset": "One-pager",
+        "feedback_type": "Improvement",
+        "details": "Feedback: This asset was very helpful in the sales call",
+        "priority": "Low",
+        "action_taken": "Updated asset / Scheduled training / Created new content",
+        "status": "Open"
+      },
+      {
+        "date": "02/26/2026",
+        "sales_rep": "Robert Wilson",
+        "content_asset": "ROI Calculator",
+        "feedback_type": "Missing",
+        "details": "Feedback: This asset was very helpful in the sales call",
+        "priority": "Medium",
+        "action_taken": "Updated asset / Scheduled training / Created new content",
+        "status": "In Progress"
+      },
+      {
+        "date": "02/25/2026",
+        "sales_rep": "Jessica Lee",
+        "content_asset": "Battle Card",
+        "feedback_type": "Outdated",
+        "details": "Feedback: This asset was very helpful in the sales call",
+        "priority": "High",
+        "action_taken": "Updated asset / Scheduled training / Created new content",
+        "status": "Closed"
+      },
+      {
+        "date": "02/24/2026",
+        "sales_rep": "John Smith",
+        "content_asset": "Whitepaper",
+        "feedback_type": "Positive",
+        "details": "Feedback: This asset was very helpful in the sales call",
+        "priority": "Low",
+        "action_taken": "Updated asset / Scheduled training / Created new content",
+        "status": "Open"
+      },
+      {
+        "date": "02/23/2026",
+        "sales_rep": "Sarah Johnson",
+        "content_asset": "Objection Handler",
+        "feedback_type": "Improvement",
+        "details": "Feedback: This asset was very helpful in the sales call",
+        "priority": "Medium",
+        "action_taken": "Updated asset / Scheduled training / Created new content",
+        "status": "In Progress"
+      },
+      {
+        "date": "02/22/2026",
+        "sales_rep": "Mike Davis",
+        "content_asset": "Case Study A",
+        "feedback_type": "Missing",
+        "details": "Feedback: This asset was very helpful in the sales call",
+        "priority": "High",
+        "action_taken": "Updated asset / Scheduled training / Created new content",
+        "status": "Closed"
+      },
+      {
+        "date": "02/21/2026",
+        "sales_rep": "Emily Chen",
+        "content_asset": "Demo Script",
+        "feedback_type": "Outdated",
+        "details": "Feedback: This asset was very helpful in the sales call",
+        "priority": "Low",
+        "action_taken": "Updated asset / Scheduled training / Created new content",
+        "status": "Open"
+      },
+      {
+        "date": "02/20/2026",
+        "sales_rep": "Robert Wilson",
+        "content_asset": "One-pager",
+        "feedback_type": "Positive",
+        "details": "Feedback: This asset was very helpful in the sales call",
+        "priority": "Medium",
+        "action_taken": "Updated asset / Scheduled training / Created new content",
+        "status": "In Progress"
+      },
+      {
+        "date": "02/19/2026",
+        "sales_rep": "Jessica Lee",
+        "content_asset": "ROI Calculator",
+        "feedback_type": "Improvement",
+        "details": "Feedback: This asset was very helpful in the sales call",
+        "priority": "High",
+        "action_taken": "Updated asset / Scheduled training / Created new content",
+        "status": "Closed"
+      },
+      {
+        "date": "02/18/2026",
+        "sales_rep": "John Smith",
+        "content_asset": "Battle Card",
+        "feedback_type": "Missing",
+        "details": "Feedback: This asset was very helpful in the sales call",
+        "priority": "Low",
+        "action_taken": "Updated asset / Scheduled training / Created new content",
+        "status": "Open"
+      },
+      {
+        "date": "02/17/2026",
+        "sales_rep": "Sarah Johnson",
+        "content_asset": "Whitepaper",
+        "feedback_type": "Outdated",
+        "details": "Feedback: This asset was very helpful in the sales call",
+        "priority": "Medium",
+        "action_taken": "Updated asset / Scheduled training / Created new content",
+        "status": "In Progress"
+      },
+      {
+        "date": "02/16/2026",
+        "sales_rep": "Mike Davis",
+        "content_asset": "Objection Handler",
+        "feedback_type": "Positive",
+        "details": "Feedback: This asset was very helpful in the sales call",
+        "priority": "High",
+        "action_taken": "Updated asset / Scheduled training / Created new content",
+        "status": "Closed"
+      },
+      {
+        "date": "02/15/2026",
+        "sales_rep": "Emily Chen",
+        "content_asset": "Case Study A",
+        "feedback_type": "Improvement",
+        "details": "Feedback: This asset was very helpful in the sales call",
+        "priority": "Low",
+        "action_taken": "Updated asset / Scheduled training / Created new content",
+        "status": "Open"
+      },
+      {
+        "date": "02/14/2026",
+        "sales_rep": "Robert Wilson",
+        "content_asset": "Demo Script",
+        "feedback_type": "Missing",
+        "details": "Feedback: This asset was very helpful in the sales call",
+        "priority": "Medium",
+        "action_taken": "Updated asset / Scheduled training / Created new content",
+        "status": "In Progress"
+      },
+      {
+        "date": "02/13/2026",
+        "sales_rep": "Jessica Lee",
+        "content_asset": "One-pager",
+        "feedback_type": "Outdated",
+        "details": "Feedback: This asset was very helpful in the sales call",
+        "priority": "High",
+        "action_taken": "Updated asset / Scheduled training / Created new content",
+        "status": "Closed"
+      },
+      {
+        "date": "02/12/2026",
+        "sales_rep": "John Smith",
+        "content_asset": "ROI Calculator",
+        "feedback_type": "Positive",
+        "details": "Feedback: This asset was very helpful in the sales call",
+        "priority": "Low",
+        "action_taken": "Updated asset / Scheduled training / Created new content",
+        "status": "Open"
+      },
+      {
+        "date": "02/11/2026",
+        "sales_rep": "Sarah Johnson",
+        "content_asset": "Battle Card",
+        "feedback_type": "Improvement",
+        "details": "Feedback: This asset was very helpful in the sales call",
+        "priority": "Medium",
+        "action_taken": "Updated asset / Scheduled training / Created new content",
+        "status": "In Progress"
+      },
+      {
+        "date": "02/10/2026",
+        "sales_rep": "Mike Davis",
+        "content_asset": "Whitepaper",
+        "feedback_type": "Missing",
+        "details": "Feedback: This asset was very helpful in the sales call",
+        "priority": "High",
+        "action_taken": "Updated asset / Scheduled training / Created new content",
+        "status": "Closed"
+      },
+      {
+        "date": "02/09/2026",
+        "sales_rep": "Emily Chen",
+        "content_asset": "Objection Handler",
+        "feedback_type": "Outdated",
+        "details": "Feedback: This asset was very helpful in the sales call",
+        "priority": "Low",
+        "action_taken": "Updated asset / Scheduled training / Created new content",
+        "status": "Open"
+      },
+      {
+        "date": "02/08/2026",
+        "sales_rep": "Robert Wilson",
+        "content_asset": "Case Study A",
+        "feedback_type": "Positive",
+        "details": "Feedback: This asset was very helpful in the sales call",
+        "priority": "Medium",
+        "action_taken": "Updated asset / Scheduled training / Created new content",
+        "status": "In Progress"
+      },
+      {
+        "date": "02/07/2026",
+        "sales_rep": "Jessica Lee",
+        "content_asset": "Demo Script",
+        "feedback_type": "Improvement",
+        "details": "Feedback: This asset was very helpful in the sales call",
+        "priority": "High",
+        "action_taken": "Updated asset / Scheduled training / Created new content",
+        "status": "Closed"
+      },
+      {
+        "date": "03/08/2026",
+        "sales_rep": "John Smith",
+        "content_asset": "One-pager",
+        "feedback_type": "Missing",
+        "details": "Feedback: This asset was very helpful in the sales call",
+        "priority": "Low",
+        "action_taken": "Updated asset / Scheduled training / Created new content",
+        "status": "Open"
+      },
+      {
+        "date": "03/07/2026",
+        "sales_rep": "Sarah Johnson",
+        "content_asset": "ROI Calculator",
+        "feedback_type": "Outdated",
+        "details": "Feedback: This asset was very helpful in the sales call",
+        "priority": "Medium",
+        "action_taken": "Updated asset / Scheduled training / Created new content",
+        "status": "In Progress"
+      },
+      {
+        "date": "03/06/2026",
+        "sales_rep": "Mike Davis",
+        "content_asset": "Battle Card",
+        "feedback_type": "Positive",
+        "details": "Feedback: This asset was very helpful in the sales call",
+        "priority": "High",
+        "action_taken": "Updated asset / Scheduled training / Created new content",
+        "status": "Closed"
+      },
+      {
+        "date": "03/05/2026",
+        "sales_rep": "Emily Chen",
+        "content_asset": "Whitepaper",
+        "feedback_type": "Improvement",
+        "details": "Feedback: This asset was very helpful in the sales call",
+        "priority": "Low",
+        "action_taken": "Updated asset / Scheduled training / Created new content",
+        "status": "Open"
+      },
+      {
+        "date": "03/04/2026",
+        "sales_rep": "Robert Wilson",
+        "content_asset": "Objection Handler",
+        "feedback_type": "Missing",
+        "details": "Feedback: This asset was very helpful in the sales call",
+        "priority": "Medium",
+        "action_taken": "Updated asset / Scheduled training / Created new content",
+        "status": "In Progress"
+      },
+      {
+        "date": "03/03/2026",
+        "sales_rep": "Jessica Lee",
+        "content_asset": "Case Study A",
+        "feedback_type": "Outdated",
+        "details": "Feedback: This asset was very helpful in the sales call",
+        "priority": "High",
+        "action_taken": "Updated asset / Scheduled training / Created new content",
+        "status": "Closed"
+      },
+      {
+        "date": "03/02/2026",
+        "sales_rep": "John Smith",
+        "content_asset": "Demo Script",
+        "feedback_type": "Positive",
+        "details": "Feedback: This asset was very helpful in the sales call",
+        "priority": "Low",
+        "action_taken": "Updated asset / Scheduled training / Created new content",
+        "status": "Open"
+      },
+      {
+        "date": "03/01/2026",
+        "sales_rep": "Sarah Johnson",
+        "content_asset": "One-pager",
+        "feedback_type": "Improvement",
+        "details": "Feedback: This asset was very helpful in the sales call",
+        "priority": "Medium",
+        "action_taken": "Updated asset / Scheduled training / Created new content",
+        "status": "In Progress"
+      },
+      {
+        "date": "02/28/2026",
+        "sales_rep": "Mike Davis",
+        "content_asset": "ROI Calculator",
+        "feedback_type": "Missing",
+        "details": "Feedback: This asset was very helpful in the sales call",
+        "priority": "High",
+        "action_taken": "Updated asset / Scheduled training / Created new content",
+        "status": "Closed"
+      },
+      {
+        "date": "02/27/2026",
+        "sales_rep": "Emily Chen",
+        "content_asset": "Battle Card",
+        "feedback_type": "Outdated",
+        "details": "Feedback: This asset was very helpful in the sales call",
+        "priority": "Low",
+        "action_taken": "Updated asset / Scheduled training / Created new content",
+        "status": "Open"
+      },
+      {
+        "date": "02/26/2026",
+        "sales_rep": "Robert Wilson",
+        "content_asset": "Whitepaper",
+        "feedback_type": "Positive",
+        "details": "Feedback: This asset was very helpful in the sales call",
+        "priority": "Medium",
+        "action_taken": "Updated asset / Scheduled training / Created new content",
+        "status": "In Progress"
+      },
+      {
+        "date": "02/25/2026",
+        "sales_rep": "Jessica Lee",
+        "content_asset": "Objection Handler",
+        "feedback_type": "Improvement",
+        "details": "Feedback: This asset was very helpful in the sales call",
+        "priority": "High",
+        "action_taken": "Updated asset / Scheduled training / Created new content",
+        "status": "Closed"
+      },
+      {
+        "date": "02/24/2026",
+        "sales_rep": "John Smith",
+        "content_asset": "Case Study A",
+        "feedback_type": "Missing",
+        "details": "Feedback: This asset was very helpful in the sales call",
+        "priority": "Low",
+        "action_taken": "Updated asset / Scheduled training / Created new content",
+        "status": "Open"
+      },
+      {
+        "date": "02/23/2026",
+        "sales_rep": "Sarah Johnson",
+        "content_asset": "Demo Script",
+        "feedback_type": "Outdated",
+        "details": "Feedback: This asset was very helpful in the sales call",
+        "priority": "Medium",
+        "action_taken": "Updated asset / Scheduled training / Created new content",
+        "status": "In Progress"
+      },
+      {
+        "date": "02/22/2026",
+        "sales_rep": "Mike Davis",
+        "content_asset": "One-pager",
+        "feedback_type": "Positive",
+        "details": "Feedback: This asset was very helpful in the sales call",
+        "priority": "High",
+        "action_taken": "Updated asset / Scheduled training / Created new content",
+        "status": "Closed"
+      },
+      {
+        "date": "02/21/2026",
+        "sales_rep": "Emily Chen",
+        "content_asset": "ROI Calculator",
+        "feedback_type": "Improvement",
+        "details": "Feedback: This asset was very helpful in the sales call",
+        "priority": "Low",
+        "action_taken": "Updated asset / Scheduled training / Created new content",
+        "status": "Open"
+      },
+      {
+        "date": "02/20/2026",
+        "sales_rep": "Robert Wilson",
+        "content_asset": "Battle Card",
+        "feedback_type": "Missing",
+        "details": "Feedback: This asset was very helpful in the sales call",
+        "priority": "Medium",
+        "action_taken": "Updated asset / Scheduled training / Created new content",
+        "status": "In Progress"
+      },
+      {
+        "date": "02/19/2026",
+        "sales_rep": "Jessica Lee",
+        "content_asset": "Whitepaper",
+        "feedback_type": "Outdated",
+        "details": "Feedback: This asset was very helpful in the sales call",
+        "priority": "High",
+        "action_taken": "Updated asset / Scheduled training / Created new content",
+        "status": "Closed"
+      },
+      {
+        "date": "02/18/2026",
+        "sales_rep": "John Smith",
+        "content_asset": "Objection Handler",
+        "feedback_type": "Positive",
+        "details": "Feedback: This asset was very helpful in the sales call",
+        "priority": "Low",
+        "action_taken": "Updated asset / Scheduled training / Created new content",
+        "status": "Open"
+      },
+      {
+        "date": "02/17/2026",
+        "sales_rep": "Sarah Johnson",
+        "content_asset": "Case Study A",
+        "feedback_type": "Improvement",
+        "details": "Feedback: This asset was very helpful in the sales call",
+        "priority": "Medium",
+        "action_taken": "Updated asset / Scheduled training / Created new content",
+        "status": "In Progress"
+      }
+    ]
+  }
+}

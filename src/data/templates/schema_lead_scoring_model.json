@@ -1,0 +1,377 @@
+{
+  "id": "lead_scoring_model",
+  "name": "Lead Scoring Model",
+  "category": "growth",
+  "sheets": [
+    {
+      "id": "dashboard",
+      "name": "Dashboard",
+      "type": "summary"
+    },
+    {
+      "id": "scoring_criteria",
+      "name": "Scoring Criteria",
+      "type": "table",
+      "columns": [
+        {
+          "id": "col_0",
+          "header": "#",
+          "type": "text"
+        },
+        {
+          "id": "criteria",
+          "header": "Criteria",
+          "type": "text"
+        },
+        {
+          "id": "points",
+          "header": "Points",
+          "type": "number"
+        },
+        {
+          "id": "description",
+          "header": "Description",
+          "type": "textarea",
+          "width": "250px"
+        },
+        {
+          "id": "example_high_score",
+          "header": "Example: High Score",
+          "type": "score",
+          "min": 1,
+          "max": 5,
+          "colorScale": {
+            "ranges": [
+              {
+                "min": 1,
+                "max": 2,
+                "color": "#ef4444"
+              },
+              {
+                "min": 3,
+                "max": 3,
+                "color": "#eab308"
+              },
+              {
+                "min": 4,
+                "max": 5,
+                "color": "#22c55e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "example_low_score",
+          "header": "Example: Low Score",
+          "type": "score",
+          "min": 1,
+          "max": 5,
+          "colorScale": {
+            "ranges": [
+              {
+                "min": 1,
+                "max": 2,
+                "color": "#ef4444"
+              },
+              {
+                "min": 3,
+                "max": 3,
+                "color": "#eab308"
+              },
+              {
+                "min": 4,
+                "max": 5,
+                "color": "#22c55e"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "lead_scorer",
+      "name": "Lead Scorer",
+      "type": "table",
+      "columns": [
+        {
+          "id": "lead_info",
+          "header": "LEAD INFO",
+          "type": "text"
+        },
+        {
+          "id": "fit_criteria_enter_1_yes",
+          "header": "FIT CRITERIA (enter 1 = yes)",
+          "type": "number"
+        },
+        {
+          "id": "engagement_criteria_enter_1_yes",
+          "header": "ENGAGEMENT CRITERIA (enter 1 = yes)",
+          "type": "number"
+        },
+        {
+          "id": "scores",
+          "header": "SCORES",
+          "type": "score",
+          "min": 1,
+          "max": 5,
+          "colorScale": {
+            "ranges": [
+              {
+                "min": 1,
+                "max": 2,
+                "color": "#ef4444"
+              },
+              {
+                "min": 3,
+                "max": 3,
+                "color": "#eab308"
+              },
+              {
+                "min": 4,
+                "max": 5,
+                "color": "#22c55e"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "defaultData": {
+    "scoring_criteria": [
+      {
+        "col_0": "F1",
+        "criteria": "Job Title/Seniority",
+        "points": 10,
+        "description": "Decision-maker level",
+        "example_high_score": "C-Suite / VP",
+        "example_low_score": "Intern / Student"
+      },
+      {
+        "col_0": "F2",
+        "criteria": "Company Size",
+        "points": 8,
+        "description": "Employee count or revenue",
+        "example_high_score": "500+ employees",
+        "example_low_score": "< 10 employees"
+      },
+      {
+        "col_0": "F3",
+        "criteria": "Industry Match",
+        "points": 8,
+        "description": "Alignment with ICP industry",
+        "example_high_score": "Target industry",
+        "example_low_score": "Unrelated industry"
+      },
+      {
+        "col_0": "F4",
+        "criteria": "Geography",
+        "points": 5,
+        "description": "Location fit",
+        "example_high_score": "Target market",
+        "example_low_score": "Outside service area"
+      },
+      {
+        "col_0": "F5",
+        "criteria": "Budget Authority",
+        "points": 7,
+        "description": "Purchase decision power",
+        "example_high_score": "Budget holder",
+        "example_low_score": "No budget influence"
+      },
+      {
+        "col_0": "F6",
+        "criteria": "Technology Fit",
+        "points": 5,
+        "description": "Uses compatible tech stack",
+        "example_high_score": "Uses your integrations",
+        "example_low_score": "Incompatible stack"
+      },
+      {
+        "col_0": "F7",
+        "criteria": "Company Growth",
+        "points": 4,
+        "description": "Hiring, funding, expansion",
+        "example_high_score": "Series B+ / Rapid growth",
+        "example_low_score": "Shrinking / Layoffs"
+      },
+      {
+        "col_0": "F8",
+        "criteria": "Pain Point Match",
+        "points": 3,
+        "description": "Problem matches your solution",
+        "example_high_score": "Exact use case match",
+        "example_low_score": "No clear pain point"
+      },
+      {
+        "col_0": "FIT TOTAL",
+        "points": 50
+      },
+      {
+        "col_0": "ENGAGEMENT CRITERIA — What They Do (max 50 points)"
+      },
+      {
+        "col_0": "#",
+        "criteria": "Criteria",
+        "points": "Points",
+        "description": "Description",
+        "example_high_score": "Example: Trigger",
+        "example_low_score": "Decay Rule"
+      },
+      {
+        "col_0": "E1",
+        "criteria": "Website Visits (5+)",
+        "points": 5,
+        "description": "Multiple site visits",
+        "example_high_score": "5+ pages in 7 days",
+        "example_low_score": "Resets monthly"
+      },
+      {
+        "col_0": "E2",
+        "criteria": "Key Page Visit",
+        "points": 7,
+        "description": "Pricing, demo, case study",
+        "example_high_score": "Visited pricing page",
+        "example_low_score": "N/A"
+      },
+      {
+        "col_0": "E3",
+        "criteria": "Content Download",
+        "points": 6,
+        "description": "Gated content / template",
+        "example_high_score": "Downloaded playbook",
+        "example_low_score": "Resets quarterly"
+      },
+      {
+        "col_0": "E4",
+        "criteria": "Email Opens (3+)",
+        "points": 4,
+        "description": "Consistent email engagement",
+        "example_high_score": "Opened 3+ emails",
+        "example_low_score": "Resets monthly"
+      },
+      {
+        "col_0": "E5",
+        "criteria": "Email Click",
+        "points": 6,
+        "description": "Clicked CTA in email",
+        "example_high_score": "Clicked demo link",
+        "example_low_score": "Resets monthly"
+      },
+      {
+        "col_0": "E6",
+        "criteria": "Form Submission",
+        "points": 8,
+        "description": "Contact, demo request, quote",
+        "example_high_score": "Submitted demo form",
+        "example_low_score": "Never decays"
+      },
+      {
+        "col_0": "E7",
+        "criteria": "Event Attendance",
+        "points": 5,
+        "description": "Webinar, workshop, conference",
+        "example_high_score": "Attended live webinar",
+        "example_low_score": "Resets quarterly"
+      },
+      {
+        "col_0": "E8",
+        "criteria": "Social Engagement",
+        "points": 3,
+        "description": "Likes, shares, comments",
+        "example_high_score": "Shared blog post",
+        "example_low_score": "Resets monthly"
+      },
+      {
+        "col_0": "E9",
+        "criteria": "Return Visit",
+        "points": 3,
+        "description": "Came back after 7+ days",
+        "example_high_score": "Returned after 14 days",
+        "example_low_score": "Resets monthly"
+      },
+      {
+        "col_0": "E10",
+        "criteria": "Free Trial/Signup",
+        "points": 3,
+        "description": "Started using product",
+        "example_high_score": "Activated trial",
+        "example_low_score": "Never decays"
+      },
+      {
+        "col_0": "ENGAGEMENT TOTAL",
+        "points": 50
+      },
+      {
+        "col_0": "SCORING THRESHOLDS"
+      },
+      {
+        "col_0": "Stage",
+        "criteria": "Min Score",
+        "points": "Max Score",
+        "description": "Action",
+        "example_high_score": "Owner",
+        "example_low_score": "SLA"
+      },
+      {
+        "col_0": "Cold",
+        "points": 25,
+        "description": "Add to nurture sequence",
+        "example_high_score": "Marketing",
+        "example_low_score": "Weekly drip"
+      },
+      {
+        "col_0": "Warm",
+        "criteria": 26,
+        "points": 50,
+        "description": "Personalized outreach",
+        "example_high_score": "Marketing",
+        "example_low_score": "Within 48h"
+      },
+      {
+        "col_0": "MQL",
+        "criteria": 51,
+        "points": 75,
+        "description": "Sales handoff",
+        "example_high_score": "SDR/BDR",
+        "example_low_score": "Within 24h"
+      },
+      {
+        "col_0": "SQL",
+        "criteria": 76,
+        "points": 100,
+        "description": "Direct sales contact",
+        "example_high_score": "Account Exec",
+        "example_low_score": "Within 4h"
+      }
+    ],
+    "lead_scorer": [
+      {
+        "lead_info": "Lead Name",
+        "fit_criteria_enter_1_yes": "Title",
+        "engagement_criteria_enter_1_yes": "Visits",
+        "scores": "FIT"
+      },
+      {
+        "fit_criteria_enter_1_yes": 10,
+        "engagement_criteria_enter_1_yes": "Points"
+      },
+      {
+        "lead_info": "Sarah Chen",
+        "fit_criteria_enter_1_yes": 1,
+        "engagement_criteria_enter_1_yes": 1,
+        "scores": 41
+      },
+      {
+        "lead_info": "James Miller",
+        "fit_criteria_enter_1_yes": 1,
+        "scores": 27
+      },
+      {
+        "lead_info": "Maria Lopez",
+        "engagement_criteria_enter_1_yes": 1,
+        "scores": 16
+      }
+    ]
+  }
+}

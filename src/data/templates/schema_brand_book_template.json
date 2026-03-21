@@ -1,0 +1,794 @@
+{
+  "id": "brand_book_template",
+  "name": "Brand Book Template",
+  "category": "brand",
+  "sheets": [
+    {
+      "id": "dashboard",
+      "name": "Dashboard",
+      "type": "summary"
+    },
+    {
+      "id": "brand_foundation",
+      "name": "Brand Foundation",
+      "type": "form",
+      "fields": [
+        {
+          "id": "why_does_your_brand_exist_beyond_making_",
+          "label": "Why does your brand exist beyond making money? What change do you want to create in the world?",
+          "type": "text"
+        },
+        {
+          "id": "what_you_do_who_you_do_it_for_and_how_yo",
+          "label": "What you do, who you do it for, and how you do it differently. Keep it under 25 words.",
+          "type": "text"
+        },
+        {
+          "id": "where_you_aspire_to_be_paint_a_picture_o",
+          "label": "Where you aspire to be. Paint a picture of the future your brand is helping to create.",
+          "type": "text"
+        },
+        {
+          "id": "the_single_most_important_commitment_you",
+          "label": "The single most important commitment you make to your customers.",
+          "type": "text"
+        },
+        {
+          "id": "list_3_5_core_values_that_guide_everythi",
+          "label": "List 3-5 core values that guide everything your brand does. Be specific — not generic.",
+          "type": "textarea"
+        },
+        {
+          "id": "if_your_brand_were_a_person_how_would_yo",
+          "label": "If your brand were a person, how would you describe them? List 5 personality traits.",
+          "type": "textarea"
+        },
+        {
+          "id": "which_archetype_best_represents_your_bra",
+          "label": "Which archetype best represents your brand? (e.g., Hero, Explorer, Sage, Creator, Caregiver, Rebel)",
+          "type": "text"
+        },
+        {
+          "id": "who_is_your_primary_audience_describe_de",
+          "label": "Who is your primary audience? Describe demographics, psychographics, and behaviors.",
+          "type": "text"
+        },
+        {
+          "id": "how_you_want_to_be_perceived_relative_to",
+          "label": "How you want to be perceived relative to competitors. Complete: For [audience] who [need], [brand] is the [category] that [differentiator] because [reason to believe].",
+          "type": "text"
+        },
+        {
+          "id": "what_makes_you_fundamentally_different_f",
+          "label": "What makes you fundamentally different from alternatives? List 3 key differentiators.",
+          "type": "text"
+        },
+        {
+          "id": "your_origin_story_why_you_started_what_d",
+          "label": "Your origin story — why you started, what drives you, the problem you saw and set out to solve.",
+          "type": "textarea"
+        }
+      ]
+    },
+    {
+      "id": "visual_identity",
+      "name": "Visual Identity",
+      "type": "form",
+      "fields": [
+        {
+          "id": "description",
+          "label": "Description",
+          "type": "textarea",
+          "hint": "File Location",
+          "placeholder": "File Location"
+        },
+        {
+          "id": "main_logo_for_most_applications",
+          "label": "Main logo for most applications",
+          "type": "text"
+        },
+        {
+          "id": "logo_with_tagline",
+          "label": "Logo with tagline",
+          "type": "text"
+        },
+        {
+          "id": "simplified_mark_for_small_spaces",
+          "label": "Simplified mark for small spaces",
+          "type": "text"
+        },
+        {
+          "id": "single_colour_version",
+          "label": "Single-colour version",
+          "type": "text"
+        },
+        {
+          "id": "white_version_for_dark_backgrounds",
+          "label": "White version for dark backgrounds",
+          "type": "text"
+        },
+        {
+          "id": "smallest_acceptable_reproduction",
+          "label": "Smallest acceptable reproduction",
+          "type": "text"
+        },
+        {
+          "id": "minimum_space_around_logo",
+          "label": "Minimum space around logo",
+          "type": "text"
+        },
+        {
+          "id": "what_not_to_do_with_the_logo",
+          "label": "What NOT to do with the logo",
+          "type": "text"
+        },
+        {
+          "id": "role",
+          "label": "Role",
+          "type": "text",
+          "hint": "RGB",
+          "placeholder": "RGB"
+        },
+        {
+          "id": "primary_brand_colour",
+          "label": "Primary brand colour",
+          "type": "text",
+          "hint": "42, 185, 176",
+          "placeholder": "42, 185, 176"
+        },
+        {
+          "id": "secondary",
+          "label": "Secondary",
+          "type": "text",
+          "hint": "0, 180, 216",
+          "placeholder": "0, 180, 216"
+        },
+        {
+          "id": "body_text",
+          "label": "Body text",
+          "type": "text",
+          "hint": "51, 51, 51",
+          "placeholder": "51, 51, 51"
+        },
+        {
+          "id": "status_accent",
+          "label": "Status/accent",
+          "type": "text",
+          "hint": "142, 209, 106",
+          "placeholder": "142, 209, 106"
+        },
+        {
+          "id": "status_accent",
+          "label": "Status/accent",
+          "type": "text",
+          "hint": "242, 140, 40",
+          "placeholder": "242, 140, 40"
+        },
+        {
+          "id": "status_accent",
+          "label": "Status/accent",
+          "type": "text",
+          "hint": "248, 206, 48",
+          "placeholder": "248, 206, 48"
+        },
+        {
+          "id": "role",
+          "label": "Role",
+          "type": "text",
+          "hint": "Size",
+          "placeholder": "Size"
+        },
+        {
+          "id": "primary_heading",
+          "label": "Primary Heading",
+          "type": "text",
+          "hint": "20-32pt",
+          "placeholder": "20-32pt"
+        },
+        {
+          "id": "secondary_heading",
+          "label": "Secondary Heading",
+          "type": "text",
+          "hint": "16-20pt",
+          "placeholder": "16-20pt"
+        },
+        {
+          "id": "body_text",
+          "label": "Body Text",
+          "type": "text",
+          "hint": "11-14pt",
+          "placeholder": "11-14pt"
+        },
+        {
+          "id": "caption",
+          "label": "Caption",
+          "type": "text",
+          "hint": "9-10pt",
+          "placeholder": "9-10pt"
+        },
+        {
+          "id": "cta_button",
+          "label": "CTA / Button",
+          "type": "text",
+          "hint": "12-14pt",
+          "placeholder": "12-14pt"
+        }
+      ]
+    },
+    {
+      "id": "tone_of_voice",
+      "name": "Tone of Voice",
+      "type": "table",
+      "columns": [
+        {
+          "id": "characteristic",
+          "header": "Characteristic",
+          "type": "text"
+        },
+        {
+          "id": "we_are",
+          "header": "We Are",
+          "type": "text"
+        },
+        {
+          "id": "we_are_not",
+          "header": "We Are Not",
+          "type": "text"
+        },
+        {
+          "id": "example_do",
+          "header": "Example (Do)",
+          "type": "text"
+        },
+        {
+          "id": "example_don_t",
+          "header": "Example (Don't)",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "id": "messaging_architecture",
+      "name": "Messaging Architecture",
+      "type": "form",
+      "fields": [
+        {
+          "id": "a_memorable_phrase_that_captures_your_br",
+          "label": "A memorable phrase that captures your brand essence (under 8 words)",
+          "type": "text"
+        },
+        {
+          "id": "30_second_description_of_who_you_are_wha",
+          "label": "30-second description of who you are, what you do, and why it matters",
+          "type": "textarea"
+        },
+        {
+          "id": "2_3_sentence_brand_positioning_statement",
+          "label": "2-3 sentence brand positioning statement for internal alignment",
+          "type": "text"
+        },
+        {
+          "id": "standard_company_description_for_press_r",
+          "label": "Standard company description for press releases and official documents",
+          "type": "textarea"
+        },
+        {
+          "id": "key_message",
+          "label": "Key Message",
+          "type": "text",
+          "hint": "Proof Points",
+          "placeholder": "Proof Points"
+        },
+        {
+          "id": "pain_point",
+          "label": "Pain Point",
+          "type": "text",
+          "hint": "Value Proposition",
+          "placeholder": "Value Proposition"
+        }
+      ]
+    },
+    {
+      "id": "application_guidelines",
+      "name": "Application Guidelines",
+      "type": "table",
+      "columns": [
+        {
+          "id": "touchpoint",
+          "header": "Touchpoint",
+          "type": "text"
+        },
+        {
+          "id": "category",
+          "header": "Category",
+          "type": "text",
+          "editable": false
+        },
+        {
+          "id": "brand_elements",
+          "header": "Brand Elements",
+          "type": "text"
+        },
+        {
+          "id": "specifications",
+          "header": "Specifications",
+          "type": "text"
+        },
+        {
+          "id": "do",
+          "header": "Do",
+          "type": "text"
+        },
+        {
+          "id": "don_t",
+          "header": "Don't",
+          "type": "text"
+        },
+        {
+          "id": "template_available",
+          "header": "Template Available",
+          "type": "text"
+        },
+        {
+          "id": "status",
+          "header": "Status",
+          "type": "dropdown",
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done",
+            "On Hold",
+            "Cancelled"
+          ]
+        }
+      ],
+      "groupBy": "category"
+    },
+    {
+      "id": "asset_library",
+      "name": "Asset Library",
+      "type": "table",
+      "columns": [
+        {
+          "id": "asset_id",
+          "header": "Asset ID",
+          "type": "text"
+        },
+        {
+          "id": "asset_name",
+          "header": "Asset Name",
+          "type": "text"
+        },
+        {
+          "id": "category",
+          "header": "Category",
+          "type": "text",
+          "editable": false
+        },
+        {
+          "id": "format",
+          "header": "Format",
+          "type": "text"
+        },
+        {
+          "id": "version",
+          "header": "Version",
+          "type": "text"
+        },
+        {
+          "id": "last_updated",
+          "header": "Last Updated",
+          "type": "date"
+        },
+        {
+          "id": "status",
+          "header": "Status",
+          "type": "dropdown",
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done",
+            "On Hold",
+            "Cancelled"
+          ]
+        },
+        {
+          "id": "owner",
+          "header": "Owner",
+          "type": "text"
+        },
+        {
+          "id": "access_link",
+          "header": "Access Link",
+          "type": "url"
+        }
+      ],
+      "groupBy": "category"
+    },
+    {
+      "id": "brand_audit",
+      "name": "Brand Audit",
+      "type": "table",
+      "columns": [
+        {
+          "id": "touchpoint",
+          "header": "Touchpoint",
+          "type": "text"
+        },
+        {
+          "id": "channel",
+          "header": "Channel",
+          "type": "text"
+        },
+        {
+          "id": "logo_correct",
+          "header": "Logo Correct",
+          "type": "text"
+        },
+        {
+          "id": "colours_correct",
+          "header": "Colours Correct",
+          "type": "text"
+        },
+        {
+          "id": "typography_correct",
+          "header": "Typography Correct",
+          "type": "text"
+        },
+        {
+          "id": "tone_correct",
+          "header": "Tone Correct",
+          "type": "text"
+        },
+        {
+          "id": "overall_score",
+          "header": "Overall Score",
+          "type": "score",
+          "min": 1,
+          "max": 5,
+          "colorScale": {
+            "ranges": [
+              {
+                "min": 1,
+                "max": 2,
+                "color": "#ef4444"
+              },
+              {
+                "min": 3,
+                "max": 3,
+                "color": "#eab308"
+              },
+              {
+                "min": 4,
+                "max": 5,
+                "color": "#22c55e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "notes",
+          "header": "Notes",
+          "type": "textarea",
+          "width": "250px"
+        }
+      ]
+    },
+    {
+      "id": "compliance_tracker",
+      "name": "Compliance Tracker",
+      "type": "table",
+      "columns": [
+        {
+          "id": "date_reported",
+          "header": "Date Reported",
+          "type": "date"
+        },
+        {
+          "id": "violation",
+          "header": "Violation",
+          "type": "text"
+        },
+        {
+          "id": "touchpoint",
+          "header": "Touchpoint",
+          "type": "text"
+        },
+        {
+          "id": "category",
+          "header": "Category",
+          "type": "text",
+          "editable": false
+        },
+        {
+          "id": "severity",
+          "header": "Severity",
+          "type": "text"
+        },
+        {
+          "id": "reporter",
+          "header": "Reporter",
+          "type": "text"
+        },
+        {
+          "id": "status",
+          "header": "Status",
+          "type": "dropdown",
+          "options": [
+            "Not Started",
+            "In Progress",
+            "Done",
+            "On Hold",
+            "Cancelled"
+          ]
+        },
+        {
+          "id": "resolution",
+          "header": "Resolution",
+          "type": "text"
+        },
+        {
+          "id": "resolved_date",
+          "header": "Resolved Date",
+          "type": "date"
+        }
+      ],
+      "groupBy": "category"
+    }
+  ],
+  "defaultData": {
+    "tone_of_voice": [
+      {
+        "characteristic": "Confident",
+        "we_are": "Assertive without arrogance",
+        "we_are_not": "Boastful or condescending",
+        "example_do": "We deliver results that speak for themselves.",
+        "example_don_t": "We are the best and everyone knows it."
+      },
+      {
+        "characteristic": "Warm",
+        "we_are": "Approachable and human",
+        "we_are_not": "Cold or robotic",
+        "example_do": "We are here to help you succeed.",
+        "example_don_t": "Please refer to section 4.2 of the documentation."
+      },
+      {
+        "characteristic": "Clear",
+        "we_are": "Simple and direct",
+        "we_are_not": "Jargon-heavy or vague",
+        "example_do": "Here is exactly what you need to do.",
+        "example_don_t": "Leverage synergies to optimise your paradigm shift."
+      },
+      {
+        "characteristic": "Bold",
+        "we_are": "Forward-thinking and decisive",
+        "we_are_not": "Reckless or impulsive",
+        "example_do": "We are changing how marketing works.",
+        "example_don_t": "We are disrupting everything without a plan."
+      },
+      {
+        "characteristic": "Empathetic",
+        "we_are": "Understanding and caring",
+        "we_are_not": "Dismissive or preachy",
+        "example_do": "We know how challenging this can be.",
+        "example_don_t": "You should have done this differently."
+      },
+      {
+        "characteristic": "Writing Guidelines by Channel"
+      },
+      {
+        "characteristic": "Channel",
+        "we_are": "Tone",
+        "we_are_not": "Formality",
+        "example_do": "Length Guide",
+        "example_don_t": "Key Rules"
+      },
+      {
+        "characteristic": "Website",
+        "we_are": "Confident, clear",
+        "we_are_not": "Professional",
+        "example_do": "Concise paragraphs, scannable",
+        "example_don_t": "Active voice, benefit-led"
+      },
+      {
+        "characteristic": "Email",
+        "we_are": "Warm, direct",
+        "we_are_not": "Semi-formal",
+        "example_do": "Short paragraphs, clear CTA",
+        "example_don_t": "Personal, value-first"
+      },
+      {
+        "characteristic": "Social Media",
+        "we_are": "Bold, engaging",
+        "we_are_not": "Casual",
+        "example_do": "Platform-specific limits",
+        "example_don_t": "Conversational, use hooks"
+      },
+      {
+        "characteristic": "Blog",
+        "we_are": "Thoughtful, authoritative",
+        "we_are_not": "Professional",
+        "example_do": "800-1500 words",
+        "example_don_t": "SEO-aware, storytelling"
+      },
+      {
+        "characteristic": "Presentations",
+        "we_are": "Confident, structured",
+        "we_are_not": "Professional",
+        "example_do": "Minimal text per slide",
+        "example_don_t": "Headline-driven, visual"
+      },
+      {
+        "characteristic": "Customer Support",
+        "we_are": "Empathetic, helpful",
+        "we_are_not": "Friendly-professional",
+        "example_do": "Concise, solution-focused",
+        "example_don_t": "Acknowledge, solve, follow up"
+      }
+    ],
+    "application_guidelines": [
+      {
+        "touchpoint": "Business Cards",
+        "category": "Print",
+        "brand_elements": "Logo, colours, typography",
+        "specifications": "90x55mm, 300dpi",
+        "do": "Use primary logo with clear space",
+        "don_t": "Don't resize or distort logo",
+        "template_available": "Yes",
+        "status": "Defined"
+      },
+      {
+        "touchpoint": "Email Signature",
+        "category": "Digital",
+        "brand_elements": "Logo icon, colours",
+        "specifications": "HTML format, max 600px wide",
+        "do": "Include logo, title, contact",
+        "don_t": "Don't add quotes or images",
+        "template_available": "Yes",
+        "status": "Defined"
+      },
+      {
+        "touchpoint": "PowerPoint",
+        "category": "Presentations",
+        "brand_elements": "Full brand system",
+        "specifications": "16:9, master template",
+        "do": "Use brand template only",
+        "don_t": "Don't use default themes",
+        "template_available": "Yes",
+        "status": "Defined"
+      },
+      {
+        "touchpoint": "Social Media Profiles",
+        "category": "Digital",
+        "brand_elements": "Logo, banner, bio",
+        "specifications": "Platform-specific sizes",
+        "do": "Consistent profile photo across all",
+        "don_t": "Don't use outdated logos",
+        "template_available": "Yes",
+        "status": "Defined"
+      },
+      {
+        "touchpoint": "Website",
+        "category": "Digital",
+        "brand_elements": "Full brand system",
+        "specifications": "Responsive, WCAG AA",
+        "do": "Follow brand grid and spacing",
+        "don_t": "Don't introduce new colours",
+        "template_available": "Yes",
+        "status": "Defined"
+      },
+      {
+        "touchpoint": "Letterhead",
+        "category": "Print",
+        "brand_elements": "Logo, colours, typography",
+        "specifications": "A4, print-ready PDF",
+        "do": "Use official letterhead template",
+        "don_t": "Don't modify margins or header",
+        "template_available": "Yes",
+        "status": "Defined"
+      },
+      {
+        "touchpoint": "Merchandise",
+        "category": "Physical",
+        "brand_elements": "Logo, colours",
+        "specifications": "Vector format, Pantone",
+        "do": "Use approved logo versions",
+        "don_t": "Don't stretch or recolour logo",
+        "template_available": "Yes",
+        "status": "Defined"
+      },
+      {
+        "touchpoint": "Video Intros",
+        "category": "Video",
+        "brand_elements": "Logo animation, colours",
+        "specifications": "1920x1080, MP4",
+        "do": "Use brand intro/outro",
+        "don_t": "Don't create custom animations",
+        "template_available": "Yes",
+        "status": "Defined"
+      },
+      {
+        "touchpoint": "Trade Show",
+        "category": "Physical",
+        "brand_elements": "Full brand system",
+        "specifications": "Varies by booth size",
+        "do": "Follow brand booth guidelines",
+        "don_t": "Don't use non-brand materials",
+        "template_available": "Yes",
+        "status": "Defined"
+      },
+      {
+        "touchpoint": "Advertising",
+        "category": "Multi-channel",
+        "brand_elements": "Logo, colours, messaging",
+        "specifications": "Channel-specific specs",
+        "do": "Follow ad brief template",
+        "don_t": "Don't deviate from messaging",
+        "template_available": "Yes",
+        "status": "Defined"
+      }
+    ],
+    "brand_audit": [
+      {
+        "touchpoint": "Website Homepage"
+      },
+      {
+        "touchpoint": "Website About Page"
+      },
+      {
+        "touchpoint": "Website Blog"
+      },
+      {
+        "touchpoint": "Email Newsletter"
+      },
+      {
+        "touchpoint": "Email Signature"
+      },
+      {
+        "touchpoint": "LinkedIn Profile"
+      },
+      {
+        "touchpoint": "Instagram Profile"
+      },
+      {
+        "touchpoint": "Facebook Page"
+      },
+      {
+        "touchpoint": "Twitter Profile"
+      },
+      {
+        "touchpoint": "TikTok Profile"
+      },
+      {
+        "touchpoint": "Business Cards"
+      },
+      {
+        "touchpoint": "Letterhead"
+      },
+      {
+        "touchpoint": "Presentation Template"
+      },
+      {
+        "touchpoint": "Sales Deck"
+      },
+      {
+        "touchpoint": "Product Packaging"
+      },
+      {
+        "touchpoint": "Customer Support Portal"
+      },
+      {
+        "touchpoint": "Help Documentation"
+      },
+      {
+        "touchpoint": "Onboarding Flow"
+      },
+      {
+        "touchpoint": "Advertising (Digital)"
+      },
+      {
+        "touchpoint": "Trade Show Booth"
+      }
+    ]
+  }
+}

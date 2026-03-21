@@ -1,0 +1,341 @@
+{
+  "id": "brand_messaging_matrix",
+  "name": "Brand Messaging Matrix",
+  "category": "brand",
+  "sheets": [
+    {
+      "id": "dashboard",
+      "name": "Dashboard",
+      "type": "summary"
+    },
+    {
+      "id": "brand_foundation",
+      "name": "Brand Foundation",
+      "type": "form",
+      "fields": [
+        {
+          "id": "positioning_statement",
+          "label": "Positioning Statement",
+          "type": "text",
+          "hint": "For [target audience] who [need], [brand] is the [category] that [key benefit] because [reason to believe].",
+          "placeholder": "For [target audience] who [need], [brand] is the [category] that [key benefit] because [reason to be"
+        },
+        {
+          "id": "category_market",
+          "label": "Category / Market",
+          "type": "text",
+          "hint": "What space do you compete in?",
+          "placeholder": "What space do you compete in?"
+        },
+        {
+          "id": "target_audience_primary",
+          "label": "Target Audience (Primary)",
+          "type": "text",
+          "hint": "Who is your #1 audience in one sentence?",
+          "placeholder": "Who is your #1 audience in one sentence?"
+        },
+        {
+          "id": "key_differentiator",
+          "label": "Key Differentiator",
+          "type": "text",
+          "hint": "What makes you different from every competitor?",
+          "placeholder": "What makes you different from every competitor?"
+        },
+        {
+          "id": "competitive_alternative",
+          "label": "Competitive Alternative",
+          "type": "text",
+          "hint": "If you did not exist, what would they use?",
+          "placeholder": "If you did not exist, what would they use?"
+        },
+        {
+          "id": "mission_statement",
+          "label": "Mission Statement",
+          "type": "text",
+          "hint": "What you do, for whom, and why it matters — in one sentence",
+          "placeholder": "What you do, for whom, and why it matters — in one sentence"
+        },
+        {
+          "id": "vision_statement",
+          "label": "Vision Statement",
+          "type": "text",
+          "hint": "The future state you are working toward",
+          "placeholder": "The future state you are working toward"
+        },
+        {
+          "id": "brand_promise",
+          "label": "Brand Promise",
+          "type": "text",
+          "hint": "The one commitment you make to every customer",
+          "placeholder": "The one commitment you make to every customer"
+        },
+        {
+          "id": "core_values_3_5",
+          "label": "Core Values (3-5)",
+          "type": "textarea",
+          "hint": "The principles that guide every decision",
+          "placeholder": "The principles that guide every decision"
+        },
+        {
+          "id": "brand_personality",
+          "label": "Brand Personality",
+          "type": "text",
+          "hint": "If your brand were a person, how would they act?",
+          "placeholder": "If your brand were a person, how would they act?"
+        },
+        {
+          "id": "brand_voice_3_adjectives",
+          "label": "Brand Voice (3 adjectives)",
+          "type": "text",
+          "hint": "e.g. Bold, Warm, Expert — these never change",
+          "placeholder": "e.g. Bold, Warm, Expert — these never change"
+        },
+        {
+          "id": "tone_range",
+          "label": "Tone Range",
+          "type": "text",
+          "hint": "How does the voice flex? Formal to casual, serious to playful",
+          "placeholder": "How does the voice flex? Formal to casual, serious to playful"
+        },
+        {
+          "id": "we_say_we_never_say",
+          "label": "We Say / We Never Say",
+          "type": "text",
+          "hint": "Words and phrases you always use vs. always avoid",
+          "placeholder": "Words and phrases you always use vs. always avoid"
+        },
+        {
+          "id": "writing_style",
+          "label": "Writing Style",
+          "type": "text",
+          "hint": "Short sentences? Data-driven? Story-led? Technical?",
+          "placeholder": "Short sentences? Data-driven? Story-led? Technical?"
+        },
+        {
+          "id": "tagline_slogan",
+          "label": "Tagline / Slogan",
+          "type": "text",
+          "hint": "Your brand in 5-8 words",
+          "placeholder": "Your brand in 5-8 words"
+        }
+      ],
+      "sections": [
+        {
+          "id": "positioning",
+          "title": "Positioning",
+          "fieldIds": [
+            "positioning_statement",
+            "category_market",
+            "target_audience_primary",
+            "key_differentiator",
+            "competitive_alternative"
+          ],
+          "collapsible": true
+        },
+        {
+          "id": "purpose_values",
+          "title": "Purpose & Values",
+          "fieldIds": [
+            "mission_statement",
+            "vision_statement",
+            "brand_promise",
+            "core_values_3_5",
+            "brand_personality"
+          ],
+          "collapsible": true
+        },
+        {
+          "id": "voice_tone",
+          "title": "Voice & Tone",
+          "fieldIds": [
+            "brand_voice_3_adjectives",
+            "tone_range",
+            "we_say_we_never_say",
+            "writing_style",
+            "tagline_slogan"
+          ],
+          "collapsible": true
+        }
+      ]
+    },
+    {
+      "id": "messaging_pillars",
+      "name": "Messaging Pillars",
+      "type": "table",
+      "columns": [
+        {
+          "id": "pillar_1",
+          "header": "Pillar 1",
+          "type": "text"
+        },
+        {
+          "id": "pillar_2",
+          "header": "Pillar 2",
+          "type": "text"
+        },
+        {
+          "id": "pillar_3",
+          "header": "Pillar 3",
+          "type": "text"
+        },
+        {
+          "id": "pillar_4",
+          "header": "Pillar 4",
+          "type": "text"
+        },
+        {
+          "id": "pillar_5",
+          "header": "Pillar 5",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "id": "audience_matrix",
+      "name": "Audience Matrix",
+      "type": "table",
+      "columns": [
+        {
+          "id": "audience_1",
+          "header": "Audience 1",
+          "type": "text"
+        },
+        {
+          "id": "audience_2",
+          "header": "Audience 2",
+          "type": "text"
+        },
+        {
+          "id": "audience_3",
+          "header": "Audience 3",
+          "type": "text"
+        },
+        {
+          "id": "audience_4",
+          "header": "Audience 4",
+          "type": "text"
+        },
+        {
+          "id": "audience_5",
+          "header": "Audience 5",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "id": "elevator_pitches",
+      "name": "Elevator Pitches",
+      "type": "form",
+      "fields": [
+        {
+          "id": "10_second_pitch",
+          "label": "10-Second Pitch",
+          "type": "text",
+          "hint": "One sentence. Use it at networking events, in email intros, when someone asks 'what do you do?'",
+          "placeholder": "One sentence. Use it at networking events, in email intros, when someone asks 'what do you do?'"
+        },
+        {
+          "id": "30_second_pitch",
+          "label": "30-Second Pitch",
+          "type": "text",
+          "hint": "3-4 sentences. Use it in meetings, on calls, in LinkedIn messages.",
+          "placeholder": "3-4 sentences. Use it in meetings, on calls, in LinkedIn messages."
+        },
+        {
+          "id": "60_second_pitch",
+          "label": "60-Second Pitch",
+          "type": "text",
+          "hint": "A short paragraph. Use it for investor intros, partnership conversations, panel introductions.",
+          "placeholder": "A short paragraph. Use it for investor intros, partnership conversations, panel introductions."
+        },
+        {
+          "id": "press_release_boilerplate",
+          "label": "Press Release Boilerplate",
+          "type": "text",
+          "hint": "The 'About Us' paragraph at the end of every press release",
+          "placeholder": "The 'About Us' paragraph at the end of every press release"
+        },
+        {
+          "id": "email_signature_tagline",
+          "label": "Email Signature Tagline",
+          "type": "text",
+          "hint": "One line under your name in every email",
+          "placeholder": "One line under your name in every email"
+        },
+        {
+          "id": "social_media_bio",
+          "label": "Social Media Bio",
+          "type": "text",
+          "hint": "Twitter/LinkedIn/Instagram bio — max 160 characters",
+          "placeholder": "Twitter/LinkedIn/Instagram bio — max 160 characters"
+        },
+        {
+          "id": "website_hero_headline",
+          "label": "Website Hero Headline",
+          "type": "text",
+          "hint": "The main headline on your homepage",
+          "placeholder": "The main headline on your homepage"
+        },
+        {
+          "id": "website_hero_subheadline",
+          "label": "Website Hero Subheadline",
+          "type": "text",
+          "hint": "The supporting line under the headline",
+          "placeholder": "The supporting line under the headline"
+        },
+        {
+          "id": "conference_speaker_bio",
+          "label": "Conference Speaker Bio",
+          "type": "text",
+          "hint": "3rd person, 50-75 words, for event programs",
+          "placeholder": "3rd person, 50-75 words, for event programs"
+        }
+      ],
+      "sections": [
+        {
+          "id": "elevator_pitches",
+          "title": "Elevator Pitches",
+          "fieldIds": [
+            "10_second_pitch",
+            "30_second_pitch",
+            "60_second_pitch"
+          ],
+          "collapsible": true
+        },
+        {
+          "id": "standard_copy_blocks",
+          "title": "Standard Copy Blocks",
+          "fieldIds": [
+            "press_release_boilerplate",
+            "email_signature_tagline",
+            "social_media_bio",
+            "website_hero_headline",
+            "website_hero_subheadline",
+            "conference_speaker_bio"
+          ],
+          "collapsible": true
+        }
+      ]
+    }
+  ],
+  "defaultData": {
+    "messaging_pillars": [
+      {
+        "pillar_1": "Pillar 1",
+        "pillar_2": "Pillar 2",
+        "pillar_3": "Pillar 3",
+        "pillar_4": "Pillar 4",
+        "pillar_5": "Pillar 5"
+      }
+    ],
+    "audience_matrix": [
+      {
+        "audience_1": "Audience 1",
+        "audience_2": "Audience 2",
+        "audience_3": "Audience 3",
+        "audience_4": "Audience 4",
+        "audience_5": "Audience 5"
+      }
+    ]
+  }
+}
