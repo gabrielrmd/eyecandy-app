@@ -810,7 +810,7 @@ export default function QuestionnairePage() {
                             }
                             onChange={(e) => {
                               if (e.target.value === "__other__") {
-                                updateAnswer(question.id, "");
+                                updateAnswer(question.id, "__other__");
                               } else {
                                 updateAnswer(question.id, e.target.value);
                               }
@@ -842,8 +842,10 @@ export default function QuestionnairePage() {
                           </select>
                           {(() => {
                             const selectVal = answers[question.id] ?? "";
-                            const isOther =
+                            const isOtherSelected = selectVal === "__other__";
+                            const isCustomValue =
                               selectVal !== "" &&
+                              selectVal !== "__other__" &&
                               !question.options?.some((opt) => {
                                 const v =
                                   typeof opt === "object" && opt !== null
@@ -851,14 +853,14 @@ export default function QuestionnairePage() {
                                     : String(opt);
                                 return v === selectVal;
                               });
-                            if (!isOther) return null;
+                            if (!isOtherSelected && !isCustomValue) return null;
                             return (
                               <input
                                 type="text"
                                 placeholder="Type your answer..."
-                                value={selectVal}
+                                value={isOtherSelected ? "" : selectVal}
                                 onChange={(e) =>
-                                  updateAnswer(question.id, e.target.value)
+                                  updateAnswer(question.id, e.target.value || "__other__")
                                 }
                                 className="w-full rounded-lg border border-border bg-background px-4 py-2.5 text-sm text-foreground placeholder:text-muted-foreground focus:border-[var(--coral)] focus:outline-none focus:ring-2 focus:ring-[var(--coral)]/20"
                                 autoFocus
