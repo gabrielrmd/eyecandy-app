@@ -1,6 +1,7 @@
 import { redirect } from "next/navigation";
 import Link from "next/link";
 import { createClient } from "@/lib/supabase/server";
+import StrategyList from "@/components/dashboard/strategy-list";
 import {
   Brain,
   LayoutTemplate,
@@ -340,77 +341,13 @@ export default async function DashboardPage() {
           <h2 className="mb-4 font-[family-name:var(--font-oswald)] text-lg font-semibold text-[var(--navy)]">
             My Strategies
           </h2>
-          <div className="rounded-xl border border-gray-200 bg-white shadow-sm">
-            {allStrategies.length > 0 ? (
-              <div className="divide-y divide-gray-100">
-                {allStrategies.map((strategy) => {
-                  // Show as completed if status is completed OR if a generated strategy exists
-                  const effectiveStatus = (strategy.status === "completed" || strategy.generated_strategy_id)
-                    ? "completed"
-                    : strategy.status;
-                  const isCompleted = effectiveStatus === "completed";
-                  return (
-                    <div
-                      key={strategy.id}
-                      className="flex items-center gap-4 px-6 py-4"
-                    >
-                      <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-indigo-50">
-                        <Brain className="h-5 w-5 text-indigo-600" />
-                      </div>
-                      <div className="flex-1 min-w-0">
-                        <p className="truncate text-sm font-medium text-gray-900">
-                          {strategy.title ?? "Untitled Strategy"}
-                        </p>
-                        <div className="mt-1 flex items-center gap-3">
-                          <StatusBadge status={effectiveStatus} />
-                          <span className="flex items-center gap-1 text-xs text-gray-400">
-                            <Clock className="h-3 w-3" />
-                            {formatRelativeTime(new Date(strategy.created_at))}
-                          </span>
-                        </div>
-                      </div>
-                      {isCompleted ? (
-                        <Link
-                          href={`/strategy/${strategy.id}/result`}
-                          className="inline-flex shrink-0 items-center gap-1.5 rounded-lg border border-gray-200 bg-white px-4 py-2 text-xs font-semibold text-[var(--navy)] transition-colors hover:bg-gray-50"
-                        >
-                          <Eye className="h-3.5 w-3.5" />
-                          View
-                        </Link>
-                      ) : (
-                        <Link
-                          href={`/strategy/${strategy.id}/questionnaire`}
-                          className="inline-flex shrink-0 items-center gap-1.5 rounded-lg border border-gray-200 bg-white px-4 py-2 text-xs font-semibold text-[var(--navy)] transition-colors hover:bg-gray-50"
-                        >
-                          <Eye className="h-3.5 w-3.5" />
-                          Continue
-                        </Link>
-                      )}
-                    </div>
-                  );
-                })}
-              </div>
-            ) : (
-              <div className="px-6 py-12 text-center">
-                <div className="mx-auto mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-indigo-50">
-                  <Brain className="h-6 w-6 text-indigo-400" />
-                </div>
-                <p className="text-sm font-medium text-gray-900">
-                  No strategies yet
-                </p>
-                <p className="mt-1 text-sm text-gray-400">
-                  Create your first AI-powered brand strategy to get started.
-                </p>
-                <Link
-                  href="/strategy/new"
-                  className="mt-4 inline-flex items-center gap-2 rounded-lg bg-[var(--coral)] px-5 py-2.5 text-sm font-semibold text-white transition-opacity hover:opacity-90"
-                >
-                  <Plus className="h-4 w-4" />
-                  Create Your First Strategy
-                </Link>
-              </div>
-            )}
-          </div>
+          <StrategyList strategies={allStrategies.map(s => ({
+            id: s.id,
+            title: s.title ?? "Untitled",
+            status: (s.status === "completed" || s.generated_strategy_id) ? "completed" : s.status,
+            created_at: s.created_at,
+            generated_strategy_id: s.generated_strategy_id,
+          }))} />
         </div>
 
         {/* Recent Activity */}

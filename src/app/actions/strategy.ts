@@ -91,3 +91,44 @@ export async function triggerStrategyGeneration(strategyProjectId: string) {
 
   return { success: true };
 }
+
+export async function deleteStrategyProject(projectId: string) {
+  const supabase = await createClient();
+  const {
+    data: { user },
+  } = await supabase.auth.getUser();
+
+  if (!user) return { error: "Unauthorized" };
+
+  // Delete strategy sections and strategies (FK cascade should handle, but be explicit)
+  const { data: strategy } = await supabase
+    .from("strategies")
+    .select("id")
+    .eq("strategy_project_id", projectId)
+    .eq("user_id", user.id)
+    .maybeSingle();
+
+  if (strategy) {
+    await supabase.from("strategy_sections").delete().eq("strategy_id", strategy.id);
+    await supabase.from("strategies").delete().eq("id", strategy.id);
+  }
+
+  // Delete questionnaire responses
+  await supabase
+    .from("questionnaire_responses")
+    .delete()
+    .eq("strategy_project_id", projectId)
+    .eq("user_id", user.id);
+
+  // Delete the project
+  const { error } = await supabase
+    .from("strategy_projects")
+    .delete()
+    .eq("id", projectId)
+    .eq("user_id", user.id);
+
+  if (error) return { error: error.message };
+
+  revalidatePath("/dashboard");
+  return { success: true };
+}
