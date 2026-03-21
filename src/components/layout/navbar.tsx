@@ -34,7 +34,7 @@ export function Navbar() {
           <img
             src="/brand/au-logo.png"
             alt="Advertising Unplugged"
-            className="h-9 w-auto"
+            className="h-9 w-auto brightness-0 invert"
           />
         </Link>
 

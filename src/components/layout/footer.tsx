@@ -29,7 +29,7 @@ export function Footer() {
             <img
               src="/brand/au-logo.png"
               alt="Advertising Unplugged"
-              className="mb-4 h-10 w-auto"
+              className="mb-4 h-10 w-auto brightness-0 invert"
             />
             <p className="text-sm leading-relaxed">
               Clarity Over Noise.
