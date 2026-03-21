@@ -12,221 +12,653 @@
   "estimatedTime": "65 min",
   "sections": [
     {
-      "id": "overview",
-      "title": "Overview & Objectives",
-      "description": "Define the goals and scope of your marketing automation playbook",
+      "id": "dashboard",
+      "title": "Dashboard",
+      "description": "Complete the Dashboard section",
       "fields": [
         {
-          "id": "objective",
-          "label": "Primary Objective",
-          "type": "textarea",
-          "placeholder": "What do you want to achieve with this marketing automation playbook?",
-          "required": true,
-          "helpText": ""
-        },
-        {
-          "id": "target_audience",
-          "label": "Target Audience",
-          "type": "textarea",
-          "placeholder": "Who is this for?",
-          "required": true,
-          "helpText": ""
-        },
-        {
-          "id": "timeline",
-          "label": "Timeline",
+          "id": "n_a_0",
+          "label": "N/A",
           "type": "text",
-          "placeholder": "e.g., Q1 2026, Next 90 days",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "budget",
-          "label": "Budget / Resources",
-          "type": "text",
-          "placeholder": "e.g., \u20ac5,000 or 20 hours/week",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "success_metrics",
-          "label": "Success Metrics",
-          "type": "textarea",
-          "placeholder": "How will you measure success?",
-          "required": true,
-          "helpText": ""
-        }
-      ]
-    },
-    {
-      "id": "strategy",
-      "title": "Strategy & Approach",
-      "description": "Outline your strategic approach",
-      "fields": [
-        {
-          "id": "core_strategy",
-          "label": "Core Strategy",
-          "type": "textarea",
-          "placeholder": "Describe your overall approach",
-          "required": true,
-          "helpText": ""
-        },
-        {
-          "id": "key_channels",
-          "label": "Key Channels / Platforms",
-          "type": "textarea",
-          "placeholder": "e.g., LinkedIn, Email, Blog, Paid ads",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "messaging",
-          "label": "Key Messages",
-          "type": "textarea",
-          "placeholder": "What are the main messages you want to communicate?",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "differentiators",
-          "label": "Unique Differentiators",
-          "type": "textarea",
-          "placeholder": "What sets your approach apart?",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "competitors",
-          "label": "Competitive Landscape",
-          "type": "textarea",
-          "placeholder": "What are competitors doing in this area?",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "risks",
-          "label": "Potential Risks & Mitigation",
-          "type": "textarea",
-          "placeholder": "What could go wrong and how will you handle it?",
-          "required": false,
-          "helpText": ""
-        }
-      ]
-    },
-    {
-      "id": "execution",
-      "title": "Execution Plan",
-      "description": "Detail your action items and timeline",
-      "fields": [
-        {
-          "id": "phase_1",
-          "label": "Phase 1: Foundation (Week 1-2)",
-          "type": "textarea",
-          "placeholder": "What will you set up first?",
-          "required": true,
-          "helpText": ""
-        },
-        {
-          "id": "phase_2",
-          "label": "Phase 2: Launch (Week 3-4)",
-          "type": "textarea",
-          "placeholder": "What are the launch activities?",
-          "required": true,
-          "helpText": ""
-        },
-        {
-          "id": "phase_3",
-          "label": "Phase 3: Optimization (Week 5+)",
-          "type": "textarea",
-          "placeholder": "How will you iterate and improve?",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "tools",
-          "label": "Tools & Technology Needed",
-          "type": "textarea",
-          "placeholder": "e.g., HubSpot, Canva, Google Analytics",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "team",
-          "label": "Team & Responsibilities",
-          "type": "textarea",
-          "placeholder": "Who is responsible for what?",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "dependencies",
-          "label": "Dependencies & Prerequisites",
-          "type": "textarea",
-          "placeholder": "What needs to happen before you can start?",
-          "required": false,
-          "helpText": ""
-        }
-      ]
-    },
-    {
-      "id": "tracking",
-      "title": "Tracking & Reporting",
-      "description": "Set up measurement and reporting",
-      "fields": [
-        {
-          "id": "kpis",
-          "label": "Key Performance Indicators",
-          "type": "textarea",
-          "placeholder": "List 3-5 KPIs you'll track",
-          "required": true,
-          "helpText": ""
-        },
-        {
-          "id": "reporting_frequency",
-          "label": "Reporting Frequency",
-          "type": "select",
-          "options": [
-            "Daily",
-            "Weekly",
-            "Bi-weekly",
-            "Monthly",
-            "Quarterly"
-          ],
-          "required": false,
           "placeholder": "",
-          "helpText": ""
+          "required": false
         },
         {
-          "id": "dashboard_tools",
-          "label": "Dashboard / Analytics Tools",
+          "id": "workflow_status_overview_1",
+          "label": "Workflow Status Overview",
           "type": "text",
-          "placeholder": "e.g., Google Analytics, Mixpanel",
-          "required": false,
-          "helpText": ""
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "benchmarks",
-          "label": "Benchmarks / Targets",
-          "type": "textarea",
-          "placeholder": "What are your target numbers?",
-          "required": false,
-          "helpText": ""
+          "id": "status_2",
+          "label": "Status",
+          "type": "text",
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "review_process",
-          "label": "Review & Optimization Process",
-          "type": "textarea",
-          "placeholder": "How will you review and adjust?",
-          "required": false,
-          "helpText": ""
+          "id": "active_3",
+          "label": "Active",
+          "type": "text",
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "lessons_learned",
-          "label": "Lessons Learned",
-          "type": "textarea",
-          "placeholder": "Document insights as you go",
-          "required": false,
-          "helpText": ""
+          "id": "draft_4",
+          "label": "Draft",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "paused_5",
+          "label": "Paused",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "retired_6",
+          "label": "Retired",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "planned_7",
+          "label": "Planned",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "automation_audit",
+      "title": "Automation Audit",
+      "description": "Complete the Automation Audit section",
+      "fields": [
+        {
+          "id": "do_you_have_triggered_behaviour_based_em_0",
+          "label": "Do you have triggered, behaviour-based email sequences beyond simple newsletters?",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "do_you_have_an_automated_lead_scoring_mo_1",
+          "label": "Do you have an automated lead scoring model that routes leads to sales based on behaviour and fit?",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "do_you_use_dynamic_segments_that_update__2",
+          "label": "Do you use dynamic segments that update automatically based on real-time behaviour and attributes?",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "do_your_automated_communications_use_dyn_3",
+          "label": "Do your automated communications use dynamic content based on recipient attributes and behaviour?",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "do_you_coordinate_automated_touchpoints__4",
+          "label": "Do you coordinate automated touchpoints across email, SMS, web, ads, and social?",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "do_you_have_automated_data_cleansing_ded_5",
+          "label": "Do you have automated data cleansing, deduplication, and enrichment processes?",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "do_you_automatically_track_and_attribute_6",
+          "label": "Do you automatically track and attribute conversions to specific automation workflows?",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "are_your_marketing_tools_connected_with__7",
+          "label": "Are your marketing tools connected with clean, bidirectional data flows?",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "workflow_library",
+      "title": "Workflow Library",
+      "description": "Complete the Workflow Library section",
+      "fields": [
+        {
+          "id": "increase_engagement_by_40_in_first_14_da_0",
+          "label": "Increase engagement by 40% in first 14 days",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "convert_25_of_mqls_to_sqls_within_30_day_1",
+          "label": "Convert 25% of MQLs to SQLs within 30 days",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "recover_10_15_of_abandoned_carts_2",
+          "label": "Recover 10-15% of abandoned carts",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "re_activate_5_10_of_dormant_contacts_3",
+          "label": "Re-activate 5-10% of dormant contacts",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "achieve_80_activation_within_7_days_4",
+          "label": "Achieve 80% activation within 7 days",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "drive_15_upsell_conversion_rate_5",
+          "label": "Drive 15% upsell conversion rate",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "maintain_90_renewal_rate_6",
+          "label": "Maintain 90%+ renewal rate",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "convert_20_of_attendees_to_pipeline_7",
+          "label": "Convert 20% of attendees to pipeline",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "achieve_50_attendance_rate_8",
+          "label": "Achieve 50%+ attendance rate",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "convert_25_of_trialists_to_paid_9",
+          "label": "Convert 25% of trialists to paid",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "collect_nps_from_40_of_customers_10",
+          "label": "Collect NPS from 40% of customers",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "drive_5_incremental_revenue_from_persona_11",
+          "label": "Drive 5% incremental revenue from personalised offers",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "nurture_towards_demo_request_within_14_d_12",
+          "label": "Nurture towards demo request within 14 days",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "win_back_5_8_of_churned_customers_13",
+          "label": "Win back 5-8% of churned customers",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "ensure_4_hour_sales_follow_up_14",
+          "label": "Ensure <4 hour sales follow-up",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "proactive_competitive_positioning_conten_15",
+          "label": "Proactive competitive positioning content",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "convert_10_of_pricing_page_visitors_16",
+          "label": "Convert 10% of pricing page visitors",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "improve_csat_and_identify_product_issues_17",
+          "label": "Improve CSAT and identify product issues",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "generate_referrals_from_20_of_promoters_18",
+          "label": "Generate referrals from 20% of promoters",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "capitalize_on_seasonal_demand_spikes_19",
+          "label": "Capitalize on seasonal demand spikes",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "email_sequence_builder",
+      "title": "Email Sequence Builder",
+      "description": "Complete the Email Sequence Builder section",
+      "fields": [
+        {
+          "id": "welcome_to_brand_here_s_what_s_next_0",
+          "label": "Welcome to [Brand] — Here's what's next",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "your_quick_start_guide_to_key_feature_1",
+          "label": "Your quick-start guide to [key feature]",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "how_customer_name_achieved_result_with_u_2",
+          "label": "How [customer name] achieved [result] with us",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "a_special_offer_just_for_you_3",
+          "label": "A special offer just for you",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "thanks_for_downloading_resource_name_4",
+          "label": "Thanks for downloading [resource name]",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "3_strategies_that_solve_key_pain_point_5",
+          "label": "3 strategies that [solve key pain point]",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "see_how_company_solved_problem_6",
+          "label": "See how [company] solved [problem]",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "ready_to_see_it_in_action_7",
+          "label": "Ready to see it in action?",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "lead_scoring_setup",
+      "title": "Lead Scoring Setup",
+      "description": "Complete the Lead Scoring Setup section",
+      "fields": [
+        {
+          "id": "visited_pricing_page_0",
+          "label": "Visited pricing page",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "downloaded_gated_content_1",
+          "label": "Downloaded gated content",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "attended_webinar_2",
+          "label": "Attended webinar",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "requested_demo_3",
+          "label": "Requested demo",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "opened_3_emails_in_7_days_4",
+          "label": "Opened 3+ emails in 7 days",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "clicked_email_cta_5",
+          "label": "Clicked email CTA",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "visited_5_pages_in_one_session_6",
+          "label": "Visited 5+ pages in one session",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "returned_to_site_after_7_days_7",
+          "label": "Returned to site after 7+ days",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "watched_product_video_50_8",
+          "label": "Watched product video >50%",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "unsubscribed_from_emails_9",
+          "label": "Unsubscribed from emails",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "job_title_matches_icp_10",
+          "label": "Job title matches ICP",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "company_size_matches_icp_11",
+          "label": "Company size matches ICP",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "industry_matches_target_verticals_12",
+          "label": "Industry matches target verticals",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "location_in_target_geography_13",
+          "label": "Location in target geography",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "personal_email_domain_gmail_yahoo_14",
+          "label": "Personal email domain (gmail, yahoo)",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "revenue_matches_icp_range_15",
+          "label": "Revenue matches ICP range",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "mql_threshold_50_points_16",
+          "label": "MQL Threshold: 50+ points",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "sql_threshold_80_points_17",
+          "label": "SQL Threshold: 80+ points",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "hot_lead_100_points_18",
+          "label": "Hot Lead: 100+ points",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "segmentation_planner",
+      "title": "Segmentation Planner",
+      "description": "Complete the Segmentation Planner section",
+      "fields": [
+        {
+          "id": "lead_score_80_visited_pricing_page_in_la_0",
+          "label": "Lead score >80, visited pricing page in last 7 days",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "lead_score_30_79_engaged_in_last_30_days_1",
+          "label": "Lead score 30-79, engaged in last 30 days",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "signup_date_within_last_7_days_2",
+          "label": "Signup date within last 7 days",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "company_size_500_employees_matching_indu_3",
+          "label": "Company size >500 employees + matching industry",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "attended_webinar_in_last_30_days_4",
+          "label": "Attended webinar in last 30 days",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "customer_status_churned_last_90_days_5",
+          "label": "Customer status = churned, last 90 days",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "nps_9_10_high_product_usage_6",
+          "label": "NPS 9-10 + high product usage",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "no_email_open_in_90_days_7",
+          "label": "No email open in 90+ days",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "integration_map",
+      "title": "Integration Map",
+      "description": "Complete the Integration Map section",
+      "fields": [
+        {
+          "id": "contacts_lead_scores_deal_stages_activit_0",
+          "label": "Contacts, lead scores, deal stages, activities",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "mql_alerts_engagement_scores_campaign_me_1",
+          "label": "MQL alerts, engagement scores, campaign membership",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "page_visits_form_submissions_event_track_2",
+          "label": "Page visits, form submissions, event tracking",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "ad_click_data_conversion_tracking_audien_3",
+          "label": "Ad click data, conversion tracking, audience sync",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "social_engagement_profile_data_utm_track_4",
+          "label": "Social engagement, profile data, UTM tracking",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "ticket_data_csat_scores_issue_categories_5",
+          "label": "Ticket data, CSAT scores, issue categories",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "feature_usage_activation_events_login_fr_6",
+          "label": "Feature usage, activation events, login frequency",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "subscription_status_revenue_renewal_date_7",
+          "label": "Subscription status, revenue, renewal dates",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "performance_monitor",
+      "title": "Performance Monitor",
+      "description": "Complete the Performance Monitor section",
+      "fields": [
+        {
+          "id": "welcome_series_0",
+          "label": "Welcome Series",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "lead_nurture_1",
+          "label": "Lead Nurture",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "abandoned_cart_2",
+          "label": "Abandoned Cart",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "re_engagement_3",
+          "label": "Re-engagement",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "post_purchase_onboarding_4",
+          "label": "Post-Purchase Onboarding",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "trial_expiration_5",
+          "label": "Trial Expiration",
+          "type": "text",
+          "placeholder": "",
+          "required": false
         }
       ]
     }

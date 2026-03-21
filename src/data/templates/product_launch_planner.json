@@ -4,7 +4,7 @@
   "number": 24,
   "category": "growth",
   "description": "Product Launch Planner - Marketing template for growth professionals",
-  "instructions": "How to Use This Template 1. Launch Overview Start with the Launch Overview tab to define your product, target audience, positioning, and key launch metrics. 2. Go-to-Market Plan Map your GTM strategy including pricing, distribution channels, partnerships, and competitive positioning. 3. Launch Timeline Use the pre-built 12-week timeline with 50+ tasks across all launch phases \u2014 from pre-launch to post-launch. 4. Channel Plan Plan your activation across 10+ marketing channels with budgets, messaging, and timing. 5. Stakeholder RACI Assign roles and responsibilities across teams using the RACI m",
+  "instructions": "How to Use This Template 1. Launch Overview Start with the Launch Overview tab to define your product, target audience, positioning, and key launch metrics. 2. Go-to-Market Plan Map your GTM strategy including pricing, distribution channels, partnerships, and competitive positioning. 3. Launch Timeline Use the pre-built 12-week timeline with 50+ tasks across all launch phases — from pre-launch to post-launch. 4. Channel Plan Plan your activation across 10+ marketing channels with budgets, messaging, and timing. 5. Stakeholder RACI Assign roles and responsibilities across teams using the RACI m",
   "icon": "trending-up",
   "tags": [
     "strategy",
@@ -13,105 +13,1073 @@
   "estimatedTime": "65 min",
   "sections": [
     {
-      "id": "section_2",
-      "title": "Go-to-Market Plan",
-      "description": "Configuration and tracking for Go-to-Market Plan",
+      "id": "dashboard",
+      "title": "Dashboard",
+      "description": "Complete the Dashboard section",
       "fields": [
         {
-          "id": "field_1",
-          "label": "Go-to-Market Strategy",
+          "id": "launch_phase_0",
+          "label": "Launch Phase",
           "type": "text",
-          "placeholder": "Enter go-to-market strategy",
-          "required": false,
-          "helpText": "Positioning & Messaging"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_2",
-          "label": "Go-to-Market Strategy",
+          "id": "days_to_launch_1",
+          "label": "Days to Launch",
           "type": "text",
-          "placeholder": "Enter go-to-market strategy",
-          "required": false,
-          "helpText": "Element"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_3",
-          "label": "Go-to-Market Strategy",
+          "id": "tasks_completed_2",
+          "label": "Tasks Completed",
           "type": "text",
-          "placeholder": "Enter go-to-market strategy",
-          "required": false,
-          "helpText": "Core Positioning"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_4",
-          "label": "Go-to-Market Strategy",
+          "id": "tasks_remaining_3",
+          "label": "Tasks Remaining",
           "type": "text",
-          "placeholder": "Enter go-to-market strategy",
-          "required": false,
-          "helpText": "Competitive Differentiation"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_5",
-          "label": "Go-to-Market Strategy",
+          "id": "completion_rate_4",
+          "label": "Completion Rate",
           "type": "text",
-          "placeholder": "Enter go-to-market strategy",
-          "required": false,
-          "helpText": "Emotional Appeal"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_6",
-          "label": "Go-to-Market Strategy",
+          "id": "channels_active_5",
+          "label": "Channels Active",
           "type": "text",
-          "placeholder": "Enter go-to-market strategy",
-          "required": false,
-          "helpText": "Distribution Channels"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_7",
-          "label": "Go-to-Market Strategy",
+          "id": "risks_identified_6",
+          "label": "Risks Identified",
           "type": "text",
-          "placeholder": "Enter go-to-market strategy",
-          "required": false,
-          "helpText": "Channel"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_8",
-          "label": "Go-to-Market Strategy",
+          "id": "high_risks_7",
+          "label": "High Risks",
           "type": "text",
-          "placeholder": "Enter go-to-market strategy",
-          "required": false,
-          "helpText": "Direct Sales"
+          "placeholder": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "launch_overview",
+      "title": "Launch Overview",
+      "description": "Complete the Launch Overview section",
+      "fields": [
+        {
+          "id": "product_name_0",
+          "label": "Product Name",
+          "type": "text",
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_9",
-          "label": "Go-to-Market Strategy",
+          "id": "product_category_1",
+          "label": "Product Category",
           "type": "text",
-          "placeholder": "Enter go-to-market strategy",
-          "required": false,
-          "helpText": "Website"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_10",
-          "label": "Go-to-Market Strategy",
+          "id": "launch_date_2",
+          "label": "Launch Date",
           "type": "text",
-          "placeholder": "Enter go-to-market strategy",
-          "required": false,
-          "helpText": "Partner Channel"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_11",
-          "label": "Go-to-Market Strategy",
+          "id": "launch_type_3",
+          "label": "Launch Type",
           "type": "text",
-          "placeholder": "Enter go-to-market strategy",
-          "required": false,
-          "helpText": "Marketplace"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_12",
-          "label": "Go-to-Market Strategy",
+          "id": "target_market_4",
+          "label": "Target Market",
           "type": "text",
-          "placeholder": "Enter go-to-market strategy",
-          "required": false,
-          "helpText": "Resellers"
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "primary_persona_5",
+          "label": "Primary Persona",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "secondary_persona_6",
+          "label": "Secondary Persona",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "value_proposition_7",
+          "label": "Value Proposition",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "key_differentiators_8",
+          "label": "Key Differentiators",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "pricing_strategy_9",
+          "label": "Pricing Strategy",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "revenue_target_year_1_10",
+          "label": "Revenue Target (Year 1)",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "customer_acquisition_target_11",
+          "label": "Customer Acquisition Target",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "launch_budget_12",
+          "label": "Launch Budget",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "executive_sponsor_13",
+          "label": "Executive Sponsor",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "launch_lead_14",
+          "label": "Launch Lead",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "go_to_market_plan",
+      "title": "Go-to-Market Plan",
+      "description": "Complete the Go-to-Market Plan section",
+      "fields": [
+        {
+          "id": "how_you_want_market_to_perceive_product_0",
+          "label": "How you want market to perceive product",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "what_sets_you_apart_1",
+          "label": "What sets you apart",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "emotional_connection_point_2",
+          "label": "Emotional connection point",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "type_3",
+          "label": "Type",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "direct_4",
+          "label": "Direct",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "direct_5",
+          "label": "Direct",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "indirect_6",
+          "label": "Indirect",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "indirect_7",
+          "label": "Indirect",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "indirect_8",
+          "label": "Indirect",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "launch_timeline",
+      "title": "Launch Timeline",
+      "description": "Complete the Launch Timeline section",
+      "fields": [
+        {
+          "id": "owner_0",
+          "label": "Owner",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "product_lead_1",
+          "label": "Product Lead",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "marketing_lead_2",
+          "label": "Marketing Lead",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "marketing_lead_3",
+          "label": "Marketing Lead",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "launch_lead_4",
+          "label": "Launch Lead",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "marketing_lead_5",
+          "label": "Marketing Lead",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "product_lead_6",
+          "label": "Product Lead",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "marketing_lead_7",
+          "label": "Marketing Lead",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "content_lead_8",
+          "label": "Content Lead",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "content_lead_9",
+          "label": "Content Lead",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "creative_lead_10",
+          "label": "Creative Lead",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "design_lead_11",
+          "label": "Design Lead",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "email_lead_12",
+          "label": "Email Lead",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "sales_ops_13",
+          "label": "Sales Ops",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "pr_lead_14",
+          "label": "PR Lead",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "sales_ops_15",
+          "label": "Sales Ops",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "cs_lead_16",
+          "label": "CS Lead",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "analytics_lead_17",
+          "label": "Analytics Lead",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "marketing_ops_18",
+          "label": "Marketing Ops",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "social_lead_19",
+          "label": "Social Lead",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "email_lead_20",
+          "label": "Email Lead",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "pr_lead_21",
+          "label": "PR Lead",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "launch_lead_22",
+          "label": "Launch Lead",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "launch_lead_23",
+          "label": "Launch Lead",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "product_lead_24",
+          "label": "Product Lead",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "marketing_lead_25",
+          "label": "Marketing Lead",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "email_lead_26",
+          "label": "Email Lead",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "social_lead_27",
+          "label": "Social Lead",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "pr_lead_28",
+          "label": "PR Lead",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "paid_media_lead_29",
+          "label": "Paid Media Lead",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "channel_plan",
+      "title": "Channel Plan",
+      "description": "Complete the Channel Plan section",
+      "fields": [
+        {
+          "id": "4_emails_landing_page_0",
+          "label": "4 emails, landing page",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "3_blog_posts_1_guide_1",
+          "label": "3 blog posts, 1 guide",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "15_posts_3_videos_2",
+          "label": "15 posts, 3 videos",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "5_ad_sets_10_creatives_3",
+          "label": "5 ad sets, 10 creatives",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "20_keywords_4_ad_groups_4",
+          "label": "20 keywords, 4 ad groups",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "press_release_media_kit_5",
+          "label": "Press release, media kit",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "briefs_product_samples_6",
+          "label": "Briefs, product samples",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "presentation_landing_page_7",
+          "label": "Presentation, landing page",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "joint_content_emails_8",
+          "label": "Joint content, emails",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "listing_visuals_video_9",
+          "label": "Listing, visuals, video",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "stakeholder_raci",
+      "title": "Stakeholder RACI",
+      "description": "Complete the Stakeholder RACI section",
+      "fields": [
+        {
+          "id": "activity_0",
+          "label": "Activity",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "launch_lead_1",
+          "label": "Launch Lead",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "product_2",
+          "label": "Product",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "marketing_3",
+          "label": "Marketing",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "sales_4",
+          "label": "Sales",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "engineering_5",
+          "label": "Engineering",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "product_positioning_6",
+          "label": "Product positioning",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "gtm_strategy_7",
+          "label": "GTM strategy",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "pricing_8",
+          "label": "Pricing",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "launch_timeline_9",
+          "label": "Launch timeline",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "creative_assets_10",
+          "label": "Creative assets",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "sales_enablement_11",
+          "label": "Sales enablement",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "pr_media_12",
+          "label": "PR & media",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "customer_comms_13",
+          "label": "Customer comms",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "technical_readiness_14",
+          "label": "Technical readiness",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "analytics_setup_15",
+          "label": "Analytics setup",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "launch_day_execution_16",
+          "label": "Launch day execution",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "post_launch_review_17",
+          "label": "Post-launch review",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "launch_checklist",
+      "title": "Launch Checklist",
+      "description": "Complete the Launch Checklist section",
+      "fields": [
+        {
+          "id": "product_positioning_finalised_0",
+          "label": "Product positioning finalised",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "value_proposition_validated_1",
+          "label": "Value proposition validated",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "competitive_analysis_complete_2",
+          "label": "Competitive analysis complete",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "pricing_approved_3",
+          "label": "Pricing approved",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "launch_kpis_defined_4",
+          "label": "Launch KPIs defined",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "target_personas_documented_5",
+          "label": "Target personas documented",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "landing_page_live_6",
+          "label": "Landing page live",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "blog_post_drafted_7",
+          "label": "Blog post drafted",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "email_sequences_built_8",
+          "label": "Email sequences built",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "social_content_created_9",
+          "label": "Social content created",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "sales_deck_ready_10",
+          "label": "Sales deck ready",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "product_demo_video_11",
+          "label": "Product demo video",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "case_study_or_testimonials_12",
+          "label": "Case study or testimonials",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "press_release_written_13",
+          "label": "Press release written",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "faq_document_14",
+          "label": "FAQ document",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "product_ready_for_launch_15",
+          "label": "Product ready for launch",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "analytics_tracking_configured_16",
+          "label": "Analytics tracking configured",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "crm_integration_tested_17",
+          "label": "CRM integration tested",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "landing_page_load_tested_18",
+          "label": "Landing page load tested",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "email_deliverability_checked_19",
+          "label": "Email deliverability checked",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "forms_ctas_tested_20",
+          "label": "Forms & CTAs tested",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "sales_team_trained_21",
+          "label": "Sales team trained",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "cs_team_briefed_22",
+          "label": "CS team briefed",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "support_docs_updated_23",
+          "label": "Support docs updated",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "internal_faq_distributed_24",
+          "label": "Internal FAQ distributed",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "partner_materials_shared_25",
+          "label": "Partner materials shared",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "teaser_campaign_sent_26",
+          "label": "Teaser campaign sent",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "media_outreach_complete_27",
+          "label": "Media outreach complete",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "influencer_briefs_sent_28",
+          "label": "Influencer briefs sent",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "executive_sign_off_obtained_29",
+          "label": "Executive sign-off obtained",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "messaging_matrix",
+      "title": "Messaging Matrix",
+      "description": "Complete the Messaging Matrix section",
+      "fields": [
+        {
+          "id": "measurable_impact_from_day_one_0",
+          "label": "Measurable impact from day one",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "one_platform_to_rule_your_stack_1",
+          "label": "One platform to rule your stack",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "create_content_that_drives_revenue_2",
+          "label": "Create content that drives revenue",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "scale_without_sacrificing_quality_3",
+          "label": "Scale without sacrificing quality",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "impress_clients_with_better_results_4",
+          "label": "Impress clients with better results",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "risk_register",
+      "title": "Risk Register",
+      "description": "Complete the Risk Register section",
+      "fields": [
+        {
+          "id": "product_not_ready_by_launch_date_0",
+          "label": "Product not ready by launch date",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "key_messaging_doesn_t_resonate_1",
+          "label": "Key messaging doesn't resonate",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "competitor_launches_similar_product_firs_2",
+          "label": "Competitor launches similar product first",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "budget_overrun_on_paid_channels_3",
+          "label": "Budget overrun on paid channels",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "low_email_deliverability_4",
+          "label": "Low email deliverability",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "sales_team_not_prepared_5",
+          "label": "Sales team not prepared",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "negative_press_coverage_6",
+          "label": "Negative press coverage",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "website_crashes_under_traffic_7",
+          "label": "Website crashes under traffic",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "performance_tracker",
+      "title": "Performance Tracker",
+      "description": "Complete the Performance Tracker section",
+      "fields": [
+        {
+          "id": "website_traffic_0",
+          "label": "Website Traffic",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "signups_leads_1",
+          "label": "Signups / Leads",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "conversion_rate_2",
+          "label": "Conversion Rate",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "revenue_3",
+          "label": "Revenue",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "mqls_generated_4",
+          "label": "MQLs Generated",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "email_open_rate_5",
+          "label": "Email Open Rate",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "social_engagement_6",
+          "label": "Social Engagement",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "media_mentions_7",
+          "label": "Media Mentions",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "customer_feedback_score_8",
+          "label": "Customer Feedback Score",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "nps_score_9",
+          "label": "NPS Score",
+          "type": "text",
+          "placeholder": "",
+          "required": false
         }
       ]
     }

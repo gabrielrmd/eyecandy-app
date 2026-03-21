@@ -13,255 +13,590 @@
   "estimatedTime": "45 min",
   "sections": [
     {
-      "id": "section_4",
+      "id": "dashboard",
+      "title": "Dashboard",
+      "description": "Complete the Dashboard section",
+      "fields": [
+        {
+          "id": "videos_planned_0",
+          "label": "Videos Planned",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "videos_published_1",
+          "label": "Videos Published",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "videos_in_production_2",
+          "label": "Videos in Production",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "total_views_3",
+          "label": "Total Views",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "avg_engagement_rate_4",
+          "label": "Avg Engagement Rate",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "total_production_cost_5",
+          "label": "Total Production Cost",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "avg_cost_per_video_6",
+          "label": "Avg Cost per Video",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "top_performing_platform_7",
+          "label": "Top Performing Platform",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "video_strategy",
+      "title": "Video Strategy",
+      "description": "Complete the Video Strategy section",
+      "fields": [
+        {
+          "id": "video_marketing_goal_0",
+          "label": "Video Marketing Goal",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "primary_audience_1",
+          "label": "Primary Audience",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "secondary_audience_2",
+          "label": "Secondary Audience",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "key_message_pillars_3",
+          "label": "Key Message Pillars",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "brand_tone_for_video_4",
+          "label": "Brand Tone for Video",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "monthly_video_target_5",
+          "label": "Monthly Video Target",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "annual_budget_6",
+          "label": "Annual Budget",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "primary_platform_7",
+          "label": "Primary Platform",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "content_pillars_8",
+          "label": "Content Pillars",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "pillar_9",
+          "label": "Pillar",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "description_10",
+          "label": "Description",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "video_types_11",
+          "label": "Video Types",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "frequency_12",
+          "label": "Frequency",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "platform_focus_13",
+          "label": "Platform Focus",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "example_topics_14",
+          "label": "Example Topics",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "educational_15",
+          "label": "Educational",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "teach_audience_something_valuable_16",
+          "label": "Teach audience something valuable",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "how_to_tutorial_explainer_17",
+          "label": "How-to, Tutorial, Explainer",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "weekly_18",
+          "label": "Weekly",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "youtube_linkedin_19",
+          "label": "YouTube, LinkedIn",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "industry_tips_product_walkthroughs_20",
+          "label": "Industry tips, product walkthroughs",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "brand_story_21",
+          "label": "Brand Story",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "share_company_culture_and_values_22",
+          "label": "Share company culture and values",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "behind_the_scenes_culture_mission_23",
+          "label": "Behind-the-scenes, Culture, Mission",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "monthly_24",
+          "label": "Monthly",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "instagram_youtube_25",
+          "label": "Instagram, YouTube",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "team_stories_company_milestones_26",
+          "label": "Team stories, company milestones",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "product_27",
+          "label": "Product",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "showcase_product_features_and_benefits_28",
+          "label": "Showcase product features and benefits",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "demo_unboxing_comparison_29",
+          "label": "Demo, Unboxing, Comparison",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "script_template",
       "title": "Script Template",
-      "description": "Configuration and tracking for Script Template",
+      "description": "Complete the Script Template section",
       "fields": [
         {
-          "id": "field_1",
-          "label": "Video Script Template",
+          "id": "video_type_0",
+          "label": "Video Type",
           "type": "text",
-          "placeholder": "Enter video script template",
-          "required": false,
-          "helpText": "Video Title"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_2",
-          "label": "Video Script Template",
+          "id": "target_duration_1",
+          "label": "Target Duration",
           "type": "text",
-          "placeholder": "Enter video script template",
-          "required": false,
-          "helpText": "Video Type"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_3",
-          "label": "Video Script Template",
+          "id": "target_platform_2",
+          "label": "Target Platform",
           "type": "text",
-          "placeholder": "Enter video script template",
-          "required": false,
-          "helpText": "Target Duration"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_4",
-          "label": "Video Script Template",
+          "id": "target_audience_3",
+          "label": "Target Audience",
           "type": "text",
-          "placeholder": "Enter video script template",
-          "required": false,
-          "helpText": "Target Platform"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_5",
-          "label": "Video Script Template",
+          "id": "key_message_4",
+          "label": "Key Message",
           "type": "text",
-          "placeholder": "Enter video script template",
-          "required": false,
-          "helpText": "Target Audience"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_6",
-          "label": "Video Script Template",
+          "id": "script_breakdown_5",
+          "label": "Script Breakdown",
           "type": "text",
-          "placeholder": "Enter video script template",
-          "required": false,
-          "helpText": "Key Message"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_7",
-          "label": "Video Script Template",
+          "id": "section_6",
+          "label": "Section",
           "type": "text",
-          "placeholder": "Enter video script template",
-          "required": false,
-          "helpText": "CTA"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_8",
-          "label": "Video Script Template",
+          "id": "timecode_7",
+          "label": "Timecode",
           "type": "text",
-          "placeholder": "Enter video script template",
-          "required": false,
-          "helpText": "Script Breakdown"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_9",
-          "label": "Video Script Template",
+          "id": "duration_8",
+          "label": "Duration",
           "type": "text",
-          "placeholder": "Enter video script template",
-          "required": false,
-          "helpText": "Section"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_10",
-          "label": "Video Script Template",
+          "id": "visual_9",
+          "label": "Visual",
           "type": "text",
-          "placeholder": "Enter video script template",
-          "required": false,
-          "helpText": "Hook"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_11",
-          "label": "Video Script Template",
+          "id": "audio_voiceover_10",
+          "label": "Audio - Voiceover",
           "type": "text",
-          "placeholder": "Enter video script template",
-          "required": false,
-          "helpText": "Problem"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_12",
-          "label": "Video Script Template",
+          "id": "audio_music_11",
+          "label": "Audio - Music",
           "type": "text",
-          "placeholder": "Enter video script template",
-          "required": false,
-          "helpText": "Solution"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_13",
-          "label": "Video Script Template",
+          "id": "on_screen_text_12",
+          "label": "On-Screen Text",
           "type": "text",
-          "placeholder": "Enter video script template",
-          "required": false,
-          "helpText": "Proof"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_14",
-          "label": "Video Script Template",
+          "id": "hook_13",
+          "label": "Hook",
           "type": "text",
-          "placeholder": "Enter video script template",
-          "required": false,
-          "helpText": "CTA"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_15",
-          "label": "Video Script Template",
+          "id": "0_00_14",
+          "label": "0:00",
           "type": "text",
-          "placeholder": "Enter video script template",
-          "required": false,
-          "helpText": "End Card"
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "0_03_15",
+          "label": "0:03",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "eye_catching_opening_shot_16",
+          "label": "Eye-catching opening shot",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "attention_grabbing_first_line_17",
+          "label": "Attention-grabbing first line",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "upbeat_intro_18",
+          "label": "Upbeat intro",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "problem_19",
+          "label": "Problem",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "0_03_20",
+          "label": "0:03",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "0_10_21",
+          "label": "0:10",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "relatable_scenario_22",
+          "label": "Relatable scenario",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "describe_the_pain_point_23",
+          "label": "Describe the pain point",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "subtle_tension_24",
+          "label": "Subtle tension",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "problem_statement_25",
+          "label": "Problem statement",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "solution_26",
+          "label": "Solution",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "0_13_27",
+          "label": "0:13",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "0_15_28",
+          "label": "0:15",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "product_reveal_or_concept_29",
+          "label": "Product reveal or concept",
+          "type": "text",
+          "placeholder": "",
+          "required": false
         }
       ]
     },
     {
-      "id": "section_7",
-      "title": "Performance Tracker",
-      "description": "Configuration and tracking for Performance Tracker",
-      "fields": [
-        {
-          "id": "field_1",
-          "label": "Video Performance Tracker",
-          "type": "text",
-          "placeholder": "Enter video performance tracker",
-          "required": false,
-          "helpText": "Video Title"
-        }
-      ]
-    },
-    {
-      "id": "section_8",
+      "id": "platform_specs",
       "title": "Platform Specs",
-      "description": "Configuration and tracking for Platform Specs",
+      "description": "Complete the Platform Specs section",
       "fields": [
         {
-          "id": "field_1",
-          "label": "Video Platform Specs",
+          "id": "chapters_improve_retention_0",
+          "label": "Chapters improve retention",
           "type": "text",
-          "placeholder": "Enter video platform specs",
-          "required": false,
-          "helpText": "Platform"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_2",
-          "label": "Video Platform Specs",
+          "id": "vertical_only_1",
+          "label": "Vertical only",
           "type": "text",
-          "placeholder": "Enter video platform specs",
-          "required": false,
-          "helpText": "YouTube"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_3",
-          "label": "Video Platform Specs",
+          "id": "square_or_vertical_preferred_2",
+          "label": "Square or vertical preferred",
           "type": "text",
-          "placeholder": "Enter video platform specs",
-          "required": false,
-          "helpText": "YouTube"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_4",
-          "label": "Video Platform Specs",
+          "id": "trending_audio_helps_reach_3",
+          "label": "Trending audio helps reach",
           "type": "text",
-          "placeholder": "Enter video platform specs",
-          "required": false,
-          "helpText": "Instagram"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_5",
-          "label": "Video Platform Specs",
+          "id": "swipe_up_for_links_4",
+          "label": "Swipe up for links",
           "type": "text",
-          "placeholder": "Enter video platform specs",
-          "required": false,
-          "helpText": "Instagram"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_6",
-          "label": "Video Platform Specs",
+          "id": "hook_in_first_1_2_sec_5",
+          "label": "Hook in first 1-2 sec",
           "type": "text",
-          "placeholder": "Enter video platform specs",
-          "required": false,
-          "helpText": "Instagram"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_7",
-          "label": "Video Platform Specs",
+          "id": "captions_essential_6",
+          "label": "Captions essential",
           "type": "text",
-          "placeholder": "Enter video platform specs",
-          "required": false,
-          "helpText": "TikTok"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_8",
-          "label": "Video Platform Specs",
+          "id": "auto_play_without_sound_7",
+          "label": "Auto-play without sound",
           "type": "text",
-          "placeholder": "Enter video platform specs",
-          "required": false,
-          "helpText": "LinkedIn"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_9",
-          "label": "Video Platform Specs",
+          "id": "short_form_vertical_8",
+          "label": "Short-form vertical",
           "type": "text",
-          "placeholder": "Enter video platform specs",
-          "required": false,
-          "helpText": "Facebook"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_10",
-          "label": "Video Platform Specs",
+          "id": "brevity_wins_9",
+          "label": "Brevity wins",
           "type": "text",
-          "placeholder": "Enter video platform specs",
-          "required": false,
-          "helpText": "Facebook"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_11",
-          "label": "Video Platform Specs",
+          "id": "autoplay_muted_10",
+          "label": "Autoplay muted",
           "type": "text",
-          "placeholder": "Enter video platform specs",
-          "required": false,
-          "helpText": "Twitter"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_12",
-          "label": "Video Platform Specs",
+          "id": "use_gif_preview_play_link_11",
+          "label": "Use GIF preview + play link",
           "type": "text",
-          "placeholder": "Enter video platform specs",
-          "required": false,
-          "helpText": "Website"
-        },
-        {
-          "id": "field_13",
-          "label": "Video Platform Specs",
-          "type": "text",
-          "placeholder": "Enter video platform specs",
-          "required": false,
-          "helpText": "Email"
+          "placeholder": "",
+          "required": false
         }
       ]
     }

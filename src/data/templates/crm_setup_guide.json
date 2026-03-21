@@ -4,7 +4,7 @@
   "number": 13,
   "category": "growth",
   "description": "CRM Setup Guide - Marketing template for growth professionals",
-  "instructions": "How to Use This Template Step 1: Design Your Pipeline Go to the Pipeline Design tab. Define your sales stages, exit criteria, and expected conversion rates. This is the backbone of your CRM. Step 2: Map Contact Properties Use the Contact Properties tab to define every field your CRM needs \u2014 standard and custom. Mark which are required vs optional. Step 3: Plan Automations The Automations tab helps you map trigger-based workflows: lead assignment, email sequences, task creation, and stage changes. Step 4: Define Integrations List every tool that connects to your CRM in the Integrations tab \u2014 ma",
+  "instructions": "How to Use This Template Step 1: Design Your Pipeline Go to the Pipeline Design tab. Define your sales stages, exit criteria, and expected conversion rates. This is the backbone of your CRM. Step 2: Map Contact Properties Use the Contact Properties tab to define every field your CRM needs — standard and custom. Mark which are required vs optional. Step 3: Plan Automations The Automations tab helps you map trigger-based workflows: lead assignment, email sequences, task creation, and stage changes. Step 4: Define Integrations List every tool that connects to your CRM in the Integrations tab — ma",
   "icon": "trending-up",
   "tags": [
     "growth"
@@ -12,217 +12,401 @@
   "estimatedTime": "65 min",
   "sections": [
     {
-      "id": "section_1",
+      "id": "pipeline_design",
       "title": "Pipeline Design",
-      "description": "Configuration and tracking for Pipeline Design",
+      "description": "Complete the Pipeline Design section",
       "fields": [
         {
-          "id": "field_1",
-          "label": "Pipeline Design",
+          "id": "contact_info_verified_source_identified_0",
+          "label": "Contact info verified, source identified",
           "type": "text",
-          "placeholder": "Enter pipeline design",
-          "required": false,
-          "helpText": "Define every stage in your sales pipeline. Be specific about exit criteria."
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_2",
-          "label": "Pipeline Design",
+          "id": "lead_score_threshold_1",
+          "label": "Lead score >= threshold",
           "type": "text",
-          "placeholder": "Enter pipeline design",
-          "required": false,
-          "helpText": "SALES PIPELINE STAGES"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_3",
-          "label": "Pipeline Design",
+          "id": "qualified_by_sdr_budget_confirmed_2",
+          "label": "Qualified by SDR, budget confirmed",
           "type": "text",
-          "placeholder": "Enter pipeline design",
-          "required": false,
-          "helpText": "Order"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_4",
-          "label": "Pipeline Design",
-          "type": "number",
-          "placeholder": "Enter pipeline design",
-          "required": false,
-          "validation": {
-            "min": 0,
-            "max": 1000
-          }
-        },
-        {
-          "id": "field_5",
-          "label": "Pipeline Design",
-          "type": "number",
-          "placeholder": "Enter pipeline design",
-          "required": false,
-          "validation": {
-            "min": 0,
-            "max": 1000
-          }
-        },
-        {
-          "id": "field_6",
-          "label": "Pipeline Design",
-          "type": "number",
-          "placeholder": "Enter pipeline design",
-          "required": false,
-          "validation": {
-            "min": 0,
-            "max": 1000
-          }
-        },
-        {
-          "id": "field_7",
-          "label": "Pipeline Design",
-          "type": "number",
-          "placeholder": "Enter pipeline design",
-          "required": false,
-          "validation": {
-            "min": 0,
-            "max": 1000
-          }
-        },
-        {
-          "id": "field_8",
-          "label": "Pipeline Design",
-          "type": "number",
-          "placeholder": "Enter pipeline design",
-          "required": false,
-          "validation": {
-            "min": 0,
-            "max": 1000
-          }
-        },
-        {
-          "id": "field_9",
-          "label": "Pipeline Design",
-          "type": "number",
-          "placeholder": "Enter pipeline design",
-          "required": false,
-          "validation": {
-            "min": 0,
-            "max": 1000
-          }
-        },
-        {
-          "id": "field_10",
-          "label": "Pipeline Design",
-          "type": "number",
-          "placeholder": "Enter pipeline design",
-          "required": false,
-          "validation": {
-            "min": 0,
-            "max": 1000
-          }
-        },
-        {
-          "id": "field_11",
-          "label": "Pipeline Design",
-          "type": "number",
-          "placeholder": "Enter pipeline design",
-          "required": false,
-          "validation": {
-            "min": 0,
-            "max": 1000
-          }
-        },
-        {
-          "id": "field_12",
-          "label": "Pipeline Design",
-          "type": "number",
-          "placeholder": "Enter pipeline design",
-          "required": false,
-          "validation": {
-            "min": 0,
-            "max": 1000
-          }
-        },
-        {
-          "id": "field_13",
-          "label": "Pipeline Design",
-          "type": "number",
-          "placeholder": "Enter pipeline design",
-          "required": false,
-          "validation": {
-            "min": 0,
-            "max": 1000
-          }
-        },
-        {
-          "id": "field_14",
-          "label": "Pipeline Design",
-          "type": "number",
-          "placeholder": "Enter pipeline design",
-          "required": false,
-          "validation": {
-            "min": 0,
-            "max": 1000
-          }
-        },
-        {
-          "id": "field_15",
-          "label": "Pipeline Design",
-          "type": "number",
-          "placeholder": "Enter pipeline design",
-          "required": false,
-          "validation": {
-            "min": 0,
-            "max": 1000
-          }
-        },
-        {
-          "id": "field_16",
-          "label": "Pipeline Design",
-          "type": "number",
-          "placeholder": "Enter pipeline design",
-          "required": false,
-          "validation": {
-            "min": 0,
-            "max": 1000
-          }
-        },
-        {
-          "id": "field_17",
-          "label": "Pipeline Design",
-          "type": "number",
-          "placeholder": "Enter pipeline design",
-          "required": false,
-          "validation": {
-            "min": 0,
-            "max": 1000
-          }
-        },
-        {
-          "id": "field_18",
-          "label": "Pipeline Design",
-          "type": "number",
-          "placeholder": "Enter pipeline design",
-          "required": false,
-          "validation": {
-            "min": 0,
-            "max": 1000
-          }
-        },
-        {
-          "id": "field_19",
-          "label": "Pipeline Design",
-          "type": "number",
-          "placeholder": "Enter pipeline design",
-          "required": false,
-          "validation": {
-            "min": 0,
-            "max": 1000
-          }
-        },
-        {
-          "id": "field_20",
-          "label": "Pipeline Design",
+          "id": "need_confirmed_stakeholders_identified_3",
+          "label": "Need confirmed, stakeholders identified",
           "type": "text",
-          "placeholder": "Enter pipeline design",
-          "required": false,
-          "helpText": "Completion"
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "proposal_delivered_pricing_discussed_4",
+          "label": "Proposal delivered, pricing discussed",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "terms_under_discussion_5",
+          "label": "Terms under discussion",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "contract_signed_payment_received_6",
+          "label": "Contract signed, payment received",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "deal_formally_declined_7",
+          "label": "Deal formally declined",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "contact_properties",
+      "title": "Contact Properties",
+      "description": "Complete the Contact Properties section",
+      "fields": [
+        {
+          "id": "contact_s_first_name_0",
+          "label": "Contact's first name",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "contact_s_last_name_1",
+          "label": "Contact's last name",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "primary_email_address_2",
+          "label": "Primary email address",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "primary_phone_number_3",
+          "label": "Primary phone number",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "organization_name_4",
+          "label": "Organization name",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "role_position_5",
+          "label": "Role / position",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "industry_vertical_6",
+          "label": "Industry vertical",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "employee_count_range_7",
+          "label": "Employee count range",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "how_they_found_you_8",
+          "label": "How they found you",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "calculated_from_scoring_model_9",
+          "label": "Calculated from scoring model",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "lead_mql_sql_customer_evangelist_10",
+          "label": "Lead/MQL/SQL/Customer/Evangelist",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "current_pipeline_stage_11",
+          "label": "Current pipeline stage",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "most_recent_engagement_12",
+          "label": "Most recent engagement",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "assigned_sales_rep_13",
+          "label": "Assigned sales rep",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "campaign_source_tracking_14",
+          "label": "Campaign source tracking",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "campaign_medium_tracking_15",
+          "label": "Campaign medium tracking",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "campaign_name_tracking_16",
+          "label": "Campaign name tracking",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "last_gated_content_downloaded_17",
+          "label": "Last gated content downloaded",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "opted_into_newsletter_18",
+          "label": "Opted into newsletter",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "estimated_company_revenue_19",
+          "label": "Estimated company revenue",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "automations",
+      "title": "Automations",
+      "description": "Complete the Automations section",
+      "fields": [
+        {
+          "id": "assign_to_sdr_based_on_territory_0",
+          "label": "Assign to SDR based on territory",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "send_welcome_email_sequence_1",
+          "label": "Send welcome email sequence",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "notify_sdr_via_slack_email_2",
+          "label": "Notify SDR via Slack + email",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "create_task_for_deal_owner_3",
+          "label": "Create task for deal owner",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "send_feedback_survey_email_4",
+          "label": "Send feedback survey email",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "create_onboarding_tasks_notify_cs_5",
+          "label": "Create onboarding tasks, notify CS",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "add_to_re_engagement_email_flow_6",
+          "label": "Add to re-engagement email flow",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "move_back_to_nurture_sequence_7",
+          "label": "Move back to nurture sequence",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "integrations",
+      "title": "Integrations",
+      "description": "Complete the Integrations section",
+      "fields": [
+        {
+          "id": "contacts_segments_lifecycle_stage_0",
+          "label": "Contacts, segments, lifecycle stage",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "page_views_form_submissions_utm_data_1",
+          "label": "Page views, form submissions, UTM data",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "meeting_bookings_availability_2",
+          "label": "Meeting bookings, availability",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "deal_value_customer_data_3",
+          "label": "Deal value, customer data",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "tickets_satisfaction_scores_4",
+          "label": "Tickets, satisfaction scores",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "deal_alerts_task_notifications_5",
+          "label": "Deal alerts, task notifications",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "reports",
+      "title": "Reports",
+      "description": "Complete the Reports section",
+      "fields": [
+        {
+          "id": "pipeline_overview_0",
+          "label": "Pipeline Overview",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "pipeline_velocity_1",
+          "label": "Pipeline Velocity",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "lead_source_report_2",
+          "label": "Lead Source Report",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "conversion_by_stage_3",
+          "label": "Conversion by Stage",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "activity_report_4",
+          "label": "Activity Report",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "won_lost_analysis_5",
+          "label": "Won/Lost Analysis",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "lead_score_distribution_6",
+          "label": "Lead Score Distribution",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "revenue_forecast_7",
+          "label": "Revenue Forecast",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "rep_performance_8",
+          "label": "Rep Performance",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "customer_lifecycle_9",
+          "label": "Customer Lifecycle",
+          "type": "text",
+          "placeholder": "",
+          "required": false
         }
       ]
     }

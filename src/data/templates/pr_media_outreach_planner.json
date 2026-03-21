@@ -13,221 +13,737 @@
   "estimatedTime": "50 min",
   "sections": [
     {
-      "id": "overview",
-      "title": "Overview & Objectives",
-      "description": "Define the goals and scope of your pr media outreach planner",
+      "id": "dashboard",
+      "title": "Dashboard",
+      "description": "Complete the Dashboard section",
       "fields": [
         {
-          "id": "objective",
-          "label": "Primary Objective",
-          "type": "textarea",
-          "placeholder": "What do you want to achieve with this pr media outreach planner?",
-          "required": true,
-          "helpText": ""
-        },
-        {
-          "id": "target_audience",
-          "label": "Target Audience",
-          "type": "textarea",
-          "placeholder": "Who is this for?",
-          "required": true,
-          "helpText": ""
-        },
-        {
-          "id": "timeline",
-          "label": "Timeline",
+          "id": "200_0",
+          "label": "200",
           "type": "text",
-          "placeholder": "e.g., Q1 2026, Next 90 days",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "budget",
-          "label": "Budget / Resources",
-          "type": "text",
-          "placeholder": "e.g., \u20ac5,000 or 20 hours/week",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "success_metrics",
-          "label": "Success Metrics",
-          "type": "textarea",
-          "placeholder": "How will you measure success?",
-          "required": true,
-          "helpText": ""
-        }
-      ]
-    },
-    {
-      "id": "strategy",
-      "title": "Strategy & Approach",
-      "description": "Outline your strategic approach",
-      "fields": [
-        {
-          "id": "core_strategy",
-          "label": "Core Strategy",
-          "type": "textarea",
-          "placeholder": "Describe your overall approach",
-          "required": true,
-          "helpText": ""
-        },
-        {
-          "id": "key_channels",
-          "label": "Key Channels / Platforms",
-          "type": "textarea",
-          "placeholder": "e.g., LinkedIn, Email, Blog, Paid ads",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "messaging",
-          "label": "Key Messages",
-          "type": "textarea",
-          "placeholder": "What are the main messages you want to communicate?",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "differentiators",
-          "label": "Unique Differentiators",
-          "type": "textarea",
-          "placeholder": "What sets your approach apart?",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "competitors",
-          "label": "Competitive Landscape",
-          "type": "textarea",
-          "placeholder": "What are competitors doing in this area?",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "risks",
-          "label": "Potential Risks & Mitigation",
-          "type": "textarea",
-          "placeholder": "What could go wrong and how will you handle it?",
-          "required": false,
-          "helpText": ""
-        }
-      ]
-    },
-    {
-      "id": "execution",
-      "title": "Execution Plan",
-      "description": "Detail your action items and timeline",
-      "fields": [
-        {
-          "id": "phase_1",
-          "label": "Phase 1: Foundation (Week 1-2)",
-          "type": "textarea",
-          "placeholder": "What will you set up first?",
-          "required": true,
-          "helpText": ""
-        },
-        {
-          "id": "phase_2",
-          "label": "Phase 2: Launch (Week 3-4)",
-          "type": "textarea",
-          "placeholder": "What are the launch activities?",
-          "required": true,
-          "helpText": ""
-        },
-        {
-          "id": "phase_3",
-          "label": "Phase 3: Optimization (Week 5+)",
-          "type": "textarea",
-          "placeholder": "How will you iterate and improve?",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "tools",
-          "label": "Tools & Technology Needed",
-          "type": "textarea",
-          "placeholder": "e.g., HubSpot, Canva, Google Analytics",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "team",
-          "label": "Team & Responsibilities",
-          "type": "textarea",
-          "placeholder": "Who is responsible for what?",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "dependencies",
-          "label": "Dependencies & Prerequisites",
-          "type": "textarea",
-          "placeholder": "What needs to happen before you can start?",
-          "required": false,
-          "helpText": ""
-        }
-      ]
-    },
-    {
-      "id": "tracking",
-      "title": "Tracking & Reporting",
-      "description": "Set up measurement and reporting",
-      "fields": [
-        {
-          "id": "kpis",
-          "label": "Key Performance Indicators",
-          "type": "textarea",
-          "placeholder": "List 3-5 KPIs you'll track",
-          "required": true,
-          "helpText": ""
-        },
-        {
-          "id": "reporting_frequency",
-          "label": "Reporting Frequency",
-          "type": "select",
-          "options": [
-            "Daily",
-            "Weekly",
-            "Bi-weekly",
-            "Monthly",
-            "Quarterly"
-          ],
-          "required": false,
           "placeholder": "",
-          "helpText": ""
+          "required": false
         },
         {
-          "id": "dashboard_tools",
-          "label": "Dashboard / Analytics Tools",
+          "id": "outreach_status_1",
+          "label": "OUTREACH STATUS",
           "type": "text",
-          "placeholder": "e.g., Google Analytics, Mixpanel",
-          "required": false,
-          "helpText": ""
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "benchmarks",
-          "label": "Benchmarks / Targets",
-          "type": "textarea",
-          "placeholder": "What are your target numbers?",
-          "required": false,
-          "helpText": ""
+          "id": "pitched_2",
+          "label": "Pitched",
+          "type": "text",
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "review_process",
-          "label": "Review & Optimization Process",
-          "type": "textarea",
-          "placeholder": "How will you review and adjust?",
-          "required": false,
-          "helpText": ""
+          "id": "follow_up_sent_3",
+          "label": "Follow-up Sent",
+          "type": "text",
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "lessons_learned",
-          "label": "Lessons Learned",
+          "id": "in_discussion_4",
+          "label": "In Discussion",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "declined_5",
+          "label": "Declined",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "published_6",
+          "label": "Published",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "no_response_7",
+          "label": "No Response",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "coverage_by_type_8",
+          "label": "COVERAGE BY TYPE",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "online_article_9",
+          "label": "Online Article",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "print_article_10",
+          "label": "Print Article",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "podcast_11",
+          "label": "Podcast",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "tv_segment_12",
+          "label": "TV Segment",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "radio_13",
+          "label": "Radio",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "social_media_14",
+          "label": "Social Media",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "newsletter_15",
+          "label": "Newsletter",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "blog_post_16",
+          "label": "Blog Post",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "coverage_sentiment_17",
+          "label": "COVERAGE SENTIMENT",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "positive_18",
+          "label": "Positive",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "neutral_19",
+          "label": "Neutral",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "negative_20",
+          "label": "Negative",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "mixed_21",
+          "label": "Mixed",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "press_releases_22",
+          "label": "PRESS RELEASES",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "draft_23",
+          "label": "Draft",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "review_24",
+          "label": "Review",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "approved_25",
+          "label": "Approved",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "distributed_26",
+          "label": "Distributed",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "published_27",
+          "label": "Published",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "media_contacts",
+      "title": "Media Contacts",
+      "description": "Complete the Media Contacts section",
+      "fields": [
+        {
+          "id": "saas_startups_0",
+          "label": "SaaS & Startups",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "marketing_brand_strategy_1",
+          "label": "Marketing & Brand Strategy",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "digital_marketing_2",
+          "label": "Digital Marketing",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "advertising_creative_3",
+          "label": "Advertising & Creative",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "leadership_strategy_4",
+          "label": "Leadership & Strategy",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "digital_advertising_5",
+          "label": "Digital Advertising",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "business_innovation_6",
+          "label": "Business & Innovation",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "martech_7",
+          "label": "MarTech",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "social_media_marketing_8",
+          "label": "Social Media Marketing",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "business_tech_9",
+          "label": "Business & Tech",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "story_angles",
+      "title": "Story Angles",
+      "description": "Complete the Story Angles section",
+      "fields": [
+        {
+          "id": "how_privacy_changes_are_forcing_marketer_0",
+          "label": "How privacy changes are forcing marketers to rethink targeting. Our data shows 60% of SMBs are unprepared for the cookieless future. We offer expert commentary + proprietary survey data.",
           "type": "textarea",
-          "placeholder": "Document insights as you go",
-          "required": false,
-          "helpText": ""
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "original_research_from_500_marketing_lea_1",
+          "label": "Original research from 500+ marketing leaders reveals massive inefficiency. We break down where the waste happens and what top performers do differently.",
+          "type": "textarea",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "company_hit_10m_arr_milestone_founder_in_2",
+          "label": "Company hit $10M ARR milestone. Founder interview angle: lessons from bootstrapping in a competitive market without VC funding.",
+          "type": "textarea",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "our_ceo_cuts_through_the_noise_with_a_pr_3",
+          "label": "Our CEO cuts through the noise with a practical framework for evaluating AI marketing tools. Based on testing 30+ tools with real client campaigns.",
+          "type": "textarea",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "case_study_small_ngo_used_our_framework__4",
+          "label": "Case study: small NGO used our framework to redesign their digital strategy. Result: 3x donations in 6 months with zero additional budget.",
+          "type": "textarea",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "average_marketing_team_uses_12_tools_but_5",
+          "label": "Average marketing team uses 12+ tools but only actively uses 5. We analyse the cost of tool sprawl and propose a consolidation framework.",
+          "type": "textarea",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "practical_guide_to_authentic_sustainabil_6",
+          "label": "Practical guide to authentic sustainability marketing. Based on our work with NGOs and B-Corps. Includes framework for avoiding greenwashing traps.",
+          "type": "textarea",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "bridge_the_gap_between_marketing_metrics_7",
+          "label": "Bridge the gap between marketing metrics and boardroom language. Translating CAC, CLV, and attribution into terms executives understand.",
+          "type": "textarea",
+          "placeholder": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "press_release_planner",
+      "title": "Press Release Planner",
+      "description": "Complete the Press Release Planner section",
+      "fields": [
+        {
+          "id": "company_reaches_10m_arr_milestone_0",
+          "label": "Company Reaches $10M ARR Milestone",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "new_ai_marketing_framework_released_1",
+          "label": "New AI Marketing Framework Released",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "annual_marketing_efficiency_report_2",
+          "label": "Annual Marketing Efficiency Report",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "partnership_with_industry_association_3",
+          "label": "Partnership with Industry Association",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "sustainability_commitment_announcement_4",
+          "label": "Sustainability Commitment Announcement",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "outreach_tracker",
+      "title": "Outreach Tracker",
+      "description": "Complete the Outreach Tracker section",
+      "fields": [
+        {
+          "id": "the_death_of_cookie_based_marketing_0",
+          "label": "The Death of Cookie-Based Marketing",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "the_death_of_cookie_based_marketing_1",
+          "label": "The Death of Cookie-Based Marketing",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "5_marketing_metrics_your_ceo_cares_about_2",
+          "label": "5 Marketing Metrics Your CEO Cares About",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "ai_in_marketing_hype_vs_reality_3",
+          "label": "AI in Marketing: Hype vs Reality",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "why_73_of_marketing_budgets_are_wasted_4",
+          "label": "Why 73% of Marketing Budgets Are Wasted",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "sustainability_marketing_5",
+          "label": "Sustainability Marketing",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "ai_in_marketing_hype_vs_reality_6",
+          "label": "AI in Marketing: Hype vs Reality",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "from_startup_to_scale_our_growth_story_7",
+          "label": "From Startup to Scale: Our Growth Story",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "coverage_log",
+      "title": "Coverage Log",
+      "description": "Complete the Coverage Log section",
+      "fields": [
+        {
+          "id": "ai_marketing_what_actually_works_in_2026_0",
+          "label": "AI Marketing: What Actually Works in 2026",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "cookie_apocalypse_are_smbs_ready_1",
+          "label": "Cookie Apocalypse: Are SMBs Ready?",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "marketing_tool_consolidation_trend_2",
+          "label": "Marketing Tool Consolidation Trend",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "5_metrics_that_matter_to_the_c_suite_3",
+          "label": "5 Metrics That Matter to the C-Suite",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "sustainability_in_marketing_roundup_4",
+          "label": "Sustainability in Marketing Roundup",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "pr_calendar",
+      "title": "PR Calendar",
+      "description": "Complete the PR Calendar section",
+      "fields": [
+        {
+          "id": "cookie_marketing_pitch_wave_0",
+          "label": "Cookie Marketing Pitch Wave",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "partnership_announcement_1",
+          "label": "Partnership Announcement",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "10m_arr_milestone_2",
+          "label": "$10M ARR Milestone",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "earth_day_sustainability_op_ed_3",
+          "label": "Earth Day — Sustainability Op-Ed",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "new_product_launch_4",
+          "label": "New Product Launch",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "web_summit_application_5",
+          "label": "Web Summit Application",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "annual_marketing_report_6",
+          "label": "Annual Marketing Report",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "cannes_lions_7",
+          "label": "Cannes Lions",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "q2_results_roundup_8",
+          "label": "Q2 Results Roundup",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "back_to_school_campaign_9",
+          "label": "Back to School Campaign",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "marketing_effectiveness_awards_10",
+          "label": "Marketing Effectiveness Awards",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "q3_thought_leadership_push_11",
+          "label": "Q3 Thought Leadership Push",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "crisis_communications",
+      "title": "Crisis Communications",
+      "description": "Complete the Crisis Communications section",
+      "fields": [
+        {
+          "id": "we_are_experiencing_a_service_disruption_0",
+          "label": "We are experiencing a service disruption and our team is working urgently to resolve it. We apologise for the inconvenience and will provide regular updates until service is fully restored.",
+          "type": "textarea",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "we_take_all_feedback_seriously_and_are_r_1",
+          "label": "We take all feedback seriously and are reviewing the concerns raised. We are committed to transparency and will address this directly once we have all the facts.",
+          "type": "textarea",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "we_have_been_made_aware_of_allegations_r_2",
+          "label": "We have been made aware of allegations regarding employee conduct. We take these matters extremely seriously and are conducting a thorough investigation in line with our values and policies.",
+          "type": "textarea",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "we_are_making_difficult_but_necessary_ch_3",
+          "label": "We are making difficult but necessary changes to ensure the long-term health of our business. We are supporting affected team members with severance, career support, and outplacement services.",
+          "type": "textarea",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "we_are_cooperating_fully_with_regulatory_4",
+          "label": "We are cooperating fully with [regulatory body] and are committed to meeting all compliance requirements. We have engaged external counsel to guide our response.",
+          "type": "textarea",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "the_safety_of_our_customers_is_our_absol_5",
+          "label": "The safety of our customers is our absolute priority. We are investigating this incident thoroughly and have taken immediate steps to [specific action].",
+          "type": "textarea",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "we_are_aware_of_the_conversation_happeni_6",
+          "label": "We are aware of the conversation happening online and want to address it directly and transparently. We value our community and take these concerns seriously.",
+          "type": "textarea",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "acknowledge_the_issue_internally_within__7",
+          "label": "Acknowledge the issue internally within 1 hour",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "assemble_crisis_response_team_ceo_legal__8",
+          "label": "Assemble crisis response team (CEO, Legal, PR, relevant department head)",
+          "type": "textarea",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "gather_facts_what_happened_who_is_affect_9",
+          "label": "Gather facts — what happened, who is affected, what is the current status",
+          "type": "textarea",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "draft_initial_holding_statement_for_exte_10",
+          "label": "Draft initial holding statement for external communications",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "get_legal_review_of_all_external_communi_11",
+          "label": "Get legal review of all external communications before release",
+          "type": "textarea",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "issue_holding_statement_to_media_within__12",
+          "label": "Issue holding statement to media within 4 hours of discovery",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "notify_affected_customers_directly_email_13",
+          "label": "Notify affected customers directly (email, phone) before public statement",
+          "type": "textarea",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "set_up_monitoring_for_social_media_menti_14",
+          "label": "Set up monitoring for social media mentions and press coverage",
+          "type": "textarea",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "schedule_regular_internal_updates_every__15",
+          "label": "Schedule regular internal updates (every 2-4 hours during active crisis)",
+          "type": "textarea",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "designate_single_spokesperson_all_media__16",
+          "label": "Designate single spokesperson — all media inquiries go through one person",
+          "type": "textarea",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "prepare_faq_document_for_customer_facing_17",
+          "label": "Prepare FAQ document for customer-facing teams",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "document_everything_decisions_timelines__18",
+          "label": "Document everything — decisions, timelines, communications sent",
+          "type": "textarea",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "plan_follow_up_communication_with_update_19",
+          "label": "Plan follow-up communication with updated facts within 24 hours",
+          "type": "textarea",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "schedule_post_crisis_review_meeting_with_20",
+          "label": "Schedule post-crisis review meeting within 1 week of resolution",
+          "type": "textarea",
+          "placeholder": "",
+          "required": false
         }
       ]
     }

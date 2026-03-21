@@ -12,257 +12,324 @@
   "estimatedTime": "65 min",
   "sections": [
     {
-      "id": "section_1",
-      "title": "Scoring Criteria",
-      "description": "Configuration and tracking for Scoring Criteria",
+      "id": "dashboard",
+      "title": "Dashboard",
+      "description": "Complete the Dashboard section",
       "fields": [
         {
-          "id": "field_1",
-          "label": "Lead Scoring Criteria",
+          "id": "pipeline_by_stage_0",
+          "label": "PIPELINE BY STAGE",
           "type": "text",
-          "placeholder": "Enter lead scoring criteria",
-          "required": false,
-          "helpText": "Customize criteria and point values. These drive the Lead Scorer calculations."
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_2",
-          "label": "Lead Scoring Criteria",
+          "id": "stage_1",
+          "label": "Stage",
           "type": "text",
-          "placeholder": "Enter lead scoring criteria",
-          "required": false,
-          "helpText": "FIT CRITERIA \u2014 Who They Are (max 50 points)"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_3",
-          "label": "Lead Scoring Criteria",
+          "id": "cold_2",
+          "label": "Cold",
           "type": "text",
-          "placeholder": "Enter lead scoring criteria",
-          "required": false,
-          "helpText": "#"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_4",
-          "label": "Lead Scoring Criteria",
+          "id": "warm_3",
+          "label": "Warm",
           "type": "text",
-          "placeholder": "Enter lead scoring criteria",
-          "required": false,
-          "helpText": "F1"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_5",
-          "label": "Lead Scoring Criteria",
+          "id": "mql_4",
+          "label": "MQL",
           "type": "text",
-          "placeholder": "Enter lead scoring criteria",
-          "required": false,
-          "helpText": "F2"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_6",
-          "label": "Lead Scoring Criteria",
+          "id": "sql_5",
+          "label": "SQL",
           "type": "text",
-          "placeholder": "Enter lead scoring criteria",
-          "required": false,
-          "helpText": "F3"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_7",
-          "label": "Lead Scoring Criteria",
+          "id": "fit_vs_engagement_analysis_6",
+          "label": "FIT vs ENGAGEMENT ANALYSIS",
           "type": "text",
-          "placeholder": "Enter lead scoring criteria",
-          "required": false,
-          "helpText": "F4"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_8",
-          "label": "Lead Scoring Criteria",
+          "id": "high_fit_high_engage_sqls_7",
+          "label": "High FIT, High Engage (SQLs)",
           "type": "text",
-          "placeholder": "Enter lead scoring criteria",
-          "required": false,
-          "helpText": "F5"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_9",
-          "label": "Lead Scoring Criteria",
+          "id": "high_fit_low_engage_nurture_8",
+          "label": "High FIT, Low Engage (Nurture)",
           "type": "text",
-          "placeholder": "Enter lead scoring criteria",
-          "required": false,
-          "helpText": "F6"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_10",
-          "label": "Lead Scoring Criteria",
+          "id": "low_fit_high_engage_educate_9",
+          "label": "Low FIT, High Engage (Educate)",
           "type": "text",
-          "placeholder": "Enter lead scoring criteria",
-          "required": false,
-          "helpText": "F7"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_11",
-          "label": "Lead Scoring Criteria",
+          "id": "low_fit_low_engage_cold_10",
+          "label": "Low FIT, Low Engage (Cold)",
           "type": "text",
-          "placeholder": "Enter lead scoring criteria",
-          "required": false,
-          "helpText": "F8"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_12",
-          "label": "Lead Scoring Criteria",
+          "id": "scoring_health_check_11",
+          "label": "SCORING HEALTH CHECK",
           "type": "text",
-          "placeholder": "Enter lead scoring criteria",
-          "required": false,
-          "helpText": "FIT TOTAL"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_13",
-          "label": "Lead Scoring Criteria",
+          "id": "mql_to_sql_ratio_12",
+          "label": "MQL-to-SQL Ratio",
           "type": "text",
-          "placeholder": "Enter lead scoring criteria",
-          "required": false,
-          "helpText": "ENGAGEMENT CRITERIA \u2014 What They Do (max 50 points)"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_14",
-          "label": "Lead Scoring Criteria",
+          "id": "sql_of_total_13",
+          "label": "SQL % of Total",
           "type": "text",
-          "placeholder": "Enter lead scoring criteria",
-          "required": false,
-          "helpText": "#"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_15",
-          "label": "Lead Scoring Criteria",
+          "id": "cold_of_total_14",
+          "label": "Cold % of Total",
           "type": "text",
-          "placeholder": "Enter lead scoring criteria",
-          "required": false,
-          "helpText": "E1"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_16",
-          "label": "Lead Scoring Criteria",
+          "id": "leads_without_score_15",
+          "label": "Leads Without Score",
           "type": "text",
-          "placeholder": "Enter lead scoring criteria",
-          "required": false,
-          "helpText": "E2"
+          "placeholder": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "scoring_criteria",
+      "title": "Scoring Criteria",
+      "description": "Complete the Scoring Criteria section",
+      "fields": [
+        {
+          "id": "decision_maker_level_0",
+          "label": "Decision-maker level",
+          "type": "text",
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_17",
-          "label": "Lead Scoring Criteria",
+          "id": "employee_count_or_revenue_1",
+          "label": "Employee count or revenue",
           "type": "text",
-          "placeholder": "Enter lead scoring criteria",
-          "required": false,
-          "helpText": "E3"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_18",
-          "label": "Lead Scoring Criteria",
+          "id": "alignment_with_icp_industry_2",
+          "label": "Alignment with ICP industry",
           "type": "text",
-          "placeholder": "Enter lead scoring criteria",
-          "required": false,
-          "helpText": "E4"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_19",
-          "label": "Lead Scoring Criteria",
+          "id": "location_fit_3",
+          "label": "Location fit",
           "type": "text",
-          "placeholder": "Enter lead scoring criteria",
-          "required": false,
-          "helpText": "E5"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_20",
-          "label": "Lead Scoring Criteria",
+          "id": "purchase_decision_power_4",
+          "label": "Purchase decision power",
           "type": "text",
-          "placeholder": "Enter lead scoring criteria",
-          "required": false,
-          "helpText": "E6"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_21",
-          "label": "Lead Scoring Criteria",
+          "id": "uses_compatible_tech_stack_5",
+          "label": "Uses compatible tech stack",
           "type": "text",
-          "placeholder": "Enter lead scoring criteria",
-          "required": false,
-          "helpText": "E7"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_22",
-          "label": "Lead Scoring Criteria",
+          "id": "hiring_funding_expansion_6",
+          "label": "Hiring, funding, expansion",
           "type": "text",
-          "placeholder": "Enter lead scoring criteria",
-          "required": false,
-          "helpText": "E8"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_23",
-          "label": "Lead Scoring Criteria",
+          "id": "problem_matches_your_solution_7",
+          "label": "Problem matches your solution",
           "type": "text",
-          "placeholder": "Enter lead scoring criteria",
-          "required": false,
-          "helpText": "E9"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_24",
-          "label": "Lead Scoring Criteria",
+          "id": "description_8",
+          "label": "Description",
           "type": "text",
-          "placeholder": "Enter lead scoring criteria",
-          "required": false,
-          "helpText": "E10"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_25",
-          "label": "Lead Scoring Criteria",
+          "id": "multiple_site_visits_9",
+          "label": "Multiple site visits",
           "type": "text",
-          "placeholder": "Enter lead scoring criteria",
-          "required": false,
-          "helpText": "ENGAGEMENT TOTAL"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_26",
-          "label": "Lead Scoring Criteria",
+          "id": "pricing_demo_case_study_10",
+          "label": "Pricing, demo, case study",
           "type": "text",
-          "placeholder": "Enter lead scoring criteria",
-          "required": false,
-          "helpText": "SCORING THRESHOLDS"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_27",
-          "label": "Lead Scoring Criteria",
+          "id": "gated_content_template_11",
+          "label": "Gated content / template",
           "type": "text",
-          "placeholder": "Enter lead scoring criteria",
-          "required": false,
-          "helpText": "Stage"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_28",
-          "label": "Lead Scoring Criteria",
+          "id": "consistent_email_engagement_12",
+          "label": "Consistent email engagement",
           "type": "text",
-          "placeholder": "Enter lead scoring criteria",
-          "required": false,
-          "helpText": "Cold"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_29",
-          "label": "Lead Scoring Criteria",
+          "id": "clicked_cta_in_email_13",
+          "label": "Clicked CTA in email",
           "type": "text",
-          "placeholder": "Enter lead scoring criteria",
-          "required": false,
-          "helpText": "Warm"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_30",
-          "label": "Lead Scoring Criteria",
+          "id": "contact_demo_request_quote_14",
+          "label": "Contact, demo request, quote",
           "type": "text",
-          "placeholder": "Enter lead scoring criteria",
-          "required": false,
-          "helpText": "MQL"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_31",
-          "label": "Lead Scoring Criteria",
+          "id": "webinar_workshop_conference_15",
+          "label": "Webinar, workshop, conference",
           "type": "text",
-          "placeholder": "Enter lead scoring criteria",
-          "required": false,
-          "helpText": "SQL"
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "likes_shares_comments_16",
+          "label": "Likes, shares, comments",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "came_back_after_7_days_17",
+          "label": "Came back after 7+ days",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "started_using_product_18",
+          "label": "Started using product",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "action_19",
+          "label": "Action",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "add_to_nurture_sequence_20",
+          "label": "Add to nurture sequence",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "personalized_outreach_21",
+          "label": "Personalized outreach",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "sales_handoff_22",
+          "label": "Sales handoff",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "direct_sales_contact_23",
+          "label": "Direct sales contact",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "lead_scorer",
+      "title": "Lead Scorer",
+      "description": "Complete the Lead Scorer section",
+      "fields": [
+        {
+          "id": "sarah_chen_0",
+          "label": "Sarah Chen",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "james_miller_1",
+          "label": "James Miller",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "maria_lopez_2",
+          "label": "Maria Lopez",
+          "type": "text",
+          "placeholder": "",
+          "required": false
         }
       ]
     }

@@ -12,247 +12,723 @@
   "estimatedTime": "50 min",
   "sections": [
     {
-      "id": "section_2",
+      "id": "dashboard",
+      "title": "Dashboard",
+      "description": "Complete the Dashboard section",
+      "fields": [
+        {
+          "id": "active_briefs_0",
+          "label": "Active Briefs",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "briefs_in_production_1",
+          "label": "Briefs in Production",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "briefs_live_2",
+          "label": "Briefs Live",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "total_campaign_budget_3",
+          "label": "Total Campaign Budget",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "budget_spent_4",
+          "label": "Budget Spent",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "budget_remaining_5",
+          "label": "Budget Remaining",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "avg_performance_score_6",
+          "label": "Avg Performance Score",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "campaign_brief",
+      "title": "Campaign Brief",
+      "description": "Complete the Campaign Brief section",
+      "fields": [
+        {
+          "id": "brief_title_0",
+          "label": "Brief Title",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "campaign_name_1",
+          "label": "Campaign Name",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "brand_product_2",
+          "label": "Brand / Product",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "brief_date_3",
+          "label": "Brief Date",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "due_date_4",
+          "label": "Due Date",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "brief_owner_5",
+          "label": "Brief Owner",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "campaign_type_6",
+          "label": "Campaign Type",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "priority_7",
+          "label": "Priority",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "strategic_context_8",
+          "label": "Strategic Context",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "business_objective_9",
+          "label": "Business Objective",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "what_business_goal_does_this_campaign_su_10",
+          "label": "What business goal does this campaign support?",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "marketing_objective_11",
+          "label": "Marketing Objective",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "specific_marketing_objective_awareness_l_12",
+          "label": "Specific marketing objective (awareness, leads, conversions, etc.)",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "campaign_kpis_13",
+          "label": "Campaign KPIs",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "key_performance_indicators_and_targets_14",
+          "label": "Key performance indicators and targets",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "key_insight_15",
+          "label": "Key Insight",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "the_human_truth_or_market_insight_drivin_16",
+          "label": "The human truth or market insight driving this campaign",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "single_minded_proposition_17",
+          "label": "Single-Minded Proposition",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "the_one_thing_we_want_the_audience_to_ta_18",
+          "label": "The ONE thing we want the audience to take away",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "reason_to_believe_19",
+          "label": "Reason to Believe",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "why_should_the_audience_believe_our_prop_20",
+          "label": "Why should the audience believe our proposition?",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "competitive_context_21",
+          "label": "Competitive Context",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "key_competitors_and_how_we_differentiate_22",
+          "label": "Key competitors and how we differentiate",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "target_audience_23",
+          "label": "Target Audience",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "primary_audience_24",
+          "label": "Primary Audience",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "demographics_25",
+          "label": "Demographics",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "age_gender_income_location_education_26",
+          "label": "Age, gender, income, location, education",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "psychographics_27",
+          "label": "Psychographics",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "interests_values_lifestyle_attitudes_28",
+          "label": "Interests, values, lifestyle, attitudes",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "behavioural_signals_29",
+          "label": "Behavioural Signals",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "creative_brief",
       "title": "Creative Brief",
-      "description": "Configuration and tracking for Creative Brief",
+      "description": "Complete the Creative Brief section",
       "fields": [
         {
-          "id": "field_1",
-          "label": "Creative Brief",
+          "id": "tone_of_voice_0",
+          "label": "Tone of Voice",
           "type": "text",
-          "placeholder": "Enter creative brief",
-          "required": false,
-          "helpText": "Creative Concept"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_2",
-          "label": "Creative Brief",
+          "id": "how_should_the_ad_feel_e_g_bold_warm_wit_1",
+          "label": "How should the ad feel? (e.g., Bold, Warm, Witty, Authoritative)",
           "type": "text",
-          "placeholder": "Enter creative brief",
-          "required": false,
-          "helpText": "Tone of Voice"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_3",
-          "label": "Creative Brief",
+          "id": "visual_direction_2",
+          "label": "Visual Direction",
           "type": "text",
-          "placeholder": "Enter creative brief",
-          "required": false,
-          "helpText": "Visual Direction"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_4",
-          "label": "Creative Brief",
+          "id": "describe_the_look_and_feel_colours_image_3",
+          "label": "Describe the look and feel — colours, imagery style, mood",
           "type": "text",
-          "placeholder": "Enter creative brief",
-          "required": false,
-          "helpText": "Headline Direction"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_5",
-          "label": "Creative Brief",
+          "id": "headline_direction_4",
+          "label": "Headline Direction",
           "type": "text",
-          "placeholder": "Enter creative brief",
-          "required": false,
-          "helpText": "Body Copy Direction"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_6",
-          "label": "Creative Brief",
+          "id": "3_5_headline_options_or_direction_5",
+          "label": "3-5 headline options or direction",
           "type": "text",
-          "placeholder": "Enter creative brief",
-          "required": false,
-          "helpText": "Call to Action"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_7",
-          "label": "Creative Brief",
+          "id": "body_copy_direction_6",
+          "label": "Body Copy Direction",
           "type": "text",
-          "placeholder": "Enter creative brief",
-          "required": false,
-          "helpText": "Mandatory Inclusions"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_8",
-          "label": "Creative Brief",
+          "id": "key_messages_and_copy_points_to_include_7",
+          "label": "Key messages and copy points to include",
           "type": "text",
-          "placeholder": "Enter creative brief",
-          "required": false,
-          "helpText": "Mandatory Exclusions"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_9",
-          "label": "Creative Brief",
+          "id": "call_to_action_8",
+          "label": "Call to Action",
           "type": "text",
-          "placeholder": "Enter creative brief",
-          "required": false,
-          "helpText": "Reference Examples"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_10",
-          "label": "Creative Brief",
+          "id": "what_do_we_want_the_audience_to_do_9",
+          "label": "What do we want the audience to do?",
           "type": "text",
-          "placeholder": "Enter creative brief",
-          "required": false,
-          "helpText": "Format Requirements"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_11",
-          "label": "Creative Brief",
+          "id": "mandatory_inclusions_10",
+          "label": "Mandatory Inclusions",
           "type": "text",
-          "placeholder": "Enter creative brief",
-          "required": false,
-          "helpText": "Deliverables"
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "logos_legal_disclaimers_taglines_hashtag_11",
+          "label": "Logos, legal disclaimers, taglines, hashtags",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "mandatory_exclusions_12",
+          "label": "Mandatory Exclusions",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "competitor_mentions_off_brand_imagery_re_13",
+          "label": "Competitor mentions, off-brand imagery, restricted claims",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "reference_examples_14",
+          "label": "Reference Examples",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "links_or_descriptions_of_ads_that_captur_15",
+          "label": "Links or descriptions of ads that capture the desired direction",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "format_requirements_16",
+          "label": "Format Requirements",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "sizes_formats_aspect_ratios_needed_17",
+          "label": "Sizes, formats, aspect ratios needed",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "deliverables_18",
+          "label": "Deliverables",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "list_all_deliverables_needed_from_creati_19",
+          "label": "List all deliverables needed from creative team",
+          "type": "text",
+          "placeholder": "",
+          "required": false
         }
       ]
     },
     {
-      "id": "section_4",
+      "id": "media_plan",
+      "title": "Media Plan",
+      "description": "Complete the Media Plan section",
+      "fields": [
+        {
+          "id": "25_45_professionals_0",
+          "label": "25-45 professionals",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "25_35_urban_1",
+          "label": "25-35 urban",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "decision_makers_2",
+          "label": "Decision makers",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "high_intent_3",
+          "label": "High intent",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "retargeting_4",
+          "label": "Retargeting",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "broad_awareness_5",
+          "label": "Broad awareness",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "interest_based_6",
+          "label": "Interest-based",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "existing_customers_7",
+          "label": "Existing customers",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "ad_specs_library",
       "title": "Ad Specs Library",
-      "description": "Configuration and tracking for Ad Specs Library",
+      "description": "Complete the Ad Specs Library section",
       "fields": [
         {
-          "id": "field_1",
-          "label": "Ad Specs Library",
+          "id": "recommended_minimal_text_on_image_0",
+          "label": "Recommended: minimal text on image",
           "type": "text",
-          "placeholder": "Enter ad specs library",
-          "required": false,
-          "helpText": "Platform"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_2",
-          "label": "Ad Specs Library",
+          "id": "full_screen_vertical_1",
+          "label": "Full screen vertical",
           "type": "text",
-          "placeholder": "Enter ad specs library",
-          "required": false,
-          "helpText": "Facebook"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_3",
-          "label": "Ad Specs Library",
+          "id": "15_60_sec_recommended_2",
+          "label": "15-60 sec recommended",
           "type": "text",
-          "placeholder": "Enter ad specs library",
-          "required": false,
-          "helpText": "Facebook"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_4",
-          "label": "Ad Specs Library",
+          "id": "square_performs_best_3",
+          "label": "Square performs best",
           "type": "text",
-          "placeholder": "Enter ad specs library",
-          "required": false,
-          "helpText": "Facebook"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_5",
-          "label": "Ad Specs Library",
+          "id": "15_sec_max_per_story_4",
+          "label": "15 sec max per story",
           "type": "text",
-          "placeholder": "Enter ad specs library",
-          "required": false,
-          "helpText": "Instagram"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_6",
-          "label": "Ad Specs Library",
+          "id": "15_90_sec_5",
+          "label": "15-90 sec",
           "type": "text",
-          "placeholder": "Enter ad specs library",
-          "required": false,
-          "helpText": "Instagram"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_7",
-          "label": "Ad Specs Library",
+          "id": "professional_tone_6",
+          "label": "Professional tone",
           "type": "text",
-          "placeholder": "Enter ad specs library",
-          "required": false,
-          "helpText": "Instagram"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_8",
-          "label": "Ad Specs Library",
+          "id": "3_30_sec_for_ads_7",
+          "label": "3-30 sec for ads",
           "type": "text",
-          "placeholder": "Enter ad specs library",
-          "required": false,
-          "helpText": "LinkedIn"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_9",
-          "label": "Ad Specs Library",
+          "id": "3_headlines_2_descriptions_8",
+          "label": "3 headlines, 2 descriptions",
           "type": "text",
-          "placeholder": "Enter ad specs library",
-          "required": false,
-          "helpText": "LinkedIn"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_10",
-          "label": "Ad Specs Library",
+          "id": "multiple_sizes_needed_9",
+          "label": "Multiple sizes needed",
           "type": "text",
-          "placeholder": "Enter ad specs library",
-          "required": false,
-          "helpText": "Google Ads"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_11",
-          "label": "Ad Specs Library",
+          "id": "skip_after_5_sec_10",
+          "label": "Skip after 5 sec",
           "type": "text",
-          "placeholder": "Enter ad specs library",
-          "required": false,
-          "helpText": "Google Ads"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_12",
-          "label": "Ad Specs Library",
+          "id": "6_sec_non_skippable_11",
+          "label": "6 sec non-skippable",
           "type": "text",
-          "placeholder": "Enter ad specs library",
-          "required": false,
-          "helpText": "YouTube"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_13",
-          "label": "Ad Specs Library",
+          "id": "9_15_sec_recommended_12",
+          "label": "9-15 sec recommended",
           "type": "text",
-          "placeholder": "Enter ad specs library",
-          "required": false,
-          "helpText": "YouTube"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_14",
-          "label": "Ad Specs Library",
+          "id": "hashtags_recommended_13",
+          "label": "Hashtags recommended",
           "type": "text",
-          "placeholder": "Enter ad specs library",
-          "required": false,
-          "helpText": "TikTok"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_15",
-          "label": "Ad Specs Library",
+          "id": "vertical_format_14",
+          "label": "Vertical format",
           "type": "text",
-          "placeholder": "Enter ad specs library",
-          "required": false,
-          "helpText": "X (Twitter)"
-        },
-        {
-          "id": "field_16",
-          "label": "Ad Specs Library",
-          "type": "text",
-          "placeholder": "Enter ad specs library",
-          "required": false,
-          "helpText": "Pinterest"
+          "placeholder": "",
+          "required": false
         }
       ]
     },
     {
-      "id": "section_7",
-      "title": "Performance Tracker",
-      "description": "Configuration and tracking for Performance Tracker",
+      "id": "budget_tracker",
+      "title": "Budget Tracker",
+      "description": "Complete the Budget Tracker section",
       "fields": [
         {
-          "id": "field_1",
-          "label": "Ad Performance Tracker",
+          "id": "design_copywriting_video_production_0",
+          "label": "Design, copywriting, video production",
           "type": "text",
-          "placeholder": "Enter ad performance tracker",
-          "required": false,
-          "helpText": "Ad Name"
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "product_and_lifestyle_photography_1",
+          "label": "Product and lifestyle photography",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "ad_video_creation_and_editing_2",
+          "label": "Ad video creation and editing",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "facebook_ad_spend_3",
+          "label": "Facebook ad spend",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "instagram_ad_spend_4",
+          "label": "Instagram ad spend",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "linkedin_ad_spend_5",
+          "label": "LinkedIn ad spend",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "search_and_display_spend_6",
+          "label": "Search and display spend",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "video_ad_spend_7",
+          "label": "Video ad spend",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "influencer_collaboration_costs_8",
+          "label": "Influencer collaboration costs",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "agency_management_and_strategy_9",
+          "label": "Agency management and strategy",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "approval_workflow",
+      "title": "Approval Workflow",
+      "description": "Complete the Approval Workflow section",
+      "fields": [
+        {
+          "id": "1_strategy_review_0",
+          "label": "1. Strategy Review",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "2_creative_review_1",
+          "label": "2. Creative Review",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "3_legal_compliance_2",
+          "label": "3. Legal Compliance",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "4_brand_review_3",
+          "label": "4. Brand Review",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "5_budget_approval_4",
+          "label": "5. Budget Approval",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "6_final_sign_off_5",
+          "label": "6. Final Sign-off",
+          "type": "text",
+          "placeholder": "",
+          "required": false
         }
       ]
     }

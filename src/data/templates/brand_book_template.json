@@ -12,383 +12,744 @@
   "estimatedTime": "40 min",
   "sections": [
     {
-      "id": "section_1",
+      "id": "dashboard",
+      "title": "Dashboard",
+      "description": "Complete the Dashboard section",
+      "fields": [
+        {
+          "id": "brand_elements_documented_0",
+          "label": "Brand Elements Documented",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "visual_identity_completion_1",
+          "label": "Visual Identity Completion",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "tone_of_voice_guidelines_2",
+          "label": "Tone of Voice Guidelines",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "messaging_pillars_3",
+          "label": "Messaging Pillars",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "brand_audit_score_4",
+          "label": "Brand Audit Score",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "compliance_issues_open_5",
+          "label": "Compliance Issues Open",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "assets_up_to_date_6",
+          "label": "Assets Up to Date",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "application_rules_set_7",
+          "label": "Application Rules Set",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "brand_foundation",
       "title": "Brand Foundation",
-      "description": "Configuration and tracking for Brand Foundation",
+      "description": "Complete the Brand Foundation section",
       "fields": [
         {
-          "id": "field_1",
-          "label": "Brand Foundation",
-          "type": "text",
-          "placeholder": "Enter brand foundation",
-          "required": false,
-          "helpText": "Brand Purpose"
+          "id": "if_your_brand_were_a_person_how_would_yo_0",
+          "label": "If your brand were a person, how would you describe them? List 5 personality traits.",
+          "type": "textarea",
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_2",
-          "label": "Brand Foundation",
-          "type": "text",
-          "placeholder": "Enter brand foundation",
-          "required": false,
-          "helpText": "Mission Statement"
+          "id": "which_archetype_best_represents_your_bra_1",
+          "label": "Which archetype best represents your brand? (e.g., Hero, Explorer, Sage, Creator, Caregiver, Rebel)",
+          "type": "textarea",
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_3",
-          "label": "Brand Foundation",
-          "type": "text",
-          "placeholder": "Enter brand foundation",
-          "required": false,
-          "helpText": "Vision Statement"
+          "id": "who_is_your_primary_audience_describe_de_2",
+          "label": "Who is your primary audience? Describe demographics, psychographics, and behaviors.",
+          "type": "textarea",
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_4",
-          "label": "Brand Foundation",
-          "type": "text",
-          "placeholder": "Enter brand foundation",
-          "required": false,
-          "helpText": "Brand Promise"
+          "id": "how_you_want_to_be_perceived_relative_to_3",
+          "label": "How you want to be perceived relative to competitors. Complete: For [audience] who [need], [brand] is the [category] that [differentiator] because [reason to believe].",
+          "type": "textarea",
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_5",
-          "label": "Brand Foundation",
-          "type": "text",
-          "placeholder": "Enter brand foundation",
-          "required": false,
-          "helpText": "Brand Values"
+          "id": "what_makes_you_fundamentally_different_f_4",
+          "label": "What makes you fundamentally different from alternatives? List 3 key differentiators.",
+          "type": "textarea",
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_6",
-          "label": "Brand Foundation",
-          "type": "text",
-          "placeholder": "Enter brand foundation",
-          "required": false,
-          "helpText": "   Value 1"
-        },
-        {
-          "id": "field_7",
-          "label": "Brand Foundation",
-          "type": "text",
-          "placeholder": "Enter brand foundation",
-          "required": false,
-          "helpText": "   Value 2"
-        },
-        {
-          "id": "field_8",
-          "label": "Brand Foundation",
-          "type": "text",
-          "placeholder": "Enter brand foundation",
-          "required": false,
-          "helpText": "   Value 3"
-        },
-        {
-          "id": "field_9",
-          "label": "Brand Foundation",
-          "type": "text",
-          "placeholder": "Enter brand foundation",
-          "required": false,
-          "helpText": "   Value 4"
-        },
-        {
-          "id": "field_10",
-          "label": "Brand Foundation",
-          "type": "text",
-          "placeholder": "Enter brand foundation",
-          "required": false,
-          "helpText": "   Value 5"
-        },
-        {
-          "id": "field_11",
-          "label": "Brand Foundation",
-          "type": "text",
-          "placeholder": "Enter brand foundation",
-          "required": false,
-          "helpText": "Brand Personality"
-        },
-        {
-          "id": "field_12",
-          "label": "Brand Foundation",
-          "type": "text",
-          "placeholder": "Enter brand foundation",
-          "required": false,
-          "helpText": "   Trait 1"
-        },
-        {
-          "id": "field_13",
-          "label": "Brand Foundation",
-          "type": "text",
-          "placeholder": "Enter brand foundation",
-          "required": false,
-          "helpText": "   Trait 2"
-        },
-        {
-          "id": "field_14",
-          "label": "Brand Foundation",
-          "type": "text",
-          "placeholder": "Enter brand foundation",
-          "required": false,
-          "helpText": "   Trait 3"
-        },
-        {
-          "id": "field_15",
-          "label": "Brand Foundation",
-          "type": "text",
-          "placeholder": "Enter brand foundation",
-          "required": false,
-          "helpText": "   Trait 4"
-        },
-        {
-          "id": "field_16",
-          "label": "Brand Foundation",
-          "type": "text",
-          "placeholder": "Enter brand foundation",
-          "required": false,
-          "helpText": "   Trait 5"
-        },
-        {
-          "id": "field_17",
-          "label": "Brand Foundation",
-          "type": "text",
-          "placeholder": "Enter brand foundation",
-          "required": false,
-          "helpText": "Brand Archetype"
-        },
-        {
-          "id": "field_18",
-          "label": "Brand Foundation",
-          "type": "text",
-          "placeholder": "Enter brand foundation",
-          "required": false,
-          "helpText": "Target Audience"
-        },
-        {
-          "id": "field_19",
-          "label": "Brand Foundation",
-          "type": "text",
-          "placeholder": "Enter brand foundation",
-          "required": false,
-          "helpText": "Brand Positioning"
-        },
-        {
-          "id": "field_20",
-          "label": "Brand Foundation",
-          "type": "text",
-          "placeholder": "Enter brand foundation",
-          "required": false,
-          "helpText": "Competitive Differentiation"
-        },
-        {
-          "id": "field_21",
-          "label": "Brand Foundation",
-          "type": "text",
-          "placeholder": "Enter brand foundation",
-          "required": false,
-          "helpText": "Brand Story"
+          "id": "your_origin_story_why_you_started_what_d_5",
+          "label": "Your origin story — why you started, what drives you, the problem you saw and set out to solve.",
+          "type": "textarea",
+          "placeholder": "",
+          "required": false
         }
       ]
     },
     {
-      "id": "section_3",
+      "id": "visual_identity",
+      "title": "Visual Identity",
+      "description": "Complete the Visual Identity section",
+      "fields": [
+        {
+          "id": "main_logo_for_most_applications_0",
+          "label": "Main logo for most applications",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "logo_with_tagline_1",
+          "label": "Logo with tagline",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "simplified_mark_for_small_spaces_2",
+          "label": "Simplified mark for small spaces",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "single_colour_version_3",
+          "label": "Single-colour version",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "white_version_for_dark_backgrounds_4",
+          "label": "White version for dark backgrounds",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "smallest_acceptable_reproduction_5",
+          "label": "Smallest acceptable reproduction",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "minimum_space_around_logo_6",
+          "label": "Minimum space around logo",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "what_not_to_do_with_the_logo_7",
+          "label": "What NOT to do with the logo",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "role_8",
+          "label": "Role",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "primary_brand_colour_9",
+          "label": "Primary brand colour",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "secondary_10",
+          "label": "Secondary",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "body_text_11",
+          "label": "Body text",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "status_accent_12",
+          "label": "Status/accent",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "status_accent_13",
+          "label": "Status/accent",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "status_accent_14",
+          "label": "Status/accent",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "role_15",
+          "label": "Role",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "primary_heading_16",
+          "label": "Primary Heading",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "secondary_heading_17",
+          "label": "Secondary Heading",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "body_text_18",
+          "label": "Body Text",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "caption_19",
+          "label": "Caption",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "cta_button_20",
+          "label": "CTA / Button",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "tone_of_voice",
       "title": "Tone of Voice",
-      "description": "Configuration and tracking for Tone of Voice",
+      "description": "Complete the Tone of Voice section",
       "fields": [
         {
-          "id": "field_1",
-          "label": "Tone of Voice",
+          "id": "characteristic_0",
+          "label": "Characteristic",
           "type": "text",
-          "placeholder": "Enter tone of voice",
-          "required": false,
-          "helpText": "Voice Characteristics"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_2",
-          "label": "Tone of Voice",
+          "id": "we_are_1",
+          "label": "We Are",
           "type": "text",
-          "placeholder": "Enter tone of voice",
-          "required": false,
-          "helpText": "Characteristic"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_3",
-          "label": "Tone of Voice",
+          "id": "we_are_not_2",
+          "label": "We Are Not",
           "type": "text",
-          "placeholder": "Enter tone of voice",
-          "required": false,
-          "helpText": "Confident"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_4",
-          "label": "Tone of Voice",
+          "id": "example_do_3",
+          "label": "Example (Do)",
           "type": "text",
-          "placeholder": "Enter tone of voice",
-          "required": false,
-          "helpText": "Warm"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_5",
-          "label": "Tone of Voice",
+          "id": "example_don_t_4",
+          "label": "Example (Don't)",
           "type": "text",
-          "placeholder": "Enter tone of voice",
-          "required": false,
-          "helpText": "Clear"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_6",
-          "label": "Tone of Voice",
+          "id": "confident_5",
+          "label": "Confident",
           "type": "text",
-          "placeholder": "Enter tone of voice",
-          "required": false,
-          "helpText": "Bold"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_7",
-          "label": "Tone of Voice",
+          "id": "assertive_without_arrogance_6",
+          "label": "Assertive without arrogance",
           "type": "text",
-          "placeholder": "Enter tone of voice",
-          "required": false,
-          "helpText": "Empathetic"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_8",
-          "label": "Tone of Voice",
+          "id": "boastful_or_condescending_7",
+          "label": "Boastful or condescending",
           "type": "text",
-          "placeholder": "Enter tone of voice",
-          "required": false,
-          "helpText": "Writing Guidelines by Channel"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_9",
-          "label": "Tone of Voice",
+          "id": "we_deliver_results_that_speak_for_themse_8",
+          "label": "We deliver results that speak for themselves.",
           "type": "text",
-          "placeholder": "Enter tone of voice",
-          "required": false,
-          "helpText": "Channel"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_10",
-          "label": "Tone of Voice",
+          "id": "we_are_the_best_and_everyone_knows_it_9",
+          "label": "We are the best and everyone knows it.",
           "type": "text",
-          "placeholder": "Enter tone of voice",
-          "required": false,
-          "helpText": "Website"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_11",
-          "label": "Tone of Voice",
+          "id": "warm_10",
+          "label": "Warm",
           "type": "text",
-          "placeholder": "Enter tone of voice",
-          "required": false,
-          "helpText": "Email"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_12",
-          "label": "Tone of Voice",
+          "id": "approachable_and_human_11",
+          "label": "Approachable and human",
           "type": "text",
-          "placeholder": "Enter tone of voice",
-          "required": false,
-          "helpText": "Social Media"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_13",
-          "label": "Tone of Voice",
+          "id": "cold_or_robotic_12",
+          "label": "Cold or robotic",
           "type": "text",
-          "placeholder": "Enter tone of voice",
-          "required": false,
-          "helpText": "Blog"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_14",
-          "label": "Tone of Voice",
+          "id": "we_are_here_to_help_you_succeed_13",
+          "label": "We are here to help you succeed.",
           "type": "text",
-          "placeholder": "Enter tone of voice",
-          "required": false,
-          "helpText": "Presentations"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_15",
-          "label": "Tone of Voice",
+          "id": "please_refer_to_section_4_2_of_the_docum_14",
+          "label": "Please refer to section 4.2 of the documentation.",
           "type": "text",
-          "placeholder": "Enter tone of voice",
-          "required": false,
-          "helpText": "Customer Support"
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "clear_15",
+          "label": "Clear",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "simple_and_direct_16",
+          "label": "Simple and direct",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "jargon_heavy_or_vague_17",
+          "label": "Jargon-heavy or vague",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "here_is_exactly_what_you_need_to_do_18",
+          "label": "Here is exactly what you need to do.",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "leverage_synergies_to_optimise_your_para_19",
+          "label": "Leverage synergies to optimise your paradigm shift.",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "bold_20",
+          "label": "Bold",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "forward_thinking_and_decisive_21",
+          "label": "Forward-thinking and decisive",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "reckless_or_impulsive_22",
+          "label": "Reckless or impulsive",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "we_are_changing_how_marketing_works_23",
+          "label": "We are changing how marketing works.",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "we_are_disrupting_everything_without_a_p_24",
+          "label": "We are disrupting everything without a plan.",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "empathetic_25",
+          "label": "Empathetic",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "understanding_and_caring_26",
+          "label": "Understanding and caring",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "dismissive_or_preachy_27",
+          "label": "Dismissive or preachy",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "we_know_how_challenging_this_can_be_28",
+          "label": "We know how challenging this can be.",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "you_should_have_done_this_differently_29",
+          "label": "You should have done this differently.",
+          "type": "text",
+          "placeholder": "",
+          "required": false
         }
       ]
     },
     {
-      "id": "section_4",
+      "id": "messaging_architecture",
       "title": "Messaging Architecture",
-      "description": "Configuration and tracking for Messaging Architecture",
+      "description": "Complete the Messaging Architecture section",
       "fields": [
         {
-          "id": "field_1",
-          "label": "Messaging Architecture",
-          "type": "text",
-          "placeholder": "Enter messaging architecture",
-          "required": false,
-          "helpText": "Core Messaging"
+          "id": "2_3_sentence_brand_positioning_statement_0",
+          "label": "2-3 sentence brand positioning statement for internal alignment",
+          "type": "textarea",
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_2",
-          "label": "Messaging Architecture",
-          "type": "text",
-          "placeholder": "Enter messaging architecture",
-          "required": false,
-          "helpText": "Tagline"
+          "id": "standard_company_description_for_press_r_1",
+          "label": "Standard company description for press releases and official documents",
+          "type": "textarea",
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_3",
-          "label": "Messaging Architecture",
+          "id": "key_message_2",
+          "label": "Key Message",
           "type": "text",
-          "placeholder": "Enter messaging architecture",
-          "required": false,
-          "helpText": "Elevator Pitch"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_4",
-          "label": "Messaging Architecture",
+          "id": "pain_point_3",
+          "label": "Pain Point",
           "type": "text",
-          "placeholder": "Enter messaging architecture",
-          "required": false,
-          "helpText": "Brand Statement"
+          "placeholder": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "application_guidelines",
+      "title": "Application Guidelines",
+      "description": "Complete the Application Guidelines section",
+      "fields": [
+        {
+          "id": "logo_colours_typography_0",
+          "label": "Logo, colours, typography",
+          "type": "text",
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_5",
-          "label": "Messaging Architecture",
+          "id": "logo_icon_colours_1",
+          "label": "Logo icon, colours",
           "type": "text",
-          "placeholder": "Enter messaging architecture",
-          "required": false,
-          "helpText": "Boilerplate"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_6",
-          "label": "Messaging Architecture",
+          "id": "full_brand_system_2",
+          "label": "Full brand system",
           "type": "text",
-          "placeholder": "Enter messaging architecture",
-          "required": false,
-          "helpText": "Message Pillars"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_7",
-          "label": "Messaging Architecture",
+          "id": "logo_banner_bio_3",
+          "label": "Logo, banner, bio",
           "type": "text",
-          "placeholder": "Enter messaging architecture",
-          "required": false,
-          "helpText": "Pillar"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_8",
-          "label": "Messaging Architecture",
+          "id": "full_brand_system_4",
+          "label": "Full brand system",
           "type": "text",
-          "placeholder": "Enter messaging architecture",
-          "required": false,
-          "helpText": "Audience-Specific Messaging"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_9",
-          "label": "Messaging Architecture",
+          "id": "logo_colours_typography_5",
+          "label": "Logo, colours, typography",
           "type": "text",
-          "placeholder": "Enter messaging architecture",
-          "required": false,
-          "helpText": "Audience"
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "logo_colours_6",
+          "label": "Logo, colours",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "logo_animation_colours_7",
+          "label": "Logo animation, colours",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "full_brand_system_8",
+          "label": "Full brand system",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "logo_colours_messaging_9",
+          "label": "Logo, colours, messaging",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "brand_audit",
+      "title": "Brand Audit",
+      "description": "Complete the Brand Audit section",
+      "fields": [
+        {
+          "id": "website_homepage_0",
+          "label": "Website Homepage",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "website_about_page_1",
+          "label": "Website About Page",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "website_blog_2",
+          "label": "Website Blog",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "email_newsletter_3",
+          "label": "Email Newsletter",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "email_signature_4",
+          "label": "Email Signature",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "linkedin_profile_5",
+          "label": "LinkedIn Profile",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "instagram_profile_6",
+          "label": "Instagram Profile",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "facebook_page_7",
+          "label": "Facebook Page",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "twitter_profile_8",
+          "label": "Twitter Profile",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "tiktok_profile_9",
+          "label": "TikTok Profile",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "business_cards_10",
+          "label": "Business Cards",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "letterhead_11",
+          "label": "Letterhead",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "presentation_template_12",
+          "label": "Presentation Template",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "sales_deck_13",
+          "label": "Sales Deck",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "product_packaging_14",
+          "label": "Product Packaging",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "customer_support_portal_15",
+          "label": "Customer Support Portal",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "help_documentation_16",
+          "label": "Help Documentation",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "onboarding_flow_17",
+          "label": "Onboarding Flow",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "advertising_digital_18",
+          "label": "Advertising (Digital)",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "trade_show_booth_19",
+          "label": "Trade Show Booth",
+          "type": "text",
+          "placeholder": "",
+          "required": false
         }
       ]
     }

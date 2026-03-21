@@ -12,221 +12,667 @@
   "estimatedTime": "50 min",
   "sections": [
     {
-      "id": "overview",
-      "title": "Overview & Objectives",
-      "description": "Define the goals and scope of your influencer marketing tracker",
+      "id": "dashboard",
+      "title": "Dashboard",
+      "description": "Complete the Dashboard section",
       "fields": [
         {
-          "id": "objective",
-          "label": "Primary Objective",
-          "type": "textarea",
-          "placeholder": "What do you want to achieve with this influencer marketing tracker?",
-          "required": true,
-          "helpText": ""
-        },
-        {
-          "id": "target_audience",
-          "label": "Target Audience",
-          "type": "textarea",
-          "placeholder": "Who is this for?",
-          "required": true,
-          "helpText": ""
-        },
-        {
-          "id": "timeline",
-          "label": "Timeline",
+          "id": "active_campaigns_0",
+          "label": "Active Campaigns",
           "type": "text",
-          "placeholder": "e.g., Q1 2026, Next 90 days",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "budget",
-          "label": "Budget / Resources",
-          "type": "text",
-          "placeholder": "e.g., \u20ac5,000 or 20 hours/week",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "success_metrics",
-          "label": "Success Metrics",
-          "type": "textarea",
-          "placeholder": "How will you measure success?",
-          "required": true,
-          "helpText": ""
-        }
-      ]
-    },
-    {
-      "id": "strategy",
-      "title": "Strategy & Approach",
-      "description": "Outline your strategic approach",
-      "fields": [
-        {
-          "id": "core_strategy",
-          "label": "Core Strategy",
-          "type": "textarea",
-          "placeholder": "Describe your overall approach",
-          "required": true,
-          "helpText": ""
-        },
-        {
-          "id": "key_channels",
-          "label": "Key Channels / Platforms",
-          "type": "textarea",
-          "placeholder": "e.g., LinkedIn, Email, Blog, Paid ads",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "messaging",
-          "label": "Key Messages",
-          "type": "textarea",
-          "placeholder": "What are the main messages you want to communicate?",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "differentiators",
-          "label": "Unique Differentiators",
-          "type": "textarea",
-          "placeholder": "What sets your approach apart?",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "competitors",
-          "label": "Competitive Landscape",
-          "type": "textarea",
-          "placeholder": "What are competitors doing in this area?",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "risks",
-          "label": "Potential Risks & Mitigation",
-          "type": "textarea",
-          "placeholder": "What could go wrong and how will you handle it?",
-          "required": false,
-          "helpText": ""
-        }
-      ]
-    },
-    {
-      "id": "execution",
-      "title": "Execution Plan",
-      "description": "Detail your action items and timeline",
-      "fields": [
-        {
-          "id": "phase_1",
-          "label": "Phase 1: Foundation (Week 1-2)",
-          "type": "textarea",
-          "placeholder": "What will you set up first?",
-          "required": true,
-          "helpText": ""
-        },
-        {
-          "id": "phase_2",
-          "label": "Phase 2: Launch (Week 3-4)",
-          "type": "textarea",
-          "placeholder": "What are the launch activities?",
-          "required": true,
-          "helpText": ""
-        },
-        {
-          "id": "phase_3",
-          "label": "Phase 3: Optimization (Week 5+)",
-          "type": "textarea",
-          "placeholder": "How will you iterate and improve?",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "tools",
-          "label": "Tools & Technology Needed",
-          "type": "textarea",
-          "placeholder": "e.g., HubSpot, Canva, Google Analytics",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "team",
-          "label": "Team & Responsibilities",
-          "type": "textarea",
-          "placeholder": "Who is responsible for what?",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "dependencies",
-          "label": "Dependencies & Prerequisites",
-          "type": "textarea",
-          "placeholder": "What needs to happen before you can start?",
-          "required": false,
-          "helpText": ""
-        }
-      ]
-    },
-    {
-      "id": "tracking",
-      "title": "Tracking & Reporting",
-      "description": "Set up measurement and reporting",
-      "fields": [
-        {
-          "id": "kpis",
-          "label": "Key Performance Indicators",
-          "type": "textarea",
-          "placeholder": "List 3-5 KPIs you'll track",
-          "required": true,
-          "helpText": ""
-        },
-        {
-          "id": "reporting_frequency",
-          "label": "Reporting Frequency",
-          "type": "select",
-          "options": [
-            "Daily",
-            "Weekly",
-            "Bi-weekly",
-            "Monthly",
-            "Quarterly"
-          ],
-          "required": false,
           "placeholder": "",
-          "helpText": ""
+          "required": false
         },
         {
-          "id": "dashboard_tools",
-          "label": "Dashboard / Analytics Tools",
+          "id": "total_spend_1",
+          "label": "Total Spend",
           "type": "text",
-          "placeholder": "e.g., Google Analytics, Mixpanel",
-          "required": false,
-          "helpText": ""
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "benchmarks",
-          "label": "Benchmarks / Targets",
-          "type": "textarea",
-          "placeholder": "What are your target numbers?",
-          "required": false,
-          "helpText": ""
+          "id": "influencers_by_tier_2",
+          "label": "Influencers by Tier",
+          "type": "text",
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "review_process",
-          "label": "Review & Optimization Process",
-          "type": "textarea",
-          "placeholder": "How will you review and adjust?",
-          "required": false,
-          "helpText": ""
+          "id": "tier_3",
+          "label": "Tier",
+          "type": "text",
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "lessons_learned",
-          "label": "Lessons Learned",
+          "id": "count_4",
+          "label": "Count",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "of_total_5",
+          "label": "% of Total",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "mega_1m_6",
+          "label": "Mega (1M+)",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "macro_100k_1m_7",
+          "label": "Macro (100K-1M)",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "mid_tier_50k_100k_8",
+          "label": "Mid-Tier (50K-100K)",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "micro_10k_50k_9",
+          "label": "Micro (10K-50K)",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "nano_1k_10k_10",
+          "label": "Nano (1K-10K)",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "influencers_by_platform_11",
+          "label": "Influencers by Platform",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "platform_12",
+          "label": "Platform",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "count_13",
+          "label": "Count",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "of_total_14",
+          "label": "% of Total",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "instagram_15",
+          "label": "Instagram",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "tiktok_16",
+          "label": "TikTok",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "youtube_17",
+          "label": "YouTube",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "linkedin_18",
+          "label": "LinkedIn",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "twitter_x_19",
+          "label": "Twitter/X",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "blog_20",
+          "label": "Blog",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "podcast_21",
+          "label": "Podcast",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "other_22",
+          "label": "Other",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "campaign_performance_summary_23",
+          "label": "Campaign Performance Summary",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "metric_24",
+          "label": "Metric",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "value_25",
+          "label": "Value",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "total_impressions_26",
+          "label": "Total Impressions",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "total_engagements_27",
+          "label": "Total Engagements",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "total_clicks_28",
+          "label": "Total Clicks",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "total_conversions_29",
+          "label": "Total Conversions",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "influencer_database",
+      "title": "Influencer Database",
+      "description": "Complete the Influencer Database section",
+      "fields": [
+        {
+          "id": "fashion_lifestyle_0",
+          "label": "Fashion & Lifestyle",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "technology_saas_1",
+          "label": "Technology & SaaS",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "sustainability_2",
+          "label": "Sustainability",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "marketing_business_3",
+          "label": "Marketing & Business",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "food_hospitality_4",
+          "label": "Food & Hospitality",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "health_wellness_5",
+          "label": "Health & Wellness",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "developer_tools_6",
+          "label": "Developer Tools",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "travel_adventure_7",
+          "label": "Travel & Adventure",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "campaign_planner",
+      "title": "Campaign Planner",
+      "description": "Complete the Campaign Planner section",
+      "fields": [
+        {
+          "id": "3_feed_posts_5_stories_1_reel_each_0",
+          "label": "3 feed posts + 5 stories + 1 reel each",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "4_linkedin_articles_2_newsletter_feature_1",
+          "label": "4 LinkedIn articles + 2 newsletter features",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "2_tiktok_videos_3_ig_reels_2",
+          "label": "2 TikTok videos + 3 IG reels",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "3_youtube_tutorials_blog_post_3",
+          "label": "3 YouTube tutorials + blog post",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "content_calendar",
+      "title": "Content Calendar",
+      "description": "Complete the Content Calendar section",
+      "fields": [
+        {
+          "id": "spring_product_launch_0",
+          "label": "Spring Product Launch",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "spring_product_launch_1",
+          "label": "Spring Product Launch",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "spring_product_launch_2",
+          "label": "Spring Product Launch",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "spring_product_launch_3",
+          "label": "Spring Product Launch",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "thought_leadership_4",
+          "label": "Thought Leadership",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "thought_leadership_5",
+          "label": "Thought Leadership",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "performance_tracker",
+      "title": "Performance Tracker",
+      "description": "Complete the Performance Tracker section",
+      "fields": [
+        {
+          "id": "datadrivendan_0",
+          "label": "DataDrivenDan",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "sarahstyleslife_1",
+          "label": "@SarahStylesLife",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "techwithmarcus_2",
+          "label": "TechWithMarcus",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "codecraftstudio_3",
+          "label": "CodeCraftStudio",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "outreach_tracker",
+      "title": "Outreach Tracker",
+      "description": "Complete the Outreach Tracker section",
+      "fields": [
+        {
+          "id": "signed_for_spring_campaign_0",
+          "label": "Signed for Spring campaign",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "agreed_on_1_500_video_1",
+          "label": "Agreed on $1,500/video",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "try_dm_instead_of_email_2",
+          "label": "Try DM instead of email",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "sent_via_agent_management_3",
+          "label": "Sent via agent management",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "sent_campaign_brief_2026_02_01_4",
+          "label": "Sent campaign brief 2026-02-01",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "budget_payments",
+      "title": "Budget & Payments",
+      "description": "Complete the Budget & Payments section",
+      "fields": [
+        {
+          "id": "spring_product_launch_0",
+          "label": "Spring Product Launch",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "spring_product_launch_1",
+          "label": "Spring Product Launch",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "thought_leadership_2",
+          "label": "Thought Leadership",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "dev_community_build_3",
+          "label": "Dev Community Build",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "contract_checklist",
+      "title": "Contract Checklist",
+      "description": "Complete the Contract Checklist section",
+      "fields": [
+        {
+          "id": "deliverables_clearly_defined_number_of_p_0",
+          "label": "Deliverables clearly defined (number of posts, stories, videos, etc.)",
           "type": "textarea",
-          "placeholder": "Document insights as you go",
-          "required": false,
-          "helpText": ""
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "content_formats_specified_reel_carousel__1",
+          "label": "Content formats specified (reel, carousel, long-form, etc.)",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "platform_s_specified_2",
+          "label": "Platform(s) specified",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "timeline_and_deadlines_stated_3",
+          "label": "Timeline and deadlines stated",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "revision_rounds_defined_how_many_turnaro_4",
+          "label": "Revision rounds defined (how many, turnaround time)",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "fee_amount_and_structure_flat_fee_per_po_5",
+          "label": "Fee amount and structure (flat fee, per post, performance-based)",
+          "type": "textarea",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "payment_schedule_upfront_on_delivery_mil_6",
+          "label": "Payment schedule (upfront, on delivery, milestone-based)",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "additional_costs_covered_travel_product__7",
+          "label": "Additional costs covered (travel, product, props)",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "late_payment_penalty_clause_8",
+          "label": "Late payment penalty clause",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "usage_rights_defined_organic_paid_amplif_9",
+          "label": "Usage rights defined (organic, paid amplification, website, OOH)",
+          "type": "textarea",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "duration_of_usage_rights_6_months_1_year_10",
+          "label": "Duration of usage rights (6 months, 1 year, perpetual)",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "right_to_repurpose_content_11",
+          "label": "Right to repurpose content",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "influencer_retains_right_to_remove_from__12",
+          "label": "Influencer retains right to remove from personal feed",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "ftc_asa_disclosure_requirements_stated_13",
+          "label": "FTC/ASA disclosure requirements stated",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "required_hashtags_ad_sponsored_partner_14",
+          "label": "Required hashtags (#ad, #sponsored, #partner)",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "brand_approval_process_before_publishing_15",
+          "label": "Brand approval process before publishing",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "compliance_with_platform_advertising_pol_16",
+          "label": "Compliance with platform advertising policies",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "exclusivity_period_and_scope_defined_17",
+          "label": "Exclusivity period and scope defined",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "competitor_restrictions_listed_18",
+          "label": "Competitor restrictions listed",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "category_exclusivity_vs_brand_exclusivit_19",
+          "label": "Category exclusivity vs. brand exclusivity",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "termination_clause_with_notice_period_20",
+          "label": "Termination clause with notice period",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "kill_fee_cancellation_fee_defined_21",
+          "label": "Kill fee / cancellation fee defined",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "content_removal_obligations_upon_termina_22",
+          "label": "Content removal obligations upon termination",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "minimum_performance_guarantees_if_applic_23",
+          "label": "Minimum performance guarantees (if applicable)",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "performance_bonus_thresholds_24",
+          "label": "Performance bonus thresholds",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "tracking_and_reporting_requirements_25",
+          "label": "Tracking and reporting requirements",
+          "type": "text",
+          "placeholder": "",
+          "required": false
         }
       ]
     }

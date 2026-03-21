@@ -12,221 +12,1353 @@
   "estimatedTime": "65 min",
   "sections": [
     {
-      "id": "overview",
-      "title": "Overview & Objectives",
-      "description": "Define the goals and scope of your sales enablement kit",
+      "id": "dashboard",
+      "title": "Dashboard",
+      "description": "Complete the Dashboard section",
       "fields": [
         {
-          "id": "objective",
-          "label": "Primary Objective",
-          "type": "textarea",
-          "placeholder": "What do you want to achieve with this sales enablement kit?",
-          "required": true,
-          "helpText": ""
-        },
-        {
-          "id": "target_audience",
-          "label": "Target Audience",
-          "type": "textarea",
-          "placeholder": "Who is this for?",
-          "required": true,
-          "helpText": ""
-        },
-        {
-          "id": "timeline",
-          "label": "Timeline",
+          "id": "content_usage_rate_avg_0",
+          "label": "Content Usage Rate (Avg)",
           "type": "text",
-          "placeholder": "e.g., Q1 2026, Next 90 days",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "budget",
-          "label": "Budget / Resources",
-          "type": "text",
-          "placeholder": "e.g., \u20ac5,000 or 20 hours/week",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "success_metrics",
-          "label": "Success Metrics",
-          "type": "textarea",
-          "placeholder": "How will you measure success?",
-          "required": true,
-          "helpText": ""
-        }
-      ]
-    },
-    {
-      "id": "strategy",
-      "title": "Strategy & Approach",
-      "description": "Outline your strategic approach",
-      "fields": [
-        {
-          "id": "core_strategy",
-          "label": "Core Strategy",
-          "type": "textarea",
-          "placeholder": "Describe your overall approach",
-          "required": true,
-          "helpText": ""
-        },
-        {
-          "id": "key_channels",
-          "label": "Key Channels / Platforms",
-          "type": "textarea",
-          "placeholder": "e.g., LinkedIn, Email, Blog, Paid ads",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "messaging",
-          "label": "Key Messages",
-          "type": "textarea",
-          "placeholder": "What are the main messages you want to communicate?",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "differentiators",
-          "label": "Unique Differentiators",
-          "type": "textarea",
-          "placeholder": "What sets your approach apart?",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "competitors",
-          "label": "Competitive Landscape",
-          "type": "textarea",
-          "placeholder": "What are competitors doing in this area?",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "risks",
-          "label": "Potential Risks & Mitigation",
-          "type": "textarea",
-          "placeholder": "What could go wrong and how will you handle it?",
-          "required": false,
-          "helpText": ""
-        }
-      ]
-    },
-    {
-      "id": "execution",
-      "title": "Execution Plan",
-      "description": "Detail your action items and timeline",
-      "fields": [
-        {
-          "id": "phase_1",
-          "label": "Phase 1: Foundation (Week 1-2)",
-          "type": "textarea",
-          "placeholder": "What will you set up first?",
-          "required": true,
-          "helpText": ""
-        },
-        {
-          "id": "phase_2",
-          "label": "Phase 2: Launch (Week 3-4)",
-          "type": "textarea",
-          "placeholder": "What are the launch activities?",
-          "required": true,
-          "helpText": ""
-        },
-        {
-          "id": "phase_3",
-          "label": "Phase 3: Optimization (Week 5+)",
-          "type": "textarea",
-          "placeholder": "How will you iterate and improve?",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "tools",
-          "label": "Tools & Technology Needed",
-          "type": "textarea",
-          "placeholder": "e.g., HubSpot, Canva, Google Analytics",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "team",
-          "label": "Team & Responsibilities",
-          "type": "textarea",
-          "placeholder": "Who is responsible for what?",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "dependencies",
-          "label": "Dependencies & Prerequisites",
-          "type": "textarea",
-          "placeholder": "What needs to happen before you can start?",
-          "required": false,
-          "helpText": ""
-        }
-      ]
-    },
-    {
-      "id": "tracking",
-      "title": "Tracking & Reporting",
-      "description": "Set up measurement and reporting",
-      "fields": [
-        {
-          "id": "kpis",
-          "label": "Key Performance Indicators",
-          "type": "textarea",
-          "placeholder": "List 3-5 KPIs you'll track",
-          "required": true,
-          "helpText": ""
-        },
-        {
-          "id": "reporting_frequency",
-          "label": "Reporting Frequency",
-          "type": "select",
-          "options": [
-            "Daily",
-            "Weekly",
-            "Bi-weekly",
-            "Monthly",
-            "Quarterly"
-          ],
-          "required": false,
           "placeholder": "",
-          "helpText": ""
+          "required": false
         },
         {
-          "id": "dashboard_tools",
-          "label": "Dashboard / Analytics Tools",
+          "id": "total_training_modules_1",
+          "label": "Total Training Modules",
           "type": "text",
-          "placeholder": "e.g., Google Analytics, Mixpanel",
-          "required": false,
-          "helpText": ""
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "benchmarks",
-          "label": "Benchmarks / Targets",
-          "type": "textarea",
-          "placeholder": "What are your target numbers?",
-          "required": false,
-          "helpText": ""
+          "id": "active_deals_in_pipeline_2",
+          "label": "Active Deals in Pipeline",
+          "type": "text",
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "review_process",
-          "label": "Review & Optimization Process",
-          "type": "textarea",
-          "placeholder": "How will you review and adjust?",
-          "required": false,
-          "helpText": ""
+          "id": "average_win_probability_3",
+          "label": "Average Win Probability",
+          "type": "text",
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "lessons_learned",
-          "label": "Lessons Learned",
+          "id": "total_competitors_tracked_4",
+          "label": "Total Competitors Tracked",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "objection_handlers_available_5",
+          "label": "Objection Handlers Available",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "content_library",
+      "title": "Content Library",
+      "description": "Complete the Content Library section",
+      "fields": [
+        {
+          "id": "content_asset_1_0",
+          "label": "Content Asset 1",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "content_asset_2_1",
+          "label": "Content Asset 2",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "content_asset_3_2",
+          "label": "Content Asset 3",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "content_asset_4_3",
+          "label": "Content Asset 4",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "content_asset_5_4",
+          "label": "Content Asset 5",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "content_asset_6_5",
+          "label": "Content Asset 6",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "content_asset_7_6",
+          "label": "Content Asset 7",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "content_asset_8_7",
+          "label": "Content Asset 8",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "content_asset_9_8",
+          "label": "Content Asset 9",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "content_asset_10_9",
+          "label": "Content Asset 10",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "content_asset_11_10",
+          "label": "Content Asset 11",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "content_asset_12_11",
+          "label": "Content Asset 12",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "content_asset_13_12",
+          "label": "Content Asset 13",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "content_asset_14_13",
+          "label": "Content Asset 14",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "content_asset_15_14",
+          "label": "Content Asset 15",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "content_asset_16_15",
+          "label": "Content Asset 16",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "content_asset_17_16",
+          "label": "Content Asset 17",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "content_asset_18_17",
+          "label": "Content Asset 18",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "content_asset_19_18",
+          "label": "Content Asset 19",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "content_asset_20_19",
+          "label": "Content Asset 20",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "content_asset_21_20",
+          "label": "Content Asset 21",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "content_asset_22_21",
+          "label": "Content Asset 22",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "content_asset_23_22",
+          "label": "Content Asset 23",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "content_asset_24_23",
+          "label": "Content Asset 24",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "content_asset_25_24",
+          "label": "Content Asset 25",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "content_asset_26_25",
+          "label": "Content Asset 26",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "content_asset_27_26",
+          "label": "Content Asset 27",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "content_asset_28_27",
+          "label": "Content Asset 28",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "content_asset_29_28",
+          "label": "Content Asset 29",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "content_asset_30_29",
+          "label": "Content Asset 30",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "battle_cards",
+      "title": "Battle Cards",
+      "description": "Complete the Battle Cards section",
+      "fields": [
+        {
+          "id": "too_expensive_highlight_roi_limited_feat_0",
+          "label": "\"Too expensive\" - highlight ROI; \"Limited features\" - demo capabilities",
           "type": "textarea",
-          "placeholder": "Document insights as you go",
-          "required": false,
-          "helpText": ""
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "too_expensive_highlight_roi_limited_feat_1",
+          "label": "\"Too expensive\" - highlight ROI; \"Limited features\" - demo capabilities",
+          "type": "textarea",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "too_expensive_highlight_roi_limited_feat_2",
+          "label": "\"Too expensive\" - highlight ROI; \"Limited features\" - demo capabilities",
+          "type": "textarea",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "too_expensive_highlight_roi_limited_feat_3",
+          "label": "\"Too expensive\" - highlight ROI; \"Limited features\" - demo capabilities",
+          "type": "textarea",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "too_expensive_highlight_roi_limited_feat_4",
+          "label": "\"Too expensive\" - highlight ROI; \"Limited features\" - demo capabilities",
+          "type": "textarea",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "too_expensive_highlight_roi_limited_feat_5",
+          "label": "\"Too expensive\" - highlight ROI; \"Limited features\" - demo capabilities",
+          "type": "textarea",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "too_expensive_highlight_roi_limited_feat_6",
+          "label": "\"Too expensive\" - highlight ROI; \"Limited features\" - demo capabilities",
+          "type": "textarea",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "too_expensive_highlight_roi_limited_feat_7",
+          "label": "\"Too expensive\" - highlight ROI; \"Limited features\" - demo capabilities",
+          "type": "textarea",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "too_expensive_highlight_roi_limited_feat_8",
+          "label": "\"Too expensive\" - highlight ROI; \"Limited features\" - demo capabilities",
+          "type": "textarea",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "too_expensive_highlight_roi_limited_feat_9",
+          "label": "\"Too expensive\" - highlight ROI; \"Limited features\" - demo capabilities",
+          "type": "textarea",
+          "placeholder": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "objection_handling",
+      "title": "Objection Handling",
+      "description": "Complete the Objection Handling section",
+      "fields": [
+        {
+          "id": "what_specific_concern_prevents_you_from__0",
+          "label": "What specific concern prevents you from moving forward?",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "what_specific_concern_prevents_you_from__1",
+          "label": "What specific concern prevents you from moving forward?",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "what_specific_concern_prevents_you_from__2",
+          "label": "What specific concern prevents you from moving forward?",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "what_specific_concern_prevents_you_from__3",
+          "label": "What specific concern prevents you from moving forward?",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "what_specific_concern_prevents_you_from__4",
+          "label": "What specific concern prevents you from moving forward?",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "what_specific_concern_prevents_you_from__5",
+          "label": "What specific concern prevents you from moving forward?",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "what_specific_concern_prevents_you_from__6",
+          "label": "What specific concern prevents you from moving forward?",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "what_specific_concern_prevents_you_from__7",
+          "label": "What specific concern prevents you from moving forward?",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "what_specific_concern_prevents_you_from__8",
+          "label": "What specific concern prevents you from moving forward?",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "what_specific_concern_prevents_you_from__9",
+          "label": "What specific concern prevents you from moving forward?",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "what_specific_concern_prevents_you_from__10",
+          "label": "What specific concern prevents you from moving forward?",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "what_specific_concern_prevents_you_from__11",
+          "label": "What specific concern prevents you from moving forward?",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "what_specific_concern_prevents_you_from__12",
+          "label": "What specific concern prevents you from moving forward?",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "what_specific_concern_prevents_you_from__13",
+          "label": "What specific concern prevents you from moving forward?",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "what_specific_concern_prevents_you_from__14",
+          "label": "What specific concern prevents you from moving forward?",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "what_specific_concern_prevents_you_from__15",
+          "label": "What specific concern prevents you from moving forward?",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "what_specific_concern_prevents_you_from__16",
+          "label": "What specific concern prevents you from moving forward?",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "what_specific_concern_prevents_you_from__17",
+          "label": "What specific concern prevents you from moving forward?",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "what_specific_concern_prevents_you_from__18",
+          "label": "What specific concern prevents you from moving forward?",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "what_specific_concern_prevents_you_from__19",
+          "label": "What specific concern prevents you from moving forward?",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "what_specific_concern_prevents_you_from__20",
+          "label": "What specific concern prevents you from moving forward?",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "what_specific_concern_prevents_you_from__21",
+          "label": "What specific concern prevents you from moving forward?",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "what_specific_concern_prevents_you_from__22",
+          "label": "What specific concern prevents you from moving forward?",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "what_specific_concern_prevents_you_from__23",
+          "label": "What specific concern prevents you from moving forward?",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "what_specific_concern_prevents_you_from__24",
+          "label": "What specific concern prevents you from moving forward?",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "what_specific_concern_prevents_you_from__25",
+          "label": "What specific concern prevents you from moving forward?",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "what_specific_concern_prevents_you_from__26",
+          "label": "What specific concern prevents you from moving forward?",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "what_specific_concern_prevents_you_from__27",
+          "label": "What specific concern prevents you from moving forward?",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "what_specific_concern_prevents_you_from__28",
+          "label": "What specific concern prevents you from moving forward?",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "what_specific_concern_prevents_you_from__29",
+          "label": "What specific concern prevents you from moving forward?",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "sales_playbook",
+      "title": "Sales Playbook",
+      "description": "Complete the Sales Playbook section",
+      "fields": [
+        {
+          "id": "opening_establish_credibility_main_show__0",
+          "label": "Opening: Establish credibility. Main: Show value. Closing: Next steps",
+          "type": "textarea",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "opening_establish_credibility_main_show__1",
+          "label": "Opening: Establish credibility. Main: Show value. Closing: Next steps",
+          "type": "textarea",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "opening_establish_credibility_main_show__2",
+          "label": "Opening: Establish credibility. Main: Show value. Closing: Next steps",
+          "type": "textarea",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "opening_establish_credibility_main_show__3",
+          "label": "Opening: Establish credibility. Main: Show value. Closing: Next steps",
+          "type": "textarea",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "opening_establish_credibility_main_show__4",
+          "label": "Opening: Establish credibility. Main: Show value. Closing: Next steps",
+          "type": "textarea",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "opening_establish_credibility_main_show__5",
+          "label": "Opening: Establish credibility. Main: Show value. Closing: Next steps",
+          "type": "textarea",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "opening_establish_credibility_main_show__6",
+          "label": "Opening: Establish credibility. Main: Show value. Closing: Next steps",
+          "type": "textarea",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "opening_establish_credibility_main_show__7",
+          "label": "Opening: Establish credibility. Main: Show value. Closing: Next steps",
+          "type": "textarea",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "opening_establish_credibility_main_show__8",
+          "label": "Opening: Establish credibility. Main: Show value. Closing: Next steps",
+          "type": "textarea",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "opening_establish_credibility_main_show__9",
+          "label": "Opening: Establish credibility. Main: Show value. Closing: Next steps",
+          "type": "textarea",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "opening_establish_credibility_main_show__10",
+          "label": "Opening: Establish credibility. Main: Show value. Closing: Next steps",
+          "type": "textarea",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "opening_establish_credibility_main_show__11",
+          "label": "Opening: Establish credibility. Main: Show value. Closing: Next steps",
+          "type": "textarea",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "opening_establish_credibility_main_show__12",
+          "label": "Opening: Establish credibility. Main: Show value. Closing: Next steps",
+          "type": "textarea",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "opening_establish_credibility_main_show__13",
+          "label": "Opening: Establish credibility. Main: Show value. Closing: Next steps",
+          "type": "textarea",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "opening_establish_credibility_main_show__14",
+          "label": "Opening: Establish credibility. Main: Show value. Closing: Next steps",
+          "type": "textarea",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "opening_establish_credibility_main_show__15",
+          "label": "Opening: Establish credibility. Main: Show value. Closing: Next steps",
+          "type": "textarea",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "opening_establish_credibility_main_show__16",
+          "label": "Opening: Establish credibility. Main: Show value. Closing: Next steps",
+          "type": "textarea",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "opening_establish_credibility_main_show__17",
+          "label": "Opening: Establish credibility. Main: Show value. Closing: Next steps",
+          "type": "textarea",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "opening_establish_credibility_main_show__18",
+          "label": "Opening: Establish credibility. Main: Show value. Closing: Next steps",
+          "type": "textarea",
+          "placeholder": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "training_tracker",
+      "title": "Training Tracker",
+      "description": "Complete the Training Tracker section",
+      "fields": [
+        {
+          "id": "product_overview_0",
+          "label": "Product Overview",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "competitive_positioning_1",
+          "label": "Competitive Positioning",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "objection_handling_2",
+          "label": "Objection Handling",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "negotiation_skills_3",
+          "label": "Negotiation Skills",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "account_management_4",
+          "label": "Account Management",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "product_overview_5",
+          "label": "Product Overview",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "competitive_positioning_6",
+          "label": "Competitive Positioning",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "objection_handling_7",
+          "label": "Objection Handling",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "negotiation_skills_8",
+          "label": "Negotiation Skills",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "account_management_9",
+          "label": "Account Management",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "product_overview_10",
+          "label": "Product Overview",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "competitive_positioning_11",
+          "label": "Competitive Positioning",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "objection_handling_12",
+          "label": "Objection Handling",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "negotiation_skills_13",
+          "label": "Negotiation Skills",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "account_management_14",
+          "label": "Account Management",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "product_overview_15",
+          "label": "Product Overview",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "competitive_positioning_16",
+          "label": "Competitive Positioning",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "objection_handling_17",
+          "label": "Objection Handling",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "negotiation_skills_18",
+          "label": "Negotiation Skills",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "account_management_19",
+          "label": "Account Management",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "product_overview_20",
+          "label": "Product Overview",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "competitive_positioning_21",
+          "label": "Competitive Positioning",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "objection_handling_22",
+          "label": "Objection Handling",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "negotiation_skills_23",
+          "label": "Negotiation Skills",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "account_management_24",
+          "label": "Account Management",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "product_overview_25",
+          "label": "Product Overview",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "competitive_positioning_26",
+          "label": "Competitive Positioning",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "objection_handling_27",
+          "label": "Objection Handling",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "negotiation_skills_28",
+          "label": "Negotiation Skills",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "account_management_29",
+          "label": "Account Management",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "pipeline_support",
+      "title": "Pipeline Support",
+      "description": "Complete the Pipeline Support section",
+      "fields": [
+        {
+          "id": "schedule_demo_send_proposal_follow_up_0",
+          "label": "Schedule demo / Send proposal / Follow up",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "schedule_demo_send_proposal_follow_up_1",
+          "label": "Schedule demo / Send proposal / Follow up",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "schedule_demo_send_proposal_follow_up_2",
+          "label": "Schedule demo / Send proposal / Follow up",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "schedule_demo_send_proposal_follow_up_3",
+          "label": "Schedule demo / Send proposal / Follow up",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "schedule_demo_send_proposal_follow_up_4",
+          "label": "Schedule demo / Send proposal / Follow up",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "schedule_demo_send_proposal_follow_up_5",
+          "label": "Schedule demo / Send proposal / Follow up",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "schedule_demo_send_proposal_follow_up_6",
+          "label": "Schedule demo / Send proposal / Follow up",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "schedule_demo_send_proposal_follow_up_7",
+          "label": "Schedule demo / Send proposal / Follow up",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "schedule_demo_send_proposal_follow_up_8",
+          "label": "Schedule demo / Send proposal / Follow up",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "schedule_demo_send_proposal_follow_up_9",
+          "label": "Schedule demo / Send proposal / Follow up",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "schedule_demo_send_proposal_follow_up_10",
+          "label": "Schedule demo / Send proposal / Follow up",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "schedule_demo_send_proposal_follow_up_11",
+          "label": "Schedule demo / Send proposal / Follow up",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "schedule_demo_send_proposal_follow_up_12",
+          "label": "Schedule demo / Send proposal / Follow up",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "schedule_demo_send_proposal_follow_up_13",
+          "label": "Schedule demo / Send proposal / Follow up",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "schedule_demo_send_proposal_follow_up_14",
+          "label": "Schedule demo / Send proposal / Follow up",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "schedule_demo_send_proposal_follow_up_15",
+          "label": "Schedule demo / Send proposal / Follow up",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "schedule_demo_send_proposal_follow_up_16",
+          "label": "Schedule demo / Send proposal / Follow up",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "schedule_demo_send_proposal_follow_up_17",
+          "label": "Schedule demo / Send proposal / Follow up",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "schedule_demo_send_proposal_follow_up_18",
+          "label": "Schedule demo / Send proposal / Follow up",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "schedule_demo_send_proposal_follow_up_19",
+          "label": "Schedule demo / Send proposal / Follow up",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "schedule_demo_send_proposal_follow_up_20",
+          "label": "Schedule demo / Send proposal / Follow up",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "schedule_demo_send_proposal_follow_up_21",
+          "label": "Schedule demo / Send proposal / Follow up",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "schedule_demo_send_proposal_follow_up_22",
+          "label": "Schedule demo / Send proposal / Follow up",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "schedule_demo_send_proposal_follow_up_23",
+          "label": "Schedule demo / Send proposal / Follow up",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "schedule_demo_send_proposal_follow_up_24",
+          "label": "Schedule demo / Send proposal / Follow up",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "schedule_demo_send_proposal_follow_up_25",
+          "label": "Schedule demo / Send proposal / Follow up",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "schedule_demo_send_proposal_follow_up_26",
+          "label": "Schedule demo / Send proposal / Follow up",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "schedule_demo_send_proposal_follow_up_27",
+          "label": "Schedule demo / Send proposal / Follow up",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "schedule_demo_send_proposal_follow_up_28",
+          "label": "Schedule demo / Send proposal / Follow up",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "schedule_demo_send_proposal_follow_up_29",
+          "label": "Schedule demo / Send proposal / Follow up",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "feedback_loop",
+      "title": "Feedback Loop",
+      "description": "Complete the Feedback Loop section",
+      "fields": [
+        {
+          "id": "updated_asset_scheduled_training_created_0",
+          "label": "Updated asset / Scheduled training / Created new content",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "updated_asset_scheduled_training_created_1",
+          "label": "Updated asset / Scheduled training / Created new content",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "updated_asset_scheduled_training_created_2",
+          "label": "Updated asset / Scheduled training / Created new content",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "updated_asset_scheduled_training_created_3",
+          "label": "Updated asset / Scheduled training / Created new content",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "updated_asset_scheduled_training_created_4",
+          "label": "Updated asset / Scheduled training / Created new content",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "updated_asset_scheduled_training_created_5",
+          "label": "Updated asset / Scheduled training / Created new content",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "updated_asset_scheduled_training_created_6",
+          "label": "Updated asset / Scheduled training / Created new content",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "updated_asset_scheduled_training_created_7",
+          "label": "Updated asset / Scheduled training / Created new content",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "updated_asset_scheduled_training_created_8",
+          "label": "Updated asset / Scheduled training / Created new content",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "updated_asset_scheduled_training_created_9",
+          "label": "Updated asset / Scheduled training / Created new content",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "updated_asset_scheduled_training_created_10",
+          "label": "Updated asset / Scheduled training / Created new content",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "updated_asset_scheduled_training_created_11",
+          "label": "Updated asset / Scheduled training / Created new content",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "updated_asset_scheduled_training_created_12",
+          "label": "Updated asset / Scheduled training / Created new content",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "updated_asset_scheduled_training_created_13",
+          "label": "Updated asset / Scheduled training / Created new content",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "updated_asset_scheduled_training_created_14",
+          "label": "Updated asset / Scheduled training / Created new content",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "updated_asset_scheduled_training_created_15",
+          "label": "Updated asset / Scheduled training / Created new content",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "updated_asset_scheduled_training_created_16",
+          "label": "Updated asset / Scheduled training / Created new content",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "updated_asset_scheduled_training_created_17",
+          "label": "Updated asset / Scheduled training / Created new content",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "updated_asset_scheduled_training_created_18",
+          "label": "Updated asset / Scheduled training / Created new content",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "updated_asset_scheduled_training_created_19",
+          "label": "Updated asset / Scheduled training / Created new content",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "updated_asset_scheduled_training_created_20",
+          "label": "Updated asset / Scheduled training / Created new content",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "updated_asset_scheduled_training_created_21",
+          "label": "Updated asset / Scheduled training / Created new content",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "updated_asset_scheduled_training_created_22",
+          "label": "Updated asset / Scheduled training / Created new content",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "updated_asset_scheduled_training_created_23",
+          "label": "Updated asset / Scheduled training / Created new content",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "updated_asset_scheduled_training_created_24",
+          "label": "Updated asset / Scheduled training / Created new content",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "updated_asset_scheduled_training_created_25",
+          "label": "Updated asset / Scheduled training / Created new content",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "updated_asset_scheduled_training_created_26",
+          "label": "Updated asset / Scheduled training / Created new content",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "updated_asset_scheduled_training_created_27",
+          "label": "Updated asset / Scheduled training / Created new content",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "updated_asset_scheduled_training_created_28",
+          "label": "Updated asset / Scheduled training / Created new content",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "updated_asset_scheduled_training_created_29",
+          "label": "Updated asset / Scheduled training / Created new content",
+          "type": "text",
+          "placeholder": "",
+          "required": false
         }
       ]
     }

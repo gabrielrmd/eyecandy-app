@@ -4,7 +4,7 @@
   "number": 42,
   "category": "research",
   "description": "NPS Template - Marketing template for research professionals",
-  "instructions": "How to Use the NPS Template NPS Methodology Net Promoter Score measures customer loyalty on a 0-10 scale:\n\u2022 Promoters (9-10): Loyal enthusiasts who drive growth\n\u2022 Passives (7-8): Satisfied but not enthusiastic; vulnerable to competition\n\u2022 Detractors (0-6): Unhappy customers who may damage your brand Response Log Enter customer feedback here. For each response:\n1. Assign a unique Response ID\n2. Record the date and customer details\n3. Select NPS score (0-10) from dropdown\n4. The Category column auto-calculates (Promoter/Passive/Detractor)\n5. Capture verbatim feedback for analysis\n6. Track follow",
+  "instructions": "How to Use the NPS Template NPS Methodology Net Promoter Score measures customer loyalty on a 0-10 scale:\n• Promoters (9-10): Loyal enthusiasts who drive growth\n• Passives (7-8): Satisfied but not enthusiastic; vulnerable to competition\n• Detractors (0-6): Unhappy customers who may damage your brand Response Log Enter customer feedback here. For each response:\n1. Assign a unique Response ID\n2. Record the date and customer details\n3. Select NPS score (0-10) from dropdown\n4. The Category column auto-calculates (Promoter/Passive/Detractor)\n5. Capture verbatim feedback for analysis\n6. Track follow",
   "icon": "search",
   "tags": [
     "research"
@@ -12,221 +12,639 @@
   "estimatedTime": "70 min",
   "sections": [
     {
-      "id": "overview",
-      "title": "Overview & Objectives",
-      "description": "Define the goals and scope of your nps template",
+      "id": "dashboard",
+      "title": "Dashboard",
+      "description": "Complete the Dashboard section",
       "fields": [
         {
-          "id": "objective",
-          "label": "Primary Objective",
-          "type": "textarea",
-          "placeholder": "What do you want to achieve with this nps template?",
-          "required": true,
-          "helpText": ""
-        },
-        {
-          "id": "target_audience",
-          "label": "Target Audience",
-          "type": "textarea",
-          "placeholder": "Who is this for?",
-          "required": true,
-          "helpText": ""
-        },
-        {
-          "id": "timeline",
-          "label": "Timeline",
+          "id": "response_summary_0",
+          "label": "Response Summary",
           "type": "text",
-          "placeholder": "e.g., Q1 2026, Next 90 days",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "budget",
-          "label": "Budget / Resources",
-          "type": "text",
-          "placeholder": "e.g., \u20ac5,000 or 20 hours/week",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "success_metrics",
-          "label": "Success Metrics",
-          "type": "textarea",
-          "placeholder": "How will you measure success?",
-          "required": true,
-          "helpText": ""
-        }
-      ]
-    },
-    {
-      "id": "strategy",
-      "title": "Strategy & Approach",
-      "description": "Outline your strategic approach",
-      "fields": [
-        {
-          "id": "core_strategy",
-          "label": "Core Strategy",
-          "type": "textarea",
-          "placeholder": "Describe your overall approach",
-          "required": true,
-          "helpText": ""
-        },
-        {
-          "id": "key_channels",
-          "label": "Key Channels / Platforms",
-          "type": "textarea",
-          "placeholder": "e.g., LinkedIn, Email, Blog, Paid ads",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "messaging",
-          "label": "Key Messages",
-          "type": "textarea",
-          "placeholder": "What are the main messages you want to communicate?",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "differentiators",
-          "label": "Unique Differentiators",
-          "type": "textarea",
-          "placeholder": "What sets your approach apart?",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "competitors",
-          "label": "Competitive Landscape",
-          "type": "textarea",
-          "placeholder": "What are competitors doing in this area?",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "risks",
-          "label": "Potential Risks & Mitigation",
-          "type": "textarea",
-          "placeholder": "What could go wrong and how will you handle it?",
-          "required": false,
-          "helpText": ""
-        }
-      ]
-    },
-    {
-      "id": "execution",
-      "title": "Execution Plan",
-      "description": "Detail your action items and timeline",
-      "fields": [
-        {
-          "id": "phase_1",
-          "label": "Phase 1: Foundation (Week 1-2)",
-          "type": "textarea",
-          "placeholder": "What will you set up first?",
-          "required": true,
-          "helpText": ""
-        },
-        {
-          "id": "phase_2",
-          "label": "Phase 2: Launch (Week 3-4)",
-          "type": "textarea",
-          "placeholder": "What are the launch activities?",
-          "required": true,
-          "helpText": ""
-        },
-        {
-          "id": "phase_3",
-          "label": "Phase 3: Optimization (Week 5+)",
-          "type": "textarea",
-          "placeholder": "How will you iterate and improve?",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "tools",
-          "label": "Tools & Technology Needed",
-          "type": "textarea",
-          "placeholder": "e.g., HubSpot, Canva, Google Analytics",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "team",
-          "label": "Team & Responsibilities",
-          "type": "textarea",
-          "placeholder": "Who is responsible for what?",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "dependencies",
-          "label": "Dependencies & Prerequisites",
-          "type": "textarea",
-          "placeholder": "What needs to happen before you can start?",
-          "required": false,
-          "helpText": ""
-        }
-      ]
-    },
-    {
-      "id": "tracking",
-      "title": "Tracking & Reporting",
-      "description": "Set up measurement and reporting",
-      "fields": [
-        {
-          "id": "kpis",
-          "label": "Key Performance Indicators",
-          "type": "textarea",
-          "placeholder": "List 3-5 KPIs you'll track",
-          "required": true,
-          "helpText": ""
-        },
-        {
-          "id": "reporting_frequency",
-          "label": "Reporting Frequency",
-          "type": "select",
-          "options": [
-            "Daily",
-            "Weekly",
-            "Bi-weekly",
-            "Monthly",
-            "Quarterly"
-          ],
-          "required": false,
           "placeholder": "",
-          "helpText": ""
+          "required": false
         },
         {
-          "id": "dashboard_tools",
-          "label": "Dashboard / Analytics Tools",
+          "id": "metric_1",
+          "label": "Metric",
           "type": "text",
-          "placeholder": "e.g., Google Analytics, Mixpanel",
-          "required": false,
-          "helpText": ""
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "benchmarks",
-          "label": "Benchmarks / Targets",
-          "type": "textarea",
-          "placeholder": "What are your target numbers?",
-          "required": false,
-          "helpText": ""
+          "id": "total_responses_2",
+          "label": "Total Responses",
+          "type": "text",
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "review_process",
-          "label": "Review & Optimization Process",
-          "type": "textarea",
-          "placeholder": "How will you review and adjust?",
-          "required": false,
-          "helpText": ""
+          "id": "promoter_count_3",
+          "label": "Promoter Count",
+          "type": "text",
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "lessons_learned",
-          "label": "Lessons Learned",
-          "type": "textarea",
-          "placeholder": "Document insights as you go",
-          "required": false,
-          "helpText": ""
+          "id": "passive_count_4",
+          "label": "Passive Count",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "detractor_count_5",
+          "label": "Detractor Count",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "response_rate_6",
+          "label": "Response Rate",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "response_log",
+      "title": "Response Log",
+      "description": "Complete the Response Log section",
+      "fields": [
+        {
+          "id": "detractor_0",
+          "label": "Detractor",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "detractor_1",
+          "label": "Detractor",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "detractor_2",
+          "label": "Detractor",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "detractor_3",
+          "label": "Detractor",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "detractor_4",
+          "label": "Detractor",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "detractor_5",
+          "label": "Detractor",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "detractor_6",
+          "label": "Detractor",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "detractor_7",
+          "label": "Detractor",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "detractor_8",
+          "label": "Detractor",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "detractor_9",
+          "label": "Detractor",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "detractor_10",
+          "label": "Detractor",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "detractor_11",
+          "label": "Detractor",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "detractor_12",
+          "label": "Detractor",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "detractor_13",
+          "label": "Detractor",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "detractor_14",
+          "label": "Detractor",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "detractor_15",
+          "label": "Detractor",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "detractor_16",
+          "label": "Detractor",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "detractor_17",
+          "label": "Detractor",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "detractor_18",
+          "label": "Detractor",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "detractor_19",
+          "label": "Detractor",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "detractor_20",
+          "label": "Detractor",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "detractor_21",
+          "label": "Detractor",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "detractor_22",
+          "label": "Detractor",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "detractor_23",
+          "label": "Detractor",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "detractor_24",
+          "label": "Detractor",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "detractor_25",
+          "label": "Detractor",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "detractor_26",
+          "label": "Detractor",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "detractor_27",
+          "label": "Detractor",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "detractor_28",
+          "label": "Detractor",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "detractor_29",
+          "label": "Detractor",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "trend_analysis",
+      "title": "Trend Analysis",
+      "description": "Complete the Trend Analysis section",
+      "fields": [
+        {
+          "id": "jan_0",
+          "label": "Jan",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "feb_1",
+          "label": "Feb",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "mar_2",
+          "label": "Mar",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "apr_3",
+          "label": "Apr",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "may_4",
+          "label": "May",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "jun_5",
+          "label": "Jun",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "jul_6",
+          "label": "Jul",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "aug_7",
+          "label": "Aug",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "sep_8",
+          "label": "Sep",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "oct_9",
+          "label": "Oct",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "nov_10",
+          "label": "Nov",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "dec_11",
+          "label": "Dec",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "segment_analysis",
+      "title": "Segment Analysis",
+      "description": "Complete the Segment Analysis section",
+      "fields": [
+        {
+          "id": "enterprise_0",
+          "label": "Enterprise",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "smb_1",
+          "label": "SMB",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "startup_2",
+          "label": "Startup",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "individual_3",
+          "label": "Individual",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "benchmarking",
+      "title": "Benchmarking",
+      "description": "Complete the Benchmarking section",
+      "fields": [
+        {
+          "id": "industry_benchmarking_0",
+          "label": "Industry Benchmarking",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "industry_1",
+          "label": "Industry",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "average_nps_2",
+          "label": "Average NPS",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "best_in_class_nps_3",
+          "label": "Best-in-Class NPS",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "your_nps_4",
+          "label": "Your NPS",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "gap_to_average_5",
+          "label": "Gap to Average",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "gap_to_best_6",
+          "label": "Gap to Best",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "saas_7",
+          "label": "SaaS",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "e_commerce_8",
+          "label": "E-commerce",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "financial_services_9",
+          "label": "Financial Services",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "healthcare_10",
+          "label": "Healthcare",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "telecom_11",
+          "label": "Telecom",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "retail_12",
+          "label": "Retail",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "travel_hospitality_13",
+          "label": "Travel & Hospitality",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "education_14",
+          "label": "Education",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "manufacturing_15",
+          "label": "Manufacturing",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "professional_services_16",
+          "label": "Professional Services",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "reporting",
+      "title": "Reporting",
+      "description": "Complete the Reporting section",
+      "fields": [
+        {
+          "id": "executive_summary_0",
+          "label": "Executive Summary",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "current_performance_1",
+          "label": "Current Performance",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "current_nps_score_2",
+          "label": "Current NPS Score",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "total_responses_3",
+          "label": "Total Responses",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "promoters_4",
+          "label": "% Promoters",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "passives_5",
+          "label": "% Passives",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "detractors_6",
+          "label": "% Detractors",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "key_drivers_actions_7",
+          "label": "Key Drivers & Actions",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "top_positive_themes_8",
+          "label": "Top Positive Themes:",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "top_negative_themes_9",
+          "label": "Top Negative Themes:",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "recommended_actions_10",
+          "label": "Recommended Actions",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "1_review_detractor_verbatims_and_priorit_11",
+          "label": "1. Review detractor verbatims and prioritise recovery efforts",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "2_identify_and_scale_practices_that_driv_12",
+          "label": "2. Identify and scale practices that drive positive feedback",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "3_convert_passives_through_targeted_enga_13",
+          "label": "3. Convert passives through targeted engagement programs",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "4_track_action_plan_outcomes_and_monitor_14",
+          "label": "4. Track action plan outcomes and monitor improvement",
+          "type": "text",
+          "placeholder": "",
+          "required": false
         }
       ]
     }

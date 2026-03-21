@@ -4,7 +4,7 @@
   "number": 19,
   "category": "strategy",
   "description": "Marketing OKR Template - Marketing template for strategy professionals",
-  "instructions": "HOW TO USE THIS TEMPLATE Step 1: Define Annual Objectives Start with the Annual OKR Planner. Define 3-5 high-level marketing objectives for the year. Good objectives are ambitious, qualitative, and inspiring \u2014 they describe WHAT you want to achieve, not HOW. Step 2: Set Key Results For each objective, define 2-5 key results. Key results must be specific, measurable, and time-bound. They answer: How will we know we achieved this objective? Step 3: Break Into Quarters Use the Quarterly OKR Tracker to break annual KRs into quarterly targets. Not every KR needs equal quarterly distribution \u2014 some ",
+  "instructions": "HOW TO USE THIS TEMPLATE Step 1: Define Annual Objectives Start with the Annual OKR Planner. Define 3-5 high-level marketing objectives for the year. Good objectives are ambitious, qualitative, and inspiring — they describe WHAT you want to achieve, not HOW. Step 2: Set Key Results For each objective, define 2-5 key results. Key results must be specific, measurable, and time-bound. They answer: How will we know we achieved this objective? Step 3: Break Into Quarters Use the Quarterly OKR Tracker to break annual KRs into quarterly targets. Not every KR needs equal quarterly distribution — some ",
   "icon": "target",
   "tags": [
     "strategy"
@@ -12,221 +12,758 @@
   "estimatedTime": "60 min",
   "sections": [
     {
-      "id": "overview",
-      "title": "Overview & Objectives",
-      "description": "Define the goals and scope of your marketing okr template",
+      "id": "dashboard",
+      "title": "Dashboard",
+      "description": "Complete the Dashboard section",
       "fields": [
         {
-          "id": "objective",
-          "label": "Primary Objective",
-          "type": "textarea",
-          "placeholder": "What do you want to achieve with this marketing okr template?",
-          "required": true,
-          "helpText": ""
-        },
-        {
-          "id": "target_audience",
-          "label": "Target Audience",
-          "type": "textarea",
-          "placeholder": "Who is this for?",
-          "required": true,
-          "helpText": ""
-        },
-        {
-          "id": "timeline",
-          "label": "Timeline",
+          "id": "total_key_results_0",
+          "label": "Total Key Results",
           "type": "text",
-          "placeholder": "e.g., Q1 2026, Next 90 days",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "budget",
-          "label": "Budget / Resources",
-          "type": "text",
-          "placeholder": "e.g., \u20ac5,000 or 20 hours/week",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "success_metrics",
-          "label": "Success Metrics",
-          "type": "textarea",
-          "placeholder": "How will you measure success?",
-          "required": true,
-          "helpText": ""
-        }
-      ]
-    },
-    {
-      "id": "strategy",
-      "title": "Strategy & Approach",
-      "description": "Outline your strategic approach",
-      "fields": [
-        {
-          "id": "core_strategy",
-          "label": "Core Strategy",
-          "type": "textarea",
-          "placeholder": "Describe your overall approach",
-          "required": true,
-          "helpText": ""
-        },
-        {
-          "id": "key_channels",
-          "label": "Key Channels / Platforms",
-          "type": "textarea",
-          "placeholder": "e.g., LinkedIn, Email, Blog, Paid ads",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "messaging",
-          "label": "Key Messages",
-          "type": "textarea",
-          "placeholder": "What are the main messages you want to communicate?",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "differentiators",
-          "label": "Unique Differentiators",
-          "type": "textarea",
-          "placeholder": "What sets your approach apart?",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "competitors",
-          "label": "Competitive Landscape",
-          "type": "textarea",
-          "placeholder": "What are competitors doing in this area?",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "risks",
-          "label": "Potential Risks & Mitigation",
-          "type": "textarea",
-          "placeholder": "What could go wrong and how will you handle it?",
-          "required": false,
-          "helpText": ""
-        }
-      ]
-    },
-    {
-      "id": "execution",
-      "title": "Execution Plan",
-      "description": "Detail your action items and timeline",
-      "fields": [
-        {
-          "id": "phase_1",
-          "label": "Phase 1: Foundation (Week 1-2)",
-          "type": "textarea",
-          "placeholder": "What will you set up first?",
-          "required": true,
-          "helpText": ""
-        },
-        {
-          "id": "phase_2",
-          "label": "Phase 2: Launch (Week 3-4)",
-          "type": "textarea",
-          "placeholder": "What are the launch activities?",
-          "required": true,
-          "helpText": ""
-        },
-        {
-          "id": "phase_3",
-          "label": "Phase 3: Optimization (Week 5+)",
-          "type": "textarea",
-          "placeholder": "How will you iterate and improve?",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "tools",
-          "label": "Tools & Technology Needed",
-          "type": "textarea",
-          "placeholder": "e.g., HubSpot, Canva, Google Analytics",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "team",
-          "label": "Team & Responsibilities",
-          "type": "textarea",
-          "placeholder": "Who is responsible for what?",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "dependencies",
-          "label": "Dependencies & Prerequisites",
-          "type": "textarea",
-          "placeholder": "What needs to happen before you can start?",
-          "required": false,
-          "helpText": ""
-        }
-      ]
-    },
-    {
-      "id": "tracking",
-      "title": "Tracking & Reporting",
-      "description": "Set up measurement and reporting",
-      "fields": [
-        {
-          "id": "kpis",
-          "label": "Key Performance Indicators",
-          "type": "textarea",
-          "placeholder": "List 3-5 KPIs you'll track",
-          "required": true,
-          "helpText": ""
-        },
-        {
-          "id": "reporting_frequency",
-          "label": "Reporting Frequency",
-          "type": "select",
-          "options": [
-            "Daily",
-            "Weekly",
-            "Bi-weekly",
-            "Monthly",
-            "Quarterly"
-          ],
-          "required": false,
           "placeholder": "",
-          "helpText": ""
+          "required": false
         },
         {
-          "id": "dashboard_tools",
-          "label": "Dashboard / Analytics Tools",
+          "id": "active_initiatives_1",
+          "label": "Active Initiatives",
           "type": "text",
-          "placeholder": "e.g., Google Analytics, Mixpanel",
-          "required": false,
-          "helpText": ""
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "benchmarks",
-          "label": "Benchmarks / Targets",
-          "type": "textarea",
-          "placeholder": "What are your target numbers?",
-          "required": false,
-          "helpText": ""
+          "id": "source_annual_okr_planner_2",
+          "label": "Source: Annual OKR Planner",
+          "type": "text",
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "review_process",
-          "label": "Review & Optimization Process",
-          "type": "textarea",
-          "placeholder": "How will you review and adjust?",
-          "required": false,
-          "helpText": ""
+          "id": "source_annual_okr_planner_3",
+          "label": "Source: Annual OKR Planner",
+          "type": "text",
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "lessons_learned",
-          "label": "Lessons Learned",
-          "type": "textarea",
-          "placeholder": "Document insights as you go",
-          "required": false,
-          "helpText": ""
+          "id": "source_initiative_tracker_4",
+          "label": "Source: Initiative Tracker",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "objective_health_summary_5",
+          "label": "Objective Health Summary",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "objective_6",
+          "label": "Objective",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "key_results_7",
+          "label": "# Key Results",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "avg_score_8",
+          "label": "Avg Score",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "confidence_9",
+          "label": "Confidence",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "status_10",
+          "label": "Status",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "increase_brand_awareness_11",
+          "label": "Increase Brand Awareness",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "green_12",
+          "label": "Green",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "at_risk_13",
+          "label": "At Risk",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "green_14",
+          "label": "Green",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "at_risk_15",
+          "label": "At Risk",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "quarterly_progress_overview_16",
+          "label": "Quarterly Progress Overview",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "quarter_17",
+          "label": "Quarter",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "objectives_18",
+          "label": "Objectives",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "key_results_19",
+          "label": "Key Results",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "avg_score_20",
+          "label": "Avg Score",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "completed_21",
+          "label": "% Completed",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "health_22",
+          "label": "Health",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "at_risk_23",
+          "label": "At Risk",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "initiative_alignment_24",
+          "label": "Initiative Alignment",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "status_25",
+          "label": "Status",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "count_26",
+          "label": "Count",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "of_total_27",
+          "label": "% of Total",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "not_started_28",
+          "label": "Not Started",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "in_progress_29",
+          "label": "In Progress",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "annual_okr_planner",
+      "title": "Annual OKR Planner",
+      "description": "Complete the Annual OKR Planner section",
+      "fields": [
+        {
+          "id": "grow_organic_social_media_reach_by_40_0",
+          "label": "Grow organic social media reach by 40%",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "achieve_50_media_mentions_in_tier_1_publ_1",
+          "label": "Achieve 50 media mentions in tier-1 publications",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "increase_branded_search_volume_by_25_2",
+          "label": "Increase branded search volume by 25%",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "generate_5_000_marketing_qualified_leads_3",
+          "label": "Generate 5,000 marketing qualified leads",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "achieve_2m_in_marketing_sourced_pipeline_4",
+          "label": "Achieve $2M in marketing-sourced pipeline",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "reduce_cost_per_lead_by_20_5",
+          "label": "Reduce cost per lead by 20%",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "increase_email_conversion_rate_to_3_5_6",
+          "label": "Increase email conversion rate to 3.5%",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "increase_nps_score_from_42_to_55_7",
+          "label": "Increase NPS score from 42 to 55",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "launch_customer_community_with_1_000_act_8",
+          "label": "Launch customer community with 1,000 active members",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "achieve_40_customer_content_engagement_r_9",
+          "label": "Achieve 40% customer content engagement rate",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "q1_tracker",
+      "title": "Q1 Tracker",
+      "description": "Complete the Q1 Tracker section",
+      "fields": [
+        {
+          "id": "launch_brand_awareness_campaign_reaching_0",
+          "label": "Launch brand awareness campaign reaching 500K impressions",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "publish_12_thought_leadership_articles_1",
+          "label": "Publish 12 thought leadership articles",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "secure_5_podcast_guest_appearances_2",
+          "label": "Secure 5 podcast guest appearances",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "generate_800_mqls_from_content_marketing_3",
+          "label": "Generate 800 MQLs from content marketing",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "launch_3_lead_magnet_campaigns_4",
+          "label": "Launch 3 lead magnet campaigns",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "team_alignment",
+      "title": "Team Alignment",
+      "description": "Complete the Team Alignment section",
+      "fields": [
+        {
+          "id": "publish_24_blog_posts_with_avg_500_share_0",
+          "label": "Publish 24 blog posts with avg 500+ shares each",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "generate_1_200_mqls_from_paid_campaigns__1",
+          "label": "Generate 1,200 MQLs from paid campaigns at <$45 CPL",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "increase_social_engagement_rate_from_2_1_2",
+          "label": "Increase social engagement rate from 2.1% to 4.5%",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "achieve_35_email_to_mql_conversion_rate_3",
+          "label": "Achieve 35% email-to-MQL conversion rate",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "recruit_50_customer_advocates_who_create_4",
+          "label": "Recruit 50 customer advocates who create 2+ pieces of content",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "kr_scoring",
+      "title": "KR Scoring",
+      "description": "Complete the KR Scoring section",
+      "fields": [
+        {
+          "id": "grow_organic_social_reach_by_40_0",
+          "label": "Grow organic social reach by 40%",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "generate_5_000_mqls_1",
+          "label": "Generate 5,000 MQLs",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "achieve_2m_pipeline_2",
+          "label": "Achieve $2M pipeline",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "reduce_cpl_by_20_3",
+          "label": "Reduce CPL by 20%",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "increase_nps_to_55_4",
+          "label": "Increase NPS to 55",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "launch_community_with_1k_members_5",
+          "label": "Launch community with 1K members",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "publish_12_thought_leadership_articles_6",
+          "label": "Publish 12 thought leadership articles",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "secure_5_podcast_appearances_7",
+          "label": "Secure 5 podcast appearances",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "okr_review",
+      "title": "OKR Review",
+      "description": "Complete the OKR Review section",
+      "fields": [
+        {
+          "id": "objective_0",
+          "label": "Objective",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "increase_brand_awareness_1",
+          "label": "Increase Brand Awareness",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "increase_brand_awareness_2",
+          "label": "Increase Brand Awareness",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "drive_demand_generation_3",
+          "label": "Drive Demand Generation",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "initiative_tracker",
+      "title": "Initiative Tracker",
+      "description": "Complete the Initiative Tracker section",
+      "fields": [
+        {
+          "id": "launch_influencer_partnership_programme_0",
+          "label": "Launch influencer partnership programme",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "create_seo_content_cluster_10_articles_1",
+          "label": "Create SEO content cluster (10 articles)",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "build_automated_email_nurture_sequence_2",
+          "label": "Build automated email nurture sequence",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "redesign_landing_pages_for_conversion_3",
+          "label": "Redesign landing pages for conversion",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "launch_customer_nps_survey_programme_4",
+          "label": "Launch customer NPS survey programme",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "develop_podcast_pitch_deck_5",
+          "label": "Develop podcast pitch deck",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "build_community_platform_on_circle_6",
+          "label": "Build community platform on Circle",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "create_paid_social_campaign_refresh_7",
+          "label": "Create paid social campaign refresh",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "okr_examples_library",
+      "title": "OKR Examples Library",
+      "description": "Complete the OKR Examples Library section",
+      "fields": [
+        {
+          "id": "brand_tracking_survey_scores_0",
+          "label": "Brand tracking survey scores",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "citation_count_share_of_voice_1",
+          "label": "Citation count, share of voice",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "segment_specific_brand_survey_2",
+          "label": "Segment-specific brand survey",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "award_wins_shortlists_3",
+          "label": "Award wins, shortlists",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "sov_tracking_tools_4",
+          "label": "SOV tracking tools",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "ga4_organic_sessions_5",
+          "label": "GA4 organic sessions",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "subscriber_count_open_rate_6",
+          "label": "Subscriber count, open rate",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "crm_attribution_7",
+          "label": "CRM attribution",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "assets_per_pillar_channel_coverage_8",
+          "label": "Assets per pillar, channel coverage",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "avg_engagement_rate_9",
+          "label": "Avg engagement rate",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "mql_count_cpl_10",
+          "label": "MQL count, CPL",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "crm_pipeline_data_11",
+          "label": "CRM pipeline data",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "roas_by_channel_12",
+          "label": "ROAS by channel",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "abm_platform_data_13",
+          "label": "ABM platform data",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "funnel_conversion_rates_14",
+          "label": "Funnel conversion rates",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "signup_activation_metrics_15",
+          "label": "Signup + activation metrics",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "sales_enablement_adoption_16",
+          "label": "Sales enablement adoption",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "onboarding_analytics_17",
+          "label": "Onboarding analytics",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "revenue_per_user_18",
+          "label": "Revenue per user",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "product_analytics_19",
+          "label": "Product analytics",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "advocate_count_content_output_20",
+          "label": "Advocate count, content output",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "nrr_21",
+          "label": "NRR",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "referral_count_conversion_22",
+          "label": "Referral count, conversion",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "certification_completions_23",
+          "label": "Certification completions",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "clv_tracking_24",
+          "label": "CLV tracking",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "keyword_rankings_attributed_pipeline_25",
+          "label": "Keyword rankings, attributed pipeline",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "cpa_lead_volume_26",
+          "label": "CPA, lead volume",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "cdp_dmp_metrics_27",
+          "label": "CDP/DMP metrics",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "scoring_accuracy_response_time_28",
+          "label": "Scoring accuracy, response time",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "a_b_test_results_conversion_rate_29",
+          "label": "A/B test results, conversion rate",
+          "type": "text",
+          "placeholder": "",
+          "required": false
         }
       ]
     }

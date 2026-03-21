@@ -4,7 +4,7 @@
   "number": 20,
   "category": "content",
   "description": "Event Marketing Planner - Marketing template for content professionals",
-  "instructions": "HOW TO USE THIS TEMPLATE Step 1: Map Your Event Portfolio Start with the Event Portfolio tab. List all events for the year \u2014 conferences, webinars, workshops, trade shows, networking events. This gives you a bird's-eye view of your event calendar. Step 2: Create Event Briefs For each major event, create a detailed brief in the Event Brief tab. Define objectives, target audience, key messages, format, and success metrics before committing budget. Step 3: Set Your Budget Use the Budget Tracker to allocate and track costs across categories: venue, catering, speakers, technology, promotion, staffi",
+  "instructions": "HOW TO USE THIS TEMPLATE Step 1: Map Your Event Portfolio Start with the Event Portfolio tab. List all events for the year — conferences, webinars, workshops, trade shows, networking events. This gives you a bird's-eye view of your event calendar. Step 2: Create Event Briefs For each major event, create a detailed brief in the Event Brief tab. Define objectives, target audience, key messages, format, and success metrics before committing budget. Step 3: Set Your Budget Use the Budget Tracker to allocate and track costs across categories: venue, catering, speakers, technology, promotion, staffi",
   "icon": "file-text",
   "tags": [
     "strategy",
@@ -13,221 +13,821 @@
   "estimatedTime": "45 min",
   "sections": [
     {
-      "id": "overview",
-      "title": "Overview & Objectives",
-      "description": "Define the goals and scope of your event marketing planner",
+      "id": "dashboard",
+      "title": "Dashboard",
+      "description": "Complete the Dashboard section",
       "fields": [
         {
-          "id": "objective",
-          "label": "Primary Objective",
-          "type": "textarea",
-          "placeholder": "What do you want to achieve with this event marketing planner?",
-          "required": true,
-          "helpText": ""
-        },
-        {
-          "id": "target_audience",
-          "label": "Target Audience",
-          "type": "textarea",
-          "placeholder": "Who is this for?",
-          "required": true,
-          "helpText": ""
-        },
-        {
-          "id": "timeline",
-          "label": "Timeline",
+          "id": "80_0",
+          "label": "-80",
           "type": "text",
-          "placeholder": "e.g., Q1 2026, Next 90 days",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "budget",
-          "label": "Budget / Resources",
-          "type": "text",
-          "placeholder": "e.g., \u20ac5,000 or 20 hours/week",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "success_metrics",
-          "label": "Success Metrics",
-          "type": "textarea",
-          "placeholder": "How will you measure success?",
-          "required": true,
-          "helpText": ""
-        }
-      ]
-    },
-    {
-      "id": "strategy",
-      "title": "Strategy & Approach",
-      "description": "Outline your strategic approach",
-      "fields": [
-        {
-          "id": "core_strategy",
-          "label": "Core Strategy",
-          "type": "textarea",
-          "placeholder": "Describe your overall approach",
-          "required": true,
-          "helpText": ""
-        },
-        {
-          "id": "key_channels",
-          "label": "Key Channels / Platforms",
-          "type": "textarea",
-          "placeholder": "e.g., LinkedIn, Email, Blog, Paid ads",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "messaging",
-          "label": "Key Messages",
-          "type": "textarea",
-          "placeholder": "What are the main messages you want to communicate?",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "differentiators",
-          "label": "Unique Differentiators",
-          "type": "textarea",
-          "placeholder": "What sets your approach apart?",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "competitors",
-          "label": "Competitive Landscape",
-          "type": "textarea",
-          "placeholder": "What are competitors doing in this area?",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "risks",
-          "label": "Potential Risks & Mitigation",
-          "type": "textarea",
-          "placeholder": "What could go wrong and how will you handle it?",
-          "required": false,
-          "helpText": ""
-        }
-      ]
-    },
-    {
-      "id": "execution",
-      "title": "Execution Plan",
-      "description": "Detail your action items and timeline",
-      "fields": [
-        {
-          "id": "phase_1",
-          "label": "Phase 1: Foundation (Week 1-2)",
-          "type": "textarea",
-          "placeholder": "What will you set up first?",
-          "required": true,
-          "helpText": ""
-        },
-        {
-          "id": "phase_2",
-          "label": "Phase 2: Launch (Week 3-4)",
-          "type": "textarea",
-          "placeholder": "What are the launch activities?",
-          "required": true,
-          "helpText": ""
-        },
-        {
-          "id": "phase_3",
-          "label": "Phase 3: Optimization (Week 5+)",
-          "type": "textarea",
-          "placeholder": "How will you iterate and improve?",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "tools",
-          "label": "Tools & Technology Needed",
-          "type": "textarea",
-          "placeholder": "e.g., HubSpot, Canva, Google Analytics",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "team",
-          "label": "Team & Responsibilities",
-          "type": "textarea",
-          "placeholder": "Who is responsible for what?",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "dependencies",
-          "label": "Dependencies & Prerequisites",
-          "type": "textarea",
-          "placeholder": "What needs to happen before you can start?",
-          "required": false,
-          "helpText": ""
-        }
-      ]
-    },
-    {
-      "id": "tracking",
-      "title": "Tracking & Reporting",
-      "description": "Set up measurement and reporting",
-      "fields": [
-        {
-          "id": "kpis",
-          "label": "Key Performance Indicators",
-          "type": "textarea",
-          "placeholder": "List 3-5 KPIs you'll track",
-          "required": true,
-          "helpText": ""
-        },
-        {
-          "id": "reporting_frequency",
-          "label": "Reporting Frequency",
-          "type": "select",
-          "options": [
-            "Daily",
-            "Weekly",
-            "Bi-weekly",
-            "Monthly",
-            "Quarterly"
-          ],
-          "required": false,
           "placeholder": "",
-          "helpText": ""
+          "required": false
         },
         {
-          "id": "dashboard_tools",
-          "label": "Dashboard / Analytics Tools",
+          "id": "source_event_portfolio_1",
+          "label": "Source: Event Portfolio",
           "type": "text",
-          "placeholder": "e.g., Google Analytics, Mixpanel",
-          "required": false,
-          "helpText": ""
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "benchmarks",
-          "label": "Benchmarks / Targets",
-          "type": "textarea",
-          "placeholder": "What are your target numbers?",
-          "required": false,
-          "helpText": ""
+          "id": "events_by_type_2",
+          "label": "Events by Type",
+          "type": "text",
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "review_process",
-          "label": "Review & Optimization Process",
-          "type": "textarea",
-          "placeholder": "How will you review and adjust?",
-          "required": false,
-          "helpText": ""
+          "id": "event_type_3",
+          "label": "Event Type",
+          "type": "text",
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "lessons_learned",
-          "label": "Lessons Learned",
+          "id": "conference_4",
+          "label": "Conference",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "webinar_5",
+          "label": "Webinar",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "workshop_6",
+          "label": "Workshop",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "trade_show_7",
+          "label": "Trade Show",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "networking_8",
+          "label": "Networking",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "product_launch_9",
+          "label": "Product Launch",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "internal_10",
+          "label": "Internal",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "other_11",
+          "label": "Other",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "events_by_status_12",
+          "label": "Events by Status",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "status_13",
+          "label": "Status",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "planning_14",
+          "label": "Planning",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "confirmed_15",
+          "label": "Confirmed",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "in_progress_16",
+          "label": "In Progress",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "completed_17",
+          "label": "Completed",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "cancelled_18",
+          "label": "Cancelled",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "postponed_19",
+          "label": "Postponed",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "budget_summary_20",
+          "label": "Budget Summary",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "metric_21",
+          "label": "Metric",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "total_allocated_22",
+          "label": "Total Allocated",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "total_spent_23",
+          "label": "Total Spent",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "remaining_24",
+          "label": "Remaining",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "spent_25",
+          "label": "% Spent",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "event_portfolio",
+      "title": "Event Portfolio",
+      "description": "Complete the Event Portfolio section",
+      "fields": [
+        {
+          "id": "annual_marketing_summit_0",
+          "label": "Annual Marketing Summit",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "monthly_webinar_series_1",
+          "label": "Monthly Webinar Series",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "product_launch_event_2",
+          "label": "Product Launch Event",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "industry_trade_show_3",
+          "label": "Industry Trade Show",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "customer_appreciation_dinner_4",
+          "label": "Customer Appreciation Dinner",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "workshop_marketing_masterclass_5",
+          "label": "Workshop: Marketing Masterclass",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "partner_co_marketing_webinar_6",
+          "label": "Partner Co-Marketing Webinar",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "internal_marketing_offsite_7",
+          "label": "Internal Marketing Offsite",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "thought_leadership_panel_8",
+          "label": "Thought Leadership Panel",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "holiday_customer_event_9",
+          "label": "Holiday Customer Event",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "event_brief",
+      "title": "Event Brief",
+      "description": "Complete the Event Brief section",
+      "fields": [
+        {
+          "id": "innovation_in_marketing_automation_data__0",
+          "label": "Innovation in marketing automation; Data-driven decision making; Sustainable growth strategies",
           "type": "textarea",
-          "placeholder": "Document insights as you go",
-          "required": false,
-          "helpText": ""
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "solving_the_1_pain_point_3x_faster_than__1",
+          "label": "Solving the #1 pain point; 3x faster than alternatives; Seamless integration",
+          "type": "textarea",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "practical_ai_applications_real_case_stud_2",
+          "label": "Practical AI applications; Real case studies; Actionable frameworks",
+          "type": "textarea",
+          "placeholder": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "budget_tracker",
+      "title": "Budget Tracker",
+      "description": "Complete the Budget Tracker section",
+      "fields": [
+        {
+          "id": "annual_marketing_summit_0",
+          "label": "Annual Marketing Summit",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "annual_marketing_summit_1",
+          "label": "Annual Marketing Summit",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "annual_marketing_summit_2",
+          "label": "Annual Marketing Summit",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "annual_marketing_summit_3",
+          "label": "Annual Marketing Summit",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "annual_marketing_summit_4",
+          "label": "Annual Marketing Summit",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "annual_marketing_summit_5",
+          "label": "Annual Marketing Summit",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "annual_marketing_summit_6",
+          "label": "Annual Marketing Summit",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "annual_marketing_summit_7",
+          "label": "Annual Marketing Summit",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "product_launch_event_8",
+          "label": "Product Launch Event",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "product_launch_event_9",
+          "label": "Product Launch Event",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "product_launch_event_10",
+          "label": "Product Launch Event",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "product_launch_event_11",
+          "label": "Product Launch Event",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "timeline_checklist",
+      "title": "Timeline & Checklist",
+      "description": "Complete the Timeline & Checklist section",
+      "fields": [
+        {
+          "id": "define_event_objectives_and_success_metr_0",
+          "label": "Define event objectives and success metrics",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "secure_venue_and_sign_contract_1",
+          "label": "Secure venue and sign contract",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "set_event_budget_and_get_approval_2",
+          "label": "Set event budget and get approval",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "create_event_brief_and_messaging_framewo_3",
+          "label": "Create event brief and messaging framework",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "identify_and_invite_keynote_speakers_4",
+          "label": "Identify and invite keynote speakers",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "set_up_registration_platform_5",
+          "label": "Set up registration platform",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "finalise_event_agenda_and_schedule_6",
+          "label": "Finalise event agenda and schedule",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "launch_early_bird_registration_7",
+          "label": "Launch early-bird registration",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "begin_email_promotion_sequence_8",
+          "label": "Begin email promotion sequence",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "create_social_media_promotion_plan_9",
+          "label": "Create social media promotion plan",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "design_event_landing_page_10",
+          "label": "Design event landing page",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "confirm_sponsors_and_deliverables_11",
+          "label": "Confirm sponsors and deliverables",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "finalise_speaker_presentations_and_av_ne_12",
+          "label": "Finalise speaker presentations and AV needs",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "order_printed_materials_badges_signage_p_13",
+          "label": "Order printed materials (badges, signage, programmes)",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "confirm_catering_menu_and_headcount_14",
+          "label": "Confirm catering menu and headcount",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "send_attendee_logistics_email_parking_di_15",
+          "label": "Send attendee logistics email (parking, directions, agenda)",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "prepare_media_kit_and_press_invitations_16",
+          "label": "Prepare media kit and press invitations",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "brief_event_staff_and_volunteers_17",
+          "label": "Brief event staff and volunteers",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "final_registration_push_last_chance_prom_18",
+          "label": "Final registration push — last-chance promotion",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "confirm_all_vendor_deliveries_and_timeli_19",
+          "label": "Confirm all vendor deliveries and timelines",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "test_all_technology_streaming_mics_slide_20",
+          "label": "Test all technology (streaming, mics, slides, WiFi)",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "prepare_attendee_welcome_packs_21",
+          "label": "Prepare attendee welcome packs",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "create_social_media_live_coverage_plan_22",
+          "label": "Create social media live coverage plan",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "send_final_reminder_to_all_registrants_23",
+          "label": "Send final reminder to all registrants",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "print_final_attendee_list_and_badges_24",
+          "label": "Print final attendee list and badges",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "do_full_venue_walk_through_25",
+          "label": "Do full venue walk-through",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "prepare_on_site_emergency_contacts_and_p_26",
+          "label": "Prepare on-site emergency contacts and protocols",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "brief_photographers_and_videographers_27",
+          "label": "Brief photographers and videographers",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "arrive_early_for_final_setup_and_sound_c_28",
+          "label": "Arrive early for final setup and sound check",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "staff_registration_desk_and_welcome_area_29",
+          "label": "Staff registration desk and welcome area",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "speaker_management",
+      "title": "Speaker Management",
+      "description": "Complete the Speaker Management section",
+      "fields": [
+        {
+          "id": "the_next_decade_of_marketing_ai_0",
+          "label": "The Next Decade of Marketing AI",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "growth_marketing_without_the_hype_1",
+          "label": "Growth Marketing Without the Hype",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "content_at_scale_from_strategy_to_execut_2",
+          "label": "Content at Scale: From Strategy to Execution",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "purpose_driven_marketing_that_drives_rev_3",
+          "label": "Purpose-Driven Marketing That Drives Revenue",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "marketing_attribution_in_a_cookieless_wo_4",
+          "label": "Marketing Attribution in a Cookieless World",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "promotion_plan",
+      "title": "Promotion Plan",
+      "description": "Complete the Promotion Plan section",
+      "fields": [
+        {
+          "id": "teaser_with_early_bird_cta_0",
+          "label": "Teaser with early-bird CTA",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "exclusive_pricing_expires_in_2_weeks_1",
+          "label": "Exclusive pricing expires in 2 weeks",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "1_email_per_keynote_reveal_2",
+          "label": "1 email per keynote reveal",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "urgency_social_proof_3",
+          "label": "Urgency + social proof",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "parking_agenda_what_to_bring_4",
+          "label": "Parking, agenda, what to bring",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "linkedin_event_sponsored_post_5",
+          "label": "LinkedIn Event + sponsored post",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "speaker_spotlights_agenda_reveals_6",
+          "label": "Speaker spotlights, agenda reveals",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "each_speaker_shares_their_preview_7",
+          "label": "Each speaker shares their preview",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "lookalike_retargeting_audiences_8",
+          "label": "Lookalike + retargeting audiences",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "event_name_industry_terms_9",
+          "label": "Event name + industry terms",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "wire_service_direct_pitches_10",
+          "label": "Wire service + direct pitches",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "personalised_invites_with_press_passes_11",
+          "label": "Personalised invites with press passes",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "shared_email_social_assets_12",
+          "label": "Shared email + social assets",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "handwritten_notes_or_video_messages_13",
+          "label": "Handwritten notes or video messages",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "registration_tracker",
+      "title": "Registration Tracker",
+      "description": "Complete the Registration Tracker section",
+      "fields": [
+        {
+          "id": "annual_marketing_summit_0",
+          "label": "Annual Marketing Summit",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "monthly_webinar_jan_1",
+          "label": "Monthly Webinar: Jan",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "monthly_webinar_feb_2",
+          "label": "Monthly Webinar: Feb",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "product_launch_event_3",
+          "label": "Product Launch Event",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "partner_co_marketing_webinar_4",
+          "label": "Partner Co-Marketing Webinar",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "post_event_analysis",
+      "title": "Post-Event Analysis",
+      "description": "Complete the Post-Event Analysis section",
+      "fields": [
+        {
+          "id": "8_2_0",
+          "label": "8.2",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "8_5_1",
+          "label": "8.5",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "7_8_2",
+          "label": "7.8",
+          "type": "text",
+          "placeholder": "",
+          "required": false
         }
       ]
     }

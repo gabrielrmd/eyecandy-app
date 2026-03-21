@@ -4,7 +4,7 @@
   "number": 8,
   "category": "channels",
   "description": "Email Marketing Playbook - Marketing template for channels professionals",
-  "instructions": "How to Use This Template Step 1: Define Your Email Strategy Start with the Strategy tab. Set your goals, define your audience segments, and decide what types of emails you will send. Strategy before tactics \u2014 always. Step 2: Map Your Sequences Go to the Sequence Builder tab. Design your automated email flows: welcome series, nurture sequences, re-engagement, post-purchase. Map the trigger, timing, and goal for each email. Step 3: Plan Your Campaigns Use the Campaign Planner tab for one-off and recurring sends: newsletters, promotions, announcements, seasonal campaigns. Plan the calendar, segme",
+  "instructions": "How to Use This Template Step 1: Define Your Email Strategy Start with the Strategy tab. Set your goals, define your audience segments, and decide what types of emails you will send. Strategy before tactics — always. Step 2: Map Your Sequences Go to the Sequence Builder tab. Design your automated email flows: welcome series, nurture sequences, re-engagement, post-purchase. Map the trigger, timing, and goal for each email. Step 3: Plan Your Campaigns Use the Campaign Planner tab for one-off and recurring sends: newsletters, promotions, announcements, seasonal campaigns. Plan the calendar, segme",
   "icon": "share-2",
   "tags": [
     "channels"
@@ -12,221 +12,436 @@
   "estimatedTime": "50 min",
   "sections": [
     {
-      "id": "overview",
-      "title": "Overview & Objectives",
-      "description": "Define the goals and scope of your email marketing playbook",
+      "id": "dashboard",
+      "title": "Dashboard",
+      "description": "Complete the Dashboard section",
       "fields": [
         {
-          "id": "objective",
-          "label": "Primary Objective",
-          "type": "textarea",
-          "placeholder": "What do you want to achieve with this email marketing playbook?",
-          "required": true,
-          "helpText": ""
-        },
-        {
-          "id": "target_audience",
-          "label": "Target Audience",
-          "type": "textarea",
-          "placeholder": "Who is this for?",
-          "required": true,
-          "helpText": ""
-        },
-        {
-          "id": "timeline",
-          "label": "Timeline",
+          "id": "overview_0",
+          "label": "OVERVIEW",
           "type": "text",
-          "placeholder": "e.g., Q1 2026, Next 90 days",
-          "required": false,
-          "helpText": ""
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "budget",
-          "label": "Budget / Resources",
+          "id": "emails_sent_1",
+          "label": "Emails Sent",
           "type": "text",
-          "placeholder": "e.g., \u20ac5,000 or 20 hours/week",
-          "required": false,
-          "helpText": ""
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "success_metrics",
-          "label": "Success Metrics",
-          "type": "textarea",
-          "placeholder": "How will you measure success?",
-          "required": true,
-          "helpText": ""
+          "id": "total_sent_to_2",
+          "label": "Total Sent To",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "avg_open_rate_3",
+          "label": "Avg Open Rate",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "avg_click_rate_4",
+          "label": "Avg Click Rate",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "total_unsubs_5",
+          "label": "Total Unsubs",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "performance_by_email_type_6",
+          "label": "PERFORMANCE BY EMAIL TYPE",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "email_health_benchmarks_7",
+          "label": "EMAIL HEALTH BENCHMARKS",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "email_type_8",
+          "label": "Email Type",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "count_9",
+          "label": "Count",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "avg_open_rate_10",
+          "label": "Avg Open Rate",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "avg_click_rate_11",
+          "label": "Avg Click Rate",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "metric_12",
+          "label": "Metric",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "your_average_13",
+          "label": "Your Average",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "newsletter_14",
+          "label": "Newsletter",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "open_rate_15",
+          "label": "Open Rate",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "welcome_series_16",
+          "label": "Welcome Series",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "click_rate_17",
+          "label": "Click Rate",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "nurture_sequence_18",
+          "label": "Nurture Sequence",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "unsubscribe_rate_19",
+          "label": "Unsubscribe Rate",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "promotional_20",
+          "label": "Promotional",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "list_growth_rate_21",
+          "label": "List Growth Rate",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "track_monthly_22",
+          "label": "Track monthly",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "re_engagement_23",
+          "label": "Re-engagement",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "revenue_per_email_24",
+          "label": "Revenue per Email",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "transactional_25",
+          "label": "Transactional",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "announcement_26",
+          "label": "Announcement",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "survey_feedback_27",
+          "label": "Survey/Feedback",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "other_28",
+          "label": "Other",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "strategic_insights_29",
+          "label": "STRATEGIC INSIGHTS",
+          "type": "text",
+          "placeholder": "",
+          "required": false
         }
       ]
     },
     {
       "id": "strategy",
-      "title": "Strategy & Approach",
-      "description": "Outline your strategic approach",
+      "title": "Strategy",
+      "description": "Complete the Strategy section",
       "fields": [
         {
-          "id": "core_strategy",
-          "label": "Core Strategy",
-          "type": "textarea",
-          "placeholder": "Describe your overall approach",
-          "required": true,
-          "helpText": ""
-        },
-        {
-          "id": "key_channels",
-          "label": "Key Channels / Platforms",
-          "type": "textarea",
-          "placeholder": "e.g., LinkedIn, Email, Blog, Paid ads",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "messaging",
-          "label": "Key Messages",
-          "type": "textarea",
-          "placeholder": "What are the main messages you want to communicate?",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "differentiators",
-          "label": "Unique Differentiators",
-          "type": "textarea",
-          "placeholder": "What sets your approach apart?",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "competitors",
-          "label": "Competitive Landscape",
-          "type": "textarea",
-          "placeholder": "What are competitors doing in this area?",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "risks",
-          "label": "Potential Risks & Mitigation",
-          "type": "textarea",
-          "placeholder": "What could go wrong and how will you handle it?",
-          "required": false,
-          "helpText": ""
-        }
-      ]
-    },
-    {
-      "id": "execution",
-      "title": "Execution Plan",
-      "description": "Detail your action items and timeline",
-      "fields": [
-        {
-          "id": "phase_1",
-          "label": "Phase 1: Foundation (Week 1-2)",
-          "type": "textarea",
-          "placeholder": "What will you set up first?",
-          "required": true,
-          "helpText": ""
-        },
-        {
-          "id": "phase_2",
-          "label": "Phase 2: Launch (Week 3-4)",
-          "type": "textarea",
-          "placeholder": "What are the launch activities?",
-          "required": true,
-          "helpText": ""
-        },
-        {
-          "id": "phase_3",
-          "label": "Phase 3: Optimization (Week 5+)",
-          "type": "textarea",
-          "placeholder": "How will you iterate and improve?",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "tools",
-          "label": "Tools & Technology Needed",
-          "type": "textarea",
-          "placeholder": "e.g., HubSpot, Canva, Google Analytics",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "team",
-          "label": "Team & Responsibilities",
-          "type": "textarea",
-          "placeholder": "Who is responsible for what?",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "dependencies",
-          "label": "Dependencies & Prerequisites",
-          "type": "textarea",
-          "placeholder": "What needs to happen before you can start?",
-          "required": false,
-          "helpText": ""
-        }
-      ]
-    },
-    {
-      "id": "tracking",
-      "title": "Tracking & Reporting",
-      "description": "Set up measurement and reporting",
-      "fields": [
-        {
-          "id": "kpis",
-          "label": "Key Performance Indicators",
-          "type": "textarea",
-          "placeholder": "List 3-5 KPIs you'll track",
-          "required": true,
-          "helpText": ""
-        },
-        {
-          "id": "reporting_frequency",
-          "label": "Reporting Frequency",
-          "type": "select",
-          "options": [
-            "Daily",
-            "Weekly",
-            "Bi-weekly",
-            "Monthly",
-            "Quarterly"
-          ],
-          "required": false,
-          "placeholder": "",
-          "helpText": ""
-        },
-        {
-          "id": "dashboard_tools",
-          "label": "Dashboard / Analytics Tools",
+          "id": "monthly_target_0",
+          "label": "Monthly Target",
           "type": "text",
-          "placeholder": "e.g., Google Analytics, Mixpanel",
-          "required": false,
-          "helpText": ""
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "benchmarks",
-          "label": "Benchmarks / Targets",
-          "type": "textarea",
-          "placeholder": "What are your target numbers?",
-          "required": false,
-          "helpText": ""
+          "id": "current_list_size_1",
+          "label": "Current List Size",
+          "type": "text",
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "review_process",
-          "label": "Review & Optimization Process",
-          "type": "textarea",
-          "placeholder": "How will you review and adjust?",
-          "required": false,
-          "helpText": ""
+          "id": "list_growth_strategy_2",
+          "label": "List Growth Strategy",
+          "type": "text",
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "lessons_learned",
-          "label": "Lessons Learned",
-          "type": "textarea",
-          "placeholder": "Document insights as you go",
-          "required": false,
-          "helpText": ""
+          "id": "audience_segments_3",
+          "label": "AUDIENCE SEGMENTS",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "segment_1_name_4",
+          "label": "Segment 1: Name",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "segment_1_definition_5",
+          "label": "Segment 1: Definition",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "segment_1_email_cadence_6",
+          "label": "Segment 1: Email Cadence",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "segment_2_name_7",
+          "label": "Segment 2: Name",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "segment_2_definition_8",
+          "label": "Segment 2: Definition",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "segment_2_email_cadence_9",
+          "label": "Segment 2: Email Cadence",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "segment_3_name_10",
+          "label": "Segment 3: Name",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "segment_3_definition_11",
+          "label": "Segment 3: Definition",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "segment_3_email_cadence_12",
+          "label": "Segment 3: Email Cadence",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "email_types_frequency_13",
+          "label": "EMAIL TYPES & FREQUENCY",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "newsletter_frequency_14",
+          "label": "Newsletter Frequency",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "automated_sequences_active_15",
+          "label": "Automated Sequences Active",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "promotional_emails_month_16",
+          "label": "Promotional Emails / Month",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "transactional_emails_17",
+          "label": "Transactional Emails",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "sender_name_address_18",
+          "label": "Sender Name & Address",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "tone_content_guidelines_19",
+          "label": "TONE & CONTENT GUIDELINES",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "email_voice_20",
+          "label": "Email Voice",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "subject_line_style_21",
+          "label": "Subject Line Style",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "cta_style_22",
+          "label": "CTA Style",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "content_length_preference_23",
+          "label": "Content Length Preference",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "personalization_level_24",
+          "label": "Personalization Level",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "sequence_builder",
+      "title": "Sequence Builder",
+      "description": "Complete the Sequence Builder section",
+      "fields": [
+        {
+          "id": "introduce_brand_set_expectations_deliver_0",
+          "label": "Introduce brand, set expectations, deliver lead magnet",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "share_insight_position_as_expert_1",
+          "label": "Share insight, position as expert",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "social_proof_via_case_study_or_testimoni_2",
+          "label": "Social proof via case study or testimonial",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "soft_pitch_introduce_your_solution_3",
+          "label": "Soft pitch — introduce your solution",
+          "type": "text",
+          "placeholder": "",
+          "required": false
         }
       ]
     }

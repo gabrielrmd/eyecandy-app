@@ -4,7 +4,7 @@
   "number": 11,
   "category": "analytics",
   "description": "Campaign Performance Dashboard - Marketing template for analytics professionals",
-  "instructions": "How to Use This Template Step 1: Log Your Campaigns Go to the Campaign Log tab. Enter every campaign \u2014 name, channel, type, dates, budget, and target audience. One row per campaign. Step 2: Track Results As campaigns run, update the results columns: Impressions, Clicks, Leads, Conversions, Revenue, and Actual Spend. The template auto-calculates CTR, CPC, CPL, CPA, and ROI. Step 3: Score Each Campaign Use the Status dropdown to mark campaigns as Planning, Active, Paused, Completed, or Cancelled. Add a performance rating (1-5) when done. Step 4: Analyze by Channel The Channel Analysis tab auto-a",
+  "instructions": "How to Use This Template Step 1: Log Your Campaigns Go to the Campaign Log tab. Enter every campaign — name, channel, type, dates, budget, and target audience. One row per campaign. Step 2: Track Results As campaigns run, update the results columns: Impressions, Clicks, Leads, Conversions, Revenue, and Actual Spend. The template auto-calculates CTR, CPC, CPL, CPA, and ROI. Step 3: Score Each Campaign Use the Status dropdown to mark campaigns as Planning, Active, Paused, Completed, or Cancelled. Add a performance rating (1-5) when done. Step 4: Analyze by Channel The Channel Analysis tab auto-a",
   "icon": "bar-chart",
   "tags": [
     "analytics"
@@ -12,153 +12,296 @@
   "estimatedTime": "55 min",
   "sections": [
     {
-      "id": "section_2",
-      "title": "Monthly Tracker",
-      "description": "Configuration and tracking for Monthly Tracker",
+      "id": "dashboard",
+      "title": "Dashboard",
+      "description": "Complete the Dashboard section",
       "fields": [
         {
-          "id": "field_1",
-          "label": "Monthly Performance Tracker",
+          "id": "total_impressions_0",
+          "label": "Total Impressions",
           "type": "text",
-          "placeholder": "Enter monthly performance tracker",
-          "required": false,
-          "helpText": "Track monthly totals for trend analysis. Enter data each month."
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_2",
-          "label": "Monthly Performance Tracker",
+          "id": "73000_1",
+          "label": "73000",
           "type": "text",
-          "placeholder": "Enter monthly performance tracker",
-          "required": false,
-          "helpText": "Metric"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_3",
-          "label": "Monthly Performance Tracker",
+          "id": "efficiency_metrics_2",
+          "label": "EFFICIENCY METRICS",
           "type": "text",
-          "placeholder": "Enter monthly performance tracker",
-          "required": false,
-          "helpText": "Spend"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_4",
-          "label": "Monthly Performance Tracker",
+          "id": "avg_ctr_3",
+          "label": "Avg CTR",
           "type": "text",
-          "placeholder": "Enter monthly performance tracker",
-          "required": false,
-          "helpText": "Impressions"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_5",
-          "label": "Monthly Performance Tracker",
+          "id": "0_07424657534246576_4",
+          "label": "0.07424657534246576",
           "type": "text",
-          "placeholder": "Enter monthly performance tracker",
-          "required": false,
-          "helpText": "Clicks"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_6",
-          "label": "Monthly Performance Tracker",
+          "id": "performance_by_channel_5",
+          "label": "PERFORMANCE BY CHANNEL",
           "type": "text",
-          "placeholder": "Enter monthly performance tracker",
-          "required": false,
-          "helpText": "Leads"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_7",
-          "label": "Monthly Performance Tracker",
+          "id": "channel_6",
+          "label": "Channel",
           "type": "text",
-          "placeholder": "Enter monthly performance tracker",
-          "required": false,
-          "helpText": "Conversions"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_8",
-          "label": "Monthly Performance Tracker",
+          "id": "paid_search_7",
+          "label": "Paid Search",
           "type": "text",
-          "placeholder": "Enter monthly performance tracker",
-          "required": false,
-          "helpText": "Revenue"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_9",
-          "label": "Monthly Performance Tracker",
+          "id": "paid_social_8",
+          "label": "Paid Social",
           "type": "text",
-          "placeholder": "Enter monthly performance tracker",
-          "required": false,
-          "helpText": "CTR"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_10",
-          "label": "Monthly Performance Tracker",
+          "id": "email_9",
+          "label": "Email",
           "type": "text",
-          "placeholder": "Enter monthly performance tracker",
-          "required": false,
-          "helpText": "CPC"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_11",
-          "label": "Monthly Performance Tracker",
+          "id": "content_10",
+          "label": "Content",
           "type": "text",
-          "placeholder": "Enter monthly performance tracker",
-          "required": false,
-          "helpText": "CPL"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_12",
-          "label": "Monthly Performance Tracker",
+          "id": "seo_11",
+          "label": "SEO",
           "type": "text",
-          "placeholder": "Enter monthly performance tracker",
-          "required": false,
-          "helpText": "ROI"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_13",
-          "label": "Monthly Performance Tracker",
+          "id": "events_12",
+          "label": "Events",
           "type": "text",
-          "placeholder": "Enter monthly performance tracker",
-          "required": false,
-          "helpText": "Active Campaigns"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_14",
-          "label": "Monthly Performance Tracker",
+          "id": "influencer_13",
+          "label": "Influencer",
           "type": "text",
-          "placeholder": "Enter monthly performance tracker",
-          "required": false,
-          "helpText": "New Campaigns"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_15",
-          "label": "Monthly Performance Tracker",
+          "id": "strategic_insights_14",
+          "label": "STRATEGIC INSIGHTS",
           "type": "text",
-          "placeholder": "Enter monthly performance tracker",
-          "required": false,
-          "helpText": "MONTH-OVER-MONTH TRENDS"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_16",
-          "label": "Monthly Performance Tracker",
+          "id": "campaigns_with_positive_roi_15",
+          "label": "Campaigns with Positive ROI",
           "type": "text",
-          "placeholder": "Enter monthly performance tracker",
-          "required": false,
-          "helpText": "Spend MoM %"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_17",
-          "label": "Monthly Performance Tracker",
+          "id": "campaigns_over_budget_16",
+          "label": "Campaigns Over Budget",
           "type": "text",
-          "placeholder": "Enter monthly performance tracker",
-          "required": false,
-          "helpText": "Leads MoM %"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_18",
-          "label": "Monthly Performance Tracker",
+          "id": "avg_campaign_rating_17",
+          "label": "Avg Campaign Rating",
           "type": "text",
-          "placeholder": "Enter monthly performance tracker",
-          "required": false,
-          "helpText": "Revenue MoM %"
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "completed_campaigns_18",
+          "label": "Completed Campaigns",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "campaign_log",
+      "title": "Campaign Log",
+      "description": "Complete the Campaign Log section",
+      "fields": [
+        {
+          "id": "spring_template_launch_0",
+          "label": "Spring Template Launch",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "seo_content_push_1",
+          "label": "SEO Content Push",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "email_nurture_series_2",
+          "label": "Email Nurture Series",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "webinar_budget_mastery_3",
+          "label": "Webinar: Budget Mastery",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "monthly_tracker",
+      "title": "Monthly Tracker",
+      "description": "Complete the Monthly Tracker section",
+      "fields": [
+        {
+          "id": "spend_0",
+          "label": "Spend",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "impressions_1",
+          "label": "Impressions",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "clicks_2",
+          "label": "Clicks",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "leads_3",
+          "label": "Leads",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "conversions_4",
+          "label": "Conversions",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "revenue_5",
+          "label": "Revenue",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "ctr_6",
+          "label": "CTR",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "cpc_7",
+          "label": "CPC",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "cpl_8",
+          "label": "CPL",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "roi_9",
+          "label": "ROI",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "active_campaigns_10",
+          "label": "Active Campaigns",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "new_campaigns_11",
+          "label": "New Campaigns",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "month_over_month_trends_12",
+          "label": "MONTH-OVER-MONTH TRENDS",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "spend_mom_13",
+          "label": "Spend MoM %",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "leads_mom_14",
+          "label": "Leads MoM %",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "revenue_mom_15",
+          "label": "Revenue MoM %",
+          "type": "text",
+          "placeholder": "",
+          "required": false
         }
       ]
     }

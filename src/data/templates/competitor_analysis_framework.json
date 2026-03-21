@@ -12,720 +12,1017 @@
   "estimatedTime": "70 min",
   "sections": [
     {
-      "id": "section_1",
-      "title": "Competitor Profiles",
-      "description": "Configuration and tracking for Competitor Profiles",
+      "id": "dashboard",
+      "title": "Dashboard",
+      "description": "Complete the Dashboard section",
       "fields": [
         {
-          "id": "field_1",
-          "label": "Competitor Profiles",
+          "id": "competitor_1_0",
+          "label": "Competitor 1",
           "type": "text",
-          "placeholder": "Enter competitor profiles",
-          "required": false,
-          "helpText": "Profile up to 5 competitors alongside your own company."
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_2",
-          "label": "Competitor Profiles",
+          "id": "competitor_2_1",
+          "label": "Competitor 2",
           "type": "text",
-          "placeholder": "Enter competitor profiles",
-          "required": false,
-          "helpText": "Attribute"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_3",
-          "label": "Competitor Profiles",
+          "id": "competitor_3_2",
+          "label": "Competitor 3",
           "type": "text",
-          "placeholder": "Enter competitor profiles",
-          "required": false,
-          "helpText": "Company Name"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_4",
-          "label": "Competitor Profiles",
+          "id": "competitor_4_3",
+          "label": "Competitor 4",
           "type": "text",
-          "placeholder": "Enter competitor profiles",
-          "required": false,
-          "helpText": "Website URL"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_5",
-          "label": "Competitor Profiles",
+          "id": "competitor_5_4",
+          "label": "Competitor 5",
           "type": "text",
-          "placeholder": "Enter competitor profiles",
-          "required": false,
-          "helpText": "Founded"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_6",
-          "label": "Competitor Profiles",
+          "id": "company_5",
+          "label": "Company",
           "type": "text",
-          "placeholder": "Enter competitor profiles",
-          "required": false,
-          "helpText": "Headquarters"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_7",
-          "label": "Competitor Profiles",
+          "id": "your_company_6",
+          "label": "Your Company",
           "type": "text",
-          "placeholder": "Enter competitor profiles",
-          "required": false,
-          "helpText": "Company Size"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_8",
-          "label": "Competitor Profiles",
+          "id": "avg_feature_score_7",
+          "label": "Avg Feature Score",
           "type": "text",
-          "placeholder": "Enter competitor profiles",
-          "required": false,
-          "helpText": "Annual Revenue"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_9",
-          "label": "Competitor Profiles",
+          "id": "features_you_lead_8",
+          "label": "Features You Lead",
           "type": "text",
-          "placeholder": "Enter competitor profiles",
-          "required": false,
-          "helpText": "Funding Stage"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_10",
-          "label": "Competitor Profiles",
+          "id": "features_they_lead_9",
+          "label": "Features They Lead",
           "type": "text",
-          "placeholder": "Enter competitor profiles",
-          "required": false,
-          "helpText": "Target Market"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_11",
-          "label": "Competitor Profiles",
+          "id": "marketing_strength_comparison_10",
+          "label": "MARKETING STRENGTH COMPARISON",
           "type": "text",
-          "placeholder": "Enter competitor profiles",
-          "required": false,
-          "helpText": "Primary Audience"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_12",
-          "label": "Competitor Profiles",
+          "id": "dimension_11",
+          "label": "Dimension",
           "type": "text",
-          "placeholder": "Enter competitor profiles",
-          "required": false,
-          "helpText": "Positioning Statement"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_13",
-          "label": "Competitor Profiles",
+          "id": "your_company_12",
+          "label": "Your Company",
           "type": "text",
-          "placeholder": "Enter competitor profiles",
-          "required": false,
-          "helpText": "Key Value Prop"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_14",
-          "label": "Competitor Profiles",
+          "id": "competitor_1_13",
+          "label": "Competitor 1",
           "type": "text",
-          "placeholder": "Enter competitor profiles",
-          "required": false,
-          "helpText": "Pricing Model"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_15",
-          "label": "Competitor Profiles",
+          "id": "competitor_2_14",
+          "label": "Competitor 2",
           "type": "text",
-          "placeholder": "Enter competitor profiles",
-          "required": false,
-          "helpText": "Price Range"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_16",
-          "label": "Competitor Profiles",
+          "id": "competitor_3_15",
+          "label": "Competitor 3",
           "type": "text",
-          "placeholder": "Enter competitor profiles",
-          "required": false,
-          "helpText": "Free Tier?"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_17",
-          "label": "Competitor Profiles",
+          "id": "competitor_4_16",
+          "label": "Competitor 4",
           "type": "text",
-          "placeholder": "Enter competitor profiles",
-          "required": false,
-          "helpText": "Core Product"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_18",
-          "label": "Competitor Profiles",
+          "id": "competitor_5_17",
+          "label": "Competitor 5",
           "type": "text",
-          "placeholder": "Enter competitor profiles",
-          "required": false,
-          "helpText": "Key Differentiator"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_19",
-          "label": "Competitor Profiles",
+          "id": "seo_presence_18",
+          "label": "SEO Presence",
           "type": "text",
-          "placeholder": "Enter competitor profiles",
-          "required": false,
-          "helpText": "Biggest Weakness"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_20",
-          "label": "Competitor Profiles",
+          "id": "social_following_19",
+          "label": "Social Following",
           "type": "text",
-          "placeholder": "Enter competitor profiles",
-          "required": false,
-          "helpText": "NPS / Review Score"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_21",
-          "label": "Competitor Profiles",
+          "id": "content_quality_20",
+          "label": "Content Quality",
           "type": "text",
-          "placeholder": "Enter competitor profiles",
-          "required": false,
-          "helpText": "G2/Capterra Rating"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_22",
-          "label": "Competitor Profiles",
+          "id": "brand_awareness_21",
+          "label": "Brand Awareness",
           "type": "text",
-          "placeholder": "Enter competitor profiles",
-          "required": false,
-          "helpText": "Market Share Est."
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "ad_spend_22",
+          "label": "Ad Spend",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "marketing_avg_23",
+          "label": "Marketing Avg",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "strategic_summary_24",
+          "label": "STRATEGIC SUMMARY",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "your_strongest_differentiator_25",
+          "label": "Your Strongest Differentiator",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "review_feature_comparison_where_is_your__26",
+          "label": "Review Feature Comparison — where is your biggest lead?",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "your_biggest_vulnerability_27",
+          "label": "Your Biggest Vulnerability",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "where_do_most_competitors_outscore_you_28",
+          "label": "Where do most competitors outscore you?",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "market_gap_opportunity_29",
+          "label": "Market Gap Opportunity",
+          "type": "text",
+          "placeholder": "",
+          "required": false
         }
       ]
     },
     {
-      "id": "section_4",
-      "title": "Battlecards",
-      "description": "Configuration and tracking for Battlecards",
+      "id": "competitor_profiles",
+      "title": "Competitor Profiles",
+      "description": "Complete the Competitor Profiles section",
       "fields": [
         {
-          "id": "field_1",
-          "label": "Competitive Battlecards",
+          "id": "competitor_1_0",
+          "label": "Competitor 1",
           "type": "text",
-          "placeholder": "Enter competitive battlecards",
-          "required": false,
-          "helpText": "One battlecard per competitor. Give these to your sales team."
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_2",
-          "label": "Competitive Battlecards",
+          "id": "competitor_2_1",
+          "label": "Competitor 2",
           "type": "text",
-          "placeholder": "Enter competitive battlecards",
-          "required": false,
-          "helpText": "BATTLECARD #1"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_3",
-          "label": "Competitive Battlecards",
+          "id": "competitor_3_2",
+          "label": "Competitor 3",
           "type": "text",
-          "placeholder": "Enter competitive battlecards",
-          "required": false,
-          "helpText": "Competitor Name"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_4",
-          "label": "Competitive Battlecards",
+          "id": "competitor_4_3",
+          "label": "Competitor 4",
           "type": "text",
-          "placeholder": "Enter competitive battlecards",
-          "required": false,
-          "helpText": "Their Elevator Pitch"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_5",
-          "label": "Competitive Battlecards",
+          "id": "competitor_5_4",
+          "label": "Competitor 5",
           "type": "text",
-          "placeholder": "Enter competitive battlecards",
-          "required": false,
-          "helpText": "Their Target Customer"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_6",
-          "label": "Competitive Battlecards",
+          "id": "website_url_5",
+          "label": "Website URL",
           "type": "text",
-          "placeholder": "Enter competitive battlecards",
-          "required": false,
-          "helpText": "Their Pricing"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_7",
-          "label": "Competitive Battlecards",
+          "id": "founded_6",
+          "label": "Founded",
           "type": "text",
-          "placeholder": "Enter competitive battlecards",
-          "required": false,
-          "helpText": "Their Key Strength"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_8",
-          "label": "Competitive Battlecards",
+          "id": "headquarters_7",
+          "label": "Headquarters",
           "type": "text",
-          "placeholder": "Enter competitive battlecards",
-          "required": false,
-          "helpText": "Their Key Weakness"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_9",
-          "label": "Competitive Battlecards",
+          "id": "company_size_8",
+          "label": "Company Size",
           "type": "text",
-          "placeholder": "Enter competitive battlecards",
-          "required": false,
-          "helpText": "When They Win"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_10",
-          "label": "Competitive Battlecards",
+          "id": "annual_revenue_9",
+          "label": "Annual Revenue",
           "type": "text",
-          "placeholder": "Enter competitive battlecards",
-          "required": false,
-          "helpText": "When We Win"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_11",
-          "label": "Competitive Battlecards",
+          "id": "funding_stage_10",
+          "label": "Funding Stage",
           "type": "text",
-          "placeholder": "Enter competitive battlecards",
-          "required": false,
-          "helpText": "Their Objection to Us"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_12",
-          "label": "Competitive Battlecards",
+          "id": "target_market_11",
+          "label": "Target Market",
           "type": "text",
-          "placeholder": "Enter competitive battlecards",
-          "required": false,
-          "helpText": "Our Counter-Argument"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_13",
-          "label": "Competitive Battlecards",
+          "id": "primary_audience_12",
+          "label": "Primary Audience",
           "type": "text",
-          "placeholder": "Enter competitive battlecards",
-          "required": false,
-          "helpText": "Landmines to Set"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_14",
-          "label": "Competitive Battlecards",
+          "id": "positioning_statement_13",
+          "label": "Positioning Statement",
           "type": "text",
-          "placeholder": "Enter competitive battlecards",
-          "required": false,
-          "helpText": "Proof Points to Use"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_15",
-          "label": "Competitive Battlecards",
+          "id": "key_value_prop_14",
+          "label": "Key Value Prop",
           "type": "text",
-          "placeholder": "Enter competitive battlecards",
-          "required": false,
-          "helpText": "BATTLECARD #2"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_16",
-          "label": "Competitive Battlecards",
+          "id": "pricing_model_15",
+          "label": "Pricing Model",
           "type": "text",
-          "placeholder": "Enter competitive battlecards",
-          "required": false,
-          "helpText": "Competitor Name"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_17",
-          "label": "Competitive Battlecards",
+          "id": "price_range_16",
+          "label": "Price Range",
           "type": "text",
-          "placeholder": "Enter competitive battlecards",
-          "required": false,
-          "helpText": "Their Elevator Pitch"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_18",
-          "label": "Competitive Battlecards",
+          "id": "free_tier_17",
+          "label": "Free Tier?",
           "type": "text",
-          "placeholder": "Enter competitive battlecards",
-          "required": false,
-          "helpText": "Their Target Customer"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_19",
-          "label": "Competitive Battlecards",
+          "id": "core_product_18",
+          "label": "Core Product",
           "type": "text",
-          "placeholder": "Enter competitive battlecards",
-          "required": false,
-          "helpText": "Their Pricing"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_20",
-          "label": "Competitive Battlecards",
+          "id": "key_differentiator_19",
+          "label": "Key Differentiator",
           "type": "text",
-          "placeholder": "Enter competitive battlecards",
-          "required": false,
-          "helpText": "Their Key Strength"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_21",
-          "label": "Competitive Battlecards",
+          "id": "biggest_weakness_20",
+          "label": "Biggest Weakness",
           "type": "text",
-          "placeholder": "Enter competitive battlecards",
-          "required": false,
-          "helpText": "Their Key Weakness"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_22",
-          "label": "Competitive Battlecards",
+          "id": "nps_review_score_21",
+          "label": "NPS / Review Score",
           "type": "text",
-          "placeholder": "Enter competitive battlecards",
-          "required": false,
-          "helpText": "When They Win"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_23",
-          "label": "Competitive Battlecards",
+          "id": "g2_capterra_rating_22",
+          "label": "G2/Capterra Rating",
           "type": "text",
-          "placeholder": "Enter competitive battlecards",
-          "required": false,
-          "helpText": "When We Win"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_24",
-          "label": "Competitive Battlecards",
+          "id": "market_share_est_23",
+          "label": "Market Share Est.",
           "type": "text",
-          "placeholder": "Enter competitive battlecards",
-          "required": false,
-          "helpText": "Their Objection to Us"
+          "placeholder": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "feature_comparison",
+      "title": "Feature Comparison",
+      "description": "Complete the Feature Comparison section",
+      "fields": [
+        {
+          "id": "competitor_1_0",
+          "label": "Competitor 1",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "competitor_2_1",
+          "label": "Competitor 2",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "competitor_3_2",
+          "label": "Competitor 3",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "competitor_4_3",
+          "label": "Competitor 4",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "competitor_5_4",
+          "label": "Competitor 5",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "core_product_quality_5",
+          "label": "Core Product Quality",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "ease_of_use_ux_6",
+          "label": "Ease of Use / UX",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "feature_breadth_7",
+          "label": "Feature Breadth",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "feature_depth_8",
+          "label": "Feature Depth",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "onboarding_experience_9",
+          "label": "Onboarding Experience",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "customer_support_10",
+          "label": "Customer Support",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "documentation_11",
+          "label": "Documentation",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "integration_ecosystem_12",
+          "label": "Integration Ecosystem",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "mobile_experience_13",
+          "label": "Mobile Experience",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "performance_speed_14",
+          "label": "Performance / Speed",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "security_compliance_15",
+          "label": "Security & Compliance",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "customization_16",
+          "label": "Customization",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "analytics_reporting_17",
+          "label": "Analytics & Reporting",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "pricing_competitiveness_18",
+          "label": "Pricing Competitiveness",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "brand_recognition_19",
+          "label": "Brand Recognition",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "content_marketing_20",
+          "label": "Content Marketing",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "sales_process_21",
+          "label": "Sales Process",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "customer_success_22",
+          "label": "Customer Success",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "innovation_pace_23",
+          "label": "Innovation Pace",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "community_24",
+          "label": "Community",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "average_score_25",
+          "label": "AVERAGE SCORE",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "marketing_analysis",
+      "title": "Marketing Analysis",
+      "description": "Complete the Marketing Analysis section",
+      "fields": [
+        {
+          "id": "competitor_1_0",
+          "label": "Competitor 1",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "competitor_2_1",
+          "label": "Competitor 2",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "competitor_3_2",
+          "label": "Competitor 3",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "competitor_4_3",
+          "label": "Competitor 4",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "competitor_5_4",
+          "label": "Competitor 5",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "seo_presence_5",
+          "label": "SEO Presence",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "social_following_6",
+          "label": "Social Following",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "content_quality_7",
+          "label": "Content Quality",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "brand_awareness_8",
+          "label": "Brand Awareness",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "ad_spend_9",
+          "label": "Ad Spend",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "email_marketing_10",
+          "label": "Email Marketing",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "event_presence_11",
+          "label": "Event Presence",
+          "type": "text",
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_25",
-          "label": "Competitive Battlecards",
+          "id": "pr_coverage_12",
+          "label": "PR Coverage",
           "type": "text",
-          "placeholder": "Enter competitive battlecards",
-          "required": false,
-          "helpText": "Our Counter-Argument"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_26",
-          "label": "Competitive Battlecards",
+          "id": "partner_network_13",
+          "label": "Partner Network",
           "type": "text",
-          "placeholder": "Enter competitive battlecards",
-          "required": false,
-          "helpText": "Landmines to Set"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_27",
-          "label": "Competitive Battlecards",
+          "id": "community_building_14",
+          "label": "Community Building",
           "type": "text",
-          "placeholder": "Enter competitive battlecards",
-          "required": false,
-          "helpText": "Proof Points to Use"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_28",
-          "label": "Competitive Battlecards",
+          "id": "average_15",
+          "label": "AVERAGE",
           "type": "text",
-          "placeholder": "Enter competitive battlecards",
-          "required": false,
-          "helpText": "BATTLECARD #3"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_29",
-          "label": "Competitive Battlecards",
+          "id": "channel_strategy_comparison_16",
+          "label": "CHANNEL STRATEGY COMPARISON",
           "type": "text",
-          "placeholder": "Enter competitive battlecards",
-          "required": false,
-          "helpText": "Competitor Name"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_30",
-          "label": "Competitive Battlecards",
+          "id": "dimension_17",
+          "label": "Dimension",
           "type": "text",
-          "placeholder": "Enter competitive battlecards",
-          "required": false,
-          "helpText": "Their Elevator Pitch"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_31",
-          "label": "Competitive Battlecards",
+          "id": "your_company_18",
+          "label": "Your Company",
           "type": "text",
-          "placeholder": "Enter competitive battlecards",
-          "required": false,
-          "helpText": "Their Target Customer"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_32",
-          "label": "Competitive Battlecards",
+          "id": "competitor_1_19",
+          "label": "Competitor 1",
           "type": "text",
-          "placeholder": "Enter competitive battlecards",
-          "required": false,
-          "helpText": "Their Pricing"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_33",
-          "label": "Competitive Battlecards",
+          "id": "competitor_2_20",
+          "label": "Competitor 2",
           "type": "text",
-          "placeholder": "Enter competitive battlecards",
-          "required": false,
-          "helpText": "Their Key Strength"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_34",
-          "label": "Competitive Battlecards",
+          "id": "competitor_3_21",
+          "label": "Competitor 3",
           "type": "text",
-          "placeholder": "Enter competitive battlecards",
-          "required": false,
-          "helpText": "Their Key Weakness"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_35",
-          "label": "Competitive Battlecards",
+          "id": "competitor_4_22",
+          "label": "Competitor 4",
           "type": "text",
-          "placeholder": "Enter competitive battlecards",
-          "required": false,
-          "helpText": "When They Win"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_36",
-          "label": "Competitive Battlecards",
+          "id": "competitor_5_23",
+          "label": "Competitor 5",
           "type": "text",
-          "placeholder": "Enter competitive battlecards",
-          "required": false,
-          "helpText": "When We Win"
+          "placeholder": "",
+          "required": false
         },
+        {
+          "id": "primary_channel_24",
+          "label": "Primary Channel",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "secondary_channel_25",
+          "label": "Secondary Channel",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "content_frequency_26",
+          "label": "Content Frequency",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "tone_voice_27",
+          "label": "Tone / Voice",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "key_message_28",
+          "label": "Key Message",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "cta_style_29",
+          "label": "CTA Style",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "battlecards",
+      "title": "Battlecards",
+      "description": "Complete the Battlecards section",
+      "fields": [
         {
-          "id": "field_37",
-          "label": "Competitive Battlecards",
+          "id": "their_elevator_pitch_0",
+          "label": "Their Elevator Pitch",
           "type": "text",
-          "placeholder": "Enter competitive battlecards",
-          "required": false,
-          "helpText": "Their Objection to Us"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_38",
-          "label": "Competitive Battlecards",
+          "id": "their_target_customer_1",
+          "label": "Their Target Customer",
           "type": "text",
-          "placeholder": "Enter competitive battlecards",
-          "required": false,
-          "helpText": "Our Counter-Argument"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_39",
-          "label": "Competitive Battlecards",
+          "id": "their_pricing_2",
+          "label": "Their Pricing",
           "type": "text",
-          "placeholder": "Enter competitive battlecards",
-          "required": false,
-          "helpText": "Landmines to Set"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_40",
-          "label": "Competitive Battlecards",
+          "id": "their_key_strength_3",
+          "label": "Their Key Strength",
           "type": "text",
-          "placeholder": "Enter competitive battlecards",
-          "required": false,
-          "helpText": "Proof Points to Use"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_41",
-          "label": "Competitive Battlecards",
+          "id": "their_key_weakness_4",
+          "label": "Their Key Weakness",
           "type": "text",
-          "placeholder": "Enter competitive battlecards",
-          "required": false,
-          "helpText": "BATTLECARD #4"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_42",
-          "label": "Competitive Battlecards",
+          "id": "when_they_win_5",
+          "label": "When They Win",
           "type": "text",
-          "placeholder": "Enter competitive battlecards",
-          "required": false,
-          "helpText": "Competitor Name"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_43",
-          "label": "Competitive Battlecards",
+          "id": "when_we_win_6",
+          "label": "When We Win",
           "type": "text",
-          "placeholder": "Enter competitive battlecards",
-          "required": false,
-          "helpText": "Their Elevator Pitch"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_44",
-          "label": "Competitive Battlecards",
+          "id": "their_objection_to_us_7",
+          "label": "Their Objection to Us",
           "type": "text",
-          "placeholder": "Enter competitive battlecards",
-          "required": false,
-          "helpText": "Their Target Customer"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_45",
-          "label": "Competitive Battlecards",
+          "id": "our_counter_argument_8",
+          "label": "Our Counter-Argument",
           "type": "text",
-          "placeholder": "Enter competitive battlecards",
-          "required": false,
-          "helpText": "Their Pricing"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_46",
-          "label": "Competitive Battlecards",
+          "id": "landmines_to_set_9",
+          "label": "Landmines to Set",
           "type": "text",
-          "placeholder": "Enter competitive battlecards",
-          "required": false,
-          "helpText": "Their Key Strength"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_47",
-          "label": "Competitive Battlecards",
+          "id": "proof_points_to_use_10",
+          "label": "Proof Points to Use",
           "type": "text",
-          "placeholder": "Enter competitive battlecards",
-          "required": false,
-          "helpText": "Their Key Weakness"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_48",
-          "label": "Competitive Battlecards",
+          "id": "battlecard_2_11",
+          "label": "BATTLECARD #2",
           "type": "text",
-          "placeholder": "Enter competitive battlecards",
-          "required": false,
-          "helpText": "When They Win"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_49",
-          "label": "Competitive Battlecards",
+          "id": "competitor_name_12",
+          "label": "Competitor Name",
           "type": "text",
-          "placeholder": "Enter competitive battlecards",
-          "required": false,
-          "helpText": "When We Win"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_50",
-          "label": "Competitive Battlecards",
+          "id": "their_elevator_pitch_13",
+          "label": "Their Elevator Pitch",
           "type": "text",
-          "placeholder": "Enter competitive battlecards",
-          "required": false,
-          "helpText": "Their Objection to Us"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_51",
-          "label": "Competitive Battlecards",
+          "id": "their_target_customer_14",
+          "label": "Their Target Customer",
           "type": "text",
-          "placeholder": "Enter competitive battlecards",
-          "required": false,
-          "helpText": "Our Counter-Argument"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_52",
-          "label": "Competitive Battlecards",
+          "id": "their_pricing_15",
+          "label": "Their Pricing",
           "type": "text",
-          "placeholder": "Enter competitive battlecards",
-          "required": false,
-          "helpText": "Landmines to Set"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_53",
-          "label": "Competitive Battlecards",
+          "id": "their_key_strength_16",
+          "label": "Their Key Strength",
           "type": "text",
-          "placeholder": "Enter competitive battlecards",
-          "required": false,
-          "helpText": "Proof Points to Use"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_54",
-          "label": "Competitive Battlecards",
+          "id": "their_key_weakness_17",
+          "label": "Their Key Weakness",
           "type": "text",
-          "placeholder": "Enter competitive battlecards",
-          "required": false,
-          "helpText": "BATTLECARD #5"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_55",
-          "label": "Competitive Battlecards",
+          "id": "when_they_win_18",
+          "label": "When They Win",
           "type": "text",
-          "placeholder": "Enter competitive battlecards",
-          "required": false,
-          "helpText": "Competitor Name"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_56",
-          "label": "Competitive Battlecards",
+          "id": "when_we_win_19",
+          "label": "When We Win",
           "type": "text",
-          "placeholder": "Enter competitive battlecards",
-          "required": false,
-          "helpText": "Their Elevator Pitch"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_57",
-          "label": "Competitive Battlecards",
+          "id": "their_objection_to_us_20",
+          "label": "Their Objection to Us",
           "type": "text",
-          "placeholder": "Enter competitive battlecards",
-          "required": false,
-          "helpText": "Their Target Customer"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_58",
-          "label": "Competitive Battlecards",
+          "id": "our_counter_argument_21",
+          "label": "Our Counter-Argument",
           "type": "text",
-          "placeholder": "Enter competitive battlecards",
-          "required": false,
-          "helpText": "Their Pricing"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_59",
-          "label": "Competitive Battlecards",
+          "id": "landmines_to_set_22",
+          "label": "Landmines to Set",
           "type": "text",
-          "placeholder": "Enter competitive battlecards",
-          "required": false,
-          "helpText": "Their Key Strength"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_60",
-          "label": "Competitive Battlecards",
+          "id": "proof_points_to_use_23",
+          "label": "Proof Points to Use",
           "type": "text",
-          "placeholder": "Enter competitive battlecards",
-          "required": false,
-          "helpText": "Their Key Weakness"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_61",
-          "label": "Competitive Battlecards",
+          "id": "battlecard_3_24",
+          "label": "BATTLECARD #3",
           "type": "text",
-          "placeholder": "Enter competitive battlecards",
-          "required": false,
-          "helpText": "When They Win"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_62",
-          "label": "Competitive Battlecards",
+          "id": "competitor_name_25",
+          "label": "Competitor Name",
           "type": "text",
-          "placeholder": "Enter competitive battlecards",
-          "required": false,
-          "helpText": "When We Win"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_63",
-          "label": "Competitive Battlecards",
+          "id": "their_elevator_pitch_26",
+          "label": "Their Elevator Pitch",
           "type": "text",
-          "placeholder": "Enter competitive battlecards",
-          "required": false,
-          "helpText": "Their Objection to Us"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_64",
-          "label": "Competitive Battlecards",
+          "id": "their_target_customer_27",
+          "label": "Their Target Customer",
           "type": "text",
-          "placeholder": "Enter competitive battlecards",
-          "required": false,
-          "helpText": "Our Counter-Argument"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_65",
-          "label": "Competitive Battlecards",
+          "id": "their_pricing_28",
+          "label": "Their Pricing",
           "type": "text",
-          "placeholder": "Enter competitive battlecards",
-          "required": false,
-          "helpText": "Landmines to Set"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_66",
-          "label": "Competitive Battlecards",
+          "id": "their_key_strength_29",
+          "label": "Their Key Strength",
           "type": "text",
-          "placeholder": "Enter competitive battlecards",
-          "required": false,
-          "helpText": "Proof Points to Use"
+          "placeholder": "",
+          "required": false
         }
       ]
     }
@@ -754,7 +1051,7 @@
       },
       {
         "label": "Features You Lead",
-        "calculation": "\u2014",
+        "calculation": "—",
         "format": "number"
       }
     ]

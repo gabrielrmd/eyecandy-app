@@ -12,178 +12,744 @@
   "estimatedTime": "55 min",
   "sections": [
     {
-      "id": "hypothesis",
-      "title": "Test Hypothesis",
-      "description": "Define what you're testing and why",
+      "id": "dashboard",
+      "title": "Dashboard",
+      "description": "Complete the Dashboard section",
       "fields": [
         {
-          "id": "test_name",
-          "label": "Test Name",
+          "id": "tests_completed_0",
+          "label": "Tests Completed",
           "type": "text",
-          "placeholder": "e.g., Homepage CTA Color Test",
-          "required": true,
-          "helpText": ""
-        },
-        {
-          "id": "hypothesis",
-          "label": "Hypothesis",
-          "type": "textarea",
-          "placeholder": "If we change X, then Y will happen because Z",
-          "required": true,
-          "helpText": ""
-        },
-        {
-          "id": "primary_metric",
-          "label": "Primary Metric",
-          "type": "text",
-          "placeholder": "e.g., Click-through rate",
-          "required": true,
-          "helpText": ""
-        },
-        {
-          "id": "secondary_metrics",
-          "label": "Secondary Metrics",
-          "type": "textarea",
-          "placeholder": "e.g., Bounce rate, Time on page",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "test_duration",
-          "label": "Test Duration",
-          "type": "text",
-          "placeholder": "e.g., 2 weeks",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "sample_size",
-          "label": "Target Sample Size",
-          "type": "text",
-          "placeholder": "e.g., 1,000 visitors per variant",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "confidence_level",
-          "label": "Confidence Level",
-          "type": "select",
-          "options": [
-            "90%",
-            "95%",
-            "99%"
-          ],
-          "required": false,
           "placeholder": "",
-          "helpText": ""
+          "required": false
+        },
+        {
+          "id": "win_rate_1",
+          "label": "Win Rate",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "tests_by_channel_2",
+          "label": "Tests by Channel",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "channel_3",
+          "label": "Channel",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "backlog_4",
+          "label": "Backlog",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "completed_5",
+          "label": "Completed",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "win_rate_6",
+          "label": "Win Rate",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "email_7",
+          "label": "Email",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "landing_page_8",
+          "label": "Landing Page",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "paid_ads_9",
+          "label": "Paid Ads",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "social_media_10",
+          "label": "Social Media",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "website_11",
+          "label": "Website",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "pricing_12",
+          "label": "Pricing",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "onboarding_13",
+          "label": "Onboarding",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "average_lift_by_channel_14",
+          "label": "Average Lift by Channel",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "channel_15",
+          "label": "Channel",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "avg_lift_16",
+          "label": "Avg Lift %",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "email_17",
+          "label": "Email",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "landing_page_18",
+          "label": "Landing Page",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "paid_ads_19",
+          "label": "Paid Ads",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "social_media_20",
+          "label": "Social Media",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "website_21",
+          "label": "Website",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "pricing_22",
+          "label": "Pricing",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "onboarding_23",
+          "label": "Onboarding",
+          "type": "text",
+          "placeholder": "",
+          "required": false
         }
       ]
     },
     {
-      "id": "variants",
-      "title": "Test Variants",
-      "description": "Define control and test variations",
+      "id": "test_backlog",
+      "title": "Test Backlog",
+      "description": "Complete the Test Backlog section",
       "fields": [
         {
-          "id": "control",
-          "label": "Control (A) Description",
-          "type": "textarea",
-          "placeholder": "Describe the current/control version",
-          "required": true,
-          "helpText": ""
-        },
-        {
-          "id": "variant_b",
-          "label": "Variant B Description",
-          "type": "textarea",
-          "placeholder": "Describe what changes in variant B",
-          "required": true,
-          "helpText": ""
-        },
-        {
-          "id": "variant_c",
-          "label": "Variant C Description (optional)",
-          "type": "textarea",
-          "placeholder": "Describe variant C if applicable",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "traffic_split",
-          "label": "Traffic Split",
+          "id": "shorter_40_char_subject_lines_will_incre_0",
+          "label": "Shorter (<40 char) subject lines will increase open rates by 10%+",
           "type": "text",
-          "placeholder": "e.g., 50/50 or 33/33/33",
-          "required": false,
-          "helpText": ""
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "targeting",
-          "label": "Audience Targeting",
-          "type": "textarea",
-          "placeholder": "e.g., All visitors, returning users only",
-          "required": false,
-          "helpText": ""
+          "id": "video_above_fold_will_increase_time_on_p_1",
+          "label": "Video above fold will increase time on page by 30% and conversion by 15%",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "orange_cta_will_outperform_teal_by_5_10__2",
+          "label": "Orange CTA will outperform teal by 5-10% due to higher contrast",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "multi_step_form_will_increase_form_compl_3",
+          "label": "Multi-step form will increase form completion by 20%",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "testimonials_near_pricing_table_will_inc_4",
+          "label": "Testimonials near pricing table will increase plan selection by 12%",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "carousels_will_drive_25_lower_cpc_for_b2_5",
+          "label": "Carousels will drive 25% lower CPC for B2B audience",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "personalised_ctas_will_increase_click_ra_6",
+          "label": "Personalised CTAs will increase click rate by 15%",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "deadline_driven_copy_will_increase_ctr_b_7",
+          "label": "Deadline-driven copy will increase CTR by 20%",
+          "type": "text",
+          "placeholder": "",
+          "required": false
         }
       ]
     },
     {
-      "id": "results",
-      "title": "Results & Analysis",
-      "description": "Document test outcomes",
+      "id": "test_planner",
+      "title": "Test Planner",
+      "description": "Complete the Test Planner section",
       "fields": [
         {
-          "id": "winner",
-          "label": "Winning Variant",
-          "type": "select",
-          "options": [
-            "Control (A)",
-            "Variant B",
-            "Variant C",
-            "No significant difference"
-          ],
-          "required": false,
+          "id": "open_rate_0",
+          "label": "Open Rate",
+          "type": "text",
           "placeholder": "",
-          "helpText": ""
+          "required": false
         },
         {
-          "id": "primary_result",
-          "label": "Primary Metric Result",
+          "id": "click_through_rate_1",
+          "label": "Click-through Rate",
           "type": "text",
-          "placeholder": "e.g., +15% CTR improvement",
-          "required": false,
-          "helpText": ""
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "statistical_significance",
-          "label": "Statistical Significance",
+          "id": "time_on_page_conversion_2",
+          "label": "Time on Page + Conversion",
           "type": "text",
-          "placeholder": "e.g., 95% confidence",
-          "required": false,
-          "helpText": ""
+          "placeholder": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "results_tracker",
+      "title": "Results Tracker",
+      "description": "Complete the Results Tracker section",
+      "fields": [
+        {
+          "id": "open_rate_0",
+          "label": "Open Rate",
+          "type": "text",
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "learnings",
-          "label": "Key Learnings",
-          "type": "textarea",
-          "placeholder": "What did you learn from this test?",
-          "required": true,
-          "helpText": ""
+          "id": "click_rate_1",
+          "label": "Click Rate",
+          "type": "text",
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "next_steps",
-          "label": "Next Steps",
+          "id": "plan_selection_2",
+          "label": "Plan Selection",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "insights_library",
+      "title": "Insights Library",
+      "description": "Complete the Insights Library section",
+      "fields": [
+        {
+          "id": "updated_email_guidelines_all_subjects_mu_0",
+          "label": "Updated email guidelines: all subjects must be under 40 characters. Created subject line templates.",
           "type": "textarea",
-          "placeholder": "What will you do based on these results?",
-          "required": false,
-          "helpText": ""
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "implementation",
-          "label": "Implementation Plan",
+          "id": "changed_primary_cta_colour_to_orange_in__1",
+          "label": "Changed primary CTA colour to orange in design system. Teal reserved for secondary actions.",
           "type": "textarea",
-          "placeholder": "How and when will you roll out the winner?",
-          "required": false,
-          "helpText": ""
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "planned_follow_up_test_video_testimonial_2",
+          "label": "Planned follow-up test: video testimonials vs text quotes near pricing.",
+          "type": "textarea",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "standardised_multi_step_forms_for_all_hi_3",
+          "label": "Standardised multi-step forms for all high-friction conversion points.",
+          "type": "textarea",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "shifted_60_of_linkedin_ad_budget_to_caro_4",
+          "label": "Shifted 60% of LinkedIn ad budget to carousel format. Single images reserved for event promotion.",
+          "type": "textarea",
+          "placeholder": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "testing_calendar",
+      "title": "Testing Calendar",
+      "description": "Complete the Testing Calendar section",
+      "fields": [
+        {
+          "id": "email_subject_length_0",
+          "label": "Email Subject Length",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "cta_button_colour_1",
+          "label": "CTA Button Colour",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "hero_video_vs_image_2",
+          "label": "Hero Video vs Image",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "multi_step_form_3",
+          "label": "Multi-step Form",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "linkedin_ad_format_4",
+          "label": "LinkedIn Ad Format",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "sample_size_calculator",
+      "title": "Sample Size Calculator",
+      "description": "Complete the Sample Size Calculator section",
+      "fields": [
+        {
+          "id": "input_your_test_parameters_0",
+          "label": "INPUT YOUR TEST PARAMETERS",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "current_conversion_rate_1",
+          "label": "Current Conversion Rate (%)",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "enter_your_baseline_rate_e_g_5_for_5_2",
+          "label": "Enter your baseline rate (e.g. 5 for 5%)",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "minimum_detectable_effect_3",
+          "label": "Minimum Detectable Effect (%)",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "the_smallest_lift_you_want_to_detect_e_g_4",
+          "label": "The smallest lift you want to detect (e.g. 10 for 10% relative)",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "statistical_significance_level_5",
+          "label": "Statistical Significance Level",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "typically_95_enter_95_6",
+          "label": "Typically 95% (enter 95)",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "statistical_power_7",
+          "label": "Statistical Power (%)",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "typically_80_enter_80_8",
+          "label": "Typically 80% (enter 80)",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "reference_table_sample_sizes_per_variant_9",
+          "label": "REFERENCE TABLE: Sample Sizes Per Variant",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "for_95_significance_and_80_power_10",
+          "label": "For 95% significance and 80% power",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "baseline_rate_11",
+          "label": "Baseline Rate",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "5_mde_12",
+          "label": "5% MDE",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "10_mde_13",
+          "label": "10% MDE",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "20_mde_14",
+          "label": "20% MDE",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "duration_estimator_15",
+          "label": "DURATION ESTIMATOR",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "daily_traffic_volume_16",
+          "label": "Daily Traffic / Volume:",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "required_sample_per_variant_17",
+          "label": "Required Sample (per variant):",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "number_of_variants_18",
+          "label": "Number of Variants:",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "estimated_duration_days_19",
+          "label": "Estimated Duration (days):",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "best_practices",
+      "title": "Best Practices",
+      "description": "Complete the Best Practices section",
+      "fields": [
+        {
+          "id": "questions_create_curiosity_and_increase__0",
+          "label": "Questions create curiosity and increase open rates",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "personal_names_feel_more_authentic_and_t_1",
+          "label": "Personal names feel more authentic and trustworthy",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "buttons_are_more_visually_prominent_and__2",
+          "label": "Buttons are more visually prominent and easier to click",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "audience_behaviour_varies_test_to_find_y_3",
+          "label": "Audience behaviour varies; test to find your sweet spot",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "plain_text_can_feel_more_personal_for_b2_4",
+          "label": "Plain text can feel more personal for B2B audiences",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "depends_on_offer_complexity_test_for_you_5",
+          "label": "Depends on offer complexity; test for your use case",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "can_increase_open_rates_but_may_reduce_p_6",
+          "label": "Can increase open rates but may reduce perceived professionalism",
+          "type": "textarea",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "benefits_resonate_more_emotionally_with__7",
+          "label": "Benefits resonate more emotionally with most audiences",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "video_can_increase_engagement_but_may_sl_8",
+          "label": "Video can increase engagement but may slow page load",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "long_forms_filter_quality_short_forms_in_9",
+          "label": "Long forms filter quality; short forms increase volume",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "near_cta_vs_above_fold_test_which_drives_10",
+          "label": "Near CTA vs above fold — test which drives more action",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "every_field_removed_can_increase_convers_11",
+          "label": "Every field removed can increase conversion rates",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "reduces_friction_especially_for_payment__12",
+          "label": "Reduces friction especially for payment or data entry",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "focused_pages_with_one_cta_often_outperf_13",
+          "label": "Focused pages with one CTA often outperform cluttered ones",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "format_performance_varies_by_platform_an_14",
+          "label": "Format performance varies by platform and objective",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "specificity_builds_credibility_and_incre_15",
+          "label": "Specificity builds credibility and increases clicks",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "lookalikes_often_outperform_for_conversi_16",
+          "label": "Lookalikes often outperform for conversion campaigns",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "dynamic_creative_adapts_to_audience_segm_17",
+          "label": "Dynamic creative adapts to audience segments automatically",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "matching_ad_to_lp_message_increases_conv_18",
+          "label": "Matching ad to LP message increases conversion",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "depends_on_awareness_stage_test_for_each_19",
+          "label": "Depends on awareness stage; test for each campaign type",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "sticky_nav_improves_access_to_key_pages_20",
+          "label": "Sticky nav improves access to key pages",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "can_capture_5_15_of_leaving_visitors_21",
+          "label": "Can capture 5-15% of leaving visitors",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "can_improve_support_but_may_distract_fro_22",
+          "label": "Can improve support but may distract from conversion",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "faster_pages_always_convert_better_23",
+          "label": "Faster pages always convert better",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "test_thumb_friendly_zones_and_mobile_spe_24",
+          "label": "Test thumb-friendly zones and mobile-specific CTAs",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "get_my_free_guide_often_beats_download_n_25",
+          "label": "'Get My Free Guide' often beats 'Download Now'",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "high_contrast_buttons_draw_the_eye_more__26",
+          "label": "High contrast buttons draw the eye more effectively",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "larger_buttons_are_easier_to_click_espec_27",
+          "label": "Larger buttons are easier to click, especially on mobile",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "limited_time_and_countdown_timers_create_28",
+          "label": "'Limited time' and countdown timers create FOMO",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "start_my_trial_can_outperform_start_your_29",
+          "label": "'Start My Trial' can outperform 'Start Your Trial'",
+          "type": "text",
+          "placeholder": "",
+          "required": false
         }
       ]
     }

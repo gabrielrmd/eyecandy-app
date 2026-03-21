@@ -12,217 +12,589 @@
   "estimatedTime": "65 min",
   "sections": [
     {
-      "id": "section_5",
-      "title": "Programme Performance",
-      "description": "Configuration and tracking for Programme Performance",
+      "id": "dashboard",
+      "title": "Dashboard",
+      "description": "Complete the Dashboard section",
       "fields": [
         {
-          "id": "field_1",
-          "label": "Programme Performance",
+          "id": "total_advocates_0",
+          "label": "Total Advocates",
           "type": "text",
-          "placeholder": "Enter programme performance",
-          "required": false,
-          "helpText": "Month"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_2",
-          "label": "Programme Performance",
+          "id": "active_advocates_1",
+          "label": "Active Advocates",
           "type": "text",
-          "placeholder": "Enter programme performance",
-          "required": false,
-          "helpText": "Jan 2026"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_3",
-          "label": "Programme Performance",
+          "id": "total_referrals_sent_2",
+          "label": "Total Referrals Sent",
           "type": "text",
-          "placeholder": "Enter programme performance",
-          "required": false,
-          "helpText": "Feb 2026"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_4",
-          "label": "Programme Performance",
+          "id": "referrals_converted_3",
+          "label": "Referrals Converted",
           "type": "text",
-          "placeholder": "Enter programme performance",
-          "required": false,
-          "helpText": "Mar 2026"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_5",
-          "label": "Programme Performance",
+          "id": "conversion_rate_4",
+          "label": "Conversion Rate",
           "type": "text",
-          "placeholder": "Enter programme performance",
-          "required": false,
-          "helpText": "Apr 2026"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_6",
-          "label": "Programme Performance",
+          "id": "total_rewards_issued_5",
+          "label": "Total Rewards Issued",
           "type": "text",
-          "placeholder": "Enter programme performance",
-          "required": false,
-          "helpText": "May 2026"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_7",
-          "label": "Programme Performance",
+          "id": "total_reward_cost_6",
+          "label": "Total Reward Cost",
           "type": "text",
-          "placeholder": "Enter programme performance",
-          "required": false,
-          "helpText": "Jun 2026"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_8",
-          "label": "Programme Performance",
+          "id": "avg_referrals_per_advocate_7",
+          "label": "Avg Referrals per Advocate",
           "type": "text",
-          "placeholder": "Enter programme performance",
-          "required": false,
-          "helpText": "Jul 2026"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_9",
-          "label": "Programme Performance",
+          "id": "revenue_from_referrals_8",
+          "label": "Revenue from Referrals",
           "type": "text",
-          "placeholder": "Enter programme performance",
-          "required": false,
-          "helpText": "Aug 2026"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_10",
-          "label": "Programme Performance",
+          "id": "programme_roi_9",
+          "label": "Programme ROI",
           "type": "text",
-          "placeholder": "Enter programme performance",
-          "required": false,
-          "helpText": "Sep 2026"
-        },
-        {
-          "id": "field_11",
-          "label": "Programme Performance",
-          "type": "text",
-          "placeholder": "Enter programme performance",
-          "required": false,
-          "helpText": "Oct 2026"
-        },
-        {
-          "id": "field_12",
-          "label": "Programme Performance",
-          "type": "text",
-          "placeholder": "Enter programme performance",
-          "required": false,
-          "helpText": "Nov 2026"
-        },
-        {
-          "id": "field_13",
-          "label": "Programme Performance",
-          "type": "text",
-          "placeholder": "Enter programme performance",
-          "required": false,
-          "helpText": "Dec 2026"
-        },
-        {
-          "id": "field_14",
-          "label": "Programme Performance",
-          "type": "text",
-          "placeholder": "Enter programme performance",
-          "required": false,
-          "helpText": "TOTAL"
+          "placeholder": "",
+          "required": false
         }
       ]
     },
     {
-      "id": "section_6",
-      "title": "Communication Templates",
-      "description": "Configuration and tracking for Communication Templates",
+      "id": "programme_setup",
+      "title": "Programme Setup",
+      "description": "Complete the Programme Setup section",
       "fields": [
         {
-          "id": "field_1",
-          "label": "Communication Templates",
+          "id": "programme_name_0",
+          "label": "Programme Name",
           "type": "text",
-          "placeholder": "Enter communication templates",
-          "required": false,
-          "helpText": "Invitation Email"
-        },
-        {
-          "id": "field_2",
-          "label": "Communication Templates",
-          "type": "textarea",
-          "placeholder": "Enter communication templates",
+          "placeholder": "",
           "required": false
         },
         {
-          "id": "field_3",
-          "label": "Communication Templates",
+          "id": "programme_type_1",
+          "label": "Programme Type",
           "type": "text",
-          "placeholder": "Enter communication templates",
-          "required": false,
-          "helpText": "Referral Sent Confirmation"
-        },
-        {
-          "id": "field_4",
-          "label": "Communication Templates",
-          "type": "textarea",
-          "placeholder": "Enter communication templates",
+          "placeholder": "",
           "required": false
         },
         {
-          "id": "field_5",
-          "label": "Communication Templates",
+          "id": "launch_date_2",
+          "label": "Launch Date",
           "type": "text",
-          "placeholder": "Enter communication templates",
-          "required": false,
-          "helpText": "Conversion Notification"
-        },
-        {
-          "id": "field_6",
-          "label": "Communication Templates",
-          "type": "textarea",
-          "placeholder": "Enter communication templates",
+          "placeholder": "",
           "required": false
         },
         {
-          "id": "field_7",
-          "label": "Communication Templates",
+          "id": "programme_goal_3",
+          "label": "Programme Goal",
           "type": "text",
-          "placeholder": "Enter communication templates",
-          "required": false,
-          "helpText": "Tier Upgrade"
-        },
-        {
-          "id": "field_8",
-          "label": "Communication Templates",
-          "type": "textarea",
-          "placeholder": "Enter communication templates",
+          "placeholder": "",
           "required": false
         },
         {
-          "id": "field_9",
-          "label": "Communication Templates",
+          "id": "target_referrals_monthly_4",
+          "label": "Target Referrals (Monthly)",
           "type": "text",
-          "placeholder": "Enter communication templates",
-          "required": false,
-          "helpText": "Re-engagement"
-        },
-        {
-          "id": "field_10",
-          "label": "Communication Templates",
-          "type": "textarea",
-          "placeholder": "Enter communication templates",
+          "placeholder": "",
           "required": false
         },
         {
-          "id": "field_11",
-          "label": "Communication Templates",
+          "id": "target_conversion_rate_5",
+          "label": "Target Conversion Rate",
           "type": "text",
-          "placeholder": "Enter communication templates",
-          "required": false,
-          "helpText": "Thank You (Referee)"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_12",
-          "label": "Communication Templates",
-          "type": "textarea",
-          "placeholder": "Enter communication templates",
+          "id": "programme_budget_monthly_6",
+          "label": "Programme Budget (Monthly)",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "programme_manager_7",
+          "label": "Programme Manager",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "reward_tiers_8",
+          "label": "Reward Tiers",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "tier_9",
+          "label": "Tier",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "trigger_10",
+          "label": "Trigger",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "referrer_reward_11",
+          "label": "Referrer Reward",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "referee_reward_12",
+          "label": "Referee Reward",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "reward_type_13",
+          "label": "Reward Type",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "limit_14",
+          "label": "Limit",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "expiry_15",
+          "label": "Expiry",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "bronze_16",
+          "label": "Bronze",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "1_successful_referral_17",
+          "label": "1 successful referral",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "25_credit_18",
+          "label": "$25 credit",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "10_first_order_discount_19",
+          "label": "10% first order discount",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "credit_20",
+          "label": "Credit",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "unlimited_21",
+          "label": "Unlimited",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "30_days_22",
+          "label": "30 days",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "silver_23",
+          "label": "Silver",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "5_successful_referrals_24",
+          "label": "5 successful referrals",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "50_credit_swag_25",
+          "label": "$50 credit + swag",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "15_first_order_discount_26",
+          "label": "15% first order discount",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "credit_gift_27",
+          "label": "Credit + Gift",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "unlimited_28",
+          "label": "Unlimited",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "60_days_29",
+          "label": "60 days",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "advocate_tracker",
+      "title": "Advocate Tracker",
+      "description": "Complete the Advocate Tracker section",
+      "fields": [
+        {
+          "id": "sarah_example_com_0",
+          "label": "sarah@example.com",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "james_example_com_1",
+          "label": "james@example.com",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "maria_example_com_2",
+          "label": "maria@example.com",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "david_example_com_3",
+          "label": "david@example.com",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "emma_example_com_4",
+          "label": "emma@example.com",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "referral_pipeline",
+      "title": "Referral Pipeline",
+      "description": "Complete the Referral Pipeline section",
+      "fields": [
+        {
+          "id": "tom_example_com_0",
+          "label": "tom@example.com",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "lisa_example_com_1",
+          "label": "lisa@example.com",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "alex_example_com_2",
+          "label": "alex@example.com",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "kate_example_com_3",
+          "label": "kate@example.com",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "chris_example_com_4",
+          "label": "chris@example.com",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "reward_management",
+      "title": "Reward Management",
+      "description": "Complete the Reward Management section",
+      "fields": [
+        {
+          "id": "auto_issued_on_conversion_0",
+          "label": "Auto-issued on conversion",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "auto_issued_on_conversion_1",
+          "label": "Auto-issued on conversion",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "auto_issued_on_conversion_2",
+          "label": "Auto-issued on conversion",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "awaiting_conversion_3",
+          "label": "Awaiting conversion",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "programme_performance",
+      "title": "Programme Performance",
+      "description": "Complete the Programme Performance section",
+      "fields": [
+        {
+          "id": "referrals_sent_0",
+          "label": "Referrals Sent",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "referrals_converted_1",
+          "label": "Referrals Converted",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "conversion_rate_2",
+          "label": "Conversion Rate",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "revenue_generated_3",
+          "label": "Revenue Generated",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "rewards_paid_4",
+          "label": "Rewards Paid",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "jan_2026_5",
+          "label": "Jan 2026",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "feb_2026_6",
+          "label": "Feb 2026",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "mar_2026_7",
+          "label": "Mar 2026",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "apr_2026_8",
+          "label": "Apr 2026",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "may_2026_9",
+          "label": "May 2026",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "jun_2026_10",
+          "label": "Jun 2026",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "jul_2026_11",
+          "label": "Jul 2026",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "aug_2026_12",
+          "label": "Aug 2026",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "sep_2026_13",
+          "label": "Sep 2026",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "oct_2026_14",
+          "label": "Oct 2026",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "nov_2026_15",
+          "label": "Nov 2026",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "dec_2026_16",
+          "label": "Dec 2026",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "total_17",
+          "label": "TOTAL",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "communication_templates",
+      "title": "Communication Templates",
+      "description": "Complete the Communication Templates section",
+      "fields": [
+        {
+          "id": "referral_sent_confirmation_0",
+          "label": "Referral Sent Confirmation",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "conversion_notification_1",
+          "label": "Conversion Notification",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "tier_upgrade_2",
+          "label": "Tier Upgrade",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "re_engagement_3",
+          "label": "Re-engagement",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "thank_you_referee_4",
+          "label": "Thank You (Referee)",
+          "type": "text",
+          "placeholder": "",
           "required": false
         }
       ]

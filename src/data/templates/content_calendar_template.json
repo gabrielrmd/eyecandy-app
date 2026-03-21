@@ -12,221 +12,261 @@
   "estimatedTime": "45 min",
   "sections": [
     {
-      "id": "overview",
-      "title": "Overview & Objectives",
-      "description": "Define the goals and scope of your content calendar template",
+      "id": "dashboard",
+      "title": "Dashboard",
+      "description": "Complete the Dashboard section",
       "fields": [
         {
-          "id": "objective",
-          "label": "Primary Objective",
-          "type": "textarea",
-          "placeholder": "What do you want to achieve with this content calendar template?",
-          "required": true,
-          "helpText": ""
-        },
-        {
-          "id": "target_audience",
-          "label": "Target Audience",
-          "type": "textarea",
-          "placeholder": "Who is this for?",
-          "required": true,
-          "helpText": ""
-        },
-        {
-          "id": "timeline",
-          "label": "Timeline",
+          "id": "overview_0",
+          "label": "OVERVIEW",
           "type": "text",
-          "placeholder": "e.g., Q1 2026, Next 90 days",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "budget",
-          "label": "Budget / Resources",
-          "type": "text",
-          "placeholder": "e.g., \u20ac5,000 or 20 hours/week",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "success_metrics",
-          "label": "Success Metrics",
-          "type": "textarea",
-          "placeholder": "How will you measure success?",
-          "required": true,
-          "helpText": ""
-        }
-      ]
-    },
-    {
-      "id": "strategy",
-      "title": "Strategy & Approach",
-      "description": "Outline your strategic approach",
-      "fields": [
-        {
-          "id": "core_strategy",
-          "label": "Core Strategy",
-          "type": "textarea",
-          "placeholder": "Describe your overall approach",
-          "required": true,
-          "helpText": ""
-        },
-        {
-          "id": "key_channels",
-          "label": "Key Channels / Platforms",
-          "type": "textarea",
-          "placeholder": "e.g., LinkedIn, Email, Blog, Paid ads",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "messaging",
-          "label": "Key Messages",
-          "type": "textarea",
-          "placeholder": "What are the main messages you want to communicate?",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "differentiators",
-          "label": "Unique Differentiators",
-          "type": "textarea",
-          "placeholder": "What sets your approach apart?",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "competitors",
-          "label": "Competitive Landscape",
-          "type": "textarea",
-          "placeholder": "What are competitors doing in this area?",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "risks",
-          "label": "Potential Risks & Mitigation",
-          "type": "textarea",
-          "placeholder": "What could go wrong and how will you handle it?",
-          "required": false,
-          "helpText": ""
-        }
-      ]
-    },
-    {
-      "id": "execution",
-      "title": "Execution Plan",
-      "description": "Detail your action items and timeline",
-      "fields": [
-        {
-          "id": "phase_1",
-          "label": "Phase 1: Foundation (Week 1-2)",
-          "type": "textarea",
-          "placeholder": "What will you set up first?",
-          "required": true,
-          "helpText": ""
-        },
-        {
-          "id": "phase_2",
-          "label": "Phase 2: Launch (Week 3-4)",
-          "type": "textarea",
-          "placeholder": "What are the launch activities?",
-          "required": true,
-          "helpText": ""
-        },
-        {
-          "id": "phase_3",
-          "label": "Phase 3: Optimization (Week 5+)",
-          "type": "textarea",
-          "placeholder": "How will you iterate and improve?",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "tools",
-          "label": "Tools & Technology Needed",
-          "type": "textarea",
-          "placeholder": "e.g., HubSpot, Canva, Google Analytics",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "team",
-          "label": "Team & Responsibilities",
-          "type": "textarea",
-          "placeholder": "Who is responsible for what?",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "dependencies",
-          "label": "Dependencies & Prerequisites",
-          "type": "textarea",
-          "placeholder": "What needs to happen before you can start?",
-          "required": false,
-          "helpText": ""
-        }
-      ]
-    },
-    {
-      "id": "tracking",
-      "title": "Tracking & Reporting",
-      "description": "Set up measurement and reporting",
-      "fields": [
-        {
-          "id": "kpis",
-          "label": "Key Performance Indicators",
-          "type": "textarea",
-          "placeholder": "List 3-5 KPIs you'll track",
-          "required": true,
-          "helpText": ""
-        },
-        {
-          "id": "reporting_frequency",
-          "label": "Reporting Frequency",
-          "type": "select",
-          "options": [
-            "Daily",
-            "Weekly",
-            "Bi-weekly",
-            "Monthly",
-            "Quarterly"
-          ],
-          "required": false,
           "placeholder": "",
-          "helpText": ""
+          "required": false
         },
         {
-          "id": "dashboard_tools",
-          "label": "Dashboard / Analytics Tools",
+          "id": "total_planned_1",
+          "label": "Total Planned",
           "type": "text",
-          "placeholder": "e.g., Google Analytics, Mixpanel",
-          "required": false,
-          "helpText": ""
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "benchmarks",
-          "label": "Benchmarks / Targets",
-          "type": "textarea",
-          "placeholder": "What are your target numbers?",
-          "required": false,
-          "helpText": ""
+          "id": "published_2",
+          "label": "Published",
+          "type": "text",
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "review_process",
-          "label": "Review & Optimization Process",
-          "type": "textarea",
-          "placeholder": "How will you review and adjust?",
-          "required": false,
-          "helpText": ""
+          "id": "in_progress_3",
+          "label": "In Progress",
+          "type": "text",
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "lessons_learned",
-          "label": "Lessons Learned",
-          "type": "textarea",
-          "placeholder": "Document insights as you go",
-          "required": false,
-          "helpText": ""
+          "id": "completion_rate_4",
+          "label": "Completion Rate",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "content_by_channel_5",
+          "label": "CONTENT BY CHANNEL",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "status_breakdown_6",
+          "label": "STATUS BREAKDOWN",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "channel_7",
+          "label": "Channel",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "planned_8",
+          "label": "Planned",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "published_9",
+          "label": "Published",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "publish_rate_10",
+          "label": "Publish Rate",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "status_11",
+          "label": "Status",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "count_12",
+          "label": "Count",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "blog_13",
+          "label": "Blog",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "idea_14",
+          "label": "Idea",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "social_media_15",
+          "label": "Social Media",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "in_progress_16",
+          "label": "In Progress",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "email_17",
+          "label": "Email",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "in_review_18",
+          "label": "In Review",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "video_19",
+          "label": "Video",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "scheduled_20",
+          "label": "Scheduled",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "podcast_21",
+          "label": "Podcast",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "published_22",
+          "label": "Published",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "paid_ads_23",
+          "label": "Paid Ads",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "website_24",
+          "label": "Website",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "other_25",
+          "label": "Other",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "content_pipeline_health_26",
+          "label": "CONTENT PIPELINE HEALTH",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "ideas_in_pipeline_27",
+          "label": "Ideas in Pipeline",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "ready_to_publish_scheduled_28",
+          "label": "Ready to Publish (Scheduled)",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "awaiting_review_29",
+          "label": "Awaiting Review",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "content_calendar",
+      "title": "Content Calendar",
+      "description": "Complete the Content Calendar section",
+      "fields": [
+        {
+          "id": "why_content_calendars_save_your_sanity_0",
+          "label": "Why Content Calendars Save Your Sanity",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "5_marketing_mistakes_ceos_make_1",
+          "label": "5 Marketing Mistakes CEOs Make",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "march_newsletter_growth_tips_2",
+          "label": "March Newsletter: Growth Tips",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "client_success_dvr_pharm_case_study_3",
+          "label": "Client Success: DVR Pharm Case Study",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "ai_strategy_builder_walkthrough_4",
+          "label": "AI Strategy Builder Walkthrough",
+          "type": "text",
+          "placeholder": "",
+          "required": false
         }
       ]
     }

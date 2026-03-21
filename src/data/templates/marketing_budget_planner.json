@@ -4,7 +4,7 @@
   "number": 6,
   "category": "strategy",
   "description": "Marketing Budget Planner - Marketing template for strategy professionals",
-  "instructions": "How to Use This Template Step 1: Set Your Annual Budget Go to the Budget Planner tab and enter your total annual marketing budget in the yellow cell at the top. Everything flows from this number. Step 2: Allocate by Category Enter your planned monthly spend for each category. The template covers 12 categories \u2014 from digital advertising to events to tools. Adjust categories to match your reality. Step 3: Track Actuals Monthly At the end of each month, enter your actual spend. The template auto-calculates variance so you can see where you are over or under budget instantly. Step 4: Monitor the D",
+  "instructions": "How to Use This Template Step 1: Set Your Annual Budget Go to the Budget Planner tab and enter your total annual marketing budget in the yellow cell at the top. Everything flows from this number. Step 2: Allocate by Category Enter your planned monthly spend for each category. The template covers 12 categories — from digital advertising to events to tools. Adjust categories to match your reality. Step 3: Track Actuals Monthly At the end of each month, enter your actual spend. The template auto-calculates variance so you can see where you are over or under budget instantly. Step 4: Monitor the D",
   "icon": "target",
   "tags": [
     "strategy"
@@ -12,221 +12,422 @@
   "estimatedTime": "60 min",
   "sections": [
     {
-      "id": "overview",
-      "title": "Overview & Objectives",
-      "description": "Define the goals and scope of your marketing budget planner",
+      "id": "dashboard",
+      "title": "Dashboard",
+      "description": "Complete the Dashboard section",
       "fields": [
         {
-          "id": "objective",
-          "label": "Primary Objective",
-          "type": "textarea",
-          "placeholder": "What do you want to achieve with this marketing budget planner?",
-          "required": true,
-          "helpText": ""
-        },
-        {
-          "id": "target_audience",
-          "label": "Target Audience",
-          "type": "textarea",
-          "placeholder": "Who is this for?",
-          "required": true,
-          "helpText": ""
-        },
-        {
-          "id": "timeline",
-          "label": "Timeline",
+          "id": "monthly_burn_rate_0",
+          "label": "MONTHLY BURN RATE",
           "type": "text",
-          "placeholder": "e.g., Q1 2026, Next 90 days",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "budget",
-          "label": "Budget / Resources",
-          "type": "text",
-          "placeholder": "e.g., \u20ac5,000 or 20 hours/week",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "success_metrics",
-          "label": "Success Metrics",
-          "type": "textarea",
-          "placeholder": "How will you measure success?",
-          "required": true,
-          "helpText": ""
-        }
-      ]
-    },
-    {
-      "id": "strategy",
-      "title": "Strategy & Approach",
-      "description": "Outline your strategic approach",
-      "fields": [
-        {
-          "id": "core_strategy",
-          "label": "Core Strategy",
-          "type": "textarea",
-          "placeholder": "Describe your overall approach",
-          "required": true,
-          "helpText": ""
-        },
-        {
-          "id": "key_channels",
-          "label": "Key Channels / Platforms",
-          "type": "textarea",
-          "placeholder": "e.g., LinkedIn, Email, Blog, Paid ads",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "messaging",
-          "label": "Key Messages",
-          "type": "textarea",
-          "placeholder": "What are the main messages you want to communicate?",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "differentiators",
-          "label": "Unique Differentiators",
-          "type": "textarea",
-          "placeholder": "What sets your approach apart?",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "competitors",
-          "label": "Competitive Landscape",
-          "type": "textarea",
-          "placeholder": "What are competitors doing in this area?",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "risks",
-          "label": "Potential Risks & Mitigation",
-          "type": "textarea",
-          "placeholder": "What could go wrong and how will you handle it?",
-          "required": false,
-          "helpText": ""
-        }
-      ]
-    },
-    {
-      "id": "execution",
-      "title": "Execution Plan",
-      "description": "Detail your action items and timeline",
-      "fields": [
-        {
-          "id": "phase_1",
-          "label": "Phase 1: Foundation (Week 1-2)",
-          "type": "textarea",
-          "placeholder": "What will you set up first?",
-          "required": true,
-          "helpText": ""
-        },
-        {
-          "id": "phase_2",
-          "label": "Phase 2: Launch (Week 3-4)",
-          "type": "textarea",
-          "placeholder": "What are the launch activities?",
-          "required": true,
-          "helpText": ""
-        },
-        {
-          "id": "phase_3",
-          "label": "Phase 3: Optimization (Week 5+)",
-          "type": "textarea",
-          "placeholder": "How will you iterate and improve?",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "tools",
-          "label": "Tools & Technology Needed",
-          "type": "textarea",
-          "placeholder": "e.g., HubSpot, Canva, Google Analytics",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "team",
-          "label": "Team & Responsibilities",
-          "type": "textarea",
-          "placeholder": "Who is responsible for what?",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "dependencies",
-          "label": "Dependencies & Prerequisites",
-          "type": "textarea",
-          "placeholder": "What needs to happen before you can start?",
-          "required": false,
-          "helpText": ""
-        }
-      ]
-    },
-    {
-      "id": "tracking",
-      "title": "Tracking & Reporting",
-      "description": "Set up measurement and reporting",
-      "fields": [
-        {
-          "id": "kpis",
-          "label": "Key Performance Indicators",
-          "type": "textarea",
-          "placeholder": "List 3-5 KPIs you'll track",
-          "required": true,
-          "helpText": ""
-        },
-        {
-          "id": "reporting_frequency",
-          "label": "Reporting Frequency",
-          "type": "select",
-          "options": [
-            "Daily",
-            "Weekly",
-            "Bi-weekly",
-            "Monthly",
-            "Quarterly"
-          ],
-          "required": false,
           "placeholder": "",
-          "helpText": ""
+          "required": false
         },
         {
-          "id": "dashboard_tools",
-          "label": "Dashboard / Analytics Tools",
+          "id": "month_1",
+          "label": "Month",
           "type": "text",
-          "placeholder": "e.g., Google Analytics, Mixpanel",
-          "required": false,
-          "helpText": ""
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "benchmarks",
-          "label": "Benchmarks / Targets",
-          "type": "textarea",
-          "placeholder": "What are your target numbers?",
-          "required": false,
-          "helpText": ""
+          "id": "jan_2",
+          "label": "Jan",
+          "type": "text",
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "review_process",
-          "label": "Review & Optimization Process",
-          "type": "textarea",
-          "placeholder": "How will you review and adjust?",
-          "required": false,
-          "helpText": ""
+          "id": "feb_3",
+          "label": "Feb",
+          "type": "text",
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "lessons_learned",
-          "label": "Lessons Learned",
-          "type": "textarea",
-          "placeholder": "Document insights as you go",
-          "required": false,
-          "helpText": ""
+          "id": "mar_4",
+          "label": "Mar",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "apr_5",
+          "label": "Apr",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "may_6",
+          "label": "May",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "jun_7",
+          "label": "Jun",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "jul_8",
+          "label": "Jul",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "aug_9",
+          "label": "Aug",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "sep_10",
+          "label": "Sep",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "oct_11",
+          "label": "Oct",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "nov_12",
+          "label": "Nov",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "dec_13",
+          "label": "Dec",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "budget_planner",
+      "title": "Budget Planner",
+      "description": "Complete the Budget Planner section",
+      "fields": [
+        {
+          "id": "planned_budget_monthly_0",
+          "label": "PLANNED BUDGET (Monthly)",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "category_1",
+          "label": "Category",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "monthly_total_2",
+          "label": "MONTHLY TOTAL",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "paid_digital_advertising_3",
+          "label": "Paid Digital Advertising",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "social_media_organic_4",
+          "label": "Social Media (Organic)",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "content_production_5",
+          "label": "Content Production",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "seo_website_6",
+          "label": "SEO & Website",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "email_marketing_7",
+          "label": "Email Marketing",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "events_sponsorships_8",
+          "label": "Events & Sponsorships",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "pr_communications_9",
+          "label": "PR & Communications",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "marketing_technology_tools_10",
+          "label": "Marketing Technology / Tools",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "creative_design_11",
+          "label": "Creative & Design",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "market_research_12",
+          "label": "Market Research",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "partnerships_affiliates_13",
+          "label": "Partnerships & Affiliates",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "other_contingency_14",
+          "label": "Other / Contingency",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "actual_spend_monthly_15",
+          "label": "ACTUAL SPEND (Monthly)",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "category_16",
+          "label": "Category",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "monthly_total_17",
+          "label": "MONTHLY TOTAL",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "paid_digital_advertising_18",
+          "label": "Paid Digital Advertising",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "social_media_organic_19",
+          "label": "Social Media (Organic)",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "content_production_20",
+          "label": "Content Production",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "seo_website_21",
+          "label": "SEO & Website",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "email_marketing_22",
+          "label": "Email Marketing",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "events_sponsorships_23",
+          "label": "Events & Sponsorships",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "pr_communications_24",
+          "label": "PR & Communications",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "marketing_technology_tools_25",
+          "label": "Marketing Technology / Tools",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "creative_design_26",
+          "label": "Creative & Design",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "market_research_27",
+          "label": "Market Research",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "partnerships_affiliates_28",
+          "label": "Partnerships & Affiliates",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "other_contingency_29",
+          "label": "Other / Contingency",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "roi_tracker",
+      "title": "ROI Tracker",
+      "description": "Complete the ROI Tracker section",
+      "fields": [
+        {
+          "id": "paid_digital_advertising_0",
+          "label": "Paid Digital Advertising",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "social_media_organic_1",
+          "label": "Social Media (Organic)",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "content_production_2",
+          "label": "Content Production",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "seo_website_3",
+          "label": "SEO & Website",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "email_marketing_4",
+          "label": "Email Marketing",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "events_sponsorships_5",
+          "label": "Events & Sponsorships",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "pr_communications_6",
+          "label": "PR & Communications",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "marketing_technology_tools_7",
+          "label": "Marketing Technology / Tools",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "creative_design_8",
+          "label": "Creative & Design",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "market_research_9",
+          "label": "Market Research",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "partnerships_affiliates_10",
+          "label": "Partnerships & Affiliates",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "other_contingency_11",
+          "label": "Other / Contingency",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "total_12",
+          "label": "TOTAL",
+          "type": "text",
+          "placeholder": "",
+          "required": false
         }
       ]
     }

@@ -13,221 +13,1409 @@
   "estimatedTime": "65 min",
   "sections": [
     {
-      "id": "overview",
-      "title": "Overview & Objectives",
-      "description": "Define the goals and scope of your customer retention planner",
+      "id": "dashboard",
+      "title": "Dashboard",
+      "description": "Complete the Dashboard section",
       "fields": [
         {
-          "id": "objective",
-          "label": "Primary Objective",
-          "type": "textarea",
-          "placeholder": "What do you want to achieve with this customer retention planner?",
-          "required": true,
-          "helpText": ""
-        },
-        {
-          "id": "target_audience",
-          "label": "Target Audience",
-          "type": "textarea",
-          "placeholder": "Who is this for?",
-          "required": true,
-          "helpText": ""
-        },
-        {
-          "id": "timeline",
-          "label": "Timeline",
+          "id": "dashboard_0",
+          "label": "DASHBOARD",
           "type": "text",
-          "placeholder": "e.g., Q1 2026, Next 90 days",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "budget",
-          "label": "Budget / Resources",
-          "type": "text",
-          "placeholder": "e.g., \u20ac5,000 or 20 hours/week",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "success_metrics",
-          "label": "Success Metrics",
-          "type": "textarea",
-          "placeholder": "How will you measure success?",
-          "required": true,
-          "helpText": ""
-        }
-      ]
-    },
-    {
-      "id": "strategy",
-      "title": "Strategy & Approach",
-      "description": "Outline your strategic approach",
-      "fields": [
-        {
-          "id": "core_strategy",
-          "label": "Core Strategy",
-          "type": "textarea",
-          "placeholder": "Describe your overall approach",
-          "required": true,
-          "helpText": ""
-        },
-        {
-          "id": "key_channels",
-          "label": "Key Channels / Platforms",
-          "type": "textarea",
-          "placeholder": "e.g., LinkedIn, Email, Blog, Paid ads",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "messaging",
-          "label": "Key Messages",
-          "type": "textarea",
-          "placeholder": "What are the main messages you want to communicate?",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "differentiators",
-          "label": "Unique Differentiators",
-          "type": "textarea",
-          "placeholder": "What sets your approach apart?",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "competitors",
-          "label": "Competitive Landscape",
-          "type": "textarea",
-          "placeholder": "What are competitors doing in this area?",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "risks",
-          "label": "Potential Risks & Mitigation",
-          "type": "textarea",
-          "placeholder": "What could go wrong and how will you handle it?",
-          "required": false,
-          "helpText": ""
-        }
-      ]
-    },
-    {
-      "id": "execution",
-      "title": "Execution Plan",
-      "description": "Detail your action items and timeline",
-      "fields": [
-        {
-          "id": "phase_1",
-          "label": "Phase 1: Foundation (Week 1-2)",
-          "type": "textarea",
-          "placeholder": "What will you set up first?",
-          "required": true,
-          "helpText": ""
-        },
-        {
-          "id": "phase_2",
-          "label": "Phase 2: Launch (Week 3-4)",
-          "type": "textarea",
-          "placeholder": "What are the launch activities?",
-          "required": true,
-          "helpText": ""
-        },
-        {
-          "id": "phase_3",
-          "label": "Phase 3: Optimization (Week 5+)",
-          "type": "textarea",
-          "placeholder": "How will you iterate and improve?",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "tools",
-          "label": "Tools & Technology Needed",
-          "type": "textarea",
-          "placeholder": "e.g., HubSpot, Canva, Google Analytics",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "team",
-          "label": "Team & Responsibilities",
-          "type": "textarea",
-          "placeholder": "Who is responsible for what?",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "dependencies",
-          "label": "Dependencies & Prerequisites",
-          "type": "textarea",
-          "placeholder": "What needs to happen before you can start?",
-          "required": false,
-          "helpText": ""
-        }
-      ]
-    },
-    {
-      "id": "tracking",
-      "title": "Tracking & Reporting",
-      "description": "Set up measurement and reporting",
-      "fields": [
-        {
-          "id": "kpis",
-          "label": "Key Performance Indicators",
-          "type": "textarea",
-          "placeholder": "List 3-5 KPIs you'll track",
-          "required": true,
-          "helpText": ""
-        },
-        {
-          "id": "reporting_frequency",
-          "label": "Reporting Frequency",
-          "type": "select",
-          "options": [
-            "Daily",
-            "Weekly",
-            "Bi-weekly",
-            "Monthly",
-            "Quarterly"
-          ],
-          "required": false,
           "placeholder": "",
-          "helpText": ""
+          "required": false
         },
         {
-          "id": "dashboard_tools",
-          "label": "Dashboard / Analytics Tools",
+          "id": "active_customers_1",
+          "label": "Active Customers",
           "type": "text",
-          "placeholder": "e.g., Google Analytics, Mixpanel",
-          "required": false,
-          "helpText": ""
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "benchmarks",
-          "label": "Benchmarks / Targets",
-          "type": "textarea",
-          "placeholder": "What are your target numbers?",
-          "required": false,
-          "helpText": ""
+          "id": "churned_customers_2",
+          "label": "Churned Customers",
+          "type": "text",
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "review_process",
-          "label": "Review & Optimization Process",
-          "type": "textarea",
-          "placeholder": "How will you review and adjust?",
-          "required": false,
-          "helpText": ""
+          "id": "average_mrr_per_customer_3",
+          "label": "Average MRR per Customer",
+          "type": "text",
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "lessons_learned",
-          "label": "Lessons Learned",
-          "type": "textarea",
-          "placeholder": "Document insights as you go",
-          "required": false,
-          "helpText": ""
+          "id": "average_customer_lifetime_months_4",
+          "label": "Average Customer Lifetime (months)",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "retention_metrics",
+      "title": "Retention Metrics",
+      "description": "Complete the Retention Metrics section",
+      "fields": [
+        {
+          "id": "month_0",
+          "label": "Month",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "active_customers_1",
+          "label": "Active Customers",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "churned_2",
+          "label": "Churned",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "retained_3",
+          "label": "Retained",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "retention_rate_4",
+          "label": "Retention Rate (%)",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "churn_rate_5",
+          "label": "Churn Rate (%)",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "2025_01_6",
+          "label": "2025-01",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "2025_01_7",
+          "label": "2025-01",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "2025_03_8",
+          "label": "2025-03",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "2025_04_9",
+          "label": "2025-04",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "2025_05_10",
+          "label": "2025-05",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "2025_05_11",
+          "label": "2025-05",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "2025_06_12",
+          "label": "2025-06",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "2025_07_13",
+          "label": "2025-07",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "2025_08_14",
+          "label": "2025-08",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "2025_09_15",
+          "label": "2025-09",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "2025_10_16",
+          "label": "2025-10",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "2025_11_17",
+          "label": "2025-11",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "customer_health_score",
+      "title": "Customer Health Score",
+      "description": "Complete the Customer Health Score section",
+      "fields": [
+        {
+          "id": "customer_1_0",
+          "label": "Customer 1",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "customer_2_1",
+          "label": "Customer 2",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "customer_3_2",
+          "label": "Customer 3",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "customer_4_3",
+          "label": "Customer 4",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "customer_5_4",
+          "label": "Customer 5",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "customer_6_5",
+          "label": "Customer 6",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "customer_7_6",
+          "label": "Customer 7",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "customer_8_7",
+          "label": "Customer 8",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "customer_9_8",
+          "label": "Customer 9",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "customer_10_9",
+          "label": "Customer 10",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "customer_11_10",
+          "label": "Customer 11",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "customer_12_11",
+          "label": "Customer 12",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "customer_13_12",
+          "label": "Customer 13",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "customer_14_13",
+          "label": "Customer 14",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "customer_15_14",
+          "label": "Customer 15",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "customer_16_15",
+          "label": "Customer 16",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "customer_17_16",
+          "label": "Customer 17",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "customer_18_17",
+          "label": "Customer 18",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "customer_19_18",
+          "label": "Customer 19",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "customer_20_19",
+          "label": "Customer 20",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "customer_21_20",
+          "label": "Customer 21",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "customer_22_21",
+          "label": "Customer 22",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "customer_23_22",
+          "label": "Customer 23",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "customer_24_23",
+          "label": "Customer 24",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "customer_25_24",
+          "label": "Customer 25",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "customer_26_25",
+          "label": "Customer 26",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "customer_27_26",
+          "label": "Customer 27",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "customer_28_27",
+          "label": "Customer 28",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "customer_29_28",
+          "label": "Customer 29",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "customer_30_29",
+          "label": "Customer 30",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "churn_analysis",
+      "title": "Churn Analysis",
+      "description": "Complete the Churn Analysis section",
+      "fields": [
+        {
+          "id": "lost_customer_1_0",
+          "label": "Lost Customer 1",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "lost_customer_2_1",
+          "label": "Lost Customer 2",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "lost_customer_3_2",
+          "label": "Lost Customer 3",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "lost_customer_4_3",
+          "label": "Lost Customer 4",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "lost_customer_5_4",
+          "label": "Lost Customer 5",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "lost_customer_6_5",
+          "label": "Lost Customer 6",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "lost_customer_7_6",
+          "label": "Lost Customer 7",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "lost_customer_8_7",
+          "label": "Lost Customer 8",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "lost_customer_9_8",
+          "label": "Lost Customer 9",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "lost_customer_10_9",
+          "label": "Lost Customer 10",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "lost_customer_11_10",
+          "label": "Lost Customer 11",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "lost_customer_12_11",
+          "label": "Lost Customer 12",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "lost_customer_13_12",
+          "label": "Lost Customer 13",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "lost_customer_14_13",
+          "label": "Lost Customer 14",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "lost_customer_15_14",
+          "label": "Lost Customer 15",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "lost_customer_16_15",
+          "label": "Lost Customer 16",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "lost_customer_17_16",
+          "label": "Lost Customer 17",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "lost_customer_18_17",
+          "label": "Lost Customer 18",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "lost_customer_19_18",
+          "label": "Lost Customer 19",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "lost_customer_20_19",
+          "label": "Lost Customer 20",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "lost_customer_21_20",
+          "label": "Lost Customer 21",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "lost_customer_22_21",
+          "label": "Lost Customer 22",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "lost_customer_23_22",
+          "label": "Lost Customer 23",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "lost_customer_24_23",
+          "label": "Lost Customer 24",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "lost_customer_25_24",
+          "label": "Lost Customer 25",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "lost_customer_26_25",
+          "label": "Lost Customer 26",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "lost_customer_27_26",
+          "label": "Lost Customer 27",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "lost_customer_28_27",
+          "label": "Lost Customer 28",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "lost_customer_29_28",
+          "label": "Lost Customer 29",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "lost_customer_30_29",
+          "label": "Lost Customer 30",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "loyalty_programme",
+      "title": "Loyalty Programme",
+      "description": "Complete the Loyalty Programme section",
+      "fields": [
+        {
+          "id": "customer_1_0",
+          "label": "Customer 1",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "customer_2_1",
+          "label": "Customer 2",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "customer_3_2",
+          "label": "Customer 3",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "customer_4_3",
+          "label": "Customer 4",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "customer_5_4",
+          "label": "Customer 5",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "customer_6_5",
+          "label": "Customer 6",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "customer_7_6",
+          "label": "Customer 7",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "customer_8_7",
+          "label": "Customer 8",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "customer_9_8",
+          "label": "Customer 9",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "customer_10_9",
+          "label": "Customer 10",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "customer_11_10",
+          "label": "Customer 11",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "customer_12_11",
+          "label": "Customer 12",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "customer_13_12",
+          "label": "Customer 13",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "customer_14_13",
+          "label": "Customer 14",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "customer_15_14",
+          "label": "Customer 15",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "customer_16_15",
+          "label": "Customer 16",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "customer_17_16",
+          "label": "Customer 17",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "customer_18_17",
+          "label": "Customer 18",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "customer_19_18",
+          "label": "Customer 19",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "customer_20_19",
+          "label": "Customer 20",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "customer_21_20",
+          "label": "Customer 21",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "customer_22_21",
+          "label": "Customer 22",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "customer_23_22",
+          "label": "Customer 23",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "customer_24_23",
+          "label": "Customer 24",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "customer_25_24",
+          "label": "Customer 25",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "customer_26_25",
+          "label": "Customer 26",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "customer_27_26",
+          "label": "Customer 27",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "customer_28_27",
+          "label": "Customer 28",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "customer_29_28",
+          "label": "Customer 29",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "customer_30_29",
+          "label": "Customer 30",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "win_back_campaigns",
+      "title": "Win-Back Campaigns",
+      "description": "Complete the Win-Back Campaigns section",
+      "fields": [
+        {
+          "id": "20_discount_0",
+          "label": "20% Discount",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "20_discount_1",
+          "label": "20% Discount",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "20_discount_2",
+          "label": "20% Discount",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "20_discount_3",
+          "label": "20% Discount",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "20_discount_4",
+          "label": "20% Discount",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "20_discount_5",
+          "label": "20% Discount",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "20_discount_6",
+          "label": "20% Discount",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "20_discount_7",
+          "label": "20% Discount",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "20_discount_8",
+          "label": "20% Discount",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "20_discount_9",
+          "label": "20% Discount",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "20_discount_10",
+          "label": "20% Discount",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "20_discount_11",
+          "label": "20% Discount",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "20_discount_12",
+          "label": "20% Discount",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "20_discount_13",
+          "label": "20% Discount",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "20_discount_14",
+          "label": "20% Discount",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "20_discount_15",
+          "label": "20% Discount",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "20_discount_16",
+          "label": "20% Discount",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "20_discount_17",
+          "label": "20% Discount",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "20_discount_18",
+          "label": "20% Discount",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "20_discount_19",
+          "label": "20% Discount",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "20_discount_20",
+          "label": "20% Discount",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "20_discount_21",
+          "label": "20% Discount",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "20_discount_22",
+          "label": "20% Discount",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "20_discount_23",
+          "label": "20% Discount",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "20_discount_24",
+          "label": "20% Discount",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "20_discount_25",
+          "label": "20% Discount",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "20_discount_26",
+          "label": "20% Discount",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "20_discount_27",
+          "label": "20% Discount",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "20_discount_28",
+          "label": "20% Discount",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "20_discount_29",
+          "label": "20% Discount",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "customer_journey_map",
+      "title": "Customer Journey Map",
+      "description": "Complete the Customer Journey Map section",
+      "fields": [
+        {
+          "id": "customer_journey_map_0",
+          "label": "CUSTOMER JOURNEY MAP",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "onboarding_1",
+          "label": "Onboarding",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "welcome_email_setup_call_training_materi_2",
+          "label": "Welcome email, Setup call, Training materials",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "email_phone_in_app_3",
+          "label": "Email, Phone, In-app",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "activation_rate_time_to_first_use_4",
+          "label": "Activation rate, Time to first use",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "confusion_low_engagement_5",
+          "label": "Confusion, Low engagement",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "send_resources_schedule_check_in_6",
+          "label": "Send resources, Schedule check-in",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "adoption_7",
+          "label": "Adoption",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "product_walkthrough_success_milestones_b_8",
+          "label": "Product walkthrough, Success milestones, Best practices",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "in_app_video_documentation_9",
+          "label": "In-app, Video, Documentation",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "feature_adoption_task_completion_10",
+          "label": "Feature adoption, Task completion",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "slow_adoption_feature_underuse_11",
+          "label": "Slow adoption, Feature underuse",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "tutorials_guided_tours_12",
+          "label": "Tutorials, Guided tours",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "engagement_13",
+          "label": "Engagement",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "regular_check_ins_feature_releases_commu_14",
+          "label": "Regular check-ins, Feature releases, Community events",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "email_webinar_slack_15",
+          "label": "Email, Webinar, Slack",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "usage_frequency_feature_depth_16",
+          "label": "Usage frequency, Feature depth",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "declining_engagement_inactivity_17",
+          "label": "Declining engagement, Inactivity",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "offers_proactive_support_18",
+          "label": "Offers, Proactive support",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "renewal_19",
+          "label": "Renewal",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "success_review_renewal_proposal_contract_20",
+          "label": "Success review, Renewal proposal, Contract negotiation",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "call_email_meeting_21",
+          "label": "Call, Email, Meeting",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "renewal_rate_upsell_amount_22",
+          "label": "Renewal rate, Upsell amount",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "renewal_risk_price_concerns_23",
+          "label": "Renewal risk, Price concerns",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "special_offers_account_review_24",
+          "label": "Special offers, Account review",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "expansion_25",
+          "label": "Expansion",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "upsell_outreach_new_features_partnership_26",
+          "label": "Upsell outreach, New features, Partnership opportunities",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "sales_call_email_demo_27",
+          "label": "Sales call, Email, Demo",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "acv_growth_cross_sell_rate_28",
+          "label": "ACV growth, Cross-sell rate",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "budget_constraints_competing_priorities_29",
+          "label": "Budget constraints, Competing priorities",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "retention_playbook",
+      "title": "Retention Playbook",
+      "description": "Complete the Retention Playbook section",
+      "fields": [
+        {
+          "id": "reactivation_rate_0",
+          "label": "Reactivation rate",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "engagement_increase_1",
+          "label": "Engagement increase",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "feature_adoption_2",
+          "label": "Feature adoption %",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "tier_upgrade_rate_3",
+          "label": "Tier upgrade rate",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "nps_improvement_4",
+          "label": "NPS improvement",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "mrr_increase_5",
+          "label": "MRR increase",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "renewal_rate_6",
+          "label": "Renewal rate %",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "referral_rate_7",
+          "label": "Referral rate",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "csat_score_8",
+          "label": "CSAT score",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "attendance_rate_9",
+          "label": "Attendance rate",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "retention_rate_10",
+          "label": "Retention rate",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "expansion_rate_11",
+          "label": "Expansion rate",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "satisfaction_score_12",
+          "label": "Satisfaction score",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "course_completion_13",
+          "label": "Course completion %",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "participation_rate_14",
+          "label": "Participation rate",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "report_open_rate_15",
+          "label": "Report open rate",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "attendance_rate_16",
+          "label": "Attendance rate",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "resolution_time_17",
+          "label": "Resolution time",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "sentiment_score_18",
+          "label": "Sentiment score",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "expansion_revenue_19",
+          "label": "Expansion revenue",
+          "type": "text",
+          "placeholder": "",
+          "required": false
         }
       ]
     }

@@ -4,7 +4,7 @@
   "number": 2,
   "category": "strategy",
   "description": "Marketing Audit CEO Edition - Marketing template for strategy professionals",
-  "instructions": "How to Use This Template This audit is designed for a 60-90 minute strategic review. Step What to Do 1. Block 90 minutes Do this alone first. No marketing team in the room. You want your unfiltered perspective on whether marketing is delivering value to the business. 2. Open the Audit tab 40 questions across 8 strategic categories. These are not tactical \u2014 they are the questions a board member, investor, or acquirer would ask about your marketing function. 3. Score honestly (1-5) 1 = We have no visibility on this\n2 = We are aware but not acting\n3 = In progress but inconsistent\n4 = Solid and me",
+  "instructions": "How to Use This Template This audit is designed for a 60-90 minute strategic review. Step What to Do 1. Block 90 minutes Do this alone first. No marketing team in the room. You want your unfiltered perspective on whether marketing is delivering value to the business. 2. Open the Audit tab 40 questions across 8 strategic categories. These are not tactical — they are the questions a board member, investor, or acquirer would ask about your marketing function. 3. Score honestly (1-5) 1 = We have no visibility on this\n2 = We are aware but not acting\n3 = In progress but inconsistent\n4 = Solid and me",
   "icon": "target",
   "tags": [
     "audit"
@@ -12,221 +12,359 @@
   "estimatedTime": "60 min",
   "sections": [
     {
-      "id": "overview",
-      "title": "Overview & Objectives",
-      "description": "Define the goals and scope of your marketing audit ceo edition",
+      "id": "dashboard",
+      "title": "Dashboard",
+      "description": "Complete the Dashboard section",
       "fields": [
         {
-          "id": "objective",
-          "label": "Primary Objective",
-          "type": "textarea",
-          "placeholder": "What do you want to achieve with this marketing audit ceo edition?",
-          "required": true,
-          "helpText": ""
-        },
-        {
-          "id": "target_audience",
-          "label": "Target Audience",
-          "type": "textarea",
-          "placeholder": "Who is this for?",
-          "required": true,
-          "helpText": ""
-        },
-        {
-          "id": "timeline",
-          "label": "Timeline",
+          "id": "strategic_category_breakdown_0",
+          "label": "Strategic Category Breakdown",
           "type": "text",
-          "placeholder": "e.g., Q1 2026, Next 90 days",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "budget",
-          "label": "Budget / Resources",
-          "type": "text",
-          "placeholder": "e.g., \u20ac5,000 or 20 hours/week",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "success_metrics",
-          "label": "Success Metrics",
-          "type": "textarea",
-          "placeholder": "How will you measure success?",
-          "required": true,
-          "helpText": ""
-        }
-      ]
-    },
-    {
-      "id": "strategy",
-      "title": "Strategy & Approach",
-      "description": "Outline your strategic approach",
-      "fields": [
-        {
-          "id": "core_strategy",
-          "label": "Core Strategy",
-          "type": "textarea",
-          "placeholder": "Describe your overall approach",
-          "required": true,
-          "helpText": ""
-        },
-        {
-          "id": "key_channels",
-          "label": "Key Channels / Platforms",
-          "type": "textarea",
-          "placeholder": "e.g., LinkedIn, Email, Blog, Paid ads",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "messaging",
-          "label": "Key Messages",
-          "type": "textarea",
-          "placeholder": "What are the main messages you want to communicate?",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "differentiators",
-          "label": "Unique Differentiators",
-          "type": "textarea",
-          "placeholder": "What sets your approach apart?",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "competitors",
-          "label": "Competitive Landscape",
-          "type": "textarea",
-          "placeholder": "What are competitors doing in this area?",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "risks",
-          "label": "Potential Risks & Mitigation",
-          "type": "textarea",
-          "placeholder": "What could go wrong and how will you handle it?",
-          "required": false,
-          "helpText": ""
-        }
-      ]
-    },
-    {
-      "id": "execution",
-      "title": "Execution Plan",
-      "description": "Detail your action items and timeline",
-      "fields": [
-        {
-          "id": "phase_1",
-          "label": "Phase 1: Foundation (Week 1-2)",
-          "type": "textarea",
-          "placeholder": "What will you set up first?",
-          "required": true,
-          "helpText": ""
-        },
-        {
-          "id": "phase_2",
-          "label": "Phase 2: Launch (Week 3-4)",
-          "type": "textarea",
-          "placeholder": "What are the launch activities?",
-          "required": true,
-          "helpText": ""
-        },
-        {
-          "id": "phase_3",
-          "label": "Phase 3: Optimization (Week 5+)",
-          "type": "textarea",
-          "placeholder": "How will you iterate and improve?",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "tools",
-          "label": "Tools & Technology Needed",
-          "type": "textarea",
-          "placeholder": "e.g., HubSpot, Canva, Google Analytics",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "team",
-          "label": "Team & Responsibilities",
-          "type": "textarea",
-          "placeholder": "Who is responsible for what?",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "dependencies",
-          "label": "Dependencies & Prerequisites",
-          "type": "textarea",
-          "placeholder": "What needs to happen before you can start?",
-          "required": false,
-          "helpText": ""
-        }
-      ]
-    },
-    {
-      "id": "tracking",
-      "title": "Tracking & Reporting",
-      "description": "Set up measurement and reporting",
-      "fields": [
-        {
-          "id": "kpis",
-          "label": "Key Performance Indicators",
-          "type": "textarea",
-          "placeholder": "List 3-5 KPIs you'll track",
-          "required": true,
-          "helpText": ""
-        },
-        {
-          "id": "reporting_frequency",
-          "label": "Reporting Frequency",
-          "type": "select",
-          "options": [
-            "Daily",
-            "Weekly",
-            "Bi-weekly",
-            "Monthly",
-            "Quarterly"
-          ],
-          "required": false,
           "placeholder": "",
-          "helpText": ""
+          "required": false
         },
         {
-          "id": "dashboard_tools",
-          "label": "Dashboard / Analytics Tools",
+          "id": "category_1",
+          "label": "Category",
           "type": "text",
-          "placeholder": "e.g., Google Analytics, Mixpanel",
-          "required": false,
-          "helpText": ""
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "benchmarks",
-          "label": "Benchmarks / Targets",
-          "type": "textarea",
-          "placeholder": "What are your target numbers?",
-          "required": false,
-          "helpText": ""
+          "id": "marketing_revenue_alignment_2",
+          "label": "Marketing-Revenue Alignment",
+          "type": "text",
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "review_process",
-          "label": "Review & Optimization Process",
-          "type": "textarea",
-          "placeholder": "How will you review and adjust?",
-          "required": false,
-          "helpText": ""
+          "id": "brand_health_market_position_3",
+          "label": "Brand Health & Market Position",
+          "type": "text",
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "lessons_learned",
-          "label": "Lessons Learned",
-          "type": "textarea",
-          "placeholder": "Document insights as you go",
-          "required": false,
-          "helpText": ""
+          "id": "customer_acquisition_efficiency_4",
+          "label": "Customer Acquisition Efficiency",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "marketing_team_capability_5",
+          "label": "Marketing Team & Capability",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "digital_maturity_6",
+          "label": "Digital Maturity",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "content_thought_leadership_7",
+          "label": "Content & Thought Leadership",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "data_decision_quality_8",
+          "label": "Data & Decision Quality",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "competitive_readiness_9",
+          "label": "Competitive Readiness",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "executive_summary_10",
+          "label": "Executive Summary",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "items_scored_11",
+          "label": "Items Scored",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "recommended_next_steps_12",
+          "label": "Recommended Next Steps",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "1_share_this_dashboard_with_your_marketi_13",
+          "label": "1. Share this dashboard with your marketing leader and schedule a 1:1 to discuss gaps.",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "2_for_any_category_scoring_below_3_0_req_14",
+          "label": "2. For any category scoring below 3.0 — request a 1-page action plan within 2 weeks.",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "3_for_blind_spots_these_need_immediate_i_15",
+          "label": "3. For Blind Spots — these need immediate investigation. You cannot manage what you cannot see.",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "4_consider_the_90_day_growth_challenge_f_16",
+          "label": "4. Consider the 90-Day Growth Challenge from Advertising Unplugged to structure your improvement plan.",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "5_re_audit_in_90_days_track_progress_hol_17",
+          "label": "5. Re-audit in 90 days. Track progress. Hold your team accountable to improvement, not perfection.",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "advertising_unplugged_clarity_over_noise_18",
+          "label": "Advertising Unplugged — Clarity Over Noise. Purpose Beyond Profit.",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "ceo_audit",
+      "title": "CEO Audit",
+      "description": "Complete the CEO Audit section",
+      "fields": [
+        {
+          "id": "can_you_directly_attribute_revenue_to_ma_0",
+          "label": "Can you directly attribute revenue to marketing activities?",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "is_the_marketing_budget_tied_to_measurab_1",
+          "label": "Is the marketing budget tied to measurable business outcomes (not just activity)?",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "does_marketing_generate_qualified_leads__2",
+          "label": "Does marketing generate qualified leads that your sales team actually converts?",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "do_you_know_your_customer_acquisition_co_3",
+          "label": "Do you know your customer acquisition cost (CAC) and how it trends quarterly?",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "is_marketing_aligned_with_sales_on_targe_4",
+          "label": "Is marketing aligned with sales on target accounts, messaging, and handoff process?",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "can_you_articulate_your_competitive_posi_5",
+          "label": "Can you articulate your competitive positioning in one sentence — and does the market agree?",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "do_you_have_brand_awareness_or_perceptio_6",
+          "label": "Do you have brand awareness or perception data from the last 12 months?",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "is_your_brand_consistently_represented_a_7",
+          "label": "Is your brand consistently represented across all customer touchpoints?",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "are_you_winning_or_losing_share_of_voice_8",
+          "label": "Are you winning or losing share of voice against your top 3 competitors?",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "would_your_customers_recommend_you_and_d_9",
+          "label": "Would your customers recommend you — and do you have the NPS/CSAT data to prove it?",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "do_you_know_which_channels_deliver_the_l_10",
+          "label": "Do you know which channels deliver the lowest CAC and highest lifetime value?",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "is_your_website_converting_visitors_into_11",
+          "label": "Is your website converting visitors into leads at an acceptable rate?",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "are_your_paid_media_campaigns_delivering_12",
+          "label": "Are your paid media campaigns delivering positive ROAS?",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "do_you_have_a_working_organic_engine_seo_13",
+          "label": "Do you have a working organic engine (SEO, content, referrals) or are you fully dependent on paid?",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "is_your_sales_pipeline_consistently_fill_14",
+          "label": "Is your sales pipeline consistently filled by marketing-sourced opportunities?",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "does_your_marketing_team_have_the_right__15",
+          "label": "Does your marketing team have the right skills for your current growth stage?",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "is_there_a_clear_marketing_leader_who_ow_16",
+          "label": "Is there a clear marketing leader who owns strategy and reports to the executive team?",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "can_your_marketing_team_execute_independ_17",
+          "label": "Can your marketing team execute independently without constant CEO involvement?",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "do_you_have_the_right_balance_of_in_hous_18",
+          "label": "Do you have the right balance of in-house talent vs. agency/freelance support?",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "is_there_a_talent_development_or_upskill_19",
+          "label": "Is there a talent development or upskilling plan for your marketing team?",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "is_your_marketing_technology_stack_integ_20",
+          "label": "Is your marketing technology stack integrated and delivering value (not just cost)?",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "are_you_using_automation_effectively_for_21",
+          "label": "Are you using automation effectively for lead nurturing, email, and workflows?",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "is_your_crm_clean_adopted_by_the_team_an_22",
+          "label": "Is your CRM clean, adopted by the team, and producing useful data?",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "do_you_have_a_clear_data_strategy_what_y_23",
+          "label": "Do you have a clear data strategy — what you collect, how you use it, who owns it?",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "are_you_leveraging_ai_or_advanced_analyt_24",
+          "label": "Are you leveraging AI or advanced analytics to improve marketing decisions?",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "does_your_company_have_a_clear_content_s_25",
+          "label": "Does your company have a clear content strategy aligned to business goals?",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "are_you_or_your_executives_visible_as_th_26",
+          "label": "Are you or your executives visible as thought leaders in your industry?",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "is_your_content_generating_inbound_inter_27",
+          "label": "Is your content generating inbound interest (leads, press, partnership enquiries)?",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "do_you_have_a_content_engine_that_operat_28",
+          "label": "Do you have a content engine that operates without the founder driving every piece?",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "is_your_content_differentiated_or_does_i_29",
+          "label": "Is your content differentiated — or does it sound like everyone else in your category?",
+          "type": "text",
+          "placeholder": "",
+          "required": false
         }
       ]
     }

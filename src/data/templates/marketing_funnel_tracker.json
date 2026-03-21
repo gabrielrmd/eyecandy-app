@@ -4,7 +4,7 @@
   "number": 14,
   "category": "analytics",
   "description": "Marketing Funnel Tracker - Marketing template for analytics professionals",
-  "instructions": "How to Use This Template Step 1: Set Your Targets Go to the Funnel Targets tab. Define your target volume for each funnel stage for each month. These become your benchmarks. Step 2: Enter Monthly Actuals Use the Monthly Funnel tab. Each month, enter the actual number of leads/contacts at each funnel stage. Conversion rates auto-calculate. Step 3: Track by Channel The Channel Funnel tab breaks down funnel performance by acquisition channel \u2014 see which channels produce the highest-quality leads. Step 4: Analyze Leaks The Dashboard highlights your biggest conversion drop-offs, compares actual vs ",
+  "instructions": "How to Use This Template Step 1: Set Your Targets Go to the Funnel Targets tab. Define your target volume for each funnel stage for each month. These become your benchmarks. Step 2: Enter Monthly Actuals Use the Monthly Funnel tab. Each month, enter the actual number of leads/contacts at each funnel stage. Conversion rates auto-calculate. Step 3: Track by Channel The Channel Funnel tab breaks down funnel performance by acquisition channel — see which channels produce the highest-quality leads. Step 4: Analyze Leaks The Dashboard highlights your biggest conversion drop-offs, compares actual vs ",
   "icon": "bar-chart",
   "tags": [
     "analytics"
@@ -12,471 +12,492 @@
   "estimatedTime": "55 min",
   "sections": [
     {
-      "id": "section_1",
+      "id": "dashboard",
+      "title": "Dashboard",
+      "description": "Complete the Dashboard section",
+      "fields": [
+        {
+          "id": "mqls_0",
+          "label": "MQLs",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "sqls_1",
+          "label": "SQLs",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "opportunities_2",
+          "label": "Opportunities",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "customers_3",
+          "label": "Customers",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "overall_conv_4",
+          "label": "Overall Conv",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "stage_by_stage_conversion_ytd_average_5",
+          "label": "STAGE-BY-STAGE CONVERSION (YTD Average)",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "conversion_6",
+          "label": "Conversion",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "rate_7",
+          "label": "Rate",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "ytd_volume_in_8",
+          "label": "YTD Volume In",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "ytd_volume_out_9",
+          "label": "YTD Volume Out",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "drop_off_10",
+          "label": "Drop-off",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "visitor_lead_11",
+          "label": "Visitor→Lead",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "lead_mql_12",
+          "label": "Lead→MQL",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "mql_sql_13",
+          "label": "MQL→SQL",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "sql_opp_14",
+          "label": "SQL→Opp",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "opp_customer_15",
+          "label": "Opp→Customer",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "actual_vs_target_ytd_16",
+          "label": "ACTUAL vs TARGET (YTD)",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "stage_17",
+          "label": "Stage",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "ytd_actual_18",
+          "label": "YTD Actual",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "ytd_target_19",
+          "label": "YTD Target",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "variance_20",
+          "label": "Variance",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "of_target_21",
+          "label": "% of Target",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "visitors_22",
+          "label": "Visitors",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "leads_23",
+          "label": "Leads",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "mqls_24",
+          "label": "MQLs",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "sqls_25",
+          "label": "SQLs",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "opportunities_26",
+          "label": "Opportunities",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "customers_27",
+          "label": "Customers",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "funnel_health_indicators_28",
+          "label": "FUNNEL HEALTH INDICATORS",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "biggest_drop_off_stage_29",
+          "label": "Biggest Drop-off Stage",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "monthly_funnel",
       "title": "Monthly Funnel",
-      "description": "Configuration and tracking for Monthly Funnel",
+      "description": "Complete the Monthly Funnel section",
       "fields": [
         {
-          "id": "field_1",
-          "label": "Monthly Funnel Data",
+          "id": "visitors_0",
+          "label": "Visitors",
           "type": "text",
-          "placeholder": "Enter monthly funnel data",
-          "required": false,
-          "helpText": "Enter actual numbers each month. Conversion rates auto-calculate below."
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_2",
-          "label": "Monthly Funnel Data",
+          "id": "leads_1",
+          "label": "Leads",
           "type": "text",
-          "placeholder": "Enter monthly funnel data",
-          "required": false,
-          "helpText": "FUNNEL VOLUMES (enter actual numbers)"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_3",
-          "label": "Monthly Funnel Data",
+          "id": "mqls_2",
+          "label": "MQLs",
           "type": "text",
-          "placeholder": "Enter monthly funnel data",
-          "required": false,
-          "helpText": "Stage"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_4",
-          "label": "Monthly Funnel Data",
+          "id": "sqls_3",
+          "label": "SQLs",
           "type": "text",
-          "placeholder": "Enter monthly funnel data",
-          "required": false,
-          "helpText": "Visitors"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_5",
-          "label": "Monthly Funnel Data",
+          "id": "opportunities_4",
+          "label": "Opportunities",
           "type": "text",
-          "placeholder": "Enter monthly funnel data",
-          "required": false,
-          "helpText": "Leads"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_6",
-          "label": "Monthly Funnel Data",
+          "id": "customers_5",
+          "label": "Customers",
           "type": "text",
-          "placeholder": "Enter monthly funnel data",
-          "required": false,
-          "helpText": "MQLs"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_7",
-          "label": "Monthly Funnel Data",
+          "id": "revenue_6",
+          "label": "Revenue",
           "type": "text",
-          "placeholder": "Enter monthly funnel data",
-          "required": false,
-          "helpText": "SQLs"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_8",
-          "label": "Monthly Funnel Data",
+          "id": "conversion_rates_auto_calculated_7",
+          "label": "CONVERSION RATES (auto-calculated)",
           "type": "text",
-          "placeholder": "Enter monthly funnel data",
-          "required": false,
-          "helpText": "Opportunities"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_9",
-          "label": "Monthly Funnel Data",
+          "id": "conversion_8",
+          "label": "Conversion",
           "type": "text",
-          "placeholder": "Enter monthly funnel data",
-          "required": false,
-          "helpText": "Customers"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_10",
-          "label": "Monthly Funnel Data",
+          "id": "visitor_lead_9",
+          "label": "Visitor→Lead",
           "type": "text",
-          "placeholder": "Enter monthly funnel data",
-          "required": false,
-          "helpText": "Revenue"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_11",
-          "label": "Monthly Funnel Data",
+          "id": "lead_mql_10",
+          "label": "Lead→MQL",
           "type": "text",
-          "placeholder": "Enter monthly funnel data",
-          "required": false,
-          "helpText": "CONVERSION RATES (auto-calculated)"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_12",
-          "label": "Monthly Funnel Data",
+          "id": "mql_sql_11",
+          "label": "MQL→SQL",
           "type": "text",
-          "placeholder": "Enter monthly funnel data",
-          "required": false,
-          "helpText": "Conversion"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_13",
-          "label": "Monthly Funnel Data",
+          "id": "sql_opp_12",
+          "label": "SQL→Opp",
           "type": "text",
-          "placeholder": "Enter monthly funnel data",
-          "required": false,
-          "helpText": "Visitor\u2192Lead"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_14",
-          "label": "Monthly Funnel Data",
+          "id": "opp_customer_13",
+          "label": "Opp→Customer",
           "type": "text",
-          "placeholder": "Enter monthly funnel data",
-          "required": false,
-          "helpText": "Lead\u2192MQL"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_15",
-          "label": "Monthly Funnel Data",
+          "id": "overall_v_c_14",
+          "label": "Overall (V→C)",
           "type": "text",
-          "placeholder": "Enter monthly funnel data",
-          "required": false,
-          "helpText": "MQL\u2192SQL"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_16",
-          "label": "Monthly Funnel Data",
+          "id": "drop_off_volumes_auto_calculated_leads_l_15",
+          "label": "DROP-OFF VOLUMES (auto-calculated — leads lost at each stage)",
           "type": "text",
-          "placeholder": "Enter monthly funnel data",
-          "required": false,
-          "helpText": "SQL\u2192Opp"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_17",
-          "label": "Monthly Funnel Data",
+          "id": "drop_off_stage_16",
+          "label": "Drop-off Stage",
           "type": "text",
-          "placeholder": "Enter monthly funnel data",
-          "required": false,
-          "helpText": "Opp\u2192Customer"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_18",
-          "label": "Monthly Funnel Data",
+          "id": "visitor_lead_lost_17",
+          "label": "Visitor→Lead Lost",
           "type": "text",
-          "placeholder": "Enter monthly funnel data",
-          "required": false,
-          "helpText": "Overall (V\u2192C)"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_19",
-          "label": "Monthly Funnel Data",
+          "id": "lead_mql_lost_18",
+          "label": "Lead→MQL Lost",
           "type": "text",
-          "placeholder": "Enter monthly funnel data",
-          "required": false,
-          "helpText": "DROP-OFF VOLUMES (auto-calculated \u2014 leads lost at each stage)"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_20",
-          "label": "Monthly Funnel Data",
+          "id": "mql_sql_lost_19",
+          "label": "MQL→SQL Lost",
           "type": "text",
-          "placeholder": "Enter monthly funnel data",
-          "required": false,
-          "helpText": "Drop-off Stage"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_21",
-          "label": "Monthly Funnel Data",
+          "id": "sql_opp_lost_20",
+          "label": "SQL→Opp Lost",
           "type": "text",
-          "placeholder": "Enter monthly funnel data",
-          "required": false,
-          "helpText": "Visitor\u2192Lead Lost"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_22",
-          "label": "Monthly Funnel Data",
+          "id": "opp_customer_lost_21",
+          "label": "Opp→Customer Lost",
           "type": "text",
-          "placeholder": "Enter monthly funnel data",
-          "required": false,
-          "helpText": "Lead\u2192MQL Lost"
-        },
-        {
-          "id": "field_23",
-          "label": "Monthly Funnel Data",
-          "type": "text",
-          "placeholder": "Enter monthly funnel data",
-          "required": false,
-          "helpText": "MQL\u2192SQL Lost"
-        },
-        {
-          "id": "field_24",
-          "label": "Monthly Funnel Data",
-          "type": "text",
-          "placeholder": "Enter monthly funnel data",
-          "required": false,
-          "helpText": "SQL\u2192Opp Lost"
-        },
-        {
-          "id": "field_25",
-          "label": "Monthly Funnel Data",
-          "type": "text",
-          "placeholder": "Enter monthly funnel data",
-          "required": false,
-          "helpText": "Opp\u2192Customer Lost"
+          "placeholder": "",
+          "required": false
         }
       ]
     },
     {
-      "id": "section_2",
+      "id": "funnel_targets",
       "title": "Funnel Targets",
-      "description": "Configuration and tracking for Funnel Targets",
+      "description": "Complete the Funnel Targets section",
       "fields": [
         {
-          "id": "field_1",
-          "label": "Funnel Targets",
+          "id": "visitors_0",
+          "label": "Visitors",
           "type": "text",
-          "placeholder": "Enter funnel targets",
-          "required": false,
-          "helpText": "Set monthly targets for each funnel stage. Dashboard compares actual vs target."
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_2",
-          "label": "Funnel Targets",
+          "id": "leads_1",
+          "label": "Leads",
           "type": "text",
-          "placeholder": "Enter funnel targets",
-          "required": false,
-          "helpText": "MONTHLY TARGETS"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_3",
-          "label": "Funnel Targets",
+          "id": "mqls_2",
+          "label": "MQLs",
           "type": "text",
-          "placeholder": "Enter funnel targets",
-          "required": false,
-          "helpText": "Stage"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_4",
-          "label": "Funnel Targets",
+          "id": "sqls_3",
+          "label": "SQLs",
           "type": "text",
-          "placeholder": "Enter funnel targets",
-          "required": false,
-          "helpText": "Visitors"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_5",
-          "label": "Funnel Targets",
+          "id": "opportunities_4",
+          "label": "Opportunities",
           "type": "text",
-          "placeholder": "Enter funnel targets",
-          "required": false,
-          "helpText": "Leads"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_6",
-          "label": "Funnel Targets",
+          "id": "customers_5",
+          "label": "Customers",
           "type": "text",
-          "placeholder": "Enter funnel targets",
-          "required": false,
-          "helpText": "MQLs"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_7",
-          "label": "Funnel Targets",
+          "id": "target_conversion_rates_6",
+          "label": "TARGET CONVERSION RATES",
           "type": "text",
-          "placeholder": "Enter funnel targets",
-          "required": false,
-          "helpText": "SQLs"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_8",
-          "label": "Funnel Targets",
+          "id": "conversion_7",
+          "label": "Conversion",
           "type": "text",
-          "placeholder": "Enter funnel targets",
-          "required": false,
-          "helpText": "Opportunities"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_9",
-          "label": "Funnel Targets",
+          "id": "visitor_lead_8",
+          "label": "Visitor→Lead",
           "type": "text",
-          "placeholder": "Enter funnel targets",
-          "required": false,
-          "helpText": "Customers"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_10",
-          "label": "Funnel Targets",
+          "id": "lead_mql_9",
+          "label": "Lead→MQL",
           "type": "text",
-          "placeholder": "Enter funnel targets",
-          "required": false,
-          "helpText": "TARGET CONVERSION RATES"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_11",
-          "label": "Funnel Targets",
+          "id": "mql_sql_10",
+          "label": "MQL→SQL",
           "type": "text",
-          "placeholder": "Enter funnel targets",
-          "required": false,
-          "helpText": "Conversion"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_12",
-          "label": "Funnel Targets",
+          "id": "sql_opp_11",
+          "label": "SQL→Opp",
           "type": "text",
-          "placeholder": "Enter funnel targets",
-          "required": false,
-          "helpText": "Visitor\u2192Lead"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_13",
-          "label": "Funnel Targets",
+          "id": "opp_customer_12",
+          "label": "Opp→Customer",
           "type": "text",
-          "placeholder": "Enter funnel targets",
-          "required": false,
-          "helpText": "Lead\u2192MQL"
-        },
-        {
-          "id": "field_14",
-          "label": "Funnel Targets",
-          "type": "text",
-          "placeholder": "Enter funnel targets",
-          "required": false,
-          "helpText": "MQL\u2192SQL"
-        },
-        {
-          "id": "field_15",
-          "label": "Funnel Targets",
-          "type": "text",
-          "placeholder": "Enter funnel targets",
-          "required": false,
-          "helpText": "SQL\u2192Opp"
-        },
-        {
-          "id": "field_16",
-          "label": "Funnel Targets",
-          "type": "text",
-          "placeholder": "Enter funnel targets",
-          "required": false,
-          "helpText": "Opp\u2192Customer"
+          "placeholder": "",
+          "required": false
         }
       ]
     },
     {
-      "id": "section_3",
+      "id": "channel_funnel",
       "title": "Channel Funnel",
-      "description": "Configuration and tracking for Channel Funnel",
+      "description": "Complete the Channel Funnel section",
       "fields": [
         {
-          "id": "field_1",
-          "label": "Channel Funnel Breakdown",
+          "id": "lead_conv_0",
+          "label": "Lead Conv",
           "type": "text",
-          "placeholder": "Enter channel funnel breakdown",
-          "required": false,
-          "helpText": "Break down your funnel by acquisition channel. Enter volumes, conversions auto-calculate."
-        },
-        {
-          "id": "field_2",
-          "label": "Channel Funnel Breakdown",
-          "type": "text",
-          "placeholder": "Enter channel funnel breakdown",
-          "required": false,
-          "helpText": "VOLUME DATA (enter actuals)"
-        },
-        {
-          "id": "field_3",
-          "label": "Channel Funnel Breakdown",
-          "type": "text",
-          "placeholder": "Enter channel funnel breakdown",
-          "required": false,
-          "helpText": "Channel"
-        },
-        {
-          "id": "field_4",
-          "label": "Channel Funnel Breakdown",
-          "type": "text",
-          "placeholder": "Enter channel funnel breakdown",
-          "required": false,
-          "helpText": "Organic Search"
-        },
-        {
-          "id": "field_5",
-          "label": "Channel Funnel Breakdown",
-          "type": "text",
-          "placeholder": "Enter channel funnel breakdown",
-          "required": false,
-          "helpText": "Paid Search"
-        },
-        {
-          "id": "field_6",
-          "label": "Channel Funnel Breakdown",
-          "type": "text",
-          "placeholder": "Enter channel funnel breakdown",
-          "required": false,
-          "helpText": "Paid Social"
-        },
-        {
-          "id": "field_7",
-          "label": "Channel Funnel Breakdown",
-          "type": "text",
-          "placeholder": "Enter channel funnel breakdown",
-          "required": false,
-          "helpText": "Organic Social"
-        },
-        {
-          "id": "field_8",
-          "label": "Channel Funnel Breakdown",
-          "type": "text",
-          "placeholder": "Enter channel funnel breakdown",
-          "required": false,
-          "helpText": "Email"
-        },
-        {
-          "id": "field_9",
-          "label": "Channel Funnel Breakdown",
-          "type": "text",
-          "placeholder": "Enter channel funnel breakdown",
-          "required": false,
-          "helpText": "Content Marketing"
-        },
-        {
-          "id": "field_10",
-          "label": "Channel Funnel Breakdown",
-          "type": "text",
-          "placeholder": "Enter channel funnel breakdown",
-          "required": false,
-          "helpText": "Referral"
-        },
-        {
-          "id": "field_11",
-          "label": "Channel Funnel Breakdown",
-          "type": "text",
-          "placeholder": "Enter channel funnel breakdown",
-          "required": false,
-          "helpText": "Events"
-        },
-        {
-          "id": "field_12",
-          "label": "Channel Funnel Breakdown",
-          "type": "text",
-          "placeholder": "Enter channel funnel breakdown",
-          "required": false,
-          "helpText": "Direct"
-        },
-        {
-          "id": "field_13",
-          "label": "Channel Funnel Breakdown",
-          "type": "text",
-          "placeholder": "Enter channel funnel breakdown",
-          "required": false,
-          "helpText": "Partnerships"
-        },
-        {
-          "id": "field_14",
-          "label": "Channel Funnel Breakdown",
-          "type": "text",
-          "placeholder": "Enter channel funnel breakdown",
-          "required": false,
-          "helpText": "Other"
-        },
-        {
-          "id": "field_15",
-          "label": "Channel Funnel Breakdown",
-          "type": "text",
-          "placeholder": "Enter channel funnel breakdown",
-          "required": false,
-          "helpText": "TOTAL"
+          "placeholder": "",
+          "required": false
         }
       ]
     }

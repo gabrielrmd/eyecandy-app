@@ -13,221 +13,660 @@
   "estimatedTime": "65 min",
   "sections": [
     {
-      "id": "overview",
-      "title": "Overview & Objectives",
-      "description": "Define the goals and scope of your partnership marketing plan",
+      "id": "dashboard",
+      "title": "Dashboard",
+      "description": "Complete the Dashboard section",
       "fields": [
         {
-          "id": "objective",
-          "label": "Primary Objective",
-          "type": "textarea",
-          "placeholder": "What do you want to achieve with this partnership marketing plan?",
-          "required": true,
-          "helpText": ""
-        },
-        {
-          "id": "target_audience",
-          "label": "Target Audience",
-          "type": "textarea",
-          "placeholder": "Who is this for?",
-          "required": true,
-          "helpText": ""
-        },
-        {
-          "id": "timeline",
-          "label": "Timeline",
+          "id": "partnership_marketing_dashboard_0",
+          "label": "Partnership Marketing Dashboard",
           "type": "text",
-          "placeholder": "e.g., Q1 2026, Next 90 days",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "budget",
-          "label": "Budget / Resources",
-          "type": "text",
-          "placeholder": "e.g., \u20ac5,000 or 20 hours/week",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "success_metrics",
-          "label": "Success Metrics",
-          "type": "textarea",
-          "placeholder": "How will you measure success?",
-          "required": true,
-          "helpText": ""
-        }
-      ]
-    },
-    {
-      "id": "strategy",
-      "title": "Strategy & Approach",
-      "description": "Outline your strategic approach",
-      "fields": [
-        {
-          "id": "core_strategy",
-          "label": "Core Strategy",
-          "type": "textarea",
-          "placeholder": "Describe your overall approach",
-          "required": true,
-          "helpText": ""
-        },
-        {
-          "id": "key_channels",
-          "label": "Key Channels / Platforms",
-          "type": "textarea",
-          "placeholder": "e.g., LinkedIn, Email, Blog, Paid ads",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "messaging",
-          "label": "Key Messages",
-          "type": "textarea",
-          "placeholder": "What are the main messages you want to communicate?",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "differentiators",
-          "label": "Unique Differentiators",
-          "type": "textarea",
-          "placeholder": "What sets your approach apart?",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "competitors",
-          "label": "Competitive Landscape",
-          "type": "textarea",
-          "placeholder": "What are competitors doing in this area?",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "risks",
-          "label": "Potential Risks & Mitigation",
-          "type": "textarea",
-          "placeholder": "What could go wrong and how will you handle it?",
-          "required": false,
-          "helpText": ""
-        }
-      ]
-    },
-    {
-      "id": "execution",
-      "title": "Execution Plan",
-      "description": "Detail your action items and timeline",
-      "fields": [
-        {
-          "id": "phase_1",
-          "label": "Phase 1: Foundation (Week 1-2)",
-          "type": "textarea",
-          "placeholder": "What will you set up first?",
-          "required": true,
-          "helpText": ""
-        },
-        {
-          "id": "phase_2",
-          "label": "Phase 2: Launch (Week 3-4)",
-          "type": "textarea",
-          "placeholder": "What are the launch activities?",
-          "required": true,
-          "helpText": ""
-        },
-        {
-          "id": "phase_3",
-          "label": "Phase 3: Optimization (Week 5+)",
-          "type": "textarea",
-          "placeholder": "How will you iterate and improve?",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "tools",
-          "label": "Tools & Technology Needed",
-          "type": "textarea",
-          "placeholder": "e.g., HubSpot, Canva, Google Analytics",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "team",
-          "label": "Team & Responsibilities",
-          "type": "textarea",
-          "placeholder": "Who is responsible for what?",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "dependencies",
-          "label": "Dependencies & Prerequisites",
-          "type": "textarea",
-          "placeholder": "What needs to happen before you can start?",
-          "required": false,
-          "helpText": ""
-        }
-      ]
-    },
-    {
-      "id": "tracking",
-      "title": "Tracking & Reporting",
-      "description": "Set up measurement and reporting",
-      "fields": [
-        {
-          "id": "kpis",
-          "label": "Key Performance Indicators",
-          "type": "textarea",
-          "placeholder": "List 3-5 KPIs you'll track",
-          "required": true,
-          "helpText": ""
-        },
-        {
-          "id": "reporting_frequency",
-          "label": "Reporting Frequency",
-          "type": "select",
-          "options": [
-            "Daily",
-            "Weekly",
-            "Bi-weekly",
-            "Monthly",
-            "Quarterly"
-          ],
-          "required": false,
           "placeholder": "",
-          "helpText": ""
+          "required": false
         },
         {
-          "id": "dashboard_tools",
-          "label": "Dashboard / Analytics Tools",
+          "id": "total_active_partners_1",
+          "label": "Total Active Partners",
           "type": "text",
-          "placeholder": "e.g., Google Analytics, Mixpanel",
-          "required": false,
-          "helpText": ""
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "benchmarks",
-          "label": "Benchmarks / Targets",
-          "type": "textarea",
-          "placeholder": "What are your target numbers?",
-          "required": false,
-          "helpText": ""
+          "id": "total_revenue_generated_2",
+          "label": "Total Revenue Generated",
+          "type": "text",
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "review_process",
-          "label": "Review & Optimization Process",
-          "type": "textarea",
-          "placeholder": "How will you review and adjust?",
-          "required": false,
-          "helpText": ""
+          "id": "total_leads_generated_3",
+          "label": "Total Leads Generated",
+          "type": "text",
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "lessons_learned",
-          "label": "Lessons Learned",
-          "type": "textarea",
-          "placeholder": "Document insights as you go",
-          "required": false,
-          "helpText": ""
+          "id": "average_partner_roi_4",
+          "label": "Average Partner ROI",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "active_campaigns_5",
+          "label": "Active Campaigns",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "pipeline_value_6",
+          "label": "Pipeline Value",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "content_pieces_planned_7",
+          "label": "Content Pieces Planned",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "agreements_due_renewal_8",
+          "label": "Agreements Due Renewal",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "partner_database",
+      "title": "Partner Database",
+      "description": "Complete the Partner Database section",
+      "fields": [
+        {
+          "id": "partner_database_0",
+          "label": "Partner Database",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "partner_id_1",
+          "label": "Partner ID",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "name_2",
+          "label": "Name",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "type_3",
+          "label": "Type",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "contact_4",
+          "label": "Contact",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "industry_5",
+          "label": "Industry",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "size_6",
+          "label": "Size",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "status_7",
+          "label": "Status",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "p001_8",
+          "label": "P001",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "p002_9",
+          "label": "P002",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "p003_10",
+          "label": "P003",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "p004_11",
+          "label": "P004",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "p005_12",
+          "label": "P005",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "p006_13",
+          "label": "P006",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "p007_14",
+          "label": "P007",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "p008_15",
+          "label": "P008",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "p009_16",
+          "label": "P009",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "p010_17",
+          "label": "P010",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "p011_18",
+          "label": "P011",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "p012_19",
+          "label": "P012",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "p013_20",
+          "label": "P013",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "p014_21",
+          "label": "P014",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "p015_22",
+          "label": "P015",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "p016_23",
+          "label": "P016",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "p017_24",
+          "label": "P017",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "p018_25",
+          "label": "P018",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "p019_26",
+          "label": "P019",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "p020_27",
+          "label": "P020",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "p021_28",
+          "label": "P021",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "p022_29",
+          "label": "P022",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "partnership_scorecard",
+      "title": "Partnership Scorecard",
+      "description": "Complete the Partnership Scorecard section",
+      "fields": [
+        {
+          "id": "partnership_scorecard_0",
+          "label": "Partnership Scorecard",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "partner_name_1",
+          "label": "Partner Name",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "revenue_generated_2",
+          "label": "Revenue Generated",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "leads_generated_3",
+          "label": "Leads Generated",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "content_pieces_4",
+          "label": "Content Pieces",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "joint_events_5",
+          "label": "Joint Events",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "engagement_score_6",
+          "label": "Engagement Score",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "campaign_tracker",
+      "title": "Campaign Tracker",
+      "description": "Complete the Campaign Tracker section",
+      "fields": [
+        {
+          "id": "campaign_tracker_0",
+          "label": "Campaign Tracker",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "campaign_1",
+          "label": "Campaign",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "partner_2",
+          "label": "Partner",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "type_3",
+          "label": "Type",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "start_date_4",
+          "label": "Start Date",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "end_date_5",
+          "label": "End Date",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "budget_6",
+          "label": "Budget",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "actual_spend_7",
+          "label": "Actual Spend",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "revenue_sharing",
+      "title": "Revenue Sharing",
+      "description": "Complete the Revenue Sharing section",
+      "fields": [
+        {
+          "id": "revenue_sharing_0",
+          "label": "Revenue Sharing",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "partner_1",
+          "label": "Partner",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "deal_2",
+          "label": "Deal",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "revenue_3",
+          "label": "Revenue",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "partner_share_4",
+          "label": "Partner Share %",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "partner_amount_5",
+          "label": "Partner Amount",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "our_amount_6",
+          "label": "Our Amount",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "payment_status_7",
+          "label": "Payment Status",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "joint_content_plan",
+      "title": "Joint Content Plan",
+      "description": "Complete the Joint Content Plan section",
+      "fields": [
+        {
+          "id": "joint_content_plan_0",
+          "label": "Joint Content Plan",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "content_title_1",
+          "label": "Content Title",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "partner_2",
+          "label": "Partner",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "type_3",
+          "label": "Type",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "owner_4",
+          "label": "Owner",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "draft_due_5",
+          "label": "Draft Due",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "publish_date_6",
+          "label": "Publish Date",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "platform_7",
+          "label": "Platform",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "partnership_pipeline",
+      "title": "Partnership Pipeline",
+      "description": "Complete the Partnership Pipeline section",
+      "fields": [
+        {
+          "id": "partnership_pipeline_0",
+          "label": "Partnership Pipeline",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "prospect_1",
+          "label": "Prospect",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "type_2",
+          "label": "Type",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "stage_3",
+          "label": "Stage",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "expected_value_4",
+          "label": "Expected Value",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "probability_5",
+          "label": "Probability",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "weighted_value_6",
+          "label": "Weighted Value",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "contact_7",
+          "label": "Contact",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "agreement_tracker",
+      "title": "Agreement Tracker",
+      "description": "Complete the Agreement Tracker section",
+      "fields": [
+        {
+          "id": "agreement_tracker_0",
+          "label": "Agreement Tracker",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "partner_1",
+          "label": "Partner",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "agreement_type_2",
+          "label": "Agreement Type",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "start_date_3",
+          "label": "Start Date",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "end_date_4",
+          "label": "End Date",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "renewal_date_5",
+          "label": "Renewal Date",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "auto_renew_6",
+          "label": "Auto-Renew",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "key_terms_7",
+          "label": "Key Terms",
+          "type": "text",
+          "placeholder": "",
+          "required": false
         }
       ]
     }

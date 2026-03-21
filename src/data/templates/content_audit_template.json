@@ -13,221 +13,191 @@
   "estimatedTime": "45 min",
   "sections": [
     {
-      "id": "overview",
-      "title": "Overview & Objectives",
-      "description": "Define the goals and scope of your content audit template",
+      "id": "dashboard",
+      "title": "Dashboard",
+      "description": "Complete the Dashboard section",
       "fields": [
         {
-          "id": "objective",
-          "label": "Primary Objective",
-          "type": "textarea",
-          "placeholder": "What do you want to achieve with this content audit template?",
-          "required": true,
-          "helpText": ""
-        },
-        {
-          "id": "target_audience",
-          "label": "Target Audience",
-          "type": "textarea",
-          "placeholder": "Who is this for?",
-          "required": true,
-          "helpText": ""
-        },
-        {
-          "id": "timeline",
-          "label": "Timeline",
+          "id": "total_content_assets_0",
+          "label": "Total Content Assets",
           "type": "text",
-          "placeholder": "e.g., Q1 2026, Next 90 days",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "budget",
-          "label": "Budget / Resources",
-          "type": "text",
-          "placeholder": "e.g., \u20ac5,000 or 20 hours/week",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "success_metrics",
-          "label": "Success Metrics",
-          "type": "textarea",
-          "placeholder": "How will you measure success?",
-          "required": true,
-          "helpText": ""
-        }
-      ]
-    },
-    {
-      "id": "strategy",
-      "title": "Strategy & Approach",
-      "description": "Outline your strategic approach",
-      "fields": [
-        {
-          "id": "core_strategy",
-          "label": "Core Strategy",
-          "type": "textarea",
-          "placeholder": "Describe your overall approach",
-          "required": true,
-          "helpText": ""
-        },
-        {
-          "id": "key_channels",
-          "label": "Key Channels / Platforms",
-          "type": "textarea",
-          "placeholder": "e.g., LinkedIn, Email, Blog, Paid ads",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "messaging",
-          "label": "Key Messages",
-          "type": "textarea",
-          "placeholder": "What are the main messages you want to communicate?",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "differentiators",
-          "label": "Unique Differentiators",
-          "type": "textarea",
-          "placeholder": "What sets your approach apart?",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "competitors",
-          "label": "Competitive Landscape",
-          "type": "textarea",
-          "placeholder": "What are competitors doing in this area?",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "risks",
-          "label": "Potential Risks & Mitigation",
-          "type": "textarea",
-          "placeholder": "What could go wrong and how will you handle it?",
-          "required": false,
-          "helpText": ""
-        }
-      ]
-    },
-    {
-      "id": "execution",
-      "title": "Execution Plan",
-      "description": "Detail your action items and timeline",
-      "fields": [
-        {
-          "id": "phase_1",
-          "label": "Phase 1: Foundation (Week 1-2)",
-          "type": "textarea",
-          "placeholder": "What will you set up first?",
-          "required": true,
-          "helpText": ""
-        },
-        {
-          "id": "phase_2",
-          "label": "Phase 2: Launch (Week 3-4)",
-          "type": "textarea",
-          "placeholder": "What are the launch activities?",
-          "required": true,
-          "helpText": ""
-        },
-        {
-          "id": "phase_3",
-          "label": "Phase 3: Optimization (Week 5+)",
-          "type": "textarea",
-          "placeholder": "How will you iterate and improve?",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "tools",
-          "label": "Tools & Technology Needed",
-          "type": "textarea",
-          "placeholder": "e.g., HubSpot, Canva, Google Analytics",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "team",
-          "label": "Team & Responsibilities",
-          "type": "textarea",
-          "placeholder": "Who is responsible for what?",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "dependencies",
-          "label": "Dependencies & Prerequisites",
-          "type": "textarea",
-          "placeholder": "What needs to happen before you can start?",
-          "required": false,
-          "helpText": ""
-        }
-      ]
-    },
-    {
-      "id": "tracking",
-      "title": "Tracking & Reporting",
-      "description": "Set up measurement and reporting",
-      "fields": [
-        {
-          "id": "kpis",
-          "label": "Key Performance Indicators",
-          "type": "textarea",
-          "placeholder": "List 3-5 KPIs you'll track",
-          "required": true,
-          "helpText": ""
-        },
-        {
-          "id": "reporting_frequency",
-          "label": "Reporting Frequency",
-          "type": "select",
-          "options": [
-            "Daily",
-            "Weekly",
-            "Bi-weekly",
-            "Monthly",
-            "Quarterly"
-          ],
-          "required": false,
           "placeholder": "",
-          "helpText": ""
+          "required": false
         },
         {
-          "id": "dashboard_tools",
-          "label": "Dashboard / Analytics Tools",
+          "id": "iferror_counta_content_inventory_a3_a202_1",
+          "label": "IFERROR(COUNTA('Content Inventory'!A3:A202),0)",
           "type": "text",
-          "placeholder": "e.g., Google Analytics, Mixpanel",
-          "required": false,
-          "helpText": ""
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "benchmarks",
-          "label": "Benchmarks / Targets",
-          "type": "textarea",
-          "placeholder": "What are your target numbers?",
-          "required": false,
-          "helpText": ""
+          "id": "total_blog_posts_2",
+          "label": "Total Blog Posts",
+          "type": "text",
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "review_process",
-          "label": "Review & Optimization Process",
-          "type": "textarea",
-          "placeholder": "How will you review and adjust?",
-          "required": false,
-          "helpText": ""
+          "id": "iferror_countif_content_inventory_c3_c20_3",
+          "label": "IFERROR(COUNTIF('Content Inventory'!C3:C202,\"Blog\"),0)",
+          "type": "text",
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "lessons_learned",
-          "label": "Lessons Learned",
-          "type": "textarea",
-          "placeholder": "Document insights as you go",
-          "required": false,
-          "helpText": ""
+          "id": "total_case_studies_4",
+          "label": "Total Case Studies",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "iferror_countif_content_inventory_c3_c20_5",
+          "label": "IFERROR(COUNTIF('Content Inventory'!C3:C202,\"Case Study\"),0)",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "average_quality_score_6",
+          "label": "Average Quality Score",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "iferror_average_content_scoring_b3_b202__7",
+          "label": "IFERROR(AVERAGE('Content Scoring'!B3:B202),0)",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "average_seo_score_8",
+          "label": "Average SEO Score",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "iferror_average_content_scoring_d3_d202__9",
+          "label": "IFERROR(AVERAGE('Content Scoring'!D3:D202),0)",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "total_sessions_10",
+          "label": "Total Sessions",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "iferror_sum_performance_data_b3_b202_0_11",
+          "label": "IFERROR(SUM('Performance Data'!B3:B202),0)",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "average_conversion_rate_12",
+          "label": "Average Conversion Rate",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "iferror_average_performance_data_f3_f202_13",
+          "label": "IFERROR(AVERAGE('Performance Data'!F3:F202),0)",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "total_backlinks_14",
+          "label": "Total Backlinks",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "iferror_sum_performance_data_h3_h202_0_15",
+          "label": "IFERROR(SUM('Performance Data'!H3:H202),0)",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "content_needing_update_16",
+          "label": "Content Needing Update",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "iferror_countif_content_scoring_h3_h202__17",
+          "label": "IFERROR(COUNTIF('Content Scoring'!H3:H202,\"Update\"),0)",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "content_to_archive_18",
+          "label": "Content to Archive",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "iferror_countif_content_scoring_h3_h202__19",
+          "label": "IFERROR(COUNTIF('Content Scoring'!H3:H202,\"Archive\"),0)",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "performance_data",
+      "title": "Performance Data",
+      "description": "Complete the Performance Data section",
+      "fields": [
+        {
+          "id": "bounce_rate_0",
+          "label": "Bounce Rate",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "avg_time_on_page_1",
+          "label": "Avg Time on Page",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "conversions_2",
+          "label": "Conversions",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "conversion_rate_3",
+          "label": "Conversion Rate",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "social_shares_4",
+          "label": "Social Shares",
+          "type": "text",
+          "placeholder": "",
+          "required": false
         }
       ]
     }

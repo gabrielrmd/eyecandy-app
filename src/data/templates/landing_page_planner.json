@@ -4,7 +4,7 @@
   "number": 15,
   "category": "channels",
   "description": "Landing Page Planner - Marketing template for channels professionals",
-  "instructions": "HOW TO USE THIS PLANNER Step 1: Study Best Practices Start with the Best Practices tab. Review the 50+ conversion principles organised by category. Bookmark the ones most relevant to your industry and audience. These will guide every design and copy decision. Step 2: Choose Your LP Framework Based on your campaign goal, go to the matching framework tab: \u2022 Product Sales LP \u2014 for e-commerce, product launches, direct sales \u2022 Brand Awareness LP \u2014 for top-of-funnel, thought leadership, PR \u2022 Lead Magnet LP \u2014 for gated content, free tools, email capture \u2022 Event Registration LP \u2014 for webinars, confere",
+  "instructions": "HOW TO USE THIS PLANNER Step 1: Study Best Practices Start with the Best Practices tab. Review the 50+ conversion principles organised by category. Bookmark the ones most relevant to your industry and audience. These will guide every design and copy decision. Step 2: Choose Your LP Framework Based on your campaign goal, go to the matching framework tab: • Product Sales LP — for e-commerce, product launches, direct sales • Brand Awareness LP — for top-of-funnel, thought leadership, PR • Lead Magnet LP — for gated content, free tools, email capture • Event Registration LP — for webinars, confere",
   "icon": "share-2",
   "tags": [
     "strategy",
@@ -13,221 +13,1808 @@
   "estimatedTime": "50 min",
   "sections": [
     {
-      "id": "overview",
-      "title": "Overview & Objectives",
-      "description": "Define the goals and scope of your landing page planner",
+      "id": "dashboard",
+      "title": "Dashboard",
+      "description": "Complete the Dashboard section",
       "fields": [
         {
-          "id": "objective",
-          "label": "Primary Objective",
-          "type": "textarea",
-          "placeholder": "What do you want to achieve with this landing page planner?",
-          "required": true,
-          "helpText": ""
-        },
-        {
-          "id": "target_audience",
-          "label": "Target Audience",
-          "type": "textarea",
-          "placeholder": "Who is this for?",
-          "required": true,
-          "helpText": ""
-        },
-        {
-          "id": "timeline",
-          "label": "Timeline",
+          "id": "total_pages_0",
+          "label": "Total Pages",
           "type": "text",
-          "placeholder": "e.g., Q1 2026, Next 90 days",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "budget",
-          "label": "Budget / Resources",
-          "type": "text",
-          "placeholder": "e.g., \u20ac5,000 or 20 hours/week",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "success_metrics",
-          "label": "Success Metrics",
-          "type": "textarea",
-          "placeholder": "How will you measure success?",
-          "required": true,
-          "helpText": ""
-        }
-      ]
-    },
-    {
-      "id": "strategy",
-      "title": "Strategy & Approach",
-      "description": "Outline your strategic approach",
-      "fields": [
-        {
-          "id": "core_strategy",
-          "label": "Core Strategy",
-          "type": "textarea",
-          "placeholder": "Describe your overall approach",
-          "required": true,
-          "helpText": ""
-        },
-        {
-          "id": "key_channels",
-          "label": "Key Channels / Platforms",
-          "type": "textarea",
-          "placeholder": "e.g., LinkedIn, Email, Blog, Paid ads",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "messaging",
-          "label": "Key Messages",
-          "type": "textarea",
-          "placeholder": "What are the main messages you want to communicate?",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "differentiators",
-          "label": "Unique Differentiators",
-          "type": "textarea",
-          "placeholder": "What sets your approach apart?",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "competitors",
-          "label": "Competitive Landscape",
-          "type": "textarea",
-          "placeholder": "What are competitors doing in this area?",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "risks",
-          "label": "Potential Risks & Mitigation",
-          "type": "textarea",
-          "placeholder": "What could go wrong and how will you handle it?",
-          "required": false,
-          "helpText": ""
-        }
-      ]
-    },
-    {
-      "id": "execution",
-      "title": "Execution Plan",
-      "description": "Detail your action items and timeline",
-      "fields": [
-        {
-          "id": "phase_1",
-          "label": "Phase 1: Foundation (Week 1-2)",
-          "type": "textarea",
-          "placeholder": "What will you set up first?",
-          "required": true,
-          "helpText": ""
-        },
-        {
-          "id": "phase_2",
-          "label": "Phase 2: Launch (Week 3-4)",
-          "type": "textarea",
-          "placeholder": "What are the launch activities?",
-          "required": true,
-          "helpText": ""
-        },
-        {
-          "id": "phase_3",
-          "label": "Phase 3: Optimization (Week 5+)",
-          "type": "textarea",
-          "placeholder": "How will you iterate and improve?",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "tools",
-          "label": "Tools & Technology Needed",
-          "type": "textarea",
-          "placeholder": "e.g., HubSpot, Canva, Google Analytics",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "team",
-          "label": "Team & Responsibilities",
-          "type": "textarea",
-          "placeholder": "Who is responsible for what?",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "dependencies",
-          "label": "Dependencies & Prerequisites",
-          "type": "textarea",
-          "placeholder": "What needs to happen before you can start?",
-          "required": false,
-          "helpText": ""
-        }
-      ]
-    },
-    {
-      "id": "tracking",
-      "title": "Tracking & Reporting",
-      "description": "Set up measurement and reporting",
-      "fields": [
-        {
-          "id": "kpis",
-          "label": "Key Performance Indicators",
-          "type": "textarea",
-          "placeholder": "List 3-5 KPIs you'll track",
-          "required": true,
-          "helpText": ""
-        },
-        {
-          "id": "reporting_frequency",
-          "label": "Reporting Frequency",
-          "type": "select",
-          "options": [
-            "Daily",
-            "Weekly",
-            "Bi-weekly",
-            "Monthly",
-            "Quarterly"
-          ],
-          "required": false,
           "placeholder": "",
-          "helpText": ""
+          "required": false
         },
         {
-          "id": "dashboard_tools",
-          "label": "Dashboard / Analytics Tools",
+          "id": "live_pages_1",
+          "label": "Live Pages",
           "type": "text",
-          "placeholder": "e.g., Google Analytics, Mixpanel",
-          "required": false,
-          "helpText": ""
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "benchmarks",
-          "label": "Benchmarks / Targets",
-          "type": "textarea",
-          "placeholder": "What are your target numbers?",
-          "required": false,
-          "helpText": ""
+          "id": "avg_conversion_rate_2",
+          "label": "Avg Conversion Rate",
+          "type": "text",
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "review_process",
-          "label": "Review & Optimization Process",
-          "type": "textarea",
-          "placeholder": "How will you review and adjust?",
-          "required": false,
-          "helpText": ""
+          "id": "total_visitors_3",
+          "label": "Total Visitors",
+          "type": "text",
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "lessons_learned",
-          "label": "Lessons Learned",
+          "id": "total_conversions_4",
+          "label": "Total Conversions",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "avg_roi_5",
+          "label": "Avg ROI",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "pages_by_goal_6",
+          "label": "PAGES BY GOAL",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "product_sales_7",
+          "label": "Product Sales",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "lead_generation_8",
+          "label": "Lead Generation",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "brand_awareness_9",
+          "label": "Brand Awareness",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "event_registration_10",
+          "label": "Event Registration",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "free_trial_demo_11",
+          "label": "Free Trial / Demo",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "newsletter_signup_12",
+          "label": "Newsletter Signup",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "app_download_13",
+          "label": "App Download",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "webinar_registration_14",
+          "label": "Webinar Registration",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "content_download_15",
+          "label": "Content Download",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "consultation_booking_16",
+          "label": "Consultation Booking",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "pages_by_status_17",
+          "label": "PAGES BY STATUS",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "planning_18",
+          "label": "Planning",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "copy_draft_19",
+          "label": "Copy Draft",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "design_20",
+          "label": "Design",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "development_21",
+          "label": "Development",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "review_22",
+          "label": "Review",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "live_23",
+          "label": "Live",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "paused_24",
+          "label": "Paused",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "ab_testing_summary_25",
+          "label": "AB TESTING SUMMARY",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "total_tests_planned_26",
+          "label": "Total Tests Planned",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "tests_completed_27",
+          "label": "Tests Completed",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "winner_found_28",
+          "label": "Winner Found",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "tests_running_29",
+          "label": "Tests Running",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "best_practices",
+      "title": "Best Practices",
+      "description": "Complete the Best Practices section",
+      "fields": [
+        {
+          "id": "use_benefit_driven_headlines_that_answer_0",
+          "label": "Use benefit-driven headlines that answer 'What is in it for me?'",
           "type": "textarea",
-          "placeholder": "Document insights as you go",
-          "required": false,
-          "helpText": ""
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "keep_headlines_under_10_words_for_maximu_1",
+          "label": "Keep headlines under 10 words for maximum impact",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "include_a_power_word_free_new_proven_ins_2",
+          "label": "Include a power word: Free, New, Proven, Instant, Guaranteed",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "write_subheads_that_expand_on_the_headli_3",
+          "label": "Write subheads that expand on the headline promise",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "use_second_person_you_your_to_speak_dire_4",
+          "label": "Use second person (you/your) to speak directly to the visitor",
+          "type": "textarea",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "break_copy_into_scannable_sections_with__5",
+          "label": "Break copy into scannable sections with clear subheads",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "eliminate_jargon_write_at_an_8th_grade_r_6",
+          "label": "Eliminate jargon — write at an 8th grade reading level",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "lead_with_the_problem_before_presenting__7",
+          "label": "Lead with the problem before presenting your solution",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "use_contrasting_colour_for_cta_buttons_t_8",
+          "label": "Use contrasting colour for CTA buttons that stands out from page",
+          "type": "textarea",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "write_action_oriented_cta_text_get_start_9",
+          "label": "Write action-oriented CTA text: Get, Start, Download, Join",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "place_primary_cta_above_the_fold_and_rep_10",
+          "label": "Place primary CTA above the fold and repeat below",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "add_urgency_or_scarcity_cues_near_the_ct_11",
+          "label": "Add urgency or scarcity cues near the CTA when authentic",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "use_directional_cues_arrows_eye_gaze_poi_12",
+          "label": "Use directional cues (arrows, eye gaze) pointing to CTA",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "make_cta_button_large_enough_to_tap_on_m_13",
+          "label": "Make CTA button large enough to tap on mobile (min 44x44px)",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "add_micro_copy_below_cta_to_reduce_anxie_14",
+          "label": "Add micro-copy below CTA to reduce anxiety (No credit card required)",
+          "type": "textarea",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "use_hero_images_or_videos_that_show_the__15",
+          "label": "Use hero images or videos that show the product in context",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "maintain_consistent_brand_colours_and_ty_16",
+          "label": "Maintain consistent brand colours and typography throughout",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "use_white_space_strategically_do_not_ove_17",
+          "label": "Use white space strategically — do not overcrowd the layout",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "ensure_visual_hierarchy_guides_the_eye_f_18",
+          "label": "Ensure visual hierarchy guides the eye from headline to CTA",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "use_real_photos_over_stock_images_when_p_19",
+          "label": "Use real photos over stock images when possible",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "keep_page_width_between_960_1200px_for_o_20",
+          "label": "Keep page width between 960-1200px for optimal readability",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "use_icons_to_break_up_text_and_illustrat_21",
+          "label": "Use icons to break up text and illustrate key benefits",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "display_customer_testimonials_with_real__22",
+          "label": "Display customer testimonials with real names and photos",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "include_trust_badges_security_seals_cert_23",
+          "label": "Include trust badges: security seals, certifications, awards",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "show_customer_logos_or_as_seen_in_media__24",
+          "label": "Show customer logos or 'as seen in' media mentions",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "display_specific_numbers_10_000_customer_25",
+          "label": "Display specific numbers: '10,000+ customers served'",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "add_star_ratings_or_review_scores_near_t_26",
+          "label": "Add star ratings or review scores near the CTA",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "include_a_money_back_guarantee_or_risk_f_27",
+          "label": "Include a money-back guarantee or risk-free trial promise",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "show_real_time_activity_x_people_viewing_28",
+          "label": "Show real-time activity: 'X people viewing this right now'",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "ask_only_for_essential_information_fewer_29",
+          "label": "Ask only for essential information — fewer fields = higher conversion",
+          "type": "textarea",
+          "placeholder": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "product_sales_lp",
+      "title": "Product Sales LP",
+      "description": "Complete the Product Sales LP section",
+      "fields": [
+        {
+          "id": "purpose_0",
+          "label": "PURPOSE",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "page_section_blueprint_1",
+          "label": "PAGE SECTION BLUEPRINT",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "section_2",
+          "label": "Section",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "content_guide_3",
+          "label": "Content Guide",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "design_notes_4",
+          "label": "Design Notes",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "priority_5",
+          "label": "Priority",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "hero_section_6",
+          "label": "Hero Section",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "full_width_hero_image_price_in_large_fon_7",
+          "label": "Full-width hero image. Price in large font. CTA button in contrasting colour above the fold.",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "must_have_8",
+          "label": "Must Have",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "problem_statement_9",
+          "label": "Problem Statement",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "short_paragraph_or_3_bullet_points_icon__10",
+          "label": "Short paragraph or 3 bullet points. Icon or illustration of the problem.",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "must_have_11",
+          "label": "Must Have",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "product_features_12",
+          "label": "Product Features",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "icon_feature_name_1_sentence_benefit_gri_13",
+          "label": "Icon + feature name + 1-sentence benefit. Grid layout (2 or 3 columns).",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "must_have_14",
+          "label": "Must Have",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "product_gallery_15",
+          "label": "Product Gallery",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "image_carousel_or_grid_zoom_on_hover_fun_16",
+          "label": "Image carousel or grid. Zoom-on-hover functionality. Include 360-degree view if possible.",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "must_have_17",
+          "label": "Must Have",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "benefits_section_18",
+          "label": "Benefits Section",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "3_column_layout_with_icons_before_after__19",
+          "label": "3-column layout with icons. Before/after comparison if applicable.",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "must_have_20",
+          "label": "Must Have",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "social_proof_21",
+          "label": "Social Proof",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "customer_reviews_minimum_3_star_ratings__22",
+          "label": "Customer reviews (minimum 3). Star ratings. Number of units sold. User-generated content.",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "star_rating_summary_at_top_individual_re_23",
+          "label": "Star rating summary at top. Individual reviews with name, photo, verified badge.",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "must_have_24",
+          "label": "Must Have",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "comparison_table_25",
+          "label": "Comparison Table",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "compare_your_product_vs_alternatives_or__26",
+          "label": "Compare your product vs alternatives or vs 'without this product'. Show clear advantages.",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "table_format_with_checkmarks_your_produc_27",
+          "label": "Table format with checkmarks. Your product column highlighted.",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "should_have_28",
+          "label": "Should Have",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "faq_section_29",
+          "label": "FAQ Section",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "brand_awareness_lp",
+      "title": "Brand Awareness LP",
+      "description": "Complete the Brand Awareness LP section",
+      "fields": [
+        {
+          "id": "purpose_0",
+          "label": "PURPOSE",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "page_section_blueprint_1",
+          "label": "PAGE SECTION BLUEPRINT",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "section_2",
+          "label": "Section",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "content_guide_3",
+          "label": "Content Guide",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "design_notes_4",
+          "label": "Design Notes",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "priority_5",
+          "label": "Priority",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "brand_story_hero_6",
+          "label": "Brand Story Hero",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "full_screen_hero_with_cinematic_imagery__7",
+          "label": "Full-screen hero with cinematic imagery or video background. Large typography. Minimal navigation.",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "must_have_8",
+          "label": "Must Have",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "the_problem_we_solve_9",
+          "label": "The Problem We Solve",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "storytelling_format_statistics_or_data_v_10",
+          "label": "Storytelling format. Statistics or data visualisation to quantify the problem.",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "must_have_11",
+          "label": "Must Have",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "our_mission_12",
+          "label": "Our Mission",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "quote_style_layout_brand_colours_promine_13",
+          "label": "Quote-style layout. Brand colours prominent. Founder photo optional.",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "must_have_14",
+          "label": "Must Have",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "brand_values_15",
+          "label": "Brand Values",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "3_5_core_values_with_real_examples_of_ho_16",
+          "label": "3-5 core values with real examples of how you live them. Show, do not just tell.",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "card_layout_with_icons_each_value_gets_a_17",
+          "label": "Card layout with icons. Each value gets a short story or proof point.",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "must_have_18",
+          "label": "Must Have",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "impact_numbers_19",
+          "label": "Impact Numbers",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "large_numbers_with_animated_counters_bef_20",
+          "label": "Large numbers with animated counters. Before/after or growth metrics.",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "should_have_21",
+          "label": "Should Have",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "customer_stories_22",
+          "label": "Customer Stories",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "long_form_testimonials_or_mini_case_stud_23",
+          "label": "Long-form testimonials or mini case studies. Focus on transformation and emotional journey.",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "full_width_story_sections_with_customer__24",
+          "label": "Full-width story sections with customer photos. Video testimonials preferred.",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "must_have_25",
+          "label": "Must Have",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "behind_the_scenes_26",
+          "label": "Behind the Scenes",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "team_photos_office_culture_manufacturing_27",
+          "label": "Team photos, office culture, manufacturing process, sourcing stories. Humanise your brand.",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "photo_gallery_or_video_montage_candid_au_28",
+          "label": "Photo gallery or video montage. Candid, authentic imagery preferred.",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "should_have_29",
+          "label": "Should Have",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "lead_magnet_lp",
+      "title": "Lead Magnet LP",
+      "description": "Complete the Lead Magnet LP section",
+      "fields": [
+        {
+          "id": "purpose_0",
+          "label": "PURPOSE",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "page_section_blueprint_1",
+          "label": "PAGE SECTION BLUEPRINT",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "section_2",
+          "label": "Section",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "content_guide_3",
+          "label": "Content Guide",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "design_notes_4",
+          "label": "Design Notes",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "priority_5",
+          "label": "Priority",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "hero_form_6",
+          "label": "Hero + Form",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "split_layout_left_side_copy_right_side_f_7",
+          "label": "Split layout: left side copy, right side form. Form above the fold. 3-5 form fields maximum.",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "must_have_8",
+          "label": "Must Have",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "what_you_will_get_9",
+          "label": "What You Will Get",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "numbered_list_or_checklist_format_includ_10",
+          "label": "Numbered list or checklist format. Include a mockup or preview image of the deliverable.",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "must_have_11",
+          "label": "Must Have",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "sneak_peek_12",
+          "label": "Sneak Peek",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "pull_quote_or_stat_callout_partial_infog_13",
+          "label": "Pull quote or stat callout. Partial infographic or chart from the content.",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "should_have_14",
+          "label": "Should Have",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "who_this_is_for_15",
+          "label": "Who This Is For",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "define_the_ideal_reader_job_title_indust_16",
+          "label": "Define the ideal reader: job title, industry, experience level. Help visitors self-qualify.",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "3_persona_cards_or_a_simple_checklist_th_17",
+          "label": "3 persona cards or a simple checklist: 'This is for you if...'",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "should_have_18",
+          "label": "Should Have",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "author_expert_credibility_19",
+          "label": "Author / Expert Credibility",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "author_bio_with_credentials_company_expe_20",
+          "label": "Author bio with credentials. Company expertise. Number of people who have already downloaded.",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "photo_bio_social_proof_numbers_5_000_mar_21",
+          "label": "Photo + bio. Social proof numbers: '5,000+ marketers downloaded'.",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "must_have_22",
+          "label": "Must Have",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "content_format_details_23",
+          "label": "Content Format Details",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "what_format_pdf_video_template_how_many__24",
+          "label": "What format: PDF, video, template? How many pages? Time to consume? Is it immediately actionable?",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "icon_based_list_pages_read_time_format_s_25",
+          "label": "Icon-based list: pages, read time, format. Set expectations clearly.",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "should_have_26",
+          "label": "Should Have",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "social_proof_27",
+          "label": "Social Proof",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "testimonials_from_people_who_used_the_le_28",
+          "label": "Testimonials from people who used the lead magnet. Quotes about how it helped them.",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "1_2_testimonials_with_photos_star_rating_29",
+          "label": "1-2 testimonials with photos. Star rating if applicable.",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "event_registration_lp",
+      "title": "Event Registration LP",
+      "description": "Complete the Event Registration LP section",
+      "fields": [
+        {
+          "id": "purpose_0",
+          "label": "PURPOSE",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "page_section_blueprint_1",
+          "label": "PAGE SECTION BLUEPRINT",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "section_2",
+          "label": "Section",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "content_guide_3",
+          "label": "Content Guide",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "design_notes_4",
+          "label": "Design Notes",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "priority_5",
+          "label": "Priority",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "event_hero_6",
+          "label": "Event Hero",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "bold_event_name_countdown_timer_to_event_7",
+          "label": "Bold event name. Countdown timer to event date. Register CTA prominent above the fold.",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "must_have_8",
+          "label": "Must Have",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "key_details_bar_9",
+          "label": "Key Details Bar",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "date_time_duration_format_price_or_free__10",
+          "label": "Date, time, duration, format, price (or FREE). All critical info scannable at a glance.",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "horizontal_bar_with_icon_text_pairs_stic_11",
+          "label": "Horizontal bar with icon+text pairs. Sticky on scroll if possible.",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "must_have_12",
+          "label": "Must Have",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "what_you_will_learn_13",
+          "label": "What You Will Learn",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "numbered_list_or_timeline_format_each_po_14",
+          "label": "Numbered list or timeline format. Each point is actionable and specific.",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "must_have_15",
+          "label": "Must Have",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "speaker_profiles_16",
+          "label": "Speaker Profiles",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "speaker_cards_with_photos_social_media_l_17",
+          "label": "Speaker cards with photos. Social media links. Credentials highlighted.",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "must_have_18",
+          "label": "Must Have",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "agenda_schedule_19",
+          "label": "Agenda / Schedule",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "timeline_or_table_format_session_descrip_20",
+          "label": "Timeline or table format. Session descriptions expandable. Download agenda as PDF option.",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "should_have_21",
+          "label": "Should Have",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "who_should_attend_22",
+          "label": "Who Should Attend",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "define_ideal_attendee_role_industry_expe_23",
+          "label": "Define ideal attendee: role, industry, experience level. Help people self-select.",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "persona_cards_or_checklist_format_this_e_24",
+          "label": "Persona cards or checklist format. 'This event is for you if...'",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "should_have_25",
+          "label": "Should Have",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "past_event_proof_26",
+          "label": "Past Event Proof",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "photos_videos_from_previous_events_atten_27",
+          "label": "Photos/videos from previous events. Attendee testimonials. Previous attendance numbers.",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "photo_gallery_video_highlight_reel_testi_28",
+          "label": "Photo gallery. Video highlight reel. Testimonial carousel.",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "should_have_29",
+          "label": "Should Have",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "saas_service_lp",
+      "title": "SaaS Service LP",
+      "description": "Complete the SaaS Service LP section",
+      "fields": [
+        {
+          "id": "purpose_0",
+          "label": "PURPOSE",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "page_section_blueprint_1",
+          "label": "PAGE SECTION BLUEPRINT",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "section_2",
+          "label": "Section",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "content_guide_3",
+          "label": "Content Guide",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "design_notes_4",
+          "label": "Design Notes",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "priority_5",
+          "label": "Priority",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "hero_primary_cta_6",
+          "label": "Hero + Primary CTA",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "product_screenshot_or_demo_video_in_the__7",
+          "label": "Product screenshot or demo video in the hero. CTA with contrasting colour. No navigation menu.",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "must_have_8",
+          "label": "Must Have",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "product_demo_video_9",
+          "label": "Product Demo / Video",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "embedded_video_with_play_button_overlay__10",
+          "label": "Embedded video with play button overlay. Autoplay muted option. GIF alternative for fast loading.",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "must_have_11",
+          "label": "Must Have",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "key_benefits_12",
+          "label": "Key Benefits",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "icon_benefit_headline_1_sentence_descrip_13",
+          "label": "Icon + benefit headline + 1-sentence description. Grid or column layout.",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "must_have_14",
+          "label": "Must Have",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "how_it_works_15",
+          "label": "How It Works",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "3_5_step_process_showing_how_easy_it_is__16",
+          "label": "3-5 step process showing how easy it is to get started. Reduce perceived complexity.",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "numbered_steps_with_icons_or_screenshots_17",
+          "label": "Numbered steps with icons or screenshots. 'Get started in 3 minutes' messaging.",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "must_have_18",
+          "label": "Must Have",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "feature_comparison_19",
+          "label": "Feature Comparison",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "compare_plans_tiers_or_compare_vs_manual_20",
+          "label": "Compare plans/tiers or compare vs manual processes. Show what is included at each level.",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "comparison_table_with_checkmarks_most_po_21",
+          "label": "Comparison table with checkmarks. Most popular plan highlighted.",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "should_have_22",
+          "label": "Should Have",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "integrations_23",
+          "label": "Integrations",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "show_compatible_tools_and_platforms_work_24",
+          "label": "Show compatible tools and platforms. 'Works with tools you already use.'",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "logo_grid_of_integration_partners_and_50_25",
+          "label": "Logo grid of integration partners. 'And 50+ more' if applicable.",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "should_have_26",
+          "label": "Should Have",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "case_studies_27",
+          "label": "Case Studies",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "before_after_metrics_customer_logo_quote_28",
+          "label": "Before/after metrics. Customer logo + quote + result. Industry-specific if possible.",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "must_have_29",
+          "label": "Must Have",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "page_strategy",
+      "title": "Page Strategy",
+      "description": "Complete the Page Strategy section",
+      "fields": [
+        {
+          "id": "spring_product_launch_0",
+          "label": "Spring Product Launch",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "company_story_page_1",
+          "label": "Company Story Page",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "2026_marketing_report_2",
+          "label": "2026 Marketing Report",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "annual_conference_2026_3",
+          "label": "Annual Conference 2026",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "free_trial_signup_4",
+          "label": "Free Trial Signup",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "copy_planner",
+      "title": "Copy Planner",
+      "description": "Complete the Copy Planner section",
+      "fields": [
+        {
+          "id": "copy_block_0",
+          "label": "Copy Block",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "headline_1",
+          "label": "Headline",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "subheadline_2",
+          "label": "Subheadline",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "hero_copy_3",
+          "label": "Hero Copy",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "problem_statement_4",
+          "label": "Problem Statement",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "solution_introduction_5",
+          "label": "Solution Introduction",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "benefit_1_6",
+          "label": "Benefit 1",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "benefit_2_7",
+          "label": "Benefit 2",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "benefit_3_8",
+          "label": "Benefit 3",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "social_proof_9",
+          "label": "Social Proof",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "objection_handler_10",
+          "label": "Objection Handler",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "cta_primary_11",
+          "label": "CTA Primary",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "cta_secondary_12",
+          "label": "CTA Secondary",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "form_header_13",
+          "label": "Form Header",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "meta_title_14",
+          "label": "Meta Title",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "meta_description_15",
+          "label": "Meta Description",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "page_name_link_to_page_strategy_2_16",
+          "label": "Page Name: (link to Page Strategy #2)",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "copy_block_17",
+          "label": "Copy Block",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "headline_18",
+          "label": "Headline",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "subheadline_19",
+          "label": "Subheadline",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "hero_copy_20",
+          "label": "Hero Copy",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "problem_statement_21",
+          "label": "Problem Statement",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "solution_introduction_22",
+          "label": "Solution Introduction",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "benefit_1_23",
+          "label": "Benefit 1",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "benefit_2_24",
+          "label": "Benefit 2",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "benefit_3_25",
+          "label": "Benefit 3",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "social_proof_26",
+          "label": "Social Proof",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "objection_handler_27",
+          "label": "Objection Handler",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "cta_primary_28",
+          "label": "CTA Primary",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "cta_secondary_29",
+          "label": "CTA Secondary",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "ab_test_planner",
+      "title": "AB Test Planner",
+      "description": "Complete the AB Test Planner section",
+      "fields": [
+        {
+          "id": "specific_product_mention_increases_relev_0",
+          "label": "Specific product mention increases relevance and CTR by 15%",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "reducing_form_fields_from_4_to_2_will_in_1",
+          "label": "Reducing form fields from 4 to 2 will increase conversion by 25%",
+          "type": "textarea",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "adding_no_card_removes_friction_and_lift_2",
+          "label": "Adding 'no card' removes friction and lifts signups by 20%",
+          "type": "text",
+          "placeholder": "",
+          "required": false
         }
       ]
     }

@@ -12,221 +12,1052 @@
   "estimatedTime": "55 min",
   "sections": [
     {
-      "id": "overview",
-      "title": "Overview & Objectives",
-      "description": "Define the goals and scope of your marketing roi calculator",
+      "id": "dashboard",
+      "title": "Dashboard",
+      "description": "Complete the Dashboard section",
       "fields": [
         {
-          "id": "objective",
-          "label": "Primary Objective",
-          "type": "textarea",
-          "placeholder": "What do you want to achieve with this marketing roi calculator?",
-          "required": true,
-          "helpText": ""
-        },
-        {
-          "id": "target_audience",
-          "label": "Target Audience",
-          "type": "textarea",
-          "placeholder": "Who is this for?",
-          "required": true,
-          "helpText": ""
-        },
-        {
-          "id": "timeline",
-          "label": "Timeline",
+          "id": "total_marketing_spend_0",
+          "label": "Total Marketing Spend",
           "type": "text",
-          "placeholder": "e.g., Q1 2026, Next 90 days",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "budget",
-          "label": "Budget / Resources",
-          "type": "text",
-          "placeholder": "e.g., \u20ac5,000 or 20 hours/week",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "success_metrics",
-          "label": "Success Metrics",
-          "type": "textarea",
-          "placeholder": "How will you measure success?",
-          "required": true,
-          "helpText": ""
-        }
-      ]
-    },
-    {
-      "id": "strategy",
-      "title": "Strategy & Approach",
-      "description": "Outline your strategic approach",
-      "fields": [
-        {
-          "id": "core_strategy",
-          "label": "Core Strategy",
-          "type": "textarea",
-          "placeholder": "Describe your overall approach",
-          "required": true,
-          "helpText": ""
-        },
-        {
-          "id": "key_channels",
-          "label": "Key Channels / Platforms",
-          "type": "textarea",
-          "placeholder": "e.g., LinkedIn, Email, Blog, Paid ads",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "messaging",
-          "label": "Key Messages",
-          "type": "textarea",
-          "placeholder": "What are the main messages you want to communicate?",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "differentiators",
-          "label": "Unique Differentiators",
-          "type": "textarea",
-          "placeholder": "What sets your approach apart?",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "competitors",
-          "label": "Competitive Landscape",
-          "type": "textarea",
-          "placeholder": "What are competitors doing in this area?",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "risks",
-          "label": "Potential Risks & Mitigation",
-          "type": "textarea",
-          "placeholder": "What could go wrong and how will you handle it?",
-          "required": false,
-          "helpText": ""
-        }
-      ]
-    },
-    {
-      "id": "execution",
-      "title": "Execution Plan",
-      "description": "Detail your action items and timeline",
-      "fields": [
-        {
-          "id": "phase_1",
-          "label": "Phase 1: Foundation (Week 1-2)",
-          "type": "textarea",
-          "placeholder": "What will you set up first?",
-          "required": true,
-          "helpText": ""
-        },
-        {
-          "id": "phase_2",
-          "label": "Phase 2: Launch (Week 3-4)",
-          "type": "textarea",
-          "placeholder": "What are the launch activities?",
-          "required": true,
-          "helpText": ""
-        },
-        {
-          "id": "phase_3",
-          "label": "Phase 3: Optimization (Week 5+)",
-          "type": "textarea",
-          "placeholder": "How will you iterate and improve?",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "tools",
-          "label": "Tools & Technology Needed",
-          "type": "textarea",
-          "placeholder": "e.g., HubSpot, Canva, Google Analytics",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "team",
-          "label": "Team & Responsibilities",
-          "type": "textarea",
-          "placeholder": "Who is responsible for what?",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "dependencies",
-          "label": "Dependencies & Prerequisites",
-          "type": "textarea",
-          "placeholder": "What needs to happen before you can start?",
-          "required": false,
-          "helpText": ""
-        }
-      ]
-    },
-    {
-      "id": "tracking",
-      "title": "Tracking & Reporting",
-      "description": "Set up measurement and reporting",
-      "fields": [
-        {
-          "id": "kpis",
-          "label": "Key Performance Indicators",
-          "type": "textarea",
-          "placeholder": "List 3-5 KPIs you'll track",
-          "required": true,
-          "helpText": ""
-        },
-        {
-          "id": "reporting_frequency",
-          "label": "Reporting Frequency",
-          "type": "select",
-          "options": [
-            "Daily",
-            "Weekly",
-            "Bi-weekly",
-            "Monthly",
-            "Quarterly"
-          ],
-          "required": false,
           "placeholder": "",
-          "helpText": ""
+          "required": false
         },
         {
-          "id": "dashboard_tools",
-          "label": "Dashboard / Analytics Tools",
+          "id": "total_revenue_generated_1",
+          "label": "Total Revenue Generated",
           "type": "text",
-          "placeholder": "e.g., Google Analytics, Mixpanel",
-          "required": false,
-          "helpText": ""
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "benchmarks",
-          "label": "Benchmarks / Targets",
-          "type": "textarea",
-          "placeholder": "What are your target numbers?",
-          "required": false,
-          "helpText": ""
+          "id": "total_profit_2",
+          "label": "Total Profit",
+          "type": "text",
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "review_process",
-          "label": "Review & Optimization Process",
-          "type": "textarea",
-          "placeholder": "How will you review and adjust?",
-          "required": false,
-          "helpText": ""
+          "id": "blended_roi_3",
+          "label": "Blended ROI",
+          "type": "text",
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "lessons_learned",
-          "label": "Lessons Learned",
-          "type": "textarea",
-          "placeholder": "Document insights as you go",
-          "required": false,
-          "helpText": ""
+          "id": "total_customers_acquired_4",
+          "label": "Total Customers Acquired",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "blended_cac_5",
+          "label": "Blended CAC",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "channel_performance_ranking_6",
+          "label": "CHANNEL PERFORMANCE RANKING",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "channel_7",
+          "label": "Channel",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "spend_8",
+          "label": "Spend",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "customers_9",
+          "label": "Customers",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "revenue_10",
+          "label": "Revenue",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "profit_11",
+          "label": "Profit",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "google_ads_12",
+          "label": "Google Ads",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "total_spend_13",
+          "label": "Total Spend",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "customers_won_14",
+          "label": "Customers Won",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "revenue_15",
+          "label": "Revenue",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "profit_16",
+          "label": "Profit",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "facebook_ads_17",
+          "label": "Facebook Ads",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "instagram_ads_18",
+          "label": "Instagram Ads",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "linkedin_ads_19",
+          "label": "LinkedIn Ads",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "seo_organic_20",
+          "label": "SEO / Organic",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "email_marketing_21",
+          "label": "Email Marketing",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "content_marketing_22",
+          "label": "Content Marketing",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "social_media_organic_23",
+          "label": "Social Media (Organic)",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "events_webinars_24",
+          "label": "Events & Webinars",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "referral_programme_25",
+          "label": "Referral Programme",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "affiliate_marketing_26",
+          "label": "Affiliate Marketing",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "tiktok_ads_27",
+          "label": "TikTok Ads",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "youtube_ads_28",
+          "label": "YouTube Ads",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "pr_media_29",
+          "label": "PR & Media",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "channel_roi",
+      "title": "Channel ROI",
+      "description": "Complete the Channel ROI section",
+      "fields": [
+        {
+          "id": "google_ads_0",
+          "label": "Google Ads",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "facebook_ads_1",
+          "label": "Facebook Ads",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "instagram_ads_2",
+          "label": "Instagram Ads",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "linkedin_ads_3",
+          "label": "LinkedIn Ads",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "seo_organic_4",
+          "label": "SEO / Organic",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "email_marketing_5",
+          "label": "Email Marketing",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "content_marketing_6",
+          "label": "Content Marketing",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "social_media_organic_7",
+          "label": "Social Media (Organic)",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "events_webinars_8",
+          "label": "Events & Webinars",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "referral_programme_9",
+          "label": "Referral Programme",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "affiliate_marketing_10",
+          "label": "Affiliate Marketing",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "tiktok_ads_11",
+          "label": "TikTok Ads",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "youtube_ads_12",
+          "label": "YouTube Ads",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "pr_media_13",
+          "label": "PR & Media",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "total_14",
+          "label": "TOTAL",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "channel_share_of_spend_15",
+          "label": "CHANNEL SHARE OF SPEND",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "channel_16",
+          "label": "Channel",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "google_ads_17",
+          "label": "Google Ads",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "facebook_ads_18",
+          "label": "Facebook Ads",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "instagram_ads_19",
+          "label": "Instagram Ads",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "linkedin_ads_20",
+          "label": "LinkedIn Ads",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "seo_organic_21",
+          "label": "SEO / Organic",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "email_marketing_22",
+          "label": "Email Marketing",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "content_marketing_23",
+          "label": "Content Marketing",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "social_media_organic_24",
+          "label": "Social Media (Organic)",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "events_webinars_25",
+          "label": "Events & Webinars",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "referral_programme_26",
+          "label": "Referral Programme",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "affiliate_marketing_27",
+          "label": "Affiliate Marketing",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "tiktok_ads_28",
+          "label": "TikTok Ads",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "youtube_ads_29",
+          "label": "YouTube Ads",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "campaign_roi",
+      "title": "Campaign ROI",
+      "description": "Complete the Campaign ROI section",
+      "fields": [
+        {
+          "id": "spring_product_launch_0",
+          "label": "Spring Product Launch",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "brand_awareness_push_1",
+          "label": "Brand Awareness Push",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "lead_gen_webinar_2",
+          "label": "Lead Gen Webinar",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "linkedin_thought_leadership_3",
+          "label": "LinkedIn Thought Leadership",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "holiday_retargeting_4",
+          "label": "Holiday Retargeting",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "monthly_roi_tracker",
+      "title": "Monthly ROI Tracker",
+      "description": "Complete the Monthly ROI Tracker section",
+      "fields": [
+        {
+          "id": "month_0",
+          "label": "Month",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "total_spend_1",
+          "label": "Total Spend",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "revenue_2",
+          "label": "Revenue",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "profit_3",
+          "label": "Profit",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "leads_4",
+          "label": "Leads",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "total_5",
+          "label": "TOTAL",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "cac_calculator",
+      "title": "CAC Calculator",
+      "description": "Complete the CAC Calculator section",
+      "fields": [
+        {
+          "id": "total_ad_spend_across_google_facebook_li_0",
+          "label": "Total ad spend across Google, Facebook, LinkedIn, etc.",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "freelancers_agencies_stock_images_video__1",
+          "label": "Freelancers, agencies, stock images, video production",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "crm_email_platform_analytics_automation__2",
+          "label": "CRM, email platform, analytics, automation tools",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "pro_rated_marketing_team_compensation_3",
+          "label": "Pro-rated marketing team compensation",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "retainers_or_project_fees_for_external_a_4",
+          "label": "Retainers or project fees for external agencies",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "webinars_conferences_event_sponsorships_5",
+          "label": "Webinars, conferences, event sponsorships",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "pr_agency_press_releases_media_outreach_6",
+          "label": "PR agency, press releases, media outreach",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "office_space_equipment_misc_allocated_to_7",
+          "label": "Office space, equipment, misc allocated to marketing",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "clv_calculator",
+      "title": "CLV Calculator",
+      "description": "Complete the CLV Calculator section",
+      "fields": [
+        {
+          "id": "average_order_value_aov_0",
+          "label": "Average Order Value (AOV)",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "purchase_frequency_per_year_1",
+          "label": "Purchase Frequency (per year)",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "customer_lifespan_years_2",
+          "label": "Customer Lifespan (years)",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "gross_margin_3",
+          "label": "Gross Margin",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "clv_calculations_4",
+          "label": "CLV CALCULATIONS",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "annual_revenue_per_customer_5",
+          "label": "Annual Revenue Per Customer",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "customer_lifetime_revenue_6",
+          "label": "Customer Lifetime Revenue",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "customer_lifetime_value_clv_7",
+          "label": "CUSTOMER LIFETIME VALUE (CLV)",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "clv_cac_ratio_8",
+          "label": "CLV : CAC RATIO",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "cac_from_cac_calculator_9",
+          "label": "CAC (from CAC Calculator)",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "clv_cac_ratio_10",
+          "label": "CLV : CAC Ratio",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "months_to_recover_cac_11",
+          "label": "Months to Recover CAC",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "clv_cac_ratio_benchmarks_12",
+          "label": "CLV:CAC RATIO BENCHMARKS",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "below_1_1_13",
+          "label": "Below 1:1",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "1_1_to_2_1_14",
+          "label": "1:1 to 2:1",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "3_1_15",
+          "label": "3:1",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "4_1_to_5_1_16",
+          "label": "4:1 to 5:1",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "above_5_1_17",
+          "label": "Above 5:1",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "budget_allocation",
+      "title": "Budget Allocation",
+      "description": "Complete the Budget Allocation section",
+      "fields": [
+        {
+          "id": "google_ads_0",
+          "label": "Google Ads",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "facebook_ads_1",
+          "label": "Facebook Ads",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "instagram_ads_2",
+          "label": "Instagram Ads",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "linkedin_ads_3",
+          "label": "LinkedIn Ads",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "seo_organic_4",
+          "label": "SEO / Organic",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "email_marketing_5",
+          "label": "Email Marketing",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "content_marketing_6",
+          "label": "Content Marketing",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "social_media_organic_7",
+          "label": "Social Media (Organic)",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "events_webinars_8",
+          "label": "Events & Webinars",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "referral_programme_9",
+          "label": "Referral Programme",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "affiliate_marketing_10",
+          "label": "Affiliate Marketing",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "tiktok_ads_11",
+          "label": "TikTok Ads",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "youtube_ads_12",
+          "label": "YouTube Ads",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "pr_media_13",
+          "label": "PR & Media",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "total_14",
+          "label": "TOTAL",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "executive_report",
+      "title": "Executive Report",
+      "description": "Complete the Executive Report section",
+      "fields": [
+        {
+          "id": "headline_metrics_0",
+          "label": "HEADLINE METRICS",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "total_marketing_investment_1",
+          "label": "Total Marketing Investment",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "total_revenue_generated_2",
+          "label": "Total Revenue Generated",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "net_marketing_profit_3",
+          "label": "Net Marketing Profit",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "return_on_investment_4",
+          "label": "Return on Investment",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "unit_economics_5",
+          "label": "UNIT ECONOMICS",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "customer_acquisition_cost_6",
+          "label": "Customer Acquisition Cost",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "customer_lifetime_value_7",
+          "label": "Customer Lifetime Value",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "clv_cac_ratio_8",
+          "label": "CLV : CAC Ratio",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "total_customers_acquired_9",
+          "label": "Total Customers Acquired",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "top_5_channels_by_roi_10",
+          "label": "TOP 5 CHANNELS BY ROI",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "channel_11",
+          "label": "Channel",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "spend_12",
+          "label": "Spend",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "revenue_13",
+          "label": "Revenue",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "google_ads_14",
+          "label": "Google Ads",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "total_spend_15",
+          "label": "Total Spend",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "revenue_16",
+          "label": "Revenue",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "facebook_ads_17",
+          "label": "Facebook Ads",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "instagram_ads_18",
+          "label": "Instagram Ads",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "linkedin_ads_19",
+          "label": "LinkedIn Ads",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "seo_organic_20",
+          "label": "SEO / Organic",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "key_insights_21",
+          "label": "KEY INSIGHTS",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "what_is_working_well_22",
+          "label": "What is working well?",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "enter_your_top_3_wins_this_period_23",
+          "label": "Enter your top 3 wins this period",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "what_needs_improvement_24",
+          "label": "What needs improvement?",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "enter_your_top_3_challenges_25",
+          "label": "Enter your top 3 challenges",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "recommended_actions_for_next_period_26",
+          "label": "Recommended actions for next period",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "enter_3_5_prioritised_next_steps_27",
+          "label": "Enter 3-5 prioritised next steps",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "budget_reallocation_recommendations_28",
+          "label": "Budget reallocation recommendations",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "based_on_channel_performance_data_above_29",
+          "label": "Based on channel performance data above",
+          "type": "text",
+          "placeholder": "",
+          "required": false
         }
       ]
     }

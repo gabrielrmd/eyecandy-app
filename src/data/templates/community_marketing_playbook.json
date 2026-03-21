@@ -4,7 +4,7 @@
   "number": 38,
   "category": "growth",
   "description": "Community Marketing Playbook - Marketing template for growth professionals",
-  "instructions": "How to Use This Playbook 1. Community Strategy Define your community's mission, target members, growth goals, and success metrics. This is your north star document. 2. Member Tracker Record all community members, their engagement level, contributions, and status. Use this to identify champions and at-risk members. 3. Content Calendar Plan your community content weeks or months in advance. Include discussion topics, polls, AMAs, resources, and spotlights. 4. Event Planner Organize community events \u2013 virtual meetups, workshops, hackathons, or conferences. Track attendance and feedback. 5. Ambass",
+  "instructions": "How to Use This Playbook 1. Community Strategy Define your community's mission, target members, growth goals, and success metrics. This is your north star document. 2. Member Tracker Record all community members, their engagement level, contributions, and status. Use this to identify champions and at-risk members. 3. Content Calendar Plan your community content weeks or months in advance. Include discussion topics, polls, AMAs, resources, and spotlights. 4. Event Planner Organize community events – virtual meetups, workshops, hackathons, or conferences. Track attendance and feedback. 5. Ambass",
   "icon": "trending-up",
   "tags": [
     "growth"
@@ -12,221 +12,303 @@
   "estimatedTime": "65 min",
   "sections": [
     {
-      "id": "overview",
-      "title": "Overview & Objectives",
-      "description": "Define the goals and scope of your community marketing playbook",
+      "id": "dashboard",
+      "title": "Dashboard",
+      "description": "Complete the Dashboard section",
       "fields": [
         {
-          "id": "objective",
-          "label": "Primary Objective",
-          "type": "textarea",
-          "placeholder": "What do you want to achieve with this community marketing playbook?",
-          "required": true,
-          "helpText": ""
-        },
-        {
-          "id": "target_audience",
-          "label": "Target Audience",
-          "type": "textarea",
-          "placeholder": "Who is this for?",
-          "required": true,
-          "helpText": ""
-        },
-        {
-          "id": "timeline",
-          "label": "Timeline",
+          "id": "community_health_dashboard_0",
+          "label": "Community Health Dashboard",
           "type": "text",
-          "placeholder": "e.g., Q1 2026, Next 90 days",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "budget",
-          "label": "Budget / Resources",
-          "type": "text",
-          "placeholder": "e.g., \u20ac5,000 or 20 hours/week",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "success_metrics",
-          "label": "Success Metrics",
-          "type": "textarea",
-          "placeholder": "How will you measure success?",
-          "required": true,
-          "helpText": ""
-        }
-      ]
-    },
-    {
-      "id": "strategy",
-      "title": "Strategy & Approach",
-      "description": "Outline your strategic approach",
-      "fields": [
-        {
-          "id": "core_strategy",
-          "label": "Core Strategy",
-          "type": "textarea",
-          "placeholder": "Describe your overall approach",
-          "required": true,
-          "helpText": ""
-        },
-        {
-          "id": "key_channels",
-          "label": "Key Channels / Platforms",
-          "type": "textarea",
-          "placeholder": "e.g., LinkedIn, Email, Blog, Paid ads",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "messaging",
-          "label": "Key Messages",
-          "type": "textarea",
-          "placeholder": "What are the main messages you want to communicate?",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "differentiators",
-          "label": "Unique Differentiators",
-          "type": "textarea",
-          "placeholder": "What sets your approach apart?",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "competitors",
-          "label": "Competitive Landscape",
-          "type": "textarea",
-          "placeholder": "What are competitors doing in this area?",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "risks",
-          "label": "Potential Risks & Mitigation",
-          "type": "textarea",
-          "placeholder": "What could go wrong and how will you handle it?",
-          "required": false,
-          "helpText": ""
-        }
-      ]
-    },
-    {
-      "id": "execution",
-      "title": "Execution Plan",
-      "description": "Detail your action items and timeline",
-      "fields": [
-        {
-          "id": "phase_1",
-          "label": "Phase 1: Foundation (Week 1-2)",
-          "type": "textarea",
-          "placeholder": "What will you set up first?",
-          "required": true,
-          "helpText": ""
-        },
-        {
-          "id": "phase_2",
-          "label": "Phase 2: Launch (Week 3-4)",
-          "type": "textarea",
-          "placeholder": "What are the launch activities?",
-          "required": true,
-          "helpText": ""
-        },
-        {
-          "id": "phase_3",
-          "label": "Phase 3: Optimization (Week 5+)",
-          "type": "textarea",
-          "placeholder": "How will you iterate and improve?",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "tools",
-          "label": "Tools & Technology Needed",
-          "type": "textarea",
-          "placeholder": "e.g., HubSpot, Canva, Google Analytics",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "team",
-          "label": "Team & Responsibilities",
-          "type": "textarea",
-          "placeholder": "Who is responsible for what?",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "dependencies",
-          "label": "Dependencies & Prerequisites",
-          "type": "textarea",
-          "placeholder": "What needs to happen before you can start?",
-          "required": false,
-          "helpText": ""
-        }
-      ]
-    },
-    {
-      "id": "tracking",
-      "title": "Tracking & Reporting",
-      "description": "Set up measurement and reporting",
-      "fields": [
-        {
-          "id": "kpis",
-          "label": "Key Performance Indicators",
-          "type": "textarea",
-          "placeholder": "List 3-5 KPIs you'll track",
-          "required": true,
-          "helpText": ""
-        },
-        {
-          "id": "reporting_frequency",
-          "label": "Reporting Frequency",
-          "type": "select",
-          "options": [
-            "Daily",
-            "Weekly",
-            "Bi-weekly",
-            "Monthly",
-            "Quarterly"
-          ],
-          "required": false,
           "placeholder": "",
-          "helpText": ""
+          "required": false
         },
         {
-          "id": "dashboard_tools",
-          "label": "Dashboard / Analytics Tools",
+          "id": "total_members_1",
+          "label": "Total Members",
           "type": "text",
-          "placeholder": "e.g., Google Analytics, Mixpanel",
-          "required": false,
-          "helpText": ""
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "benchmarks",
-          "label": "Benchmarks / Targets",
-          "type": "textarea",
-          "placeholder": "What are your target numbers?",
-          "required": false,
-          "helpText": ""
+          "id": "active_members_30_days_2",
+          "label": "Active Members (30 days)",
+          "type": "text",
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "review_process",
-          "label": "Review & Optimization Process",
-          "type": "textarea",
-          "placeholder": "How will you review and adjust?",
-          "required": false,
-          "helpText": ""
+          "id": "engagement_rate_3",
+          "label": "Engagement Rate (%)",
+          "type": "text",
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "lessons_learned",
-          "label": "Lessons Learned",
-          "type": "textarea",
-          "placeholder": "Document insights as you go",
-          "required": false,
-          "helpText": ""
+          "id": "new_members_this_month_4",
+          "label": "New Members (This Month)",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "churn_rate_5",
+          "label": "Churn Rate (%)",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "net_promoter_score_6",
+          "label": "Net Promoter Score",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "content_posts_this_month_7",
+          "label": "Content Posts (This Month)",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "upcoming_events_8",
+          "label": "Upcoming Events",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "community_strategy",
+      "title": "Community Strategy",
+      "description": "Complete the Community Strategy section",
+      "fields": [
+        {
+          "id": "community_strategy_0",
+          "label": "Community Strategy",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "community_name_1",
+          "label": "Community Name",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "platform_2",
+          "label": "Platform",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "mission_3",
+          "label": "Mission",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "target_members_4",
+          "label": "Target Members",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "growth_goal_5",
+          "label": "Growth Goal",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "engagement_goal_6",
+          "label": "Engagement Goal",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "content_pillars_7",
+          "label": "Content Pillars",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "moderation_policy_8",
+          "label": "Moderation Policy",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "kpis_9",
+          "label": "KPIs",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "budget_10",
+          "label": "Budget",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "engagement_metrics",
+      "title": "Engagement Metrics",
+      "description": "Complete the Engagement Metrics section",
+      "fields": [
+        {
+          "id": "engagement_metrics_0",
+          "label": "Engagement Metrics",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "month_1",
+          "label": "Month",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "total_members_2",
+          "label": "Total Members",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "new_members_3",
+          "label": "New Members",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "churned_members_4",
+          "label": "Churned Members",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "growth_rate_5",
+          "label": "Growth Rate (%)",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "active_members_6",
+          "label": "Active Members",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "engagement_rate_7",
+          "label": "Engagement Rate (%)",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "month_1_8",
+          "label": "Month 1",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "month_2_9",
+          "label": "Month 2",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "month_3_10",
+          "label": "Month 3",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "month_4_11",
+          "label": "Month 4",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "month_5_12",
+          "label": "Month 5",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "month_6_13",
+          "label": "Month 6",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "month_7_14",
+          "label": "Month 7",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "month_8_15",
+          "label": "Month 8",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "month_9_16",
+          "label": "Month 9",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "month_10_17",
+          "label": "Month 10",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "month_11_18",
+          "label": "Month 11",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "month_12_19",
+          "label": "Month 12",
+          "type": "text",
+          "placeholder": "",
+          "required": false
         }
       ]
     }

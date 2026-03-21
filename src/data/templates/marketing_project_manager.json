@@ -12,221 +12,289 @@
   "estimatedTime": "60 min",
   "sections": [
     {
-      "id": "overview",
-      "title": "Overview & Objectives",
-      "description": "Define the goals and scope of your marketing project manager",
+      "id": "dashboard",
+      "title": "Dashboard",
+      "description": "Complete the Dashboard section",
       "fields": [
         {
-          "id": "objective",
-          "label": "Primary Objective",
-          "type": "textarea",
-          "placeholder": "What do you want to achieve with this marketing project manager?",
-          "required": true,
-          "helpText": ""
-        },
-        {
-          "id": "target_audience",
-          "label": "Target Audience",
-          "type": "textarea",
-          "placeholder": "Who is this for?",
-          "required": true,
-          "helpText": ""
-        },
-        {
-          "id": "timeline",
-          "label": "Timeline",
+          "id": "active_projects_0",
+          "label": "Active Projects",
           "type": "text",
-          "placeholder": "e.g., Q1 2026, Next 90 days",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "budget",
-          "label": "Budget / Resources",
-          "type": "text",
-          "placeholder": "e.g., \u20ac5,000 or 20 hours/week",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "success_metrics",
-          "label": "Success Metrics",
-          "type": "textarea",
-          "placeholder": "How will you measure success?",
-          "required": true,
-          "helpText": ""
-        }
-      ]
-    },
-    {
-      "id": "strategy",
-      "title": "Strategy & Approach",
-      "description": "Outline your strategic approach",
-      "fields": [
-        {
-          "id": "core_strategy",
-          "label": "Core Strategy",
-          "type": "textarea",
-          "placeholder": "Describe your overall approach",
-          "required": true,
-          "helpText": ""
-        },
-        {
-          "id": "key_channels",
-          "label": "Key Channels / Platforms",
-          "type": "textarea",
-          "placeholder": "e.g., LinkedIn, Email, Blog, Paid ads",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "messaging",
-          "label": "Key Messages",
-          "type": "textarea",
-          "placeholder": "What are the main messages you want to communicate?",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "differentiators",
-          "label": "Unique Differentiators",
-          "type": "textarea",
-          "placeholder": "What sets your approach apart?",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "competitors",
-          "label": "Competitive Landscape",
-          "type": "textarea",
-          "placeholder": "What are competitors doing in this area?",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "risks",
-          "label": "Potential Risks & Mitigation",
-          "type": "textarea",
-          "placeholder": "What could go wrong and how will you handle it?",
-          "required": false,
-          "helpText": ""
-        }
-      ]
-    },
-    {
-      "id": "execution",
-      "title": "Execution Plan",
-      "description": "Detail your action items and timeline",
-      "fields": [
-        {
-          "id": "phase_1",
-          "label": "Phase 1: Foundation (Week 1-2)",
-          "type": "textarea",
-          "placeholder": "What will you set up first?",
-          "required": true,
-          "helpText": ""
-        },
-        {
-          "id": "phase_2",
-          "label": "Phase 2: Launch (Week 3-4)",
-          "type": "textarea",
-          "placeholder": "What are the launch activities?",
-          "required": true,
-          "helpText": ""
-        },
-        {
-          "id": "phase_3",
-          "label": "Phase 3: Optimization (Week 5+)",
-          "type": "textarea",
-          "placeholder": "How will you iterate and improve?",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "tools",
-          "label": "Tools & Technology Needed",
-          "type": "textarea",
-          "placeholder": "e.g., HubSpot, Canva, Google Analytics",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "team",
-          "label": "Team & Responsibilities",
-          "type": "textarea",
-          "placeholder": "Who is responsible for what?",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "dependencies",
-          "label": "Dependencies & Prerequisites",
-          "type": "textarea",
-          "placeholder": "What needs to happen before you can start?",
-          "required": false,
-          "helpText": ""
-        }
-      ]
-    },
-    {
-      "id": "tracking",
-      "title": "Tracking & Reporting",
-      "description": "Set up measurement and reporting",
-      "fields": [
-        {
-          "id": "kpis",
-          "label": "Key Performance Indicators",
-          "type": "textarea",
-          "placeholder": "List 3-5 KPIs you'll track",
-          "required": true,
-          "helpText": ""
-        },
-        {
-          "id": "reporting_frequency",
-          "label": "Reporting Frequency",
-          "type": "select",
-          "options": [
-            "Daily",
-            "Weekly",
-            "Bi-weekly",
-            "Monthly",
-            "Quarterly"
-          ],
-          "required": false,
           "placeholder": "",
-          "helpText": ""
+          "required": false
         },
         {
-          "id": "dashboard_tools",
-          "label": "Dashboard / Analytics Tools",
+          "id": "completed_projects_1",
+          "label": "Completed Projects",
           "type": "text",
-          "placeholder": "e.g., Google Analytics, Mixpanel",
-          "required": false,
-          "helpText": ""
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "benchmarks",
-          "label": "Benchmarks / Targets",
-          "type": "textarea",
-          "placeholder": "What are your target numbers?",
-          "required": false,
-          "helpText": ""
+          "id": "total_tasks_2",
+          "label": "Total Tasks",
+          "type": "text",
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "review_process",
-          "label": "Review & Optimization Process",
-          "type": "textarea",
-          "placeholder": "How will you review and adjust?",
-          "required": false,
-          "helpText": ""
+          "id": "tasks_in_progress_3",
+          "label": "Tasks In Progress",
+          "type": "text",
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "lessons_learned",
-          "label": "Lessons Learned",
-          "type": "textarea",
-          "placeholder": "Document insights as you go",
-          "required": false,
-          "helpText": ""
+          "id": "tasks_completed_4",
+          "label": "Tasks Completed",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "average_project_progress_5",
+          "label": "Average Project Progress",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "total_budget_allocated_6",
+          "label": "Total Budget Allocated",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "total_team_workload_7",
+          "label": "Total Team Workload",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "average_team_utilization_8",
+          "label": "Average Team Utilization",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "project_portfolio",
+      "title": "Project Portfolio",
+      "description": "Complete the Project Portfolio section",
+      "fields": [
+        {
+          "id": "p001_0",
+          "label": "P001",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "p002_1",
+          "label": "P002",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "p003_2",
+          "label": "P003",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "p004_3",
+          "label": "P004",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "p005_4",
+          "label": "P005",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "p006_5",
+          "label": "P006",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "p007_6",
+          "label": "P007",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "p008_7",
+          "label": "P008",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "p009_8",
+          "label": "P009",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "p010_9",
+          "label": "P010",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "p011_10",
+          "label": "P011",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "p012_11",
+          "label": "P012",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "p013_12",
+          "label": "P013",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "p014_13",
+          "label": "P014",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "p015_14",
+          "label": "P015",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "p016_15",
+          "label": "P016",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "p017_16",
+          "label": "P017",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "p018_17",
+          "label": "P018",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "p019_18",
+          "label": "P019",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "p020_19",
+          "label": "P020",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "p021_20",
+          "label": "P021",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "p022_21",
+          "label": "P022",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "p023_22",
+          "label": "P023",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "p024_23",
+          "label": "P024",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "p025_24",
+          "label": "P025",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "p026_25",
+          "label": "P026",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "p027_26",
+          "label": "P027",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "p028_27",
+          "label": "P028",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "p029_28",
+          "label": "P029",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "p030_29",
+          "label": "P030",
+          "type": "text",
+          "placeholder": "",
+          "required": false
         }
       ]
     }

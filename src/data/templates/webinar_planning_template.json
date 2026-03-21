@@ -13,89 +13,688 @@
   "estimatedTime": "45 min",
   "sections": [
     {
-      "id": "section_3",
-      "title": "Run of Show",
-      "description": "Configuration and tracking for Run of Show",
+      "id": "dashboard",
+      "title": "Dashboard",
+      "description": "Complete the Dashboard section",
       "fields": [
         {
-          "id": "field_1",
-          "label": "Run of Show",
+          "id": "total_registrations_0",
+          "label": "Total Registrations",
           "type": "text",
-          "placeholder": "Enter run of show",
-          "required": false,
-          "helpText": "Time"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_2",
-          "label": "Run of Show",
+          "id": "attendance_rate_1",
+          "label": "Attendance Rate",
           "type": "text",
-          "placeholder": "Enter run of show",
-          "required": false,
-          "helpText": "-15 min"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_3",
-          "label": "Run of Show",
+          "id": "no_show_rate_2",
+          "label": "No-Show Rate",
           "type": "text",
-          "placeholder": "Enter run of show",
-          "required": false,
-          "helpText": "-5 min"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_4",
-          "label": "Run of Show",
+          "id": "leads_generated_3",
+          "label": "Leads Generated",
           "type": "text",
-          "placeholder": "Enter run of show",
-          "required": false,
-          "helpText": "0:00"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_5",
-          "label": "Run of Show",
+          "id": "lead_conversion_rate_4",
+          "label": "Lead Conversion Rate",
           "type": "text",
-          "placeholder": "Enter run of show",
-          "required": false,
-          "helpText": "0:03"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_6",
-          "label": "Run of Show",
+          "id": "promotion_tasks_done_5",
+          "label": "Promotion Tasks Done",
           "type": "text",
-          "placeholder": "Enter run of show",
-          "required": false,
-          "helpText": "0:23"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_7",
-          "label": "Run of Show",
+          "id": "tech_items_ready_6",
+          "label": "Tech Items Ready",
           "type": "text",
-          "placeholder": "Enter run of show",
-          "required": false,
-          "helpText": "0:38"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_8",
-          "label": "Run of Show",
+          "id": "follow_ups_sent_7",
+          "label": "Follow-ups Sent",
           "type": "text",
-          "placeholder": "Enter run of show",
-          "required": false,
-          "helpText": "0:40"
+          "placeholder": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "webinar_brief",
+      "title": "Webinar Brief",
+      "description": "Complete the Webinar Brief section",
+      "fields": [
+        {
+          "id": "date_time_0",
+          "label": "Date & Time",
+          "type": "text",
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_9",
-          "label": "Run of Show",
+          "id": "duration_1",
+          "label": "Duration",
           "type": "text",
-          "placeholder": "Enter run of show",
-          "required": false,
-          "helpText": "0:55"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_10",
-          "label": "Run of Show",
+          "id": "format_2",
+          "label": "Format",
           "type": "text",
-          "placeholder": "Enter run of show",
-          "required": false,
-          "helpText": "0:58"
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "platform_3",
+          "label": "Platform",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "target_audience_4",
+          "label": "Target Audience",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "registration_goal_5",
+          "label": "Registration Goal",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "attendance_target_6",
+          "label": "Attendance Target",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "primary_objective_7",
+          "label": "Primary Objective",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "key_takeaways_for_attendees_8",
+          "label": "Key Takeaways for Attendees",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "cta_what_should_attendees_do_after_9",
+          "label": "CTA - What should attendees do after?",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "landing_page_url_10",
+          "label": "Landing Page URL",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "webinar_owner_11",
+          "label": "Webinar Owner",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "budget_12",
+          "label": "Budget",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "promotion_plan",
+      "title": "Promotion Plan",
+      "description": "Complete the Promotion Plan section",
+      "fields": [
+        {
+          "id": "save_the_date_to_full_list_0",
+          "label": "Save-the-date to full list",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "announcement_post_all_platforms_1",
+          "label": "Announcement post (all platforms)",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "invitation_with_speaker_bios_2",
+          "label": "Invitation with speaker bios",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "speaker_spotlight_posts_3",
+          "label": "Speaker spotlight posts",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "preview_blog_post_4",
+          "label": "Preview blog post",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "reminder_early_bird_content_5",
+          "label": "Reminder + early bird content",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "targeted_ads_to_lookalike_audiences_6",
+          "label": "Targeted ads to lookalike audiences",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "final_reminder_with_agenda_preview_7",
+          "label": "Final reminder with agenda preview",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "countdown_posts_8",
+          "label": "Countdown posts",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "co_promotion_with_guest_speakers_9",
+          "label": "Co-promotion with guest speakers",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "last_chance_reminder_10",
+          "label": "Last-chance reminder",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "live_alert_post_11",
+          "label": "Live alert post",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "run_of_show",
+      "title": "Run of Show",
+      "description": "Complete the Run of Show section",
+      "fields": [
+        {
+          "id": "run_through_key_transitions_0",
+          "label": "Run through key transitions",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "welcome_agenda_housekeeping_rules_1",
+          "label": "Welcome, agenda, housekeeping rules",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "key_talking_points_for_each_slide_2",
+          "label": "Key talking points for each slide",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "technical_walkthrough_points_3",
+          "label": "Technical walkthrough points",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "introduce_poll_explain_purpose_4",
+          "label": "Introduce poll, explain purpose",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "prioritise_top_voted_questions_5",
+          "label": "Prioritise top-voted questions",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "recap_key_takeaways_share_cta_6",
+          "label": "Recap key takeaways, share CTA",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "thank_speakers_and_audience_7",
+          "label": "Thank speakers and audience",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "tech_checklist",
+      "title": "Tech Checklist",
+      "description": "Complete the Tech Checklist section",
+      "fields": [
+        {
+          "id": "webinar_platform_account_set_up_and_test_0",
+          "label": "Webinar platform account set up and tested",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "registration_page_created_and_tested_1",
+          "label": "Registration page created and tested",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "email_confirmations_configured_2",
+          "label": "Email confirmations configured",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "recording_enabled_3",
+          "label": "Recording enabled",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "chat_and_q_a_settings_configured_4",
+          "label": "Chat and Q&A settings configured",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "speaker_audio_tested_5",
+          "label": "Speaker audio tested",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "speaker_video_tested_6",
+          "label": "Speaker video tested",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "backup_microphone_available_7",
+          "label": "Backup microphone available",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "screen_share_tested_8",
+          "label": "Screen share tested",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "internet_speed_tested_10_mbps_upload_9",
+          "label": "Internet speed tested (>10 Mbps upload)",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "slides_uploaded_to_platform_10",
+          "label": "Slides uploaded to platform",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "polls_created_11",
+          "label": "Polls created",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "handouts_resources_uploaded_12",
+          "label": "Handouts/resources uploaded",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "backup_slides_saved_locally_13",
+          "label": "Backup slides saved locally",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "landing_page_live_and_tested_14",
+          "label": "Landing page live and tested",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "confirmation_emails_tested_15",
+          "label": "Confirmation emails tested",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "reminder_emails_scheduled_16",
+          "label": "Reminder emails scheduled",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "social_posts_scheduled_17",
+          "label": "Social posts scheduled",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "green_room_opened_30_min_early_18",
+          "label": "Green room opened 30 min early",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "recording_started_19",
+          "label": "Recording started",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "chat_monitored_20",
+          "label": "Chat monitored",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "backup_presenter_on_standby_21",
+          "label": "Backup presenter on standby",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "recording_saved_and_downloaded_22",
+          "label": "Recording saved and downloaded",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "attendee_list_exported_23",
+          "label": "Attendee list exported",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "follow_up_emails_triggered_24",
+          "label": "Follow-up emails triggered",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "follow_up_plan",
+      "title": "Follow-Up Plan",
+      "description": "Complete the Follow-Up Plan section",
+      "fields": [
+        {
+          "id": "thank_you_recording_link_resources_0",
+          "label": "Thank you + recording link + resources",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "sorry_we_missed_you_recording_link_1",
+          "label": "Sorry we missed you + recording link",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "key_takeaways_carousel_post_2",
+          "label": "Key takeaways carousel post",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "personalised_follow_up_with_cta_3",
+          "label": "Personalised follow-up with CTA",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "blog_post_with_expanded_content_4",
+          "label": "Blog post with expanded content",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "related_content_or_next_webinar_invite_5",
+          "label": "Related content or next webinar invite",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "testimonial_or_quote_graphics_6",
+          "label": "Testimonial or quote graphics",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "personal_outreach_call_or_demo_offer_7",
+          "label": "Personal outreach call or demo offer",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "repurposed_content_clips_blog_infographi_8",
+          "label": "Repurposed content (clips, blog, infographic)",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "performance_tracker",
+      "title": "Performance Tracker",
+      "description": "Complete the Performance Tracker section",
+      "fields": [
+        {
+          "id": "registrations_0",
+          "label": "Registrations",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "attendance_rate_1",
+          "label": "Attendance Rate",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "no_show_rate_2",
+          "label": "No-Show Rate",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "avg_watch_time_min_3",
+          "label": "Avg Watch Time (min)",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "engagement_score_4",
+          "label": "Engagement Score",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "poll_participation_rate_5",
+          "label": "Poll Participation Rate",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "questions_asked_6",
+          "label": "Questions Asked",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "chat_messages_7",
+          "label": "Chat Messages",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "leads_generated_8",
+          "label": "Leads Generated",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "lead_conversion_rate_9",
+          "label": "Lead Conversion Rate",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "pipeline_generated_10",
+          "label": "Pipeline Generated",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "revenue_attributed_11",
+          "label": "Revenue Attributed",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "nps_score_12",
+          "label": "NPS Score",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "would_recommend_13",
+          "label": "Would Recommend %",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "recording_views_30_days_14",
+          "label": "Recording Views (30 days)",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "social_shares_15",
+          "label": "Social Shares",
+          "type": "text",
+          "placeholder": "",
+          "required": false
         }
       ]
     }

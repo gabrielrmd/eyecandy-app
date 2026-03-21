@@ -4,7 +4,7 @@
   "number": 9,
   "category": "channels",
   "description": "SEO Keyword Tracker - Marketing template for channels professionals",
-  "instructions": "How to Use This Template Step 1: Build Your Keyword List Go to the Keyword Tracker tab. Enter every keyword you want to rank for \u2014 branded, non-branded, long-tail, short-tail. One row per keyword. Step 2: Classify Each Keyword Use the dropdowns to categorize: Intent (Informational, Navigational, Commercial, Transactional), Priority (High, Medium, Low), and Status (Tracking, Optimizing, Ranking, Won). Step 3: Add Monthly Rankings Each month, update your current ranking in the monthly columns (M1\u2013M12). The Dashboard auto-calculates movement and trends. Step 4: Track Competitors Use the Competito",
+  "instructions": "How to Use This Template Step 1: Build Your Keyword List Go to the Keyword Tracker tab. Enter every keyword you want to rank for — branded, non-branded, long-tail, short-tail. One row per keyword. Step 2: Classify Each Keyword Use the dropdowns to categorize: Intent (Informational, Navigational, Commercial, Transactional), Priority (High, Medium, Low), and Status (Tracking, Optimizing, Ranking, Won). Step 3: Add Monthly Rankings Each month, update your current ranking in the monthly columns (M1–M12). The Dashboard auto-calculates movement and trends. Step 4: Track Competitors Use the Competito",
   "icon": "share-2",
   "tags": [
     "channels"
@@ -12,33 +12,331 @@
   "estimatedTime": "50 min",
   "sections": [
     {
-      "id": "section_2",
-      "title": "Competitor Tracker",
-      "description": "Configuration and tracking for Competitor Tracker",
+      "id": "dashboard",
+      "title": "Dashboard",
+      "description": "Complete the Dashboard section",
       "fields": [
         {
-          "id": "field_1",
-          "label": "Competitor Keyword Tracker",
+          "id": "in_top_3_0",
+          "label": "In Top 3",
           "type": "text",
-          "placeholder": "Enter competitor keyword tracker",
-          "required": false,
-          "helpText": "Track how you rank vs competitors on your target keywords."
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_2",
-          "label": "Competitor Keyword Tracker",
+          "id": "avg_position_1",
+          "label": "Avg Position",
           "type": "text",
-          "placeholder": "Enter competitor keyword tracker",
-          "required": false,
-          "helpText": "YOUR SITE"
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "field_3",
-          "label": "Competitor Keyword Tracker",
+          "id": "top_10_2",
+          "label": "Top 10 %",
           "type": "text",
-          "placeholder": "Enter competitor keyword tracker",
-          "required": false,
-          "helpText": "Keyword"
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "improved_3",
+          "label": "Improved",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "keyword_distribution_by_intent_4",
+          "label": "KEYWORD DISTRIBUTION BY INTENT",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "intent_5",
+          "label": "Intent",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "count_6",
+          "label": "Count",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "of_total_7",
+          "label": "% of Total",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "avg_position_8",
+          "label": "Avg Position",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "informational_9",
+          "label": "Informational",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "navigational_10",
+          "label": "Navigational",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "commercial_11",
+          "label": "Commercial",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "transactional_12",
+          "label": "Transactional",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "keyword_distribution_by_priority_13",
+          "label": "KEYWORD DISTRIBUTION BY PRIORITY",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "priority_14",
+          "label": "Priority",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "count_15",
+          "label": "Count",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "in_top_10_16",
+          "label": "In Top 10",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "avg_position_17",
+          "label": "Avg Position",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "high_18",
+          "label": "High",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "medium_19",
+          "label": "Medium",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "content_coverage_20",
+          "label": "CONTENT COVERAGE",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "keywords_with_url_21",
+          "label": "Keywords with URL",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "coverage_22",
+          "label": "Coverage %",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "unique_urls_23",
+          "label": "Unique URLs",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "gaps_no_url_24",
+          "label": "Gaps (no URL)",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "strategic_insights_25",
+          "label": "STRATEGIC INSIGHTS",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "quick_wins_pos_11_20_high_priority_26",
+          "label": "Quick Wins (Pos 11-20, High Priority)",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "striking_distance_pos_4_10_27",
+          "label": "Striking Distance (Pos 4-10)",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "new_opportunities_not_ranking_28",
+          "label": "New Opportunities (Not Ranking)",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "keywords_declining_29",
+          "label": "Keywords Declining",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "keyword_tracker",
+      "title": "Keyword Tracker",
+      "description": "Complete the Keyword Tracker section",
+      "fields": [
+        {
+          "id": "search_vol_0",
+          "label": "Search Vol",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "2400_1",
+          "label": "2400",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "1800_2",
+          "label": "1800",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "5400_3",
+          "label": "5400",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "3200_4",
+          "label": "3200",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "1200_5",
+          "label": "1200",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "competitor_tracker",
+      "title": "Competitor Tracker",
+      "description": "Complete the Competitor Tracker section",
+      "fields": [
+        {
+          "id": "competitor_1_0",
+          "label": "COMPETITOR 1",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "competitor_2_1",
+          "label": "COMPETITOR 2",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "competitor_3_2",
+          "label": "COMPETITOR 3",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "competitor_1_3",
+          "label": "Competitor 1",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "c1_rank_4",
+          "label": "C1 Rank",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "competitor_2_5",
+          "label": "Competitor 2",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "c2_rank_6",
+          "label": "C2 Rank",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "competitor_3_7",
+          "label": "Competitor 3",
+          "type": "text",
+          "placeholder": "",
+          "required": false
         }
       ]
     }

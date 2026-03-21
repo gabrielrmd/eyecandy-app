@@ -12,221 +12,513 @@
   "estimatedTime": "70 min",
   "sections": [
     {
-      "id": "overview",
-      "title": "Overview & Objectives",
-      "description": "Define the goals and scope of your survey template",
+      "id": "dashboard",
+      "title": "Dashboard",
+      "description": "Complete the Dashboard section",
       "fields": [
         {
-          "id": "objective",
-          "label": "Primary Objective",
-          "type": "textarea",
-          "placeholder": "What do you want to achieve with this survey template?",
-          "required": true,
-          "helpText": ""
-        },
-        {
-          "id": "target_audience",
-          "label": "Target Audience",
-          "type": "textarea",
-          "placeholder": "Who is this for?",
-          "required": true,
-          "helpText": ""
-        },
-        {
-          "id": "timeline",
-          "label": "Timeline",
+          "id": "total_surveys_created_0",
+          "label": "Total Surveys Created",
           "type": "text",
-          "placeholder": "e.g., Q1 2026, Next 90 days",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "budget",
-          "label": "Budget / Resources",
-          "type": "text",
-          "placeholder": "e.g., \u20ac5,000 or 20 hours/week",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "success_metrics",
-          "label": "Success Metrics",
-          "type": "textarea",
-          "placeholder": "How will you measure success?",
-          "required": true,
-          "helpText": ""
-        }
-      ]
-    },
-    {
-      "id": "strategy",
-      "title": "Strategy & Approach",
-      "description": "Outline your strategic approach",
-      "fields": [
-        {
-          "id": "core_strategy",
-          "label": "Core Strategy",
-          "type": "textarea",
-          "placeholder": "Describe your overall approach",
-          "required": true,
-          "helpText": ""
-        },
-        {
-          "id": "key_channels",
-          "label": "Key Channels / Platforms",
-          "type": "textarea",
-          "placeholder": "e.g., LinkedIn, Email, Blog, Paid ads",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "messaging",
-          "label": "Key Messages",
-          "type": "textarea",
-          "placeholder": "What are the main messages you want to communicate?",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "differentiators",
-          "label": "Unique Differentiators",
-          "type": "textarea",
-          "placeholder": "What sets your approach apart?",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "competitors",
-          "label": "Competitive Landscape",
-          "type": "textarea",
-          "placeholder": "What are competitors doing in this area?",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "risks",
-          "label": "Potential Risks & Mitigation",
-          "type": "textarea",
-          "placeholder": "What could go wrong and how will you handle it?",
-          "required": false,
-          "helpText": ""
-        }
-      ]
-    },
-    {
-      "id": "execution",
-      "title": "Execution Plan",
-      "description": "Detail your action items and timeline",
-      "fields": [
-        {
-          "id": "phase_1",
-          "label": "Phase 1: Foundation (Week 1-2)",
-          "type": "textarea",
-          "placeholder": "What will you set up first?",
-          "required": true,
-          "helpText": ""
-        },
-        {
-          "id": "phase_2",
-          "label": "Phase 2: Launch (Week 3-4)",
-          "type": "textarea",
-          "placeholder": "What are the launch activities?",
-          "required": true,
-          "helpText": ""
-        },
-        {
-          "id": "phase_3",
-          "label": "Phase 3: Optimization (Week 5+)",
-          "type": "textarea",
-          "placeholder": "How will you iterate and improve?",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "tools",
-          "label": "Tools & Technology Needed",
-          "type": "textarea",
-          "placeholder": "e.g., HubSpot, Canva, Google Analytics",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "team",
-          "label": "Team & Responsibilities",
-          "type": "textarea",
-          "placeholder": "Who is responsible for what?",
-          "required": false,
-          "helpText": ""
-        },
-        {
-          "id": "dependencies",
-          "label": "Dependencies & Prerequisites",
-          "type": "textarea",
-          "placeholder": "What needs to happen before you can start?",
-          "required": false,
-          "helpText": ""
-        }
-      ]
-    },
-    {
-      "id": "tracking",
-      "title": "Tracking & Reporting",
-      "description": "Set up measurement and reporting",
-      "fields": [
-        {
-          "id": "kpis",
-          "label": "Key Performance Indicators",
-          "type": "textarea",
-          "placeholder": "List 3-5 KPIs you'll track",
-          "required": true,
-          "helpText": ""
-        },
-        {
-          "id": "reporting_frequency",
-          "label": "Reporting Frequency",
-          "type": "select",
-          "options": [
-            "Daily",
-            "Weekly",
-            "Bi-weekly",
-            "Monthly",
-            "Quarterly"
-          ],
-          "required": false,
           "placeholder": "",
-          "helpText": ""
+          "required": false
         },
         {
-          "id": "dashboard_tools",
-          "label": "Dashboard / Analytics Tools",
+          "id": "total_questions_designed_1",
+          "label": "Total Questions Designed",
           "type": "text",
-          "placeholder": "e.g., Google Analytics, Mixpanel",
-          "required": false,
-          "helpText": ""
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "benchmarks",
-          "label": "Benchmarks / Targets",
-          "type": "textarea",
-          "placeholder": "What are your target numbers?",
-          "required": false,
-          "helpText": ""
+          "id": "total_responses_collected_2",
+          "label": "Total Responses Collected",
+          "type": "text",
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "review_process",
-          "label": "Review & Optimization Process",
-          "type": "textarea",
-          "placeholder": "How will you review and adjust?",
-          "required": false,
-          "helpText": ""
+          "id": "average_response_rate_3",
+          "label": "Average Response Rate (%)",
+          "type": "text",
+          "placeholder": "",
+          "required": false
         },
         {
-          "id": "lessons_learned",
-          "label": "Lessons Learned",
-          "type": "textarea",
-          "placeholder": "Document insights as you go",
-          "required": false,
-          "helpText": ""
+          "id": "overall_completion_rate_4",
+          "label": "Overall Completion Rate (%)",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "average_satisfaction_score_5",
+          "label": "Average Satisfaction Score",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "question_bank",
+      "title": "Question Bank",
+      "description": "Complete the Question Bank section",
+      "fields": [
+        {
+          "id": "rating_1_10_0",
+          "label": "Rating 1-10",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "likert_scale_1",
+          "label": "Likert Scale",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "likert_scale_2",
+          "label": "Likert Scale",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "likert_scale_3",
+          "label": "Likert Scale",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "rating_1_10_4",
+          "label": "Rating 1-10",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "multiple_choice_5",
+          "label": "Multiple Choice",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "likert_scale_6",
+          "label": "Likert Scale",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "open_text_7",
+          "label": "Open Text",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "multiple_choice_8",
+          "label": "Multiple Choice",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "multiple_choice_9",
+          "label": "Multiple Choice",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "multiple_choice_10",
+          "label": "Multiple Choice",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "open_text_11",
+          "label": "Open Text",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "likert_scale_12",
+          "label": "Likert Scale",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "ranking_13",
+          "label": "Ranking",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "likert_scale_14",
+          "label": "Likert Scale",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "yes_no_15",
+          "label": "Yes-No",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "ranking_16",
+          "label": "Ranking",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "rating_1_10_17",
+          "label": "Rating 1-10",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "open_text_18",
+          "label": "Open Text",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "open_text_19",
+          "label": "Open Text",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "likert_scale_20",
+          "label": "Likert Scale",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "likert_scale_21",
+          "label": "Likert Scale",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "multiple_choice_22",
+          "label": "Multiple Choice",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "multiple_choice_23",
+          "label": "Multiple Choice",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "yes_no_24",
+          "label": "Yes-No",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "likert_scale_25",
+          "label": "Likert Scale",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "likert_scale_26",
+          "label": "Likert Scale",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "likert_scale_27",
+          "label": "Likert Scale",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "open_text_28",
+          "label": "Open Text",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "yes_no_29",
+          "label": "Yes-No",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "results_analysis",
+      "title": "Results Analysis",
+      "description": "Complete the Results Analysis section",
+      "fields": [
+        {
+          "id": "summary_statistics_0",
+          "label": "SUMMARY STATISTICS",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "total_responses_1",
+          "label": "Total Responses",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "average_score_2",
+          "label": "Average Score",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "median_score_3",
+          "label": "Median Score",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "max_score_4",
+          "label": "Max Score",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "min_score_5",
+          "label": "Min Score",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "cross_tab_analysis",
+      "title": "Cross-Tab Analysis",
+      "description": "Complete the Cross-Tab Analysis section",
+      "fields": [
+        {
+          "id": "row_variable_0",
+          "label": "Row Variable",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "column_variable_1",
+          "label": "Column Variable",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "count_percentage_2",
+          "label": "Count/Percentage",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "total_3",
+          "label": "Total",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "reporting",
+      "title": "Reporting",
+      "description": "Complete the Reporting section",
+      "fields": [
+        {
+          "id": "start_date_end_date_0",
+          "label": "Start Date - End Date",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "total_number_of_responses_1",
+          "label": "Total number of responses",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "percentage_of_target_achieved_2",
+          "label": "Percentage of target achieved",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "statistical_confidence_typically_90_95_3",
+          "label": "Statistical confidence (typically 90-95%)",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "plus_minus_percentage_4",
+          "label": "Plus/minus percentage",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "main_insight_from_analysis_5",
+          "label": "Main insight from analysis",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "supporting_finding_6",
+          "label": "Supporting finding",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "additional_important_insight_7",
+          "label": "Additional important insight",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "actionable_recommendation_8",
+          "label": "Actionable recommendation",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "follow_up_action_9",
+          "label": "Follow-up action",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "additional_recommendation_10",
+          "label": "Additional recommendation",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "brief_overview_max_200_words_11",
+          "label": "Brief overview (max 200 words)",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "actions_to_take_based_on_findings_12",
+          "label": "Actions to take based on findings",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "survey_calendar",
+      "title": "Survey Calendar",
+      "description": "Complete the Survey Calendar section",
+      "fields": [
+        {
+          "id": "february_0",
+          "label": "February",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "march_1",
+          "label": "March",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "april_2",
+          "label": "April",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "june_3",
+          "label": "June",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "survey_name_1_4",
+          "label": "Survey Name 1",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "survey_name_2_5",
+          "label": "Survey Name 2",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "survey_name_3_6",
+          "label": "Survey Name 3",
+          "type": "text",
+          "placeholder": "",
+          "required": false
+        },
+        {
+          "id": "notes_status_7",
+          "label": "Notes/Status",
+          "type": "text",
+          "placeholder": "",
+          "required": false
         }
       ]
     }
