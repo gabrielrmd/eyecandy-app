@@ -30,12 +30,15 @@ export function Navbar() {
     <header className="sticky top-0 z-50 bg-[var(--navy)] text-white">
       <nav className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
         {/* Logo */}
-        <Link href="/" className="flex items-center gap-2">
+        <Link href="/" className="flex items-center gap-2.5">
           <img
-            src="/brand/au-logo.png"
-            alt="Advertising Unplugged"
-            className="h-9 w-auto brightness-0 invert"
+            src="/brand/au-icon.png"
+            alt=""
+            className="h-9 w-auto"
           />
+          <span className="hidden font-[family-name:var(--font-oswald)] text-lg font-bold uppercase tracking-wide text-white sm:block">
+            Advertising<br className="hidden lg:inline" /> Unplugged
+          </span>
         </Link>
 
         {/* Desktop Nav */}

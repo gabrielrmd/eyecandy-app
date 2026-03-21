@@ -26,11 +26,16 @@ export function Footer() {
         <div className="grid grid-cols-2 gap-8 md:grid-cols-4">
           {/* Brand */}
           <div className="col-span-2 md:col-span-1">
-            <img
-              src="/brand/au-logo.png"
-              alt="Advertising Unplugged"
-              className="mb-4 h-10 w-auto brightness-0 invert"
-            />
+            <div className="mb-4 flex items-center gap-2.5">
+              <img
+                src="/brand/au-icon.png"
+                alt=""
+                className="h-10 w-auto"
+              />
+              <span className="font-[family-name:var(--font-oswald)] text-base font-bold uppercase tracking-wide text-white">
+                Advertising Unplugged
+              </span>
+            </div>
             <p className="text-sm leading-relaxed">
               Clarity Over Noise.
               <br />
