@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import Link from "next/link";
+import { useRouter } from "next/navigation";
 import {
   Sparkles,
   ArrowRight,
@@ -12,7 +12,9 @@ import {
   Clock,
   CheckCircle2,
   Zap,
+  Loader2,
 } from "lucide-react";
+import { createClient } from "@/lib/supabase/client";
 
 const INDUSTRIES = [
   "Technology / SaaS",
@@ -69,10 +71,58 @@ const BENEFITS = [
 ];
 
 export default function NewStrategyPage() {
+  const router = useRouter();
   const [businessName, setBusinessName] = useState("");
   const [industry, setIndustry] = useState("");
+  const [isCreating, setIsCreating] = useState(false);
+  const [error, setError] = useState<string | null>(null);
 
   const isValid = businessName.trim().length > 0 && industry.length > 0;
+
+  async function handleStartStrategy() {
+    if (!isValid || isCreating) return;
+
+    setIsCreating(true);
+    setError(null);
+
+    try {
+      const supabase = createClient();
+      const {
+        data: { user },
+      } = await supabase.auth.getUser();
+
+      if (!user) {
+        setError("You must be logged in to create a strategy.");
+        setIsCreating(false);
+        return;
+      }
+
+      const { data, error: insertError } = await supabase
+        .from("strategy_projects")
+        .insert({
+          user_id: user.id,
+          title: businessName.trim(),
+          description: `Strategy project for ${businessName.trim()} in ${industry}`,
+          industry,
+          status: "in_progress",
+        })
+        .select("id")
+        .single();
+
+      if (insertError) {
+        console.error("Error creating strategy project:", insertError);
+        setError("Failed to create strategy project. Please try again.");
+        setIsCreating(false);
+        return;
+      }
+
+      router.push(`/strategy/${data.id}/questionnaire`);
+    } catch (err) {
+      console.error("Unexpected error:", err);
+      setError("An unexpected error occurred. Please try again.");
+      setIsCreating(false);
+    }
+  }
 
   return (
     <div className="min-h-screen bg-background">
@@ -195,20 +245,33 @@ export default function NewStrategyPage() {
                   </select>
                 </div>
 
-                <Link
-                  href={isValid ? `/strategy/draft/questionnaire` : "#"}
-                  onClick={(e) => {
-                    if (!isValid) e.preventDefault();
-                  }}
+                {error && (
+                  <div className="rounded-lg bg-red-50 px-4 py-3 text-sm text-red-600">
+                    {error}
+                  </div>
+                )}
+
+                <button
+                  onClick={handleStartStrategy}
+                  disabled={!isValid || isCreating}
                   className={`mt-2 flex w-full items-center justify-center gap-2 rounded-lg px-6 py-3 text-base font-semibold transition-colors ${
-                    isValid
+                    isValid && !isCreating
                       ? "bg-coral text-white hover:bg-coral/90"
                       : "cursor-not-allowed bg-coral/40 text-white/70"
                   }`}
                 >
-                  Start Strategy Builder
-                  <ArrowRight className="h-5 w-5" />
-                </Link>
+                  {isCreating ? (
+                    <>
+                      <Loader2 className="h-5 w-5 animate-spin" />
+                      Creating...
+                    </>
+                  ) : (
+                    <>
+                      Start Strategy Builder
+                      <ArrowRight className="h-5 w-5" />
+                    </>
+                  )}
+                </button>
               </div>
             </div>
           </div>
