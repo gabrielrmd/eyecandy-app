@@ -31,7 +31,7 @@ function StatCard({ icon, label, value, subtitle, color }: StatCardProps) {
         </div>
         <span className="text-sm font-medium text-gray-500">{label}</span>
       </div>
-      <p className="mt-4 text-3xl font-bold text-[var(--navy)] font-[family-name:var(--font-space-grotesk)]">
+      <p className="mt-4 text-3xl font-bold text-[var(--navy)] font-[family-name:var(--font-oswald)]">
         {value}
       </p>
       <p className="mt-1 text-sm text-gray-400">{subtitle}</p>
@@ -186,7 +186,7 @@ export default async function DashboardPage() {
       <div className="mx-auto max-w-7xl px-4 py-10 sm:px-6 lg:px-8">
         {/* Welcome */}
         <div className="mb-8">
-          <h1 className="text-3xl font-bold text-[var(--navy)] font-[family-name:var(--font-space-grotesk)]">
+          <h1 className="text-3xl font-bold text-[var(--navy)] font-[family-name:var(--font-oswald)]">
             Welcome back, {displayName}
           </h1>
           <p className="mt-1 text-gray-500">
@@ -228,7 +228,7 @@ export default async function DashboardPage() {
 
         {/* Quick Actions */}
         <div className="mb-10">
-          <h2 className="mb-4 text-lg font-semibold text-[var(--navy)] font-[family-name:var(--font-space-grotesk)]">
+          <h2 className="mb-4 text-lg font-semibold text-[var(--navy)] font-[family-name:var(--font-oswald)]">
             Quick Actions
           </h2>
           <div className="flex flex-wrap gap-3">
@@ -258,7 +258,7 @@ export default async function DashboardPage() {
 
         {/* Recent Activity */}
         <div>
-          <h2 className="mb-4 text-lg font-semibold text-[var(--navy)] font-[family-name:var(--font-space-grotesk)]">
+          <h2 className="mb-4 text-lg font-semibold text-[var(--navy)] font-[family-name:var(--font-oswald)]">
             Recent Activity
           </h2>
           <div className="rounded-xl border border-gray-200 bg-white shadow-sm">

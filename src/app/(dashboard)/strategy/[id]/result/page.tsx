@@ -575,7 +575,7 @@ export default function StrategyResultPage() {
               <ArrowLeft className="h-4 w-4" />
               Back
             </Link>
-            <h2 className="mt-3 font-[family-name:var(--font-space-grotesk)] text-base font-semibold text-navy">
+            <h2 className="mt-3 font-[family-name:var(--font-oswald)] text-base font-semibold text-navy">
               Your Strategy
             </h2>
             <p className="text-xs text-muted-foreground">
@@ -671,7 +671,7 @@ export default function StrategyResultPage() {
 
         {/* Content area */}
         <div className="mx-auto max-w-4xl px-6 py-8 lg:px-10">
-          <article className="prose prose-sm max-w-none prose-headings:font-[family-name:var(--font-space-grotesk)] prose-headings:text-navy prose-h2:text-2xl prose-h3:text-lg prose-p:text-foreground prose-strong:text-foreground prose-table:text-sm prose-td:border prose-td:border-border prose-td:px-3 prose-td:py-2 prose-th:border prose-th:border-border prose-th:bg-muted prose-th:px-3 prose-th:py-2 prose-th:text-left prose-th:font-medium prose-li:text-foreground">
+          <article className="prose prose-sm max-w-none prose-headings:font-[family-name:var(--font-oswald)] prose-headings:text-navy prose-h2:text-2xl prose-h3:text-lg prose-p:text-foreground prose-strong:text-foreground prose-table:text-sm prose-td:border prose-td:border-border prose-td:px-3 prose-td:py-2 prose-th:border prose-th:border-border prose-th:bg-muted prose-th:px-3 prose-th:py-2 prose-th:text-left prose-th:font-medium prose-li:text-foreground">
             {/* Simple markdown-like rendering */}
             {activeSection.content.split("\n").map((line, i) => {
               if (line.startsWith("## ")) {

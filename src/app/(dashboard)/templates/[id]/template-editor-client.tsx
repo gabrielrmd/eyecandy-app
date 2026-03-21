@@ -201,7 +201,7 @@ export default function TemplateEditorClient({
               Templates
             </Link>
             <ChevronRight className="h-4 w-4 text-muted-foreground/40" />
-            <h1 className="font-[family-name:var(--font-space-grotesk)] text-lg font-semibold text-navy">
+            <h1 className="font-[family-name:var(--font-oswald)] text-lg font-semibold text-navy">
               {templateData.name}
             </h1>
           </div>
@@ -302,7 +302,7 @@ export default function TemplateEditorClient({
         {/* Main form area */}
         <main className="min-w-0 flex-1">
           <div className="rounded-xl border border-border bg-card p-6 sm:p-8">
-            <h2 className="font-[family-name:var(--font-space-grotesk)] text-xl font-semibold text-navy">
+            <h2 className="font-[family-name:var(--font-oswald)] text-xl font-semibold text-navy">
               {currentSection.title}
             </h2>
             {currentSection.description && (

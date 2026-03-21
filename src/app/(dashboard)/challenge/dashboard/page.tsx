@@ -243,7 +243,7 @@ export default function ChallengeDashboardPage() {
             <ArrowLeft className="h-4 w-4" />
             Challenge Overview
           </Link>
-          <h1 className="font-[family-name:var(--font-space-grotesk)] text-2xl font-bold text-navy sm:text-3xl">
+          <h1 className="font-[family-name:var(--font-oswald)] text-2xl font-bold text-navy sm:text-3xl">
             Your Challenge Dashboard
           </h1>
           <p className="mt-1 text-muted-foreground">
@@ -258,7 +258,7 @@ export default function ChallengeDashboardPage() {
               <Target className="h-3.5 w-3.5" />
               Overall Progress
             </div>
-            <p className="mt-1 font-[family-name:var(--font-space-grotesk)] text-2xl font-bold text-navy">
+            <p className="mt-1 font-[family-name:var(--font-oswald)] text-2xl font-bold text-navy">
               {overallProgress}%
             </p>
           </div>
@@ -267,7 +267,7 @@ export default function ChallengeDashboardPage() {
               <CheckCircle2 className="h-3.5 w-3.5" />
               Tasks Done
             </div>
-            <p className="mt-1 font-[family-name:var(--font-space-grotesk)] text-2xl font-bold text-navy">
+            <p className="mt-1 font-[family-name:var(--font-oswald)] text-2xl font-bold text-navy">
               {completedTasks}/{totalTasks}
             </p>
           </div>
@@ -276,7 +276,7 @@ export default function ChallengeDashboardPage() {
               <Flame className="h-3.5 w-3.5" />
               Current Streak
             </div>
-            <p className="mt-1 font-[family-name:var(--font-space-grotesk)] text-2xl font-bold text-coral">
+            <p className="mt-1 font-[family-name:var(--font-oswald)] text-2xl font-bold text-coral">
               {streakDays} days
             </p>
           </div>
@@ -285,7 +285,7 @@ export default function ChallengeDashboardPage() {
               <Calendar className="h-3.5 w-3.5" />
               Current Week
             </div>
-            <p className="mt-1 font-[family-name:var(--font-space-grotesk)] text-2xl font-bold text-teal">
+            <p className="mt-1 font-[family-name:var(--font-oswald)] text-2xl font-bold text-teal">
               Week {currentWeek}
             </p>
           </div>
@@ -355,7 +355,7 @@ export default function ChallengeDashboardPage() {
                   className="flex w-full items-center gap-3 px-4 py-3 text-left transition-colors hover:bg-muted/30"
                 >
                   <div
-                    className={`flex h-9 w-9 shrink-0 items-center justify-center rounded-lg font-[family-name:var(--font-space-grotesk)] text-xs font-bold ${
+                    className={`flex h-9 w-9 shrink-0 items-center justify-center rounded-lg font-[family-name:var(--font-oswald)] text-xs font-bold ${
                       isAllDone
                         ? "bg-emerald-100 text-emerald-600"
                         : isCurrent

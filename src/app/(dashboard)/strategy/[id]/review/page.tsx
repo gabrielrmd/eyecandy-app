@@ -143,7 +143,7 @@ export default function ReviewPage() {
             <ArrowLeft className="h-4 w-4" />
             Back to Questionnaire
           </Link>
-          <h1 className="font-[family-name:var(--font-space-grotesk)] text-2xl font-bold text-navy sm:text-3xl">
+          <h1 className="font-[family-name:var(--font-oswald)] text-2xl font-bold text-navy sm:text-3xl">
             Review Your Answers
           </h1>
           <p className="mt-2 text-muted-foreground">
@@ -175,7 +175,7 @@ export default function ReviewPage() {
                       <Icon className="h-4.5 w-4.5" />
                     </div>
                     <div>
-                      <h3 className="font-[family-name:var(--font-space-grotesk)] text-base font-semibold text-foreground">
+                      <h3 className="font-[family-name:var(--font-oswald)] text-base font-semibold text-foreground">
                         {section.title}
                       </h3>
                       <p className="text-xs text-muted-foreground">
@@ -226,7 +226,7 @@ export default function ReviewPage() {
         {/* Generate CTA */}
         <div className="mt-10 rounded-xl border border-coral/20 bg-coral/5 p-6 text-center sm:p-8">
           <Sparkles className="mx-auto mb-3 h-8 w-8 text-coral" />
-          <h2 className="font-[family-name:var(--font-space-grotesk)] text-xl font-bold text-navy">
+          <h2 className="font-[family-name:var(--font-oswald)] text-xl font-bold text-navy">
             Ready to generate your strategy?
           </h2>
           <p className="mx-auto mt-2 max-w-md text-sm text-muted-foreground">

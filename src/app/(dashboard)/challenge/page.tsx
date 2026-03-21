@@ -121,7 +121,7 @@ export default function ChallengePage() {
               <Trophy className="h-3.5 w-3.5" />
               12-Week Guided Programme
             </div>
-            <h1 className="font-[family-name:var(--font-space-grotesk)] text-3xl font-bold text-white sm:text-4xl lg:text-5xl">
+            <h1 className="font-[family-name:var(--font-oswald)] text-3xl font-bold text-white sm:text-4xl lg:text-5xl">
               90-Day Growth Challenge
             </h1>
             <p className="mt-4 text-lg leading-relaxed text-gray-300">
@@ -163,7 +163,7 @@ export default function ChallengePage() {
 
       {/* Phase cards */}
       <section className="mx-auto max-w-7xl px-4 py-14 sm:px-6 lg:px-8">
-        <h2 className="font-[family-name:var(--font-space-grotesk)] text-2xl font-bold text-navy">
+        <h2 className="font-[family-name:var(--font-oswald)] text-2xl font-bold text-navy">
           4 Phases to Transform Your Marketing
         </h2>
         <p className="mt-2 text-muted-foreground">
@@ -186,7 +186,7 @@ export default function ChallengePage() {
                 <div className="mb-1 text-xs font-medium text-muted-foreground">
                   Phase {phase.number} &middot; {phase.weeks}
                 </div>
-                <h3 className="font-[family-name:var(--font-space-grotesk)] text-base font-semibold text-foreground">
+                <h3 className="font-[family-name:var(--font-oswald)] text-base font-semibold text-foreground">
                   {phase.title}
                 </h3>
                 <p className="text-xs font-medium text-teal">
@@ -204,7 +204,7 @@ export default function ChallengePage() {
       {/* 12-week curriculum */}
       <section className="border-t border-border bg-card">
         <div className="mx-auto max-w-7xl px-4 py-14 sm:px-6 lg:px-8">
-          <h2 className="font-[family-name:var(--font-space-grotesk)] text-2xl font-bold text-navy">
+          <h2 className="font-[family-name:var(--font-oswald)] text-2xl font-bold text-navy">
             12-Week Curriculum
           </h2>
           <p className="mt-2 text-muted-foreground">
@@ -219,7 +219,7 @@ export default function ChallengePage() {
                 className="rounded-lg border border-border bg-background p-4 transition-colors hover:border-teal/30"
               >
                 <div className="flex items-start gap-4">
-                  <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-navy/5 font-[family-name:var(--font-space-grotesk)] text-sm font-bold text-navy">
+                  <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-navy/5 font-[family-name:var(--font-oswald)] text-sm font-bold text-navy">
                     W{week.weekNumber}
                   </div>
                   <div className="min-w-0 flex-1">
@@ -228,7 +228,7 @@ export default function ChallengePage() {
                         Phase {week.phase}: {week.phaseTitle}
                       </span>
                     </div>
-                    <h3 className="font-[family-name:var(--font-space-grotesk)] text-sm font-semibold text-foreground">
+                    <h3 className="font-[family-name:var(--font-oswald)] text-sm font-semibold text-foreground">
                       {week.weekTitle}
                     </h3>
                     <p className="mt-1 text-xs text-muted-foreground line-clamp-2">
@@ -256,7 +256,7 @@ export default function ChallengePage() {
       {/* Testimonials */}
       <section className="border-t border-border">
         <div className="mx-auto max-w-7xl px-4 py-14 sm:px-6 lg:px-8">
-          <h2 className="font-[family-name:var(--font-space-grotesk)] text-2xl font-bold text-navy">
+          <h2 className="font-[family-name:var(--font-oswald)] text-2xl font-bold text-navy">
             Success Stories
           </h2>
           <p className="mt-2 text-muted-foreground">
@@ -295,7 +295,7 @@ export default function ChallengePage() {
       {/* FAQ */}
       <section className="border-t border-border bg-card">
         <div className="mx-auto max-w-3xl px-4 py-14 sm:px-6 lg:px-8">
-          <h2 className="text-center font-[family-name:var(--font-space-grotesk)] text-2xl font-bold text-navy">
+          <h2 className="text-center font-[family-name:var(--font-oswald)] text-2xl font-bold text-navy">
             Frequently Asked Questions
           </h2>
 
@@ -305,7 +305,7 @@ export default function ChallengePage() {
                 key={idx}
                 className="rounded-lg border border-border bg-background p-4"
               >
-                <h3 className="font-[family-name:var(--font-space-grotesk)] text-sm font-semibold text-foreground">
+                <h3 className="font-[family-name:var(--font-oswald)] text-sm font-semibold text-foreground">
                   {item.q}
                 </h3>
                 <p className="mt-2 text-sm text-muted-foreground">{item.a}</p>

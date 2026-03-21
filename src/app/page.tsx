@@ -111,7 +111,7 @@ export default function HomePage() {
               <Sparkles className="w-4 h-4" />
               AI-Powered Brand Strategy
             </p>
-            <h1 className="font-[family-name:var(--font-space-grotesk)] text-4xl font-bold leading-[1.1] tracking-tight sm:text-5xl lg:text-6xl xl:text-7xl">
+            <h1 className="font-[family-name:var(--font-oswald)] text-4xl font-bold leading-[1.1] tracking-tight sm:text-5xl lg:text-6xl xl:text-7xl">
               Professional Brand Strategy,{" "}
               <span className="bg-gradient-to-r from-[var(--coral)] to-[#f06070] bg-clip-text text-transparent">
                 Powered by AI.
@@ -174,7 +174,7 @@ export default function HomePage() {
       <section id="problems" className="bg-[var(--off-white)] py-24 sm:py-32">
         <div className="mx-auto max-w-7xl px-6">
           <div className="mx-auto max-w-2xl text-center">
-            <h2 className="font-[family-name:var(--font-space-grotesk)] text-3xl font-bold tracking-tight text-[var(--navy)] sm:text-4xl">
+            <h2 className="font-[family-name:var(--font-oswald)] text-3xl font-bold tracking-tight text-[var(--navy)] sm:text-4xl">
               The Marketing Clarity Gap
             </h2>
             <p className="mt-4 text-lg text-gray-600">
@@ -189,7 +189,7 @@ export default function HomePage() {
               <div className="mb-5 inline-flex items-center justify-center rounded-xl bg-[var(--coral)]/10 p-3 text-[var(--coral)]">
                 <BookOpen className="w-6 h-6" />
               </div>
-              <h3 className="font-[family-name:var(--font-space-grotesk)] text-xl font-bold text-[var(--navy)]">
+              <h3 className="font-[family-name:var(--font-oswald)] text-xl font-bold text-[var(--navy)]">
                 Education Without Execution
               </h3>
               <p className="mt-3 leading-relaxed text-gray-600">
@@ -204,7 +204,7 @@ export default function HomePage() {
               <div className="mb-5 inline-flex items-center justify-center rounded-xl bg-[var(--teal)]/10 p-3 text-[var(--teal)]">
                 <Target className="w-6 h-6" />
               </div>
-              <h3 className="font-[family-name:var(--font-space-grotesk)] text-xl font-bold text-[var(--navy)]">
+              <h3 className="font-[family-name:var(--font-oswald)] text-xl font-bold text-[var(--navy)]">
                 Strategy Without Personalization
               </h3>
               <p className="mt-3 leading-relaxed text-gray-600">
@@ -218,7 +218,7 @@ export default function HomePage() {
               <div className="mb-5 inline-flex items-center justify-center rounded-xl bg-[var(--navy)]/10 p-3 text-[var(--navy)]">
                 <Shield className="w-6 h-6" />
               </div>
-              <h3 className="font-[family-name:var(--font-space-grotesk)] text-xl font-bold text-[var(--navy)]">
+              <h3 className="font-[family-name:var(--font-oswald)] text-xl font-bold text-[var(--navy)]">
                 Community Without Credibility
               </h3>
               <p className="mt-3 leading-relaxed text-gray-600">
@@ -234,7 +234,7 @@ export default function HomePage() {
       <section id="how-it-works" className="bg-white py-24 sm:py-32">
         <div className="mx-auto max-w-7xl px-6">
           <div className="mx-auto max-w-2xl text-center">
-            <h2 className="font-[family-name:var(--font-space-grotesk)] text-3xl font-bold tracking-tight text-[var(--navy)] sm:text-4xl">
+            <h2 className="font-[family-name:var(--font-oswald)] text-3xl font-bold tracking-tight text-[var(--navy)] sm:text-4xl">
               From Strategy to Execution in 3&nbsp;Steps
             </h2>
             <p className="mt-4 text-lg text-gray-600">
@@ -246,13 +246,13 @@ export default function HomePage() {
             {/* Step 1 */}
             <div className="relative text-center lg:text-left">
               <div className="mx-auto mb-6 flex h-16 w-16 items-center justify-center rounded-2xl bg-gradient-to-br from-[var(--coral)] to-[#f06070] text-white shadow-lg shadow-[var(--coral)]/20 lg:mx-0">
-                <span className="font-[family-name:var(--font-space-grotesk)] text-xl font-bold">
+                <span className="font-[family-name:var(--font-oswald)] text-xl font-bold">
                   01
                 </span>
               </div>
               {/* Connector line (desktop only) */}
               <div className="absolute top-8 left-[calc(50%+40px)] hidden h-px w-[calc(100%-80px)] bg-gradient-to-r from-[var(--coral)]/40 to-[var(--teal)]/40 lg:block" />
-              <h3 className="font-[family-name:var(--font-space-grotesk)] text-xl font-bold text-[var(--navy)]">
+              <h3 className="font-[family-name:var(--font-oswald)] text-xl font-bold text-[var(--navy)]">
                 Answer, We&rsquo;ll Build
               </h3>
               <p className="mt-3 leading-relaxed text-gray-600">
@@ -269,12 +269,12 @@ export default function HomePage() {
             {/* Step 2 */}
             <div className="relative text-center lg:text-left">
               <div className="mx-auto mb-6 flex h-16 w-16 items-center justify-center rounded-2xl bg-gradient-to-br from-[var(--teal)] to-[#3da5b0] text-white shadow-lg shadow-[var(--teal)]/20 lg:mx-0">
-                <span className="font-[family-name:var(--font-space-grotesk)] text-xl font-bold">
+                <span className="font-[family-name:var(--font-oswald)] text-xl font-bold">
                   02
                 </span>
               </div>
               <div className="absolute top-8 left-[calc(50%+40px)] hidden h-px w-[calc(100%-80px)] bg-gradient-to-r from-[var(--teal)]/40 to-[var(--navy)]/40 lg:block" />
-              <h3 className="font-[family-name:var(--font-space-grotesk)] text-xl font-bold text-[var(--navy)]">
+              <h3 className="font-[family-name:var(--font-oswald)] text-xl font-bold text-[var(--navy)]">
                 AI Generates Instantly
               </h3>
               <p className="mt-3 leading-relaxed text-gray-600">
@@ -291,11 +291,11 @@ export default function HomePage() {
             {/* Step 3 */}
             <div className="text-center lg:text-left">
               <div className="mx-auto mb-6 flex h-16 w-16 items-center justify-center rounded-2xl bg-gradient-to-br from-[var(--navy)] to-[#2a3148] text-white shadow-lg shadow-[var(--navy)]/20 lg:mx-0">
-                <span className="font-[family-name:var(--font-space-grotesk)] text-xl font-bold">
+                <span className="font-[family-name:var(--font-oswald)] text-xl font-bold">
                   03
                 </span>
               </div>
-              <h3 className="font-[family-name:var(--font-space-grotesk)] text-xl font-bold text-[var(--navy)]">
+              <h3 className="font-[family-name:var(--font-oswald)] text-xl font-bold text-[var(--navy)]">
                 Execute &amp; Refine
               </h3>
               <p className="mt-3 leading-relaxed text-gray-600">
@@ -324,7 +324,7 @@ export default function HomePage() {
               <p className="mb-3 text-sm font-semibold uppercase tracking-wider text-[var(--teal)]">
                 Core Feature
               </p>
-              <h2 className="font-[family-name:var(--font-space-grotesk)] text-3xl font-bold tracking-tight text-[var(--navy)] sm:text-4xl">
+              <h2 className="font-[family-name:var(--font-oswald)] text-3xl font-bold tracking-tight text-[var(--navy)] sm:text-4xl">
                 The AI Strategy Builder
               </h2>
               <p className="mt-4 text-lg leading-relaxed text-gray-600">
@@ -418,7 +418,7 @@ export default function HomePage() {
       <section id="templates" className="bg-white py-24 sm:py-32">
         <div className="mx-auto max-w-7xl px-6">
           <div className="mx-auto max-w-2xl text-center">
-            <h2 className="font-[family-name:var(--font-space-grotesk)] text-3xl font-bold tracking-tight text-[var(--navy)] sm:text-4xl">
+            <h2 className="font-[family-name:var(--font-oswald)] text-3xl font-bold tracking-tight text-[var(--navy)] sm:text-4xl">
               41 Interactive Marketing Templates
             </h2>
             <p className="mt-4 text-lg text-gray-600">
@@ -435,7 +435,7 @@ export default function HomePage() {
                 <div className="mb-4 inline-flex items-center justify-center rounded-xl bg-[var(--teal)]/10 p-3 text-[var(--teal)] transition-colors group-hover:bg-[var(--teal)] group-hover:text-white">
                   {templateIcons[category.id]}
                 </div>
-                <h3 className="font-[family-name:var(--font-space-grotesk)] text-lg font-bold text-[var(--navy)]">
+                <h3 className="font-[family-name:var(--font-oswald)] text-lg font-bold text-[var(--navy)]">
                   {category.name}
                 </h3>
                 <p className="mt-2 text-sm leading-relaxed text-gray-600">
@@ -473,7 +473,7 @@ export default function HomePage() {
               <p className="mb-3 text-sm font-semibold uppercase tracking-wider text-[var(--teal)]">
                 Accountability Program
               </p>
-              <h2 className="font-[family-name:var(--font-space-grotesk)] text-3xl font-bold tracking-tight sm:text-4xl">
+              <h2 className="font-[family-name:var(--font-oswald)] text-3xl font-bold tracking-tight sm:text-4xl">
                 The 90-Day Growth Challenge
               </h2>
               <p className="mt-4 text-lg text-white/70">
@@ -551,7 +551,7 @@ export default function HomePage() {
                     <p className="text-sm font-medium text-white/50">
                       {phase.weeks}
                     </p>
-                    <p className="font-[family-name:var(--font-space-grotesk)] text-lg font-bold">
+                    <p className="font-[family-name:var(--font-oswald)] text-lg font-bold">
                       {phase.title}
                     </p>
                   </div>
@@ -566,7 +566,7 @@ export default function HomePage() {
       <section id="pricing" className="bg-[var(--off-white)] py-24 sm:py-32">
         <div className="mx-auto max-w-7xl px-6">
           <div className="mx-auto max-w-2xl text-center">
-            <h2 className="font-[family-name:var(--font-space-grotesk)] text-3xl font-bold tracking-tight text-[var(--navy)] sm:text-4xl">
+            <h2 className="font-[family-name:var(--font-oswald)] text-3xl font-bold tracking-tight text-[var(--navy)] sm:text-4xl">
               Simple, Transparent Pricing
             </h2>
             <p className="mt-4 text-lg text-gray-600">
@@ -577,14 +577,14 @@ export default function HomePage() {
           <div className="mt-16 grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
             {/* Template Toolkit */}
             <div className="flex flex-col rounded-2xl border border-gray-200 bg-white p-8 shadow-sm transition-all hover:shadow-lg">
-              <h3 className="font-[family-name:var(--font-space-grotesk)] text-xl font-bold text-[var(--navy)]">
+              <h3 className="font-[family-name:var(--font-oswald)] text-xl font-bold text-[var(--navy)]">
                 Template Toolkit
               </h3>
               <p className="mt-2 text-sm text-gray-500">
                 Perfect for solo marketers and small teams
               </p>
               <div className="mt-6">
-                <span className="font-[family-name:var(--font-space-grotesk)] text-4xl font-bold text-[var(--navy)]">
+                <span className="font-[family-name:var(--font-oswald)] text-4xl font-bold text-[var(--navy)]">
                   &euro;19
                 </span>
                 <span className="text-gray-500">/month</span>
@@ -615,14 +615,14 @@ export default function HomePage() {
 
             {/* Starter Strategy */}
             <div className="flex flex-col rounded-2xl border border-gray-200 bg-white p-8 shadow-sm transition-all hover:shadow-lg">
-              <h3 className="font-[family-name:var(--font-space-grotesk)] text-xl font-bold text-[var(--navy)]">
+              <h3 className="font-[family-name:var(--font-oswald)] text-xl font-bold text-[var(--navy)]">
                 Starter Strategy
               </h3>
               <p className="mt-2 text-sm text-gray-500">
                 For entrepreneurs ready to level up
               </p>
               <div className="mt-6">
-                <span className="font-[family-name:var(--font-space-grotesk)] text-4xl font-bold text-[var(--navy)]">
+                <span className="font-[family-name:var(--font-oswald)] text-4xl font-bold text-[var(--navy)]">
                   &euro;149
                 </span>
                 <span className="text-gray-500">/one-time</span>
@@ -657,14 +657,14 @@ export default function HomePage() {
               <div className="absolute -top-4 left-1/2 -translate-x-1/2 rounded-full bg-[var(--coral)] px-4 py-1 text-xs font-bold uppercase tracking-wider text-white">
                 Most Popular
               </div>
-              <h3 className="font-[family-name:var(--font-space-grotesk)] text-xl font-bold text-[var(--navy)]">
+              <h3 className="font-[family-name:var(--font-oswald)] text-xl font-bold text-[var(--navy)]">
                 Professional
               </h3>
               <p className="mt-2 text-sm text-gray-500">
                 The complete platform for growing businesses
               </p>
               <div className="mt-6">
-                <span className="font-[family-name:var(--font-space-grotesk)] text-4xl font-bold text-[var(--navy)]">
+                <span className="font-[family-name:var(--font-oswald)] text-4xl font-bold text-[var(--navy)]">
                   &euro;499
                 </span>
                 <span className="text-gray-500">/year</span>
@@ -697,14 +697,14 @@ export default function HomePage() {
 
             {/* Enterprise */}
             <div className="flex flex-col rounded-2xl border border-gray-200 bg-white p-8 shadow-sm transition-all hover:shadow-lg">
-              <h3 className="font-[family-name:var(--font-space-grotesk)] text-xl font-bold text-[var(--navy)]">
+              <h3 className="font-[family-name:var(--font-oswald)] text-xl font-bold text-[var(--navy)]">
                 Enterprise
               </h3>
               <p className="mt-2 text-sm text-gray-500">
                 For teams and franchise networks
               </p>
               <div className="mt-6">
-                <span className="font-[family-name:var(--font-space-grotesk)] text-4xl font-bold text-[var(--navy)]">
+                <span className="font-[family-name:var(--font-oswald)] text-4xl font-bold text-[var(--navy)]">
                   &euro;2,999
                 </span>
                 <span className="text-gray-500">/year</span>
@@ -747,7 +747,7 @@ export default function HomePage() {
       <section id="credibility" className="bg-white py-24 sm:py-32">
         <div className="mx-auto max-w-7xl px-6">
           <div className="mx-auto max-w-2xl text-center">
-            <h2 className="font-[family-name:var(--font-space-grotesk)] text-3xl font-bold tracking-tight text-[var(--navy)] sm:text-4xl">
+            <h2 className="font-[family-name:var(--font-oswald)] text-3xl font-bold tracking-tight text-[var(--navy)] sm:text-4xl">
               Backed by Expertise You Can Trust
             </h2>
             <p className="mt-4 text-lg text-gray-600">
@@ -787,7 +787,7 @@ export default function HomePage() {
                 <div className="mx-auto mb-3 inline-flex items-center justify-center rounded-xl bg-[var(--teal)]/10 p-2.5 text-[var(--teal)]">
                   {stat.icon}
                 </div>
-                <p className="font-[family-name:var(--font-space-grotesk)] text-3xl font-bold text-[var(--navy)]">
+                <p className="font-[family-name:var(--font-oswald)] text-3xl font-bold text-[var(--navy)]">
                   {stat.number}
                 </p>
                 <p className="mt-1 text-sm text-gray-500">{stat.label}</p>
@@ -824,7 +824,7 @@ export default function HomePage() {
                 <div className="mb-4 inline-flex items-center justify-center rounded-xl bg-[var(--coral)]/10 p-3 text-[var(--coral)]">
                   {cred.icon}
                 </div>
-                <h3 className="font-[family-name:var(--font-space-grotesk)] text-lg font-bold text-[var(--navy)]">
+                <h3 className="font-[family-name:var(--font-oswald)] text-lg font-bold text-[var(--navy)]">
                   {cred.title}
                 </h3>
                 <p className="mt-3 leading-relaxed text-gray-600">
@@ -843,7 +843,7 @@ export default function HomePage() {
       >
         <div className="mx-auto max-w-7xl px-6">
           <div className="mx-auto max-w-2xl text-center">
-            <h2 className="font-[family-name:var(--font-space-grotesk)] text-3xl font-bold tracking-tight text-[var(--navy)] sm:text-4xl">
+            <h2 className="font-[family-name:var(--font-oswald)] text-3xl font-bold tracking-tight text-[var(--navy)] sm:text-4xl">
               What Our Users Say
             </h2>
             <p className="mt-4 text-lg text-gray-600">
@@ -914,7 +914,7 @@ export default function HomePage() {
       <section id="faq" className="bg-white py-24 sm:py-32">
         <div className="mx-auto max-w-3xl px-6">
           <div className="text-center">
-            <h2 className="font-[family-name:var(--font-space-grotesk)] text-3xl font-bold tracking-tight text-[var(--navy)] sm:text-4xl">
+            <h2 className="font-[family-name:var(--font-oswald)] text-3xl font-bold tracking-tight text-[var(--navy)] sm:text-4xl">
               Frequently Asked Questions
             </h2>
             <p className="mt-4 text-lg text-gray-600">
@@ -966,7 +966,7 @@ export default function HomePage() {
               },
             ].map((faq, i) => (
               <details key={i} className="group py-6">
-                <summary className="flex cursor-pointer list-none items-center justify-between text-left font-[family-name:var(--font-space-grotesk)] text-lg font-semibold text-[var(--navy)] transition-colors hover:text-[var(--coral)] [&::-webkit-details-marker]:hidden">
+                <summary className="flex cursor-pointer list-none items-center justify-between text-left font-[family-name:var(--font-oswald)] text-lg font-semibold text-[var(--navy)] transition-colors hover:text-[var(--coral)] [&::-webkit-details-marker]:hidden">
                   {faq.q}
                   <ChevronRight className="w-5 h-5 shrink-0 text-gray-400 transition-transform group-open:rotate-90" />
                 </summary>
@@ -985,7 +985,7 @@ export default function HomePage() {
         <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxnIGZpbGw9IiNmZmZmZmYiIGZpbGwtb3BhY2l0eT0iMC4wMyI+PHBhdGggZD0iTTM2IDE4YzEuNjU3IDAgMy0xLjM0MyAzLTNzLTEuMzQzLTMtMy0zLTMgMS4zNDMtMyAzIDEuMzQzIDMgMyAzem0wIDM2YzEuNjU3IDAgMy0xLjM0MyAzLTNzLTEuMzQzLTMtMy0zLTMgMS4zNDMtMyAzIDEuMzQzIDMgMyAzem0tMTgtMThjMS42NTcgMCAzLTEuMzQzIDMtM3MtMS4zNDMtMy0zLTMtMyAxLjM0My0zIDMgMS4zNDMgMyAzIDN6Ii8+PC9nPjwvZz48L3N2Zz4=')] opacity-50" />
 
         <div className="relative mx-auto max-w-4xl px-6 text-center">
-          <h2 className="font-[family-name:var(--font-space-grotesk)] text-3xl font-bold tracking-tight sm:text-4xl lg:text-5xl">
+          <h2 className="font-[family-name:var(--font-oswald)] text-3xl font-bold tracking-tight sm:text-4xl lg:text-5xl">
             Stop Guessing. Start Growing.
           </h2>
           <p className="mx-auto mt-6 max-w-2xl text-lg text-white/80">

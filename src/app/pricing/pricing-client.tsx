@@ -226,11 +226,11 @@ export default function PricingPageClient() {
               )}
 
               <div className="mb-5">
-                <h3 className="text-lg font-semibold text-[var(--navy)] font-[family-name:var(--font-space-grotesk)]">
+                <h3 className="text-lg font-semibold text-[var(--navy)] font-[family-name:var(--font-oswald)]">
                   {tier.name}
                 </h3>
                 <div className="mt-3 flex items-baseline">
-                  <span className="text-4xl font-bold text-[var(--navy)] font-[family-name:var(--font-space-grotesk)]">
+                  <span className="text-4xl font-bold text-[var(--navy)] font-[family-name:var(--font-oswald)]">
                     {annual ? tier.annualPrice : tier.monthlyPrice}
                   </span>
                   <span className="ml-1 text-sm text-gray-500">

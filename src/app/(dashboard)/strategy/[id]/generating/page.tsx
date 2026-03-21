@@ -169,7 +169,7 @@ export default function GeneratingPage() {
               <Sparkles className="h-8 w-8 animate-pulse text-coral" />
             )}
           </div>
-          <h1 className="font-[family-name:var(--font-space-grotesk)] text-2xl font-bold text-navy sm:text-3xl">
+          <h1 className="font-[family-name:var(--font-oswald)] text-2xl font-bold text-navy sm:text-3xl">
             {isComplete
               ? "Your Strategy is Ready!"
               : error

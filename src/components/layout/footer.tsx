@@ -26,10 +26,11 @@ export function Footer() {
         <div className="grid grid-cols-2 gap-8 md:grid-cols-4">
           {/* Brand */}
           <div className="col-span-2 md:col-span-1">
-            <svg viewBox="0 0 40 40" className="mb-4 h-10 w-10" xmlns="http://www.w3.org/2000/svg">
-              <rect width="40" height="40" rx="8" fill="#e8384f"/>
-              <text x="20" y="27" textAnchor="middle" fontFamily="var(--font-space-grotesk), system-ui, sans-serif" fontWeight="800" fontSize="22" fill="white">AU</text>
-            </svg>
+            <img
+              src="/brand/au-logo.png"
+              alt="Advertising Unplugged"
+              className="mb-4 h-10 w-auto"
+            />
             <p className="text-sm leading-relaxed">
               Clarity Over Noise.
               <br />

@@ -30,15 +30,12 @@ export function Navbar() {
     <header className="sticky top-0 z-50 bg-[var(--navy)] text-white">
       <nav className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
         {/* Logo */}
-        <Link href="/" className="flex items-center gap-2.5">
-          {/* AU Monogram - white for dark navbar */}
-          <svg viewBox="0 0 40 40" className="h-9 w-9" xmlns="http://www.w3.org/2000/svg">
-            <rect width="40" height="40" rx="8" fill="#e8384f"/>
-            <text x="20" y="27" textAnchor="middle" fontFamily="var(--font-space-grotesk), system-ui, sans-serif" fontWeight="800" fontSize="22" fill="white">AU</text>
-          </svg>
-          <span className="hidden font-[family-name:var(--font-space-grotesk)] text-lg font-bold tracking-tight sm:block">
-            Advertising Unplugged
-          </span>
+        <Link href="/" className="flex items-center gap-2">
+          <img
+            src="/brand/au-logo.png"
+            alt="Advertising Unplugged"
+            className="h-9 w-auto"
+          />
         </Link>
 
         {/* Desktop Nav */}

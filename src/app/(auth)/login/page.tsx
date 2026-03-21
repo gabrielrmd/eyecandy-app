@@ -56,7 +56,7 @@ export default function LoginPage() {
           <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-[var(--navy)]">
             <span className="text-xl font-bold text-white">AU</span>
           </div>
-          <h1 className="mt-4 text-2xl font-bold text-[var(--navy)] font-[family-name:var(--font-space-grotesk)]">
+          <h1 className="mt-4 text-2xl font-bold text-[var(--navy)] font-[family-name:var(--font-oswald)]">
             Welcome Back
           </h1>
           <p className="mt-1 text-sm text-gray-500">

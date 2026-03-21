@@ -28,7 +28,7 @@ export default function AdminDashboard() {
         <div>
           <div className="flex items-center gap-2">
             <Shield className="h-6 w-6 text-[var(--coral)]" />
-            <h1 className="font-[family-name:var(--font-space-grotesk)] text-2xl font-bold text-[var(--navy)]">
+            <h1 className="font-[family-name:var(--font-oswald)] text-2xl font-bold text-[var(--navy)]">
               Admin Dashboard
             </h1>
           </div>
@@ -55,7 +55,7 @@ export default function AdminDashboard() {
               </span>
             </div>
             <div className="mt-3">
-              <span className="font-[family-name:var(--font-space-grotesk)] text-2xl font-bold text-[var(--navy)]">
+              <span className="font-[family-name:var(--font-oswald)] text-2xl font-bold text-[var(--navy)]">
                 {stat.value}
               </span>
               <p className="mt-0.5 text-sm text-muted-foreground">

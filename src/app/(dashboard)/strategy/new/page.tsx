@@ -135,7 +135,7 @@ export default function NewStrategyPage() {
               AI Strategy Builder
             </div>
 
-            <h1 className="font-[family-name:var(--font-space-grotesk)] text-3xl font-bold text-navy sm:text-4xl">
+            <h1 className="font-[family-name:var(--font-oswald)] text-3xl font-bold text-navy sm:text-4xl">
               Create Your Strategy
             </h1>
 
@@ -198,7 +198,7 @@ export default function NewStrategyPage() {
 
             {/* Form */}
             <div className="mt-10 max-w-md rounded-xl border border-border bg-card p-6">
-              <h2 className="font-[family-name:var(--font-space-grotesk)] text-lg font-semibold text-navy">
+              <h2 className="font-[family-name:var(--font-oswald)] text-lg font-semibold text-navy">
                 Let&apos;s get started
               </h2>
               <p className="mt-1 text-sm text-muted-foreground">
@@ -279,7 +279,7 @@ export default function NewStrategyPage() {
           {/* Sidebar benefits */}
           <aside className="w-full shrink-0 lg:w-80">
             <div className="rounded-xl border border-border bg-card p-6">
-              <h3 className="font-[family-name:var(--font-space-grotesk)] text-base font-semibold text-navy">
+              <h3 className="font-[family-name:var(--font-oswald)] text-base font-semibold text-navy">
                 What you get
               </h3>
 

@@ -9,7 +9,7 @@ export default function PricingPage() {
       <main className="min-h-screen bg-white">
         {/* Hero Section */}
         <section className="bg-[var(--navy)] px-4 pb-16 pt-24 text-center">
-          <h1 className="text-4xl font-bold text-white sm:text-5xl font-[family-name:var(--font-space-grotesk)]">
+          <h1 className="text-4xl font-bold text-white sm:text-5xl font-[family-name:var(--font-oswald)]">
             Simple, Transparent Pricing
           </h1>
           <p className="mx-auto mt-4 max-w-2xl text-lg text-gray-300">
@@ -23,7 +23,7 @@ export default function PricingPage() {
 
         {/* FAQ Section */}
         <section className="mx-auto max-w-3xl px-4 pb-20 pt-10">
-          <h2 className="mb-8 text-center text-3xl font-bold text-[var(--navy)] font-[family-name:var(--font-space-grotesk)]">
+          <h2 className="mb-8 text-center text-3xl font-bold text-[var(--navy)] font-[family-name:var(--font-oswald)]">
             Frequently Asked Questions
           </h2>
           <div className="space-y-6">

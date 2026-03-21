@@ -59,7 +59,7 @@ export default function BillingPage() {
   return (
     <div className="mx-auto max-w-4xl space-y-8">
       <div>
-        <h1 className="font-[family-name:var(--font-space-grotesk)] text-2xl font-bold text-[var(--navy)]">
+        <h1 className="font-[family-name:var(--font-oswald)] text-2xl font-bold text-[var(--navy)]">
           Billing & Subscription
         </h1>
         <p className="mt-1 text-muted-foreground">
@@ -76,7 +76,7 @@ export default function BillingPage() {
               <h2 className="text-lg font-semibold">Current Plan</h2>
             </div>
             <div className="mt-3">
-              <span className="font-[family-name:var(--font-space-grotesk)] text-3xl font-bold text-[var(--navy)]">
+              <span className="font-[family-name:var(--font-oswald)] text-3xl font-bold text-[var(--navy)]">
                 {currentPlan.name}
               </span>
               <span className="ml-2 text-muted-foreground">
@@ -123,7 +123,7 @@ export default function BillingPage() {
               )}
               <h3 className="font-semibold">{plan.name}</h3>
               <div className="mt-2">
-                <span className="font-[family-name:var(--font-space-grotesk)] text-2xl font-bold">
+                <span className="font-[family-name:var(--font-oswald)] text-2xl font-bold">
                   {plan.price}
                 </span>
                 <span className="text-sm text-muted-foreground">

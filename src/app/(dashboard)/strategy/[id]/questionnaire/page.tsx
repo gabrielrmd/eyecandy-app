@@ -225,7 +225,7 @@ export default function QuestionnairePage() {
       <div className="flex min-h-screen items-center justify-center bg-background">
         <div className="max-w-md rounded-xl border border-border bg-card p-8 text-center">
           <AlertCircle className="mx-auto h-10 w-10 text-coral" />
-          <h2 className="mt-4 font-[family-name:var(--font-space-grotesk)] text-lg font-semibold text-navy">
+          <h2 className="mt-4 font-[family-name:var(--font-oswald)] text-lg font-semibold text-navy">
             Questionnaire Unavailable
           </h2>
           <p className="mt-2 text-sm text-muted-foreground">
@@ -255,7 +255,7 @@ export default function QuestionnairePage() {
               >
                 <ArrowLeft className="h-4 w-4" />
               </Link>
-              <h1 className="font-[family-name:var(--font-space-grotesk)] text-base font-semibold text-navy sm:text-lg">
+              <h1 className="font-[family-name:var(--font-oswald)] text-base font-semibold text-navy sm:text-lg">
                 Strategy Questionnaire
               </h1>
             </div>
@@ -357,7 +357,7 @@ export default function QuestionnairePage() {
           {currentSection && (
             <div className="rounded-xl border border-border bg-card p-6 sm:p-8">
               <div className="mb-6">
-                <h2 className="font-[family-name:var(--font-space-grotesk)] text-xl font-semibold text-navy">
+                <h2 className="font-[family-name:var(--font-oswald)] text-xl font-semibold text-navy">
                   {currentSection.title}
                 </h2>
                 {currentSection.description && (

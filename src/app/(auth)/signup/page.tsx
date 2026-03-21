@@ -87,7 +87,7 @@ export default function SignUpPage() {
               />
             </svg>
           </div>
-          <h2 className="text-xl font-bold text-[var(--navy)] font-[family-name:var(--font-space-grotesk)]">
+          <h2 className="text-xl font-bold text-[var(--navy)] font-[family-name:var(--font-oswald)]">
             Check Your Email
           </h2>
           <p className="mt-2 text-sm text-gray-500">
@@ -114,7 +114,7 @@ export default function SignUpPage() {
           <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-[var(--navy)]">
             <span className="text-xl font-bold text-white">AU</span>
           </div>
-          <h1 className="mt-4 text-2xl font-bold text-[var(--navy)] font-[family-name:var(--font-space-grotesk)]">
+          <h1 className="mt-4 text-2xl font-bold text-[var(--navy)] font-[family-name:var(--font-oswald)]">
             Create Your Account
           </h1>
           <p className="mt-1 text-sm text-gray-500">

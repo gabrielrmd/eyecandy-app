@@ -72,7 +72,7 @@ export default function TemplatesPage() {
       <div className="mx-auto max-w-7xl px-4 py-10 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="mb-8">
-          <h1 className="font-[family-name:var(--font-space-grotesk)] text-3xl font-bold text-navy sm:text-4xl">
+          <h1 className="font-[family-name:var(--font-oswald)] text-3xl font-bold text-navy sm:text-4xl">
             Template Library
           </h1>
           <p className="mt-2 text-lg text-muted-foreground">
@@ -151,7 +151,7 @@ export default function TemplatesPage() {
                 </div>
 
                 {/* Name + Description */}
-                <h3 className="font-[family-name:var(--font-space-grotesk)] text-base font-semibold text-foreground">
+                <h3 className="font-[family-name:var(--font-oswald)] text-base font-semibold text-foreground">
                   {template.name}
                 </h3>
                 <p className="mt-1 flex-1 text-sm text-muted-foreground line-clamp-2">

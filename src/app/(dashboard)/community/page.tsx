@@ -86,7 +86,7 @@ export default function CommunityPage() {
         <div className="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-[var(--coral)]/10">
           <Trophy className="h-8 w-8 text-[var(--coral)]" />
         </div>
-        <h1 className="font-[family-name:var(--font-space-grotesk)] text-3xl font-bold text-[var(--navy)]">
+        <h1 className="font-[family-name:var(--font-oswald)] text-3xl font-bold text-[var(--navy)]">
           Unplugged Circle
         </h1>
         <p className="mx-auto mt-2 max-w-lg text-muted-foreground">
@@ -174,7 +174,7 @@ export default function CommunityPage() {
 
       {/* Join CTA */}
       <div className="rounded-xl bg-[var(--navy)] p-8 text-center text-white">
-        <h2 className="font-[family-name:var(--font-space-grotesk)] text-2xl font-bold">
+        <h2 className="font-[family-name:var(--font-oswald)] text-2xl font-bold">
           Ready to Join the Circle?
         </h2>
         <p className="mx-auto mt-2 max-w-md text-white/70">

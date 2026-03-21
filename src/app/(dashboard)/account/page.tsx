@@ -70,7 +70,7 @@ export default function AccountPage() {
   return (
     <div className="min-h-screen bg-background">
       <div className="mx-auto max-w-3xl px-4 py-10 sm:px-6 lg:px-8">
-        <h1 className="font-[family-name:var(--font-space-grotesk)] text-2xl font-bold text-navy sm:text-3xl">
+        <h1 className="font-[family-name:var(--font-oswald)] text-2xl font-bold text-navy sm:text-3xl">
           Account Settings
         </h1>
         <p className="mt-1 text-muted-foreground">
@@ -80,7 +80,7 @@ export default function AccountPage() {
         {/* Profile section */}
         <section className="mt-8">
           <div className="rounded-xl border border-border bg-card p-6">
-            <h2 className="font-[family-name:var(--font-space-grotesk)] text-lg font-semibold text-navy">
+            <h2 className="font-[family-name:var(--font-oswald)] text-lg font-semibold text-navy">
               Profile
             </h2>
             <p className="mt-0.5 text-sm text-muted-foreground">
@@ -219,7 +219,7 @@ export default function AccountPage() {
         {/* Notification preferences */}
         <section className="mt-6">
           <div className="rounded-xl border border-border bg-card p-6">
-            <h2 className="font-[family-name:var(--font-space-grotesk)] text-lg font-semibold text-navy">
+            <h2 className="font-[family-name:var(--font-oswald)] text-lg font-semibold text-navy">
               Notification Preferences
             </h2>
             <p className="mt-0.5 text-sm text-muted-foreground">
@@ -324,7 +324,7 @@ export default function AccountPage() {
         {/* Danger zone */}
         <section className="mt-10">
           <div className="rounded-xl border border-destructive/30 bg-card p-6">
-            <h2 className="font-[family-name:var(--font-space-grotesk)] text-lg font-semibold text-destructive">
+            <h2 className="font-[family-name:var(--font-oswald)] text-lg font-semibold text-destructive">
               Danger Zone
             </h2>
             <p className="mt-0.5 text-sm text-muted-foreground">
