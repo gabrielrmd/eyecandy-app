@@ -102,8 +102,7 @@ export default function NewStrategyPage() {
         .insert({
           user_id: user.id,
           title: businessName.trim(),
-          description: `Strategy project for ${businessName.trim()} in ${industry}`,
-          industry,
+          description: `${industry}`,
           status: "in_progress",
         })
         .select("id")

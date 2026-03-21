@@ -159,9 +159,8 @@ export async function POST(request: NextRequest) {
       ? `\n\nQuestionnaire Responses:\n${JSON.stringify(questionnaire_responses, null, 2)}`
       : "";
 
-    const projectContext = `Brand/Business: ${project.title || project.business_name || "Unknown"}
-Description: ${project.description || "No description provided"}
-Industry: ${project.industry || "Not specified"}${responsesContext}`;
+    const projectContext = `Brand/Business: ${project.title || "Unknown"}
+Industry/Description: ${project.description || "Not specified"}${responsesContext}`;
 
     const anthropic = new Anthropic({ apiKey });
 
