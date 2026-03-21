@@ -349,7 +349,11 @@ export default function QuestionnairePage() {
       if (!res.ok) throw new Error("Failed to get suggestions");
 
       const data = await res.json();
-      const suggestions: string[] = data.suggestions ?? [];
+      // API returns { suggestions: [{ text, explanation, relevance_score }] }
+      const rawSuggestions = data.suggestions ?? [];
+      const suggestions: string[] = rawSuggestions.map((s: string | { text: string }) =>
+        typeof s === "string" ? s : s.text
+      );
 
       setAiSuggestions((prev) => ({
         ...prev,
