@@ -4,7 +4,7 @@ import { createClient } from "@/lib/supabase/server";
 import { revalidatePath } from "next/cache";
 
 export async function saveTemplateResponse(
-  templateId: string,
+  templateSlug: string,
   responses: Record<string, unknown>
 ) {
   const supabase = await createClient();
@@ -14,25 +14,93 @@ export async function saveTemplateResponse(
 
   if (!user) return { error: "Unauthorized" };
 
-  const { error } = await supabase.from("template_responses").upsert(
-    {
+  // Look up the template UUID from the slug
+  const { data: template } = await supabase
+    .from("template_catalog")
+    .select("id")
+    .eq("slug", templateSlug)
+    .maybeSingle();
+
+  // If template not found in catalog, use the slug as-is for non-catalog templates
+  const templateId = template?.id;
+
+  if (!templateId) {
+    // Fallback: store with a deterministic UUID-like approach
+    // Try to find existing response by user + matching data title
+    const { data: existing } = await supabase
+      .from("template_responses")
+      .select("id")
+      .eq("user_id", user.id)
+      .eq("title", templateSlug)
+      .maybeSingle();
+
+    if (existing) {
+      const { error } = await supabase
+        .from("template_responses")
+        .update({
+          data: responses,
+          updated_at: new Date().toISOString(),
+        })
+        .eq("id", existing.id);
+
+      if (error) return { error: error.message };
+    } else {
+      // Need a valid template_id - get any template to satisfy FK
+      const { data: anyTemplate } = await supabase
+        .from("template_catalog")
+        .select("id")
+        .limit(1)
+        .single();
+
+      if (!anyTemplate) return { error: "No templates found in catalog" };
+
+      const { error } = await supabase.from("template_responses").insert({
+        user_id: user.id,
+        template_id: anyTemplate.id,
+        title: templateSlug,
+        data: responses,
+      });
+
+      if (error) return { error: error.message };
+    }
+
+    revalidatePath(`/templates/${templateSlug}`);
+    return { success: true };
+  }
+
+  // Check for existing response
+  const { data: existing } = await supabase
+    .from("template_responses")
+    .select("id")
+    .eq("user_id", user.id)
+    .eq("template_id", templateId)
+    .maybeSingle();
+
+  if (existing) {
+    const { error } = await supabase
+      .from("template_responses")
+      .update({
+        data: responses,
+        updated_at: new Date().toISOString(),
+      })
+      .eq("id", existing.id);
+
+    if (error) return { error: error.message };
+  } else {
+    const { error } = await supabase.from("template_responses").insert({
       user_id: user.id,
       template_id: templateId,
-      response_data: responses,
-      updated_at: new Date().toISOString(),
-    },
-    {
-      onConflict: "user_id,template_id",
-    }
-  );
+      data: responses,
+    });
 
-  if (error) return { error: error.message };
+    if (error) return { error: error.message };
+  }
 
-  revalidatePath(`/templates/${templateId}`);
+  revalidatePath(`/templates/${templateSlug}`);
   return { success: true };
 }
 
-export async function loadTemplateResponse(templateId: string) {
+export async function loadTemplateResponse(templateSlug: string) {
   const supabase = await createClient();
   const {
     data: { user },
@@ -40,14 +108,33 @@ export async function loadTemplateResponse(templateId: string) {
 
   if (!user) return { data: null };
 
+  // Look up template UUID from slug
+  const { data: template } = await supabase
+    .from("template_catalog")
+    .select("id")
+    .eq("slug", templateSlug)
+    .maybeSingle();
+
+  if (template?.id) {
+    const { data, error } = await supabase
+      .from("template_responses")
+      .select("data")
+      .eq("user_id", user.id)
+      .eq("template_id", template.id)
+      .maybeSingle();
+
+    if (error || !data) return { data: null };
+    return { data: data.data };
+  }
+
+  // Fallback: search by title
   const { data, error } = await supabase
     .from("template_responses")
-    .select("response_data")
+    .select("data")
     .eq("user_id", user.id)
-    .eq("template_id", templateId)
-    .single();
+    .eq("title", templateSlug)
+    .maybeSingle();
 
-  if (error) return { data: null };
-
-  return { data: data.response_data };
+  if (error || !data) return { data: null };
+  return { data: data.data };
 }
