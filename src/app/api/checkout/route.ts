@@ -2,9 +2,11 @@ import { NextRequest, NextResponse } from "next/server";
 import Stripe from "stripe";
 import { createClient } from "@/lib/supabase/server";
 
-const stripe = new Stripe(process.env.STRIPE_SECRET_KEY!, {
-  apiVersion: "2026-02-25.clover",
-});
+function getStripe() {
+  return new Stripe(process.env.STRIPE_SECRET_KEY || "", {
+    apiVersion: "2026-02-25.clover",
+  });
+}
 
 export async function POST(request: NextRequest) {
   try {
@@ -34,7 +36,7 @@ export async function POST(request: NextRequest) {
         );
       }
 
-      const portalSession = await stripe.billingPortal.sessions.create({
+      const portalSession = await getStripe().billingPortal.sessions.create({
         customer: subscription.stripe_customer_id,
         return_url: `${process.env.NEXT_PUBLIC_APP_URL}/account/billing`,
       });
@@ -54,7 +56,7 @@ export async function POST(request: NextRequest) {
 
     const isSubscription = plan !== "starter"; // Starter is one-time
 
-    const session = await stripe.checkout.sessions.create({
+    const session = await getStripe().checkout.sessions.create({
       mode: isSubscription ? "subscription" : "payment",
       customer_email: user.email,
       metadata: {

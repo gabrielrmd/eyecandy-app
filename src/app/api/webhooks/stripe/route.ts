@@ -2,14 +2,18 @@ import { NextRequest, NextResponse } from "next/server";
 import Stripe from "stripe";
 import { createClient } from "@supabase/supabase-js";
 
-const stripe = new Stripe(process.env.STRIPE_SECRET_KEY!, {
-  apiVersion: "2026-02-25.clover",
-});
+function getStripe() {
+  return new Stripe(process.env.STRIPE_SECRET_KEY || "", {
+    apiVersion: "2026-02-25.clover",
+  });
+}
 
-const supabase = createClient(
-  process.env.NEXT_PUBLIC_SUPABASE_URL!,
-  process.env.SUPABASE_SERVICE_ROLE_KEY!
-);
+function getSupabase() {
+  return createClient(
+    process.env.NEXT_PUBLIC_SUPABASE_URL || "",
+    process.env.SUPABASE_SERVICE_ROLE_KEY || ""
+  );
+}
 
 const planMapping: Record<string, string> = {
   prod_starter: "starter",
@@ -25,7 +29,7 @@ export async function POST(request: NextRequest) {
   let event: Stripe.Event;
 
   try {
-    event = stripe.webhooks.constructEvent(
+    event = getStripe().webhooks.constructEvent(
       body,
       signature,
       process.env.STRIPE_WEBHOOK_SECRET!
@@ -43,7 +47,7 @@ export async function POST(request: NextRequest) {
         const plan = session.metadata?.plan || "template_toolkit";
 
         if (userId) {
-          await supabase.from("subscriptions").upsert({
+          await getSupabase().from("subscriptions").upsert({
             user_id: userId,
             stripe_customer_id: session.customer as string,
             stripe_subscription_id: session.subscription as string,
@@ -60,7 +64,7 @@ export async function POST(request: NextRequest) {
         const productId = (subscription.items.data[0]?.price?.product as string) || "";
         const plan = planMapping[productId] || "template_toolkit";
 
-        await supabase
+        await getSupabase()
           .from("subscriptions")
           .update({
             plan_type: plan,
@@ -73,7 +77,7 @@ export async function POST(request: NextRequest) {
 
       case "customer.subscription.deleted": {
         const subscription = event.data.object as Stripe.Subscription;
-        await supabase
+        await getSupabase()
           .from("subscriptions")
           .update({
             status: "canceled",
@@ -88,7 +92,7 @@ export async function POST(request: NextRequest) {
         // eslint-disable-next-line @typescript-eslint/no-explicit-any
         const subId = (invoice as any).subscription || (invoice as any).parent?.subscription_details?.subscription;
         if (subId) {
-          await supabase
+          await getSupabase()
             .from("subscriptions")
             .update({
               status: "past_due",
