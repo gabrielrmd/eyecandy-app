@@ -4,9 +4,7 @@ import { createClient } from "@/lib/supabase/server";
 import { STRIPE_PRICES, type ProductId } from "@/lib/products";
 
 function getStripe() {
-  return new Stripe(process.env.STRIPE_SECRET_KEY || "", {
-    apiVersion: "2026-02-25.clover",
-  });
+  return new Stripe(process.env.STRIPE_SECRET_KEY || "");
 }
 
 // Products that are one-time payments (not subscriptions)
@@ -85,24 +83,25 @@ export async function POST(request: NextRequest) {
     const priceId = STRIPE_PRICES[productId];
     const isOneTime = ONE_TIME_PRODUCTS.includes(productId);
 
-    const session = await getStripe().checkout.sessions.create({
+    const appUrl = "https://eyecandy-app.vercel.app";
+
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    const session = await (getStripe().checkout.sessions.create as any)({
       mode: isOneTime ? "payment" : "subscription",
-      customer_email: user.email,
+      customer_email: user.email || undefined,
       metadata: {
         user_id: user.id,
         product_id: productId,
       },
       line_items: [{ price: priceId, quantity: 1 }],
-      success_url: `${process.env.NEXT_PUBLIC_APP_URL}/dashboard?checkout=success&product=${productId}`,
-      cancel_url: `${process.env.NEXT_PUBLIC_APP_URL}/pricing?checkout=cancelled`,
-      ...(isOneTime
-        ? { invoice_creation: { enabled: true } }
-        : {}),
+      success_url: `${appUrl}/dashboard?checkout=success&product=${productId}`,
+      cancel_url: `${appUrl}/pricing?checkout=cancelled`,
     });
 
     return NextResponse.json({ url: session.url });
-  } catch (err) {
-    console.error("Checkout error:", err);
+  } catch (err: unknown) {
+    const msg = err instanceof Error ? err.message : String(err);
+    console.error("Checkout error:", msg);
     return NextResponse.json(
       { error: "Failed to create checkout session" },
       { status: 500 }

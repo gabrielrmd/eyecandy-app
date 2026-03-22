@@ -25,9 +25,7 @@ export async function GET(request: NextRequest) {
   }
 
   try {
-    const stripe = new Stripe(process.env.STRIPE_SECRET_KEY || "", {
-      apiVersion: "2026-02-25.clover",
-    });
+    const stripe = new Stripe(process.env.STRIPE_SECRET_KEY || "");
 
     const isOneTime = ["strategy_standalone", "credit_pack_5", "consulting_session"].includes(productId);
 

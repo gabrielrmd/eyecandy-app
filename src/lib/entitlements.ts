@@ -57,6 +57,24 @@ export async function getUserAccess(): Promise<UserAccess> {
     return makeAccess(null, [], DEFAULT_CREDITS);
   }
 
+  // Check if user is admin — admins get full access to everything
+  const { data: profile } = await supabase
+    .from("user_profiles")
+    .select("role")
+    .eq("id", user.id)
+    .single();
+
+  if (profile?.role === "admin") {
+    const adminEntitlements: UserEntitlement[] = [
+      { entitlement: "templates", status: "active", expires_at: null, source_product_id: "admin" },
+      { entitlement: "strategy_builder", status: "active", expires_at: null, source_product_id: "admin" },
+      { entitlement: "circle", status: "active", expires_at: null, source_product_id: "admin" },
+      { entitlement: "agency", status: "active", expires_at: null, source_product_id: "admin" },
+    ];
+    const adminCredits: CreditBalance = { credits_remaining: 999, credits_total: 999, credits_used: 0, unlimited: true };
+    return makeAccess(user.id, adminEntitlements, adminCredits);
+  }
+
   // Fetch active entitlements
   const { data: entitlements } = await supabase
     .from("user_entitlements")
