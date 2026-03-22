@@ -1,8 +1,10 @@
 "use client";
 
 import Link from "next/link";
-import { usePathname } from "next/navigation";
-import { useState } from "react";
+import Image from "next/image";
+import { usePathname, useRouter } from "next/navigation";
+import { useState, useEffect } from "react";
+import { createClient } from "@/lib/supabase/client";
 import {
   Menu,
   X,
@@ -11,6 +13,8 @@ import {
   Trophy,
   Users,
   CreditCard,
+  LogOut,
+  User,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 
@@ -24,17 +28,39 @@ const navLinks = [
 
 export function Navbar() {
   const pathname = usePathname();
+  const router = useRouter();
   const [mobileOpen, setMobileOpen] = useState(false);
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
+  const [userEmail, setUserEmail] = useState("");
+
+  useEffect(() => {
+    const supabase = createClient();
+    supabase.auth.getUser().then(({ data: { user } }) => {
+      setIsLoggedIn(!!user);
+      setUserEmail(user?.email || "");
+    });
+  }, []);
+
+  const handleLogout = async () => {
+    const supabase = createClient();
+    await supabase.auth.signOut();
+    setIsLoggedIn(false);
+    router.push("/");
+    router.refresh();
+  };
 
   return (
     <header className="sticky top-0 z-50 bg-[var(--navy)] text-white">
       <nav className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
         {/* Logo */}
         <Link href="/" className="flex items-center">
-          <img
+          <Image
             src="/brand/au-logo-white.png"
             alt="Advertising Unplugged"
+            width={160}
+            height={40}
             className="h-10 w-auto"
+            priority
           />
         </Link>
 
@@ -58,18 +84,39 @@ export function Navbar() {
 
         {/* Auth Buttons */}
         <div className="hidden items-center gap-3 md:flex">
-          <Link
-            href="/login"
-            className="text-sm font-medium text-white/80 hover:text-white"
-          >
-            Log in
-          </Link>
-          <Link
-            href="/signup"
-            className="rounded-lg bg-[var(--coral)] px-4 py-2 text-sm font-semibold text-white transition-colors hover:bg-[var(--coral)]/90"
-          >
-            Start Free
-          </Link>
+          {isLoggedIn ? (
+            <>
+              <Link
+                href="/dashboard"
+                className="flex items-center gap-1.5 text-sm font-medium text-white/80 hover:text-white"
+              >
+                <User className="h-4 w-4" />
+                Dashboard
+              </Link>
+              <button
+                onClick={handleLogout}
+                className="flex items-center gap-1.5 rounded-lg border border-white/20 px-3 py-1.5 text-sm font-medium text-white/70 hover:bg-white/10 hover:text-white transition-colors"
+              >
+                <LogOut className="h-3.5 w-3.5" />
+                Log out
+              </button>
+            </>
+          ) : (
+            <>
+              <Link
+                href="/login"
+                className="text-sm font-medium text-white/80 hover:text-white"
+              >
+                Log in
+              </Link>
+              <Link
+                href="/signup"
+                className="rounded-lg bg-[var(--coral)] px-4 py-2 text-sm font-semibold text-white transition-colors hover:bg-[var(--coral-hover)]"
+              >
+                Start Free
+              </Link>
+            </>
+          )}
         </div>
 
         {/* Mobile Toggle */}
@@ -103,18 +150,38 @@ export function Navbar() {
               </Link>
             ))}
             <div className="mt-4 flex flex-col gap-2 border-t border-white/10 pt-4">
-              <Link
-                href="/login"
-                className="rounded-md px-3 py-2 text-sm font-medium text-white/80"
-              >
-                Log in
-              </Link>
-              <Link
-                href="/signup"
-                className="rounded-lg bg-[var(--coral)] px-4 py-2 text-center text-sm font-semibold text-white"
-              >
-                Start Free
-              </Link>
+              {isLoggedIn ? (
+                <>
+                  <Link
+                    href="/dashboard"
+                    onClick={() => setMobileOpen(false)}
+                    className="rounded-md px-3 py-2 text-sm font-medium text-white/80"
+                  >
+                    Dashboard
+                  </Link>
+                  <button
+                    onClick={() => { setMobileOpen(false); handleLogout(); }}
+                    className="rounded-lg border border-red-500/30 px-4 py-2 text-center text-sm font-semibold text-red-400 hover:bg-red-500/10"
+                  >
+                    Log out
+                  </button>
+                </>
+              ) : (
+                <>
+                  <Link
+                    href="/login"
+                    className="rounded-md px-3 py-2 text-sm font-medium text-white/80"
+                  >
+                    Log in
+                  </Link>
+                  <Link
+                    href="/signup"
+                    className="rounded-lg bg-[var(--coral)] px-4 py-2 text-center text-sm font-semibold text-white"
+                  >
+                    Start Free
+                  </Link>
+                </>
+              )}
             </div>
           </div>
         </div>

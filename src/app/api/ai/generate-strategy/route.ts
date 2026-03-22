@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
-import Anthropic from "@anthropic-ai/sdk";
 import { createClient } from "@/lib/supabase/server";
+import { generateCompletion, validateProviderConfig, getProviderName } from "@/lib/ai/provider";
 
 // Vercel function config: extend timeout for AI generation
 export const maxDuration = 60;
@@ -190,14 +190,11 @@ export async function POST(request: NextRequest) {
       return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
     }
 
-    const apiKey = process.env.ANTHROPIC_API_KEY;
-    if (!apiKey) {
-      console.error("ANTHROPIC_API_KEY is not configured");
+    const providerCheck = validateProviderConfig();
+    if (!providerCheck.valid) {
+      console.error(providerCheck.error);
       return NextResponse.json(
-        {
-          error:
-            "AI service is not configured. Please set ANTHROPIC_API_KEY.",
-        },
+        { error: `AI service is not configured. ${providerCheck.error}` },
         { status: 503 }
       );
     }
@@ -212,6 +209,63 @@ export async function POST(request: NextRequest) {
         { error: "strategy_project_id is required" },
         { status: 400 }
       );
+    }
+
+    // ── Credit check: consume 1 credit on first batch only ──
+    // Batch 0 or full generation (-1) triggers the credit check.
+    // Subsequent batches (1-14) are part of the same generation.
+    if (requestedBatch <= 0) {
+      // Check entitlement
+      const { data: entitlement } = await supabase
+        .from("user_entitlements")
+        .select("id")
+        .eq("user_id", user.id)
+        .eq("entitlement", "strategy_builder")
+        .eq("status", "active")
+        .limit(1)
+        .single();
+
+      if (!entitlement) {
+        return NextResponse.json(
+          { error: "Strategy Builder access required. Please upgrade your plan or purchase Strategy Builder access." },
+          { status: 403 }
+        );
+      }
+
+      // Check and consume credit
+      const { data: credits } = await supabase
+        .from("strategy_credits")
+        .select("credits_remaining, unlimited")
+        .eq("user_id", user.id)
+        .single();
+
+      if (!credits) {
+        return NextResponse.json(
+          { error: "No strategy credits available. Please purchase credits to continue." },
+          { status: 403 }
+        );
+      }
+
+      if (!credits.unlimited && credits.credits_remaining <= 0) {
+        return NextResponse.json(
+          { error: "You've used all your strategy credits. Purchase additional credits to generate more strategies." },
+          { status: 403 }
+        );
+      }
+
+      // Consume the credit (atomic via RPC)
+      const { error: creditError } = await supabase.rpc("decrement_strategy_credit", {
+        p_user_id: user.id,
+        p_strategy_project_id: strategy_project_id,
+      });
+
+      if (creditError) {
+        console.error("Credit decrement failed:", creditError);
+        return NextResponse.json(
+          { error: "Failed to consume strategy credit. Please try again." },
+          { status: 500 }
+        );
+      }
     }
 
     // Fetch the strategy project to get context
@@ -253,8 +307,6 @@ ${fullContext || "No questionnaire responses provided."}`;
       return `${i + 1}. Section ID: "${s.id}" | Title: "${s.title}"${sectionContext}\n   Instructions: ${s.prompt}`;
     }).join("\n\n---\n\n");
 
-    const anthropic = new Anthropic({ apiKey });
-
     // Helper to score section quality
     function scoreSection(content: string): number {
       const wordCount = content.split(/\s+/).length;
@@ -272,13 +324,37 @@ ${fullContext || "No questionnaire responses provided."}`;
       return Math.min(score, 99);
     }
 
-    // Helper to parse JSON from LLM response
+    // Helper to parse JSON from LLM response — handles code fences, preamble text, truncation
     function parseJsonResponse(rawText: string) {
       let jsonText = rawText.trim();
-      if (jsonText.startsWith("```")) {
-        jsonText = jsonText.replace(/^```(?:json)?\n?/, "").replace(/\n?```$/, "");
+      // Strip code fences
+      if (jsonText.includes("```")) {
+        const match = jsonText.match(/```(?:json)?\s*([\s\S]*?)```/);
+        if (match) jsonText = match[1].trim();
+        else jsonText = jsonText.replace(/^```(?:json)?\n?/, "").replace(/\n?```$/, "");
       }
-      return JSON.parse(jsonText);
+      // If text before JSON, find the first {
+      const braceIdx = jsonText.indexOf("{");
+      if (braceIdx > 0) {
+        jsonText = jsonText.slice(braceIdx);
+      }
+      try {
+        return JSON.parse(jsonText);
+      } catch {
+        // Try to fix truncated JSON by closing open structures
+        let fixed = jsonText;
+        const openBraces = (fixed.match(/{/g) || []).length;
+        const closeBraces = (fixed.match(/}/g) || []).length;
+        const openBrackets = (fixed.match(/\[/g) || []).length;
+        const closeBrackets = (fixed.match(/]/g) || []).length;
+        fixed += "}".repeat(Math.max(0, openBraces - closeBraces));
+        fixed += "]".repeat(Math.max(0, openBrackets - closeBrackets));
+        // Close any unclosed strings
+        if ((fixed.match(/"/g) || []).length % 2 !== 0) {
+          fixed = fixed + '"';
+        }
+        return JSON.parse(fixed);
+      }
     }
 
     // Generate 1 section per API call (~10-15s each, fits any timeout)
@@ -309,10 +385,9 @@ ${fullContext || "No questionnaire responses provided."}`;
       }).join("\n\n---\n\n");
 
       try {
-        const message = await anthropic.messages.create({
-          model: "claude-sonnet-4-20250514",
-          max_tokens: 2000,
+        const result = await generateCompletion({
           system: SYSTEM_PROMPT,
+          maxTokens: 2000,
           messages: [{
             role: "user",
             content: `Generate ${batch.length} brand strategy sections for this brand.
@@ -329,9 +404,7 @@ Respond ONLY with valid JSON (no code fences):
           }],
         });
 
-        const textBlock = message.content.find((b) => b.type === "text");
-        const rawText = textBlock && textBlock.type === "text" ? textBlock.text : "";
-        const parsed = parseJsonResponse(rawText);
+        const parsed = parseJsonResponse(result.text);
         const sections = parsed.sections || [];
 
         for (const expected of batch) {

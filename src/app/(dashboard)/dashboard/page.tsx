@@ -1,7 +1,10 @@
+import { Suspense } from "react";
 import { redirect } from "next/navigation";
 import Link from "next/link";
 import { createClient } from "@/lib/supabase/server";
+import { getUserAccess } from "@/lib/entitlements";
 import StrategyList from "@/components/dashboard/strategy-list";
+import PlanCheckoutRedirect from "@/components/dashboard/plan-checkout-redirect";
 import {
   Brain,
   LayoutTemplate,
@@ -174,20 +177,13 @@ export default async function DashboardPage() {
     challengeSubtitle = statusLabel;
   }
 
-  // Subscription stats - handle empty/error gracefully
-  const subscription = subscriptionResult.data;
-  let planLabel = "Free";
-  let planSubtitle = "Upgrade anytime";
-  if (subscription) {
-    const planStr = String(subscription.plan ?? "free");
-    planLabel = planStr.charAt(0).toUpperCase() + planStr.slice(1);
-    if (subscription.current_period_end) {
-      const renewDate = new Date(subscription.current_period_end);
-      planSubtitle = `Renews ${renewDate.toLocaleDateString("en-US", { month: "short", day: "numeric" })}`;
-    } else {
-      planSubtitle = "Active";
-    }
-  }
+  // Subscription stats from entitlements
+  const userAccess = await getUserAccess();
+  const planLabel = userAccess.tierName;
+  const planSubtitle = planLabel === "Free" ? "Upgrade anytime" :
+    userAccess.credits.unlimited ? "Unlimited credits" :
+    userAccess.credits.credits_remaining > 0 ? `${userAccess.credits.credits_remaining} strategy credits left` :
+    "Active";
 
   // Recent activity from real data - handle errors gracefully
   const { data: recentStrategies } = await supabase
@@ -263,6 +259,11 @@ export default async function DashboardPage() {
   return (
     <div className="min-h-screen bg-gray-50">
       <div className="mx-auto max-w-7xl px-4 py-10 sm:px-6 lg:px-8">
+        {/* Plan checkout redirect (handles ?plan=X param) */}
+        <Suspense fallback={null}>
+          <PlanCheckoutRedirect />
+        </Suspense>
+
         {/* Welcome */}
         <div className="mb-8">
           <h1 className="font-[family-name:var(--font-oswald)] text-3xl font-bold text-[var(--navy)]">

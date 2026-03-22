@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { useRouter } from "next/navigation";
+import { AccessGate } from "@/components/access-gate";
 import {
   Sparkles,
   ArrowRight,
@@ -159,6 +160,7 @@ export default function NewStrategyPage() {
   }
 
   return (
+    <AccessGate requires="strategy_builder">
     <div className="min-h-screen bg-background">
       <div className="mx-auto max-w-7xl px-4 py-10 sm:px-6 lg:px-8">
         <div className="flex flex-col gap-10 lg:flex-row lg:gap-16">
@@ -419,5 +421,6 @@ export default function NewStrategyPage() {
         </div>
       </div>
     </div>
+    </AccessGate>
   );
 }

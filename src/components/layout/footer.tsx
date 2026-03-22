@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 const footerLinks = {
   Product: [
@@ -8,14 +9,14 @@ const footerLinks = {
     { label: "Pricing", href: "/pricing" },
   ],
   Company: [
-    { label: "About", href: "#" },
+    { label: "About", href: "/about" },
     { label: "Community", href: "/community" },
     { label: "Contact", href: "mailto:gabriel@marketingdepartment.ro" },
   ],
   Legal: [
-    { label: "Terms of Service", href: "#" },
-    { label: "Privacy Policy", href: "#" },
-    { label: "Cookie Policy", href: "#" },
+    { label: "Terms of Service", href: "/legal/terms" },
+    { label: "Privacy Policy", href: "/legal/privacy" },
+    { label: "Cookie Policy", href: "/legal/cookies" },
   ],
 };
 
@@ -26,9 +27,11 @@ export function Footer() {
         <div className="grid grid-cols-2 gap-8 md:grid-cols-4">
           {/* Brand */}
           <div className="col-span-2 md:col-span-1">
-            <img
+            <Image
               src="/brand/au-logo-white.png"
               alt="Advertising Unplugged"
+              width={160}
+              height={40}
               className="mb-4 h-10 w-auto"
             />
             <p className="text-sm leading-relaxed">

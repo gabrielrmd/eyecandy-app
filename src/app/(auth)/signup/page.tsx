@@ -1,12 +1,22 @@
 "use client";
 
-import { useState } from "react";
-import { useRouter } from "next/navigation";
+import { useState, Suspense } from "react";
+import { useRouter, useSearchParams } from "next/navigation";
 import Link from "next/link";
 import { createClient } from "@/lib/supabase/client";
 
 export default function SignUpPage() {
+  return (
+    <Suspense fallback={<div className="flex min-h-screen items-center justify-center"><div className="h-8 w-8 animate-spin rounded-full border-4 border-[var(--teal)] border-t-transparent" /></div>}>
+      <SignUpForm />
+    </Suspense>
+  );
+}
+
+function SignUpForm() {
   const router = useRouter();
+  const searchParams = useSearchParams();
+  const planFromUrl = searchParams.get("plan") || "";
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -31,6 +41,11 @@ export default function SignUpPage() {
 
     setLoading(true);
 
+    // Build callback URL with plan param if present
+    const callbackUrl = planFromUrl
+      ? `${window.location.origin}/callback?plan=${planFromUrl}`
+      : `${window.location.origin}/callback`;
+
     const supabase = createClient();
     const { error: signUpError } = await supabase.auth.signUp({
       email,
@@ -39,7 +54,7 @@ export default function SignUpPage() {
         data: {
           full_name: name,
         },
-        emailRedirectTo: `${window.location.origin}/callback`,
+        emailRedirectTo: callbackUrl,
       },
     });
 
@@ -56,10 +71,13 @@ export default function SignUpPage() {
   async function handleGoogleSignUp() {
     setError(null);
     const supabase = createClient();
+    const redirectUrl = planFromUrl
+      ? `${window.location.origin}/callback?plan=${planFromUrl}`
+      : `${window.location.origin}/callback`;
     const { error: oauthError } = await supabase.auth.signInWithOAuth({
       provider: "google",
       options: {
-        redirectTo: `${window.location.origin}/callback`,
+        redirectTo: redirectUrl,
       },
     });
 

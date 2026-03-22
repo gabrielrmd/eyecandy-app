@@ -2,6 +2,7 @@
 
 import { useState, useMemo } from "react";
 import Link from "next/link";
+import { AccessGate } from "@/components/access-gate";
 import {
   Search,
   Target,
@@ -68,6 +69,7 @@ export default function TemplatesPage() {
   }, [search, activeCategory]);
 
   return (
+    <AccessGate requires="templates">
     <div className="min-h-screen bg-background">
       <div className="mx-auto max-w-7xl px-4 py-10 sm:px-6 lg:px-8">
         {/* Header */}
@@ -185,5 +187,6 @@ export default function TemplatesPage() {
         )}
       </div>
     </div>
+    </AccessGate>
   );
 }

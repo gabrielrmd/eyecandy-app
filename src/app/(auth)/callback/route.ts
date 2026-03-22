@@ -4,6 +4,7 @@ import { createClient } from "@/lib/supabase/server";
 export async function GET(request: Request) {
   const { searchParams, origin } = new URL(request.url);
   const code = searchParams.get("code");
+  const plan = searchParams.get("plan");
   const next = searchParams.get("next") ?? "/dashboard";
 
   if (code) {
@@ -13,14 +14,14 @@ export async function GET(request: Request) {
     if (!error) {
       const forwardedHost = request.headers.get("x-forwarded-host");
       const isLocalEnv = process.env.NODE_ENV === "development";
+      const base = isLocalEnv ? origin : forwardedHost ? `https://${forwardedHost}` : origin;
 
-      if (isLocalEnv) {
-        return NextResponse.redirect(`${origin}${next}`);
-      } else if (forwardedHost) {
-        return NextResponse.redirect(`https://${forwardedHost}${next}`);
-      } else {
-        return NextResponse.redirect(`${origin}${next}`);
+      // If user signed up with a plan selected, redirect to checkout
+      if (plan) {
+        return NextResponse.redirect(`${base}/api/checkout-redirect?productId=${plan}`);
       }
+
+      return NextResponse.redirect(`${base}${next}`);
     }
   }
 

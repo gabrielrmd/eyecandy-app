@@ -76,6 +76,7 @@ export default function TemplateEditorClient({
     Record<string, AiSuggestion[]>
   >({});
   const [suggestLoading, setSuggestLoading] = useState(false);
+  const [exporting, setExporting] = useState(false);
   const saveTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   const currentSection = sections.find((s) => s.id === activeSection);
@@ -177,6 +178,242 @@ export default function TemplateEditorClient({
     setSuggestingFieldKey(null);
   };
 
+  // ── Template PDF Export ──────────────────────────────────────────
+  const handleExportPDF = () => {
+    setExporting(true);
+    const origin = window.location.origin;
+    const logoWhite = `${origin}/brand/au-logo-white.png`;
+    const dateStr = new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+    const yearStr = new Date().getFullYear();
+
+    // Build section HTML from form data
+    const sectionsHtml = sections.map((section) => {
+      const fieldsHtml = section.fields.map((field) => {
+        const key = fieldKey(section.id, field.id);
+        const value = formData[key]?.trim() || '';
+        const displayValue = value || '<span class="empty">Not filled</span>';
+        return `
+          <div class="field">
+            <p class="field-label">${field.label}</p>
+            <div class="field-value">${displayValue}</div>
+          </div>`;
+      }).join('');
+
+      return `
+        <div class="section-block">
+          <h2 class="section-title">${section.title}</h2>
+          ${section.description ? `<p class="section-desc">${section.description}</p>` : ''}
+          <div class="fields">${fieldsHtml}</div>
+        </div>`;
+    }).join('');
+
+    const w = window.open('', '_blank');
+    if (!w) { setExporting(false); alert("Allow popups to export PDF"); return; }
+
+    w.document.write(`<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>${templateData.name}</title>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+@page { margin: 0; size: A4; }
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: Inter, -apple-system, sans-serif;
+  font-size: 13px; color: #2d2d2d; line-height: 1.7;
+  -webkit-print-color-adjust: exact; print-color-adjust: exact;
+}
+
+/* Cover */
+.cover {
+  width: 100%; height: 100vh; background: #1A1A2E; color: #fff;
+  display: flex; flex-direction: column; justify-content: space-between;
+  page-break-after: always; position: relative; overflow: hidden;
+}
+.cover::before {
+  content: ''; position: absolute; top: -180px; right: -120px;
+  width: 500px; height: 500px; border-radius: 50%;
+  background: radial-gradient(circle, rgba(42,185,176,0.15) 0%, transparent 70%);
+}
+.cover-top { position: relative; z-index: 1; padding: 56px 72px; }
+.cover-logo { width: 180px; height: auto; }
+.cover-center {
+  position: relative; z-index: 1; flex: 1;
+  display: flex; flex-direction: column; justify-content: center; padding: 0 72px;
+}
+.cover-bar { width: 80px; height: 3px; margin-bottom: 28px;
+  background: linear-gradient(90deg, #2AB9B0, #8ED16A, #F28C28, #F8CE30); }
+.cover-category {
+  font-family: Oswald, sans-serif; font-size: 11px; font-weight: 500;
+  text-transform: uppercase; letter-spacing: 6px; color: #2AB9B0; margin-bottom: 16px;
+}
+.cover-title {
+  font-family: Oswald, sans-serif; font-size: 48px; font-weight: 700;
+  color: #fff; line-height: 1.1; max-width: 520px; margin-bottom: 16px;
+}
+.cover-desc { font-size: 14px; color: rgba(255,255,255,0.45); line-height: 1.8; max-width: 400px; }
+.cover-bottom { position: relative; z-index: 1; padding: 0 72px 44px; }
+.cover-gradient-bar { width: 100%; height: 4px; margin-bottom: 24px;
+  background: linear-gradient(90deg, #2AB9B0, #8ED16A, #F28C28, #F8CE30); }
+.cover-ft {
+  display: flex; justify-content: space-between;
+  font-family: Oswald, sans-serif; font-size: 9px; letter-spacing: 3px;
+  text-transform: uppercase; color: rgba(255,255,255,0.25);
+}
+
+/* Content pages */
+.content-page {
+  padding: 56px 64px 48px 64px; position: relative; min-height: 100vh;
+}
+.content-page .sidebar {
+  position: absolute; top: 0; left: 0; width: 52px; height: 100%;
+  background: #1A1A2E; display: flex; flex-direction: column; align-items: center; padding-top: 56px;
+}
+.sidebar-label {
+  font-family: Oswald, sans-serif; font-size: 7px; font-weight: 500;
+  color: rgba(255,255,255,0.3); text-transform: uppercase; letter-spacing: 2px;
+  writing-mode: vertical-rl; text-orientation: mixed; white-space: nowrap;
+}
+.content-main { margin-left: 52px; padding: 0 0 0 28px; }
+.content-head {
+  display: flex; justify-content: space-between; align-items: center;
+  padding-bottom: 14px; margin-bottom: 28px; border-bottom: 2px solid #2AB9B0;
+}
+.content-head-label {
+  font-family: Oswald, sans-serif; font-size: 10px; font-weight: 600;
+  text-transform: uppercase; letter-spacing: 3px; color: #2AB9B0;
+}
+.content-head-date { font-size: 9px; color: #bbb; }
+.page-footer {
+  position: absolute; bottom: 24px; left: 80px; right: 64px;
+  display: flex; justify-content: space-between;
+  font-size: 7px; color: #ccc; border-top: 1px solid #f0f0f0; padding-top: 10px;
+}
+.page-footer-brand { text-transform: uppercase; letter-spacing: 1.5px; }
+
+/* Section blocks */
+.section-block {
+  padding-top: 14px; margin-bottom: 24px;
+  break-inside: avoid; page-break-inside: avoid;
+}
+.section-title {
+  font-family: Oswald, sans-serif; font-size: 20px; font-weight: 700;
+  color: #1A1A2E; text-transform: uppercase; letter-spacing: 1px;
+  padding-bottom: 8px; border-bottom: 2px solid #e0e0e0; margin-bottom: 20px;
+  padding-left: 14px; border-left: 4px solid #2AB9B0;
+}
+.section-desc {
+  font-size: 12px; color: #777; margin-bottom: 16px; font-style: italic;
+}
+
+/* Fields */
+.fields { }
+.field {
+  padding: 12px 0; border-bottom: 1px solid #f0f0f0;
+  break-inside: avoid; page-break-inside: avoid;
+}
+.field:last-child { border-bottom: none; }
+.field-label {
+  font-family: Oswald, sans-serif; font-size: 11px; font-weight: 600;
+  text-transform: uppercase; letter-spacing: 1.5px; color: #2AB9B0; margin-bottom: 6px;
+}
+.field-value {
+  font-size: 13px; line-height: 1.75; color: #333;
+  white-space: pre-wrap;
+}
+.empty { color: #ccc; font-style: italic; font-size: 12px; }
+
+/* Back cover */
+.back-cover {
+  page-break-before: always; height: 100vh; background: #1A1A2E;
+  display: flex; flex-direction: column; justify-content: center;
+  align-items: center; text-align: center; position: relative;
+}
+.back-cover::before {
+  content: ''; position: absolute; top: 50%; left: 50%;
+  transform: translate(-50%, -50%); width: 600px; height: 600px; border-radius: 50%;
+  background: radial-gradient(circle, rgba(42,185,176,0.06) 0%, transparent 70%);
+}
+.bc-logo { width: 160px; height: auto; margin-bottom: 40px; position: relative; z-index: 1; }
+.bc-bar { width: 120px; height: 3px; margin-bottom: 32px; position: relative; z-index: 1;
+  background: linear-gradient(90deg, #2AB9B0, #8ED16A, #F28C28, #F8CE30); }
+.bc-tag { font-family: Oswald, sans-serif; font-size: 11px; font-weight: 500;
+  text-transform: uppercase; letter-spacing: 6px; color: rgba(255,255,255,0.5);
+  margin-bottom: 8px; position: relative; z-index: 1; }
+.bc-mot { font-size: 15px; color: rgba(255,255,255,0.3); font-style: italic;
+  position: relative; z-index: 1; }
+.bc-url { font-family: Oswald, sans-serif; font-size: 10px; color: #2AB9B0;
+  text-transform: uppercase; letter-spacing: 4px; margin-top: 48px;
+  position: relative; z-index: 1; }
+.bc-year { font-size: 9px; color: rgba(255,255,255,0.15); margin-top: 20px;
+  position: relative; z-index: 1; }
+</style>
+</head>
+<body>
+
+<!-- COVER -->
+<div class="cover">
+  <div class="cover-top"><img src="${logoWhite}" class="cover-logo"/></div>
+  <div class="cover-center">
+    <div class="cover-bar"></div>
+    <p class="cover-category">${templateData.category} Template</p>
+    <h1 class="cover-title">${templateData.name}</h1>
+    <p class="cover-desc">${templateData.description || ''}</p>
+  </div>
+  <div class="cover-bottom">
+    <div class="cover-gradient-bar"></div>
+    <div class="cover-ft">
+      <span>Confidential &mdash; ${yearStr}</span>
+      <span>${dateStr}</span>
+      <span>advertisingunplugged.com</span>
+    </div>
+  </div>
+</div>
+
+<!-- CONTENT -->
+<div class="content-page">
+  <div class="sidebar"><span class="sidebar-label">${templateData.name}</span></div>
+  <div class="content-main">
+    <div class="content-head">
+      <span class="content-head-label">${templateData.name}</span>
+      <span class="content-head-date">${dateStr}</span>
+    </div>
+    ${sectionsHtml}
+  </div>
+  <div class="page-footer">
+    <span class="page-footer-brand">Advertising Unplugged &bull; ${templateData.category} Template</span>
+    <span>${dateStr}</span>
+  </div>
+</div>
+
+<!-- BACK COVER -->
+<div class="back-cover">
+  <img src="${logoWhite}" class="bc-logo"/>
+  <div class="bc-bar"></div>
+  <p class="bc-tag">Advertising Unplugged</p>
+  <p class="bc-mot">Clarity Over Noise. Purpose Beyond Profit.</p>
+  <p class="bc-url">advertisingunplugged.com</p>
+  <p class="bc-year">&copy; ${yearStr} All rights reserved.</p>
+</div>
+
+</body></html>`);
+
+    w.document.close();
+
+    const fontsReady = w.document.fonts ? w.document.fonts.ready : Promise.resolve();
+    const images = Array.from(w.document.querySelectorAll('img'));
+    const imagePromises = images.map(img =>
+      img.complete ? Promise.resolve() : new Promise<void>(r => { img.onload = () => r(); img.onerror = () => r(); })
+    );
+
+    Promise.all([fontsReady, ...imagePromises])
+      .then(() => setTimeout(() => { w.print(); setExporting(false); }, 500))
+      .catch(() => setTimeout(() => { w.print(); setExporting(false); }, 5000));
+
+    setTimeout(() => setExporting(false), 10000);
+  };
+
   if (!currentSection) {
     return (
       <div className="flex min-h-screen items-center justify-center bg-background">
@@ -230,9 +467,13 @@ export default function TemplateEditorClient({
             </span>
 
             {/* Export buttons */}
-            <button className="flex items-center gap-1.5 rounded-lg border border-border px-3 py-1.5 text-xs font-medium text-foreground transition-colors hover:bg-muted">
-              <FileDown className="h-3.5 w-3.5" />
-              PDF
+            <button
+              onClick={handleExportPDF}
+              disabled={exporting}
+              className="flex items-center gap-1.5 rounded-lg border border-border px-3 py-1.5 text-xs font-medium text-foreground transition-colors hover:bg-muted disabled:opacity-40"
+            >
+              {exporting ? <Loader2 className="h-3.5 w-3.5 animate-spin" /> : <FileDown className="h-3.5 w-3.5" />}
+              {exporting ? "Exporting..." : "PDF"}
             </button>
             <button className="flex items-center gap-1.5 rounded-lg border border-border px-3 py-1.5 text-xs font-medium text-foreground transition-colors hover:bg-muted">
               <FileSpreadsheet className="h-3.5 w-3.5" />

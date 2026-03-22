@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { createClient } from "@/lib/supabase/server";
+import { getProviderName } from "@/lib/ai/provider";
 
 export async function POST(request: NextRequest) {
   try {
@@ -13,7 +14,7 @@ export async function POST(request: NextRequest) {
     }
 
     const body = await request.json();
-    const { strategy_project_id, sections } = body;
+    const { strategy_project_id, sections, generation_model } = body;
 
     if (!strategy_project_id || !sections || !Array.isArray(sections)) {
       return NextResponse.json(
@@ -110,7 +111,7 @@ export async function POST(request: NextRequest) {
         section_type: section.id,
         content: { markdown: section.content },
         quality_score: Math.round(section.qualityScore) / 10,
-        generation_model: "claude-sonnet-4-20250514",
+        generation_model: generation_model || (getProviderName() === "codex" ? "gpt-4o" : "claude-sonnet-4-20250514"),
       })
     );
 
@@ -120,6 +121,11 @@ export async function POST(request: NextRequest) {
 
     if (sectionsError) {
       console.error("Failed to save sections:", sectionsError);
+      return NextResponse.json({
+        saved: false,
+        strategy_id: strategy.id,
+        error: `Sections failed to save: ${sectionsError.message}`,
+      });
     }
 
     // Update project status and link

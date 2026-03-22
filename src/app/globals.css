@@ -26,13 +26,16 @@
   /* Brand-specific tokens (from Brand Guidelines PDF) */
   --navy: #1A1A2E;
   --teal: #2AB9B0;
+  --teal-hover: #249E96;
   --green: #8ED16A;
   --orange: #F28C28;
   --yellow: #F8CE30;
+  --coral: #e8384f;
+  --coral-hover: #d6324a;
   --charcoal: #333333;
   --mid-gray: #666666;
   --light-gray: #F5F5F5;
-  --coral: #2AB9B0; /* mapped to teal for backwards compat with existing components */
+  --off-white: #f8f9fa;
 
   /* Brand gradient */
   --gradient-brand: linear-gradient(135deg, #2AB9B0, #8ED16A, #F28C28, #F8CE30);
@@ -60,11 +63,14 @@
   --color-ring: var(--ring);
   --color-navy: var(--navy);
   --color-coral: var(--coral);
+  --color-coral-hover: var(--coral-hover);
   --color-teal: var(--teal);
+  --color-teal-hover: var(--teal-hover);
   --color-green: var(--green);
   --color-orange: var(--orange);
   --color-yellow: var(--yellow);
   --color-charcoal: var(--charcoal);
+  --color-off-white: var(--off-white);
   --radius-sm: calc(var(--radius) - 4px);
   --radius-md: calc(var(--radius) - 2px);
   --radius-lg: var(--radius);
@@ -117,4 +123,17 @@ html {
 
 .animate-slide-in-left {
   animation: slide-in-left 0.6s ease-out forwards;
+}
+
+/* Landing page orb animation */
+@keyframes orb-float {
+  0%, 100% { transform: translate(0,0) scale(1); }
+  25% { transform: translate(40px,-30px) scale(1.05); }
+  50% { transform: translate(-20px,20px) scale(0.95); }
+  75% { transform: translate(30px,40px) scale(1.02); }
+}
+
+@keyframes pulse-dot {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.5; transform: scale(1.5); }
 }

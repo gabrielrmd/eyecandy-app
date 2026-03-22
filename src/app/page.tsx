@@ -1,1023 +1,625 @@
-import {
-  ArrowRight,
-  Check,
-  Star,
-  Users,
-  Clock,
-  Zap,
-  Target,
-  TrendingUp,
-  Brain,
-  FileText,
-  BarChart3,
-  Palette,
-  Handshake,
-  Mail,
-  ShoppingCart,
-  MessageSquare,
-  Award,
-  Globe,
-  ChevronRight,
-  Play,
-  Shield,
-  CalendarDays,
-  Sparkles,
-  BookOpen,
-  RefreshCw,
-  Share2,
-  Map,
-} from "lucide-react";
-import { Navbar } from "@/components/layout/navbar";
-import { Footer } from "@/components/layout/footer";
+import Image from "next/image";
+import Link from "next/link";
+import { UrgencyBar } from "@/components/landing/urgency-bar";
+import { LandingNavbar } from "@/components/landing/landing-navbar";
+import { Reveal } from "@/components/landing/reveal";
+import { FaqAccordion } from "@/components/landing/faq-accordion";
+import { PricingToggle } from "@/components/landing/pricing-toggle";
 
-const templateIcons: Record<string, React.ReactNode> = {
-  content: <FileText className="w-7 h-7" />,
-  social: <MessageSquare className="w-7 h-7" />,
-  email: <Mail className="w-7 h-7" />,
-  conversion: <ShoppingCart className="w-7 h-7" />,
-  analytics: <BarChart3 className="w-7 h-7" />,
-  brand: <Palette className="w-7 h-7" />,
-  partnership: <Handshake className="w-7 h-7" />,
-};
+/* ─── Icon helper (inline SVG) ─── */
+function Icon({ children, color = "teal" }: { children: React.ReactNode; color?: string }) {
+  const bg = color === "teal" ? "rgba(42,185,176,0.08)" : color === "orange" ? "rgba(242,140,40,0.08)" : color === "green" ? "rgba(142,209,106,0.08)" : "rgba(248,206,48,0.1)";
+  return (
+    <div className="w-[52px] h-[52px] rounded-[14px] flex items-center justify-center mb-[18px] relative overflow-hidden" style={{ background: bg }}>
+      {children}
+    </div>
+  );
+}
 
-const templateCategories = [
-  {
-    id: "content",
-    name: "Content Planning",
-    count: 8,
-    description:
-      "Strategic content calendars, blog outlines, and planning frameworks",
-  },
-  {
-    id: "social",
-    name: "Social Media",
-    count: 7,
-    description:
-      "Platform strategies, content kits, and engagement templates",
-  },
-  {
-    id: "email",
-    name: "Email Marketing",
-    count: 6,
-    description:
-      "Nurture sequences, welcome series, and automation templates",
-  },
-  {
-    id: "conversion",
-    name: "Conversion & Sales",
-    count: 7,
-    description: "Sales pages, landing pages, and checkout optimization",
-  },
-  {
-    id: "analytics",
-    name: "Analytics & Reporting",
-    count: 5,
-    description:
-      "Dashboard templates, KPI tracking, and performance reports",
-  },
-  {
-    id: "brand",
-    name: "Brand & Design",
-    count: 4,
-    description:
-      "Brand guidelines, visual standards, and identity systems",
-  },
-  {
-    id: "partnership",
-    name: "Partnership & Growth",
-    count: 4,
-    description:
-      "Partnership proposals, collaboration frameworks, and JV templates",
-  },
+/* ─── Section header helper ─── */
+function SectionHeader({ tag, title, sub, white, center = true }: { tag: string; title: string; sub?: string; white?: boolean; center?: boolean }) {
+  return (
+    <div className={center ? "text-center" : ""}>
+      <Reveal><span className="inline-block text-[var(--teal)] text-[12px] font-bold tracking-[2.5px] uppercase mb-3">{tag}</span></Reveal>
+      <Reveal>
+        <h2 className={`font-[family-name:var(--font-oswald)] text-[clamp(30px,4vw,44px)] font-bold leading-[1.1] max-w-[750px] uppercase ${center ? "mx-auto" : ""} ${white ? "text-white" : "text-[var(--charcoal)]"}`}>
+          {title}
+        </h2>
+      </Reveal>
+      <Reveal><span className={`block w-20 h-1 bg-[linear-gradient(90deg,#2AB9B0,#8ED16A,#F28C28,#F8CE30)] rounded mt-3 ${center ? "mx-auto" : ""}`} /></Reveal>
+      {sub && <Reveal><p className={`text-[16px] max-w-[580px] leading-[1.7] mt-3.5 ${center ? "mx-auto" : ""} ${white ? "text-white/50" : "text-[var(--mid-gray)]"}`}>{sub}</p></Reveal>}
+    </div>
+  );
+}
+
+/* ─── FAQ data ─── */
+const faqItems = [
+  { q: "How does the platform work?", a: "Start with the AI Strategy Builder — answer 39 expert questions and get a 15-section strategy deck. Then use our 41 templates to execute. Join the Unplugged Circle for community and accountability. And when you're ready to go deeper, book 1-on-1 consulting with our founder. Each step builds on the last." },
+  { q: "I've been in marketing for 15 years. Is this too basic for me?", a: "This isn't a beginner course — it's a strategic operating system. The AI Strategy Builder encodes frameworks like brand archetypes, Jobs-To-Be-Done, competitive positioning, and customer journey mapping into a structured 39-question, 15-section workflow. If you're a marketing director, you'll use it to align your team. If you're a consultant, you'll use it to deliver more value to clients faster. The methodology is validated by industry experts and award juries — it scales up, not down." },
+  { q: "How is this different from ChatGPT or other AI tools?", a: "ChatGPT gives you generic output based on generic prompts. Advertising Unplugged encodes a complete 15-year methodology into a structured system — 39 questions mapped to 7 strategic areas, producing a 15-section deck with brand archetypes, JTBD analysis, competitive mapping, persona profiles, and a 90-day execution roadmap. Plus you get 41 templates, a strategic community, and direct access to our founder. It's the difference between a search engine and a strategist." },
+  { q: "Can agencies white-label the product?", a: "Yes. The Agency plan lets you generate strategy decks under your own brand. You get multi-seat access (5–20), custom templates for your verticals, dedicated onboarding, and API access. Your clients see your brand. You deliver award-winning methodology." },
+  { q: "What training and workshop topics are available?", a: "Advertising Unplugged offers corporate training across marketing strategy, product management, business development, PR, public affairs, sustainability, and digital transformation. Each workshop is customized to your team's growth stage, industry context, and strategic priorities — led by our founder, Gabriel Adrian Eremia." },
+  { q: "Can I refine my strategy after it's generated?", a: "Yes. Professional and Agency plans include strategy refinements so your strategy evolves as your business does. For deeper guidance, book a 1-on-1 session with our founder at €300/hour." },
+  { q: "What if it doesn't work for me?", a: "Every paid plan includes a 14-day money-back guarantee. No questions asked. If you don't feel the strategy brings clarity and direction, you get your money back." },
+  { q: "This is new — how do I know it works?", a: "The platform is new. The methodology behind it has 15+ years of proof — award-winning campaigns, strategies deployed across FMCG, tech, retail, finance, healthcare, and education. It's been validated by industry experts, tested on stages reaching 450,000+ entrepreneurs, and refined in MBA classrooms. Early access means launch pricing — not untested thinking." },
+  { q: "Is my data secure?", a: "Your data is hosted on EU-based servers via Supabase, fully GDPR compliant, and encrypted at rest and in transit. We never sell or share your data." },
 ];
 
 export default function HomePage() {
   return (
     <>
-      <Navbar />
+      <UrgencyBar />
+      <LandingNavbar />
 
-      {/* ===== HERO ===== */}
-      <section
-        id="hero"
-        className="relative overflow-hidden bg-gradient-to-br from-[var(--navy)] via-[#1e2538] to-[#141824] text-white"
-      >
-        {/* Decorative gradient orbs */}
-        <div className="absolute top-[-120px] right-[-80px] w-[500px] h-[500px] rounded-full bg-[var(--coral)] opacity-[0.07] blur-[120px]" />
-        <div className="absolute bottom-[-100px] left-[-60px] w-[400px] h-[400px] rounded-full bg-[var(--teal)] opacity-[0.08] blur-[100px]" />
+      {/* ═══════════ HERO ═══════════ */}
+      <section className="bg-[linear-gradient(160deg,#0e0e1e_0%,#1A1A2E_40%,#1e1838_70%,#1A1A2E_100%)] text-white py-[100px] px-5 sm:px-10 relative overflow-hidden min-h-screen flex items-center justify-center">
+        {/* Orbs */}
+        <div className="absolute w-[500px] h-[500px] rounded-full blur-[90px] opacity-40 -top-[150px] -right-20 bg-[radial-gradient(circle,rgba(42,185,176,0.15),transparent_70%)]" style={{ animation: "orb-float 20s ease-in-out infinite" }} />
+        <div className="absolute w-[400px] h-[400px] rounded-full blur-[90px] opacity-40 -bottom-[100px] -left-20 bg-[radial-gradient(circle,rgba(242,140,40,0.1),transparent_70%)]" style={{ animation: "orb-float 20s ease-in-out infinite 7s" }} />
+        {/* Grid */}
+        <div className="absolute inset-0 bg-[linear-gradient(rgba(42,185,176,0.03)_1px,transparent_1px),linear-gradient(90deg,rgba(42,185,176,0.03)_1px,transparent_1px)] bg-[size:80px_80px] [mask-image:radial-gradient(ellipse_70%_60%_at_50%_50%,black_20%,transparent_100%)]" />
 
-        <div className="relative mx-auto max-w-7xl px-6 py-28 sm:py-36 lg:py-44 text-center">
-          <div className="mx-auto max-w-4xl">
-            <p className="mb-5 inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-4 py-1.5 text-sm font-medium text-[var(--teal)] backdrop-blur-sm">
-              <Sparkles className="w-4 h-4" />
-              AI-Powered Brand Strategy
-            </p>
-            <h1 className="font-[family-name:var(--font-oswald)] text-4xl font-bold leading-[1.1] tracking-tight sm:text-5xl lg:text-6xl xl:text-7xl">
-              Professional Brand Strategy,{" "}
-              <span className="bg-gradient-to-r from-[var(--coral)] to-[#f06070] bg-clip-text text-transparent">
-                Powered by AI.
-              </span>{" "}
-              Delivered in 24&nbsp;Hours.
+        <div className="relative z-2 max-w-[860px] text-center">
+          <Reveal>
+            <div className="inline-flex items-center gap-2 bg-[rgba(42,185,176,0.1)] border border-[rgba(42,185,176,0.2)] text-[var(--teal)] px-5 py-2 rounded-full text-[12px] font-bold tracking-[1.5px] uppercase mb-8">
+              <span className="w-2 h-2 bg-[var(--teal)] rounded-full" style={{ animation: "pulse-dot 2s ease-in-out infinite" }} />
+              Now in Early Access
+            </div>
+          </Reveal>
+
+          <Reveal delay={0.1}>
+            <h1 className="font-[family-name:var(--font-oswald)] text-[clamp(42px,6vw,72px)] font-bold leading-[1.05] tracking-[1px] uppercase mb-6">
+              15 Years of Strategy. Tested, Deployed, and<br />
+              <span className="bg-[linear-gradient(135deg,#2AB9B0,#8ED16A,#F28C28,#F8CE30)] bg-clip-text text-transparent">Proven in Real Markets.</span>
             </h1>
-            <p className="mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-white/70 sm:text-xl">
-              Stop struggling with generic marketing advice. Get a personalized,
-              data-driven strategy tailored to your business with AI-powered
-              insights and our proven 41-template toolkit.
+          </Reveal>
+
+          <Reveal delay={0.2}>
+            <p className="text-[18px] text-white/65 max-w-[650px] mx-auto leading-[1.7] mb-5">
+              That experience is exactly why we built Advertising Unplugged — to give every business access to the same tools, frameworks, and methodology that won Gold Effies and shaped brands across 7+ industries.
             </p>
+          </Reveal>
 
-            {/* CTA Buttons */}
-            <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
-              <a
-                href="#pricing"
-                className="group inline-flex items-center gap-2 rounded-xl bg-[var(--coral)] px-8 py-4 text-base font-semibold text-white shadow-lg shadow-[var(--coral)]/25 transition-all hover:bg-[#d6324a] hover:shadow-xl hover:shadow-[var(--coral)]/30 hover:-translate-y-0.5"
-              >
-                Start Free Assessment
-                <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
-              </a>
-              <a
-                href="#demo"
-                className="group inline-flex items-center gap-2 rounded-xl border border-white/20 px-8 py-4 text-base font-semibold text-white backdrop-blur-sm transition-all hover:border-white/40 hover:bg-white/5"
-              >
-                <Play className="w-4 h-4" />
-                Watch Demo
-              </a>
-            </div>
-
-            {/* Trust Signals */}
-            <div className="mt-14 flex flex-col items-center justify-center gap-6 sm:flex-row sm:gap-10">
-              <div className="flex items-center gap-2 text-sm text-white/60">
-                <Star className="w-4 h-4 fill-yellow-400 text-yellow-400" />
-                <span>
-                  <strong className="text-white">4.9&#9733;</strong> From 200+
-                  reviews
+          <Reveal delay={0.2}>
+            <div className="flex items-center justify-center gap-2 mb-10 flex-wrap">
+              {["Business Review", "AdHugger", "IQads", "Business Days", "Forbes MarComm"].map((m) => (
+                <span key={m} className="inline-flex items-center bg-white/[0.04] border border-white/[0.07] px-3.5 py-1.5 rounded-full text-[11px] font-bold text-white/45 tracking-[0.8px] uppercase hover:bg-[rgba(42,185,176,0.1)] hover:text-[var(--teal)] hover:border-[rgba(42,185,176,0.2)] transition-all">
+                  {m}
                 </span>
-              </div>
-              <div className="flex items-center gap-2 text-sm text-white/60">
-                <Users className="w-4 h-4 text-[var(--teal)]" />
-                <span>
-                  <strong className="text-white">2,400+</strong> Strategies
-                  generated
-                </span>
-              </div>
-              <div className="flex items-center gap-2 text-sm text-white/60">
-                <Clock className="w-4 h-4 text-[var(--coral)]" />
-                <span>
-                  <strong className="text-white">24 hrs</strong> Average
-                  delivery
-                </span>
-              </div>
+              ))}
             </div>
-          </div>
-        </div>
-      </section>
+          </Reveal>
 
-      {/* ===== PROBLEMS ===== */}
-      <section id="problems" className="bg-[var(--off-white)] py-24 sm:py-32">
-        <div className="mx-auto max-w-7xl px-6">
-          <div className="mx-auto max-w-2xl text-center">
-            <h2 className="font-[family-name:var(--font-oswald)] text-3xl font-bold tracking-tight text-[var(--navy)] sm:text-4xl">
-              The Marketing Clarity Gap
-            </h2>
-            <p className="mt-4 text-lg text-gray-600">
-              Most entrepreneurs face three critical gaps in their marketing
-              approach
-            </p>
-          </div>
-
-          <div className="mt-16 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
-            {/* Problem 1 */}
-            <div className="group relative rounded-2xl border border-gray-200 bg-white p-8 shadow-sm transition-all hover:shadow-lg hover:border-[var(--coral)]/30 hover:-translate-y-1">
-              <div className="mb-5 inline-flex items-center justify-center rounded-xl bg-[var(--coral)]/10 p-3 text-[var(--coral)]">
-                <BookOpen className="w-6 h-6" />
-              </div>
-              <h3 className="font-[family-name:var(--font-oswald)] text-xl font-bold text-[var(--navy)]">
-                Education Without Execution
-              </h3>
-              <p className="mt-3 leading-relaxed text-gray-600">
-                You know the theory&mdash;content marketing, SEO, social
-                media&mdash;but struggle to apply it consistently to YOUR
-                business.
-              </p>
-            </div>
-
-            {/* Problem 2 */}
-            <div className="group relative rounded-2xl border border-gray-200 bg-white p-8 shadow-sm transition-all hover:shadow-lg hover:border-[var(--teal)]/30 hover:-translate-y-1">
-              <div className="mb-5 inline-flex items-center justify-center rounded-xl bg-[var(--teal)]/10 p-3 text-[var(--teal)]">
-                <Target className="w-6 h-6" />
-              </div>
-              <h3 className="font-[family-name:var(--font-oswald)] text-xl font-bold text-[var(--navy)]">
-                Strategy Without Personalization
-              </h3>
-              <p className="mt-3 leading-relaxed text-gray-600">
-                Generic frameworks don&rsquo;t address your unique market
-                position, budget constraints, or growth stage.
-              </p>
-            </div>
-
-            {/* Problem 3 */}
-            <div className="group relative rounded-2xl border border-gray-200 bg-white p-8 shadow-sm transition-all hover:shadow-lg hover:border-[var(--navy)]/20 hover:-translate-y-1 sm:col-span-2 lg:col-span-1">
-              <div className="mb-5 inline-flex items-center justify-center rounded-xl bg-[var(--navy)]/10 p-3 text-[var(--navy)]">
-                <Shield className="w-6 h-6" />
-              </div>
-              <h3 className="font-[family-name:var(--font-oswald)] text-xl font-bold text-[var(--navy)]">
-                Community Without Credibility
-              </h3>
-              <p className="mt-3 leading-relaxed text-gray-600">
-                Marketing communities abound, but backing your decisions with
-                proven strategies and peer accountability is rare.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* ===== HOW IT WORKS ===== */}
-      <section id="how-it-works" className="bg-white py-24 sm:py-32">
-        <div className="mx-auto max-w-7xl px-6">
-          <div className="mx-auto max-w-2xl text-center">
-            <h2 className="font-[family-name:var(--font-oswald)] text-3xl font-bold tracking-tight text-[var(--navy)] sm:text-4xl">
-              From Strategy to Execution in 3&nbsp;Steps
-            </h2>
-            <p className="mt-4 text-lg text-gray-600">
-              A proven framework that delivers results
-            </p>
-          </div>
-
-          <div className="mt-20 grid gap-12 lg:grid-cols-3 lg:gap-8">
-            {/* Step 1 */}
-            <div className="relative text-center lg:text-left">
-              <div className="mx-auto mb-6 flex h-16 w-16 items-center justify-center rounded-2xl bg-gradient-to-br from-[var(--coral)] to-[#f06070] text-white shadow-lg shadow-[var(--coral)]/20 lg:mx-0">
-                <span className="font-[family-name:var(--font-oswald)] text-xl font-bold">
-                  01
-                </span>
-              </div>
-              {/* Connector line (desktop only) */}
-              <div className="absolute top-8 left-[calc(50%+40px)] hidden h-px w-[calc(100%-80px)] bg-gradient-to-r from-[var(--coral)]/40 to-[var(--teal)]/40 lg:block" />
-              <h3 className="font-[family-name:var(--font-oswald)] text-xl font-bold text-[var(--navy)]">
-                Answer, We&rsquo;ll Build
-              </h3>
-              <p className="mt-3 leading-relaxed text-gray-600">
-                Complete our 39-question AI Strategy Builder&mdash;designed by
-                marketing experts to extract your unique positioning, audience
-                insights, and growth goals.
-              </p>
-              <p className="mt-4 inline-flex items-center gap-2 text-sm font-medium text-[var(--coral)]">
-                <Clock className="w-4 h-4" />
-                15-20 minutes
-              </p>
-            </div>
-
-            {/* Step 2 */}
-            <div className="relative text-center lg:text-left">
-              <div className="mx-auto mb-6 flex h-16 w-16 items-center justify-center rounded-2xl bg-gradient-to-br from-[var(--teal)] to-[#3da5b0] text-white shadow-lg shadow-[var(--teal)]/20 lg:mx-0">
-                <span className="font-[family-name:var(--font-oswald)] text-xl font-bold">
-                  02
-                </span>
-              </div>
-              <div className="absolute top-8 left-[calc(50%+40px)] hidden h-px w-[calc(100%-80px)] bg-gradient-to-r from-[var(--teal)]/40 to-[var(--navy)]/40 lg:block" />
-              <h3 className="font-[family-name:var(--font-oswald)] text-xl font-bold text-[var(--navy)]">
-                AI Generates Instantly
-              </h3>
-              <p className="mt-3 leading-relaxed text-gray-600">
-                Our AI engine synthesizes your answers into a comprehensive
-                15-section strategy deck covering positioning, messaging,
-                channel mix, content pillars, and 90-day roadmap.
-              </p>
-              <p className="mt-4 inline-flex items-center gap-2 text-sm font-medium text-[var(--teal)]">
-                <Zap className="w-4 h-4" />
-                Real-time
-              </p>
-            </div>
-
-            {/* Step 3 */}
-            <div className="text-center lg:text-left">
-              <div className="mx-auto mb-6 flex h-16 w-16 items-center justify-center rounded-2xl bg-gradient-to-br from-[var(--navy)] to-[#2a3148] text-white shadow-lg shadow-[var(--navy)]/20 lg:mx-0">
-                <span className="font-[family-name:var(--font-oswald)] text-xl font-bold">
-                  03
-                </span>
-              </div>
-              <h3 className="font-[family-name:var(--font-oswald)] text-xl font-bold text-[var(--navy)]">
-                Execute &amp; Refine
-              </h3>
-              <p className="mt-3 leading-relaxed text-gray-600">
-                Use our 41 interactive templates to operationalize your
-                strategy. Track progress, refine tactics, and measure
-                what&rsquo;s working with built-in analytics.
-              </p>
-              <p className="mt-4 inline-flex items-center gap-2 text-sm font-medium text-[var(--navy)]">
-                <BarChart3 className="w-4 h-4" />
-                Ongoing
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* ===== AI STRATEGY BUILDER ===== */}
-      <section
-        id="strategy-builder"
-        className="bg-[var(--off-white)] py-24 sm:py-32"
-      >
-        <div className="mx-auto max-w-7xl px-6">
-          <div className="grid items-center gap-16 lg:grid-cols-2">
-            {/* Text content */}
-            <div>
-              <p className="mb-3 text-sm font-semibold uppercase tracking-wider text-[var(--teal)]">
-                Core Feature
-              </p>
-              <h2 className="font-[family-name:var(--font-oswald)] text-3xl font-bold tracking-tight text-[var(--navy)] sm:text-4xl">
-                The AI Strategy Builder
-              </h2>
-              <p className="mt-4 text-lg leading-relaxed text-gray-600">
-                Your personalized marketing strategy, powered by artificial
-                intelligence and grounded in 15+ years of strategic marketing
-                experience.
-              </p>
-
-              <ul className="mt-10 space-y-5">
-                {[
-                  {
-                    icon: <Brain className="w-5 h-5" />,
-                    text: "39 Expert Questions covering positioning, audience, competition, and goals",
-                  },
-                  {
-                    icon: <FileText className="w-5 h-5" />,
-                    text: "15-Section Strategy Deck with actionable frameworks and tactics",
-                  },
-                  {
-                    icon: <Sparkles className="w-5 h-5" />,
-                    text: "AI-Powered Suggestions refine your answers in real-time",
-                  },
-                  {
-                    icon: <Share2 className="w-5 h-5" />,
-                    text: "Export & Share your strategy as PDF, PPTX, or web link",
-                  },
-                  {
-                    icon: <Map className="w-5 h-5" />,
-                    text: "90-Day Roadmap with weekly milestones and KPIs",
-                  },
-                  {
-                    icon: <RefreshCw className="w-5 h-5" />,
-                    text: "Live Updates iterate and regenerate as your business evolves",
-                  },
-                ].map((feature, i) => (
-                  <li key={i} className="flex items-start gap-4">
-                    <span className="mt-0.5 flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-[var(--teal)]/10 text-[var(--teal)]">
-                      {feature.icon}
-                    </span>
-                    <span className="text-gray-700 leading-relaxed">
-                      {feature.text}
-                    </span>
-                  </li>
-                ))}
-              </ul>
-
-              <div className="mt-10">
-                <a
-                  href="#pricing"
-                  className="group inline-flex items-center gap-2 rounded-xl bg-[var(--coral)] px-7 py-3.5 text-base font-semibold text-white shadow-lg shadow-[var(--coral)]/20 transition-all hover:bg-[#d6324a] hover:-translate-y-0.5"
-                >
-                  Try the Strategy Builder
-                  <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
-                </a>
-              </div>
-            </div>
-
-            {/* Visual mock */}
-            <div className="relative">
-              <div className="aspect-[4/3] overflow-hidden rounded-2xl border border-gray-200 bg-gradient-to-br from-[var(--navy)] to-[#2a3148] p-8 shadow-2xl">
-                <div className="flex items-center gap-2 mb-6">
-                  <div className="h-3 w-3 rounded-full bg-[var(--coral)]" />
-                  <div className="h-3 w-3 rounded-full bg-yellow-400" />
-                  <div className="h-3 w-3 rounded-full bg-green-400" />
-                </div>
-                <div className="space-y-4">
-                  <div className="h-4 w-3/4 rounded bg-white/10" />
-                  <div className="h-4 w-1/2 rounded bg-white/10" />
-                  <div className="mt-8 grid grid-cols-2 gap-4">
-                    <div className="h-24 rounded-lg bg-[var(--teal)]/20 border border-[var(--teal)]/30" />
-                    <div className="h-24 rounded-lg bg-[var(--coral)]/20 border border-[var(--coral)]/30" />
-                  </div>
-                  <div className="h-32 rounded-lg bg-white/5 border border-white/10" />
-                </div>
-              </div>
-              {/* Floating badge */}
-              <div className="absolute -bottom-4 -right-4 rounded-xl bg-white px-5 py-3 shadow-lg border border-gray-100">
-                <p className="text-sm font-semibold text-[var(--navy)]">
-                  Strategy Generated
-                </p>
-                <p className="text-xs text-gray-500">
-                  15 sections &bull; 90-day roadmap
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* ===== TEMPLATE TOOLKIT ===== */}
-      <section id="templates" className="bg-white py-24 sm:py-32">
-        <div className="mx-auto max-w-7xl px-6">
-          <div className="mx-auto max-w-2xl text-center">
-            <h2 className="font-[family-name:var(--font-oswald)] text-3xl font-bold tracking-tight text-[var(--navy)] sm:text-4xl">
-              41 Interactive Marketing Templates
-            </h2>
-            <p className="mt-4 text-lg text-gray-600">
-              Purpose-built for your strategy execution
-            </p>
-          </div>
-
-          <div className="mt-16 grid gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-            {templateCategories.map((category) => (
-              <div
-                key={category.id}
-                className="group relative rounded-2xl border border-gray-200 bg-white p-6 shadow-sm transition-all hover:shadow-lg hover:border-[var(--teal)]/30 hover:-translate-y-1"
-              >
-                <div className="mb-4 inline-flex items-center justify-center rounded-xl bg-[var(--teal)]/10 p-3 text-[var(--teal)] transition-colors group-hover:bg-[var(--teal)] group-hover:text-white">
-                  {templateIcons[category.id]}
-                </div>
-                <h3 className="font-[family-name:var(--font-oswald)] text-lg font-bold text-[var(--navy)]">
-                  {category.name}
-                </h3>
-                <p className="mt-2 text-sm leading-relaxed text-gray-600">
-                  {category.description}
-                </p>
-                <p className="mt-4 text-xs font-semibold uppercase tracking-wider text-[var(--teal)]">
-                  {category.count} templates
-                </p>
-              </div>
-            ))}
-          </div>
-
-          <div className="mt-12 text-center">
-            <a
-              href="/templates"
-              className="group inline-flex items-center gap-2 text-base font-semibold text-[var(--teal)] transition-colors hover:text-[var(--coral)]"
-            >
-              Explore All Templates
-              <ChevronRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
-            </a>
-          </div>
-        </div>
-      </section>
-
-      {/* ===== 90-DAY GROWTH CHALLENGE ===== */}
-      <section
-        id="growth-challenge"
-        className="relative overflow-hidden bg-gradient-to-br from-[var(--navy)] via-[#1e2538] to-[#141824] py-24 text-white sm:py-32"
-      >
-        <div className="absolute top-0 right-0 w-[600px] h-[600px] rounded-full bg-[var(--teal)] opacity-[0.05] blur-[150px]" />
-
-        <div className="relative mx-auto max-w-7xl px-6">
-          <div className="grid items-center gap-16 lg:grid-cols-2">
-            <div>
-              <p className="mb-3 text-sm font-semibold uppercase tracking-wider text-[var(--teal)]">
-                Accountability Program
-              </p>
-              <h2 className="font-[family-name:var(--font-oswald)] text-3xl font-bold tracking-tight sm:text-4xl">
-                The 90-Day Growth Challenge
-              </h2>
-              <p className="mt-4 text-lg text-white/70">
-                Transform strategy into measurable results with our structured,
-                community-backed challenge
-              </p>
-
-              <ul className="mt-10 space-y-4">
-                {[
-                  "12-Week Curriculum with daily tasks and weekly themes",
-                  "Live Group Coaching sessions twice per week",
-                  "Community Accountability with peer feedback and support",
-                  "Done-For-You Templates for rapid implementation",
-                  "Weekly Check-ins with progress tracking",
-                  "Lifetime Access to all content and templates",
-                ].map((feature, i) => (
-                  <li
-                    key={i}
-                    className="flex items-center gap-3 text-white/80"
-                  >
-                    <Check className="w-5 h-5 shrink-0 text-[var(--teal)]" />
-                    {feature}
-                  </li>
-                ))}
-              </ul>
-
-              <div className="mt-10">
-                <a
-                  href="#pricing"
-                  className="group inline-flex items-center gap-2 rounded-xl bg-[var(--teal)] px-7 py-3.5 text-base font-semibold text-white shadow-lg shadow-[var(--teal)]/20 transition-all hover:bg-[#3da5b0] hover:-translate-y-0.5"
-                >
-                  Enroll in Next Cohort
-                  <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
-                </a>
-              </div>
-            </div>
-
-            {/* Timeline */}
-            <div className="space-y-6">
+          <Reveal delay={0.3}>
+            <div className="flex justify-center gap-12 mb-12 flex-wrap">
               {[
-                { weeks: "Week 1-2", title: "Foundation", color: "coral" },
-                { weeks: "Week 3-4", title: "Positioning", color: "teal" },
-                {
-                  weeks: "Week 5-6",
-                  title: "Audience Research",
-                  color: "coral",
-                },
-                {
-                  weeks: "Week 7-8",
-                  title: "Channel Strategy",
-                  color: "teal",
-                },
-                {
-                  weeks: "Week 9-10",
-                  title: "Content Execution",
-                  color: "coral",
-                },
-                {
-                  weeks: "Week 11-12",
-                  title: "Scale & Optimize",
-                  color: "teal",
-                },
-              ].map((phase, i) => (
-                <div key={i} className="flex items-center gap-4">
-                  <div
-                    className={`flex h-12 w-12 shrink-0 items-center justify-center rounded-xl ${
-                      phase.color === "coral"
-                        ? "bg-[var(--coral)]/20 text-[var(--coral)]"
-                        : "bg-[var(--teal)]/20 text-[var(--teal)]"
-                    }`}
-                  >
-                    <CalendarDays className="w-5 h-5" />
-                  </div>
-                  <div>
-                    <p className="text-sm font-medium text-white/50">
-                      {phase.weeks}
-                    </p>
-                    <p className="font-[family-name:var(--font-oswald)] text-lg font-bold">
-                      {phase.title}
-                    </p>
-                  </div>
+                { n: "15+", l: "Leading brand strategy for market leaders" },
+                { n: "Award-Winning", l: "Validated by industry experts" },
+                { n: "64+", l: "Published on IQads, Business Review, AdHugger" },
+                { n: "450K+", l: "Reached through Business Days ecosystem" },
+              ].map((s) => (
+                <div key={s.l} className="text-center">
+                  <div className="font-[family-name:var(--font-oswald)] text-[36px] font-bold text-white leading-[1.1]">{s.n}</div>
+                  <div className="text-[11px] text-white/40 uppercase tracking-[1.2px] mt-1 font-semibold">{s.l}</div>
                 </div>
               ))}
             </div>
-          </div>
+          </Reveal>
+
+          <Reveal delay={0.3}>
+            <div className="flex gap-3.5 justify-center flex-wrap">
+              <a href="#pricing" className="bg-[var(--teal)] text-[var(--navy)] px-9 py-4 rounded-[10px] text-[15px] font-bold shadow-[0_4px_24px_rgba(42,185,176,0.35)] hover:-translate-y-0.5 hover:shadow-[0_8px_32px_rgba(42,185,176,0.35)] transition-all inline-flex items-center gap-2 relative overflow-hidden">
+                See the Platform in Action
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10m0 0L9 4m4 4L9 12" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/></svg>
+              </a>
+              <a href="#who-its-for" className="bg-white/5 text-white px-9 py-4 rounded-[10px] text-[15px] font-semibold border border-white/10 hover:bg-white/10 hover:border-[rgba(42,185,176,0.4)] transition-all inline-flex items-center gap-2">
+                View Plans &amp; Pricing
+              </a>
+            </div>
+          </Reveal>
+
+          <Reveal delay={0.4}>
+            <div className="mt-6 text-[12px] text-white/30 flex items-center justify-center gap-4 flex-wrap">
+              <span>14-day money-back guarantee</span><span>&bull;</span><span>Built on real campaign methodology</span><span>&bull;</span><span>Strategy + execution + mentorship</span>
+            </div>
+          </Reveal>
         </div>
       </section>
 
-      {/* ===== PRICING PREVIEW ===== */}
-      <section id="pricing" className="bg-[var(--off-white)] py-24 sm:py-32">
-        <div className="mx-auto max-w-7xl px-6">
-          <div className="mx-auto max-w-2xl text-center">
-            <h2 className="font-[family-name:var(--font-oswald)] text-3xl font-bold tracking-tight text-[var(--navy)] sm:text-4xl">
-              Simple, Transparent Pricing
-            </h2>
-            <p className="mt-4 text-lg text-gray-600">
-              Choose the plan that fits your growth stage
-            </p>
-          </div>
+      {/* Gradient divider */}
+      <div className="h-1 bg-[linear-gradient(90deg,#2AB9B0,#8ED16A,#F28C28,#F8CE30)]" />
 
-          <div className="mt-16 grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
-            {/* Template Toolkit */}
-            <div className="flex flex-col rounded-2xl border border-gray-200 bg-white p-8 shadow-sm transition-all hover:shadow-lg">
-              <h3 className="font-[family-name:var(--font-oswald)] text-xl font-bold text-[var(--navy)]">
-                Template Toolkit
-              </h3>
-              <p className="mt-2 text-sm text-gray-500">
-                Perfect for solo marketers and small teams
-              </p>
-              <div className="mt-6">
-                <span className="font-[family-name:var(--font-oswald)] text-4xl font-bold text-[var(--navy)]">
-                  &euro;19
-                </span>
-                <span className="text-gray-500">/month</span>
-              </div>
-              <ul className="mt-8 flex-1 space-y-3">
-                {[
-                  "41 interactive templates",
-                  "Template library & search",
-                  "Export (PDF, XLSX)",
-                  "Email support",
-                ].map((f, i) => (
-                  <li
-                    key={i}
-                    className="flex items-center gap-2 text-sm text-gray-600"
-                  >
-                    <Check className="w-4 h-4 shrink-0 text-[var(--teal)]" />
-                    {f}
-                  </li>
-                ))}
-              </ul>
-              <a
-                href="/signup?plan=template-toolkit"
-                className="mt-8 block rounded-xl border-2 border-[var(--navy)] py-3 text-center text-sm font-semibold text-[var(--navy)] transition-all hover:bg-[var(--navy)] hover:text-white"
-              >
-                Get Started
-              </a>
-            </div>
-
-            {/* Starter Strategy */}
-            <div className="flex flex-col rounded-2xl border border-gray-200 bg-white p-8 shadow-sm transition-all hover:shadow-lg">
-              <h3 className="font-[family-name:var(--font-oswald)] text-xl font-bold text-[var(--navy)]">
-                Starter Strategy
-              </h3>
-              <p className="mt-2 text-sm text-gray-500">
-                For entrepreneurs ready to level up
-              </p>
-              <div className="mt-6">
-                <span className="font-[family-name:var(--font-oswald)] text-4xl font-bold text-[var(--navy)]">
-                  &euro;149
-                </span>
-                <span className="text-gray-500">/one-time</span>
-              </div>
-              <ul className="mt-8 flex-1 space-y-3">
-                {[
-                  "AI Strategy Builder (39 Q's)",
-                  "15-section strategy deck",
-                  "90-day roadmap",
-                  "Strategy exports",
-                  "1 month template access",
-                ].map((f, i) => (
-                  <li
-                    key={i}
-                    className="flex items-center gap-2 text-sm text-gray-600"
-                  >
-                    <Check className="w-4 h-4 shrink-0 text-[var(--teal)]" />
-                    {f}
-                  </li>
-                ))}
-              </ul>
-              <a
-                href="/signup?plan=starter-strategy"
-                className="mt-8 block rounded-xl border-2 border-[var(--navy)] py-3 text-center text-sm font-semibold text-[var(--navy)] transition-all hover:bg-[var(--navy)] hover:text-white"
-              >
-                Start Strategy
-              </a>
-            </div>
-
-            {/* Professional -- MOST POPULAR */}
-            <div className="relative flex flex-col rounded-2xl border-2 border-[var(--coral)] bg-white p-8 shadow-xl ring-1 ring-[var(--coral)]/10">
-              <div className="absolute -top-4 left-1/2 -translate-x-1/2 rounded-full bg-[var(--coral)] px-4 py-1 text-xs font-bold uppercase tracking-wider text-white">
-                Most Popular
-              </div>
-              <h3 className="font-[family-name:var(--font-oswald)] text-xl font-bold text-[var(--navy)]">
-                Professional
-              </h3>
-              <p className="mt-2 text-sm text-gray-500">
-                The complete platform for growing businesses
-              </p>
-              <div className="mt-6">
-                <span className="font-[family-name:var(--font-oswald)] text-4xl font-bold text-[var(--navy)]">
-                  &euro;499
-                </span>
-                <span className="text-gray-500">/year</span>
-              </div>
-              <ul className="mt-8 flex-1 space-y-3">
-                {[
-                  "Everything in Starter",
-                  "Unlimited template access",
-                  "90-Day Growth Challenge",
-                  "Priority email support",
-                  "Strategy refinements (3x)",
-                  "Community access",
-                ].map((f, i) => (
-                  <li
-                    key={i}
-                    className="flex items-center gap-2 text-sm text-gray-600"
-                  >
-                    <Check className="w-4 h-4 shrink-0 text-[var(--coral)]" />
-                    {f}
-                  </li>
-                ))}
-              </ul>
-              <a
-                href="/signup?plan=professional"
-                className="mt-8 block rounded-xl bg-[var(--coral)] py-3 text-center text-sm font-semibold text-white shadow-lg shadow-[var(--coral)]/20 transition-all hover:bg-[#d6324a]"
-              >
-                Get Professional
-              </a>
-            </div>
-
-            {/* Enterprise */}
-            <div className="flex flex-col rounded-2xl border border-gray-200 bg-white p-8 shadow-sm transition-all hover:shadow-lg">
-              <h3 className="font-[family-name:var(--font-oswald)] text-xl font-bold text-[var(--navy)]">
-                Enterprise
-              </h3>
-              <p className="mt-2 text-sm text-gray-500">
-                For teams and franchise networks
-              </p>
-              <div className="mt-6">
-                <span className="font-[family-name:var(--font-oswald)] text-4xl font-bold text-[var(--navy)]">
-                  &euro;2,999
-                </span>
-                <span className="text-gray-500">/year</span>
-              </div>
-              <ul className="mt-8 flex-1 space-y-3">
-                {[
-                  "Everything in Professional",
-                  "5-20 team seats",
-                  "1-on-1 strategy sessions",
-                  "Custom template creation",
-                  "Dedicated support",
-                  "API access",
-                ].map((f, i) => (
-                  <li
-                    key={i}
-                    className="flex items-center gap-2 text-sm text-gray-600"
-                  >
-                    <Check className="w-4 h-4 shrink-0 text-[var(--teal)]" />
-                    {f}
-                  </li>
-                ))}
-              </ul>
-              <a
-                href="/contact"
-                className="mt-8 block rounded-xl border-2 border-[var(--navy)] py-3 text-center text-sm font-semibold text-[var(--navy)] transition-all hover:bg-[var(--navy)] hover:text-white"
-              >
-                Contact Sales
-              </a>
-            </div>
-          </div>
-
-          <p className="mt-10 text-center text-sm text-gray-500">
-            All paid plans include a 14-day money-back guarantee. No questions
-            asked.
-          </p>
-        </div>
-      </section>
-
-      {/* ===== CREDIBILITY ===== */}
-      <section id="credibility" className="bg-white py-24 sm:py-32">
-        <div className="mx-auto max-w-7xl px-6">
-          <div className="mx-auto max-w-2xl text-center">
-            <h2 className="font-[family-name:var(--font-oswald)] text-3xl font-bold tracking-tight text-[var(--navy)] sm:text-4xl">
-              Backed by Expertise You Can Trust
-            </h2>
-            <p className="mt-4 text-lg text-gray-600">
-              Created by a strategist recognized by the world&rsquo;s leading
-              marketing awards
-            </p>
-          </div>
-
-          {/* Stats */}
-          <div className="mt-16 grid grid-cols-2 gap-6 lg:grid-cols-4">
+      {/* ═══════════ PROBLEM ═══════════ */}
+      <section className="py-28 px-5 sm:px-10 bg-white">
+        <div className="max-w-[1140px] mx-auto">
+          <SectionHeader
+            tag="The Real Problem"
+            title="You Don't Have a Marketing Problem. You Have a Clarity Problem."
+            sub="You've sat in the meetings. You've seen the decks. You've hired the agencies. And yet — your strategy still feels like a patchwork of borrowed frameworks, gut calls, and templates that were designed for someone else's business. The problem isn't effort. It's architecture."
+          />
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-14">
             {[
-              {
-                number: "2,400+",
-                label: "Strategies Built",
-                icon: <TrendingUp className="w-6 h-6" />,
-              },
-              {
-                number: "4.9\u2605",
-                label: "Average Rating",
-                icon: <Star className="w-6 h-6" />,
-              },
-              {
-                number: "45%",
-                label: "Avg. Revenue Growth",
-                icon: <BarChart3 className="w-6 h-6" />,
-              },
-              {
-                number: "30+",
-                label: "Countries with Active Users",
-                icon: <Globe className="w-6 h-6" />,
-              },
-            ].map((stat, i) => (
-              <div
-                key={i}
-                className="rounded-2xl border border-gray-200 bg-[var(--off-white)] p-6 text-center"
-              >
-                <div className="mx-auto mb-3 inline-flex items-center justify-center rounded-xl bg-[var(--teal)]/10 p-2.5 text-[var(--teal)]">
-                  {stat.icon}
+              { icon: "clock", title: "Strategy Is Either Expensive or Generic", desc: "A decent agency charges €5,000–€50,000 and takes 4–12 weeks. A free template from the internet gives you structure without substance. Neither option gives you what you actually need: a strategic framework built on proven methodology that adapts to YOUR market, YOUR competitive landscape, YOUR growth stage — delivered at the speed your business demands.", color: "teal" as const },
+              { icon: "tool", title: "You Know the Theory. Execution Is Where It Falls Apart.", desc: "You understand positioning. You've read about Jobs-To-Be-Done. You know what a customer journey map should look like. But translating that knowledge into a coherent strategy for your specific business, with your specific constraints? That's the gap where most marketing leaders, founders, and consultants get stuck — caught between knowing and doing.", color: "orange" as const },
+              { icon: "chart", title: "Tools Without Context Are Just More Noise", desc: "The market is flooded with AI content generators, template libraries, and \"growth hacking\" playbooks. None of them know your industry. None of them have been stress-tested across FMCG, durables, tech, retail, finance, healthcare, and education. None of them were built by someone who's actually had to defend a strategy to a board. Until now.", color: "green" as const },
+            ].map((card, i) => (
+              <Reveal key={card.title} delay={i * 0.1} className="h-full">
+                <div className="h-full bg-[var(--light-gray)] border border-[#e8eaed] rounded-2xl p-9 text-left transition-all hover:-translate-y-1.5 hover:shadow-[0_20px_60px_rgba(0,0,0,0.08)] relative overflow-hidden group">
+                  <div className="absolute top-0 left-0 right-0 h-[3px] bg-[linear-gradient(90deg,#2AB9B0,#8ED16A,#F28C28,#F8CE30)] scale-x-0 origin-left group-hover:scale-x-100 transition-transform duration-500" />
+                  <Icon color={card.color}>
+                    {card.icon === "clock" && <svg viewBox="0 0 24 24" fill="none" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-6 h-6 stroke-[var(--teal)]"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>}
+                    {card.icon === "tool" && <svg viewBox="0 0 24 24" fill="none" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-6 h-6 stroke-[var(--orange)]"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>}
+                    {card.icon === "chart" && <svg viewBox="0 0 24 24" fill="none" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-6 h-6 stroke-[#5cb040]"><path d="M18 20V10"/><path d="M12 20V4"/><path d="M6 20v-6"/></svg>}
+                  </Icon>
+                  <h3 className="text-[18px] font-bold text-[var(--charcoal)] mb-2.5 uppercase">{card.title}</h3>
+                  <p className="text-[var(--mid-gray)] text-[14px] leading-[1.7]">{card.desc}</p>
                 </div>
-                <p className="font-[family-name:var(--font-oswald)] text-3xl font-bold text-[var(--navy)]">
-                  {stat.number}
-                </p>
-                <p className="mt-1 text-sm text-gray-500">{stat.label}</p>
-              </div>
-            ))}
-          </div>
-
-          {/* Credentials */}
-          <div className="mt-16 grid gap-8 lg:grid-cols-3">
-            {[
-              {
-                title: "15+ Years Crafting Strategies",
-                description:
-                  "Gabriel Adrian Eremia brings deep expertise in brand positioning, growth marketing, and strategic planning. Every framework in Advertising Unplugged is battle-tested across 100+ brands.",
-                icon: <Award className="w-6 h-6" />,
-              },
-              {
-                title: "Forbes Romania Contributor",
-                description:
-                  "Recognized for insights on marketing innovation and business growth. Featured speaker on leadership and strategic marketing in Eastern Europe\u2019s most influential business publication.",
-                icon: <BookOpen className="w-6 h-6" />,
-              },
-              {
-                title: "Cannes & Effie Recognition",
-                description:
-                  "Marketing campaigns developed with our methodologies have been recognized at the world\u2019s most prestigious award shows, validating our approach to strategic excellence.",
-                icon: <Star className="w-6 h-6" />,
-              },
-            ].map((cred, i) => (
-              <div
-                key={i}
-                className="rounded-2xl border border-gray-200 bg-[var(--off-white)] p-8"
-              >
-                <div className="mb-4 inline-flex items-center justify-center rounded-xl bg-[var(--coral)]/10 p-3 text-[var(--coral)]">
-                  {cred.icon}
-                </div>
-                <h3 className="font-[family-name:var(--font-oswald)] text-lg font-bold text-[var(--navy)]">
-                  {cred.title}
-                </h3>
-                <p className="mt-3 leading-relaxed text-gray-600">
-                  {cred.description}
-                </p>
-              </div>
+              </Reveal>
             ))}
           </div>
         </div>
       </section>
 
-      {/* ===== TESTIMONIALS ===== */}
-      <section
-        id="testimonials"
-        className="bg-[var(--off-white)] py-24 sm:py-32"
-      >
-        <div className="mx-auto max-w-7xl px-6">
-          <div className="mx-auto max-w-2xl text-center">
-            <h2 className="font-[family-name:var(--font-oswald)] text-3xl font-bold tracking-tight text-[var(--navy)] sm:text-4xl">
-              What Our Users Say
-            </h2>
-            <p className="mt-4 text-lg text-gray-600">
-              Join thousands of entrepreneurs growing with confidence
-            </p>
-          </div>
-
-          <div className="mt-16 grid gap-8 lg:grid-cols-3">
-            {[
-              {
-                quote:
-                  "Advertising Unplugged gave me clarity I\u2019d been missing for 3 years. The strategy is precise, actionable, and delivered exactly when I needed it. Already seeing 35% growth in qualified leads.",
-                author: "Ana Popescu",
-                title: "CEO, Tech Startup, Romania",
-              },
-              {
-                quote:
-                  "As a franchise owner managing 8 locations, having a unified strategy has been a game-changer. The templates saved us weeks of internal meetings and debates.",
-                author: "Mihai Cristescu",
-                title: "Franchise Owner, East EU",
-              },
-              {
-                quote:
-                  "I\u2019ve invested in dozens of courses and frameworks. This is the first one that actually feels personalized to MY business. The 90-day challenge kept me accountable and got real results.",
-                author: "Cristina Ionescu",
-                title: "Coach & Consultant, Romania",
-              },
-            ].map((testimonial, i) => (
-              <div
-                key={i}
-                className="flex flex-col rounded-2xl border border-gray-200 bg-white p-8 shadow-sm"
-              >
-                {/* Stars */}
-                <div className="mb-4 flex gap-1">
-                  {Array.from({ length: 5 }).map((_, j) => (
-                    <Star
-                      key={j}
-                      className="w-4 h-4 fill-yellow-400 text-yellow-400"
-                    />
+      {/* ═══════════ GABRIEL — FOUNDER ═══════════ */}
+      <section className="py-28 px-5 sm:px-10 bg-[linear-gradient(160deg,#1A1A2E,#1e1838,#1A1A2E)] text-white relative overflow-hidden">
+        <div className="absolute w-[500px] h-[500px] rounded-full blur-[90px] opacity-20 -top-[150px] -right-20 bg-[radial-gradient(circle,rgba(42,185,176,0.15),transparent_70%)]" />
+        <div className="max-w-[1140px] mx-auto">
+          <div className="grid grid-cols-1 lg:grid-cols-[1fr_1.2fr] gap-18 items-center">
+            <Reveal direction="left">
+              <div className="relative">
+                <Image
+                  src="https://www.adhugger.net/wp-content/uploads/2023/02/Gabriel-Eremia_Advertising_Unplugged-533x800.jpg"
+                  alt="Gabriel Adrian Eremia"
+                  width={400}
+                  height={600}
+                  className="w-full max-w-[400px] aspect-[2/3] rounded-[20px] object-cover object-top border-2 border-[rgba(42,185,176,0.15)] shadow-[0_30px_80px_rgba(0,0,0,0.4)]"
+                />
+                <div className="absolute -bottom-5 -right-5 bg-white/95 backdrop-blur-[20px] text-[var(--charcoal)] p-[18px_22px] rounded-[14px] shadow-[0_16px_48px_rgba(0,0,0,0.2)] z-2">
+                  <div className="font-[family-name:var(--font-oswald)] text-[24px] font-bold bg-[linear-gradient(135deg,#2AB9B0,#8ED16A,#F28C28,#F8CE30)] bg-clip-text text-transparent leading-tight">15+</div>
+                  <div className="text-[11px] text-[var(--mid-gray)] font-semibold mt-0.5">Years Leading Strategy for<br/>Market-Leading Companies</div>
+                </div>
+                <div className="absolute -top-3.5 -left-3.5 bg-[linear-gradient(90deg,#2AB9B0,#8ED16A,#F28C28,#F8CE30)] text-[var(--navy)] px-4 py-2 rounded-[10px] text-[11px] font-extrabold uppercase tracking-[0.5px] shadow-[0_8px_24px_rgba(42,185,176,0.3)] z-2">
+                  Award-Winning Strategist
+                </div>
+              </div>
+            </Reveal>
+            <Reveal direction="right">
+              <div>
+                <span className="inline-block text-[var(--teal)] text-[12px] font-bold tracking-[2.5px] uppercase mb-3">Our Founder</span>
+                <h2 className="font-[family-name:var(--font-oswald)] text-[36px] font-bold mb-5 leading-[1.1] uppercase">Gabriel Adrian Eremia</h2>
+                <p className="text-white/70 text-[15px] leading-[1.8] mb-3.5">
+                  Advertising Unplugged was founded by Gabriel Adrian Eremia — a strategist who doesn&apos;t teach theory from the sidelines. He builds and leads strategy from the inside, with 15+ years directing brand and product strategy for <strong className="text-white">market-leading companies across European markets</strong>.
+                </p>
+                <p className="text-white/70 text-[15px] leading-[1.8] mb-3.5">
+                  He&apos;s built and executed brand strategies across <strong className="text-white">FMCG, consumer durables, tech, retail, finance, healthcare, education, and the NGO sector</strong>. His campaigns have won <strong className="text-white">international industry awards</strong> and been <strong className="text-white">shortlisted at Cannes Lions</strong> — validated by the same juries that judge the world&apos;s best work. He&apos;s taught strategy at the <strong className="text-white">Bucharest Business School MBA</strong> program, completed <strong className="text-white">Harvard Business School Online</strong> coursework, and shared stages at <strong className="text-white">Business Days</strong> — reaching over 450,000 entrepreneurs across 100+ events. With <strong className="text-white">64+ articles published on IQads</strong> and features in <strong className="text-white">Business Review, AdHugger, and Forbes MarComm</strong> — Gabriel has spent 15 years not just practicing strategy, but codifying it into a system any business can use.
+                </p>
+                <blockquote className="italic text-[18px] bg-[linear-gradient(135deg,#2AB9B0,#8ED16A,#F28C28,#F8CE30)] bg-clip-text text-transparent border-l-[3px] border-[var(--teal)] pl-[18px] my-7 leading-[1.5]">
+                  &ldquo;I built Advertising Unplugged because every business — no matter how small — deserves access to the same strategic thinking that drives the brands everyone knows. Marketing shouldn&apos;t be about noise. It should be about clarity, trust, and building something that lasts.&rdquo;
+                </blockquote>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5 mt-6">
+                  {[
+                    "International Award Winner",
+                    "Cannes Lions Shortlist",
+                    "Harvard Business School Online",
+                    "Bucharest Business School MBA Lecturer",
+                    "64+ Articles on IQads",
+                    "450K+ Entrepreneurs Reached",
+                    "7+ Industries Covered",
+                    "20+ Hours Podcast Content",
+                  ].map((cred) => (
+                    <div key={cred} className="flex items-center gap-2.5 px-3 py-[9px] bg-white/[0.03] border border-white/[0.05] rounded-lg text-[12px] font-medium text-white/80 hover:bg-[rgba(42,185,176,0.08)] hover:border-[rgba(42,185,176,0.2)] transition-all">
+                      <div className="w-7 h-7 bg-[rgba(42,185,176,0.1)] rounded-[7px] flex items-center justify-center shrink-0">
+                        <svg viewBox="0 0 24 24" className="w-3.5 h-3.5 stroke-[var(--teal)] fill-none" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                      </div>
+                      {cred}
+                    </div>
                   ))}
                 </div>
-                <blockquote className="flex-1 text-gray-700 leading-relaxed">
-                  &ldquo;{testimonial.quote}&rdquo;
-                </blockquote>
-                <div className="mt-6 flex items-center gap-3 border-t border-gray-100 pt-6">
-                  <div className="flex h-10 w-10 items-center justify-center rounded-full bg-gradient-to-br from-[var(--coral)] to-[var(--teal)] text-sm font-bold text-white">
-                    {testimonial.author
-                      .split(" ")
-                      .map((n) => n[0])
-                      .join("")}
+              </div>
+            </Reveal>
+          </div>
+        </div>
+      </section>
+
+      <div className="h-1 bg-[linear-gradient(90deg,#2AB9B0,#8ED16A,#F28C28,#F8CE30)]" />
+
+      {/* ═══════════ WHO IT'S FOR ═══════════ */}
+      <section id="who-its-for" className="py-28 px-5 sm:px-10 bg-white">
+        <div className="max-w-[1140px] mx-auto">
+          <SectionHeader
+            tag="Who It's For"
+            title="One System. Three Ways In. Choose Your Starting Point."
+            sub="Whether you're building a company, running an agency, or leading marketing inside an organization — this platform meets you where you are and gives you what most tools can't: a complete strategic architecture you can act on immediately."
+          />
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-14">
+            {[
+              { title: "Business Owners & Entrepreneurs", desc: "Stop Outsourcing Your Strategy to People Who Don't Know Your Business. The AI Strategy Builder gives you a 15-section brand strategy deck — brand archetypes, competitive positioning, customer personas, 90-day roadmap — generated from YOUR answers to 39 expert-crafted questions. No agency. No waiting. No generic output.", features: ["AI Strategy Builder — your full brand strategy", "41 interactive marketing templates", "90-Day Growth Challenge with accountability", "1-on-1 consulting with our founder", "Team training & workshops available"], cta: "Get Started", href: "#pricing" },
+              { title: "Agencies & Consultancies", desc: "Deliver Board-Ready Strategy to Every Client. At Scale. Under Your Brand. White-label the same methodology behind award-winning campaigns — generate professional strategy decks under your brand, onboard your team to the framework, and turn strategic consulting into a scalable, repeatable product line.", features: ["White-label strategy builder for client work", "Multi-seat team access", "Full template toolkit for client deliverables", "Team training on our strategy methods", "API access for integration"], cta: "Book a Call", href: "#consulting" },
+              { title: "Marketing Directors & Teams", desc: "Align Your Team Around One Strategic Framework. Finally. You report to the board. Your team reports to you. And everyone's working from a different version of \"the strategy.\" Use the platform for brand audits, competitive analysis, and structured planning that gives your entire department a shared strategic language — the same one used to build award-winning campaigns.", features: ["Brand audit & competitive positioning tools", "41 templates for every marketing function", "Team workshops on marketing, product, and BD", "Ongoing consulting with our founder", "Structured 90-day execution sprints"], cta: "Explore Options", href: "#consulting" },
+            ].map((card, i) => (
+              <Reveal key={card.title} delay={i * 0.1} className="h-full">
+                <div className="h-full bg-[var(--light-gray)] border-2 border-[#e8eaed] rounded-2xl p-10 text-left transition-all hover:-translate-y-1.5 hover:shadow-[0_20px_60px_rgba(0,0,0,0.08)] hover:border-[var(--teal)] relative overflow-hidden flex flex-col">
+                  <div className="absolute top-0 left-0 right-0 h-1 bg-[linear-gradient(90deg,#2AB9B0,#8ED16A,#F28C28,#F8CE30)]" />
+                  <h4 className="font-[family-name:var(--font-oswald)] text-[20px] font-bold text-[var(--charcoal)] mb-2.5 leading-[1.2] uppercase min-h-[52px]">{card.title}</h4>
+                  <p className="text-[var(--mid-gray)] text-[14px] leading-[1.7] mb-5 md:min-h-[264px]">{card.desc}</p>
+                  <ul className="list-none p-0 mb-6 flex-1">
+                    {card.features.map((f) => (
+                      <li key={f} className="flex items-start gap-2.5 py-[5px] text-[13px] text-[var(--charcoal)] font-medium">
+                        <span className="w-[18px] h-[18px] bg-[rgba(42,185,176,0.1)] text-[var(--teal)] rounded-[5px] flex items-center justify-center text-[10px] font-bold shrink-0 mt-0.5">✓</span>
+                        {f}
+                      </li>
+                    ))}
+                  </ul>
+                  <a href={card.href} className="bg-[var(--teal)] text-[var(--navy)] px-6 py-3 rounded-[10px] text-[13px] font-bold shadow-[0_4px_24px_rgba(42,185,176,0.35)] hover:-translate-y-0.5 transition-all inline-flex items-center gap-2 mt-auto">
+                    {card.cta}
+                  </a>
+                </div>
+              </Reveal>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ═══════════ ROADMAP ═══════════ */}
+      <section id="how-it-works" className="py-28 px-5 sm:px-10 bg-[var(--light-gray)]">
+        <div className="max-w-[1140px] mx-auto">
+          <SectionHeader
+            tag="Your Growth Roadmap"
+            title="A Complete System — Not Just a Tool"
+            sub="Each layer builds on the one before — from strategic foundation to execution to community to acceleration. Start wherever you need. Go as deep as your business requires."
+          />
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 mt-14 relative">
+            <div className="hidden lg:block absolute top-[38px] left-[calc(12.5%+10px)] right-[calc(12.5%+10px)] h-[3px] bg-[linear-gradient(90deg,#2AB9B0,#8ED16A,#F28C28,#F8CE30)] z-[1] opacity-25 rounded" />
+            {[
+              { step: 1, title: "AI Strategy Builder", desc: "Answer 39 expert questions built from 15+ years of real campaign methodology. Receive a 15-section strategy deck: brand archetypes, Jobs-To-Be-Done analysis, competitive positioning, customer journey mapping, persona profiles, and a 90-day action roadmap with weekly milestones. What takes an agency 4–12 weeks, you'll have in minutes.", tag: "Foundation" },
+              { step: 2, title: "41 Template Toolkit", desc: "Strategy without execution is a document that collects dust. The toolkit gives you 41 interactive templates across 7 categories — Strategy, Brand, Content, Digital, Growth, Analytics, PR — each with guided workflows, export to PDF & XLSX, and monthly updates. Works standalone or paired with your strategy deck.", tag: "Execution" },
+              { step: 3, title: "Unplugged Circle", desc: "Strategy without support is just a document. The Unplugged Circle is where strategy meets accountability — monthly calls with our founder, office hours, peer accountability pods, an exclusive resource vault, and an annual retreat for top members. Three tiers: Core, Plus, Pro.", tag: "Community" },
+              { step: 4, title: "1-on-1 Consulting", desc: "When you need our founder in the room — not just the methodology. Book sessions for brand positioning deep-dives, product launch planning, growth strategy, sustainability and CSR strategy, or business development advisory. Or bring us in for full-day corporate workshops and team training.", tag: "Acceleration" },
+            ].map((card, i) => (
+              <Reveal key={card.step} delay={i * 0.1} className="h-full">
+                <div className="h-full bg-white border border-[#e8eaed] rounded-2xl p-[30px_22px] text-center transition-all hover:-translate-y-1.5 hover:shadow-[0_20px_60px_rgba(0,0,0,0.08)] relative flex flex-col">
+                  <div className="w-12 h-12 bg-[linear-gradient(135deg,#2AB9B0,#8ED16A,#F28C28,#F8CE30)] rounded-full flex items-center justify-center font-[family-name:var(--font-oswald)] text-[18px] font-bold text-[var(--navy)] mx-auto mb-4 relative z-2 shadow-[0_4px_16px_rgba(42,185,176,0.35)]">
+                    {card.step}
                   </div>
-                  <div>
-                    <p className="text-sm font-semibold text-[var(--navy)]">
-                      {testimonial.author}
-                    </p>
-                    <p className="text-xs text-gray-500">
-                      {testimonial.title}
-                    </p>
+                  <h3 className="font-[family-name:var(--font-oswald)] text-[16px] font-bold text-[var(--charcoal)] mb-2 uppercase">{card.title}</h3>
+                  <p className="text-[var(--mid-gray)] text-[12px] leading-[1.6] flex-1">{card.desc}</p>
+                  <span className="inline-block bg-[rgba(42,185,176,0.08)] text-[var(--teal)] px-3 py-1 rounded-full text-[10px] font-bold mt-3 uppercase tracking-[0.5px] self-center">{card.tag}</span>
+                </div>
+              </Reveal>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ═══════════ PRODUCTS ═══════════ */}
+      <section id="products" className="py-28 px-5 sm:px-10 bg-[linear-gradient(160deg,#1A1A2E,#1e1838,#1A1A2E)] text-white relative overflow-hidden">
+        <div className="absolute w-[500px] h-[500px] rounded-full blur-[90px] opacity-15 -top-[150px] -right-20 bg-[radial-gradient(circle,rgba(42,185,176,0.15),transparent_70%)]" />
+        <div className="max-w-[1140px] mx-auto relative z-2">
+          <SectionHeader tag="Products" title="Everything You Need to Grow" white />
+
+          {/* Product 1: Strategy Builder */}
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-18 items-center mt-18 mb-24">
+            <Reveal direction="left">
+              <div className="w-full aspect-[4/3] rounded-2xl border border-white/[0.08] overflow-hidden shadow-[0_20px_60px_rgba(0,0,0,0.3)] bg-white/[0.03]">
+                <div className="bg-black/30 p-2.5 px-4 flex items-center gap-1.5">
+                  <div className="w-2.5 h-2.5 rounded-full bg-[#ff5f57]" />
+                  <div className="w-2.5 h-2.5 rounded-full bg-[#febc2e]" />
+                  <div className="w-2.5 h-2.5 rounded-full bg-[#28c840]" />
+                </div>
+                <div className="p-5">
+                  <div className="font-[family-name:var(--font-oswald)] text-[16px] font-semibold text-white uppercase mb-3">Brand Strategy Deck</div>
+                  <div className="flex flex-col gap-[7px]">
+                    <div className="h-[7px] rounded w-[92%] bg-[linear-gradient(90deg,var(--teal),var(--green))] opacity-90" />
+                    <div className="h-[7px] rounded w-[78%] bg-[linear-gradient(90deg,var(--green),var(--orange))] opacity-70" />
+                    <div className="h-[7px] rounded w-[65%] bg-[linear-gradient(90deg,var(--orange),var(--yellow))] opacity-50" />
+                    <div className="h-[7px] rounded w-[85%] bg-[linear-gradient(90deg,#2AB9B0,#8ED16A,#F28C28,#F8CE30)] opacity-30" />
+                  </div>
+                  <div className="grid grid-cols-2 gap-2 mt-3.5">
+                    {[{ l: "Archetype", v: "Hero" }, { l: "Sections", v: "15" }, { l: "Personas", v: "3" }, { l: "Roadmap", v: "90 Days" }].map((c) => (
+                      <div key={c.l} className="bg-white/[0.04] border border-white/[0.08] rounded-lg p-3 hover:border-[var(--teal)] transition-colors">
+                        <div className="text-[9px] text-white/40 uppercase tracking-[1px] font-bold">{c.l}</div>
+                        <div className="font-[family-name:var(--font-oswald)] text-[18px] font-bold text-white mt-0.5">{c.v}</div>
+                      </div>
+                    ))}
                   </div>
                 </div>
               </div>
-            ))}
+            </Reveal>
+            <Reveal direction="right">
+              <div>
+                <span className="inline-block text-[var(--teal)] text-[12px] font-bold tracking-[2.5px] uppercase mb-1.5">Step 1 — Foundation</span>
+                <h3 className="font-[family-name:var(--font-oswald)] text-[32px] font-bold text-white mb-3.5 leading-[1.1] uppercase">AI Strategy Builder</h3>
+                <p className="text-white/60 text-[15px] leading-[1.7] mb-3.5">The same strategic thinking behind award-winning campaigns. Personalized to your business. Generated in minutes.</p>
+                <ul className="list-none p-0 my-5">
+                  {["39 expert-crafted strategic questions (7 sections)", "15-section strategy deck with real frameworks", "Brand archetype, JTBD, competitive analysis", "Customer journey mapping & persona builder", "90-day action roadmap with weekly milestones", "Export as PDF, PPTX, or shareable web link"].map((f) => (
+                    <li key={f} className="flex items-center gap-2.5 py-[7px] text-[13px] text-white/80 font-medium">
+                      <span className="w-5 h-5 bg-[rgba(42,185,176,0.15)] text-[var(--teal)] rounded-md flex items-center justify-center text-[11px] font-bold shrink-0">✓</span>
+                      {f}
+                    </li>
+                  ))}
+                </ul>
+                <a href="#pricing" className="bg-[var(--teal)] text-[var(--navy)] px-9 py-4 rounded-[10px] text-[15px] font-bold shadow-[0_4px_24px_rgba(42,185,176,0.35)] hover:-translate-y-0.5 transition-all inline-flex items-center gap-2">
+                  Try the Strategy Builder
+                </a>
+              </div>
+            </Reveal>
+          </div>
+
+          {/* Product 2: Templates (reversed) */}
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-18 items-center mb-24">
+            <Reveal direction="left" className="order-2 lg:order-1">
+              <div>
+                <span className="inline-block text-[var(--teal)] text-[12px] font-bold tracking-[2.5px] uppercase mb-1.5">Step 2 — Execution</span>
+                <h3 className="font-[family-name:var(--font-oswald)] text-[32px] font-bold text-white mb-3.5 leading-[1.1] uppercase">41 Interactive Templates</h3>
+                <p className="text-white/60 text-[15px] leading-[1.7] mb-3.5">Every template you need to move from strategy to execution. Battle-tested across real campaigns in 7+ industries.</p>
+                <ul className="list-none p-0 my-5">
+                  {["7 categories: Strategy, Brand, Content, Digital, Growth, Analytics, PR", "Interactive dashboards with guided workflows", "Export to PDF & XLSX", "New templates added every month", "Works standalone or paired with your strategy"].map((f) => (
+                    <li key={f} className="flex items-center gap-2.5 py-[7px] text-[13px] text-white/80 font-medium">
+                      <span className="w-5 h-5 bg-[rgba(42,185,176,0.15)] text-[var(--teal)] rounded-md flex items-center justify-center text-[11px] font-bold shrink-0">✓</span>
+                      {f}
+                    </li>
+                  ))}
+                </ul>
+                <a href="#pricing" className="bg-[var(--teal)] text-[var(--navy)] px-9 py-4 rounded-[10px] text-[15px] font-bold shadow-[0_4px_24px_rgba(42,185,176,0.35)] hover:-translate-y-0.5 transition-all inline-flex items-center gap-2">
+                  Explore Templates
+                </a>
+              </div>
+            </Reveal>
+            <Reveal direction="right" className="order-1 lg:order-2">
+              <div className="w-full aspect-[4/3] rounded-2xl border border-white/[0.08] overflow-hidden shadow-[0_20px_60px_rgba(0,0,0,0.3)] bg-white/[0.03]">
+                <div className="bg-black/30 p-2.5 px-4 flex items-center gap-1.5">
+                  <div className="w-2.5 h-2.5 rounded-full bg-[#ff5f57]" />
+                  <div className="w-2.5 h-2.5 rounded-full bg-[#febc2e]" />
+                  <div className="w-2.5 h-2.5 rounded-full bg-[#28c840]" />
+                </div>
+                <div className="p-5">
+                  <div className="font-[family-name:var(--font-oswald)] text-[16px] font-semibold text-white uppercase mb-3">41 Marketing Templates</div>
+                  <div className="grid grid-cols-3 gap-[7px] mt-2.5">
+                    {[{ l: "Strategy", c: "var(--teal)" }, { l: "Brand", c: "#5cb040" }, { l: "Social", c: "var(--orange)" }, { l: "Growth", c: "#c09a10" }, { l: "Email", c: "var(--teal)" }, { l: "Analytics", c: "#5cb040" }].map((cat) => (
+                      <div key={cat.l} className="rounded-lg p-2.5 text-center" style={{ background: `color-mix(in srgb, ${cat.c} 10%, transparent)` }}>
+                        <div className="text-[12px] font-bold" style={{ color: cat.c }}>{cat.l}</div>
+                      </div>
+                    ))}
+                  </div>
+                  <div className="mt-2.5 p-2 bg-white/[0.04] rounded-lg border border-white/[0.08]">
+                    <div className="text-[9px] text-white/40 font-bold uppercase tracking-[1px]">Categories</div>
+                    <div className="font-[family-name:var(--font-oswald)] text-[12px] font-semibold text-white mt-0.5 uppercase">7 groups &bull; 41 templates &bull; Updated monthly</div>
+                  </div>
+                </div>
+              </div>
+            </Reveal>
+          </div>
+
+          {/* Product 3: Unplugged Circle */}
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-18 items-center">
+            <Reveal direction="left">
+              <div className="w-full aspect-[4/3] rounded-2xl border border-white/[0.08] overflow-hidden shadow-[0_20px_60px_rgba(0,0,0,0.3)] bg-white/[0.03]">
+                <div className="bg-black/30 p-2.5 px-4 flex items-center gap-1.5">
+                  <div className="w-2.5 h-2.5 rounded-full bg-[#ff5f57]" />
+                  <div className="w-2.5 h-2.5 rounded-full bg-[#febc2e]" />
+                  <div className="w-2.5 h-2.5 rounded-full bg-[#28c840]" />
+                </div>
+                <div className="p-5 flex flex-col gap-2">
+                  <div className="font-[family-name:var(--font-oswald)] text-[16px] font-semibold text-white uppercase mb-1">Unplugged Circle</div>
+                  {[
+                    { title: "Monthly Strategy Calls", sub: "Live with our founder", color: "rgba(42,185,176,0.1)", border: "rgba(42,185,176,0.15)" },
+                    { title: "Peer Accountability Pods", sub: "5-person growth groups", color: "rgba(142,209,106,0.08)", border: "rgba(142,209,106,0.12)" },
+                    { title: "Resource Vault", sub: "Exclusive frameworks & playbooks", color: "rgba(242,140,40,0.08)", border: "rgba(242,140,40,0.12)" },
+                  ].map((item) => (
+                    <div key={item.title} className="flex items-center gap-2.5 rounded-lg p-3 px-3.5" style={{ background: item.color, border: `1px solid ${item.border}` }}>
+                      <div className="w-8 h-8 rounded-full flex items-center justify-center" style={{ background: item.border }}>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--teal)" strokeWidth="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                      </div>
+                      <div>
+                        <div className="text-[11px] font-bold text-white uppercase tracking-[0.5px]">{item.title}</div>
+                        <div className="text-[10px] text-white/40">{item.sub}</div>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </Reveal>
+            <Reveal direction="right">
+              <div>
+                <span className="inline-block text-[var(--teal)] text-[12px] font-bold tracking-[2.5px] uppercase mb-1.5">Step 3 — Community</span>
+                <h3 className="font-[family-name:var(--font-oswald)] text-[32px] font-bold text-white mb-3.5 leading-[1.1] uppercase">Unplugged Circle</h3>
+                <p className="text-white/60 text-[15px] leading-[1.7] mb-3.5">Strategy without support is just a document. The Unplugged Circle is your inner community — where strategy meets accountability, mentorship, and shared growth with entrepreneurs who think like you.</p>
+                <ul className="list-none p-0 my-5">
+                  {["Monthly strategy calls with our founder", "Office hours and open Q&A sessions", "Peer accountability pods (5-person groups)", "Exclusive resource vault and playbooks", "Annual retreat for top members", "3 tiers: Core, Plus, Pro"].map((f) => (
+                    <li key={f} className="flex items-center gap-2.5 py-[7px] text-[13px] text-white/80 font-medium">
+                      <span className="w-5 h-5 bg-[rgba(42,185,176,0.15)] text-[var(--teal)] rounded-md flex items-center justify-center text-[11px] font-bold shrink-0">✓</span>
+                      {f}
+                    </li>
+                  ))}
+                </ul>
+                <a href="#pricing" className="bg-[var(--teal)] text-[var(--navy)] px-9 py-4 rounded-[10px] text-[15px] font-bold shadow-[0_4px_24px_rgba(42,185,176,0.35)] hover:-translate-y-0.5 transition-all inline-flex items-center gap-2">
+                  Join the Circle
+                </a>
+              </div>
+            </Reveal>
           </div>
         </div>
       </section>
 
-      {/* ===== FAQ ===== */}
-      <section id="faq" className="bg-white py-24 sm:py-32">
-        <div className="mx-auto max-w-3xl px-6">
-          <div className="text-center">
-            <h2 className="font-[family-name:var(--font-oswald)] text-3xl font-bold tracking-tight text-[var(--navy)] sm:text-4xl">
-              Frequently Asked Questions
-            </h2>
-            <p className="mt-4 text-lg text-gray-600">
-              Everything you need to know before getting started
-            </p>
-          </div>
+      {/* ═══════════ PRICING ═══════════ */}
+      <section id="pricing" className="py-28 px-5 sm:px-10 bg-[var(--light-gray)]">
+        <div className="max-w-[1140px] mx-auto">
+          <SectionHeader tag="Launch Pricing" title="Investment That Pays for Itself in the First Strategy Session" sub="Early access pricing is active. When we reach capacity, standard rates apply. Every plan includes a 14-day money-back guarantee — no questions asked." />
+          <PricingToggle />
+          <Reveal>
+            <div className="mt-10 py-5 px-7 bg-white border border-[#e8eaed] rounded-2xl inline-flex items-center gap-3.5 text-[13px] text-[var(--mid-gray)] mx-auto">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--teal)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+              All paid plans include a <strong>14-day money-back guarantee</strong>. No questions asked. Secure payments via Stripe.
+            </div>
+          </Reveal>
+        </div>
+      </section>
 
-          <div className="mt-16 divide-y divide-gray-200">
+      {/* ═══════════ CONSULTING ═══════════ */}
+      <section id="consulting" className="py-28 px-5 sm:px-10 bg-[linear-gradient(160deg,#1A1A2E,#1e1838,#1A1A2E)] text-white relative overflow-hidden">
+        <div className="absolute w-[500px] h-[500px] rounded-full blur-[90px] opacity-15 -top-[150px] -right-20 bg-[radial-gradient(circle,rgba(42,185,176,0.15),transparent_70%)]" />
+        <div className="max-w-[1140px] mx-auto relative z-2">
+          <SectionHeader tag="When You Need the Strategist, Not Just the System" title="Consulting, Training & Workshops" sub="The platform gives you methodology. Our founder gives you judgment. The kind that comes from 15 years of defending strategies in front of boards, launching products across European markets, and building award-winning campaigns." white />
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-[60px] mt-12">
             {[
-              {
-                q: "How long does it take to get my strategy?",
-                a: "Your AI-powered strategy is generated instantly after you complete the 39-question builder. Most users get their full 15-section strategy deck within 2-5 minutes of submission.",
-              },
-              {
-                q: "Can I refine my strategy after it\u2019s created?",
-                a: "Absolutely. Professional and Enterprise plans include strategy refinements. You can regenerate sections, adjust answers, and get updated strategies as your business evolves.",
-              },
-              {
-                q: "What if I\u2019m not a marketer? Can I still use this?",
-                a: "Yes! The AI Strategy Builder asks questions any business owner can answer\u2014about your goals, audience, and competitive position. No marketing jargon required. All templates are self-explanatory.",
-              },
-              {
-                q: "Is the 90-Day Challenge included in all plans?",
-                a: "The 90-Day Growth Challenge is included in Professional and Enterprise plans. Template Toolkit and Starter Strategy users can purchase it separately for \u20ac299.",
-              },
-              {
-                q: "Can I export my strategy and templates?",
-                a: "Yes. Export strategies as PDF or PPTX. Export template data as XLSX or PDF. Professional and Enterprise plans also get a sharable web link for team collaboration.",
-              },
-              {
-                q: "What about team access?",
-                a: "Template Toolkit and Starter Strategy are single-user. Professional plan allows 1-3 team members. Enterprise supports 5-20 seats with full collaboration features and separate team dashboards.",
-              },
-              {
-                q: "Do you offer a refund if I\u2019m not satisfied?",
-                a: "Yes. All Starter Strategy, Professional, and Enterprise purchases come with a 14-day money-back guarantee. No questions asked. We\u2019re confident you\u2019ll see value immediately.",
-              },
-              {
-                q: "Is my data secure? What about privacy?",
-                a: "Your data is encrypted and stored in EU data centers via Supabase. We never sell or share your data. Full GDPR compliance. Read our detailed privacy policy for specifics.",
-              },
-              {
-                q: "What payment methods do you accept?",
-                a: "We accept all major credit cards (Visa, Mastercard, American Express), Apple Pay, and Google Pay. Payments are processed securely through Stripe.",
-              },
-              {
-                q: "Can I change my plan anytime?",
-                a: "Yes, you can upgrade or downgrade your plan anytime. Your new pricing will be reflected on your next billing cycle. No penalties or hidden fees.",
-              },
-            ].map((faq, i) => (
-              <details key={i} className="group py-6">
-                <summary className="flex cursor-pointer list-none items-center justify-between text-left font-[family-name:var(--font-oswald)] text-lg font-semibold text-[var(--navy)] transition-colors hover:text-[var(--coral)] [&::-webkit-details-marker]:hidden">
-                  {faq.q}
-                  <ChevronRight className="w-5 h-5 shrink-0 text-gray-400 transition-transform group-open:rotate-90" />
-                </summary>
-                <p className="mt-4 leading-relaxed text-gray-600">{faq.a}</p>
-              </details>
+              { title: "1-on-1 Consulting", desc: "Personal strategy sessions tailored to your business challenges. Whether you need to refine your positioning, plan a launch, or restructure your marketing operation.", price: "€300", unit: "/hour", features: ["Brand strategy & positioning", "Product launch planning", "Marketing & growth strategy", "Sustainability & CSR strategy", "Business development & fundraising"], cta: "Book a Session" },
+              { title: "Training & Workshops", desc: "Bring our expertise to your team. Full-day or multi-day workshops designed for your organization's challenges and growth stage.", price: "Custom", unit: " pricing", features: ["Marketing strategy & planning", "Product management & development", "Business development & partnerships", "PR & public affairs", "Sustainability & social responsibility", "Digital transformation & innovation"], cta: "Request a Workshop" },
+            ].map((card, i) => (
+              <Reveal key={card.title} delay={i * 0.1} className="h-full">
+                <div className="h-full bg-white/[0.03] border border-white/[0.08] rounded-2xl p-12 text-center transition-all hover:bg-[rgba(42,185,176,0.05)] hover:border-[rgba(42,185,176,0.2)] flex flex-col">
+                  <h4 className="font-[family-name:var(--font-oswald)] text-[22px] font-bold text-white mb-2.5 uppercase">{card.title}</h4>
+                  <p className="text-white/50 text-[14px] mb-5 leading-[1.7] min-h-[72px]">{card.desc}</p>
+                  <div className="font-[family-name:var(--font-oswald)] text-[48px] font-bold bg-[linear-gradient(135deg,#2AB9B0,#8ED16A,#F28C28,#F8CE30)] bg-clip-text text-transparent mb-1">
+                    {card.price}<span className="text-[16px] text-white/40 font-sans" style={{ WebkitTextFillColor: "rgba(255,255,255,0.4)" }}>{card.unit}</span>
+                  </div>
+                  <ul className="list-none p-0 my-5 text-left flex-1">
+                    {card.features.map((f) => (
+                      <li key={f} className="py-1.5 text-[13px] text-white/70 flex items-center gap-2">
+                        <span className="text-[var(--teal)] font-bold">✓</span>
+                        {f}
+                      </li>
+                    ))}
+                  </ul>
+                  <a href="#" className="bg-[var(--teal)] text-[var(--navy)] w-full py-4 rounded-[10px] text-[15px] font-bold shadow-[0_4px_24px_rgba(42,185,176,0.35)] hover:-translate-y-0.5 transition-all flex items-center justify-center gap-2 mt-auto">
+                    {card.cta}
+                  </a>
+                </div>
+              </Reveal>
             ))}
           </div>
         </div>
       </section>
 
-      {/* ===== FINAL CTA ===== */}
-      <section
-        id="cta"
-        className="relative overflow-hidden bg-gradient-to-br from-[var(--coral)] via-[#e84860] to-[#d6324a] py-24 text-white sm:py-32"
-      >
-        <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxnIGZpbGw9IiNmZmZmZmYiIGZpbGwtb3BhY2l0eT0iMC4wMyI+PHBhdGggZD0iTTM2IDE4YzEuNjU3IDAgMy0xLjM0MyAzLTNzLTEuMzQzLTMtMy0zLTMgMS4zNDMtMyAzIDEuMzQzIDMgMyAzem0wIDM2YzEuNjU3IDAgMy0xLjM0MyAzLTNzLTEuMzQzLTMtMy0zLTMgMS4zNDMtMyAzIDEuMzQzIDMgMyAzem0tMTgtMThjMS42NTcgMCAzLTEuMzQzIDMtM3MtMS4zNDMtMy0zLTMtMyAxLjM0My0zIDMgMS4zNDMgMyAzIDN6Ii8+PC9nPjwvZz48L3N2Zz4=')] opacity-50" />
-
-        <div className="relative mx-auto max-w-4xl px-6 text-center">
-          <h2 className="font-[family-name:var(--font-oswald)] text-3xl font-bold tracking-tight sm:text-4xl lg:text-5xl">
-            Stop Guessing. Start Growing.
-          </h2>
-          <p className="mx-auto mt-6 max-w-2xl text-lg text-white/80">
-            Get your personalized brand strategy powered by AI in the next 24
-            hours. Join 2,400+ entrepreneurs who&rsquo;ve turned clarity into
-            results.
-          </p>
-
-          <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
-            <a
-              href="#pricing"
-              className="group inline-flex items-center gap-2 rounded-xl bg-white px-8 py-4 text-base font-semibold text-[var(--coral)] shadow-lg transition-all hover:bg-gray-50 hover:-translate-y-0.5"
-            >
-              Start Free Assessment
-              <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
-            </a>
-            <a
-              href="#pricing"
-              className="group inline-flex items-center gap-2 rounded-xl border-2 border-white/30 px-8 py-4 text-base font-semibold text-white backdrop-blur-sm transition-all hover:border-white/60 hover:bg-white/10"
-            >
-              See Pricing Plans
-            </a>
+      {/* ═══════════ 90-DAY CHALLENGE ═══════════ */}
+      <section id="challenge" className="py-28 px-5 sm:px-10 bg-white">
+        <div className="max-w-[1140px] mx-auto">
+          <SectionHeader tag="Structured Growth" title="The 90-Day Growth Challenge" sub="90 Days. One Blueprint. Measurable Progress. This isn't a course. It's a structured sprint — designed and guided by our founder, built for entrepreneurs and marketing leaders who are done consuming content and ready to execute." />
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-[18px] mt-12">
+            {[
+              { phase: "Weeks 1–4", title: "Foundation & Positioning", desc: "Define your ICP, lock in your brand identity, and build the strategic foundation. Receive your Mini-Blueprint Pack and start executing immediately." },
+              { phase: "Weeks 5–8", title: "Audience & Channel Mastery", desc: "Deep-dive into your customers. Map their journey. Choose channels. Build your content machine. Launch your first test campaign with real accountability." },
+              { phase: "Weeks 9–12", title: "Execute, Measure & Scale", desc: "Optimize relentlessly. Before vs. after progress report. Top 5 entrepreneurs recognized publicly and win exclusive upgrades. Graduate with momentum." },
+            ].map((card, i) => (
+              <Reveal key={card.phase} delay={i * 0.1} className="h-full">
+                <div className="h-full bg-[var(--light-gray)] border border-[#e8eaed] rounded-2xl p-7 transition-all hover:-translate-y-1 hover:shadow-[0_16px_48px_rgba(0,0,0,0.06)] hover:border-[var(--teal)]">
+                  <div className="text-[11px] uppercase tracking-[2px] font-bold bg-[linear-gradient(135deg,#2AB9B0,#8ED16A,#F28C28,#F8CE30)] bg-clip-text text-transparent mb-1.5">{card.phase}</div>
+                  <h4 className="font-[family-name:var(--font-oswald)] text-[17px] font-semibold text-[var(--charcoal)] mb-1.5 uppercase">{card.title}</h4>
+                  <p className="text-[13px] text-[var(--mid-gray)] leading-[1.6]">{card.desc}</p>
+                </div>
+              </Reveal>
+            ))}
           </div>
-
-          <p className="mt-8 text-sm text-white/60">
-            No credit card required &bull; Results in 24 hours &bull; 14-day
-            guarantee
-          </p>
+          <Reveal>
+            <div className="text-center mt-10">
+              <a href="#pricing" className="bg-[var(--teal)] text-[var(--navy)] px-9 py-4 rounded-[10px] text-[16px] font-bold shadow-[0_4px_24px_rgba(42,185,176,0.35)] hover:-translate-y-0.5 transition-all inline-flex items-center gap-2">
+                Join the 90-Day Challenge
+              </a>
+              <p className="text-[11px] text-[var(--mid-gray)] mt-3">Included with Professional & Agency plans &bull; Limited to 50 per cohort</p>
+            </div>
+          </Reveal>
         </div>
       </section>
 
-      <Footer />
+      {/* ═══════════ ECOSYSTEM ═══════════ */}
+      <section id="ecosystem" className="py-28 px-5 sm:px-10 bg-[var(--light-gray)]">
+        <div className="max-w-[1140px] mx-auto">
+          <SectionHeader tag="The Full Ecosystem" title="More Than a Platform. An Ecosystem Built for Sustained Growth." sub="Advertising Unplugged isn't a tool you use once. It's an ecosystem that grows with you — from free resources to premium strategy, from community to international stage." />
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-[18px] mt-12">
+            {[
+              { title: "Unplugged Library", desc: "Free and low-entry library of practical frameworks, blueprints, and templates. The starting point for any entrepreneur seeking structure over noise.", tag: "Business Clarity Hub", tagColor: "teal" },
+              { title: "90-Day Growth Challenge", desc: "Gamified 12-week sprints with blueprints, weekly check-ins, community pods, and measurable progress tracking. Not content. Action.", tag: "12-Week Sprint", tagColor: "green" },
+              { title: "Unplugged Circle", desc: "Monthly strategy calls with our founder, office hours, peer accountability pods, exclusive playbooks, and an annual retreat.", tag: "Community", tagColor: "orange" },
+              { title: "Unplugged Stage", desc: "Advertising Unplugged brings the clarity-first philosophy to global stages — targeting Web Summit, DMEXCO, Brand Minds, Business Days, and beyond.", tag: "International", tagColor: "yellow" },
+              { title: "Unplugged Stories", desc: "20+ hours of authentic conversations with entrepreneurs, creatives, and industry leaders. Season 2 features an AI co-host and deeper strategic breakdowns.", tag: "Podcast & Storytelling", tagColor: "charcoal" },
+              { title: "Unplugged Summit", desc: "An annual summit for 500–1,000 entrepreneurs, plus city pop-up tours. Immersive, high-energy, and built around the clarity-over-noise philosophy.", tag: "Annual Event", tagColor: "orange" },
+            ].map((card, i) => (
+              <Reveal key={card.title} delay={(i % 3) * 0.1} className="h-full">
+                <div className="h-full p-8 bg-white border border-[#e8eaed] rounded-2xl text-left transition-all relative overflow-hidden group hover:-translate-y-1 hover:shadow-[0_16px_48px_rgba(0,0,0,0.06)] flex flex-col">
+                  <div className="absolute top-0 left-0 w-1 h-0 bg-[linear-gradient(180deg,#2AB9B0,#8ED16A,#F28C28,#F8CE30)] group-hover:h-full transition-all duration-500" />
+                  <h4 className="font-[family-name:var(--font-oswald)] text-[16px] font-semibold text-[var(--charcoal)] mb-1.5 uppercase">{card.title}</h4>
+                  <p className="text-[13px] text-[var(--mid-gray)] leading-[1.6] flex-1">{card.desc}</p>
+                  <span className={`inline-block px-2.5 py-[3px] rounded-md text-[10px] font-bold mt-2.5 ${
+                    card.tagColor === "teal" ? "bg-[rgba(42,185,176,0.1)] text-[var(--teal)]" :
+                    card.tagColor === "green" ? "bg-[rgba(142,209,106,0.1)] text-[#5cb040]" :
+                    card.tagColor === "orange" ? "bg-[rgba(242,140,40,0.1)] text-[var(--orange)]" :
+                    card.tagColor === "yellow" ? "bg-[rgba(248,206,48,0.15)] text-[#c09a10]" :
+                    "bg-[rgba(51,51,51,0.08)] text-[var(--charcoal)]"
+                  }`}>{card.tag}</span>
+                </div>
+              </Reveal>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ═══════════ FAQ ═══════════ */}
+      <section id="faq" className="py-28 px-5 sm:px-10 bg-white">
+        <div className="max-w-[1140px] mx-auto text-center">
+          <SectionHeader tag="FAQ" title="Straight Answers. No Fluff." />
+          <FaqAccordion items={faqItems} />
+        </div>
+      </section>
+
+      {/* ═══════════ FINAL CTA ═══════════ */}
+      <section className="py-[130px] px-5 sm:px-10 bg-[var(--navy)] text-white text-center relative overflow-hidden">
+        <div className="absolute w-[400px] h-[400px] rounded-full blur-[90px] opacity-15 -top-[100px] -right-[100px] bg-[radial-gradient(circle,rgba(42,185,176,0.15),transparent_70%)]" />
+        <div className="relative z-2 max-w-[620px] mx-auto">
+          <Reveal>
+            <h2 className="font-[family-name:var(--font-oswald)] text-[clamp(30px,4vw,46px)] font-bold mb-[18px] leading-[1.1] uppercase">
+              Every Week Without a Clear Strategy Is a Week<br/><span className="bg-[linear-gradient(135deg,#2AB9B0,#8ED16A,#F28C28,#F8CE30)] bg-clip-text text-transparent">Your Competitors Are Getting Ahead.</span>
+            </h2>
+          </Reveal>
+          <Reveal>
+            <p className="text-[16px] text-white/55 mb-9 leading-[1.7]">Our founder spent 15 years building this methodology leading strategy for market-leading companies — validating it with award-winning campaigns and strategies deployed across 7+ industries. Now Advertising Unplugged makes that system available to you — from strategy to execution to mentorship. The question isn&apos;t whether you need it. It&apos;s how much longer you can afford to operate without it.</p>
+          </Reveal>
+          <Reveal>
+            <div className="flex gap-3.5 justify-center flex-wrap">
+              <a href="#pricing" className="bg-[var(--teal)] text-[var(--navy)] px-10 py-4 rounded-[10px] text-[16px] font-bold shadow-[0_4px_24px_rgba(42,185,176,0.35)] hover:-translate-y-0.5 transition-all inline-flex items-center gap-2">
+                See Plans &amp; Pricing
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10m0 0L9 4m4 4L9 12" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/></svg>
+              </a>
+              <a href="#consulting" className="bg-white/5 text-white px-10 py-4 rounded-[10px] text-[16px] font-semibold border border-white/10 hover:bg-white/10 hover:border-[rgba(42,185,176,0.4)] transition-all inline-flex items-center gap-2">
+                Book a Consulting Call
+              </a>
+            </div>
+          </Reveal>
+        </div>
+      </section>
+
+      {/* ═══════════ FOOTER ═══════════ */}
+      <footer className="bg-[#0e0e1e] text-white/40 py-14 px-5 sm:px-10">
+        <div className="max-w-[1140px] mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-[2.5fr_1fr_1fr_1fr] gap-10 mb-9">
+          <div>
+            <Image src="/brand/au-logo-white.png" alt="Advertising Unplugged" width={150} height={30} className="h-[30px] w-auto mb-3" />
+            <p className="text-[13px] leading-[1.7] mt-3">A complete brand strategy methodology — powered by AI, built on 15 years of award-winning experience across FMCG, durables, tech, retail, finance, healthcare, education, and the NGO sector. Founded by Gabriel Adrian Eremia.</p>
+            <div className="text-[12px] font-semibold mt-2.5 italic bg-[linear-gradient(135deg,#2AB9B0,#8ED16A,#F28C28,#F8CE30)] bg-clip-text text-transparent">&ldquo;Clarity Over Noise. Purpose Beyond Profit.&rdquo;</div>
+          </div>
+          <div>
+            <h4 className="text-white/65 font-[family-name:var(--font-oswald)] text-[12px] uppercase tracking-[1.5px] mb-3 font-semibold">Product</h4>
+            <a href="#products" className="block text-white/40 text-[13px] py-[3px] hover:text-[var(--teal)] transition-colors">Strategy Builder</a>
+            <a href="#products" className="block text-white/40 text-[13px] py-[3px] hover:text-[var(--teal)] transition-colors">Template Toolkit</a>
+            <a href="#products" className="block text-white/40 text-[13px] py-[3px] hover:text-[var(--teal)] transition-colors">Unplugged Circle</a>
+            <a href="#pricing" className="block text-white/40 text-[13px] py-[3px] hover:text-[var(--teal)] transition-colors">Pricing</a>
+          </div>
+          <div>
+            <h4 className="text-white/65 font-[family-name:var(--font-oswald)] text-[12px] uppercase tracking-[1.5px] mb-3 font-semibold">Services</h4>
+            <a href="#consulting" className="block text-white/40 text-[13px] py-[3px] hover:text-[var(--teal)] transition-colors">1-on-1 Consulting</a>
+            <a href="#consulting" className="block text-white/40 text-[13px] py-[3px] hover:text-[var(--teal)] transition-colors">Training & Workshops</a>
+            <a href="#challenge" className="block text-white/40 text-[13px] py-[3px] hover:text-[var(--teal)] transition-colors">90-Day Challenge</a>
+            <a href="#gabriel" className="block text-white/40 text-[13px] py-[3px] hover:text-[var(--teal)] transition-colors">Our Founder</a>
+          </div>
+          <div>
+            <h4 className="text-white/65 font-[family-name:var(--font-oswald)] text-[12px] uppercase tracking-[1.5px] mb-3 font-semibold">Legal</h4>
+            <Link href="/legal/terms" className="block text-white/40 text-[13px] py-[3px] hover:text-[var(--teal)] transition-colors">Terms of Service</Link>
+            <Link href="/legal/privacy" className="block text-white/40 text-[13px] py-[3px] hover:text-[var(--teal)] transition-colors">Privacy Policy</Link>
+            <Link href="/legal/cookies" className="block text-white/40 text-[13px] py-[3px] hover:text-[var(--teal)] transition-colors">Cookie Policy</Link>
+          </div>
+        </div>
+        <div className="max-w-[1140px] mx-auto h-[2px] bg-[linear-gradient(90deg,#2AB9B0,#8ED16A,#F28C28,#F8CE30)] opacity-30 rounded mb-5" />
+        <div className="max-w-[1140px] mx-auto text-center text-[11px]">
+          &copy; {new Date().getFullYear()} Advertising Unplugged. All rights reserved. Built with purpose by Gabriel Adrian Eremia.
+        </div>
+      </footer>
     </>
   );
 }

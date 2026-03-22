@@ -9,12 +9,11 @@ export default function PricingPage() {
       <main className="min-h-screen bg-white">
         {/* Hero Section */}
         <section className="bg-[var(--navy)] px-4 pb-16 pt-24 text-center">
-          <h1 className="text-4xl font-bold text-white sm:text-5xl font-[family-name:var(--font-oswald)]">
-            Simple, Transparent Pricing
+          <h1 className="text-4xl font-bold text-white sm:text-5xl font-[family-name:var(--font-oswald)] uppercase">
+            Investment That Pays for Itself
           </h1>
           <p className="mx-auto mt-4 max-w-2xl text-lg text-gray-300">
-            Choose the plan that fits your advertising ambitions. No hidden fees,
-            no surprises — just the tools you need to build winning strategies.
+            Three plans. One clear upgrade path. Every plan includes a 14-day money-back guarantee.
           </p>
         </section>
 

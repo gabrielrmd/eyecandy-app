@@ -1,46 +1,37 @@
 "use client";
 
-import { useState } from "react";
-import { CreditCard, ExternalLink, Check, AlertCircle } from "lucide-react";
+import { useState, useEffect } from "react";
+import { CreditCard, ExternalLink, Zap, Star, Users, Loader2, ArrowRight } from "lucide-react";
+import Link from "next/link";
 
-const currentPlan = {
-  name: "Free",
-  price: "€0",
-  period: "forever",
-  features: ["3 free templates", "Strategy builder preview", "Community access"],
-};
-
-const plans = [
-  {
-    id: "template_toolkit",
-    name: "Template Toolkit",
-    price: "€19",
-    period: "/month",
-    current: false,
-  },
-  {
-    id: "professional",
-    name: "Professional",
-    price: "€49",
-    period: "/month",
-    current: false,
-    popular: true,
-  },
-  {
-    id: "enterprise",
-    name: "Enterprise",
-    price: "€2,999",
-    period: "/year",
-    current: false,
-  },
-];
+interface UserAccessData {
+  tierName: string;
+  hasTemplates: boolean;
+  hasStrategyBuilder: boolean;
+  hasCircle: boolean;
+  hasAgency: boolean;
+  canGenerateStrategy: boolean;
+  credits: {
+    credits_remaining: number;
+    credits_used: number;
+    credits_total: number;
+    unlimited: boolean;
+  };
+}
 
 export default function BillingPage() {
   const [loading, setLoading] = useState(false);
+  const [access, setAccess] = useState<UserAccessData | null>(null);
+
+  useEffect(() => {
+    fetch("/api/user/access")
+      .then((r) => r.json())
+      .then(setAccess)
+      .catch(() => {});
+  }, []);
 
   const handleManageBilling = async () => {
     setLoading(true);
-    // Will integrate with Stripe Customer Portal
     try {
       const res = await fetch("/api/checkout", {
         method: "POST",
@@ -50,107 +41,133 @@ export default function BillingPage() {
       const data = await res.json();
       if (data.url) window.location.href = data.url;
     } catch {
-      // Handle error
+      // ignore
     } finally {
       setLoading(false);
     }
   };
 
+  const tierIcon = access?.hasAgency ? (
+    <Users className="w-6 h-6 text-[var(--teal)]" />
+  ) : access?.hasCircle ? (
+    <Star className="w-6 h-6 text-[var(--teal)]" />
+  ) : (
+    <Zap className="w-6 h-6 text-[var(--teal)]" />
+  );
+
   return (
-    <div className="mx-auto max-w-4xl space-y-8">
-      <div>
-        <h1 className="font-[family-name:var(--font-oswald)] text-2xl font-bold text-[var(--navy)]">
-          Billing & Subscription
-        </h1>
-        <p className="mt-1 text-muted-foreground">
-          Manage your subscription and payment methods
-        </p>
-      </div>
+    <div className="mx-auto max-w-3xl px-4 py-10 sm:px-6">
+      <h1 className="font-[family-name:var(--font-oswald)] text-2xl font-bold text-[var(--navy)] uppercase">
+        Billing &amp; Subscription
+      </h1>
+      <p className="mt-1 text-sm text-[var(--mid-gray)]">
+        Manage your plan, view credits, and access billing history.
+      </p>
 
       {/* Current Plan */}
-      <div className="rounded-xl border border-border bg-white p-6">
-        <div className="flex items-start justify-between">
-          <div>
-            <div className="flex items-center gap-2">
-              <CreditCard className="h-5 w-5 text-[var(--coral)]" />
-              <h2 className="text-lg font-semibold">Current Plan</h2>
+      <div className="mt-8 rounded-2xl border border-[#e8eaed] bg-white p-6">
+        <div className="flex items-center justify-between">
+          <div className="flex items-center gap-3">
+            {tierIcon}
+            <div>
+              <h2 className="font-[family-name:var(--font-oswald)] text-lg font-bold text-[var(--charcoal)] uppercase">
+                {access?.tierName || "Free"}
+              </h2>
+              <p className="text-xs text-[var(--mid-gray)]">Current plan</p>
             </div>
-            <div className="mt-3">
-              <span className="font-[family-name:var(--font-oswald)] text-3xl font-bold text-[var(--navy)]">
-                {currentPlan.name}
-              </span>
-              <span className="ml-2 text-muted-foreground">
-                {currentPlan.price}/{currentPlan.period}
-              </span>
-            </div>
-            <ul className="mt-4 space-y-2">
-              {currentPlan.features.map((feature) => (
-                <li key={feature} className="flex items-center gap-2 text-sm">
-                  <Check className="h-4 w-4 text-green-500" />
-                  {feature}
-                </li>
-              ))}
-            </ul>
           </div>
-          <button
-            onClick={handleManageBilling}
-            disabled={loading}
-            className="flex items-center gap-2 rounded-lg border border-border px-4 py-2 text-sm font-medium hover:bg-muted transition-colors disabled:opacity-50"
+          <Link
+            href="/pricing"
+            className="flex items-center gap-1.5 rounded-lg bg-[var(--teal)] px-4 py-2 text-sm font-bold text-[var(--navy)] transition-all hover:-translate-y-0.5"
           >
-            <ExternalLink className="h-4 w-4" />
-            Manage Billing
-          </button>
+            {access?.tierName === "Free" ? "Upgrade" : "Change Plan"}
+            <ArrowRight className="w-4 h-4" />
+          </Link>
         </div>
-      </div>
 
-      {/* Upgrade Options */}
-      <div>
-        <h2 className="mb-4 text-lg font-semibold">Upgrade Your Plan</h2>
-        <div className="grid gap-4 sm:grid-cols-3">
-          {plans.map((plan) => (
+        {/* Entitlements */}
+        <div className="mt-6 grid grid-cols-2 sm:grid-cols-4 gap-3">
+          {[
+            { label: "Templates", active: access?.hasTemplates },
+            { label: "Strategy Builder", active: access?.hasStrategyBuilder },
+            { label: "Circle", active: access?.hasCircle },
+            { label: "Agency", active: access?.hasAgency },
+          ].map((e) => (
             <div
-              key={plan.id}
-              className={`relative rounded-xl border p-5 transition-shadow hover:shadow-md ${
-                plan.popular
-                  ? "border-[var(--coral)] ring-1 ring-[var(--coral)]"
-                  : "border-border"
+              key={e.label}
+              className={`rounded-lg border px-3 py-2 text-center text-xs font-semibold ${
+                e.active
+                  ? "border-[var(--teal)] bg-[rgba(42,185,176,0.05)] text-[var(--teal)]"
+                  : "border-[#e8eaed] text-[var(--mid-gray)]"
               }`}
             >
-              {plan.popular && (
-                <span className="absolute -top-3 left-1/2 -translate-x-1/2 rounded-full bg-[var(--coral)] px-3 py-0.5 text-xs font-semibold text-white">
-                  Most Popular
-                </span>
-              )}
-              <h3 className="font-semibold">{plan.name}</h3>
-              <div className="mt-2">
-                <span className="font-[family-name:var(--font-oswald)] text-2xl font-bold">
-                  {plan.price}
-                </span>
-                <span className="text-sm text-muted-foreground">
-                  {plan.period}
-                </span>
-              </div>
-              <button
-                className={`mt-4 w-full rounded-lg px-4 py-2 text-sm font-semibold transition-colors ${
-                  plan.popular
-                    ? "bg-[var(--coral)] text-white hover:bg-[var(--coral)]/90"
-                    : "border border-border hover:bg-muted"
-                }`}
-              >
-                Upgrade
-              </button>
+              {e.active ? "✓ " : ""}
+              {e.label}
             </div>
           ))}
         </div>
       </div>
 
-      {/* Payment History */}
-      <div className="rounded-xl border border-border bg-white p-6">
-        <h2 className="mb-4 text-lg font-semibold">Payment History</h2>
-        <div className="flex items-center justify-center py-8 text-muted-foreground">
-          <AlertCircle className="mr-2 h-5 w-5" />
-          <span className="text-sm">No payments yet. Subscribe to a plan to get started.</span>
-        </div>
+      {/* Strategy Credits */}
+      <div className="mt-6 rounded-2xl border border-[#e8eaed] bg-white p-6">
+        <h3 className="font-[family-name:var(--font-oswald)] text-base font-bold text-[var(--charcoal)] uppercase mb-4">
+          Strategy Credits
+        </h3>
+
+        {access?.credits?.unlimited ? (
+          <div className="text-center py-4">
+            <div className="font-[family-name:var(--font-oswald)] text-3xl font-bold text-[var(--teal)]">
+              Unlimited
+            </div>
+            <p className="text-xs text-[var(--mid-gray)] mt-1">Agency plan — unlimited strategy generations</p>
+          </div>
+        ) : (
+          <div className="flex items-center gap-8">
+            <div className="text-center">
+              <div className="font-[family-name:var(--font-oswald)] text-4xl font-bold text-[var(--charcoal)]">
+                {access?.credits?.credits_remaining ?? 0}
+              </div>
+              <p className="text-xs text-[var(--mid-gray)]">Credits remaining</p>
+            </div>
+            <div className="text-center">
+              <div className="font-[family-name:var(--font-oswald)] text-2xl font-bold text-[var(--mid-gray)]">
+                {access?.credits?.credits_used ?? 0}
+              </div>
+              <p className="text-xs text-[var(--mid-gray)]">Used</p>
+            </div>
+            <div className="flex-1 text-right">
+              <Link
+                href="/pricing"
+                className="inline-flex items-center gap-1.5 rounded-lg border-2 border-[#e8eaed] px-4 py-2 text-sm font-bold text-[var(--charcoal)] hover:border-[var(--teal)] hover:text-[var(--teal)] transition-all"
+              >
+                Buy More Credits
+              </Link>
+            </div>
+          </div>
+        )}
+      </div>
+
+      {/* Manage Billing */}
+      <div className="mt-6 rounded-2xl border border-[#e8eaed] bg-white p-6">
+        <h3 className="font-[family-name:var(--font-oswald)] text-base font-bold text-[var(--charcoal)] uppercase mb-2">
+          Payment &amp; Invoices
+        </h3>
+        <p className="text-sm text-[var(--mid-gray)] mb-4">
+          Manage your payment method, view invoices, or cancel your subscription through Stripe.
+        </p>
+        <button
+          onClick={handleManageBilling}
+          disabled={loading}
+          className="flex items-center gap-2 rounded-lg border-2 border-[#e8eaed] px-4 py-2.5 text-sm font-semibold text-[var(--charcoal)] hover:border-[var(--teal)] hover:text-[var(--teal)] transition-all"
+        >
+          {loading ? (
+            <Loader2 className="w-4 h-4 animate-spin" />
+          ) : (
+            <CreditCard className="w-4 h-4" />
+          )}
+          Manage Billing
+          <ExternalLink className="w-3 h-3" />
+        </button>
       </div>
     </div>
   );

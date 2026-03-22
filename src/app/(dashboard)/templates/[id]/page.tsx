@@ -1,8 +1,9 @@
-import { notFound } from "next/navigation";
+import { notFound, redirect } from "next/navigation";
 import { promises as fs } from "fs";
 import path from "path";
 import catalog from "@/data/templates/catalog.json";
 import { loadTemplateResponse } from "@/app/actions/templates";
+import { getUserAccess } from "@/lib/entitlements";
 import TemplateEditorClient from "./template-editor-client";
 import TemplateRendererWrapper from "./template-renderer-wrapper";
 import type { TemplateSchema, TemplateData } from "@/components/templates/types";
@@ -45,6 +46,12 @@ interface PageProps {
 
 export default async function TemplateEditorPage({ params }: PageProps) {
   const { id } = await params;
+
+  // Check entitlement — templates require Essentials plan or above
+  const access = await getUserAccess();
+  if (!access.hasTemplates) {
+    redirect("/pricing?requires=templates");
+  }
 
   // Verify the template exists in the catalog
   const catalogEntry = catalog.templates.find((t) => t.id === id);

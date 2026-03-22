@@ -31,7 +31,8 @@ const SECTION_TITLES = [
 ];
 
 const TOTAL_SECTIONS = SECTION_TITLES.length;
-const TIMEOUT_MS = 5 * 60 * 1000; // 5 minutes
+const TIMEOUT_MS = 10 * 60 * 1000; // 10 minutes (15 sections × ~30s each + buffer)
+const MAX_RETRIES = 2; // retry each section up to 2 times
 
 type GenerationState =
   | { phase: "idle" }
@@ -90,7 +91,7 @@ export default function GeneratingPage() {
       setState({
         phase: "error",
         message:
-          "Generation timed out after 5 minutes. This usually means the AI service is slow. Please try again.",
+          "Generation timed out after 10 minutes. This usually means the AI service is slow. Please try again.",
         failedBatch: null,
       });
     }, TIMEOUT_MS);
@@ -111,9 +112,8 @@ export default function GeneratingPage() {
       qualityScore: number;
     }> = [];
 
-    // Generate one section at a time
+    // Generate one section at a time with retry logic
     for (let batch = 0; batch < TOTAL_SECTIONS; batch++) {
-      // Check if aborted
       if (abortController.signal.aborted) return;
 
       setState({
@@ -122,54 +122,67 @@ export default function GeneratingPage() {
         completedBatches: batch,
       });
 
-      try {
-        const response = await fetch("/api/ai/generate-strategy", {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({
-            strategy_project_id: strategyId,
-            questionnaire_responses: questionnaireResponses,
-            batch,
-          }),
-          signal: abortController.signal,
-        });
+      let success = false;
+      let lastError = "";
 
-        if (!response.ok) {
-          let errorMsg = `Section ${batch + 1} failed (HTTP ${response.status})`;
-          try {
-            const errData = await response.json();
-            if (errData.error) errorMsg = errData.error;
-          } catch {
-            // ignore parse error
-          }
-          throw new Error(errorMsg);
-        }
-
-        const data = await response.json();
-        const batchSections = data.sections || [];
-
-        if (batchSections.length === 0) {
-          throw new Error(
-            `Section ${batch + 1} returned empty. The AI may have failed to generate content.`
-          );
-        }
-
-        allSections.push(...batchSections);
-      } catch (err) {
+      for (let attempt = 0; attempt <= MAX_RETRIES; attempt++) {
         if (abortController.signal.aborted) return;
 
-        const message =
-          err instanceof Error ? err.message : "Unknown error occurred";
-        console.error(`Batch ${batch} failed:`, message);
+        try {
+          const response = await fetch("/api/ai/generate-strategy", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({
+              strategy_project_id: strategyId,
+              questionnaire_responses: questionnaireResponses,
+              batch,
+            }),
+            signal: abortController.signal,
+          });
 
+          if (!response.ok) {
+            let errorMsg = `Section ${batch + 1} failed (HTTP ${response.status})`;
+            try {
+              const errData = await response.json();
+              if (errData.error) errorMsg = errData.error;
+            } catch {
+              // ignore parse error
+            }
+            throw new Error(errorMsg);
+          }
+
+          const data = await response.json();
+          const batchSections = data.sections || [];
+
+          if (batchSections.length === 0) {
+            throw new Error(
+              `Section ${batch + 1} returned empty. The AI may have failed to generate content.`
+            );
+          }
+
+          allSections.push(...batchSections);
+          success = true;
+          break; // success — move to next section
+        } catch (err) {
+          if (abortController.signal.aborted) return;
+          lastError = err instanceof Error ? err.message : "Unknown error occurred";
+          console.error(`Section ${batch + 1} attempt ${attempt + 1} failed:`, lastError);
+
+          if (attempt < MAX_RETRIES) {
+            // Wait before retrying (exponential backoff: 2s, 4s)
+            await new Promise(r => setTimeout(r, 2000 * (attempt + 1)));
+          }
+        }
+      }
+
+      if (!success) {
         setState({
           phase: "error",
-          message: `Failed generating "${SECTION_TITLES[batch]}": ${message}`,
+          message: `Failed generating "${SECTION_TITLES[batch]}" after ${MAX_RETRIES + 1} attempts: ${lastError}`,
           failedBatch: batch,
         });
-
         if (timeoutRef.current) clearTimeout(timeoutRef.current);
-        return; // Stop — don't continue with partial results
+        return;
       }
     }
 

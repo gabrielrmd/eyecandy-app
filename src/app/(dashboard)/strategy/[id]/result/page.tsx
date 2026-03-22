@@ -29,6 +29,18 @@ interface GeneratedSection {
   qualityScore: number;
 }
 
+// Error patterns that indicate a section failed to generate
+const ERROR_PATTERNS = [
+  "generation failed", "could not be generated", "please retry",
+  "please try regenerating", "failed to generate", "error occurred",
+  "section generation failed", "an error occurred",
+];
+
+function isErrorContent(content: string): boolean {
+  const lower = content.toLowerCase();
+  return ERROR_PATTERNS.some(p => lower.includes(p));
+}
+
 const CHAPTER_TITLES = [
   "Brand Story & Origin",
   "Market Analysis",
@@ -85,15 +97,18 @@ export default function StrategyResultPage() {
         if (strategy?.strategy_sections && strategy.strategy_sections.length > 0) {
           const dbSections: GeneratedSection[] = strategy.strategy_sections
             .sort((a: { section_number: number }, b: { section_number: number }) => a.section_number - b.section_number)
-            .map((s: { section_type: string; section_title: string; content: { markdown?: string } | string; quality_score: number | null }) => ({
-              id: s.section_type,
-              title: s.section_title,
-              content: typeof s.content === "object" && s.content !== null && "markdown" in s.content
+            .map((s: { section_type: string; section_title: string; content: { markdown?: string } | string; quality_score: number | null }) => {
+              const text = typeof s.content === "object" && s.content !== null && "markdown" in s.content
                 ? (s.content as { markdown: string }).markdown
-                : String(s.content ?? ""),
-              status: "complete" as const,
-              qualityScore: (s.quality_score || 0) * 10,
-            }));
+                : String(s.content ?? "");
+              return {
+                id: s.section_type,
+                title: s.section_title,
+                content: text,
+                status: (isErrorContent(text) || text.length <= 50 ? "error" : "complete") as "complete" | "error",
+                qualityScore: (s.quality_score || 0) * 10,
+              };
+            });
           setSections(dbSections);
           setLoading(false);
           return;
@@ -175,15 +190,19 @@ export default function StrategyResultPage() {
     if (editingIdx === null) return;
     setSaving(true);
 
-    // Update local state
+    // Update local state — mark status as "complete" since user manually fixed the content
     const updated = [...sections];
-    updated[editingIdx] = { ...updated[editingIdx], content: editContent };
+    updated[editingIdx] = {
+      ...updated[editingIdx],
+      content: editContent,
+      status: "complete",
+    };
     setSections(updated);
 
     // Update localStorage cache
     localStorage.setItem(`strategy_result_${strategyId}`, JSON.stringify(updated));
 
-    // Update in Supabase
+    // Update in Supabase (strategy_sections has no status column — only content + updated_at)
     try {
       const supabase = createClient();
       const { data: strategy } = await supabase
@@ -193,7 +212,7 @@ export default function StrategyResultPage() {
         .maybeSingle();
 
       if (strategy) {
-        await supabase
+        const { error: updateError } = await supabase
           .from("strategy_sections")
           .update({
             content: { markdown: editContent },
@@ -201,6 +220,10 @@ export default function StrategyResultPage() {
           })
           .eq("strategy_id", strategy.id)
           .eq("section_number", editingIdx + 1);
+
+        if (updateError) {
+          console.error("Failed to update section in DB:", updateError);
+        }
       }
     } catch (err) {
       console.error("Failed to save edit to DB:", err);
@@ -211,24 +234,12 @@ export default function StrategyResultPage() {
     setEditContent("");
   };
 
-  // Blocked error patterns that must never appear in exported PDF
-  const ERROR_PATTERNS = [
-    "generation failed", "could not be generated", "please retry",
-    "please try regenerating", "failed to generate", "error occurred",
-    "section generation failed", "an error occurred",
-  ];
-
-  function isErrorContent(content: string): boolean {
-    const lower = content.toLowerCase();
-    return ERROR_PATTERNS.some(p => lower.includes(p));
-  }
-
-  // Count sections with valid (non-error) content
+  // Count sections with valid (non-error) content — derived purely from content
   const validSections = sections.filter(
-    s => s.status === "complete" && !isErrorContent(s.content) && s.content.length > 50
+    s => !isErrorContent(s.content) && s.content.length > 50
   );
   const failedSections = sections.filter(
-    s => s.status === "error" || isErrorContent(s.content) || s.content.length <= 50
+    s => isErrorContent(s.content) || s.content.length <= 50
   );
   const canExport = validSections.length === sections.length && sections.length > 0;
 
@@ -252,51 +263,199 @@ export default function StrategyResultPage() {
     const yearStr = new Date().getFullYear();
     const totalSections = sections.length;
 
-    // Markdown → HTML
+    // Markdown → HTML with print-safe structure
+    // - Wraps bullet runs in <div class="bul-group"> for pagination control
+    // - Wraps label-paragraphs (ending with ":") + their bullet list in
+    //   <div class="label-group"> so labels never orphan from their list
+    // - Headings get break-after:avoid via CSS to stay with next content
     function mdToHtml(md: string): string {
-      let html = md;
-      // Must process multi-line patterns before single-line
-      html = html.replace(/^### (.*$)/gm, '<h3 class="sh3">$1</h3>');
-      html = html.replace(/^## (.*$)/gm, (_, t: string) => {
-        const l = t.toLowerCase();
-        if (l.includes('key takeaway')) return `</div><div class="box tk"><p class="box-h tk-h">Key Takeaways</p><div class="box-body">`;
-        if (l.includes('recommended action')) return `</div><div class="box ra"><p class="box-h ra-h">Recommended Actions</p><div class="box-body">`;
-        return `<h2 class="sh2">${t}</h2>`;
-      });
-      html = html.replace(/^# (.*$)/gm, '<h1 class="sh1">$1</h1>');
-      html = html.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
-      html = html.replace(/\*(.*?)\*/g, '<em>$1</em>');
-      html = html.replace(/^- (.*$)/gm, '<div class="bul"><span class="bul-d"></span><span class="bul-t">$1</span></div>');
-      html = html.replace(/^(\d+)\. (.*$)/gm, '<div class="bul"><span class="bul-n">$1.</span><span class="bul-t">$2</span></div>');
-      html = html.replace(/\n\n/g, '<br/><br/>');
-      html = html.replace(/\n/g, '<br/>');
+      const lines = md.split('\n');
+      const htmlLines: string[] = [];
+      let inBulletGroup = false;
+      let inLabelGroup = false;
+
+      // Look ahead: is the next non-empty line a bullet?
+      function nextNonEmptyIsBullet(fromIdx: number): boolean {
+        for (let j = fromIdx + 1; j < lines.length; j++) {
+          const t = lines[j].trim();
+          if (t === '') continue;
+          return /^[-]/.test(t) || /^\d+\.\s/.test(t);
+        }
+        return false;
+      }
+
+      for (let i = 0; i < lines.length; i++) {
+        const line = lines[i];
+        const trimmed = line.trim();
+
+        // Table detection: accumulate table lines
+        if (trimmed.startsWith('|') && trimmed.endsWith('|')) {
+          if (inBulletGroup) { htmlLines.push('</div>'); inBulletGroup = false; }
+          if (inLabelGroup) { htmlLines.push('</div>'); inLabelGroup = false; }
+          const tableRows: string[] = [trimmed];
+          while (i + 1 < lines.length && lines[i + 1].trim().startsWith('|')) {
+            i++;
+            tableRows.push(lines[i].trim());
+          }
+          if (tableRows.length >= 2) {
+            let tableHtml = '<table class="pdf-table"><thead><tr>';
+            const headerCells = tableRows[0].split('|').filter((c: string) => c.trim());
+            headerCells.forEach((cell: string) => { tableHtml += '<th>' + cell.trim() + '</th>'; });
+            tableHtml += '</tr></thead><tbody>';
+            for (let r = 1; r < tableRows.length; r++) {
+              if (/^\|[\s\-:|]+\|$/.test(tableRows[r])) continue;
+              const cells = tableRows[r].split('|').filter((c: string) => c.trim());
+              tableHtml += '<tr>';
+              cells.forEach((cell: string) => { tableHtml += '<td>' + cell.trim() + '</td>'; });
+              tableHtml += '</tr>';
+            }
+            tableHtml += '</tbody></table>';
+            htmlLines.push(tableHtml);
+          }
+          continue;
+        }
+
+        // Bullet line (- item or 1. item)
+        const bulletMatch = trimmed.match(/^- (.+)$/);
+        const numMatch = trimmed.match(/^(\d+)\. (.+)$/);
+        if (bulletMatch || numMatch) {
+          if (!inBulletGroup) { htmlLines.push('<div class="bul-group">'); inBulletGroup = true; }
+          if (bulletMatch) {
+            htmlLines.push('<div class="bul"><span class="bul-d"></span><span class="bul-t">' + applyInline(bulletMatch[1]) + '</span></div>');
+          } else if (numMatch) {
+            htmlLines.push('<div class="bul"><span class="bul-n">' + numMatch[1] + '.</span><span class="bul-t">' + applyInline(numMatch[2]) + '</span></div>');
+          }
+          continue;
+        }
+
+        // Non-bullet line: close bullet group if open
+        if (inBulletGroup) {
+          htmlLines.push('</div>'); inBulletGroup = false;
+          // Also close label-group if this bullet group was the list for a label
+          if (inLabelGroup) { htmlLines.push('</div>'); inLabelGroup = false; }
+        }
+
+        // Empty line
+        if (trimmed === '') {
+          continue;
+        }
+
+        // Headings
+        const h3Match = trimmed.match(/^### (.+)$/);
+        if (h3Match) {
+          if (inLabelGroup) { htmlLines.push('</div>'); inLabelGroup = false; }
+          htmlLines.push('<h3 class="sh3">' + applyInline(h3Match[1]) + '</h3>');
+          continue;
+        }
+
+        const h2Match = trimmed.match(/^## (.+)$/);
+        if (h2Match) {
+          if (inLabelGroup) { htmlLines.push('</div>'); inLabelGroup = false; }
+          const l = h2Match[1].toLowerCase();
+          if (l.includes('key takeaway')) {
+            htmlLines.push('<div class="box-wrap"><div class="box tk"><div class="box-icon">&#9670;</div><p class="box-h tk-h">Key Takeaways</p><div class="box-body">');
+          } else if (l.includes('recommended action')) {
+            htmlLines.push('<div class="box-wrap"><div class="box ra"><div class="box-icon ra-icon">&#9654;</div><p class="box-h ra-h">Recommended Actions</p><div class="box-body">');
+          } else {
+            htmlLines.push('<h2 class="sh2">' + applyInline(h2Match[1]) + '</h2>');
+          }
+          continue;
+        }
+
+        const h1Match = trimmed.match(/^# (.+)$/);
+        if (h1Match) {
+          if (inLabelGroup) { htmlLines.push('</div>'); inLabelGroup = false; }
+          htmlLines.push('<h1 class="sh1">' + applyInline(h1Match[1]) + '</h1>');
+          continue;
+        }
+
+        // Label detection: a paragraph ending with ":" followed by a bullet list.
+        // Wrap label + its list in a label-group to prevent orphaning.
+        const isLabel = /[:\u2014]$/.test(trimmed.replace(/\*+/g, '').trim()) && nextNonEmptyIsBullet(i);
+        if (isLabel && !inLabelGroup) {
+          htmlLines.push('<div class="label-group">');
+          inLabelGroup = true;
+        }
+
+        // Regular paragraph
+        htmlLines.push('<p class="para">' + applyInline(trimmed) + '</p>');
+      }
+
+      // Close trailing groups
+      if (inBulletGroup) { htmlLines.push('</div>'); }
+      if (inLabelGroup) { htmlLines.push('</div>'); }
+
+      let html = htmlLines.join('\n');
+
+      // Close any opened callout boxes (box-body → box → box-wrap)
+      const openBoxes = (html.match(/<div class="box-wrap">/g) || []).length;
+      const closeBoxes = (html.match(/<\/div><\/div><\/div><!-- \/box -->/g) || []).length;
+      for (let j = 0; j < openBoxes - closeBoxes; j++) {
+        html += '</div></div></div><!-- /box -->';
+      }
+
       return html;
+    }
+
+    // Inline formatting: bold, italic
+    function applyInline(text: string): string {
+      let s = text;
+      s = s.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+      s = s.replace(/\*(.*?)\*/g, '<em>$1</em>');
+      return s;
     }
 
     // TOC
     const tocHtml = sections.map((s, i) =>
-      `<div class="toc-row"><span class="toc-n">${String(i+1).padStart(2,'0')}</span><span class="toc-ln"></span><span class="toc-t">${s.title}</span></div>`
+      `<div class="toc-row">
+        <span class="toc-n">${String(i+1).padStart(2,'0')}</span>
+        <span class="toc-t">${s.title}</span>
+        <span class="toc-ln"></span>
+        <span class="toc-pg">${String(i * 2 + 3).padStart(2,'0')}</span>
+      </div>`
     ).join('');
 
-    // Sections — NO fixed height, NO overflow hidden
-    // Each section gets a page-break-before, content flows naturally
+    // Chapters — consistent layout, no alignment drift
     const chaptersHtml = sections.map((section, idx) => {
       const n = String(idx + 1).padStart(2, '0');
       const bodyHtml = mdToHtml(section.content);
+      const accentColors = ['#2AB9B0', '#e8384f', '#F28C28', '#8ED16A', '#F8CE30'];
+      const accent = accentColors[idx % accentColors.length];
       return `
-<div class="chapter-start">
-  <p class="cs-n">${n}</p>
-  <h1 class="cs-t">${section.title}</h1>
-  <div class="cs-bar"></div>
+<div class="chapter-divider">
+  <div class="cd-accent" style="background:${accent}"></div>
+  <div class="cd-content">
+    <span class="cd-label">Chapter</span>
+    <p class="cd-num">${n}</p>
+    <h1 class="cd-title">${section.title}</h1>
+    <div class="cd-bar" style="background: linear-gradient(90deg, ${accent}, ${accent}44)"></div>
+  </div>
+  <div class="cd-footer">
+    <span>Advertising Unplugged</span>
+    <span>Brand Strategy Deck</span>
+  </div>
 </div>
 <div class="chapter-body">
-  <div class="cb-head">
-    <span class="cb-label">Chapter ${n}</span>
-    <span class="cb-date">${dateStr}</span>
+  <div class="cb-sidebar">
+    <span class="cb-chnum">${n}</span>
+    <span class="cb-chtitle">${section.title}</span>
   </div>
-  <div class="cb-content"><div class="cb-inner">${bodyHtml}</div></div>
+  <div class="cb-main">
+    <div class="cb-head">
+      <span class="cb-label">Chapter ${n} &mdash; ${section.title}</span>
+      <span class="cb-date">${dateStr}</span>
+    </div>
+    <div class="cb-content">${bodyHtml}</div>
+  </div>
+  <div class="cb-footer">
+    <span class="cb-foot-brand">Advertising Unplugged &bull; Brand Strategy Deck</span>
+    <span class="cb-foot-page">${n} / ${String(totalSections).padStart(2,'0')}</span>
+  </div>
 </div>`;
     }).join('');
+
+    // Get the project title from the first section's content or fallback
+    const projectTitle = sections[0]?.title ? 'Brand Strategy Deck' : 'Strategy Deck';
 
     const w = window.open('', '_blank');
     if (!w) { setExporting(false); alert("Allow popups to export PDF"); return; }
@@ -305,137 +464,628 @@ export default function StrategyResultPage() {
 <html>
 <head>
 <meta charset="utf-8"/>
-<title>Brand Strategy Deck</title>
-<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<title>${projectTitle}</title>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 <style>
 /* ============================================================
-   PRINT-OPTIMISED BRAND STRATEGY DECK
-   Source of truth: Advertising_Unplugged_Brand_Guidelines v1.0
-   Fonts: Oswald (headlines), Inter (body)
-   Colors: Teal #2AB9B0, Charcoal #333, Dark #1A1A2E, Light #F5F5F5
+   PREMIUM BRAND STRATEGY DECK — Advertising Unplugged
+   Editorial agency-grade PDF styling
+   Fonts: Oswald (display), Inter (body)
    ============================================================ */
 
 @page { margin: 0; size: A4; }
 * { box-sizing: border-box; margin: 0; padding: 0; }
-body { font-family: Inter, sans-serif; font-size: 12px; color: #333;
-       -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+html, body { width: 100%; }
+body {
+  font-family: Inter, -apple-system, sans-serif;
+  font-size: 13px;
+  color: #2d2d2d;
+  line-height: 1.7;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
 img { image-rendering: -webkit-optimize-contrast; }
 
-/* ---- COVER ---- */
-.cover { width: 100%; height: 100vh; background: #1A1A2E; color: #fff;
-         display: flex; flex-direction: column; justify-content: flex-end;
-         padding: 0 90px 70px; page-break-after: always; position: relative; }
-.cover-logo { width: 200px; height: auto; position: absolute; top: 60px; left: 90px; }
-.cover-bar { width: 100%; height: 4px; margin-bottom: 44px;
-             background: linear-gradient(90deg, #2AB9B0, #8ED16A, #F28C28, #F8CE30); }
-.cover-lbl { font-family: Oswald, sans-serif; font-size: 11px; font-weight: 500;
-             text-transform: uppercase; letter-spacing: 6px; color: #2AB9B0; margin-bottom: 14px; }
-.cover-ttl { font-family: Oswald, sans-serif; font-size: 48px; font-weight: 700;
-             color: #fff; line-height: 1.08; margin-bottom: 20px; }
-.cover-sub { font-size: 13px; color: rgba(255,255,255,0.4); line-height: 1.8; }
-.cover-ft  { position: absolute; bottom: 32px; left: 90px; right: 90px;
-             display: flex; justify-content: space-between;
-             font-family: Oswald, sans-serif; font-size: 8px; letter-spacing: 2px;
-             text-transform: uppercase; color: rgba(255,255,255,0.18); }
+/* ============================================================
+   COVER — Premium, confident, filled
+   ============================================================ */
+.cover {
+  width: 100%; height: 100vh;
+  background: #1A1A2E;
+  color: #fff;
+  display: flex; flex-direction: column;
+  justify-content: space-between;
+  padding: 0;
+  page-break-after: always;
+  position: relative;
+  overflow: hidden;
+}
+/* Decorative corner glow */
+.cover::before {
+  content: '';
+  position: absolute;
+  top: -180px; right: -120px;
+  width: 500px; height: 500px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(42,185,176,0.15) 0%, transparent 70%);
+}
+.cover::after {
+  content: '';
+  position: absolute;
+  bottom: -100px; left: -80px;
+  width: 400px; height: 400px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(232,56,79,0.08) 0%, transparent 70%);
+}
+.cover-top {
+  position: relative; z-index: 1;
+  padding: 56px 72px;
+}
+.cover-logo { width: 180px; height: auto; }
+.cover-center {
+  position: relative; z-index: 1;
+  flex: 1;
+  display: flex; flex-direction: column;
+  justify-content: center;
+  padding: 0 72px;
+}
+.cover-bar {
+  width: 80px; height: 3px; margin-bottom: 32px;
+  background: linear-gradient(90deg, #2AB9B0, #8ED16A, #F28C28, #F8CE30);
+}
+.cover-lbl {
+  font-family: Oswald, sans-serif;
+  font-size: 12px; font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  color: #2AB9B0;
+  margin-bottom: 20px;
+}
+.cover-ttl {
+  font-family: Oswald, sans-serif;
+  font-size: 62px; font-weight: 700;
+  color: #fff;
+  line-height: 1.05;
+  margin-bottom: 12px;
+  max-width: 520px;
+}
+.cover-ttl-accent {
+  display: block;
+  background: linear-gradient(90deg, #2AB9B0, #8ED16A);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.cover-sub {
+  font-size: 14px;
+  color: rgba(255,255,255,0.45);
+  line-height: 1.8;
+  margin-top: 16px;
+  max-width: 400px;
+}
+.cover-bottom {
+  position: relative; z-index: 1;
+  padding: 0 72px 44px;
+}
+.cover-gradient-bar {
+  width: 100%; height: 4px; margin-bottom: 28px;
+  background: linear-gradient(90deg, #2AB9B0, #8ED16A, #F28C28, #F8CE30);
+}
+.cover-ft {
+  display: flex; justify-content: space-between; align-items: center;
+  font-family: Oswald, sans-serif;
+  font-size: 9px; letter-spacing: 3px;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.25);
+}
+.cover-ft-date { color: rgba(255,255,255,0.35); }
 
-/* ---- TABLE OF CONTENTS ---- */
-.toc-page { padding: 90px; page-break-after: always; }
-.toc-label { font-family: Oswald, sans-serif; font-size: 10px; font-weight: 600;
-             text-transform: uppercase; letter-spacing: 5px; color: #2AB9B0; margin-bottom: 44px; }
-.toc-row { display: flex; align-items: baseline; gap: 12px; padding: 11px 0;
-           border-bottom: 1px solid #F0F0F0; }
-.toc-n { font-family: Oswald, sans-serif; font-size: 12px; font-weight: 700;
-         color: #2AB9B0; min-width: 24px; }
-.toc-ln { flex: 1; border-bottom: 1px dotted #ddd; margin-bottom: 3px; }
-.toc-t { font-family: Oswald, sans-serif; font-size: 12px; font-weight: 400;
-         color: #333; text-transform: uppercase; letter-spacing: 0.6px; }
+/* ============================================================
+   TABLE OF CONTENTS
+   ============================================================ */
+.toc-page {
+  padding: 72px;
+  page-break-after: always;
+  position: relative;
+}
+.toc-page::before {
+  content: '';
+  position: absolute; top: 0; left: 0;
+  width: 6px; height: 100%;
+  background: linear-gradient(180deg, #2AB9B0, #8ED16A, #F28C28, #F8CE30);
+}
+.toc-header {
+  margin-bottom: 48px;
+  padding-left: 20px;
+}
+.toc-supra {
+  font-family: Oswald, sans-serif;
+  font-size: 10px; font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  color: #2AB9B0;
+  margin-bottom: 8px;
+}
+.toc-title {
+  font-family: Oswald, sans-serif;
+  font-size: 36px; font-weight: 700;
+  color: #1A1A2E;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.toc-list { padding-left: 20px; }
+.toc-row {
+  display: flex; align-items: baseline; gap: 16px;
+  padding: 14px 0;
+  border-bottom: 1px solid #eee;
+}
+.toc-n {
+  font-family: Oswald, sans-serif;
+  font-size: 20px; font-weight: 700;
+  color: #2AB9B0;
+  min-width: 36px;
+}
+.toc-t {
+  font-family: Oswald, sans-serif;
+  font-size: 14px; font-weight: 500;
+  color: #1A1A2E;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.toc-ln {
+  flex: 1;
+  border-bottom: 1px dotted #ccc;
+  margin-bottom: 4px;
+}
+.toc-pg {
+  font-family: Oswald, sans-serif;
+  font-size: 12px; font-weight: 400;
+  color: #999;
+  min-width: 24px;
+  text-align: right;
+}
 
-/* ---- CHAPTER START (divider) ---- */
-.chapter-start { page-break-before: always; height: 100vh; display: flex;
-                 flex-direction: column; justify-content: center; align-items: center;
-                 text-align: center; }
-.cs-n { font-family: Oswald, sans-serif; font-size: 64px; font-weight: 300;
-        color: #2AB9B0; line-height: 1; margin-bottom: 18px; }
-.cs-t { font-family: Oswald, sans-serif; font-size: 24px; font-weight: 600;
-        text-transform: uppercase; letter-spacing: 2.5px; color: #1A1A2E; max-width: 440px; }
-.cs-bar { width: 40px; height: 3px; margin-top: 24px;
-          background: linear-gradient(90deg, #2AB9B0, #8ED16A); }
+/* ============================================================
+   CHAPTER DIVIDER PAGES — Bold, editorial
+   ============================================================ */
+.chapter-divider {
+  page-break-before: always;
+  height: 100vh;
+  display: flex; flex-direction: column;
+  position: relative;
+  overflow: hidden;
+  background: #fff;
+}
+.cd-accent {
+  position: absolute; top: 0; left: 0;
+  width: 8px; height: 100%;
+}
+.cd-content {
+  flex: 1;
+  display: flex; flex-direction: column;
+  justify-content: center;
+  padding: 0 72px 0 80px;
+}
+.cd-label {
+  font-family: Oswald, sans-serif;
+  font-size: 11px; font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  color: #999;
+  margin-bottom: 8px;
+}
+.cd-num {
+  font-family: Oswald, sans-serif;
+  font-size: 120px; font-weight: 200;
+  color: #2AB9B0;
+  line-height: 1;
+  margin-bottom: 4px;
+  letter-spacing: -2px;
+}
+.cd-title {
+  font-family: Oswald, sans-serif;
+  font-size: 32px; font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #1A1A2E;
+  max-width: 480px;
+  line-height: 1.15;
+}
+.cd-bar {
+  width: 60px; height: 4px;
+  margin-top: 28px;
+  border-radius: 2px;
+}
+.cd-footer {
+  display: flex; justify-content: space-between;
+  padding: 0 72px 36px 80px;
+  font-family: Oswald, sans-serif;
+  font-size: 8px; font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #ccc;
+}
 
-/* ---- CHAPTER BODY (content — flows naturally, NO fixed height) ---- */
-.chapter-body { page-break-before: always; padding: 56px 80px 52px; position: relative; }
-.cb-head { display: flex; justify-content: space-between; align-items: center;
-           padding-bottom: 10px; margin-bottom: 28px; border-bottom: 2px solid #2AB9B0; }
-.cb-label { font-family: Oswald, sans-serif; font-size: 9px; font-weight: 600;
-            text-transform: uppercase; letter-spacing: 3.5px; color: #2AB9B0; }
-.cb-date { font-family: Inter, sans-serif; font-size: 8px; color: #bbb; }
-.cb-content { font-size: 11.5px; line-height: 1.85; color: #444; }
-.cb-inner { max-width: 100%; columns: 1; }
+/* ============================================================
+   CHAPTER BODY — Content pages, consistent grid
+   ============================================================ */
+.chapter-body {
+  page-break-before: always;
+  padding: 52px 64px 48px 64px;
+  position: relative;
+  min-height: 100vh;
+}
+/* Left accent stripe */
+.cb-sidebar {
+  position: absolute;
+  top: 0; left: 0;
+  width: 52px; height: 100%;
+  background: #1A1A2E;
+  display: flex; flex-direction: column;
+  align-items: center;
+  padding-top: 56px;
+}
+.cb-chnum {
+  font-family: Oswald, sans-serif;
+  font-size: 14px; font-weight: 700;
+  color: #2AB9B0;
+  writing-mode: horizontal-tb;
+  margin-bottom: 12px;
+}
+.cb-chtitle {
+  font-family: Oswald, sans-serif;
+  font-size: 7px; font-weight: 500;
+  color: rgba(255,255,255,0.3);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  white-space: nowrap;
+}
+.cb-main {
+  margin-left: 52px;
+  padding: 0 0 0 28px;
+}
+.cb-head {
+  display: flex; justify-content: space-between; align-items: center;
+  padding-bottom: 14px;
+  margin-bottom: 28px;
+  border-bottom: 2px solid #2AB9B0;
+}
+.cb-label {
+  font-family: Oswald, sans-serif;
+  font-size: 10px; font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #2AB9B0;
+}
+.cb-date {
+  font-family: Inter, sans-serif;
+  font-size: 9px; color: #bbb;
+  letter-spacing: 0.5px;
+}
+.cb-content {
+  font-size: 13px;
+  line-height: 1.7;
+  color: #3a3a3a;
+  max-width: 100%;
+  orphans: 3;
+  widows: 3;
+}
+/* ── General print-layout rule ──
+   Every direct child of .cb-content gets padding-top instead of
+   margin-top. Padding survives print page-break boundaries while
+   margin collapses to zero at the top of a new page.
+   This single rule guarantees that ANY block pushed to a new page
+   by pagination automatically starts with breathing room. */
+.cb-content > * {
+  padding-top: 14px;
+}
+/* First child on the page already has the header above it */
+.cb-content > *:first-child {
+  padding-top: 0;
+}
+.cb-footer {
+  position: absolute;
+  bottom: 24px; left: 80px; right: 64px;
+  display: flex; justify-content: space-between;
+  font-family: Inter, sans-serif;
+  font-size: 7px;
+  color: #ccc;
+  letter-spacing: 0.5px;
+  border-top: 1px solid #f0f0f0;
+  padding-top: 10px;
+}
+.cb-foot-brand { text-transform: uppercase; letter-spacing: 1.5px; }
+.cb-foot-page {
+  font-family: Oswald, sans-serif;
+  font-weight: 600;
+  color: #2AB9B0;
+  font-size: 9px;
+}
 
-/* ---- HEADINGS (inside content) — stronger hierarchy ---- */
-.sh1 { font-family: Oswald, sans-serif; font-size: 18px; font-weight: 600;
-       color: #1A1A2E; margin: 26px 0 10px; text-transform: uppercase; letter-spacing: 0.5px;
-       border-left: 3px solid #2AB9B0; padding-left: 12px; }
-.sh2 { font-family: Oswald, sans-serif; font-size: 14px; font-weight: 600;
-       color: #1A1A2E; margin: 22px 0 8px; padding-bottom: 5px; border-bottom: 1px solid #e8e8e8; }
-.sh3 { font-family: Oswald, sans-serif; font-size: 11px; font-weight: 500;
-       color: #2AB9B0; margin: 16px 0 5px; text-transform: uppercase; letter-spacing: 1px; }
+/* ============================================================
+   TYPOGRAPHY — Stronger hierarchy, premium scale
+   Print pagination: headings always stay with next content
+   ============================================================ */
+/* Headings: larger padding-top overrides the general 14px rule
+   for stronger visual hierarchy separation. */
+.sh1 {
+  font-family: Oswald, sans-serif;
+  font-size: 22px; font-weight: 700;
+  color: #1A1A2E;
+  margin: 0 0 8px;
+  padding-top: 26px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  padding-left: 16px;
+  border-left: 4px solid #2AB9B0;
+  line-height: 1.25;
+  break-after: avoid;
+  page-break-after: avoid;
+}
+.sh2 {
+  font-family: Oswald, sans-serif;
+  font-size: 16px; font-weight: 600;
+  color: #1A1A2E;
+  margin: 0 0 6px;
+  padding-top: 22px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid #e0e0e0;
+  letter-spacing: 0.3px;
+  break-after: avoid;
+  page-break-after: avoid;
+}
+.sh3 {
+  font-family: Oswald, sans-serif;
+  font-size: 12px; font-weight: 600;
+  color: #2AB9B0;
+  margin: 0 0 4px;
+  /* inherits 14px from .cb-content > * */
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  break-after: avoid;
+  page-break-after: avoid;
+}
 strong { color: #1A1A2E; font-weight: 600; }
-em { color: #888; font-style: italic; }
+em { color: #777; font-style: italic; }
 
-/* ---- BULLETS — tighter, more professional ---- */
-.bul { display: flex; gap: 8px; margin: 3px 0; line-height: 1.75; font-size: 11.5px; }
-.bul-d { width: 4px; height: 4px; border-radius: 50%; background: #2AB9B0;
-         flex-shrink: 0; margin-top: 7px; }
-.bul-n { font-family: Oswald, sans-serif; font-weight: 600; color: #2AB9B0;
-         font-size: 11px; min-width: 16px; }
+/* Paragraphs */
+.para {
+  margin: 0 0 6px;
+  line-height: 1.75;
+  orphans: 3;
+  widows: 3;
+}
+
+/* ============================================================
+   BULLETS — Compact, clean, grouped for print
+   ============================================================ */
+/* Label-group: wraps a label paragraph + its bullet list so they
+   never split across pages. Inherits 14px padding-top from
+   .cb-content > * general rule; override to 18px for section weight. */
+.label-group {
+  break-inside: avoid;
+  page-break-inside: avoid;
+  padding-top: 18px;
+  margin-bottom: 4px;
+}
+/* Bullet-group: keeps bullet runs together across page breaks.
+   Inherits 14px padding-top from .cb-content > * general rule. */
+.bul-group {
+  break-inside: avoid;
+  page-break-inside: avoid;
+  /* inherits 14px from general rule — enough for standalone lists */
+  margin: 0 0 8px;
+}
+.bul {
+  display: flex; gap: 10px;
+  margin: 2px 0;
+  line-height: 1.65;
+  font-size: 13px;
+}
+.bul-d {
+  width: 5px; height: 5px;
+  border-radius: 50%;
+  background: #2AB9B0;
+  flex-shrink: 0;
+  margin-top: 8px;
+}
+.bul-n {
+  font-family: Oswald, sans-serif;
+  font-weight: 700; color: #2AB9B0;
+  font-size: 13px; min-width: 22px;
+}
 .bul-t { flex: 1; }
 
-/* ---- CALLOUT BOXES — more substantial ---- */
-.box { padding: 18px 22px; margin: 20px 0 14px; page-break-inside: avoid; }
-.box-h { font-family: Oswald, sans-serif; font-size: 10px; font-weight: 600;
-         text-transform: uppercase; letter-spacing: 2.5px; margin-bottom: 10px; }
-.box-body { font-size: 11.5px; line-height: 1.75; }
-.tk { background: linear-gradient(135deg, #f7fffe 0%, #F5F5F5 100%);
-      border-left: 3px solid #2AB9B0; border-radius: 0 4px 4px 0; }
-.tk-h { color: #2AB9B0; }
-.ra { background: #1A1A2E; border-radius: 4px; color: rgba(255,255,255,0.88); }
-.ra-h { color: #2AB9B0; }
+/* ============================================================
+   CALLOUT BOXES — Premium, high visual weight, never split.
+   The .box-wrap container provides top spacing via padding
+   (not margin), which survives print page-break push.
+   Margin collapses to zero at the top of a new print page;
+   padding does not — this gives breathing room when a box
+   gets pushed onto a fresh page by break-inside:avoid.
+   ============================================================ */
+.box-wrap {
+  padding-top: 24px;
+  margin-bottom: 14px;
+  break-inside: avoid;
+  page-break-inside: avoid;
+}
+.box {
+  padding: 24px 28px;
+  border-radius: 6px;
+  position: relative;
+}
+.box-icon {
+  position: absolute;
+  top: 22px; right: 24px;
+  font-size: 16px;
+  opacity: 0.3;
+}
+.box-h {
+  font-family: Oswald, sans-serif;
+  font-size: 12px; font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-bottom: 14px;
+  padding-bottom: 10px;
+}
+.box-body {
+  font-size: 13px;
+  line-height: 1.8;
+}
+/* Key Takeaways */
+.tk {
+  background: linear-gradient(135deg, #f0faf9 0%, #f5f7f6 100%);
+  border-left: 5px solid #2AB9B0;
+  border-top: 1px solid rgba(42,185,176,0.15);
+  border-right: 1px solid rgba(42,185,176,0.08);
+  border-bottom: 1px solid rgba(42,185,176,0.08);
+}
+.tk-h {
+  color: #2AB9B0;
+  border-bottom: 1px solid rgba(42,185,176,0.2);
+}
+/* Recommended Actions */
+.ra {
+  background: linear-gradient(135deg, #1A1A2E 0%, #252540 100%);
+  border-radius: 8px;
+  color: rgba(255,255,255,0.9);
+  border: 1px solid rgba(42,185,176,0.15);
+}
+.ra-icon { color: #2AB9B0; }
+.ra-h { color: #2AB9B0; border-bottom: 1px solid rgba(42,185,176,0.2); }
 .ra strong { color: #fff; }
 .ra .bul-d { background: #2AB9B0; }
+.ra .bul-t { color: rgba(255,255,255,0.85); }
 
-/* ---- BACK COVER ---- */
-.back-cover { page-break-before: always; height: 100vh; background: #1A1A2E;
-              display: flex; flex-direction: column; justify-content: center;
-              align-items: center; text-align: center; }
-.bc-logo { width: 180px; height: auto; margin-bottom: 44px; }
-.bc-bar { width: 100px; height: 3px; margin-bottom: 28px;
-          background: linear-gradient(90deg, #2AB9B0, #8ED16A, #F28C28, #F8CE30); }
-.bc-tag { font-family: Oswald, sans-serif; font-size: 10px; font-weight: 500;
-          text-transform: uppercase; letter-spacing: 4px; color: rgba(255,255,255,0.45); margin-bottom: 6px; }
-.bc-mot { font-size: 12px; color: rgba(255,255,255,0.25); font-style: italic; }
-.bc-url { font-family: Oswald, sans-serif; font-size: 9px; color: #2AB9B0;
-          text-transform: uppercase; letter-spacing: 3px; margin-top: 40px; }
+/* ============================================================
+   TABLES — Polished, premium
+   ============================================================ */
+.pdf-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 14px 0;
+  font-size: 11px;
+  page-break-inside: avoid;
+  break-inside: avoid;
+  border-radius: 4px;
+  overflow: hidden;
+}
+.pdf-table th {
+  background: #1A1A2E;
+  color: #fff;
+  font-family: Oswald, sans-serif;
+  font-size: 9px; font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 12px 16px;
+  text-align: left;
+}
+.pdf-table td {
+  padding: 11px 16px;
+  border-bottom: 1px solid #eee;
+  color: #444;
+  line-height: 1.65;
+}
+.pdf-table tr:nth-child(even) td { background: #fafbfc; }
+.pdf-table tr:last-child td { border-bottom: 2px solid #2AB9B0; }
+
+/* ============================================================
+   BACK COVER — Confident, branded
+   ============================================================ */
+.back-cover {
+  page-break-before: always;
+  height: 100vh;
+  background: #1A1A2E;
+  display: flex; flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+.back-cover::before {
+  content: '';
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+  width: 600px; height: 600px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(42,185,176,0.06) 0%, transparent 70%);
+}
+.bc-logo { width: 160px; height: auto; margin-bottom: 40px; position: relative; z-index: 1; }
+.bc-bar {
+  width: 120px; height: 3px; margin-bottom: 32px;
+  background: linear-gradient(90deg, #2AB9B0, #8ED16A, #F28C28, #F8CE30);
+  position: relative; z-index: 1;
+}
+.bc-tag {
+  font-family: Oswald, sans-serif;
+  font-size: 11px; font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  color: rgba(255,255,255,0.5);
+  margin-bottom: 8px;
+  position: relative; z-index: 1;
+}
+.bc-mot {
+  font-size: 15px;
+  color: rgba(255,255,255,0.3);
+  font-style: italic;
+  position: relative; z-index: 1;
+}
+.bc-url {
+  font-family: Oswald, sans-serif;
+  font-size: 10px;
+  color: #2AB9B0;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  margin-top: 48px;
+  position: relative; z-index: 1;
+}
+.bc-year {
+  font-family: Inter, sans-serif;
+  font-size: 9px;
+  color: rgba(255,255,255,0.15);
+  margin-top: 20px;
+  position: relative; z-index: 1;
+}
 </style>
 </head>
 <body>
 
 <!-- COVER -->
 <div class="cover">
-  <img src="${logoWhite}" class="cover-logo"/>
-  <div class="cover-bar"></div>
-  <p class="cover-lbl">Brand Strategy</p>
-  <p class="cover-ttl">Strategy Deck</p>
-  <p class="cover-sub">Prepared by Advertising Unplugged<br/>${dateStr}</p>
-  <div class="cover-ft">
-    <span>Confidential &mdash; ${yearStr}</span>
-    <span>advertisingunplugged.com</span>
+  <div class="cover-top">
+    <img src="${logoWhite}" class="cover-logo"/>
+  </div>
+  <div class="cover-center">
+    <div class="cover-bar"></div>
+    <p class="cover-lbl">Brand Strategy</p>
+    <h1 class="cover-ttl">Strategy<br/><span class="cover-ttl-accent">Deck</span></h1>
+    <p class="cover-sub">A comprehensive brand strategy prepared exclusively for your business by Advertising Unplugged.</p>
+  </div>
+  <div class="cover-bottom">
+    <div class="cover-gradient-bar"></div>
+    <div class="cover-ft">
+      <span>Confidential &mdash; ${yearStr}</span>
+      <span class="cover-ft-date">${dateStr}</span>
+      <span>advertisingunplugged.com</span>
+    </div>
   </div>
 </div>
 
 <!-- TABLE OF CONTENTS -->
 <div class="toc-page">
-  <p class="toc-label">Table of Contents</p>
-  ${tocHtml}
+  <div class="toc-header">
+    <p class="toc-supra">Overview</p>
+    <h2 class="toc-title">Contents</h2>
+  </div>
+  <div class="toc-list">
+    ${tocHtml}
+  </div>
 </div>
 
 <!-- ALL ${totalSections} CHAPTERS -->
@@ -448,14 +1098,55 @@ ${chaptersHtml}
   <p class="bc-tag">Advertising Unplugged</p>
   <p class="bc-mot">Clarity Over Noise. Purpose Beyond Profit.</p>
   <p class="bc-url">advertisingunplugged.com</p>
+  <p class="bc-year">&copy; ${yearStr} All rights reserved.</p>
 </div>
 
 </body>
 </html>`);
 
     w.document.close();
-    // Wait for Google Fonts + logo images to fully load
-    setTimeout(() => { w.print(); setExporting(false); }, 3000);
+
+    // Wait for all resources (fonts + images) before printing
+    const waitForResources = () => {
+      const images = Array.from(w.document.querySelectorAll('img'));
+      const imagePromises = images.map(img => {
+        if (img.complete) return Promise.resolve();
+        return new Promise<void>((resolve) => {
+          img.onload = () => resolve();
+          img.onerror = () => resolve(); // continue even if image fails
+        });
+      });
+
+      const fontsReady = w.document.fonts ? w.document.fonts.ready : Promise.resolve();
+
+      Promise.all([fontsReady, ...imagePromises])
+        .then(() => {
+          // Extra safety delay for rendering
+          setTimeout(() => {
+            w.print();
+            setExporting(false);
+          }, 500);
+        })
+        .catch(() => {
+          // Fallback: print anyway after 5s
+          setTimeout(() => {
+            w.print();
+            setExporting(false);
+          }, 5000);
+        });
+    };
+
+    // Wait for window to finish loading the document
+    if (w.document.readyState === 'complete') {
+      waitForResources();
+    } else {
+      w.addEventListener('load', waitForResources);
+      // Safety timeout in case load never fires
+      setTimeout(() => {
+        w.print();
+        setExporting(false);
+      }, 10000);
+    }
   };
 
   if (loading) {
@@ -591,14 +1282,13 @@ ${chaptersHtml}
                 <Share2 className="h-3.5 w-3.5" />
                 <span className="hidden sm:inline">Share</span>
               </button>
-              <button
-                onClick={handleExportPDF}
-                disabled={exporting}
-                className="flex items-center gap-1.5 rounded-lg border border-[var(--navy,#1A1A2E)]/10 px-3 py-1.5 text-xs font-medium text-[var(--navy,#1A1A2E)]/70 transition-colors hover:bg-[var(--navy,#1A1A2E)]/[0.03] disabled:opacity-50"
+              <Link
+                href="/dashboard"
+                className="flex items-center gap-1.5 rounded-lg border border-[var(--navy,#1A1A2E)]/10 px-3 py-1.5 text-xs font-medium text-[var(--navy,#1A1A2E)]/70 transition-colors hover:bg-[var(--navy,#1A1A2E)]/[0.03]"
               >
                 <Download className="h-3.5 w-3.5" />
-                <span className="hidden sm:inline">Download</span>
-              </button>
+                <span className="hidden sm:inline">Dashboard</span>
+              </Link>
             </div>
           </div>
 

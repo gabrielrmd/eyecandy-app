@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
-import Anthropic from "@anthropic-ai/sdk";
 import { createClient } from "@/lib/supabase/server";
+import { generateCompletion, validateProviderConfig } from "@/lib/ai/provider";
 
 export async function POST(request: NextRequest) {
   try {
@@ -13,11 +13,11 @@ export async function POST(request: NextRequest) {
       return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
     }
 
-    const apiKey = process.env.ANTHROPIC_API_KEY;
-    if (!apiKey) {
-      console.error("ANTHROPIC_API_KEY is not configured");
+    const providerCheck = validateProviderConfig();
+    if (!providerCheck.valid) {
+      console.error(providerCheck.error);
       return NextResponse.json(
-        { error: "AI service is not configured. Please set ANTHROPIC_API_KEY." },
+        { error: `AI service is not configured. ${providerCheck.error}` },
         { status: 503 }
       );
     }
@@ -31,8 +31,6 @@ export async function POST(request: NextRequest) {
         { status: 400 }
       );
     }
-
-    const anthropic = new Anthropic({ apiKey });
 
     const prompt = `You are a brand strategy consultant helping a user fill out a strategy questionnaire.
 
@@ -58,32 +56,38 @@ Respond ONLY with valid JSON in this exact format (no markdown, no code fences):
 
 Keep each suggestion concise (1-3 sentences for the text). The relevance_score should be between 0 and 1.`;
 
-    const message = await anthropic.messages.create({
-      model: "claude-sonnet-4-20250514",
-      max_tokens: 1024,
+    const result = await generateCompletion({
+      maxTokens: 1024,
       messages: [{ role: "user", content: prompt }],
     });
 
-    const textBlock = message.content.find((block) => block.type === "text");
-    if (!textBlock || textBlock.type !== "text") {
+    if (!result.text) {
       return NextResponse.json(
         { error: "No text response from AI" },
         { status: 500 }
       );
     }
 
-    const parsed = JSON.parse(textBlock.text);
-    return NextResponse.json(parsed);
-  } catch (err) {
-    console.error("AI suggest error:", err);
-
-    if (err instanceof SyntaxError) {
+    let parsed;
+    try {
+      let jsonText = result.text.trim();
+      if (jsonText.includes("```")) {
+        const match = jsonText.match(/```(?:json)?\s*([\s\S]*?)```/);
+        if (match) jsonText = match[1].trim();
+      }
+      const braceIdx = jsonText.indexOf("{");
+      if (braceIdx > 0) jsonText = jsonText.slice(braceIdx);
+      parsed = JSON.parse(jsonText);
+    } catch {
+      console.error("Failed to parse AI suggest response:", result.text.slice(0, 200));
       return NextResponse.json(
-        { error: "Failed to parse AI response" },
+        { error: "Failed to parse AI response", suggestions: [] },
         { status: 500 }
       );
     }
-
+    return NextResponse.json(parsed);
+  } catch (err) {
+    console.error("AI suggest error:", err);
     return NextResponse.json(
       { error: "Internal server error" },
       { status: 500 }
