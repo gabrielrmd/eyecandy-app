@@ -13,6 +13,9 @@ import {
   ChevronLeft,
   ChevronRight,
   LogOut,
+  Building2,
+  Mail,
+  BarChart3,
 } from "lucide-react";
 import { useState } from "react";
 import { cn } from "@/lib/utils";
@@ -20,8 +23,11 @@ import { createClient } from "@/lib/supabase/client";
 
 const sidebarLinks = [
   { href: "/dashboard", label: "Dashboard", icon: LayoutDashboard },
+  { href: "/companies", label: "Companies", icon: Building2 },
   { href: "/templates", label: "Templates", icon: LayoutTemplate },
   { href: "/strategy/new", label: "Strategy Builder", icon: Brain },
+  { href: "/marketing-email", label: "Marketing Email", icon: Mail },
+  { href: "/analytics", label: "Analytics", icon: BarChart3 },
   { href: "/challenge", label: "Growth Challenge", icon: Trophy },
   { href: "/community", label: "Community", icon: Users },
   { href: "/account", label: "Settings", icon: Settings },
